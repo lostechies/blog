@@ -1,0 +1,27 @@
+---
+---
+
+{
+    "authors": [
+
+  {% assign filtered_collections = ''|split:''%}
+  {% assign unfiltered_collections = site.collections %}
+  {% for c in unfiltered_collections %}
+  	{% if c.label != "posts" %}
+  		{% assign filtered_collections = filtered_collections|push:c%}
+  	{% endif %}
+  {% endfor %}
+
+  {% for collection in filtered_collections %}
+    {% assign label = collection.label %}
+    {
+      "url": "{{site.baseurl}}/{{label}}",
+      "name": "{{collection.author}}",
+      "active": "{{collection.active}}"
+    } {% if forloop.last %}{% else %},{% endif %} 
+  {% endfor %}
+
+    ]
+}
+
+

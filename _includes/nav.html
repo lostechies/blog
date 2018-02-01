@@ -1,0 +1,35 @@
+    <nav class="nav has-shadow">
+
+      <div class="nav-left">
+
+        <a href="{{ site.baseurl }}/" class="nav-item">
+          <span class="icon">
+            <i class="fa fa-home" aria-hidden="true" title="Homepage"></i>
+          </span>
+        </a>
+
+        <div class="nav-item" id="searchFieldNav">
+          <div class="field has-addons">
+            <p class="control">
+              <input class="input is-small" type="text" placeholder="Find an article" id="search-text">
+            </p>
+            <p class="control">
+              <a class="button is-dark is-small" onclick="searchHandler();">
+                Search
+              </a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="nav-right nav-menu" id='nav-menu'>
+        <a href="{{ site.baseurl }}/about" class="nav-item">About</a>
+        <a href="{{ site.feed }}" class="nav-item"><img src="{{ site.baseurl }}/assets/images/rss.png"/></a>
+      </div>
+
+      <span class="nav-toggle" id="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+    </nav>

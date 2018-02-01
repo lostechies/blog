@@ -1,0 +1,97 @@
+---
+id: 72
+title: How To Get Started With Kanban In Software Development
+date: 2009-08-05T21:41:28+00:00
+author: Derick Bailey
+layout: post
+guid: /blogs/derickbailey/archive/2009/08/05/how-to-get-started-with-kanban-in-software-development.aspx
+dsq_thread_id:
+  - "262068277"
+categories:
+  - Agile
+  - Kanban
+  - Lean Systems
+  - Management
+  - Productivity
+  - Quality
+  - Retrospectives
+  - Throughput
+  - Workflow
+---
+There’s a lot of great talk around the inter-weber-net-o-sphere on why Kanban works in software development, how to do specific details of Kanban, how to effectively talk about it, and other such subjects. If you’re interested in a great set of resources surrounding many of these subjects, I would highly recommend that you check out the [Resources page at the Limited WIP Society](http://www.limitedwipsociety.org/?page_id=12). One thing I’m not seeing a lot of, though, is how to get started with Kanban in software development. 
+
+Not quite a year ago, I did talk about how to get started, to a certain extent with my [Kanban In Software Development](http://www.lostechies.com/blogs/derickbailey/archive/2008/11/19/adventures-in-lean.aspx) series. However, there are a lot of lessons learned in my head since I wrote that original series. One of the realizations that I’ve had is how very specific my series was to the work I was doing back then. The processes that I described, the board that I created in the posts, and the results and conclusions that I came to were very specific to the project I was working on. I’ve also learned more about what it takes to convert to a Kanban system and how we can introduce the core concepts of Kanban into our existing system, since then. 
+
+### The Basic Steps
+
+Given these lessons learned and what I think is a hole in the existing information on Kanban, I wanted to share my current understanding of how to get started with Kanban in your workplace. I’ve boiled my current understanding down to four basic steps to work through:
+
+  1. Define and visualize your process
+  2. Limit work in process (WIP)
+  3. Pull, don’t push
+  4. Monitor and Improve
+
+The implementation details of these steps are far more than just a simple set of rules or additional steps, though. They require deep understanding of your teams’ process, the problems you encounter, and how to correctly solve problems as you encounter them. 
+
+### Step 1: Define And Visualize <u>Your</u> Process
+
+If you’re an agilist of any variety, you are probably familiar with the idea of task boards. Call it what you want – a task board, a scrum board, or anything else – this visual management tool has quickly become a de-facto standard among a growing number of teams around the world. There’s good reason for this, too. Visualizing your process and tracking work through that visual process has a tremendous impact on a number of aspects of the team (I’m not going to go into detail about those impacts, here, though).
+
+A Kanban system wants to start with this same basic idea – you need to define and visualize your current process. There are a lot of great resources on how to define your current process, to facilitate the creation of this board. You can use value stream mapping, a state chart in UML, a workflow diagram, or any other type of process definition. I’ve even helped my current team to define its process by creating the task board, directly. We got together and discussed the various steps that our development process entails. We discussed how we take requested features and functionality and break them down, process them, and roll them back together for deliveries. By making this knowledge explicit, we modeled our development process via the task board. 
+
+You may want to model the steps at a level that covers the majority of the work your team does, without getting too far down into the weeds. Or, you may want to model at such a high level, that it doesn’t matter what the real process is. In this case, though, you’re probably going to want to have some break-out model to cover the individual processes that various types of work flow through. Whether you model high level, mid-range, low-level, or any combination of, the point is to start by understanding what steps are in your process. You want to create transparency in the entire system of software development. You want to see what is waiting to be started, all the way down to what is [done, done, done](http://codebetter.com/blogs/jeremy.miller/archive/2006/04/13/142800.aspx)… [done](http://jamesshore.com/Agile-Book/done_done.html). 
+
+So what’s the big deal about this? [Isn’t this just a task board](http://availagility.wordpress.com/2009/05/26/isnt-kanban-just-a-task-board/), like any other task board? Yes, it is just a task board. But that’s the point. This is your process, as it currently stands, being modeled into the task board. [David Anderson](http://agilemanagement.net/) made this point very clear, recently:
+
+> “_Kanban is about the notion that ‘your system is truly different’ and ‘we will not impose a process upon you.’_”   
+> &#160;&#160;&#160;&#160;&#160; – David Anderson, via the [Kanbandev](http://finance.groups.yahoo.com/group/kanbandev/) list.
+
+Here’s the big, dark, skeleton-in-the-closet, dirty little secret behind Kanban (I expect to get a bunch of uber-agilists all riled up with this one, and my coworkers will rightfully tell you that this would have riled me up a year ago): **you don’t have to change your process to start using Kanban**. Are you doing Scrum? Great! Model your process. Are you doing RUP? Great! Model your process. Are you doing Crystal or XP or some flavored mix drink of a bunch of those? Great! Model your process. In fact, you can still do waterfall if you want to. Just model <u>your</u> process as it currently stands. Where you start has almost no bearing on whether or not you can use Kanban.
+
+Once you have your current process modeled into a visual task board, get all of your current work in process (WIP) placed into the correct location on the board and learn how to keep this information up to date and accurate. In the process of visualizing the WIP in your system, you will likely find some points in the process where a task is ready to be handed off to the next step, but the next step is not ready to receive it. For example, if you have a group of developers writing code and they are ready to hand that working set of code over to a test engineer for testing, the tester may not be ready to accept it. So what do you do with the task card that is ready to be handed over, but not ready to be accepted? This is where you would introduce the notion of a [queue](http://en.wikipedia.org/wiki/Queueing_theory) into your process. Your task card that is ready to move to the next step will be placed into a “Ready To Be Moved To The Next Step” column, in between its current step and the next step in the process. This is commonly called a “Done” queue (not to be confused with “Done, Done”, though). I prefer to name my queues based on what they are waiting to move into. For example, “Ready for QA”, “Ready for UAT”, etc. But, that’s a matter of personal and team choice, and not technical need.
+
+### Step 2: Limit Work In Process (WIP)
+
+Think back to the last time you were overworked. That must have been, what… 10 minutes ago? Seriously, though &#8211; how often do we as professional workers and thinkers end up with more work than we can really handle? We start working on one thing, we get interrupted by another, which causes us to focus on a third for a while, which needs to be reported to the fourth, which leads us to the end of the day and we never go the one thing done that we planned to do that day. Now think about the last time you were able to focus on one specific task for an extended period of time. How did you feel at the end of that task? If the task at hand was correctly balanced with your knowledge and experience, you probably fell into [a state of flow](http://en.wikipedia.org/wiki/Flow_(psychology)) – being “in the zone” – and lost track of time. You probably ended up getting a good amount of work done, too, if you didn’t complete the task out-right. And it feels to get stuff done. You feel productive. You are happy. You can show your work to whoever was asking for it, and know that you accomplished something that day.
+
+Take a look at your task board, again. Examine all of the WIP in the system and pay special attention to those tasks that are currently sitting in queues. How long ago did you or your coworkers complete those tasks? Have you received feedback on those tasks, yet? Do you know if the task was done correctly or if there are issues that need to be corrected? And what happens when the next step in the process (the tester) finally gets around to working on those items? If the tests find several bugs in several tickets, you are likely going to end up with more work than time, once again. Worse yet, if the queue of items to be tested is large enough, you may have [built more functionality on top of broken or bad functionality](http://www.derickbailey.com/2008/05/09/JidokaIfItsBrokeFixItNow.aspx). 
+
+To reduce the problems associated with a large amount of WIP, we want to explicitly limit the WIP in our system. Scrum and XP tend to do this by limiting the amount of work to a sprint or iteration. Still other methods use different mechanisms, though they tend to all be based on some factor of time and scheduling. The real difference between these methods’ limiting WIP and a Kanban limitation of WIP, is that we don’t want to limit the WIP based on some arbitrary schedule. Instead, we want to limit the WIP based on the capacity of the system to process the work in question. Kanban says we should not schedule work, but rather, we should authorize work to be done by letting the resources of an individual step request more work to do when they have the capacity to process it.
+
+To facilitate the authorization of work being done based on capacity, we need to set capacity limits – WIP limits. We may want to limit the total amount of work that is in process for a given step and it’s corresponding “done” queue, if it has one. For example, we may want to limit each developer on the team to 1 task at a time. If we have 3 developers on the team our “In Development” task + “Done” queue would have a WIP limit of 3. This means that the total number of task cards allowed in the Development and Done column for Development, is 3.
+
+Limiting WIP by individual step is only one for of WIP limits, though. We can limit the WIP of the system as a whole, and or segment the process into groups of steps and limit work by those groups. There are still other options for limiting WIP, including the notion of Constant WIP ([CONWIP](http://leansoftwareengineering.com/2009/06/28/conwip-systems/)) in a system.
+
+How you decide what the WIP limits are is a much more involved discussion than I want to get into right now. There are [a good number of ways to determine where to start your WIP limits](http://leansoftwareengineering.com/2009/04/09/three-ways-to-go-about-queue-sizing/) (more than just what that post talks about, really). Getting the WIP limit right is not important, though. Just pick a place to start and go from there. What is important is understanding how to monitor and improve your system, and adjust the WIP limits accordingly.
+
+### Step 3: Pull, Don’t Push
+
+This is perhaps the easiest step in the journey. Once you have WIP limits set for your system, I think you will find that the mechanic of “pull” are a very natural extension to your system and the interactions between the steps in that system.
+
+Consider the 3 WIP limit of our developers, and a 3 WIP limit of our testers. If the testers currently have 3 items in process – that is, they are currently testing three items – then they are not allowed to bring any more work from the development “done” queue into the test process. Lets also say that the developers have three items, currently. Only lets say that 2 of them are being worked on and one of them is in the “done” queue. The third developer, who’s item is currently sitting in the “done” queue is not allowed to do any additional work at the moment. The development step has reached it’s capacity. 
+
+At this point, the testers and the developers are waiting for capacity to become available. When the process that is downstream from the test step has capacity available, they will be able to pull work out of the “done testing” queue. When the downstream process pull the work into their step, they send a signal back to the testers to say “i pulled this item. please work on the next item available”. This [signal to do work](http://www.lostechies.com/blogs/derickbailey/archive/2009/06/18/a-kanban-is-just-a-signal-to-do-work.aspx) is a kanban. 
+
+Depending on the needs of the team, the work being done, and how things are organized, you may want to model the kanban as an explicit signal, such as a kanban card that is sent back upstream to the people working the previous step. However, there is no need to have an explicit kanban like this. The signal to do work may simply be the absence of work, or an empty slot where a task card is located.
+
+When we look at pull-based, signal enabled system as a whole, we no longer think about scheduling work. We no longer push work through the steps in the system. Rather, we start pulling work through the system, starting with the right hand side of the system. The customer of the system says “give me the product you made”, which causes capacity to be available in the last step in the system. This causes them to pull the next available work item from the “done” queue of the previous step, which frees up capacity for that step. This process of pulling work through the system is then repeated all the way up the chain of steps, until we finally reach the source of raw material.
+
+As a side note, one of the more interesting points in pull systems, to me, is the realization that a customer of a software development team is also the supplier of raw material to that software developer team. Think about it for a second – the customer that you are delivering software to is the same customer that told you what the software should do. They have provided the raw material – the request for features and functionality – and they have received the finished software.
+
+### Step 4: Monitor And Improve
+
+Monitor and Improve, Inspect and Adapt, Plan-Do-Check-Act, Retrospective, Kaizen (continuous improvement), or whatever… call it what you want; the point is the same. Pay attention to the work that is flowing through your system – or more importantly, the work that is <u>not</u> flowing – and fix the problems in the system. This is perhaps the single most under-utilized principle in just about every agile methodology in existence. So many teams and managers are begging to be told what to do and how to do it, so that they don’t have to think and don’t have to take responsibility for the process and its problems. I’ve got bad news for you, if you are one of those people – you have to think through the problems to solve them.
+
+Remember that 3 WIP limit we set for the developers because we only have 3 developers on the teams? What happens when one of those developers is stuck, waiting for a question to be answered, or an architectural component to be finished, or has a problem that they can’t resolve until someone else is available? That’s called a blocking issue and it should trigger a [stop-the-line mentality in your team](http://en.wikipedia.org/wiki/Andon_(manufacturing)). What is the problem? How can we solve it and get this person back to work, so that we don’t crash the entire development process and bring the system to a halt? What is the root cause of the problem that they had, and how can we prevent it from happening again? At times you will run into a situation that is completely out of your control. There may be some external system or constraint that you have no influence over, causing work to be blocked from making progress in your system. When this happens and if you truly cannot do anything to prevent it in the future, you may need to consider increasing the WIP limit for the step that is currently blocked. 
+
+Let’s assume that the development team has no external constraints and they are all top notch developers, producing no defects. Let’s also assume that the test engineers are very efficient at what they do, and can crank through 2 weeks of development effort in about 2 hours, with 100% test coverage of the new code and regression tests. What happens when the testers on the team are suddenly starving for work, because the development team can’t keep up? In this situation, you may need to adjust your staffing levels. If you have too many testers, have some of them go do something else. If you don’t have enough developers, see if you can get some more. Perhaps you can cross-train the testers to help out other areas of the system. There are a number of things that can be done to help alleviate this starvation. Find the options that are appropriate for your team and your circumstances.
+
+Now let’s flip that scenario on its head. Assume the developers are cranking out high quality code in record time, and the testers are unable to keep up. If we have WIP limits for the developers and they are not allowed to produce any more code because of the limits, they may just sit around and do nothing, waiting for the signal to do more work. We don’t want this, just as we don’t want the testers sitting around doing nothing. Rather, we should take the same approach for the developers that we looked at for the testers. Do we need to hire more testers? Do we need to move developers on to something else? Can we cross-train the developers to help out with the testing or other areas of the system? Once again, the specific actions that you take will need to be determined by your team and your circumstances. 
+
+### Wrapping It Up
+
+I hope that this explanation and list of four basic steps will help to inspire your journey down the path of Kanban. Please don’t think that this is an exhaustive discussion of how to run a complete Kanban system, though. There are many other factors, many fine points to consider, many scenarios and situations to discover that will require additional research and understanding. 
+
+For example, there are still more issues that will need to be dealt with in your system. You will run into situations that no one on your team has thought about before, and you will need to respond to them appropriately. There are also a number of other factors and improvement techniques that need to be considered. What happens if we remove a kanban card from the system, and there-by lower the WIP for the step that it came from? What issues are we going to run into, and how can we solve them so that we can continue to improve? 
+
+The goal of the Kanban system, and monitoring and improving the process, should not be to remove kanban or just fix problems, as an end in themselves. The goal should be the flow of work through the process, to improve the profitability of the process. We want to ensure that work is being done as quickly as possible, as accurately as possible, and for the lowest possible cost without sacrificing quality.

@@ -1,0 +1,24 @@
+---
+permalink: /scottgillenwater/data/recentPosts.json
+index: true
+---
+
+{
+  "posts":  [
+    {% assign author_posts = ''|split:''%}
+    {% assign unfiltered_posts = site[page.collection] %}
+    {% for post in unfiltered_posts %}
+      {% if post.index != true %}
+        {% assign author_posts = author_posts|push:post%}
+      {% endif %}
+    {% endfor %}
+    {% assign posts = author_posts | sort: 'date' | reverse %}
+    {% for post in posts limit: 10 %}
+    {
+      "title": "{{post.title}}",
+      "url": "{{site.baseurl}}{{post.url}}"
+    } {% if forloop.last %}{% else %},{% endif %} 
+
+    {% endfor %}
+  ]
+}

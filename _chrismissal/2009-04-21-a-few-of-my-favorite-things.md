@@ -1,0 +1,30 @@
+---
+id: 3349
+title: A Few of My Favorite Things
+date: 2009-04-21T04:02:00+00:00
+author: Chris Missal
+layout: post
+guid: /blogs/chrismissal/archive/2009/04/21/a-few-of-my-favorite-things.aspx
+dsq_thread_id:
+  - "262174837"
+categories:
+  - Favorites
+---
+<div class="wlWriterEditableSmartContent" style="padding-right: 0px;padding-left: 0px;float: right;padding-bottom: 0px;margin: 0px;padding-top: 0px">
+  <a href="//lostechies.com/chrismissal/files/2011/03/dog_192182_11118x6_2C225E35.jpg" rel="thumbnail"><img src="//lostechies.com/chrismissal/files/2011/03/dog_192182_1111_6E28CD76.png" border="0" width="345" height="278" /></a>
+</div>
+
+With almost a third of the year over already, I&rsquo;m far behind my goal to have <a title="Chris' Year in Review 2008" href="http://dumpsterdoggy.com/articles/?chris-year-in-review-2008" target="_blank">72 blog posts in 2009</a>. I have, however, completed one presentation at <a title="CRIneta" href="http://crineta.org" target="_blank">CRIneta</a>, and <a title="Beginner's Guide to Unit Tests" href="http://iowacodecamp.com/Sessions.aspx" target="_blank">my co-presentation</a> with <a title="Tim Barcz" href="http://devlicio.us/blogs/tim_barcz/" target="_blank">Tim Barcz</a> for the <a title="Iowa Code Camp" href="http://iowacodecamp.com" target="_blank">Iowa Code Camp</a> in less than two weeks will fulfill my goal of two talks/presentations this year. I&rsquo;ve had a single (small) commit to an <a title="Docu" href="http://docu.jagregory.com/" target="_blank">open source project</a>, which completes half of that bullet point. Overall, I&rsquo;m happy with what I have completed, but there&rsquo;s always room for improvement.
+
+Not to make excuses, but here are some of the things I &ldquo;blame&rdquo; for my lack of posts lately. Some, more than others, are taking up a lot of my time. The ones that haven&rsquo;t taken up lots of time are here because I want to share them with you.
+
+  1. <a title="Trac" href="http://trac.edgewall.org/" target="_blank"><b>Trac</b></a> &#8211; Trac is an excellent, free, bug tracking solution that integrates with <a title="Subversion" href="http://subversion.tigris.org/" target="_blank">Subversion</a>. Initially I had some learning to do before setting this up. I&rsquo;m not familiar with <a title="Python" href="http://www.python.org/" target="_blank">Python</a> and running under <a title="Apache Http Server Project" href="http://httpd.apache.org/download.cgi" target="_blank">Apache</a> was foreign since I&rsquo;ve barely used it. I must say, the tools around this really intrigue me and I&rsquo;m a little less scared of the command line than I was prior. 
+  2. <a title="jQuery Tooltip Plugin" href="http://bassistance.de/jquery-plugins/jquery-plugin-tooltip/" target="_blank"><b>jQuery Tooltip Plugin</b></a> **&ndash;** This little gem was exactly what I was looking for. This only re-iterates my notion that if there is something you want to do with <a title="jQuery" href="http://jquery.com" target="_blank">jQuery</a> that isn&rsquo;t in the core library, somebody has already written a nice plugin to do it for you. 
+  3. <a href="/blogs/jimmy_bogard/default.aspx" target="_blank"><b>Jimmy&rsquo;s</b></a> ****<a href="http://automapper.codeplex.com/" target="_blank"><b>AutoMapper</b></a> &ndash; I haven&rsquo;t spent loads of time looking at what I can do with this, but I like what I&rsquo;ve seen so far. This is about to fall into my tool belt. 
+  4. <a href="http://en.wikipedia.org/wiki/Scrum_(development)" target="_blank"><b>Scrum</b></a> &ndash; I&rsquo;ve been asking many questions about Scrum. I&rsquo;ve known about it for sometime now, but haven&rsquo;t been able to use it with a decent sized team, on a decent sized project, until recently. Thanks to all the Los Techies guys and anybody else who has helped make the transition go a bit more smoothly by answering my questions. Also, <a title="Scrum in Under 10 Minutes" href="http://tinyurl.com/ScrumIn10Minutes" target="_blank">those who helped by conveying</a> the idea to others in the company. 
+  5. <a title="DimeCasts.Net" href="http://dimecasts.net" target="_blank"><b>DimeCasts.net</b></a> **&ndash;** I like to learn by reading, writing, and looking at code and <a href="http://devlicious.com/blogs/derik_whittaker/" target="_blank">Derik</a> and several others have helped provide some excellent topics. I actually get so excited I sometimes stop what I&rsquo;m doing when a new one shows up in <a href="http://www.google.com/reader/shared/00195898312361605317" target="_blank">my feed</a>. 
+  6. <a href="http://www.thedevcommunity.org/codecamps/manifesto.aspx" target="_blank"><b>Code Camps</b></a> &#8211; As I write this, the <a href="http://iowacodecamp.com" target="_blank">Iowa Code Camp</a> is sneaking up on me and the <a href="http://chicagocodecamp.com/" target="_blank">Chicago Code Camp</a> is right around the corner. As I mentioned above, I&rsquo;ll be presenting at Iowa Code Camp, which is being held in Cedar Rapids, Iowa. I don&rsquo;t even have to leave town! 
+  7. **Developer Book Clubs** &ndash; The third meeting of the <a title="Cedar Rapids Developer Book Club" href="http://bookclub.crineta.org" target="_blank">Cedar Rapids Developer Book Club</a> meets tomorrow night. 
+  8. <a href="http://github.com" target="_blank"><b>GitHub</b></a> &ndash; I created an account recently so I can take part in some open source projects that are of interest to me. Also, it&rsquo;s a good excuse to get <a href="http://twitter.com/ChrisMissal/status/1567452114" target="_blank">some practice using Git</a>. 
+  9. <a title="Microsoft Office Communicator 2007" href="http://www.microsoft.com/uc/products/oc2007.mspx" target="_blank"><b>Microsoft Office Communicator 2007</b></a> &ndash; At work, this has replaced Groupwise Messenger and made the lives easier of many people. Being able to share my desktop quickly through a chat client with an application IT installed for me is a nice bonus. 
+ 10. **Disc Golf** &ndash; I know it has nothing to do with computers, development, software or tech gadgets, but I had to throw it in there.

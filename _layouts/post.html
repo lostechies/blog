@@ -1,0 +1,56 @@
+---
+layout: author_default
+---
+
+<div class="box">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <span class="post-meta">{{ page.date | date: "%-d %B, %Y. It was a %A." }} <a style="color:grey" href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a></span><hr/>
+
+    <span class="post-text">{{ content }}</span>
+</div>
+
+<!-- next and previous -->
+<div style="margin-top:15px; margin-bottom:10px">
+  {%if page.previous%}
+  <span class="next">
+    ←
+    <a href="{{page.previous.url}}">
+      {{page.previous.title}}
+    </a>
+  </span>
+  {%endif%}
+  {%if page.next and page.next.index != true %}
+  <div style="float:right">
+  <span class="prev" >
+    <a href="{{page.next.url}}">
+      {{page.next.title}}
+    </a>
+    →
+  </span>
+  </div>
+  {%endif%}
+</div>
+
+<!--<div class="box">-->
+    <!-- google ads code box -->
+<!--</div>-->
+
+{% assign col = site.collections | where: 'label', page.collection | first%}
+{% if col.disqus.active == true %}
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    {% include JB/is_production %}
+    {% if is_production == false %}var disqus_developer = 1;{% endif %}
+    var disqus_shortname = '{{ col.disqus.short_name }}'; // required: replace example with your forum shortname
+    {% if page.wordpress_id %}var disqus_identifier = '{{page.wordpress_id}} {{site.production_url}}/?p={{page.wordpress_id}}';{% endif %}
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}

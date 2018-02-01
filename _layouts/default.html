@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+
+<section>
+  <div>
+    <div class="container" style="margin-top:31px;">
+        <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/assets/images/lostechies_logo.png"/></a>
+    </div>
+  </div>
+</section>
+
+<div class="main-container" style="margin-top:15px;">
+  <div class="tile is-ancestor is-vertical">
+
+    {% include nav.html %}
+
+    <div class="tile is-parent">
+      <div class="tile is-8 is-child main">
+
+        {{ content }}
+
+      </div>
+
+      <div class="tile is-4 is-child">
+        <div class="tile is-parent is-vertical sidebar">
+
+          <div class="tile is-child widget">
+
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title nice-title">
+                  Recent Posts
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content nice-text">
+                  <ul id="recentPosts" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {% include authors.html %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
+
+<!-- js -->
+<script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+<script src="{{ site.baseurl }}/assets/js/typewriter.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+
+<section>
+  <div>
+    <div class="container" style="margin-top:31px;">
+        <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/assets/images/lostechies_logo.png"/></a>
+    </div>
+  </div>
+</section>
+
+<div class="main-container" style="margin-top:15px;">
+  <div class="tile is-ancestor is-vertical">
+
+
+    <nav class="nav has-shadow">
+
+      <div class="nav-left">
+
+        <a href="{{ site.baseurl }}/" class="nav-item">
+          <span class="icon">
+            <i class="fa fa-home" aria-hidden="true" title="Homepage"></i>
+          </span>
+        </a>
+
+        <div class="nav-item" id="searchFieldNav">
+          <div class="field has-addons">
+            <p class="control">
+              <input class="input is-small" type="text" placeholder="Find an article" id="search-text">
+            </p>
+            <p class="control">
+              <a class="button is-dark is-small" onclick="searchHandler();">
+                Search
+              </a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="nav-right nav-menu" id='nav-menu'>
+        <a href="{{ site.baseurl }}/{{page.collection}}/archive" class="nav-item">Archive</a>
+        <a href="{{ site.baseurl }}/{{page.collection}}/tags" class="nav-item">Tags</a>
+        <a href="{{ site.baseurl }}/about" class="nav-item">About</a>
+        <a href="{{ site.feed }}" class="nav-item"><img src="{{ site.baseurl }}/assets/images/rss.png"/></a>
+      </div>
+
+      <span class="nav-toggle" id="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+    </nav>
+
+    <div class="tile is-parent">
+      <div class="tile is-8 is-child main">
+
+        {{ content }}
+
+      </div>
+
+      <div class="tile is-4 is-child">
+        <div class="tile is-parent is-vertical sidebar">
+
+          <div class="tile is-child widget">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title nice-title">
+                  Recent Author Posts
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content nice-text">
+                  <ul id="recentAuthorPosts" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tile is-child widget">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title nice-title">
+                  Recent Site Posts
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content nice-text">
+                  <ul id="recentPosts" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {% include authors.html %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
+
+<!-- js -->
+<script type="text/javascript">
+    var page_collection = "{{page.collection}}";
+</script>
+<script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+<script src="{{ site.baseurl }}/assets/js/typewriter.js"></script>
+</body>
+</html>
+

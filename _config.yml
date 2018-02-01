@@ -1,0 +1,270 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Los Techies
+tagline: 
+email: admin@lostechies.com
+description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://lostechies.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+feed: "http://feeds.feedburner.com/LosTechies"
+twitter_username: lostechies
+github_username:  lostechies
+#permalink: /:collection/:year/:month/:day/:title/
+
+# Only supported by > Jekyll 3.7.0
+#collections_dir: posts
+
+collections:
+  andrewsiemer:
+    active: true
+    author: "Andrew Siemer"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  bradcarleton:
+    active: false
+    author: "Brad Carleton"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  chadmyers:
+    active: true
+    author: "Chad Myers"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  chrismissal:
+    active: true
+    author: "Chris Missal"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  chrispatterson:
+    active: true
+    author: "Chris Patterson"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  christaylor:
+    active: false
+    author: "Chris Taylor"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  colinjack:
+    active: false
+    author: "Colin Jack"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  colinramsay:
+    active: false
+    author: "Colin Ramsay"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  derekgreer:
+    active: true
+    author: "Derek Greer"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  derickbailey:
+    active: false
+    author: "Derick Bailey"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+    disqus:
+      short_name: "derickbailey-lostechies"
+  ericanderson:
+    active: true
+    author: "Eric Anderson"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  erichexter:
+    active: true
+    author: "Eric Hexter"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  evanhoff:
+    active: false
+    author: "Evan Hoff"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  gabrielschenker:
+    active: true
+    author: "Gabriel Schenker"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  gregorylong:
+    active: true
+    author: "Gregory Long"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  hugobonacci:
+    active: true
+    author: "Hugo Bonacci"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  jamesgregory:
+    active: true
+    author: "James Gregory"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  jasdeepsingh:
+    active: false
+    author: "Jasdeep Singh"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  jimmybogard:
+    active: true
+    author: "Jimmy Bogard"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+    disqus:
+      short_name: "jimmybogardblog"
+      active: true
+  joeocampo:
+    active: false
+    author: "Joe Ocampo"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+    disqus:
+      active: true
+      short_name: "joeocampo"
+  joeybeninghove:
+    active: false
+    author: "Joey Beninghove"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  johnteague:
+    active: true
+    author: "John Teague"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  josharnold:
+    active: true
+    author: "Josh Arnold"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  joshuaflanagan:
+    active: true
+    author: "Joshua Flanagan"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  joshualockwood:
+    active: true
+    author: "Joshua Lockwood"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  keithdahlby:
+    active: true
+    author: "Keith Dahlby"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  matthinze:
+    active: true
+    author: "Matt Hinze"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  mokhan:
+    active: false
+    author: "Mo Khan"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  nelsonmontalvo:
+    active: false
+    author: "Nelson Montalvo"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  patricklioi:
+    active: true
+    author: "Patrick Lioi"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  rayhouston:
+    active: false
+    author: "Ray Houston"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  rodpaddock:
+    active: true
+    author: "Rod Paddock"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  ryanrauh:
+    active: true
+    author: "Ryan Rauh"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  ryansvihla:
+    active: true
+    author: "Ryan Svihla"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  scottdensmore:
+    active: true
+    author: "Scott Densmore"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  scottgillenwater:
+    active: false
+    author: "Scott Gillenwater"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  scottreynolds:
+    active: false
+    author: "Scott Reynolds"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  seanbiefeld:
+    active: true
+    author: "Sean Biefeld"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  seanchambers:
+    active: true
+    author: "Sean Chambers"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  sharoncichelli:
+    active: true
+    author: "Sharon Cichelli"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  stevedonie:
+    active: true
+    author: "Steve Donie"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+JB:
+  comments:
+      provider: disqus
+      disqus:
+        short_name: lostechies
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - scripts
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

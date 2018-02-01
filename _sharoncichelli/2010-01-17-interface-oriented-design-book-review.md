@@ -1,0 +1,23 @@
+---
+id: 3861
+title: 'Interface-Oriented Design &#8211; Book Review'
+date: 2010-01-17T18:54:00+00:00
+author: Sharon Cichelli
+layout: post
+guid: /blogs/sharoncichelli/archive/2010/01/17/interface-oriented-design-book-review.aspx
+dsq_thread_id:
+  - "263370913"
+categories:
+  - Books
+---
+Ken Pugh&#8217;s _[Interface-Oriented Design](http://www.pragprog.com/titles/kpiod/interface-oriented-design)_ (Pragmatic Programmers) presents an approach to designing applications that focuses first on the interfaces, the places where pieces of the application interact. The interfaces here are not primarily user interfaces, but module-to-module interfaces and service interfaces, and the applications are not exclusively object-oriented. Pugh&#8217;s proposed process is to identify use cases and test cases, determine the interfaces that will enable those use cases, then create tests and implementations for the interfaces.
+
+The book is divided into three parts. The first explains the concepts and theory underlying an interface-focused approach to design. These concepts include real-world analogies which quickly provide context to the discussion; types of interfaces, such as stateless versus stateful, and procedural versus document; design concerns such as contracts, cohesiveness, and polymorphism; and the Asimov-inspired &#8220;three laws of interfaces,&#8221; which specify the qualities of a well behaved implementation. Part two is brief and describes where interface-oriented design fits into the project lifecycle. Part three walks through three examples, from concept to design to implementation, and highlights the design patterns exhibited in those examples. The book concludes with a grab-bag appendix of topics that could have been better served by integration into the main text.
+
+If your learning style is learn-by-doing, you might get more out of the book by reading Part Three before Part One. Part Three provides the &#8220;yeah, but what are we _doin&#8217;_ here&#8221; skeleton onto which you can hang the theory that is explained in Part One. I find theory easier to digest and retain if I know which of my real-world, day-to-day experiences it applies to. You&#8217;ll get that context if you flip the order in which you read it.
+
+I picked up this book looking for best practices on providing and consuming remote interfaces, and it isn&#8217;t that. Have you ever taken a sip of something you like, but because you were expecting a completely different flavor, it tasted off? I bumped into that dissonance here, so it was hard for me to get into the book. To appropriately prepare your palate, the flavor to anticipate from _Interface-Oriented Design_ is a technique for thinking about a problem domain and its software solution by thinking about the places where responsibilities interact, analogous to the way that [service-oriented architecture](http://en.wikipedia.org/wiki/Service-oriented_architecture) is a technique for thinking about software design.
+
+An area where this book really shines is Pugh&#8217;s deft use of real-world examples. In the first chapter, he introduces the process of ordering a pizza as a series of exchanges through a PizzaOrdering interface. The example is familiar, relatable, and practically identical across the United States ([implementations vary](http://www.austinspizza.com/), of course). Pugh then uses that example and expands upon it throughout the rest of the book, allowing us to fit new concepts into the model as it is refined. This worked better than if each new concept had been presented with a new example; the book gained a pedagogical momentum.
+
+Many times during my reading, I asked myself whether the ideas were so fundamental and distilled as to shift my way of thinking, or so fundamental as to be mundane and trivial. Was this book raising the level of abstraction, like climbing a mountain to get a better view of the landscape, or just telling me no-duh stuff I already knew? Is its audience experienced developers looking to put terms and practices around habits they do instinctively, or is its audience beginners who need an introduction to methodical design? I still haven&#8217;t decided. Will it affect my thinking? Probably. Not in ways that I can articulate and enumerate for you, but likely in subtle and profound ways that I may or may not notice as they occur. For yourself, I recommend checking out the table of contents (available from the [Pragmatic Bookshelf](http://www.pragprog.com/titles/kpiod/interface-oriented-design)) and see if it suits you.

@@ -1,0 +1,44 @@
+{% assign tags =  site[page.collection] | map: 'tags' | join: ','  | split: ',' | sort %}
+{% assign previousTag = "" %}
+{% assign counter = 0 %}
+
+{% for currentTag in tags %}
+
+  {% comment %}first loop : initializing previousTag{% endcomment %}
+  {% if previousTag == "" %}
+    {% assign previousTag = currentTag %}
+  {% endif %}
+
+  {% if currentTag == previousTag %}
+    {% assign counter = counter | plus: 1 %}
+  {% else %}
+    <h2>{{ previousTag }} ({{ counter }})</h2>
+    {% assign counter = 1 %}
+  	<ul>
+  	{% for p in site[page.collection] %}
+  	{% if p.tags contains previousTag %}
+ 	  	<li><a href="{{ p.url }}"><span class="archive-entry">{{ p.title }}</span></a></li>
+  	{% endif %}
+  	{% endfor %}
+  	</ul>
+	<hr/>
+  {% endif %}
+
+  {% comment %}last loop : flushing what's left to print{% endcomment %}
+  {% if forloop.last %}
+    <h2>{{ currentTag }} ({{ counter }})</h2>
+  	<ul>
+  	{% for p in site[page.collection] %}
+  	{% if p.tags contains currentTag %}
+ 	  	<li><a href="{{ p.url }}"><span class="archive-entry"/>{{ p.title }}</span></a></li>
+  	{% endif %}
+  	{% endfor %}
+  	</ul>
+	<hr/>
+  {% endif %}
+
+
+  {% assign previousTag = currentTag %}
+
+
+{% endfor %}
