@@ -73,6 +73,9 @@ collections:
     author: "Derek Greer"
     output: true
     permalink: /:collection/:year/:month/:day/:title/
+    disqus:
+      short_name: "lostechies-aspiringcraftsman"
+      active: true
   derickbailey:
     active: false
     author: "Derick Bailey"
