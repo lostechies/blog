@@ -17,7 +17,7 @@
   	<ul>
   	{% for p in site[page.collection] %}
   	{% if p.tags contains previousTag %}
- 	  	<li><a href="{{ p.url }}"><span class="archive-entry">{{ p.title }}</span></a></li>
+        <li><a href="{{site.baseurl}}{{ p.url }}"><span class="archive-entry">{{ p.title }}</span></a></li>
   	{% endif %}
   	{% endfor %}
   	</ul>
@@ -30,7 +30,7 @@
   	<ul>
   	{% for p in site[page.collection] %}
   	{% if p.tags contains currentTag %}
- 	  	<li><a href="{{ p.url }}"><span class="archive-entry"/>{{ p.title }}</span></a></li>
+        <li><a href="{{site.baseurl}}{{ p.url }}"><span class="archive-entry"/>{{ p.title }}</span></a></li>
   	{% endif %}
   	{% endfor %}
   	</ul>
