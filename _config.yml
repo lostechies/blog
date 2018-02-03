@@ -159,6 +159,9 @@ collections:
     author: "Joshua Flanagan"
     output: true
     permalink: /:collection/:year/:month/:day/:title/
+    disqus:
+      active: true
+      short_name: "joshuaflanaganlt"
   joshualockwood:
     active: true
     author: "Joshua Lockwood"
