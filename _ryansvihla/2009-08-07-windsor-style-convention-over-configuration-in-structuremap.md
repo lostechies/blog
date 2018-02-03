@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: Windsor style convention over configuration in StructureMap
 date: 2009-08-07T12:47:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/08/07/windsor-style-convention-over-configuration-in-structuremap.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/08/07/windsor-style-convention-over-configuration-in-structuremap.aspx
 dsq_thread_id:
   - "425624279"
 categories:

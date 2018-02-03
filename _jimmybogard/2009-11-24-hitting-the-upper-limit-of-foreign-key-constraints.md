@@ -1,10 +1,10 @@
 ---
-id: 369
+wordpress_id: 369
 title: Hitting the upper limit of foreign key constraints
 date: 2009-11-24T01:59:43+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/11/23/hitting-the-upper-limit-of-foreign-key-constraints.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/11/23/hitting-the-upper-limit-of-foreign-key-constraints.aspx
 dsq_thread_id:
   - "264716354"
 categories:

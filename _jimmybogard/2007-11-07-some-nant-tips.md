@@ -1,10 +1,10 @@
 ---
-id: 95
+wordpress_id: 95
 title: Some NAnt tips
 date: 2007-11-07T16:22:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/07/some-nant-tips.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/07/some-nant-tips.aspx
 dsq_thread_id:
   - "264715409"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 275
+wordpress_id: 275
 title: ASP.NET MVC options for consolidating HTML
 date: 2009-01-28T02:31:50+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/01/27/asp-net-mvc-options-for-consolidating-html.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/01/27/asp-net-mvc-options-for-consolidating-html.aspx
 dsq_thread_id:
   - "264849374"
 categories:

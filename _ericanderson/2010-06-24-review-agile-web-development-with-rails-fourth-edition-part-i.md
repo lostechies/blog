@@ -1,10 +1,10 @@
 ---
-id: 4721
+wordpress_id: 4721
 title: 'Review: Agile Web Development With Rails, Fourth Edition (Part I)'
 date: 2010-06-24T04:21:00+00:00
 author: Eric Anderson
 layout: post
-guid: /blogs/eric/archive/2010/06/24/review-agile-web-development-with-rails-fourth-edition-part-i.aspx
+wordpress_guid: /blogs/eric/archive/2010/06/24/review-agile-web-development-with-rails-fourth-edition-part-i.aspx
 categories:
   - Uncategorized
 ---

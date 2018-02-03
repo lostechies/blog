@@ -1,10 +1,10 @@
 ---
-id: 836
+wordpress_id: 836
 title: 'Put your controllers on a diet: defactoring'
 date: 2013-10-22T15:42:12+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=836
+wordpress_guid: http://lostechies.com/jimmybogard/?p=836
 dsq_thread_id:
   - "1887243867"
 categories:

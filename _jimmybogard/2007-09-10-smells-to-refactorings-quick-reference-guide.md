@@ -1,10 +1,10 @@
 ---
-id: 61
+wordpress_id: 61
 title: Smells to refactorings quick reference guide
 date: 2007-09-10T17:51:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/09/10/smells-to-refactorings-quick-reference-guide.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/09/10/smells-to-refactorings-quick-reference-guide.aspx
 dsq_thread_id:
   - "267850059"
 categories:

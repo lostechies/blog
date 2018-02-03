@@ -1,10 +1,10 @@
 ---
-id: 3003
+wordpress_id: 3003
 title: Update on using MSDeploy for remote deployments.
 date: 2009-12-29T14:02:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/12/29/update-on-using-msdeploy-for-remote-deployments.aspx
+wordpress_guid: /blogs/hex/archive/2009/12/29/update-on-using-msdeploy-for-remote-deployments.aspx
 dsq_thread_id:
   - "262208528"
 categories:

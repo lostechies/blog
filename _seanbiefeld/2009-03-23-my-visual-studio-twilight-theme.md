@@ -1,10 +1,10 @@
 ---
-id: 4451
+wordpress_id: 4451
 title: My Visual Studio Twilight theme
 date: 2009-03-23T00:58:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2009/03/22/my-visual-studio-twilight-theme.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2009/03/22/my-visual-studio-twilight-theme.aspx
 dsq_thread_id:
   - "449608077"
 categories:

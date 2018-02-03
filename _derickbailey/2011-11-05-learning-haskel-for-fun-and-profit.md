@@ -1,10 +1,10 @@
 ---
-id: 632
+wordpress_id: 632
 title: Learning Haskel For Fun (and profit?)
 date: 2011-11-05T07:12:40+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=632
+wordpress_guid: http://lostechies.com/derickbailey/?p=632
 dsq_thread_id:
   - "462638123"
 categories:

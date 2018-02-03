@@ -1,10 +1,10 @@
 ---
-id: 38
+wordpress_id: 38
 title: Fluent Silverlight – Table of content
 date: 2010-01-08T13:54:47+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx
 dsq_thread_id:
   - "1074840754"
 categories:

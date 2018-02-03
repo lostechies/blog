@@ -1,10 +1,10 @@
 ---
-id: 542
+wordpress_id: 542
 title: 'Dependency Management in .Net: Using NuGet without Visual Studio'
 date: 2011-09-20T03:40:25+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=542
+wordpress_guid: http://lostechies.com/derekgreer/?p=542
 dsq_thread_id:
   - "419858883"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 66
+wordpress_id: 66
 title: 'Upcoming FubuMVC Webinar: F101 &#8211; Behaviors, Configuration, and Runtime'
 date: 2011-08-03T17:23:22+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=66
+wordpress_guid: http://lostechies.com/josharnold/?p=66
 dsq_thread_id:
   - "376244150"
 categories:

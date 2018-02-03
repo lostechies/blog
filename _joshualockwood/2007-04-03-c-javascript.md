@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: 'C# -> JavaScript'
 date: 2007-04-03T00:07:00+00:00
 author: Joshua Lockwood
 layout: post
-guid: /blogs/joshua_lockwood/archive/2007/04/02/c-javascript.aspx
+wordpress_guid: /blogs/joshua_lockwood/archive/2007/04/02/c-javascript.aspx
 categories:
   - 'C#'
   - compiler

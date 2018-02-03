@@ -1,10 +1,10 @@
 ---
-id: 3591
+wordpress_id: 3591
 title: MassTransit 0.2 Now Available
 date: 2008-06-14T03:20:45+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/06/13/masstransit-0-2-now-available.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/06/13/masstransit-0-2-now-available.aspx
 dsq_thread_id:
   - "262089239"
 categories:

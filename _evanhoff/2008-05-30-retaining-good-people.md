@@ -1,10 +1,10 @@
 ---
-id: 4326
+wordpress_id: 4326
 title: Retaining Good People
 date: 2008-05-30T01:04:35+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/05/29/retaining-good-people.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/05/29/retaining-good-people.aspx
 categories:
   - Uncategorized
 ---

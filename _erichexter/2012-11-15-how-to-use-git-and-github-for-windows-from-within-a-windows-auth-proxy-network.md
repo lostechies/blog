@@ -1,10 +1,10 @@
 ---
-id: 284
+wordpress_id: 284
 title: How to use Git and Github for Windows from within a Windows auth proxy network.
 date: 2012-11-15T05:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=284
+wordpress_guid: http://lostechies.com/erichexter/?p=284
 dsq_thread_id:
   - "929178639"
 categories:

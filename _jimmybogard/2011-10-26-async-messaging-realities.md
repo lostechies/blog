@@ -1,10 +1,10 @@
 ---
-id: 544
+wordpress_id: 544
 title: Async messaging realities
 date: 2011-10-26T13:17:12+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/10/26/async-messaging-realities/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/10/26/async-messaging-realities/
 dsq_thread_id:
   - "453696856"
 categories:

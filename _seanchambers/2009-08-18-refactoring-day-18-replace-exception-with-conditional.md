@@ -1,10 +1,10 @@
 ---
-id: 3212
+wordpress_id: 3212
 title: 'Refactoring Day 18 : Replace exception with conditional'
 date: 2009-08-18T12:30:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/18/refactoring-day-18-replace-exception-with-conditional.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/18/refactoring-day-18-replace-exception-with-conditional.aspx
 dsq_thread_id:
   - "262353176"
 categories:

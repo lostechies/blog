@@ -1,10 +1,10 @@
 ---
-id: 1329
+wordpress_id: 1329
 title: Blue-Green Deployment in Docker Cloud
 date: 2016-04-07T21:42:24+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1329
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1329
 dsq_thread_id:
   - "4729417640"
 categories:

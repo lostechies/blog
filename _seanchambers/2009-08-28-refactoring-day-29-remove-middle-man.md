@@ -1,10 +1,10 @@
 ---
-id: 3223
+wordpress_id: 3223
 title: 'Refactoring Day 29 : Remove Middle Man'
 date: 2009-08-28T16:38:31+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/28/refactoring-day-29-remove-middle-man.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/28/refactoring-day-29-remove-middle-man.aspx
 dsq_thread_id:
   - "262356465"
 categories:

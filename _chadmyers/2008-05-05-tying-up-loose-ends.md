@@ -1,10 +1,10 @@
 ---
-id: 45
+wordpress_id: 45
 title: Tying up loose ends
 date: 2008-05-05T01:53:45+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/05/04/tying-up-loose-ends.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/05/04/tying-up-loose-ends.aspx
 dsq_thread_id:
   - "267493615"
 categories:

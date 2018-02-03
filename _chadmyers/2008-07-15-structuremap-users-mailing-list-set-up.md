@@ -1,10 +1,10 @@
 ---
-id: 69
+wordpress_id: 69
 title: StructureMap Users mailing list set up
 date: 2008-07-15T23:53:27+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/07/15/structuremap-users-mailing-list-set-up.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/07/15/structuremap-users-mailing-list-set-up.aspx
 dsq_thread_id:
   - "1103056361"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 101
+wordpress_id: 101
 title: 'Internal DSL Pattern: Expression Builder'
 date: 2008-10-27T03:22:33+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/26/internal-dsl-pattern-expression-builder.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/26/internal-dsl-pattern-expression-builder.aspx
 dsq_thread_id:
   - "1075911902"
 categories:

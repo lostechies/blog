@@ -1,10 +1,10 @@
 ---
-id: 539
+wordpress_id: 539
 title: 'AutoMapper 2.0 &#8211; Nested/Child Containers'
 date: 2011-09-29T13:09:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/09/29/automapper-2-0-nestedchild-containers/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/09/29/automapper-2-0-nestedchild-containers/
 dsq_thread_id:
   - "429434645"
 categories:

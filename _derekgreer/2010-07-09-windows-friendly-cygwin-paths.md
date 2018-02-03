@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: Windows-Friendly Cygwin Paths
 date: 2010-07-09T16:19:23+00:00
 author: Derek Greer
 layout: post
-guid: /blogs/derekgreer/archive/2010/07/09/windows-friendly-cygwin-paths.aspx
+wordpress_guid: /blogs/derekgreer/archive/2010/07/09/windows-friendly-cygwin-paths.aspx
 dsq_thread_id:
   - "262468829"
 categories:

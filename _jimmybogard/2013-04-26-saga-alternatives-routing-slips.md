@@ -1,10 +1,10 @@
 ---
-id: 766
+wordpress_id: 766
 title: Saga alternatives – routing slips
 date: 2013-04-26T19:49:38+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=766
+wordpress_guid: http://lostechies.com/jimmybogard/?p=766
 dsq_thread_id:
   - "1237795896"
 categories:

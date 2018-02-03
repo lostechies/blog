@@ -1,10 +1,10 @@
 ---
-id: 63
+wordpress_id: 63
 title: How To? Highly Complex Query Generating Based On Security Needs
 date: 2009-06-25T20:26:29+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/06/25/how-to-highly-complex-query-generating-based-on-security-needs.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/06/25/how-to-highly-complex-query-generating-based-on-security-needs.aspx
 dsq_thread_id:
   - "262068237"
 categories:

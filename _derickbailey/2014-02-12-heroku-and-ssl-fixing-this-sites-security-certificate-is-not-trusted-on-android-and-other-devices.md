@@ -1,10 +1,10 @@
 ---
-id: 1255
+wordpress_id: 1255
 title: 'Heroku And SSL: Fixing &#8220;This site&#8217;s security certificate is not trusted!&#8221; on Android and other devices'
 date: 2014-02-12T10:09:48+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1255
+wordpress_guid: http://lostechies.com/derickbailey/?p=1255
 dsq_thread_id:
   - "2256919682"
 categories:

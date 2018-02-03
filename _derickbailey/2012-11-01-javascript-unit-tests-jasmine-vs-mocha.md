@@ -1,10 +1,10 @@
 ---
-id: 1024
+wordpress_id: 1024
 title: 'JavaScript Unit Tests: Jasmine vs Mocha'
 date: 2012-11-01T07:04:09+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1024
+wordpress_guid: http://lostechies.com/derickbailey/?p=1024
 dsq_thread_id:
   - "911143963"
 categories:

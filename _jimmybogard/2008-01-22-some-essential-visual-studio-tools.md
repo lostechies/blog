@@ -1,10 +1,10 @@
 ---
-id: 133
+wordpress_id: 133
 title: Some essential Visual Studio tools
 date: 2008-01-22T13:54:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/22/some-essential-visual-studio-tools.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/22/some-essential-visual-studio-tools.aspx
 dsq_thread_id:
   - "264715520"
 categories:

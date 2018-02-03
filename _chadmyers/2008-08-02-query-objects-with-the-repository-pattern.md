@@ -1,10 +1,10 @@
 ---
-id: 75
+wordpress_id: 75
 title: Query Objects with the Repository Pattern
 date: 2008-08-02T03:17:46+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/08/01/query-objects-with-the-repository-pattern.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/08/01/query-objects-with-the-repository-pattern.aspx
 dsq_thread_id:
   - "262113978"
 categories:

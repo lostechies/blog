@@ -1,10 +1,10 @@
 ---
-id: 61
+wordpress_id: 61
 title: A Kanban Is Just A Signal To Do Work
 date: 2009-06-18T21:10:03+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/06/18/a-kanban-is-just-a-signal-to-do-work.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/06/18/a-kanban-is-just-a-signal-to-do-work.aspx
 dsq_thread_id:
   - "262068210"
 categories:

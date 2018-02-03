@@ -1,10 +1,10 @@
 ---
-id: 410
+wordpress_id: 410
 title: 'Caveats of C# 4.0 optional parameters'
 date: 2010-05-18T13:01:01+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/05/18/caveats-of-c-4-0-optional-parameters.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/05/18/caveats-of-c-4-0-optional-parameters.aspx
 dsq_thread_id:
   - "264716487"
 categories:

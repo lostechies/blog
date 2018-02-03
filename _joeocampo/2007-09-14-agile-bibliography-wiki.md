@@ -1,10 +1,10 @@
 ---
-id: 58
+wordpress_id: 58
 title: Agile Bibliography Wiki
 date: 2007-09-14T12:21:56+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/14/agile-bibliography-wiki.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/14/agile-bibliography-wiki.aspx
 dsq_thread_id:
   - "262089880"
 categories:

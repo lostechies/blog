@@ -1,10 +1,10 @@
 ---
-id: 212
+wordpress_id: 212
 title: Trusted Subsystem, WCF and IIS
 date: 2008-07-31T02:43:39+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/07/30/trusted-subsystem-wcf-and-iis.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/07/30/trusted-subsystem-wcf-and-iis.aspx
 dsq_thread_id:
   - "268425675"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3856
+wordpress_id: 3856
 title: Inconvenient Accessibility Makes Self-Documenting Code
 date: 2009-06-20T12:11:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2009/06/20/inconvenient-accessibility-makes-self-documenting-code.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2009/06/20/inconvenient-accessibility-makes-self-documenting-code.aspx
 dsq_thread_id:
   - "311645159"
 categories:

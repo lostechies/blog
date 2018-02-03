@@ -1,10 +1,10 @@
 ---
-id: 408
+wordpress_id: 408
 title: 'Browser Wars: Websockets vs. AJAX'
 date: 2013-08-06T10:07:29+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=408
+wordpress_guid: http://lostechies.com/chrismissal/?p=408
 dsq_thread_id:
   - "1574758009"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 702
+wordpress_id: 702
 title: 'Dublin ALT.NET / Skills Matter / Kiev ALT.NET slides &#038; code'
 date: 2012-12-17T14:51:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=702
+wordpress_guid: http://lostechies.com/jimmybogard/?p=702
 dsq_thread_id:
   - "979101164"
 categories:

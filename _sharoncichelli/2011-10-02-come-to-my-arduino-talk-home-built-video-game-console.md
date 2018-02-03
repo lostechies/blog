@@ -1,10 +1,10 @@
 ---
-id: 62
+wordpress_id: 62
 title: 'Come to my Arduino talk: Home-built video game console'
 date: 2011-10-02T13:22:10+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=62
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=62
 dsq_thread_id:
   - "432234437"
 categories:

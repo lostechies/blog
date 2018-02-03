@@ -1,10 +1,10 @@
 ---
-id: 205
+wordpress_id: 205
 title: Verifying Generated HTML With HAML, Cucumber, Capybara and RSpec
 date: 2010-12-17T18:39:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/12/17/verifying-generated-html-with-haml-cucumber-capybara-and-rspec.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/12/17/verifying-generated-html-with-haml-cucumber-capybara-and-rspec.aspx
 dsq_thread_id:
   - "262436989"
 categories:

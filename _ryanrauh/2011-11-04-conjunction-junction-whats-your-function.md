@@ -1,10 +1,10 @@
 ---
-id: 70
+wordpress_id: 70
 title: 'Conjunction Junction: What&#8217;s your function?'
 date: 2011-11-04T08:38:51+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=70
+wordpress_guid: http://lostechies.com/ryanrauh/?p=70
 dsq_thread_id:
   - "461680966"
 categories:

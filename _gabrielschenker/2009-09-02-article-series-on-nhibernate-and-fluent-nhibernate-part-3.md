@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: Article series on NHibernate and Fluent NHibernate – Part 3
 date: 2009-09-02T04:49:28+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/09/02/article-series-on-nhibernate-and-fluent-nhibernate-part-3.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/09/02/article-series-on-nhibernate-and-fluent-nhibernate-part-3.aspx
 dsq_thread_id:
   - "263908874"
 categories:

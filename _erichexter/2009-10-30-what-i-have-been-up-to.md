@@ -1,10 +1,10 @@
 ---
-id: 2995
+wordpress_id: 2995
 title: What I have been up to.
 date: 2009-10-30T03:36:02+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/10/29/what-i-have-been-up-to.aspx
+wordpress_guid: /blogs/hex/archive/2009/10/29/what-i-have-been-up-to.aspx
 dsq_thread_id:
   - "269682838"
 categories:

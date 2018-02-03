@@ -1,10 +1,10 @@
 ---
-id: 3160
+wordpress_id: 3160
 title: Dealing with RSI properly
 date: 2007-12-30T00:48:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/12/29/dealing-with-rsi-properly.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/12/29/dealing-with-rsi-properly.aspx
 dsq_thread_id:
   - "268123769"
 categories:

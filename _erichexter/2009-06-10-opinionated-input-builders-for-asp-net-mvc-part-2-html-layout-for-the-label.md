@@ -1,10 +1,10 @@
 ---
-id: 2974
+wordpress_id: 2974
 title: 'Opinionated Input Builders for ASP.Net MVC &#8211; Part 2 Html Layout for the Label'
 date: 2009-06-10T01:26:02+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-part-2-html-layout-for-the-label.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-part-2-html-layout-for-the-label.aspx
 dsq_thread_id:
   - "262053478"
 categories:

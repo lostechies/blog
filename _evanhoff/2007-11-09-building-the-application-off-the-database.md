@@ -1,10 +1,10 @@
 ---
-id: 23
+wordpress_id: 23
 title: Building the Application off the Database
 date: 2007-11-09T21:53:02+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/11/09/building-the-application-off-the-database.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/11/09/building-the-application-off-the-database.aspx
 categories:
   - Uncategorized
 ---

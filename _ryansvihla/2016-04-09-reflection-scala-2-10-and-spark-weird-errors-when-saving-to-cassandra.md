@@ -1,10 +1,10 @@
 ---
-id: 279
+wordpress_id: 279
 title: Reflection Scala-2.10 and Spark weird errors when saving to Cassandra
 date: 2016-04-09T08:44:49+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=279
+wordpress_guid: https://lostechies.com/ryansvihla/?p=279
 dsq_thread_id:
   - "4790286719"
 categories:

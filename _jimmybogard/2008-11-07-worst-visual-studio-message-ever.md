@@ -1,10 +1,10 @@
 ---
-id: 248
+wordpress_id: 248
 title: Worst Visual Studio message ever
 date: 2008-11-07T01:12:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/06/worst-visual-studio-message-ever.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/06/worst-visual-studio-message-ever.aspx
 dsq_thread_id:
   - "264715964"
 categories:

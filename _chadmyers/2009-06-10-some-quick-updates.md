@@ -1,10 +1,10 @@
 ---
-id: 144
+wordpress_id: 144
 title: Some quick updates
 date: 2009-06-10T03:41:26+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/06/09/some-quick-updates.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/06/09/some-quick-updates.aspx
 dsq_thread_id:
   - "262114407"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1215
+wordpress_id: 1215
 title: AutoMapper 5.0 speed increases
 date: 2016-06-24T21:43:50+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1215
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1215
 dsq_thread_id:
   - "4936594862"
 categories:

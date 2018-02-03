@@ -1,10 +1,10 @@
 ---
-id: 423
+wordpress_id: 423
 title: 'Mercurial workflows: mainline workflow'
 date: 2010-07-28T03:12:59+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/07/27/mercurial-workflows-mainline-workflow.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/07/27/mercurial-workflows-mainline-workflow.aspx
 dsq_thread_id:
   - "264871028"
 categories:

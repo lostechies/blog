@@ -1,10 +1,10 @@
 ---
-id: 3008
+wordpress_id: 3008
 title: Redgate is a Platinum Sponsor of Austin Code Camp 2010
 date: 2010-03-18T12:49:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/03/18/redgate-is-a-platinum-sponsor-of-austin-code-camp-2010.aspx
+wordpress_guid: /blogs/hex/archive/2010/03/18/redgate-is-a-platinum-sponsor-of-austin-code-camp-2010.aspx
 dsq_thread_id:
   - "1077950546"
 categories:

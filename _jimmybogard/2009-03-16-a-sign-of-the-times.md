@@ -1,10 +1,10 @@
 ---
-id: 295
+wordpress_id: 295
 title: A sign of the times
 date: 2009-03-16T03:05:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/03/15/a-sign-of-the-times.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/03/15/a-sign-of-the-times.aspx
 dsq_thread_id:
   - "264716093"
   - "264716093"

@@ -1,10 +1,10 @@
 ---
-id: 217
+wordpress_id: 217
 title: Validating Xml Against XSD Schema In IronRuby
 date: 2011-02-25T04:06:35+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/02/24/validating-xml-against-xsd-schema-in-ironruby.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/02/24/validating-xml-against-xsd-schema-in-ironruby.aspx
 dsq_thread_id:
   - "262106527"
 categories:

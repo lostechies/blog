@@ -1,10 +1,10 @@
 ---
-id: 4795
+wordpress_id: 4795
 title: To Thine Own Self Be True
 date: 2011-02-04T22:16:00+00:00
 author: Gregory Long
 layout: post
-guid: /blogs/thatotherguy/archive/2011/02/04/to-thine-own-self-be-true.aspx
+wordpress_guid: /blogs/thatotherguy/archive/2011/02/04/to-thine-own-self-be-true.aspx
 dsq_thread_id:
   - "265105054"
 categories:

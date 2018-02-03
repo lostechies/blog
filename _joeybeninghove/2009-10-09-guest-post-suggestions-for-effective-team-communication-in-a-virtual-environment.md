@@ -1,10 +1,10 @@
 ---
-id: 67
+wordpress_id: 67
 title: 'Guest Post: Suggestions for Effective Team Communication in a Virtual Environment'
 date: 2009-10-09T15:27:37+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2009/10/09/guest-post-suggestions-for-effective-team-communication-in-a-virtual-environment.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2009/10/09/guest-post-suggestions-for-effective-team-communication-in-a-virtual-environment.aspx
 categories:
   - Communication
   - virtual teams

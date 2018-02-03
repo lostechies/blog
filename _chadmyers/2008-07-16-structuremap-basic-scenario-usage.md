@@ -1,10 +1,10 @@
 ---
-id: 71
+wordpress_id: 71
 title: 'StructureMap: Basic Scenario Usage'
 date: 2008-07-16T01:13:29+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/07/15/structuremap-basic-scenario-usage.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/07/15/structuremap-basic-scenario-usage.aspx
 dsq_thread_id:
   - "262113947"
 categories:

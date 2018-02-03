@@ -1,10 +1,10 @@
 ---
-id: 4649
+wordpress_id: 4649
 title: 'Next Europe VAN &#8211; 1st June 2009 &#8211; Questions for Udi Dahan'
 date: 2009-05-17T22:18:31+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/05/18/next-europe-van-1st-june-2009-questions-for-udi-dahan.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/05/18/next-europe-van-1st-june-2009-questions-for-udi-dahan.aspx
 categories:
   - ALT.NET
   - E-VAN

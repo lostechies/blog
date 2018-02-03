@@ -1,10 +1,10 @@
 ---
-id: 791
+wordpress_id: 791
 title: Cleaning Out Git Remotes The Easy Way
 date: 2012-01-31T14:53:17+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=791
+wordpress_guid: http://lostechies.com/derickbailey/?p=791
 dsq_thread_id:
   - "559426709"
 categories:

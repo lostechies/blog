@@ -1,10 +1,10 @@
 ---
-id: 70
+wordpress_id: 70
 title: 'Project anti-pattern: Many projects in a Visual Studio Solution File'
 date: 2008-07-16T00:17:47+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/07/15/project-anti-pattern-many-projects-in-a-visual-studio-solution-file.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/07/15/project-anti-pattern-many-projects-in-a-visual-studio-solution-file.aspx
 dsq_thread_id:
   - "262401604"
 categories:

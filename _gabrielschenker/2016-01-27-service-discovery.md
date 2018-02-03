@@ -1,10 +1,10 @@
 ---
-id: 1163
+wordpress_id: 1163
 title: 'Service discovery &#8211; part 1'
 date: 2016-01-27T18:16:12+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1163
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1163
 dsq_thread_id:
   - "4529293364"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3152
+wordpress_id: 3152
 title: Entities vs. Value Objects
 date: 2007-11-29T01:54:08+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/11/28/entities-vs-value-objects.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/11/28/entities-vs-value-objects.aspx
 dsq_thread_id:
   - "268123727"
 categories:

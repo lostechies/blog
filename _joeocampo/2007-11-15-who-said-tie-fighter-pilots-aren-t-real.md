@@ -1,10 +1,10 @@
 ---
-id: 83
+wordpress_id: 83
 title: 'Who said Tie Fighter pilots aren&#8217;t real'
 date: 2007-11-15T16:04:30+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/11/15/who-said-tie-fighter-pilots-aren-t-real.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/11/15/who-said-tie-fighter-pilots-aren-t-real.aspx
 dsq_thread_id:
   - "262090361"
 categories:

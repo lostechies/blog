@@ -1,10 +1,10 @@
 ---
-id: 547
+wordpress_id: 547
 title: When to use NHibernate
 date: 2011-11-18T14:35:40+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/11/18/when-to-use-nhibernate/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/11/18/when-to-use-nhibernate/
 dsq_thread_id:
   - "476313890"
 categories:

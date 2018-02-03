@@ -1,10 +1,10 @@
 ---
-id: 4211
+wordpress_id: 4211
 title: 'Unit Testing [Serializable]'
 date: 2010-05-20T12:11:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/05/20/unit-testing-serializable.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/05/20/unit-testing-serializable.aspx
 dsq_thread_id:
   - "262493344"
 categories:

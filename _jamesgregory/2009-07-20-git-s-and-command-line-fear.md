@@ -1,10 +1,10 @@
 ---
-id: 4497
+wordpress_id: 4497
 title: Git and command-line fear
 date: 2009-07-20T15:10:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2009/07/20/git-s-and-command-line-fear.aspx
+wordpress_guid: /blogs/jagregory/archive/2009/07/20/git-s-and-command-line-fear.aspx
 dsq_thread_id:
   - "273364721"
 categories:

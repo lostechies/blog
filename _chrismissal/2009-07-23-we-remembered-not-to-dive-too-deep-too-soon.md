@@ -1,10 +1,10 @@
 ---
-id: 3360
+wordpress_id: 3360
 title: We Remembered Not to Dive Too Deep Too Soon
 date: 2009-07-23T02:45:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/07/22/we-remembered-not-to-dive-too-deep-too-soon.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/07/22/we-remembered-not-to-dive-too-deep-too-soon.aspx
 dsq_thread_id:
   - "272650202"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 451
+wordpress_id: 451
 title: Assembly Resolution with Separate AppDomains
 date: 2007-06-25T20:20:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2007/06/assembly-resolution-with-separate-appdomains/
+wordpress_guid: http://www.aspiringcraftsman.com/2007/06/assembly-resolution-with-separate-appdomains/
 dsq_thread_id:
   - "315803637"
 categories:

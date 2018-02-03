@@ -1,10 +1,10 @@
 ---
-id: 156
+wordpress_id: 156
 title: Pablo’s Fiesta Open Space Conference
 date: 2009-11-18T15:51:22+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/11/18/pablo-s-fiesta-open-space-conference.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/11/18/pablo-s-fiesta-open-space-conference.aspx
 dsq_thread_id:
   - "1481725766"
 categories:

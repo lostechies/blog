@@ -1,10 +1,10 @@
 ---
-id: 889
+wordpress_id: 889
 title: 'Separation of Concerns:  Application Builds &#038; Continuous Integration'
 date: 2016-02-28T17:28:24+00:00
 author: Derek Greer
 layout: post
-guid: https://lostechies.com/derekgreer/?p=889
+wordpress_guid: https://lostechies.com/derekgreer/?p=889
 dsq_thread_id:
   - "4620125366"
 categories:

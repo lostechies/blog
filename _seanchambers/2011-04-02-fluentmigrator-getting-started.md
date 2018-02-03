@@ -1,10 +1,10 @@
 ---
-id: 3232
+wordpress_id: 3232
 title: FluentMigrator getting started
 date: 2011-04-02T12:17:10+00:00
 author: Sean Chambers
 layout: post
-guid: http://lostechies.com/seanchambers/?p=127
+wordpress_guid: http://lostechies.com/seanchambers/?p=127
 dsq_thread_id:
   - "269318930"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3205
+wordpress_id: 3205
 title: 'Refactoring Day 11 : Switch to Strategy'
 date: 2009-08-11T12:30:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/11/refactoring-day-11-switch-to-strategy.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/11/refactoring-day-11-switch-to-strategy.aspx
 dsq_thread_id:
   - "262347277"
 categories:

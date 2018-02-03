@@ -1,10 +1,10 @@
 ---
-id: 1864
+wordpress_id: 1864
 title: Use Docker to build, test and push your Artifacts
 date: 2016-09-26T20:13:58+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1864
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1864
 dsq_thread_id:
   - "5176167405"
 categories:

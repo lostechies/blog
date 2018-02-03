@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: 'PTOM: Command and Conquer Your UI Coupling Problems'
 date: 2008-11-20T02:23:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/11/19/ptom-command-and-conquer-your-ui-coupling-problems.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/11/19/ptom-command-and-conquer-your-ui-coupling-problems.aspx
 dsq_thread_id:
   - "262067943"
 categories:

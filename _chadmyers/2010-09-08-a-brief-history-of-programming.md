@@ -1,10 +1,10 @@
 ---
-id: 167
+wordpress_id: 167
 title: A Brief History of Programming
 date: 2010-09-08T03:21:28+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/09/07/a-brief-history-of-programming.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/09/07/a-brief-history-of-programming.aspx
 dsq_thread_id:
   - "262114537"
 categories:

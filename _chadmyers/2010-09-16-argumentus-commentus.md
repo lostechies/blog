@@ -1,10 +1,10 @@
 ---
-id: 168
+wordpress_id: 168
 title: Argumentus Commentus
 date: 2010-09-16T19:08:45+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/09/16/argumentus-commentus.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/09/16/argumentus-commentus.aspx
 dsq_thread_id:
   - "262114546"
 categories:

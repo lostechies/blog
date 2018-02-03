@@ -1,10 +1,10 @@
 ---
-id: 397
+wordpress_id: 397
 title: Integrating the Git bash into Console
 date: 2010-04-05T14:45:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/04/05/integrating-the-git-bash-into-console.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/04/05/integrating-the-git-bash-into-console.aspx
 dsq_thread_id:
   - "264748053"
 categories:

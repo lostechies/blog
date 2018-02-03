@@ -1,10 +1,10 @@
 ---
-id: 301
+wordpress_id: 301
 title: 'Effective Tests: A Test-First Example &#8211; Part 5'
 date: 2011-05-01T17:28:35+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=301
+wordpress_guid: http://lostechies.com/derekgreer/?p=301
 dsq_thread_id:
   - "292795566"
 categories:

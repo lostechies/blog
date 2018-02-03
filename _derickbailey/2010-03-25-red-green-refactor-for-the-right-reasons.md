@@ -1,10 +1,10 @@
 ---
-id: 124
+wordpress_id: 124
 title: Red/Green/Refactor, For The Right Reasons
 date: 2010-03-25T17:43:42+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/25/red-green-refactor-for-the-right-reasons.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/25/red-green-refactor-for-the-right-reasons.aspx
 dsq_thread_id:
   - "264192775"
 categories:

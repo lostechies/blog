@@ -1,10 +1,10 @@
 ---
-id: 445
+wordpress_id: 445
 title: The developer’s true goal
 date: 2011-01-05T13:53:36+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/01/05/the-developer-s-true-goal.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/01/05/the-developer-s-true-goal.aspx
 dsq_thread_id:
   - "264716624"
 categories:

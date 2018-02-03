@@ -1,10 +1,10 @@
 ---
-id: 33
+wordpress_id: 33
 title: Fluent Silverlight – Implementing a fluent API
 date: 2010-01-02T10:04:00+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/01/02/fluent-silverlight-implementing-a-fluent-api.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/01/02/fluent-silverlight-implementing-a-fluent-api.aspx
 dsq_thread_id:
   - "263908913"
 categories:

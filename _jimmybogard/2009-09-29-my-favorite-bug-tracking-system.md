@@ -1,10 +1,10 @@
 ---
-id: 355
+wordpress_id: 355
 title: My favorite bug-tracking system
 date: 2009-09-29T17:57:03+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/09/29/my-favorite-bug-tracking-system.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/09/29/my-favorite-bug-tracking-system.aspx
 dsq_thread_id:
   - "264716307"
 categories:

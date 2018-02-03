@@ -1,10 +1,10 @@
 ---
-id: 511
+wordpress_id: 511
 title: AngularJS–Part 9, Values and constants
 date: 2014-01-14T21:28:31+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=511
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=511
 dsq_thread_id:
   - "2123648711"
 categories:

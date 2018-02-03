@@ -1,10 +1,10 @@
 ---
-id: 146
+wordpress_id: 146
 title: 'Going Controller-less in MVC: The Way Fowler Meant It To Be'
 date: 2009-06-18T07:06:09+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/06/18/going-controller-less-in-mvc-the-way-fowler-meant-it.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/06/18/going-controller-less-in-mvc-the-way-fowler-meant-it.aspx
 dsq_thread_id:
   - "262114418"
 categories:

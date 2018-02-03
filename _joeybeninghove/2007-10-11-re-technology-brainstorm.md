@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: 'RE: Technology Brainstorm'
 date: 2007-10-11T01:47:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/10/10/re-technology-brainstorm.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/10/10/re-technology-brainstorm.aspx
 categories:
   - Castle
   - Domain Driven Design

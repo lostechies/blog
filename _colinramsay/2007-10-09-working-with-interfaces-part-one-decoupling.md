@@ -1,10 +1,10 @@
 ---
-id: 4682
+wordpress_id: 4682
 title: 'Working with Interfaces Part Two &#8211; Decoupling'
 date: 2007-10-09T20:47:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2007/10/09/working-with-interfaces-part-one-decoupling.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2007/10/09/working-with-interfaces-part-one-decoupling.aspx
 categories:
   - 'c# practices interfaces'
 ---

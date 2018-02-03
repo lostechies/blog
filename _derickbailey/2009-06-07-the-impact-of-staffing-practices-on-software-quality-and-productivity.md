@@ -1,10 +1,10 @@
 ---
-id: 59
+wordpress_id: 59
 title: The Impact of Staffing Practices on Software Quality and Productivity
 date: 2009-06-07T23:59:55+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/06/07/the-impact-of-staffing-practices-on-software-quality-and-productivity.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/06/07/the-impact-of-staffing-practices-on-software-quality-and-productivity.aspx
 dsq_thread_id:
   - "262068223"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1009
+wordpress_id: 1009
 title: 'JavaScript Mixins: Beyond Simple Object Extension'
 date: 2012-10-07T07:02:29+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1009
+wordpress_guid: http://lostechies.com/derickbailey/?p=1009
 dsq_thread_id:
   - "874597477"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 333
+wordpress_id: 333
 title: Extending Objects with JavaScript
 date: 2012-09-27T22:00:18+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=333
+wordpress_guid: http://lostechies.com/chrismissal/?p=333
 dsq_thread_id:
   - "862397308"
 categories:

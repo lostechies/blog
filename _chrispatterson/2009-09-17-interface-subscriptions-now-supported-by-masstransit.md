@@ -1,10 +1,10 @@
 ---
-id: 59
+wordpress_id: 59
 title: Interface Subscriptions Now Supported by MassTransit
 date: 2009-09-17T01:46:05+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/09/16/interface-subscriptions-now-supported-by-masstransit.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/09/16/interface-subscriptions-now-supported-by-masstransit.aspx
 dsq_thread_id:
   - "263274320"
 categories:

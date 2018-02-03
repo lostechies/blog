@@ -1,10 +1,10 @@
 ---
-id: 2991
+wordpress_id: 2991
 title: 'Community For MVC – Virtual Meeting – Wednesday 9/16/2009 12:00 &#8211; 1:00 PM CST ; T4MVC presented by David Ebbo'
 date: 2009-09-14T18:16:19+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/09/14/community-for-mvc-virtual-meeting-wednesday-9-16-2009-12-00-1-00-pm-cst-t4mvc-presented-by-david-ebbo.aspx
+wordpress_guid: /blogs/hex/archive/2009/09/14/community-for-mvc-virtual-meeting-wednesday-9-16-2009-12-00-1-00-pm-cst-t4mvc-presented-by-david-ebbo.aspx
 dsq_thread_id:
   - "271653978"
 categories:

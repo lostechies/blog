@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: 'Ugh&#8230;&#8230;&#8217;Fun with JavaScript &#8211; Part 0&#8242;'
 date: 2007-03-31T05:32:00+00:00
 author: Joshua Lockwood
 layout: post
-guid: /blogs/joshua_lockwood/archive/2007/03/31/ugh-fun-with-javascript-part-0.aspx
+wordpress_guid: /blogs/joshua_lockwood/archive/2007/03/31/ugh-fun-with-javascript-part-0.aspx
 categories:
   - JavaScript
   - jscript

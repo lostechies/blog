@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: Quality Must Be Built In – It Cannot Be Added On
 date: 2009-02-27T03:58:47+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/02/26/quality-must-be-built-in-it-cannot-be-added-on.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/02/26/quality-must-be-built-in-it-cannot-be-added-on.aspx
 dsq_thread_id:
   - "262068075"
 categories:

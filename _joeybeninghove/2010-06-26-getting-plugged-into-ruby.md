@@ -1,10 +1,10 @@
 ---
-id: 74
+wordpress_id: 74
 title: Getting plugged into Ruby
 date: 2010-06-26T03:28:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2010/06/26/getting-plugged-into-ruby.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2010/06/26/getting-plugged-into-ruby.aspx
 categories:
   - Community
   - podcasts

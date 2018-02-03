@@ -1,10 +1,10 @@
 ---
-id: 541
+wordpress_id: 541
 title: The Dart Hello World
 date: 2011-10-12T13:08:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/10/12/the-dart-hello-world/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/10/12/the-dart-hello-world/
 dsq_thread_id:
   - "441124109"
 categories:

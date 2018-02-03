@@ -1,10 +1,10 @@
 ---
-id: 4569
+wordpress_id: 4569
 title: Mocking Queryables
 date: 2008-11-04T15:59:09+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/11/04/mocking-queryables.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/11/04/mocking-queryables.aspx
 categories:
   - TDD
 ---

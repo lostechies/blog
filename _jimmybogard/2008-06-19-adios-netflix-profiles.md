@@ -1,10 +1,10 @@
 ---
-id: 196
+wordpress_id: 196
 title: Adios, Netflix profiles
 date: 2008-06-19T02:01:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/06/18/adios-netflix-profiles.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/06/18/adios-netflix-profiles.aspx
 dsq_thread_id:
   - "264715804"
 categories:

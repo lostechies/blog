@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: 'Python Web Framework Series – Pylons: Part 1 Getting Started'
 date: 2009-06-23T14:00:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/06/23/python-web-framework-series-pylons-part-1-getting-started.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/06/23/python-web-framework-series-pylons-part-1-getting-started.aspx
 dsq_thread_id:
   - "441378294"
 categories:

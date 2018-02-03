@@ -1,10 +1,10 @@
 ---
-id: 649
+wordpress_id: 649
 title: 'RabbitMQ for Windows: Introduction'
 date: 2012-03-05T07:00:00+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=649
+wordpress_guid: http://lostechies.com/derekgreer/?p=649
 dsq_thread_id:
   - "599330771"
 categories:

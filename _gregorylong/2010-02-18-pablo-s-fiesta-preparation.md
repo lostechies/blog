@@ -1,10 +1,10 @@
 ---
-id: 4792
+wordpress_id: 4792
 title: 'Pablo&#8217;s Fiesta Preparation'
 date: 2010-02-18T17:50:00+00:00
 author: Gregory Long
 layout: post
-guid: /blogs/thatotherguy/archive/2010/02/18/pablo-s-fiesta-preparation.aspx
+wordpress_guid: /blogs/thatotherguy/archive/2010/02/18/pablo-s-fiesta-preparation.aspx
 dsq_thread_id:
   - "301634554"
 categories:

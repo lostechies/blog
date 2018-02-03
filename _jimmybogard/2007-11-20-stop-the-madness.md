@@ -1,10 +1,10 @@
 ---
-id: 104
+wordpress_id: 104
 title: Stop the madness
 date: 2007-11-20T22:01:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/20/stop-the-madness.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/20/stop-the-madness.aspx
 dsq_thread_id:
   - "264715439"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 67
+wordpress_id: 67
 title: 'Exploring ShadeTree Features, Part 1: Static Reflection with ReflectionHelper'
 date: 2008-07-06T23:38:56+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/07/06/exploring-shadetree-features-part-1-static-reflection-with-reflectionhelper.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/07/06/exploring-shadetree-features-part-1-static-reflection-with-reflectionhelper.aspx
 dsq_thread_id:
   - "262113929"
 categories:

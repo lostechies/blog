@@ -1,10 +1,10 @@
 ---
-id: 944
+wordpress_id: 944
 title: Announcing Austin Code Camp 2014
 date: 2014-08-26T20:35:51+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=944
+wordpress_guid: http://lostechies.com/jimmybogard/?p=944
 dsq_thread_id:
   - "2961755296"
 categories:

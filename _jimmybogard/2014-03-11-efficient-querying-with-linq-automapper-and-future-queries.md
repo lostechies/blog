@@ -1,10 +1,10 @@
 ---
-id: 881
+wordpress_id: 881
 title: Efficient querying with LINQ, AutoMapper and Future queries
 date: 2014-03-11T19:31:31+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=881
+wordpress_guid: http://lostechies.com/jimmybogard/?p=881
 dsq_thread_id:
   - "2409245524"
 categories:

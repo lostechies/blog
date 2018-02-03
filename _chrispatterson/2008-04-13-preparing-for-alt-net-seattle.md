@@ -1,10 +1,10 @@
 ---
-id: 3585
+wordpress_id: 3585
 title: Preparing for ALT.NET Seattle
 date: 2008-04-13T18:36:45+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/04/13/preparing-for-alt-net-seattle.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/04/13/preparing-for-alt-net-seattle.aspx
 dsq_thread_id:
   - "450726259"
 categories:

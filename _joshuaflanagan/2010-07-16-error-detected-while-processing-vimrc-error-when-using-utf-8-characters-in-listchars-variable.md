@@ -1,10 +1,10 @@
 ---
-id: 3963
+wordpress_id: 3963
 title: Error detected while processing vimrc error when using UTF-8 characters in listchars variable
 date: 2010-07-16T16:23:57+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/07/16/error-detected-while-processing-vimrc-error-when-using-utf-8-characters-in-listchars-variable.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/07/16/error-detected-while-processing-vimrc-error-when-using-utf-8-characters-in-listchars-variable.aspx
 dsq_thread_id:
   - "262113254"
 categories:

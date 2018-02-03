@@ -1,10 +1,10 @@
 ---
-id: 27
+wordpress_id: 27
 title: Interesting (good) Behavior of Closures
 date: 2008-03-09T03:42:00+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/03/08/interesting-good-behavior-of-closures.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/03/08/interesting-good-behavior-of-closures.aspx
 dsq_thread_id:
   - "262113699"
 categories:

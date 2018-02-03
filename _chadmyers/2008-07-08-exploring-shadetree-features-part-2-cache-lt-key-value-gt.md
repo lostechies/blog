@@ -1,10 +1,10 @@
 ---
-id: 68
+wordpress_id: 68
 title: 'Exploring ShadeTree Features, Part 2: Cache<KEY, VALUE>'
 date: 2008-07-08T02:48:33+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/07/07/exploring-shadetree-features-part-2-cache-lt-key-value-gt.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/07/07/exploring-shadetree-features-part-2-cache-lt-key-value-gt.aspx
 dsq_thread_id:
   - "264388950"
 categories:

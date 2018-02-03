@@ -1,10 +1,10 @@
 ---
-id: 918
+wordpress_id: 918
 title: 'Conventional HTML in ASP.NET MVC: Baseline behavior'
 date: 2014-07-17T14:11:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=918
+wordpress_guid: http://lostechies.com/jimmybogard/?p=918
 dsq_thread_id:
   - "2851182171"
 categories:

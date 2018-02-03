@@ -1,10 +1,10 @@
 ---
-id: 23
+wordpress_id: 23
 title: From Flex to Silverlight
 date: 2008-09-13T14:52:06+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/09/13/from-flex-to-silverlight.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/09/13/from-flex-to-silverlight.aspx
 categories:
   - Uncategorized
 ---

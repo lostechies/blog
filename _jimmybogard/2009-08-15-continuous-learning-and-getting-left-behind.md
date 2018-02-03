@@ -1,10 +1,10 @@
 ---
-id: 344
+wordpress_id: 344
 title: Continuous learning and getting left behind
 date: 2009-08-15T21:27:08+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/08/15/continuous-learning-and-getting-left-behind.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/08/15/continuous-learning-and-getting-left-behind.aspx
 dsq_thread_id:
   - "264716269"
 categories:

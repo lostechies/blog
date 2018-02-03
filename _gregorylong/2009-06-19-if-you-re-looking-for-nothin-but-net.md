@@ -1,10 +1,10 @@
 ---
-id: 4789
+wordpress_id: 4789
 title: 'If You&#8217;re Looking for Nothin But .Net . . .'
 date: 2009-06-19T02:22:04+00:00
 author: Gregory Long
 layout: post
-guid: /blogs/thatotherguy/archive/2009/06/18/if-you-re-looking-for-nothin-but-net.aspx
+wordpress_guid: /blogs/thatotherguy/archive/2009/06/18/if-you-re-looking-for-nothin-but-net.aspx
 dsq_thread_id:
   - "265816400"
 categories:

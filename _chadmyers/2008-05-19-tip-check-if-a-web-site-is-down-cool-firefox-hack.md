@@ -1,10 +1,10 @@
 ---
-id: 51
+wordpress_id: 51
 title: 'TIP: Check if a web site is down + cool FireFox hack'
 date: 2008-05-19T13:58:18+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/05/19/tip-check-if-a-web-site-is-down-cool-firefox-hack.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/05/19/tip-check-if-a-web-site-is-down-cool-firefox-hack.aspx
 dsq_thread_id:
   - "262113815"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4568
+wordpress_id: 4568
 title: Collecting Errors
 date: 2008-10-28T15:12:03+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/10/28/collecting-errors.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/10/28/collecting-errors.aspx
 categories:
   - Design Patterns
 ---

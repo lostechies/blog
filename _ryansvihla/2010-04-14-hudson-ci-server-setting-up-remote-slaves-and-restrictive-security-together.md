@@ -1,10 +1,10 @@
 ---
-id: 39
+wordpress_id: 39
 title: 'Hudson CI Server: setting up remote slaves AND restrictive security together'
 date: 2010-04-14T14:35:12+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/04/14/hudson-ci-server-setting-up-remote-slaves-and-restrictive-security-together.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/04/14/hudson-ci-server-setting-up-remote-slaves-and-restrictive-security-together.aspx
 dsq_thread_id:
   - "1069725906"
 categories:

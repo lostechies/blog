@@ -1,10 +1,10 @@
 ---
-id: 324
+wordpress_id: 324
 title: Loading KnockoutJS View Models from ASP.Net MVC, for faster page loads
 date: 2012-11-29T23:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=324
+wordpress_guid: http://lostechies.com/erichexter/?p=324
 dsq_thread_id:
   - "949133224"
 categories:

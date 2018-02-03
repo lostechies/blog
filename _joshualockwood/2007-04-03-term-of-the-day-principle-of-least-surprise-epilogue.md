@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: 'Term of the Day: Principle Of Least Surprise &#8211; Epilogue'
 date: 2007-04-03T17:51:00+00:00
 author: Joshua Lockwood
 layout: post
-guid: /blogs/joshua_lockwood/archive/2007/04/03/term-of-the-day-principle-of-least-surprise-epilogue.aspx
+wordpress_guid: /blogs/joshua_lockwood/archive/2007/04/03/term-of-the-day-principle-of-least-surprise-epilogue.aspx
 categories:
   - Agile
   - Best Practices

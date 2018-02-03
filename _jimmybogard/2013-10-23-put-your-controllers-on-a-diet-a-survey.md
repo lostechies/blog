@@ -1,10 +1,10 @@
 ---
-id: 838
+wordpress_id: 838
 title: 'Put your controllers on a diet: a survey'
 date: 2013-10-23T20:43:24+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=838
+wordpress_guid: http://lostechies.com/jimmybogard/?p=838
 dsq_thread_id:
   - "1892350010"
 categories:

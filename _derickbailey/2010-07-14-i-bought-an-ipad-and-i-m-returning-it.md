@@ -1,10 +1,10 @@
 ---
-id: 172
+wordpress_id: 172
 title: I Bought An iPad… And I’m Returning It.
 date: 2010-07-14T03:24:47+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/07/13/i-bought-an-ipad-and-i-m-returning-it.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/07/13/i-bought-an-ipad-and-i-m-returning-it.aspx
 dsq_thread_id:
   - "263072431"
 categories:

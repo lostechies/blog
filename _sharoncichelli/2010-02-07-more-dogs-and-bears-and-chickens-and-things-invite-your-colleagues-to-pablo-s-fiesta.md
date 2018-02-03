@@ -1,10 +1,10 @@
 ---
-id: 3862
+wordpress_id: 3862
 title: 'More Dogs and Bears and Chickens and Things: Invite your colleagues to Pablo&#8217;s Fiesta'
 date: 2010-02-07T22:16:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2010/02/07/more-dogs-and-bears-and-chickens-and-things-invite-your-colleagues-to-pablo-s-fiesta.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2010/02/07/more-dogs-and-bears-and-chickens-and-things-invite-your-colleagues-to-pablo-s-fiesta.aspx
 dsq_thread_id:
   - "263370994"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 50
+wordpress_id: 50
 title: FluentNHibernate Contrib (FNH.Contrib) Is Alive!
 date: 2009-05-14T02:14:06+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/05/13/fluentnhibernate-contrib-fnh-contrib-is-alive.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/05/13/fluentnhibernate-contrib-fnh-contrib-is-alive.aspx
 dsq_thread_id:
   - "262068153"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 206
+wordpress_id: 206
 title: Speaking at ADNUG tonight
 date: 2008-07-14T11:35:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/07/14/speaking-at-adnug-tonight.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/07/14/speaking-at-adnug-tonight.aspx
 dsq_thread_id:
   - "265770131"
 categories:

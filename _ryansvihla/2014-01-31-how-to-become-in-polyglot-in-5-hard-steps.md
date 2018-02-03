@@ -1,10 +1,10 @@
 ---
-id: 85
+wordpress_id: 85
 title: How to become in polyglot in 5 hard steps.
 date: 2014-01-31T23:02:41+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=85
+wordpress_guid: http://lostechies.com/ryansvihla/?p=85
 dsq_thread_id:
   - "2204944487"
 categories:

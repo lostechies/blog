@@ -1,10 +1,10 @@
 ---
-id: 293
+wordpress_id: 293
 title: Convention over lots of code
 date: 2011-06-10T16:06:20+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/2011/06/10/convention-over-lots-of-code/
+wordpress_guid: http://lostechies.com/chadmyers/2011/06/10/convention-over-lots-of-code/
 dsq_thread_id:
   - "328100063"
 categories:

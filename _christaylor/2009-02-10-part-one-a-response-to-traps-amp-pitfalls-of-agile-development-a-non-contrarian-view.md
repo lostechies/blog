@@ -1,10 +1,10 @@
 ---
-id: 4809
+wordpress_id: 4809
 title: 'Part One &#8211; A Response to “Traps &#038; Pitfalls of Agile Development – A Non-Contrarian View”'
 date: 2009-02-10T12:35:00+00:00
 author: Chris Taylor
 layout: post
-guid: /blogs/agilecruz/archive/2009/02/10/part-one-a-response-to-traps-amp-pitfalls-of-agile-development-a-non-contrarian-view.aspx
+wordpress_guid: /blogs/agilecruz/archive/2009/02/10/part-one-a-response-to-traps-amp-pitfalls-of-agile-development-a-non-contrarian-view.aspx
 categories:
   - Agile Development
   - Community

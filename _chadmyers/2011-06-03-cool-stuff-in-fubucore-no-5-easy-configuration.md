@@ -1,10 +1,10 @@
 ---
-id: 196
+wordpress_id: 196
 title: 'Cool stuff in FubuCore No. 5: Easy Configuration'
 date: 2011-06-03T18:16:00+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=196
+wordpress_guid: http://lostechies.com/chadmyers/?p=196
 dsq_thread_id:
   - "321667257"
 categories:

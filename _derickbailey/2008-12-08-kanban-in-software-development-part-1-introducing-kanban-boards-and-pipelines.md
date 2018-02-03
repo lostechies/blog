@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: 'Kanban in Software Development. Part 1: Introducing Kanban Boards and Pipelines'
 date: 2008-12-08T15:45:24+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/12/08/kanban-in-software-development-part-1-introducing-kanban-boards-and-pipelines.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/12/08/kanban-in-software-development-part-1-introducing-kanban-boards-and-pipelines.aspx
 dsq_thread_id:
   - "262123906"
 categories:

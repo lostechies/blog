@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: Dynamic Loading of .Net Assemblies
 date: 2009-08-31T22:29:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/08/31/dynamic-loading-of-net-assemblies.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/08/31/dynamic-loading-of-net-assemblies.aspx
 dsq_thread_id:
   - "425624292"
 categories:

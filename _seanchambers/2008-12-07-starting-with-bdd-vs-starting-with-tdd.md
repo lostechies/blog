@@ -1,10 +1,10 @@
 ---
-id: 3187
+wordpress_id: 3187
 title: Starting with BDD vs. starting with TDD
 date: 2008-12-07T14:37:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/12/07/starting-with-bdd-vs-starting-with-tdd.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/12/07/starting-with-bdd-vs-starting-with-tdd.aspx
 dsq_thread_id:
   - "262110465"
 categories:

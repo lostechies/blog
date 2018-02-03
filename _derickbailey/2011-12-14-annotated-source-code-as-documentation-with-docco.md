@@ -1,10 +1,10 @@
 ---
-id: 712
+wordpress_id: 712
 title: Annotated Source Code As Documentation, With Docco
 date: 2011-12-14T09:27:59+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=712
+wordpress_guid: http://lostechies.com/derickbailey/?p=712
 dsq_thread_id:
   - "504301405"
 categories:

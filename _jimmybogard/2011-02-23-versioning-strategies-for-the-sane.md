@@ -1,10 +1,10 @@
 ---
-id: 457
+wordpress_id: 457
 title: Versioning strategies for the sane
 date: 2011-02-23T03:14:51+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/02/22/versioning-strategies-for-the-sane.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/02/22/versioning-strategies-for-the-sane.aspx
 dsq_thread_id:
   - "264776681"
 categories:

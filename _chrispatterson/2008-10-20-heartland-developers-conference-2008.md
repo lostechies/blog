@@ -1,10 +1,10 @@
 ---
-id: 3600
+wordpress_id: 3600
 title: Heartland Developers Conference 2008
 date: 2008-10-20T01:03:49+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/10/19/heartland-developers-conference-2008.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/10/19/heartland-developers-conference-2008.aspx
 dsq_thread_id:
   - "282353040"
 categories:

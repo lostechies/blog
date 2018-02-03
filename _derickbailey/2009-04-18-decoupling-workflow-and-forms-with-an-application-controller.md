@@ -1,10 +1,10 @@
 ---
-id: 49
+wordpress_id: 49
 title: Decoupling Workflow And Forms With An Application Controller
 date: 2009-04-18T18:04:41+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller.aspx
 dsq_thread_id:
   - "262050653"
 categories:

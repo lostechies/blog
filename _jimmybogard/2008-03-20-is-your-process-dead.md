@@ -1,10 +1,10 @@
 ---
-id: 161
+wordpress_id: 161
 title: Is your process dead?
 date: 2008-03-20T23:31:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/20/is-your-process-dead.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/20/is-your-process-dead.aspx
 dsq_thread_id:
   - "264715635"
 categories:

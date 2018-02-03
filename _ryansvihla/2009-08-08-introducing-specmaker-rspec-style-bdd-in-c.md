@@ -1,10 +1,10 @@
 ---
-id: 25
+wordpress_id: 25
 title: 'Introducing SpecMaker “Rspec style” BDD in C#'
 date: 2009-08-08T12:00:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/08/08/introducing-specmaker-rspec-style-bdd-in-c.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/08/08/introducing-specmaker-rspec-style-bdd-in-c.aspx
 dsq_thread_id:
   - "426147963"
 categories:

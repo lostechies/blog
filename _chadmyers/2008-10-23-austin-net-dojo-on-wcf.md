@@ -1,10 +1,10 @@
 ---
-id: 97
+wordpress_id: 97
 title: Austin .NET Dojo on WCF
 date: 2008-10-23T15:09:59+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/23/austin-net-dojo-on-wcf.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/23/austin-net-dojo-on-wcf.aspx
 dsq_thread_id:
   - "1076065921"
 categories:

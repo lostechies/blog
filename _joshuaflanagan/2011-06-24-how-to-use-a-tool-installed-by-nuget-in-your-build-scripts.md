@@ -1,10 +1,10 @@
 ---
-id: 3977
+wordpress_id: 3977
 title: How to use a tool installed by Nuget in your build scripts
 date: 2011-06-24T12:52:50+00:00
 author: Joshua Flanagan
 layout: post
-guid: http://lostechies.com/joshuaflanagan/2011/06/24/how-to-use-a-tool-installed-by-nuget-in-your-build-scripts/
+wordpress_guid: http://lostechies.com/joshuaflanagan/2011/06/24/how-to-use-a-tool-installed-by-nuget-in-your-build-scripts/
 dsq_thread_id:
   - "341371739"
 categories:

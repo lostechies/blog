@@ -1,10 +1,10 @@
 ---
-id: 279
+wordpress_id: 279
 title: DDD Aggregate Component pattern in action
 date: 2009-02-05T04:46:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/04/ddd-aggregate-component-pattern-in-action.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/04/ddd-aggregate-component-pattern-in-action.aspx
 dsq_thread_id:
   - "264716050"
 categories:

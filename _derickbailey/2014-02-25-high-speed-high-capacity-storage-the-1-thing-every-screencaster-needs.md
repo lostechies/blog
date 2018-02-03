@@ -1,10 +1,10 @@
 ---
-id: 1270
+wordpress_id: 1270
 title: 'High Speed, High Capacity Storage: The 1 Thing Every Screencaster Needs'
 date: 2014-02-25T07:08:36+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1270
+wordpress_guid: http://lostechies.com/derickbailey/?p=1270
 dsq_thread_id:
   - "2291540288"
 categories:

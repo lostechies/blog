@@ -1,10 +1,10 @@
 ---
-id: 1082
+wordpress_id: 1082
 title: 'Upgrading NServiceBus &#8211; A painful experience'
 date: 2015-07-07T11:06:59+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1082
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1082
 dsq_thread_id:
   - "3912913753"
 categories:

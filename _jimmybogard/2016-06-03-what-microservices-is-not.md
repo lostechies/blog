@@ -1,10 +1,10 @@
 ---
-id: 1192
+wordpress_id: 1192
 title: What Microservices Is Not
 date: 2016-06-03T14:52:06+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1192
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1192
 dsq_thread_id:
   - "4880917181"
 categories:

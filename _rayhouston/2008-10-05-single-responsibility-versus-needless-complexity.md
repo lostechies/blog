@@ -1,10 +1,10 @@
 ---
-id: 27
+wordpress_id: 27
 title: Single-Responsibility Versus Needless Complexity
 date: 2008-10-05T22:07:10+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/10/05/single-responsibility-versus-needless-complexity.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/10/05/single-responsibility-versus-needless-complexity.aspx
 categories:
   - Uncategorized
 ---

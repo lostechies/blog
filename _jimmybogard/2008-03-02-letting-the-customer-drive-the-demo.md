@@ -1,10 +1,10 @@
 ---
-id: 151
+wordpress_id: 151
 title: Letting the customer drive the demo
 date: 2008-03-02T15:01:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/02/letting-the-customer-drive-the-demo.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/02/letting-the-customer-drive-the-demo.aspx
 dsq_thread_id:
   - "264715580"
 categories:

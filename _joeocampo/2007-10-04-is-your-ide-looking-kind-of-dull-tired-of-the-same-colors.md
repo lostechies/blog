@@ -1,10 +1,10 @@
 ---
-id: 70
+wordpress_id: 70
 title: 'Is your IDE looking kind of dull?  Tired of the same colors?'
 date: 2007-10-04T03:40:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/03/is-your-ide-looking-kind-of-dull-tired-of-the-same-colors.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/03/is-your-ide-looking-kind-of-dull-tired-of-the-same-colors.aspx
 dsq_thread_id:
   - "262090075"
 categories:

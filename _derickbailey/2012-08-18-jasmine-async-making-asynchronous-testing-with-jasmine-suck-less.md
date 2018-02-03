@@ -1,10 +1,10 @@
 ---
-id: 982
+wordpress_id: 982
 title: 'Jasmine.Async: Making Asynchronous Testing With Jasmine Suck Less'
 date: 2012-08-18T13:54:44+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=982
+wordpress_guid: http://lostechies.com/derickbailey/?p=982
 dsq_thread_id:
   - "810302712"
 categories:

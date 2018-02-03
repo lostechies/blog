@@ -1,10 +1,10 @@
 ---
-id: 307
+wordpress_id: 307
 title: Twitter.Bootstrap.MVC4; the Bootstrap package for ASP.Net MVC4
 date: 2012-11-20T23:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=307
+wordpress_guid: http://lostechies.com/erichexter/?p=307
 dsq_thread_id:
   - "934107937"
 categories:

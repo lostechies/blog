@@ -1,10 +1,10 @@
 ---
-id: 4217
+wordpress_id: 4217
 title: 'Better git-svn Through Aliases: git up &#038; git dci'
 date: 2010-11-29T14:00:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/11/29/git_2D00_svn_2D00_aliases_2D00_git_2D00_up_2D00_and_2D00_git_2D00_dci.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/11/29/git_2D00_svn_2D00_aliases_2D00_git_2D00_up_2D00_and_2D00_git_2D00_dci.aspx
 dsq_thread_id:
   - "262699820"
 categories:

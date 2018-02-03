@@ -1,10 +1,10 @@
 ---
-id: 109
+wordpress_id: 109
 title: 'Would you like to be employee #1 at a Software Company'
 date: 2012-05-23T20:21:27+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=109
+wordpress_guid: http://lostechies.com/johnteague/?p=109
 dsq_thread_id:
   - "701298205"
 categories:

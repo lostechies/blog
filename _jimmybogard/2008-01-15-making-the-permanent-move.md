@@ -1,10 +1,10 @@
 ---
-id: 128
+wordpress_id: 128
 title: Making the permanent move
 date: 2008-01-15T03:22:36+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/14/making-the-permanent-move.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/14/making-the-permanent-move.aspx
 dsq_thread_id:
   - "265611933"
 categories:

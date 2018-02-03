@@ -1,10 +1,10 @@
 ---
-id: 50
+wordpress_id: 50
 title: Ranting about the quality of developers
 date: 2011-01-18T05:01:48+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2011/01/18/ranting-about-the-quality-of-developers.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2011/01/18/ranting-about-the-quality-of-developers.aspx
 dsq_thread_id:
   - "263908951"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 122
+wordpress_id: 122
 title: Sagas, State Machines, and Abandoned Carts
 date: 2015-09-11T21:39:19+00:00
 author: Chris Patterson
 layout: post
-guid: https://lostechies.com/chrispatterson/?p=122
+wordpress_guid: https://lostechies.com/chrispatterson/?p=122
 dsq_thread_id:
   - "4121435944"
 categories:

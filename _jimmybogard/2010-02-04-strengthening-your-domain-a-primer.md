@@ -1,10 +1,10 @@
 ---
-id: 389
+wordpress_id: 389
 title: 'Strengthening your domain: a primer'
 date: 2010-02-04T02:41:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx
 dsq_thread_id:
   - "264781121"
 categories:

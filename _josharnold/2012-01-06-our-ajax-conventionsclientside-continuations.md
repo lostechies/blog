@@ -1,10 +1,10 @@
 ---
-id: 4100
+wordpress_id: 4100
 title: Our Ajax Conventions–Clientside Continuations
 date: 2012-01-06T14:00:26+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=136
+wordpress_guid: http://lostechies.com/josharnold/?p=136
 dsq_thread_id:
   - "529011319"
 categories:

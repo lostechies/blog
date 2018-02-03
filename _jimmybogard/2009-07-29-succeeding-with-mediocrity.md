@@ -1,10 +1,10 @@
 ---
-id: 340
+wordpress_id: 340
 title: Succeeding with mediocrity
 date: 2009-07-29T03:34:54+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/28/succeeding-with-mediocrity.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/28/succeeding-with-mediocrity.aspx
 dsq_thread_id:
   - "264716277"
 categories:

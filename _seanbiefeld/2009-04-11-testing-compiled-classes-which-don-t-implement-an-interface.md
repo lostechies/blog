@@ -1,10 +1,10 @@
 ---
-id: 4453
+wordpress_id: 4453
 title: 'Testing with a Compiled Class that Doesn&#8217;t Implement an Interface &#8211; Adapter Pattern'
 date: 2009-04-11T01:26:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2009/04/10/testing-compiled-classes-which-don-t-implement-an-interface.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2009/04/10/testing-compiled-classes-which-don-t-implement-an-interface.aspx
 dsq_thread_id:
   - "459858757"
 categories:

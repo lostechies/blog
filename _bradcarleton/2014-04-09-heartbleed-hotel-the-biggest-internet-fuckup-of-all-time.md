@@ -1,10 +1,10 @@
 ---
-id: 215
+wordpress_id: 215
 title: 'Heartbleed Hotel: The biggest Internet f*ckup of all time'
 date: 2014-04-09T04:36:43+00:00
 author: Brad Carleton
 layout: post
-guid: http://lostechies.com/bradcarleton/?p=215
+wordpress_guid: http://lostechies.com/bradcarleton/?p=215
 dsq_thread_id:
   - "2597697153"
 categories:

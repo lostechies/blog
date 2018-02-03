@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: Announcing an Austin TDD Randori/CodingDojo Session
 date: 2008-01-05T12:46:46+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/01/05/announcing-an-austin-tdd-randori-codingdojo-session.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/01/05/announcing-an-austin-tdd-randori-codingdojo-session.aspx
 dsq_thread_id:
   - "262113553"
 categories:

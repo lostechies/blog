@@ -1,10 +1,10 @@
 ---
-id: 2961
+wordpress_id: 2961
 title: I will be presenting An Afternoon of Asp.Net MVC with Headspring Systems – February 19th in Austin
 date: 2009-02-09T16:50:31+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/02/09/i-will-be-presenting-an-afternoon-of-asp-net-mvc-with-headspring-systems-february-19th-in-austin.aspx
+wordpress_guid: /blogs/hex/archive/2009/02/09/i-will-be-presenting-an-afternoon-of-asp-net-mvc-with-headspring-systems-february-19th-in-austin.aspx
 dsq_thread_id:
   - "271112678"
 categories:

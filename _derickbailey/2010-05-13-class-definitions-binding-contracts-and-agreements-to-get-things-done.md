@@ -1,10 +1,10 @@
 ---
-id: 156
+wordpress_id: 156
 title: 'Class Definitions: Binding Contracts And Agreements To Get Things Done'
 date: 2010-05-13T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/13/class-definitions-binding-contracts-and-agreements-to-get-things-done.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/13/class-definitions-binding-contracts-and-agreements-to-get-things-done.aspx
 dsq_thread_id:
   - "265083004"
 categories:

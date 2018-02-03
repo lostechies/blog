@@ -1,10 +1,10 @@
 ---
-id: 3348
+wordpress_id: 3348
 title: Workaround is a Four-Letter Word
 date: 2009-04-03T00:13:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/04/02/workaround-is-a-four-letter-word.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/04/02/workaround-is-a-four-letter-word.aspx
 dsq_thread_id:
   - "262174849"
 categories:

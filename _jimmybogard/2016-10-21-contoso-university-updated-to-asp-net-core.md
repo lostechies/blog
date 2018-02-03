@@ -1,10 +1,10 @@
 ---
-id: 1231
+wordpress_id: 1231
 title: Contoso University updated to ASP.NET Core
 date: 2016-10-21T15:33:27+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1231
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1231
 dsq_thread_id:
   - "5241607734"
 categories:

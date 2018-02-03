@@ -1,10 +1,10 @@
 ---
-id: 162
+wordpress_id: 162
 title: Model Based Apps and Frameworks
 date: 2010-05-29T03:57:27+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/05/28/model-based-apps-and-frameworks.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/05/28/model-based-apps-and-frameworks.aspx
 dsq_thread_id:
   - "262114513"
 categories:

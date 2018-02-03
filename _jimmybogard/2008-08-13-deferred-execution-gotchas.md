@@ -1,10 +1,10 @@
 ---
-id: 216
+wordpress_id: 216
 title: Deferred execution gotchas
 date: 2008-08-13T12:08:35+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/13/deferred-execution-gotchas.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/13/deferred-execution-gotchas.aspx
 dsq_thread_id:
   - "264715905"
 categories:

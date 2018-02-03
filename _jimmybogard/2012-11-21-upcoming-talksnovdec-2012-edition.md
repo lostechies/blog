@@ -1,10 +1,10 @@
 ---
-id: 698
+wordpress_id: 698
 title: Upcoming talks–Nov/Dec 2012 edition
 date: 2012-11-21T15:25:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=698
+wordpress_guid: http://lostechies.com/jimmybogard/?p=698
 dsq_thread_id:
   - "937865868"
 categories:

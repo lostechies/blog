@@ -1,10 +1,10 @@
 ---
-id: 610
+wordpress_id: 610
 title: Quick Hack To Work Around Jasmine-jQuery Fixture Limitations
 date: 2011-10-14T14:53:03+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=610
+wordpress_guid: http://lostechies.com/derickbailey/?p=610
 dsq_thread_id:
   - "443586029"
 categories:

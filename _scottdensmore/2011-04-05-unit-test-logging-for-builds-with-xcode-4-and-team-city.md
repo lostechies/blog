@@ -1,10 +1,10 @@
 ---
-id: 4615
+wordpress_id: 4615
 title: Unit Test Logging for Builds with Xcode 4 and Team City
 date: 2011-04-05T23:03:55+00:00
 author: Scott Densmore
 layout: post
-guid: http://lostechies.com/scottdensmore/?p=27
+wordpress_guid: http://lostechies.com/scottdensmore/?p=27
 dsq_thread_id:
   - "272293830"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3217
+wordpress_id: 3217
 title: 'Refactoring Day 23 : Introduce Parameter Object'
 date: 2009-08-23T11:06:49+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/23/refactoring-day-23-introduce-parameter-object.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/23/refactoring-day-23-introduce-parameter-object.aspx
 dsq_thread_id:
   - "262354826"
 categories:

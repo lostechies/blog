@@ -1,10 +1,10 @@
 ---
-id: 365
+wordpress_id: 365
 title: 'A Timely Post &#8211; Introducing Palmer and TempusReader'
 date: 2013-01-30T15:17:10+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=365
+wordpress_guid: http://lostechies.com/chrismissal/?p=365
 dsq_thread_id:
   - "1055762794"
 categories:

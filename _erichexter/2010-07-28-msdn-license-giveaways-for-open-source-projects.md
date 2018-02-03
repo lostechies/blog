@@ -1,10 +1,10 @@
 ---
-id: 3018
+wordpress_id: 3018
 title: MSDN License Giveaways for Open Source Projects
 date: 2010-07-28T01:14:57+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/07/27/msdn-license-giveaways-for-open-source-projects.aspx
+wordpress_guid: /blogs/hex/archive/2010/07/27/msdn-license-giveaways-for-open-source-projects.aspx
 dsq_thread_id:
   - "1074915726"
 categories:

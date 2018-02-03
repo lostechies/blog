@@ -1,10 +1,10 @@
 ---
-id: 688
+wordpress_id: 688
 title: 'Is JavaScript&#8217;s &#8220;Global&#8221; Scope Really Just A Closure?'
 date: 2011-11-30T21:22:22+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=688
+wordpress_guid: http://lostechies.com/derickbailey/?p=688
 dsq_thread_id:
   - "489243098"
 categories:

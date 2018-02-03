@@ -1,10 +1,10 @@
 ---
-id: 4323
+wordpress_id: 4323
 title: On Comparing Current Tools to Futureware
 date: 2008-05-20T03:55:13+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/05/19/on-comparing-current-tools-to-futureware.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/05/19/on-comparing-current-tools-to-futureware.aspx
 categories:
   - Uncategorized
 ---

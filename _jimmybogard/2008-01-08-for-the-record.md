@@ -1,10 +1,10 @@
 ---
-id: 123
+wordpress_id: 123
 title: For the record
 date: 2008-01-08T21:38:26+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/08/for-the-record.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/08/for-the-record.aspx
 dsq_thread_id:
   - "264715481"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 228
+wordpress_id: 228
 title: Some IoC Container guidelines
 date: 2008-09-12T12:10:20+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/09/12/some-ioc-container-guidelines.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/09/12/some-ioc-container-guidelines.aspx
 dsq_thread_id:
   - "266390923"
 categories:

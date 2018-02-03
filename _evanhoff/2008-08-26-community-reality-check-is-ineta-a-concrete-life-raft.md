@@ -1,10 +1,10 @@
 ---
-id: 4328
+wordpress_id: 4328
 title: 'Community Reality Check: Is INETA a concrete life raft?'
 date: 2008-08-26T01:41:38+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/08/25/community-reality-check-is-ineta-a-concrete-life-raft.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/08/25/community-reality-check-is-ineta-a-concrete-life-raft.aspx
 categories:
   - Uncategorized
 ---

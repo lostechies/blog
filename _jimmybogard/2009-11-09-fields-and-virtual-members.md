@@ -1,10 +1,10 @@
 ---
-id: 365
+wordpress_id: 365
 title: Fields and virtual members
 date: 2009-11-09T14:40:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/11/09/fields-and-virtual-members.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/11/09/fields-and-virtual-members.aspx
 dsq_thread_id:
   - "264716340"
 categories:

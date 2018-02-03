@@ -1,10 +1,10 @@
 ---
-id: 672
+wordpress_id: 672
 title: AutoMapper for Java
 date: 2012-09-17T15:13:56+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/09/17/automapper-for-java/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/09/17/automapper-for-java/
 dsq_thread_id:
   - "847874672"
 categories:

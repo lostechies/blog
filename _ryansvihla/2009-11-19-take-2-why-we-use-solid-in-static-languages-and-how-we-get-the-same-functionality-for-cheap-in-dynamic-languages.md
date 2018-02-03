@@ -1,10 +1,10 @@
 ---
-id: 33
+wordpress_id: 33
 title: 'Take 2: Why we use SOLID in static languages and how we get the same functionality for cheap in dynamic languages'
 date: 2009-11-19T22:46:17+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/11/19/take-2-why-we-use-solid-in-static-languages-and-how-we-get-the-same-functionality-for-cheap-in-dynamic-languages.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/11/19/take-2-why-we-use-solid-in-static-languages-and-how-we-get-the-same-functionality-for-cheap-in-dynamic-languages.aspx
 dsq_thread_id:
   - "425624388"
 categories:

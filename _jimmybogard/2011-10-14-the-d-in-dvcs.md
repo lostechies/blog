@@ -1,10 +1,10 @@
 ---
-id: 543
+wordpress_id: 543
 title: The D in DVCS
 date: 2011-10-14T02:58:54+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/10/14/the-d-in-dvcs/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/10/14/the-d-in-dvcs/
 dsq_thread_id:
   - "442744322"
 categories:

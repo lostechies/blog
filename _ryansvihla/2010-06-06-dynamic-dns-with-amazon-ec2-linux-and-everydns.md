@@ -1,10 +1,10 @@
 ---
-id: 41
+wordpress_id: 41
 title: Dynamic DNS with Amazon EC2 Linux and EveryDNS
 date: 2010-06-06T18:02:32+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/06/06/dynamic-dns-with-amazon-ec2-linux-and-everydns.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/06/06/dynamic-dns-with-amazon-ec2-linux-and-everydns.aspx
 dsq_thread_id:
   - "1071427002"
 categories:

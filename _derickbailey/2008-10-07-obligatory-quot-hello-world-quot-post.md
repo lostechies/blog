@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: 'Obligatory &#8220;Hello World&#8221; Post!'
 date: 2008-10-07T19:38:36+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/10/07/obligatory-quot-hello-world-quot-post.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/10/07/obligatory-quot-hello-world-quot-post.aspx
 dsq_thread_id:
   - "262067873"
 categories:

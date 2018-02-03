@@ -1,10 +1,10 @@
 ---
-id: 4219
+wordpress_id: 4219
 title: RenderAction with ASP.NET MVC 3 Sessionless Controllers
 date: 2010-12-06T14:54:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/12/06/renderaction-with-asp-net-mvc-3-sessionless-controllers.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/12/06/renderaction-with-asp-net-mvc-3-sessionless-controllers.aspx
 dsq_thread_id:
   - "262493359"
 categories:

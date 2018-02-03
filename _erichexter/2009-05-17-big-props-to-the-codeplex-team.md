@@ -1,10 +1,10 @@
 ---
-id: 2971
+wordpress_id: 2971
 title: Big Props to the Codeplex team!
 date: 2009-05-17T03:09:58+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/05/16/big-props-to-the-codeplex-team.aspx
+wordpress_guid: /blogs/hex/archive/2009/05/16/big-props-to-the-codeplex-team.aspx
 dsq_thread_id:
   - "275481808"
 categories:

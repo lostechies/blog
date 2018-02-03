@@ -1,10 +1,10 @@
 ---
-id: 35
+wordpress_id: 35
 title: Wiring Up Generics In Castle Windsor
 date: 2009-08-20T20:49:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/08/20/wiring-up-generics-in-castle-windsor.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/08/20/wiring-up-generics-in-castle-windsor.aspx
 dsq_thread_id:
   - "262055696"
 categories:

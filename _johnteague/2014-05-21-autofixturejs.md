@@ -1,10 +1,10 @@
 ---
-id: 212
+wordpress_id: 212
 title: 'AutoFixture &#8212; a Node.js Test Fixture Library'
 date: 2014-05-21T03:35:59+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=212
+wordpress_guid: http://lostechies.com/johnteague/?p=212
 dsq_thread_id:
   - "2701173483"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 658
+wordpress_id: 658
 title: ThatConference presentation content posted – Functional Testing in MVC
 date: 2012-08-22T21:21:24+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/08/22/thatconference-presentation-content-posted-functional-testing-in-mvc/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/08/22/thatconference-presentation-content-posted-functional-testing-in-mvc/
 dsq_thread_id:
   - "814950908"
 categories:

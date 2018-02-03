@@ -1,10 +1,10 @@
 ---
-id: 4527
+wordpress_id: 4527
 title: 'What&#8217;s in a Name?'
 date: 2013-09-27T23:33:35+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=85
+wordpress_guid: http://lostechies.com/patricklioi/?p=85
 dsq_thread_id:
   - "1803619101"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 181
+wordpress_id: 181
 title: 'Portable Areas three years later &#8211; Part 5'
 date: 2012-11-26T23:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=181
+wordpress_guid: http://lostechies.com/erichexter/?p=181
 dsq_thread_id:
   - "944452714"
 categories:

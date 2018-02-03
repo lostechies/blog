@@ -1,10 +1,10 @@
 ---
-id: 283
+wordpress_id: 283
 title: Language feature parity and the polyglot programmer
 date: 2009-02-15T21:36:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/15/language-feature-parity-and-the-polyglot-programmer.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/15/language-feature-parity-and-the-polyglot-programmer.aspx
 dsq_thread_id:
   - "264716059"
 categories:

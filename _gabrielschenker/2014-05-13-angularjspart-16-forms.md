@@ -1,10 +1,10 @@
 ---
-id: 803
+wordpress_id: 803
 title: AngularJS–Part 16, Forms
 date: 2014-05-13T19:20:51+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=803
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=803
 dsq_thread_id:
   - "2683340140"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3005
+wordpress_id: 3005
 title: 'Deploying your Server Roles: Using MSDeploy for Enterprise Deployments.'
 date: 2010-01-15T15:46:23+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/01/15/deploying-your-server-roles-using-msdeploy-for-enterprise-deployments.aspx
+wordpress_guid: /blogs/hex/archive/2010/01/15/deploying-your-server-roles-using-msdeploy-for-enterprise-deployments.aspx
 dsq_thread_id:
   - "262208896"
 categories:

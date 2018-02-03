@@ -1,10 +1,10 @@
 ---
-id: 103
+wordpress_id: 103
 title: Using ROI As A Constraint, Not An End In Itself
 date: 2010-02-06T14:25:10+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/02/06/using-roi-as-a-constraint-not-an-end-in-itself.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/02/06/using-roi-as-a-constraint-not-an-end-in-itself.aspx
 dsq_thread_id:
   - "264933769"
 categories:

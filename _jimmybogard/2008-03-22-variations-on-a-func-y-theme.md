@@ -1,10 +1,10 @@
 ---
-id: 162
+wordpress_id: 162
 title: Variations on a Func-y theme
 date: 2008-03-22T17:15:47+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/22/variations-on-a-func-y-theme.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/22/variations-on-a-func-y-theme.aspx
 dsq_thread_id:
   - "264715619"
 categories:

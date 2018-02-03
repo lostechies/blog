@@ -1,10 +1,10 @@
 ---
-id: 3570
+wordpress_id: 3570
 title: FTP Editing with TextMate using Cyberduck on Leopard
 date: 2007-11-15T00:42:00+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/11/14/ftp-editing-with-textmate-using-cyberduck-on-leopard.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/11/14/ftp-editing-with-textmate-using-cyberduck-on-leopard.aspx
 dsq_thread_id:
   - "262089137"
 categories:

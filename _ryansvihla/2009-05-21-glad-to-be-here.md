@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Glad to be here
 date: 2009-05-21T22:02:14+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/05/21/glad-to-be-here.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/05/21/glad-to-be-here.aspx
 dsq_thread_id:
   - "425624157"
 categories:

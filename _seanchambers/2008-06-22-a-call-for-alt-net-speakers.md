@@ -1,10 +1,10 @@
 ---
-id: 3178
+wordpress_id: 3178
 title: A call for Alt.Net Speakers
 date: 2008-06-22T00:08:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/06/21/a-call-for-alt-net-speakers.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/06/21/a-call-for-alt-net-speakers.aspx
 dsq_thread_id:
   - "268123817"
 categories:

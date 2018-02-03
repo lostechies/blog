@@ -1,10 +1,10 @@
 ---
-id: 3936
+wordpress_id: 3936
 title: Monkey patching rake for use with TeamCity
 date: 2008-09-10T22:08:54+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2008/09/10/monkey-patching-rake-for-use-with-teamcity.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2008/09/10/monkey-patching-rake-for-use-with-teamcity.aspx
 dsq_thread_id:
   - "262113109"
 categories:

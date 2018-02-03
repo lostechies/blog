@@ -1,10 +1,10 @@
 ---
-id: 571
+wordpress_id: 571
 title: The grand No Flash experiment (update)
 date: 2012-01-18T13:56:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/01/18/the-grand-no-flash-experiment-update/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/01/18/the-grand-no-flash-experiment-update/
 dsq_thread_id:
   - "543947507"
 categories:

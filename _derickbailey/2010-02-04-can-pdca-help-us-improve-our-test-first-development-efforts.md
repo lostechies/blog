@@ -1,10 +1,10 @@
 ---
-id: 102
+wordpress_id: 102
 title: Can PDCA Help Us Improve Our Test-First Development Efforts?
 date: 2010-02-04T04:42:52+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/02/03/can-pdca-help-us-improve-our-test-first-development-efforts.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/02/03/can-pdca-help-us-improve-our-test-first-development-efforts.aspx
 dsq_thread_id:
   - "262068398"
 categories:

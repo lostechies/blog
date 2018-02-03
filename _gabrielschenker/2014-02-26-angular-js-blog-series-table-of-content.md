@@ -1,10 +1,10 @@
 ---
-id: 687
+wordpress_id: 687
 title: Angular JS blog series – Table of content
 date: 2014-02-26T21:53:36+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=687
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=687
 dsq_thread_id:
   - "2328012321"
 categories:

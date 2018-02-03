@@ -1,10 +1,10 @@
 ---
-id: 26
+wordpress_id: 26
 title: RBehave with NUnit
 date: 2007-06-18T15:01:37+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/06/18/rbehave-with-nunit.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/06/18/rbehave-with-nunit.aspx
 dsq_thread_id:
   - "262089977"
 categories:

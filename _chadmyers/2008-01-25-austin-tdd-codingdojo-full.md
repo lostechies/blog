@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: Austin TDD CodingDojo Full!
 date: 2008-01-25T22:26:56+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/01/25/austin-tdd-codingdojo-full.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/01/25/austin-tdd-codingdojo-full.aspx
 dsq_thread_id:
   - "262113607"
 categories:

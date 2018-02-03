@@ -1,10 +1,10 @@
 ---
-id: 525
+wordpress_id: 525
 title: 'Don&#8217;t Execute A Backbone.js Route Handler From Your Code'
 date: 2011-08-28T22:14:47+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=525
+wordpress_guid: http://lostechies.com/derickbailey/?p=525
 dsq_thread_id:
   - "398624206"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 63
+wordpress_id: 63
 title: Forget UltraMon Checkout Display Fusion
 date: 2007-09-26T02:06:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/25/forget-ultramon-checkout-display-fusion.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/25/forget-ultramon-checkout-display-fusion.aspx
 dsq_thread_id:
   - "262089562"
 categories:

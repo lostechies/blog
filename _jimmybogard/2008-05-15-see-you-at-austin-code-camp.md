@@ -1,10 +1,10 @@
 ---
-id: 182
+wordpress_id: 182
 title: See you at Austin Code Camp!
 date: 2008-05-15T11:51:07+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/15/see-you-at-austin-code-camp.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/15/see-you-at-austin-code-camp.aspx
 dsq_thread_id:
   - "369954006"
 categories:

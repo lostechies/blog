@@ -1,10 +1,10 @@
 ---
-id: 38
+wordpress_id: 38
 title: Refining daily stand-ups
 date: 2007-07-03T20:45:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/03/refining-daily-stand-ups.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/03/refining-daily-stand-ups.aspx
 dsq_thread_id:
   - "351114192"
 categories:

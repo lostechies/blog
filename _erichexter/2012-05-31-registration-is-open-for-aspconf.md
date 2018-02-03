@@ -1,10 +1,10 @@
 ---
-id: 3022
+wordpress_id: 3022
 title: Registration is open for aspConf
 date: 2012-05-31T12:05:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=93
+wordpress_guid: http://lostechies.com/erichexter/?p=93
 dsq_thread_id:
   - "709812873"
 categories:

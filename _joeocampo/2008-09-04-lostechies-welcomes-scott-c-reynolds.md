@@ -1,10 +1,10 @@
 ---
-id: 119
+wordpress_id: 119
 title: LosTechies Welcomes Scott C Reynolds!
 date: 2008-09-04T03:43:07+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/09/03/lostechies-welcomes-scott-c-reynolds.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/09/03/lostechies-welcomes-scott-c-reynolds.aspx
 dsq_thread_id:
   - "262089871"
 categories:

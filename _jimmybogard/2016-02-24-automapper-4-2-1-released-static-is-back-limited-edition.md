@@ -1,10 +1,10 @@
 ---
-id: 1176
+wordpress_id: 1176
 title: AutoMapper 4.2.1 released – Static is back (limited) edition
 date: 2016-02-24T19:56:24+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1176
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1176
 dsq_thread_id:
   - "4608119242"
 categories:

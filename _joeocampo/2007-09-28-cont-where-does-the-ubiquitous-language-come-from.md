@@ -1,10 +1,10 @@
 ---
-id: 65
+wordpress_id: 65
 title: 'Cont: Where does the Ubiquitous Language come from?'
 date: 2007-09-28T06:08:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/28/cont-where-does-the-ubiquitous-language-come-from.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/28/cont-where-does-the-ubiquitous-language-come-from.aspx
 dsq_thread_id:
   - "262089845"
 categories:

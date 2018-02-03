@@ -1,10 +1,10 @@
 ---
-id: 409
+wordpress_id: 409
 title: Working hard and enjoying every minute of it.
 date: 2014-04-14T07:06:04+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=409
+wordpress_guid: http://lostechies.com/erichexter/?p=409
 dsq_thread_id:
   - "2612516891"
 categories:

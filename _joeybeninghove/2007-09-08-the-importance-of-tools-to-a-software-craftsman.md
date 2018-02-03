@@ -1,10 +1,10 @@
 ---
-id: 26
+wordpress_id: 26
 title: The importance of tools to a software craftsman
 date: 2007-09-08T12:10:34+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/08/the-importance-of-tools-to-a-software-craftsman.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/08/the-importance-of-tools-to-a-software-craftsman.aspx
 categories:
   - Personal
   - Productivity

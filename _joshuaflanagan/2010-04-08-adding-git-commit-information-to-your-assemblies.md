@@ -1,10 +1,10 @@
 ---
-id: 3959
+wordpress_id: 3959
 title: Adding git commit information to your assemblies
 date: 2010-04-08T04:07:51+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/04/08/adding-git-commit-information-to-your-assemblies.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/04/08/adding-git-commit-information-to-your-assemblies.aspx
 dsq_thread_id:
   - "262097341"
 categories:

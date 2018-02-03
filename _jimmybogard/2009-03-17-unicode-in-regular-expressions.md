@@ -1,10 +1,10 @@
 ---
-id: 296
+wordpress_id: 296
 title: Unicode in regular expressions
 date: 2009-03-17T01:03:23+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/03/16/unicode-in-regular-expressions.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/03/16/unicode-in-regular-expressions.aspx
 dsq_thread_id:
   - "268027361"
 categories:

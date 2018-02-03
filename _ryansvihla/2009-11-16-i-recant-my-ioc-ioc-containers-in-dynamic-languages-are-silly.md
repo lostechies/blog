@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: I recant my IoC! IoC containers in dynamic languages are silly.
 date: 2009-11-16T22:28:33+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/11/16/i-recant-my-ioc-ioc-containers-in-dynamic-languages-are-silly.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/11/16/i-recant-my-ioc-ioc-containers-in-dynamic-languages-are-silly.aspx
 dsq_thread_id:
   - "425592900"
 categories:

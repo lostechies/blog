@@ -1,10 +1,10 @@
 ---
-id: 200
+wordpress_id: 200
 title: 'Cool stuff in FubuCore No. 7: Model Binding'
 date: 2011-06-08T11:30:46+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=200
+wordpress_guid: http://lostechies.com/chadmyers/?p=200
 dsq_thread_id:
   - "325819600"
 categories:

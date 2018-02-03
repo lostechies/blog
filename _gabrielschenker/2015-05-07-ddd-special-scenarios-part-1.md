@@ -1,10 +1,10 @@
 ---
-id: 964
+wordpress_id: 964
 title: 'DDD &#8211; Special scenarios, part 1'
 date: 2015-05-07T22:10:09+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=964
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=964
 dsq_thread_id:
   - "3746174577"
 categories:

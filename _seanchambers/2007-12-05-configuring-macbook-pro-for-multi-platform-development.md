@@ -1,10 +1,10 @@
 ---
-id: 3155
+wordpress_id: 3155
 title: Configuring MacBook Pro for multi-platform development
 date: 2007-12-05T16:03:04+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/12/05/configuring-macbook-pro-for-multi-platform-development.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/12/05/configuring-macbook-pro-for-multi-platform-development.aspx
 dsq_thread_id:
   - "271235344"
 categories:

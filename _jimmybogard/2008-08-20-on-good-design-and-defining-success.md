@@ -1,10 +1,10 @@
 ---
-id: 219
+wordpress_id: 219
 title: On good design and defining success
 date: 2008-08-20T00:27:01+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/19/on-good-design-and-defining-success.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/19/on-good-design-and-defining-success.aspx
 dsq_thread_id:
   - "264715896"
 categories:

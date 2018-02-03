@@ -1,10 +1,10 @@
 ---
-id: 3149
+wordpress_id: 3149
 title: 'Testing Security Link Demands with R#'
 date: 2007-11-06T15:45:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/11/06/testing-security-link-demands-with-r.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/11/06/testing-security-link-demands-with-r.aspx
 dsq_thread_id:
   - "564117523"
 categories:

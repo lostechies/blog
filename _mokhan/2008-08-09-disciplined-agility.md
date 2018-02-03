@@ -1,10 +1,10 @@
 ---
-id: 4562
+wordpress_id: 4562
 title: Disciplined Agility
 date: 2008-08-09T16:02:42+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/08/09/disciplined-agility.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/08/09/disciplined-agility.aspx
 categories:
   - Books
 ---

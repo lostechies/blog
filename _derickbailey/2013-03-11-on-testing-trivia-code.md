@@ -1,10 +1,10 @@
 ---
-id: 1063
+wordpress_id: 1063
 title: 'On Testing &#8220;Trivial Code&#8221;'
 date: 2013-03-11T11:05:06+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1063
+wordpress_guid: http://lostechies.com/derickbailey/?p=1063
 dsq_thread_id:
   - "1130835457"
 categories:

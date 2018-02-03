@@ -1,10 +1,10 @@
 ---
-id: 46
+wordpress_id: 46
 title: NAnt script for determining whether an assembly is registered in the GAC
 date: 2008-05-08T18:53:29+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/05/08/nant-script-for-determining-whether-an-assembly-is-register-in-the-gac.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/05/08/nant-script-for-determining-whether-an-assembly-is-register-in-the-gac.aspx
 dsq_thread_id:
   - "262654434"
 categories:

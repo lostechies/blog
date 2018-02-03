@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: Calling on all Community Server Theme Gods
 date: 2007-07-07T14:42:50+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/07/07/calling-on-all-community-server-theme-gods.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/07/07/calling-on-all-community-server-theme-gods.aspx
 dsq_thread_id:
   - "262090918"
 categories:

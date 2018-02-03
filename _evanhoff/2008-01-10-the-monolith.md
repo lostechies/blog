@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: The Monolith
 date: 2008-01-10T01:29:03+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/01/09/the-monolith.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/01/09/the-monolith.aspx
 categories:
   - Uncategorized
 ---

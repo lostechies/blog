@@ -1,10 +1,10 @@
 ---
-id: 49
+wordpress_id: 49
 title: Ping-pong Pairing Session Screencast with Ben Scheirman
 date: 2008-05-14T04:12:08+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/05/14/ping-pong-pairing-session-screencast-with-ben-scheirman.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/05/14/ping-pong-pairing-session-screencast-with-ben-scheirman.aspx
 dsq_thread_id:
   - "1084975370"
 categories:

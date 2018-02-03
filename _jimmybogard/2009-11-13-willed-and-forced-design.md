@@ -1,10 +1,10 @@
 ---
-id: 366
+wordpress_id: 366
 title: Willed and forced design
 date: 2009-11-13T02:32:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/11/12/willed-and-forced-design.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/11/12/willed-and-forced-design.aspx
 dsq_thread_id:
   - "264716363"
 categories:

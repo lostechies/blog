@@ -1,10 +1,10 @@
 ---
-id: 85
+wordpress_id: 85
 title: Opinionated ASP.NET MVC by Joshua Flanagan
 date: 2008-09-03T04:44:16+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/09/03/opinionated-asp-net-mvc-by-joshua-flanagan.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/09/03/opinionated-asp-net-mvc-by-joshua-flanagan.aspx
 dsq_thread_id:
   - "262114057"
   - "262114057"

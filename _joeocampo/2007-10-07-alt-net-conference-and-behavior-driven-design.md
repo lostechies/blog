@@ -1,10 +1,10 @@
 ---
-id: 73
+wordpress_id: 73
 title: Alt.Net conference and Behavior Driven Design
 date: 2007-10-07T06:31:58+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/07/alt-net-conference-and-behavior-driven-design.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/07/alt-net-conference-and-behavior-driven-design.aspx
 dsq_thread_id:
   - "262089708"
 categories:

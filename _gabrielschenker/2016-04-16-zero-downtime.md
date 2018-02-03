@@ -1,10 +1,10 @@
 ---
-id: 1372
+wordpress_id: 1372
 title: Zero Downtime
 date: 2016-04-16T16:59:54+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1372
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1372
 dsq_thread_id:
   - "4752809513"
 categories:

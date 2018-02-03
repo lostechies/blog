@@ -1,10 +1,10 @@
 ---
-id: 250
+wordpress_id: 250
 title: Boycotting Flash
 date: 2008-11-08T23:31:49+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/08/boycotting-flash.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/08/boycotting-flash.aspx
 dsq_thread_id:
   - "264911714"
 categories:

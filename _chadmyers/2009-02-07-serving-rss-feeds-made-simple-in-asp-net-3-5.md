@@ -1,10 +1,10 @@
 ---
-id: 130
+wordpress_id: 130
 title: Serving RSS Feeds Made Simple in ASP.NET 3.5
 date: 2009-02-07T01:16:17+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/02/06/serving-rss-feeds-made-simple-in-asp-net-3-5.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/02/06/serving-rss-feeds-made-simple-in-asp-net-3-5.aspx
 dsq_thread_id:
   - "262114301"
 categories:

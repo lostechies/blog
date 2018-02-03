@@ -1,10 +1,10 @@
 ---
-id: 756
+wordpress_id: 756
 title: 'HTML5 And Internet Explorer: Modernizr To The Rescue!'
 date: 2012-01-23T07:33:24+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=756
+wordpress_guid: http://lostechies.com/derickbailey/?p=756
 dsq_thread_id:
   - "549662643"
 categories:

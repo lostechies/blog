@@ -1,10 +1,10 @@
 ---
-id: 496
+wordpress_id: 496
 title: Upsides of Scrum
 date: 2011-06-21T13:13:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/06/21/upsides-of-scrum/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/06/21/upsides-of-scrum/
 dsq_thread_id:
   - "338245671"
 categories:

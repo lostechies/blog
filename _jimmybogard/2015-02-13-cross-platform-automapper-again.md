@@ -1,10 +1,10 @@
 ---
-id: 1062
+wordpress_id: 1062
 title: Cross-Platform AutoMapper (again)
 date: 2015-02-13T15:04:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=1062
+wordpress_guid: http://lostechies.com/jimmybogard/?p=1062
 dsq_thread_id:
   - "3512701798"
 categories:

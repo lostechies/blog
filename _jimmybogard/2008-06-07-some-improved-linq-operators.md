@@ -1,10 +1,10 @@
 ---
-id: 194
+wordpress_id: 194
 title: Some improved LINQ operators
 date: 2008-06-07T23:39:59+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/06/07/some-improved-linq-operators.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/06/07/some-improved-linq-operators.aspx
 dsq_thread_id:
   - "264715787"
 categories:

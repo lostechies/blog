@@ -1,10 +1,10 @@
 ---
-id: 186
+wordpress_id: 186
 title: Entities, Value Objects, Aggregates and Roots
 date: 2008-05-21T02:59:35+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/20/entities-value-objects-aggregates-and-roots.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/20/entities-value-objects-aggregates-and-roots.aspx
 dsq_thread_id:
   - "264715703"
 dsq_needs_sync:

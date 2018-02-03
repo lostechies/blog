@@ -1,10 +1,10 @@
 ---
-id: 300
+wordpress_id: 300
 title: Adventures with IL Merge
 date: 2009-04-04T21:47:39+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/04/04/adventures-with-il-merge.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/04/04/adventures-with-il-merge.aspx
 dsq_thread_id:
   - "264914029"
 categories:

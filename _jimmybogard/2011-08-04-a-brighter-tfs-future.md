@@ -1,10 +1,10 @@
 ---
-id: 508
+wordpress_id: 508
 title: A brighter TFS future?
 date: 2011-08-04T13:13:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/08/04/a-brighter-tfs-future/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/08/04/a-brighter-tfs-future/
 dsq_thread_id:
   - "377038097"
 categories:

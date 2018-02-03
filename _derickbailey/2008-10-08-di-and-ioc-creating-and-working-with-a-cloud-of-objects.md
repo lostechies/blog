@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: 'DI and IoC: Creating And Working With A Cloud Of Objects'
 date: 2008-10-08T00:18:31+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/10/07/di-and-ioc-creating-and-working-with-a-cloud-of-objects.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/10/07/di-and-ioc-creating-and-working-with-a-cloud-of-objects.aspx
 dsq_thread_id:
   - "262067844"
 categories:

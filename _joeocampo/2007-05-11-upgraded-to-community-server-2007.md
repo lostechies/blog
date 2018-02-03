@@ -1,10 +1,10 @@
 ---
-id: 23
+wordpress_id: 23
 title: Upgraded to Community Server 2007
 date: 2007-05-11T21:26:20+00:00
 author: dbgreer@gmail.com
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/05/11/upgraded-to-community-server-2007.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/05/11/upgraded-to-community-server-2007.aspx
 dsq_thread_id:
   - "262088216"
 categories:

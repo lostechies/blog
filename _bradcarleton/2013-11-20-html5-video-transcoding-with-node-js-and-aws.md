@@ -1,10 +1,10 @@
 ---
-id: 43
+wordpress_id: 43
 title: 'HTML5 Video: Transcoding with Node.js and AWS'
 date: 2013-11-20T23:00:58+00:00
 author: Brad Carleton
 layout: post
-guid: http://lostechies.com/bradcarleton/?p=43
+wordpress_guid: http://lostechies.com/bradcarleton/?p=43
 dsq_thread_id:
   - "1983946648"
 categories:

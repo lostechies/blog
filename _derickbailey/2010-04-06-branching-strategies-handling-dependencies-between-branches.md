@@ -1,10 +1,10 @@
 ---
-id: 133
+wordpress_id: 133
 title: 'Branching Strategies: Handling Dependencies Between Branches'
 date: 2010-04-06T12:15:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/06/branching-strategies-handling-dependencies-between-branches.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/06/branching-strategies-handling-dependencies-between-branches.aspx
 dsq_thread_id:
   - "262068587"
 categories:

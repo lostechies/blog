@@ -1,10 +1,10 @@
 ---
-id: 863
+wordpress_id: 863
 title: Rendering ASP.NET content as PDF
 date: 2014-02-04T14:25:06+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=863
+wordpress_guid: http://lostechies.com/jimmybogard/?p=863
 dsq_thread_id:
   - "2219941426"
 categories:

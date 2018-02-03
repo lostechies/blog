@@ -1,10 +1,10 @@
 ---
-id: 1659
+wordpress_id: 1659
 title: Container Entrypoint
 date: 2016-08-21T16:41:34+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1659
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1659
 dsq_thread_id:
   - "5083937921"
 categories:

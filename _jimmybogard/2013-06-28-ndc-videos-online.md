@@ -1,10 +1,10 @@
 ---
-id: 806
+wordpress_id: 806
 title: NDC Videos online
 date: 2013-06-28T15:22:56+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=806
+wordpress_guid: http://lostechies.com/jimmybogard/?p=806
 dsq_thread_id:
   - "1445465984"
 categories:

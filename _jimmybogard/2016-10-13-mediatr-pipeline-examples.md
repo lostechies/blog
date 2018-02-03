@@ -1,10 +1,10 @@
 ---
-id: 1229
+wordpress_id: 1229
 title: MediatR Pipeline Examples
 date: 2016-10-13T19:02:02+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1229
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1229
 dsq_thread_id:
   - "5220840957"
 categories:

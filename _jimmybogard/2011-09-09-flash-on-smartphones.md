@@ -1,10 +1,10 @@
 ---
-id: 533
+wordpress_id: 533
 title: Flash on smartphones
 date: 2011-09-09T12:56:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/09/09/flash-on-smartphones/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/09/09/flash-on-smartphones/
 dsq_thread_id:
   - "409340721"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 45
+wordpress_id: 45
 title: The Emergence Of Knowledge In Software Development
 date: 2009-03-23T18:54:08+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/03/23/the-emergence-of-knowledge-in-software-development.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/03/23/the-emergence-of-knowledge-in-software-development.aspx
 dsq_thread_id:
   - "262068120"
 categories:

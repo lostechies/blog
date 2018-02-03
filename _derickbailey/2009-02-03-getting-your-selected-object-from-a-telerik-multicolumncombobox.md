@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: Getting Your Selected Object From A Telerik MultiColumnComboBox
 date: 2009-02-03T20:28:48+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/02/03/getting-your-selected-object-from-a-telerik-multicolumncombobox.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/02/03/getting-your-selected-object-from-a-telerik-multicolumncombobox.aspx
 dsq_thread_id:
   - "264352513"
 categories:

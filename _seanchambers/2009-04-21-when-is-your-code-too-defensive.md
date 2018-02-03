@@ -1,10 +1,10 @@
 ---
-id: 3192
+wordpress_id: 3192
 title: When is your code too defensive?
 date: 2009-04-21T03:44:08+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/04/20/when-is-your-code-too-defensive.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/04/20/when-is-your-code-too-defensive.aspx
 dsq_thread_id:
   - "350593542"
 categories:

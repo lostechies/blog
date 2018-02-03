@@ -1,10 +1,10 @@
 ---
-id: 215
+wordpress_id: 215
 title: A lesson in automated testing via SlickGrid
 date: 2012-11-23T16:30:01+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=215
+wordpress_guid: http://lostechies.com/josharnold/?p=215
 dsq_thread_id:
   - "939637719"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 514
+wordpress_id: 514
 title: 'Effective Tests: Avoiding Context Obscurity'
 date: 2011-07-19T01:06:51+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=514
+wordpress_guid: http://lostechies.com/derekgreer/?p=514
 dsq_thread_id:
   - "361992940"
 categories:

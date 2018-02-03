@@ -1,10 +1,10 @@
 ---
-id: 149
+wordpress_id: 149
 title: Are you learning Docker yet
 date: 2016-04-12T20:17:53+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=149
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=149
 dsq_thread_id:
   - "4742079582"
 categories:

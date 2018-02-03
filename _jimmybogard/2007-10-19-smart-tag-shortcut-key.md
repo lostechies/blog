@@ -1,10 +1,10 @@
 ---
-id: 84
+wordpress_id: 84
 title: Smart Tag shortcut key
 date: 2007-10-19T19:23:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/19/smart-tag-shortcut-key.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/19/smart-tag-shortcut-key.aspx
 dsq_thread_id:
   - "264715401"
 categories:

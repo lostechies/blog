@@ -1,10 +1,10 @@
 ---
-id: 2955
+wordpress_id: 2955
 title: My Current .Net Application and Tools Stack
 date: 2009-01-29T18:38:49+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/01/29/my-current-net-application-and-tools-stack.aspx
+wordpress_guid: /blogs/hex/archive/2009/01/29/my-current-net-application-and-tools-stack.aspx
 dsq_thread_id:
   - "264628807"
 categories:

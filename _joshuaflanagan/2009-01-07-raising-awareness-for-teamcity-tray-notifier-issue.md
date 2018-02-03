@@ -1,10 +1,10 @@
 ---
-id: 3940
+wordpress_id: 3940
 title: Raising awareness for TeamCity tray notifier issue
 date: 2009-01-07T01:54:30+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/01/06/raising-awareness-for-teamcity-tray-notifier-issue.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/01/06/raising-awareness-for-teamcity-tray-notifier-issue.aspx
 dsq_thread_id:
   - "262113150"
 categories:

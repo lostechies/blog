@@ -1,10 +1,10 @@
 ---
-id: 57
+wordpress_id: 57
 title: Ruby in Steel
 date: 2007-09-13T05:36:49+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/13/ruby-in-steel.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/13/ruby-in-steel.aspx
 dsq_thread_id:
   - "262090985"
 categories:

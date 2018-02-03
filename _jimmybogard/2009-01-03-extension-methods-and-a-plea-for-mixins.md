@@ -1,10 +1,10 @@
 ---
-id: 268
+wordpress_id: 268
 title: Extension methods and a plea for mixins
 date: 2009-01-03T02:35:59+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/01/02/extension-methods-and-a-plea-for-mixins.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/01/02/extension-methods-and-a-plea-for-mixins.aspx
 dsq_thread_id:
   - "264716009"
 categories:

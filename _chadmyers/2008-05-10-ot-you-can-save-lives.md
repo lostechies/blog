@@ -1,10 +1,10 @@
 ---
-id: 47
+wordpress_id: 47
 title: 'OT: You Can Save Lives'
 date: 2008-05-10T13:59:43+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/05/10/ot-you-can-save-lives.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/05/10/ot-you-can-save-lives.aspx
 dsq_thread_id:
   - "262113809"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 2960
+wordpress_id: 2960
 title: If you are developing on Asp.Net MVC and your are not using MvcContrib….. What is wrong with you?
 date: 2009-02-07T16:56:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/02/07/if-you-are-developing-on-asp-net-mvc-and-your-are-not-using-mvccontrib-what-is-wrong-with-you.aspx
+wordpress_guid: /blogs/hex/archive/2009/02/07/if-you-are-developing-on-asp-net-mvc-and-your-are-not-using-mvccontrib-what-is-wrong-with-you.aspx
 dsq_thread_id:
   - "1108243448"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 48
+wordpress_id: 48
 title: How A .NET Developer Learned Ruby And Rake, To Build .NET Apps In Windows
 date: 2009-04-08T15:01:51+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/04/08/how-a-net-developer-learned-ruby-and-rake-to-build-net-apps-in-windows.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/04/08/how-a-net-developer-learned-ruby-and-rake-to-build-net-apps-in-windows.aspx
 dsq_thread_id:
   - "262068125"
 categories:

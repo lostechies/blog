@@ -1,10 +1,10 @@
 ---
-id: 4448
+wordpress_id: 4448
 title: Presenter Logic || Domain Service Logic || Repository Logic?
 date: 2009-02-19T03:12:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2009/02/18/presenter-logic-domain-service-logic-repository-logic.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2009/02/18/presenter-logic-domain-service-logic-repository-logic.aspx
 dsq_thread_id:
   - "449608047"
 categories:

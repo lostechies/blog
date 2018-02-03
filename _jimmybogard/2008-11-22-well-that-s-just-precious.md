@@ -1,10 +1,10 @@
 ---
-id: 255
+wordpress_id: 255
 title: Well that’s just precious
 date: 2008-11-22T21:45:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/22/well-that-s-just-precious.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/22/well-that-s-just-precious.aspx
 dsq_thread_id:
   - "264715991"
 categories:

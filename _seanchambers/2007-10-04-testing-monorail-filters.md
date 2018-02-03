@@ -1,10 +1,10 @@
 ---
-id: 3140
+wordpress_id: 3140
 title: Testing MonoRail Filters
 date: 2007-10-04T17:32:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/10/04/testing-monorail-filters.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/10/04/testing-monorail-filters.aspx
 dsq_thread_id:
   - "268123688"
 categories:

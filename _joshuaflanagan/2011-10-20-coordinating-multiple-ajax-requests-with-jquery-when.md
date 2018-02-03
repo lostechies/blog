@@ -1,10 +1,10 @@
 ---
-id: 64
+wordpress_id: 64
 title: Coordinating multiple ajax requests with jquery.when
 date: 2011-10-20T22:17:33+00:00
 author: Joshua Flanagan
 layout: post
-guid: http://lostechies.com/joshuaflanagan/2011/10/20/coordinating-multiple-ajax-requests-with-jquery-when/
+wordpress_guid: http://lostechies.com/joshuaflanagan/2011/10/20/coordinating-multiple-ajax-requests-with-jquery-when/
 dsq_thread_id:
   - "449213909"
 categories:

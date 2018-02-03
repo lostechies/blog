@@ -1,10 +1,10 @@
 ---
-id: 1185
+wordpress_id: 1185
 title: 'Get Rid Of &#8220;locahost:#port#&#8221; With NGINX Reverse Proxies'
 date: 2013-12-19T22:41:54+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1185
+wordpress_guid: http://lostechies.com/derickbailey/?p=1185
 dsq_thread_id:
   - "2062172058"
 categories:

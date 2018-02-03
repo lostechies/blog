@@ -1,10 +1,10 @@
 ---
-id: 4731
+wordpress_id: 4731
 title: HttpContext vs CallContext state management
 date: 2007-03-29T16:46:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/03/29/httpcontext-vs-callcontext-state-management.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/29/httpcontext-vs-callcontext-state-management.aspx
 categories:
   - NHibernate
 ---

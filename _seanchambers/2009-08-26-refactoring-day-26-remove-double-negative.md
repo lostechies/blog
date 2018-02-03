@@ -1,10 +1,10 @@
 ---
-id: 3220
+wordpress_id: 3220
 title: 'Refactoring Day 26 : Remove Double Negative'
 date: 2009-08-26T12:08:51+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/26/refactoring-day-26-remove-double-negative.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/26/refactoring-day-26-remove-double-negative.aspx
 dsq_thread_id:
   - "262355517"
 categories:

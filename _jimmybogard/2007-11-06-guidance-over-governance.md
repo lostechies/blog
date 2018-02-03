@@ -1,10 +1,10 @@
 ---
-id: 93
+wordpress_id: 93
 title: Guidance over governance
 date: 2007-11-06T14:11:01+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/06/guidance-over-governance.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/06/guidance-over-governance.aspx
 dsq_thread_id:
   - "395403874"
 categories:

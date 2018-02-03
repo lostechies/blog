@@ -1,10 +1,10 @@
 ---
-id: 48
+wordpress_id: 48
 title: The difficult definition of professional software development
 date: 2011-02-04T22:51:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2011/02/04/the-difficult-definition-of-professional-software-development.aspx
+wordpress_guid: /blogs/rssvihla/archive/2011/02/04/the-difficult-definition-of-professional-software-development.aspx
 dsq_thread_id:
   - "425624472"
 categories:

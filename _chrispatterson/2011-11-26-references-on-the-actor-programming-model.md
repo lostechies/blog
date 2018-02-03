@@ -1,10 +1,10 @@
 ---
-id: 83
+wordpress_id: 83
 title: References on the Actor Programming Model
 date: 2011-11-26T14:22:56+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=83
+wordpress_guid: http://lostechies.com/chrispatterson/?p=83
 dsq_thread_id:
   - "484745709"
 categories:

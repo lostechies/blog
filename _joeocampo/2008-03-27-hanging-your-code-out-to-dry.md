@@ -1,10 +1,10 @@
 ---
-id: 110
+wordpress_id: 110
 title: Hanging your code out to dry
 date: 2008-03-27T20:31:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/03/27/hanging-your-code-out-to-dry.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/03/27/hanging-your-code-out-to-dry.aspx
 dsq_thread_id:
   - "262090367"
 categories:

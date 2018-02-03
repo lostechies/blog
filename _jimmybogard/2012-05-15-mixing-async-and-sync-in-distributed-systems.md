@@ -1,10 +1,10 @@
 ---
-id: 631
+wordpress_id: 631
 title: Mixing async and sync in distributed systems
 date: 2012-05-15T13:21:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/05/15/mixing-async-and-sync-in-distributed-systems/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/05/15/mixing-async-and-sync-in-distributed-systems/
 dsq_thread_id:
   - "690379993"
 categories:

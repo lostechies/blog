@@ -1,10 +1,10 @@
 ---
-id: 72
+wordpress_id: 72
 title: F101 – Behaviors, Configuration, and Runtime (OBSOLETE)
 date: 2011-08-05T17:28:05+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=72
+wordpress_guid: http://lostechies.com/josharnold/?p=72
 dsq_thread_id:
   - "378132671"
 categories:

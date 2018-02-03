@@ -1,10 +1,10 @@
 ---
-id: 1254
+wordpress_id: 1254
 title: Dealing with Duplication in MediatR Handlers
 date: 2016-12-12T20:37:57+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1254
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1254
 dsq_thread_id:
   - "5375406492"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 187
+wordpress_id: 187
 title: The MVC Storefront Challenge!
 date: 2008-05-21T03:25:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/20/the-mvc-storefront-challenge.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/20/the-mvc-storefront-challenge.aspx
 dsq_thread_id:
   - "264715739"
 categories:

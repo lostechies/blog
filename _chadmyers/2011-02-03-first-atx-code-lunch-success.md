@@ -1,10 +1,10 @@
 ---
-id: 173
+wordpress_id: 173
 title: First ATX Code Lunch Success!
 date: 2011-02-03T19:52:04+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2011/02/03/first-atx-code-lunch-success.aspx
+wordpress_guid: /blogs/chad_myers/archive/2011/02/03/first-atx-code-lunch-success.aspx
 dsq_thread_id:
   - "264023028"
 categories:

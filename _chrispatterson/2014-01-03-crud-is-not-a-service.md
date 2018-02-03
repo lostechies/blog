@@ -1,10 +1,10 @@
 ---
-id: 110
+wordpress_id: 110
 title: CRUD is Not a Service
 date: 2014-01-03T10:05:36+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=110
+wordpress_guid: http://lostechies.com/chrispatterson/?p=110
 dsq_thread_id:
   - "2089702478"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 89
+wordpress_id: 89
 title: MassTransit v2.5.3 Now Supports the TPL
 date: 2012-07-06T13:12:05+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=89
+wordpress_guid: http://lostechies.com/chrispatterson/?p=89
 dsq_thread_id:
   - "754084159"
 categories:

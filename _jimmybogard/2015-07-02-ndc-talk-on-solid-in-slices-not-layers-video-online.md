@@ -1,10 +1,10 @@
 ---
-id: 1140
+wordpress_id: 1140
 title: NDC talk on SOLID in slices not layers video online
 date: 2015-07-02T18:21:02+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1140
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1140
 dsq_thread_id:
   - "3898930578"
 categories:

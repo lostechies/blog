@@ -1,10 +1,10 @@
 ---
-id: 727
+wordpress_id: 727
 title: Internal versus external events
 date: 2013-02-06T14:15:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=727
+wordpress_guid: http://lostechies.com/jimmybogard/?p=727
 dsq_thread_id:
   - "1068599056"
 categories:

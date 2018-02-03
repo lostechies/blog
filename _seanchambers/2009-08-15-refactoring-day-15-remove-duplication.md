@@ -1,10 +1,10 @@
 ---
-id: 3209
+wordpress_id: 3209
 title: 'Refactoring Day 15 : Remove Duplication'
 date: 2009-08-15T10:29:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/15/refactoring-day-15-remove-duplication.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/15/refactoring-day-15-remove-duplication.aspx
 dsq_thread_id:
   - "262352391"
 categories:

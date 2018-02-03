@@ -1,10 +1,10 @@
 ---
-id: 259
+wordpress_id: 259
 title: 'Using  CNAME With Azure'
 date: 2012-08-14T09:48:31+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=259
+wordpress_guid: http://lostechies.com/chrismissal/?p=259
 dsq_thread_id:
   - "805015150"
 categories:

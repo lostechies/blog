@@ -1,10 +1,10 @@
 ---
-id: 76
+wordpress_id: 76
 title: A Conversation On Adopting Kanban
 date: 2009-08-20T03:40:46+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/08/19/a-conversation-on-adopting-kanban.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/08/19/a-conversation-on-adopting-kanban.aspx
 dsq_thread_id:
   - "262068267"
 categories:

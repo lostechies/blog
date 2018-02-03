@@ -1,10 +1,10 @@
 ---
-id: 3164
+wordpress_id: 3164
 title: Presenting to Students
 date: 2008-02-18T01:41:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/02/17/presenting-to-students.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/02/17/presenting-to-students.aspx
 dsq_thread_id:
   - "268123765"
 categories:

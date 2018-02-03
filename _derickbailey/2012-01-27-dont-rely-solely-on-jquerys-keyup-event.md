@@ -1,10 +1,10 @@
 ---
-id: 787
+wordpress_id: 787
 title: 'Don&#8217;t Rely Solely On jQuery&#8217;s &#8220;keyup&#8221; Event'
 date: 2012-01-27T08:09:05+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=787
+wordpress_guid: http://lostechies.com/derickbailey/?p=787
 dsq_thread_id:
   - "554590730"
 categories:

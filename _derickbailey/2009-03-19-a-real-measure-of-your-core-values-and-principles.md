@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: A Real Measure Of Your Core Values And Principles
 date: 2009-03-19T21:04:34+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/03/19/a-real-measure-of-your-core-values-and-principles.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/03/19/a-real-measure-of-your-core-values-and-principles.aspx
 dsq_thread_id:
   - "262068105"
 categories:

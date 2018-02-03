@@ -1,10 +1,10 @@
 ---
-id: 537
+wordpress_id: 537
 title: Git workflows with git-tfs
 date: 2011-09-20T13:31:50+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/09/20/git-workflows-with-git-tfs/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/09/20/git-workflows-with-git-tfs/
 dsq_thread_id:
   - "420269165"
 categories:

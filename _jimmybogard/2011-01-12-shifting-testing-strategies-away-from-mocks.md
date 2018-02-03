@@ -1,10 +1,10 @@
 ---
-id: 447
+wordpress_id: 447
 title: Shifting testing strategies away from mocks
 date: 2011-01-12T01:51:36+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/01/11/shifting-testing-strategies-away-from-mocks.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/01/11/shifting-testing-strategies-away-from-mocks.aspx
 dsq_thread_id:
   - "264716639"
 categories:

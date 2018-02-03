@@ -1,10 +1,10 @@
 ---
-id: 75
+wordpress_id: 75
 title: OSX Terminal Automation
 date: 2010-07-17T01:42:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2010/07/16/quick-tip-osx-terminal-automation.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2010/07/16/quick-tip-osx-terminal-automation.aspx
 categories:
   - automation
   - OSX

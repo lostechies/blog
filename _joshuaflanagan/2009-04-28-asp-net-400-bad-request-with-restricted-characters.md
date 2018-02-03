@@ -1,10 +1,10 @@
 ---
-id: 3944
+wordpress_id: 3944
 title: ASP.NET 400 Bad Request with restricted characters
 date: 2009-04-28T03:36:00+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/04/27/asp-net-400-bad-request-with-restricted-characters.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/04/27/asp-net-400-bad-request-with-restricted-characters.aspx
 dsq_thread_id:
   - "262100433"
 categories:

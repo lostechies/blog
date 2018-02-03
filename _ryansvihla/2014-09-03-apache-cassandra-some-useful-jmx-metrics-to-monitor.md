@@ -1,10 +1,10 @@
 ---
-id: 3490
+wordpress_id: 3490
 title: 'Apache Cassandra: Some useful JMX metrics to monitor'
 date: 2014-09-03T11:03:06+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=136
+wordpress_guid: http://lostechies.com/ryansvihla/?p=136
 dsq_thread_id:
   - "2984835523"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 644
+wordpress_id: 644
 title: Our Post-Agile World
 date: 2012-07-10T02:31:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/07/10/our-post-agile-world/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/07/10/our-post-agile-world/
 dsq_thread_id:
   - "758395323"
 categories:

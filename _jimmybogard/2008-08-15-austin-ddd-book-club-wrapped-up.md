@@ -1,10 +1,10 @@
 ---
-id: 217
+wordpress_id: 217
 title: Austin DDD Book Club wrapped up
 date: 2008-08-15T01:37:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/14/austin-ddd-book-club-wrapped-up.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/14/austin-ddd-book-club-wrapped-up.aspx
 dsq_thread_id:
   - "272217365"
 categories:

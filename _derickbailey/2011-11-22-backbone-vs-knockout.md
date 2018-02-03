@@ -1,10 +1,10 @@
 ---
-id: 686
+wordpress_id: 686
 title: Backbone vs Knockout
 date: 2011-11-22T08:12:06+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=686
+wordpress_guid: http://lostechies.com/derickbailey/?p=686
 dsq_thread_id:
   - "480330191"
 categories:

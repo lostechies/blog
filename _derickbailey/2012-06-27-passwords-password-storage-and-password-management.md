@@ -1,10 +1,10 @@
 ---
-id: 950
+wordpress_id: 950
 title: Passwords, Password Storage And Password Management
 date: 2012-06-27T11:50:27+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=950
+wordpress_guid: http://lostechies.com/derickbailey/?p=950
 dsq_thread_id:
   - "742542505"
 categories:

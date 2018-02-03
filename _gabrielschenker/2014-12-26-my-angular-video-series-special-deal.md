@@ -1,10 +1,10 @@
 ---
-id: 823
+wordpress_id: 823
 title: 'My Angular video series &#8211; Special deal'
 date: 2014-12-26T18:17:18+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=823
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=823
 dsq_thread_id:
   - "3362956106"
 categories:

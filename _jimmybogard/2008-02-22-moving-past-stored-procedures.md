@@ -1,10 +1,10 @@
 ---
-id: 146
+wordpress_id: 146
 title: Moving past stored procedures
 date: 2008-02-22T13:15:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/22/moving-past-stored-procedures.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/22/moving-past-stored-procedures.aspx
 dsq_thread_id:
   - "264715562"
 categories:

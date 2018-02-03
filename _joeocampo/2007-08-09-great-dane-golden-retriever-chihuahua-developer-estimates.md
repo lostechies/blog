@@ -1,10 +1,10 @@
 ---
-id: 42
+wordpress_id: 42
 title: Great Dane, Golden Retriever, Chihuahua == Developer Estimates
 date: 2007-08-09T03:36:37+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/08/08/great-dane-golden-retriever-chihuahua-developer-estimates.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/08/08/great-dane-golden-retriever-chihuahua-developer-estimates.aspx
 dsq_thread_id:
   - "262088178"
 categories:

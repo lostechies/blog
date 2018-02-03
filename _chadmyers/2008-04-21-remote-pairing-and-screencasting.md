@@ -1,10 +1,10 @@
 ---
-id: 38
+wordpress_id: 38
 title: Remote Pairing and Screencasting
 date: 2008-04-21T06:05:01+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/21/remote-pairing-and-screencasting.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/21/remote-pairing-and-screencasting.aspx
 dsq_thread_id:
   - "262113782"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 393
+wordpress_id: 393
 title: No silver domain modeling bullets
 date: 2010-03-11T13:59:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/03/11/no-silver-domain-modeling-bullets.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/03/11/no-silver-domain-modeling-bullets.aspx
 dsq_thread_id:
   - "264716442"
 categories:

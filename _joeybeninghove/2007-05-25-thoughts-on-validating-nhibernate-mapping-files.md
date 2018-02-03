@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: Thoughts On Validating NHibernate Mapping Files
 date: 2007-05-25T00:31:46+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/05/24/thoughts-on-validating-nhibernate-mapping-files.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/05/24/thoughts-on-validating-nhibernate-mapping-files.aspx
 categories:
   - NHibernate
   - Tools

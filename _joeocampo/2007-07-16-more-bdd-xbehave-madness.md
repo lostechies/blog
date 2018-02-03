@@ -1,10 +1,10 @@
 ---
-id: 33
+wordpress_id: 33
 title: More BDD xBehave Madness!
 date: 2007-07-16T02:17:35+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/07/15/more-bdd-xbehave-madness.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/07/15/more-bdd-xbehave-madness.aspx
 dsq_thread_id:
   - "262090394"
 categories:

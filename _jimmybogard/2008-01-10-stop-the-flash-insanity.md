@@ -1,10 +1,10 @@
 ---
-id: 125
+wordpress_id: 125
 title: Stop the Flash insanity
 date: 2008-01-10T15:38:30+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/10/stop-the-flash-insanity.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/10/stop-the-flash-insanity.aspx
 dsq_thread_id:
   - "264715495"
 categories:

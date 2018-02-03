@@ -1,10 +1,10 @@
 ---
-id: 33
+wordpress_id: 33
 title: 'Agile Arguments, Part 1 &#8211; The Kickoff'
 date: 2008-04-04T01:53:00+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/03/agile-arguments-part-1-the-kickoff.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/03/agile-arguments-part-1-the-kickoff.aspx
 dsq_thread_id:
   - "264889031"
 categories:

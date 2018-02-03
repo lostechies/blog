@@ -1,10 +1,10 @@
 ---
-id: 351
+wordpress_id: 351
 title: Wither the Repository
 date: 2009-09-11T02:05:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/09/10/wither-the-repository.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/09/10/wither-the-repository.aspx
 dsq_thread_id:
   - "264716311"
 categories:

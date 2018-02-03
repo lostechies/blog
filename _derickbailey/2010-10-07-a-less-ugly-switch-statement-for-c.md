@@ -1,10 +1,10 @@
 ---
-id: 189
+wordpress_id: 189
 title: 'A Less Ugly Switch Statement For C#'
 date: 2010-10-07T21:31:51+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/10/07/a-less-ugly-switch-statement-for-c.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/10/07/a-less-ugly-switch-statement-for-c.aspx
 dsq_thread_id:
   - "262975664"
 categories:

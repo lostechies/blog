@@ -1,10 +1,10 @@
 ---
-id: 454
+wordpress_id: 454
 title: Distilling the Law of Demeter
 date: 2008-06-10T15:33:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2008/06/distilling-the-law-of-demeter/
+wordpress_guid: http://www.aspiringcraftsman.com/2008/06/distilling-the-law-of-demeter/
 dsq_thread_id:
   - "334901434"
 categories:

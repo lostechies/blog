@@ -1,10 +1,10 @@
 ---
-id: 461
+wordpress_id: 461
 title: Not an April Fool’s post
 date: 2011-04-01T12:42:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/04/01/not-an-april-fools-post/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/04/01/not-an-april-fools-post/
 dsq_thread_id:
   - "268397023"
 categories:

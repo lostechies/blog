@@ -1,10 +1,10 @@
 ---
-id: 570
+wordpress_id: 570
 title: Formula for project success
 date: 2012-01-03T13:50:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/01/03/formula-for-project-success/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/01/03/formula-for-project-success/
 dsq_thread_id:
   - "525120239"
 categories:

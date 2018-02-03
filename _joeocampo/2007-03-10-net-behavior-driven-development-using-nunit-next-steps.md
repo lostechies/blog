@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: .Net Behavior Driven Development Using NUnit—Next Steps
 date: 2007-03-10T03:35:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/03/09/net-behavior-driven-development-using-nunit-next-steps.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/03/09/net-behavior-driven-development-using-nunit-next-steps.aspx
 dsq_thread_id:
   - "262090229"
 categories:

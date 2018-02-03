@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: Agile Leadership and Coaching (Development Manager’s Need to grow up!)
 date: 2007-05-15T00:56:00+00:00
 author: dbgreer@gmail.com
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/05/14/agile-leadership-and-coaching-development-manager-s-need-to-grow-up.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/05/14/agile-leadership-and-coaching-development-manager-s-need-to-grow-up.aspx
 dsq_thread_id:
   - "262088161"
 categories:

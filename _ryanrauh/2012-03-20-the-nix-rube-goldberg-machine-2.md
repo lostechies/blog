@@ -1,10 +1,10 @@
 ---
-id: 106
+wordpress_id: 106
 title: 'The *nix Rube Goldberg Machine'
 date: 2012-03-20T15:54:55+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=106
+wordpress_guid: http://lostechies.com/ryanrauh/?p=106
 dsq_thread_id:
   - "618053661"
 categories:

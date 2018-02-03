@@ -1,10 +1,10 @@
 ---
-id: 49
+wordpress_id: 49
 title: 'TalesFromTheSmellySide&lt;Code&gt; &#8211; Episode #1'
 date: 2007-10-29T17:47:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/10/29/talesfromthesmellyside-lt-code-gt-episode-1.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/10/29/talesfromthesmellyside-lt-code-gt-episode-1.aspx
 categories:
   - tales from the smelly side
 ---

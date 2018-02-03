@@ -1,10 +1,10 @@
 ---
-id: 338
+wordpress_id: 338
 title: 'Mongoid: Polymorphic Find Or Create New On Embedded Document Collections'
 date: 2011-05-19T07:15:55+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=338
+wordpress_guid: http://lostechies.com/derickbailey/?p=338
 dsq_thread_id:
   - "307931359"
 categories:

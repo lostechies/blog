@@ -1,10 +1,10 @@
 ---
-id: 4557
+wordpress_id: 4557
 title: 'Trust &#038; Transparency'
 date: 2008-07-14T11:43:43+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/07/14/trust-amp-transparency.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/07/14/trust-amp-transparency.aspx
 categories:
   - Teamwork
 ---

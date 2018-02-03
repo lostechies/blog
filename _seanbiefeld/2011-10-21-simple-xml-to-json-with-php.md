@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: Simple XML to JSON with PHP
 date: 2011-10-21T15:14:16+00:00
 author: Sean Biefeld
 layout: post
-guid: http://lostechies.com/seanbiefeld/?p=30
+wordpress_guid: http://lostechies.com/seanbiefeld/?p=30
 dsq_thread_id:
   - "449674327"
 categories:

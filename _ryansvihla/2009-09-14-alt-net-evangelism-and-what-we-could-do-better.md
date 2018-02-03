@@ -1,10 +1,10 @@
 ---
-id: 31
+wordpress_id: 31
 title: Alt.Net Evangelism And What We Could Do Better
 date: 2009-09-14T00:06:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/09/13/alt-net-evangelism-and-what-we-could-do-better.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/09/13/alt-net-evangelism-and-what-we-could-do-better.aspx
 dsq_thread_id:
   - "425624325"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: 'Udi&#8217;s SOA Class Made Me Smart'
 date: 2008-10-26T16:07:41+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/10/26/udi-s-soa-class-made-me-smart.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/10/26/udi-s-soa-class-made-me-smart.aspx
 categories:
   - SOA
 ---

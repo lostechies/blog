@@ -1,10 +1,10 @@
 ---
-id: 132
+wordpress_id: 132
 title: 'Red For The Right Reason: Fail By Assertion, Not By Anything Else'
 date: 2010-04-05T12:16:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/05/red-for-the-right-reason-fail-by-assertion-not-by-anything-else.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/05/red-for-the-right-reason-fail-by-assertion-not-by-anything-else.aspx
 dsq_thread_id:
   - "262068578"
 categories:

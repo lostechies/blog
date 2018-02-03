@@ -1,10 +1,10 @@
 ---
-id: 650
+wordpress_id: 650
 title: ORM techniques for legacy databases
 date: 2012-07-26T15:17:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/07/26/orm-techniques-for-legacy-databases/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/07/26/orm-techniques-for-legacy-databases/
 dsq_thread_id:
   - "780901457"
 categories:

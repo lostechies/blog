@@ -1,10 +1,10 @@
 ---
-id: 269
+wordpress_id: 269
 title: 10 things to embrace in 2009
 date: 2009-01-05T02:40:39+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/01/04/10-things-to-embrace-in-2009.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/01/04/10-things-to-embrace-in-2009.aspx
 dsq_thread_id:
   - "264716013"
   - "264716013"

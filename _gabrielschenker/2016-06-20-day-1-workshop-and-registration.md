@@ -1,10 +1,10 @@
 ---
-id: 1555
+wordpress_id: 1555
 title: 'DockerCon 2016 &#8211; Day 1, Workshop and registration'
 date: 2016-06-20T08:55:30+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1555
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1555
 dsq_thread_id:
   - "4924987206"
 categories:

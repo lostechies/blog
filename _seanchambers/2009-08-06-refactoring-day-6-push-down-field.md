@@ -1,10 +1,10 @@
 ---
-id: 3200
+wordpress_id: 3200
 title: 'Refactoring Day 6 : Push Down Field'
 date: 2009-08-06T12:20:01+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/06/refactoring-day-6-push-down-field.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/06/refactoring-day-6-push-down-field.aspx
 dsq_thread_id:
   - "263160613"
 categories:

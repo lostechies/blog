@@ -1,10 +1,10 @@
 ---
-id: 144
+wordpress_id: 144
 title: 'Last XML serializer I&#8217;ll ever write'
 date: 2008-02-20T03:35:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/19/last-xml-serializer-i-ll-ever-write.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/19/last-xml-serializer-i-ll-ever-write.aspx
 dsq_thread_id:
   - "264715561"
 categories:

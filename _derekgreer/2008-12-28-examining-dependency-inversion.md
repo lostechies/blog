@@ -1,10 +1,10 @@
 ---
-id: 442
+wordpress_id: 442
 title: Examining the Dependency Inversion Principle
 date: 2008-12-28T16:53:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2008/12/examining-the-dependency-inversion-principle/
+wordpress_guid: http://www.aspiringcraftsman.com/2008/12/examining-the-dependency-inversion-principle/
 dsq_thread_id:
   - "319115864"
 categories:

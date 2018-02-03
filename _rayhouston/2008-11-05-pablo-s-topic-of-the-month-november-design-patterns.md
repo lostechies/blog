@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: 'Pablo&#8217;s Topic of the Month &#8211; November: Design Patterns'
 date: 2008-11-05T10:57:00+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/11/05/pablo-s-topic-of-the-month-november-design-patterns.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/11/05/pablo-s-topic-of-the-month-november-design-patterns.aspx
 categories:
   - Patterns
   - Principles

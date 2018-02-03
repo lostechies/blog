@@ -1,10 +1,10 @@
 ---
-id: 105
+wordpress_id: 105
 title: Los Techies Customer Service
 date: 2008-11-05T03:31:47+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/11/04/los-techies-customer-service.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/11/04/los-techies-customer-service.aspx
 dsq_thread_id:
   - "262580383"
 categories:

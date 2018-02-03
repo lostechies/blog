@@ -1,10 +1,10 @@
 ---
-id: 2967
+wordpress_id: 2967
 title: Come see me speak at the Austin .Net Users Group Tomorrow! 3/9/2009 5pm
 date: 2009-03-08T20:51:16+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/03/08/come-see-me-speak-at-the-austin-net-users-group-tomorrow-3-9-2009-5pm.aspx
+wordpress_guid: /blogs/hex/archive/2009/03/08/come-see-me-speak-at-the-austin-net-users-group-tomorrow-3-9-2009-5pm.aspx
 dsq_thread_id:
   - "1124105997"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 572
+wordpress_id: 572
 title: CodeMash 2012 wrap up
 date: 2012-01-24T05:02:43+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/01/24/codemash-2012-wrap-up/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/01/24/codemash-2012-wrap-up/
 dsq_thread_id:
   - "550477101"
 categories:

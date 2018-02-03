@@ -1,10 +1,10 @@
 ---
-id: 3858
+wordpress_id: 3858
 title: 'Refactoring Dinner: Interfaces instead of Inheritance'
 date: 2009-10-14T02:03:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2009/10/13/refactoring-dinner-interfaces-instead-of-inheritance.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2009/10/13/refactoring-dinner-interfaces-instead-of-inheritance.aspx
 dsq_thread_id:
   - "263370997"
 categories:

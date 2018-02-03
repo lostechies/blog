@@ -1,10 +1,10 @@
 ---
-id: 2979
+wordpress_id: 2979
 title: Opinionated Input Builders Part 6 – Performance of the builders
 date: 2009-06-13T17:15:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/13/opinionated-input-builders-part-6-performance-of-the-builders.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/13/opinionated-input-builders-part-6-performance-of-the-builders.aspx
 dsq_thread_id:
   - "262527819"
 categories:

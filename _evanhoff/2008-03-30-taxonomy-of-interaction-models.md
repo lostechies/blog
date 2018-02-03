@@ -1,10 +1,10 @@
 ---
-id: 37
+wordpress_id: 37
 title: Taxonomy of Interaction Models
 date: 2008-03-30T18:01:02+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/03/30/taxonomy-of-interaction-models.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/03/30/taxonomy-of-interaction-models.aspx
 categories:
   - Uncategorized
 ---

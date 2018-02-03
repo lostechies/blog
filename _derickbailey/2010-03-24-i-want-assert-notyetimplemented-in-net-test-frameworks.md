@@ -1,10 +1,10 @@
 ---
-id: 122
+wordpress_id: 122
 title: I Want Assert.NotYetImplemented(); In .NET Test Frameworks
 date: 2010-03-24T14:22:55+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/24/i-want-assert-notyetimplemented-in-net-test-frameworks.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/24/i-want-assert-notyetimplemented-in-net-test-frameworks.aspx
 dsq_thread_id:
   - "262068522"
 categories:

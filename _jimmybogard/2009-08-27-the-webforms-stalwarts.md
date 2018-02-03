@@ -1,10 +1,10 @@
 ---
-id: 347
+wordpress_id: 347
 title: The WebForms stalwarts
 date: 2009-08-27T12:55:01+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/08/27/the-webforms-stalwarts.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/08/27/the-webforms-stalwarts.aspx
 dsq_thread_id:
   - "265336808"
 categories:

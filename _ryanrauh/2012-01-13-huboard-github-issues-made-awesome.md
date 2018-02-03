@@ -1,10 +1,10 @@
 ---
-id: 91
+wordpress_id: 91
 title: 'Huboard &#8211; Github issues made awesome'
 date: 2012-01-13T22:47:59+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=91
+wordpress_guid: http://lostechies.com/ryanrauh/?p=91
 dsq_thread_id:
   - "538057299"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1132
+wordpress_id: 1132
 title: 'End-to-End Hypermedia: Building the Client'
 date: 2015-06-18T12:41:30+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1132
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1132
 dsq_thread_id:
   - "3858746442"
 categories:

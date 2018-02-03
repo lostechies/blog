@@ -1,10 +1,10 @@
 ---
-id: 402
+wordpress_id: 402
 title: 'Dependency Injection in ASP.NET MVC: Contextual controller injection'
 date: 2010-04-28T12:57:41+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/04/28/dependency-injection-in-asp-net-mvc-contextual-controller-injection.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/04/28/dependency-injection-in-asp-net-mvc-contextual-controller-injection.aspx
 dsq_thread_id:
   - "264716473"
 categories:

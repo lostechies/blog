@@ -1,10 +1,10 @@
 ---
-id: 69
+wordpress_id: 69
 title: 'The Ruby/Rails Life &#8211; My Rails 3 Stack &#8211; Part 1'
 date: 2010-05-25T02:35:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2010/05/24/the-ruby-rails-life-my-rails-3-stack-part-1.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2010/05/24/the-ruby-rails-life-my-rails-3-stack-part-1.aspx
 categories:
   - blueprint
   - cancan

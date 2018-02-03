@@ -1,10 +1,10 @@
 ---
-id: 35
+wordpress_id: 35
 title: The Jing Project
 date: 2007-07-18T16:26:20+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/07/18/the-jing-project.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/07/18/the-jing-project.aspx
 dsq_thread_id:
   - "262089888"
 categories:

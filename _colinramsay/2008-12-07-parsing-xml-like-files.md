@@ -1,10 +1,10 @@
 ---
-id: 4690
+wordpress_id: 4690
 title: Parsing XML-like Files
 date: 2008-12-07T10:23:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2008/12/07/parsing-xml-like-files.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2008/12/07/parsing-xml-like-files.aspx
 categories:
   - CSS
   - fizzler

@@ -1,10 +1,10 @@
 ---
-id: 3011
+wordpress_id: 3011
 title: Portable Area excerpt from MVC2 in Action
 date: 2010-04-22T15:23:12+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/04/22/portable-area-excerpt-from-mvc2-in-action.aspx
+wordpress_guid: /blogs/hex/archive/2010/04/22/portable-area-excerpt-from-mvc2-in-action.aspx
 dsq_thread_id:
   - "262526269"
 categories:

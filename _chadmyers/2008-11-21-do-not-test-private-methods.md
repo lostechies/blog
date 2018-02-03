@@ -1,10 +1,10 @@
 ---
-id: 114
+wordpress_id: 114
 title: Do not test private methods
 date: 2008-11-21T21:49:01+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/11/21/do-not-test-private-methods.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/11/21/do-not-test-private-methods.aspx
 dsq_thread_id:
   - "262114175"
 categories:

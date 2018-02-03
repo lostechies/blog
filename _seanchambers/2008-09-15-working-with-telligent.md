@@ -1,10 +1,10 @@
 ---
-id: 3184
+wordpress_id: 3184
 title: New job, new opportunities at Telligent
 date: 2008-09-15T23:07:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/09/15/working-with-telligent.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/09/15/working-with-telligent.aspx
 dsq_thread_id:
   - "268123831"
 categories:

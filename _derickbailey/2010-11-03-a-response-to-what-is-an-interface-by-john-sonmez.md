@@ -1,10 +1,10 @@
 ---
-id: 195
+wordpress_id: 195
 title: A Response To “What Is An Interface” By John Sonmez
 date: 2010-11-03T18:11:35+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/11/03/a-response-to-what-is-an-interface-by-john-sonmez.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/11/03/a-response-to-what-is-an-interface-by-john-sonmez.aspx
 dsq_thread_id:
   - "264973710"
 categories:

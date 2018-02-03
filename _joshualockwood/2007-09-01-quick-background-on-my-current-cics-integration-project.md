@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: Quick Background on my current CICS integration project
 date: 2007-09-01T01:00:00+00:00
 author: Joshua Lockwood
 layout: post
-guid: /blogs/joshua_lockwood/archive/2007/08/31/quick-background-on-my-current-cics-integration-project.aspx
+wordpress_guid: /blogs/joshua_lockwood/archive/2007/08/31/quick-background-on-my-current-cics-integration-project.aspx
 categories:
   - Legacy Systems
   - NHibernate

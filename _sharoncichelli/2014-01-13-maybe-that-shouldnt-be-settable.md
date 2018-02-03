@@ -1,10 +1,10 @@
 ---
-id: 248
+wordpress_id: 248
 title: 'Maybe that shouldn&#8217;t be settable'
 date: 2014-01-13T08:30:18+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=248
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=248
 dsq_thread_id:
   - "2116900814"
 categories:

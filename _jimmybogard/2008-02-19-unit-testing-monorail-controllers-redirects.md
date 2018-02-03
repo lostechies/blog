@@ -1,10 +1,10 @@
 ---
-id: 143
+wordpress_id: 143
 title: 'Unit testing MonoRail controllers &#8211; Redirects'
 date: 2008-02-19T02:40:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/18/unit-testing-monorail-controllers-redirects.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/18/unit-testing-monorail-controllers-redirects.aspx
 dsq_thread_id:
   - "264715553"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 250
+wordpress_id: 250
 title: 'Cells: Partial Controllers And Views For Rails 3'
 date: 2011-04-11T19:59:01+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=250
+wordpress_guid: http://lostechies.com/derickbailey/?p=250
 dsq_thread_id:
   - "277191576"
 categories:

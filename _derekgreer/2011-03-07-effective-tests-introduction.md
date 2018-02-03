@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: 'Effective Tests: Introduction'
 date: 2011-03-07T12:09:24+00:00
 author: Derek Greer
 layout: post
-guid: /blogs/derekgreer/archive/2011/03/07/effective-tests-introduction.aspx
+wordpress_guid: /blogs/derekgreer/archive/2011/03/07/effective-tests-introduction.aspx
 dsq_thread_id:
   - "262468846"
 categories:

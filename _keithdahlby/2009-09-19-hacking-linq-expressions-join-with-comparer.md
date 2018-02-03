@@ -1,10 +1,10 @@
 ---
-id: 4197
+wordpress_id: 4197
 title: 'Hacking LINQ Expressions: Join With Comparer'
 date: 2009-09-19T18:15:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/09/19/hacking-linq-expressions-join-with-comparer.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/09/19/hacking-linq-expressions-join-with-comparer.aspx
 dsq_thread_id:
   - "262640371"
 categories:

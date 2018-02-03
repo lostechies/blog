@@ -1,10 +1,10 @@
 ---
-id: 3163
+wordpress_id: 3163
 title: Code Coverage
 date: 2008-01-07T04:01:57+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/01/06/code-coverage.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/01/06/code-coverage.aspx
 dsq_thread_id:
   - "358878678"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: 'Another Quick Tip: Asserting view renders in a MonoRail controller test'
 date: 2007-09-13T13:10:09+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/13/another-quick-tip-asserting-view-renders-in-a-monorail-controller-test.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/13/another-quick-tip-asserting-view-renders-in-a-monorail-controller-test.aspx
 categories:
   - Castle
   - MonoRail

@@ -1,10 +1,10 @@
 ---
-id: 64
+wordpress_id: 64
 title: '&#8230;Programmers still in the Dark Ages???'
 date: 2007-09-27T04:46:20+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/27/programmers-still-in-the-dark-ages.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/27/programmers-still-in-the-dark-ages.aspx
 dsq_thread_id:
   - "262089741"
 categories:

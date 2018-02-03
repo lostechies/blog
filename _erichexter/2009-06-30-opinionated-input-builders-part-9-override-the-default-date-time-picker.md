@@ -1,10 +1,10 @@
 ---
-id: 2984
+wordpress_id: 2984
 title: Opinionated Input Builders – Part 9 override the default Date Time picker
 date: 2009-06-30T13:07:23+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/30/opinionated-input-builders-part-9-override-the-default-date-time-picker.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/30/opinionated-input-builders-part-9-override-the-default-date-time-picker.aspx
 dsq_thread_id:
   - "262687386"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: 'VAN: Castle Monorail, Active Record and Brail talk at Wednesday 8PM CST (-5 GMT), by yours truly.'
 date: 2009-07-07T12:00:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/07/07/van-castle-monorail-active-record-and-brail-talk-at-wednesday-8pm-cst-5-gmt-by-yours-truly.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/07/07/van-castle-monorail-active-record-and-brail-talk-at-wednesday-8pm-cst-5-gmt-by-yours-truly.aspx
 dsq_thread_id:
   - "1071764550"
 categories:

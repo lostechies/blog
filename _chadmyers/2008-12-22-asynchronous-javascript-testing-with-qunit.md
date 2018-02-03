@@ -1,10 +1,10 @@
 ---
-id: 120
+wordpress_id: 120
 title: Asynchronous JavaScript Testing with QUnit
 date: 2008-12-22T18:24:12+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/12/22/asynchronous-javascript-testing-with-qunit.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/12/22/asynchronous-javascript-testing-with-qunit.aspx
 dsq_thread_id:
   - "262239805"
 categories:

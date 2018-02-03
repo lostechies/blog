@@ -1,10 +1,10 @@
 ---
-id: 534
+wordpress_id: 534
 title: AutoMapper completely moved to GitHub
 date: 2011-09-13T00:54:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/09/13/automapper-completely-moved-to-github/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/09/13/automapper-completely-moved-to-github/
 dsq_thread_id:
   - "412727162"
 categories:

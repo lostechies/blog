@@ -1,10 +1,10 @@
 ---
-id: 211
+wordpress_id: 211
 title: Integrating StructureMap with WCF
 date: 2008-07-30T02:44:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/07/29/integrating-structuremap-with-wcf.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/07/29/integrating-structuremap-with-wcf.aspx
 dsq_thread_id:
   - "264738879"
 categories:

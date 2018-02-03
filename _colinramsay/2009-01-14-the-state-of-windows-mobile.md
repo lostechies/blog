@@ -1,10 +1,10 @@
 ---
-id: 4691
+wordpress_id: 4691
 title: The State of Windows Mobile
 date: 2009-01-14T12:57:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2009/01/14/the-state-of-windows-mobile.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2009/01/14/the-state-of-windows-mobile.aspx
 categories:
   - Compact Framework
   - windows mobile

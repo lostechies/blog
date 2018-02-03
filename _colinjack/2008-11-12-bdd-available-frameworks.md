@@ -1,10 +1,10 @@
 ---
-id: 4639
+wordpress_id: 4639
 title: 'BDD &#8211; Available Frameworks'
 date: 2008-11-12T15:07:00+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2008/11/12/bdd-available-frameworks.aspx
+wordpress_guid: /blogs/colinjack/archive/2008/11/12/bdd-available-frameworks.aspx
 categories:
   - Uncategorized
 ---

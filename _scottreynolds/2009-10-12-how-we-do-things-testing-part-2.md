@@ -1,10 +1,10 @@
 ---
-id: 4054
+wordpress_id: 4054
 title: 'How We Do Things &#8211; Testing Part 2'
 date: 2009-10-12T00:07:50+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/10/11/how-we-do-things-testing-part-2.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/10/11/how-we-do-things-testing-part-2.aspx
 categories:
   - .NET
   - 'C#'

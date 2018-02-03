@@ -1,10 +1,10 @@
 ---
-id: 656
+wordpress_id: 656
 title: Central Texas GiveCamp needs volunteers
 date: 2012-08-21T12:59:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/08/21/central-texas-givecamp-needs-volunteers/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/08/21/central-texas-givecamp-needs-volunteers/
 dsq_thread_id:
   - "813198956"
 categories:

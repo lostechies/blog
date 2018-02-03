@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: 'Improving Our Industry: Its Time to Educate Outward, to Improve Inward'
 date: 2009-01-13T16:59:02+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/01/13/improving-our-industry-its-time-to-educate-outward-to-improve-inward.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/01/13/improving-our-industry-its-time-to-educate-outward-to-improve-inward.aspx
 dsq_thread_id:
   - "262068020"
 categories:

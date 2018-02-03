@@ -1,10 +1,10 @@
 ---
-id: 36
+wordpress_id: 36
 title: The TryThis method
 date: 2009-08-27T04:19:27+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/08/27/the-trythis-method.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/08/27/the-trythis-method.aspx
 dsq_thread_id:
   - "262055710"
 categories:

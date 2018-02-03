@@ -1,10 +1,10 @@
 ---
-id: 419
+wordpress_id: 419
 title: 'Single Page Apps &#038; Realtime, a Love Story'
 date: 2013-08-13T08:51:58+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=419
+wordpress_guid: http://lostechies.com/chrismissal/?p=419
 dsq_thread_id:
   - "1603524233"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 786
+wordpress_id: 786
 title: '(Un) Reliability in messaging: idempotency and de-duplication'
 date: 2013-06-03T14:01:35+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=786
+wordpress_guid: http://lostechies.com/jimmybogard/?p=786
 dsq_thread_id:
   - "1355492578"
 categories:

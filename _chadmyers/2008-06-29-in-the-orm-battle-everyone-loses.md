@@ -1,10 +1,10 @@
 ---
-id: 65
+wordpress_id: 65
 title: In the ORM Battle, Everyone Loses.
 date: 2008-06-29T01:06:33+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/28/in-the-orm-battle-everyone-loses.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/28/in-the-orm-battle-everyone-loses.aspx
 dsq_thread_id:
   - "262113883"
 categories:

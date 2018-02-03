@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: Preview of my lightning talk on microservices
 date: 2015-05-13T22:03:25+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=44
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=44
 dsq_thread_id:
   - "3761616916"
 categories:

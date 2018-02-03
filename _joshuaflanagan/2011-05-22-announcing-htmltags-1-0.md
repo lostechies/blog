@@ -1,10 +1,10 @@
 ---
-id: 3974
+wordpress_id: 3974
 title: Announcing HtmlTags 1.0
 date: 2011-05-22T16:19:29+00:00
 author: Joshua Flanagan
 layout: post
-guid: http://lostechies.com/joshuaflanagan/2011/05/22/announcing-htmltags-1-0/
+wordpress_guid: http://lostechies.com/joshuaflanagan/2011/05/22/announcing-htmltags-1-0/
 dsq_thread_id:
   - "310893365"
 categories:

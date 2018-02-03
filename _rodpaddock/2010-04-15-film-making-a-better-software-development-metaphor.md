@@ -1,10 +1,10 @@
 ---
-id: 4476
+wordpress_id: 4476
 title: 'Film Making: A  Better Software Development Metaphor'
 date: 2010-04-15T22:25:00+00:00
 author: Rod Paddock
 layout: post
-guid: /blogs/rodpaddock/archive/2010/04/15/film-making-a-better-software-development-metaphor.aspx
+wordpress_guid: /blogs/rodpaddock/archive/2010/04/15/film-making-a-better-software-development-metaphor.aspx
 dsq_thread_id:
   - "263003364"
 categories:

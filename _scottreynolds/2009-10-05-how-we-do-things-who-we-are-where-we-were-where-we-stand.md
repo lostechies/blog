@@ -1,10 +1,10 @@
 ---
-id: 4049
+wordpress_id: 4049
 title: 'How We Do Things &#8211; Who we are, Where we were, Where we stand'
 date: 2009-10-05T03:16:23+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/10/05/how-we-do-things-who-we-are-where-we-were-where-we-stand.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/10/05/how-we-do-things-who-we-are-where-we-were-where-we-stand.aspx
 categories:
   - how we do it
   - Management

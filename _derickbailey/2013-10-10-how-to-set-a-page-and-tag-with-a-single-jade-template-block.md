@@ -1,10 +1,10 @@
 ---
-id: 1160
+wordpress_id: 1160
 title: How To Set A Page Title And H1 Tag With A Single Jade Template Block
 date: 2013-10-10T07:54:08+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1160
+wordpress_guid: http://lostechies.com/derickbailey/?p=1160
 dsq_thread_id:
   - "1843012887"
 categories:

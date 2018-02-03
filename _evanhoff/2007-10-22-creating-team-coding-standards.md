@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: Creating Team Coding Standards
 date: 2007-10-22T23:43:43+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/22/creating-team-coding-standards.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/22/creating-team-coding-standards.aspx
 categories:
   - Uncategorized
 ---

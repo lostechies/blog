@@ -1,10 +1,10 @@
 ---
-id: 3161
+wordpress_id: 3161
 title: Evaluating TeamCity as a CC.net Replacement
 date: 2008-01-06T21:26:09+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/01/06/evaluating-teamcity-as-a-cc-net-replacement.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/01/06/evaluating-teamcity-as-a-cc-net-replacement.aspx
 dsq_thread_id:
   - "262125678"
 categories:

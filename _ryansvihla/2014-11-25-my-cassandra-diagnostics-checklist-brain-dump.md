@@ -1,10 +1,10 @@
 ---
-id: 171
+wordpress_id: 171
 title: My Cassandra 2.0 Diagnostics Checklist (Brain Dump)
 date: 2014-11-25T21:33:44+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=171
+wordpress_guid: http://lostechies.com/ryansvihla/?p=171
 dsq_thread_id:
   - "3263339991"
 categories:

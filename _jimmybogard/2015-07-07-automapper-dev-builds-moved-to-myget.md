@@ -1,10 +1,10 @@
 ---
-id: 1144
+wordpress_id: 1144
 title: AutoMapper dev builds moved to MyGet
 date: 2015-07-07T18:08:07+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1144
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1144
 dsq_thread_id:
   - "3913064886"
 categories:

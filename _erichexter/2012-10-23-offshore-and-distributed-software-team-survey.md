@@ -1,10 +1,10 @@
 ---
-id: 140
+wordpress_id: 140
 title: Offshore and Distributed Software Team Survey
 date: 2012-10-23T04:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/2012/10/23/offshore-and-distributed-software-team-survey/
+wordpress_guid: http://lostechies.com/erichexter/2012/10/23/offshore-and-distributed-software-team-survey/
 dsq_thread_id:
   - "896695067"
 categories:

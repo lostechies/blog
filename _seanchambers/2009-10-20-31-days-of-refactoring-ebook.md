@@ -1,10 +1,10 @@
 ---
-id: 3228
+wordpress_id: 3228
 title: 31 Days of Refactoring eBook
 date: 2009-10-20T23:27:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/10/20/31-days-of-refactoring-ebook.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/10/20/31-days-of-refactoring-ebook.aspx
 dsq_thread_id:
   - "262126452"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4204
+wordpress_id: 4204
 title: 'Quick Tip: Parse String to Nullable Value'
 date: 2010-01-23T16:39:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/01/23/quick-tip-parse-string-to-nullable-value.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/01/23/quick-tip-parse-string-to-nullable-value.aspx
 dsq_thread_id:
   - "263918333"
 categories:

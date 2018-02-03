@@ -1,10 +1,10 @@
 ---
-id: 4450
+wordpress_id: 4450
 title: Developing at the Speed of Microsoft
 date: 2009-03-03T08:07:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2009/03/03/developing-at-the-speed-of-microsoft.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2009/03/03/developing-at-the-speed-of-microsoft.aspx
 dsq_thread_id:
   - "449608063"
 categories:

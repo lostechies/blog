@@ -1,10 +1,10 @@
 ---
-id: 252
+wordpress_id: 252
 title: Where TDD fails for me
 date: 2008-11-18T02:49:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/17/where-tdd-fails-for-me.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/17/where-tdd-fails-for-me.aspx
 dsq_thread_id:
   - "264715971"
 categories:

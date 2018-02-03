@@ -1,10 +1,10 @@
 ---
-id: 210
+wordpress_id: 210
 title: Arrange Act Assert and BDD specifications
 date: 2008-07-24T12:18:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/07/24/arrange-act-assert-and-bdd-specifications.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/07/24/arrange-act-assert-and-bdd-specifications.aspx
 dsq_thread_id:
   - "264715841"
 categories:

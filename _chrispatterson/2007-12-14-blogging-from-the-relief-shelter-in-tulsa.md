@@ -1,10 +1,10 @@
 ---
-id: 3577
+wordpress_id: 3577
 title: Blogging from the Relief Shelter in Tulsa
 date: 2007-12-14T01:11:00+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/12/13/blogging-from-the-relief-shelter-in-tulsa.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/12/13/blogging-from-the-relief-shelter-in-tulsa.aspx
 dsq_thread_id:
   - "262089197"
 categories:

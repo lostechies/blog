@@ -1,10 +1,10 @@
 ---
-id: 324
+wordpress_id: 324
 title: Requesting features for AutoMapper
 date: 2009-06-15T01:08:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/06/14/requesting-features-for-automapper.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/06/14/requesting-features-for-automapper.aspx
 dsq_thread_id:
   - "264716190"
 categories:

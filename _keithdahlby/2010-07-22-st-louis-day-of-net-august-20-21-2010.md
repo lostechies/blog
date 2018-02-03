@@ -1,10 +1,10 @@
 ---
-id: 4213
+wordpress_id: 4213
 title: 'St. Louis Day of .NET &#8211; August 20-21, 2010'
 date: 2010-07-22T01:46:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/07/21/st-louis-day-of-net-august-20-21-2010.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/07/21/st-louis-day-of-net-august-20-21-2010.aspx
 dsq_thread_id:
   - "268396197"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 386
+wordpress_id: 386
 title: Context and Best Practices
 date: 2010-01-26T14:25:47+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/01/26/context-and-best-practices.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/01/26/context-and-best-practices.aspx
 dsq_thread_id:
   - "264716410"
 categories:

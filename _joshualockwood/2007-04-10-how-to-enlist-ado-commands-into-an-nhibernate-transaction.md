@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: How to enlist ADO commands into an NHibernate transaction
 date: 2007-04-10T20:27:00+00:00
 author: Joshua Lockwood
 layout: post
-guid: /blogs/joshua_lockwood/archive/2007/04/10/how-to-enlist-ado-commands-into-an-nhibernate-transaction.aspx
+wordpress_guid: /blogs/joshua_lockwood/archive/2007/04/10/how-to-enlist-ado-commands-into-an-nhibernate-transaction.aspx
 categories:
   - Enlist
   - Legacy Systems

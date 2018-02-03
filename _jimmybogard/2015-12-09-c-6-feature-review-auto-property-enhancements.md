@@ -1,10 +1,10 @@
 ---
-id: 1164
+wordpress_id: 1164
 title: 'C# 6 Feature Review: Auto-Property Enhancements'
 date: 2015-12-09T16:00:52+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1164
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1164
 dsq_thread_id:
   - "4389457421"
 categories:

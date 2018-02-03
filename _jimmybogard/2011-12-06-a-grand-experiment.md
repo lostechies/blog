@@ -1,10 +1,10 @@
 ---
-id: 563
+wordpress_id: 563
 title: A grand experiment
 date: 2011-12-06T14:37:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/12/06/a-grand-experiment/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/12/06/a-grand-experiment/
 dsq_thread_id:
   - "495183911"
 categories:

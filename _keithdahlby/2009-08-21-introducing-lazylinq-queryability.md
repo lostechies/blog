@@ -1,10 +1,10 @@
 ---
-id: 4193
+wordpress_id: 4193
 title: 'Introducing LazyLinq: Queryability'
 date: 2009-08-21T02:31:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/08/20/introducing-lazylinq-queryability.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/08/20/introducing-lazylinq-queryability.aspx
 dsq_thread_id:
   - "265265259"
 categories:

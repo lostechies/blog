@@ -1,10 +1,10 @@
 ---
-id: 887
+wordpress_id: 887
 title: Successful IoC container usage
 date: 2014-03-20T14:08:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=887
+wordpress_guid: http://lostechies.com/jimmybogard/?p=887
 dsq_thread_id:
   - "2469202537"
 categories:

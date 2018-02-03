@@ -1,10 +1,10 @@
 ---
-id: 12
+wordpress_id: 12
 title: Dynamic reflection versus static reflection
 date: 2009-02-03T14:31:34+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/02/03/dynamic-reflection-versus-static-reflection.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/02/03/dynamic-reflection-versus-static-reflection.aspx
 dsq_thread_id:
   - "263908824"
 categories:

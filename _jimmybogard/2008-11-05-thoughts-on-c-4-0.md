@@ -1,10 +1,10 @@
 ---
-id: 247
+wordpress_id: 247
 title: 'Thoughts on C# 4.0'
 date: 2008-11-05T03:01:41+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/04/thoughts-on-c-4-0.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/04/thoughts-on-c-4-0.aspx
 dsq_thread_id:
   - "264715958"
 categories:

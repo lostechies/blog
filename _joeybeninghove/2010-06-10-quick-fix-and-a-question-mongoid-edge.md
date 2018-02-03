@@ -1,10 +1,10 @@
 ---
-id: 72
+wordpress_id: 72
 title: 'Quick Fix (and a question): Mongoid Edge'
 date: 2010-06-10T15:44:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2010/06/10/quick-fix-and-a-question-mongoid-edge.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2010/06/10/quick-fix-and-a-question-mongoid-edge.aspx
 categories:
   - MongoDB
   - Mongoid

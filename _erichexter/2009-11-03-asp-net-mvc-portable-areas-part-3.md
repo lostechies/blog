@@ -1,10 +1,10 @@
 ---
-id: 2998
+wordpress_id: 2998
 title: ASP.Net MVC Portable Areas – Part 3
 date: 2009-11-03T17:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/11/03/asp-net-mvc-portable-areas-part-3.aspx
+wordpress_guid: /blogs/hex/archive/2009/11/03/asp-net-mvc-portable-areas-part-3.aspx
 dsq_thread_id:
   - "262051658"
 categories:

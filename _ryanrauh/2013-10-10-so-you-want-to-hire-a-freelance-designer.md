@@ -1,10 +1,10 @@
 ---
-id: 254
+wordpress_id: 254
 title: How to hire a freelance designer
 date: 2013-10-10T18:36:17+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=254
+wordpress_guid: http://lostechies.com/ryanrauh/?p=254
 dsq_thread_id:
   - "1843803307"
 categories:

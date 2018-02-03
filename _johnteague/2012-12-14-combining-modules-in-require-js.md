@@ -1,10 +1,10 @@
 ---
-id: 139
+wordpress_id: 139
 title: Combining Modules in Require.js
 date: 2012-12-14T15:44:07+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=139
+wordpress_guid: http://lostechies.com/johnteague/?p=139
 dsq_thread_id:
   - "974424422"
 categories:

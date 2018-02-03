@@ -1,10 +1,10 @@
 ---
-id: 214
+wordpress_id: 214
 title: Rails notes, from the .NET side
 date: 2008-08-05T02:09:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/04/rails-notes-from-the-net-side.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/04/rails-notes-from-the-net-side.aspx
 dsq_thread_id:
   - "264715849"
 categories:

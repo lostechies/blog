@@ -1,10 +1,10 @@
 ---
-id: 59
+wordpress_id: 59
 title: 'ActiveSupport.NET &#8211; Namespace Overhaul'
 date: 2008-02-09T04:01:45+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2008/02/08/activesupport-net-namespace-overhaul.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2008/02/08/activesupport-net-namespace-overhaul.aspx
 categories:
   - activesupport.net
   - 'C#'

@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: IronPython how cool it is
 date: 2009-05-28T05:08:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/05/28/ironpython-how-cool-it-is.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/05/28/ironpython-how-cool-it-is.aspx
 dsq_thread_id:
   - "425624177"
 categories:

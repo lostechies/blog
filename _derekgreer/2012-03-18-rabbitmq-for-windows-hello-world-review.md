@@ -1,10 +1,10 @@
 ---
-id: 700
+wordpress_id: 700
 title: 'RabbitMQ for Windows: Hello World Review'
 date: 2012-03-18T16:12:58+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=700
+wordpress_guid: http://lostechies.com/derekgreer/?p=700
 dsq_thread_id:
   - "615766913"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 330
+wordpress_id: 330
 title: 'Multiple External Monitors On MacBook Pro: Don&#8217;t Bother&#8230; Yet'
 date: 2011-05-13T10:42:32+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=330
+wordpress_guid: http://lostechies.com/derickbailey/?p=330
 dsq_thread_id:
   - "302906869"
 categories:

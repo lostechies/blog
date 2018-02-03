@@ -1,10 +1,10 @@
 ---
-id: 87
+wordpress_id: 87
 title: Specifications versus validators
 date: 2007-10-25T13:19:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/25/specifications-versus-validators.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/25/specifications-versus-validators.aspx
 dsq_thread_id:
   - "264715384"
 categories:

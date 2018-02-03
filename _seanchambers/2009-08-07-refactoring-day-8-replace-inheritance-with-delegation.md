@@ -1,10 +1,10 @@
 ---
-id: 3202
+wordpress_id: 3202
 title: 'Refactoring Day 8 : Replace Inheritance with Delegation'
 date: 2009-08-07T15:27:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/07/refactoring-day-8-replace-inheritance-with-delegation.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/07/refactoring-day-8-replace-inheritance-with-delegation.aspx
 dsq_thread_id:
   - "262347111"
 categories:

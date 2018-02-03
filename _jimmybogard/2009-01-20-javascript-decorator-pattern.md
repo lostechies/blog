@@ -1,10 +1,10 @@
 ---
-id: 273
+wordpress_id: 273
 title: JavaScript decorator pattern
 date: 2009-01-20T22:38:52+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/01/20/javascript-decorator-pattern.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/01/20/javascript-decorator-pattern.aspx
 dsq_thread_id:
   - "264716053"
 categories:

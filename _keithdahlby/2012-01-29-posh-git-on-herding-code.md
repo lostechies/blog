@@ -1,10 +1,10 @@
 ---
-id: 97
+wordpress_id: 97
 title: posh-git on Herding Code
 date: 2012-01-29T22:16:14+00:00
 author: Keith Dahlby
 layout: post
-guid: http://lostechies.com/keithdahlby/?p=97
+wordpress_guid: http://lostechies.com/keithdahlby/?p=97
 dsq_thread_id:
   - "557280521"
 categories:

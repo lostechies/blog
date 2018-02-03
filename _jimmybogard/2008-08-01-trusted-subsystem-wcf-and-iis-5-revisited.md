@@ -1,10 +1,10 @@
 ---
-id: 213
+wordpress_id: 213
 title: 'Trusted Subsystem, WCF and IIS 5 &#8211; revisited'
 date: 2008-08-01T00:26:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/07/31/trusted-subsystem-wcf-and-iis-5-revisited.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/07/31/trusted-subsystem-wcf-and-iis-5-revisited.aspx
 dsq_thread_id:
   - "264715857"
 categories:

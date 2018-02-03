@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: Sorting Spaces In Lion
 date: 2011-08-27T10:34:41+00:00
 author: Hugo Bonacci
 layout: post
-guid: http://lostechies.com/hugobonacci/?p=29
+wordpress_guid: http://lostechies.com/hugobonacci/?p=29
 dsq_thread_id:
   - "397486012"
 categories:

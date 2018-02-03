@@ -1,10 +1,10 @@
 ---
-id: 243
+wordpress_id: 243
 title: Hail to the king, baby!
 date: 2008-10-27T10:36:22+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/27/hail-to-the-king-baby.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/27/hail-to-the-king-baby.aspx
 dsq_thread_id:
   - "265811750"
 categories:

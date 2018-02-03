@@ -1,10 +1,10 @@
 ---
-id: 58
+wordpress_id: 58
 title: Under the Covers with MassTransit Endpoints
 date: 2009-09-12T19:57:40+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/09/12/under-the-covers-with-masstransit-endpoints.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/09/12/under-the-covers-with-masstransit-endpoints.aspx
 dsq_thread_id:
   - "262089371"
 categories:

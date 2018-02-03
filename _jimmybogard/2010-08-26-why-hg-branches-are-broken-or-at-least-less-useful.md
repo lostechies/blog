@@ -1,10 +1,10 @@
 ---
-id: 429
+wordpress_id: 429
 title: Why Hg branches are broken (or at least less useful)
 date: 2010-08-26T03:18:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/08/25/why-hg-branches-are-broken-or-at-least-less-useful.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/08/25/why-hg-branches-are-broken-or-at-least-less-useful.aspx
 dsq_thread_id:
   - "265140510"
 categories:

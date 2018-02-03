@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: 'Ah Ha Moments &#8211; Handcrafted CSS Chapter 1'
 date: 2011-10-10T15:32:46+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=13
+wordpress_guid: http://lostechies.com/ryanrauh/?p=13
 dsq_thread_id:
   - "439310929"
 categories:

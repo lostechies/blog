@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: Refactoring legacy code
 date: 2009-02-27T18:42:11+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/02/27/refactoring-legacy-code.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/02/27/refactoring-legacy-code.aspx
 dsq_thread_id:
   - "263908831"
 categories:

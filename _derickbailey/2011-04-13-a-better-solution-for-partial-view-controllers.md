@@ -1,10 +1,10 @@
 ---
-id: 261
+wordpress_id: 261
 title: A Better Solution For Partial View Controllers
 date: 2011-04-13T13:49:03+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=261
+wordpress_guid: http://lostechies.com/derickbailey/?p=261
 dsq_thread_id:
   - "278674509"
 categories:

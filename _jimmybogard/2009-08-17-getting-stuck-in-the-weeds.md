@@ -1,10 +1,10 @@
 ---
-id: 345
+wordpress_id: 345
 title: Getting stuck in the weeds
 date: 2009-08-17T01:56:22+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/08/16/getting-stuck-in-the-weeds.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/08/16/getting-stuck-in-the-weeds.aspx
 dsq_thread_id:
   - "264716289"
 categories:

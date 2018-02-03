@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: NUnit Behavior Driven Development
 date: 2007-03-06T03:39:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/03/05/nunit-behavior-driven-development.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/03/05/nunit-behavior-driven-development.aspx
 dsq_thread_id:
   - "262086259"
 categories:

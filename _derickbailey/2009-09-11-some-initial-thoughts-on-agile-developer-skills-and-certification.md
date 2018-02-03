@@ -1,10 +1,10 @@
 ---
-id: 81
+wordpress_id: 81
 title: Some Initial Thoughts On Agile Developer Skills And Certification
 date: 2009-09-11T19:10:44+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/11/some-initial-thoughts-on-agile-developer-skills-and-certification.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/11/some-initial-thoughts-on-agile-developer-skills-and-certification.aspx
 dsq_thread_id:
   - "262068322"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Why Selenium and Rspec?
 date: 2010-04-16T00:54:00+00:00
 author: Scott Gillenwater
 layout: post
-guid: /blogs/stgillen/archive/2010/04/15/why-selenium-and-rspec.aspx
+wordpress_guid: /blogs/stgillen/archive/2010/04/15/why-selenium-and-rspec.aspx
 categories:
   - automate
   - Hudson

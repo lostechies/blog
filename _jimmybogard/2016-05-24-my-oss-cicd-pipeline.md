@@ -1,10 +1,10 @@
 ---
-id: 1188
+wordpress_id: 1188
 title: My OSS CI/CD Pipeline
 date: 2016-05-24T21:39:20+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1188
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1188
 dsq_thread_id:
   - "4854874587"
 categories:

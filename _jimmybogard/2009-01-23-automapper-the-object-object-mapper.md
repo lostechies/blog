@@ -1,10 +1,10 @@
 ---
-id: 274
+wordpress_id: 274
 title: 'AutoMapper: the Object-Object Mapper'
 date: 2009-01-23T02:33:37+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/01/22/automapper-the-object-object-mapper.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/01/22/automapper-the-object-object-mapper.aspx
 dsq_thread_id:
   - "264722682"
 categories:

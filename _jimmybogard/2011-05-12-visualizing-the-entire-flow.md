@@ -1,10 +1,10 @@
 ---
-id: 483
+wordpress_id: 483
 title: Visualizing the entire flow
 date: 2011-05-12T13:19:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/05/12/visualizing-the-entire-flow/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/05/12/visualizing-the-entire-flow/
 dsq_thread_id:
   - "301882634"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 33
+wordpress_id: 33
 title: Multi-Targeting support for VS 2008
 date: 2007-06-21T14:02:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/06/21/multi-targeting-support-for-vs-2008.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/06/21/multi-targeting-support-for-vs-2008.aspx
 dsq_thread_id:
   - "337034183"
 categories:

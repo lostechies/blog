@@ -1,10 +1,10 @@
 ---
-id: 68
+wordpress_id: 68
 title: BUILD conference–day 1
 date: 2011-09-13T21:33:55+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/2011/09/13/build-conferenceday-1/
+wordpress_guid: http://lostechies.com/gabrielschenker/2011/09/13/build-conferenceday-1/
 dsq_thread_id:
   - "413917998"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4717
+wordpress_id: 4717
 title: Up and Running With SQuirrel SQL and SQL Server Express 2005
 date: 2009-08-31T16:14:00+00:00
 author: Eric Anderson
 layout: post
-guid: /blogs/eric/archive/2009/08/31/up-and-running-and-squirrel-sql-and-sql-server-express-2005.aspx
+wordpress_guid: /blogs/eric/archive/2009/08/31/up-and-running-and-squirrel-sql-and-sql-server-express-2005.aspx
 categories:
   - Uncategorized
 ---

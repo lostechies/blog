@@ -1,10 +1,10 @@
 ---
-id: 4790
+wordpress_id: 4790
 title: 'Pragmatic Thinking and Learning &#8211; A Review'
 date: 2009-12-10T14:19:00+00:00
 author: Gregory Long
 layout: post
-guid: /blogs/thatotherguy/archive/2009/12/10/pragmatic-thinking-and-learning-a-review.aspx
+wordpress_guid: /blogs/thatotherguy/archive/2009/12/10/pragmatic-thinking-and-learning-a-review.aspx
 dsq_thread_id:
   - "265272675"
 categories:

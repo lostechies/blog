@@ -1,10 +1,10 @@
 ---
-id: 277
+wordpress_id: 277
 title: 'Git: Anonymous Access Under Windows'
 date: 2010-03-14T21:28:09+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/?p=277
+wordpress_guid: http://www.aspiringcraftsman.com/?p=277
 dsq_thread_id:
   - "326075065"
 categories:

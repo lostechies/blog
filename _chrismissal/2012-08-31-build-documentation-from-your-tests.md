@@ -1,10 +1,10 @@
 ---
-id: 280
+wordpress_id: 280
 title: Build Documentation from your Tests
 date: 2012-08-31T09:37:28+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=280
+wordpress_guid: http://lostechies.com/chrismissal/?p=280
 dsq_thread_id:
   - "825642791"
 categories:

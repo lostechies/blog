@@ -1,10 +1,10 @@
 ---
-id: 87
+wordpress_id: 87
 title: User Story Templates
 date: 2007-12-10T03:37:10+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/12/09/user-story-templates.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/12/09/user-story-templates.aspx
 dsq_thread_id:
   - "262089624"
 categories:

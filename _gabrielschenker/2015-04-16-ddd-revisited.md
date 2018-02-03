@@ -1,10 +1,10 @@
 ---
-id: 929
+wordpress_id: 929
 title: DDD revisited
 date: 2015-04-16T20:42:43+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=929
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=929
 dsq_thread_id:
   - "3688303092"
 categories:

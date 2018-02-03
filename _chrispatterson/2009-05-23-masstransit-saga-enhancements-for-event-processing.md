@@ -1,10 +1,10 @@
 ---
-id: 3613
+wordpress_id: 3613
 title: MassTransit Saga Enhancements for Event Processing
 date: 2009-05-23T02:32:18+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/05/22/masstransit-saga-enhancements-for-event-processing.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/05/22/masstransit-saga-enhancements-for-event-processing.aspx
 dsq_thread_id:
   - "270731182"
 categories:

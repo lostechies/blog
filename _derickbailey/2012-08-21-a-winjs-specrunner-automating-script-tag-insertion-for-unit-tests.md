@@ -1,10 +1,10 @@
 ---
-id: 993
+wordpress_id: 993
 title: 'A WinJS SpecRunner: Automating Script Tag Insertion For Unit Tests'
 date: 2012-08-21T08:22:09+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=993
+wordpress_guid: http://lostechies.com/derickbailey/?p=993
 dsq_thread_id:
   - "813285830"
 categories:

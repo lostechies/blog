@@ -1,10 +1,10 @@
 ---
-id: 2957
+wordpress_id: 2957
 title: Trying to extend the Asp.Net MVC (T4) item templates to create multiple files.
 date: 2009-02-05T14:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/02/05/trying-to-extend-the-asp-net-mvc-t4-item-templates-to-create-multiple-files.aspx
+wordpress_guid: /blogs/hex/archive/2009/02/05/trying-to-extend-the-asp-net-mvc-t4-item-templates-to-create-multiple-files.aspx
 dsq_thread_id:
   - "265633040"
 categories:

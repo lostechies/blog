@@ -1,10 +1,10 @@
 ---
-id: 62
+wordpress_id: 62
 title: 'Handlers &#8211; A useful FubuMVC Convention'
 date: 2011-07-26T21:08:01+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=62
+wordpress_guid: http://lostechies.com/josharnold/?p=62
 dsq_thread_id:
   - "369346413"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3203
+wordpress_id: 3203
 title: 'Refactoring Day 9 : Extract Interface'
 date: 2009-08-09T11:00:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/09/refactoring-day-9-extract-interface.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/09/refactoring-day-9-extract-interface.aspx
 dsq_thread_id:
   - "264983766"
 categories:

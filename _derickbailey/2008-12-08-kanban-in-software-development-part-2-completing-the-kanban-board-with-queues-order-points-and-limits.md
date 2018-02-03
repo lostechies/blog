@@ -1,10 +1,10 @@
 ---
-id: 23
+wordpress_id: 23
 title: 'Kanban in Software Development. Part 2: Completing the Kanban Board with Queues, Order Points and Limits'
 date: 2008-12-08T19:06:45+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/12/08/kanban-in-software-development-part-2-completing-the-kanban-board-with-queues-order-points-and-limits.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/12/08/kanban-in-software-development-part-2-completing-the-kanban-board-with-queues-order-points-and-limits.aspx
 dsq_thread_id:
   - "262067988"
 categories:

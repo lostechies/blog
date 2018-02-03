@@ -1,10 +1,10 @@
 ---
-id: 3132
+wordpress_id: 3132
 title: Blogging at LosTechies
 date: 2007-09-22T21:39:56+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/09/22/blogging-at-lostechies.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/09/22/blogging-at-lostechies.aspx
 dsq_thread_id:
   - "268123673"
 categories:

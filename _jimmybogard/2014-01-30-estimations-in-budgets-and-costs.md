@@ -1,10 +1,10 @@
 ---
-id: 853
+wordpress_id: 853
 title: Estimations in budgets and costs
 date: 2014-01-30T14:44:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=853
+wordpress_guid: http://lostechies.com/jimmybogard/?p=853
 dsq_thread_id:
   - "2195453112"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 100
+wordpress_id: 100
 title: A downcasting tragedy
 date: 2007-11-14T22:34:54+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/14/a-downcasting-tragedy.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/14/a-downcasting-tragedy.aspx
 dsq_thread_id:
   - "264715422"
 categories:

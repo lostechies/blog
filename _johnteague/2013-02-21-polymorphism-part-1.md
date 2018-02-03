@@ -1,10 +1,10 @@
 ---
-id: 160
+wordpress_id: 160
 title: 'Polymorphism: Part 1'
 date: 2013-02-21T19:49:27+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=160
+wordpress_guid: http://lostechies.com/johnteague/?p=160
 dsq_thread_id:
   - "1097287979"
 categories:

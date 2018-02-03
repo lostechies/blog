@@ -1,10 +1,10 @@
 ---
-id: 590
+wordpress_id: 590
 title: Built-In Roles in NServiceBus
 date: 2012-02-22T19:03:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/02/22/built-in-roles-in-nservicebus/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/02/22/built-in-roles-in-nservicebus/
 dsq_thread_id:
   - "585676635"
 categories:

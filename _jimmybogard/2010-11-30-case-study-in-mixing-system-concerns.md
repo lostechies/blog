@@ -1,10 +1,10 @@
 ---
-id: 440
+wordpress_id: 440
 title: Case study in mixing system concerns
 date: 2010-11-30T13:53:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/11/30/case-study-in-mixing-system-concerns.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/11/30/case-study-in-mixing-system-concerns.aspx
 dsq_thread_id:
   - "264716601"
 categories:

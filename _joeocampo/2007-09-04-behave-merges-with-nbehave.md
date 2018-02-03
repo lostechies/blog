@@ -1,10 +1,10 @@
 ---
-id: 46
+wordpress_id: 46
 title: 'Behave# merges with NBehave'
 date: 2007-09-04T01:08:34+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/03/behave-merges-with-nbehave.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/03/behave-merges-with-nbehave.aspx
 dsq_thread_id:
   - "262090871"
 categories:

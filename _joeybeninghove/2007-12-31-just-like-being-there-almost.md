@@ -1,10 +1,10 @@
 ---
-id: 54
+wordpress_id: 54
 title: 'Just like being there&#8230;almost.'
 date: 2007-12-31T03:46:15+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/12/30/just-like-being-there-almost.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/12/30/just-like-being-there-almost.aspx
 categories:
   - Uncategorized
 ---

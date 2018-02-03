@@ -1,10 +1,10 @@
 ---
-id: 163
+wordpress_id: 163
 title: The Dangers Of AutoMocking Containers
 date: 2010-05-26T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/26/the-dangers-of-automocking-containers.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/26/the-dangers-of-automocking-containers.aspx
 dsq_thread_id:
   - "262967533"
 categories:

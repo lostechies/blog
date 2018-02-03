@@ -1,10 +1,10 @@
 ---
-id: 169
+wordpress_id: 169
 title: When to use a Mock and When Not To
 date: 2011-08-22T16:26:35+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=169
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=169
 dsq_thread_id:
   - "1042354124"
 categories:

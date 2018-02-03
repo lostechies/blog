@@ -1,10 +1,10 @@
 ---
-id: 100
+wordpress_id: 100
 title: Generating Test Cases at Runtime
 date: 2013-10-09T01:27:15+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=100
+wordpress_guid: http://lostechies.com/patricklioi/?p=100
 dsq_thread_id:
   - "1837983472"
 categories:

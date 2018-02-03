@@ -1,10 +1,10 @@
 ---
-id: 160
+wordpress_id: 160
 title: Controller bloat?
 date: 2008-03-20T02:44:27+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/19/controller-bloat.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/19/controller-bloat.aspx
 dsq_thread_id:
   - "264715607"
 categories:

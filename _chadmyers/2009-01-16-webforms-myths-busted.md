@@ -1,10 +1,10 @@
 ---
-id: 129
+wordpress_id: 129
 title: WebForms Myths “Busted”
 date: 2009-01-16T14:53:29+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/01/16/webforms-myths-busted.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/01/16/webforms-myths-busted.aspx
 dsq_thread_id:
   - "262114291"
 categories:

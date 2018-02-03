@@ -1,10 +1,10 @@
 ---
-id: 1846
+wordpress_id: 1846
 title: Easing the use of the AWS CLI
 date: 2016-09-21T09:32:06+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1846
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1846
 dsq_thread_id:
   - "5161797001"
 categories:

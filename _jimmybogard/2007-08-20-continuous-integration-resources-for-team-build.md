@@ -1,10 +1,10 @@
 ---
-id: 54
+wordpress_id: 54
 title: Continuous Integration resources for Team Build
 date: 2007-08-20T13:58:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/20/continuous-integration-resources-for-team-build.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/20/continuous-integration-resources-for-team-build.aspx
 dsq_thread_id:
   - "330723153"
 categories:

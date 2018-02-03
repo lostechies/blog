@@ -1,10 +1,10 @@
 ---
-id: 606
+wordpress_id: 606
 title: 'Backbone.js: Getting The Model For A Clicked Element'
 date: 2011-10-11T15:43:14+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=606
+wordpress_guid: http://lostechies.com/derickbailey/?p=606
 dsq_thread_id:
   - "440550629"
 categories:

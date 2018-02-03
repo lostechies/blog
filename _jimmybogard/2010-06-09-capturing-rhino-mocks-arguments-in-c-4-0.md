@@ -1,10 +1,10 @@
 ---
-id: 416
+wordpress_id: 416
 title: 'Capturing Rhino Mocks arguments in C# 4.0'
 date: 2010-06-09T18:20:30+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/06/09/capturing-rhino-mocks-arguments-in-c-4-0.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/06/09/capturing-rhino-mocks-arguments-in-c-4-0.aspx
 dsq_thread_id:
   - "264716497"
 dsq_needs_sync:

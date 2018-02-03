@@ -1,10 +1,10 @@
 ---
-id: 392
+wordpress_id: 392
 title: 'Strengthening your domain: Encapsulated collections'
 date: 2010-03-10T14:19:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx
 dsq_thread_id:
   - "264716419"
 categories:

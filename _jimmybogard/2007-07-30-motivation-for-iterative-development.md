@@ -1,10 +1,10 @@
 ---
-id: 47
+wordpress_id: 47
 title: Motivation for iterative development
 date: 2007-07-30T20:59:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/30/motivation-for-iterative-development.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/30/motivation-for-iterative-development.aspx
 dsq_thread_id:
   - "287652762"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 656
+wordpress_id: 656
 title: 'Jasmine-BDD: A Screencast On The Standalone Test Runner'
 date: 2011-11-10T22:55:58+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=656
+wordpress_guid: http://lostechies.com/derickbailey/?p=656
 dsq_thread_id:
   - "468093079"
 categories:

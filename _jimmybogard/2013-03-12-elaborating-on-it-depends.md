@@ -1,10 +1,10 @@
 ---
-id: 741
+wordpress_id: 741
 title: Elaborating on “it depends”
 date: 2013-03-12T13:09:08+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=741
+wordpress_guid: http://lostechies.com/jimmybogard/?p=741
 dsq_thread_id:
   - "1132566026"
 categories:

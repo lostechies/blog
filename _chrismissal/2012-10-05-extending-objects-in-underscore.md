@@ -1,10 +1,10 @@
 ---
-id: 3395
+wordpress_id: 3395
 title: Extending Objects in Underscore
 date: 2012-10-05T11:03:44+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=351
+wordpress_guid: http://lostechies.com/chrismissal/?p=351
 dsq_thread_id:
   - "872693113"
 categories:

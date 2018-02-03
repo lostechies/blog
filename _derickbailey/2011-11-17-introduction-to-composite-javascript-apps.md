@@ -1,10 +1,10 @@
 ---
-id: 659
+wordpress_id: 659
 title: Introduction To Composite JavaScript Apps
 date: 2011-11-17T10:54:29+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=659
+wordpress_guid: http://lostechies.com/derickbailey/?p=659
 dsq_thread_id:
   - "475260529"
 categories:

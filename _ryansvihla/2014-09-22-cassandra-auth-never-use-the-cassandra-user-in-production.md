@@ -1,10 +1,10 @@
 ---
-id: 143
+wordpress_id: 143
 title: 'Cassandra Auth: Never use the cassandra user in production!'
 date: 2014-09-22T08:42:34+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=143
+wordpress_guid: http://lostechies.com/ryansvihla/?p=143
 dsq_thread_id:
   - "3042604396"
 categories:

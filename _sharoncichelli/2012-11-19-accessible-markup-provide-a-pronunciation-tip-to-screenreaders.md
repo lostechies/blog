@@ -1,10 +1,10 @@
 ---
-id: 125
+wordpress_id: 125
 title: 'Accessible Markup: Provide a pronunciation tip to screenreaders'
 date: 2012-11-19T21:55:37+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=125
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=125
 dsq_thread_id:
   - "935453764"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: Container Configuration
 date: 2008-11-10T02:20:11+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/11/09/container-configuration.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/11/09/container-configuration.aspx
 categories:
   - Design Patterns
 ---

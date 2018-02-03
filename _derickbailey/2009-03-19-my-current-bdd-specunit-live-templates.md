@@ -1,10 +1,10 @@
 ---
-id: 43
+wordpress_id: 43
 title: My Current BDD / SpecUnit Live Templates
 date: 2009-03-19T16:57:17+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/03/19/my-current-bdd-specunit-live-templates.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/03/19/my-current-bdd-specunit-live-templates.aspx
 dsq_thread_id:
   - "262068124"
   - "262068124"

@@ -1,10 +1,10 @@
 ---
-id: 31
+wordpress_id: 31
 title: 'PTOM: The Composite Design Pattern'
 date: 2008-11-18T02:07:00+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/11/17/ptom-the-composite-design-pattern.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/11/17/ptom-the-composite-design-pattern.aspx
 categories:
   - Patterns
   - Principles

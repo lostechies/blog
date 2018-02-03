@@ -1,10 +1,10 @@
 ---
-id: 4571
+wordpress_id: 4571
 title: 'Look Ma! Real Proxies&#8230;'
 date: 2008-12-03T21:57:03+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/12/03/look-ma-real-proxies.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/12/03/look-ma-real-proxies.aspx
 categories:
   - Design Patterns
 ---

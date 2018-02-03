@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: Opening Doors
 date: 2008-11-04T19:27:33+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/11/04/opening-doors.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/11/04/opening-doors.aspx
 categories:
   - Design Patterns
 ---

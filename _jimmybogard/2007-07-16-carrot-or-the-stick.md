@@ -1,10 +1,10 @@
 ---
-id: 41
+wordpress_id: 41
 title: Carrot or the stick
 date: 2007-07-16T19:27:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/16/carrot-or-the-stick.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/16/carrot-or-the-stick.aspx
 dsq_thread_id:
   - "351114058"
 categories:

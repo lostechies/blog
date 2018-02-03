@@ -1,10 +1,10 @@
 ---
-id: 433
+wordpress_id: 433
 title: A question for Rubyists
 date: 2010-09-17T17:40:03+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/09/17/a-question-for-rubyists.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/09/17/a-question-for-rubyists.aspx
 dsq_thread_id:
   - "264716593"
 categories:

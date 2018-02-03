@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: 'RE: Presentation Model Question'
 date: 2007-09-30T00:04:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/29/re-presentation-model-question.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/29/re-presentation-model-question.aspx
 categories:
   - Domain Driven Design
   - NHibernate

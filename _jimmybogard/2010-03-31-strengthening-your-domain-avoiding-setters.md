@@ -1,10 +1,10 @@
 ---
-id: 396
+wordpress_id: 396
 title: 'Strengthening your domain: Avoiding setters'
 date: 2010-03-31T13:52:17+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/03/31/strengthening-your-domain-avoiding-setters.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/03/31/strengthening-your-domain-avoiding-setters.aspx
 dsq_thread_id:
   - "264789208"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 500
+wordpress_id: 500
 title: Intelligent model binding with model binder providers
 date: 2011-07-07T00:45:56+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/07/07/intelligent-model-binding-with-model-binder-providers/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/07/07/intelligent-model-binding-with-model-binder-providers/
 dsq_thread_id:
   - "351572695"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: 'A Discussion on Domain Driven Design: Entities'
 date: 2007-04-15T02:43:39+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/04/14/a-discussion-on-domain-driven-design-entities.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/04/14/a-discussion-on-domain-driven-design-entities.aspx
 dsq_thread_id:
   - "262088529"
 categories:

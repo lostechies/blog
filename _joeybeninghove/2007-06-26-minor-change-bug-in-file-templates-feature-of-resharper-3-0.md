@@ -1,10 +1,10 @@
 ---
-id: 20
+wordpress_id: 20
 title: Minor change (bug?) in file templates feature of ReSharper 3.0
 date: 2007-06-26T10:25:20+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/06/26/minor-change-bug-in-file-templates-feature-of-resharper-3-0.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/06/26/minor-change-bug-in-file-templates-feature-of-resharper-3-0.aspx
 categories:
   - Resharper
 ---

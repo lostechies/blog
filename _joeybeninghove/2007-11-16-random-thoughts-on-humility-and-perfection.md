@@ -1,10 +1,10 @@
 ---
-id: 3704
+wordpress_id: 3704
 title: Random Thoughts On Humility and Perfection
 date: 2007-11-16T02:09:28+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/11/15/random-thoughts-on-humility-and-perfection.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/11/15/random-thoughts-on-humility-and-perfection.aspx
 categories:
   - Uncategorized
 ---

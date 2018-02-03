@@ -1,10 +1,10 @@
 ---
-id: 290
+wordpress_id: 290
 title: A Quick Follow-up on Model Binding in FubuCore
 date: 2011-06-10T10:41:00+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/2011/06/10/a-quick-follow-up-on-model-binding-in-fubucore/
+wordpress_guid: http://lostechies.com/chadmyers/2011/06/10/a-quick-follow-up-on-model-binding-in-fubucore/
 dsq_thread_id:
   - "327805099"
 categories:

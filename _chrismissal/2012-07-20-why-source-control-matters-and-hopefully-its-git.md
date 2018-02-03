@@ -1,10 +1,10 @@
 ---
-id: 260
+wordpress_id: 260
 title: 'Why Source Control Matters and Hopefully it&#8217;s Git'
 date: 2012-07-20T08:08:08+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=260
+wordpress_guid: http://lostechies.com/chrismissal/?p=260
 dsq_thread_id:
   - "773170389"
 categories:

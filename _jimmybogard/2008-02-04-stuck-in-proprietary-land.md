@@ -1,10 +1,10 @@
 ---
-id: 137
+wordpress_id: 137
 title: Stuck in proprietary-land
 date: 2008-02-04T13:43:43+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/04/stuck-in-proprietary-land.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/04/stuck-in-proprietary-land.aspx
 dsq_thread_id:
   - "264715528"
 categories:

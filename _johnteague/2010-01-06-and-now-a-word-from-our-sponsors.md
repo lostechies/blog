@@ -1,10 +1,10 @@
 ---
-id: 42
+wordpress_id: 42
 title: And Now a Word From Our Sponsors
 date: 2010-01-06T23:33:43+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2010/01/06/and-now-a-word-from-our-sponsors.aspx
+wordpress_guid: /blogs/johnteague/archive/2010/01/06/and-now-a-word-from-our-sponsors.aspx
 dsq_thread_id:
   - "463024145"
 categories:

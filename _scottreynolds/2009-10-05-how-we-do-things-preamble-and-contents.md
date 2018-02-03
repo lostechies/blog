@@ -1,10 +1,10 @@
 ---
-id: 4048
+wordpress_id: 4048
 title: 'How we do things &#8211; Preamble and Contents'
 date: 2009-10-05T02:43:03+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx
 categories:
   - how we do it
   - improvement

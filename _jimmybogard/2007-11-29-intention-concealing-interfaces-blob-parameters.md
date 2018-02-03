@@ -1,10 +1,10 @@
 ---
-id: 107
+wordpress_id: 107
 title: 'Intention-concealing interfaces: blob parameters'
 date: 2007-11-29T15:27:59+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/29/intention-concealing-interfaces-blob-parameters.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/29/intention-concealing-interfaces-blob-parameters.aspx
 dsq_thread_id:
   - "264715445"
 categories:

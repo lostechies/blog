@@ -1,10 +1,10 @@
 ---
-id: 198
+wordpress_id: 198
 title: 'Cool stuff in FubuCore No. 6: Command-line'
 date: 2011-06-06T18:16:00+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=198
+wordpress_guid: http://lostechies.com/chadmyers/?p=198
 dsq_thread_id:
   - "324090559"
 categories:

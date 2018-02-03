@@ -1,10 +1,10 @@
 ---
-id: 1115
+wordpress_id: 1115
 title: Building A Better SlideChop With Teensy 3.0
 date: 2013-06-03T08:04:04+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1115
+wordpress_guid: http://lostechies.com/derickbailey/?p=1115
 dsq_thread_id:
   - "1355504009"
 categories:

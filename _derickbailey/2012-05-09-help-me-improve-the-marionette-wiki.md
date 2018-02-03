@@ -1,10 +1,10 @@
 ---
-id: 926
+wordpress_id: 926
 title: Help Me Improve The Marionette Wiki
 date: 2012-05-09T07:28:56+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=926
+wordpress_guid: http://lostechies.com/derickbailey/?p=926
 dsq_thread_id:
   - "682411915"
 categories:

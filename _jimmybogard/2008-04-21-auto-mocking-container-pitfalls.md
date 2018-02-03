@@ -1,10 +1,10 @@
 ---
-id: 171
+wordpress_id: 171
 title: Auto-mocking container pitfalls?
 date: 2008-04-21T23:57:20+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/04/21/auto-mocking-container-pitfalls.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/04/21/auto-mocking-container-pitfalls.aspx
 dsq_thread_id:
   - "272825560"
 categories:

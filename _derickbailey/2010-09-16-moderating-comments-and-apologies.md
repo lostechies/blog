@@ -1,10 +1,10 @@
 ---
-id: 182
+wordpress_id: 182
 title: Moderating Comments, and Apologies
 date: 2010-09-16T00:58:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/09/15/moderating-comments-and-apologies.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/09/15/moderating-comments-and-apologies.aspx
 dsq_thread_id:
   - "264153038"
 categories:

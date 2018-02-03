@@ -1,1 +1,1 @@
-cmd /c  bundle exec jekyll serve
+cmd /c  bundle exec jekyll serve --incremental

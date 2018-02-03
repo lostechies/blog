@@ -1,10 +1,10 @@
 ---
-id: 1261
+wordpress_id: 1261
 title: 'CI with TeamCity and Docker &#8211; Part 1'
 date: 2016-03-22T20:52:22+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1261
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1261
 dsq_thread_id:
   - "4685340594"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3597
+wordpress_id: 3597
 title: MassTransit 0.4 Released
 date: 2008-10-08T01:33:07+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/10/07/masstransit-0-4-released.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/10/07/masstransit-0-4-released.aspx
 dsq_thread_id:
   - "271878264"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 113
+wordpress_id: 113
 title: Twittering from the command line
 date: 2008-05-21T04:47:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/05/21/twittering-from-the-command-line.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/05/21/twittering-from-the-command-line.aspx
 dsq_thread_id:
   - "262089286"
 categories:

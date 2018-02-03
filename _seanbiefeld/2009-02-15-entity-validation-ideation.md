@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Entity Validation Ideation
 date: 2009-02-15T04:33:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2009/02/14/entity-validation-ideation.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2009/02/14/entity-validation-ideation.aspx
 dsq_thread_id:
   - "449608032"
 categories:

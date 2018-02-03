@@ -1,10 +1,10 @@
 ---
-id: 3222
+wordpress_id: 3222
 title: 'Refactoring Day 28 : Rename boolean method'
 date: 2009-08-28T12:12:10+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/28/refactoring-day-28-rename-boolean-method.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/28/refactoring-day-28-rename-boolean-method.aspx
 dsq_thread_id:
   - "262149496"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: Agile Logistics
 date: 2007-04-05T23:24:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/04/05/agile-logistics.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/04/05/agile-logistics.aspx
 dsq_thread_id:
   - "262089254"
 categories:

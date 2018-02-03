@@ -1,10 +1,10 @@
 ---
-id: 26
+wordpress_id: 26
 title: 'Pablo&#8217;s Topic of the Month &#8211; March: SOLID Principles'
 date: 2008-03-08T02:01:16+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx
 dsq_thread_id:
   - "262113714"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 171
+wordpress_id: 171
 title: Easy To Read != Easy To Understand
 date: 2010-06-28T20:11:30+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/06/28/easy-to-read-easy-to-understand.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/06/28/easy-to-read-easy-to-understand.aspx
 dsq_thread_id:
   - "264671620"
 categories:

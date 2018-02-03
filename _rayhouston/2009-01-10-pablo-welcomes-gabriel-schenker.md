@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: Pablo welcomes Gabriel Schenker
 date: 2009-01-10T17:00:52+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2009/01/10/pablo-welcomes-gabriel-schenker.aspx
+wordpress_guid: /blogs/rhouston/archive/2009/01/10/pablo-welcomes-gabriel-schenker.aspx
 categories:
   - Members
 ---

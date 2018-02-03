@@ -1,10 +1,10 @@
 ---
-id: 671
+wordpress_id: 671
 title: Why I’m done with Scrum
 date: 2012-09-12T14:01:45+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/09/12/why-im-done-with-scrum/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/09/12/why-im-done-with-scrum/
 dsq_thread_id:
   - "841211675"
 categories:

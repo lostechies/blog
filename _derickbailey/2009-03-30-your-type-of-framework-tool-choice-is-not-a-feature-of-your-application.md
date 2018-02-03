@@ -1,10 +1,10 @@
 ---
-id: 47
+wordpress_id: 47
 title: 'Your [type of framework / tool] Choice is Not a Feature of Your Application'
 date: 2009-03-30T13:56:51+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/03/30/your-type-of-framework-tool-choice-is-not-a-feature-of-your-application.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/03/30/your-type-of-framework-tool-choice-is-not-a-feature-of-your-application.aspx
 dsq_thread_id:
   - "448454355"
 categories:

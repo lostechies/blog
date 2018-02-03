@@ -1,10 +1,10 @@
 ---
-id: 3004
+wordpress_id: 3004
 title: A Call for Help – Vote for my Codeplex Issues
 date: 2010-01-11T16:10:27+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/01/11/a-call-for-help-vote-for-my-codeplex-issues.aspx
+wordpress_guid: /blogs/hex/archive/2010/01/11/a-call-for-help-vote-for-my-codeplex-issues.aspx
 dsq_thread_id:
   - "265584609"
 categories:

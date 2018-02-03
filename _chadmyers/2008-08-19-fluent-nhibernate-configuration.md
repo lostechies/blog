@@ -1,10 +1,10 @@
 ---
-id: 81
+wordpress_id: 81
 title: 'Fluent NHibernate &#8211; Configuration'
 date: 2008-08-19T00:02:33+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/08/18/fluent-nhibernate-configuration.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/08/18/fluent-nhibernate-configuration.aspx
 dsq_thread_id:
   - "262113994"
 categories:

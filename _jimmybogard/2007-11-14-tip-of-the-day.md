@@ -1,10 +1,10 @@
 ---
-id: 99
+wordpress_id: 99
 title: Tip of the day
 date: 2007-11-14T20:31:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/14/tip-of-the-day.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/14/tip-of-the-day.aspx
 dsq_thread_id:
   - "264715414"
 categories:

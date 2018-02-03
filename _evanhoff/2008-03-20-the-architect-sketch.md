@@ -1,10 +1,10 @@
 ---
-id: 36
+wordpress_id: 36
 title: The Architect Sketch
 date: 2008-03-20T03:02:17+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/03/19/the-architect-sketch.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/03/19/the-architect-sketch.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 2963
+wordpress_id: 2963
 title: Asp.Net MvcContrib Logo Contest
 date: 2009-02-20T20:05:55+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/02/20/asp-net-mvccontrib-logo-contest.aspx
+wordpress_guid: /blogs/hex/archive/2009/02/20/asp-net-mvccontrib-logo-contest.aspx
 dsq_thread_id:
   - "1070599690"
 categories:

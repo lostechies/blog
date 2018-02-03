@@ -1,10 +1,10 @@
 ---
-id: 3355
+wordpress_id: 3355
 title: Anti-Patterns and Worst Practices – Heisenbugs
 date: 2009-05-30T05:00:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/05/30/anti-patterns-and-worst-practices-heisenbugs.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/05/30/anti-patterns-and-worst-practices-heisenbugs.aspx
 dsq_thread_id:
   - "262174914"
 categories:

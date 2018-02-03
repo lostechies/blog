@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: SQL is the assembly language of the modern world
 date: 2008-02-22T00:55:59+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/02/21/sql-is-the-assembly-language-of-the-modern-world.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/02/21/sql-is-the-assembly-language-of-the-modern-world.aspx
 dsq_thread_id:
   - "262113674"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: Austin Code Camp Schedule
 date: 2009-05-24T20:39:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/05/24/austin-code-camp-schedule.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/05/24/austin-code-camp-schedule.aspx
 dsq_thread_id:
   - "268033801"
 categories:

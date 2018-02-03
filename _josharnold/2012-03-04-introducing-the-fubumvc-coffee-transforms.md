@@ -1,10 +1,10 @@
 ---
-id: 162
+wordpress_id: 162
 title: Introducing the FubuMVC.Coffee transforms
 date: 2012-03-04T06:01:34+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=162
+wordpress_guid: http://lostechies.com/josharnold/?p=162
 dsq_thread_id:
   - "597901664"
 categories:

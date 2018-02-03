@@ -1,10 +1,10 @@
 ---
-id: 216
+wordpress_id: 216
 title: 'Cool stuff in FubuMVC No. 2: Action Conventions'
 date: 2011-10-07T17:51:19+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=216
+wordpress_guid: http://lostechies.com/chadmyers/?p=216
 dsq_thread_id:
   - "437193008"
 categories:

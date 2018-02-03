@@ -1,10 +1,10 @@
 ---
-id: 356
+wordpress_id: 356
 title: Bugs, defects and feedback
 date: 2009-09-30T17:58:35+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/09/30/bugs-defects-and-feedback.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/09/30/bugs-defects-and-feedback.aspx
 dsq_thread_id:
   - "264716317"
 categories:

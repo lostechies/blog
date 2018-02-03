@@ -1,10 +1,10 @@
 ---
-id: 974
+wordpress_id: 974
 title: 'It&#8217;s Not Always &#8220;All Or Nothing&#8221;'
 date: 2012-08-09T19:58:36+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=974
+wordpress_guid: http://lostechies.com/derickbailey/?p=974
 dsq_thread_id:
   - "799523778"
 categories:

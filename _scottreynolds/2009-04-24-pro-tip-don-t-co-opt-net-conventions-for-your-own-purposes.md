@@ -1,10 +1,10 @@
 ---
-id: 4038
+wordpress_id: 4038
 title: 'Pro Tip: Don&#8217;t co-opt .net conventions for your own purposes'
 date: 2009-04-24T03:11:31+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/04/24/pro-tip-don-t-co-opt-net-conventions-for-your-own-purposes.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/04/24/pro-tip-don-t-co-opt-net-conventions-for-your-own-purposes.aspx
 categories:
   - Uncategorized
 ---

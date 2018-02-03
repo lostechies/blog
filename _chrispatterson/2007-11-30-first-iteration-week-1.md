@@ -1,10 +1,10 @@
 ---
-id: 3574
+wordpress_id: 3574
 title: First Iteration, Week 1
 date: 2007-11-30T00:00:56+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/11/29/first-iteration-week-1.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/11/29/first-iteration-week-1.aspx
 dsq_thread_id:
   - "262089160"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 167
+wordpress_id: 167
 title: 'Git: D’oh! I Meant To Create A New Branch First!'
 date: 2010-06-08T14:59:43+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/06/08/git-d-oh-i-meant-to-create-a-new-branch-first.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/06/08/git-d-oh-i-meant-to-create-a-new-branch-first.aspx
 dsq_thread_id:
   - "262796962"
 categories:

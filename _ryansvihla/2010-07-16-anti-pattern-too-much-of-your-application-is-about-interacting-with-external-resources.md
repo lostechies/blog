@@ -1,10 +1,10 @@
 ---
-id: 46
+wordpress_id: 46
 title: 'Anti-Pattern: Too much of your application is about interacting with external resources'
 date: 2010-07-16T02:24:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/07/15/anti-pattern-too-much-of-your-application-is-about-interacting-with-external-resources.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/07/15/anti-pattern-too-much-of-your-application-is-about-interacting-with-external-resources.aspx
 dsq_thread_id:
   - "1069937824"
 categories:

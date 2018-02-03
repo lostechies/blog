@@ -1,10 +1,10 @@
 ---
-id: 55
+wordpress_id: 55
 title: Build Numbers in Xcode
 date: 2011-08-09T08:25:04+00:00
 author: Scott Densmore
 layout: post
-guid: http://lostechies.com/scottdensmore/?p=55
+wordpress_guid: http://lostechies.com/scottdensmore/?p=55
 dsq_thread_id:
   - "381310733"
 categories:

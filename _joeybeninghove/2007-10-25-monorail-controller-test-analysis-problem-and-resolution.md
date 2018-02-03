@@ -1,10 +1,10 @@
 ---
-id: 48
+wordpress_id: 48
 title: 'MonoRail Controller Test Analysis &#8211; Problem and Resolution'
 date: 2007-10-25T14:08:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/10/25/monorail-controller-test-analysis-problem-and-resolution.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/10/25/monorail-controller-test-analysis-problem-and-resolution.aspx
 categories:
   - Castle
   - MonoRail

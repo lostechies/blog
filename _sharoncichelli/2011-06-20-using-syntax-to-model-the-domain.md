@@ -1,10 +1,10 @@
 ---
-id: 3870
+wordpress_id: 3870
 title: Using Syntax to Model the Domain
 date: 2011-06-20T18:26:18+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=42
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=42
 dsq_thread_id:
   - "337742198"
 categories:

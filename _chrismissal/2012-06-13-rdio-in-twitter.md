@@ -1,10 +1,10 @@
 ---
-id: 234
+wordpress_id: 234
 title: Rdio in Twitter
 date: 2012-06-13T02:21:06+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=234
+wordpress_guid: http://lostechies.com/chrismissal/?p=234
 dsq_thread_id:
   - "723871185"
 categories:

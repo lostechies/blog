@@ -1,10 +1,10 @@
 ---
-id: 182
+wordpress_id: 182
 title: Share your .NET Web Frameworks experience?
 date: 2011-05-29T21:33:37+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=182
+wordpress_guid: http://lostechies.com/chadmyers/?p=182
 dsq_thread_id:
   - "317250766"
 categories:

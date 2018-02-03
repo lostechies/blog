@@ -1,10 +1,10 @@
 ---
-id: 731
+wordpress_id: 731
 title: When should you test?
 date: 2013-03-06T10:33:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=731
+wordpress_guid: http://lostechies.com/jimmybogard/?p=731
 dsq_thread_id:
   - "1120864537"
 categories:

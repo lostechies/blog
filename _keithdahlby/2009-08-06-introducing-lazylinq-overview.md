@@ -1,10 +1,10 @@
 ---
-id: 4191
+wordpress_id: 4191
 title: 'Introducing LazyLinq: Overview'
 date: 2009-08-06T18:48:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/08/06/introducing-lazylinq-overview.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/08/06/introducing-lazylinq-overview.aspx
 dsq_thread_id:
   - "264888448"
 categories:

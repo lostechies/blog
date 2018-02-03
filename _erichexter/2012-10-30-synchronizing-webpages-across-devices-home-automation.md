@@ -1,10 +1,10 @@
 ---
-id: 141
+wordpress_id: 141
 title: 'Synchronizing webpages across devices with SignalR &#8211; Part 1'
 date: 2012-10-30T09:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/2012/10/30/synchronizing-webpages-across-devices-home-automation/
+wordpress_guid: http://lostechies.com/erichexter/2012/10/30/synchronizing-webpages-across-devices-home-automation/
 dsq_thread_id:
   - "907048855"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 45
+wordpress_id: 45
 title: 'Project Management in Java: A Confused .NET Developer’s Perspective'
 date: 2010-07-12T11:00:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/07/12/project-management-in-java-a-confused-net-developer-s-perspective.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/07/12/project-management-in-java-a-confused-net-developer-s-perspective.aspx
 dsq_thread_id:
   - "425624441"
 categories:

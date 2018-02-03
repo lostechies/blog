@@ -1,10 +1,10 @@
 ---
-id: 1296
+wordpress_id: 1296
 title: 4 Sci-Fi Novels That You Have To Read
 date: 2014-03-03T07:00:48+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1296
+wordpress_guid: http://lostechies.com/derickbailey/?p=1296
 dsq_thread_id:
   - "2351289024"
 categories:

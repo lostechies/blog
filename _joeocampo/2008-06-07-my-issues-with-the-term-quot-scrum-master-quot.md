@@ -1,10 +1,10 @@
 ---
-id: 114
+wordpress_id: 114
 title: 'My issues with the term &#8220;Scrum Master&#8221;'
 date: 2008-06-07T21:54:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/06/07/my-issues-with-the-term-quot-scrum-master-quot.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/06/07/my-issues-with-the-term-quot-scrum-master-quot.aspx
 dsq_thread_id:
   - "262088442"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 359
+wordpress_id: 359
 title: 'Effective Tests: Test Doubles'
 date: 2011-05-15T23:51:51+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=359
+wordpress_guid: http://lostechies.com/derekgreer/?p=359
 dsq_thread_id:
   - "304756465"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 103
+wordpress_id: 103
 title: IDisposable, Done Right
 date: 2012-11-29T06:59:06+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=103
+wordpress_guid: http://lostechies.com/chrispatterson/?p=103
 dsq_thread_id:
   - "949732595"
 categories:

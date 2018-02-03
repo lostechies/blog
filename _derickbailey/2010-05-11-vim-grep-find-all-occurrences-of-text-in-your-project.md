@@ -1,10 +1,10 @@
 ---
-id: 155
+wordpress_id: 155
 title: 'Vim+Grep: Find All Occurrences Of Text In Your Project'
 date: 2010-05-11T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/11/vim-grep-find-all-occurrences-of-text-in-your-project.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/11/vim-grep-find-all-occurrences-of-text-in-your-project.aspx
 dsq_thread_id:
   - "262042416"
 categories:

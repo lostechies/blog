@@ -1,10 +1,10 @@
 ---
-id: 1324
+wordpress_id: 1324
 title: Reassign JavaScript Function Parameters In Reverse Order, Or Lose Your Params
 date: 2014-03-18T06:00:04+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1324
+wordpress_guid: http://lostechies.com/derickbailey/?p=1324
 dsq_thread_id:
   - "2456861552"
 categories:

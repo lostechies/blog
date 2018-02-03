@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: Debugging Unit Tests for the iPhone/iPad
 date: 2010-07-24T22:21:19+00:00
 author: Scott Densmore
 layout: post
-guid: /blogs/scottdensmore/archive/2010/07/24/debugging-unit-tests-for-the-iphone-ipad.aspx
+wordpress_guid: /blogs/scottdensmore/archive/2010/07/24/debugging-unit-tests-for-the-iphone-ipad.aspx
 dsq_thread_id:
   - "269512975"
 categories:

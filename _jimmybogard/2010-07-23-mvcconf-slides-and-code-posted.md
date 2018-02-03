@@ -1,10 +1,10 @@
 ---
-id: 422
+wordpress_id: 422
 title: mvcConf slides and code posted
 date: 2010-07-23T13:02:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/07/23/mvcconf-slides-and-code-posted.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/07/23/mvcconf-slides-and-code-posted.aspx
 dsq_thread_id:
   - "264716525"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1180
+wordpress_id: 1180
 title: Validation inside or outside entities?
 date: 2016-04-29T19:45:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1180
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1180
 dsq_thread_id:
   - "4787690216"
 categories:

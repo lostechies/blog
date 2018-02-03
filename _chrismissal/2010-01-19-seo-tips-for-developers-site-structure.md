@@ -1,10 +1,10 @@
 ---
-id: 3373
+wordpress_id: 3373
 title: 'SEO Tips for Developers : Site Structure'
 date: 2010-01-19T04:06:35+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/01/18/seo-tips-for-developers-site-structure.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/01/18/seo-tips-for-developers-site-structure.aspx
 dsq_thread_id:
   - "262175076"
 categories:

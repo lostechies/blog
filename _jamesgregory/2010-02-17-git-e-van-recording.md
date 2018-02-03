@@ -1,10 +1,10 @@
 ---
-id: 4505
+wordpress_id: 4505
 title: Git E-VAN recording
 date: 2010-02-17T04:44:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2010/02/17/git-e-van-recording.aspx
+wordpress_guid: /blogs/jagregory/archive/2010/02/17/git-e-van-recording.aspx
 dsq_thread_id:
   - "280559532"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 211
+wordpress_id: 211
 title: Welcome Patrick Lioi to Los Techies
 date: 2013-07-22T10:02:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=211
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=211
 dsq_thread_id:
   - "1520198985"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 62
+wordpress_id: 62
 title: Folders 4 GMail
 date: 2007-09-23T05:04:05+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/23/folders-4-gmail.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/23/folders-4-gmail.aspx
 dsq_thread_id:
   - "262088195"
 categories:

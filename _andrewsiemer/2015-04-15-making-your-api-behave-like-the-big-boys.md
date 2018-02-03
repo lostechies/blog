@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Making your API behave like the big boys
 date: 2015-04-15T20:34:29+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=7
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=7
 dsq_thread_id:
   - "3758547921"
 categories:

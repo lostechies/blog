@@ -1,10 +1,10 @@
 ---
-id: 958
+wordpress_id: 958
 title: Want To Build Win8/WinJS Apps? You Need To Understand Promises.
 date: 2012-07-19T07:35:16+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=958
+wordpress_guid: http://lostechies.com/derickbailey/?p=958
 dsq_thread_id:
   - "772022690"
 categories:

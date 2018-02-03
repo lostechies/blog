@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: 'What&#8217;s The Point Of Delegates In .NET?'
 date: 2008-10-09T19:05:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/10/09/what-s-the-point-of-delegates-in-net.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/10/09/what-s-the-point-of-delegates-in-net.aspx
 dsq_thread_id:
   - "262067865"
 categories:

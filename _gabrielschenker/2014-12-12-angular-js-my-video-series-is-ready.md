@@ -1,10 +1,10 @@
 ---
-id: 820
+wordpress_id: 820
 title: Angular JS – My Video Series is ready!
 date: 2014-12-12T16:08:15+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=820
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=820
 dsq_thread_id:
   - "3317947966"
 categories:

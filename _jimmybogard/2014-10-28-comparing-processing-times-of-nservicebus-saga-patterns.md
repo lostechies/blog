@@ -1,10 +1,10 @@
 ---
-id: 965
+wordpress_id: 965
 title: Comparing processing times of NServiceBus saga patterns
 date: 2014-10-28T17:16:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=965
+wordpress_guid: http://lostechies.com/jimmybogard/?p=965
 dsq_thread_id:
   - "3165975225"
 categories:

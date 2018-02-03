@@ -1,10 +1,10 @@
 ---
-id: 45
+wordpress_id: 45
 title: Austin Code Camp 2010 Call For Speakers
 date: 2010-02-22T04:34:11+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2010/02/21/austin-code-camp-2010-call-for-speakers.aspx
+wordpress_guid: /blogs/johnteague/archive/2010/02/21/austin-code-camp-2010-call-for-speakers.aspx
 dsq_thread_id:
   - "263177379"
 categories:

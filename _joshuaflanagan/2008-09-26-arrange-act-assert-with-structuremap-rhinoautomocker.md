@@ -1,10 +1,10 @@
 ---
-id: 3939
+wordpress_id: 3939
 title: Arrange Act Assert with StructureMap RhinoAutoMocker
 date: 2008-09-26T02:03:18+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2008/09/25/arrange-act-assert-with-structuremap-rhinoautomocker.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2008/09/25/arrange-act-assert-with-structuremap-rhinoautomocker.aspx
 dsq_thread_id:
   - "262113173"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3615
+wordpress_id: 3615
 title: Presenting on Event Driven Architecture and MassTransit
 date: 2009-05-28T02:57:29+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/05/27/presenting-on-event-driven-architecture-and-masstransit.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/05/27/presenting-on-event-driven-architecture-and-masstransit.aspx
 dsq_thread_id:
   - "262089349"
 categories:

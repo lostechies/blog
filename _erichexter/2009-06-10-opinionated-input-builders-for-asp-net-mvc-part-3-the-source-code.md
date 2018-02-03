@@ -1,10 +1,10 @@
 ---
-id: 2975
+wordpress_id: 2975
 title: Opinionated Input Builders for ASP.Net MVC – Part 3 the source code.
 date: 2009-06-10T13:36:50+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/10/opinionated-input-builders-for-asp-net-mvc-part-3-the-source-code.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/10/opinionated-input-builders-for-asp-net-mvc-part-3-the-source-code.aspx
 dsq_thread_id:
   - "262054128"
 categories:

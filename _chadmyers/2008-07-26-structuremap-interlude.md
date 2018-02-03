@@ -1,10 +1,10 @@
 ---
-id: 73
+wordpress_id: 73
 title: 'StructureMap: Interlude'
 date: 2008-07-26T16:54:53+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/07/26/structuremap-interlude.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/07/26/structuremap-interlude.aspx
 dsq_thread_id:
   - "1085355853"
 categories:

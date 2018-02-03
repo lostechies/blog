@@ -1,10 +1,10 @@
 ---
-id: 42
+wordpress_id: 42
 title: It’s All About The Benjamins, Baby.
 date: 2009-03-13T18:59:15+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/03/13/it-s-all-about-the-benjamins-baby.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/03/13/it-s-all-about-the-benjamins-baby.aspx
 dsq_thread_id:
   - "284935262"
 categories:

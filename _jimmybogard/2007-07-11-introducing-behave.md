@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: 'Introducing Behave#'
 date: 2007-07-11T21:01:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/11/introducing-behave.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/11/introducing-behave.aspx
 dsq_thread_id:
   - "389065619"
 categories:

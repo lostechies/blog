@@ -1,10 +1,10 @@
 ---
-id: 12
+wordpress_id: 12
 title: Re-throwing exceptions
 date: 2007-04-25T13:08:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/04/25/re-throwing-exceptions.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/04/25/re-throwing-exceptions.aspx
 dsq_thread_id:
   - "265539498"
 categories:

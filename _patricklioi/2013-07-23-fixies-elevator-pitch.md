@@ -1,10 +1,10 @@
 ---
-id: 4525
+wordpress_id: 4525
 title: 'Fixie&#8217;s Elevator Pitch'
 date: 2013-07-23T14:01:46+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=7
+wordpress_guid: http://lostechies.com/patricklioi/?p=7
 dsq_thread_id:
   - "1524623006"
 categories:

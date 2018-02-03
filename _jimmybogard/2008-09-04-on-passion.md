@@ -1,10 +1,10 @@
 ---
-id: 226
+wordpress_id: 226
 title: On passion
 date: 2008-09-04T12:05:13+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/09/04/on-passion.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/09/04/on-passion.aspx
 dsq_thread_id:
   - "264715906"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1237
+wordpress_id: 1237
 title: Vertical Slice Test Fixtures for MediatR and ASP.NET Core
 date: 2016-10-24T20:40:34+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1237
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1237
 dsq_thread_id:
   - "5249862829"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 188
+wordpress_id: 188
 title: Working with the web model
 date: 2008-05-22T00:46:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/21/working-with-the-web-model.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/21/working-with-the-web-model.aspx
 dsq_thread_id:
   - "264715756"
 categories:

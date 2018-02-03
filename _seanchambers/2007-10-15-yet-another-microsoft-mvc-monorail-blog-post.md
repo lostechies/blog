@@ -1,10 +1,10 @@
 ---
-id: 3146
+wordpress_id: 3146
 title: Yet another Microsoft MVC/MonoRail blog post
 date: 2007-10-15T23:56:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/10/15/yet-another-microsoft-mvc-monorail-blog-post.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/10/15/yet-another-microsoft-mvc-monorail-blog-post.aspx
 dsq_thread_id:
   - "264261097"
 categories:

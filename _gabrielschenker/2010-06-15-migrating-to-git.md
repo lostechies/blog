@@ -1,10 +1,10 @@
 ---
-id: 43
+wordpress_id: 43
 title: Migrating to Git
 date: 2010-06-15T13:21:56+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/06/15/migrating-to-git.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/06/15/migrating-to-git.aspx
 dsq_thread_id:
   - "263908922"
 categories:

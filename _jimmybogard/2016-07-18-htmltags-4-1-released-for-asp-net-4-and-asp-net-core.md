@@ -1,10 +1,10 @@
 ---
-id: 1219
+wordpress_id: 1219
 title: HtmlTags 4.1 Released for ASP.NET 4 and ASP.NET Core
 date: 2016-07-18T18:20:43+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1219
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1219
 dsq_thread_id:
   - "4995456998"
 categories:

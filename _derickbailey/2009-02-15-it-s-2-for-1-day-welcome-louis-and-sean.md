@@ -1,10 +1,10 @@
 ---
-id: 35
+wordpress_id: 35
 title: 'It&#8217;s 2 For 1 day! Welcome Louis And Sean!'
 date: 2009-02-15T01:32:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/02/14/it-s-2-for-1-day-welcome-louis-and-sean.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/02/14/it-s-2-for-1-day-welcome-louis-and-sean.aspx
 dsq_thread_id:
   - "262068030"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4561
+wordpress_id: 4561
 title: 'Disconnected &#8211; Channels Of Communication'
 date: 2008-08-05T04:05:59+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/08/04/disconnected-channels-of-communication.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/08/04/disconnected-channels-of-communication.aspx
 categories:
   - Books
 ---

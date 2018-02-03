@@ -1,10 +1,10 @@
 ---
-id: 55
+wordpress_id: 55
 title: 'I&#8217;m a Microsoft C# MVP!'
 date: 2009-07-02T00:14:35+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/07/01/i-m-a-microsoft-c-mvp.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/07/01/i-m-a-microsoft-c-mvp.aspx
 dsq_thread_id:
   - "262089351"
 categories:

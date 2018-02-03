@@ -1,10 +1,10 @@
 ---
-id: 31
+wordpress_id: 31
 title: Choosing between constants or static fields
 date: 2007-06-15T15:09:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/06/15/choosing-between-constants-or-static-fields.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/06/15/choosing-between-constants-or-static-fields.aspx
 dsq_thread_id:
   - "265526633"
 categories:

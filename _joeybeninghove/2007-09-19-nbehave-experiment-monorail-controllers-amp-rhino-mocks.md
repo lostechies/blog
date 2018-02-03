@@ -1,10 +1,10 @@
 ---
-id: 36
+wordpress_id: 36
 title: 'NBehave Experiment: MonoRail Controllers &#038; Rhino Mocks'
 date: 2007-09-19T15:17:11+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/19/nbehave-experiment-monorail-controllers-amp-rhino-mocks.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/19/nbehave-experiment-monorail-controllers-amp-rhino-mocks.aspx
 categories:
   - BDD
   - MonoRail

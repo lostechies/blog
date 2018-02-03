@@ -1,10 +1,10 @@
 ---
-id: 3590
+wordpress_id: 3590
 title: Enhancements to MassTransit (or Weekend of Coding)
 date: 2008-06-02T12:16:21+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/06/02/enhancements-to-masstransit-or-weekend-of-coding.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/06/02/enhancements-to-masstransit-or-weekend-of-coding.aspx
 dsq_thread_id:
   - "270739654"
 categories:

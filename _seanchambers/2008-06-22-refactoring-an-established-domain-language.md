@@ -1,10 +1,10 @@
 ---
-id: 3179
+wordpress_id: 3179
 title: Refactoring an established Domain Model
 date: 2008-06-22T12:45:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/06/22/refactoring-an-established-domain-language.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/06/22/refactoring-an-established-domain-language.aspx
 dsq_thread_id:
   - "268066516"
 categories:

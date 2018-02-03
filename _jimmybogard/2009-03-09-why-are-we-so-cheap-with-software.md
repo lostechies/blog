@@ -1,10 +1,10 @@
 ---
-id: 291
+wordpress_id: 291
 title: Why are we so cheap with software?
 date: 2009-03-09T01:18:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/03/08/why-are-we-so-cheap-with-software.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/03/08/why-are-we-so-cheap-with-software.aspx
 dsq_thread_id:
   - "265282126"
 categories:

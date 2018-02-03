@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: Exciting user groups and workshops coming up
 date: 2015-04-20T15:15:34+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=30
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=30
 dsq_thread_id:
   - "3764970822"
 categories:

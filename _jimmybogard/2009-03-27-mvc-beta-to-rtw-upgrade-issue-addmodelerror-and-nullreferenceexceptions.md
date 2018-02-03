@@ -1,10 +1,10 @@
 ---
-id: 298
+wordpress_id: 298
 title: MVC Beta to RTW upgrade issue – AddModelError and NullReferenceExceptions
 date: 2009-03-27T03:51:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/03/26/mvc-beta-to-rtw-upgrade-issue-addmodelerror-and-nullreferenceexceptions.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/03/26/mvc-beta-to-rtw-upgrade-issue-addmodelerror-and-nullreferenceexceptions.aspx
 dsq_thread_id:
   - "264716123"
 categories:

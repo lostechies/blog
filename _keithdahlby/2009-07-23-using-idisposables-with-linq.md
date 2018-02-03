@@ -1,10 +1,10 @@
 ---
-id: 4190
+wordpress_id: 4190
 title: Using IDisposables with LINQ
 date: 2009-07-23T08:29:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/07/23/using-idisposables-with-linq.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/07/23/using-idisposables-with-linq.aspx
 dsq_thread_id:
   - "262493303"
 categories:

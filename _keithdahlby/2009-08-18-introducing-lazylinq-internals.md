@@ -1,10 +1,10 @@
 ---
-id: 4192
+wordpress_id: 4192
 title: 'Introducing LazyLinq: Internals'
 date: 2009-08-18T05:25:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/08/18/introducing-lazylinq-internals.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/08/18/introducing-lazylinq-internals.aspx
 dsq_thread_id:
   - "274094817"
 categories:

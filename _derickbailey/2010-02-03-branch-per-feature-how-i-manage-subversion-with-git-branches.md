@@ -1,10 +1,10 @@
 ---
-id: 101
+wordpress_id: 101
 title: 'Branch-Per-Feature: How I Manage Subversion With Git Branches'
 date: 2010-02-03T21:37:50+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/02/03/branch-per-feature-how-i-manage-subversion-with-git-branches.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/02/03/branch-per-feature-how-i-manage-subversion-with-git-branches.aspx
 dsq_thread_id:
   - "262058451"
 categories:

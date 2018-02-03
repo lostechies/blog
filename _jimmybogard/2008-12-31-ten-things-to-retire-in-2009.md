@@ -1,10 +1,10 @@
 ---
-id: 267
+wordpress_id: 267
 title: Ten things to retire in 2009
 date: 2008-12-31T04:01:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/12/30/ten-things-to-retire-in-2009.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/12/30/ten-things-to-retire-in-2009.aspx
 dsq_thread_id:
   - "271020604"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 233
+wordpress_id: 233
 title: 'Encapsulation: You&#8217;re Doing It Wrong'
 date: 2011-03-28T07:05:20+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=233
+wordpress_guid: http://lostechies.com/derickbailey/?p=233
 dsq_thread_id:
   - "264971589"
 categories:

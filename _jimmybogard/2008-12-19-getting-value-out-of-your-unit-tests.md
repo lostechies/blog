@@ -1,10 +1,10 @@
 ---
-id: 265
+wordpress_id: 265
 title: Getting value out of your unit tests
 date: 2008-12-19T03:26:02+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/12/18/getting-value-out-of-your-unit-tests.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/12/18/getting-value-out-of-your-unit-tests.aspx
 dsq_thread_id:
   - "264716006"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: Submit Your Austin Code Camp Sessions Now
 date: 2009-04-17T05:27:52+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/04/17/submit-your-austin-code-camp-sessions-now.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/04/17/submit-your-austin-code-camp-sessions-now.aspx
 dsq_thread_id:
   - "696842044"
 categories:

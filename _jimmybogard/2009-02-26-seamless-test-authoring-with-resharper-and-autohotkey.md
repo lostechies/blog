@@ -1,10 +1,10 @@
 ---
-id: 288
+wordpress_id: 288
 title: Seamless test authoring with ReSharper and AutoHotKey
 date: 2009-02-26T14:38:26+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/26/seamless-test-authoring-with-resharper-and-autohotkey.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/26/seamless-test-authoring-with-resharper-and-autohotkey.aspx
 dsq_thread_id:
   - "264716083"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4507
+wordpress_id: 4507
 title: Observations on the Play! framework
 date: 2011-09-18T23:42:28+00:00
 author: James Gregory
 layout: post
-guid: http://lostechies.com/jamesgregory/?p=37
+wordpress_guid: http://lostechies.com/jamesgregory/?p=37
 dsq_thread_id:
   - "418588552"
 categories:

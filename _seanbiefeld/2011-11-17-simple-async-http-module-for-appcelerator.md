@@ -1,10 +1,10 @@
 ---
-id: 4456
+wordpress_id: 4456
 title: Simple Async HTTP Module for Appcelerator
 date: 2011-11-17T04:00:53+00:00
 author: Sean Biefeld
 layout: post
-guid: http://lostechies.com/seanbiefeld/?p=134
+wordpress_guid: http://lostechies.com/seanbiefeld/?p=134
 dsq_thread_id:
   - "474622009"
 categories:

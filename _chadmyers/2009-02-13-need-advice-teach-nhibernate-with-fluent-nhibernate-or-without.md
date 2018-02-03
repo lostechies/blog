@@ -1,10 +1,10 @@
 ---
-id: 132
+wordpress_id: 132
 title: 'Need Advice: Teach NHibernate with Fluent NHibernate or Without?'
 date: 2009-02-13T03:33:17+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/02/12/need-advice-teach-nhibernate-with-fluent-nhibernate-or-without.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/02/12/need-advice-teach-nhibernate-with-fluent-nhibernate-or-without.aspx
 dsq_thread_id:
   - "262114309"
 categories:

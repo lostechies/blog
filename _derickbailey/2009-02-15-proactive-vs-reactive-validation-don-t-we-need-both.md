@@ -1,10 +1,10 @@
 ---
-id: 36
+wordpress_id: 36
 title: 'Proactive vs Reactive Validation: Don’t We Need Both?'
 date: 2009-02-15T18:49:55+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/02/15/proactive-vs-reactive-validation-don-t-we-need-both.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/02/15/proactive-vs-reactive-validation-don-t-we-need-both.aspx
 dsq_thread_id:
   - "262053102"
 categories:

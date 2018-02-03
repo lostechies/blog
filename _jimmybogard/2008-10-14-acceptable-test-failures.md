@@ -1,10 +1,10 @@
 ---
-id: 239
+wordpress_id: 239
 title: Acceptable test failures
 date: 2008-10-14T11:25:07+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/14/acceptable-test-failures.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/14/acceptable-test-failures.aspx
 dsq_thread_id:
   - "264715940"
 categories:

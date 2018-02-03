@@ -1,10 +1,10 @@
 ---
-id: 387
+wordpress_id: 387
 title: Evolutionary Architecture
 date: 2010-01-29T03:47:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/01/28/evolutionary-architecture.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/01/28/evolutionary-architecture.aspx
 dsq_thread_id:
   - "264716425"
 categories:

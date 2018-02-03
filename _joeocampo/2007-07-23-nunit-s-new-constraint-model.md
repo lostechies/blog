@@ -1,10 +1,10 @@
 ---
-id: 36
+wordpress_id: 36
 title: 'NUnit&#8217;s new Constraint model'
 date: 2007-07-23T01:48:35+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/07/22/nunit-s-new-constraint-model.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/07/22/nunit-s-new-constraint-model.aspx
 dsq_thread_id:
   - "262088275"
 categories:

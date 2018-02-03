@@ -1,10 +1,10 @@
 ---
-id: 4200
+wordpress_id: 4200
 title: Script to Enable HTTP Compression (Gzip/Deflate) in IIS 6
 date: 2010-01-08T05:09:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/01/08/script-to-enable-http-compression-gzip-deflate-in-iis-6.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/01/08/script-to-enable-http-compression-gzip-deflate-in-iis-6.aspx
 dsq_thread_id:
   - "262493314"
 categories:

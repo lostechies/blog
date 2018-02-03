@@ -1,10 +1,10 @@
 ---
-id: 4763
+wordpress_id: 4763
 title: 'Break out the popcorn, it&#8217;s movie time!'
 date: 2008-11-25T20:46:00+00:00
 author: Steve Donie
 layout: post
-guid: /blogs/stevedonie/archive/2008/11/25/break-out-the-popcorn-it-s-movie-time.aspx
+wordpress_guid: /blogs/stevedonie/archive/2008/11/25/break-out-the-popcorn-it-s-movie-time.aspx
 dsq_thread_id:
   - "262124029"
 categories:

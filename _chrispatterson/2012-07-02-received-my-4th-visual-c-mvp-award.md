@@ -1,10 +1,10 @@
 ---
-id: 87
+wordpress_id: 87
 title: 'Received my 4th Visual C# MVP Award!'
 date: 2012-07-02T08:21:50+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=87
+wordpress_guid: http://lostechies.com/chrispatterson/?p=87
 dsq_thread_id:
   - "748237004"
 categories:

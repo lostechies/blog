@@ -1,10 +1,10 @@
 ---
-id: 3199
+wordpress_id: 3199
 title: 'Refactoring Day 5 : Pull Up Field'
 date: 2009-08-05T11:39:31+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/05/refactoring-day-5-pull-up-field.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/05/refactoring-day-5-pull-up-field.aspx
 dsq_thread_id:
   - "264034235"
 categories:

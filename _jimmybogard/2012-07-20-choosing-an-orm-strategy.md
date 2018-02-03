@@ -1,10 +1,10 @@
 ---
-id: 648
+wordpress_id: 648
 title: Choosing an ORM strategy
 date: 2012-07-20T02:25:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/07/20/choosing-an-orm-strategy/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/07/20/choosing-an-orm-strategy/
 dsq_thread_id:
   - "772643350"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 334
+wordpress_id: 334
 title: Refactoring challenge Part 2 – Preparation
 date: 2009-07-09T02:22:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/08/refactoring-challenge-part-2-preparation.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/08/refactoring-challenge-part-2-preparation.aspx
 dsq_thread_id:
   - "264716232"
 categories:

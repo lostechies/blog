@@ -1,10 +1,10 @@
 ---
-id: 4423
+wordpress_id: 4423
 title: long time listener first time caller
 date: 2015-11-10T00:55:03+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=59
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=59
 dsq_thread_id:
   - "4304847977"
 categories:

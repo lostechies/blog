@@ -1,10 +1,10 @@
 ---
-id: 54
+wordpress_id: 54
 title: The Smells of Refactoring?
 date: 2007-09-10T19:06:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/10/the-smells-of-refactoring.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/10/the-smells-of-refactoring.aspx
 dsq_thread_id:
   - "262088294"
 categories:

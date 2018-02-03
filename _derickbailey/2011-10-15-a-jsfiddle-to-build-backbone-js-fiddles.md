@@ -1,10 +1,10 @@
 ---
-id: 612
+wordpress_id: 612
 title: A JSFiddle To Build Backbone.js Fiddles
 date: 2011-10-15T13:05:58+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=612
+wordpress_guid: http://lostechies.com/derickbailey/?p=612
 dsq_thread_id:
   - "444387177"
 categories:

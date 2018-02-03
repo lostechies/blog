@@ -1,10 +1,10 @@
 ---
-id: 3168
+wordpress_id: 3168
 title: Separating Subversion Repositories using svndumpfilter
 date: 2008-03-13T12:00:56+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/03/13/separating-subversion-repositories-using-svndumpfilter.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/03/13/separating-subversion-repositories-using-svndumpfilter.aspx
 dsq_thread_id:
   - "262948011"
 categories:

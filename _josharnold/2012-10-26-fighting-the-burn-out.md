@@ -1,10 +1,10 @@
 ---
-id: 4101
+wordpress_id: 4101
 title: Fighting the burn out
 date: 2012-10-26T18:55:41+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=184
+wordpress_guid: http://lostechies.com/josharnold/?p=184
 dsq_thread_id:
   - "901795898"
 categories:

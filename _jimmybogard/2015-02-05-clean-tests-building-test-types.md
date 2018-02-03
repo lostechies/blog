@@ -1,10 +1,10 @@
 ---
-id: 1043
+wordpress_id: 1043
 title: 'Clean Tests: Building Test Types'
 date: 2015-02-05T21:38:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=1043
+wordpress_guid: http://lostechies.com/jimmybogard/?p=1043
 dsq_thread_id:
   - "3489244687"
 categories:

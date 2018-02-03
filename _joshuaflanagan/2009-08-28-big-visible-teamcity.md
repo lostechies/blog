@@ -1,10 +1,10 @@
 ---
-id: 3950
+wordpress_id: 3950
 title: Big Visible TeamCity
 date: 2009-08-28T20:00:34+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/08/28/big-visible-teamcity.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/08/28/big-visible-teamcity.aspx
 dsq_thread_id:
   - "262735999"
 categories:

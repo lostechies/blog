@@ -1,10 +1,10 @@
 ---
-id: 789
+wordpress_id: 789
 title: 'RabbitMQ for Windows: Headers Exchanges'
 date: 2012-05-29T14:46:34+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=789
+wordpress_guid: http://lostechies.com/derekgreer/?p=789
 dsq_thread_id:
   - "707515114"
 categories:

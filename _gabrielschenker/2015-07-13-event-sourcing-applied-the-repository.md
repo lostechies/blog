@@ -1,10 +1,10 @@
 ---
-id: 1064
+wordpress_id: 1064
 title: 'Event Sourcing applied &#8211; the Repository'
 date: 2015-07-13T18:52:01+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1064
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1064
 dsq_thread_id:
   - "3931880712"
 categories:

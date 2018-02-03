@@ -1,10 +1,10 @@
 ---
-id: 159
+wordpress_id: 159
 title: Running Jasmine in .NET
 date: 2012-02-25T05:50:01+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=159
+wordpress_guid: http://lostechies.com/josharnold/?p=159
 dsq_thread_id:
   - "588558550"
 categories:

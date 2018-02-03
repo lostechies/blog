@@ -1,10 +1,10 @@
 ---
-id: 972
+wordpress_id: 972
 title: Hands-on Backbone.js Screencasts
 date: 2012-08-03T07:20:59+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=972
+wordpress_guid: http://lostechies.com/derickbailey/?p=972
 dsq_thread_id:
   - "791080419"
 categories:

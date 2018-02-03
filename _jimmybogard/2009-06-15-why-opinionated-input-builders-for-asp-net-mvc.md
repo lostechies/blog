@@ -1,10 +1,10 @@
 ---
-id: 325
+wordpress_id: 325
 title: Why opinionated input builders for ASP.NET MVC?
 date: 2009-06-15T14:00:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/06/15/why-opinionated-input-builders-for-asp-net-mvc.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/06/15/why-opinionated-input-builders-for-asp-net-mvc.aspx
 dsq_thread_id:
   - "265260473"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4609
+wordpress_id: 4609
 title: Singletons Are Evil Part 2
 date: 2009-08-14T01:58:00+00:00
 author: Scott Densmore
 layout: post
-guid: /blogs/scottdensmore/archive/2009/08/13/singletons-are-evil-part-2.aspx
+wordpress_guid: /blogs/scottdensmore/archive/2009/08/13/singletons-are-evil-part-2.aspx
 dsq_thread_id:
   - "270690804"
 categories:

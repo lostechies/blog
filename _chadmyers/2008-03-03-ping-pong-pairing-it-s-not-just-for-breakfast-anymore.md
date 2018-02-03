@@ -1,10 +1,10 @@
 ---
-id: 25
+wordpress_id: 25
 title: 'Ping-pong Pairing, it&#8217;s not just for breakfast anymore'
 date: 2008-03-03T22:00:58+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/03/03/ping-pong-pairing-it-s-not-just-for-breakfast-anymore.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/03/03/ping-pong-pairing-it-s-not-just-for-breakfast-anymore.aspx
 dsq_thread_id:
   - "262113673"
 categories:

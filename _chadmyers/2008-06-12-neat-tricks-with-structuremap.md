@@ -1,10 +1,10 @@
 ---
-id: 60
+wordpress_id: 60
 title: Neat Tricks with StructureMap
 date: 2008-06-12T01:04:04+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/11/neat-tricks-with-structuremap.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/11/neat-tricks-with-structuremap.aspx
 dsq_thread_id:
   - "262113866"
 categories:

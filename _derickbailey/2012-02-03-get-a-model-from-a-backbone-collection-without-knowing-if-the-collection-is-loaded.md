@@ -1,10 +1,10 @@
 ---
-id: 799
+wordpress_id: 799
 title: Get A Model From A Backbone Collection Without Knowing If The Collection Is Loaded
 date: 2012-02-03T09:51:52+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=799
+wordpress_guid: http://lostechies.com/derickbailey/?p=799
 dsq_thread_id:
   - "563123595"
 categories:

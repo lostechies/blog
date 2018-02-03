@@ -1,10 +1,10 @@
 ---
-id: 305
+wordpress_id: 305
 title: AngularJS–Part 3, Inheritance
 date: 2013-12-10T23:08:07+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=305
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=305
 dsq_thread_id:
   - "2042787696"
 categories:

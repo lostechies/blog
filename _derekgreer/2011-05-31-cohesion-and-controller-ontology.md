@@ -1,10 +1,10 @@
 ---
-id: 467
+wordpress_id: 467
 title: Cohesion and Controller Ontology
 date: 2011-05-31T12:30:03+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=467
+wordpress_guid: http://lostechies.com/derekgreer/?p=467
 dsq_thread_id:
   - "318430637"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 492
+wordpress_id: 492
 title: Symptoms of a centralized VCS
 date: 2011-05-25T13:03:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/05/25/symptoms-of-a-centralized-vcs/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/05/25/symptoms-of-a-centralized-vcs/
 dsq_thread_id:
   - "313405326"
 categories:

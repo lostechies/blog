@@ -1,10 +1,10 @@
 ---
-id: 205
+wordpress_id: 205
 title: Using Git subtrees to split a repository
 date: 2014-04-04T20:27:48+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=205
+wordpress_guid: http://lostechies.com/johnteague/?p=205
 dsq_thread_id:
   - "2586860596"
 categories:

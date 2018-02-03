@@ -1,10 +1,10 @@
 ---
-id: 4606
+wordpress_id: 4606
 title: 'Don&#8217;t Cross the Streams'
 date: 2009-06-03T01:33:00+00:00
 author: Scott Densmore
 layout: post
-guid: /blogs/scottdensmore/archive/2009/06/02/don-t-cross-the-streams.aspx
+wordpress_guid: /blogs/scottdensmore/archive/2009/06/02/don-t-cross-the-streams.aspx
 dsq_thread_id:
   - "273601285"
 categories:

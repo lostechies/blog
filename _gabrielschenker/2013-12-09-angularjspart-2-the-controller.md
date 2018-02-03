@@ -1,10 +1,10 @@
 ---
-id: 274
+wordpress_id: 274
 title: AngularJS–Part 2, the controller
 date: 2013-12-09T09:48:42+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=274
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=274
 dsq_thread_id:
   - "2038333286"
 categories:

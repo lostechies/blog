@@ -1,10 +1,10 @@
 ---
-id: 3354
+wordpress_id: 3354
 title: Anti-Patterns and Worst Practices – Monster Objects
 date: 2009-05-28T23:28:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/05/28/anti-patterns-and-worst-practices-monster-objects.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/05/28/anti-patterns-and-worst-practices-monster-objects.aspx
 dsq_thread_id:
   - "262069316"
 categories:

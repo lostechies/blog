@@ -1,10 +1,10 @@
 ---
-id: 63
+wordpress_id: 63
 title: Convention Based Filters
 date: 2011-06-12T21:43:16+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=63
+wordpress_guid: http://lostechies.com/johnteague/?p=63
 dsq_thread_id:
   - "329890204"
 categories:

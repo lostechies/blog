@@ -1,10 +1,10 @@
 ---
-id: 131
+wordpress_id: 131
 title: Customer-facing identifiers
 date: 2008-01-17T15:48:21+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/17/customer-facing-identifiers.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/17/customer-facing-identifiers.aspx
 dsq_thread_id:
   - "264715517"
 categories:

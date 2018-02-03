@@ -1,10 +1,10 @@
 ---
-id: 3865
+wordpress_id: 3865
 title: Three Simple Steps to Improve Your Writing
 date: 2010-08-30T17:07:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2010/08/30/three-simple-steps-to-improve-your-writing.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2010/08/30/three-simple-steps-to-improve-your-writing.aspx
 dsq_thread_id:
   - "263371080"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 885
+wordpress_id: 885
 title: Avoid many-to-many mappings in ORMs
 date: 2014-03-12T13:30:17+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=885
+wordpress_guid: http://lostechies.com/jimmybogard/?p=885
 dsq_thread_id:
   - "2414074576"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 515
+wordpress_id: 515
 title: Building AutoMapper.org
 date: 2011-08-23T22:00:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/08/25/building-automapper-org/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/08/25/building-automapper-org/
 dsq_thread_id:
   - "394207964"
 categories:

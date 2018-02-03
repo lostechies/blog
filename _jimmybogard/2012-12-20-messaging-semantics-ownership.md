@@ -1,10 +1,10 @@
 ---
-id: 712
+wordpress_id: 712
 title: 'Messaging Semantics: Ownership'
 date: 2012-12-20T15:51:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=712
+wordpress_guid: http://lostechies.com/jimmybogard/?p=712
 dsq_thread_id:
   - "984414031"
 categories:

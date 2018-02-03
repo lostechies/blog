@@ -1,10 +1,10 @@
 ---
-id: 459
+wordpress_id: 459
 title: The Microsoft ASP.Net Profile
 date: 2006-01-08T20:23:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2006/01/the-microsoft-asp-net-profile/
+wordpress_guid: http://www.aspiringcraftsman.com/2006/01/the-microsoft-asp-net-profile/
 dsq_thread_id:
   - "315803055"
 categories:

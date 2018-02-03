@@ -1,10 +1,10 @@
 ---
-id: 244
+wordpress_id: 244
 title: Testing fun with ASP.NET MVC
 date: 2008-10-29T23:14:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/29/testing-fun-with-asp-net-mvc.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/29/testing-fun-with-asp-net-mvc.aspx
 dsq_thread_id:
   - "265617030"
 categories:

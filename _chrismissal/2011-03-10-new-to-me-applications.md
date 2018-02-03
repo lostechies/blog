@@ -1,10 +1,10 @@
 ---
-id: 3387
+wordpress_id: 3387
 title: New (to me) Applications
 date: 2011-03-10T11:07:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2011/03/10/new-to-me-applications.aspx
+wordpress_guid: /blogs/chrismissal/archive/2011/03/10/new-to-me-applications.aspx
 dsq_thread_id:
   - "262175132"
 categories:

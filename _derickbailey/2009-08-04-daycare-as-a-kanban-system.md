@@ -1,10 +1,10 @@
 ---
-id: 71
+wordpress_id: 71
 title: Daycare As A Kanban System
 date: 2009-08-04T14:34:12+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/08/04/daycare-as-a-kanban-system.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/08/04/daycare-as-a-kanban-system.aspx
 dsq_thread_id:
   - "262068264"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3391
+wordpress_id: 3391
 title: Newline at end of file
 date: 2012-03-23T23:32:20+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=107
+wordpress_guid: http://lostechies.com/chrismissal/?p=107
 dsq_thread_id:
   - "622477130"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 893
+wordpress_id: 893
 title: Using AutoMapper to perform LINQ aggregations
 date: 2014-04-08T16:41:57+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=893
+wordpress_guid: http://lostechies.com/jimmybogard/?p=893
 dsq_thread_id:
   - "2596399875"
 categories:

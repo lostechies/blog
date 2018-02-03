@@ -1,10 +1,10 @@
 ---
-id: 97
+wordpress_id: 97
 title: How to drink from a fire hose
 date: 2008-01-09T21:29:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/01/09/how-to-drink-from-a-fire-hose.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/01/09/how-to-drink-from-a-fire-hose.aspx
 dsq_thread_id:
   - "262088149"
 categories:

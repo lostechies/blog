@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: Does Lazy Loading via Properties Violate Domain Driven Design Principles?
 date: 2008-06-02T18:37:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/06/02/does-loading-violate-domain-driven-design-principles.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/06/02/does-loading-violate-domain-driven-design-principles.aspx
 dsq_thread_id:
   - "262055469"
 categories:

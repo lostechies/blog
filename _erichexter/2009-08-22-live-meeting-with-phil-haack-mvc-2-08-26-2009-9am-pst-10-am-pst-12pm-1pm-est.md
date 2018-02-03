@@ -1,10 +1,10 @@
 ---
-id: 2986
+wordpress_id: 2986
 title: 'Live Meeting with Phil Haack – MVC 2   &#8211; 08/26/2009 9am PST – 10 am PST ( 12pm-1pm EST)'
 date: 2009-08-22T16:10:37+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/08/22/live-meeting-with-phil-haack-mvc-2-08-26-2009-9am-pst-10-am-pst-12pm-1pm-est.aspx
+wordpress_guid: /blogs/hex/archive/2009/08/22/live-meeting-with-phil-haack-mvc-2-08-26-2009-9am-pst-10-am-pst-12pm-1pm-est.aspx
 dsq_thread_id:
   - "1102880707"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 985
+wordpress_id: 985
 title: MediatR hits 1.0
 date: 2014-12-17T14:45:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=985
+wordpress_guid: http://lostechies.com/jimmybogard/?p=985
 dsq_thread_id:
   - "3333454845"
 categories:

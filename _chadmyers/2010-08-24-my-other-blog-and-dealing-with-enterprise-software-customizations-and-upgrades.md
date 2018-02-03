@@ -1,10 +1,10 @@
 ---
-id: 165
+wordpress_id: 165
 title: My other blog, and dealing with enterprise software, customizations, and upgrades
 date: 2010-08-24T18:33:17+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/08/24/my-other-blog-and-dealing-with-enterprise-software-customizations-and-upgrades.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/08/24/my-other-blog-and-dealing-with-enterprise-software-customizations-and-upgrades.aspx
 dsq_thread_id:
   - "1173099222"
 categories:

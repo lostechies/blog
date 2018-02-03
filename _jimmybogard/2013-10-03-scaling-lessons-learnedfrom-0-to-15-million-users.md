@@ -1,10 +1,10 @@
 ---
-id: 828
+wordpress_id: 828
 title: Scaling lessons learned–from 0 to 15 million users
 date: 2013-10-03T15:45:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=828
+wordpress_guid: http://lostechies.com/jimmybogard/?p=828
 dsq_thread_id:
   - "1821206106"
 categories:

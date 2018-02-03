@@ -1,10 +1,10 @@
 ---
-id: 3949
+wordpress_id: 3949
 title: How we handle application configuration
 date: 2009-07-13T00:38:15+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/07/12/how-we-handle-application-configuration.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/07/12/how-we-handle-application-configuration.aspx
 dsq_thread_id:
   - "263107816"
 categories:

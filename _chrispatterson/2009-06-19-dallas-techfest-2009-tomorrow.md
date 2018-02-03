@@ -1,10 +1,10 @@
 ---
-id: 54
+wordpress_id: 54
 title: Dallas TechFest 2009 Tomorrow
 date: 2009-06-19T03:04:26+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/06/18/dallas-techfest-2009-tomorrow.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/06/18/dallas-techfest-2009-tomorrow.aspx
 dsq_thread_id:
   - "278821846"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1274
+wordpress_id: 1274
 title: 'How I Work Around The require(&#8220;../../../../../../../&#8221;) Problem In NodeJS'
 date: 2014-02-20T06:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1274
+wordpress_guid: http://lostechies.com/derickbailey/?p=1274
 dsq_thread_id:
   - "2291832581"
 dsq_needs_sync:

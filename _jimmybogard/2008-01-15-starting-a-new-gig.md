@@ -1,10 +1,10 @@
 ---
-id: 127
+wordpress_id: 127
 title: Starting a new gig
 date: 2008-01-15T03:17:01+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/14/starting-a-new-gig.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/14/starting-a-new-gig.aspx
 dsq_thread_id:
   - "264715514"
 categories:

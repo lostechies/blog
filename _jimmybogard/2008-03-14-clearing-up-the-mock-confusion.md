@@ -1,10 +1,10 @@
 ---
-id: 157
+wordpress_id: 157
 title: Clearing up the Mock confusion
 date: 2008-03-14T01:57:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/13/clearing-up-the-mock-confusion.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/13/clearing-up-the-mock-confusion.aspx
 dsq_thread_id:
   - "264715598"
 categories:

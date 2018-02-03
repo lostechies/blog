@@ -1,10 +1,10 @@
 ---
-id: 3584
+wordpress_id: 3584
 title: Tulsa School of Dev May 10, 2008
 date: 2008-04-04T16:09:40+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/04/04/tulsa-school-of-dev-may-10-2008.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/04/04/tulsa-school-of-dev-may-10-2008.aspx
 dsq_thread_id:
   - "561399619"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 236
+wordpress_id: 236
 title: 'Arduino Show and Tell at Pablo&#8217;s Fiesta'
 date: 2013-09-12T08:05:44+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=236
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=236
 dsq_thread_id:
   - "1752078752"
 categories:

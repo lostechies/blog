@@ -1,10 +1,10 @@
 ---
-id: 180
+wordpress_id: 180
 title: Design And Testability
 date: 2010-09-10T16:28:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/09/10/design-and-testability.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/09/10/design-and-testability.aspx
 dsq_thread_id:
   - "262569158"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3571
+wordpress_id: 3571
 title: Agile Fishbowl
 date: 2007-11-16T03:54:53+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/11/15/agile-fishbowl.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/11/15/agile-fishbowl.aspx
 dsq_thread_id:
   - "262089150"
 categories:

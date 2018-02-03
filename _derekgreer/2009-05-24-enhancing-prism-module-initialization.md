@@ -1,10 +1,10 @@
 ---
-id: 446
+wordpress_id: 446
 title: Enhancing the Prism Module Initialization Lifecycle
 date: 2009-05-24T16:32:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2009/05/enhancing-the-prism-module-initialization-lifecycle/
+wordpress_guid: http://www.aspiringcraftsman.com/2009/05/enhancing-the-prism-module-initialization-lifecycle/
 dsq_thread_id:
   - "327716639"
 categories:

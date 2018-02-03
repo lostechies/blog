@@ -1,10 +1,10 @@
 ---
-id: 100
+wordpress_id: 100
 title: Consultant Frustration Coefficient
 date: 2008-02-04T03:44:12+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/02/03/consultant-frustration-coefficient.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/02/03/consultant-frustration-coefficient.aspx
 dsq_thread_id:
   - "262089643"
 categories:

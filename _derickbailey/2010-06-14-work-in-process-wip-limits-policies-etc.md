@@ -1,10 +1,10 @@
 ---
-id: 169
+wordpress_id: 169
 title: Work In Process (WIP) Limits, Policies, Etc.
 date: 2010-06-14T18:49:24+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/06/14/work-in-process-wip-limits-policies-etc.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/06/14/work-in-process-wip-limits-policies-etc.aspx
 dsq_thread_id:
   - "263785067"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 43
+wordpress_id: 43
 title: Constrained generic extension methods
 date: 2007-07-20T20:30:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/20/constrained-generic-extension-methods.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/20/constrained-generic-extension-methods.aspx
 dsq_thread_id:
   - "273988065"
 categories:

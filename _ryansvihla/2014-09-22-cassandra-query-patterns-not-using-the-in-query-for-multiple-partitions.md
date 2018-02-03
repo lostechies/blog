@@ -1,10 +1,10 @@
 ---
-id: 147
+wordpress_id: 147
 title: 'Cassandra Query Patterns: Not using the “in” query for multiple partitions.'
 date: 2014-09-22T22:12:58+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=147
+wordpress_guid: http://lostechies.com/ryansvihla/?p=147
 dsq_thread_id:
   - "3044587475"
 categories:

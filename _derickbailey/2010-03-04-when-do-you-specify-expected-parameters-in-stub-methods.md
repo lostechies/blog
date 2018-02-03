@@ -1,10 +1,10 @@
 ---
-id: 108
+wordpress_id: 108
 title: When Do You Specify Expected Parameters In Stub Methods?
 date: 2010-03-04T22:20:10+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/04/when-do-you-specify-expected-parameters-in-stub-methods.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/04/when-do-you-specify-expected-parameters-in-stub-methods.aspx
 dsq_thread_id:
   - "262068439"
 categories:

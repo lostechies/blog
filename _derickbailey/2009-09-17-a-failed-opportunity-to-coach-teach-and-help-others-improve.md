@@ -1,10 +1,10 @@
 ---
-id: 84
+wordpress_id: 84
 title: A Failed Opportunity To Coach, Teach, And Help Others Improve
 date: 2009-09-17T21:09:14+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/17/a-failed-opportunity-to-coach-teach-and-help-others-improve.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/17/a-failed-opportunity-to-coach-teach-and-help-others-improve.aspx
 dsq_thread_id:
   - "284934522"
 categories:

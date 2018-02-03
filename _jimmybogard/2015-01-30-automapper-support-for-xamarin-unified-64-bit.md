@@ -1,10 +1,10 @@
 ---
-id: 1038
+wordpress_id: 1038
 title: AutoMapper support for Xamarin Unified (64 bit)
 date: 2015-01-30T14:00:07+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=1038
+wordpress_guid: http://lostechies.com/jimmybogard/?p=1038
 dsq_thread_id:
   - "3469639962"
 categories:

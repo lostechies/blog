@@ -1,10 +1,10 @@
 ---
-id: 211
+wordpress_id: 211
 title: Presenting at ADNUG meeting
 date: 2012-07-06T16:18:06+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/2012/07/06/presenting-at-adnug-meeting/
+wordpress_guid: http://lostechies.com/gabrielschenker/2012/07/06/presenting-at-adnug-meeting/
 dsq_thread_id:
   - "754304154"
 categories:

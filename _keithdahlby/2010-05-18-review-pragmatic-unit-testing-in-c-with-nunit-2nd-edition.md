@@ -1,10 +1,10 @@
 ---
-id: 4210
+wordpress_id: 4210
 title: 'Review: Pragmatic Unit Testing In C# with NUnit (2nd Edition)'
 date: 2010-05-18T01:29:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/05/17/review-pragmatic-unit-testing-in-c-with-nunit-2nd-edition.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/05/17/review-pragmatic-unit-testing-in-c-with-nunit-2nd-edition.aspx
 dsq_thread_id:
   - "264955583"
 categories:

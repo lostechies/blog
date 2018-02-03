@@ -1,10 +1,10 @@
 ---
-id: 67
+wordpress_id: 67
 title: Storage Size And Performance Implications Of A GUID PK
 date: 2009-07-15T14:00:45+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/07/15/storage-size-and-performance-implications-of-a-guid-pk.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/07/15/storage-size-and-performance-implications-of-a-guid-pk.aspx
 dsq_thread_id:
   - "262068241"
 categories:

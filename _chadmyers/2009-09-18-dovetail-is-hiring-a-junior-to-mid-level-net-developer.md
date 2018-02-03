@@ -1,10 +1,10 @@
 ---
-id: 154
+wordpress_id: 154
 title: Dovetail is Hiring a Junior-to-Mid-level .NET Developer
 date: 2009-09-18T16:26:43+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/09/18/dovetail-is-hiring-a-junior-to-mid-level-net-developer.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/09/18/dovetail-is-hiring-a-junior-to-mid-level-net-developer.aspx
 dsq_thread_id:
   - "262114470"
 categories:

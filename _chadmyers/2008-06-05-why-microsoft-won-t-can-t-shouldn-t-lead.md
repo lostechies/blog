@@ -1,10 +1,10 @@
 ---
-id: 57
+wordpress_id: 57
 title: 'Why Microsoft Won&#8217;t/Can&#8217;t/Shouldn&#8217;t Lead'
 date: 2008-06-05T03:00:36+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/04/why-microsoft-won-t-can-t-shouldn-t-lead.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/04/why-microsoft-won-t-can-t-shouldn-t-lead.aspx
 dsq_thread_id:
   - "262113843"
 categories:

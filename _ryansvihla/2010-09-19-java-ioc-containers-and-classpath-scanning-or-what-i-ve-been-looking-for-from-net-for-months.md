@@ -1,10 +1,10 @@
 ---
-id: 47
+wordpress_id: 47
 title: Java IoC containers and classpath scanning (or what I’ve been looking for from .NET for months)
 date: 2010-09-19T19:01:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/09/19/java-ioc-containers-and-classpath-scanning-or-what-i-ve-been-looking-for-from-net-for-months.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/09/19/java-ioc-containers-and-classpath-scanning-or-what-i-ve-been-looking-for-from-net-for-months.aspx
 dsq_thread_id:
   - "425624466"
 categories:

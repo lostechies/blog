@@ -1,10 +1,10 @@
 ---
-id: 4103
+wordpress_id: 4103
 title: Introducing FubuMVC.Validation. For real.
 date: 2013-01-28T14:00:11+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=246
+wordpress_guid: http://lostechies.com/josharnold/?p=246
 dsq_thread_id:
   - "1050607997"
 categories:

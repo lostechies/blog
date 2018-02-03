@@ -1,10 +1,10 @@
 ---
-id: 4044
+wordpress_id: 4044
 title: Would you like to know how I do things?
 date: 2009-09-17T20:26:47+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/09/17/would-you-like-to-know-how-i-do-things.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/09/17/would-you-like-to-know-how-i-do-things.aspx
 categories:
   - Community
   - Management

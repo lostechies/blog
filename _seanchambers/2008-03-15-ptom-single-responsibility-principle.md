@@ -1,10 +1,10 @@
 ---
-id: 3170
+wordpress_id: 3170
 title: 'PTOM: The Single Responsibility Principle'
 date: 2008-03-15T13:06:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx
 dsq_thread_id:
   - "262299172"
 categories:

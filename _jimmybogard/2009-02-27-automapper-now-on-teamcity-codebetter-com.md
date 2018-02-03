@@ -1,10 +1,10 @@
 ---
-id: 289
+wordpress_id: 289
 title: AutoMapper now on TeamCity.CodeBetter.com
 date: 2009-02-27T04:14:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/26/automapper-now-on-teamcity-codebetter-com.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/26/automapper-now-on-teamcity-codebetter-com.aspx
 dsq_thread_id:
   - "266972824"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3006
+wordpress_id: 3006
 title: DevExpress is a Platinum Sponsor of Austin Code Camp 2010
 date: 2010-03-12T14:02:40+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/03/12/devexpress-is-a-platinum-sponsor-of-austin-code-camp-2010.aspx
+wordpress_guid: /blogs/hex/archive/2010/03/12/devexpress-is-a-platinum-sponsor-of-austin-code-camp-2010.aspx
 dsq_thread_id:
   - "1105515523"
 categories:

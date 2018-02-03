@@ -1,10 +1,10 @@
 ---
-id: 80
+wordpress_id: 80
 title: What Do You Want To Know, About Kanban In Software Development?
 date: 2009-09-03T15:17:38+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/03/what-do-you-want-to-know-about-kanban-in-software-development.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/03/what-do-you-want-to-know-about-kanban-in-software-development.aspx
 dsq_thread_id:
   - "262068328"
 categories:

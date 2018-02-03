@@ -1,10 +1,10 @@
 ---
-id: 336
+wordpress_id: 336
 title: 'Don&#8217;t Worry About Where To Start. Just Start.'
 date: 2011-05-18T07:04:31+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=336
+wordpress_guid: http://lostechies.com/derickbailey/?p=336
 dsq_thread_id:
   - "306949642"
 categories:

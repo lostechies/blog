@@ -1,10 +1,10 @@
 ---
-id: 747
+wordpress_id: 747
 title: Reducing Backbone Routers To Nothing More Than Configuration
 date: 2012-01-02T14:11:09+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=747
+wordpress_guid: http://lostechies.com/derickbailey/?p=747
 dsq_thread_id:
   - "524256727"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 223
+wordpress_id: 223
 title: Strategies and discriminators in NHibernate
 date: 2008-08-27T03:44:12+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/26/strategies-and-discriminators-in-nhibernate.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/26/strategies-and-discriminators-in-nhibernate.aspx
 dsq_thread_id:
   - "264715886"
 categories:

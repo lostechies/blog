@@ -1,10 +1,10 @@
 ---
-id: 430
+wordpress_id: 430
 title: Binding A Backbone View To A Model, To Enable and Disable A Button
 date: 2011-06-15T13:16:39+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=430
+wordpress_guid: http://lostechies.com/derickbailey/?p=430
 dsq_thread_id:
   - "333262875"
 categories:

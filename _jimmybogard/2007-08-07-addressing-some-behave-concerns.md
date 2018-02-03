@@ -1,10 +1,10 @@
 ---
-id: 50
+wordpress_id: 50
 title: 'Addressing some Behave# concerns'
 date: 2007-08-07T14:23:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/07/addressing-some-behave-concerns.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/07/addressing-some-behave-concerns.aspx
 dsq_thread_id:
   - "465266893"
 categories:

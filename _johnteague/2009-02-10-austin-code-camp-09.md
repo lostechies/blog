@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: Austin Code Camp 09
 date: 2009-02-10T00:18:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/02/09/austin-code-camp-09.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/02/09/austin-code-camp-09.aspx
 dsq_thread_id:
   - "262055565"
 categories:

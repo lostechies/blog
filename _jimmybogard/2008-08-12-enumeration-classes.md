@@ -1,10 +1,10 @@
 ---
-id: 215
+wordpress_id: 215
 title: Enumeration classes
 date: 2008-08-12T12:05:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/12/enumeration-classes.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/12/enumeration-classes.aspx
 dsq_thread_id:
   - "264715864"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 338
+wordpress_id: 338
 title: Extending Objects in Ext JS
 date: 2012-10-02T09:05:23+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=338
+wordpress_guid: http://lostechies.com/chrismissal/?p=338
 dsq_thread_id:
   - "868186823"
 categories:

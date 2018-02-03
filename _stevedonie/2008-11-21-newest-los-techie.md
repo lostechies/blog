@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: newest Los Techie
 date: 2008-11-21T19:48:00+00:00
 author: Steve Donie
 layout: post
-guid: /blogs/stevedonie/archive/2008/11/21/newest-los-techie.aspx
+wordpress_guid: /blogs/stevedonie/archive/2008/11/21/newest-los-techie.aspx
 dsq_thread_id:
   - "262124042"
 categories:

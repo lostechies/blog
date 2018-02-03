@@ -1,10 +1,10 @@
 ---
-id: 182
+wordpress_id: 182
 title: Presenters, Use Code Snippets for Live Coding
 date: 2013-03-12T08:15:25+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=182
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=182
 dsq_thread_id:
   - "1132576583"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 191
+wordpress_id: 191
 title: Using My Powers for Good
 date: 2012-06-13T17:51:00+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=191
+wordpress_guid: http://lostechies.com/chrismissal/?p=191
 dsq_thread_id:
   - "724909967"
 categories:

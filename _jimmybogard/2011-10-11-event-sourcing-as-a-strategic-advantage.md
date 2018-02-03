@@ -1,10 +1,10 @@
 ---
-id: 540
+wordpress_id: 540
 title: Event Sourcing as a strategic advantage
 date: 2011-10-11T13:31:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/10/11/event-sourcing-as-a-strategic-advantage/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/10/11/event-sourcing-as-a-strategic-advantage/
 dsq_thread_id:
   - "440146339"
 categories:

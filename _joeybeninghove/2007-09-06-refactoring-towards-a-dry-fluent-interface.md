@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: Refactoring towards a DRY, fluent interface
 date: 2007-09-06T09:51:51+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/06/refactoring-towards-a-dry-fluent-interface.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/06/refactoring-towards-a-dry-fluent-interface.aspx
 categories:
   - 'C#'
   - Patterns

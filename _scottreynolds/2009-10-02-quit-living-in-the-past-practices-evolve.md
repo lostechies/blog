@@ -1,10 +1,10 @@
 ---
-id: 4047
+wordpress_id: 4047
 title: 'Quit Living in the Past &#8211; Practices Evolve'
 date: 2009-10-02T14:12:19+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/10/02/quit-living-in-the-past-practices-evolve.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/10/02/quit-living-in-the-past-practices-evolve.aspx
 categories:
   - Community
   - improvement

@@ -1,10 +1,10 @@
 ---
-id: 3190
+wordpress_id: 3190
 title: 'Code Smell: Fat Controller'
 date: 2009-04-17T19:58:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/04/17/code-smell-fat-controller.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/04/17/code-smell-fat-controller.aspx
 dsq_thread_id:
   - "339506461"
 categories:

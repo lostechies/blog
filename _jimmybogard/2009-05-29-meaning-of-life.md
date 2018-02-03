@@ -1,10 +1,10 @@
 ---
-id: 319
+wordpress_id: 319
 title: Meaning of life
 date: 2009-05-29T01:48:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/05/28/meaning-of-life.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/05/28/meaning-of-life.aspx
 dsq_thread_id:
   - "264716179"
 categories:

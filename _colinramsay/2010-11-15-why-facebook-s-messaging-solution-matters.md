@@ -1,10 +1,10 @@
 ---
-id: 4695
+wordpress_id: 4695
 title: 'Why Facebook&#8217;s Messaging Solution Matters'
 date: 2010-11-15T20:22:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2010/11/15/why-facebook-s-messaging-solution-matters.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2010/11/15/why-facebook-s-messaging-solution-matters.aspx
 categories:
   - Uncategorized
 ---

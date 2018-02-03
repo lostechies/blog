@@ -1,10 +1,10 @@
 ---
-id: 3383
+wordpress_id: 3383
 title: Comments are the Devil
 date: 2010-08-18T15:07:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/08/18/comments-are-the-devil.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/08/18/comments-are-the-devil.aspx
 dsq_thread_id:
   - "272576070"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 78
+wordpress_id: 78
 title: Design and Testability
 date: 2008-08-17T01:27:22+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/08/16/design-and-testability.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/08/16/design-and-testability.aspx
 dsq_thread_id:
   - "262114000"
 categories:

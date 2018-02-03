@@ -1,10 +1,10 @@
 ---
-id: 3347
+wordpress_id: 3347
 title: 'Obvious Testing or: How I Learned to Stop Using the new keyword'
 date: 2009-03-20T01:19:55+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/03/19/obvious-testing-or-how-i-learned-to-stop-using-the-new-keyword.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/03/19/obvious-testing-or-how-i-learned-to-stop-using-the-new-keyword.aspx
 dsq_thread_id:
   - "262174832"
 categories:

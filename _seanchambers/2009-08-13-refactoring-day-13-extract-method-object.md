@@ -1,10 +1,10 @@
 ---
-id: 3207
+wordpress_id: 3207
 title: 'Refactoring Day 13 : Extract Method Object'
 date: 2009-08-13T13:30:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/13/refactoring-day-13-extract-method-object.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/13/refactoring-day-13-extract-method-object.aspx
 dsq_thread_id:
   - "262350797"
 categories:

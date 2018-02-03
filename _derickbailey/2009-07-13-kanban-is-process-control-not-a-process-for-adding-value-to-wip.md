@@ -1,10 +1,10 @@
 ---
-id: 65
+wordpress_id: 65
 title: Kanban Is Process Control, Not A Process For Adding Value To WIP
 date: 2009-07-13T15:06:56+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/07/13/kanban-is-process-control-not-a-process-for-adding-value-to-wip.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/07/13/kanban-is-process-control-not-a-process-for-adding-value-to-wip.aspx
 dsq_thread_id:
   - "262168982"
 categories:

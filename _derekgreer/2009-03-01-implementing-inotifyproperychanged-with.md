@@ -1,10 +1,10 @@
 ---
-id: 449
+wordpress_id: 449
 title: 'Implementing INotifyProperyChanged  with Unity Interception'
 date: 2009-03-01T09:32:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2009/03/implementing-inotifyproperychanged-with-unity-interception/
+wordpress_guid: http://www.aspiringcraftsman.com/2009/03/implementing-inotifyproperychanged-with-unity-interception/
 dsq_thread_id:
   - "318621003"
 categories:

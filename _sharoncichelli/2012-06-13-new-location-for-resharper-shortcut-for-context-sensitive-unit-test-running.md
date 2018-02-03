@@ -1,10 +1,10 @@
 ---
-id: 120
+wordpress_id: 120
 title: New Location for ReSharper Shortcut for Context-Sensitive Unit-Test Running
 date: 2012-06-13T10:53:30+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=120
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=120
 dsq_thread_id:
   - "724435473"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 163
+wordpress_id: 163
 title: On Leadership…
 date: 2010-06-22T22:59:22+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/06/22/on-leadership.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/06/22/on-leadership.aspx
 dsq_thread_id:
   - "262114542"
 categories:

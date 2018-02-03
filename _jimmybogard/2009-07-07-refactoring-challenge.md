@@ -1,10 +1,10 @@
 ---
-id: 332
+wordpress_id: 332
 title: Refactoring challenge
 date: 2009-07-07T02:42:47+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/06/refactoring-challenge.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/06/refactoring-challenge.aspx
 dsq_thread_id:
   - "264716252"
 categories:

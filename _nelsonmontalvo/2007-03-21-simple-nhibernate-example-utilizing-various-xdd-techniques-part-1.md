@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Simple NHibernate Example utilizing various xDD Techniques, Part 1
 date: 2007-03-21T16:36:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/03/21/simple-nhibernate-example-utilizing-various-xdd-techniques-part-1.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/21/simple-nhibernate-example-utilizing-various-xdd-techniques-part-1.aspx
 categories:
   - NHibernate
 ---

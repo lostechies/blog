@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: 'Come and get it!!!!  Los Techies &#8220;Pablo&#8221; Merchandise!'
 date: 2007-07-17T16:39:36+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/07/17/come-and-get-it-los-techies-quot-pablo-quot-merchandise.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/07/17/come-and-get-it-los-techies-quot-pablo-quot-merchandise.aspx
 dsq_thread_id:
   - "262089968"
 categories:

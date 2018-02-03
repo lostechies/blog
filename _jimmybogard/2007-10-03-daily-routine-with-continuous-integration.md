@@ -1,10 +1,10 @@
 ---
-id: 71
+wordpress_id: 71
 title: Daily routine with continuous integration
 date: 2007-10-03T17:47:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/03/daily-routine-with-continuous-integration.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/03/daily-routine-with-continuous-integration.aspx
 dsq_thread_id:
   - "836888911"
 categories:

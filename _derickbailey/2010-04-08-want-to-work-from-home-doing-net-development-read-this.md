@@ -1,10 +1,10 @@
 ---
-id: 135
+wordpress_id: 135
 title: 'CLOSED: Want To Work From Home, Doing .NET Development? Read This!'
 date: 2010-04-08T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/08/want-to-work-from-home-doing-net-development-read-this.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/08/want-to-work-from-home-doing-net-development-read-this.aspx
 dsq_thread_id:
   - "263689806"
 categories:

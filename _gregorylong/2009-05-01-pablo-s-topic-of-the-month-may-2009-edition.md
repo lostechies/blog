@@ -1,10 +1,10 @@
 ---
-id: 4788
+wordpress_id: 4788
 title: Pablo’s Topic of the Month – May 2009 Edition
 date: 2009-05-01T12:16:00+00:00
 author: Gregory Long
 layout: post
-guid: /blogs/thatotherguy/archive/2009/05/01/pablo-s-topic-of-the-month-may-2009-edition.aspx
+wordpress_guid: /blogs/thatotherguy/archive/2009/05/01/pablo-s-topic-of-the-month-may-2009-edition.aspx
 dsq_thread_id:
   - "265492416"
 categories:

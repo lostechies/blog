@@ -1,10 +1,10 @@
 ---
-id: 908
+wordpress_id: 908
 title: 'Missing EF Feature Workarounds: Encapsulated collections'
 date: 2014-05-09T13:21:02+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=908
+wordpress_guid: http://lostechies.com/jimmybogard/?p=908
 dsq_thread_id:
   - "2672365010"
 categories:

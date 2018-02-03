@@ -1,10 +1,10 @@
 ---
-id: 2989
+wordpress_id: 2989
 title: Breaking changes in Ncover 3.0 integration with Cruise Control .Net
 date: 2009-08-31T20:31:02+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/08/31/breaking-changes-in-ncover-3-0-integration-with-cruise-control-net.aspx
+wordpress_guid: /blogs/hex/archive/2009/08/31/breaking-changes-in-ncover-3-0-integration-with-cruise-control-net.aspx
 dsq_thread_id:
   - "1077709873"
 categories:

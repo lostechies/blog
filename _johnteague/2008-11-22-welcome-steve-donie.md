@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: Welcome Steve Donie!
 date: 2008-11-22T02:51:58+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/11/21/welcome-steve-donie.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/11/21/welcome-steve-donie.aspx
 dsq_thread_id:
   - "608272748"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 55
+wordpress_id: 55
 title: 'Announcing Pablo’s E-Books! Book #1: Pablo’s SOLID Software Development'
 date: 2009-05-20T01:37:03+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/05/19/announcing-pablo-s-e-books-book-1-pablo-s-solid-software-development.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/05/19/announcing-pablo-s-e-books-book-1-pablo-s-solid-software-development.aspx
 dsq_thread_id:
   - "262707296"
 categories:

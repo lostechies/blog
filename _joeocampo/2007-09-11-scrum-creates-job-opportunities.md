@@ -1,10 +1,10 @@
 ---
-id: 55
+wordpress_id: 55
 title: Scrum Creates Job Opportunities
 date: 2007-09-11T18:08:37+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/11/scrum-creates-job-opportunities.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/11/scrum-creates-job-opportunities.aspx
 dsq_thread_id:
   - "262088371"
 categories:

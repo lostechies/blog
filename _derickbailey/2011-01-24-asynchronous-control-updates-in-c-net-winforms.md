@@ -1,10 +1,10 @@
 ---
-id: 210
+wordpress_id: 210
 title: 'Asynchronous Control Updates In C#/.NET/WinForms'
 date: 2011-01-24T17:22:01+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/01/24/asynchronous-control-updates-in-c-net-winforms.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/01/24/asynchronous-control-updates-in-c-net-winforms.aspx
 dsq_thread_id:
   - "262078423"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 603
+wordpress_id: 603
 title: Integrating and isolating the container in tests
 date: 2012-03-19T13:35:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/03/19/integrating-and-isolating-the-container-in-tests/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/03/19/integrating-and-isolating-the-container-in-tests/
 dsq_thread_id:
   - "616570674"
 categories:

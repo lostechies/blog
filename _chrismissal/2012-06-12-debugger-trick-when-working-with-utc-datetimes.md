@@ -1,10 +1,10 @@
 ---
-id: 182
+wordpress_id: 182
 title: Debugger Trick when Working with UTC DateTimes
 date: 2012-06-12T00:54:18+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=182
+wordpress_guid: http://lostechies.com/chrismissal/?p=182
 dsq_thread_id:
   - "722327543"
 categories:

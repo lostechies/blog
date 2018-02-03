@@ -1,10 +1,10 @@
 ---
-id: 57
+wordpress_id: 57
 title: I’m Presenting SOLID At AlamoCoders On June 9th
 date: 2009-06-03T21:25:37+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/06/03/i-m-presenting-solid-at-alamocoders-on-june-9th.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/06/03/i-m-presenting-solid-at-alamocoders-on-june-9th.aspx
 dsq_thread_id:
   - "262068193"
 categories:

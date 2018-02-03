@@ -1,10 +1,10 @@
 ---
-id: 218
+wordpress_id: 218
 title: Installing Ruby 1.8.6 And RubyGems On OSX (Snow Leopard) With RVM
 date: 2011-03-14T17:16:57+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/03/14/installing-ruby-1-8-6-and-rubygems-on-osx-snow-leopard-with-rvm.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/03/14/installing-ruby-1-8-6-and-rubygems-on-osx-snow-leopard-with-rvm.aspx
 dsq_thread_id:
   - "262067335"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3195
+wordpress_id: 3195
 title: 'Refactoring Day 1 : Encapsulate Collection'
 date: 2009-08-02T06:04:38+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/02/refactoring-day-1-encapsulate-collection.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/02/refactoring-day-1-encapsulate-collection.aspx
 dsq_thread_id:
   - "262346114"
 categories:

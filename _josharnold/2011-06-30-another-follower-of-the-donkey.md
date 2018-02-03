@@ -1,10 +1,10 @@
 ---
-id: 4
+wordpress_id: 4
 title: Another follower of the Donkey
 date: 2011-06-30T16:41:59+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=4
+wordpress_guid: http://lostechies.com/josharnold/?p=4
 dsq_thread_id:
   - "346412866"
 categories:

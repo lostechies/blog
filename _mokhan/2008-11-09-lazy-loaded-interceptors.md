@@ -1,10 +1,10 @@
 ---
-id: 23
+wordpress_id: 23
 title: Lazy Loaded Interceptors
 date: 2008-11-09T20:56:01+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/11/09/lazy-loaded-interceptors.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/11/09/lazy-loaded-interceptors.aspx
 categories:
   - Books
   - Design Patterns

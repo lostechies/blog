@@ -1,10 +1,10 @@
 ---
-id: 829
+wordpress_id: 829
 title: 'EmberJS: Initial Impressions (Compared To Backbone)'
 date: 2012-02-21T08:25:00+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=829
+wordpress_guid: http://lostechies.com/derickbailey/?p=829
 dsq_thread_id:
   - "584132764"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3945
+wordpress_id: 3945
 title: Latest Docu builds available
 date: 2009-05-20T02:29:44+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/05/19/latest-docu-builds-available.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/05/19/latest-docu-builds-available.aspx
 dsq_thread_id:
   - "262113167"
 categories:

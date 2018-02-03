@@ -1,10 +1,10 @@
 ---
-id: 85
+wordpress_id: 85
 title: 'Information Radiators: Make life visible'
 date: 2007-12-08T21:31:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/12/08/information-radiators-make-life-visible.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/12/08/information-radiators-make-life-visible.aspx
 dsq_thread_id:
   - "262088353"
 categories:

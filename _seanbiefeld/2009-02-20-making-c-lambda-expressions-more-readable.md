@@ -1,10 +1,10 @@
 ---
-id: 4449
+wordpress_id: 4449
 title: 'Making c# lambda expressions more readable'
 date: 2009-02-20T00:35:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2009/02/19/making-c-lambda-expressions-more-readable.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2009/02/19/making-c-lambda-expressions-more-readable.aspx
 dsq_thread_id:
   - "449608049"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 124
+wordpress_id: 124
 title: Auto-mapping with Fluent NHibernate
 date: 2009-01-11T16:01:49+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/01/11/auto-mapping-with-fluent-nhibernate.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/01/11/auto-mapping-with-fluent-nhibernate.aspx
 dsq_thread_id:
   - "262166535"
 categories:

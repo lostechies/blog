@@ -1,10 +1,10 @@
 ---
-id: 800
+wordpress_id: 800
 title: Strategies for isolating the database in tests
 date: 2013-06-18T15:02:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=800
+wordpress_guid: http://lostechies.com/jimmybogard/?p=800
 dsq_thread_id:
   - "1409967512"
 categories:

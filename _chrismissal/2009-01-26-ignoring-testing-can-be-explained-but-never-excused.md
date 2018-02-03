@@ -1,10 +1,10 @@
 ---
-id: 3341
+wordpress_id: 3341
 title: Ignoring Testing can be Explained, but Never Excused
 date: 2009-01-26T13:11:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/01/26/ignoring-testing-can-be-explained-but-never-excused.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/01/26/ignoring-testing-can-be-explained-but-never-excused.aspx
 dsq_thread_id:
   - "262174723"
 categories:

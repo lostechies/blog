@@ -1,10 +1,10 @@
 ---
-id: 25
+wordpress_id: 25
 title: Fighting Your Tooling Sucks
 date: 2007-11-15T04:48:58+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/11/14/fighting-your-tooling-sucks.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/11/14/fighting-your-tooling-sucks.aspx
 categories:
   - Uncategorized
 ---

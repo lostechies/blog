@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: Transactions Across Service Boundaries
 date: 2007-10-24T00:01:15+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/23/transactions-across-service-boundaries.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/23/transactions-across-service-boundaries.aspx
 categories:
   - Uncategorized
 ---

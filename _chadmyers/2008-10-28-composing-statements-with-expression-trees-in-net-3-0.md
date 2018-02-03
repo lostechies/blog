@@ -1,10 +1,10 @@
 ---
-id: 104
+wordpress_id: 104
 title: Composing Statements with Expression Trees in .NET 3.0
 date: 2008-10-28T02:59:50+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/27/composing-statements-with-expression-trees-in-net-3-0.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/27/composing-statements-with-expression-trees-in-net-3-0.aspx
 dsq_thread_id:
   - "262295062"
 categories:

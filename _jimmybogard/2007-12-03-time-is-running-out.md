@@ -1,10 +1,10 @@
 ---
-id: 109
+wordpress_id: 109
 title: Time is running out
 date: 2007-12-03T16:01:26+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/12/03/time-is-running-out.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/12/03/time-is-running-out.aspx
 dsq_thread_id:
   - "264715455"
 categories:

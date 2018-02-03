@@ -1,10 +1,10 @@
 ---
-id: 443
+wordpress_id: 443
 title: Ditching domain models for reads
 date: 2010-12-06T14:43:13+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/12/06/ditching-domain-models-for-reads.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/12/06/ditching-domain-models-for-reads.aspx
 dsq_thread_id:
   - "264716650"
 categories:

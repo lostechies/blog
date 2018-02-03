@@ -1,10 +1,10 @@
 ---
-id: 206
+wordpress_id: 206
 title: Automated testing with FubuMVC, StoryTeller, and Serenity
 date: 2012-11-16T20:42:23+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=206
+wordpress_guid: http://lostechies.com/josharnold/?p=206
 dsq_thread_id:
   - "931299230"
 categories:

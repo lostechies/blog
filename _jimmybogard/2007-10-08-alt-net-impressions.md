@@ -1,10 +1,10 @@
 ---
-id: 74
+wordpress_id: 74
 title: ALT.NET Impressions
 date: 2007-10-08T19:22:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/08/alt-net-impressions.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/08/alt-net-impressions.aspx
 dsq_thread_id:
   - "513173329"
 categories:

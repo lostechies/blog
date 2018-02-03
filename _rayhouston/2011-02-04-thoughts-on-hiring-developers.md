@@ -1,10 +1,10 @@
 ---
-id: 38
+wordpress_id: 38
 title: Thoughts on Hiring Developers
 date: 2011-02-04T18:37:35+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2011/02/04/thoughts_2D00_on_2D00_hiring_2D00_developers.aspx
+wordpress_guid: /blogs/rhouston/archive/2011/02/04/thoughts_2D00_on_2D00_hiring_2D00_developers.aspx
 categories:
   - Uncategorized
 ---

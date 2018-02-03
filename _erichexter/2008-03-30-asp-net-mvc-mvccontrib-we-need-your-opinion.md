@@ -1,10 +1,10 @@
 ---
-id: 2944
+wordpress_id: 2944
 title: 'ASP.Net MVC &#8211; MvcContrib &#8211; We need your opinion!'
 date: 2008-03-30T10:22:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/03/30/asp-net-mvc-mvccontrib-we-need-your-opinion.aspx
+wordpress_guid: /blogs/hex/archive/2008/03/30/asp-net-mvc-mvccontrib-we-need-your-opinion.aspx
 dsq_thread_id:
   - "268196659"
 categories:

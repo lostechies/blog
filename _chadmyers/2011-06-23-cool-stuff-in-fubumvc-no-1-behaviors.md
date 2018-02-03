@@ -1,10 +1,10 @@
 ---
-id: 214
+wordpress_id: 214
 title: 'Cool stuff in FubuMVC No. 1: Behaviors'
 date: 2011-06-23T18:30:00+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=214
+wordpress_guid: http://lostechies.com/chadmyers/?p=214
 dsq_thread_id:
   - "340711701"
 categories:

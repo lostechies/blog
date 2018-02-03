@@ -1,10 +1,10 @@
 ---
-id: 39
+wordpress_id: 39
 title: Making JavaScript APIs Easier to Use
 date: 2009-09-16T04:21:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/09/16/proper-javascript-api-design.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/09/16/proper-javascript-api-design.aspx
 dsq_thread_id:
   - "262055730"
 categories:

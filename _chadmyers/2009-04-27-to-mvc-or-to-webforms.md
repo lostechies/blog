@@ -1,10 +1,10 @@
 ---
-id: 140
+wordpress_id: 140
 title: To MVC or to WebForms?
 date: 2009-04-27T22:23:26+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/04/27/to-mvc-or-to-webforms.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/04/27/to-mvc-or-to-webforms.aspx
 dsq_thread_id:
   - "262114314"
 categories:

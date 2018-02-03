@@ -1,10 +1,10 @@
 ---
-id: 50
+wordpress_id: 50
 title: Concerns about NBehave
 date: 2007-09-05T18:04:10+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/05/concerns-about-nbehave.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/05/concerns-about-nbehave.aspx
 dsq_thread_id:
   - "262090925"
 categories:

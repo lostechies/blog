@@ -1,10 +1,10 @@
 ---
-id: 3154
+wordpress_id: 3154
 title: Setting up a Ruby on Rails Production Server while keeping your sanity
 date: 2007-12-04T12:35:40+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/12/04/setting-up-a-ruby-on-rails-production-server-with-minimal-insanity.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/12/04/setting-up-a-ruby-on-rails-production-server-with-minimal-insanity.aspx
 dsq_thread_id:
   - "263238944"
 categories:

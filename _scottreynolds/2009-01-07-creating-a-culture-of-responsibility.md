@@ -1,10 +1,10 @@
 ---
-id: 4031
+wordpress_id: 4031
 title: Creating a Culture of Responsibility
 date: 2009-01-07T06:24:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/01/07/creating-a-culture-of-responsibility.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/01/07/creating-a-culture-of-responsibility.aspx
 categories:
   - lean
   - Management

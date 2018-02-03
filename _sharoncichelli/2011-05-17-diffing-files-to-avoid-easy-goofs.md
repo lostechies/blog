@@ -1,10 +1,10 @@
 ---
-id: 3869
+wordpress_id: 3869
 title: Diffing Files to Avoid Easy Goofs
 date: 2011-05-17T22:51:41+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=36
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=36
 dsq_thread_id:
   - "306498347"
 categories:

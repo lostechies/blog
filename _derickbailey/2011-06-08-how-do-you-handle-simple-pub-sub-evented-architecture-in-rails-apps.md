@@ -1,10 +1,10 @@
 ---
-id: 385
+wordpress_id: 385
 title: How do you handle simple pub-sub, evented architecture in rails apps?
 date: 2011-06-08T21:23:54+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=385
+wordpress_guid: http://lostechies.com/derickbailey/?p=385
 dsq_thread_id:
   - "326300464"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 236
+wordpress_id: 236
 title: Transitioning between consulting projects
 date: 2008-10-04T17:42:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/04/transitioning-between-consulting-projects.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/04/transitioning-between-consulting-projects.aspx
 dsq_thread_id:
   - "264715919"
 categories:

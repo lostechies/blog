@@ -1,10 +1,10 @@
 ---
-id: 3177
+wordpress_id: 3177
 title: The strive to do better
 date: 2008-06-18T01:58:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/06/17/the-strive-to-do-better.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/06/17/the-strive-to-do-better.aspx
 dsq_thread_id:
   - "262596901"
 categories:

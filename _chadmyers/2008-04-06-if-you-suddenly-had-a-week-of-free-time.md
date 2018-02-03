@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: 'If you suddenly had a week of free time&#8230;'
 date: 2008-04-06T16:02:07+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/06/if-you-suddenly-had-a-week-of-free-time.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/06/if-you-suddenly-had-a-week-of-free-time.aspx
 dsq_thread_id:
   - "262113763"
 categories:

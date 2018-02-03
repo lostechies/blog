@@ -1,10 +1,10 @@
 ---
-id: 120
+wordpress_id: 120
 title: Application Root is your friend
 date: 2008-01-03T18:17:35+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/03/application-root-is-your-friend.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/03/application-root-is-your-friend.aspx
 dsq_thread_id:
   - "264715478"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 2966
+wordpress_id: 2966
 title: Hot fix available for Visual Studio 2008 SP1 crashing when opening up aspx files (views) on Vista SP1 x64
 date: 2009-03-03T03:39:25+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/03/02/hot-fix-available-for-visual-studio-2008-sp1-crashing-when-opening-up-aspx-files-views-on-vista-sp1-x64.aspx
+wordpress_guid: /blogs/hex/archive/2009/03/02/hot-fix-available-for-visual-studio-2008-sp1-crashing-when-opening-up-aspx-files-views-on-vista-sp1-x64.aspx
 dsq_thread_id:
   - "262047759"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 138
+wordpress_id: 138
 title: Flexibility and control
 date: 2008-02-05T02:02:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/04/flexibility-and-control.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/04/flexibility-and-control.aspx
 dsq_thread_id:
   - "264715536"
 categories:

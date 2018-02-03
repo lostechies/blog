@@ -1,10 +1,10 @@
 ---
-id: 562
+wordpress_id: 562
 title: The value of certifications
 date: 2011-11-29T22:37:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/11/29/the-value-of-certifications/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/11/29/the-value-of-certifications/
 dsq_thread_id:
   - "487858945"
 categories:

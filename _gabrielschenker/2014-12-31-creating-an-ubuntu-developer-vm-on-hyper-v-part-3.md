@@ -1,10 +1,10 @@
 ---
-id: 850
+wordpress_id: 850
 title: Creating an Ubuntu developer VM on Hyper-V – Part 3
 date: 2014-12-31T15:04:10+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=850
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=850
 dsq_thread_id:
   - "3378054386"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4483
+wordpress_id: 4483
 title: Hacking Websites with Ruby and Nokogiri
 date: 2011-04-11T12:02:51+00:00
 author: Rod Paddock
 layout: post
-guid: http://lostechies.com/rodpaddock/?p=18
+wordpress_guid: http://lostechies.com/rodpaddock/?p=18
 dsq_thread_id:
   - "276648521"
 categories:

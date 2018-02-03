@@ -1,10 +1,10 @@
 ---
-id: 3861
+wordpress_id: 3861
 title: 'Interface-Oriented Design &#8211; Book Review'
 date: 2010-01-17T18:54:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2010/01/17/interface-oriented-design-book-review.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2010/01/17/interface-oriented-design-book-review.aspx
 dsq_thread_id:
   - "263370913"
 categories:

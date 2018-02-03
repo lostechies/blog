@@ -1,10 +1,10 @@
 ---
-id: 130
+wordpress_id: 130
 title: 'Advanced CI: integrating web applications'
 date: 2008-01-16T22:35:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/16/advanced-ci-integrating-web-applications.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/16/advanced-ci-integrating-web-applications.aspx
 dsq_thread_id:
   - "264715509"
 categories:

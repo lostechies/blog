@@ -1,10 +1,10 @@
 ---
-id: 3134
+wordpress_id: 3134
 title: 500gb MyBook external HDD and Virtual Machine
 date: 2007-09-24T00:57:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/09/23/500gb-mybook-external-hdd-and-virtual-machine.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/09/23/500gb-mybook-external-hdd-and-virtual-machine.aspx
 dsq_thread_id:
   - "268123680"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 25
+wordpress_id: 25
 title: How Mr. Buford got me started in software development
 date: 2008-09-21T00:50:26+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/09/20/how-mr-buford-got-me-started-in-software-development.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/09/20/how-mr-buford-got-me-started-in-software-development.aspx
 categories:
   - Uncategorized
 ---

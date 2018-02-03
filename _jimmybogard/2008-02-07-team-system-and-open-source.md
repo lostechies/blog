@@ -1,10 +1,10 @@
 ---
-id: 140
+wordpress_id: 140
 title: Team System and open source
 date: 2008-02-07T13:30:08+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/07/team-system-and-open-source.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/07/team-system-and-open-source.aspx
 dsq_thread_id:
   - "264715549"
 categories:

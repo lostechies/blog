@@ -1,10 +1,10 @@
 ---
-id: 272
+wordpress_id: 272
 title: Synthetic Sharding with Cassandra. Or How To Deal With Large Partitions.
 date: 2016-03-15T08:40:47+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=272
+wordpress_guid: https://lostechies.com/ryansvihla/?p=272
 dsq_thread_id:
   - "4720443444"
 categories:

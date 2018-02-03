@@ -1,10 +1,10 @@
 ---
-id: 635
+wordpress_id: 635
 title: Using posh-git and posh-hg together
 date: 2012-06-15T14:59:27+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/06/15/using-posh-git-and-posh-hg-together/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/06/15/using-posh-git-and-posh-hg-together/
 dsq_thread_id:
   - "727352732"
 categories:

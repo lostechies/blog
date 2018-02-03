@@ -1,10 +1,10 @@
 ---
-id: 297
+wordpress_id: 297
 title: A better Model Binder
 date: 2009-03-18T02:07:21+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/03/17/a-better-model-binder.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/03/17/a-better-model-binder.aspx
 dsq_thread_id:
   - "264716102"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 318
+wordpress_id: 318
 title: CASSANDRA LOCAL_QUORUM SHOULD STAY LOCAL
 date: 2016-04-21T07:45:10+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=318
+wordpress_guid: https://lostechies.com/ryansvihla/?p=318
 dsq_thread_id:
   - "4765168114"
 categories:

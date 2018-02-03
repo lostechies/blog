@@ -1,10 +1,10 @@
 ---
-id: 912
+wordpress_id: 912
 title: View Helpers For Underscore Templates
 date: 2012-04-26T06:50:55+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=912
+wordpress_guid: http://lostechies.com/derickbailey/?p=912
 dsq_thread_id:
   - "664828606"
 categories:

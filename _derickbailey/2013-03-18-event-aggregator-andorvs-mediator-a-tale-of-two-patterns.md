@@ -1,10 +1,10 @@
 ---
-id: 1075
+wordpress_id: 1075
 title: 'Event Aggregator And/Or/vs Mediator: A Tale Of Two Patterns'
 date: 2013-03-18T09:00:14+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1075
+wordpress_guid: http://lostechies.com/derickbailey/?p=1075
 dsq_thread_id:
   - "1146857935"
 categories:

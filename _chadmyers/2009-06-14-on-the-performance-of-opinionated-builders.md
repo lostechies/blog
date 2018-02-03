@@ -1,10 +1,10 @@
 ---
-id: 145
+wordpress_id: 145
 title: On the performance of “Opinionated Builders”
 date: 2009-06-14T05:35:36+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/06/14/on-the-performance-of-opinionated-builders.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/06/14/on-the-performance-of-opinionated-builders.aspx
 dsq_thread_id:
   - "262114402"
 categories:

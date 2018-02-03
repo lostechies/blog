@@ -1,10 +1,10 @@
 ---
-id: 365
+wordpress_id: 365
 title: AngularJS–Part 5, pushing data to the server
 date: 2013-12-17T22:47:19+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=365
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=365
 dsq_thread_id:
   - "2057704045"
 categories:

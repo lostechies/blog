@@ -1,10 +1,10 @@
 ---
-id: 292
+wordpress_id: 292
 title: 'Reviewing Git feature branches when you don&#8217;t have pull requests'
 date: 2014-08-15T09:05:44+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=292
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=292
 dsq_thread_id:
   - "2907891830"
 categories:

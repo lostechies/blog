@@ -1,10 +1,10 @@
 ---
-id: 79
+wordpress_id: 79
 title: Curious, What does your day look like?
 date: 2007-10-20T21:57:01+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/20/curious-what-does-your-day-look-like.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/20/curious-what-does-your-day-look-like.aspx
 dsq_thread_id:
   - "262090874"
 categories:

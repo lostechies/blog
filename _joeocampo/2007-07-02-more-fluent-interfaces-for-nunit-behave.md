@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: More Fluent Interfaces for NUnit.Behave
 date: 2007-07-02T20:29:15+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/07/02/more-fluent-interfaces-for-nunit-behave.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/07/02/more-fluent-interfaces-for-nunit-behave.aspx
 dsq_thread_id:
   - "262088252"
 categories:

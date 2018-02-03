@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: Infinite Scaling and Distributed Transactions
 date: 2007-12-30T22:09:26+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/12/30/infinite-scaling-and-distributed-transactions.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/12/30/infinite-scaling-and-distributed-transactions.aspx
 categories:
   - Uncategorized
 ---

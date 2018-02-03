@@ -1,10 +1,10 @@
 ---
-id: 168
+wordpress_id: 168
 title: 'The *nix Rube Goldberg machine &#8211; shift'
 date: 2012-08-17T18:48:15+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=168
+wordpress_guid: http://lostechies.com/ryanrauh/?p=168
 dsq_thread_id:
   - "809224431"
 categories:

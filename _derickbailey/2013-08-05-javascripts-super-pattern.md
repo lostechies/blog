@@ -1,10 +1,10 @@
 ---
-id: 1126
+wordpress_id: 1126
 title: 'JavaScript&#8217;s &#8220;super&#8221; Pattern'
 date: 2013-08-05T07:00:44+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1126
+wordpress_guid: http://lostechies.com/derickbailey/?p=1126
 dsq_thread_id:
   - "1572078599"
 categories:

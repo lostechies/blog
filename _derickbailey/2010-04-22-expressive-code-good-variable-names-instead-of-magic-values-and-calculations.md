@@ -1,10 +1,10 @@
 ---
-id: 145
+wordpress_id: 145
 title: 'Expressive Code: Good Variable Names Instead Of Magic Values And Calculations'
 date: 2010-04-22T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/22/expressive-code-good-variable-names-instead-of-magic-values-and-calculations.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/22/expressive-code-good-variable-names-instead-of-magic-values-and-calculations.aspx
 dsq_thread_id:
   - "262068644"
 categories:

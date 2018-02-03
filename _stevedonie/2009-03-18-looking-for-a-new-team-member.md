@@ -1,10 +1,10 @@
 ---
-id: 4767
+wordpress_id: 4767
 title: Looking for a new team member
 date: 2009-03-18T04:42:00+00:00
 author: Steve Donie
 layout: post
-guid: /blogs/stevedonie/archive/2009/03/18/looking-for-a-new-team-member.aspx
+wordpress_guid: /blogs/stevedonie/archive/2009/03/18/looking-for-a-new-team-member.aspx
 dsq_thread_id:
   - "1249618248"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: Austin TDD CodingDojo Homework
 date: 2008-02-20T02:42:01+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/02/19/austin-tdd-codingdojo-homework.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/02/19/austin-tdd-codingdojo-homework.aspx
 dsq_thread_id:
   - "1084756165"
 categories:

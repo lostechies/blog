@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Know Your Enemy
 date: 2009-04-14T16:07:48+00:00
 author: Gregory Long
 layout: post
-guid: /blogs/thatotherguy/archive/2009/04/14/know-your-enemy.aspx
+wordpress_guid: /blogs/thatotherguy/archive/2009/04/14/know-your-enemy.aspx
 dsq_thread_id:
   - "265816381"
 categories:

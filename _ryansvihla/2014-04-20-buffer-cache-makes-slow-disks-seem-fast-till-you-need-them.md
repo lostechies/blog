@@ -1,10 +1,10 @@
 ---
-id: 108
+wordpress_id: 108
 title: Buffer Cache Makes Slow Disks Seem Fast, Till You Need Them.
 date: 2014-04-20T15:39:29+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=108
+wordpress_guid: http://lostechies.com/ryansvihla/?p=108
 dsq_thread_id:
   - "2626355770"
 categories:

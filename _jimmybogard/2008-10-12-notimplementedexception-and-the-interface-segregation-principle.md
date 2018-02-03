@@ -1,10 +1,10 @@
 ---
-id: 238
+wordpress_id: 238
 title: NotImplementedException and the Interface Segregation Principle
 date: 2008-10-12T18:50:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/12/notimplementedexception-and-the-interface-segregation-principle.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/12/notimplementedexception-and-the-interface-segregation-principle.aspx
 dsq_thread_id:
   - "265314839"
 categories:

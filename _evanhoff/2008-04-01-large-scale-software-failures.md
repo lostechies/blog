@@ -1,10 +1,10 @@
 ---
-id: 39
+wordpress_id: 39
 title: Large Scale Software Failures
 date: 2008-04-01T06:21:14+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/04/01/large-scale-software-failures.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/04/01/large-scale-software-failures.aspx
 categories:
   - Uncategorized
 ---

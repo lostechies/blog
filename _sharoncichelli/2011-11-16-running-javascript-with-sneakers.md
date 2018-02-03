@@ -1,10 +1,10 @@
 ---
-id: 65
+wordpress_id: 65
 title: 'Running JavaScript&#8230; With Sneakers!'
 date: 2011-11-16T20:35:34+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=65
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=65
 dsq_thread_id:
   - "474562491"
 categories:

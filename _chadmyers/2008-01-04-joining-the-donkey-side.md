@@ -1,10 +1,10 @@
 ---
-id: 5
+wordpress_id: 5
 title: Joining the Donkey Side
 date: 2008-01-04T12:35:19+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/01/04/joining-the-donkey-side.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/01/04/joining-the-donkey-side.aspx
 dsq_thread_id:
   - "262113535"
 categories:

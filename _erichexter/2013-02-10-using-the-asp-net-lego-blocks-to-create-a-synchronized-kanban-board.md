@@ -1,10 +1,10 @@
 ---
-id: 401
+wordpress_id: 401
 title: using the asp.net lego blocks to create a synchronized Kanban board.
 date: 2013-02-10T10:43:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=401
+wordpress_guid: http://lostechies.com/erichexter/?p=401
 dsq_thread_id:
   - "1075910585"
 categories:

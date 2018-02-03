@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: What would an Apple gaming console look like?
 date: 2008-01-11T02:30:21+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/01/10/what-would-an-apple-gaming-console-look-like.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/01/10/what-would-an-apple-gaming-console-look-like.aspx
 dsq_thread_id:
   - "262113579"
 categories:

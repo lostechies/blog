@@ -1,10 +1,10 @@
 ---
-id: 295
+wordpress_id: 295
 title: Caffeinated Usability
 date: 2014-08-07T09:25:57+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=295
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=295
 dsq_thread_id:
   - "2907039728"
 categories:

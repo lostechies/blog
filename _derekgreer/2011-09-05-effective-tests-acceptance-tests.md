@@ -1,10 +1,10 @@
 ---
-id: 527
+wordpress_id: 527
 title: 'Effective Tests: Acceptance Tests'
 date: 2011-09-05T15:11:12+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=527
+wordpress_guid: http://lostechies.com/derekgreer/?p=527
 dsq_thread_id:
   - "405376160"
 categories:

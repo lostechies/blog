@@ -1,10 +1,10 @@
 ---
-id: 906
+wordpress_id: 906
 title: 'Missing EF Feature Workarounds: Cascade delete orphans'
 date: 2014-05-08T14:07:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=906
+wordpress_guid: http://lostechies.com/jimmybogard/?p=906
 dsq_thread_id:
   - "2670009544"
 categories:

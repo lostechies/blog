@@ -1,10 +1,10 @@
 ---
-id: 875
+wordpress_id: 875
 title: Reducing NServiceBus Saga load
 date: 2014-02-27T21:36:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=875
+wordpress_guid: http://lostechies.com/jimmybogard/?p=875
 dsq_thread_id:
   - "2331958552"
 categories:

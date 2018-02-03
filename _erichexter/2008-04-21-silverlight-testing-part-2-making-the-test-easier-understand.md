@@ -1,10 +1,10 @@
 ---
-id: 2948
+wordpress_id: 2948
 title: 'Silverlight Testing &#8211; Part 2 &#8211; Making the test easier understand.'
 date: 2008-04-21T17:59:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/04/21/silverlight-testing-part-2-making-the-test-easier-understand.aspx
+wordpress_guid: /blogs/hex/archive/2008/04/21/silverlight-testing-part-2-making-the-test-easier-understand.aspx
 dsq_thread_id:
   - "1109736656"
 categories:

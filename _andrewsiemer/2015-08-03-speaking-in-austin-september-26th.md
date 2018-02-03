@@ -1,10 +1,10 @@
 ---
-id: 4421
+wordpress_id: 4421
 title: Speaking in Austin September 26th
 date: 2015-08-03T19:10:17+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=48
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=48
 dsq_thread_id:
   - "3999898825"
 categories:

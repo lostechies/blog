@@ -1,10 +1,10 @@
 ---
-id: 124
+wordpress_id: 124
 title: More on Scrummerfall
 date: 2008-01-09T21:05:54+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/09/more-on-scrummerfall.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/09/more-on-scrummerfall.aspx
 dsq_thread_id:
   - "264827499"
 categories:

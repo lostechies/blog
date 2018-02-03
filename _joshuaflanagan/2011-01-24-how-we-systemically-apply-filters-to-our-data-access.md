@@ -1,10 +1,10 @@
 ---
-id: 3969
+wordpress_id: 3969
 title: How we systemically apply filters to our data access
 date: 2011-01-24T14:34:08+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2011/01/24/how-we-systemically-apply-filters-to-our-data-access.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2011/01/24/how-we-systemically-apply-filters-to-our-data-access.aspx
 dsq_thread_id:
   - "262098816"
 categories:

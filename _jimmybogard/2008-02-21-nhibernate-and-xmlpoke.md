@@ -1,10 +1,10 @@
 ---
-id: 145
+wordpress_id: 145
 title: NHibernate and xmlpoke
 date: 2008-02-21T02:45:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/20/nhibernate-and-xmlpoke.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/20/nhibernate-and-xmlpoke.aspx
 dsq_thread_id:
   - "264715571"
 categories:

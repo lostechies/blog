@@ -1,10 +1,10 @@
 ---
-id: 108
+wordpress_id: 108
 title: Hall of shame
 date: 2007-11-29T22:05:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/29/hall-of-shame.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/29/hall-of-shame.aspx
 dsq_thread_id:
   - "264715448"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 995
+wordpress_id: 995
 title: 'Screencasting Tip: Resize Your App To 720p (1280&#215;720) In OSX'
 date: 2012-09-08T10:41:28+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=995
+wordpress_guid: http://lostechies.com/derickbailey/?p=995
 dsq_thread_id:
   - "835902784"
 categories:

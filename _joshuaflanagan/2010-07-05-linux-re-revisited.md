@@ -1,10 +1,10 @@
 ---
-id: 3962
+wordpress_id: 3962
 title: Linux Re-revisited
 date: 2010-07-05T01:38:55+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/07/04/linux-re-revisited.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/07/04/linux-re-revisited.aspx
 dsq_thread_id:
   - "262113222"
 categories:

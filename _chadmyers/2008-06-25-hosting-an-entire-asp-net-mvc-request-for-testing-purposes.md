@@ -1,10 +1,10 @@
 ---
-id: 61
+wordpress_id: 61
 title: Hosting an entire ASP.NET MVC request for testing purposes
 date: 2008-06-25T02:11:37+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/24/hosting-an-entire-asp-net-mvc-request-for-testing-purposes.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/24/hosting-an-entire-asp-net-mvc-request-for-testing-purposes.aspx
 dsq_thread_id:
   - "262113854"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4833
+wordpress_id: 4833
 title: 'Austin F# Meetup'
 date: 2014-05-05T16:41:07+00:00
 author: Matt Hinze
 layout: post
-guid: http://lostechies.com/matthinze/?p=18
+wordpress_guid: http://lostechies.com/matthinze/?p=18
 dsq_thread_id:
   - "2663375005"
 categories:

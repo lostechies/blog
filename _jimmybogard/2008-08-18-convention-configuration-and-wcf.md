@@ -1,10 +1,10 @@
 ---
-id: 218
+wordpress_id: 218
 title: Convention, configuration and WCF
 date: 2008-08-18T23:56:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/18/convention-configuration-and-wcf.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/18/convention-configuration-and-wcf.aspx
 dsq_thread_id:
   - "266052352"
 categories:

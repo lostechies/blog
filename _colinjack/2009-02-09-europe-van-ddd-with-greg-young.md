@@ -1,10 +1,10 @@
 ---
-id: 4645
+wordpress_id: 4645
 title: 'Europe VAN &#8211; DDD with Greg Young (9th February)'
 date: 2009-02-09T00:04:00+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/02/09/europe-van-ddd-with-greg-young.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/02/09/europe-van-ddd-with-greg-young.aspx
 categories:
   - Uncategorized
 ---

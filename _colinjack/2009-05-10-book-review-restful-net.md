@@ -1,10 +1,10 @@
 ---
-id: 4648
+wordpress_id: 4648
 title: 'Book Review &#8211; RESTful .NET'
 date: 2009-05-10T19:59:39+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/05/10/book-review-restful-net.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/05/10/book-review-restful-net.aspx
 categories:
   - Books
   - REST

@@ -1,10 +1,10 @@
 ---
-id: 128
+wordpress_id: 128
 title: LosTechies welcomes John Petersen!
 date: 2010-03-08T15:22:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2010/03/08/lostechies-welcomes-john-petersen.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2010/03/08/lostechies-welcomes-john-petersen.aspx
 dsq_thread_id:
   - "262088527"
 categories:

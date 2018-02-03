@@ -1,10 +1,10 @@
 ---
-id: 117
+wordpress_id: 117
 title: A Response Concerning Semantics And Intention Revealing Code
 date: 2010-03-19T18:16:57+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/19/a-response-concerning-semantics-and-intention-revealing-code.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/19/a-response-concerning-semantics-and-intention-revealing-code.aspx
 dsq_thread_id:
   - "265573778"
 categories:

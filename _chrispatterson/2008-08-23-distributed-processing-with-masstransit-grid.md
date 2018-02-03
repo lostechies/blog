@@ -1,10 +1,10 @@
 ---
-id: 3592
+wordpress_id: 3592
 title: Distributed Processing with MassTransit.Grid
 date: 2008-08-23T13:18:04+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/08/23/distributed-processing-with-masstransit-grid.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/08/23/distributed-processing-with-masstransit-grid.aspx
 dsq_thread_id:
   - "270739423"
 categories:

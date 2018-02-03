@@ -1,10 +1,10 @@
 ---
-id: 4738
+wordpress_id: 4738
 title: 'Castle&#8217;s ActiveRecord: Not for the Domain Purist in you&#8230;'
 date: 2007-04-17T00:45:26+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/04/16/castle-s-activerecord-not-for-the-domain-purist-in-you.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/04/16/castle-s-activerecord-not-for-the-domain-purist-in-you.aspx
 categories:
   - Castle
   - Domain Driven Design

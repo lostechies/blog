@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: 'DDD Question: Where does required info validation belong for an Entity?'
 date: 2008-10-15T13:54:12+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/10/15/ddd-question-where-does-input-validation-belong.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/10/15/ddd-question-where-does-input-validation-belong.aspx
 dsq_thread_id:
   - "262067872"
 categories:

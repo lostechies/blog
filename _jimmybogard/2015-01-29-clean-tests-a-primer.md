@@ -1,10 +1,10 @@
 ---
-id: 1036
+wordpress_id: 1036
 title: 'Clean Tests: A Primer'
 date: 2015-01-29T14:25:06+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=1036
+wordpress_guid: http://lostechies.com/jimmybogard/?p=1036
 dsq_thread_id:
   - "3466400214"
 categories:

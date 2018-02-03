@@ -1,10 +1,10 @@
 ---
-id: 55
+wordpress_id: 55
 title: 'Authoring stories with BDD using Behave# and NSpec'
 date: 2007-08-27T15:18:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/27/authoring-stories-with-bdd-using-behave-and-nspec.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/27/authoring-stories-with-bdd-using-behave-and-nspec.aspx
 dsq_thread_id:
   - "266979168"
 categories:

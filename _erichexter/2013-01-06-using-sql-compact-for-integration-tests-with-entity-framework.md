@@ -1,10 +1,10 @@
 ---
-id: 366
+wordpress_id: 366
 title: Using sql compact for integration tests with entity framework.
 date: 2013-01-06T12:23:12+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=366
+wordpress_guid: http://lostechies.com/erichexter/?p=366
 dsq_thread_id:
   - "1011394647"
 categories:

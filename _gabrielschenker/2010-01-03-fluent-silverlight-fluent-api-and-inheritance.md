@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: Fluent Silverlight – Fluent API and inheritance
 date: 2010-01-03T21:09:04+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/01/03/fluent-silverlight-fluent-api-and-inheritance.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/01/03/fluent-silverlight-fluent-api-and-inheritance.aspx
 dsq_thread_id:
   - "263908907"
 categories:

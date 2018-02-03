@@ -1,10 +1,10 @@
 ---
-id: 153
+wordpress_id: 153
 title: Trying To Get Vim Intellisense Working. Help?!
 date: 2010-05-05T14:14:26+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/05/trying-to-get-vim-intellisense-working-help.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/05/trying-to-get-vim-intellisense-working-help.aspx
 dsq_thread_id:
   - "263105777"
 categories:

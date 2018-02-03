@@ -1,10 +1,10 @@
 ---
-id: 385
+wordpress_id: 385
 title: 'Advanced StructureMap: Diagnosing problems'
 date: 2010-01-22T04:21:31+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/01/21/advanced-structuremap-diagnosing-problems.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/01/21/advanced-structuremap-diagnosing-problems.aspx
 dsq_thread_id:
   - "264756197"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 20
+wordpress_id: 20
 title: Technical Support Spoof
 date: 2007-04-22T21:16:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/04/22/technical-support-spoof.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/04/22/technical-support-spoof.aspx
 dsq_thread_id:
   - "262089374"
 categories:

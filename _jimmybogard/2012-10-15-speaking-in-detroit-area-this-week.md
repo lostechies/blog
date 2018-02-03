@@ -1,10 +1,10 @@
 ---
-id: 677
+wordpress_id: 677
 title: Speaking in Detroit area this week
 date: 2012-10-15T13:31:06+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/10/15/speaking-in-detroit-area-this-week/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/10/15/speaking-in-detroit-area-this-week/
 dsq_thread_id:
   - "886139475"
 categories:

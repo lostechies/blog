@@ -1,10 +1,10 @@
 ---
-id: 57
+wordpress_id: 57
 title: Event Aggregator Using the Magnum Pipeline
 date: 2009-07-28T05:11:39+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/07/28/event-aggregator-using-the-magnum-pipeline.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/07/28/event-aggregator-using-the-magnum-pipeline.aspx
 dsq_thread_id:
   - "262089360"
 categories:

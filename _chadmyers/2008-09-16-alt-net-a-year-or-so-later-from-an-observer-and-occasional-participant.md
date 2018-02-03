@@ -1,10 +1,10 @@
 ---
-id: 89
+wordpress_id: 89
 title: ALT.NET, a year or so later from an observer and occasional participant.
 date: 2008-09-16T02:43:45+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/09/15/alt-net-a-year-or-so-later-from-an-observer-and-occasional-participant.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/09/15/alt-net-a-year-or-so-later-from-an-observer-and-occasional-participant.aspx
 dsq_thread_id:
   - "262114083"
 categories:

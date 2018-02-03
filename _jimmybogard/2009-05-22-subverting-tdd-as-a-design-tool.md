@@ -1,10 +1,10 @@
 ---
-id: 317
+wordpress_id: 317
 title: Subverting TDD as a design tool
 date: 2009-05-22T13:29:45+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/05/22/subverting-tdd-as-a-design-tool.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/05/22/subverting-tdd-as-a-design-tool.aspx
 dsq_thread_id:
   - "264716160"
 categories:

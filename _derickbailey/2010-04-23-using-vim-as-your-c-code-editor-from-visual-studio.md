@@ -1,10 +1,10 @@
 ---
-id: 146
+wordpress_id: 146
 title: 'Using Vim As Your C# Code Editor From Visual Studio'
 date: 2010-04-23T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/23/using-vim-as-your-c-code-editor-from-visual-studio.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/23/using-vim-as-your-c-code-editor-from-visual-studio.aspx
 dsq_thread_id:
   - "262068674"
 categories:

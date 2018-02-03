@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: 'Hangin&#8217; with the Cool Kids'
 date: 2009-01-20T00:58:48+00:00
 author: Scott Densmore
 layout: post
-guid: /blogs/scottdensmore/archive/2009/01/19/hangin-with-the-cool-kids.aspx
+wordpress_guid: /blogs/scottdensmore/archive/2009/01/19/hangin-with-the-cool-kids.aspx
 dsq_thread_id:
   - "745657793"
 categories:

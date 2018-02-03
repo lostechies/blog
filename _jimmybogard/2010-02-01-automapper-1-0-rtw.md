@@ -1,10 +1,10 @@
 ---
-id: 388
+wordpress_id: 388
 title: AutoMapper 1.0 RTW
 date: 2010-02-01T22:44:31+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/02/01/automapper-1-0-rtw.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/02/01/automapper-1-0-rtw.aspx
 dsq_thread_id:
   - "264977440"
 categories:

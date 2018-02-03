@@ -1,10 +1,10 @@
 ---
-id: 429
+wordpress_id: 429
 title: 'Set goals you can *do*'
 date: 2015-12-30T15:52:14+00:00
 author: Sharon Cichelli
 layout: post
-guid: https://lostechies.com/sharoncichelli/?p=429
+wordpress_guid: https://lostechies.com/sharoncichelli/?p=429
 dsq_thread_id:
   - "4447999984"
 categories:

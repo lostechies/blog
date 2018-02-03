@@ -1,10 +1,10 @@
 ---
-id: 358
+wordpress_id: 358
 title: 'Don&#8217;t Do Role-Based Authorization Checks; Do Activity-Based Checks'
 date: 2011-05-24T07:00:08+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=358
+wordpress_guid: http://lostechies.com/derickbailey/?p=358
 dsq_thread_id:
   - "312409531"
 categories:

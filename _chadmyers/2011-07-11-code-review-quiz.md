@@ -1,10 +1,10 @@
 ---
-id: 306
+wordpress_id: 306
 title: Code Review Quiz
 date: 2011-07-11T10:39:26+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/2011/07/11/code-review-quiz/
+wordpress_guid: http://lostechies.com/chadmyers/2011/07/11/code-review-quiz/
 dsq_thread_id:
   - "355356852"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 263
+wordpress_id: 263
 title: 'Case Insensitive Dir.glob In Ruby: Really? It Has To Be That Cryptic?'
 date: 2011-04-14T08:53:48+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=263
+wordpress_guid: http://lostechies.com/derickbailey/?p=263
 dsq_thread_id:
   - "279330617"
 categories:

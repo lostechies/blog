@@ -1,10 +1,10 @@
 ---
-id: 97
+wordpress_id: 97
 title: Active vs. Activist
 date: 2010-01-19T21:01:03+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/01/19/active-vs-activist.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/01/19/active-vs-activist.aspx
 dsq_thread_id:
   - "262068383"
 categories:

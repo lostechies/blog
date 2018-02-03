@@ -1,10 +1,10 @@
 ---
-id: 802
+wordpress_id: 802
 title: Run tests explicitly in xUnit.net
 date: 2013-06-20T18:53:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=802
+wordpress_guid: http://lostechies.com/jimmybogard/?p=802
 dsq_thread_id:
   - "1415942251"
 categories:

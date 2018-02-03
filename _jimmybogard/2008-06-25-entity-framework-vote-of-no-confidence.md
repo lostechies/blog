@@ -1,10 +1,10 @@
 ---
-id: 199
+wordpress_id: 199
 title: Entity Framework vote of no confidence
 date: 2008-06-25T02:20:57+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/06/24/entity-framework-vote-of-no-confidence.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/06/24/entity-framework-vote-of-no-confidence.aspx
 dsq_thread_id:
   - "264715802"
 categories:

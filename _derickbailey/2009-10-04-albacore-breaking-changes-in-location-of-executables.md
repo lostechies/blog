@@ -1,10 +1,10 @@
 ---
-id: 89
+wordpress_id: 89
 title: 'Albacore: Breaking Changes In Location Of Executables'
 date: 2009-10-04T19:20:20+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/10/04/albacore-breaking-changes-in-location-of-executables.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/10/04/albacore-breaking-changes-in-location-of-executables.aspx
 dsq_thread_id:
   - "262068362"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 39
+wordpress_id: 39
 title: Move to Austin
 date: 2008-04-21T15:31:25+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/21/move-to-austin.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/21/move-to-austin.aspx
 dsq_thread_id:
   - "262113768"
 categories:

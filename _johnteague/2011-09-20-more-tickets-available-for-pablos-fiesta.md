@@ -1,10 +1,10 @@
 ---
-id: 84
+wordpress_id: 84
 title: 'More tickets available for Pablo&#8217;s Fiesta'
 date: 2011-09-20T14:07:46+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=84
+wordpress_guid: http://lostechies.com/johnteague/?p=84
 dsq_thread_id:
   - "420304085"
 categories:

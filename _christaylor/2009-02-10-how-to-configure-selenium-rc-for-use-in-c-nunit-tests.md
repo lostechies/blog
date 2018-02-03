@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: 'How to Configure Selenium RC for Use In C# NUnit Tests'
 date: 2009-02-10T12:24:00+00:00
 author: Chris Taylor
 layout: post
-guid: /blogs/agilecruz/archive/2009/02/10/how-to-configure-selenium-rc-for-use-in-c-nunit-tests.aspx
+wordpress_guid: /blogs/agilecruz/archive/2009/02/10/how-to-configure-selenium-rc-for-use-in-c-nunit-tests.aspx
 categories:
   - .NET
   - 'C#'

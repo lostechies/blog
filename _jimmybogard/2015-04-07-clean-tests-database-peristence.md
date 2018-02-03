@@ -1,10 +1,10 @@
 ---
-id: 1090
+wordpress_id: 1090
 title: 'Clean Tests: Database Persistence'
 date: 2015-04-07T16:13:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1090
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1090
 dsq_thread_id:
   - "3662266243"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3957
+wordpress_id: 3957
 title: Adding variable output behavior to your FubuMVC actions
 date: 2010-02-08T03:34:34+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/02/07/adding-variable-output-behavior-to-your-fubumvc-actions.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/02/07/adding-variable-output-behavior-to-your-fubumvc-actions.aspx
 dsq_thread_id:
   - "263186350"
 categories:

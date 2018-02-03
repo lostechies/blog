@@ -1,10 +1,10 @@
 ---
-id: 221
+wordpress_id: 221
 title: Create test data for mongoose.js backed MEAN stack applications
 date: 2014-07-23T04:16:08+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=221
+wordpress_guid: http://lostechies.com/johnteague/?p=221
 dsq_thread_id:
   - "2865887322"
 categories:

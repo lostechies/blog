@@ -1,10 +1,10 @@
 ---
-id: 192
+wordpress_id: 192
 title: 'Cool stuff in FubuCore No. 3: Static Reflection'
 date: 2011-06-01T15:33:00+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=192
+wordpress_guid: http://lostechies.com/chadmyers/?p=192
 dsq_thread_id:
   - "319807515"
 categories:

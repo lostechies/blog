@@ -1,10 +1,10 @@
 ---
-id: 460
+wordpress_id: 460
 title: Separation of Concerns and databases
 date: 2011-03-31T13:03:56+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/03/31/separation-of-concerns-and-databases/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/03/31/separation-of-concerns-and-databases/
 dsq_thread_id:
   - "267563821"
 categories:

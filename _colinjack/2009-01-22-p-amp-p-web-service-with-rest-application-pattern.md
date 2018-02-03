@@ -1,10 +1,10 @@
 ---
-id: 4643
+wordpress_id: 4643
 title: 'P&#038;P &#8211; Web Service with REST Application Pattern'
 date: 2009-01-22T07:09:00+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/01/22/p-amp-p-web-service-with-rest-application-pattern.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/01/22/p-amp-p-web-service-with-rest-application-pattern.aspx
 categories:
   - 'p&amp;p'
   - REST

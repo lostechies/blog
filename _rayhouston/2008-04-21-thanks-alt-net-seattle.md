@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: Thanks ALT.NET Seattle
 date: 2008-04-21T11:27:15+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/04/21/thanks-alt-net-seattle.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/04/21/thanks-alt-net-seattle.aspx
 categories:
   - Uncategorized
 ---

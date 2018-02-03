@@ -1,10 +1,10 @@
 ---
-id: 36
+wordpress_id: 36
 title: .NET Software Developer Position in Austin
 date: 2010-06-23T18:49:00+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2010/06/23/net-software-developer-position-in-austin.aspx
+wordpress_guid: /blogs/rhouston/archive/2010/06/23/net-software-developer-position-in-austin.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 1186
+wordpress_id: 1186
 title: AutoMapper 5.0 Beta released
 date: 2016-05-18T18:21:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1186
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1186
 dsq_thread_id:
   - "4838151787"
 categories:

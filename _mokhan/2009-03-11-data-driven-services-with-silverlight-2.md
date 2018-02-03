@@ -1,10 +1,10 @@
 ---
-id: 4574
+wordpress_id: 4574
 title: Data-Driven Services with Silverlight 2
 date: 2009-03-11T14:54:52+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2009/03/11/data-driven-services-with-silverlight-2.aspx
+wordpress_guid: /blogs/mokhan/archive/2009/03/11/data-driven-services-with-silverlight-2.aspx
 categories:
   - Books
 ---

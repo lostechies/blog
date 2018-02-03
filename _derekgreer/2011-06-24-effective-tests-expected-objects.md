@@ -1,10 +1,10 @@
 ---
-id: 489
+wordpress_id: 489
 title: 'Effective Tests: Expected Objects'
 date: 2011-06-24T12:12:35+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=489
+wordpress_guid: http://lostechies.com/derekgreer/?p=489
 dsq_thread_id:
   - "341131289"
 categories:

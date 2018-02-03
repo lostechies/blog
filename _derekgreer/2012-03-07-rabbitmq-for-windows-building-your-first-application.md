@@ -1,10 +1,10 @@
 ---
-id: 667
+wordpress_id: 667
 title: 'RabbitMQ for Windows: Building Your First Application'
 date: 2012-03-07T22:14:58+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=667
+wordpress_guid: http://lostechies.com/derekgreer/?p=667
 dsq_thread_id:
   - "602878288"
 categories:

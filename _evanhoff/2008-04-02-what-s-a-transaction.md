@@ -1,10 +1,10 @@
 ---
-id: 41
+wordpress_id: 41
 title: 'What&#8217;s a Transaction?'
 date: 2008-04-02T01:15:35+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/04/01/what-s-a-transaction.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/04/01/what-s-a-transaction.aspx
 categories:
   - Uncategorized
 ---

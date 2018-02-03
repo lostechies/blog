@@ -1,10 +1,10 @@
 ---
-id: 1158
+wordpress_id: 1158
 title: Platform generalists versus framework specialists
 date: 2015-08-11T19:50:35+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1158
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1158
 dsq_thread_id:
   - "4023822967"
 categories:

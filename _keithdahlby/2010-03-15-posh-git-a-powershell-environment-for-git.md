@@ -1,10 +1,10 @@
 ---
-id: 4207
+wordpress_id: 4207
 title: 'posh-git: A PowerShell Environment for Git'
 date: 2010-03-15T14:31:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/03/15/posh-git-a-powershell-environment-for-git.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/03/15/posh-git-a-powershell-environment-for-git.aspx
 dsq_thread_id:
   - "262493331"
 categories:

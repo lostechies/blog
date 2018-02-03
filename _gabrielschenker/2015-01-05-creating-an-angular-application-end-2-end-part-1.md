@@ -1,10 +1,10 @@
 ---
-id: 877
+wordpress_id: 877
 title: Creating an Angular application end-2-end – Part 1
 date: 2015-01-05T07:58:29+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=877
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=877
 dsq_thread_id:
   - "3392053490"
 categories:

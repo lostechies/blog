@@ -1,10 +1,10 @@
 ---
-id: 257
+wordpress_id: 257
 title: Dealing with parameters in expressions and strongly-typed reflection
 date: 2008-11-25T03:22:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/24/dealing-with-parameters-in-expressions-and-strongly-typed-reflection.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/24/dealing-with-parameters-in-expressions-and-strongly-typed-reflection.aspx
 dsq_thread_id:
   - "266626728"
 categories:

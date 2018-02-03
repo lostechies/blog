@@ -1,10 +1,10 @@
 ---
-id: 2969
+wordpress_id: 2969
 title: Tips and Tricks for creating User Group communication channels with your members.
 date: 2009-04-14T00:15:39+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/04/13/tips-and-tricks-for-creating-user-group-communication-channels-with-your-members.aspx
+wordpress_guid: /blogs/hex/archive/2009/04/13/tips-and-tricks-for-creating-user-group-communication-channels-with-your-members.aspx
 dsq_thread_id:
   - "268396672"
 categories:

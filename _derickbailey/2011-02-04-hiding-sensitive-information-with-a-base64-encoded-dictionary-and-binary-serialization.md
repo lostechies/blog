@@ -1,10 +1,10 @@
 ---
-id: 213
+wordpress_id: 213
 title: Hiding Sensitive Information With A Base64 Encoded Dictionary And Binary Serialization
 date: 2011-02-04T17:28:15+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/02/04/hiding-sensitive-information-with-a-base64-encoded-dictionary-and-binary-serialization.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/02/04/hiding-sensitive-information-with-a-base64-encoded-dictionary-and-binary-serialization.aspx
 dsq_thread_id:
   - "262106517"
 categories:

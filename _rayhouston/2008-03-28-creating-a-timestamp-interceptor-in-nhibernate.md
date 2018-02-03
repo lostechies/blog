@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: Creating a Timestamp Interceptor in NHibernate
 date: 2008-03-28T02:28:39+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/03/27/creating-a-timestamp-interceptor-in-nhibernate.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/03/27/creating-a-timestamp-interceptor-in-nhibernate.aspx
 categories:
   - Uncategorized
 ---

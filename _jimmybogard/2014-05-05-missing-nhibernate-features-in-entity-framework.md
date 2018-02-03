@@ -1,10 +1,10 @@
 ---
-id: 902
+wordpress_id: 902
 title: Missing NHibernate features in Entity Framework
 date: 2014-05-05T18:18:17+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=902
+wordpress_guid: http://lostechies.com/jimmybogard/?p=902
 dsq_thread_id:
   - "2662959248"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3956
+wordpress_id: 3956
 title: How to resolve a binary file conflict with Git
 date: 2010-01-29T03:47:35+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/01/28/how-to-resolve-a-binary-file-conflict-with-git.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/01/28/how-to-resolve-a-binary-file-conflict-with-git.aspx
 dsq_thread_id:
   - "262113201"
 categories:

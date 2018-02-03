@@ -1,10 +1,10 @@
 ---
-id: 55
+wordpress_id: 55
 title: Bootstrapping Your Application From IronRuby
 date: 2011-04-07T17:55:51+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/2011/04/07/bootstrapping-your-application-from-ironruby/
+wordpress_guid: http://lostechies.com/johnteague/2011/04/07/bootstrapping-your-application-from-ironruby/
 dsq_thread_id:
   - "273770967"
 categories:

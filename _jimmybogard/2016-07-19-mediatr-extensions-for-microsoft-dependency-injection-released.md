@@ -1,10 +1,10 @@
 ---
-id: 1223
+wordpress_id: 1223
 title: MediatR Extensions for Microsoft Dependency Injection Released
 date: 2016-07-19T19:07:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1223
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1223
 dsq_thread_id:
   - "4998242058"
 categories:

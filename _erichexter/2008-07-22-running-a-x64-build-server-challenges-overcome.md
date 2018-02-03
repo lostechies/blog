@@ -1,10 +1,10 @@
 ---
-id: 2953
+wordpress_id: 2953
 title: Running a x64 build server. Challenges overcome.
 date: 2008-07-22T13:02:10+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/07/22/running-a-x64-build-server-challenges-overcome.aspx
+wordpress_guid: /blogs/hex/archive/2008/07/22/running-a-x64-build-server-challenges-overcome.aspx
 dsq_thread_id:
   - "274865873"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: Fluent Silverlight – Part 1
 date: 2009-05-31T21:47:01+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/06/01/fluent-silverlight-part-1.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/06/01/fluent-silverlight-part-1.aspx
 dsq_thread_id:
   - "264368714"
 categories:

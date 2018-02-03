@@ -1,10 +1,10 @@
 ---
-id: 1187
+wordpress_id: 1187
 title: 'Semantics, Modules And Testing: Why (And How) I Test Internal Components, Not Private Methods'
 date: 2014-01-03T12:36:41+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1187
+wordpress_guid: http://lostechies.com/derickbailey/?p=1187
 dsq_thread_id:
   - "2089987239"
 categories:

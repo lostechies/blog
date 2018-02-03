@@ -1,10 +1,10 @@
 ---
-id: 4208
+wordpress_id: 4208
 title: posh-git Release v0.1
 date: 2010-03-27T21:39:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/03/27/posh-git-release-v0-1.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/03/27/posh-git-release-v0-1.aspx
 dsq_thread_id:
   - "262493347"
 categories:

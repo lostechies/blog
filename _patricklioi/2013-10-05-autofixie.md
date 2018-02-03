@@ -1,10 +1,10 @@
 ---
-id: 97
+wordpress_id: 97
 title: AutoFixie
 date: 2013-10-05T22:17:44+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=97
+wordpress_guid: http://lostechies.com/patricklioi/?p=97
 dsq_thread_id:
   - "1828152091"
 categories:

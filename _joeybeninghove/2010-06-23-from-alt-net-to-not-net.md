@@ -1,10 +1,10 @@
 ---
-id: 73
+wordpress_id: 73
 title: From ALT.NET to NOT.NET
 date: 2010-06-23T15:44:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2010/06/23/from-alt-net-to-not-net.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2010/06/23/from-alt-net-to-not-net.aspx
 categories:
   - ALT.NET
   - Community

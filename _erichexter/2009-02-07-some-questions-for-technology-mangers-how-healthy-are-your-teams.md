@@ -1,10 +1,10 @@
 ---
-id: 2959
+wordpress_id: 2959
 title: Some questions for technology managers…. How healthy are your teams?
 date: 2009-02-07T16:42:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/02/07/some-questions-for-technology-mangers-how-healthy-are-your-teams.aspx
+wordpress_guid: /blogs/hex/archive/2009/02/07/some-questions-for-technology-mangers-how-healthy-are-your-teams.aspx
 dsq_thread_id:
   - "269927660"
 categories:

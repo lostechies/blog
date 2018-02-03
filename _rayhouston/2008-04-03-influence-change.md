@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: Influence Change
 date: 2008-04-03T21:32:05+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/04/03/influence-change.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/04/03/influence-change.aspx
 categories:
   - Uncategorized
 ---

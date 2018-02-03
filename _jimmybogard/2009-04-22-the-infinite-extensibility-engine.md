@@ -1,10 +1,10 @@
 ---
-id: 307
+wordpress_id: 307
 title: The Infinite Extensibility Engine
 date: 2009-04-22T02:01:41+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/04/21/the-infinite-extensibility-engine.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/04/21/the-infinite-extensibility-engine.aspx
 dsq_thread_id:
   - "265769949"
 categories:

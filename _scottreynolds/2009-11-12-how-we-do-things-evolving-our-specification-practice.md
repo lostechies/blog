@@ -1,10 +1,10 @@
 ---
-id: 4058
+wordpress_id: 4058
 title: 'How We Do Things &#8211; Evolving our Specification Practice'
 date: 2009-11-12T21:59:14+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/11/12/how-we-do-things-evolving-our-specification-practice.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/11/12/how-we-do-things-evolving-our-specification-practice.aspx
 categories:
   - how we do it
   - improvement

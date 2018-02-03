@@ -1,10 +1,10 @@
 ---
-id: 226
+wordpress_id: 226
 title: Lambda+ or Event Sourcing with TTLs
 date: 2015-09-17T13:00:02+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=226
+wordpress_guid: https://lostechies.com/ryansvihla/?p=226
 dsq_thread_id:
   - "4139086351"
 categories:

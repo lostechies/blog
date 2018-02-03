@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: Disable annoying computer beep
 date: 2007-06-23T05:10:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/06/23/disable-annoying-computer-beep.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/06/23/disable-annoying-computer-beep.aspx
 dsq_thread_id:
   - "267357045"
 categories:

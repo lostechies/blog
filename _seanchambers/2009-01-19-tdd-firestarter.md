@@ -1,10 +1,10 @@
 ---
-id: 3189
+wordpress_id: 3189
 title: TDD Firestarter
 date: 2009-01-19T02:26:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/01/18/tdd-firestarter.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/01/18/tdd-firestarter.aspx
 dsq_thread_id:
   - "268123868"
 categories:

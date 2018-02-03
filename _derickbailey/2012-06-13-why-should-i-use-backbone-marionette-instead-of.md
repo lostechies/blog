@@ -1,10 +1,10 @@
 ---
-id: 948
+wordpress_id: 948
 title: Why Should I Use Backbone.Marionette Instead Of … ?
 date: 2012-06-13T08:22:10+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=948
+wordpress_guid: http://lostechies.com/derickbailey/?p=948
 dsq_thread_id:
   - "724324343"
 categories:

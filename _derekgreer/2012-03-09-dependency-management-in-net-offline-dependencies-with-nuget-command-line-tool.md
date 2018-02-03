@@ -1,10 +1,10 @@
 ---
-id: 696
+wordpress_id: 696
 title: 'Dependency Management in .Net: Offline Dependencies with NuGet Command Line Tool'
 date: 2012-03-09T17:13:59+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=696
+wordpress_guid: http://lostechies.com/derekgreer/?p=696
 dsq_thread_id:
   - "605182120"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 198
+wordpress_id: 198
 title: My OSX Terminal Prompt (Reposted from Tumblr)
 date: 2010-11-24T20:22:50+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/11/24/my-osx-terminal-prompt-reposted-from-tumblr.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/11/24/my-osx-terminal-prompt-reposted-from-tumblr.aspx
 dsq_thread_id:
   - "263109745"
 categories:

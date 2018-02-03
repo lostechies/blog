@@ -1,10 +1,10 @@
 ---
-id: 78
+wordpress_id: 78
 title: A Swiss Army Katana
 date: 2013-09-27T03:28:47+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=78
+wordpress_guid: http://lostechies.com/patricklioi/?p=78
 dsq_thread_id:
   - "1800882373"
 categories:

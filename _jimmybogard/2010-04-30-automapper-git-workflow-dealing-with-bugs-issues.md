@@ -1,10 +1,10 @@
 ---
-id: 403
+wordpress_id: 403
 title: AutoMapper Git workflow – dealing with bugs/issues
 date: 2010-04-30T12:41:27+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/04/30/automapper-git-workflow-dealing-with-bugs-issues.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/04/30/automapper-git-workflow-dealing-with-bugs-issues.aspx
 dsq_thread_id:
   - "264716479"
 categories:

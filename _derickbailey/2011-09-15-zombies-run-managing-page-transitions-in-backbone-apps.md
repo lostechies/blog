@@ -1,10 +1,10 @@
 ---
-id: 548
+wordpress_id: 548
 title: Zombies! RUN! (Managing Page Transitions In Backbone Apps)
 date: 2011-09-15T09:55:09+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=548
+wordpress_guid: http://lostechies.com/derickbailey/?p=548
 dsq_thread_id:
   - "415528908"
 categories:

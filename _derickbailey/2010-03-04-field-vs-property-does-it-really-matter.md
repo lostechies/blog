@@ -1,10 +1,10 @@
 ---
-id: 107
+wordpress_id: 107
 title: 'Field Vs. Property: Does It Really Matter?'
 date: 2010-03-04T20:27:47+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/04/field-vs-property-does-it-really-matter.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/04/field-vs-property-does-it-really-matter.aspx
 dsq_thread_id:
   - "262068445"
 categories:

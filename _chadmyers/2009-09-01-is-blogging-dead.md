@@ -1,10 +1,10 @@
 ---
-id: 152
+wordpress_id: 152
 title: Is Blogging Dead?
 date: 2009-09-01T01:54:49+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/08/31/is-blogging-dead.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/08/31/is-blogging-dead.aspx
 dsq_thread_id:
   - "263540299"
 categories:

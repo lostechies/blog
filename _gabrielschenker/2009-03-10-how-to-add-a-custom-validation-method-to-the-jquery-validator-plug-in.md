@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: How-To add a custom validation method to the jQuery validator plug-in
 date: 2009-03-10T06:53:35+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/03/10/how-to-add-a-custom-validation-method-to-the-jquery-validator-plug-in.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/03/10/how-to-add-a-custom-validation-method-to-the-jquery-validator-plug-in.aspx
 dsq_thread_id:
   - "264788330"
 dsq_needs_sync:

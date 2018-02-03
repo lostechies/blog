@@ -1,10 +1,10 @@
 ---
-id: 158
+wordpress_id: 158
 title: FubuMVC has moved to GitHub
 date: 2010-01-14T16:10:49+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/01/14/fubumvc-has-moved-to-github.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/01/14/fubumvc-has-moved-to-github.aspx
 dsq_thread_id:
   - "1082487269"
 categories:

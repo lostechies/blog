@@ -1,10 +1,10 @@
 ---
-id: 1147
+wordpress_id: 1147
 title: Entity Framework extensions for AutoMapper
 date: 2015-07-08T14:12:31+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1147
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1147
 dsq_thread_id:
   - "3915601873"
 categories:

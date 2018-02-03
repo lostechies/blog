@@ -1,10 +1,10 @@
 ---
-id: 137
+wordpress_id: 137
 title: Virtual ALT.NET Meeting Tonight
 date: 2009-04-01T14:18:32+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/04/01/virtual-alt-net-meeting-tonight.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/04/01/virtual-alt-net-meeting-tonight.aspx
 dsq_thread_id:
   - "300665442"
 categories:

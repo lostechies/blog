@@ -1,10 +1,10 @@
 ---
-id: 4652
+wordpress_id: 4652
 title: E-VAN Blog and Videos
 date: 2009-07-11T21:13:46+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/07/11/e-van-blog-and-videos.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/07/11/e-van-blog-and-videos.aspx
 categories:
   - E-VAN
   - REST

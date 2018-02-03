@@ -1,10 +1,10 @@
 ---
-id: 430
+wordpress_id: 430
 title: Database indexes are your friend
 date: 2010-08-27T02:47:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/08/26/database-indexes-are-your-friend.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/08/26/database-indexes-are-your-friend.aspx
 dsq_thread_id:
   - "265688334"
 categories:

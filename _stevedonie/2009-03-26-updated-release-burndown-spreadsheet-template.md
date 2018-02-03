@@ -1,10 +1,10 @@
 ---
-id: 4769
+wordpress_id: 4769
 title: Updated Release Burndown Spreadsheet Template
 date: 2009-03-26T22:20:00+00:00
 author: Steve Donie
 layout: post
-guid: /blogs/stevedonie/archive/2009/03/26/updated-release-burndown-spreadsheet-template.aspx
+wordpress_guid: /blogs/stevedonie/archive/2009/03/26/updated-release-burndown-spreadsheet-template.aspx
 dsq_thread_id:
   - "262124062"
 categories:

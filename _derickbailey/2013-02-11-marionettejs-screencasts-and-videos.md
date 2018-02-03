@@ -1,10 +1,10 @@
 ---
-id: 1050
+wordpress_id: 1050
 title: MarionetteJS Screencasts And Videos
 date: 2013-02-11T09:21:49+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1050
+wordpress_guid: http://lostechies.com/derickbailey/?p=1050
 dsq_thread_id:
   - "1077155705"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 358
+wordpress_id: 358
 title: Thanks Arkansas!
 date: 2009-10-16T02:01:17+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/10/15/thanks-arkansas.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/10/15/thanks-arkansas.aspx
 dsq_thread_id:
   - "264716335"
 categories:

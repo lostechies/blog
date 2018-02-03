@@ -1,10 +1,10 @@
 ---
-id: 278
+wordpress_id: 278
 title: Writing A Thor Application
 date: 2011-04-29T06:19:05+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=278
+wordpress_guid: http://lostechies.com/derickbailey/?p=278
 dsq_thread_id:
   - "291267870"
 categories:

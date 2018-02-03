@@ -1,10 +1,10 @@
 ---
-id: 26
+wordpress_id: 26
 title: My soap box… no, really…
 date: 2008-12-19T15:23:08+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/12/19/my-soap-box-no-really.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/12/19/my-soap-box-no-really.aspx
 dsq_thread_id:
   - "262068009"
 categories:

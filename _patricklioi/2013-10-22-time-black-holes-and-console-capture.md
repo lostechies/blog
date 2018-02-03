@@ -1,10 +1,10 @@
 ---
-id: 124
+wordpress_id: 124
 title: Time, Black Holes, and Console Capture
 date: 2013-10-22T22:20:10+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=124
+wordpress_guid: http://lostechies.com/patricklioi/?p=124
 dsq_thread_id:
   - "1888434798"
 categories:

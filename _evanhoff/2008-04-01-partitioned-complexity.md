@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: Partitioned Complexity
 date: 2008-04-01T23:38:34+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/04/01/partitioned-complexity.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/04/01/partitioned-complexity.aspx
 categories:
   - Uncategorized
 ---

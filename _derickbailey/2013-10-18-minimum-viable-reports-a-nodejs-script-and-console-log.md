@@ -1,10 +1,10 @@
 ---
-id: 1167
+wordpress_id: 1167
 title: 'Minimum Viable Reports: A NodeJS Script And console.log'
 date: 2013-10-18T19:35:13+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1167
+wordpress_guid: http://lostechies.com/derickbailey/?p=1167
 dsq_thread_id:
   - "1873791897"
 categories:

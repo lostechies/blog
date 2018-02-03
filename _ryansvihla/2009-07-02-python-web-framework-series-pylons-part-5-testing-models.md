@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: 'Python Web Framework Series – Pylons: Part 5 Testing Models'
 date: 2009-07-02T20:09:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/07/02/python-web-framework-series-pylons-part-5-testing-models.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/07/02/python-web-framework-series-pylons-part-5-testing-models.aspx
 dsq_thread_id:
   - "425624229"
 categories:

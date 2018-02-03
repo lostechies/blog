@@ -1,10 +1,10 @@
 ---
-id: 12
+wordpress_id: 12
 title: Python Web Framework Series
 date: 2009-06-22T13:31:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/06/22/python-web-framework-series.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/06/22/python-web-framework-series.aspx
 dsq_thread_id:
   - "1370582316"
 categories:

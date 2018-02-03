@@ -1,10 +1,10 @@
 ---
-id: 161
+wordpress_id: 161
 title: Composition versus Inheritance
 date: 2010-02-13T01:23:04+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/02/12/composition-versus-inheritance.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/02/12/composition-versus-inheritance.aspx
 dsq_thread_id:
   - "262114522"
 categories:

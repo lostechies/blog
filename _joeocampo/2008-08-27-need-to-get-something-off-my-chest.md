@@ -1,10 +1,10 @@
 ---
-id: 118
+wordpress_id: 118
 title: Need to get something off my chest
 date: 2008-08-27T02:56:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/08/26/need-to-get-something-off-my-chest.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/08/26/need-to-get-something-off-my-chest.aspx
 dsq_thread_id:
   - "262089487"
 categories:

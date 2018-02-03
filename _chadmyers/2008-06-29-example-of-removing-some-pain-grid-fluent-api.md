@@ -1,10 +1,10 @@
 ---
-id: 66
+wordpress_id: 66
 title: 'Example of Removing Some Pain: Grid Fluent API'
 date: 2008-06-29T03:37:31+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/28/example-of-removing-some-pain-grid-fluent-api.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/28/example-of-removing-some-pain-grid-fluent-api.aspx
 dsq_thread_id:
   - "262113968"
 categories:

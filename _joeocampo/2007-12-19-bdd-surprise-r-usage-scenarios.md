@@ -1,10 +1,10 @@
 ---
-id: 92
+wordpress_id: 92
 title: 'BDD Surprise: R# Usage Scenarios'
 date: 2007-12-19T07:25:58+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/12/19/bdd-surprise-r-usage-scenarios.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/12/19/bdd-surprise-r-usage-scenarios.aspx
 dsq_thread_id:
   - "262090946"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 234
+wordpress_id: 234
 title: JavaScript block scoping
 date: 2008-09-26T16:03:03+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/09/26/javascript-block-scoping.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/09/26/javascript-block-scoping.aspx
 dsq_thread_id:
   - "264715927"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 207
+wordpress_id: 207
 title: 'I Use Inheritance And I&#8217;m Not Entirely Ashamed Of It. Should I Be?'
 date: 2011-01-18T17:22:50+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/01/18/i-use-inheritance-and-i-m-not-entirely-ashamed-of-it-should-i-be.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/01/18/i-use-inheritance-and-i-m-not-entirely-ashamed-of-it-should-i-be.aspx
 dsq_thread_id:
   - "264081770"
 categories:

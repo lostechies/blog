@@ -1,10 +1,10 @@
 ---
-id: 191
+wordpress_id: 191
 title: Parsing A Hash Tree (Or Object Graph) Using The Maybe Monad In Ruby
 date: 2010-10-11T04:06:45+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/10/11/parsing-a-hash-tree-or-object-graph-using-the-maybe-monad-in-ruby.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/10/11/parsing-a-hash-tree-or-object-graph-using-the-maybe-monad-in-ruby.aspx
 dsq_thread_id:
   - "265217740"
 categories:

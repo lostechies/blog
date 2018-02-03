@@ -1,10 +1,10 @@
 ---
-id: 2996
+wordpress_id: 2996
 title: ASP.Net MVC Portable Areas via MvcContrib
 date: 2009-11-01T18:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/11/01/asp-net-mvc-portable-areas-via-mvccontrib.aspx
+wordpress_guid: /blogs/hex/archive/2009/11/01/asp-net-mvc-portable-areas-via-mvccontrib.aspx
 dsq_thread_id:
   - "262051113"
 categories:

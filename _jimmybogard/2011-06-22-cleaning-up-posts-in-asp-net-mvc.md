@@ -1,10 +1,10 @@
 ---
-id: 498
+wordpress_id: 498
 title: Cleaning up POSTs in ASP.NET MVC
 date: 2011-06-22T18:43:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/06/22/cleaning-up-posts-in-asp-net-mvc/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/06/22/cleaning-up-posts-in-asp-net-mvc/
 dsq_thread_id:
   - "339494740"
 categories:

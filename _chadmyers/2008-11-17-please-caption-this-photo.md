@@ -1,10 +1,10 @@
 ---
-id: 110
+wordpress_id: 110
 title: Please caption this photo
 date: 2008-11-17T03:45:53+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/11/16/please-caption-this-photo.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/11/16/please-caption-this-photo.aspx
 dsq_thread_id:
   - "262114150"
 categories:

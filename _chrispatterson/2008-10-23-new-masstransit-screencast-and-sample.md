@@ -1,10 +1,10 @@
 ---
-id: 3601
+wordpress_id: 3601
 title: New MassTransit Screencast and Sample
 date: 2008-10-23T04:38:02+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/10/23/new-masstransit-screencast-and-sample.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/10/23/new-masstransit-screencast-and-sample.aspx
 dsq_thread_id:
   - "265214436"
 categories:

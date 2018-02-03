@@ -1,10 +1,10 @@
 ---
-id: 3572
+wordpress_id: 3572
 title: User Story Writing
 date: 2007-11-27T05:03:37+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/11/27/user-story-writing.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/11/27/user-story-writing.aspx
 dsq_thread_id:
   - "262089158"
 categories:

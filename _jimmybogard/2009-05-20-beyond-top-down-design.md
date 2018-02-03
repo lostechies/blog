@@ -1,10 +1,10 @@
 ---
-id: 315
+wordpress_id: 315
 title: Beyond top-down design
 date: 2009-05-20T01:35:41+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/05/19/beyond-top-down-design.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/05/19/beyond-top-down-design.aspx
 dsq_thread_id:
   - "265233431"
 categories:

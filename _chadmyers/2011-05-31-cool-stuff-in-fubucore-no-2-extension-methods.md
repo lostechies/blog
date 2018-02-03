@@ -1,10 +1,10 @@
 ---
-id: 189
+wordpress_id: 189
 title: 'Cool stuff in FubuCore No. 2: Extension Methods'
 date: 2011-05-31T14:35:16+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=189
+wordpress_guid: http://lostechies.com/chadmyers/?p=189
 dsq_thread_id:
   - "318801126"
 categories:

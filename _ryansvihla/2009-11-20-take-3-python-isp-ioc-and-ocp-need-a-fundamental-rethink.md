@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: 'Take 3: Python, ISP, IoC, and OCP need a fundamental rethink.'
 date: 2009-11-20T19:23:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/11/20/take-3-python-isp-ioc-and-ocp-need-a-fundamental-rethink.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/11/20/take-3-python-isp-ioc-and-ocp-need-a-fundamental-rethink.aspx
 dsq_thread_id:
   - "425624375"
 categories:

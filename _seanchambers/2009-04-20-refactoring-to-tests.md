@@ -1,10 +1,10 @@
 ---
-id: 3191
+wordpress_id: 3191
 title: Refactoring to Tests
 date: 2009-04-20T14:55:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/04/20/refactoring-to-tests.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/04/20/refactoring-to-tests.aspx
 dsq_thread_id:
   - "337309931"
 categories:

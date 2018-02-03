@@ -1,10 +1,10 @@
 ---
-id: 4610
+wordpress_id: 4610
 title: 'Orlando .NET User Group Talk &#8211; 12 Practices to be a Better Developer'
 date: 2009-09-24T03:08:52+00:00
 author: Scott Densmore
 layout: post
-guid: /blogs/scottdensmore/archive/2009/09/24/orlando-net-user-group-talk-12-practices-to-be-a-better-developer.aspx
+wordpress_guid: /blogs/scottdensmore/archive/2009/09/24/orlando-net-user-group-talk-12-practices-to-be-a-better-developer.aspx
 dsq_thread_id:
   - "270985752"
 categories:

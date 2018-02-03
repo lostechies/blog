@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: Adventures In Lean
 date: 2008-11-19T16:30:07+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/11/19/adventures-in-lean.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/11/19/adventures-in-lean.aspx
 dsq_thread_id:
   - "262067930"
 categories:

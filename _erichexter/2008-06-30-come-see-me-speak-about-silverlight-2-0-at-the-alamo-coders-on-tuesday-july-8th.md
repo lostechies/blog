@@ -1,10 +1,10 @@
 ---
-id: 2951
+wordpress_id: 2951
 title: 'Come see me speak about Silverlight 2.0 at the Alamo Coders on Tuesday July  8th'
 date: 2008-06-30T00:26:26+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/06/29/come-see-me-speak-about-silverlight-2-0-at-the-alamo-coders-on-tuesday-july-8th.aspx
+wordpress_guid: /blogs/hex/archive/2008/06/29/come-see-me-speak-about-silverlight-2-0-at-the-alamo-coders-on-tuesday-july-8th.aspx
 dsq_thread_id:
   - "297750323"
 categories:

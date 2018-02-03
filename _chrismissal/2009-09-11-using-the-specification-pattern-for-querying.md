@@ -1,10 +1,10 @@
 ---
-id: 3366
+wordpress_id: 3366
 title: Using the Specification Pattern for Querying
 date: 2009-09-11T01:58:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/09/10/using-the-specification-pattern-for-querying.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/09/10/using-the-specification-pattern-for-querying.aspx
 dsq_thread_id:
   - "262122441"
 categories:

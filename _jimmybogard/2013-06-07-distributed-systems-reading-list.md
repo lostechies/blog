@@ -1,10 +1,10 @@
 ---
-id: 790
+wordpress_id: 790
 title: Distributed systems reading list
 date: 2013-06-07T15:01:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=790
+wordpress_guid: http://lostechies.com/jimmybogard/?p=790
 dsq_thread_id:
   - "1375036850"
 categories:

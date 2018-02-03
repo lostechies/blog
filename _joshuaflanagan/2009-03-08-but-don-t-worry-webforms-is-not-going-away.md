@@ -1,10 +1,10 @@
 ---
-id: 3943
+wordpress_id: 3943
 title: But don’t worry, WebForms is not going away…
 date: 2009-03-08T22:23:40+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/03/08/but-don-t-worry-webforms-is-not-going-away.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/03/08/but-don-t-worry-webforms-is-not-going-away.aspx
 dsq_thread_id:
   - "298632718"
 categories:

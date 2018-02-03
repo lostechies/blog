@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: Database Normalization Is for Sissies
 date: 2007-10-24T22:31:32+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/24/database-normalization-is-for-sissies.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/24/database-normalization-is-for-sissies.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: Introducing NLP
 date: 2009-03-02T20:19:41+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2009/03/02/introducing-nlp.aspx
+wordpress_guid: /blogs/mokhan/archive/2009/03/02/introducing-nlp.aspx
 categories:
   - Books
 ---

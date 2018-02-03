@@ -1,10 +1,10 @@
 ---
-id: 93
+wordpress_id: 93
 title: Los Techies at CodeMash 2.0.1.2
 date: 2011-10-24T08:00:33+00:00
 author: Keith Dahlby
 layout: post
-guid: http://lostechies.com/keithdahlby/?p=93
+wordpress_guid: http://lostechies.com/keithdahlby/?p=93
 dsq_thread_id:
   - "451935849"
 categories:

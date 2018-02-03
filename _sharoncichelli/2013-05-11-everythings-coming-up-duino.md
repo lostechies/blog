@@ -1,10 +1,10 @@
 ---
-id: 197
+wordpress_id: 197
 title: 'Everything&#8217;s Coming Up &#8216;Duino'
 date: 2013-05-11T13:44:23+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=197
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=197
 dsq_thread_id:
   - "1281050984"
 categories:

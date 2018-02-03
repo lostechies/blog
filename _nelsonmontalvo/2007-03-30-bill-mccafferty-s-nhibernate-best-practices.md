@@ -1,10 +1,10 @@
 ---
-id: 4737
+wordpress_id: 4737
 title: 'Bill McCafferty&#8217;s NHibernate Best Practices'
 date: 2007-03-30T16:46:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/03/30/bill-mccafferty-s-nhibernate-best-practices.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/bill-mccafferty-s-nhibernate-best-practices.aspx
 categories:
   - NHibernate
 ---

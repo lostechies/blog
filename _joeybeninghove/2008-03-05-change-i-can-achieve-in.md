@@ -1,10 +1,10 @@
 ---
-id: 61
+wordpress_id: 61
 title: Change I can achieve in
 date: 2008-03-05T02:21:10+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2008/03/04/change-i-can-achieve-in.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2008/03/04/change-i-can-achieve-in.aspx
 categories:
   - Personal
   - Tools

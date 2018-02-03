@@ -1,10 +1,10 @@
 ---
-id: 3133
+wordpress_id: 3133
 title: 'Microsoft&#8217;s fancy footwork'
 date: 2007-09-22T22:25:43+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/09/22/microsoft-s-fancy-footwork.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/09/22/microsoft-s-fancy-footwork.aspx
 dsq_thread_id:
   - "268123661"
 categories:

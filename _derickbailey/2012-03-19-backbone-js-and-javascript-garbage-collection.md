@@ -1,10 +1,10 @@
 ---
-id: 853
+wordpress_id: 853
 title: Backbone.js And JavaScript Garbage Collection
 date: 2012-03-19T07:10:39+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=853
+wordpress_guid: http://lostechies.com/derickbailey/?p=853
 dsq_thread_id:
   - "616550290"
 categories:

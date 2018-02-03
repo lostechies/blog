@@ -1,10 +1,10 @@
 ---
-id: 1608
+wordpress_id: 1608
 title: Troubleshooting Containers
 date: 2016-08-11T19:17:33+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1608
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1608
 dsq_thread_id:
   - "5059296120"
 categories:

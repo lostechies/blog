@@ -1,10 +1,10 @@
 ---
-id: 809
+wordpress_id: 809
 title: 'Rewriting My &#8216;Guaranteed Callbacks&#8217; Code With jQuery Deferred'
 date: 2012-02-07T10:11:33+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=809
+wordpress_guid: http://lostechies.com/derickbailey/?p=809
 dsq_thread_id:
   - "567735253"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1136
+wordpress_id: 1136
 title: 'End-to-end Hypermedia: Building a React Client'
 date: 2015-07-01T16:06:51+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1136
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1136
 dsq_thread_id:
   - "3895496800"
 categories:

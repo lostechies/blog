@@ -1,10 +1,10 @@
 ---
-id: 78
+wordpress_id: 78
 title: Dialing up quality
 date: 2007-10-12T20:30:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/12/dialing-up-quality.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/12/dialing-up-quality.aspx
 dsq_thread_id:
   - "1232433748"
 categories:

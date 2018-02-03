@@ -1,10 +1,10 @@
 ---
-id: 237
+wordpress_id: 237
 title: Three simple Rhino Mocks rules
 date: 2008-10-06T02:13:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/05/three-simple-rhino-mocks-rules.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/05/three-simple-rhino-mocks-rules.aspx
 dsq_thread_id:
   - "264800718"
 categories:

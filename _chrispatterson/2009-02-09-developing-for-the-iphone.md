@@ -1,10 +1,10 @@
 ---
-id: 3609
+wordpress_id: 3609
 title: Developing for the iPhone
 date: 2009-02-09T00:01:05+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/02/08/developing-for-the-iphone.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/02/08/developing-for-the-iphone.aspx
 dsq_thread_id:
   - "262089312"
 categories:

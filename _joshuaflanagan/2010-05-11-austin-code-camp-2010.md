@@ -1,10 +1,10 @@
 ---
-id: 3960
+wordpress_id: 3960
 title: Austin Code Camp 2010
 date: 2010-05-11T18:09:36+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/05/11/austin-code-camp-2010.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/05/11/austin-code-camp-2010.aspx
 dsq_thread_id:
   - "297361947"
 categories:

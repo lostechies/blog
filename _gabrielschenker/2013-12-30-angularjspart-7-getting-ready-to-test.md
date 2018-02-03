@@ -1,10 +1,10 @@
 ---
-id: 464
+wordpress_id: 464
 title: AngularJS–Part 7, Getting ready to test
 date: 2013-12-30T00:00:49+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=464
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=464
 dsq_thread_id:
   - "2081100642"
 categories:

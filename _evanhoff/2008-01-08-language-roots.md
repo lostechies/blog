@@ -1,10 +1,10 @@
 ---
-id: 4320
+wordpress_id: 4320
 title: Language Roots
 date: 2008-01-08T04:54:51+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/01/07/language-roots.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/01/07/language-roots.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 1243
+wordpress_id: 1243
 title: 'Killing Switch Statements With A Registry: An Example And Screencast'
 date: 2014-01-28T07:45:34+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1243
+wordpress_guid: http://lostechies.com/derickbailey/?p=1243
 dsq_thread_id:
   - "2182359238"
 categories:

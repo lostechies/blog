@@ -1,10 +1,10 @@
 ---
-id: 123
+wordpress_id: 123
 title: 'Cassandra: Batch loading without the Batch keyword'
 date: 2014-08-28T13:10:55+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=123
+wordpress_guid: http://lostechies.com/ryansvihla/?p=123
 dsq_thread_id:
   - "2967471614"
 categories:

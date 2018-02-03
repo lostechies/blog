@@ -1,10 +1,10 @@
 ---
-id: 649
+wordpress_id: 649
 title: Don’t write your own ORM
 date: 2012-07-24T12:49:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/07/24/dont-write-your-own-orm/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/07/24/dont-write-your-own-orm/
 dsq_thread_id:
   - "778082118"
 categories:

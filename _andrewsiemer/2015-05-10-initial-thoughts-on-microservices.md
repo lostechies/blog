@@ -1,10 +1,10 @@
 ---
-id: 41
+wordpress_id: 41
 title: Initial Thoughts on Microservices
 date: 2015-05-10T00:06:54+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=41
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=41
 dsq_thread_id:
   - "3758464786"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 444
+wordpress_id: 444
 title: Most boring debates ever
 date: 2010-12-17T02:11:12+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/12/16/most-boring-debates-ever.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/12/16/most-boring-debates-ever.aspx
 dsq_thread_id:
   - "264716622"
 categories:

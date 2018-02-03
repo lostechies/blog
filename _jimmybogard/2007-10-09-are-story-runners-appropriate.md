@@ -1,10 +1,10 @@
 ---
-id: 75
+wordpress_id: 75
 title: Are Story Runners appropriate?
 date: 2007-10-09T13:30:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/09/are-story-runners-appropriate.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/09/are-story-runners-appropriate.aspx
 dsq_thread_id:
   - "279553072"
 categories:

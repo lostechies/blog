@@ -1,10 +1,10 @@
 ---
-id: 48
+wordpress_id: 48
 title: Continuous Integration book now out
 date: 2007-08-01T19:45:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/01/continuous-integration-book-now-out.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/01/continuous-integration-book-now-out.aspx
 dsq_thread_id:
   - "351114578"
 categories:

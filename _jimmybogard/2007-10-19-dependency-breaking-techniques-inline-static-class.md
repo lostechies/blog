@@ -1,10 +1,10 @@
 ---
-id: 85
+wordpress_id: 85
 title: 'Dependency Breaking Techniques: Inline Static Class'
 date: 2007-10-19T21:50:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/19/dependency-breaking-techniques-inline-static-class.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/19/dependency-breaking-techniques-inline-static-class.aspx
 dsq_thread_id:
   - "273845742"
 categories:

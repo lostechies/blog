@@ -1,10 +1,10 @@
 ---
-id: 92
+wordpress_id: 92
 title: 'Request for Help: Need better guidance for beginners'
 date: 2008-09-28T15:15:38+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/09/28/request-for-help-need-better-guidance-for-beginners.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/09/28/request-for-help-need-better-guidance-for-beginners.aspx
 dsq_thread_id:
   - "262114089"
 categories:

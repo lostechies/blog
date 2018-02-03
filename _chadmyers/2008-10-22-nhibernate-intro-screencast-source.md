@@ -1,10 +1,10 @@
 ---
-id: 96
+wordpress_id: 96
 title: NHibernate Intro Screencast Source
 date: 2008-10-22T04:33:59+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/22/nhibernate-intro-screencast-source.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/22/nhibernate-intro-screencast-source.aspx
 dsq_thread_id:
   - "1089708345"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4218
+wordpress_id: 4218
 title: Code Review with Git Patches and Outlook via PowerShell
 date: 2010-12-06T02:31:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/12/05/code-review-with-git-patches-and-outlook-via-powershell.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/12/05/code-review-with-git-patches-and-outlook-via-powershell.aspx
 dsq_thread_id:
   - "263678146"
 categories:

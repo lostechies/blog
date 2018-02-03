@@ -1,10 +1,10 @@
 ---
-id: 26
+wordpress_id: 26
 title: Learning TDD
 date: 2008-09-24T01:22:19+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/09/23/learning-tdd.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/09/23/learning-tdd.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 1338
+wordpress_id: 1338
 title: Leaving LosTechies
 date: 2014-04-01T05:00:47+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1338
+wordpress_guid: http://lostechies.com/derickbailey/?p=1338
 dsq_thread_id:
   - "2572743812"
 categories:

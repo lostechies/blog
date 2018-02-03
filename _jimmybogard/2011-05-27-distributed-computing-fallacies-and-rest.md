@@ -1,10 +1,10 @@
 ---
-id: 494
+wordpress_id: 494
 title: Distributed computing fallacies and REST
 date: 2011-05-27T13:34:59+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/05/27/distributed-computing-fallacies-and-rest/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/05/27/distributed-computing-fallacies-and-rest/
 dsq_thread_id:
   - "315283800"
 categories:

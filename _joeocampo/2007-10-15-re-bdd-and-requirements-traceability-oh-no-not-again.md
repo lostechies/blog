@@ -1,10 +1,10 @@
 ---
-id: 76
+wordpress_id: 76
 title: 'RE: BDD and Requirements Traceability &#8211; Oh No, Not Again'
 date: 2007-10-15T04:02:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/15/re-bdd-and-requirements-traceability-oh-no-not-again.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/15/re-bdd-and-requirements-traceability-oh-no-not-again.aspx
 dsq_thread_id:
   - "262089722"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 58
+wordpress_id: 58
 title: 'ActiveSupport.NET &#8211; Update'
 date: 2008-02-08T17:59:17+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2008/02/08/activesupport-net-update.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2008/02/08/activesupport-net-update.aspx
 categories:
   - activesupport.net
   - 'C#'

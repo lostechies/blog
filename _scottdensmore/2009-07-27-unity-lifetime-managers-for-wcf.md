@@ -1,10 +1,10 @@
 ---
-id: 4608
+wordpress_id: 4608
 title: Unity Lifetime Managers for WCF
 date: 2009-07-27T23:01:00+00:00
 author: Scott Densmore
 layout: post
-guid: /blogs/scottdensmore/archive/2009/07/27/unity-lifetime-managers-for-wcf.aspx
+wordpress_guid: /blogs/scottdensmore/archive/2009/07/27/unity-lifetime-managers-for-wcf.aspx
 dsq_thread_id:
   - "276216519"
 categories:

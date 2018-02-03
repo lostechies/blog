@@ -1,10 +1,10 @@
 ---
-id: 154
+wordpress_id: 154
 title: The many faces of ExpectedException
 date: 2008-03-11T02:25:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/10/the-many-faces-of-expectedexception.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/10/the-many-faces-of-expectedexception.aspx
 dsq_thread_id:
   - "264715596"
 categories:

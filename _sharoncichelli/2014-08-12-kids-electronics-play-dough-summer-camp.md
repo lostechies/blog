@@ -1,10 +1,10 @@
 ---
-id: 313
+wordpress_id: 313
 title: Kids, electronics, play dough, summer camp!
 date: 2014-08-12T12:00:40+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=313
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=313
 dsq_thread_id:
   - "2921340138"
 categories:

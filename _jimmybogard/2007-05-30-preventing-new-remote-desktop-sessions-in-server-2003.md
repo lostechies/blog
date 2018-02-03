@@ -1,10 +1,10 @@
 ---
-id: 27
+wordpress_id: 27
 title: Preventing new Remote Desktop sessions in Server 2003
 date: 2007-05-30T17:34:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/30/preventing-new-remote-desktop-sessions-in-server-2003.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/30/preventing-new-remote-desktop-sessions-in-server-2003.aspx
 dsq_thread_id:
   - "264715364"
 categories:

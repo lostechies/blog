@@ -1,10 +1,10 @@
 ---
-id: 271
+wordpress_id: 271
 title: 'The Whenever Gem: Making Cron Easy'
 date: 2011-04-27T12:42:31+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=271
+wordpress_guid: http://lostechies.com/derickbailey/?p=271
 dsq_thread_id:
   - "289889628"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 496
+wordpress_id: 496
 title: AngularJS–Part 8, More choice when testing
 date: 2013-12-30T23:26:46+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=496
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=496
 dsq_thread_id:
   - "2083062997"
 categories:

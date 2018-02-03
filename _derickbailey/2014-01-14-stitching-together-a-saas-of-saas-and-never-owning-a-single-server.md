@@ -1,10 +1,10 @@
 ---
-id: 1197
+wordpress_id: 1197
 title: Stitching Together A Saas Of SaaS (And Never Owning A Single Server)
 date: 2014-01-14T07:19:23+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1197
+wordpress_guid: http://lostechies.com/derickbailey/?p=1197
 dsq_thread_id:
   - "2117440519"
 categories:

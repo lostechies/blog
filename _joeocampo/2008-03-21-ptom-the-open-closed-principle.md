@@ -1,10 +1,10 @@
 ---
-id: 108
+wordpress_id: 108
 title: 'PTOM: The Open Closed Principle'
 date: 2008-03-21T23:47:50+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/03/21/ptom-the-open-closed-principle.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/03/21/ptom-the-open-closed-principle.aspx
 dsq_thread_id:
   - "262088470"
 categories:

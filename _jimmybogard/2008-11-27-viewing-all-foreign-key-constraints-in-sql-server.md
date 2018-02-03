@@ -1,10 +1,10 @@
 ---
-id: 258
+wordpress_id: 258
 title: Viewing all foreign key constraints in SQL Server
 date: 2008-11-27T03:03:31+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/26/viewing-all-foreign-key-constraints-in-sql-server.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/26/viewing-all-foreign-key-constraints-in-sql-server.aspx
 dsq_thread_id:
   - "264790082"
 categories:

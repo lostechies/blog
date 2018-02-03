@@ -1,10 +1,10 @@
 ---
-id: 114
+wordpress_id: 114
 title: A Type Safe IDataReader Wrapper
 date: 2010-03-15T20:43:19+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/15/a-type-safe-idatareader-wrapper.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/15/a-type-safe-idatareader-wrapper.aspx
 dsq_thread_id:
   - "262068497"
 categories:

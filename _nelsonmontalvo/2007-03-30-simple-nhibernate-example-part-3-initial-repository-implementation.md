@@ -1,10 +1,10 @@
 ---
-id: 4735
+wordpress_id: 4735
 title: 'Simple NHibernate Example, Part 3: Initial Repository Implementation'
 date: 2007-03-30T16:36:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/03/30/simple-nhibernate-example-part-3-initial-repository-implementation.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/simple-nhibernate-example-part-3-initial-repository-implementation.aspx
 categories:
   - NHibernate
 ---

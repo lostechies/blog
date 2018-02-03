@@ -1,10 +1,10 @@
 ---
-id: 221
+wordpress_id: 221
 title: 'Huboard &#8211; socket.io backend'
 date: 2013-03-18T16:27:29+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=221
+wordpress_guid: http://lostechies.com/ryanrauh/?p=221
 dsq_thread_id:
   - "1147050683"
 categories:

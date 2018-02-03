@@ -1,10 +1,10 @@
 ---
-id: 31
+wordpress_id: 31
 title: NUnit.Behave Mentioned in The Carnival of Agilists
 date: 2007-07-07T14:24:14+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/07/07/nunit-behave-mentioned-in-the-carnival-of-agilists.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/07/07/nunit-behave-mentioned-in-the-carnival-of-agilists.aspx
 categories:
   - BDD (Behavior Driven Development)
 ---

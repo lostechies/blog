@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: ASP.NET 2.0 Page Lifecycle Poster
 date: 2007-06-05T17:36:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/06/05/asp-net-2-0-page-lifecycle-poster.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/06/05/asp-net-2-0-page-lifecycle-poster.aspx
 dsq_thread_id:
   - "271086299"
 categories:

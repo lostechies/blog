@@ -1,10 +1,10 @@
 ---
-id: 86
+wordpress_id: 86
 title: Help! E-Text Editor Can’t Run My Rake Tasks…
 date: 2009-09-18T13:37:29+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/18/help-e-text-editor-can-t-run-my-rake-tasks.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/18/help-e-text-editor-can-t-run-my-rake-tasks.aspx
 dsq_thread_id:
   - "262068324"
 categories:

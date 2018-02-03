@@ -1,10 +1,10 @@
 ---
-id: 414
+wordpress_id: 414
 title: 'Dependency Injection in ASP.NET MVC: Final Look'
 date: 2010-06-02T02:17:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/06/01/dependency-injection-in-asp-net-mvc-final-look.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/06/01/dependency-injection-in-asp-net-mvc-final-look.aspx
 dsq_thread_id:
   - "264789207"
 categories:

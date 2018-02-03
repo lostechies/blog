@@ -1,10 +1,10 @@
 ---
-id: 49
+wordpress_id: 49
 title: 'Some Behave# news'
 date: 2007-08-02T18:59:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/02/some-behave-news.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/02/some-behave-news.aspx
 dsq_thread_id:
   - "961361209"
 categories:

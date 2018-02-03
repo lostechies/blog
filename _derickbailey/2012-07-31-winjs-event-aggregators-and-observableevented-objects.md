@@ -1,10 +1,10 @@
 ---
-id: 970
+wordpress_id: 970
 title: WinJS Event Aggregators And Observable/Evented Objects
 date: 2012-07-31T13:19:37+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=970
+wordpress_guid: http://lostechies.com/derickbailey/?p=970
 dsq_thread_id:
   - "787328925"
 categories:

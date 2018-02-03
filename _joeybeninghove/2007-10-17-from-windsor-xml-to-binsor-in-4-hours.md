@@ -1,10 +1,10 @@
 ---
-id: 47
+wordpress_id: 47
 title: From Windsor XML to Binsor In 4 Hours
 date: 2007-10-17T19:31:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/10/17/from-windsor-xml-to-binsor-in-4-hours.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/10/17/from-windsor-xml-to-binsor-in-4-hours.aspx
 categories:
   - binsor
   - Boo

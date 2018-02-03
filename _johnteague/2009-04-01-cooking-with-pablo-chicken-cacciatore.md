@@ -1,10 +1,10 @@
 ---
-id: 26
+wordpress_id: 26
 title: 'Cooking With Pablo: Chicken Cacciatore'
 date: 2009-04-01T05:03:22+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/04/01/cooking-with-pablo-chicken-cacciatore.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/04/01/cooking-with-pablo-chicken-cacciatore.aspx
 dsq_thread_id:
   - "262055634"
 categories:

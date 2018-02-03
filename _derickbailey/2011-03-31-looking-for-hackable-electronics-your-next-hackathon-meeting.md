@@ -1,10 +1,10 @@
 ---
-id: 238
+wordpress_id: 238
 title: Looking for hackable electronics your next hackathon meeting?
 date: 2011-03-31T13:40:07+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=238
+wordpress_guid: http://lostechies.com/derickbailey/?p=238
 dsq_thread_id:
   - "267856349"
 categories:

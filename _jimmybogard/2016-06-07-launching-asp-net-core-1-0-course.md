@@ -1,10 +1,10 @@
 ---
-id: 1194
+wordpress_id: 1194
 title: Launching ASP.NET Core 1.0 course
 date: 2016-06-07T23:02:01+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1194
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1194
 dsq_thread_id:
   - "4892433634"
 categories:

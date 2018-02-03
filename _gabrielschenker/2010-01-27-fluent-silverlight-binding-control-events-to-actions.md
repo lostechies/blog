@@ -1,10 +1,10 @@
 ---
-id: 39
+wordpress_id: 39
 title: Fluent Silverlight – Binding control events to actions
 date: 2010-01-27T14:01:43+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/01/27/fluent-silverlight-binding-control-events-to-actions.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/01/27/fluent-silverlight-binding-control-events-to-actions.aspx
 dsq_thread_id:
   - "1069900065"
 categories:

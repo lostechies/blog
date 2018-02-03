@@ -1,10 +1,10 @@
 ---
-id: 3351
+wordpress_id: 3351
 title: Understanding the Problem
 date: 2009-05-06T22:56:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/05/06/understanding-the-problem.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/05/06/understanding-the-problem.aspx
 dsq_thread_id:
   - "428146872"
 categories:

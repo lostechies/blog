@@ -1,10 +1,10 @@
 ---
-id: 377
+wordpress_id: 377
 title: A Couple Of Tips For Ruby Code Blocks
 date: 2011-06-01T13:16:36+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=377
+wordpress_guid: http://lostechies.com/derickbailey/?p=377
 dsq_thread_id:
   - "319739744"
 pygment_cache_hash_1:

@@ -1,10 +1,10 @@
 ---
-id: 38
+wordpress_id: 38
 title: Developers Three Favorite Abstractions/Patterns
 date: 2008-03-30T18:41:19+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/03/30/developer-s-three-favorite-abstractions-patterns.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/03/30/developer-s-three-favorite-abstractions-patterns.aspx
 categories:
   - Uncategorized
 ---

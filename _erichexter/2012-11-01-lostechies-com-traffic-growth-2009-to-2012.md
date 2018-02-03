@@ -1,10 +1,10 @@
 ---
-id: 166
+wordpress_id: 166
 title: Lostechies.com traffic growth 2009 to 2012
 date: 2012-11-01T00:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=166
+wordpress_guid: http://lostechies.com/erichexter/?p=166
 dsq_thread_id:
   - "903154098"
 categories:

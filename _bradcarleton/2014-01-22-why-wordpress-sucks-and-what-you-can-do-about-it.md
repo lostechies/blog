@@ -1,10 +1,10 @@
 ---
-id: 103
+wordpress_id: 103
 title: Why WordPress Sucks, and what you can do about it
 date: 2014-01-22T18:49:39+00:00
 author: Brad Carleton
 layout: post
-guid: http://lostechies.com/bradcarleton/?p=103
+wordpress_guid: http://lostechies.com/bradcarleton/?p=103
 dsq_thread_id:
   - "2159641002"
 categories:

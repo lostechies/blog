@@ -1,10 +1,10 @@
 ---
-id: 3614
+wordpress_id: 3614
 title: MassTransit Now Speaks XML By Default
 date: 2009-05-27T14:12:00+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/05/27/masstransit-now-speaks-xml-by-default.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/05/27/masstransit-now-speaks-xml-by-default.aspx
 dsq_thread_id:
   - "262089338"
 categories:

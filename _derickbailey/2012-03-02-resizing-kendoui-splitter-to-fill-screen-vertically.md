@@ -1,10 +1,10 @@
 ---
-id: 849
+wordpress_id: 849
 title: Resizing KendoUI Splitter To Fill Screen Vertically
 date: 2012-03-02T09:59:26+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=849
+wordpress_guid: http://lostechies.com/derickbailey/?p=849
 dsq_thread_id:
   - "596258511"
 categories:

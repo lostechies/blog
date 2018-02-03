@@ -1,10 +1,10 @@
 ---
-id: 79
+wordpress_id: 79
 title: A Kanban Board Is A Production Leveling Task Board
 date: 2009-09-03T00:50:38+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/02/a-kanban-board-is-a-production-leveling-task-board.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/02/a-kanban-board-is-a-production-leveling-task-board.aspx
 dsq_thread_id:
   - "262068319"
 categories:

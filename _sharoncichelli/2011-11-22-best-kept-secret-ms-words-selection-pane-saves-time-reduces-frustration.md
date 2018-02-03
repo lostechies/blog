@@ -1,10 +1,10 @@
 ---
-id: 153
+wordpress_id: 153
 title: 'Best-Kept Secret: MS Word&#8217;s Selection Pane saves time, reduces frustration'
 date: 2011-11-22T15:54:42+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=153
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=153
 dsq_thread_id:
   - "986177381"
 categories:

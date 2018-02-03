@@ -1,10 +1,10 @@
 ---
-id: 187
+wordpress_id: 187
 title: A DSL For Handling Zero, One, Many
 date: 2010-09-30T20:13:35+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/09/30/a-dsl-for-handling-zero-one-many.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/09/30/a-dsl-for-handling-zero-one-many.aspx
 dsq_thread_id:
   - "263968062"
 categories:

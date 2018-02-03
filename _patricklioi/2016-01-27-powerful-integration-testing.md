@@ -1,10 +1,10 @@
 ---
-id: 194
+wordpress_id: 194
 title: Powerful Integration Testing
 date: 2016-01-27T15:10:34+00:00
 author: Patrick Lioi
 layout: post
-guid: https://lostechies.com/patricklioi/?p=194
+wordpress_guid: https://lostechies.com/patricklioi/?p=194
 dsq_thread_id:
   - "4527960518"
 categories:

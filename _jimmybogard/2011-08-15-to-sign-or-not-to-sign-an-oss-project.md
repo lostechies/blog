@@ -1,10 +1,10 @@
 ---
-id: 510
+wordpress_id: 510
 title: To sign or not to sign an OSS project
 date: 2011-08-15T13:30:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/08/15/to-sign-or-not-to-sign-an-oss-project/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/08/15/to-sign-or-not-to-sign-an-oss-project/
 dsq_thread_id:
   - "386497467"
 categories:

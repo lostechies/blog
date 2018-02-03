@@ -1,10 +1,10 @@
 ---
-id: 1132
+wordpress_id: 1132
 title: MeasureUP conference
 date: 2015-09-15T19:33:12+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1132
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1132
 dsq_thread_id:
   - "4133575298"
 categories:

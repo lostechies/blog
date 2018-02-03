@@ -1,10 +1,10 @@
 ---
-id: 106
+wordpress_id: 106
 title: KaizenConf, MVC, and Internal DSLs, OH MY!
 date: 2008-11-06T01:44:54+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/11/05/kaizenconf-mvc-and-internal-dsls-oh-my.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/11/05/kaizenconf-mvc-and-internal-dsls-oh-my.aspx
 dsq_thread_id:
   - "262114123"
 categories:

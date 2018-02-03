@@ -1,10 +1,10 @@
 ---
-id: 937
+wordpress_id: 937
 title: 'Hello, React! &#8211; A Beginner&#8217;s Setup Tutorial'
 date: 2017-05-25T08:00:32+00:00
 author: Derek Greer
 layout: post
-guid: https://lostechies.com/derekgreer/?p=937
+wordpress_guid: https://lostechies.com/derekgreer/?p=937
 dsq_thread_id:
   - "5863957855"
 categories:

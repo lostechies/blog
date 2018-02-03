@@ -1,10 +1,10 @@
 ---
-id: 363
+wordpress_id: 363
 title: MVC Web Testing Strategies – verifying content
 date: 2009-10-28T01:51:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/10/27/mvc-web-testing-strategies-verifying-content.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/10/27/mvc-web-testing-strategies-verifying-content.aspx
 dsq_thread_id:
   - "264716338"
 categories:

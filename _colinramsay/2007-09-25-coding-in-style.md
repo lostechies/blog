@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: 'Coding C# in Style'
 date: 2007-09-25T20:38:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2007/09/25/coding-in-style.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2007/09/25/coding-in-style.aspx
 categories:
   - 'C#'
   - Resharper

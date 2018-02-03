@@ -1,10 +1,10 @@
 ---
-id: 595
+wordpress_id: 595
 title: 'Tabs versus spaces: Spaces won'
 date: 2012-03-07T15:03:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/03/07/tabs-versus-spaces-spaces-won/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/03/07/tabs-versus-spaces-spaces-won/
 dsq_thread_id:
   - "602092203"
 categories:

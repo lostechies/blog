@@ -1,10 +1,10 @@
 ---
-id: 321
+wordpress_id: 321
 title: Reflecting reality
 date: 2009-06-08T03:18:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/06/07/reflecting-reality.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/06/07/reflecting-reality.aspx
 dsq_thread_id:
   - "264716188"
 categories:

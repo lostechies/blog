@@ -1,10 +1,10 @@
 ---
-id: 618
+wordpress_id: 618
 title: Working with Forks on GitHub or CodePlex
 date: 2012-04-02T18:42:58+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/04/02/working-with-forks-on-github-or-codeplex/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/04/02/working-with-forks-on-github-or-codeplex/
 dsq_thread_id:
   - "633998413"
 categories:

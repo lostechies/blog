@@ -1,10 +1,10 @@
 ---
-id: 509
+wordpress_id: 509
 title: Edge cases and impossibilities
 date: 2011-08-10T12:53:40+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/08/10/edge-cases-and-impossibilities/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/08/10/edge-cases-and-impossibilities/
 dsq_thread_id:
   - "382164815"
 categories:

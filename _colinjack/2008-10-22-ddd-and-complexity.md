@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: DDD and Complexity
 date: 2008-10-22T20:00:29+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2008/10/22/ddd-and-complexity.aspx
+wordpress_guid: /blogs/colinjack/archive/2008/10/22/ddd-and-complexity.aspx
 categories:
   - Uncategorized
 ---

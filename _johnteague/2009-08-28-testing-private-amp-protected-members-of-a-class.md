@@ -1,10 +1,10 @@
 ---
-id: 37
+wordpress_id: 37
 title: 'Testing Private &#038; Protected Members of a Class'
 date: 2009-08-28T04:48:39+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/08/28/testing-private-amp-protected-members-of-a-class.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/08/28/testing-private-amp-protected-members-of-a-class.aspx
 dsq_thread_id:
   - "262055706"
 categories:

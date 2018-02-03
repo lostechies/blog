@@ -1,10 +1,10 @@
 ---
-id: 221
+wordpress_id: 221
 title: 'Lambda+: Cassandra and Spark for Scalable Architecture'
 date: 2015-09-17T12:54:59+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=221
+wordpress_guid: https://lostechies.com/ryansvihla/?p=221
 dsq_thread_id:
   - "4139088813"
 categories:

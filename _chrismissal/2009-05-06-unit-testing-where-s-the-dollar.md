@@ -1,10 +1,10 @@
 ---
-id: 3350
+wordpress_id: 3350
 title: Unit Testing “Where’s The Dollar?”
 date: 2009-05-06T13:46:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/05/06/unit-testing-where-s-the-dollar.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/05/06/unit-testing-where-s-the-dollar.aspx
 dsq_thread_id:
   - "262174968"
 categories:

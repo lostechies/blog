@@ -1,10 +1,10 @@
 ---
-id: 458
+wordpress_id: 458
 title: Rendering A Rails Partial As A jQuery Template
 date: 2011-06-22T22:07:54+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=458
+wordpress_guid: http://lostechies.com/derickbailey/?p=458
 dsq_thread_id:
   - "339879933"
 categories:

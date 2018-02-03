@@ -1,10 +1,10 @@
 ---
-id: 469
+wordpress_id: 469
 title: Distributed Podcast episode live
 date: 2011-04-12T12:34:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/04/12/distributed-podcast-episode-live/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/04/12/distributed-podcast-episode-live/
 dsq_thread_id:
   - "277510013"
 categories:

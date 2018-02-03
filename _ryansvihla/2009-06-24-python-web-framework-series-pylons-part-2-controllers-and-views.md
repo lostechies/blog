@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: 'Python Web Framework Series – Pylons: Part 2 Controllers, Views and Testing'
 date: 2009-06-24T13:22:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/06/24/python-web-framework-series-pylons-part-2-controllers-and-views.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/06/24/python-web-framework-series-pylons-part-2-controllers-and-views.aspx
 dsq_thread_id:
   - "426715348"
 categories:

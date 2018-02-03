@@ -1,10 +1,10 @@
 ---
-id: 260
+wordpress_id: 260
 title: Attributes are lousy decorators
 date: 2008-12-09T04:07:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/12/08/attributes-are-lousy-decorators.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/12/08/attributes-are-lousy-decorators.aspx
 dsq_thread_id:
   - "264715993"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 76
+wordpress_id: 76
 title: Blowing Off the Blog Dust
 date: 2007-10-03T12:13:37+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=76
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=76
 dsq_thread_id:
   - "677568668"
 categories:

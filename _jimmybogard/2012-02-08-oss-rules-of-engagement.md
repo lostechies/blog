@@ -1,10 +1,10 @@
 ---
-id: 586
+wordpress_id: 586
 title: OSS Rules of Engagement
 date: 2012-02-08T14:07:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/02/08/oss-rules-of-engagement/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/02/08/oss-rules-of-engagement/
 dsq_thread_id:
   - "568803318"
 categories:

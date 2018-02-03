@@ -1,10 +1,10 @@
 ---
-id: 646
+wordpress_id: 646
 title: 'Backbone.js: Object Literals, Views Events, jQuery, and `el`'
 date: 2011-11-09T09:09:20+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=646
+wordpress_guid: http://lostechies.com/derickbailey/?p=646
 dsq_thread_id:
   - "466359167"
 categories:

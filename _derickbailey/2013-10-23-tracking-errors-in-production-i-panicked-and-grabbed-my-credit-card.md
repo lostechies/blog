@@ -1,10 +1,10 @@
 ---
-id: 1169
+wordpress_id: 1169
 title: 'Tracking Errors In Production: I Panicked And Grabbed My Credit Card'
 date: 2013-10-23T08:58:41+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1169
+wordpress_guid: http://lostechies.com/derickbailey/?p=1169
 dsq_thread_id:
   - "1891240496"
 categories:

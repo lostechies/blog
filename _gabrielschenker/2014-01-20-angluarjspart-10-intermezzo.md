@@ -1,10 +1,10 @@
 ---
-id: 553
+wordpress_id: 553
 title: AngluarJS–Part 10, Intermezzo
 date: 2014-01-20T00:08:27+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=553
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=553
 dsq_thread_id:
   - "2147286414"
 categories:

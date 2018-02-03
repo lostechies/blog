@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: Optimizing WPF Application Performance
 date: 2007-04-24T19:50:15+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/04/24/optimizing-wpf-application-performance.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/04/24/optimizing-wpf-application-performance.aspx
 dsq_thread_id:
   - "262088192"
 categories:

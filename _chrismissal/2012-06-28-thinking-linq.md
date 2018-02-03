@@ -1,10 +1,10 @@
 ---
-id: 251
+wordpress_id: 251
 title: Thinking Linq
 date: 2012-06-28T12:50:15+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=251
+wordpress_guid: http://lostechies.com/chrismissal/?p=251
 dsq_thread_id:
   - "743790607"
 categories:

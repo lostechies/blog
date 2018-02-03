@@ -1,10 +1,10 @@
 ---
-id: 45
+wordpress_id: 45
 title: 'If you can&#8217;t wait for Team Build 2008&#8230;'
 date: 2007-07-24T17:58:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/24/if-you-can-t-wait-for-team-build-2008.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/24/if-you-can-t-wait-for-team-build-2008.aspx
 dsq_thread_id:
   - "352306737"
 categories:

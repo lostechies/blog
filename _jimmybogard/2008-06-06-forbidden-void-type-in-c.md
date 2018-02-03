@@ -1,10 +1,10 @@
 ---
-id: 193
+wordpress_id: 193
 title: 'Forbidden Void type in C#'
 date: 2008-06-06T02:26:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/06/05/forbidden-void-type-in-c.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/06/05/forbidden-void-type-in-c.aspx
 dsq_thread_id:
   - "264715793"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3935
+wordpress_id: 3935
 title: Hola Los Techies
 date: 2008-09-10T03:05:29+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2008/09/09/hola-los-techies.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2008/09/09/hola-los-techies.aspx
 dsq_thread_id:
   - "262113134"
 categories:

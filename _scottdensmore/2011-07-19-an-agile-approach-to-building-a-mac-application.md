@@ -1,10 +1,10 @@
 ---
-id: 4618
+wordpress_id: 4618
 title: An Agile Approach to Building a Mac Application
 date: 2011-07-19T18:28:35+00:00
 author: Scott Densmore
 layout: post
-guid: http://lostechies.com/scottdensmore/?p=53
+wordpress_guid: http://lostechies.com/scottdensmore/?p=53
 dsq_thread_id:
   - "362962866"
 categories:

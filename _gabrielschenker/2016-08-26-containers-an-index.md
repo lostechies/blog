@@ -1,10 +1,10 @@
 ---
-id: 1687
+wordpress_id: 1687
 title: 'Containers &#8211; An Index'
 date: 2016-08-26T16:46:06+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1687
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1687
 dsq_thread_id:
   - "5097784751"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4196
+wordpress_id: 4196
 title: 'Hacking LINQ Expressions: Select With Index'
 date: 2009-09-15T09:04:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/09/15/hacking-linq-expressions-select-with-index.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/09/15/hacking-linq-expressions-select-with-index.aspx
 dsq_thread_id:
   - "262493294"
 categories:

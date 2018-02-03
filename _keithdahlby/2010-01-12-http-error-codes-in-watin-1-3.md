@@ -1,10 +1,10 @@
 ---
-id: 4201
+wordpress_id: 4201
 title: HTTP Error Codes in WatiN 1.3
 date: 2010-01-12T05:11:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/01/12/http-error-codes-in-watin-1-3.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/01/12/http-error-codes-in-watin-1-3.aspx
 dsq_thread_id:
   - "262493302"
 categories:

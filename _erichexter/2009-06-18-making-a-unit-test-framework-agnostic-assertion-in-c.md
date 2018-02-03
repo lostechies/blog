@@ -1,10 +1,10 @@
 ---
-id: 2982
+wordpress_id: 2982
 title: 'Making a Unit Test Framework agnostic Assertion in C#'
 date: 2009-06-18T17:49:48+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/18/making-a-unit-test-framework-agnostic-assertion-in-c.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/18/making-a-unit-test-framework-agnostic-assertion-in-c.aspx
 dsq_thread_id:
   - "262809323"
 categories:

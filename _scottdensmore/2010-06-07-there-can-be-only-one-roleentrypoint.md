@@ -1,10 +1,10 @@
 ---
-id: 4612
+wordpress_id: 4612
 title: There can be only One RoleEntryPoint
 date: 2010-06-07T04:49:55+00:00
 author: Scott Densmore
 layout: post
-guid: /blogs/scottdensmore/archive/2010/06/07/there-can-be-only-one-roleentrypoint.aspx
+wordpress_guid: /blogs/scottdensmore/archive/2010/06/07/there-can-be-only-one-roleentrypoint.aspx
 dsq_thread_id:
   - "270572450"
 categories:

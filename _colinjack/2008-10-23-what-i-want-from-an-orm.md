@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: What I want from an ORM
 date: 2008-10-23T19:53:30+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2008/10/23/what-i-want-from-an-orm.aspx
+wordpress_guid: /blogs/colinjack/archive/2008/10/23/what-i-want-from-an-orm.aspx
 categories:
   - Uncategorized
 ---

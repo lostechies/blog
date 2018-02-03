@@ -1,10 +1,10 @@
 ---
-id: 122
+wordpress_id: 122
 title: Role Storming
 date: 2008-10-29T03:06:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/10/28/role-storming.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/10/28/role-storming.aspx
 dsq_thread_id:
   - "262089547"
 categories:

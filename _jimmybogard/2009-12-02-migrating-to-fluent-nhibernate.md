@@ -1,10 +1,10 @@
 ---
-id: 370
+wordpress_id: 370
 title: Migrating to Fluent NHibernate
 date: 2009-12-02T02:07:45+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/12/01/migrating-to-fluent-nhibernate.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/12/01/migrating-to-fluent-nhibernate.aspx
 dsq_thread_id:
   - "264716346"
 categories:

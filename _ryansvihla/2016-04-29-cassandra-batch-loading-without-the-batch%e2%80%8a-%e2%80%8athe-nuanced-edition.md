@@ -1,10 +1,10 @@
 ---
-id: 334
+wordpress_id: 334
 title: 'Cassandra: Batch Loading Without the Batch — The Nuanced Edition'
 date: 2016-04-29T16:03:56+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=334
+wordpress_guid: https://lostechies.com/ryansvihla/?p=334
 dsq_thread_id:
   - "4787862194"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 194
+wordpress_id: 194
 title: 'Frontend &#038; Backend: Gotta Keep&#8217;em Separated'
 date: 2014-03-25T20:57:15+00:00
 author: Brad Carleton
 layout: post
-guid: http://lostechies.com/bradcarleton/?p=194
+wordpress_guid: http://lostechies.com/bradcarleton/?p=194
 dsq_thread_id:
   - "2509131384"
 categories:

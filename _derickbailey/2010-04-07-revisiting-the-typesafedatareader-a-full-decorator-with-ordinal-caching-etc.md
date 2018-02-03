@@ -1,10 +1,10 @@
 ---
-id: 134
+wordpress_id: 134
 title: 'Revisiting The TypeSafeDataReader: A Full Decorator With Ordinal Caching, etc.'
 date: 2010-04-07T19:21:47+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/07/revisiting-the-typesafedatareader-a-full-decorator-with-ordinal-caching-etc.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/07/revisiting-the-typesafedatareader-a-full-decorator-with-ordinal-caching-etc.aspx
 dsq_thread_id:
   - "262068598"
 categories:

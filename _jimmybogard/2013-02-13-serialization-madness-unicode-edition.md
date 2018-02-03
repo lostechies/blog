@@ -1,10 +1,10 @@
 ---
-id: 729
+wordpress_id: 729
 title: Serialization madness, Unicode edition
 date: 2013-02-13T14:22:56+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=729
+wordpress_guid: http://lostechies.com/jimmybogard/?p=729
 dsq_thread_id:
   - "1081196219"
 categories:

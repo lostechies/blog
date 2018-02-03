@@ -1,10 +1,10 @@
 ---
-id: 623
+wordpress_id: 623
 title: ASP.NET Web API, MVC, ViewModels and Formatters
 date: 2012-04-10T14:06:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/04/10/asp-net-web-api-mvc-viewmodels-and-formatters/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/04/10/asp-net-web-api-mvc-viewmodels-and-formatters/
 dsq_thread_id:
   - "643543237"
 categories:

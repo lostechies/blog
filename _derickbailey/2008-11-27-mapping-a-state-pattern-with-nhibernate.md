@@ -1,10 +1,10 @@
 ---
-id: 20
+wordpress_id: 20
 title: Mapping A State Pattern With NHibernate
 date: 2008-11-27T01:42:11+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/11/26/mapping-a-state-pattern-with-nhibernate.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/11/26/mapping-a-state-pattern-with-nhibernate.aspx
 dsq_thread_id:
   - "262067957"
 categories:

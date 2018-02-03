@@ -1,10 +1,10 @@
 ---
-id: 505
+wordpress_id: 505
 title: Stop Using Backbone As If It Were A Stateless Web Server
 date: 2011-08-03T19:56:33+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=505
+wordpress_guid: http://lostechies.com/derickbailey/?p=505
 dsq_thread_id:
   - "376613889"
 categories:

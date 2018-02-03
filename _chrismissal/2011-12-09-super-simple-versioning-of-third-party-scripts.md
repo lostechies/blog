@@ -1,10 +1,10 @@
 ---
-id: 3390
+wordpress_id: 3390
 title: Super Simple Versioning of Third Party Scripts
 date: 2011-12-09T06:21:53+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=91
+wordpress_guid: http://lostechies.com/chrismissal/?p=91
 dsq_thread_id:
   - "498680762"
 categories:

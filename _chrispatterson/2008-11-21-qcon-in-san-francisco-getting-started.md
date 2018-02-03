@@ -1,10 +1,10 @@
 ---
-id: 3604
+wordpress_id: 3604
 title: QCon in San Francisco Getting Started
 date: 2008-11-21T16:52:38+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/11/21/qcon-in-san-francisco-getting-started.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/11/21/qcon-in-san-francisco-getting-started.aspx
 dsq_thread_id:
   - "269052861"
 categories:

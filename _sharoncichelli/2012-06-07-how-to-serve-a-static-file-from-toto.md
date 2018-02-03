@@ -1,10 +1,10 @@
 ---
-id: 3872
+wordpress_id: 3872
 title: How to Serve a Static File from toto
 date: 2012-06-07T08:00:04+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=110
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=110
 dsq_thread_id:
   - "716925890"
 categories:

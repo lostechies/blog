@@ -1,10 +1,10 @@
 ---
-id: 75
+wordpress_id: 75
 title: MassTransit v2.0 Beta Available Now on NuGet!
 date: 2011-05-03T21:48:17+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=75
+wordpress_guid: http://lostechies.com/chrispatterson/?p=75
 dsq_thread_id:
   - "294711062"
 categories:

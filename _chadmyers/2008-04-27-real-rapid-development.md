@@ -1,10 +1,10 @@
 ---
-id: 42
+wordpress_id: 42
 title: Real Rapid Development
 date: 2008-04-27T00:45:22+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/26/real-rapid-development.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/26/real-rapid-development.aspx
 dsq_thread_id:
   - "1073111247"
 categories:

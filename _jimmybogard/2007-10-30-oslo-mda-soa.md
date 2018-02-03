@@ -1,10 +1,10 @@
 ---
-id: 89
+wordpress_id: 89
 title: Oslo = MDA + SOA
 date: 2007-10-30T19:41:07+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/30/oslo-mda-soa.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/30/oslo-mda-soa.aspx
 dsq_thread_id:
   - "264715392"
 categories:

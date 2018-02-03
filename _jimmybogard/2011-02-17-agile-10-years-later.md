@@ -1,10 +1,10 @@
 ---
-id: 456
+wordpress_id: 456
 title: 'Agile: 10 years later'
 date: 2011-02-17T13:45:43+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/02/17/agile-10-years-later.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/02/17/agile-10-years-later.aspx
 dsq_thread_id:
   - "265166064"
 categories:

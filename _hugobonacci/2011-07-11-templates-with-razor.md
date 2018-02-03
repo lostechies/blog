@@ -1,10 +1,10 @@
 ---
-id: 4825
+wordpress_id: 4825
 title: Templates With Razor
 date: 2011-07-11T23:05:33+00:00
 author: Hugo Bonacci
 layout: post
-guid: http://lostechies.com/hugobonacci/?p=8
+wordpress_guid: http://lostechies.com/hugobonacci/?p=8
 dsq_thread_id:
   - "397456831"
 categories:

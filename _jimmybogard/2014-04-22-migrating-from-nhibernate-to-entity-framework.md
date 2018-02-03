@@ -1,10 +1,10 @@
 ---
-id: 897
+wordpress_id: 897
 title: Migrating from NHibernate to Entity Framework
 date: 2014-04-22T13:19:50+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=897
+wordpress_guid: http://lostechies.com/jimmybogard/?p=897
 dsq_thread_id:
   - "2630373299"
 categories:

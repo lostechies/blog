@@ -1,10 +1,10 @@
 ---
-id: 537
+wordpress_id: 537
 title: Dependency Management in .Net
 date: 2011-09-18T22:10:36+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=537
+wordpress_guid: http://lostechies.com/derekgreer/?p=537
 dsq_thread_id:
   - "418544778"
 categories:

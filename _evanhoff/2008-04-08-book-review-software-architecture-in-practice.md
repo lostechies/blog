@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: '[Book Review] Software Architecture in Practice'
 date: 2008-04-08T02:14:31+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/04/07/book-review-software-architecture-in-practice.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/04/07/book-review-software-architecture-in-practice.aspx
 categories:
   - Uncategorized
 ---

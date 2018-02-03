@@ -1,10 +1,10 @@
 ---
-id: 457
+wordpress_id: 457
 title: The Microsoft Provider Model
 date: 2005-10-02T20:00:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2005/10/the-microsoft-provider-model/
+wordpress_guid: http://www.aspiringcraftsman.com/2005/10/the-microsoft-provider-model/
 dsq_thread_id:
   - "315802110"
 categories:

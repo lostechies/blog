@@ -1,10 +1,10 @@
 ---
-id: 98
+wordpress_id: 98
 title: The sinking ship
 date: 2007-11-14T18:18:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/14/the-sinking-ship.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/14/the-sinking-ship.aspx
 dsq_thread_id:
   - "264715415"
 categories:

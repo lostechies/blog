@@ -1,10 +1,10 @@
 ---
-id: 665
+wordpress_id: 665
 title: CQRS and user experience
 date: 2012-08-23T14:57:01+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/08/23/cqrs-and-user-experience/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/08/23/cqrs-and-user-experience/
 dsq_thread_id:
   - "815818369"
 categories:

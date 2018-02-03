@@ -1,10 +1,10 @@
 ---
-id: 1091
+wordpress_id: 1091
 title: 'Prosthetics And Orthotics: Building Backbone Plugins'
 date: 2013-04-22T07:10:13+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1091
+wordpress_guid: http://lostechies.com/derickbailey/?p=1091
 dsq_thread_id:
   - "1228359007"
 categories:

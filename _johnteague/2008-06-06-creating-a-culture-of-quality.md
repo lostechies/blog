@@ -1,10 +1,10 @@
 ---
-id: 10
+wordpress_id: 10
 title: Creating a Culture of Quality
 date: 2008-06-06T20:28:33+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/06/06/creating-a-culture-of-quality.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/06/06/creating-a-culture-of-quality.aspx
 dsq_thread_id:
   - "262055517"
 categories:

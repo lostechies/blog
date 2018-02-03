@@ -1,10 +1,10 @@
 ---
-id: 26
+wordpress_id: 26
 title: “Hero Mode Refactoring” AKA Enemy Of Brown Field Development
 date: 2009-08-14T06:48:56+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/08/14/hero-mode-refactoring-aka-enemy-of-brown-field-development.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/08/14/hero-mode-refactoring-aka-enemy-of-brown-field-development.aspx
 dsq_thread_id:
   - "501199320"
 categories:

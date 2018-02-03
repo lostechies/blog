@@ -1,10 +1,10 @@
 ---
-id: 626
+wordpress_id: 626
 title: Limits of performance optimization
 date: 2012-05-03T13:31:26+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/05/03/limits-of-performance-optimization/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/05/03/limits-of-performance-optimization/
 dsq_thread_id:
   - "674248953"
 categories:

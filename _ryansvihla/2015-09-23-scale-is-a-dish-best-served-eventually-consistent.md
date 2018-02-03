@@ -1,10 +1,10 @@
 ---
-id: 234
+wordpress_id: 234
 title: Scale is a Dish Best Served Eventually Consistent
 date: 2015-09-23T10:58:51+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=234
+wordpress_guid: https://lostechies.com/ryansvihla/?p=234
 dsq_thread_id:
   - "4158247130"
 categories:

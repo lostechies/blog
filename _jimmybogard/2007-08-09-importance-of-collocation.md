@@ -1,10 +1,10 @@
 ---
-id: 51
+wordpress_id: 51
 title: Importance of collocation
 date: 2007-08-09T14:07:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/09/importance-of-collocation.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/09/importance-of-collocation.aspx
 dsq_thread_id:
   - "270183090"
 categories:

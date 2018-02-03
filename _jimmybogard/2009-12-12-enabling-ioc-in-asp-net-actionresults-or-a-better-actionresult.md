@@ -1,10 +1,10 @@
 ---
-id: 376
+wordpress_id: 376
 title: Enabling IoC in ASP.NET ActionResults (or, a better ActionResult)
 date: 2009-12-12T16:25:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/12/12/enabling-ioc-in-asp-net-actionresults-or-a-better-actionresult.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/12/12/enabling-ioc-in-asp-net-actionresults-or-a-better-actionresult.aspx
 dsq_thread_id:
   - "264716386"
 categories:

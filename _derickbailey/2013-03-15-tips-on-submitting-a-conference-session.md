@@ -1,10 +1,10 @@
 ---
-id: 1071
+wordpress_id: 1071
 title: Tips On Submitting A Conference Session
 date: 2013-03-15T09:56:24+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1071
+wordpress_guid: http://lostechies.com/derickbailey/?p=1071
 dsq_thread_id:
   - "1139432657"
 categories:

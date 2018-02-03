@@ -1,10 +1,10 @@
 ---
-id: 4194
+wordpress_id: 4194
 title: Simplifying LazyLinq
 date: 2009-09-13T05:09:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/09/13/simplifying-lazylinq.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/09/13/simplifying-lazylinq.aspx
 dsq_thread_id:
   - "266760568"
 categories:

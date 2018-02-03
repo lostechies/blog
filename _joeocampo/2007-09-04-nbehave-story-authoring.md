@@ -1,10 +1,10 @@
 ---
-id: 49
+wordpress_id: 49
 title: NBehave Story Authoring
 date: 2007-09-04T22:32:36+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/04/nbehave-story-authoring.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/04/nbehave-story-authoring.aspx
 dsq_thread_id:
   - "262088240"
 categories:

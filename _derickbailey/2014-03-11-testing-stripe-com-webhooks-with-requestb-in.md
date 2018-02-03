@@ -1,10 +1,10 @@
 ---
-id: 1306
+wordpress_id: 1306
 title: Testing Stripe.com WebHooks With Requestb.in
 date: 2014-03-11T06:00:30+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1306
+wordpress_guid: http://lostechies.com/derickbailey/?p=1306
 dsq_thread_id:
   - "2407255040"
 categories:

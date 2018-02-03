@@ -1,10 +1,10 @@
 ---
-id: 68
+wordpress_id: 68
 title: Values over vendors
 date: 2007-09-28T17:31:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/09/28/values-over-vendors.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/09/28/values-over-vendors.aspx
 dsq_thread_id:
   - "271219796"
 categories:

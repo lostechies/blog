@@ -1,10 +1,10 @@
 ---
-id: 418
+wordpress_id: 418
 title: Automating scheduled tasks
 date: 2010-06-17T13:26:33+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/06/17/automating-scheduled-tasks.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/06/17/automating-scheduled-tasks.aspx
 dsq_thread_id:
   - "264716531"
 categories:

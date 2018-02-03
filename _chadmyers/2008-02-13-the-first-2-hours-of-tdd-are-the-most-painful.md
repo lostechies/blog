@@ -1,10 +1,10 @@
 ---
-id: 20
+wordpress_id: 20
 title: The first 2 hours of TDD are the most painful
 date: 2008-02-13T03:08:11+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/02/12/the-first-2-hours-of-tdd-are-the-most-painful.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/02/12/the-first-2-hours-of-tdd-are-the-most-painful.aspx
 dsq_thread_id:
   - "262113675"
 categories:

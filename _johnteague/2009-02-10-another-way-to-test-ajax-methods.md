@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: Another Way to Test Ajax Methods
 date: 2009-02-10T05:47:45+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/02/10/another-way-to-test-ajax-methods.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/02/10/another-way-to-test-ajax-methods.aspx
 dsq_thread_id:
   - "262055585"
 categories:

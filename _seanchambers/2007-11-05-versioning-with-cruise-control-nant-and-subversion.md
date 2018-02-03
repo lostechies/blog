@@ -1,10 +1,10 @@
 ---
-id: 3148
+wordpress_id: 3148
 title: Versioning with Cruise Control, Nant and Subversion
 date: 2007-11-05T23:58:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/11/05/versioning-with-cruise-control-nant-and-subversion.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/11/05/versioning-with-cruise-control-nant-and-subversion.aspx
 dsq_thread_id:
   - "262262863"
 categories:

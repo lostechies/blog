@@ -1,10 +1,10 @@
 ---
-id: 73
+wordpress_id: 73
 title: A Response to 5 Right Reasons to Apply Kanban
 date: 2009-08-12T14:56:44+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/08/12/a-response-to-5-right-reasons-to-apply-kanban.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/08/12/a-response-to-5-right-reasons-to-apply-kanban.aspx
 dsq_thread_id:
   - "267068744"
 categories:

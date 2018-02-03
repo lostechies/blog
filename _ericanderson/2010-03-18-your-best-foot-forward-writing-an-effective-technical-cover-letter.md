@@ -1,10 +1,10 @@
 ---
-id: 4720
+wordpress_id: 4720
 title: 'Your Best Foot Forward: Writing An Effective Technical Cover Letter'
 date: 2010-03-18T05:17:00+00:00
 author: Eric Anderson
 layout: post
-guid: /blogs/eric/archive/2010/03/18/your-best-foot-forward-writing-an-effective-technical-cover-letter.aspx
+wordpress_guid: /blogs/eric/archive/2010/03/18/your-best-foot-forward-writing-an-effective-technical-cover-letter.aspx
 categories:
   - Uncategorized
 ---

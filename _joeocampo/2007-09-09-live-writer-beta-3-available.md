@@ -1,10 +1,10 @@
 ---
-id: 53
+wordpress_id: 53
 title: Live Writer Beta 3 Available
 date: 2007-09-09T21:29:21+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/09/live-writer-beta-3-available.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/09/live-writer-beta-3-available.aspx
 dsq_thread_id:
   - "262089867"
 categories:

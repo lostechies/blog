@@ -1,10 +1,10 @@
 ---
-id: 3588
+wordpress_id: 3588
 title: Open Spaces In Practice
 date: 2008-04-30T03:04:59+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/04/29/open-spaces-in-practice.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/04/29/open-spaces-in-practice.aspx
 dsq_thread_id:
   - "262089226"
 categories:

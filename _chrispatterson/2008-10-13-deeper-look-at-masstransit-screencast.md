@@ -1,10 +1,10 @@
 ---
-id: 3599
+wordpress_id: 3599
 title: Deeper Look at MassTransit Screencast
 date: 2008-10-13T03:46:44+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/10/12/deeper-look-at-masstransit-screencast.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/10/12/deeper-look-at-masstransit-screencast.aspx
 dsq_thread_id:
   - "262089277"
 categories:

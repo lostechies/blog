@@ -1,10 +1,10 @@
 ---
-id: 3965
+wordpress_id: 3965
 title: Use gitk to understand git – merge and rebase
 date: 2010-09-03T23:25:00+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git-merge-and-rebase.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git-merge-and-rebase.aspx
 dsq_thread_id:
   - "262046146"
 categories:

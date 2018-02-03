@@ -1,10 +1,10 @@
 ---
-id: 441
+wordpress_id: 441
 title: 'Protip: Viewing large XML files'
 date: 2010-12-01T13:52:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/12/01/protip-viewing-large-xml-files.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/12/01/protip-viewing-large-xml-files.aspx
 dsq_thread_id:
   - "264716614"
 categories:

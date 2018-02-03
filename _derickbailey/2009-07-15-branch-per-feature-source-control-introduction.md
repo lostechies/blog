@@ -1,10 +1,10 @@
 ---
-id: 68
+wordpress_id: 68
 title: Branch-Per-Feature Source Control. Introduction
 date: 2009-07-15T21:04:35+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-introduction.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-introduction.aspx
 dsq_thread_id:
   - "262068252"
 categories:

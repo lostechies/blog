@@ -1,10 +1,10 @@
 ---
-id: 3863
+wordpress_id: 3863
 title: Rhino Mocks Examples, with a fix
 date: 2010-03-19T02:35:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2010/03/18/rhino-mocks-examples-with-a-fix.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2010/03/18/rhino-mocks-examples-with-a-fix.aspx
 dsq_thread_id:
   - "263371005"
 categories:

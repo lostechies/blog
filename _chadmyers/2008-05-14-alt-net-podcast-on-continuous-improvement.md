@@ -1,10 +1,10 @@
 ---
-id: 48
+wordpress_id: 48
 title: ALT.NET Podcast on Continuous Improvement
 date: 2008-05-14T00:16:55+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/05/13/alt-net-podcast-on-continuous-improvement.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/05/13/alt-net-podcast-on-continuous-improvement.aspx
 dsq_thread_id:
   - "262113796"
 categories:

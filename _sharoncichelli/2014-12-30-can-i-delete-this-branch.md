@@ -1,10 +1,10 @@
 ---
-id: 382
+wordpress_id: 382
 title: Can I delete this branch?
 date: 2014-12-30T07:50:33+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=382
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=382
 dsq_thread_id:
   - "3373490328"
 categories:

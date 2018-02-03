@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: 'I don&#8217;t trust me'
 date: 2008-01-26T16:02:10+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/01/26/i-don-t-trust-me.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/01/26/i-don-t-trust-me.aspx
 dsq_thread_id:
   - "262113614"
 categories:

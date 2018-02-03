@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: A Custom Converter for Json.NET
 date: 2008-02-26T02:36:00+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/02/25/a-custom-converter-for-json-net.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/02/25/a-custom-converter-for-json-net.aspx
 categories:
   - Uncategorized
 ---

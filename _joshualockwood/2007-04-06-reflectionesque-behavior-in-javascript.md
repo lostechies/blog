@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: Reflectionesque behavior in JavaScript
 date: 2007-04-06T22:53:00+00:00
 author: Joshua Lockwood
 layout: post
-guid: /blogs/joshua_lockwood/archive/2007/04/06/reflectionesque-behavior-in-javascript.aspx
+wordpress_guid: /blogs/joshua_lockwood/archive/2007/04/06/reflectionesque-behavior-in-javascript.aspx
 categories:
   - JavaScript
   - jscript

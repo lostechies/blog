@@ -1,10 +1,10 @@
 ---
-id: 107
+wordpress_id: 107
 title: 'cat Community > CHAD.PLAN'
 date: 2008-11-06T04:25:30+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/11/05/cat-community-gt-chad-plan.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/11/05/cat-community-gt-chad-plan.aspx
 dsq_thread_id:
   - "262114134"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 2060
+wordpress_id: 2060
 title: 'Docker and Swarmkit &#8211; Part 6 &#8211; New Features of v1.13'
 date: 2016-11-25T15:14:15+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=2060
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=2060
 dsq_thread_id:
   - "5332354253"
 categories:

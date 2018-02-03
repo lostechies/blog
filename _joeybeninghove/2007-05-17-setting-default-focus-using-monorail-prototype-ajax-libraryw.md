@@ -1,10 +1,10 @@
 ---
-id: 10
+wordpress_id: 10
 title: Setting Default Focus Using MonoRail/Prototype Ajax Libraryw
 date: 2007-05-17T13:03:40+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/05/17/setting-default-focus-using-monorail-prototype-ajax-libraryw.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/05/17/setting-default-focus-using-monorail-prototype-ajax-libraryw.aspx
 categories:
   - Castle
   - MonoRail

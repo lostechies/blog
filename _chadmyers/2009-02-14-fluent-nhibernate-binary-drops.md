@@ -1,10 +1,10 @@
 ---
-id: 133
+wordpress_id: 133
 title: Fluent NHibernate binary drops
 date: 2009-02-14T18:30:27+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/02/14/fluent-nhibernate-binary-drops.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/02/14/fluent-nhibernate-binary-drops.aspx
 dsq_thread_id:
   - "262114302"
 categories:

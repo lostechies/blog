@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: Dependency Patterns
 date: 2007-06-27T13:26:24+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/06/27/dependency-patterns.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/06/27/dependency-patterns.aspx
 dsq_thread_id:
   - "262089166"
 categories:

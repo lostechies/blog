@@ -1,10 +1,10 @@
 ---
-id: 1153
+wordpress_id: 1153
 title: Consistency Problems With APIs In JavaScript Promise Libraries
 date: 2013-09-20T12:58:57+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1153
+wordpress_guid: http://lostechies.com/derickbailey/?p=1153
 dsq_thread_id:
   - "1781639713"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: On Knightly Duty and Suffering
 date: 2008-02-26T02:27:32+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/02/25/on-knightly-duty-and-suffering.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/02/25/on-knightly-duty-and-suffering.aspx
 dsq_thread_id:
   - "262113683"
 categories:

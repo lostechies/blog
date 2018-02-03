@@ -1,10 +1,10 @@
 ---
-id: 77
+wordpress_id: 77
 title: 'Dovetail is Hiring Junior- to Mid-level Developer'
 date: 2008-08-11T20:10:50+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/08/11/dovetail-is-hiring-junior-to-mid-level-developer.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/08/11/dovetail-is-hiring-junior-to-mid-level-developer.aspx
 dsq_thread_id:
   - "265537833"
 categories:

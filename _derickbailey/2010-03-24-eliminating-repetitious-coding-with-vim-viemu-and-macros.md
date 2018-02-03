@@ -1,10 +1,10 @@
 ---
-id: 121
+wordpress_id: 121
 title: Eliminating Repetitious Coding With Vim / ViEmu And Macros
 date: 2010-03-24T13:28:58+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/24/eliminating-repetitious-coding-with-vim-viemu-and-macros.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/24/eliminating-repetitious-coding-with-vim-viemu-and-macros.aspx
 dsq_thread_id:
   - "262068527"
 categories:

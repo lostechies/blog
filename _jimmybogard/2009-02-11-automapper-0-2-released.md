@@ -1,10 +1,10 @@
 ---
-id: 282
+wordpress_id: 282
 title: AutoMapper 0.2 released
 date: 2009-02-11T23:10:18+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/11/automapper-0-2-released.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/11/automapper-0-2-released.aspx
 dsq_thread_id:
   - "264716069"
 categories:

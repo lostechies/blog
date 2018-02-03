@@ -1,10 +1,10 @@
 ---
-id: 3017
+wordpress_id: 3017
 title: Converting from webforms to MVC presentation?
 date: 2010-07-16T10:56:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/07/16/converting-from-webforms-to-mvc-presentation.aspx
+wordpress_guid: /blogs/hex/archive/2010/07/16/converting-from-webforms-to-mvc-presentation.aspx
 dsq_thread_id:
   - "262337085"
 categories:

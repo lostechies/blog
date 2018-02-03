@@ -1,10 +1,10 @@
 ---
-id: 53
+wordpress_id: 53
 title: 'A .NET (C#) Developer’s .gitignore File'
 date: 2009-05-19T02:55:26+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/05/18/a-net-c-developer-s-gitignore-file.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/05/18/a-net-c-developer-s-gitignore-file.aspx
 dsq_thread_id:
   - "262068165"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: 'Python Web Framework Series – Pylons: Part 4 Introduction For Database Support With SQL Alchemy.'
 date: 2009-06-29T02:54:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/06/28/python-web-framework-series-pylons-part-4-database-support-with-sql-alchemy.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/06/28/python-web-framework-series-pylons-part-4-database-support-with-sql-alchemy.aspx
 dsq_thread_id:
   - "425624187"
 categories:

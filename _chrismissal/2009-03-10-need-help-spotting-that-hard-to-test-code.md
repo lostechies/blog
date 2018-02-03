@@ -1,10 +1,10 @@
 ---
-id: 3346
+wordpress_id: 3346
 title: Need Help Spotting that Hard to Test Code?
 date: 2009-03-10T06:13:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/03/10/need-help-spotting-that-hard-to-test-code.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/03/10/need-help-spotting-that-hard-to-test-code.aspx
 dsq_thread_id:
   - "262174854"
 categories:

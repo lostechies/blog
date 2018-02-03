@@ -1,10 +1,10 @@
 ---
-id: 280
+wordpress_id: 280
 title: Using Mongo And Mongoid Without Rails
 date: 2011-05-02T06:31:29+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=280
+wordpress_guid: http://lostechies.com/derickbailey/?p=280
 dsq_thread_id:
   - "293313991"
 categories:

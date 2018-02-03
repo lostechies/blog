@@ -1,10 +1,10 @@
 ---
-id: 99
+wordpress_id: 99
 title: Interview on .NET Rocks Episode 798 Published
 date: 2012-08-30T12:15:51+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=99
+wordpress_guid: http://lostechies.com/chrispatterson/?p=99
 dsq_thread_id:
   - "824544970"
 categories:

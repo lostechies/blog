@@ -1,10 +1,10 @@
 ---
-id: 3206
+wordpress_id: 3206
 title: 'Refactoring Day 12 : Break Dependencies'
 date: 2009-08-12T12:15:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/12/refactoring-day-12-break-dependencies.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/12/refactoring-day-12-break-dependencies.aspx
 dsq_thread_id:
   - "262350112"
 categories:

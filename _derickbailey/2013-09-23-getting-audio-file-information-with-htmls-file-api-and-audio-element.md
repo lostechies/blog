@@ -1,10 +1,10 @@
 ---
-id: 1155
+wordpress_id: 1155
 title: 'Getting Audio File Information With HTML&#8217;s File API And Audio Element'
 date: 2013-09-23T08:11:26+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1155
+wordpress_guid: http://lostechies.com/derickbailey/?p=1155
 dsq_thread_id:
   - "1789477711"
 categories:

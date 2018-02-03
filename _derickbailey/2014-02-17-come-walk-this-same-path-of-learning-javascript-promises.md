@@ -1,10 +1,10 @@
 ---
-id: 1260
+wordpress_id: 1260
 title: 'JavaScript Promises: A Journey To The &#8220;Promise Land&#8221;'
 date: 2014-02-17T06:00:12+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1260
+wordpress_guid: http://lostechies.com/derickbailey/?p=1260
 dsq_thread_id:
   - "2264150475"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 121
+wordpress_id: 121
 title: VAN (Virtual ALT.NET Meeting) Update
 date: 2008-12-23T02:16:13+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/12/22/van-virtual-alt-net-meeting-update.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/12/22/van-virtual-alt-net-meeting-update.aspx
 dsq_thread_id:
   - "262114269"
 categories:

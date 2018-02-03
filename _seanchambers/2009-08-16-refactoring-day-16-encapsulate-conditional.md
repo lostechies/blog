@@ -1,10 +1,10 @@
 ---
-id: 3210
+wordpress_id: 3210
 title: 'Refactoring Day 16 : Encapsulate Conditional'
 date: 2009-08-16T10:29:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/16/refactoring-day-16-encapsulate-conditional.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/16/refactoring-day-16-encapsulate-conditional.aspx
 dsq_thread_id:
   - "262352595"
 categories:

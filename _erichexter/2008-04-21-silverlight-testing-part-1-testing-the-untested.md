@@ -1,10 +1,10 @@
 ---
-id: 2947
+wordpress_id: 2947
 title: 'Silverlight Testing &#8211; Part 1 &#8211; Testing the untested.'
 date: 2008-04-21T03:49:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/04/20/silverlight-testing-part-1-testing-the-untested.aspx
+wordpress_guid: /blogs/hex/archive/2008/04/20/silverlight-testing-part-1-testing-the-untested.aspx
 dsq_thread_id:
   - "271121538"
 categories:

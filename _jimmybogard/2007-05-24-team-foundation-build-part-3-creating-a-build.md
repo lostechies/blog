@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: 'Team Foundation Build, Part 3: Creating a Build'
 date: 2007-05-24T15:31:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/24/team-foundation-build-part-3-creating-a-build.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/24/team-foundation-build-part-3-creating-a-build.aspx
 dsq_thread_id:
   - "267857632"
 categories:

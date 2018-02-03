@@ -1,10 +1,10 @@
 ---
-id: 3166
+wordpress_id: 3166
 title: 'What happened to you&#8217;ve been HAACKED?'
 date: 2008-02-26T23:28:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/02/26/what-happened-to-you-ve-been-haacked.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/02/26/what-happened-to-you-ve-been-haacked.aspx
 dsq_thread_id:
   - "268123776"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 55
+wordpress_id: 55
 title: Los Techies Welcomes John Teague to the group
 date: 2008-06-03T00:03:28+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/02/los-techies-welcomes-john-teague-to-the-group.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/02/los-techies-welcomes-john-teague-to-the-group.aspx
 dsq_thread_id:
   - "422899453"
 categories:

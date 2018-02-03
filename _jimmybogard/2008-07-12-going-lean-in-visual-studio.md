@@ -1,10 +1,10 @@
 ---
-id: 204
+wordpress_id: 204
 title: Going lean in Visual Studio
 date: 2008-07-12T18:43:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/07/12/going-lean-in-visual-studio.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/07/12/going-lean-in-visual-studio.aspx
 dsq_thread_id:
   - "264715823"
 categories:

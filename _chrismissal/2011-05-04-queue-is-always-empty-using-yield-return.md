@@ -1,10 +1,10 @@
 ---
-id: 3389
+wordpress_id: 3389
 title: Queue is Always Empty Using yield return
 date: 2011-05-04T06:45:21+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=69
+wordpress_guid: http://lostechies.com/chrismissal/?p=69
 dsq_thread_id:
   - "295025056"
 categories:

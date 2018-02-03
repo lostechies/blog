@@ -1,10 +1,10 @@
 ---
-id: 3001
+wordpress_id: 3001
 title: Using MSDeploy to automate your Enterprise Application remote deployments.
 date: 2009-11-06T17:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx
+wordpress_guid: /blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx
 dsq_thread_id:
   - "262117085"
 categories:

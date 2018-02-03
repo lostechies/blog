@@ -1,10 +1,10 @@
 ---
-id: 132
+wordpress_id: 132
 title: Notes from the Austin DDD Book Club
 date: 2008-01-17T21:22:13+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/17/notes-from-the-austin-ddd-book-club.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/17/notes-from-the-austin-ddd-book-club.aspx
 dsq_thread_id:
   - "264715515"
 categories:

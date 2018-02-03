@@ -1,10 +1,10 @@
 ---
-id: 179
+wordpress_id: 179
 title: Knowing when to ask
 date: 2010-09-01T15:29:18+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/09/01/knowing-when-to-ask.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/09/01/knowing-when-to-ask.aspx
 dsq_thread_id:
   - "262269566"
 categories:

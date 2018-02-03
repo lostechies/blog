@@ -1,10 +1,10 @@
 ---
-id: 4640
+wordpress_id: 4640
 title: BDD and Parameterized testing
 date: 2008-11-19T07:58:00+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2008/11/19/context-setup-and-parameterized-testing.aspx
+wordpress_guid: /blogs/colinjack/archive/2008/11/19/context-setup-and-parameterized-testing.aspx
 categories:
   - BDD
   - TDD

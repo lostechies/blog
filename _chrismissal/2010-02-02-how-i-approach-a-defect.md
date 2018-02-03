@@ -1,10 +1,10 @@
 ---
-id: 3375
+wordpress_id: 3375
 title: How I Approach a Defect
 date: 2010-02-02T05:11:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/02/02/how-i-approach-a-defect.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/02/02/how-i-approach-a-defect.aspx
 dsq_thread_id:
   - "273269193"
 categories:

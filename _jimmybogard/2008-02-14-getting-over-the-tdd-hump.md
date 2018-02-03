@@ -1,10 +1,10 @@
 ---
-id: 141
+wordpress_id: 141
 title: Getting over the TDD hump
 date: 2008-02-14T01:31:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/13/getting-over-the-tdd-hump.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/13/getting-over-the-tdd-hump.aspx
 dsq_thread_id:
   - "264715546"
 categories:

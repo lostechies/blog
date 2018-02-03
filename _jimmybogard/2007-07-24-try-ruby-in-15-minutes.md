@@ -1,10 +1,10 @@
 ---
-id: 46
+wordpress_id: 46
 title: Try Ruby in 15 minutes
 date: 2007-07-24T19:58:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/24/try-ruby-in-15-minutes.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/24/try-ruby-in-15-minutes.aspx
 dsq_thread_id:
   - "323179167"
 categories:

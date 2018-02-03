@@ -1,10 +1,10 @@
 ---
-id: 359
+wordpress_id: 359
 title: More missing LINQ operators
 date: 2009-10-16T03:19:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/10/15/more-missing-linq-operators.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/10/15/more-missing-linq-operators.aspx
 dsq_thread_id:
   - "264827790"
 categories:

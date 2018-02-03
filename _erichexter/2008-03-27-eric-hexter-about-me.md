@@ -1,10 +1,10 @@
 ---
-id: 2943
+wordpress_id: 2943
 title: 'Eric Hexter &#8211; About Me'
 date: 2008-03-27T02:53:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/03/26/eric-hexter-about-me.aspx
+wordpress_guid: /blogs/hex/archive/2008/03/26/eric-hexter-about-me.aspx
 dsq_thread_id:
   - "525806640"
 categories:

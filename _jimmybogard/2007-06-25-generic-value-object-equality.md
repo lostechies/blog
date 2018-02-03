@@ -1,10 +1,10 @@
 ---
-id: 35
+wordpress_id: 35
 title: Generic Value Object Equality
 date: 2007-06-25T20:56:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/06/25/generic-value-object-equality.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/06/25/generic-value-object-equality.aspx
 dsq_thread_id:
   - "265411959"
 categories:

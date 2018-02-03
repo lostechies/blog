@@ -1,10 +1,10 @@
 ---
-id: 378
+wordpress_id: 378
 title: AutoMapper DSL design post-mortem
 date: 2009-12-23T05:28:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/12/23/automapper-dsl-design-post-mortem.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/12/23/automapper-dsl-design-post-mortem.aspx
 dsq_thread_id:
   - "264716384"
 categories:

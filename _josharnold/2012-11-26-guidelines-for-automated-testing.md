@@ -1,10 +1,10 @@
 ---
-id: 222
+wordpress_id: 222
 title: Guidelines for Automated Testing
 date: 2012-11-26T16:30:40+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=222
+wordpress_guid: http://lostechies.com/josharnold/?p=222
 dsq_thread_id:
   - "944914039"
 categories:

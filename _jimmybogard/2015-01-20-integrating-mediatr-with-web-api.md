@@ -1,10 +1,10 @@
 ---
-id: 1034
+wordpress_id: 1034
 title: Integrating MediatR with Web API
 date: 2015-01-20T17:25:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=1034
+wordpress_guid: http://lostechies.com/jimmybogard/?p=1034
 dsq_thread_id:
   - "3438747321"
 categories:

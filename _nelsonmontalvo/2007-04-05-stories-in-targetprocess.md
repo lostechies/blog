@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: Stories in TargetProcess
 date: 2007-04-05T01:02:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/04/04/stories-in-targetprocess.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/04/04/stories-in-targetprocess.aspx
 categories:
   - Agile
 ---

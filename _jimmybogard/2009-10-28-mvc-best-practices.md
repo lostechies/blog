@@ -1,10 +1,10 @@
 ---
-id: 364
+wordpress_id: 364
 title: MVC Best Practices
 date: 2009-10-28T12:45:26+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/10/28/mvc-best-practices.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/10/28/mvc-best-practices.aspx
 dsq_thread_id:
   - "264716326"
 categories:

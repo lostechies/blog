@@ -1,10 +1,10 @@
 ---
-id: 78
+wordpress_id: 78
 title: 'Actor Model Programming in C#'
 date: 2011-11-15T10:22:46+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=78
+wordpress_guid: http://lostechies.com/chrispatterson/?p=78
 dsq_thread_id:
   - "472803377"
 categories:

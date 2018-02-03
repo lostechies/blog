@@ -1,10 +1,10 @@
 ---
-id: 222
+wordpress_id: 222
 title: Resharper Naming Style for Machine.Specifications
 date: 2010-02-11T01:59:37+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/?p=222
+wordpress_guid: http://www.aspiringcraftsman.com/?p=222
 dsq_thread_id:
   - "317209198"
 categories:

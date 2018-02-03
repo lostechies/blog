@@ -1,10 +1,10 @@
 ---
-id: 496
+wordpress_id: 496
 title: FAKE It Till You Make It
 date: 2015-08-18T16:36:23+00:00
 author: Chris Missal
 layout: post
-guid: https://lostechies.com/chrismissal/?p=496
+wordpress_guid: https://lostechies.com/chrismissal/?p=496
 dsq_thread_id:
   - "4045174449"
 categories:

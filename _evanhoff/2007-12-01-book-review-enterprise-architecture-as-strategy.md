@@ -1,10 +1,10 @@
 ---
-id: 26
+wordpress_id: 26
 title: '[Book Review] Enterprise Architecture As Strategy'
 date: 2007-12-01T03:05:30+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/11/30/book-review-enterprise-architecture-as-strategy.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/11/30/book-review-enterprise-architecture-as-strategy.aspx
 categories:
   - Uncategorized
 ---

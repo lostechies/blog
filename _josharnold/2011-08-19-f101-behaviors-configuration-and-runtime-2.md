@@ -1,10 +1,10 @@
 ---
-id: 92
+wordpress_id: 92
 title: F101 – Behaviors, Configuration, and Runtime
 date: 2011-08-19T18:49:46+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=92
+wordpress_guid: http://lostechies.com/josharnold/?p=92
 dsq_thread_id:
   - "390864382"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 117
+wordpress_id: 117
 title: Developer personal time management
 date: 2016-01-04T20:59:44+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=117
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=117
 dsq_thread_id:
   - "4461610591"
 categories:

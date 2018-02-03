@@ -1,10 +1,10 @@
 ---
-id: 38
+wordpress_id: 38
 title: JQuery Does Not Like QuirksMode
 date: 2009-09-15T03:21:26+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/09/14/jquery-does-not-like-quirksmode.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/09/14/jquery-does-not-like-quirksmode.aspx
 dsq_thread_id:
   - "262055728"
 categories:

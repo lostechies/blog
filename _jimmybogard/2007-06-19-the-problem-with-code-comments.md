@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: The problem with code comments
 date: 2007-06-19T20:31:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/06/19/the-problem-with-code-comments.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/06/19/the-problem-with-code-comments.aspx
 dsq_thread_id:
   - "265531522"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 2956
+wordpress_id: 2956
 title: 'Warning: Using the IDataErrorInfo feature in an Asp.net MVC application should be considered a Worst Practice.'
 date: 2009-01-31T19:52:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/01/31/using-idataerrorinfo-in-an-asp-net-mvc-application-should-be-considered-worst-practice.aspx
+wordpress_guid: /blogs/hex/archive/2009/01/31/using-idataerrorinfo-in-an-asp-net-mvc-application-should-be-considered-worst-practice.aspx
 dsq_thread_id:
   - "262616922"
 categories:

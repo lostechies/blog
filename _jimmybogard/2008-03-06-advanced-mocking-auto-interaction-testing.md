@@ -1,10 +1,10 @@
 ---
-id: 152
+wordpress_id: 152
 title: 'Advanced mocking: auto-interaction testing'
 date: 2008-03-06T02:44:45+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/05/advanced-mocking-auto-interaction-testing.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/05/advanced-mocking-auto-interaction-testing.aspx
 dsq_thread_id:
   - "264715582"
 categories:

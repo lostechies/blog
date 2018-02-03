@@ -1,10 +1,10 @@
 ---
-id: 930
+wordpress_id: 930
 title: 'Workflow In Backbone Apps: Triggering View Events From DOM Events'
 date: 2012-05-15T07:04:05+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=930
+wordpress_guid: http://lostechies.com/derickbailey/?p=930
 dsq_thread_id:
   - "690363709"
 categories:

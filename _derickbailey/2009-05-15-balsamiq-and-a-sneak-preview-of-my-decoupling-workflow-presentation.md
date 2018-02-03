@@ -1,10 +1,10 @@
 ---
-id: 51
+wordpress_id: 51
 title: Balsamiq And A Sneak Preview Of My ‘Decoupling Workflow’ Presentation
 date: 2009-05-15T01:25:23+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/05/14/balsamiq-and-a-sneak-preview-of-my-decoupling-workflow-presentation.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/05/14/balsamiq-and-a-sneak-preview-of-my-decoupling-workflow-presentation.aspx
 dsq_thread_id:
   - "262068143"
 categories:

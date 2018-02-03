@@ -1,10 +1,10 @@
 ---
-id: 842
+wordpress_id: 842
 title: Null collections/arrays from MVC model binding
 date: 2013-11-07T14:24:13+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=842
+wordpress_guid: http://lostechies.com/jimmybogard/?p=842
 dsq_thread_id:
   - "1944780814"
 categories:

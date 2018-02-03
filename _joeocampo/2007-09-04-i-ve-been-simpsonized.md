@@ -1,10 +1,10 @@
 ---
-id: 48
+wordpress_id: 48
 title: 'I&#8217;ve been Simpsonized!'
 date: 2007-09-04T22:20:39+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/04/i-ve-been-simpsonized.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/04/i-ve-been-simpsonized.aspx
 categories:
   - Humor
 ---

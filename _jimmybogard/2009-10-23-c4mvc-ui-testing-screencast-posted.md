@@ -1,10 +1,10 @@
 ---
-id: 362
+wordpress_id: 362
 title: C4MVC UI Testing screencast posted
 date: 2009-10-23T01:37:41+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/10/22/c4mvc-ui-testing-screencast-posted.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/10/22/c4mvc-ui-testing-screencast-posted.aspx
 dsq_thread_id:
   - "264716323"
 categories:

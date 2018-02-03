@@ -1,10 +1,10 @@
 ---
-id: 84
+wordpress_id: 84
 title: Thoughts on MVP and WebForms
 date: 2008-08-30T03:31:35+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/08/29/thoughts-on-mvp-and-webforms.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/08/29/thoughts-on-mvp-and-webforms.aspx
 dsq_thread_id:
   - "262114010"
 categories:

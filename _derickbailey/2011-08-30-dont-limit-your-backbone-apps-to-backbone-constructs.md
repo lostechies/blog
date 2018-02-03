@@ -1,10 +1,10 @@
 ---
-id: 527
+wordpress_id: 527
 title: 'Don&#8217;t Limit Your Backbone Apps To Backbone Constructs'
 date: 2011-08-30T21:16:29+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=527
+wordpress_guid: http://lostechies.com/derickbailey/?p=527
 dsq_thread_id:
   - "400541078"
 categories:

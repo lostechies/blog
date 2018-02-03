@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: 'Castle MonoRail &#8211; Response To Comments/Ramblings'
 date: 2007-06-01T12:58:59+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/06/01/castle-monorail-response-to-comments-ramblings.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/06/01/castle-monorail-response-to-comments-ramblings.aspx
 categories:
   - Castle
   - MonoRail

@@ -1,10 +1,10 @@
 ---
-id: 19
+wordpress_id: 19
 title: 'Python Web Framework Series – Pylons: Part 6 Basic Authorization With AuthKit'
 date: 2009-07-03T12:00:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/07/03/python-web-framework-series-pylons-part-6-authentication-and-authorization-with-authkit.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/07/03/python-web-framework-series-pylons-part-6-authentication-and-authorization-with-authkit.aspx
 dsq_thread_id:
   - "425624220"
 categories:

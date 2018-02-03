@@ -1,10 +1,10 @@
 ---
-id: 4564
+wordpress_id: 4564
 title: 'Droppin&#8217; Pennies on context specs&#8230;'
 date: 2008-08-15T14:08:32+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/08/15/droppin-pennies-on-context-specs.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/08/15/droppin-pennies-on-context-specs.aspx
 categories:
   - TDD
 ---

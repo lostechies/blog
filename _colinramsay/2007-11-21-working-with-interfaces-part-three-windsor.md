@@ -1,10 +1,10 @@
 ---
-id: 4683
+wordpress_id: 4683
 title: 'Working with Interfaces Part Three &#8211; Windsor'
 date: 2007-11-21T18:00:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2007/11/21/working-with-interfaces-part-three-windsor.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2007/11/21/working-with-interfaces-part-three-windsor.aspx
 categories:
   - Uncategorized
 ---

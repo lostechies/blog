@@ -1,10 +1,10 @@
 ---
-id: 97
+wordpress_id: 97
 title: Rebooting Topshelf for Version 3
 date: 2012-07-23T10:16:41+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=97
+wordpress_guid: http://lostechies.com/chrispatterson/?p=97
 dsq_thread_id:
   - "776936112"
 categories:

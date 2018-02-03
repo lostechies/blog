@@ -1,10 +1,10 @@
 ---
-id: 382
+wordpress_id: 382
 title: Poor use of DI versus need for DI
 date: 2010-01-18T14:19:45+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/01/18/poor-use-of-di-versus-need-for-di.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/01/18/poor-use-of-di-versus-need-for-di.aspx
 dsq_thread_id:
   - "268147405"
 categories:

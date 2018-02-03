@@ -1,10 +1,10 @@
 ---
-id: 51
+wordpress_id: 51
 title: LosTechies Status
 date: 2007-09-07T11:41:00+00:00
 author: dbgreer@gmail.com
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/07/lostechies-status.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/07/lostechies-status.aspx
 categories:
   - LosTechies
 ---

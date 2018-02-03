@@ -1,10 +1,10 @@
 ---
-id: 73
+wordpress_id: 73
 title: Compiler warnings from generated code
 date: 2007-10-05T14:02:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/05/compiler-warnings-from-generated-code.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/05/compiler-warnings-from-generated-code.aspx
 dsq_thread_id:
   - "266545079"
 categories:

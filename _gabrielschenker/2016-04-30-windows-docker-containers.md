@@ -1,10 +1,10 @@
 ---
-id: 1468
+wordpress_id: 1468
 title: Windows Docker Containers
 date: 2016-04-30T23:31:48+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1468
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1468
 dsq_thread_id:
   - "4790706584"
 categories:

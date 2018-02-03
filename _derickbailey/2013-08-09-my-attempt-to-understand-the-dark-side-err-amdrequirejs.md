@@ -1,10 +1,10 @@
 ---
-id: 1140
+wordpress_id: 1140
 title: 'My attempt to understand the dark side&#8230; err&#8230; AMD/RequireJS'
 date: 2013-08-09T10:57:41+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1140
+wordpress_guid: http://lostechies.com/derickbailey/?p=1140
 dsq_thread_id:
   - "1589499851"
 categories:

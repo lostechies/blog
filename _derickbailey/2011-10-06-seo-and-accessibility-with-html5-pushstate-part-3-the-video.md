@@ -1,10 +1,10 @@
 ---
-id: 602
+wordpress_id: 602
 title: 'SEO And Accessibility With HTML5 PushState, Part 3: The Video'
 date: 2011-10-06T06:27:08+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=602
+wordpress_guid: http://lostechies.com/derickbailey/?p=602
 dsq_thread_id:
   - "435774218"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 104
+wordpress_id: 104
 title: 'Branching Strategies: When To Branch And Merge'
 date: 2010-02-24T15:18:35+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/02/24/branching-strategies-when-to-branch-and-merge.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/02/24/branching-strategies-when-to-branch-and-merge.aspx
 dsq_thread_id:
   - "262046224"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3349
+wordpress_id: 3349
 title: A Few of My Favorite Things
 date: 2009-04-21T04:02:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/04/21/a-few-of-my-favorite-things.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/04/21/a-few-of-my-favorite-things.aspx
 dsq_thread_id:
   - "262174837"
 categories:

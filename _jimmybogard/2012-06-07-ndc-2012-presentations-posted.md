@@ -1,10 +1,10 @@
 ---
-id: 632
+wordpress_id: 632
 title: NDC 2012 presentations posted
 date: 2012-06-07T15:49:57+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/06/07/ndc-2012-presentations-posted/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/06/07/ndc-2012-presentations-posted/
 dsq_thread_id:
   - "717106232"
 categories:

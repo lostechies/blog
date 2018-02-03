@@ -1,10 +1,10 @@
 ---
-id: 277
+wordpress_id: 277
 title: AutoMapper mailing list created
 date: 2009-01-29T19:52:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/01/29/automapper-mailing-list-created.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/01/29/automapper-mailing-list-created.aspx
 dsq_thread_id:
   - "264716048"
 categories:

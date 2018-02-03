@@ -1,10 +1,10 @@
 ---
-id: 186
+wordpress_id: 186
 title: Fubu Updates and Announcements
 date: 2012-11-03T15:13:25+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=186
+wordpress_guid: http://lostechies.com/josharnold/?p=186
 dsq_thread_id:
   - "912383568"
 categories:

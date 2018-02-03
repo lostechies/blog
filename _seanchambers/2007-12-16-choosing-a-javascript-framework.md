@@ -1,10 +1,10 @@
 ---
-id: 3158
+wordpress_id: 3158
 title: Choosing a JavaScript Framework
 date: 2007-12-16T13:39:57+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/12/16/choosing-a-javascript-framework.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/12/16/choosing-a-javascript-framework.aspx
 dsq_thread_id:
   - "268123756"
 categories:

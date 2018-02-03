@@ -1,10 +1,10 @@
 ---
-id: 1100
+wordpress_id: 1100
 title: 'Saga Implementation Patterns: Singleton'
 date: 2015-04-17T15:38:01+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1100
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1100
 dsq_thread_id:
   - "3689803649"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 404
+wordpress_id: 404
 title: Attribute lifecycle
 date: 2010-04-30T13:00:49+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/04/30/attribute-lifecycle.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/04/30/attribute-lifecycle.aspx
 dsq_thread_id:
   - "264716472"
 categories:

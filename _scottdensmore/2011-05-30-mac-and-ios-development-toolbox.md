@@ -1,10 +1,10 @@
 ---
-id: 4616
+wordpress_id: 4616
 title: Mac and iOS Development Toolbox
 date: 2011-05-30T22:09:03+00:00
 author: Scott Densmore
 layout: post
-guid: http://lostechies.com/scottdensmore/?p=49
+wordpress_guid: http://lostechies.com/scottdensmore/?p=49
 dsq_thread_id:
   - "318190594"
 categories:

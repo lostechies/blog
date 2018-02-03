@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: Running Microsoft Excel on a Scalable Computing Grid
 date: 2008-01-01T22:07:03+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/01/01/running-microsoft-excel-on-a-scalable-computing-grid.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/01/01/running-microsoft-excel-on-a-scalable-computing-grid.aspx
 categories:
   - Uncategorized
 ---

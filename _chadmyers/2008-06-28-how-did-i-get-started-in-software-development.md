@@ -1,10 +1,10 @@
 ---
-id: 63
+wordpress_id: 63
 title: How did I get started in software development?
 date: 2008-06-28T00:04:38+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/27/how-did-i-get-started-in-software-development.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/27/how-did-i-get-started-in-software-development.aspx
 dsq_thread_id:
   - "262113871"
 categories:

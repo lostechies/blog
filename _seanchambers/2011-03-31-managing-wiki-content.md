@@ -1,10 +1,10 @@
 ---
-id: 3230
+wordpress_id: 3230
 title: Managing Wiki content
 date: 2011-03-31T20:37:22+00:00
 author: Sean Chambers
 layout: post
-guid: http://lostechies.com/seanchambers/?p=111
+wordpress_guid: http://lostechies.com/seanchambers/?p=111
 dsq_thread_id:
   - "268019959"
 categories:

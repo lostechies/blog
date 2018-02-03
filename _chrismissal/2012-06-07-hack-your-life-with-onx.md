@@ -1,10 +1,10 @@
 ---
-id: 156
+wordpress_id: 156
 title: 'Hack Your Life with On{X}'
 date: 2012-06-07T06:42:41+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=156
+wordpress_guid: http://lostechies.com/chrismissal/?p=156
 dsq_thread_id:
   - "716862036"
 categories:

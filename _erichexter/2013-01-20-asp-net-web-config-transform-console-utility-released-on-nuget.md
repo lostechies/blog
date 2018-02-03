@@ -1,10 +1,10 @@
 ---
-id: 377
+wordpress_id: 377
 title: ASP.Net Web Config Transform Console Utility released on nuget
 date: 2013-01-20T00:01:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=377
+wordpress_guid: http://lostechies.com/erichexter/?p=377
 dsq_thread_id:
   - "1036021214"
 categories:

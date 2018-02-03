@@ -1,10 +1,10 @@
 ---
-id: 3204
+wordpress_id: 3204
 title: 'Refactoring Day 10 : Extract Method'
 date: 2009-08-10T12:30:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/10/refactoring-day-10-extract-method.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/10/refactoring-day-10-extract-method.aspx
 dsq_thread_id:
   - "262660999"
 categories:

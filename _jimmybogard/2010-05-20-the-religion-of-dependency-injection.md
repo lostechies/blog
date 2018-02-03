@@ -1,10 +1,10 @@
 ---
-id: 412
+wordpress_id: 412
 title: The religion of dependency injection
 date: 2010-05-20T13:02:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/05/20/the-religion-of-dependency-injection.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/05/20/the-religion-of-dependency-injection.aspx
 dsq_thread_id:
   - "264716492"
 categories:

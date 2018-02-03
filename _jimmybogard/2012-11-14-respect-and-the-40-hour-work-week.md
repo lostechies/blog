@@ -1,10 +1,10 @@
 ---
-id: 692
+wordpress_id: 692
 title: Respect and the 40-hour work week
 date: 2012-11-14T14:40:37+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=692
+wordpress_guid: http://lostechies.com/jimmybogard/?p=692
 dsq_thread_id:
   - "927793662"
 categories:

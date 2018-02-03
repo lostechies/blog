@@ -1,10 +1,10 @@
 ---
-id: 441
+wordpress_id: 441
 title: The Arrow Anti-pattern
 date: 2009-10-05T09:46:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2009/10/the-arrow-anti-pattern/
+wordpress_guid: http://www.aspiringcraftsman.com/2009/10/the-arrow-anti-pattern/
 dsq_thread_id:
   - "315806382"
 categories:

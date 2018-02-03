@@ -1,10 +1,10 @@
 ---
-id: 523
+wordpress_id: 523
 title: Enabling And Disabling A Button With Backbone.ModelBinding
 date: 2011-08-14T13:19:53+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=523
+wordpress_guid: http://lostechies.com/derickbailey/?p=523
 dsq_thread_id:
   - "385876575"
 categories:

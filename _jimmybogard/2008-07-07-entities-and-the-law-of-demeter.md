@@ -1,10 +1,10 @@
 ---
-id: 202
+wordpress_id: 202
 title: Entities and the Law of Demeter
 date: 2008-07-07T11:51:56+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/07/07/entities-and-the-law-of-demeter.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/07/07/entities-and-the-law-of-demeter.aspx
 dsq_thread_id:
   - "264715834"
 categories:

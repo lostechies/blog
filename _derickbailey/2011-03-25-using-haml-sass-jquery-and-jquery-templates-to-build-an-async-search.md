@@ -1,10 +1,10 @@
 ---
-id: 229
+wordpress_id: 229
 title: Using HAML, SASS, JQuery And JQuery-Templates To Build An ASync Search
 date: 2011-03-25T07:22:44+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=229
+wordpress_guid: http://lostechies.com/derickbailey/?p=229
 dsq_thread_id:
   - "262857533"
 categories:

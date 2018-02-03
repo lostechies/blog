@@ -1,10 +1,10 @@
 ---
-id: 776
+wordpress_id: 776
 title: Ditching two-phased commits
 date: 2013-05-09T01:47:34+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=776
+wordpress_guid: http://lostechies.com/jimmybogard/?p=776
 dsq_thread_id:
   - "1273771032"
 categories:

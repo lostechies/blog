@@ -1,10 +1,10 @@
 ---
-id: 4565
+wordpress_id: 4565
 title: The FUN-duh-MENTALs
 date: 2008-08-16T04:57:33+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/08/15/the-fun-duh-mentals.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/08/15/the-fun-duh-mentals.aspx
 categories:
   - Programming
 ---

@@ -1,10 +1,10 @@
 ---
-id: 1119
+wordpress_id: 1119
 title: Prototypes, Constructor Functions And Taxidermy
 date: 2013-07-29T08:25:59+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1119
+wordpress_guid: http://lostechies.com/derickbailey/?p=1119
 dsq_thread_id:
   - "1544471380"
 categories:

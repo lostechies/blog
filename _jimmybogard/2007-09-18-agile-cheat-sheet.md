@@ -1,10 +1,10 @@
 ---
-id: 63
+wordpress_id: 63
 title: Agile cheat sheet
 date: 2007-09-18T12:47:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/09/18/agile-cheat-sheet.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/09/18/agile-cheat-sheet.aspx
 dsq_thread_id:
   - "267881080"
 categories:

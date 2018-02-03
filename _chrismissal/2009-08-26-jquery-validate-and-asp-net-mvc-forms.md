@@ -1,10 +1,10 @@
 ---
-id: 3364
+wordpress_id: 3364
 title: jQuery Validation and ASP.NET MVC Forms
 date: 2009-08-26T03:48:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/08/25/jquery-validate-and-asp-net-mvc-forms.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/08/25/jquery-validate-and-asp-net-mvc-forms.aspx
 dsq_thread_id:
   - "262175000"
 categories:

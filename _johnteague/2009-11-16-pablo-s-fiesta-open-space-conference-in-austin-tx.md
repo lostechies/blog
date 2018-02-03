@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: 'Pablo’s Fiesta: Open Space Conference in Austin TX'
 date: 2009-11-16T21:36:27+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/11/16/pablo-s-fiesta-open-space-conference-in-austin-tx.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/11/16/pablo-s-fiesta-open-space-conference-in-austin-tx.aspx
 dsq_thread_id:
   - "262055724"
 categories:

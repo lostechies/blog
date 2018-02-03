@@ -1,10 +1,10 @@
 ---
-id: 1152
+wordpress_id: 1152
 title: 'C# 6 Exception Filters Will Improve Your Home Life'
 date: 2015-07-17T21:00:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1152
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1152
 dsq_thread_id:
   - "3944631390"
 categories:

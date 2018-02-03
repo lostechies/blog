@@ -1,10 +1,10 @@
 ---
-id: 126
+wordpress_id: 126
 title: 'VAN Tonight  (14-JAN-09, 9PM CST, GMT-6)'
 date: 2009-01-14T22:18:22+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/01/14/van-tonight-14-jan-09-9pm-cst-gmt-6.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/01/14/van-tonight-14-jan-09-9pm-cst-gmt-6.aspx
 dsq_thread_id:
   - "1094893372"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 389
+wordpress_id: 389
 title: The dangerous SourceTree setting
 date: 2015-02-18T10:13:30+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=389
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=389
 dsq_thread_id:
   - "3526879406"
 categories:

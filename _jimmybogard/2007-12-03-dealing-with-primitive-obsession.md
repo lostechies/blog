@@ -1,10 +1,10 @@
 ---
-id: 110
+wordpress_id: 110
 title: Dealing with primitive obsession
 date: 2007-12-03T22:42:34+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/12/03/dealing-with-primitive-obsession.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/12/03/dealing-with-primitive-obsession.aspx
 dsq_thread_id:
   - "264715458"
 categories:

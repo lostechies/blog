@@ -1,10 +1,10 @@
 ---
-id: 4638
+wordpress_id: 4638
 title: 'Biztalk and WCF &#8211; When two big beasts collide'
 date: 2008-10-28T21:35:51+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2008/10/28/biztalk-and-wcf-when-two-big-beasts-collide.aspx
+wordpress_guid: /blogs/colinjack/archive/2008/10/28/biztalk-and-wcf-when-two-big-beasts-collide.aspx
 categories:
   - Uncategorized
 ---

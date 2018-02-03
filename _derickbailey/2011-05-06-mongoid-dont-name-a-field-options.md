@@ -1,10 +1,10 @@
 ---
-id: 296
+wordpress_id: 296
 title: 'Mongoid: Don&#8217;t Name A Field :options'
 date: 2011-05-06T13:07:57+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=296
+wordpress_guid: http://lostechies.com/derickbailey/?p=296
 dsq_thread_id:
   - "297170477"
 categories:

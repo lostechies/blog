@@ -1,10 +1,10 @@
 ---
-id: 3593
+wordpress_id: 3593
 title: Managing Long-Lived Transactions with MassTransit.Saga
 date: 2008-08-29T03:48:15+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/08/28/managing-long-lived-transactions-with-masstransit-saga.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/08/28/managing-long-lived-transactions-with-masstransit-saga.aspx
 dsq_thread_id:
   - "268812530"
 categories:

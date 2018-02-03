@@ -1,10 +1,10 @@
 ---
-id: 31
+wordpress_id: 31
 title: Favor Defect Prevention Over Quality Inspection And Correction
 date: 2009-01-31T03:04:38+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/01/30/favor-defect-prevention-over-quality-inspection-and-correction.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/01/30/favor-defect-prevention-over-quality-inspection-and-correction.aspx
 dsq_thread_id:
   - "262068013"
 categories:

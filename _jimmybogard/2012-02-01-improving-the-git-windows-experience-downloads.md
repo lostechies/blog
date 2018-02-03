@@ -1,10 +1,10 @@
 ---
-id: 583
+wordpress_id: 583
 title: 'Improving the Git Windows experience: Downloads'
 date: 2012-02-01T18:22:47+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/02/01/improving-the-git-windows-experience-downloads/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/02/01/improving-the-git-windows-experience-downloads/
 dsq_thread_id:
   - "560528755"
 categories:

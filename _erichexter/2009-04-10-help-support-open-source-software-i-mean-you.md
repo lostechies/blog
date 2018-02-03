@@ -1,10 +1,10 @@
 ---
-id: 2968
+wordpress_id: 2968
 title: Help Support Open Source Software – I Mean You!
 date: 2009-04-10T03:36:50+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/04/09/help-support-open-source-software-i-mean-you.aspx
+wordpress_guid: /blogs/hex/archive/2009/04/09/help-support-open-source-software-i-mean-you.aspx
 dsq_thread_id:
   - "266049018"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 299
+wordpress_id: 299
 title: Required developer reading
 date: 2009-04-03T02:46:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/04/02/required-developer-reading.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/04/02/required-developer-reading.aspx
 dsq_thread_id:
   - "265731334"
 categories:

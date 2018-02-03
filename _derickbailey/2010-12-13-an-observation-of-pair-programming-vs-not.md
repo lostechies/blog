@@ -1,10 +1,10 @@
 ---
-id: 202
+wordpress_id: 202
 title: An Observation Of Pair Programming vs. Not
 date: 2010-12-13T23:07:21+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/12/13/an-observation-of-pair-programming-vs-not.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/12/13/an-observation-of-pair-programming-vs-not.aspx
 dsq_thread_id:
   - "262715521"
 categories:

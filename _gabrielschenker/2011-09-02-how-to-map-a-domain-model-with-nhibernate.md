@@ -1,10 +1,10 @@
 ---
-id: 61
+wordpress_id: 61
 title: How to map a domain model with NHibernate?
 date: 2011-09-02T22:06:00+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/2011/09/02/how-to-map-a-domain-model-with-nhibernate/
+wordpress_guid: http://lostechies.com/gabrielschenker/2011/09/02/how-to-map-a-domain-model-with-nhibernate/
 dsq_thread_id:
   - "403360420"
 categories:

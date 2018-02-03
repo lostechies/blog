@@ -1,10 +1,10 @@
 ---
-id: 1735
+wordpress_id: 1735
 title: Bulk Delete Queues in AWS
 date: 2016-09-26T08:13:56+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1735
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1735
 dsq_thread_id:
   - "5174711955"
 categories:

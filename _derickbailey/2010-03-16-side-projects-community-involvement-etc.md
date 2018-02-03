@@ -1,10 +1,10 @@
 ---
-id: 115
+wordpress_id: 115
 title: Side Projects, Community Involvement, Etc.
 date: 2010-03-16T16:03:18+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/16/side-projects-community-involvement-etc.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/16/side-projects-community-involvement-etc.aspx
 dsq_thread_id:
   - "266581012"
 categories:

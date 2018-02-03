@@ -1,10 +1,10 @@
 ---
-id: 3873
+wordpress_id: 3873
 title: Your nerd is showing
 date: 2014-07-14T08:40:46+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=262
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=262
 dsq_thread_id:
   - "2842564255"
 categories:

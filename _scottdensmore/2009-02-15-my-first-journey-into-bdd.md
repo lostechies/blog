@@ -1,10 +1,10 @@
 ---
-id: 4605
+wordpress_id: 4605
 title: My First Journey into BDD
 date: 2009-02-15T16:22:00+00:00
 author: Scott Densmore
 layout: post
-guid: /blogs/scottdensmore/archive/2009/02/15/my-first-journey-into-bdd.aspx
+wordpress_guid: /blogs/scottdensmore/archive/2009/02/15/my-first-journey-into-bdd.aspx
 dsq_thread_id:
   - "273024915"
 categories:

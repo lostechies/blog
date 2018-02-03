@@ -1,10 +1,10 @@
 ---
-id: 305
+wordpress_id: 305
 title: 'AutoMapper feature: interfaces and dynamic mapping'
 date: 2009-04-15T02:39:58+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/04/14/automapper-feature-interfaces-and-dynamic-mapping.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/04/14/automapper-feature-interfaces-and-dynamic-mapping.aspx
 dsq_thread_id:
   - "264716117"
 categories:

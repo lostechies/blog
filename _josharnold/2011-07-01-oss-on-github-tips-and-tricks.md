@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: 'OSS on Github &#8211; Tips and Tricks'
 date: 2011-07-01T16:38:43+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=7
+wordpress_guid: http://lostechies.com/josharnold/?p=7
 dsq_thread_id:
   - "347261839"
 categories:

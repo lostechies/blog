@@ -1,10 +1,10 @@
 ---
-id: 62
+wordpress_id: 62
 title: How did I get started in software development?
 date: 2008-06-27T04:06:58+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2008/06/27/how-did-i-get-started-in-software-development.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2008/06/27/how-did-i-get-started-in-software-development.aspx
 categories:
   - Personal
 ---

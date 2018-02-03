@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: Fubu, Spark, Diagnostics, and Validation
 date: 2011-07-05T15:28:15+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=14
+wordpress_guid: http://lostechies.com/josharnold/?p=14
 dsq_thread_id:
   - "350165527"
 categories:

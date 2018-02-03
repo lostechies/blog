@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: 'Team Foundation Build, Part 2: Installation and Configuration'
 date: 2007-05-23T15:15:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/23/team-foundation-build-part-2-installation-and-configuration.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/23/team-foundation-build-part-2-installation-and-configuration.aspx
 dsq_thread_id:
   - "279205361"
 categories:

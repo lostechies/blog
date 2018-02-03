@@ -1,10 +1,10 @@
 ---
-id: 57
+wordpress_id: 57
 title: Introducing ActiveSupport.NET
 date: 2008-02-07T19:20:52+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2008/02/07/introducing-activesupport-net.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2008/02/07/introducing-activesupport-net.aspx
 categories:
   - 'C#'
   - Rails

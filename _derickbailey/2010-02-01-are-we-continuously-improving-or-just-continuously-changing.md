@@ -1,10 +1,10 @@
 ---
-id: 100
+wordpress_id: 100
 title: Are We Continuously Improving Or Just Continuously Changing?
 date: 2010-02-01T23:14:07+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/02/01/are-we-continuously-improving-or-just-continuously-changing.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/02/01/are-we-continuously-improving-or-just-continuously-changing.aspx
 dsq_thread_id:
   - "262068400"
 categories:

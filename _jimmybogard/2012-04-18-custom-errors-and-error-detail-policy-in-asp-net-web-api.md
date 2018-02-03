@@ -1,10 +1,10 @@
 ---
-id: 624
+wordpress_id: 624
 title: Custom errors and error detail policy in ASP.NET Web API
 date: 2012-04-18T15:33:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/04/18/custom-errors-and-error-detail-policy-in-asp-net-web-api/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/04/18/custom-errors-and-error-detail-policy-in-asp-net-web-api/
 dsq_thread_id:
   - "654760139"
 categories:

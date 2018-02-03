@@ -1,10 +1,10 @@
 ---
-id: 118
+wordpress_id: 118
 title: My Quick Take On Oxite
 date: 2008-12-16T03:37:00+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/12/15/my-quick-take-on-oxite.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/12/15/my-quick-take-on-oxite.aspx
 dsq_thread_id:
   - "262114233"
 categories:

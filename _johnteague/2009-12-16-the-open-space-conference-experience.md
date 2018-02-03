@@ -1,10 +1,10 @@
 ---
-id: 41
+wordpress_id: 41
 title: The Open Space Conference Experience
 date: 2009-12-16T05:30:32+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/12/16/the-open-space-conference-experience.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/12/16/the-open-space-conference-experience.aspx
 dsq_thread_id:
   - "262055759"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 696
+wordpress_id: 696
 title: 'IKEA stand up desk: two months later'
 date: 2012-11-20T21:21:40+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=696
+wordpress_guid: http://lostechies.com/jimmybogard/?p=696
 dsq_thread_id:
   - "936684089"
 categories:

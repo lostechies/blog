@@ -1,10 +1,10 @@
 ---
-id: 4212
+wordpress_id: 4212
 title: '&#8220;Refactoring&#8221; Notes'
 date: 2010-07-09T04:10:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/07/09/quot-refactoring-quot-notes.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/07/09/quot-refactoring-quot-notes.aspx
 dsq_thread_id:
   - "266640156"
 categories:

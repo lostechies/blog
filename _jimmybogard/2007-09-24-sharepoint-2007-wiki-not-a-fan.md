@@ -1,10 +1,10 @@
 ---
-id: 65
+wordpress_id: 65
 title: 'SharePoint 2007 Wiki &#8211; not a fan'
 date: 2007-09-24T18:09:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/09/24/sharepoint-2007-wiki-not-a-fan.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/09/24/sharepoint-2007-wiki-not-a-fan.aspx
 dsq_thread_id:
   - "266936929"
 categories:

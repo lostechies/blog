@@ -1,10 +1,10 @@
 ---
-id: 1121
+wordpress_id: 1121
 title: 'End-to-End Hypermedia: Making the Leap'
 date: 2015-05-19T15:26:40+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1121
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1121
 dsq_thread_id:
   - "3777079405"
 categories:

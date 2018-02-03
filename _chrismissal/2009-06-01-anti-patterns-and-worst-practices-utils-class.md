@@ -1,10 +1,10 @@
 ---
-id: 3356
+wordpress_id: 3356
 title: Anti-Patterns and Worst Practices – Utils Class
 date: 2009-06-01T12:36:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/06/01/anti-patterns-and-worst-practices-utils-class.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/06/01/anti-patterns-and-worst-practices-utils-class.aspx
 dsq_thread_id:
   - "262156862"
 categories:

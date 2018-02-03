@@ -1,10 +1,10 @@
 ---
-id: 64
+wordpress_id: 64
 title: Two things worth noting today
 date: 2008-06-28T17:23:40+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/28/two-things-worth-noting-today.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/28/two-things-worth-noting-today.aspx
 dsq_thread_id:
   - "262113917"
 categories:

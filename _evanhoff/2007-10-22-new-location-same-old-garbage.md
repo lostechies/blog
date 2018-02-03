@@ -1,10 +1,10 @@
 ---
-id: 10
+wordpress_id: 10
 title: New Location, Same Old Garbage
 date: 2007-10-22T23:25:51+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/22/new-location-same-old-garbage.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/22/new-location-same-old-garbage.aspx
 categories:
   - Uncategorized
 ---

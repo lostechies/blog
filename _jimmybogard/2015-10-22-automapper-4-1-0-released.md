@@ -1,10 +1,10 @@
 ---
-id: 1161
+wordpress_id: 1161
 title: AutoMapper 4.1.0 Released
 date: 2015-10-22T03:10:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1161
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1161
 dsq_thread_id:
   - "4247521984"
 categories:

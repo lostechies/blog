@@ -1,10 +1,10 @@
 ---
-id: 47
+wordpress_id: 47
 title: Two Code Camps Last Month
 date: 2010-06-01T05:44:53+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2010/06/01/two-code-camps-last-month.aspx
+wordpress_guid: /blogs/johnteague/archive/2010/06/01/two-code-camps-last-month.aspx
 dsq_thread_id:
   - "270208342"
 categories:

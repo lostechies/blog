@@ -1,10 +1,10 @@
 ---
-id: 220
+wordpress_id: 220
 title: DDD, Repositories and ORMs
 date: 2008-08-20T02:31:22+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/19/ddd-repositories-and-orms.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/19/ddd-repositories-and-orms.aspx
 dsq_thread_id:
   - "264715868"
 categories:

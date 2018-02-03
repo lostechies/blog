@@ -1,10 +1,10 @@
 ---
-id: 1142
+wordpress_id: 1142
 title: Inject Add-Ons And Plugins With RequireJS, Non-AMD Libraries And Shims
 date: 2013-08-09T11:22:03+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1142
+wordpress_guid: http://lostechies.com/derickbailey/?p=1142
 dsq_thread_id:
   - "1589566127"
 categories:

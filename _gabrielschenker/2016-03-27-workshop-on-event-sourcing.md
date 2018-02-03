@@ -1,10 +1,10 @@
 ---
-id: 1287
+wordpress_id: 1287
 title: Workshop on Event Sourcing
 date: 2016-03-27T13:11:00+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1287
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1287
 dsq_thread_id:
   - "4697912648"
 categories:

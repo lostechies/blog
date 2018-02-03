@@ -1,10 +1,10 @@
 ---
-id: 3371
+wordpress_id: 3371
 title: Chris’ Year in Review 2009
 date: 2009-12-22T03:28:19+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/12/21/chris-year-in-review-2009.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/12/21/chris-year-in-review-2009.aspx
 dsq_thread_id:
   - "262175069"
 categories:

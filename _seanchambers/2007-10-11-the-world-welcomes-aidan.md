@@ -1,10 +1,10 @@
 ---
-id: 3144
+wordpress_id: 3144
 title: The world welcomes Aidan!
 date: 2007-10-11T15:51:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/10/11/the-world-welcomes-aidan.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/10/11/the-world-welcomes-aidan.aspx
 dsq_thread_id:
   - "268123705"
 categories:

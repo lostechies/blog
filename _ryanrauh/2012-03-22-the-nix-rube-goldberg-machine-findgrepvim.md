@@ -1,10 +1,10 @@
 ---
-id: 118
+wordpress_id: 118
 title: 'The *nix Rube Goldberg Machine &#8211; find/grep/vim'
 date: 2012-03-22T21:39:02+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=118
+wordpress_guid: http://lostechies.com/ryanrauh/?p=118
 dsq_thread_id:
   - "621120827"
 categories:

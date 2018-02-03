@@ -1,10 +1,10 @@
 ---
-id: 3156
+wordpress_id: 3156
 title: Phil Haack posts about ASP.NET MVC
 date: 2007-12-08T19:59:37+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/12/08/phil-haack-posts-about-asp-net-mvc.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/12/08/phil-haack-posts-about-asp-net-mvc.aspx
 dsq_thread_id:
   - "265806002"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 518
+wordpress_id: 518
 title: Integrating Toto and a Sinatra app in 10 steps
 date: 2011-08-25T03:20:58+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=518
+wordpress_guid: http://lostechies.com/jimmybogard/?p=518
 dsq_thread_id:
   - "395597142"
 categories:

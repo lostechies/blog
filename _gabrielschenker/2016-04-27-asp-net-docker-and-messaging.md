@@ -1,10 +1,10 @@
 ---
-id: 1447
+wordpress_id: 1447
 title: ASP.NET, Docker and Messaging
 date: 2016-04-27T09:39:11+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1447
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1447
 dsq_thread_id:
   - "4781386263"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4730
+wordpress_id: 4730
 title: 'Simple NHibernate Example, Part 2&#8230;, the &#8220;Issue&#8221; of Identity'
 date: 2007-03-22T16:36:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/03/22/simple-nhibernate-example-part-2-the-issue-of-identity.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/22/simple-nhibernate-example-part-2-the-issue-of-identity.aspx
 categories:
   - NHibernate
 ---

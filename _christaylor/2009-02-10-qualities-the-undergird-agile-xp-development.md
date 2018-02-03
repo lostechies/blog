@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: Qualities that Undergird Agile/XP Development
 date: 2009-02-10T12:11:00+00:00
 author: Chris Taylor
 layout: post
-guid: /blogs/agilecruz/archive/2009/02/10/qualities-the-undergird-agile-xp-development.aspx
+wordpress_guid: /blogs/agilecruz/archive/2009/02/10/qualities-the-undergird-agile-xp-development.aspx
 categories:
   - Agile Development
   - Extreme Programming

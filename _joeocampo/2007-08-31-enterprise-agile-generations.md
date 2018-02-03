@@ -1,10 +1,10 @@
 ---
-id: 45
+wordpress_id: 45
 title: Enterprise Agile Generations
 date: 2007-08-31T02:57:54+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/08/30/enterprise-agile-generations.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/08/30/enterprise-agile-generations.aspx
 dsq_thread_id:
   - "262088549"
 categories:

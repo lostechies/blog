@@ -1,10 +1,10 @@
 ---
-id: 4791
+wordpress_id: 4791
 title: Los Techies Fiesta Invitation
 date: 2010-02-18T17:37:00+00:00
 author: Gregory Long
 layout: post
-guid: /blogs/thatotherguy/archive/2010/02/18/los-techies-fiesta-invitation.aspx
+wordpress_guid: /blogs/thatotherguy/archive/2010/02/18/los-techies-fiesta-invitation.aspx
 dsq_thread_id:
   - "270029640"
 categories:

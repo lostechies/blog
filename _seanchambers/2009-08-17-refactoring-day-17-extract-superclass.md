@@ -1,10 +1,10 @@
 ---
-id: 3211
+wordpress_id: 3211
 title: 'Refactoring Day 17 : Extract Superclass'
 date: 2009-08-17T15:00:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/17/refactoring-day-17-extract-superclass.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/17/refactoring-day-17-extract-superclass.aspx
 dsq_thread_id:
   - "262352974"
 categories:

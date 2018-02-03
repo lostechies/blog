@@ -1,10 +1,10 @@
 ---
-id: 361
+wordpress_id: 361
 title: C4MVC meeting on UI testing
 date: 2009-10-21T13:38:41+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/10/21/c4mvc-meeting-on-ui-testing.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/10/21/c4mvc-meeting-on-ui-testing.aspx
 dsq_thread_id:
   - "264716332"
 categories:

@@ -27,3 +27,4 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "jekyll-redirect-from", "~> 0.12.1"
 
+gem 'wdm', '>= 0.1.0'

@@ -1,10 +1,10 @@
 ---
-id: 4202
+wordpress_id: 4202
 title: Selecting Static Results with Dynamic LINQ
 date: 2010-01-23T07:05:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/01/23/selecting-static-results-with-dynamic-linq.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/01/23/selecting-static-results-with-dynamic-linq.aspx
 dsq_thread_id:
   - "263148640"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 221
+wordpress_id: 221
 title: Services in Domain-Driven Design
 date: 2008-08-21T12:07:24+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/21/services-in-domain-driven-design.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/21/services-in-domain-driven-design.aspx
 dsq_thread_id:
   - "264779568"
 categories:

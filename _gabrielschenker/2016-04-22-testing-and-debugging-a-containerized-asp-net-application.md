@@ -1,10 +1,10 @@
 ---
-id: 1417
+wordpress_id: 1417
 title: Testing and debugging a containerized ASP.NET application
 date: 2016-04-22T14:52:43+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1417
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1417
 dsq_thread_id:
   - "4768820694"
 categories:

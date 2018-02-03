@@ -1,10 +1,10 @@
 ---
-id: 4477
+wordpress_id: 4477
 title: Using Fluent NHibernate With Legacy Databases
 date: 2010-06-29T13:02:00+00:00
 author: Rod Paddock
 layout: post
-guid: /blogs/rodpaddock/archive/2010/06/29/using-fluent-nhibernate-with-legacy-databases.aspx
+wordpress_guid: /blogs/rodpaddock/archive/2010/06/29/using-fluent-nhibernate-with-legacy-databases.aspx
 dsq_thread_id:
   - "263003367"
 categories:

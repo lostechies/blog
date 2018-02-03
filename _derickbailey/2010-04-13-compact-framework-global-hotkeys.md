@@ -1,10 +1,10 @@
 ---
-id: 137
+wordpress_id: 137
 title: 'Compact Framework: Global Hotkeys'
 date: 2010-04-13T17:27:45+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/13/compact-framework-global-hotkeys.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/13/compact-framework-global-hotkeys.aspx
 dsq_thread_id:
   - "264745023"
 categories:

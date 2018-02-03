@@ -1,10 +1,10 @@
 ---
-id: 2993
+wordpress_id: 2993
 title: 'Continuous Database Integration &#8211; video'
 date: 2009-09-17T19:50:53+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/09/17/continuous-database-integration-video.aspx
+wordpress_guid: /blogs/hex/archive/2009/09/17/continuous-database-integration-video.aspx
 dsq_thread_id:
   - "264966970"
 categories:

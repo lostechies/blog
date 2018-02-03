@@ -1,10 +1,10 @@
 ---
-id: 58
+wordpress_id: 58
 title: More on Quality
 date: 2008-06-07T14:37:56+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/07/more-on-quality.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/07/more-on-quality.aspx
 dsq_thread_id:
   - "262113851"
 categories:

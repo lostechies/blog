@@ -1,10 +1,10 @@
 ---
-id: 77
+wordpress_id: 77
 title: 'Vlad, RVM and Bundler sittin&#8217; in a tree'
 date: 2010-09-17T05:21:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2010/09/17/vlad-rvm-and-bundler-sittin-in-a-tree.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2010/09/17/vlad-rvm-and-bundler-sittin-in-a-tree.aspx
 categories:
   - Bundler
   - Deployment

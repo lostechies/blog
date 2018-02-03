@@ -1,10 +1,10 @@
 ---
-id: 53
+wordpress_id: 53
 title: Ruminations on Self-examination
 date: 2008-05-25T02:50:55+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/05/24/ruminations-on-self-examination.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/05/24/ruminations-on-self-examination.aspx
 dsq_thread_id:
   - "262113832"
 categories:

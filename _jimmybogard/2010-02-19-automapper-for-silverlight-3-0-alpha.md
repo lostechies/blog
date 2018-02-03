@@ -1,10 +1,10 @@
 ---
-id: 390
+wordpress_id: 390
 title: AutoMapper for Silverlight 3.0 Alpha
 date: 2010-02-19T02:31:27+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/02/18/automapper-for-silverlight-3-0-alpha.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/02/18/automapper-for-silverlight-3-0-alpha.aspx
 dsq_thread_id:
   - "264716422"
 categories:

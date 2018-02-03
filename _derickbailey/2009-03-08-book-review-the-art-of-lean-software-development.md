@@ -1,10 +1,10 @@
 ---
-id: 41
+wordpress_id: 41
 title: 'Book Review: The Art of Lean Software Development'
 date: 2009-03-08T21:05:57+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/03/08/book-review-the-art-of-lean-software-development.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/03/08/book-review-the-art-of-lean-software-development.aspx
 dsq_thread_id:
   - "267399013"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 543
+wordpress_id: 543
 title: Resources For, And How I Learned Backbone.js
 date: 2011-09-13T19:54:47+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=543
+wordpress_guid: http://lostechies.com/derickbailey/?p=543
 dsq_thread_id:
   - "413864496"
 categories:

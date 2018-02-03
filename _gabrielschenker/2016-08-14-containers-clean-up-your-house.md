@@ -1,10 +1,10 @@
 ---
-id: 1632
+wordpress_id: 1632
 title: 'Containers &#8211; Clean up your House'
 date: 2016-08-14T16:07:27+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1632
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1632
 dsq_thread_id:
   - "5065969300"
 categories:

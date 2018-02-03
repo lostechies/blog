@@ -1,10 +1,10 @@
 ---
-id: 251
+wordpress_id: 251
 title: SystemTime versus ISystemClock – dependencies revisited
 date: 2008-11-09T18:11:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/09/systemtime-versus-isystemclock-dependencies-revisited.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/09/systemtime-versus-isystemclock-dependencies-revisited.aspx
 dsq_thread_id:
   - "264851397"
 categories:

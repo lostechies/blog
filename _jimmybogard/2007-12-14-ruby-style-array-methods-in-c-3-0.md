@@ -1,10 +1,10 @@
 ---
-id: 113
+wordpress_id: 113
 title: 'Ruby-style Array methods in C# 3.0'
 date: 2007-12-14T21:12:06+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/12/14/ruby-style-array-methods-in-c-3-0.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/12/14/ruby-style-array-methods-in-c-3-0.aspx
 dsq_thread_id:
   - "264715462"
 categories:

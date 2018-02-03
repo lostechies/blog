@@ -1,10 +1,10 @@
 ---
-id: 4566
+wordpress_id: 4566
 title: 'Glamma&#8217;s and Friends'
 date: 2008-09-04T02:00:15+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/09/03/glamma-s-and-friends.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/09/03/glamma-s-and-friends.aspx
 categories:
   - Community
 ---

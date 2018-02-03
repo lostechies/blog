@@ -1,10 +1,10 @@
 ---
-id: 428
+wordpress_id: 428
 title: An effective testing strategy
 date: 2010-08-25T03:15:45+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/08/24/an-effective-testing-strategy.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/08/24/an-effective-testing-strategy.aspx
 dsq_thread_id:
   - "264716557"
 categories:

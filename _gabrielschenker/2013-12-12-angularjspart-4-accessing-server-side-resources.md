@@ -1,10 +1,10 @@
 ---
-id: 327
+wordpress_id: 327
 title: AngularJS–Part 4, Accessing server side resources
 date: 2013-12-12T22:19:17+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=327
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=327
 dsq_thread_id:
   - "2047243793"
 categories:

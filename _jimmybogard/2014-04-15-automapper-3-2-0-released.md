@@ -1,10 +1,10 @@
 ---
-id: 895
+wordpress_id: 895
 title: AutoMapper 3.2.0 released
 date: 2014-04-15T13:28:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=895
+wordpress_guid: http://lostechies.com/jimmybogard/?p=895
 dsq_thread_id:
   - "2613470693"
 categories:

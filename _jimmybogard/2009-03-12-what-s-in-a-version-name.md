@@ -1,10 +1,10 @@
 ---
-id: 293
+wordpress_id: 293
 title: What’s in a version name?
 date: 2009-03-12T02:54:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/03/11/what-s-in-a-version-name.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/03/11/what-s-in-a-version-name.aspx
 dsq_thread_id:
   - "265778961"
 categories:

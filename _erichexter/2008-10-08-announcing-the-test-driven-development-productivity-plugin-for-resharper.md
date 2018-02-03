@@ -1,10 +1,10 @@
 ---
-id: 2954
+wordpress_id: 2954
 title: 'Announcing the  Test Driven Development Productivity Plugin for Resharper'
 date: 2008-10-08T01:28:31+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/10/07/announcing-the-test-driven-development-productivity-plugin-for-resharper.aspx
+wordpress_guid: /blogs/hex/archive/2008/10/07/announcing-the-test-driven-development-productivity-plugin-for-resharper.aspx
 dsq_thread_id:
   - "263492713"
 categories:

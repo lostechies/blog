@@ -1,10 +1,10 @@
 ---
-id: 3385
+wordpress_id: 3385
 title: Quirk with Invalid Git Config
 date: 2010-12-23T00:34:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/12/22/quirk-with-invalid-git-config.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/12/22/quirk-with-invalid-git-config.aspx
 dsq_thread_id:
   - "262175209"
 categories:

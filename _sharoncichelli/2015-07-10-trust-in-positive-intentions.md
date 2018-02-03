@@ -1,10 +1,10 @@
 ---
-id: 401
+wordpress_id: 401
 title: Trust in Positive Intentions
 date: 2015-07-10T08:21:46+00:00
 author: Sharon Cichelli
 layout: post
-guid: https://lostechies.com/sharoncichelli/?p=401
+wordpress_guid: https://lostechies.com/sharoncichelli/?p=401
 dsq_thread_id:
   - "3921541264"
 categories:

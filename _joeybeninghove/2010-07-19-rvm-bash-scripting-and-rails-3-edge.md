@@ -1,10 +1,10 @@
 ---
-id: 76
+wordpress_id: 76
 title: RVM, Bash Scripting and Rails 3 Edge
 date: 2010-07-19T20:34:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2010/07/19/rvm-bash-scripting-and-rails-3-edge.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2010/07/19/rvm-bash-scripting-and-rails-3-edge.aspx
 categories:
   - automation
   - bash

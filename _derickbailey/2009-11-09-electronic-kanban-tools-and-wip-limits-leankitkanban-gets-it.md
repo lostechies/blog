@@ -1,10 +1,10 @@
 ---
-id: 93
+wordpress_id: 93
 title: 'Electronic Kanban Tools and WIP Limits: LeanKitKanban and AgileZen Get It!'
 date: 2009-11-09T17:55:24+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/11/09/electronic-kanban-tools-and-wip-limits-leankitkanban-gets-it.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/11/09/electronic-kanban-tools-and-wip-limits-leankitkanban-gets-it.aspx
 dsq_thread_id:
   - "262068373"
 categories:

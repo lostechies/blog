@@ -1,10 +1,10 @@
 ---
-id: 554
+wordpress_id: 554
 title: Stop premature email sending with NServiceBus
 date: 2011-11-22T18:53:20+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/11/22/stop-premature-email-sending-with-nservicebus/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/11/22/stop-premature-email-sending-with-nservicebus/
 dsq_thread_id:
   - "480580613"
 categories:

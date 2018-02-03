@@ -1,10 +1,10 @@
 ---
-id: 62
+wordpress_id: 62
 title: 'Cloning Or Converting Linux VM From VMWare Workstation To ESX Server: ETH0 Gone. ETH1 Available?'
 date: 2009-06-20T18:57:01+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/06/20/cloning-or-converting-linux-vm-from-vmware-workstation-to-esx-server-eth0-gone-eth1-available.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/06/20/cloning-or-converting-linux-vm-from-vmware-workstation-to-esx-server-eth0-gone-eth1-available.aspx
 dsq_thread_id:
   - "262068230"
 categories:

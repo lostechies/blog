@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: 'PTOM: The Liskov Substitution Principle'
 date: 2008-03-12T03:57:00+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/03/11/ptom-the-liskov-substitution-principle.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/03/11/ptom-the-liskov-substitution-principle.aspx
 dsq_thread_id:
   - "262113727"
 categories:

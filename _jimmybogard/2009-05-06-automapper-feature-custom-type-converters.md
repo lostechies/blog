@@ -1,10 +1,10 @@
 ---
-id: 309
+wordpress_id: 309
 title: AutoMapper feature – custom type converters
 date: 2009-05-06T01:57:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/05/05/automapper-feature-custom-type-converters.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/05/05/automapper-feature-custom-type-converters.aspx
 dsq_thread_id:
   - "264716130"
 categories:

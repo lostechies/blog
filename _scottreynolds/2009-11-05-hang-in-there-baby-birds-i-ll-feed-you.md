@@ -1,10 +1,10 @@
 ---
-id: 4056
+wordpress_id: 4056
 title: 'Hang in there baby birds, I&#8217;ll feed you'
 date: 2009-11-05T20:19:29+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/11/05/hang-in-there-baby-birds-i-ll-feed-you.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/11/05/hang-in-there-baby-birds-i-ll-feed-you.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 58
+wordpress_id: 58
 title: Violating CQS. Looking For Suggestions And Alternatives.
 date: 2009-06-05T18:50:32+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/06/05/violating-cqs-looking-for-suggestions-and-alternatives.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/06/05/violating-cqs-looking-for-suggestions-and-alternatives.aspx
 dsq_thread_id:
   - "262068197"
 categories:

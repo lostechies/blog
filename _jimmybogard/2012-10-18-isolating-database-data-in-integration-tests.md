@@ -1,10 +1,10 @@
 ---
-id: 678
+wordpress_id: 678
 title: Isolating database data in integration tests
 date: 2012-10-18T19:50:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/10/18/isolating-database-data-in-integration-tests/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/10/18/isolating-database-data-in-integration-tests/
 dsq_thread_id:
   - "890740413"
 categories:

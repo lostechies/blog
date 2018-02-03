@@ -1,10 +1,10 @@
 ---
-id: 3857
+wordpress_id: 3857
 title: Cooking Up a Good Template Method
 date: 2009-08-29T16:53:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2009/08/29/cooking-up-a-good-template-method.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2009/08/29/cooking-up-a-good-template-method.aspx
 dsq_thread_id:
   - "263370911"
 categories:

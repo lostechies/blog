@@ -1,10 +1,10 @@
 ---
-id: 165
+wordpress_id: 165
 title: Health, Accountability and Technology
 date: 2010-05-28T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/28/health-accountability-and-technology.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/28/health-accountability-and-technology.aspx
 dsq_thread_id:
   - "265801122"
 categories:

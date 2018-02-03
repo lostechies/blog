@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: Context/Spec style testing and my approach to BDD
 date: 2009-05-22T00:21:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/05/21/context-spec-style-testing-and-my-approach-to-bdd.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/05/21/context-spec-style-testing-and-my-approach-to-bdd.aspx
 dsq_thread_id:
   - "425624133"
 categories:

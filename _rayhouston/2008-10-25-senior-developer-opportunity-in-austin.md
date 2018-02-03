@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: Senior Developer Opportunity in Austin
 date: 2008-10-25T13:26:40+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/10/25/senior-developer-opportunity-in-austin.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/10/25/senior-developer-opportunity-in-austin.aspx
 categories:
   - Uncategorized
 ---

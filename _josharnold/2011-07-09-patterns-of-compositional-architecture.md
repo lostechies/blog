@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: Patterns of Compositional Architecture
 date: 2011-07-09T21:01:13+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=18
+wordpress_guid: http://lostechies.com/josharnold/?p=18
 dsq_thread_id:
   - "354134243"
 categories:

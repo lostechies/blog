@@ -1,10 +1,10 @@
 ---
-id: 1542
+wordpress_id: 1542
 title: 'DockerCon 2016 &#8211; Day of Arrival'
 date: 2016-06-19T14:18:58+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1542
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1542
 dsq_thread_id:
   - "4923136630"
 categories:

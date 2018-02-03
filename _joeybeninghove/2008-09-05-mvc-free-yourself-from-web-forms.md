@@ -1,10 +1,10 @@
 ---
-id: 63
+wordpress_id: 63
 title: 'MVC &#8211; Free Yourself from Web Forms!'
 date: 2008-09-05T13:13:41+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2008/09/05/mvc-free-yourself-from-web-forms.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2008/09/05/mvc-free-yourself-from-web-forms.aspx
 categories:
   - Presentations
 ---

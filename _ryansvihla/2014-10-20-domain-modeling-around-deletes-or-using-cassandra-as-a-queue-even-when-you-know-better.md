@@ -1,10 +1,10 @@
 ---
-id: 156
+wordpress_id: 156
 title: 'Domain Modeling Around Deletes or &#8220;Using Cassandra as a queue even when you know better&#8221;'
 date: 2014-10-20T12:30:15+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=156
+wordpress_guid: http://lostechies.com/ryansvihla/?p=156
 dsq_thread_id:
   - "3137323790"
 categories:

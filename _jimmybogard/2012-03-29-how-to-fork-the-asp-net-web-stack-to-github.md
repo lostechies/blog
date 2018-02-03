@@ -1,10 +1,10 @@
 ---
-id: 609
+wordpress_id: 609
 title: How to fork the ASP.NET Web Stack to GitHub
 date: 2012-03-29T13:26:18+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/03/29/how-to-fork-the-asp-net-web-stack-to-github/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/03/29/how-to-fork-the-asp-net-web-stack-to-github/
 dsq_thread_id:
   - "628744211"
 categories:

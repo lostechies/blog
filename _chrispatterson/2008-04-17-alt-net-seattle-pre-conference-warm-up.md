@@ -1,10 +1,10 @@
 ---
-id: 3586
+wordpress_id: 3586
 title: ALT.NET Seattle Pre-Conference Warm Up
 date: 2008-04-17T05:21:20+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/04/17/alt-net-seattle-pre-conference-warm-up.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/04/17/alt-net-seattle-pre-conference-warm-up.aspx
 dsq_thread_id:
   - "276377720"
 categories:

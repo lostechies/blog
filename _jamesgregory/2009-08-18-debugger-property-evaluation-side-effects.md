@@ -1,10 +1,10 @@
 ---
-id: 4499
+wordpress_id: 4499
 title: Preventing debugger property evaluation for side-effect laden properties
 date: 2009-08-18T11:15:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2009/08/18/debugger-property-evaluation-side-effects.aspx
+wordpress_guid: /blogs/jagregory/archive/2009/08/18/debugger-property-evaluation-side-effects.aspx
 dsq_thread_id:
   - "293292364"
 categories:

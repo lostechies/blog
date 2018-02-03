@@ -1,10 +1,10 @@
 ---
-id: 4644
+wordpress_id: 4644
 title: 'P&#038;P Guidance &#8211; Positive Progress'
 date: 2009-02-08T13:39:00+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/02/08/p-amp-p-guidance-positive-progress.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/02/08/p-amp-p-guidance-positive-progress.aspx
 categories:
   - ALT.NET
   - DDD

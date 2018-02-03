@@ -1,10 +1,10 @@
 ---
-id: 142
+wordpress_id: 142
 title: 'Form Management: Tight Or Incorrect Coupling Can Cause Hard To Find Bugs'
 date: 2010-04-19T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/19/form-management-tight-or-incorrect-coupling-can-cause-hard-to-find-bugs.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/19/form-management-tight-or-incorrect-coupling-can-cause-hard-to-find-bugs.aspx
 dsq_thread_id:
   - "262068624"
 categories:

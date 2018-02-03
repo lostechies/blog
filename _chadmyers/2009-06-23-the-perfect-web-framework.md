@@ -1,10 +1,10 @@
 ---
-id: 148
+wordpress_id: 148
 title: The Perfect Web Framework
 date: 2009-06-23T05:32:26+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/06/23/the-perfect-web-framework.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/06/23/the-perfect-web-framework.aspx
 dsq_thread_id:
   - "262114423"
 categories:

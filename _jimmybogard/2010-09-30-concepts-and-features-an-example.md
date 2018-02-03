@@ -1,10 +1,10 @@
 ---
-id: 437
+wordpress_id: 437
 title: Concepts and features – an example
 date: 2010-09-30T13:41:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/09/30/concepts-and-features-an-example.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/09/30/concepts-and-features-an-example.aspx
 dsq_thread_id:
   - "267430822"
 categories:

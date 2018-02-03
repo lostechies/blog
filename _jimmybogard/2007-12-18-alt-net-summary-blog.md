@@ -1,10 +1,10 @@
 ---
-id: 114
+wordpress_id: 114
 title: ALT.NET summary blog
 date: 2007-12-18T14:36:27+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/12/18/alt-net-summary-blog.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/12/18/alt-net-summary-blog.aspx
 dsq_thread_id:
   - "264715465"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3954
+wordpress_id: 3954
 title: Readable Regular Expressions Revisited
 date: 2009-12-19T16:24:47+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/12/19/readable-regular-expressions-revisited.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/12/19/readable-regular-expressions-revisited.aspx
 dsq_thread_id:
   - "262113226"
 categories:

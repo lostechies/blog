@@ -1,10 +1,10 @@
 ---
-id: 844
+wordpress_id: 844
 title: 'Put your controllers on a diet: POSTs and commands'
 date: 2013-12-19T04:24:35+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=844
+wordpress_guid: http://lostechies.com/jimmybogard/?p=844
 dsq_thread_id:
   - "2059948100"
 categories:

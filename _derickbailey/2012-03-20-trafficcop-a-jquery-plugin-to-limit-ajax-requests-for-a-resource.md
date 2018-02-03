@@ -1,10 +1,10 @@
 ---
-id: 859
+wordpress_id: 859
 title: 'TrafficCop: A jQuery Plugin To Limit AJAX Requests For A Resource'
 date: 2012-03-20T07:05:47+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=859
+wordpress_guid: http://lostechies.com/derickbailey/?p=859
 dsq_thread_id:
   - "617884780"
 categories:

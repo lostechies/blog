@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: Headspring sponsoring Open Source Hackathon
 date: 2011-09-26T15:28:56+00:00
 author: Steve Donie
 layout: post
-guid: http://lostechies.com/stevedonie/2011/09/26/headspring-sponsoring-open-source-hackathon/
+wordpress_guid: http://lostechies.com/stevedonie/2011/09/26/headspring-sponsoring-open-source-hackathon/
 dsq_thread_id:
   - "426612836"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3180
+wordpress_id: 3180
 title: Tour of MonoRail Series
 date: 2008-06-23T01:00:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/06/22/monorail-best-practices-series.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/06/22/monorail-best-practices-series.aspx
 dsq_thread_id:
   - "268123822"
 categories:

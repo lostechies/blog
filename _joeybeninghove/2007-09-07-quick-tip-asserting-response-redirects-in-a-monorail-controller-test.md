@@ -1,10 +1,10 @@
 ---
-id: 25
+wordpress_id: 25
 title: 'Quick Tip: Asserting response redirects in a MonoRail controller test'
 date: 2007-09-07T22:16:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/07/quick-tip-asserting-response-redirects-in-a-monorail-controller-test.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/07/quick-tip-asserting-response-redirects-in-a-monorail-controller-test.aspx
 categories:
   - Castle
   - MonoRail

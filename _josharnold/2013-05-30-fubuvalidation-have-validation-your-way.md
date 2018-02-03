@@ -1,10 +1,10 @@
 ---
-id: 4104
+wordpress_id: 4104
 title: 'FubuValidation: Have validation your way'
 date: 2013-05-30T13:23:49+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=263
+wordpress_guid: http://lostechies.com/josharnold/?p=263
 dsq_thread_id:
   - "1339188369"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 88
+wordpress_id: 88
 title: 'Announcing: Pablo’s Days of TDD in Austin, TX'
 date: 2008-09-16T00:58:22+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/09/15/announcing-pablo-s-days-of-tdd-in-austin-tx.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/09/15/announcing-pablo-s-days-of-tdd-in-austin-tx.aspx
 dsq_thread_id:
   - "262114031"
 categories:

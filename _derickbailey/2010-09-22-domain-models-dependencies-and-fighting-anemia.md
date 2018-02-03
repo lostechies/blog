@@ -1,10 +1,10 @@
 ---
-id: 184
+wordpress_id: 184
 title: Domain Models, Dependencies And Fighting Anemia
 date: 2010-09-22T18:12:11+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/09/22/domain-models-dependencies-and-fighting-anemia.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/09/22/domain-models-dependencies-and-fighting-anemia.aspx
 dsq_thread_id:
   - "262389923"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: Converting Columns To a Collection with a Nhibernate UserType
 date: 2008-08-29T01:48:08+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/08/28/converting-columns-to-rows-with-nhibernate-usertype.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/08/28/converting-columns-to-rows-with-nhibernate-usertype.aspx
 dsq_thread_id:
   - "262055534"
 categories:

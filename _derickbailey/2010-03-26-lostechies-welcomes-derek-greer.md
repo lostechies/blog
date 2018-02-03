@@ -1,10 +1,10 @@
 ---
-id: 125
+wordpress_id: 125
 title: LosTechies Welcomes Derek Greer!
 date: 2010-03-26T14:41:40+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/26/lostechies-welcomes-derek-greer.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/26/lostechies-welcomes-derek-greer.aspx
 dsq_thread_id:
   - "391412654"
 categories:

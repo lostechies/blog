@@ -1,10 +1,10 @@
 ---
-id: 37
+wordpress_id: 37
 title: 'BDD Question: Low Level Behavior And Wrapper Methods?'
 date: 2009-02-19T22:01:19+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/02/19/bdd-question-low-level-behavior-and-wrapper-methods.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/02/19/bdd-question-low-level-behavior-and-wrapper-methods.aspx
 dsq_thread_id:
   - "262068043"
 categories:

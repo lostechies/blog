@@ -1,10 +1,10 @@
 ---
-id: 49
+wordpress_id: 49
 title: NHibernate 3 Beginners Guide
 date: 2011-01-18T03:58:19+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2011/01/18/nhibernate-3-beginners-guide.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2011/01/18/nhibernate-3-beginners-guide.aspx
 dsq_thread_id:
   - "263908937"
 categories:

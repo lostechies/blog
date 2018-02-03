@@ -1,10 +1,10 @@
 ---
-id: 122
+wordpress_id: 122
 title: SVN and proxy servers
 date: 2008-01-07T19:53:08+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/07/svn-and-proxy-servers.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/07/svn-and-proxy-servers.aspx
 dsq_thread_id:
   - "264715486"
 categories:

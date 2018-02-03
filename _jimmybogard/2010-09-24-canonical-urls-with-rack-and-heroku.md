@@ -1,10 +1,10 @@
 ---
-id: 436
+wordpress_id: 436
 title: Canonical URLs with Rack and Heroku
 date: 2010-09-24T03:22:08+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/09/23/canonical-urls-with-rack-and-heroku.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/09/23/canonical-urls-with-rack-and-heroku.aspx
 dsq_thread_id:
   - "264716598"
 categories:

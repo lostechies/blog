@@ -1,10 +1,10 @@
 ---
-id: 73
+wordpress_id: 73
 title: An Evernote backed Journal using Vim/Emacs
 date: 2013-04-07T11:54:31+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=73
+wordpress_guid: http://lostechies.com/ryansvihla/?p=73
 dsq_thread_id:
   - "1194358033"
 categories:

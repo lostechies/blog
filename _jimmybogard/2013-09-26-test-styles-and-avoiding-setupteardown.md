@@ -1,10 +1,10 @@
 ---
-id: 820
+wordpress_id: 820
 title: Test styles and avoiding setup/teardown
 date: 2013-09-26T12:48:03+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=820
+wordpress_guid: http://lostechies.com/jimmybogard/?p=820
 dsq_thread_id:
   - "1798839521"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3020
+wordpress_id: 3020
 title: Using Solution Factory + NuPack to create Opinionated Visual Studio Solutions.
 date: 2010-10-07T17:17:36+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/10/07/using-solution-factory-nupack-to-create-opinionated-visual-studio-solutions.aspx
+wordpress_guid: /blogs/hex/archive/2010/10/07/using-solution-factory-nupack-to-create-opinionated-visual-studio-solutions.aspx
 dsq_thread_id:
   - "262297902"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 454
+wordpress_id: 454
 title: Trivia Friday
 date: 2011-02-11T13:31:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/02/11/trivia-friday.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/02/11/trivia-friday.aspx
 dsq_thread_id:
   - "264716670"
 categories:

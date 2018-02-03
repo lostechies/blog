@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: 'A Discussion on Domain Driven Design: Value Objects'
 date: 2007-04-23T04:00:18+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx
 dsq_thread_id:
   - "262090134"
 categories:

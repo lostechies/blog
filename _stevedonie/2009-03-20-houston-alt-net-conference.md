@@ -1,10 +1,10 @@
 ---
-id: 4768
+wordpress_id: 4768
 title: Houston Alt.NET conference
 date: 2009-03-20T16:04:00+00:00
 author: Steve Donie
 layout: post
-guid: /blogs/stevedonie/archive/2009/03/20/houston-alt-net-conference.aspx
+wordpress_guid: /blogs/stevedonie/archive/2009/03/20/houston-alt-net-conference.aspx
 dsq_thread_id:
   - "1080320429"
 categories:

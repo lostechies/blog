@@ -1,10 +1,10 @@
 ---
-id: 82
+wordpress_id: 82
 title: Myth of the isolated production fix
 date: 2007-10-18T12:10:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/18/myth-of-the-isolated-production-fix.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/18/myth-of-the-isolated-production-fix.aspx
 dsq_thread_id:
   - "264715379"
 categories:

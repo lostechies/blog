@@ -1,10 +1,10 @@
 ---
-id: 37
+wordpress_id: 37
 title: Engaging Microsoft
 date: 2008-04-21T05:55:47+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/21/engaging-microsoft.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/21/engaging-microsoft.aspx
 dsq_thread_id:
   - "262113774"
 categories:

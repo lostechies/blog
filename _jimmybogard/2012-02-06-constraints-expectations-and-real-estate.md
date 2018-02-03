@@ -1,10 +1,10 @@
 ---
-id: 585
+wordpress_id: 585
 title: Constraints, expectations and real estate
 date: 2012-02-06T21:30:22+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/02/06/constraints-expectations-and-real-estate/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/02/06/constraints-expectations-and-real-estate/
 dsq_thread_id:
   - "566778973"
 categories:

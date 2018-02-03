@@ -1,10 +1,10 @@
 ---
-id: 82
+wordpress_id: 82
 title: Good Design is not Subjective
 date: 2008-08-19T03:02:19+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/08/18/good-design-is-not-subjective.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/08/18/good-design-is-not-subjective.aspx
 dsq_thread_id:
   - "262113998"
 categories:

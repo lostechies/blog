@@ -1,10 +1,10 @@
 ---
-id: 112
+wordpress_id: 112
 title: Decomposing a book club
 date: 2007-12-12T21:39:58+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/12/12/decomposing-a-book-club.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/12/12/decomposing-a-book-club.aspx
 dsq_thread_id:
   - "264715457"
 categories:

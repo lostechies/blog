@@ -1,10 +1,10 @@
 ---
-id: 472
+wordpress_id: 472
 title: Who Wants Cake?!
 date: 2015-07-22T15:43:30+00:00
 author: Chris Missal
 layout: post
-guid: https://lostechies.com/chrismissal/?p=472
+wordpress_guid: https://lostechies.com/chrismissal/?p=472
 dsq_thread_id:
   - "3960749881"
 categories:

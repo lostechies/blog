@@ -1,10 +1,10 @@
 ---
-id: 447
+wordpress_id: 447
 title: Rendering jQuery Templates With Backbone Views
 date: 2011-06-20T22:36:59+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=447
+wordpress_guid: http://lostechies.com/derickbailey/?p=447
 dsq_thread_id:
   - "337914457"
 categories:

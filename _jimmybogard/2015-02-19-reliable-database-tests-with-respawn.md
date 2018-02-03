@@ -1,10 +1,10 @@
 ---
-id: 1071
+wordpress_id: 1071
 title: Reliable database tests with Respawn
 date: 2015-02-19T17:21:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=1071
+wordpress_guid: http://lostechies.com/jimmybogard/?p=1071
 dsq_thread_id:
   - "3530138398"
 categories:

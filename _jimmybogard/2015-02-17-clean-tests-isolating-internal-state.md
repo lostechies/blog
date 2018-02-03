@@ -1,10 +1,10 @@
 ---
-id: 1064
+wordpress_id: 1064
 title: 'Clean Tests: Isolating Internal State'
 date: 2015-02-17T17:46:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=1064
+wordpress_guid: http://lostechies.com/jimmybogard/?p=1064
 dsq_thread_id:
   - "3524067081"
 categories:

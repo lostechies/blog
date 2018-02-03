@@ -1,10 +1,10 @@
 ---
-id: 35
+wordpress_id: 35
 title: 'Agile Arguments, Part 2 &#8211; Background, and Arguments from Fear'
 date: 2008-04-06T16:25:33+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/06/agile-arguments-part-2-background-and-arguments-from-fear.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/06/agile-arguments-part-2-background-and-arguments-from-fear.aspx
 dsq_thread_id:
   - "262113755"
 categories:

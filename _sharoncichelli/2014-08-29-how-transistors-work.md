@@ -1,10 +1,10 @@
 ---
-id: 319
+wordpress_id: 319
 title: 'How transistors work: Illustrated'
 date: 2014-08-29T09:54:48+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=319
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=319
 dsq_thread_id:
   - "2969978574"
 categories:

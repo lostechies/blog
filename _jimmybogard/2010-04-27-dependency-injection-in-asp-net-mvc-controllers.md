@@ -1,10 +1,10 @@
 ---
-id: 401
+wordpress_id: 401
 title: 'Dependency Injection in ASP.NET MVC: Controllers'
 date: 2010-04-27T03:03:39+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/04/26/dependency-injection-in-asp-net-mvc-controllers.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/04/26/dependency-injection-in-asp-net-mvc-controllers.aspx
 dsq_thread_id:
   - "264716458"
 categories:

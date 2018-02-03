@@ -1,10 +1,10 @@
 ---
-id: 37
+wordpress_id: 37
 title: NBehave + NSpec
 date: 2007-09-19T16:22:39+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/19/nbehave-nspec.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/19/nbehave-nspec.aspx
 categories:
   - BDD
   - NBehave

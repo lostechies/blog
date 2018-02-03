@@ -1,10 +1,10 @@
 ---
-id: 88
+wordpress_id: 88
 title: Albacore AssemblyInfo Task vs. Nant Assembly Info Generator
 date: 2009-09-29T15:06:48+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/29/albacore-assemblyinfo-task-vs-nant-assembly-info-generator.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/29/albacore-assemblyinfo-task-vs-nant-assembly-info-generator.aspx
 dsq_thread_id:
   - "262068354"
 categories:

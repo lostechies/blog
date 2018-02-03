@@ -1,10 +1,10 @@
 ---
-id: 3976
+wordpress_id: 3976
 title: Tips for building Nuget packages
 date: 2011-06-23T22:24:26+00:00
 author: Joshua Flanagan
 layout: post
-guid: http://lostechies.com/joshuaflanagan/2011/06/23/tips-for-building-nuget-packages/
+wordpress_guid: http://lostechies.com/joshuaflanagan/2011/06/23/tips-for-building-nuget-packages/
 dsq_thread_id:
   - "340843680"
 categories:

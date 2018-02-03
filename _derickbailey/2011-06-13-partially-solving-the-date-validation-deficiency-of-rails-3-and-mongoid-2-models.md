@@ -1,10 +1,10 @@
 ---
-id: 400
+wordpress_id: 400
 title: Partially Solving The Date Validation Deficiency Of Rails 3 And Mongoid 2 Models
 date: 2011-06-13T14:57:11+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=400
+wordpress_guid: http://lostechies.com/derickbailey/?p=400
 dsq_thread_id:
   - "331046922"
 categories:

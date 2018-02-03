@@ -1,10 +1,10 @@
 ---
-id: 3169
+wordpress_id: 3169
 title: Orlando Code Camp Presentation
 date: 2008-03-15T02:06:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/03/14/orlando-code-camp-presentation.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/03/14/orlando-code-camp-presentation.aspx
 dsq_thread_id:
   - "268123792"
 categories:

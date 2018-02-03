@@ -1,10 +1,10 @@
 ---
-id: 4772
+wordpress_id: 4772
 title: Long time no post
 date: 2011-04-14T21:12:57+00:00
 author: Steve Donie
 layout: post
-guid: http://lostechies.com/stevedonie/2011/04/14/long-time-no-post/
+wordpress_guid: http://lostechies.com/stevedonie/2011/04/14/long-time-no-post/
 dsq_thread_id:
   - "279631569"
 categories:

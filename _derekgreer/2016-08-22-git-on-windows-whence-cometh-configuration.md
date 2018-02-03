@@ -1,10 +1,10 @@
 ---
-id: 903
+wordpress_id: 903
 title: 'Git on Windows: Whence Cometh Configuration'
 date: 2016-08-22T08:47:19+00:00
 author: Derek Greer
 layout: post
-guid: https://lostechies.com/derekgreer/?p=903
+wordpress_guid: https://lostechies.com/derekgreer/?p=903
 dsq_thread_id:
   - "5085504615"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 69
+wordpress_id: 69
 title: Setting off a CC.NET build from NAnt
 date: 2007-10-01T13:00:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/01/setting-off-a-cc-net-build-from-nant.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/01/setting-off-a-cc-net-build-from-nant.aspx
 dsq_thread_id:
   - "283720910"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 70
+wordpress_id: 70
 title: 'The Ruby/Rails Life &#8211; My Rails 3 Stack &#8211; Part 2'
 date: 2010-05-28T13:00:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2010/05/28/the-ruby-rails-life-my-rails-3-stack-part-2.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2010/05/28/the-ruby-rails-life-my-rails-3-stack-part-2.aspx
 categories:
   - BDD
   - capistrano

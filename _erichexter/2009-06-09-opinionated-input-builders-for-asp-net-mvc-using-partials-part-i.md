@@ -1,10 +1,10 @@
 ---
-id: 2973
+wordpress_id: 2973
 title: Opinionated Input Builders for ASP.Net MVC using partials – Part 1
 date: 2009-06-09T16:21:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-using-partials-part-i.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-using-partials-part-i.aspx
 dsq_thread_id:
   - "262052379"
 categories:

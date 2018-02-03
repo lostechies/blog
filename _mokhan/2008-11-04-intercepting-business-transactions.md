@@ -1,10 +1,10 @@
 ---
-id: 20
+wordpress_id: 20
 title: Intercepting Business Transactions
 date: 2008-11-04T01:58:53+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/11/03/intercepting-business-transactions.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/11/03/intercepting-business-transactions.aspx
 categories:
   - Uncategorized
 ---

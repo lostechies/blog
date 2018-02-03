@@ -1,10 +1,10 @@
 ---
-id: 991
+wordpress_id: 991
 title: 'AutoMapper 3.3 feature: parameterized projections'
 date: 2014-12-30T14:44:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=991
+wordpress_guid: http://lostechies.com/jimmybogard/?p=991
 dsq_thread_id:
   - "3373634378"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 805
+wordpress_id: 805
 title: Asynchronously Load HTML Templates For Backbone Views
 date: 2012-02-09T09:30:47+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=805
+wordpress_guid: http://lostechies.com/derickbailey/?p=805
 dsq_thread_id:
   - "570114046"
 categories:

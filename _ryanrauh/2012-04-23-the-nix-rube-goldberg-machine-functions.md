@@ -1,10 +1,10 @@
 ---
-id: 147
+wordpress_id: 147
 title: 'The *nix Rube Goldberg machine &#8211; functions!'
 date: 2012-04-23T15:44:07+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=147
+wordpress_guid: http://lostechies.com/ryanrauh/?p=147
 dsq_thread_id:
   - "661018955"
 categories:

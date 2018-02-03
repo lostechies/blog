@@ -1,10 +1,10 @@
 ---
-id: 4102
+wordpress_id: 4102
 title: Some foundational ideas for automated testing
 date: 2012-11-11T00:36:13+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=192
+wordpress_guid: http://lostechies.com/josharnold/?p=192
 dsq_thread_id:
   - "922453896"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3871
+wordpress_id: 3871
 title: An Object Lesson in Binary Compatibility
 date: 2011-08-22T09:46:10+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=45
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=45
 dsq_thread_id:
   - "393005334"
 categories:

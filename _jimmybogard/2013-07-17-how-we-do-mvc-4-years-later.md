@@ -1,10 +1,10 @@
 ---
-id: 808
+wordpress_id: 808
 title: 'How we do MVC &#8211; 4 years later'
 date: 2013-07-17T14:59:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=808
+wordpress_guid: http://lostechies.com/jimmybogard/?p=808
 dsq_thread_id:
   - "1506647413"
 categories:

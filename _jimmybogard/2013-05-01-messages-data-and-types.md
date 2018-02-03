@@ -1,10 +1,10 @@
 ---
-id: 770
+wordpress_id: 770
 title: Messages, data and types
 date: 2013-05-01T14:08:23+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=770
+wordpress_guid: http://lostechies.com/jimmybogard/?p=770
 dsq_thread_id:
   - "1251518459"
 categories:

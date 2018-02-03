@@ -1,10 +1,10 @@
 ---
-id: 173
+wordpress_id: 173
 title: Albacore v0.2.0 Preview 1 Is Available
 date: 2010-07-14T21:17:15+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/07/14/albacore-v0-2-0-preview-1-is-available.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/07/14/albacore-v0-2-0-preview-1-is-available.aspx
 dsq_thread_id:
   - "263052929"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 825
+wordpress_id: 825
 title: Using jQuery, Plugins and UI Controls With Backbone
 date: 2012-02-20T08:15:07+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=825
+wordpress_guid: http://lostechies.com/derickbailey/?p=825
 dsq_thread_id:
   - "582957642"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1134
+wordpress_id: 1134
 title: A Demo Of BoEBot, Johnny-Five And Bluetooth
 date: 2013-08-07T09:56:23+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1134
+wordpress_guid: http://lostechies.com/derickbailey/?p=1134
 dsq_thread_id:
   - "1581557597"
 categories:

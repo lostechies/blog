@@ -1,10 +1,10 @@
 ---
-id: 141
+wordpress_id: 141
 title: I need some peer review on this
 date: 2009-05-05T04:21:00+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/05/05/i-need-some-peer-review-on-this.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/05/05/i-need-some-peer-review-on-this.aspx
 dsq_thread_id:
   - "262114390"
 categories:

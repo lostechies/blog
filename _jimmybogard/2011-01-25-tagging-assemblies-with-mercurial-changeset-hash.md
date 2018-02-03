@@ -1,10 +1,10 @@
 ---
-id: 449
+wordpress_id: 449
 title: Tagging assemblies with Mercurial changeset hash
 date: 2011-01-25T18:30:37+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/01/25/tagging-assemblies-with-mercurial-changeset-hash.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/01/25/tagging-assemblies-with-mercurial-changeset-hash.aspx
 dsq_thread_id:
   - "264785096"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: Working with ActiveRecord model classes outside of the Rails environment
 date: 2008-01-06T13:27:50+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/01/06/working-with-activerecord-model-classes-outside-of-the-rails-environment.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/01/06/working-with-activerecord-model-classes-outside-of-the-rails-environment.aspx
 dsq_thread_id:
   - "262113565"
 categories:

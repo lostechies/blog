@@ -1,10 +1,10 @@
 ---
-id: 475
+wordpress_id: 475
 title: Time to retire VB.NET
 date: 2011-05-04T12:42:22+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/05/04/time-to-retire-vb-net/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/05/04/time-to-retire-vb-net/
 dsq_thread_id:
   - "295042744"
 categories:

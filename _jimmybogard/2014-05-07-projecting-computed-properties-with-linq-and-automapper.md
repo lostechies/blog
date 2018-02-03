@@ -1,10 +1,10 @@
 ---
-id: 904
+wordpress_id: 904
 title: Projecting computed properties with LINQ and AutoMapper
 date: 2014-05-07T17:06:39+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=904
+wordpress_guid: http://lostechies.com/jimmybogard/?p=904
 dsq_thread_id:
   - "2667916510"
 categories:

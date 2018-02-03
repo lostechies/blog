@@ -1,10 +1,10 @@
 ---
-id: 75
+wordpress_id: 75
 title: 'Reinstalled Firefox &#8212; What add-ons do you use?'
 date: 2007-10-13T23:59:49+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/13/reinstalled-firefox-what-add-ons-do-you-use.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/13/reinstalled-firefox-what-add-ons-do-you-use.aspx
 categories:
   - Tools
 ---

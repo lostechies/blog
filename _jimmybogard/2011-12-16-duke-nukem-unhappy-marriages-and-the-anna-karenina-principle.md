@@ -1,10 +1,10 @@
 ---
-id: 565
+wordpress_id: 565
 title: Duke Nukem, unhappy marriages, and the Anna Karenina principle
 date: 2011-12-16T14:40:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/12/16/duke-nukem-unhappy-marriages-and-the-anna-karenina-principle/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/12/16/duke-nukem-unhappy-marriages-and-the-anna-karenina-principle/
 dsq_thread_id:
   - "506502964"
 categories:

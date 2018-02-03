@@ -1,10 +1,10 @@
 ---
-id: 2952
+wordpress_id: 2952
 title: Running your build/source code from a ram disk.
 date: 2008-07-21T17:18:21+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/07/21/running-your-build-source-code-from-a-ram-disk.aspx
+wordpress_guid: /blogs/hex/archive/2008/07/21/running-your-build-source-code-from-a-ram-disk.aspx
 dsq_thread_id:
   - "262305249"
 categories:

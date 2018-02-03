@@ -1,10 +1,10 @@
 ---
-id: 197
+wordpress_id: 197
 title: Evaluating Alternatives vs Reacting To Differences
 date: 2010-11-17T03:30:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/11/16/evaluating-alternatives-vs-reacting-to-differences.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/11/16/evaluating-alternatives-vs-reacting-to-differences.aspx
 dsq_thread_id:
   - "264993486"
 categories:

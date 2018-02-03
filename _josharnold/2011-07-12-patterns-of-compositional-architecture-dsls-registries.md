@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: 'Patterns of Compositional Architecture: DSLs – Registries'
 date: 2011-07-12T16:06:51+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=40
+wordpress_guid: http://lostechies.com/josharnold/?p=40
 dsq_thread_id:
   - "356409263"
 categories:

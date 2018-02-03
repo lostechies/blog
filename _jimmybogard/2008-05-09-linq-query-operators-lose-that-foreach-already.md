@@ -1,10 +1,10 @@
 ---
-id: 180
+wordpress_id: 180
 title: 'LINQ query operators: lose that foreach already!'
 date: 2008-05-09T22:11:31+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/09/linq-query-operators-lose-that-foreach-already.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/09/linq-query-operators-lose-that-foreach-already.aspx
 dsq_thread_id:
   - "264715668"
 categories:

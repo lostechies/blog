@@ -1,10 +1,10 @@
 ---
-id: 10
+wordpress_id: 10
 title: 'Term of the Day: Principle Of Least Surprise'
 date: 2007-04-03T15:14:00+00:00
 author: Joshua Lockwood
 layout: post
-guid: /blogs/joshua_lockwood/archive/2007/04/03/term-of-the-day-principle-of-least-surprise.aspx
+wordpress_guid: /blogs/joshua_lockwood/archive/2007/04/03/term-of-the-day-principle-of-least-surprise.aspx
 categories:
   - Best Practices
   - Principles

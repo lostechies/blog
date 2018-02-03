@@ -1,10 +1,10 @@
 ---
-id: 4059
+wordpress_id: 4059
 title: 'How We Do Things &#8211; Specification (Using the right tools)'
 date: 2009-11-13T14:41:52+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/11/13/how-we-do-things-specification-using-the-right-tools.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/11/13/how-we-do-things-specification-using-the-right-tools.aspx
 categories:
   - how we do it
   - improvement

@@ -1,10 +1,10 @@
 ---
-id: 445
+wordpress_id: 445
 title: 'Unity: The Static Factory Extension'
 date: 2009-06-15T06:34:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2009/06/unity-the-static-factory-extension/
+wordpress_guid: http://www.aspiringcraftsman.com/2009/06/unity-the-static-factory-extension/
 dsq_thread_id:
   - "317209734"
 categories:

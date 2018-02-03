@@ -1,10 +1,10 @@
 ---
-id: 4831
+wordpress_id: 4831
 title: SolutionScripts – little scripts for the Nuget console
 date: 2012-01-05T14:09:06+00:00
 author: Matt Hinze
 layout: post
-guid: http://lostechies.com/matthinze/2012/01/05/solutionscripts-little-scripts-for-the-nuget-console/
+wordpress_guid: http://lostechies.com/matthinze/2012/01/05/solutionscripts-little-scripts-for-the-nuget-console/
 dsq_thread_id:
   - "528004252"
 categories:

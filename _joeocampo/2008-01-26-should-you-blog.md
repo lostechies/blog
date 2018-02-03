@@ -1,10 +1,10 @@
 ---
-id: 99
+wordpress_id: 99
 title: Should you blog?
 date: 2008-01-26T19:45:06+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/01/26/should-you-blog.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/01/26/should-you-blog.aspx
 dsq_thread_id:
   - "262089420"
 categories:

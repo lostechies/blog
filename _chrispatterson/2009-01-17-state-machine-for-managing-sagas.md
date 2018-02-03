@@ -1,10 +1,10 @@
 ---
-id: 3608
+wordpress_id: 3608
 title: State Machine for Managing Sagas
 date: 2009-01-17T04:42:00+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/01/16/state-machine-for-managing-sagas.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/01/16/state-machine-for-managing-sagas.aspx
 dsq_thread_id:
   - "262089272"
 categories:

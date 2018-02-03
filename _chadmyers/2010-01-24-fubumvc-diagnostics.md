@@ -1,10 +1,10 @@
 ---
-id: 159
+wordpress_id: 159
 title: FubuMVC Diagnostics
 date: 2010-01-24T22:07:36+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/01/24/fubumvc-diagnostics.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/01/24/fubumvc-diagnostics.aspx
 dsq_thread_id:
   - "262114489"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 101
+wordpress_id: 101
 title: Found a new APM Tool
 date: 2008-02-08T03:49:07+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/02/07/found-a-new-apm-tool.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/02/07/found-a-new-apm-tool.aspx
 dsq_thread_id:
   - "262089756"
 categories:

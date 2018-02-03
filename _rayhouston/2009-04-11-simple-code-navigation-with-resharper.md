@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: Simple Code Navigation with ReSharper
 date: 2009-04-11T01:20:37+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2009/04/10/simple-code-navigation-with-resharper.aspx
+wordpress_guid: /blogs/rhouston/archive/2009/04/10/simple-code-navigation-with-resharper.aspx
 categories:
   - .NET
   - Resharper

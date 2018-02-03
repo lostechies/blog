@@ -1,10 +1,10 @@
 ---
-id: 4637
+wordpress_id: 4637
 title: 'BDD &#8211; Files/Folders/Namespaces (BDD)'
 date: 2008-10-28T15:30:00+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2008/10/28/context-specification-files-folders-namespaces-bdd.aspx
+wordpress_guid: /blogs/colinjack/archive/2008/10/28/context-specification-files-folders-namespaces-bdd.aspx
 categories:
   - BDD
   - TDD

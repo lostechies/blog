@@ -1,10 +1,10 @@
 ---
-id: 294
+wordpress_id: 294
 title: Disambiguating a test fixture
 date: 2009-03-16T02:15:12+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/03/15/disambiguating-a-test-fixture.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/03/15/disambiguating-a-test-fixture.aspx
 dsq_thread_id:
   - "264716100"
 categories:

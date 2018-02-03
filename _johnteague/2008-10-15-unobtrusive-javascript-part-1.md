@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: Unobtrusive JavaScript Part 1
 date: 2008-10-15T14:54:11+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/10/15/unobtrusive-javascript-part-1.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/10/15/unobtrusive-javascript-part-1.aspx
 dsq_thread_id:
   - "262055531"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: The Leakiest Abstraction
 date: 2013-08-07T02:54:43+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=28
+wordpress_guid: http://lostechies.com/patricklioi/?p=28
 dsq_thread_id:
   - "1579367639"
 categories:

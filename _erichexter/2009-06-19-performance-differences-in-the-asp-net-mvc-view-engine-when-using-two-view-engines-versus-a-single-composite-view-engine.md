@@ -1,10 +1,10 @@
 ---
-id: 2983
+wordpress_id: 2983
 title: Performance differences in the ASP.Net MVC View Engine when using two View Engines versus a single Composite View Engine.
 date: 2009-06-19T02:01:49+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/18/performance-differences-in-the-asp-net-mvc-view-engine-when-using-two-view-engines-versus-a-single-composite-view-engine.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/18/performance-differences-in-the-asp-net-mvc-view-engine-when-using-two-view-engines-versus-a-single-composite-view-engine.aspx
 dsq_thread_id:
   - "262067992"
 categories:

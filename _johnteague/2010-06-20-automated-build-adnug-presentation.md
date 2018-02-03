@@ -1,10 +1,10 @@
 ---
-id: 48
+wordpress_id: 48
 title: Automated Build ADNUG Presentation
 date: 2010-06-20T01:58:28+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2010/06/19/automated-build-adnug-presentation.aspx
+wordpress_guid: /blogs/johnteague/archive/2010/06/19/automated-build-adnug-presentation.aspx
 dsq_thread_id:
   - "262055744"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 249
+wordpress_id: 249
 title: 'Tiny Steps: Creating Fixie 2.0'
 date: 2016-07-22T13:40:39+00:00
 author: Patrick Lioi
 layout: post
-guid: https://lostechies.com/patricklioi/?p=249
+wordpress_guid: https://lostechies.com/patricklioi/?p=249
 dsq_thread_id:
   - "5005795999"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 64
+wordpress_id: 64
 title: 'Theory Of Constraints: Productivity Metrics in Software Development'
 date: 2009-07-03T17:38:16+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/07/03/theory-of-constraints-productivity-metrics-in-software-development.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/07/03/theory-of-constraints-productivity-metrics-in-software-development.aspx
 dsq_thread_id:
   - "262068224"
 categories:

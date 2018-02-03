@@ -1,10 +1,10 @@
 ---
-id: 81
+wordpress_id: 81
 title: Model Driven Architecture
 date: 2007-10-30T23:43:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/30/model-driven-architecture.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/30/model-driven-architecture.aspx
 dsq_thread_id:
   - "262090956"
 categories:

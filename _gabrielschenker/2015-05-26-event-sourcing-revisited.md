@@ -1,10 +1,10 @@
 ---
-id: 1017
+wordpress_id: 1017
 title: Event sourcing revisited
 date: 2015-05-26T21:42:06+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1017
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1017
 dsq_thread_id:
   - "3796629719"
 categories:

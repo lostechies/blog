@@ -1,10 +1,10 @@
 ---
-id: 432
+wordpress_id: 432
 title: A healthy transition
 date: 2010-09-10T03:43:36+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/09/09/a-healthy-transition.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/09/09/a-healthy-transition.aspx
 dsq_thread_id:
   - "264716589"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 503
+wordpress_id: 503
 title: Endemic simplicity
 date: 2011-07-08T13:21:41+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/07/08/endemic-simplicity/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/07/08/endemic-simplicity/
 dsq_thread_id:
   - "352967853"
 categories:

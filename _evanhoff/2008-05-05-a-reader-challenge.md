@@ -1,10 +1,10 @@
 ---
-id: 47
+wordpress_id: 47
 title: A Reader Challenge
 date: 2008-05-05T00:46:08+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/05/04/a-reader-challenge.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/05/04/a-reader-challenge.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 3396
+wordpress_id: 3396
 title: 'Introducing Formo &#8211; Dynamic Configuration'
 date: 2013-02-21T09:12:25+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=377
+wordpress_guid: http://lostechies.com/chrismissal/?p=377
 dsq_thread_id:
   - "1096824777"
 categories:

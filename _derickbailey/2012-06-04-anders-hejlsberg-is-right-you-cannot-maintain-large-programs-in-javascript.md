@@ -1,10 +1,10 @@
 ---
-id: 946
+wordpress_id: 946
 title: 'Anders Hejlsberg Is Right: You Cannot Maintain Large Programs In JavaScript'
 date: 2012-06-04T14:38:55+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=946
+wordpress_guid: http://lostechies.com/derickbailey/?p=946
 dsq_thread_id:
   - "713887747"
 categories:

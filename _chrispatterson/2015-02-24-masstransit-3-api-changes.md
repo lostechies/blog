@@ -1,10 +1,10 @@
 ---
-id: 118
+wordpress_id: 118
 title: MassTransit 3 API Changes
 date: 2015-02-24T00:28:36+00:00
 author: Chris Patterson
 layout: post
-guid: https://lostechies.com/chrispatterson/?p=118
+wordpress_guid: https://lostechies.com/chrispatterson/?p=118
 dsq_thread_id:
   - "3852075261"
 categories:

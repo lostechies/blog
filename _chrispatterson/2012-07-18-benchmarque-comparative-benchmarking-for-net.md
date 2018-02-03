@@ -1,10 +1,10 @@
 ---
-id: 95
+wordpress_id: 95
 title: 'Benchmarque &#8211; Comparative Benchmarking for .NET'
 date: 2012-07-18T11:51:19+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=95
+wordpress_guid: http://lostechies.com/chrispatterson/?p=95
 dsq_thread_id:
   - "770661885"
 categories:

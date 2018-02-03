@@ -1,10 +1,10 @@
 ---
-id: 2992
+wordpress_id: 2992
 title: Video of the David Ebbo presenting T4MVC to the Community For MVC virtual user group
 date: 2009-09-17T03:46:15+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/09/16/video-of-the-david-ebbo-presenting-t4mvc-to-the-community-for-mvc-virtual-user-group.aspx
+wordpress_guid: /blogs/hex/archive/2009/09/16/video-of-the-david-ebbo-presenting-t4mvc-to-the-community-for-mvc-virtual-user-group.aspx
 dsq_thread_id:
   - "262305797"
 categories:

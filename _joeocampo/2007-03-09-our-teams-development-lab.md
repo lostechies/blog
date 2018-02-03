@@ -1,10 +1,10 @@
 ---
-id: 10
+wordpress_id: 10
 title: Our Teams Development Lab
 date: 2007-03-09T03:37:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/03/08/our-teams-development-lab.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/03/08/our-teams-development-lab.aspx
 dsq_thread_id:
   - "262089262"
 categories:

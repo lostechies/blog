@@ -1,10 +1,10 @@
 ---
-id: 4832
+wordpress_id: 4832
 title: Sample script for SolutionScripts
 date: 2012-01-06T12:48:35+00:00
 author: Matt Hinze
 layout: post
-guid: http://lostechies.com/matthinze/2012/01/06/sample-script-for-solutionscripts/
+wordpress_guid: http://lostechies.com/matthinze/2012/01/06/sample-script-for-solutionscripts/
 dsq_thread_id:
   - "529271638"
 categories:

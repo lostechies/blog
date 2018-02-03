@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: Professionalism And Thermodynamics
 date: 2008-12-04T13:53:57+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/12/04/professionalism-and-thermodynamics.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/12/04/professionalism-and-thermodynamics.aspx
 dsq_thread_id:
   - "262067961"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 135
+wordpress_id: 135
 title: Dovetail Hiring Software Tester/Test Engineer
 date: 2009-03-19T22:12:59+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/03/19/dovetail-hiring-software-tester-test-engineer.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/03/19/dovetail-hiring-software-tester-test-engineer.aspx
 dsq_thread_id:
   - "1089523304"
 categories:

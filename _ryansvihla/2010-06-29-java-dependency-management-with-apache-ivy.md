@@ -1,10 +1,10 @@
 ---
-id: 43
+wordpress_id: 43
 title: Java Dependency Management with Apache Ivy
 date: 2010-06-29T13:10:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/06/29/java-dependency-management-with-apache-ivy.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/06/29/java-dependency-management-with-apache-ivy.aspx
 dsq_thread_id:
   - "1070316389"
 categories:

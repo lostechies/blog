@@ -1,10 +1,10 @@
 ---
-id: 46
+wordpress_id: 46
 title: CodeCamp Deadline for Sessions is Getting Close
 date: 2010-03-23T05:47:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2010/03/23/codecamp-deadline-for-sessions-is-getting-close.aspx
+wordpress_guid: /blogs/johnteague/archive/2010/03/23/codecamp-deadline-for-sessions-is-getting-close.aspx
 dsq_thread_id:
   - "306624301"
 categories:

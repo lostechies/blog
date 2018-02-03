@@ -1,10 +1,10 @@
 ---
-id: 380
+wordpress_id: 380
 title: MVC Bootcamp next week
 date: 2010-01-06T14:54:45+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/01/06/mvc-bootcamp-next-week.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/01/06/mvc-bootcamp-next-week.aspx
 dsq_thread_id:
   - "269691546"
 categories:

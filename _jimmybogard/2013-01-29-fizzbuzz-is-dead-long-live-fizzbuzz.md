@@ -1,10 +1,10 @@
 ---
-id: 714
+wordpress_id: 714
 title: FizzBuzz is dead. Long live FizzBuzz!
 date: 2013-01-29T14:32:34+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=714
+wordpress_guid: http://lostechies.com/jimmybogard/?p=714
 dsq_thread_id:
   - "1053218583"
 categories:

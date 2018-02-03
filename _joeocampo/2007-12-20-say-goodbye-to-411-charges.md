@@ -1,10 +1,10 @@
 ---
-id: 93
+wordpress_id: 93
 title: Say goodbye to 411 charges
 date: 2007-12-20T16:00:37+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/12/20/say-goodbye-to-411-charges.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/12/20/say-goodbye-to-411-charges.aspx
 categories:
   - Tools
 ---

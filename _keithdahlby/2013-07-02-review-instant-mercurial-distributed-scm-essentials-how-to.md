@@ -1,10 +1,10 @@
 ---
-id: 4222
+wordpress_id: 4222
 title: 'Review: Instant Mercurial Distributed SCM Essentials How-to'
 date: 2013-07-02T00:58:35+00:00
 author: Keith Dahlby
 layout: post
-guid: http://lostechies.com/keithdahlby/?p=133
+wordpress_guid: http://lostechies.com/keithdahlby/?p=133
 dsq_thread_id:
   - "1457425623"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 2978
+wordpress_id: 2978
 title: Free ASP.Net MVC Workshop in Austin on Tuesday June 16th
 date: 2009-06-11T13:32:07+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/11/free-asp-net-mvc-workshop-in-austin-on-tuesday-june-16th.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/11/free-asp-net-mvc-workshop-in-austin-on-tuesday-june-16th.aspx
 dsq_thread_id:
   - "272215601"
 categories:

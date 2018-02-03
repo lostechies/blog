@@ -1,10 +1,10 @@
 ---
-id: 186
+wordpress_id: 186
 title: DataStax a Love Letter
 date: 2015-09-17T10:50:52+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=186
+wordpress_guid: https://lostechies.com/ryansvihla/?p=186
 dsq_thread_id:
   - "4138694326"
 categories:

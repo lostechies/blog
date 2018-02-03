@@ -1,10 +1,10 @@
 ---
-id: 4646
+wordpress_id: 4646
 title: 'Next Europe VAN &#8211; 25th February 2009'
 date: 2009-02-15T08:48:00+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/02/15/europe-van-25th-february-2009.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/02/15/europe-van-25th-february-2009.aspx
 categories:
   - ALT.NET
   - VAN

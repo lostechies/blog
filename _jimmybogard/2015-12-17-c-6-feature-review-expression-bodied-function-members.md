@@ -1,10 +1,10 @@
 ---
-id: 1167
+wordpress_id: 1167
 title: 'C# 6 Feature Review: Expression-Bodied Function Members'
 date: 2015-12-17T21:07:41+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1167
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1167
 dsq_thread_id:
   - "4412833309"
 categories:

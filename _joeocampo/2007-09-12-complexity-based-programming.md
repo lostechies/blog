@@ -1,10 +1,10 @@
 ---
-id: 56
+wordpress_id: 56
 title: Complexity Based Programming
 date: 2007-09-12T21:38:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/12/complexity-based-programming.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/12/complexity-based-programming.aspx
 dsq_thread_id:
   - "262089733"
 categories:

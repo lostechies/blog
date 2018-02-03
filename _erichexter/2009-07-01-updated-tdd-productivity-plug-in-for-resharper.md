@@ -1,10 +1,10 @@
 ---
-id: 2985
+wordpress_id: 2985
 title: Updated TDD Productivity Plug-in for Resharper
 date: 2009-07-01T03:41:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/30/updated-tdd-productivity-plug-in-for-resharper.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/30/updated-tdd-productivity-plug-in-for-resharper.aspx
 dsq_thread_id:
   - "263155980"
 categories:

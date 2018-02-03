@@ -1,10 +1,10 @@
 ---
-id: 3602
+wordpress_id: 3602
 title: Reflections on KaizenConf
 date: 2008-11-06T03:23:24+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/11/05/reflections-on-kaizenconf.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/11/05/reflections-on-kaizenconf.aspx
 dsq_thread_id:
   - "276369973"
 categories:

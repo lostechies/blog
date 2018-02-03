@@ -1,10 +1,10 @@
 ---
-id: 350
+wordpress_id: 350
 title: 'DDD: Repository Implementation Patterns'
 date: 2009-09-03T01:00:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/09/02/ddd-repository-implementation-patterns.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/09/02/ddd-repository-implementation-patterns.aspx
 dsq_thread_id:
   - "264716301"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 103
+wordpress_id: 103
 title: Updates to NBehave
 date: 2008-02-27T04:26:45+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/02/26/updates-to-nbehave.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/02/26/updates-to-nbehave.aspx
 dsq_thread_id:
   - "262089201"
 categories:

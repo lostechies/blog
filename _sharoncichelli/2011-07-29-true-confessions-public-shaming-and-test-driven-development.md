@@ -1,10 +1,10 @@
 ---
-id: 166
+wordpress_id: 166
 title: True Confessions, Public Shaming, and Test-Driven Development
 date: 2011-07-29T16:37:51+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=166
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=166
 dsq_thread_id:
   - "1069749400"
 categories:

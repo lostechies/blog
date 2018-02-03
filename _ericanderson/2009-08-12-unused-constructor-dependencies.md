@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Unused Constructor Dependencies
 date: 2009-08-12T18:55:00+00:00
 author: Eric Anderson
 layout: post
-guid: /blogs/eric/archive/2009/08/12/unused-constructor-dependencies.aspx
+wordpress_guid: /blogs/eric/archive/2009/08/12/unused-constructor-dependencies.aspx
 categories:
   - Uncategorized
 ---

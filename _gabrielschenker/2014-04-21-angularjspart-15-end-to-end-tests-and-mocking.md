@@ -1,10 +1,10 @@
 ---
-id: 800
+wordpress_id: 800
 title: AngularJS–Part 15, End to end tests and mocking
 date: 2014-04-21T19:03:41+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=800
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=800
 dsq_thread_id:
   - "2629182044"
 categories:

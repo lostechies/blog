@@ -1,10 +1,10 @@
 ---
-id: 398
+wordpress_id: 398
 title: 'Strengthening your domain: Domain Events'
 date: 2010-04-08T18:55:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/04/08/strengthening-your-domain-domain-events.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/04/08/strengthening-your-domain-domain-events.aspx
 dsq_thread_id:
   - "264716450"
 categories:

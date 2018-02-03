@@ -1,10 +1,10 @@
 ---
-id: 4526
+wordpress_id: 4526
 title: 'No, Seriously. Don&#8217;t Repeat Yourself.'
 date: 2013-07-30T03:05:18+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=17
+wordpress_guid: http://lostechies.com/patricklioi/?p=17
 dsq_thread_id:
   - "1546416677"
 categories:

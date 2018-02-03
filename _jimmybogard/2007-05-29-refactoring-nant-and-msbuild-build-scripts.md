@@ -1,10 +1,10 @@
 ---
-id: 26
+wordpress_id: 26
 title: Refactoring NAnt and MSBuild build scripts
 date: 2007-05-29T17:22:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/29/refactoring-nant-and-msbuild-build-scripts.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/29/refactoring-nant-and-msbuild-build-scripts.aspx
 dsq_thread_id:
   - "265196760"
 categories:

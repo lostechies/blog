@@ -1,10 +1,10 @@
 ---
-id: 3153
+wordpress_id: 3153
 title: Hiring a Developer Part 1
 date: 2007-12-04T09:58:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/12/04/hiring-a-developer-part-1.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/12/04/hiring-a-developer-part-1.aspx
 dsq_thread_id:
   - "268123736"
 categories:

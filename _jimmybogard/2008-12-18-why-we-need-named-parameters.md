@@ -1,10 +1,10 @@
 ---
-id: 264
+wordpress_id: 264
 title: Why we need named parameters
 date: 2008-12-18T14:10:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/12/18/why-we-need-named-parameters.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/12/18/why-we-need-named-parameters.aspx
 dsq_thread_id:
   - "264716020"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 989
+wordpress_id: 989
 title: 'A Guest Appearance On Tekpub&#8217;s Knockout.js Series'
 date: 2012-08-20T19:50:47+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=989
+wordpress_guid: http://lostechies.com/derickbailey/?p=989
 dsq_thread_id:
   - "812712480"
 categories:

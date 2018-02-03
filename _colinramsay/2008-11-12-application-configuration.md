@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: Application Configuration
 date: 2008-11-12T21:13:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2008/11/12/application-configuration.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2008/11/12/application-configuration.aspx
 categories:
   - configuration
 ---

@@ -1,10 +1,10 @@
 ---
-id: 56
+wordpress_id: 56
 title: CIFactory.Create(RichmondDNUG);
 date: 2008-01-11T02:32:09+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2008/01/10/cifactory-create-richmonddnug.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2008/01/10/cifactory-create-richmonddnug.aspx
 categories:
   - richmond dnug
 ---

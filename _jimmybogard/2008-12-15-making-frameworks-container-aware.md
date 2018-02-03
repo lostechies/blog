@@ -1,10 +1,10 @@
 ---
-id: 262
+wordpress_id: 262
 title: Making frameworks container-aware
 date: 2008-12-15T02:12:58+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/12/14/making-frameworks-container-aware.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/12/14/making-frameworks-container-aware.aspx
 dsq_thread_id:
   - "264716029"
   - "264716029"

@@ -1,10 +1,10 @@
 ---
-id: 153
+wordpress_id: 153
 title: jQuery.continuations In Action
 date: 2012-02-18T06:20:02+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=153
+wordpress_guid: http://lostechies.com/josharnold/?p=153
 dsq_thread_id:
   - "580545992"
 categories:

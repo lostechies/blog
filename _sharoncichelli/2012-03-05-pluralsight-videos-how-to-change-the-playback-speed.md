@@ -1,10 +1,10 @@
 ---
-id: 83
+wordpress_id: 83
 title: 'PluralSight videos: How to change the playback speed'
 date: 2012-03-05T08:53:40+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=83
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=83
 dsq_thread_id:
   - "599445454"
 categories:

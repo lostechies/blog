@@ -1,10 +1,10 @@
 ---
-id: 758
+wordpress_id: 758
 title: Some Thoughts On Functional JavaScript
 date: 2012-01-24T07:29:08+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=758
+wordpress_guid: http://lostechies.com/derickbailey/?p=758
 dsq_thread_id:
   - "550844951"
 categories:

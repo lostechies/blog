@@ -1,10 +1,10 @@
 ---
-id: 72
+wordpress_id: 72
 title: How To Get Started With Kanban In Software Development
 date: 2009-08-05T21:41:28+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/08/05/how-to-get-started-with-kanban-in-software-development.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/08/05/how-to-get-started-with-kanban-in-software-development.aspx
 dsq_thread_id:
   - "262068277"
 categories:

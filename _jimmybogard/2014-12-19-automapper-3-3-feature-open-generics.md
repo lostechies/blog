@@ -1,10 +1,10 @@
 ---
-id: 987
+wordpress_id: 987
 title: 'AutoMapper 3.3 feature: open generics'
 date: 2014-12-19T23:10:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=987
+wordpress_guid: http://lostechies.com/jimmybogard/?p=987
 dsq_thread_id:
   - "3341498360"
 categories:

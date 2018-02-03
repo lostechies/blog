@@ -1,10 +1,10 @@
 ---
-id: 4567
+wordpress_id: 4567
 title: JetBrains Seeder Program
 date: 2008-10-24T18:46:38+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/10/24/jetbrains-seeder-program.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/10/24/jetbrains-seeder-program.aspx
 categories:
   - Tools
 ---

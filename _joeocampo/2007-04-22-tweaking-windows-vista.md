@@ -1,10 +1,10 @@
 ---
-id: 19
+wordpress_id: 19
 title: Tweaking Windows Vista
 date: 2007-04-22T19:52:30+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/04/22/tweaking-windows-vista.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/04/22/tweaking-windows-vista.aspx
 dsq_thread_id:
   - ""
 categories:

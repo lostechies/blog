@@ -1,10 +1,10 @@
 ---
-id: 157
+wordpress_id: 157
 title: Managing Bug Fixes Across Multiple Releases With Git Cherry-Pick
 date: 2010-05-14T15:42:17+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/14/managing-bug-fixes-across-multiple-releases-with-git-cherry-pick.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/14/managing-bug-fixes-across-multiple-releases-with-git-cherry-pick.aspx
 dsq_thread_id:
   - "264117729"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: 101 Great Computer Programming Quotes
 date: 2008-01-12T14:31:34+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/01/12/101-great-computer-programming-quotes.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/01/12/101-great-computer-programming-quotes.aspx
 dsq_thread_id:
   - "262113597"
 categories:

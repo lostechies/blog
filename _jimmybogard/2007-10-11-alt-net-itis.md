@@ -1,10 +1,10 @@
 ---
-id: 77
+wordpress_id: 77
 title: ALT.NET-itis
 date: 2007-10-11T17:55:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/11/alt-net-itis.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/11/alt-net-itis.aspx
 dsq_thread_id:
   - "367290544"
 categories:

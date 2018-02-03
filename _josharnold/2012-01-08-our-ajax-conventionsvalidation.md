@@ -1,10 +1,10 @@
 ---
-id: 148
+wordpress_id: 148
 title: Our Ajax Conventions–Validation
 date: 2012-01-08T08:32:53+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=148
+wordpress_guid: http://lostechies.com/josharnold/?p=148
 dsq_thread_id:
   - "531193457"
 categories:

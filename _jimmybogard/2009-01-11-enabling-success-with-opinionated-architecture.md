@@ -1,10 +1,10 @@
 ---
-id: 271
+wordpress_id: 271
 title: Enabling success with opinionated architecture
 date: 2009-01-11T20:18:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/01/11/enabling-success-with-opinionated-architecture.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/01/11/enabling-success-with-opinionated-architecture.aspx
 dsq_thread_id:
   - "264716039"
 categories:

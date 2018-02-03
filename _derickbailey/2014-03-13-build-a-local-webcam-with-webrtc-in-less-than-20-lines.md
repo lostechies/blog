@@ -1,10 +1,10 @@
 ---
-id: 1316
+wordpress_id: 1316
 title: Build A (local) Webcam With WebRTC In Less Than 20 Lines!
 date: 2014-03-13T06:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1316
+wordpress_guid: http://lostechies.com/derickbailey/?p=1316
 dsq_thread_id:
   - "2409461774"
 categories:

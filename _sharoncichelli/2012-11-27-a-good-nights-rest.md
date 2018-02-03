@@ -1,10 +1,10 @@
 ---
-id: 132
+wordpress_id: 132
 title: 'A Good Night&#8217;s Rest'
 date: 2012-11-27T07:26:46+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=132
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=132
 dsq_thread_id:
   - "946371027"
 categories:

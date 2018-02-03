@@ -1,10 +1,10 @@
 ---
-id: 116
+wordpress_id: 116
 title: ALT.NET Online Open Meeting 3-DEC
 date: 2008-12-02T15:41:02+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/12/02/alt-net-online-open-meeting-3-dec.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/12/02/alt-net-online-open-meeting-3-dec.aspx
 dsq_thread_id:
   - "262114229"
 categories:

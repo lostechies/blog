@@ -1,10 +1,10 @@
 ---
-id: 1028
+wordpress_id: 1028
 title: 'Event Sourcing applied &#8211; the Aggregate'
 date: 2015-06-06T08:55:57+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1028
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1028
 dsq_thread_id:
   - "3826491823"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 185
+wordpress_id: 185
 title: 'A Refactoring: Explicit Modeling And Reducing Duplication'
 date: 2010-09-25T00:52:18+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/09/24/a-refactoring-explicit-modeling-and-reducing-duplication.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/09/24/a-refactoring-explicit-modeling-and-reducing-duplication.aspx
 dsq_thread_id:
   - "264727987"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3172
+wordpress_id: 3172
 title: I must admit
 date: 2008-04-01T13:25:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/04/01/i-must-admit.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/04/01/i-must-admit.aspx
 dsq_thread_id:
   - "268123800"
 categories:

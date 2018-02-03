@@ -1,10 +1,10 @@
 ---
-id: 643
+wordpress_id: 643
 title: Eventual consistency, CQRS and interaction design
 date: 2012-06-26T12:58:21+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/06/26/eventual-consistency-cqrs-and-interaction-design/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/06/26/eventual-consistency-cqrs-and-interaction-design/
 dsq_thread_id:
   - "741003956"
 categories:

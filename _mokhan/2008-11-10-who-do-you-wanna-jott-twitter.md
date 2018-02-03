@@ -1,10 +1,10 @@
 ---
-id: 4570
+wordpress_id: 4570
 title: Who do you wanna Jott? Twitter
 date: 2008-11-10T02:44:01+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/11/09/who-do-you-wanna-jott-twitter.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/11/09/who-do-you-wanna-jott-twitter.aspx
 categories:
   - Tools
 ---

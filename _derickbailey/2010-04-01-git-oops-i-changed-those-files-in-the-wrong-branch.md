@@ -1,10 +1,10 @@
 ---
-id: 128
+wordpress_id: 128
 title: 'Git: Oops! I Changed Those Files In The Wrong Branch!'
 date: 2010-04-01T17:37:17+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/01/git-oops-i-changed-those-files-in-the-wrong-branch.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/01/git-oops-i-changed-those-files-in-the-wrong-branch.aspx
 dsq_thread_id:
   - "262063153"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 926
+wordpress_id: 926
 title: Welcome Andrew Siemer
 date: 2015-04-13T22:25:24+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=926
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=926
 dsq_thread_id:
   - "3679735507"
 categories:

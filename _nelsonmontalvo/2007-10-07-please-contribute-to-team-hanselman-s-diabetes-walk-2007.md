@@ -1,10 +1,10 @@
 ---
-id: 4740
+wordpress_id: 4740
 title: 'Please contribute to Team Hanselman&#8217;s Diabetes Walk 2007'
 date: 2007-10-07T08:12:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/10/07/please-contribute-to-team-hanselman-s-diabetes-walk-2007.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/10/07/please-contribute-to-team-hanselman-s-diabetes-walk-2007.aspx
 categories:
   - Uncategorized
 ---

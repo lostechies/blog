@@ -1,10 +1,10 @@
 ---
-id: 3021
+wordpress_id: 3021
 title: Using Powershell to make your NuPack Packages – more Awesome
 date: 2010-10-28T14:17:06+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/10/28/using-powershell-to-make-your-nupack-packages-more-awesome.aspx
+wordpress_guid: /blogs/hex/archive/2010/10/28/using-powershell-to-make-your-nupack-packages-more-awesome.aspx
 dsq_thread_id:
   - "262063620"
 categories:

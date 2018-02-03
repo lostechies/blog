@@ -1,10 +1,10 @@
 ---
-id: 399
+wordpress_id: 399
 title: Injecting services into entities
 date: 2010-04-14T13:09:57+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/04/14/injecting-services-into-entities.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/04/14/injecting-services-into-entities.aspx
 dsq_thread_id:
   - "264716433"
 categories:

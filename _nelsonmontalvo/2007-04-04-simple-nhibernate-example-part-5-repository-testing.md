@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: 'Simple NHibernate Example, Part 5: Repository Testing'
 date: 2007-04-04T00:20:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/04/03/simple-nhibernate-example-part-5-repository-testing.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/04/03/simple-nhibernate-example-part-5-repository-testing.aspx
 categories:
   - NHibernate
 ---

@@ -1,10 +1,10 @@
 ---
-id: 253
+wordpress_id: 253
 title: Programmers are not typists first
 date: 2008-11-19T01:43:39+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/18/programmers-are-not-typists-first.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/18/programmers-are-not-typists-first.aspx
 dsq_thread_id:
   - "264715984"
 categories:

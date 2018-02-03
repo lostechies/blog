@@ -1,10 +1,10 @@
 ---
-id: 3575
+wordpress_id: 3575
 title: Visual Studio 2008 InstallFest in Tulsa
 date: 2007-12-04T04:04:00+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/12/03/visual-studio-2008-installfest-in-tulsa.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/12/03/visual-studio-2008-installfest-in-tulsa.aspx
 dsq_thread_id:
   - "340267563"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 263
+wordpress_id: 263
 title: Domain Models in presentation frameworks
 date: 2008-12-16T03:35:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/12/15/domain-models-in-presentation-frameworks.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/12/15/domain-models-in-presentation-frameworks.aspx
 dsq_thread_id:
   - "264716002"
 categories:

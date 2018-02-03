@@ -1,10 +1,10 @@
 ---
-id: 194
+wordpress_id: 194
 title: 'Cool stuff in FubuCore No. 4: Dependency Analysis with Directed Graph'
 date: 2011-06-02T13:41:00+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=194
+wordpress_guid: http://lostechies.com/chadmyers/?p=194
 dsq_thread_id:
   - "320607788"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 37
+wordpress_id: 37
 title: 'Domain Specific Languages with Boo: AST Macros'
 date: 2010-04-05T02:40:17+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/04/04/domain-specific-languages-with-boo-ast-macros.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/04/04/domain-specific-languages-with-boo-ast-macros.aspx
 dsq_thread_id:
   - "425624416"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 120
+wordpress_id: 120
 title: Running Ruby And Rake (and albacore) Without Installing Them
 date: 2010-03-23T14:41:38+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/23/running-ruby-and-rake-and-albacore-without-installing-them.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/23/running-ruby-and-rake-and-albacore-without-installing-them.aspx
 dsq_thread_id:
   - "262068515"
 categories:

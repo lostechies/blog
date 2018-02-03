@@ -1,10 +1,10 @@
 ---
-id: 90
+wordpress_id: 90
 title: Coding responsibly
 date: 2007-10-31T13:39:52+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/31/coding-responsibly.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/31/coding-responsibly.aspx
 dsq_thread_id:
   - "268941505"
 categories:

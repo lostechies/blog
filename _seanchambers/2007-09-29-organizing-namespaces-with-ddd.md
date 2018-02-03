@@ -1,10 +1,10 @@
 ---
-id: 3139
+wordpress_id: 3139
 title: Organizing Namespaces with DDD
 date: 2007-09-29T13:33:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/09/29/organizing-namespaces-with-ddd.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/09/29/organizing-namespaces-with-ddd.aspx
 dsq_thread_id:
   - "262671030"
 categories:

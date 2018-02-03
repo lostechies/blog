@@ -1,10 +1,10 @@
 ---
-id: 266
+wordpress_id: 266
 title: Back in the saddle
 date: 2015-07-29T04:46:56+00:00
 author: Josh Arnold
 layout: post
-guid: https://lostechies.com/josharnold/?p=266
+wordpress_guid: https://lostechies.com/josharnold/?p=266
 dsq_thread_id:
   - "3981827419"
 categories:

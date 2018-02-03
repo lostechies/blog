@@ -1,10 +1,10 @@
 ---
-id: 280
+wordpress_id: 280
 title: On symbology and materialism
 date: 2009-02-11T00:41:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/10/on-symbology-and-materialism.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/10/on-symbology-and-materialism.aspx
 dsq_thread_id:
   - "265770130"
 categories:

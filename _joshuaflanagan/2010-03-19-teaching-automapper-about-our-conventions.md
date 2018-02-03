@@ -1,10 +1,10 @@
 ---
-id: 3958
+wordpress_id: 3958
 title: Teaching AutoMapper about our conventions
 date: 2010-03-19T19:32:04+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/03/19/teaching-automapper-about-our-conventions.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/03/19/teaching-automapper-about-our-conventions.aspx
 dsq_thread_id:
   - "262081530"
 categories:

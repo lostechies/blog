@@ -1,10 +1,10 @@
 ---
-id: 4422
+wordpress_id: 4422
 title: Huge Scale Deployments
 date: 2015-08-28T15:18:47+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=51
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=51
 dsq_thread_id:
   - "4075558430"
 categories:

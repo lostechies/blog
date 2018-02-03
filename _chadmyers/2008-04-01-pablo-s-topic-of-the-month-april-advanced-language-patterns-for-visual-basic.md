@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: 'Pablo&#8217;s Topic of the Month &#8211; April: Advanced Language Patterns for Visual Basic'
 date: 2008-04-01T01:04:30+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/03/31/pablo-s-topic-of-the-month-april-advanced-language-patterns-for-visual-basic.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/03/31/pablo-s-topic-of-the-month-april-advanced-language-patterns-for-visual-basic.aspx
 dsq_thread_id:
   - "262113733"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 740
+wordpress_id: 740
 title: Automating Docco Generation And Deployment To Heroku And Github
 date: 2011-12-26T13:57:46+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=740
+wordpress_guid: http://lostechies.com/derickbailey/?p=740
 dsq_thread_id:
   - "516918942"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 419
+wordpress_id: 419
 title: Bulk processing with NHibernate
 date: 2010-06-24T13:03:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/06/24/bulk-processing-with-nhibernate.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/06/24/bulk-processing-with-nhibernate.aspx
 dsq_thread_id:
   - "264716528"
 categories:

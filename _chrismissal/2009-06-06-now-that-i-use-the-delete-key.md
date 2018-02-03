@@ -1,10 +1,10 @@
 ---
-id: 3357
+wordpress_id: 3357
 title: Now that I use the Delete Key…
 date: 2009-06-06T13:21:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/06/06/now-that-i-use-the-delete-key.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/06/06/now-that-i-use-the-delete-key.aspx
 dsq_thread_id:
   - "274844635"
 categories:

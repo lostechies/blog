@@ -1,10 +1,10 @@
 ---
-id: 91
+wordpress_id: 91
 title: Why go to a Prolog talk?
 date: 2012-03-07T08:29:27+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=91
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=91
 dsq_thread_id:
   - "602073889"
 categories:

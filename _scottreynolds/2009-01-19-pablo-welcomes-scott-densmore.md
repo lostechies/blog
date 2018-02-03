@@ -1,10 +1,10 @@
 ---
-id: 4034
+wordpress_id: 4034
 title: Pablo Welcomes Scott Densmore!
 date: 2009-01-19T16:42:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/01/19/pablo-welcomes-scott-densmore.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/01/19/pablo-welcomes-scott-densmore.aspx
 categories:
   - Uncategorized
 ---

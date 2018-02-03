@@ -1,10 +1,10 @@
 ---
-id: 36
+wordpress_id: 36
 title: 'Dear JetBrains, RE: Resharper 4 EAP Nightlies'
 date: 2008-04-07T20:21:19+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/07/dear-jetbrains-re-resharper-4-eap-nightlies.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/07/dear-jetbrains-re-resharper-4-eap-nightlies.aspx
 dsq_thread_id:
   - "262113760"
 categories:

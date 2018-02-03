@@ -1,10 +1,10 @@
 ---
-id: 1979
+wordpress_id: 1979
 title: 'Docker and SwarmKit &#8211; Part 5 &#8211; going deep'
 date: 2016-11-11T11:52:39+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1979
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1979
 dsq_thread_id:
   - "5296683624"
 categories:

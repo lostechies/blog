@@ -1,10 +1,10 @@
 ---
-id: 717
+wordpress_id: 717
 title: 'RabbitMQ for Windows: Exchange Types'
 date: 2012-03-28T18:58:38+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=717
+wordpress_guid: http://lostechies.com/derekgreer/?p=717
 dsq_thread_id:
   - "628113181"
 categories:

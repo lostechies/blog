@@ -1,10 +1,10 @@
 ---
-id: 33
+wordpress_id: 33
 title: Ruby, so easy a wife can do it
 date: 2007-09-16T00:57:46+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/15/ruby-so-easy-a-wife-can-do-it.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/15/ruby-so-easy-a-wife-can-do-it.aspx
 categories:
   - Personal
   - Ruby

@@ -1,10 +1,10 @@
 ---
-id: 43
+wordpress_id: 43
 title: '[Book Review] The Power to Predict'
 date: 2008-04-08T01:39:23+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/04/07/book-review-the-power-to-predict.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/04/07/book-review-the-power-to-predict.aspx
 categories:
   - Uncategorized
 ---

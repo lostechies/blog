@@ -1,10 +1,10 @@
 ---
-id: 58
+wordpress_id: 58
 title: 'Legacy code testing techniques: subclass and override non-virtual members'
 date: 2007-08-31T19:22:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/31/legacy-code-testing-techniques-subclass-and-override-non-virtual-members.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/31/legacy-code-testing-techniques-subclass-and-override-non-virtual-members.aspx
 dsq_thread_id:
   - "272368137"
 categories:

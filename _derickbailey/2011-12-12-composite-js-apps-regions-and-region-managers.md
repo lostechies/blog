@@ -1,10 +1,10 @@
 ---
-id: 707
+wordpress_id: 707
 title: 'Composite JS Apps: Regions And Region Managers'
 date: 2011-12-12T11:33:20+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=707
+wordpress_guid: http://lostechies.com/derickbailey/?p=707
 dsq_thread_id:
   - "502152476"
 categories:

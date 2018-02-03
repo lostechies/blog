@@ -1,10 +1,10 @@
 ---
-id: 175
+wordpress_id: 175
 title: Developers or engineers?
 date: 2008-04-30T23:50:12+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/04/30/developers-or-engineers.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/04/30/developers-or-engineers.aspx
 dsq_thread_id:
   - "264715660"
 categories:

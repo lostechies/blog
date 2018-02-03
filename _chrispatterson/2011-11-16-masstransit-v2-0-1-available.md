@@ -1,10 +1,10 @@
 ---
-id: 80
+wordpress_id: 80
 title: MassTransit v2.0.1 Available
 date: 2011-11-16T08:28:49+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=80
+wordpress_guid: http://lostechies.com/chrispatterson/?p=80
 dsq_thread_id:
   - "473906987"
 categories:

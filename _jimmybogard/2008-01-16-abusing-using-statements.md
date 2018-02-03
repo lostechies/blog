@@ -1,10 +1,10 @@
 ---
-id: 129
+wordpress_id: 129
 title: Abusing using statements
 date: 2008-01-16T04:04:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/15/abusing-using-statements.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/15/abusing-using-statements.aspx
 dsq_thread_id:
   - "264715503"
 categories:

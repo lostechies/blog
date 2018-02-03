@@ -1,10 +1,10 @@
 ---
-id: 206
+wordpress_id: 206
 title: 'Mocks, Stubs and Unreadable Tests: Clearly I&#8217;m Doing This Wrong'
 date: 2011-01-14T03:31:14+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/01/13/mocks-stubs-and-unreadable-tests-clearly-i-m-doing-this-wrong.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/01/13/mocks-stubs-and-unreadable-tests-clearly-i-m-doing-this-wrong.aspx
 dsq_thread_id:
   - "264543705"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1178
+wordpress_id: 1178
 title: Software Lessons from Property Brothers
 date: 2016-03-14T21:00:59+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1178
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1178
 dsq_thread_id:
   - "4662740881"
 categories:

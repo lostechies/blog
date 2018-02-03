@@ -1,10 +1,10 @@
 ---
-id: 4220
+wordpress_id: 4220
 title: 'Red Gate should have said&#8230;'
 date: 2011-02-04T00:46:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2011/02/03/red-gate-should-have-said.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2011/02/03/red-gate-should-have-said.aspx
 dsq_thread_id:
   - "262493374"
 categories:

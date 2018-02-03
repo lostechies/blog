@@ -1,10 +1,10 @@
 ---
-id: 78
+wordpress_id: 78
 title: 'It&#8217;s not goodbye&#8230;'
 date: 2010-10-01T17:13:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2010/10/01/it-s-not-goodbye.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2010/10/01/it-s-not-goodbye.aspx
 categories:
   - blogging
 ---

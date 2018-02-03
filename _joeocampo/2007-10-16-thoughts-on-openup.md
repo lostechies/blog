@@ -1,10 +1,10 @@
 ---
-id: 77
+wordpress_id: 77
 title: Thoughts on OpenUP?
 date: 2007-10-16T22:09:30+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/16/thoughts-on-openup.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/16/thoughts-on-openup.aspx
 dsq_thread_id:
   - "262090251"
 categories:

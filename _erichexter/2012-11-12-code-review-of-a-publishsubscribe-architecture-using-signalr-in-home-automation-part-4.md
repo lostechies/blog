@@ -1,10 +1,10 @@
 ---
-id: 265
+wordpress_id: 265
 title: Code review of a Publish/Subscribe Architecture using SignalR in Home Automation – Part 4
 date: 2012-11-12T05:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=265
+wordpress_guid: http://lostechies.com/erichexter/?p=265
 dsq_thread_id:
   - "924313190"
 categories:

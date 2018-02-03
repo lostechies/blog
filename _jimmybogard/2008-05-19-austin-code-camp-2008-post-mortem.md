@@ -1,10 +1,10 @@
 ---
-id: 183
+wordpress_id: 183
 title: Austin Code Camp 2008 post-mortem
 date: 2008-05-19T01:58:35+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/18/austin-code-camp-2008-post-mortem.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/18/austin-code-camp-2008-post-mortem.aspx
 dsq_thread_id:
   - "344085116"
 categories:

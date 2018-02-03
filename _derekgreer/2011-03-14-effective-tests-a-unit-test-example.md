@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: 'Effective Tests: A Unit Test Example'
 date: 2011-03-14T11:32:04+00:00
 author: Derek Greer
 layout: post
-guid: /blogs/derekgreer/archive/2011/03/14/effective-tests-a-unit-test-example.aspx
+wordpress_guid: /blogs/derekgreer/archive/2011/03/14/effective-tests-a-unit-test-example.aspx
 dsq_thread_id:
   - "262503389"
 categories:

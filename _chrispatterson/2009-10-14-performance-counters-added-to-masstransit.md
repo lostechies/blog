@@ -1,10 +1,10 @@
 ---
-id: 60
+wordpress_id: 60
 title: Performance Counters Added to MassTransit
 date: 2009-10-14T15:57:16+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/10/14/performance-counters-added-to-masstransit.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/10/14/performance-counters-added-to-masstransit.aspx
 dsq_thread_id:
   - "266663761"
 categories:

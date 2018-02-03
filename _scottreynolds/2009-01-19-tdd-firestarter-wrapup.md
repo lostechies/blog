@@ -1,10 +1,10 @@
 ---
-id: 4033
+wordpress_id: 4033
 title: TDD Firestarter Wrapup
 date: 2009-01-19T03:25:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/01/18/tdd-firestarter-wrapup.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/01/18/tdd-firestarter-wrapup.aspx
 categories:
   - Community
   - Testing

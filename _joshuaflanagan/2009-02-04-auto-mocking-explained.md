@@ -1,10 +1,10 @@
 ---
-id: 3942
+wordpress_id: 3942
 title: Auto mocking Explained
 date: 2009-02-04T01:25:32+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/02/03/auto-mocking-explained.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/02/03/auto-mocking-explained.aspx
 dsq_thread_id:
   - "262113157"
 categories:

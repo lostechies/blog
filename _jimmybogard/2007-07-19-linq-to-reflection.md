@@ -1,10 +1,10 @@
 ---
-id: 42
+wordpress_id: 42
 title: LINQ to Reflection
 date: 2007-07-19T15:27:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/19/linq-to-reflection.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/19/linq-to-reflection.aspx
 dsq_thread_id:
   - "278783893"
 categories:

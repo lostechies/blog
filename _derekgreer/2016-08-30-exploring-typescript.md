@@ -1,10 +1,10 @@
 ---
-id: 907
+wordpress_id: 907
 title: Exploring TypeScript
 date: 2016-08-30T17:55:14+00:00
 author: Derek Greer
 layout: post
-guid: https://lostechies.com/derekgreer/?p=907
+wordpress_guid: https://lostechies.com/derekgreer/?p=907
 dsq_thread_id:
   - "5107372092"
 categories:

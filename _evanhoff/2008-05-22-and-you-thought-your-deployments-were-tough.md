@@ -1,10 +1,10 @@
 ---
-id: 4324
+wordpress_id: 4324
 title: And You Thought Your Deployments Were Tough
 date: 2008-05-22T02:50:50+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/05/21/and-you-thought-your-deployments-were-tough.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/05/21/and-you-thought-your-deployments-were-tough.aspx
 categories:
   - Uncategorized
 ---

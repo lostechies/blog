@@ -1,10 +1,10 @@
 ---
-id: 19
+wordpress_id: 19
 title: Funding Open Source with Donations
 date: 2008-04-23T01:06:15+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/04/22/funding-open-source-with-donations.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/04/22/funding-open-source-with-donations.aspx
 categories:
   - Uncategorized
 ---

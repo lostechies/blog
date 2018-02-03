@@ -1,10 +1,10 @@
 ---
-id: 10
+wordpress_id: 10
 title: Thanks ADNUG attendees! Slides and code available.
 date: 2008-10-14T13:55:57+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/10/14/thanks-adnug-attendees-slides-and-code-available.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/10/14/thanks-adnug-attendees-slides-and-code-available.aspx
 dsq_thread_id:
   - "262067885"
 categories:

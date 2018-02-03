@@ -1,10 +1,10 @@
 ---
-id: 493
+wordpress_id: 493
 title: Waste and group estimations
 date: 2011-05-27T03:03:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/05/27/waste-and-group-estimations/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/05/27/waste-and-group-estimations/
 dsq_thread_id:
   - "314948413"
 categories:

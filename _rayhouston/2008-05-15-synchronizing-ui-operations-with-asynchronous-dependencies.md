@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: Synchronizing UI Operations with Asynchronous Dependencies
 date: 2008-05-15T02:14:21+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/05/14/synchronizing-ui-operations-with-asynchronous-dependencies.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/05/14/synchronizing-ui-operations-with-asynchronous-dependencies.aspx
 categories:
   - Uncategorized
 ---

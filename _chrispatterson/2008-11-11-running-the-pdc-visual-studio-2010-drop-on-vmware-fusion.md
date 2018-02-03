@@ -1,10 +1,10 @@
 ---
-id: 3603
+wordpress_id: 3603
 title: Running the PDC Visual Studio 2010 Drop on VMware Fusion
 date: 2008-11-11T01:52:40+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/11/10/running-the-pdc-visual-studio-2010-drop-on-vmware-fusion.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/11/10/running-the-pdc-visual-studio-2010-drop-on-vmware-fusion.aspx
 dsq_thread_id:
   - "262089266"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1127
+wordpress_id: 1127
 title: 'End-to-End Hypermedia: Building the Server'
 date: 2015-06-03T17:26:30+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1127
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1127
 dsq_thread_id:
   - "3818340520"
 categories:

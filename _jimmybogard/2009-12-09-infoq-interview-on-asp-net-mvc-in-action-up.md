@@ -1,10 +1,10 @@
 ---
-id: 375
+wordpress_id: 375
 title: InfoQ interview on ASP.NET MVC in Action up
 date: 2009-12-09T13:53:27+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/12/09/infoq-interview-on-asp-net-mvc-in-action-up.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/12/09/infoq-interview-on-asp-net-mvc-in-action-up.aspx
 dsq_thread_id:
   - "267047256"
 categories:

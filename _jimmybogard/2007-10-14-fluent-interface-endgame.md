@@ -1,10 +1,10 @@
 ---
-id: 80
+wordpress_id: 80
 title: Fluent interface endgame
 date: 2007-10-14T02:07:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/13/fluent-interface-endgame.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/13/fluent-interface-endgame.aspx
 dsq_thread_id:
   - "806302404"
 categories:

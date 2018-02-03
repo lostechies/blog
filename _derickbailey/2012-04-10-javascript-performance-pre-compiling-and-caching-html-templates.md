@@ -1,10 +1,10 @@
 ---
-id: 872
+wordpress_id: 872
 title: 'JavaScript Performance: Pre-Compiling And Caching HTML Templates'
 date: 2012-04-10T07:33:11+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=872
+wordpress_guid: http://lostechies.com/derickbailey/?p=872
 dsq_thread_id:
   - "643508719"
 categories:

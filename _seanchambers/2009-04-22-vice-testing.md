@@ -1,10 +1,10 @@
 ---
-id: 3193
+wordpress_id: 3193
 title: ‘Vice’ Testing
 date: 2009-04-22T03:55:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/04/21/vice-testing.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/04/21/vice-testing.aspx
 dsq_thread_id:
   - "268123860"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3611
+wordpress_id: 3611
 title: MassTransit 0.6 Release Candidate
 date: 2009-03-31T02:17:51+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/03/30/masstransit-0-6-release-candidate.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/03/30/masstransit-0-6-release-candidate.aspx
 dsq_thread_id:
   - "262089326"
 categories:

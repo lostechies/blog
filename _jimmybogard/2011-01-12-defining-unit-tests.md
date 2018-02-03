@@ -1,10 +1,10 @@
 ---
-id: 448
+wordpress_id: 448
 title: Defining unit tests
 date: 2011-01-12T13:59:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/01/12/defining-unit-tests.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/01/12/defining-unit-tests.aspx
 dsq_thread_id:
   - "264716660"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 379
+wordpress_id: 379
 title: UI Automation tools snake oil?
 date: 2010-01-04T14:03:43+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/01/04/ui-automation-tools-snake-oil.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/01/04/ui-automation-tools-snake-oil.aspx
 dsq_thread_id:
   - "264716387"
 categories:

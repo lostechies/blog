@@ -1,10 +1,10 @@
 ---
-id: 3781
+wordpress_id: 3781
 title: Using a Command Execution Style Architecture with a Domain Model
 date: 2010-11-23T04:17:03+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2010/11/22/using-a-command-execution-style-architecture-with-a-domain-model.aspx
+wordpress_guid: /blogs/johnteague/archive/2010/11/22/using-a-command-execution-style-architecture-with-a-domain-model.aspx
 dsq_thread_id:
   - "262055766"
 categories:

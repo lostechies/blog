@@ -1,10 +1,10 @@
 ---
-id: 46
+wordpress_id: 46
 title: Sun Votes for Open Source
 date: 2008-04-17T04:34:31+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/04/17/sun-votes-for-open-source.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/04/17/sun-votes-for-open-source.aspx
 categories:
   - Uncategorized
 ---

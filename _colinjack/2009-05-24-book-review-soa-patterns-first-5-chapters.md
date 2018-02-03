@@ -1,10 +1,10 @@
 ---
-id: 4650
+wordpress_id: 4650
 title: 'Book Review &#8211; SOA Patterns (First 5 Chapters)'
 date: 2009-05-24T12:24:13+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/05/24/book-review-soa-patterns-first-5-chapters.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/05/24/book-review-soa-patterns-first-5-chapters.aspx
 categories:
   - Books
   - SOA

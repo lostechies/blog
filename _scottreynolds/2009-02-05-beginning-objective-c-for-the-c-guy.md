@@ -1,10 +1,10 @@
 ---
-id: 4036
+wordpress_id: 4036
 title: 'Beginning Objective-C for the C# Guy'
 date: 2009-02-05T05:33:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/02/05/beginning-objective-c-for-the-c-guy.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/02/05/beginning-objective-c-for-the-c-guy.aspx
 categories:
   - Cocoa
   - mac

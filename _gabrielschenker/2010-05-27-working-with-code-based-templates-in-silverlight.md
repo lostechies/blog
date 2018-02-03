@@ -1,10 +1,10 @@
 ---
-id: 42
+wordpress_id: 42
 title: Working with code based templates in Silverlight
 date: 2010-05-27T15:20:57+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/05/27/working-with-code-based-templates-in-silverlight.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/05/27/working-with-code-based-templates-in-silverlight.aspx
 dsq_thread_id:
   - "263908923"
 categories:

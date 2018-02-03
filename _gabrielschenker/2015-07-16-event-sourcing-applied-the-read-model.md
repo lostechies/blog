@@ -1,10 +1,10 @@
 ---
-id: 1099
+wordpress_id: 1099
 title: 'Event sourcing applied &#8211; the read model'
 date: 2015-07-16T18:29:51+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1099
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1099
 dsq_thread_id:
   - "3941691386"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 25
+wordpress_id: 25
 title: The MVC Template Team Got It Right
 date: 2009-02-20T16:04:22+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/02/20/the-mvc-template-team-got-it-right.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/02/20/the-mvc-template-team-got-it-right.aspx
 dsq_thread_id:
   - "262055612"
 categories:

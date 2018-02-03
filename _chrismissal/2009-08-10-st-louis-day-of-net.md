@@ -1,10 +1,10 @@
 ---
-id: 3362
+wordpress_id: 3362
 title: St Louis Day of .NET
 date: 2009-08-10T05:23:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/08/10/st-louis-day-of-net.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/08/10/st-louis-day-of-net.aspx
 dsq_thread_id:
   - "262174989"
 categories:

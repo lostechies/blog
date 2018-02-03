@@ -1,10 +1,10 @@
 ---
-id: 59
+wordpress_id: 59
 title: Do you need a sofa mover or a chair mover?
 date: 2007-09-14T18:48:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/14/do-you-need-a-sofa-mover-or-a-chair-mover.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/14/do-you-need-a-sofa-mover-or-a-chair-mover.aspx
 dsq_thread_id:
   - "262091005"
 categories:

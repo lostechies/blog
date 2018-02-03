@@ -1,10 +1,10 @@
 ---
-id: 439
+wordpress_id: 439
 title: Queues are still queues
 date: 2010-11-18T15:38:24+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/11/18/queues-are-still-queues.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/11/18/queues-are-still-queues.aspx
 dsq_thread_id:
   - "264716616"
 categories:

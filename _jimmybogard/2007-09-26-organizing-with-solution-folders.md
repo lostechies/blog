@@ -1,10 +1,10 @@
 ---
-id: 66
+wordpress_id: 66
 title: Organizing with Solution Folders
 date: 2007-09-26T13:31:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/09/26/organizing-with-solution-folders.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/09/26/organizing-with-solution-folders.aspx
 dsq_thread_id:
   - "269784294"
 categories:

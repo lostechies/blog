@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: A Simple Closure To Handle Try/Catch Around Transactions
 date: 2008-03-28T00:35:11+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/03/27/a-simple-closure-to-handle-try-catch-around-transactions.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/03/27/a-simple-closure-to-handle-try-catch-around-transactions.aspx
 categories:
   - Uncategorized
 ---

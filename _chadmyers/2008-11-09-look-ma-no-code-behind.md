@@ -1,10 +1,10 @@
 ---
-id: 108
+wordpress_id: 108
 title: Look Ma, No Code-Behind!
 date: 2008-11-09T03:08:51+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/11/08/look-ma-no-code-behind.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/11/08/look-ma-no-code-behind.aspx
 dsq_thread_id:
   - "262114195"
 categories:

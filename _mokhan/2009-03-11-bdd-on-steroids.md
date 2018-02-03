@@ -1,10 +1,10 @@
 ---
-id: 31
+wordpress_id: 31
 title: BDD on Steroids
 date: 2009-03-11T20:41:36+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2009/03/11/bdd-on-steroids.aspx
+wordpress_guid: /blogs/mokhan/archive/2009/03/11/bdd-on-steroids.aspx
 categories:
   - TDD
   - Tools

@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: Coming from place far far away
 date: 2009-01-12T16:27:13+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/01/12/coming-from-place-far-far-away.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/01/12/coming-from-place-far-far-away.aspx
 dsq_thread_id:
   - "263908803"
 categories:

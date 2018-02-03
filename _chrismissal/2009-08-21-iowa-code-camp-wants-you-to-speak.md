@@ -1,10 +1,10 @@
 ---
-id: 3363
+wordpress_id: 3363
 title: Iowa Code Camp Wants You to Speak
 date: 2009-08-21T03:00:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/08/20/iowa-code-camp-wants-you-to-speak.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/08/20/iowa-code-camp-wants-you-to-speak.aspx
 dsq_thread_id:
   - "454999435"
 categories:

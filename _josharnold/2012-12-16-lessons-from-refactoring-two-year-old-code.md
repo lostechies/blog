@@ -1,10 +1,10 @@
 ---
-id: 237
+wordpress_id: 237
 title: Lessons from refactoring two year old code
 date: 2012-12-16T22:59:10+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=237
+wordpress_guid: http://lostechies.com/josharnold/?p=237
 dsq_thread_id:
   - "978010225"
 categories:

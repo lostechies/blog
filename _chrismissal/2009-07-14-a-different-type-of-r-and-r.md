@@ -1,10 +1,10 @@
 ---
-id: 3359
+wordpress_id: 3359
 title: A Different Type of R and R
 date: 2009-07-14T02:43:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/07/13/a-different-type-of-r-and-r.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/07/13/a-different-type-of-r-and-r.aspx
 dsq_thread_id:
   - "272653304"
 categories:

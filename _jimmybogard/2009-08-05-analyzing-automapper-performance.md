@@ -1,10 +1,10 @@
 ---
-id: 341
+wordpress_id: 341
 title: Analyzing AutoMapper performance
 date: 2009-08-05T00:07:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/08/04/analyzing-automapper-performance.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/08/04/analyzing-automapper-performance.aspx
 dsq_thread_id:
   - "264716278"
 categories:

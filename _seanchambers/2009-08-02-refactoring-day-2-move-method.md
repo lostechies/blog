@@ -1,10 +1,10 @@
 ---
-id: 3196
+wordpress_id: 3196
 title: 'Refactoring Day 2 : Move Method'
 date: 2009-08-02T13:50:34+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/02/refactoring-day-2-move-method.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/02/refactoring-day-2-move-method.aspx
 dsq_thread_id:
   - "262346345"
 categories:

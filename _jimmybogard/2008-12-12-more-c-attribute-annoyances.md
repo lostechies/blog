@@ -1,10 +1,10 @@
 ---
-id: 261
+wordpress_id: 261
 title: 'More C# Attribute annoyances'
 date: 2008-12-12T02:09:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/12/11/more-c-attribute-annoyances.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/12/11/more-c-attribute-annoyances.aspx
 dsq_thread_id:
   - "264715987"
 categories:

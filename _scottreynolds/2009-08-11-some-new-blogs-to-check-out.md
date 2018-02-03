@@ -1,10 +1,10 @@
 ---
-id: 4042
+wordpress_id: 4042
 title: Some new blogs to check out
 date: 2009-08-11T20:33:59+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/08/11/some-new-blogs-to-check-out.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/08/11/some-new-blogs-to-check-out.aspx
 categories:
   - Community
   - lean

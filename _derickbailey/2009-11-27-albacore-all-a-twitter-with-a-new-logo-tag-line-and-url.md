@@ -1,10 +1,10 @@
 ---
-id: 95
+wordpress_id: 95
 title: 'Albacore: All A-Twitter With A New Logo, Tag Line, And URL'
 date: 2009-11-27T20:24:54+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/11/27/albacore-all-a-twitter-with-a-new-logo-tag-line-and-url.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/11/27/albacore-all-a-twitter-with-a-new-logo-tag-line-and-url.aspx
 dsq_thread_id:
   - "287576803"
 categories:

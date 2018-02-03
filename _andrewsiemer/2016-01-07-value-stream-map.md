@@ -1,10 +1,10 @@
 ---
-id: 130
+wordpress_id: 130
 title: Value Stream Map
 date: 2016-01-07T21:14:35+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=130
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=130
 dsq_thread_id:
   - "4471180031"
 categories:

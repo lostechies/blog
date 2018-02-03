@@ -1,10 +1,10 @@
 ---
-id: 3197
+wordpress_id: 3197
 title: 'Refactoring Day 3 : Pull Up Method'
 date: 2009-08-03T11:35:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/03/refactoring-day-3-pull-up-method.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/03/refactoring-day-3-pull-up-method.aspx
 dsq_thread_id:
   - "262346651"
 categories:

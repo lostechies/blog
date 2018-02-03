@@ -1,10 +1,10 @@
 ---
-id: 139
+wordpress_id: 139
 title: Stories, requirements, and language
 date: 2008-02-06T14:24:56+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/06/stories-requirements-and-language.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/06/stories-requirements-and-language.aspx
 dsq_thread_id:
   - "264715543"
 categories:

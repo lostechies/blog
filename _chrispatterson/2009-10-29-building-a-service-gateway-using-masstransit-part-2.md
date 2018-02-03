@@ -1,10 +1,10 @@
 ---
-id: 62
+wordpress_id: 62
 title: Building a Service Gateway Using MassTransit, Part 2
 date: 2009-10-29T22:34:21+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/10/29/building-a-service-gateway-using-masstransit-part-2.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/10/29/building-a-service-gateway-using-masstransit-part-2.aspx
 dsq_thread_id:
   - "262089401"
 categories:

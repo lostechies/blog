@@ -1,10 +1,10 @@
 ---
-id: 3579
+wordpress_id: 3579
 title: What I Do Is What I Do Is What You Do Or What
 date: 2007-12-30T06:40:53+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/12/30/what-i-do-is-what-i-do-is-what-you-do-or-what.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/12/30/what-i-do-is-what-i-do-is-what-you-do-or-what.aspx
 dsq_thread_id:
   - "262089195"
 categories:

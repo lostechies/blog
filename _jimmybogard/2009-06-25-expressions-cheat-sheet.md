@@ -1,10 +1,10 @@
 ---
-id: 328
+wordpress_id: 328
 title: Expressions Cheat Sheet
 date: 2009-06-25T02:36:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/06/24/expressions-cheat-sheet.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/06/24/expressions-cheat-sheet.aspx
 dsq_thread_id:
   - "264716221"
 categories:

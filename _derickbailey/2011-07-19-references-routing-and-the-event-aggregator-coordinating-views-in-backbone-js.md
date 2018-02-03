@@ -1,10 +1,10 @@
 ---
-id: 472
+wordpress_id: 472
 title: 'References, Routing, And The Event Aggregator: Coordinating Views In Backbone.js'
 date: 2011-07-19T09:01:49+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=472
+wordpress_guid: http://lostechies.com/derickbailey/?p=472
 dsq_thread_id:
   - "362520369"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 12
+wordpress_id: 12
 title: 'PTOM: The Interface Segregation Principle'
 date: 2008-03-15T03:04:48+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/03/14/ptom-the-interface-segregation-principle.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/03/14/ptom-the-interface-segregation-principle.aspx
 categories:
   - PTOM
 ---

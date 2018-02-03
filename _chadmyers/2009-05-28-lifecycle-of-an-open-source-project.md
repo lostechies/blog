@@ -1,10 +1,10 @@
 ---
-id: 143
+wordpress_id: 143
 title: Lifecycle of an open source project
 date: 2009-05-28T16:58:05+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/05/28/lifecycle-of-an-open-source-project.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/05/28/lifecycle-of-an-open-source-project.aspx
 dsq_thread_id:
   - "262114393"
 categories:

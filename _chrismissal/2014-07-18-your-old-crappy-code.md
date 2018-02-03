@@ -1,10 +1,10 @@
 ---
-id: 459
+wordpress_id: 459
 title: Your Old Crappy Code
 date: 2014-07-18T09:25:01+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=459
+wordpress_guid: http://lostechies.com/chrismissal/?p=459
 dsq_thread_id:
   - "2853897134"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 336
+wordpress_id: 336
 title: When is Poor Man’s Dependency Injection appropriate?
 date: 2009-07-14T22:21:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/14/when-is-poor-man-s-dependency-injection-appropriate.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/14/when-is-poor-man-s-dependency-injection-appropriate.aspx
 dsq_thread_id:
   - "264716257"
 categories:

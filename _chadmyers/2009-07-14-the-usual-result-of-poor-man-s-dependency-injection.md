@@ -1,10 +1,10 @@
 ---
-id: 151
+wordpress_id: 151
 title: The usual result of Poor Man’s Dependency Injection
 date: 2009-07-14T18:41:28+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/07/14/the-usual-result-of-poor-man-s-dependency-injection.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/07/14/the-usual-result-of-poor-man-s-dependency-injection.aspx
 dsq_thread_id:
   - "262114426"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1021
+wordpress_id: 1021
 title: 'Abstraction: The Rule Of Three'
 date: 2012-10-31T11:14:42+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1021
+wordpress_guid: http://lostechies.com/derickbailey/?p=1021
 dsq_thread_id:
   - "908714093"
 categories:

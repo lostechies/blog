@@ -1,10 +1,10 @@
 ---
-id: 3612
+wordpress_id: 3612
 title: 'I&#8217;m Down With M.V.C., Yeah You Know Me!'
 date: 2009-05-11T01:48:01+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/05/10/i-m-down-with-m-v-c-yeah-you-know-me.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/05/10/i-m-down-with-m-v-c-yeah-you-know-me.aspx
 dsq_thread_id:
   - "262089334"
 categories:

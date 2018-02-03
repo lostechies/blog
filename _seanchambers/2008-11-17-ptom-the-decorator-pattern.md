@@ -1,10 +1,10 @@
 ---
-id: 3186
+wordpress_id: 3186
 title: 'PTOM: The Decorator Pattern'
 date: 2008-11-17T04:23:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/11/16/ptom-the-decorator-pattern.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/11/16/ptom-the-decorator-pattern.aspx
 dsq_thread_id:
   - "266341176"
 categories:

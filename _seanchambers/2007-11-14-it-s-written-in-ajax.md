@@ -1,10 +1,10 @@
 ---
-id: 3151
+wordpress_id: 3151
 title: 'It&#8217;s written in AJAX!'
 date: 2007-11-14T19:03:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/11/14/it-s-written-in-ajax.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/11/14/it-s-written-in-ajax.aspx
 dsq_thread_id:
   - "268123724"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4771
+wordpress_id: 4771
 title: Tracking down a strange issue with WatiN and IIS Express
 date: 2011-06-30T09:21:44+00:00
 author: Steve Donie
 layout: post
-guid: http://lostechies.com/stevedonie/2011/06/30/tracking-down-a-strange-issue-with-watin-and-iis-express/
+wordpress_guid: http://lostechies.com/stevedonie/2011/06/30/tracking-down-a-strange-issue-with-watin-and-iis-express/
 dsq_thread_id:
   - "346254456"
 categories:

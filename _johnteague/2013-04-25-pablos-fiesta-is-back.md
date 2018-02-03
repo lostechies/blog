@@ -1,10 +1,10 @@
 ---
-id: 193
+wordpress_id: 193
 title: 'Pablo&#8217;s Fiesta is Back!!'
 date: 2013-04-25T16:10:57+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=193
+wordpress_guid: http://lostechies.com/johnteague/?p=193
 dsq_thread_id:
   - "1235307243"
 categories:

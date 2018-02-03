@@ -1,10 +1,10 @@
 ---
-id: 493
+wordpress_id: 493
 title: Top 3 Favorite Open Source Projects?
 date: 2015-08-10T22:49:28+00:00
 author: Chris Missal
 layout: post
-guid: https://lostechies.com/chrismissal/?p=493
+wordpress_guid: https://lostechies.com/chrismissal/?p=493
 dsq_thread_id:
   - "4021604774"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 164
+wordpress_id: 164
 title: Stop creating custom delegate types
 date: 2008-03-26T14:03:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/26/stop-creating-custom-delegate-types.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/26/stop-creating-custom-delegate-types.aspx
 dsq_thread_id:
   - "264715631"
 categories:

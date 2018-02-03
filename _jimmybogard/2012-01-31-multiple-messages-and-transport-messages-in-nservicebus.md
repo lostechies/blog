@@ -1,10 +1,10 @@
 ---
-id: 574
+wordpress_id: 574
 title: Multiple messages and transport messages in NServiceBus
 date: 2012-01-31T14:11:59+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/01/31/multiple-messages-and-transport-messages-in-nservicebus/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/01/31/multiple-messages-and-transport-messages-in-nservicebus/
 dsq_thread_id:
   - "558999868"
 categories:

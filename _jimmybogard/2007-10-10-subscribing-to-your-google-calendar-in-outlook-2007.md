@@ -1,10 +1,10 @@
 ---
-id: 76
+wordpress_id: 76
 title: Subscribing to your Google Calendar in Outlook 2007
 date: 2007-10-10T15:23:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/10/subscribing-to-your-google-calendar-in-outlook-2007.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/10/subscribing-to-your-google-calendar-in-outlook-2007.aspx
 dsq_thread_id:
   - "398541553"
 categories:

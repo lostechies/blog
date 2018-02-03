@@ -1,10 +1,10 @@
 ---
-id: 170
+wordpress_id: 170
 title: Looking for a C Developer
 date: 2010-10-20T17:13:37+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/10/20/looking-for-a-c-developer.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/10/20/looking-for-a-c-developer.aspx
 dsq_thread_id:
   - "1088723063"
 categories:

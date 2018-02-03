@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: Organizing BDD Context/Specs For Findability
 date: 2008-11-19T20:56:35+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/11/19/organizing-bdd-context-specs-for-findability.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/11/19/organizing-bdd-context-specs-for-findability.aspx
 dsq_thread_id:
   - "262067914"
 categories:

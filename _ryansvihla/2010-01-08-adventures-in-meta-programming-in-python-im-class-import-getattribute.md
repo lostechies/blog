@@ -1,10 +1,10 @@
 ---
-id: 35
+wordpress_id: 35
 title: 'Adventures in Meta programming in Python: im_class, __import__, __getattribute__'
 date: 2010-01-08T05:03:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/01/08/adventures-in-meta-programming-in-python-im-class-import-getattribute.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/01/08/adventures-in-meta-programming-in-python-im-class-import-getattribute.aspx
 dsq_thread_id:
   - "425574808"
 categories:

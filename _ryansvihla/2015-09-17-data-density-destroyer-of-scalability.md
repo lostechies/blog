@@ -1,10 +1,10 @@
 ---
-id: 217
+wordpress_id: 217
 title: Data Density! Destroyer of Scalability
 date: 2015-09-17T12:42:10+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=217
+wordpress_guid: https://lostechies.com/ryansvihla/?p=217
 dsq_thread_id:
   - "4139047161"
 categories:

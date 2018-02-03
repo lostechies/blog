@@ -1,10 +1,10 @@
 ---
-id: 2977
+wordpress_id: 2977
 title: Opinionated Input Builders for ASP.Net MVC – Part 5 the Required input
 date: 2009-06-11T02:58:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/10/opinionated-input-builders-for-asp-net-mvc-part-5-the-required-input.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/10/opinionated-input-builders-for-asp-net-mvc-part-5-the-required-input.aspx
 dsq_thread_id:
   - "262043648"
 categories:

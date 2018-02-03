@@ -1,10 +1,10 @@
 ---
-id: 19
+wordpress_id: 19
 title: 'PTOM: Bend 3rd Party Libraries to Your Will With the Adapter Pattern'
 date: 2008-11-25T05:43:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/11/25/ptom-bend-3rd-party-libraries-to-your-will-with-the-adapter-pattern.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/11/25/ptom-bend-3rd-party-libraries-to-your-will-with-the-adapter-pattern.aspx
 dsq_thread_id:
   - "262055542"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 141
+wordpress_id: 141
 title: All Solved Problems Are Easy
 date: 2010-04-16T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/16/all-solved-problems-are-easy.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/16/all-solved-problems-are-easy.aspx
 dsq_thread_id:
   - "262068610"
 categories:

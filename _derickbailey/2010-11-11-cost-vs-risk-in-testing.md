@@ -1,10 +1,10 @@
 ---
-id: 196
+wordpress_id: 196
 title: Cost vs. Risk In Testing
 date: 2010-11-11T16:07:41+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/11/11/cost-vs-risk-in-testing.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/11/11/cost-vs-risk-in-testing.aspx
 dsq_thread_id:
   - "263664547"
 categories:

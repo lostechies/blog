@@ -1,10 +1,10 @@
 ---
-id: 64
+wordpress_id: 64
 title: New favorite deployment method
 date: 2007-09-21T20:50:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/09/21/new-favorite-deployment-method.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/09/21/new-favorite-deployment-method.aspx
 dsq_thread_id:
   - "267286118"
 categories:

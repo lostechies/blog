@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: Hola Los Techies and Thanks!
 date: 2008-09-21T20:25:37+00:00
 author: Gregory Long
 layout: post
-guid: /blogs/thatotherguy/archive/2008/09/21/hola-los-techies-and-thanks.aspx
+wordpress_guid: /blogs/thatotherguy/archive/2008/09/21/hola-los-techies-and-thanks.aspx
 dsq_thread_id:
   - "265816392"
 categories:

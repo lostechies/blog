@@ -1,10 +1,10 @@
 ---
-id: 3866
+wordpress_id: 3866
 title: Dipping into C
 date: 2010-12-03T13:59:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2010/12/03/dipping-into-c.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2010/12/03/dipping-into-c.aspx
 dsq_thread_id:
   - "263371164"
 categories:

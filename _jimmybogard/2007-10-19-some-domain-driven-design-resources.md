@@ -1,10 +1,10 @@
 ---
-id: 83
+wordpress_id: 83
 title: Some Domain-Driven Design resources
 date: 2007-10-19T13:35:56+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/19/some-domain-driven-design-resources.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/19/some-domain-driven-design-resources.aspx
 dsq_thread_id:
   - "265205311"
 categories:

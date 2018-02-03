@@ -1,10 +1,10 @@
 ---
-id: 169
+wordpress_id: 169
 title: Profiling a legacy app
 date: 2008-04-16T11:53:47+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/04/16/profiling-a-legacy-app.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/04/16/profiling-a-legacy-app.aspx
 dsq_thread_id:
   - "264715656"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 181
+wordpress_id: 181
 title: 'Domain-Driven Design: Supple Design Patterns Series'
 date: 2008-05-15T11:37:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/15/domain-driven-design-supple-design-patterns-series.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/15/domain-driven-design-supple-design-patterns-series.aspx
 dsq_thread_id:
   - "265518374"
 dsq_needs_sync:

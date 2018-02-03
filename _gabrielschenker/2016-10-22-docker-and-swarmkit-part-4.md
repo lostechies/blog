@@ -1,10 +1,10 @@
 ---
-id: 1916
+wordpress_id: 1916
 title: 'Docker and Swarmkit &#8211; Part 4'
 date: 2016-10-22T17:31:22+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1916
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1916
 dsq_thread_id:
   - "5244783339"
 categories:

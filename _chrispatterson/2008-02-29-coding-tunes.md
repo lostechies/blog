@@ -1,10 +1,10 @@
 ---
-id: 3583
+wordpress_id: 3583
 title: Coding Tunes
 date: 2008-02-29T14:53:00+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/02/29/coding-tunes.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/02/29/coding-tunes.aspx
 dsq_thread_id:
   - "262089235"
 categories:

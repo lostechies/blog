@@ -1,10 +1,10 @@
 ---
-id: 402
+wordpress_id: 402
 title: Learn Some Modern Web Development With Me!
 date: 2013-08-05T21:22:52+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=402
+wordpress_guid: http://lostechies.com/chrismissal/?p=402
 dsq_thread_id:
   - "1574255270"
 categories:

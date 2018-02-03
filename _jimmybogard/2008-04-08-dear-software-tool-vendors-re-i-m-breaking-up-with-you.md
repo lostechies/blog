@@ -1,10 +1,10 @@
 ---
-id: 167
+wordpress_id: 167
 title: 'Dear software tool vendors, RE: I&#8217;m breaking up with you'
 date: 2008-04-08T23:27:43+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/04/08/dear-software-tool-vendors-re-i-m-breaking-up-with-you.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/04/08/dear-software-tool-vendors-re-i-m-breaking-up-with-you.aspx
 dsq_thread_id:
   - "264715641"
 categories:

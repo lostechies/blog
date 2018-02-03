@@ -1,10 +1,10 @@
 ---
-id: 471
+wordpress_id: 471
 title: Experiences with REST
 date: 2011-04-20T12:00:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/04/20/experiences-with-rest/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/04/20/experiences-with-rest/
 dsq_thread_id:
   - "284210165"
 categories:

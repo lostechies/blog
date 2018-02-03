@@ -1,10 +1,10 @@
 ---
-id: 709
+wordpress_id: 709
 title: Angular JS–Part 13, Services
 date: 2014-02-26T22:42:09+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=709
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=709
 dsq_thread_id:
   - "2328164459"
 categories:

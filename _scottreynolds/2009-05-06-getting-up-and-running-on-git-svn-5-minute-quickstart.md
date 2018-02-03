@@ -1,10 +1,10 @@
 ---
-id: 4039
+wordpress_id: 4039
 title: Getting up and running on git-svn (5 minute quickstart)
 date: 2009-05-06T01:23:17+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/05/05/getting-up-and-running-on-git-svn-5-minute-quickstart.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/05/05/getting-up-and-running-on-git-svn-5-minute-quickstart.aspx
 categories:
   - git
   - svn

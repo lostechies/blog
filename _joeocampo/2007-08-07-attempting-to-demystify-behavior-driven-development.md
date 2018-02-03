@@ -1,10 +1,10 @@
 ---
-id: 41
+wordpress_id: 41
 title: Attempting to Demystify Behavior Driven Development
 date: 2007-08-07T04:22:22+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/08/07/attempting-to-demystify-behavior-driven-development.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/08/07/attempting-to-demystify-behavior-driven-development.aspx
 dsq_thread_id:
   - "262089332"
 categories:

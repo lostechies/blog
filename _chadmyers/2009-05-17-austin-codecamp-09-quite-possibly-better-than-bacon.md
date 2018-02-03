@@ -1,10 +1,10 @@
 ---
-id: 142
+wordpress_id: 142
 title: 'Austin CodeCamp ‘09: Quite Possibly Better than Bacon'
 date: 2009-05-17T21:13:11+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/05/17/austin-codecamp-09-quite-possibly-better-than-bacon.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/05/17/austin-codecamp-09-quite-possibly-better-than-bacon.aspx
 dsq_thread_id:
   - "262114374"
 categories:

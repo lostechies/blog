@@ -1,10 +1,10 @@
 ---
-id: 96
+wordpress_id: 96
 title: Not a good sign
 date: 2007-11-12T19:44:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/12/not-a-good-sign.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/12/not-a-good-sign.aspx
 dsq_thread_id:
   - "1232821528"
 categories:

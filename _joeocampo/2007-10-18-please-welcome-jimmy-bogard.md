@@ -1,10 +1,10 @@
 ---
-id: 78
+wordpress_id: 78
 title: Please Welcome Jimmy Bogard!
 date: 2007-10-18T12:41:24+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/18/please-welcome-jimmy-bogard.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/18/please-welcome-jimmy-bogard.aspx
 dsq_thread_id:
   - "262089394"
 categories:

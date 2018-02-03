@@ -1,10 +1,10 @@
 ---
-id: 120
+wordpress_id: 120
 title: LosTechies welcomes Derick Bailey
 date: 2008-10-07T18:52:14+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/10/07/lostechies-welcomes-derick-bailey.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/10/07/lostechies-welcomes-derick-bailey.aspx
 dsq_thread_id:
   - "262054518"
 categories:

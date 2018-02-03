@@ -1,10 +1,10 @@
 ---
-id: 3703
+wordpress_id: 3703
 title: Principles and Patterns over Tools and Frameworks
 date: 2007-11-15T16:41:43+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/11/15/principles-and-patterns-over-tools-and-frameworks.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/11/15/principles-and-patterns-over-tools-and-frameworks.aspx
 categories:
   - Patterns
   - Refactoring

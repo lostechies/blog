@@ -1,10 +1,10 @@
 ---
-id: 72
+wordpress_id: 72
 title: Great time to be a developer
 date: 2012-01-31T23:09:58+00:00
 author: Joshua Flanagan
 layout: post
-guid: http://lostechies.com/joshuaflanagan/2012/01/31/great-time-to-be-a-developer/
+wordpress_guid: http://lostechies.com/joshuaflanagan/2012/01/31/great-time-to-be-a-developer/
 dsq_thread_id:
   - "559813509"
 categories:

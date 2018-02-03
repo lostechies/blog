@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: 'Agile Arguments, Part 3: Arguments from Time and Money'
 date: 2008-04-27T00:45:44+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/26/agile-arguments-part-3-arguments-from-time-and-money.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/26/agile-arguments-part-3-arguments-from-time-and-money.aspx
 dsq_thread_id:
   - "1084684370"
 categories:

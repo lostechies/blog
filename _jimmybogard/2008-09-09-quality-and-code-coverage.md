@@ -1,10 +1,10 @@
 ---
-id: 227
+wordpress_id: 227
 title: Quality and code coverage
 date: 2008-09-09T11:59:17+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/09/09/quality-and-code-coverage.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/09/09/quality-and-code-coverage.aspx
 dsq_thread_id:
   - "265199650"
 categories:

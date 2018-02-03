@@ -1,10 +1,10 @@
 ---
-id: 495
+wordpress_id: 495
 title: CodeStock 2011 Wrap-up
 date: 2011-06-08T13:18:30+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/06/08/codestock-2011-wrap-up/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/06/08/codestock-2011-wrap-up/
 dsq_thread_id:
   - "325635593"
 categories:

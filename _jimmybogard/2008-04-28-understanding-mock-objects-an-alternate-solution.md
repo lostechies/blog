@@ -1,10 +1,10 @@
 ---
-id: 174
+wordpress_id: 174
 title: 'Understanding Mock Objects: an alternate solution'
 date: 2008-04-28T01:27:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/04/27/understanding-mock-objects-an-alternate-solution.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/04/27/understanding-mock-objects-an-alternate-solution.aspx
 dsq_thread_id:
   - "264715651"
 categories:

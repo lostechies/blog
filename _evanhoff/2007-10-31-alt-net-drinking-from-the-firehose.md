@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: 'ALT.NET: Drinking from the Firehose'
 date: 2007-10-31T05:45:10+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/31/alt-net-drinking-from-the-firehose.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/31/alt-net-drinking-from-the-firehose.aspx
 categories:
   - Uncategorized
 ---

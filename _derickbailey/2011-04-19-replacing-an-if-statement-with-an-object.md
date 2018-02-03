@@ -1,10 +1,10 @@
 ---
-id: 267
+wordpress_id: 267
 title: Replacing An If Statement With An Object
 date: 2011-04-19T08:19:44+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=267
+wordpress_guid: http://lostechies.com/derickbailey/?p=267
 dsq_thread_id:
   - "283375381"
 categories:

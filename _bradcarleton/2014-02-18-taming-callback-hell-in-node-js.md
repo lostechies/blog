@@ -1,10 +1,10 @@
 ---
-id: 139
+wordpress_id: 139
 title: Taming Callback Hell in Node.js
 date: 2014-02-18T20:10:34+00:00
 author: Brad Carleton
 layout: post
-guid: http://lostechies.com/bradcarleton/?p=139
+wordpress_guid: http://lostechies.com/bradcarleton/?p=139
 dsq_thread_id:
   - "2285163904"
 categories:

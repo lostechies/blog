@@ -1,10 +1,10 @@
 ---
-id: 113
+wordpress_id: 113
 title: 'Semantic Code: Migrating From A Chatty Interface To A Simple One With A Data Transfer Object'
 date: 2010-03-15T18:40:45+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/15/semantic-code-migrating-from-a-chatty-interface-to-a-simple-one-with-a-data-transfer-object.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/15/semantic-code-migrating-from-a-chatty-interface-to-a-simple-one-with-a-data-transfer-object.aspx
 dsq_thread_id:
   - "262068513"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3014
+wordpress_id: 3014
 title: Using ModelMetaData in ASP.Net MVC 2 to wire up sweet jQuery awesomeness
 date: 2010-06-23T16:26:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/06/23/using-modelmetadata-in-asp-net-mvc-2-to-wire-up-sweet-jquery-awesomeness.aspx
+wordpress_guid: /blogs/hex/archive/2010/06/23/using-modelmetadata-in-asp-net-mvc-2-to-wire-up-sweet-jquery-awesomeness.aspx
 dsq_thread_id:
   - "262083395"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 77
+wordpress_id: 77
 title: How To Get Started With Selenium Core And ASP.NET MVC
 date: 2009-08-27T19:02:22+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/08/27/how-to-get-started-with-selenium-core-and-asp-net-mvc.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/08/27/how-to-get-started-with-selenium-core-and-asp-net-mvc.aspx
 dsq_thread_id:
   - "262067004"
 categories:

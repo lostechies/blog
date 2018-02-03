@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: On Mobile Objects
 date: 2007-11-10T04:09:28+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/11/09/on-mobile-objects.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/11/09/on-mobile-objects.aspx
 categories:
   - Uncategorized
 ---

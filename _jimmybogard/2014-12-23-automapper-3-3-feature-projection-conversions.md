@@ -1,10 +1,10 @@
 ---
-id: 989
+wordpress_id: 989
 title: 'AutoMapper 3.3 feature: Projection conversions'
 date: 2014-12-23T18:42:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=989
+wordpress_guid: http://lostechies.com/jimmybogard/?p=989
 dsq_thread_id:
   - "3353201397"
 categories:

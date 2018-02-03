@@ -1,10 +1,10 @@
 ---
-id: 57
+wordpress_id: 57
 title: 'Announcing: the Nashville ALT.NET User Group'
 date: 2008-08-06T02:42:36+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/08/05/announcing-the-nashville-alt-net-user-group.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/08/05/announcing-the-nashville-alt-net-user-group.aspx
 categories:
   - Uncategorized
 ---

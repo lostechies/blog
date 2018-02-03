@@ -1,10 +1,10 @@
 ---
-id: 4575
+wordpress_id: 4575
 title: Deploying .NET Applications – Learning MSBuild and ClickOnce
 date: 2009-03-13T19:56:50+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2009/03/13/deploying-net-applications-learning-msbuild-and-clickonce.aspx
+wordpress_guid: /blogs/mokhan/archive/2009/03/13/deploying-net-applications-learning-msbuild-and-clickonce.aspx
 categories:
   - Books
 ---

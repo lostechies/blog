@@ -1,10 +1,10 @@
 ---
-id: 674
+wordpress_id: 674
 title: Limiting your abstractions
 date: 2012-09-20T14:14:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/09/20/limiting-your-abstractions/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/09/20/limiting-your-abstractions/
 dsq_thread_id:
   - "851933198"
 categories:

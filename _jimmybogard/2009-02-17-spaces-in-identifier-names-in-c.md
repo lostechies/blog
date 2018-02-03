@@ -1,10 +1,10 @@
 ---
-id: 285
+wordpress_id: 285
 title: 'Spaces in identifier names in C#'
 date: 2009-02-17T03:49:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/16/spaces-in-identifier-names-in-c.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/16/spaces-in-identifier-names-in-c.aspx
 dsq_thread_id:
   - "264716088"
 categories:

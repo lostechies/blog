@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: 'Pop quiz on ref and out parameters in C#'
 date: 2007-05-11T13:43:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/11/pop-quiz-on-ref-and-out-parameters-in-c.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/11/pop-quiz-on-ref-and-out-parameters-in-c.aspx
 dsq_thread_id:
   - "265581561"
 categories:

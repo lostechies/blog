@@ -1,10 +1,10 @@
 ---
-id: 172
+wordpress_id: 172
 title: Should you TDD when flying solo?
 date: 2008-04-23T00:39:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/04/22/should-you-tdd-when-flying-solo.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/04/22/should-you-tdd-when-flying-solo.aspx
 dsq_thread_id:
   - "273965158"
 categories:

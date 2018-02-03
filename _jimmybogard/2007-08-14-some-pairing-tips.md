@@ -1,10 +1,10 @@
 ---
-id: 52
+wordpress_id: 52
 title: Some pairing tips
 date: 2007-08-14T20:00:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/14/some-pairing-tips.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/14/some-pairing-tips.aspx
 dsq_thread_id:
   - "961426700"
 categories:

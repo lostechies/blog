@@ -1,10 +1,10 @@
 ---
-id: 866
+wordpress_id: 866
 title: 'Composite Views: Tree Structures, Tables, And More'
 date: 2012-04-05T06:58:17+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=866
+wordpress_guid: http://lostechies.com/derickbailey/?p=866
 dsq_thread_id:
   - "637572566"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 164
+wordpress_id: 164
 title: Unstated Requirements
 date: 2010-07-23T17:41:33+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/07/23/unstated-requirements.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/07/23/unstated-requirements.aspx
 dsq_thread_id:
   - "267259753"
 categories:

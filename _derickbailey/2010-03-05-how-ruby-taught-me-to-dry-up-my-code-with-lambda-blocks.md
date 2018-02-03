@@ -1,10 +1,10 @@
 ---
-id: 109
+wordpress_id: 109
 title: How Ruby Taught Me To DRY Up My Code With Lambda Blocks
 date: 2010-03-05T20:32:25+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/05/how-ruby-taught-me-to-dry-up-my-code-with-lambda-blocks.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/05/how-ruby-taught-me-to-dry-up-my-code-with-lambda-blocks.aspx
 dsq_thread_id:
   - "262068478"
 categories:

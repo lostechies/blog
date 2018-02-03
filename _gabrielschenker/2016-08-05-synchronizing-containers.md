@@ -1,10 +1,10 @@
 ---
-id: 1592
+wordpress_id: 1592
 title: Synchronizing Containers
 date: 2016-08-05T21:20:47+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1592
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1592
 dsq_thread_id:
   - "5044043747"
 categories:

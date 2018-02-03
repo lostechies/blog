@@ -1,10 +1,10 @@
 ---
-id: 197
+wordpress_id: 197
 title: 'Event Sourcing and System of Record: Sane Distributed Development In The Modern Era'
 date: 2015-09-17T11:20:41+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=197
+wordpress_guid: https://lostechies.com/ryansvihla/?p=197
 dsq_thread_id:
   - "4138805759"
 categories:

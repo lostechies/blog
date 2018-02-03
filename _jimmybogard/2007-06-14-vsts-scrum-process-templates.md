@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: VSTS Scrum process templates
 date: 2007-06-14T13:21:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/06/14/vsts-scrum-process-templates.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/06/14/vsts-scrum-process-templates.aspx
 dsq_thread_id:
   - "265978478"
 categories:

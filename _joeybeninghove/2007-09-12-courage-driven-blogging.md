@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: Courage-Driven Blogging
 date: 2007-09-12T16:00:53+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/12/courage-driven-blogging.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/12/courage-driven-blogging.aspx
 categories:
   - blogging
   - Personal

@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: Implementing Domain Queries
 date: 2010-01-30T05:48:23+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2010/01/30/implementing-domain-queries.aspx
+wordpress_guid: /blogs/johnteague/archive/2010/01/30/implementing-domain-queries.aspx
 dsq_thread_id:
   - "262055733"
 categories:

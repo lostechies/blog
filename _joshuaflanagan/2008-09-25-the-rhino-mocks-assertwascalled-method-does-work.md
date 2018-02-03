@@ -1,10 +1,10 @@
 ---
-id: 3938
+wordpress_id: 3938
 title: 'The Rhino.Mocks&#8217; AssertWasCalled method does work'
 date: 2008-09-25T14:08:28+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2008/09/25/the-rhino-mocks-assertwascalled-method-does-work.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2008/09/25/the-rhino-mocks-assertwascalled-method-does-work.aspx
 dsq_thread_id:
   - "262113124"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 39
+wordpress_id: 39
 title: Remote Paired Programming
 date: 2007-07-31T00:14:05+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/07/30/remote-paired-programming.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/07/30/remote-paired-programming.aspx
 dsq_thread_id:
   - "262090282"
 categories:

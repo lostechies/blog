@@ -1,10 +1,10 @@
 ---
-id: 10
+wordpress_id: 10
 title: NCommons Rules Engine
 date: 2010-06-28T00:15:14+00:00
 author: Derek Greer
 layout: post
-guid: /blogs/derekgreer/archive/2010/06/27/ncommons-rules-engine.aspx
+wordpress_guid: /blogs/derekgreer/archive/2010/06/27/ncommons-rules-engine.aspx
 dsq_thread_id:
   - "262468830"
 categories:

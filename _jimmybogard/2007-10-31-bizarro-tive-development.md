@@ -1,10 +1,10 @@
 ---
-id: 91
+wordpress_id: 91
 title: Bizarro-tive development
 date: 2007-10-31T17:57:06+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/31/bizarro-tive-development.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/31/bizarro-tive-development.aspx
 dsq_thread_id:
   - "264715389"
 categories:

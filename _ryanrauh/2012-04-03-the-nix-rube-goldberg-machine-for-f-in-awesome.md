@@ -1,10 +1,10 @@
 ---
-id: 132
+wordpress_id: 132
 title: 'The *nix Rube Goldberg Machine &#8211; for f in awesome'
 date: 2012-04-03T23:14:29+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=132
+wordpress_guid: http://lostechies.com/ryanrauh/?p=132
 dsq_thread_id:
   - "635592025"
 categories:

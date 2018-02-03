@@ -1,10 +1,10 @@
 ---
-id: 56
+wordpress_id: 56
 title: A New Start
 date: 2008-06-03T00:13:20+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/02/a-new-start.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/02/a-new-start.aspx
 dsq_thread_id:
   - "262113831"
 categories:

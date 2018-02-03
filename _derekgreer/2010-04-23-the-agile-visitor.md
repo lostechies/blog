@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: The Agile Visitor
 date: 2010-04-23T23:59:12+00:00
 author: Derek Greer
 layout: post
-guid: /blogs/derekgreer/archive/2010/04/23/the-agile-visitor.aspx
+wordpress_guid: /blogs/derekgreer/archive/2010/04/23/the-agile-visitor.aspx
 dsq_thread_id:
   - "262468825"
 categories:

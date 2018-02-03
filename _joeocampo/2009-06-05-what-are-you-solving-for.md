@@ -1,10 +1,10 @@
 ---
-id: 125
+wordpress_id: 125
 title: What are you solving for?
 date: 2009-06-05T03:46:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2009/06/04/what-are-you-solving-for.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2009/06/04/what-are-you-solving-for.aspx
 dsq_thread_id:
   - "262089810"
 categories:

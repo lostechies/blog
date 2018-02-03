@@ -1,10 +1,10 @@
 ---
-id: 221
+wordpress_id: 221
 title: 'Pardon our dust&#8230; working on restoring comments'
 date: 2011-03-23T21:49:39+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=221
+wordpress_guid: http://lostechies.com/derickbailey/?p=221
 dsq_thread_id:
   - "262066631"
 categories:

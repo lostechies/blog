@@ -1,10 +1,10 @@
 ---
-id: 4390
+wordpress_id: 4390
 title: The 30 Second Standup
 date: 2013-05-31T14:01:48+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=226
+wordpress_guid: http://lostechies.com/ryanrauh/?p=226
 dsq_thread_id:
   - "1343789342"
 categories:

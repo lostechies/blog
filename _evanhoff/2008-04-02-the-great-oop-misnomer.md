@@ -1,10 +1,10 @@
 ---
-id: 42
+wordpress_id: 42
 title: The Great OOP Misnomer
 date: 2008-04-02T02:08:04+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/04/01/the-great-oop-misnomer.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/04/01/the-great-oop-misnomer.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 278
+wordpress_id: 278
 title: Crafting wicked domain models with Components in DDD
 date: 2009-02-03T03:30:01+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/02/crafting-wicked-domain-models-with-components-in-ddd.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/02/crafting-wicked-domain-models-with-components-in-ddd.aspx
 dsq_thread_id:
   - "264716072"
 categories:

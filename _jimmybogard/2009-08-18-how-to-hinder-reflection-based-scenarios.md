@@ -1,10 +1,10 @@
 ---
-id: 346
+wordpress_id: 346
 title: How to hinder reflection-based scenarios
 date: 2009-08-18T01:07:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/08/17/how-to-hinder-reflection-based-scenarios.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/08/17/how-to-hinder-reflection-based-scenarios.aspx
 dsq_thread_id:
   - "264716296"
 categories:

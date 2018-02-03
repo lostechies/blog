@@ -1,10 +1,10 @@
 ---
-id: 148
+wordpress_id: 148
 title: 'My #LSSC10 Presentation And Experience: “Assumptions Are Risks We Have Accepted”'
 date: 2010-04-27T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/27/my-lssc10-presentation-and-experience-assumptions-are-risks-we-have-accepted.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/27/my-lssc10-presentation-and-experience-assumptions-are-risks-we-have-accepted.aspx
 dsq_thread_id:
   - "262068653"
 categories:

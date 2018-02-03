@@ -1,10 +1,10 @@
 ---
-id: 116
+wordpress_id: 116
 title: Extension methods and primitive obsession
 date: 2007-12-18T21:29:30+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/12/18/extension-methods-and-primitive-obsession.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/12/18/extension-methods-and-primitive-obsession.aspx
 dsq_thread_id:
   - "264715468"
 categories:

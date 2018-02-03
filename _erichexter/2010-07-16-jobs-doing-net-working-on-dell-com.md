@@ -1,10 +1,10 @@
 ---
-id: 3016
+wordpress_id: 3016
 title: Jobs doing .Net – working on dell.com
 date: 2010-07-16T03:33:22+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/07/15/jobs-doing-net-working-on-dell-com.aspx
+wordpress_guid: /blogs/hex/archive/2010/07/15/jobs-doing-net-working-on-dell-com.aspx
 dsq_thread_id:
   - "1069827838"
 categories:

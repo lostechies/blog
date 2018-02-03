@@ -1,10 +1,10 @@
 ---
-id: 368
+wordpress_id: 368
 title: 'Are your unit tests still hard to read ? &#8211;  Should Assertion Library'
 date: 2013-01-13T07:49:42+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=368
+wordpress_guid: http://lostechies.com/erichexter/?p=368
 dsq_thread_id:
   - "1023434083"
 categories:

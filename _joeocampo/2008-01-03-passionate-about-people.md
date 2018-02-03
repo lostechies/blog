@@ -1,10 +1,10 @@
 ---
-id: 95
+wordpress_id: 95
 title: Passionate about People!
 date: 2008-01-03T00:57:13+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/01/02/passionate-about-people.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/01/02/passionate-about-people.aspx
 dsq_thread_id:
   - "262090062"
 categories:

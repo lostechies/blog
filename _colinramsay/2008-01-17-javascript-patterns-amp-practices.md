@@ -1,10 +1,10 @@
 ---
-id: 4685
+wordpress_id: 4685
 title: 'Javascript Patterns &#038; Practices'
 date: 2008-01-17T22:17:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2008/01/17/javascript-patterns-amp-practices.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2008/01/17/javascript-patterns-amp-practices.aspx
 categories:
   - JavaScript
   - practices

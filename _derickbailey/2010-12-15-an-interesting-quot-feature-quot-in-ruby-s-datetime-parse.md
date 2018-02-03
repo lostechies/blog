@@ -1,10 +1,10 @@
 ---
-id: 203
+wordpress_id: 203
 title: 'An Interesting &#8220;Feature&#8221; In Ruby&#8217;s DateTime.Parse'
 date: 2010-12-15T02:13:33+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/12/14/an-interesting-quot-feature-quot-in-ruby-s-datetime-parse.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/12/14/an-interesting-quot-feature-quot-in-ruby-s-datetime-parse.aspx
 dsq_thread_id:
   - "262216407"
 categories:

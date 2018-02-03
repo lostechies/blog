@@ -1,10 +1,10 @@
 ---
-id: 128
+wordpress_id: 128
 title: Virtual ALT.NET Group
 date: 2009-01-16T13:42:01+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/01/16/virtual-alt-net-group.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/01/16/virtual-alt-net-group.aspx
 dsq_thread_id:
   - "1643026812"
 categories:

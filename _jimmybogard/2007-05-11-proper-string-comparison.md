@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: Proper string comparison
 date: 2007-05-11T13:42:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/11/proper-string-comparison.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/11/proper-string-comparison.aspx
 dsq_thread_id:
   - "267828237"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: 'Demeter Helps You Fend Off the One True Constant: Change'
 date: 2009-07-20T04:33:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/07/20/demeter-helps-you-fend-off-the-one-true-constant-change.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/07/20/demeter-helps-you-fend-off-the-one-true-constant-change.aspx
 dsq_thread_id:
   - "262055700"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Agile Project Management Reading List
 date: 2007-01-20T03:41:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/01/19/agile-project-management-reading-list.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/01/19/agile-project-management-reading-list.aspx
 dsq_thread_id:
   - "262089668"
 categories:

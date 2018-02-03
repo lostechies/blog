@@ -1,10 +1,10 @@
 ---
-id: 3610
+wordpress_id: 3610
 title: Dr. Dru and PhatBoyG On Elegant Code Cast
 date: 2009-03-19T04:41:39+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/03/19/dr-dru-and-phatboyg-on-elegant-code-cast.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/03/19/dr-dru-and-phatboyg-on-elegant-code-cast.aspx
 dsq_thread_id:
   - "442508633"
 categories:

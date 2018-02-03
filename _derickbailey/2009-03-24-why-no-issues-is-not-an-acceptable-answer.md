@@ -1,10 +1,10 @@
 ---
-id: 46
+wordpress_id: 46
 title: Why “No Issues” Is Not An Acceptable Answer
 date: 2009-03-24T20:54:30+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/03/24/why-no-issues-is-not-an-acceptable-answer.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/03/24/why-no-issues-is-not-an-acceptable-answer.aspx
 dsq_thread_id:
   - "262068142"
 categories:

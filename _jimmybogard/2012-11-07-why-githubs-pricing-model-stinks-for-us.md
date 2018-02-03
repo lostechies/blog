@@ -1,10 +1,10 @@
 ---
-id: 689
+wordpress_id: 689
 title: Why GitHub’s pricing model stinks (for us)
 date: 2012-11-07T23:22:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=689
+wordpress_guid: http://lostechies.com/jimmybogard/?p=689
 dsq_thread_id:
   - "918089185"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 334
+wordpress_id: 334
 title: 'Don&#8217;t Build A Security System Until There Is Something To Secure'
 date: 2011-05-17T07:00:54+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=334
+wordpress_guid: http://lostechies.com/derickbailey/?p=334
 dsq_thread_id:
   - "306014011"
 categories:

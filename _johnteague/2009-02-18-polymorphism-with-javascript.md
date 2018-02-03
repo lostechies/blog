@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: Polymorphism with JavaScript
 date: 2009-02-18T05:20:12+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/02/18/polymorphism-with-javascript.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/02/18/polymorphism-with-javascript.aspx
 dsq_thread_id:
   - "262055598"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 242
+wordpress_id: 242
 title: Where are the DDD sample applications?
 date: 2008-10-22T11:39:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/22/where-are-the-ddd-sample-applications.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/22/where-are-the-ddd-sample-applications.aspx
 dsq_thread_id:
   - "264715948"
 categories:

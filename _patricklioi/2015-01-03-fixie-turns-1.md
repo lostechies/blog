@@ -1,10 +1,10 @@
 ---
-id: 4532
+wordpress_id: 4532
 title: Fixie Turns 1!
 date: 2015-01-03T18:07:52+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=181
+wordpress_guid: http://lostechies.com/patricklioi/?p=181
 dsq_thread_id:
   - "3386877635"
 categories:

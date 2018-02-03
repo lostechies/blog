@@ -1,10 +1,10 @@
 ---
-id: 101
+wordpress_id: 101
 title: 'Coding with Friends: You should be here, too!'
 date: 2012-03-19T09:14:23+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=101
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=101
 dsq_thread_id:
   - "616609053"
 categories:

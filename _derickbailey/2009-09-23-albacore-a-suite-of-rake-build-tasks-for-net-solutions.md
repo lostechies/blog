@@ -1,10 +1,10 @@
 ---
-id: 87
+wordpress_id: 87
 title: 'Albacore: A Suite Of Rake Build Tasks For .NET Solutions'
 date: 2009-09-23T15:14:23+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/23/albacore-a-suite-of-rake-build-tasks-for-net-solutions.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/23/albacore-a-suite-of-rake-build-tasks-for-net-solutions.aspx
 dsq_thread_id:
   - "262068374"
 categories:

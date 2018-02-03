@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Using Database Repository Pattern with ActiveRecord with ActiveRecordMediator
 date: 2008-05-28T01:45:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/05/27/using-database-repository-pattern-with-activerecord-with-activerecordmediator.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/05/27/using-database-repository-pattern-with-activerecord-with-activerecordmediator.aspx
 dsq_thread_id:
   - "262628957"
 categories:

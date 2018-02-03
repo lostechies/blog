@@ -1,10 +1,10 @@
 ---
-id: 1293
+wordpress_id: 1293
 title: Using A Single Git Repository For Multiple Heroku Projects
 date: 2014-02-27T07:00:03+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1293
+wordpress_guid: http://lostechies.com/derickbailey/?p=1293
 dsq_thread_id:
   - "2314195340"
 categories:

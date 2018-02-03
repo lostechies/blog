@@ -1,10 +1,10 @@
 ---
-id: 180
+wordpress_id: 180
 title: 'UX: Color is only meaningful if it&#8217;s different'
 date: 2012-10-31T13:41:32+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=180
+wordpress_guid: http://lostechies.com/ryanrauh/?p=180
 dsq_thread_id:
   - "908458156"
 categories:

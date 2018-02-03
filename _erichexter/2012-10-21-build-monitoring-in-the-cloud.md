@@ -1,10 +1,10 @@
 ---
-id: 3023
+wordpress_id: 3023
 title: Build Monitoring in the cloud
 date: 2012-10-21T08:22:12+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/2012/10/21/build-monitoring-in-the-cloud/
+wordpress_guid: http://lostechies.com/erichexter/2012/10/21/build-monitoring-in-the-cloud/
 dsq_thread_id:
   - "893819192"
 categories:

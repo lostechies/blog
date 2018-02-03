@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: 'ALT.NET: How can Microsoft Patterns and Practices Help?'
 date: 2007-10-28T04:35:09+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/28/alt-net-how-can-microsoft-patterns-and-practices-help.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/28/alt-net-how-can-microsoft-patterns-and-practices-help.aspx
 categories:
   - Uncategorized
 ---

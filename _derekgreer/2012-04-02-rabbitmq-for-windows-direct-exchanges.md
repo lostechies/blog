@@ -1,10 +1,10 @@
 ---
-id: 743
+wordpress_id: 743
 title: 'RabbitMQ for Windows: Direct Exchanges'
 date: 2012-04-02T07:00:00+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=743
+wordpress_guid: http://lostechies.com/derekgreer/?p=743
 dsq_thread_id:
   - "633460746"
 categories:

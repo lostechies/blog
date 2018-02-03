@@ -1,10 +1,10 @@
 ---
-id: 3388
+wordpress_id: 3388
 title: Using AppHarbor for Continuous Integration
 date: 2011-03-12T01:12:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2011/03/11/using-appharbor-for-continuous-integration.aspx
+wordpress_guid: /blogs/chrismissal/archive/2011/03/11/using-appharbor-for-continuous-integration.aspx
 dsq_thread_id:
   - "262074367"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4611
+wordpress_id: 4611
 title: MonoTouch Comparison with Apple Tools
 date: 2009-10-20T15:26:59+00:00
 author: Scott Densmore
 layout: post
-guid: /blogs/scottdensmore/archive/2009/10/20/monotouch-comparison-with-apple-tools.aspx
+wordpress_guid: /blogs/scottdensmore/archive/2009/10/20/monotouch-comparison-with-apple-tools.aspx
 dsq_thread_id:
   - "270565536"
 categories:

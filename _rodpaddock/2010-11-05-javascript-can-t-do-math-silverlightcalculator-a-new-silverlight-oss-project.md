@@ -1,10 +1,10 @@
 ---
-id: 4479
+wordpress_id: 4479
 title: 'JavaScript Can&#8217;t Do Math &#8211; SilverlightCalculator A New Silverlight OSS Project'
 date: 2010-11-05T07:08:00+00:00
 author: Rod Paddock
 layout: post
-guid: /blogs/rodpaddock/archive/2010/11/05/javascript-can-t-do-math-silverlightcalculator-a-new-silverlight-oss-project.aspx
+wordpress_guid: /blogs/rodpaddock/archive/2010/11/05/javascript-can-t-do-math-silverlightcalculator-a-new-silverlight-oss-project.aspx
 dsq_thread_id:
   - "263003371"
 categories:

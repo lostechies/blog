@@ -1,10 +1,10 @@
 ---
-id: 4563
+wordpress_id: 4563
 title: Parsing The Payload
 date: 2008-08-15T02:16:59+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/08/14/parsing-the-payload.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/08/14/parsing-the-payload.aspx
 categories:
   - ASP.NET MVC
   - TDD

@@ -1,10 +1,10 @@
 ---
-id: 1259
+wordpress_id: 1259
 title: New Year, New Blog
 date: 2017-01-26T03:39:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1259
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1259
 dsq_thread_id:
   - "5494283996"
 categories:

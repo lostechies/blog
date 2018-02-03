@@ -1,10 +1,10 @@
 ---
-id: 126
+wordpress_id: 126
 title: Why I Write Automated Tests For My Code
 date: 2010-03-29T18:07:19+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/29/why-i-write-automated-tests-for-my-code.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/29/why-i-write-automated-tests-for-my-code.aspx
 dsq_thread_id:
   - "269589003"
 categories:

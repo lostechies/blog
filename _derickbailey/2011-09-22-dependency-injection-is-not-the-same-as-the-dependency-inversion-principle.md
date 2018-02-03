@@ -1,10 +1,10 @@
 ---
-id: 568
+wordpress_id: 568
 title: Dependency Injection Is NOT The Same As The Dependency Inversion Principle
 date: 2011-09-22T08:03:51+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=568
+wordpress_guid: http://lostechies.com/derickbailey/?p=568
 dsq_thread_id:
   - "422558496"
 categories:

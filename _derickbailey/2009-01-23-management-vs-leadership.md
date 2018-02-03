@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: Management vs Leadership
 date: 2009-01-23T13:56:47+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/01/23/management-vs-leadership.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/01/23/management-vs-leadership.aspx
 dsq_thread_id:
   - "262068006"
 categories:

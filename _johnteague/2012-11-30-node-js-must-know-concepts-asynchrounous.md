@@ -1,10 +1,10 @@
 ---
-id: 121
+wordpress_id: 121
 title: 'Node.js Must Know Concepts: Asynchronous'
 date: 2012-11-30T14:35:23+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=121
+wordpress_guid: http://lostechies.com/johnteague/?p=121
 dsq_thread_id:
   - "951513841"
 categories:

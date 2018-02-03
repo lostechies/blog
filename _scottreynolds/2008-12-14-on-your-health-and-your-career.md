@@ -1,10 +1,10 @@
 ---
-id: 4029
+wordpress_id: 4029
 title: On Your Health and Your Career
 date: 2008-12-14T05:01:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2008/12/14/on-your-health-and-your-career.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2008/12/14/on-your-health-and-your-career.aspx
 categories:
   - Uncategorized
 ---

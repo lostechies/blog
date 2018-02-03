@@ -1,10 +1,10 @@
 ---
-id: 67
+wordpress_id: 67
 title: Driving and refining Ubiquitous Language
 date: 2007-09-26T15:00:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/09/26/driving-and-refining-ubiquitous-language.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/09/26/driving-and-refining-ubiquitous-language.aspx
 dsq_thread_id:
   - "298482695"
 categories:

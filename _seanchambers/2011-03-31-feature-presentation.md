@@ -1,10 +1,10 @@
 ---
-id: 3229
+wordpress_id: 3229
 title: Feature Presentation
 date: 2011-03-31T18:33:20+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2010/12/21/feature-presentation.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2010/12/21/feature-presentation.aspx
 dsq_thread_id:
   - "267969634"
 categories:

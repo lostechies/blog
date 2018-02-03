@@ -1,10 +1,10 @@
 ---
-id: 3972
+wordpress_id: 3972
 title: Applying data restrictions to route authorization
 date: 2011-02-06T21:30:30+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2011/02/06/applying-data-restrictions-to-route-authorization.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2011/02/06/applying-data-restrictions-to-route-authorization.aspx
 dsq_thread_id:
   - "262115864"
 categories:

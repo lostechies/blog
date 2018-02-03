@@ -1,10 +1,10 @@
 ---
-id: 160
+wordpress_id: 160
 title: Thinking about sessions for Pablo’s Fiesta
 date: 2010-02-03T16:59:27+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/02/03/thinking-about-sessions-for-pablo-s-fiesta.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/02/03/thinking-about-sessions-for-pablo-s-fiesta.aspx
 dsq_thread_id:
   - "262114506"
 categories:

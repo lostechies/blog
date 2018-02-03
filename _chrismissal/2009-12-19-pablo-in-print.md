@@ -1,10 +1,10 @@
 ---
-id: 3370
+wordpress_id: 3370
 title: Pablo In Print
 date: 2009-12-19T22:49:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/12/19/pablo-in-print.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/12/19/pablo-in-print.aspx
 dsq_thread_id:
   - "262175059"
 categories:

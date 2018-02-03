@@ -1,10 +1,10 @@
 ---
-id: 484
+wordpress_id: 484
 title: Awesome Model Binding For Backbone.js
 date: 2011-07-24T13:19:37+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=484
+wordpress_guid: http://lostechies.com/derickbailey/?p=484
 dsq_thread_id:
   - "367270333"
 categories:

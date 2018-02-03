@@ -1,10 +1,10 @@
 ---
-id: 63
+wordpress_id: 63
 title: 'Shufflin&#8217; Ain&#8217;t Sortin&#8217;'
 date: 2013-09-14T20:44:54+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=63
+wordpress_guid: http://lostechies.com/patricklioi/?p=63
 dsq_thread_id:
   - "1760260118"
 categories:

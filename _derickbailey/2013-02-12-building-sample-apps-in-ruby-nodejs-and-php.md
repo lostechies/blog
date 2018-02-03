@@ -1,10 +1,10 @@
 ---
-id: 1053
+wordpress_id: 1053
 title: Building Sample Apps in Ruby, NodeJS and PHP
 date: 2013-02-12T14:41:02+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1053
+wordpress_guid: http://lostechies.com/derickbailey/?p=1053
 dsq_thread_id:
   - "1079775221"
 categories:

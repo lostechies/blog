@@ -1,10 +1,10 @@
 ---
-id: 3580
+wordpress_id: 3580
 title: Resharper 3.1 Solution Wide Analysis
 date: 2008-01-06T14:26:39+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/01/06/resharper-3-1-solution-wide-analysis.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/01/06/resharper-3-1-solution-wide-analysis.aspx
 dsq_thread_id:
   - "262089178"
 categories:

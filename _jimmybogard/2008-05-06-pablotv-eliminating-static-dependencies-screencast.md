@@ -1,10 +1,10 @@
 ---
-id: 177
+wordpress_id: 177
 title: 'PabloTV: Eliminating static dependencies screencast'
 date: 2008-05-06T11:24:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/06/pablotv-eliminating-static-dependencies-screencast.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/06/pablotv-eliminating-static-dependencies-screencast.aspx
 dsq_thread_id:
   - "264715673"
 categories:

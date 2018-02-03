@@ -1,10 +1,10 @@
 ---
-id: 90
+wordpress_id: 90
 title: Easy way to gain high level understanding
 date: 2015-12-09T21:57:36+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=90
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=90
 dsq_thread_id:
   - "4390325754"
 categories:

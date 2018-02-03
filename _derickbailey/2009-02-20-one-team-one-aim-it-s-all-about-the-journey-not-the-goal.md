@@ -1,10 +1,10 @@
 ---
-id: 38
+wordpress_id: 38
 title: “One Team, One Aim”. It’s All About The Journey, Not The Goal
 date: 2009-02-20T14:00:18+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/02/20/one-team-one-aim-it-s-all-about-the-journey-not-the-goal.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/02/20/one-team-one-aim-it-s-all-about-the-journey-not-the-goal.aspx
 dsq_thread_id:
   - "263612309"
 categories:

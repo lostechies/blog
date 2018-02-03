@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: 'Using DB4Objects as a prototyping tool.  Part I'
 date: 2008-02-26T19:16:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/02/26/using-db4objects-as-a-prototyping-tool-part-i.aspx
+wordpress_guid: /blogs/hex/archive/2008/02/26/using-db4objects-as-a-prototyping-tool-part-i.aspx
 dsq_thread_id:
   - "264345380"
 categories:

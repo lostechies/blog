@@ -1,10 +1,10 @@
 ---
-id: 3010
+wordpress_id: 3010
 title: 'MvcContrib &#8211; Portable Area – Visual Studio project template'
 date: 2010-04-07T15:53:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/04/07/mvccontrib-portable-area-visual-studio-project-template.aspx
+wordpress_guid: /blogs/hex/archive/2010/04/07/mvccontrib-portable-area-visual-studio-project-template.aspx
 dsq_thread_id:
   - "262510825"
 categories:

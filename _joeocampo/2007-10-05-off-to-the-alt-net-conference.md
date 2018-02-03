@@ -1,10 +1,10 @@
 ---
-id: 72
+wordpress_id: 72
 title: Off to the Alt.Net Conference
 date: 2007-10-05T13:58:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/05/off-to-the-alt-net-conference.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/05/off-to-the-alt-net-conference.aspx
 categories:
   - Tools
 ---

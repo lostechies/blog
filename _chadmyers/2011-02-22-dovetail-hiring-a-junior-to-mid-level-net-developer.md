@@ -1,10 +1,10 @@
 ---
-id: 175
+wordpress_id: 175
 title: 'Dovetail Hiring a Junior- to Mid-level .NET Developer'
 date: 2011-02-22T15:59:07+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=175
+wordpress_guid: http://lostechies.com/chadmyers/?p=175
 dsq_thread_id:
   - "262118046"
 categories:

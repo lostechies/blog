@@ -1,10 +1,10 @@
 ---
-id: 3174
+wordpress_id: 3174
 title: Getting Started with Migrator.Net and database refactorings
 date: 2008-06-05T02:50:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/06/04/getting-started-with-migrator-net-and-database-refactorings.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/06/04/getting-started-with-migrator-net-and-database-refactorings.aspx
 dsq_thread_id:
   - "262070610"
 categories:

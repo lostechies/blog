@@ -1,10 +1,10 @@
 ---
-id: 342
+wordpress_id: 342
 title: Late-Bound Invocations with DynamicMethod
 date: 2009-08-06T01:05:13+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/08/05/late-bound-invocations-with-dynamicmethod.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/08/05/late-bound-invocations-with-dynamicmethod.aspx
 dsq_thread_id:
   - "264716267"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 394
+wordpress_id: 394
 title: 'Strengthening your domain: Encapsulating operations'
 date: 2010-03-24T14:50:24+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/03/24/strengthening-your-domain-encapsulating-operations.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/03/24/strengthening-your-domain-encapsulating-operations.aspx
 dsq_thread_id:
   - "264716466"
 categories:

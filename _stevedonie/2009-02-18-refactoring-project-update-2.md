@@ -1,10 +1,10 @@
 ---
-id: 4766
+wordpress_id: 4766
 title: 'Refactoring project update #2'
 date: 2009-02-18T15:35:20+00:00
 author: Steve Donie
 layout: post
-guid: /blogs/stevedonie/archive/2009/02/18/refactoring-project-update-2.aspx
+wordpress_guid: /blogs/stevedonie/archive/2009/02/18/refactoring-project-update-2.aspx
 dsq_thread_id:
   - "1098763841"
 categories:

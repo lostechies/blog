@@ -1,10 +1,10 @@
 ---
-id: 444
+wordpress_id: 444
 title: Composite Applications with NHibernate
 date: 2009-06-21T12:12:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2009/06/composite-applications-with-nhibernate/
+wordpress_guid: http://www.aspiringcraftsman.com/2009/06/composite-applications-with-nhibernate/
 dsq_thread_id:
   - "318481824"
 categories:

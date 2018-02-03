@@ -1,10 +1,10 @@
 ---
-id: 52
+wordpress_id: 52
 title: ALT.NET Podcast EP2 on Microsoft
 date: 2008-05-24T12:35:08+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/05/24/alt-net-podcast-ep2-on-microsoft.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/05/24/alt-net-podcast-ep2-on-microsoft.aspx
 dsq_thread_id:
   - "1077805322"
 categories:

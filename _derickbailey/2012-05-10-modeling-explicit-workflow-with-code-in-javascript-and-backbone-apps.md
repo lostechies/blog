@@ -1,10 +1,10 @@
 ---
-id: 928
+wordpress_id: 928
 title: Modeling Explicit Workflow With Code, In JavaScript And Backbone Apps
 date: 2012-05-10T07:02:23+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=928
+wordpress_guid: http://lostechies.com/derickbailey/?p=928
 dsq_thread_id:
   - "684111795"
 categories:

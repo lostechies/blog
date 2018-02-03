@@ -1,10 +1,10 @@
 ---
-id: 286
+wordpress_id: 286
 title: 'AutoMapper feature: projection'
 date: 2009-02-21T21:54:22+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/21/automapper-feature-projection.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/21/automapper-feature-projection.aspx
 dsq_thread_id:
   - "264716080"
 categories:

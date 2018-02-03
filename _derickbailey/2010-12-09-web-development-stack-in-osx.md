@@ -1,10 +1,10 @@
 ---
-id: 201
+wordpress_id: 201
 title: Web Development Stack In OSX
 date: 2010-12-09T05:18:45+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/12/09/web-development-stack-in-osx.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/12/09/web-development-stack-in-osx.aspx
 dsq_thread_id:
   - "263109292"
 categories:

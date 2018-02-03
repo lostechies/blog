@@ -1,10 +1,10 @@
 ---
-id: 4742
+wordpress_id: 4742
 title: ReSharper Keymappings
 date: 2007-10-28T07:51:54+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/10/28/resharper-keymappings.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/10/28/resharper-keymappings.aspx
 categories:
   - Uncategorized
 ---

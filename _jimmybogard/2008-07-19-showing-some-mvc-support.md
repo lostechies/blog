@@ -1,10 +1,10 @@
 ---
-id: 209
+wordpress_id: 209
 title: Showing some MVC support
 date: 2008-07-19T15:36:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/07/19/showing-some-mvc-support.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/07/19/showing-some-mvc-support.aspx
 dsq_thread_id:
   - "264715853"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 93
+wordpress_id: 93
 title: NHibernate DimeCasts.net Series
 date: 2008-10-01T21:04:57+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/01/nhibernate-dimecasts-net-series.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/01/nhibernate-dimecasts-net-series.aspx
 dsq_thread_id:
   - "262114144"
 categories:

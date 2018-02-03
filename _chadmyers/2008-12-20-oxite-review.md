@@ -1,10 +1,10 @@
 ---
-id: 119
+wordpress_id: 119
 title: Oxite Review
 date: 2008-12-20T17:05:03+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/12/20/oxite-review.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/12/20/oxite-review.aspx
 dsq_thread_id:
   - "262114228"
 categories:

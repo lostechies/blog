@@ -1,10 +1,10 @@
 ---
-id: 3145
+wordpress_id: 3145
 title: Avoiding Development Disasters @ WTF
 date: 2007-10-14T05:13:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/10/14/avoiding-development-disasters-wtf.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/10/14/avoiding-development-disasters-wtf.aspx
 dsq_thread_id:
   - "492415312"
 categories:

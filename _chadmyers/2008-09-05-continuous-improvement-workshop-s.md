@@ -1,10 +1,10 @@
 ---
-id: 86
+wordpress_id: 86
 title: Continuous Improvement Workshop(s)
 date: 2008-09-05T02:07:58+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/09/04/continuous-improvement-workshop-s.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/09/04/continuous-improvement-workshop-s.aspx
 dsq_thread_id:
   - "262114067"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1045
+wordpress_id: 1045
 title: Managing Events As Relationships, Not Just References
 date: 2013-02-06T12:00:01+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1045
+wordpress_guid: http://lostechies.com/derickbailey/?p=1045
 dsq_thread_id:
   - "1069043023"
 categories:

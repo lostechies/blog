@@ -1,10 +1,10 @@
 ---
-id: 148
+wordpress_id: 148
 title: The Gmail rainbow
 date: 2008-02-28T02:35:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/27/the-gmail-rainbow.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/27/the-gmail-rainbow.aspx
 dsq_thread_id:
   - "264715572"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 119
+wordpress_id: 119
 title: Swashbuckling Tentacles
 date: 2010-03-22T16:34:19+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/22/swashbuckling-tentacles.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/22/swashbuckling-tentacles.aspx
 dsq_thread_id:
   - "262068520"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 333
+wordpress_id: 333
 title: 'Refactoring challenge Part 1 &#8211; Examination'
 date: 2009-07-08T02:51:45+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/07/refactoring-challenge-part-1-examination.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/07/refactoring-challenge-part-1-examination.aspx
 dsq_thread_id:
   - "264716233"
 categories:

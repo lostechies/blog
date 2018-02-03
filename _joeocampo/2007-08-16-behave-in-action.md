@@ -1,10 +1,10 @@
 ---
-id: 43
+wordpress_id: 43
 title: 'Behave# in Action'
 date: 2007-08-16T20:00:54+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/08/16/behave-in-action.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/08/16/behave-in-action.aspx
 categories:
   - BDD (Behavior Driven Development)
   - Domain Driven Design (DDD)

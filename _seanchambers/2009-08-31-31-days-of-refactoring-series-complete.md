@@ -1,10 +1,10 @@
 ---
-id: 3226
+wordpress_id: 3226
 title: 31 Days of Refactoring Series complete!
 date: 2009-08-31T17:34:03+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/31/31-days-of-refactoring-series-complete.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/31/31-days-of-refactoring-series-complete.aspx
 dsq_thread_id:
   - "262997837"
 categories:

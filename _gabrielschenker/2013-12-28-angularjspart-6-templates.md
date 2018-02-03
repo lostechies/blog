@@ -1,10 +1,10 @@
 ---
-id: 429
+wordpress_id: 429
 title: AngularJS–Part 6, Templates
 date: 2013-12-28T16:32:57+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=429
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=429
 dsq_thread_id:
   - "2078822164"
 categories:

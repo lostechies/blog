@@ -1,10 +1,10 @@
 ---
-id: 591
+wordpress_id: 591
 title: Local builds and build servers
 date: 2012-03-01T21:13:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/03/01/local-builds-and-build-servers/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/03/01/local-builds-and-build-servers/
 dsq_thread_id:
   - "595303328"
 categories:

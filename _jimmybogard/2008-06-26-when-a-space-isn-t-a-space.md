@@ -1,10 +1,10 @@
 ---
-id: 200
+wordpress_id: 200
 title: 'When a space isn&#8217;t a space'
 date: 2008-06-26T11:15:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/06/26/when-a-space-isn-t-a-space.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/06/26/when-a-space-isn-t-a-space.aspx
 dsq_thread_id:
   - "264715817"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 76
+wordpress_id: 76
 title: Allowing a Windows Service to Interact with Desktop without LocalSystem
 date: 2011-08-13T17:38:35+00:00
 author: Keith Dahlby
 layout: post
-guid: http://lostechies.com/keithdahlby/?p=76
+wordpress_guid: http://lostechies.com/keithdahlby/?p=76
 dsq_thread_id:
   - "385005825"
 categories:

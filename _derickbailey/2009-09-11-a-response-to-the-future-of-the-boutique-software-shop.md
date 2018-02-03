@@ -1,10 +1,10 @@
 ---
-id: 82
+wordpress_id: 82
 title: A Coworker’s Response To The Future Of The Boutique Software Shop
 date: 2009-09-11T21:05:48+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/11/a-response-to-the-future-of-the-boutique-software-shop.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/11/a-response-to-the-future-of-the-boutique-software-shop.aspx
 dsq_thread_id:
   - "262068344"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 165
+wordpress_id: 165
 title: 'FubuMVC Primer: Configuration vs. Runtime'
 date: 2011-02-01T01:55:08+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=165
+wordpress_guid: http://lostechies.com/josharnold/?p=165
 dsq_thread_id:
   - "604038195"
 categories:

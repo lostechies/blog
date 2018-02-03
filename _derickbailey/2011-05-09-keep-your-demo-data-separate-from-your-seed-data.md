@@ -1,10 +1,10 @@
 ---
-id: 300
+wordpress_id: 300
 title: Keep Your Demo Data Separate From Your Seed Data
 date: 2011-05-09T06:08:51+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=300
+wordpress_guid: http://lostechies.com/derickbailey/?p=300
 dsq_thread_id:
   - "299147849"
 categories:

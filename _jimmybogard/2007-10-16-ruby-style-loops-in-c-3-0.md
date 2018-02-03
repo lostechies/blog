@@ -1,10 +1,10 @@
 ---
-id: 81
+wordpress_id: 81
 title: 'Ruby-style loops in C# 3.0'
 date: 2007-10-16T00:44:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/15/ruby-style-loops-in-c-3-0.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/15/ruby-style-loops-in-c-3-0.aspx
 dsq_thread_id:
   - "289145800"
 categories:

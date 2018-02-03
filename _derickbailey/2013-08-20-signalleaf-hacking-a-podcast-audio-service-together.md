@@ -1,10 +1,10 @@
 ---
-id: 1148
+wordpress_id: 1148
 title: 'SignalLeaf: Hacking A Podcast Audio Service Together'
 date: 2013-08-20T08:07:20+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1148
+wordpress_guid: http://lostechies.com/derickbailey/?p=1148
 enclosure:
   - |
     http://signalleaf.com/embed/my-token/my-file.mp3

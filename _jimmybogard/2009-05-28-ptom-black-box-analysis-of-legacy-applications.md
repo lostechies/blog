@@ -1,10 +1,10 @@
 ---
-id: 318
+wordpress_id: 318
 title: 'PTOM: Black-box analysis of legacy applications'
 date: 2009-05-28T03:20:33+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/05/27/ptom-black-box-analysis-of-legacy-applications.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/05/27/ptom-black-box-analysis-of-legacy-applications.aspx
 dsq_thread_id:
   - "264716166"
 categories:

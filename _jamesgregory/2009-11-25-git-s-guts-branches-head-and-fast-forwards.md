@@ -1,10 +1,10 @@
 ---
-id: 4501
+wordpress_id: 4501
 title: 'Git&#8217;s guts: Branches, HEAD, and fast-forwards'
 date: 2009-11-25T00:11:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2009/11/25/git-s-guts-branches-head-and-fast-forwards.aspx
+wordpress_guid: /blogs/jagregory/archive/2009/11/25/git-s-guts-branches-head-and-fast-forwards.aspx
 dsq_thread_id:
   - "275507055"
 categories:

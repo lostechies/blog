@@ -1,10 +1,10 @@
 ---
-id: 506
+wordpress_id: 506
 title: How to fix Subversion merge
 date: 2011-07-28T12:57:43+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/07/28/how-to-fix-subversion-merge/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/07/28/how-to-fix-subversion-merge/
 dsq_thread_id:
   - "370845092"
 categories:

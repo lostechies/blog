@@ -1,10 +1,10 @@
 ---
-id: 41
+wordpress_id: 41
 title: The Problem Preventer
 date: 2008-04-25T21:47:46+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/25/the-problem-preventer.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/25/the-problem-preventer.aspx
 dsq_thread_id:
   - "262113808"
 categories:

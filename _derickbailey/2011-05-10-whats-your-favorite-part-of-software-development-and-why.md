@@ -1,10 +1,10 @@
 ---
-id: 306
+wordpress_id: 306
 title: 'What&#8217;s your favorite part of software development, and why?'
 date: 2011-05-10T06:32:57+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=306
+wordpress_guid: http://lostechies.com/derickbailey/?p=306
 dsq_thread_id:
   - "300057044"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 94
+wordpress_id: 94
 title: A year in review with CQRS
 date: 2012-02-05T21:31:54+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=94
+wordpress_guid: http://lostechies.com/johnteague/?p=94
 dsq_thread_id:
   - "565533231"
 categories:

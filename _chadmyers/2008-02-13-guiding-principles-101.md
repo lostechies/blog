@@ -1,10 +1,10 @@
 ---
-id: 19
+wordpress_id: 19
 title: Guiding Principles 101
 date: 2008-02-13T02:06:58+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/02/12/guiding-principles-101.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/02/12/guiding-principles-101.aspx
 dsq_thread_id:
   - "262113646"
 categories:

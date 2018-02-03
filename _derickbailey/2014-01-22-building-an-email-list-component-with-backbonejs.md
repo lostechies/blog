@@ -1,10 +1,10 @@
 ---
-id: 1231
+wordpress_id: 1231
 title: Building An Email List Component With BackboneJS
 date: 2014-01-22T09:12:49+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1231
+wordpress_guid: http://lostechies.com/derickbailey/?p=1231
 dsq_thread_id:
   - "2158823934"
 categories:

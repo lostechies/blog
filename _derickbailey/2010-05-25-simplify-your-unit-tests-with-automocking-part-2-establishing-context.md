@@ -1,10 +1,10 @@
 ---
-id: 162
+wordpress_id: 162
 title: 'Simplify Your Unit Tests With Automocking: Part 2 &#8211; Establishing Context'
 date: 2010-05-25T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/25/simplify-your-unit-tests-with-automocking-part-2-establishing-context.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/25/simplify-your-unit-tests-with-automocking-part-2-establishing-context.aspx
 dsq_thread_id:
   - "262379475"
 categories:

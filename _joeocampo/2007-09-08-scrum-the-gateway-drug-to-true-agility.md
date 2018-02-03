@@ -1,10 +1,10 @@
 ---
-id: 52
+wordpress_id: 52
 title: SCRUM The gateway drug to true Agility
 date: 2007-09-08T15:37:16+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/08/scrum-the-gateway-drug-to-true-agility.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/08/scrum-the-gateway-drug-to-true-agility.aspx
 dsq_thread_id:
   - "262090237"
 categories:

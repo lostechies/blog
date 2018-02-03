@@ -1,10 +1,10 @@
 ---
-id: 3598
+wordpress_id: 3598
 title: Tulsa TechFest Wrap Up
 date: 2008-10-12T22:53:19+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/10/12/tulsa-techfest-wrap-up.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/10/12/tulsa-techfest-wrap-up.aspx
 dsq_thread_id:
   - "289729160"
 categories:

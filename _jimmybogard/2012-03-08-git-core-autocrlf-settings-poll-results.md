@@ -1,10 +1,10 @@
 ---
-id: 602
+wordpress_id: 602
 title: Git core.autocrlf settings poll results
 date: 2012-03-08T14:42:52+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/03/08/git-core-autocrlf-settings-poll-results/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/03/08/git-core-autocrlf-settings-poll-results/
 dsq_thread_id:
   - "603360711"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 41
+wordpress_id: 41
 title: Creating a bootstrapper with dotNetInstaller
 date: 2010-05-19T15:15:44+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/05/19/creating-a-bootstrapper-with-dotnetinstaller.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/05/19/creating-a-bootstrapper-with-dotnetinstaller.aspx
 dsq_thread_id:
   - "263908915"
 categories:

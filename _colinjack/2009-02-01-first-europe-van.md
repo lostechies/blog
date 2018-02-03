@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: First Europe VAN
 date: 2009-02-01T09:09:13+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/02/01/first-europe-van.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/02/01/first-europe-van.aspx
 categories:
   - ALT.NET
 ---

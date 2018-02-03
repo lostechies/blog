@@ -1,10 +1,10 @@
 ---
-id: 4689
+wordpress_id: 4689
 title: Open Source Documentation
 date: 2008-11-23T15:49:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2008/11/23/open-source-documentation.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2008/11/23/open-source-documentation.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 116
+wordpress_id: 116
 title: 'Grapevines and Agile make great Wine&#8230;'
 date: 2008-06-24T20:39:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/06/24/grapevines-and-agile-make-great-wine.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/06/24/grapevines-and-agile-make-great-wine.aspx
 dsq_thread_id:
   - "262089751"
 categories:

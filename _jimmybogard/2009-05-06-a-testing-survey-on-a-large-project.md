@@ -1,10 +1,10 @@
 ---
-id: 310
+wordpress_id: 310
 title: A testing survey on a large project
 date: 2009-05-06T03:49:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/05/05/a-testing-survey-on-a-large-project.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/05/05/a-testing-survey-on-a-large-project.aspx
 dsq_thread_id:
   - "264716138"
 categories:

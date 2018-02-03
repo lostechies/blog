@@ -1,10 +1,10 @@
 ---
-id: 56
+wordpress_id: 56
 title: '[Book Review] The Sciences of the Artificial (3rd Ed)'
 date: 2008-07-03T23:44:07+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/07/03/book-review-the-sciences-of-the-artificial-3rd-ed.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/07/03/book-review-the-sciences-of-the-artificial-3rd-ed.aspx
 categories:
   - Uncategorized
 ---

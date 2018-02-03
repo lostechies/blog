@@ -1,10 +1,10 @@
 ---
-id: 222
+wordpress_id: 222
 title: Parameter lists in NHibernate
 date: 2008-08-27T00:39:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/26/parameter-lists-in-nhibernate.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/26/parameter-lists-in-nhibernate.aspx
 dsq_thread_id:
   - "264719531"
 categories:

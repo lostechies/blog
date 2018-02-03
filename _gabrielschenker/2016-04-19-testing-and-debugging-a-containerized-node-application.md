@@ -1,10 +1,10 @@
 ---
-id: 1387
+wordpress_id: 1387
 title: Testing and Debugging a Containerized Node application
 date: 2016-04-19T10:06:26+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1387
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1387
 dsq_thread_id:
   - "4759889158"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 837
+wordpress_id: 837
 title: Handling DOM Events With EmberJS Views And Controllers
 date: 2012-02-22T07:45:21+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=837
+wordpress_guid: http://lostechies.com/derickbailey/?p=837
 dsq_thread_id:
   - "585321956"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 435
+wordpress_id: 435
 title: 'Sinatra and Heroku: the elevator pitch'
 date: 2010-09-22T13:10:18+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/09/22/sinatra-and-heroku-the-elevator-pitch.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/09/22/sinatra-and-heroku-the-elevator-pitch.aspx
 dsq_thread_id:
   - "264716581"
 categories:

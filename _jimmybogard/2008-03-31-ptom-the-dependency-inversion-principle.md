@@ -1,10 +1,10 @@
 ---
-id: 165
+wordpress_id: 165
 title: 'PTOM: The Dependency Inversion Principle'
 date: 2008-03-31T20:52:04+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/31/ptom-the-dependency-inversion-principle.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/31/ptom-the-dependency-inversion-principle.aspx
 dsq_thread_id:
   - "264715638"
 categories:

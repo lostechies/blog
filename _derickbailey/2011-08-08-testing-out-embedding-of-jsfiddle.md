@@ -1,10 +1,10 @@
 ---
-id: 517
+wordpress_id: 517
 title: Testing Out Embedding Of JSFiddle
 date: 2011-08-08T21:11:01+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=517
+wordpress_guid: http://lostechies.com/derickbailey/?p=517
 dsq_thread_id:
   - "380861615"
 categories:

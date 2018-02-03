@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: Learning from MySpace
 date: 2007-12-30T22:22:23+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/12/30/learning-from-myspace.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/12/30/learning-from-myspace.aspx
 categories:
   - Uncategorized
 ---

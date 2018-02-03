@@ -1,10 +1,10 @@
 ---
-id: 512
+wordpress_id: 512
 title: Official site of AutoMapper launched at AutoMapper.org
 date: 2011-08-22T20:58:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/08/22/official-site-of-automapper-launched-at-automapper-org/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/08/22/official-site-of-automapper-launched-at-automapper-org/
 dsq_thread_id:
   - "393284443"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 446
+wordpress_id: 446
 title: Putting mocks in their place
 date: 2011-01-07T04:28:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/01/06/putting-mocks-in-their-place.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/01/06/putting-mocks-in-their-place.aspx
 dsq_thread_id:
   - "264716630"
 categories:

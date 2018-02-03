@@ -1,10 +1,10 @@
 ---
-id: 3352
+wordpress_id: 3352
 title: Anti-Patterns and Worst Practices – You’re Doing it Wrong!
 date: 2009-05-26T12:00:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/05/26/anti-patterns-and-worst-practices-you-re-doing-it-wrong.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/05/26/anti-patterns-and-worst-practices-you-re-doing-it-wrong.aspx
 dsq_thread_id:
   - "262174872"
 categories:

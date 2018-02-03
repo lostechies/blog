@@ -1,10 +1,10 @@
 ---
-id: 190
+wordpress_id: 190
 title: MVC Storefront Challenge Kickoff
 date: 2008-05-29T01:19:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/28/mvc-storefront-challenge-kickoff.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/28/mvc-storefront-challenge-kickoff.aspx
 dsq_thread_id:
   - "271094664"
 categories:

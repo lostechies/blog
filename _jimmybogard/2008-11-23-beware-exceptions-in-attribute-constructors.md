@@ -1,10 +1,10 @@
 ---
-id: 256
+wordpress_id: 256
 title: Beware exceptions in attribute constructors
 date: 2008-11-23T01:05:54+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/22/beware-exceptions-in-attribute-constructors.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/22/beware-exceptions-in-attribute-constructors.aspx
 dsq_thread_id:
   - "266628135"
 categories:

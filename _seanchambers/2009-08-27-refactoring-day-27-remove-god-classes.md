@@ -1,10 +1,10 @@
 ---
-id: 3221
+wordpress_id: 3221
 title: 'Refactoring Day 27 : Remove God Classes'
 date: 2009-08-27T12:17:13+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/27/refactoring-day-27-remove-god-classes.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/27/refactoring-day-27-remove-god-classes.aspx
 dsq_thread_id:
   - "262356083"
 categories:

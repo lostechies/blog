@@ -1,10 +1,10 @@
 ---
-id: 424
+wordpress_id: 424
 title: A github first
 date: 2010-07-29T13:02:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/07/29/a-github-first.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/07/29/a-github-first.aspx
 dsq_thread_id:
   - "265396547"
 categories:

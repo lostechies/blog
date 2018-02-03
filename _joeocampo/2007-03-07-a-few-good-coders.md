@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: A Few Good Coders
 date: 2007-03-07T03:38:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/03/06/a-few-good-coders.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/03/06/a-few-good-coders.aspx
 dsq_thread_id:
   - "262089637"
 categories:

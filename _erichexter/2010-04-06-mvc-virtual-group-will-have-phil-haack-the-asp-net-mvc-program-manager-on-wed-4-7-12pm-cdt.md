@@ -1,10 +1,10 @@
 ---
-id: 3009
+wordpress_id: 3009
 title: MVC Virtual Group will have Phil Haack the ASP.Net MVC Program Manager, on Wed 4/7 12pm CDT
 date: 2010-04-06T19:01:54+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/04/06/mvc-virtual-group-will-have-phil-haack-the-asp-net-mvc-program-manager-on-wed-4-7-12pm-cdt.aspx
+wordpress_guid: /blogs/hex/archive/2010/04/06/mvc-virtual-group-will-have-phil-haack-the-asp-net-mvc-program-manager-on-wed-4-7-12pm-cdt.aspx
 dsq_thread_id:
   - "1094690442"
 categories:

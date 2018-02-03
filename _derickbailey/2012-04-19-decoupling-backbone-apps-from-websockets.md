@@ -1,10 +1,10 @@
 ---
-id: 897
+wordpress_id: 897
 title: Decoupling Backbone Apps From WebSockets
 date: 2012-04-19T06:48:11+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=897
+wordpress_guid: http://lostechies.com/derickbailey/?p=897
 dsq_thread_id:
   - "656112627"
 categories:

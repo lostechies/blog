@@ -1,10 +1,10 @@
 ---
-id: 53
+wordpress_id: 53
 title: 'MonoRail Quickly &#8211; Screencast'
 date: 2007-12-08T04:57:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/12/07/monorail-quickly-screencast.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/12/07/monorail-quickly-screencast.aspx
 categories:
   - Castle
   - MonoRail

@@ -1,10 +1,10 @@
 ---
-id: 478
+wordpress_id: 478
 title: 'Effective Tests: Custom Assertions'
 date: 2011-06-11T15:35:55+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/
+wordpress_guid: http://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/
 dsq_thread_id:
   - "328796779"
 categories:

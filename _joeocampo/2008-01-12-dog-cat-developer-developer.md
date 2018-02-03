@@ -1,10 +1,10 @@
 ---
-id: 98
+wordpress_id: 98
 title: 'dog : cat :: developer :developer :)'
 date: 2008-01-12T20:19:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/01/12/dog-cat-developer-developer.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/01/12/dog-cat-developer-developer.aspx
 dsq_thread_id:
   - "262089318"
 categories:

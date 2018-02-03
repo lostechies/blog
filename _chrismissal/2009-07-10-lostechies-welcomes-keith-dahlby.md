@@ -1,10 +1,10 @@
 ---
-id: 3358
+wordpress_id: 3358
 title: LosTechies welcomes Keith Dahlby
 date: 2009-07-10T19:23:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/07/10/lostechies-welcomes-keith-dahlby.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/07/10/lostechies-welcomes-keith-dahlby.aspx
 dsq_thread_id:
   - "737199639"
 categories:

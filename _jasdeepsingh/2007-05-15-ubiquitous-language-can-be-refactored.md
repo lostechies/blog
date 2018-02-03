@@ -1,10 +1,10 @@
 ---
-id: 4854
+wordpress_id: 4854
 title: Ubiquitous Language can be refactored!
 date: 2007-05-15T18:05:21+00:00
 author: Jasdeep Singh
 layout: post
-guid: /blogs/jasdeep_singh/archive/2007/05/15/ubiquitous-language-can-be-refactored.aspx
+wordpress_guid: /blogs/jasdeep_singh/archive/2007/05/15/ubiquitous-language-can-be-refactored.aspx
 categories:
   - Domain Driven Design
   - Ubiquitous Language

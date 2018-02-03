@@ -1,10 +1,10 @@
 ---
-id: 178
+wordpress_id: 178
 title: Intro to the Arduino at CodeMash
 date: 2013-01-10T06:56:39+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=178
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=178
 dsq_thread_id:
   - "1018069261"
 categories:

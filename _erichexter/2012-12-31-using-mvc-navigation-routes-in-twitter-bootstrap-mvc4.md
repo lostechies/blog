@@ -1,10 +1,10 @@
 ---
-id: 351
+wordpress_id: 351
 title: using MVC Navigation Routes in Twitter.Bootstrap.MVC4
 date: 2012-12-31T00:01:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=351
+wordpress_guid: http://lostechies.com/erichexter/?p=351
 dsq_thread_id:
   - "1000902926"
 categories:

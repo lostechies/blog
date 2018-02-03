@@ -1,10 +1,10 @@
 ---
-id: 2972
+wordpress_id: 2972
 title: The Flat Tire Principle for Source Control
 date: 2009-05-19T03:24:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/05/18/the-flat-tire-principal-for-source-control.aspx
+wordpress_guid: /blogs/hex/archive/2009/05/18/the-flat-tire-principal-for-source-control.aspx
 dsq_thread_id:
   - "265166879"
 categories:

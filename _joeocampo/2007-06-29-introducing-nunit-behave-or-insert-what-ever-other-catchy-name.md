@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: Introducing NUnit.Behave or insert what ever other catchy name
 date: 2007-06-29T01:36:17+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/06/28/introducing-nunit-behave-or-insert-what-ever-other-catchy-name.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/06/28/introducing-nunit-behave-or-insert-what-ever-other-catchy-name.aspx
 dsq_thread_id:
   - "262089437"
 categories:

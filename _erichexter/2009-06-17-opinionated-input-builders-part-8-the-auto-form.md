@@ -1,10 +1,10 @@
 ---
-id: 2981
+wordpress_id: 2981
 title: Opinionated Input Builders – Part 8 the Auto Form
 date: 2009-06-17T17:38:20+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/17/opinionated-input-builders-part-8-the-auto-form.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/17/opinionated-input-builders-part-8-the-auto-form.aspx
 dsq_thread_id:
   - "262105677"
 categories:

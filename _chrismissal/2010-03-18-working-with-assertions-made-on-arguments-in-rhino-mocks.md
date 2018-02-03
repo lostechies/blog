@@ -1,10 +1,10 @@
 ---
-id: 3381
+wordpress_id: 3381
 title: Working With Assertions Made on Arguments in Rhino Mocks
 date: 2010-03-18T02:44:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/03/17/working-with-assertions-made-on-arguments-in-rhino-mocks.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/03/17/working-with-assertions-made-on-arguments-in-rhino-mocks.aspx
 dsq_thread_id:
   - "262175191"
 dsq_needs_sync:

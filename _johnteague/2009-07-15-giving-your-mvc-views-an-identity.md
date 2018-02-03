@@ -1,10 +1,10 @@
 ---
-id: 33
+wordpress_id: 33
 title: Giving Your MVC Views an Identity
 date: 2009-07-15T05:01:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/07/15/giving-your-mvc-views-an-identity.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/07/15/giving-your-mvc-views-an-identity.aspx
 dsq_thread_id:
   - "262055685"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 284
+wordpress_id: 284
 title: Validation in a DDD world
 date: 2009-02-15T23:31:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/15/validation-in-a-ddd-world.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/15/validation-in-a-ddd-world.aspx
 dsq_thread_id:
   - "264716071"
 categories:

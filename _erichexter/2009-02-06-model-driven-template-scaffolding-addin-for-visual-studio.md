@@ -1,10 +1,10 @@
 ---
-id: 2958
+wordpress_id: 2958
 title: Model Driven template/scaffolding addin for Visual Studio
 date: 2009-02-06T04:33:37+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/02/05/model-driven-template-scaffolding-addin-for-visual-studio.aspx
+wordpress_guid: /blogs/hex/archive/2009/02/05/model-driven-template-scaffolding-addin-for-visual-studio.aspx
 dsq_thread_id:
   - "268488260"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 732
+wordpress_id: 732
 title: Backbone.js Is Not An MVC Framework
 date: 2011-12-23T13:13:42+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=732
+wordpress_guid: http://lostechies.com/derickbailey/?p=732
 dsq_thread_id:
   - "514141305"
 categories:

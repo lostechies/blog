@@ -1,10 +1,10 @@
 ---
-id: 3165
+wordpress_id: 3165
 title: How can Open Source Software compete?
 date: 2008-02-22T01:22:32+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/02/21/how-can-open-source-software-compete.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/02/21/how-can-open-source-software-compete.aspx
 dsq_thread_id:
   - "268123768"
 categories:

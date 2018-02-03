@@ -1,10 +1,10 @@
 ---
-id: 312
+wordpress_id: 312
 title: Success and statistics
 date: 2009-05-13T02:01:40+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/05/12/success-and-statistics.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/05/12/success-and-statistics.aspx
 dsq_thread_id:
   - "264716140"
 categories:

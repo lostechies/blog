@@ -1,10 +1,10 @@
 ---
-id: 57
+wordpress_id: 57
 title: Austin Code Camp 2013
 date: 2013-08-18T03:02:23+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=57
+wordpress_guid: http://lostechies.com/patricklioi/?p=57
 dsq_thread_id:
   - "1614134547"
 categories:

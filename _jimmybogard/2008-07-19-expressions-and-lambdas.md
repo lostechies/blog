@@ -1,10 +1,10 @@
 ---
-id: 208
+wordpress_id: 208
 title: Expressions and Lambdas
 date: 2008-07-19T02:59:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/07/18/expressions-and-lambdas.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/07/18/expressions-and-lambdas.aspx
 dsq_thread_id:
   - "264715855"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 211
+wordpress_id: 211
 title: Bootstrapping The .NET Framework Without An MSI Installer
 date: 2011-01-25T14:02:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/01/25/bootstrapping-the-net-framework-without-an-msi-installer.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/01/25/bootstrapping-the-net-framework-without-an-msi-installer.aspx
 dsq_thread_id:
   - "263190316"
 categories:

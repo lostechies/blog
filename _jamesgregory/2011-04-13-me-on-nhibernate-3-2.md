@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: Me on NHibernate 3.2
 date: 2011-04-13T19:31:38+00:00
 author: James Gregory
 layout: post
-guid: http://lostechies.com/jamesgregory/?p=21
+wordpress_guid: http://lostechies.com/jamesgregory/?p=21
 dsq_thread_id:
   - "278661441"
 categories:

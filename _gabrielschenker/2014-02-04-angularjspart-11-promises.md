@@ -1,10 +1,10 @@
 ---
-id: 593
+wordpress_id: 593
 title: AngularJS–Part 11, Promises
 date: 2014-02-04T22:24:02+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=593
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=593
 dsq_thread_id:
   - "2222760476"
 categories:

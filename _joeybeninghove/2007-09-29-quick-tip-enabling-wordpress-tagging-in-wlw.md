@@ -1,10 +1,10 @@
 ---
-id: 39
+wordpress_id: 39
 title: 'Quick Tip: Enabling WordPress Tagging In WLW'
 date: 2007-09-29T18:44:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/29/quick-tip-enabling-wordpress-tagging-in-wlw.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/29/quick-tip-enabling-wordpress-tagging-in-wlw.aspx
 categories:
   - blogging
   - wordpress

@@ -1,10 +1,10 @@
 ---
-id: 910
+wordpress_id: 910
 title: A better domain events pattern
 date: 2014-05-13T20:58:20+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=910
+wordpress_guid: http://lostechies.com/jimmybogard/?p=910
 dsq_thread_id:
   - "2682924445"
 categories:

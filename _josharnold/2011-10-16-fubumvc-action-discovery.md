@@ -1,10 +1,10 @@
 ---
-id: 128
+wordpress_id: 128
 title: FubuMVC–Action discovery
 date: 2011-10-16T03:37:53+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=128
+wordpress_guid: http://lostechies.com/josharnold/?p=128
 dsq_thread_id:
   - "444655813"
 categories:

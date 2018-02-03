@@ -1,10 +1,10 @@
 ---
-id: 967
+wordpress_id: 967
 title: Azure Mobile Services with AutoMapper
 date: 2014-10-29T13:23:37+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=967
+wordpress_guid: http://lostechies.com/jimmybogard/?p=967
 dsq_thread_id:
   - "3168936031"
 categories:

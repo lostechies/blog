@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: Intro to jQuery Slides
 date: 2008-09-12T13:13:36+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/09/12/intro-to-jquery-slides.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/09/12/intro-to-jquery-slides.aspx
 dsq_thread_id:
   - "262055506"
 categories:

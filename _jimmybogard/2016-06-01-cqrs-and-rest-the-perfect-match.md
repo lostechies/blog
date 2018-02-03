@@ -1,10 +1,10 @@
 ---
-id: 1190
+wordpress_id: 1190
 title: 'CQRS and REST: the perfect match'
 date: 2016-06-01T20:02:13+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1190
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1190
 dsq_thread_id:
   - "4875967233"
 categories:

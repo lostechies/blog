@@ -1,10 +1,10 @@
 ---
-id: 102
+wordpress_id: 102
 title: 'Internal DSL Pattern: Method Chaining'
 date: 2008-10-27T03:22:43+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/26/internal-dsl-pattern-method-chaining.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/26/internal-dsl-pattern-method-chaining.aspx
 dsq_thread_id:
   - "262114129"
 categories:

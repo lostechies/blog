@@ -1,10 +1,10 @@
 ---
-id: 4530
+wordpress_id: 4530
 title: Fixie XML Reports
 date: 2014-01-31T21:44:32+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=158
+wordpress_guid: http://lostechies.com/patricklioi/?p=158
 dsq_thread_id:
   - "2201899121"
 categories:

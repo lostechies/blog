@@ -1,10 +1,10 @@
 ---
-id: 79
+wordpress_id: 79
 title: Fluent NHibernate LiveMeeting Chat – Wednesday 8/20
 date: 2008-08-18T03:02:29+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/08/17/fluent-nhibernate-livemeeting-chat-wednesday-8-20.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/08/17/fluent-nhibernate-livemeeting-chat-wednesday-8-20.aspx
 dsq_thread_id:
   - "262113977"
 categories:

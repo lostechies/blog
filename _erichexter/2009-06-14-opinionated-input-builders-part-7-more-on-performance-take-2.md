@@ -1,10 +1,10 @@
 ---
-id: 2980
+wordpress_id: 2980
 title: 'Opinionated Input Builders  &#8211; Part 7 More on Performance / Take 2.'
 date: 2009-06-14T19:15:02+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/06/14/opinionated-input-builders-part-7-more-on-performance-take-2.aspx
+wordpress_guid: /blogs/hex/archive/2009/06/14/opinionated-input-builders-part-7-more-on-performance-take-2.aspx
 dsq_thread_id:
   - "262529376"
 categories:

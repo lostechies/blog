@@ -1,10 +1,10 @@
 ---
-id: 4770
+wordpress_id: 4770
 title: Why a culture of quality matters
 date: 2009-04-27T19:12:17+00:00
 author: Steve Donie
 layout: post
-guid: /blogs/stevedonie/archive/2009/04/27/why-a-culture-of-quality-matters.aspx
+wordpress_guid: /blogs/stevedonie/archive/2009/04/27/why-a-culture-of-quality-matters.aspx
 dsq_thread_id:
   - "262124076"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 443
+wordpress_id: 443
 title: Convention-based Registration Extension for Unity
 date: 2009-06-13T07:38:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2009/06/convention-based-registration-extension-for-unity/
+wordpress_guid: http://www.aspiringcraftsman.com/2009/06/convention-based-registration-extension-for-unity/
 dsq_thread_id:
   - "325777995"
 categories:

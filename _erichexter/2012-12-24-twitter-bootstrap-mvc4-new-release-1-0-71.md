@@ -1,10 +1,10 @@
 ---
-id: 343
+wordpress_id: 343
 title: Twitter.Bootstrap.MVC4– new release 1.0.71
 date: 2012-12-24T10:48:23+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=343
+wordpress_guid: http://lostechies.com/erichexter/?p=343
 dsq_thread_id:
   - "990491085"
 categories:

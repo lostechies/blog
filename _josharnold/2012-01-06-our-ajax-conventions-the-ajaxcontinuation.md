@@ -1,10 +1,10 @@
 ---
-id: 4099
+wordpress_id: 4099
 title: 'Our AJAX Conventions &#8211; The AjaxContinuation'
 date: 2012-01-06T08:03:29+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=133
+wordpress_guid: http://lostechies.com/josharnold/?p=133
 dsq_thread_id:
   - "528698026"
 categories:

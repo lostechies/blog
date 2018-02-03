@@ -1,10 +1,10 @@
 ---
-id: 1005
+wordpress_id: 1005
 title: Los Techies 2014 Year in Review
 date: 2015-01-06T17:53:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=1005
+wordpress_guid: http://lostechies.com/jimmybogard/?p=1005
 dsq_thread_id:
   - "3395970866"
 categories:

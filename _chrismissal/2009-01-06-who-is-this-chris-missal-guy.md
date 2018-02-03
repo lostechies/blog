@@ -1,10 +1,10 @@
 ---
-id: 4
+wordpress_id: 4
 title: Who is this Chris Missal Guy?
 date: 2009-01-06T13:36:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/01/06/who-is-this-chris-missal-guy.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/01/06/who-is-this-chris-missal-guy.aspx
 dsq_thread_id:
   - "470738015"
 categories:

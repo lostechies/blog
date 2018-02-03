@@ -1,10 +1,10 @@
 ---
-id: 112
+wordpress_id: 112
 title: 'CQRS Performance Engineering: Read vs Read/Write Models'
 date: 2010-03-08T16:14:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/08/cqrs-performance-engineering-read-vs-read-write-models.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/08/cqrs-performance-engineering-read-vs-read-write-models.aspx
 dsq_thread_id:
   - "262068443"
 categories:

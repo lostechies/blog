@@ -1,10 +1,10 @@
 ---
-id: 150
+wordpress_id: 150
 title: 'Just say no to &#8216;Poor Man’s Dependency Injection’.'
 date: 2009-07-14T14:53:48+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/07/14/just-say-no-to-poor-man-s-dependency-injection.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/07/14/just-say-no-to-poor-man-s-dependency-injection.aspx
 dsq_thread_id:
   - "262114468"
 categories:

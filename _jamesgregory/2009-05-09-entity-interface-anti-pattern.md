@@ -1,10 +1,10 @@
 ---
-id: 4496
+wordpress_id: 4496
 title: Entity interface anti-pattern
 date: 2009-05-09T01:35:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2009/05/09/entity-interface-anti-pattern.aspx
+wordpress_guid: /blogs/jagregory/archive/2009/05/09/entity-interface-anti-pattern.aspx
 dsq_thread_id:
   - "273364812"
 categories:

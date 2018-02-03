@@ -1,10 +1,10 @@
 ---
-id: 600
+wordpress_id: 600
 title: 'JavaScript Has Built-In Mix-ins With &#8216;apply&#8217; Or &#8216;call&#8217;'
 date: 2011-10-02T12:46:38+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=600
+wordpress_guid: http://lostechies.com/derickbailey/?p=600
 dsq_thread_id:
   - "432251088"
 categories:

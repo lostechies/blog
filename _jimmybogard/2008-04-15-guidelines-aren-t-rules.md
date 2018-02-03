@@ -1,10 +1,10 @@
 ---
-id: 168
+wordpress_id: 168
 title: 'Guidelines aren&#8217;t rules'
 date: 2008-04-15T11:24:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/04/15/guidelines-aren-t-rules.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/04/15/guidelines-aren-t-rules.aspx
 dsq_thread_id:
   - "264715647"
 categories:

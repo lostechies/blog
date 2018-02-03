@@ -1,10 +1,10 @@
 ---
-id: 446
+wordpress_id: 446
 title: 'My Pablo&#8217;s Fiesta Experience'
 date: 2013-10-29T09:35:46+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=446
+wordpress_guid: http://lostechies.com/chrismissal/?p=446
 dsq_thread_id:
   - "1914841344"
 categories:

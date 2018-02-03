@@ -1,10 +1,10 @@
 ---
-id: 2964
+wordpress_id: 2964
 title: My Alt.Net Topics / proposals. I need a proxy for tonight?
 date: 2009-02-27T17:24:56+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/02/27/my-alt-net-topics-proposals-i-need-a-proxy-for-tonight.aspx
+wordpress_guid: /blogs/hex/archive/2009/02/27/my-alt-net-topics-proposals-i-need-a-proxy-for-tonight.aspx
 dsq_thread_id:
   - "272142634"
 categories:

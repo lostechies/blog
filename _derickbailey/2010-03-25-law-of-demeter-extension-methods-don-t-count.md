@@ -1,10 +1,10 @@
 ---
-id: 123
+wordpress_id: 123
 title: 'Law Of Demeter: Extension Methods Don’t Count'
 date: 2010-03-25T14:10:16+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/25/law-of-demeter-extension-methods-don-t-count.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/25/law-of-demeter-extension-methods-don-t-count.aspx
 dsq_thread_id:
   - "262068567"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 78
+wordpress_id: 78
 title: When is it a Good Idea to write Bad Code?
 date: 2014-01-09T14:08:18+00:00
 author: Brad Carleton
 layout: post
-guid: http://lostechies.com/bradcarleton/?p=78
+wordpress_guid: http://lostechies.com/bradcarleton/?p=78
 dsq_thread_id:
   - "2102451338"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: Writing a profiler for Silverlight applications – Part 2
 date: 2009-12-08T13:31:29+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/12/08/writing-a-profiler-for-silverlight-applications-part-2.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/12/08/writing-a-profiler-for-silverlight-applications-part-2.aspx
 dsq_thread_id:
   - "263908894"
 categories:

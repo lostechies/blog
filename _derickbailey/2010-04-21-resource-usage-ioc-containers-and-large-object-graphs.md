@@ -1,10 +1,10 @@
 ---
-id: 144
+wordpress_id: 144
 title: 'Resource Usage: IoC Containers And Large Object Graphs'
 date: 2010-04-21T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/21/resource-usage-ioc-containers-and-large-object-graphs.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/21/resource-usage-ioc-containers-and-large-object-graphs.aspx
 dsq_thread_id:
   - "262068677"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4528
+wordpress_id: 4528
 title: Fail Loudly
 date: 2013-10-15T17:02:14+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=109
+wordpress_guid: http://lostechies.com/patricklioi/?p=109
 dsq_thread_id:
   - "1860502412"
 categories:

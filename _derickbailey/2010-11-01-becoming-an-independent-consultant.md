@@ -1,10 +1,10 @@
 ---
-id: 193
+wordpress_id: 193
 title: Becoming An Independent Consultant
 date: 2010-11-01T15:31:18+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/11/01/becoming-an-independent-consultant.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/11/01/becoming-an-independent-consultant.aspx
 dsq_thread_id:
   - "265186244"
 categories:

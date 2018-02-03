@@ -1,10 +1,10 @@
 ---
-id: 42
+wordpress_id: 42
 title: 'Hibernate Connection Pooling: why isn&#8217;t the default one for production?'
 date: 2010-06-26T13:50:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/06/26/hibernate-connection-pooling-why-is-the-default-one-for-production.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/06/26/hibernate-connection-pooling-why-is-the-default-one-for-production.aspx
 dsq_thread_id:
   - "1069158747"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 583
+wordpress_id: 583
 title: How To Produce Bug-Free Software
 date: 2011-10-18T03:17:16+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=583
+wordpress_guid: http://lostechies.com/derekgreer/?p=583
 dsq_thread_id:
   - "446411007"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 86
+wordpress_id: 86
 title: Infinity ErgoDox
 date: 2015-11-02T23:25:00+00:00
 author: Joshua Flanagan
 layout: post
-guid: https://lostechies.com/joshuaflanagan/?p=86
+wordpress_guid: https://lostechies.com/joshuaflanagan/?p=86
 dsq_thread_id:
   - "4284829146"
 categories:

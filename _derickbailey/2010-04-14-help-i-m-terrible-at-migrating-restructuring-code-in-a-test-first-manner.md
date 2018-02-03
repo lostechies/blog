@@ -1,10 +1,10 @@
 ---
-id: 139
+wordpress_id: 139
 title: Help! I’m Terrible At Migrating/Restructuring Code In A Test-First Manner
 date: 2010-04-14T16:05:45+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/14/help-i-m-terrible-at-migrating-restructuring-code-in-a-test-first-manner.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/14/help-i-m-terrible-at-migrating-restructuring-code-in-a-test-first-manner.aspx
 dsq_thread_id:
   - "262068652"
 categories:

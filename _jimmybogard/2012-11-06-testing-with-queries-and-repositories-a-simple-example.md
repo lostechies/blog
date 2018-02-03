@@ -1,10 +1,10 @@
 ---
-id: 687
+wordpress_id: 687
 title: Testing with queries and repositories (a simple example)
 date: 2012-11-06T14:53:12+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=687
+wordpress_guid: http://lostechies.com/jimmybogard/?p=687
 dsq_thread_id:
   - "916052772"
 categories:

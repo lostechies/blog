@@ -1,10 +1,10 @@
 ---
-id: 368
+wordpress_id: 368
 title: 'Sometimes It&#8217;s Better To Use A Ruby Hash Than Create A Custom Class'
 date: 2011-05-25T14:06:53+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=368
+wordpress_guid: http://lostechies.com/derickbailey/?p=368
 dsq_thread_id:
   - "313744592"
 categories:

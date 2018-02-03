@@ -1,10 +1,10 @@
 ---
-id: 4043
+wordpress_id: 4043
 title: 'Mac OS X Tip: Install two versions of the same app (or run two instances)'
 date: 2009-08-12T13:16:35+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/08/12/mac-os-x-tip-install-two-versions-of-the-same-app-or-run-two-instances.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/08/12/mac-os-x-tip-install-two-versions-of-the-same-app-or-run-two-instances.aspx
 categories:
   - Uncategorized
 ---

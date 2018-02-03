@@ -1,10 +1,10 @@
 ---
-id: 1184
+wordpress_id: 1184
 title: Entities aren’t resources, resources aren’t representations
 date: 2016-05-12T16:29:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1184
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1184
 dsq_thread_id:
   - "4821207594"
 categories:

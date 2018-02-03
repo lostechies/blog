@@ -1,10 +1,10 @@
 ---
-id: 1163
+wordpress_id: 1163
 title: 'I&#8217;m Speaking At CodeMash 2014: SOLID JavaScript For A Wobbly World (wide web)'
 date: 2013-10-15T10:36:30+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1163
+wordpress_guid: http://lostechies.com/derickbailey/?p=1163
 dsq_thread_id:
   - "1860418929"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4053
+wordpress_id: 4053
 title: 'How We Do Things &#8211; Evolving our TDD/BDD Practice'
 date: 2009-10-07T14:17:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/10/07/how-we-do-things-tdd-bdd.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/10/07/how-we-do-things-tdd-bdd.aspx
 categories:
   - how we do it
   - Management

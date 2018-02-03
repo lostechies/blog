@@ -1,10 +1,10 @@
 ---
-id: 3374
+wordpress_id: 3374
 title: Reading Code, Spark’s Once Attribute
 date: 2010-01-29T02:39:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/01/28/reading-code-spark-s-once-attribute.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/01/28/reading-code-spark-s-once-attribute.aspx
 dsq_thread_id:
   - "266466130"
 categories:

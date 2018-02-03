@@ -1,10 +1,10 @@
 ---
-id: 3138
+wordpress_id: 3138
 title: Branching a trunk permanently
 date: 2007-09-27T22:41:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/09/27/branching-a-trunk-permanently.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/09/27/branching-a-trunk-permanently.aspx
 dsq_thread_id:
   - "268123691"
 categories:

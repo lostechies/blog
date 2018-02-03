@@ -1,10 +1,10 @@
 ---
-id: 118
+wordpress_id: 118
 title: .NET Stack Traces And Anonymous Methods
 date: 2010-03-19T21:05:06+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/19/net-stack-traces-and-anonymous-methods.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/19/net-stack-traces-and-anonymous-methods.aspx
 dsq_thread_id:
   - "262068506"
 categories:

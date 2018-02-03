@@ -1,10 +1,10 @@
 ---
-id: 963
+wordpress_id: 963
 title: 'NServiceBus 5.0 behaviors in action: routing slips'
 date: 2014-10-02T12:57:50+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=963
+wordpress_guid: http://lostechies.com/jimmybogard/?p=963
 dsq_thread_id:
   - "3075680326"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 438
+wordpress_id: 438
 title: 'Solving Backbone&#8217;s &#8220;this.model.view&#8221; Problem With Underscore.js'
 date: 2011-06-15T20:59:16+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=438
+wordpress_guid: http://lostechies.com/derickbailey/?p=438
 dsq_thread_id:
   - "333542687"
 categories:

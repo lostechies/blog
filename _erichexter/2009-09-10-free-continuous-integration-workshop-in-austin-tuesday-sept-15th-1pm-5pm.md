@@ -1,10 +1,10 @@
 ---
-id: 2990
+wordpress_id: 2990
 title: Free Continuous Integration Workshop in Austin Tuesday Sept 15th 1pm-5pm
 date: 2009-09-10T21:32:15+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/09/10/free-continuous-integration-workshop-in-austin-tuesday-sept-15th-1pm-5pm.aspx
+wordpress_guid: /blogs/hex/archive/2009/09/10/free-continuous-integration-workshop-in-austin-tuesday-sept-15th-1pm-5pm.aspx
 dsq_thread_id:
   - "279332409"
 categories:

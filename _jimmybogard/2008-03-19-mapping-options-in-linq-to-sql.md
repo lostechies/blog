@@ -1,10 +1,10 @@
 ---
-id: 159
+wordpress_id: 159
 title: Mapping options in LINQ to SQL
 date: 2008-03-19T02:15:34+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/18/mapping-options-in-linq-to-sql.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/18/mapping-options-in-linq-to-sql.aspx
 dsq_thread_id:
   - "264715621"
 categories:

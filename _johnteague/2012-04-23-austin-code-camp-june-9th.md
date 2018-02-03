@@ -1,10 +1,10 @@
 ---
-id: 106
+wordpress_id: 106
 title: Austin Code Camp June 9th
 date: 2012-04-23T03:46:46+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=106
+wordpress_guid: http://lostechies.com/johnteague/?p=106
 dsq_thread_id:
   - "660341658"
 categories:

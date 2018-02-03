@@ -1,10 +1,10 @@
 ---
-id: 940
+wordpress_id: 940
 title: '$(function(){…}) vs (function($){…})($) or DOMReady vs The Module Pattern'
 date: 2012-05-22T07:06:33+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=940
+wordpress_guid: http://lostechies.com/derickbailey/?p=940
 dsq_thread_id:
   - "699741412"
 categories:

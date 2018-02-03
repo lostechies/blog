@@ -1,10 +1,10 @@
 ---
-id: 3386
+wordpress_id: 3386
 title: ReSharper Easter Egg?
 date: 2011-03-06T23:55:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2011/03/06/resharper-easter-egg.aspx
+wordpress_guid: /blogs/chrismissal/archive/2011/03/06/resharper-easter-egg.aspx
 dsq_thread_id:
   - "262074594"
 categories:

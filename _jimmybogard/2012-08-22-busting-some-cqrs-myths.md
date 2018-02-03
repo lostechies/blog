@@ -1,10 +1,10 @@
 ---
-id: 657
+wordpress_id: 657
 title: Busting some CQRS myths
 date: 2012-08-22T13:35:36+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/08/22/busting-some-cqrs-myths/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/08/22/busting-some-cqrs-myths/
 dsq_thread_id:
   - "814478004"
 categories:

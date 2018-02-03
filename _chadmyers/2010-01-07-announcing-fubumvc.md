@@ -1,10 +1,10 @@
 ---
-id: 157
+wordpress_id: 157
 title: Announcing FubuMVC
 date: 2010-01-07T16:36:06+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/01/07/announcing-fubumvc.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/01/07/announcing-fubumvc.aspx
 dsq_thread_id:
   - "262114495"
 categories:

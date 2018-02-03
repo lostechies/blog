@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: Synchronizing calls to the UI in a multi-threaded application
 date: 2009-01-23T13:23:57+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/01/23/synchronizing-calls-to-the-ui-in-a-multi-threaded-application.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/01/23/synchronizing-calls-to-the-ui-in-a-multi-threaded-application.aspx
 dsq_thread_id:
   - "263908791"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 759
+wordpress_id: 759
 title: Scaling NServiceBus Sagas
 date: 2013-03-26T13:57:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=759
+wordpress_guid: http://lostechies.com/jimmybogard/?p=759
 dsq_thread_id:
   - "1165974967"
 categories:

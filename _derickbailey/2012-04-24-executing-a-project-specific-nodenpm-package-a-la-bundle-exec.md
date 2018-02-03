@@ -1,10 +1,10 @@
 ---
-id: 906
+wordpress_id: 906
 title: 'Executing A Project-Specific Node/NPM Package A-la &#8220;bundle exec&#8221;'
 date: 2012-04-24T06:52:13+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=906
+wordpress_guid: http://lostechies.com/derickbailey/?p=906
 dsq_thread_id:
   - "662324394"
 categories:

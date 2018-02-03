@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: Why Use ActiveRecordMediator instead of NHibernate
 date: 2008-05-28T02:33:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/05/27/why-use-activerecordmediator-instead-of-nhibernate.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/05/27/why-use-activerecordmediator-instead-of-nhibernate.aspx
 dsq_thread_id:
   - "262628949"
 categories:

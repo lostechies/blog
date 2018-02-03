@@ -1,10 +1,10 @@
 ---
-id: 488
+wordpress_id: 488
 title: From sprints to pull-based flow
 date: 2011-05-13T14:17:47+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/05/13/from-sprints-to-pull-based-flow/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/05/13/from-sprints-to-pull-based-flow/
 dsq_thread_id:
   - "302801933"
 categories:

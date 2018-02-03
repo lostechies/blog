@@ -1,10 +1,10 @@
 ---
-id: 891
+wordpress_id: 891
 title: Managing A Modal Dialog With Backbone And Marionette
 date: 2012-04-17T07:02:21+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=891
+wordpress_guid: http://lostechies.com/derickbailey/?p=891
 dsq_thread_id:
   - "653060967"
 categories:

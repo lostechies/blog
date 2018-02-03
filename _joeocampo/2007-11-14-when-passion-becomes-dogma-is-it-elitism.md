@@ -1,10 +1,10 @@
 ---
-id: 82
+wordpress_id: 82
 title: When passion becomes dogma is it elitism?
 date: 2007-11-14T05:17:13+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/11/14/when-passion-becomes-dogma-is-it-elitism.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/11/14/when-passion-becomes-dogma-is-it-elitism.aspx
 dsq_thread_id:
   - "262089783"
 categories:

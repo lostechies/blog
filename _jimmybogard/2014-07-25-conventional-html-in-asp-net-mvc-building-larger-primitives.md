@@ -1,10 +1,10 @@
 ---
-id: 926
+wordpress_id: 926
 title: 'Conventional HTML in ASP.NET MVC: Building larger primitives'
 date: 2014-07-25T14:52:12+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=926
+wordpress_guid: http://lostechies.com/jimmybogard/?p=926
 dsq_thread_id:
   - "2872593705"
 categories:

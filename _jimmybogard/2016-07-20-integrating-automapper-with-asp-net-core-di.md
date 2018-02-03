@@ -1,10 +1,10 @@
 ---
-id: 1225
+wordpress_id: 1225
 title: Integrating AutoMapper with ASP.NET Core DI
 date: 2016-07-20T16:30:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1225
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1225
 dsq_thread_id:
   - "5000616649"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 442
+wordpress_id: 442
 title: Making Mongoid Play Nice With Backbone.js
 date: 2011-06-17T07:12:21+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=442
+wordpress_guid: http://lostechies.com/derickbailey/?p=442
 dsq_thread_id:
   - "334885734"
 categories:

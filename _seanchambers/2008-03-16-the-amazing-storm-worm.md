@@ -1,10 +1,10 @@
 ---
-id: 3171
+wordpress_id: 3171
 title: The amazing Storm botnet
 date: 2008-03-16T13:45:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/03/16/the-amazing-storm-worm.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/03/16/the-amazing-storm-worm.aspx
 dsq_thread_id:
   - "268123784"
 categories:

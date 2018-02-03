@@ -1,10 +1,10 @@
 ---
-id: 175
+wordpress_id: 175
 title: 'Continuous Integration: Early indicators mean inexpensive fixes'
 date: 2011-12-02T16:27:07+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=175
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=175
 dsq_thread_id:
   - "1001969836"
 categories:

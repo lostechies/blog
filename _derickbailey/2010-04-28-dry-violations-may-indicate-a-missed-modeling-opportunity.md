@@ -1,10 +1,10 @@
 ---
-id: 149
+wordpress_id: 149
 title: DRY Violations May Indicate A Missed Modeling Opportunity
 date: 2010-04-28T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/28/dry-violations-may-indicate-a-missed-modeling-opportunity.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/28/dry-violations-may-indicate-a-missed-modeling-opportunity.aspx
 dsq_thread_id:
   - "262068663"
 categories:

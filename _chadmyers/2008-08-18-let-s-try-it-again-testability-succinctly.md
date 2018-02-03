@@ -1,10 +1,10 @@
 ---
-id: 80
+wordpress_id: 80
 title: Let’s try it again… testability succinctly
 date: 2008-08-18T21:22:38+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/08/18/let-s-try-it-again-testability-succinctly.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/08/18/let-s-try-it-again-testability-succinctly.aspx
 dsq_thread_id:
   - "262114004"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 97
+wordpress_id: 97
 title: Build your own single function keyboard
 date: 2015-11-09T11:09:03+00:00
 author: Joshua Flanagan
 layout: post
-guid: https://lostechies.com/joshuaflanagan/?p=97
+wordpress_guid: https://lostechies.com/joshuaflanagan/?p=97
 dsq_thread_id:
   - "4303826797"
 categories:

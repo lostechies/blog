@@ -1,10 +1,10 @@
 ---
-id: 90
+wordpress_id: 90
 title: Gregory Long Joins Los Techies
 date: 2008-09-23T01:08:34+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/09/22/gregory-long-joins-los-techies.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/09/22/gregory-long-joins-los-techies.aspx
 dsq_thread_id:
   - "262113498"
 categories:

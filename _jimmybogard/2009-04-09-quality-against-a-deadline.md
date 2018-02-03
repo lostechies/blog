@@ -1,10 +1,10 @@
 ---
-id: 302
+wordpress_id: 302
 title: Quality against a deadline
 date: 2009-04-09T01:37:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/04/08/quality-against-a-deadline.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/04/08/quality-against-a-deadline.aspx
 dsq_thread_id:
   - "264716105"
 categories:

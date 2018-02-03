@@ -1,10 +1,10 @@
 ---
-id: 232
+wordpress_id: 232
 title: Ten tips to maximize the return on your TDD investment
 date: 2008-09-22T02:00:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/09/21/ten-tips-to-maximize-the-return-on-your-tdd-investment.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/09/21/ten-tips-to-maximize-the-return-on-your-tdd-investment.aspx
 dsq_thread_id:
   - "264715934"
 categories:

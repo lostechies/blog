@@ -1,10 +1,10 @@
 ---
-id: 232
+wordpress_id: 232
 title: Publish and Subscribe using SignalR in Home Automation – Part 3
 date: 2012-11-08T05:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=232
+wordpress_guid: http://lostechies.com/erichexter/?p=232
 dsq_thread_id:
   - "919030719"
 categories:

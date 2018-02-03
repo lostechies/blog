@@ -1,10 +1,10 @@
 ---
-id: 1145
+wordpress_id: 1145
 title: Implementing a CI/CD pipeline
 date: 2016-01-23T17:34:14+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1145
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1145
 dsq_thread_id:
   - "4517615541"
 categories:

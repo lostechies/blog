@@ -1,10 +1,10 @@
 ---
-id: 104
+wordpress_id: 104
 title: '!!!!Please update your LOSTECHIES RSS FEED!!!!'
 date: 2008-02-27T04:33:22+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/02/26/please-update-your-lostechies-rss-feed.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/02/26/please-update-your-lostechies-rss-feed.aspx
 dsq_thread_id:
   - "262090051"
 categories:

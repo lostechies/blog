@@ -1,10 +1,10 @@
 ---
-id: 996
+wordpress_id: 996
 title: 'DDD &#8211; The aggregate'
 date: 2015-05-25T12:57:41+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=996
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=996
 dsq_thread_id:
   - "3792901701"
 categories:

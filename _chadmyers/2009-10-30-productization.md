@@ -1,10 +1,10 @@
 ---
-id: 155
+wordpress_id: 155
 title: “Productization”
 date: 2009-10-30T16:37:08+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/10/30/productization.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/10/30/productization.aspx
 dsq_thread_id:
   - "262114493"
 categories:

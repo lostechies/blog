@@ -1,10 +1,10 @@
 ---
-id: 223
+wordpress_id: 223
 title: Providing Unauthenticated API Access To An Authenticated/Authorized Controller In Rails 3, With Devise And CanCan
 date: 2011-03-24T14:05:04+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=223
+wordpress_guid: http://lostechies.com/derickbailey/?p=223
 dsq_thread_id:
   - "262305776"
 categories:

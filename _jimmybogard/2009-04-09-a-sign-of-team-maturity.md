@@ -1,10 +1,10 @@
 ---
-id: 303
+wordpress_id: 303
 title: A sign of team maturity
 date: 2009-04-09T12:56:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/04/09/a-sign-of-team-maturity.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/04/09/a-sign-of-team-maturity.aspx
 dsq_thread_id:
   - "264716116"
 categories:

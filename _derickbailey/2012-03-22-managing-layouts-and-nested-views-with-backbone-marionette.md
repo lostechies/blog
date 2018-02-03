@@ -1,10 +1,10 @@
 ---
-id: 855
+wordpress_id: 855
 title: Managing Layouts And Nested Views With Backbone.Marionette
 date: 2012-03-22T07:14:03+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=855
+wordpress_guid: http://lostechies.com/derickbailey/?p=855
 dsq_thread_id:
   - "620624750"
 categories:

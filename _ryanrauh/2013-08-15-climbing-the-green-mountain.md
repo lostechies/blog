@@ -1,10 +1,10 @@
 ---
-id: 4391
+wordpress_id: 4391
 title: Climbing the green mountain
 date: 2013-08-15T17:41:12+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=242
+wordpress_guid: http://lostechies.com/ryanrauh/?p=242
 dsq_thread_id:
   - "1608490755"
 categories:

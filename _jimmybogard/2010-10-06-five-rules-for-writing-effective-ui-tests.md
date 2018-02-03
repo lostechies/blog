@@ -1,10 +1,10 @@
 ---
-id: 438
+wordpress_id: 438
 title: Five rules for writing effective UI tests
 date: 2010-10-06T03:34:40+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/10/05/five-rules-for-writing-effective-ui-tests.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/10/05/five-rules-for-writing-effective-ui-tests.aspx
 dsq_thread_id:
   - "264934531"
 categories:

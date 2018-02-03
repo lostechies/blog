@@ -1,10 +1,10 @@
 ---
-id: 3376
+wordpress_id: 3376
 title: Unit Testing Simple ASP.NET MVC Controllers
 date: 2010-02-05T05:04:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/02/05/unit-testing-simple-asp-net-mvc-controllers.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/02/05/unit-testing-simple-asp-net-mvc-controllers.aspx
 dsq_thread_id:
   - "262175143"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 976
+wordpress_id: 976
 title: Asynchronous Unit Tests With Mocha, Promises, And WinJS
 date: 2012-08-17T08:58:12+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=976
+wordpress_guid: http://lostechies.com/derickbailey/?p=976
 dsq_thread_id:
   - "809007782"
 categories:

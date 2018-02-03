@@ -1,10 +1,10 @@
 ---
-id: 1190
+wordpress_id: 1190
 title: SOLID JavaScript In A Wobbly World (Wide Web)
 date: 2014-01-10T12:33:24+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1190
+wordpress_guid: http://lostechies.com/derickbailey/?p=1190
 dsq_thread_id:
   - "2105380222"
 categories:

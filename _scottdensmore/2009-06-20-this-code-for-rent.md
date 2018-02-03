@@ -1,10 +1,10 @@
 ---
-id: 4607
+wordpress_id: 4607
 title: This Code for Rent
 date: 2009-06-20T16:37:04+00:00
 author: Scott Densmore
 layout: post
-guid: /blogs/scottdensmore/archive/2009/06/20/this-code-for-rent.aspx
+wordpress_guid: /blogs/scottdensmore/archive/2009/06/20/this-code-for-rent.aspx
 dsq_thread_id:
   - "273600803"
 categories:

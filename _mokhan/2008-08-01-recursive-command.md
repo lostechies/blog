@@ -1,10 +1,10 @@
 ---
-id: 4558
+wordpress_id: 4558
 title: Recursive Command
 date: 2008-08-01T14:38:55+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/08/01/recursive-command.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/08/01/recursive-command.aspx
 categories:
   - Design Patterns
 ---

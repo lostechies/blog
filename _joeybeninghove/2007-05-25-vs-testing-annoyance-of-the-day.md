@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: 'VS Testing &#8211; Annoyance Of The Day'
 date: 2007-05-25T16:27:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/05/25/vs-testing-annoyance-of-the-day.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/05/25/vs-testing-annoyance-of-the-day.aspx
 categories:
   - TDD
   - Tools

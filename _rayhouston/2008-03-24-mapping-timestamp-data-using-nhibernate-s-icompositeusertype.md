@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: 'Mapping Timestamp Data Using NHibernate&#8217;s ICompositeUserType'
 date: 2008-03-24T02:21:18+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/03/23/mapping-timestamp-data-using-nhibernate-s-icompositeusertype.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/03/23/mapping-timestamp-data-using-nhibernate-s-icompositeusertype.aspx
 categories:
   - Uncategorized
 ---

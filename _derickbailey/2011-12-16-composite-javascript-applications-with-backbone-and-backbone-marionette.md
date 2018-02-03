@@ -1,10 +1,10 @@
 ---
-id: 728
+wordpress_id: 728
 title: Composite JavaScript Applications With Backbone And Backbone.Marionette
 date: 2011-12-16T09:33:37+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=728
+wordpress_guid: http://lostechies.com/derickbailey/?p=728
 dsq_thread_id:
   - "506548845"
 categories:

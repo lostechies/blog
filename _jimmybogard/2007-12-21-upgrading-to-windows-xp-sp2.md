@@ -1,10 +1,10 @@
 ---
-id: 117
+wordpress_id: 117
 title: Upgrading to Windows XP SP2
 date: 2007-12-21T04:31:36+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/12/20/upgrading-to-windows-xp-sp2.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/12/20/upgrading-to-windows-xp-sp2.aspx
 dsq_thread_id:
   - "264715473"
 categories:

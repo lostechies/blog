@@ -1,10 +1,10 @@
 ---
-id: 4692
+wordpress_id: 4692
 title: Castle MicroKernel Fluent Event Wiring
 date: 2009-01-25T06:32:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2009/01/25/castle-microkernel-fluent-event-wiring.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2009/01/25/castle-microkernel-fluent-event-wiring.aspx
 categories:
   - 'C#'
   - microkernel

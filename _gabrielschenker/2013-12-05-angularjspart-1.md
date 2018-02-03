@@ -1,10 +1,10 @@
 ---
-id: 234
+wordpress_id: 234
 title: AngularJS–Part 1
 date: 2013-12-05T22:31:09+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=234
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=234
 dsq_thread_id:
   - "2028871421"
 categories:

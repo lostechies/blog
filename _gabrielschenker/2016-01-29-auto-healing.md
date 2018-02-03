@@ -1,10 +1,10 @@
 ---
-id: 1185
+wordpress_id: 1185
 title: Auto Healing
 date: 2016-01-29T11:20:42+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1185
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1185
 dsq_thread_id:
   - "4534300913"
 categories:

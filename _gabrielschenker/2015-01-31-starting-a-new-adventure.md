@@ -1,10 +1,10 @@
 ---
-id: 887
+wordpress_id: 887
 title: Starting a new adventure
 date: 2015-01-31T14:21:12+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=887
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=887
 dsq_thread_id:
   - "3473422889"
 categories:

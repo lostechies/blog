@@ -1,10 +1,10 @@
 ---
-id: 426
+wordpress_id: 426
 title: OSS and the .NET Framework upgrade
 date: 2010-08-05T13:39:02+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/08/05/oss-and-the-net-framework-upgrade.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/08/05/oss-and-the-net-framework-upgrade.aspx
 dsq_thread_id:
   - "264716549"
 categories:

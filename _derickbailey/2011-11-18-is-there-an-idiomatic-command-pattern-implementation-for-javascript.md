@@ -1,10 +1,10 @@
 ---
-id: 677
+wordpress_id: 677
 title: Is There An Idiomatic Command Pattern Implementation For JavaScript?
 date: 2011-11-18T14:31:21+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=677
+wordpress_guid: http://lostechies.com/derickbailey/?p=677
 dsq_thread_id:
   - "476649713"
 categories:

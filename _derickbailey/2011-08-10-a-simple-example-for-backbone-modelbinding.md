@@ -1,10 +1,10 @@
 ---
-id: 521
+wordpress_id: 521
 title: A Simple Example For Backbone.ModelBinding
 date: 2011-08-10T20:19:26+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=521
+wordpress_guid: http://lostechies.com/derickbailey/?p=521
 dsq_thread_id:
   - "382750631"
 categories:

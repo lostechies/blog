@@ -1,10 +1,10 @@
 ---
-id: 1003
+wordpress_id: 1003
 title: Backbone Fundamentals, Intro To Marionette, TodoMVC, And More
 date: 2012-09-13T09:07:08+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1003
+wordpress_guid: http://lostechies.com/derickbailey/?p=1003
 dsq_thread_id:
   - "842589479"
 categories:

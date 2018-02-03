@@ -1,10 +1,10 @@
 ---
-id: 1500
+wordpress_id: 1500
 title: Running and debugging an ASP.NET Core RC2 application in Docker
 date: 2016-05-17T21:05:04+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1500
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1500
 dsq_thread_id:
   - "4836082848"
 categories:

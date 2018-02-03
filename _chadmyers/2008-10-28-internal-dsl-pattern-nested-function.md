@@ -1,10 +1,10 @@
 ---
-id: 103
+wordpress_id: 103
 title: 'Internal DSL Pattern: Nested Function'
 date: 2008-10-28T00:38:03+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/27/internal-dsl-pattern-nested-function.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/27/internal-dsl-pattern-nested-function.aspx
 dsq_thread_id:
   - "1092332773"
 categories:

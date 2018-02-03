@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: 'Patterns of Compositional Architecture: DSLs &#8211; Semantic Models'
 date: 2011-07-12T05:17:31+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=34
+wordpress_guid: http://lostechies.com/josharnold/?p=34
 dsq_thread_id:
   - "355936923"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4046
+wordpress_id: 4046
 title: Well-constructed != Over-architected
 date: 2009-10-01T06:32:06+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/10/01/well-constructed-over-architected.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/10/01/well-constructed-over-architected.aspx
 categories:
   - DDD
   - Quality

@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: Simple BDD/TDD
 date: 2009-09-02T02:47:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/09/01/simple-bdd-tdd.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/09/01/simple-bdd-tdd.aspx
 dsq_thread_id:
   - "425624308"
 categories:

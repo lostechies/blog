@@ -1,10 +1,10 @@
 ---
-id: 27
+wordpress_id: 27
 title: Building the often needed anti-corruption layer
 date: 2007-09-10T14:36:21+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/10/building-the-often-needed-anti-corruption-layer.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/10/building-the-often-needed-anti-corruption-layer.aspx
 categories:
   - commerce server
   - Domain Driven Design

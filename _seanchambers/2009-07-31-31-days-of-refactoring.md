@@ -1,10 +1,10 @@
 ---
-id: 3194
+wordpress_id: 3194
 title: 31 Days of Refactoring
 date: 2009-07-31T12:52:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/07/31/31-days-of-refactoring.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/07/31/31-days-of-refactoring.aspx
 dsq_thread_id:
   - "262346009"
 categories:

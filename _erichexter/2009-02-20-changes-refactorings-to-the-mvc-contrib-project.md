@@ -1,10 +1,10 @@
 ---
-id: 2962
+wordpress_id: 2962
 title: Changes/Refactorings to the Mvc Contrib project!
 date: 2009-02-20T19:15:59+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/02/20/changes-refactorings-to-the-mvc-contrib-project.aspx
+wordpress_guid: /blogs/hex/archive/2009/02/20/changes-refactorings-to-the-mvc-contrib-project.aspx
 dsq_thread_id:
   - "1080047442"
 categories:

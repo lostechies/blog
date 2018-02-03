@@ -1,10 +1,10 @@
 ---
-id: 147
+wordpress_id: 147
 title: TestDriven.NET keyboard shortcut
 date: 2008-02-28T01:42:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/27/testdriven-net-keyboard-shortcut.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/27/testdriven-net-keyboard-shortcut.aspx
 dsq_thread_id:
   - "264715564"
 categories:

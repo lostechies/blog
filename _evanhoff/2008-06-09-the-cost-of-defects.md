@@ -1,10 +1,10 @@
 ---
-id: 4327
+wordpress_id: 4327
 title: The Cost of Defects
 date: 2008-06-09T14:38:00+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/06/09/the-cost-of-defects.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/06/09/the-cost-of-defects.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 134
+wordpress_id: 134
 title: ALT.NET “Mean” – How do we fix it?
 date: 2009-03-01T19:21:53+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/03/01/alt-net-mean-how-do-we-fix-it.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/03/01/alt-net-mean-how-do-we-fix-it.aspx
 dsq_thread_id:
   - "262114315"
 categories:

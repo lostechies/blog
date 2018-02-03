@@ -1,10 +1,10 @@
 ---
-id: 3581
+wordpress_id: 3581
 title: Assert.That(this, Is.Easy);
 date: 2008-01-21T15:10:00+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/01/21/assert-that-this-is-easy.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/01/21/assert-that-this-is-easy.aspx
 dsq_thread_id:
   - "262089206"
 categories:

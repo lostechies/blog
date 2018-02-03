@@ -1,10 +1,10 @@
 ---
-id: 3595
+wordpress_id: 3595
 title: VMware Fusion 2.0, Windows 2008 Workstation
 date: 2008-09-17T16:46:00+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/09/17/vmware-fusion-2-0-windows-2008-workstation.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/09/17/vmware-fusion-2-0-windows-2008-workstation.aspx
 dsq_thread_id:
   - "262089259"
 categories:

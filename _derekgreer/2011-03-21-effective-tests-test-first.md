@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: 'Effective Tests: Test First'
 date: 2011-03-21T12:43:37+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=15
+wordpress_guid: http://lostechies.com/derekgreer/?p=15
 dsq_thread_id:
   - "262469062"
 categories:

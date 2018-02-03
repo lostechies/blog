@@ -1,10 +1,10 @@
 ---
-id: 259
+wordpress_id: 259
 title: Cassandra’s “Repair” Should Be Called “Required Maintenance”
 date: 2015-09-25T11:38:37+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=259
+wordpress_guid: https://lostechies.com/ryansvihla/?p=259
 dsq_thread_id:
   - "4165347837"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 191
+wordpress_id: 191
 title: Failures of aimless large-scale refactorings
 date: 2008-06-04T02:37:31+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/06/03/failures-of-aimless-large-scale-refactorings.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/06/03/failures-of-aimless-large-scale-refactorings.aspx
 dsq_thread_id:
   - "285174268"
 categories:

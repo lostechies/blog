@@ -1,10 +1,10 @@
 ---
-id: 216
+wordpress_id: 216
 title: How To Have Bundler Load A Gem From The Vendor Folder Into A Rails 3 App
 date: 2011-02-24T03:09:12+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/02/23/how-to-have-bundler-load-a-custom-gem-into-a-rails-3-app.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/02/23/how-to-have-bundler-load-a-custom-gem-into-a-rails-3-app.aspx
 dsq_thread_id:
   - "262217226"
 categories:

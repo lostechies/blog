@@ -1,10 +1,10 @@
 ---
-id: 981
+wordpress_id: 981
 title: Mobile authentication with Xamarin.Auth and refresh tokens
 date: 2014-11-13T13:46:49+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=981
+wordpress_guid: http://lostechies.com/jimmybogard/?p=981
 dsq_thread_id:
   - "3220632017"
 categories:

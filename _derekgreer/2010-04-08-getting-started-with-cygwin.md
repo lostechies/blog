@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Getting Started With Cygwin
 date: 2010-04-08T14:49:00+00:00
 author: Derek Greer
 layout: post
-guid: /blogs/derekgreer/archive/2010/04/08/getting-started-with-cygwin.aspx
+wordpress_guid: /blogs/derekgreer/archive/2010/04/08/getting-started-with-cygwin.aspx
 dsq_thread_id:
   - "262468834"
 categories:

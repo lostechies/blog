@@ -1,10 +1,10 @@
 ---
-id: 139
+wordpress_id: 139
 title: 'Virtual ALT.NET Meeting about S#harp Architecture'
 date: 2009-04-20T05:24:01+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/04/20/virtual-alt-net-meeting-about-s-harp-architecture.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/04/20/virtual-alt-net-meeting-about-s-harp-architecture.aspx
 dsq_thread_id:
   - "262114381"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 23
+wordpress_id: 23
 title: PTOM – Brownfield development – Making your dependencies explicit
 date: 2009-05-04T21:06:58+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/05/05/ptom-brownfield-development-making-your-dependencies-explicit.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/05/05/ptom-brownfield-development-making-your-dependencies-explicit.aspx
 dsq_thread_id:
   - "264207142"
 categories:

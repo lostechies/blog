@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Example of creating scope with the using statement
 date: 2007-04-12T12:36:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/04/12/example-of-creating-scope-with-the-using-statement.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/04/12/example-of-creating-scope-with-the-using-statement.aspx
 dsq_thread_id:
   - "265431409"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 39
+wordpress_id: 39
 title: When Technical Debt leads to bankruptcy
 date: 2007-07-05T21:21:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/05/when-technical-debt-leads-to-bankruptcy.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/05/when-technical-debt-leads-to-bankruptcy.aspx
 dsq_thread_id:
   - "279440184"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4573
+wordpress_id: 4573
 title: Object Thinking
 date: 2009-02-12T15:34:06+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2009/02/12/object-thinking.aspx
+wordpress_guid: /blogs/mokhan/archive/2009/02/12/object-thinking.aspx
 categories:
   - Books
 ---

@@ -1,10 +1,10 @@
 ---
-id: 90
+wordpress_id: 90
 title: A Basic YAML Config Module For Ruby
 date: 2009-10-05T16:39:01+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/10/05/a-basic-yaml-config-module-for-ruby.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/10/05/a-basic-yaml-config-module-for-ruby.aspx
 dsq_thread_id:
   - "262068355"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 245
+wordpress_id: 245
 title: Searching for a read-only list
 date: 2008-10-30T00:09:19+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/29/searching-for-a-read-only-list.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/29/searching-for-a-read-only-list.aspx
 dsq_thread_id:
   - "421520601"
 categories:

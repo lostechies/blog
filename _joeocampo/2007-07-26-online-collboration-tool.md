@@ -1,10 +1,10 @@
 ---
-id: 37
+wordpress_id: 37
 title: Online Collaboration Tool
 date: 2007-07-26T01:51:22+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/07/25/online-collboration-tool.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/07/25/online-collboration-tool.aspx
 categories:
   - Uncategorized
 ---

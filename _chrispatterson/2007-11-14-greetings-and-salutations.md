@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: Greetings and Salutations
 date: 2007-11-14T21:48:00+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/11/14/greetings-and-salutations.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/11/14/greetings-and-salutations.aspx
 dsq_thread_id:
   - "262089146"
 categories:

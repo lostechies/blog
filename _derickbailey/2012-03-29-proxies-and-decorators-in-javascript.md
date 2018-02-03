@@ -1,10 +1,10 @@
 ---
-id: 861
+wordpress_id: 861
 title: Proxies And Decorators In JavaScript
 date: 2012-03-29T07:25:44+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=861
+wordpress_guid: http://lostechies.com/derickbailey/?p=861
 dsq_thread_id:
   - "628744845"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3380
+wordpress_id: 3380
 title: One Year of Production ASP.NET MVC
 date: 2010-03-11T04:20:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/03/10/one-year-of-production-asp-net-mvc.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/03/10/one-year-of-production-asp-net-mvc.aspx
 dsq_thread_id:
   - "262175211"
 categories:

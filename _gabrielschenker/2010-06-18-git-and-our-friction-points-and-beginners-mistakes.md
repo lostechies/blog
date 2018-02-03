@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: Git and our friction points and beginners mistakes
 date: 2010-06-18T14:11:54+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/06/18/git-and-our-friction-points-and-beginners-mistakes.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/06/18/git-and-our-friction-points-and-beginners-mistakes.aspx
 dsq_thread_id:
   - "263908936"
 categories:

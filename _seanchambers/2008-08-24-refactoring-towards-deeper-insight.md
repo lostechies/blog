@@ -1,10 +1,10 @@
 ---
-id: 3183
+wordpress_id: 3183
 title: Refactoring towards deeper insight
 date: 2008-08-24T14:03:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/08/24/refactoring-towards-deeper-insight.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/08/24/refactoring-towards-deeper-insight.aspx
 dsq_thread_id:
   - "268123845"
 categories:

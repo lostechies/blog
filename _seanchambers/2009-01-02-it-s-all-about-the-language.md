@@ -1,10 +1,10 @@
 ---
-id: 3188
+wordpress_id: 3188
 title: 'It&#8217;s all about the language'
 date: 2009-01-02T20:16:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/01/02/it-s-all-about-the-language.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/01/02/it-s-all-about-the-language.aspx
 dsq_thread_id:
   - "524956953"
 categories:

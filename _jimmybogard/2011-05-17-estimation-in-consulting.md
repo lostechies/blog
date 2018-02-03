@@ -1,10 +1,10 @@
 ---
-id: 489
+wordpress_id: 489
 title: Estimation in consulting
 date: 2011-05-17T13:16:59+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/05/17/estimation-in-consulting/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/05/17/estimation-in-consulting/
 dsq_thread_id:
   - "306024655"
 categories:

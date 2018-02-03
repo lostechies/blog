@@ -1,10 +1,10 @@
 ---
-id: 106
+wordpress_id: 106
 title: String extension methods
 date: 2007-11-26T20:54:20+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/26/string-extension-methods.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/26/string-extension-methods.aspx
 dsq_thread_id:
   - "264715447"
 categories:

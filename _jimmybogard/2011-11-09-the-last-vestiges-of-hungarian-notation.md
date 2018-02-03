@@ -1,10 +1,10 @@
 ---
-id: 546
+wordpress_id: 546
 title: The last vestiges of Hungarian notation
 date: 2011-11-09T14:35:50+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/11/09/the-last-vestiges-of-hungarian-notation/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/11/09/the-last-vestiges-of-hungarian-notation/
 dsq_thread_id:
   - "466328208"
 categories:

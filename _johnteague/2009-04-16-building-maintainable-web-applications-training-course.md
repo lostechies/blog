@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: Building Maintainable Web Applications Training Course
 date: 2009-04-16T03:54:42+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/04/15/building-maintainable-web-applications-training-course.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/04/15/building-maintainable-web-applications-training-course.aspx
 dsq_thread_id:
   - "274819859"
 categories:

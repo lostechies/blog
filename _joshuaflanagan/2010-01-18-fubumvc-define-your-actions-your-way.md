@@ -1,10 +1,10 @@
 ---
-id: 3955
+wordpress_id: 3955
 title: FubuMVC – Define your actions your way
 date: 2010-01-18T19:41:14+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/01/18/fubumvc-define-your-actions-your-way.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/01/18/fubumvc-define-your-actions-your-way.aspx
 dsq_thread_id:
   - "262113193"
 categories:

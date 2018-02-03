@@ -1,10 +1,10 @@
 ---
-id: 564
+wordpress_id: 564
 title: Is ThreadStatic a leaky abstraction?
 date: 2011-12-07T14:54:20+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/12/07/is-threadstatic-a-leaky-abstraction/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/12/07/is-threadstatic-a-leaky-abstraction/
 dsq_thread_id:
   - "496497895"
 categories:

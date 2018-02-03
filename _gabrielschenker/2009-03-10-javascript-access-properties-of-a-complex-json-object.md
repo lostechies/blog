@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: 'Java script: access properties of a complex JSON object'
 date: 2009-03-10T06:56:31+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/03/10/javascript-access-properties-of-a-complex-json-object.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/03/10/javascript-access-properties-of-a-complex-json-object.aspx
 dsq_thread_id:
   - "264253932"
 categories:

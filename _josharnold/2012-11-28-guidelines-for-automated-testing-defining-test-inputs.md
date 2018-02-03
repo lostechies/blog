@@ -1,10 +1,10 @@
 ---
-id: 230
+wordpress_id: 230
 title: 'Guidelines for Automated Testing: Defining Test Inputs'
 date: 2012-11-28T16:45:40+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=230
+wordpress_guid: http://lostechies.com/josharnold/?p=230
 dsq_thread_id:
   - "947465685"
 categories:

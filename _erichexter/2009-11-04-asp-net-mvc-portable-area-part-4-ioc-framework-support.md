@@ -1,10 +1,10 @@
 ---
-id: 2999
+wordpress_id: 2999
 title: ASP.Net MVC Portable Area – Part 4 IoC framework support.
 date: 2009-11-04T05:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/11/04/asp-net-mvc-portable-area-part-4-ioc-framework-support.aspx
+wordpress_guid: /blogs/hex/archive/2009/11/04/asp-net-mvc-portable-area-part-4-ioc-framework-support.aspx
 dsq_thread_id:
   - "262051974"
 categories:

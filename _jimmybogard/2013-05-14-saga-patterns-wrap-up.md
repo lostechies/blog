@@ -1,10 +1,10 @@
 ---
-id: 778
+wordpress_id: 778
 title: 'Saga patterns: wrap up'
 date: 2013-05-14T14:08:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=778
+wordpress_guid: http://lostechies.com/jimmybogard/?p=778
 dsq_thread_id:
   - "1287829077"
 categories:

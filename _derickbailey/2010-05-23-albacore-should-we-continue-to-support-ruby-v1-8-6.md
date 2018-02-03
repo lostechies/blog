@@ -1,10 +1,10 @@
 ---
-id: 160
+wordpress_id: 160
 title: 'Albacore: Should We Continue To Support Ruby v1.8.6?'
 date: 2010-05-23T19:08:44+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/23/albacore-should-we-continue-to-support-ruby-v1-8-6.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/23/albacore-should-we-continue-to-support-ruby-v1-8-6.aspx
 dsq_thread_id:
   - "270051558"
 categories:

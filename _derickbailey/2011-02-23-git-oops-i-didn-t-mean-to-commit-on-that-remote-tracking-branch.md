@@ -1,10 +1,10 @@
 ---
-id: 214
+wordpress_id: 214
 title: 'Git: Oops! I didn&#8217;t mean to commit on that remote tracking branch!'
 date: 2011-02-23T16:44:39+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/02/23/git-oops-i-didn-t-mean-to-commit-on-that-remote-tracking-branch.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/02/23/git-oops-i-didn-t-mean-to-commit-on-that-remote-tracking-branch.aspx
 dsq_thread_id:
   - "262064342"
 categories:

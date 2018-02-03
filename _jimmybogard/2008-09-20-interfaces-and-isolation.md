@@ -1,10 +1,10 @@
 ---
-id: 231
+wordpress_id: 231
 title: Interfaces and isolation
 date: 2008-09-20T20:29:02+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/09/20/interfaces-and-isolation.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/09/20/interfaces-and-isolation.aspx
 dsq_thread_id:
   - "264715915"
 categories:

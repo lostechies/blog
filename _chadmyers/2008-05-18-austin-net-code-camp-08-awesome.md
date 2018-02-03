@@ -1,10 +1,10 @@
 ---
-id: 50
+wordpress_id: 50
 title: 'Austin .NET Code Camp &#8217;08 == Awesome'
 date: 2008-05-18T14:50:44+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/05/18/austin-net-code-camp-08-awesome.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/05/18/austin-net-code-camp-08-awesome.aspx
 dsq_thread_id:
   - "263006961"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 357
+wordpress_id: 357
 title: An AutoMapper success story
 date: 2009-10-08T16:38:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/10/08/an-automapper-success-story.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/10/08/an-automapper-success-story.aspx
 dsq_thread_id:
   - "264716325"
 categories:

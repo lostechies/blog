@@ -1,10 +1,10 @@
 ---
-id: 68
+wordpress_id: 68
 title: 'Git/Branch-Per-Feature &#8211; Composable Deployments/Releases?'
 date: 2010-03-09T05:27:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2010/03/09/git-branch-per-feature-composable-deployments-releases.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2010/03/09/git-branch-per-feature-composable-deployments-releases.aspx
 categories:
   - git branch-per-feature
 ---

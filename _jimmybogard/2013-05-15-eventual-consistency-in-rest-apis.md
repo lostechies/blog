@@ -1,10 +1,10 @@
 ---
-id: 780
+wordpress_id: 780
 title: Eventual consistency in REST APIs
 date: 2013-05-15T19:57:08+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=780
+wordpress_guid: http://lostechies.com/jimmybogard/?p=780
 dsq_thread_id:
   - "1290920616"
 categories:

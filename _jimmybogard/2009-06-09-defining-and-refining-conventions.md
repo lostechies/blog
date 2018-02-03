@@ -1,10 +1,10 @@
 ---
-id: 322
+wordpress_id: 322
 title: Defining and refining conventions
 date: 2009-06-09T13:35:34+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/06/09/defining-and-refining-conventions.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/06/09/defining-and-refining-conventions.aspx
 dsq_thread_id:
   - "265260169"
 categories:

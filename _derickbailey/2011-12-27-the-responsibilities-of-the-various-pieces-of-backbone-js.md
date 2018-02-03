@@ -1,10 +1,10 @@
 ---
-id: 743
+wordpress_id: 743
 title: The Responsibilities Of The Various Pieces Of Backbone.js
 date: 2011-12-27T08:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=743
+wordpress_guid: http://lostechies.com/derickbailey/?p=743
 dsq_thread_id:
   - "517728531"
 categories:

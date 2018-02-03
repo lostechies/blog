@@ -1,10 +1,10 @@
 ---
-id: 25
+wordpress_id: 25
 title: Fluent Silverlight – Part 2 – Binding Properties
 date: 2009-06-01T21:22:26+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/06/02/fluent-silverlight-part-2-binding-properties.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/06/02/fluent-silverlight-part-2-binding-properties.aspx
 dsq_thread_id:
   - "263908891"
 categories:

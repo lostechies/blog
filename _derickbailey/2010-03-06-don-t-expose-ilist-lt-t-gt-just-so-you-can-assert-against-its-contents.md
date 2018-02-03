@@ -1,10 +1,10 @@
 ---
-id: 110
+wordpress_id: 110
 title: 'Don’t Expose IList<T> Just So You Can Assert Against Its Contents'
 date: 2010-03-06T17:05:17+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/06/don-t-expose-ilist-lt-t-gt-just-so-you-can-assert-against-its-contents.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/06/don-t-expose-ilist-lt-t-gt-just-so-you-can-assert-against-its-contents.aspx
 dsq_thread_id:
   - "262068465"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 240
+wordpress_id: 240
 title: Cool Stuff in FubuCore and FubuMVC Series
 date: 2011-05-30T14:03:20+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=240
+wordpress_guid: http://lostechies.com/chadmyers/?p=240
 dsq_thread_id:
   - "317853728"
 categories:

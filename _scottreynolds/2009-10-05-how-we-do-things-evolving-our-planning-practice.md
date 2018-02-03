@@ -1,10 +1,10 @@
 ---
-id: 4050
+wordpress_id: 4050
 title: 'How We Do Things &#8211; Evolving our Planning Practice'
 date: 2009-10-05T14:34:32+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/10/05/how-we-do-things-evolving-our-planning-practice.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/10/05/how-we-do-things-evolving-our-planning-practice.aspx
 categories:
   - how we do it
   - lean

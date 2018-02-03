@@ -1,10 +1,10 @@
 ---
-id: 72
+wordpress_id: 72
 title: 'StructureMap: Medium-level Usage Scenarios'
 date: 2008-07-17T16:50:25+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/07/17/structuremap-medium-level-usage-scenarios.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/07/17/structuremap-medium-level-usage-scenarios.aspx
 dsq_thread_id:
   - "262113935"
 categories:

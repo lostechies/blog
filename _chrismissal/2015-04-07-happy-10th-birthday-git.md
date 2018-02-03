@@ -1,10 +1,10 @@
 ---
-id: 468
+wordpress_id: 468
 title: Happy 10th Birthday Git!
 date: 2015-04-07T17:58:50+00:00
 author: Chris Missal
 layout: post
-guid: https://lostechies.com/chrismissal/?p=468
+wordpress_guid: https://lostechies.com/chrismissal/?p=468
 dsq_thread_id:
   - "3663246268"
 categories:

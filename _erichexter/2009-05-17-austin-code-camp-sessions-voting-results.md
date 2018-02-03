@@ -1,10 +1,10 @@
 ---
-id: 2970
+wordpress_id: 2970
 title: Austin Code Camp Sessions Voting Results
 date: 2009-05-17T02:59:50+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/05/16/austin-code-camp-sessions-voting-results.aspx
+wordpress_guid: /blogs/hex/archive/2009/05/16/austin-code-camp-sessions-voting-results.aspx
 dsq_thread_id:
   - "274389898"
 categories:

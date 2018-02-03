@@ -1,10 +1,10 @@
 ---
-id: 4027
+wordpress_id: 4027
 title: Ocala-Central Florida Geek Pub Night 9/17
 date: 2008-09-04T22:43:24+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2008/09/04/ocala-central-florida-geek-pub-night-9-17.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2008/09/04/ocala-central-florida-geek-pub-night-9-17.aspx
 categories:
   - Community
 ---

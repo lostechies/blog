@@ -1,10 +1,10 @@
 ---
-id: 4529
+wordpress_id: 4529
 title: Nailing Down Generics
 date: 2013-12-13T14:27:31+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=145
+wordpress_guid: http://lostechies.com/patricklioi/?p=145
 dsq_thread_id:
   - "2048149747"
 categories:

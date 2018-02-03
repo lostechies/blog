@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: Consistency in user interface behavior
 date: 2007-05-07T13:39:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/07/consistency-in-user-interface-behavior.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/07/consistency-in-user-interface-behavior.aspx
 dsq_thread_id:
   - "439586202"
 categories:

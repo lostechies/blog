@@ -1,10 +1,10 @@
 ---
-id: 645
+wordpress_id: 645
 title: JavaScript Closures Explained
 date: 2012-02-17T03:40:29+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=645
+wordpress_guid: http://lostechies.com/derekgreer/?p=645
 dsq_thread_id:
   - "579172872"
 categories:

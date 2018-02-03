@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: '<kill processName="peskyLittleProcess" />'
 date: 2007-06-12T00:42:30+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/06/11/lt-kill-processname-quot-peskylittleprocess-quot-gt.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/06/11/lt-kill-processname-quot-peskylittleprocess-quot-gt.aspx
 categories:
   - BUILD
   - NAnt

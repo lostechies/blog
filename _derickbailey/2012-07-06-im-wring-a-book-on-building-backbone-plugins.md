@@ -1,10 +1,10 @@
 ---
-id: 956
+wordpress_id: 956
 title: 'I&#8217;m Wring A Book On Building Backbone Plugins'
 date: 2012-07-06T18:17:06+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=956
+wordpress_guid: http://lostechies.com/derickbailey/?p=956
 dsq_thread_id:
   - "754399128"
 categories:

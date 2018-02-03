@@ -1,10 +1,10 @@
 ---
-id: 105
+wordpress_id: 105
 title: 'The post you don&#8217;t want to read on the topic I don&#8217;t want to write about'
 date: 2012-05-10T12:55:15+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=105
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=105
 dsq_thread_id:
   - "684458187"
 categories:

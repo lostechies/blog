@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: 'Unobtrusive JavaScript Part 2 &#8212; Separating Content, Style and Behavior'
 date: 2008-11-03T14:39:44+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/11/03/unobtrusive-javascript-part-2-separating-content-style-and-behavior.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/11/03/unobtrusive-javascript-part-2-separating-content-style-and-behavior.aspx
 dsq_thread_id:
   - "262055564"
 categories:

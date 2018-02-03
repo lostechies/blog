@@ -1,10 +1,10 @@
 ---
-id: 4572
+wordpress_id: 4572
 title: Shortening The Feedback Loop
 date: 2008-12-10T13:18:30+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/12/10/shortening-the-feedback-loop.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/12/10/shortening-the-feedback-loop.aspx
 categories:
   - Teamwork
 ---

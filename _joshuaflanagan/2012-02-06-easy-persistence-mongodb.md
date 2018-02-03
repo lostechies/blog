@@ -1,10 +1,10 @@
 ---
-id: 75
+wordpress_id: 75
 title: 'Powerfully simple persistence: MongoDB'
 date: 2012-02-06T10:15:00+00:00
 author: Joshua Flanagan
 layout: post
-guid: http://lostechies.com/joshuaflanagan/2012/02/06/easy-persistence-mongodb/
+wordpress_guid: http://lostechies.com/joshuaflanagan/2012/02/06/easy-persistence-mongodb/
 dsq_thread_id:
   - "566460256"
 categories:

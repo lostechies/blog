@@ -1,10 +1,10 @@
 ---
-id: 143
+wordpress_id: 143
 title: 'Partial Book Review: Beautiful Teams.'
 date: 2010-04-20T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/20/partial-book-review-beautiful-teams.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/20/partial-book-review-beautiful-teams.aspx
 dsq_thread_id:
   - "262068611"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3225
+wordpress_id: 3225
 title: 'Refactoring Day 31 : Replace conditional with Polymorphism'
 date: 2009-08-28T16:38:46+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/28/refactoring-day-31-replace-conditional-with-polymorphism.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/28/refactoring-day-31-replace-conditional-with-polymorphism.aspx
 dsq_thread_id:
   - "262356903"
 categories:

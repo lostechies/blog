@@ -1,10 +1,10 @@
 ---
-id: 3013
+wordpress_id: 3013
 title: Using Mercurial as a local repository for Team Foundation Server / Start Front’N
 date: 2010-06-23T03:01:22+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/06/22/using-mercurial-as-a-local-repository-for-team-foundation-server-start-front-n.aspx
+wordpress_guid: /blogs/hex/archive/2010/06/22/using-mercurial-as-a-local-repository-for-team-foundation-server-start-front-n.aspx
 dsq_thread_id:
   - "262151500"
 categories:

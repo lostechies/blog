@@ -1,10 +1,10 @@
 ---
-id: 922
+wordpress_id: 922
 title: 'Conventional HTML in ASP.NET MVC: Data-bound elements'
 date: 2014-07-23T17:03:13+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=922
+wordpress_guid: http://lostechies.com/jimmybogard/?p=922
 dsq_thread_id:
   - "2867434454"
 categories:

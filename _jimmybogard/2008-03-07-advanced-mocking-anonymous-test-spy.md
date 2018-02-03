@@ -1,10 +1,10 @@
 ---
-id: 153
+wordpress_id: 153
 title: 'Advanced mocking: anonymous test spy'
 date: 2008-03-07T03:43:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/06/advanced-mocking-anonymous-test-spy.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/06/advanced-mocking-anonymous-test-spy.aspx
 dsq_thread_id:
   - "264715589"
 categories:

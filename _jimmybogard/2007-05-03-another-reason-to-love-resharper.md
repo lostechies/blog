@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: Another reason to love ReSharper
 date: 2007-05-03T13:34:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/03/another-reason-to-love-resharper.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/03/another-reason-to-love-resharper.aspx
 dsq_thread_id:
   - "301825537"
 categories:

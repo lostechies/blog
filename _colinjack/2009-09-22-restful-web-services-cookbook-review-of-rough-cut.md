@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: 'RESTful Web Services Cookbook &#8211; Review of Rough Cut'
 date: 2009-09-22T21:05:51+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/09/22/restful-web-services-cookbook-review-of-rough-cut.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/09/22/restful-web-services-cookbook-review-of-rough-cut.aspx
 categories:
   - Books
   - REST

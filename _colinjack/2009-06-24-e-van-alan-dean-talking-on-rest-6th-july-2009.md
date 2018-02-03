@@ -1,10 +1,10 @@
 ---
-id: 4651
+wordpress_id: 4651
 title: 'E-VAN &#8211; Alan Dean talking on REST (6th July 2009)'
 date: 2009-06-24T19:10:45+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/06/24/e-van-alan-dean-talking-on-rest-6th-july-2009.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/06/24/e-van-alan-dean-talking-on-rest-6th-july-2009.aspx
 categories:
   - ALT.NET
   - E-VAN

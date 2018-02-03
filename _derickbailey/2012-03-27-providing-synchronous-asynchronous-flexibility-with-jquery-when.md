@@ -1,10 +1,10 @@
 ---
-id: 857
+wordpress_id: 857
 title: Providing Synchronous / Asynchronous Flexibility With jQuery.when
 date: 2012-03-27T06:56:27+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=857
+wordpress_guid: http://lostechies.com/derickbailey/?p=857
 dsq_thread_id:
   - "625826252"
 categories:

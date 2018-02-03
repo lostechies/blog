@@ -1,10 +1,10 @@
 ---
-id: 391
+wordpress_id: 391
 title: 'Strengthening your domain: Aggregate Construction'
 date: 2010-02-24T04:12:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx
 dsq_thread_id:
   - "264716415"
 categories:

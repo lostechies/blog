@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: Learning and understanding
 date: 2009-02-05T20:48:48+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/02/05/learning-and-understanding.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/02/05/learning-and-understanding.aspx
 dsq_thread_id:
   - "263908813"
 categories:

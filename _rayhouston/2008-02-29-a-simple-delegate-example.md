@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: A Simple Delegate Example
 date: 2008-02-29T03:32:21+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/02/28/a-simple-delegate-example.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/02/28/a-simple-delegate-example.aspx
 categories:
   - Uncategorized
 ---

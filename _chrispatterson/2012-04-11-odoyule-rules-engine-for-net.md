@@ -1,10 +1,10 @@
 ---
-id: 3617
+wordpress_id: 3617
 title: Odoyule Rules Engine for .NET
 date: 2012-04-11T11:16:16+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=85
+wordpress_guid: http://lostechies.com/chrispatterson/?p=85
 dsq_thread_id:
   - "645220984"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 257
+wordpress_id: 257
 title: 'ripple: Fubu-inspired dependency management'
 date: 2013-05-20T15:47:33+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=257
+wordpress_guid: http://lostechies.com/josharnold/?p=257
 dsq_thread_id:
   - "1301709407"
 categories:

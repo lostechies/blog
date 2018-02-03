@@ -1,10 +1,10 @@
 ---
-id: 159
+wordpress_id: 159
 title: 'Ninject.RhinoMocks: Auto Mocking Container For .NET 3.5 and Compact Framework 3.5'
 date: 2010-05-21T21:49:23+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/21/ninject-rhinomocks-auto-mocking-container-for-net-3-5-and-compact-framework-3-5.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/21/ninject-rhinomocks-auto-mocking-container-for-net-3-5-and-compact-framework-3-5.aspx
 dsq_thread_id:
   - "262980730"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 62
+wordpress_id: 62
 title: 'I&#8217;m not a real world developer'
 date: 2008-06-26T11:44:04+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/26/i-m-not-a-real-world-developer.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/26/i-m-not-a-real-world-developer.aspx
 dsq_thread_id:
   - "262113876"
 categories:

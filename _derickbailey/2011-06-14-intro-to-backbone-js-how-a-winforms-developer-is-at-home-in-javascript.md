@@ -1,10 +1,10 @@
 ---
-id: 417
+wordpress_id: 417
 title: 'Intro To Backbone.js: How A Winforms Developer is At Home In Javascript'
 date: 2011-06-14T23:10:35+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=417
+wordpress_guid: http://lostechies.com/derickbailey/?p=417
 dsq_thread_id:
   - "332620677"
 categories:

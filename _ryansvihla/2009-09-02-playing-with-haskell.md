@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: Playing With Haskell
 date: 2009-09-02T03:53:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/09/01/playing-with-haskell.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/09/01/playing-with-haskell.aspx
 dsq_thread_id:
   - "1135229049"
 categories:

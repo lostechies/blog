@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: 'True Swiss don&#8217;t like mocks!'
 date: 2009-01-29T08:02:59+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/01/29/true-swiss-don-t-like-mocks.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/01/29/true-swiss-don-t-like-mocks.aspx
 dsq_thread_id:
   - "263908838"
 categories:

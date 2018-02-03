@@ -1,10 +1,10 @@
 ---
-id: 3175
+wordpress_id: 3175
 title: ReSharper 4.0 Release Candidate available
 date: 2008-06-05T11:38:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/06/05/resharper-4-0-release-candidate-available.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/06/05/resharper-4-0-release-candidate-available.aspx
 dsq_thread_id:
   - "268123806"
 categories:

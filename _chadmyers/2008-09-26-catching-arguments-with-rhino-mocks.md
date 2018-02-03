@@ -1,10 +1,10 @@
 ---
-id: 91
+wordpress_id: 91
 title: Catching Arguments with Rhino Mocks
 date: 2008-09-26T01:29:28+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/09/25/catching-arguments-with-rhino-mocks.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/09/25/catching-arguments-with-rhino-mocks.aspx
 dsq_thread_id:
   - "262114103"
 categories:

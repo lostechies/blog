@@ -1,10 +1,10 @@
 ---
-id: 381
+wordpress_id: 381
 title: 'Advanced StructureMap: custom registration conventions for partially closed types'
 date: 2010-01-07T16:59:23+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/01/07/advanced-structuremap-custom-registration-conventions-for-partially-closed-types.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/01/07/advanced-structuremap-custom-registration-conventions-for-partially-closed-types.aspx
 dsq_thread_id:
   - "264995067"
 categories:

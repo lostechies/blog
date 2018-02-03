@@ -1,10 +1,10 @@
 ---
-id: 624
+wordpress_id: 624
 title: Rebuilding My Backbone.js Plugins With Modules, SRP and More
 date: 2011-10-25T14:27:39+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=624
+wordpress_guid: http://lostechies.com/derickbailey/?p=624
 dsq_thread_id:
   - "453082764"
 categories:

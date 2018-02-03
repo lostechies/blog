@@ -1,10 +1,10 @@
 ---
-id: 134
+wordpress_id: 134
 title: WatiN and INamingContainer adventures
 date: 2008-01-23T20:16:02+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/23/watin-and-inamingcontainer-adventures.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/23/watin-and-inamingcontainer-adventures.aspx
 dsq_thread_id:
   - "264927116"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 647
+wordpress_id: 647
 title: Troubleshooting SQL index performance on varchar columns
 date: 2012-07-18T13:02:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/07/18/troubleshooting-sql-index-performance-on-varchar-columns/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/07/18/troubleshooting-sql-index-performance-on-varchar-columns/
 dsq_thread_id:
   - "770424574"
 categories:

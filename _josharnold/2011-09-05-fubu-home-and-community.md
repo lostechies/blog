@@ -1,10 +1,10 @@
 ---
-id: 106
+wordpress_id: 106
 title: Fubu, Home, and Community
 date: 2011-09-05T06:57:40+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=106
+wordpress_guid: http://lostechies.com/josharnold/?p=106
 dsq_thread_id:
   - "405006704"
 categories:

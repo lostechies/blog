@@ -1,10 +1,10 @@
 ---
-id: 327
+wordpress_id: 327
 title: The Filter-ViewData anti-pattern
 date: 2009-06-19T03:08:30+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/06/18/the-filter-viewdata-anti-pattern.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/06/18/the-filter-viewdata-anti-pattern.aspx
 dsq_thread_id:
   - "264716197"
 categories:

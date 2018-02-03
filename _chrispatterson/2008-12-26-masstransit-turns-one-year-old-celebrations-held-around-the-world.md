@@ -1,10 +1,10 @@
 ---
-id: 3607
+wordpress_id: 3607
 title: MassTransit Turns One Year Old, Celebrations Held Around the World
 date: 2008-12-26T16:20:06+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/12/26/masstransit-turns-one-year-old-celebrations-held-around-the-world.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/12/26/masstransit-turns-one-year-old-celebrations-held-around-the-world.aspx
 dsq_thread_id:
   - "279708234"
 categories:

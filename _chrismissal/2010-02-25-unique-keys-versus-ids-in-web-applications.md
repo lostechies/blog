@@ -1,10 +1,10 @@
 ---
-id: 3377
+wordpress_id: 3377
 title: Unique Keys versus IDs in Web Applications
 date: 2010-02-25T04:08:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/02/24/unique-keys-versus-ids-in-web-applications.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/02/24/unique-keys-versus-ids-in-web-applications.aspx
 dsq_thread_id:
   - "262175094"
 categories:

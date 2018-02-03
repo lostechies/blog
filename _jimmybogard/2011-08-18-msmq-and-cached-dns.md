@@ -1,10 +1,10 @@
 ---
-id: 511
+wordpress_id: 511
 title: MSMQ and cached DNS
 date: 2011-08-18T12:19:54+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/08/18/msmq-and-cached-dns/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/08/18/msmq-and-cached-dns/
 dsq_thread_id:
   - "389560790"
 categories:

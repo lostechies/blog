@@ -1,10 +1,10 @@
 ---
-id: 316
+wordpress_id: 316
 title: Podcast on AutoMapper live
 date: 2009-05-21T12:32:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/05/21/podcast-on-automapper-live.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/05/21/podcast-on-automapper-live.aspx
 dsq_thread_id:
   - "264716176"
 categories:

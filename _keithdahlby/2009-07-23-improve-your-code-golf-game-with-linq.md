@@ -1,10 +1,10 @@
 ---
-id: 4189
+wordpress_id: 4189
 title: Improve Your Code Golf Game with LINQ
 date: 2009-07-23T04:47:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/07/23/improve-your-code-golf-game-with-linq.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/07/23/improve-your-code-golf-game-with-linq.aspx
 dsq_thread_id:
   - "265590899"
 categories:

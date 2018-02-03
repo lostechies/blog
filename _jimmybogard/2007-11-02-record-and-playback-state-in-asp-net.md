@@ -1,10 +1,10 @@
 ---
-id: 92
+wordpress_id: 92
 title: Record and playback state in ASP.NET
 date: 2007-11-02T19:01:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/02/record-and-playback-state-in-asp-net.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/02/record-and-playback-state-in-asp-net.aspx
 dsq_thread_id:
   - "264715402"
 categories:

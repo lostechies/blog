@@ -1,10 +1,10 @@
 ---
-id: 36
+wordpress_id: 36
 title: Newbie Win32 Development Using Python
 date: 2010-01-16T04:35:33+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/01/15/newbie-win32-development-using-python.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/01/15/newbie-win32-development-using-python.aspx
 dsq_thread_id:
   - "1075599217"
 categories:

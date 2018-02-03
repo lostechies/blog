@@ -1,10 +1,10 @@
 ---
-id: 246
+wordpress_id: 246
 title: Continuous Integration Tip of the Day
 date: 2008-11-05T02:46:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/04/continuous-integration-tip-of-the-day.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/04/continuous-integration-tip-of-the-day.aspx
 dsq_thread_id:
   - "264715951"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 53
+wordpress_id: 53
 title: 'Pending scenarios in Behave#'
 date: 2007-08-17T13:43:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/17/pending-scenarios-in-behave.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/17/pending-scenarios-in-behave.aspx
 dsq_thread_id:
   - "317229731"
 categories:

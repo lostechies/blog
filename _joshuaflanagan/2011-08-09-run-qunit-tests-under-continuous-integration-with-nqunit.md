@@ -1,10 +1,10 @@
 ---
-id: 57
+wordpress_id: 57
 title: Run QUnit tests under Continuous Integration with NQUnit
 date: 2011-08-09T16:20:05+00:00
 author: Joshua Flanagan
 layout: post
-guid: http://lostechies.com/joshuaflanagan/2011/08/09/run-qunit-tests-under-continuous-integration-with-nqunit/
+wordpress_guid: http://lostechies.com/joshuaflanagan/2011/08/09/run-qunit-tests-under-continuous-integration-with-nqunit/
 dsq_thread_id:
   - "381632599"
 categories:

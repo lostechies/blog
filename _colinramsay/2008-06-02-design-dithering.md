@@ -1,10 +1,10 @@
 ---
-id: 4686
+wordpress_id: 4686
 title: Design Dithering
 date: 2008-06-02T18:40:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2008/06/02/design-dithering.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2008/06/02/design-dithering.aspx
 categories:
   - practices pragmatism
 ---

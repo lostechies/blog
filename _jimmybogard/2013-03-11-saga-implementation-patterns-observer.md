@@ -1,10 +1,10 @@
 ---
-id: 739
+wordpress_id: 739
 title: Saga implementation patterns – Observer
 date: 2013-03-11T14:25:22+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=739
+wordpress_guid: http://lostechies.com/jimmybogard/?p=739
 dsq_thread_id:
   - "1130538582"
 categories:

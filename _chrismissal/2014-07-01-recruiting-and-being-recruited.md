@@ -1,10 +1,10 @@
 ---
-id: 450
+wordpress_id: 450
 title: Recruiting and Being Recruited
 date: 2014-07-01T19:33:22+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=450
+wordpress_guid: http://lostechies.com/chrismissal/?p=450
 dsq_thread_id:
   - "2810841009"
 categories:

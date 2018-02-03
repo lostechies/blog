@@ -1,10 +1,10 @@
 ---
-id: 3966
+wordpress_id: 3966
 title: View files on GitHub from Visual Studio
 date: 2010-10-07T02:31:31+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/10/06/view-files-on-github-from-visual-studio.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/10/06/view-files-on-github-from-visual-studio.aspx
 dsq_thread_id:
   - "262113241"
 categories:

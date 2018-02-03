@@ -1,10 +1,10 @@
 ---
-id: 111
+wordpress_id: 111
 title: 'PTOM: OCP revisited in Ruby'
 date: 2008-03-31T02:54:43+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/03/30/ptom-ocp-revisited-in-ruby.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/03/30/ptom-ocp-revisited-in-ruby.aspx
 dsq_thread_id:
   - "262089696"
 categories:

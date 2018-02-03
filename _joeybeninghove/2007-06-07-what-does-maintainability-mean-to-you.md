@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: What does maintainability mean to you?
 date: 2007-06-07T17:49:53+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/06/07/what-does-maintainability-mean-to-you.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/06/07/what-does-maintainability-mean-to-you.aspx
 categories:
   - Patterns
   - TDD

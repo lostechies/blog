@@ -1,10 +1,10 @@
 ---
-id: 4850
+wordpress_id: 4850
 title: selenium-rspec-dsl available on RubyGems.org and GitHub
 date: 2010-04-17T19:18:00+00:00
 author: Scott Gillenwater
 layout: post
-guid: /blogs/stgillen/archive/2010/04/17/selenium-rspec-dsl-available-on-rubygems-org-and-github.aspx
+wordpress_guid: /blogs/stgillen/archive/2010/04/17/selenium-rspec-dsl-available-on-rubygems-org-and-github.aspx
 categories:
   - automate
   - automation

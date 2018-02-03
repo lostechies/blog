@@ -1,10 +1,10 @@
 ---
-id: 383
+wordpress_id: 383
 title: Starting fresh
 date: 2010-01-18T15:12:51+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/01/18/starting-fresh.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/01/18/starting-fresh.aspx
 dsq_thread_id:
   - "264716397"
 categories:

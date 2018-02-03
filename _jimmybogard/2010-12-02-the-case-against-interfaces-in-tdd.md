@@ -1,10 +1,10 @@
 ---
-id: 442
+wordpress_id: 442
 title: The case against Interfaces in TDD
 date: 2010-12-02T13:38:50+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/12/02/the-case-against-interfaces-in-tdd.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/12/02/the-case-against-interfaces-in-tdd.aspx
 dsq_thread_id:
   - "264716627"
 categories:

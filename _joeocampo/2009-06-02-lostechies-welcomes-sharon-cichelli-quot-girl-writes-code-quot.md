@@ -1,10 +1,10 @@
 ---
-id: 124
+wordpress_id: 124
 title: 'LosTechies welcomes Sharon Cichelli &#8220;Girl Writes Code&#8221;'
 date: 2009-06-02T04:39:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2009/06/02/lostechies-welcomes-sharon-cichelli-quot-girl-writes-code-quot.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2009/06/02/lostechies-welcomes-sharon-cichelli-quot-girl-writes-code-quot.aspx
 dsq_thread_id:
   - "262090422"
 categories:

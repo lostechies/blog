@@ -1,10 +1,10 @@
 ---
-id: 163
+wordpress_id: 163
 title: Improve your LINQ with .Any()
 date: 2012-02-21T15:31:39+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=163
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=163
 dsq_thread_id:
   - "1002054102"
 categories:

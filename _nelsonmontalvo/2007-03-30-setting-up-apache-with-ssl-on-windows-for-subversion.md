@@ -1,10 +1,10 @@
 ---
-id: 4732
+wordpress_id: 4732
 title: Setting up Apache with SSL on Windows (for Subversion)
 date: 2007-03-30T16:34:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/03/30/setting-up-apache-with-ssl-on-windows-for-subversion.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/setting-up-apache-with-ssl-on-windows-for-subversion.aspx
 categories:
   - NHibernate
 ---

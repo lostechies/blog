@@ -1,10 +1,10 @@
 ---
-id: 96
+wordpress_id: 96
 title: Understanding The Application Controller Through Object Messaging Patterns
 date: 2009-12-23T03:06:01+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx
 dsq_thread_id:
   - "262068407"
 categories:

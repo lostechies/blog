@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: Open Source Hackathon at Pablo’s Fiesta
 date: 2011-06-30T13:51:16+00:00
 author: Steve Donie
 layout: post
-guid: http://lostechies.com/stevedonie/2011/06/30/open-source-hackathon-at-pablos-fiesta/
+wordpress_guid: http://lostechies.com/stevedonie/2011/06/30/open-source-hackathon-at-pablos-fiesta/
 dsq_thread_id:
   - "346491123"
 categories:

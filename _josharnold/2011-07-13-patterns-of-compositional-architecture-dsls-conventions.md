@@ -1,10 +1,10 @@
 ---
-id: 46
+wordpress_id: 46
 title: 'Patterns of Compositional Architecture: DSLs &#8211; Conventions'
 date: 2011-07-13T06:08:10+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=46
+wordpress_guid: http://lostechies.com/josharnold/?p=46
 dsq_thread_id:
   - "356963467"
 categories:

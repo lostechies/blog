@@ -1,10 +1,10 @@
 ---
-id: 166
+wordpress_id: 166
 title: A quick primer on .NET web frameworks
 date: 2010-08-25T16:21:33+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2010/08/25/a-quick-primer-on-net-web-frameworks.aspx
+wordpress_guid: /blogs/chad_myers/archive/2010/08/25/a-quick-primer-on-net-web-frameworks.aspx
 dsq_thread_id:
   - "262933570"
 categories:

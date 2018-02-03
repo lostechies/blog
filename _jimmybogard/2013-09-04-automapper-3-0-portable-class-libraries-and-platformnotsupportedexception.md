@@ -1,10 +1,10 @@
 ---
-id: 816
+wordpress_id: 816
 title: AutoMapper 3.0, Portable Class Libraries and PlatformNotSupportedException
 date: 2013-09-04T16:26:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=816
+wordpress_guid: http://lostechies.com/jimmybogard/?p=816
 dsq_thread_id:
   - "1710242241"
 categories:

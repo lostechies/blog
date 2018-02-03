@@ -1,10 +1,10 @@
 ---
-id: 204
+wordpress_id: 204
 title: A Semi-Intelligent Watchr Script For Rails And RSpec
 date: 2010-12-15T19:05:13+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/12/15/a-semi-intelligent-watchr-script-for-rails-and-rspec.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/12/15/a-semi-intelligent-watchr-script-for-rails-and-rspec.aspx
 dsq_thread_id:
   - "262078644"
 categories:

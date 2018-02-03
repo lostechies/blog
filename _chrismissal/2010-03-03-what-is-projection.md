@@ -1,10 +1,10 @@
 ---
-id: 3378
+wordpress_id: 3378
 title: What is Projection?
 date: 2010-03-03T07:22:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/03/03/what-is-projection.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/03/03/what-is-projection.aspx
 dsq_thread_id:
   - "262175142"
 categories:

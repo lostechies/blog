@@ -1,10 +1,10 @@
 ---
-id: 70
+wordpress_id: 70
 title: Why Argue About Words?
 date: 2007-10-06T21:32:41+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=70
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=70
 dsq_thread_id:
   - "547230135"
 categories:

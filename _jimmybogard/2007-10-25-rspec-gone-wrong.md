@@ -1,10 +1,10 @@
 ---
-id: 88
+wordpress_id: 88
 title: RSpec gone wrong
 date: 2007-10-25T14:35:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/25/rspec-gone-wrong.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/25/rspec-gone-wrong.aspx
 dsq_thread_id:
   - "351276187"
 categories:

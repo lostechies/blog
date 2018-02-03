@@ -1,10 +1,10 @@
 ---
-id: 3339
+wordpress_id: 3339
 title: The Aggressive Class vs The Laid Back Class
 date: 2009-01-17T16:08:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/01/17/the-aggressive-class-vs-the-laid-back-class.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/01/17/the-aggressive-class-vs-the-laid-back-class.aspx
 dsq_thread_id:
   - "262174773"
 categories:

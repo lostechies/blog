@@ -1,10 +1,10 @@
 ---
-id: 60
+wordpress_id: 60
 title: I am having the Vista USB blues
 date: 2007-09-20T01:52:45+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/19/i-am-having-the-vista-usb-blues.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/19/i-am-having-the-vista-usb-blues.aspx
 dsq_thread_id:
   - "262090253"
 categories:

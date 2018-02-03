@@ -1,10 +1,10 @@
 ---
-id: 349
+wordpress_id: 349
 title: Partially closed generic types
 date: 2009-09-01T22:23:26+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/09/01/partially-closed-generic-types.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/09/01/partially-closed-generic-types.aspx
 dsq_thread_id:
   - "264716292"
 categories:

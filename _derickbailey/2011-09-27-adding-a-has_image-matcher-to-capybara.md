@@ -1,10 +1,10 @@
 ---
-id: 588
+wordpress_id: 588
 title: 'Adding A &#8216;has_image?&#8217; Matcher To Capybara'
 date: 2011-09-27T15:33:42+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=588
+wordpress_guid: http://lostechies.com/derickbailey/?p=588
 dsq_thread_id:
   - "427730624"
 categories:

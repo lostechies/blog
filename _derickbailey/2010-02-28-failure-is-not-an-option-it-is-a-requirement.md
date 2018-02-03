@@ -1,10 +1,10 @@
 ---
-id: 106
+wordpress_id: 106
 title: Failure Is Not An Option, It Is A Requirement.
 date: 2010-02-28T21:04:42+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/02/28/failure-is-not-an-option-it-is-a-requirement.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/02/28/failure-is-not-an-option-it-is-a-requirement.aspx
 dsq_thread_id:
   - "262068419"
 categories:

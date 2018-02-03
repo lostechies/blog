@@ -1,10 +1,10 @@
 ---
-id: 3002
+wordpress_id: 3002
 title: (free) Training videos from the last year.
 date: 2009-12-28T14:47:32+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/12/28/free-training-videos-from-the-last-year.aspx
+wordpress_guid: /blogs/hex/archive/2009/12/28/free-training-videos-from-the-last-year.aspx
 dsq_thread_id:
   - "265828759"
 categories:

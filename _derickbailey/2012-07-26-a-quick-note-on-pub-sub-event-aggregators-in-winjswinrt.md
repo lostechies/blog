@@ -1,10 +1,10 @@
 ---
-id: 968
+wordpress_id: 968
 title: A Quick Note On Pub-Sub / Event Aggregators In WinJS/WinRT
 date: 2012-07-26T21:51:33+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=968
+wordpress_guid: http://lostechies.com/derickbailey/?p=968
 dsq_thread_id:
   - "781562244"
 categories:

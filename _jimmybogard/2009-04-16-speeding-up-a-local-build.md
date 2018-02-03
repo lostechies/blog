@@ -1,10 +1,10 @@
 ---
-id: 306
+wordpress_id: 306
 title: Speeding up a local build
 date: 2009-04-16T02:16:12+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/04/15/speeding-up-a-local-build.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/04/15/speeding-up-a-local-build.aspx
 dsq_thread_id:
   - "264812945"
 categories:

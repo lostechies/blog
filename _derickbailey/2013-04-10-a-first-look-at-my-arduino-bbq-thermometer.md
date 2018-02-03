@@ -1,10 +1,10 @@
 ---
-id: 1089
+wordpress_id: 1089
 title: A First Look At My Arduino BBQ Thermometer
 date: 2013-04-10T11:01:07+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1089
+wordpress_guid: http://lostechies.com/derickbailey/?p=1089
 dsq_thread_id:
   - "1201213779"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 83
+wordpress_id: 83
 title: How A .NET Developer Hacked Out A Rake Task
 date: 2009-09-17T15:19:49+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/17/how-a-net-developer-hacked-out-a-rake-task.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/17/how-a-net-developer-hacked-out-a-rake-task.aspx
 dsq_thread_id:
   - "262272694"
 categories:

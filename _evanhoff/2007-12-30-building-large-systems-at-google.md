@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: Building Large Systems at Google
 date: 2007-12-30T22:16:00+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/12/30/building-large-systems-at-google.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/12/30/building-large-systems-at-google.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 851
+wordpress_id: 851
 title: Survey of Entity Framework Unit of Work Patterns
 date: 2015-11-01T21:12:48+00:00
 author: Derek Greer
 layout: post
-guid: https://lostechies.com/derekgreer/?p=851
+wordpress_guid: https://lostechies.com/derekgreer/?p=851
 dsq_thread_id:
   - "4281389801"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 157
+wordpress_id: 157
 title: 'How Not to Say &#8220;Um&#8221; When Presenting'
 date: 2012-03-20T15:35:37+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=157
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=157
 dsq_thread_id:
   - "986197562"
 categories:

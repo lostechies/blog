@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: jQuery Demo 1
 date: 2008-09-12T17:12:31+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/09/12/jquery-demo-1.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/09/12/jquery-demo-1.aspx
 dsq_thread_id:
   - "262055540"
 categories:

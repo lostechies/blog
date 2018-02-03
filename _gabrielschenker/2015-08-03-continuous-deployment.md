@@ -1,10 +1,10 @@
 ---
-id: 1110
+wordpress_id: 1110
 title: Continuous deployment
 date: 2015-08-03T18:47:29+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1110
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1110
 dsq_thread_id:
   - "4000657342"
 categories:

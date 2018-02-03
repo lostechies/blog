@@ -1,10 +1,10 @@
 ---
-id: 308
+wordpress_id: 308
 title: How we do MVC
 date: 2009-04-24T04:09:06+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/04/24/how-we-do-mvc.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/04/24/how-we-do-mvc.aspx
 dsq_thread_id:
   - "264716142"
 categories:

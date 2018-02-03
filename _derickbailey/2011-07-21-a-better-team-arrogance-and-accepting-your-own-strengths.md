@@ -1,10 +1,10 @@
 ---
-id: 474
+wordpress_id: 474
 title: 'A Better Team: Arrogance And Accepting Your Own Strengths'
 date: 2011-07-21T14:39:16+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=474
+wordpress_guid: http://lostechies.com/derickbailey/?p=474
 dsq_thread_id:
   - "364609853"
 categories:

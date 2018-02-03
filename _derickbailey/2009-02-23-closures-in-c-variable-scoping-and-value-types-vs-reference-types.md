@@ -1,10 +1,10 @@
 ---
-id: 39
+wordpress_id: 39
 title: 'Closures in C#: Variable Scoping and Value Types vs Reference Types'
 date: 2009-02-23T19:10:39+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/02/23/closures-in-c-variable-scoping-and-value-types-vs-reference-types.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/02/23/closures-in-c-variable-scoping-and-value-types-vs-reference-types.aspx
 dsq_thread_id:
   - "262068090"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4209
+wordpress_id: 4209
 title: Lazy PowerShell Coalesce-Args
 date: 2010-04-03T16:57:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/04/03/lazy-powershell-coalesce-args.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/04/03/lazy-powershell-coalesce-args.aspx
 dsq_thread_id:
   - "262493339"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3162
+wordpress_id: 3162
 title: 'Being &#8220;The Computer Guy&#8221;'
 date: 2008-01-07T03:50:04+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/01/06/being-quot-the-computer-guy-quot.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/01/06/being-quot-the-computer-guy-quot.aspx
 dsq_thread_id:
   - "274773761"
 categories:

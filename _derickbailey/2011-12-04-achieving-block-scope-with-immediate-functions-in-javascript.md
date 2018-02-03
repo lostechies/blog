@@ -1,10 +1,10 @@
 ---
-id: 698
+wordpress_id: 698
 title: Achieving Block Scope With Immediate Functions In JavaScript
 date: 2011-12-04T09:56:45+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=698
+wordpress_guid: http://lostechies.com/derickbailey/?p=698
 dsq_thread_id:
   - "493051488"
 categories:

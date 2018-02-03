@@ -1,10 +1,10 @@
 ---
-id: 922
+wordpress_id: 922
 title: 'Wrapping $.ajax In A Thin &#8220;Command&#8221; Framework For Backbone Apps'
 date: 2012-05-04T08:45:16+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=922
+wordpress_guid: http://lostechies.com/derickbailey/?p=922
 dsq_thread_id:
   - "675697216"
 categories:

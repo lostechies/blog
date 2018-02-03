@@ -1,10 +1,10 @@
 ---
-id: 149
+wordpress_id: 149
 title: VAN is a friend of Pablo’s!
 date: 2009-07-13T16:12:56+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/07/13/van-is-a-friend-of-pablos.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/07/13/van-is-a-friend-of-pablos.aspx
 dsq_thread_id:
   - "1084253873"
 categories:

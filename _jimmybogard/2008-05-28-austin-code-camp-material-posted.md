@@ -1,10 +1,10 @@
 ---
-id: 189
+wordpress_id: 189
 title: Austin Code Camp material posted
 date: 2008-05-28T02:07:31+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/27/austin-code-camp-material-posted.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/27/austin-code-camp-material-posted.aspx
 dsq_thread_id:
   - "264715749"
 categories:

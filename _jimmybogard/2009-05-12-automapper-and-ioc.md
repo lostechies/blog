@@ -1,10 +1,10 @@
 ---
-id: 311
+wordpress_id: 311
 title: AutoMapper and IoC
 date: 2009-05-12T03:23:58+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/05/11/automapper-and-ioc.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/05/11/automapper-and-ioc.aspx
 dsq_thread_id:
   - "264716147"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: 'Working with Interfaces Part One &#8211; Contracts'
 date: 2007-10-01T21:15:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2007/10/01/working-with-interfaces-part-one-contracts.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2007/10/01/working-with-interfaces-part-one-contracts.aspx
 categories:
   - 'C#'
 ---

@@ -1,10 +1,10 @@
 ---
-id: 1082
+wordpress_id: 1082
 title: 'Clean Tests: Isolation with Fakes'
 date: 2015-03-24T15:58:32+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1082
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1082
 dsq_thread_id:
   - "3622845081"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 241
+wordpress_id: 241
 title: Investing in your tests–A lesson in object composition
 date: 2012-12-22T18:16:52+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=241
+wordpress_guid: http://lostechies.com/josharnold/?p=241
 dsq_thread_id:
   - "987746219"
 categories:

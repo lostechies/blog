@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: Notes on defects
 date: 2007-04-24T13:03:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/04/24/notes-on-defects.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/04/24/notes-on-defects.aspx
 dsq_thread_id:
   - "265532396"
 categories:

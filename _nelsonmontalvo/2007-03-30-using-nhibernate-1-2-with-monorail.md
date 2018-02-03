@@ -1,10 +1,10 @@
 ---
-id: 4734
+wordpress_id: 4734
 title: Using NHibernate 1.2 with Monorail
 date: 2007-03-30T16:36:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/03/30/using-nhibernate-1-2-with-monorail.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/using-nhibernate-1-2-with-monorail.aspx
 categories:
   - NHibernate
 ---

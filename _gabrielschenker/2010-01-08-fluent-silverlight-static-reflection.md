@@ -1,10 +1,10 @@
 ---
-id: 37
+wordpress_id: 37
 title: Fluent Silverlight – static reflection
 date: 2010-01-08T13:29:31+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-static-reflection.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-static-reflection.aspx
 dsq_thread_id:
   - "1070105430"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 353
+wordpress_id: 353
 title: The case for two-way mapping in AutoMapper
 date: 2009-09-18T01:33:17+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/09/17/the-case-for-two-way-mapping-in-automapper.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/09/17/the-case-for-two-way-mapping-in-automapper.aspx
 dsq_thread_id:
   - "265042450"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 143
+wordpress_id: 143
 title: Our Ajax Conventions–Request Correlation
 date: 2012-01-07T04:23:41+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=143
+wordpress_guid: http://lostechies.com/josharnold/?p=143
 dsq_thread_id:
   - "529875237"
 categories:

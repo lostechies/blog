@@ -1,10 +1,10 @@
 ---
-id: 4494
+wordpress_id: 4494
 title: 'My name&#8217;s James Gregory and I&#8217;m new here'
 date: 2009-03-27T19:33:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2009/03/27/my-name-s-james-gregory-and-i-m-new-here.aspx
+wordpress_guid: /blogs/jagregory/archive/2009/03/27/my-name-s-james-gregory-and-i-m-new-here.aspx
 dsq_thread_id:
   - "273364395"
 categories:

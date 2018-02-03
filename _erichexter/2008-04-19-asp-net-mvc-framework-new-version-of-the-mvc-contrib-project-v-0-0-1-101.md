@@ -1,10 +1,10 @@
 ---
-id: 2945
+wordpress_id: 2945
 title: 'ASP.Net MVC framework &#8211; New version of the MVC Contrib project! &#8211; v 0.0.1.101'
 date: 2008-04-19T11:38:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/04/19/asp-net-mvc-framework-new-version-of-the-mvc-contrib-project-v-0-0-1-101.aspx
+wordpress_guid: /blogs/hex/archive/2008/04/19/asp-net-mvc-framework-new-version-of-the-mvc-contrib-project-v-0-0-1-101.aspx
 dsq_thread_id:
   - "1069820462"
 categories:

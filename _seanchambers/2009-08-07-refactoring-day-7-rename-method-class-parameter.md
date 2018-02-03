@@ -1,10 +1,10 @@
 ---
-id: 3201
+wordpress_id: 3201
 title: 'Refactoring Day 7 : Rename (method, class, parameter)'
 date: 2009-08-07T12:38:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/07/refactoring-day-7-rename-method-class-parameter.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/07/refactoring-day-7-rename-method-class-parameter.aspx
 dsq_thread_id:
   - "264034533"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 251
+wordpress_id: 251
 title: Introducing FubuMVC.AutoComplete
 date: 2013-02-01T20:55:56+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=251
+wordpress_guid: http://lostechies.com/josharnold/?p=251
 dsq_thread_id:
   - "1059720422"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 74
+wordpress_id: 74
 title: 'Resp: Why ALT.NET?'
 date: 2007-10-08T18:53:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/08/resp-why-alt-net.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/08/resp-why-alt-net.aspx
 dsq_thread_id:
   - "262090272"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 331
+wordpress_id: 331
 title: How not to do Dependency Injection, in NerdDinner
 date: 2009-07-03T16:19:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/03/how-not-to-do-dependency-injection-in-nerddinner.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/03/how-not-to-do-dependency-injection-in-nerddinner.aspx
 dsq_thread_id:
   - "264716204"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: The Art of the Metaobject Protocol
 date: 2007-10-22T22:51:08+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/22/the-art-of-the-metaobject-protocol.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/22/the-art-of-the-metaobject-protocol.aspx
 categories:
   - Uncategorized
 ---

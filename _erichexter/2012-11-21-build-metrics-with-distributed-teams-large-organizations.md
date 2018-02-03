@@ -1,10 +1,10 @@
 ---
-id: 176
+wordpress_id: 176
 title: 'Build Metrics with Distributed Teams &#038; Large Organizations'
 date: 2012-11-21T23:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=176
+wordpress_guid: http://lostechies.com/erichexter/?p=176
 dsq_thread_id:
   - "937497764"
 categories:

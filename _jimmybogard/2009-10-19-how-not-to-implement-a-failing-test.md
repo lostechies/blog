@@ -1,10 +1,10 @@
 ---
-id: 360
+wordpress_id: 360
 title: How not to implement a failing test
 date: 2009-10-19T13:45:30+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/10/19/how-not-to-implement-a-failing-test.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/10/19/how-not-to-implement-a-failing-test.aspx
 dsq_thread_id:
   - "268659375"
 categories:

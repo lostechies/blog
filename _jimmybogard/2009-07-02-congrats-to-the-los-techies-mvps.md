@@ -1,10 +1,10 @@
 ---
-id: 330
+wordpress_id: 330
 title: Congrats to the Los Techies MVPs!
 date: 2009-07-02T01:03:38+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/01/congrats-to-the-los-techies-mvps.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/01/congrats-to-the-los-techies-mvps.aspx
 dsq_thread_id:
   - "264716201"
 categories:

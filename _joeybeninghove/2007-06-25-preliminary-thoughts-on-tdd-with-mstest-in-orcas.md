@@ -1,10 +1,10 @@
 ---
-id: 19
+wordpress_id: 19
 title: Preliminary thoughts on TDD with MSTest in Orcas
 date: 2007-06-25T02:46:01+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/06/24/preliminary-thoughts-on-tdd-with-mstest-in-orcas.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/06/24/preliminary-thoughts-on-tdd-with-mstest-in-orcas.aspx
 categories:
   - mbunit
   - mstest

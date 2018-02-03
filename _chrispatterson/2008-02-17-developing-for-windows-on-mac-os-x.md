@@ -1,10 +1,10 @@
 ---
-id: 3582
+wordpress_id: 3582
 title: Developing for Windows on Mac OS X
 date: 2008-02-17T00:56:03+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/02/16/developing-for-windows-on-mac-os-x.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/02/16/developing-for-windows-on-mac-os-x.aspx
 dsq_thread_id:
   - "262089216"
 categories:

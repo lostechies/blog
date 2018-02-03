@@ -1,10 +1,10 @@
 ---
-id: 292
+wordpress_id: 292
 title: ASP.NET MVC RC finally working for me
 date: 2009-03-11T12:57:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/03/11/asp-net-mvc-rc-finally-working-for-me.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/03/11/asp-net-mvc-rc-finally-working-for-me.aspx
 dsq_thread_id:
   - "271649449"
 categories:

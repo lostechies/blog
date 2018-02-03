@@ -1,10 +1,10 @@
 ---
-id: 339
+wordpress_id: 339
 title: My ideal IDE
 date: 2009-07-29T01:57:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/28/my-ideal-ide.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/28/my-ideal-ide.aspx
 dsq_thread_id:
   - "264716254"
 categories:

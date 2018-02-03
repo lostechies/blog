@@ -1,10 +1,10 @@
 ---
-id: 106
+wordpress_id: 106
 title: Implementing Routing Slip with MassTransit
 date: 2013-03-28T18:49:00+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=106
+wordpress_guid: http://lostechies.com/chrispatterson/?p=106
 dsq_thread_id:
   - "1171683799"
 categories:

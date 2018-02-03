@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: Good introduction to FubuMVC Authorization from Rex Morgan
 date: 2011-07-09T04:38:53+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=16
+wordpress_guid: http://lostechies.com/josharnold/?p=16
 dsq_thread_id:
   - "353629882"
 categories:

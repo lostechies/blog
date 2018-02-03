@@ -1,10 +1,10 @@
 ---
-id: 276
+wordpress_id: 276
 title: Be wary of container calls in tests
 date: 2009-01-29T03:16:18+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/01/28/be-wary-of-container-calls-in-tests.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/01/28/be-wary-of-container-calls-in-tests.aspx
 dsq_thread_id:
   - "264716038"
   - "264716038"

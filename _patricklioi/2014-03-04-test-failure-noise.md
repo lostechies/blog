@@ -1,10 +1,10 @@
 ---
-id: 174
+wordpress_id: 174
 title: Cleaning Up Test Failure Noise
 date: 2014-03-04T02:14:46+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=174
+wordpress_guid: http://lostechies.com/patricklioi/?p=174
 dsq_thread_id:
   - "2354751689"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 55
+wordpress_id: 55
 title: '[Book Review] IT Architectures and Middleware (2 Ed)'
 date: 2008-07-03T23:09:31+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/07/03/book-review-it-architectures-and-middleware-2-ed.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/07/03/book-review-it-architectures-and-middleware-2-ed.aspx
 categories:
   - Uncategorized
 ---

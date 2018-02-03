@@ -1,10 +1,10 @@
 ---
-id: 3783
+wordpress_id: 3783
 title: 'Polymorphism Part 2: Refactoring to Polymorphic Behavior'
 date: 2013-03-03T21:50:07+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=184
+wordpress_guid: http://lostechies.com/johnteague/?p=184
 dsq_thread_id:
   - "1116600029"
 categories:

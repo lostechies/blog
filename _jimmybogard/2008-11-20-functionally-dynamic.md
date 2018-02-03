@@ -1,10 +1,10 @@
 ---
-id: 254
+wordpress_id: 254
 title: Functionally dynamic?
 date: 2008-11-20T02:41:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/19/functionally-dynamic.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/19/functionally-dynamic.aspx
 dsq_thread_id:
   - "264715986"
 categories:

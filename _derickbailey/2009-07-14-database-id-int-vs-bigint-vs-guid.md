@@ -1,10 +1,10 @@
 ---
-id: 66
+wordpress_id: 66
 title: 'Database ID: Int vs. BigInt vs. GUID'
 date: 2009-07-14T14:30:46+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/07/14/database-id-int-vs-bigint-vs-guid.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/07/14/database-id-int-vs-bigint-vs-guid.aspx
 dsq_thread_id:
   - "262726731"
 categories:

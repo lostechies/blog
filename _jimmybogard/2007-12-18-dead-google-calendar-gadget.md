@@ -1,10 +1,10 @@
 ---
-id: 115
+wordpress_id: 115
 title: Dead Google Calendar gadget
 date: 2007-12-18T15:37:57+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/12/18/dead-google-calendar-gadget.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/12/18/dead-google-calendar-gadget.aspx
 dsq_thread_id:
   - "265518053"
 categories:

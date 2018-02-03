@@ -1,10 +1,10 @@
 ---
-id: 166
+wordpress_id: 166
 title: Reacting to change
 date: 2008-04-08T00:11:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/04/07/reacting-to-change.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/04/07/reacting-to-change.aspx
 dsq_thread_id:
   - "264715645"
 categories:

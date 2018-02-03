@@ -1,10 +1,10 @@
 ---
-id: 156
+wordpress_id: 156
 title: 'Advanced mocking: mocks and stubs'
 date: 2008-03-13T02:16:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/12/advanced-mocking-mocks-and-stubs.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/12/advanced-mocking-mocks-and-stubs.aspx
 dsq_thread_id:
   - "264715591"
 categories:

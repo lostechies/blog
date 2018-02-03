@@ -1,10 +1,10 @@
 ---
-id: 455
+wordpress_id: 455
 title: Skinning with Extension Methods
 date: 2008-10-19T17:56:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2008/10/skinning-with-extension-methods/
+wordpress_guid: http://www.aspiringcraftsman.com/2008/10/skinning-with-extension-methods/
 dsq_thread_id:
   - "315805881"
 categories:

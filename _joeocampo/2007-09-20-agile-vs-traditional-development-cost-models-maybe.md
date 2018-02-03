@@ -1,10 +1,10 @@
 ---
-id: 61
+wordpress_id: 61
 title: 'Agile vs. Traditional Development Cost Models &#8230;Maybe'
 date: 2007-09-20T21:24:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/20/agile-vs-traditional-development-cost-models-maybe.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/20/agile-vs-traditional-development-cost-models-maybe.aspx
 dsq_thread_id:
   - "262071856"
 categories:

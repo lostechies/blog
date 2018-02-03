@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: 'Patterns of Compositional Architecture: Domain Specific Languages'
 date: 2011-07-11T04:48:16+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=28
+wordpress_guid: http://lostechies.com/josharnold/?p=28
 dsq_thread_id:
   - "354963763"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 374
+wordpress_id: 374
 title: 'Git For Subversion Users: Article And Presentation'
 date: 2011-05-26T08:20:27+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=374
+wordpress_guid: http://lostechies.com/derickbailey/?p=374
 dsq_thread_id:
   - "314417001"
 categories:

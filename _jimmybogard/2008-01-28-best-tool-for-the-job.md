@@ -1,10 +1,10 @@
 ---
-id: 135
+wordpress_id: 135
 title: Best tool for the job
 date: 2008-01-28T13:18:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/28/best-tool-for-the-job.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/28/best-tool-for-the-job.aspx
 dsq_thread_id:
   - "265665631"
 categories:

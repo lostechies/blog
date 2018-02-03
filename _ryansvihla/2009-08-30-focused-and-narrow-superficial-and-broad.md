@@ -1,10 +1,10 @@
 ---
-id: 27
+wordpress_id: 27
 title: Focused and Narrow; Superficial and Broad
 date: 2009-08-30T15:12:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/08/30/focused-and-narrow-superficial-and-broad.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/08/30/focused-and-narrow-superficial-and-broad.aspx
 dsq_thread_id:
   - "1208816863"
 categories:

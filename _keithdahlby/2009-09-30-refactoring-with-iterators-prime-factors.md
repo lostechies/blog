@@ -1,10 +1,10 @@
 ---
-id: 4198
+wordpress_id: 4198
 title: 'Refactoring with Iterators: Prime Factors'
 date: 2009-09-30T15:17:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/09/30/refactoring-with-iterators-prime-factors.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/09/30/refactoring-with-iterators-prime-factors.aspx
 dsq_thread_id:
   - "262493300"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: 'SQL Server CE &#8211; Great for prototyping and testing'
 date: 2007-06-29T16:01:01+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/06/29/sql-server-ce-great-for-prototyping-and-testing.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/06/29/sql-server-ce-great-for-prototyping-and-testing.aspx
 categories:
   - NHibernate
   - Tools

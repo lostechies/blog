@@ -1,10 +1,10 @@
 ---
-id: 3136
+wordpress_id: 3136
 title: Welcome Colin Ramsay!
 date: 2007-09-25T21:34:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/09/25/welcome-colin-ramsay.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/09/25/welcome-colin-ramsay.aspx
 dsq_thread_id:
   - "268123675"
 categories:

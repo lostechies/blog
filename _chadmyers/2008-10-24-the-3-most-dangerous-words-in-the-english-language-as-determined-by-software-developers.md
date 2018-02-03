@@ -1,10 +1,10 @@
 ---
-id: 98
+wordpress_id: 98
 title: The 3 Most Dangerous Words in the English Language (as determined by software developers)
 date: 2008-10-24T05:31:51+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/24/the-3-most-dangerous-words-in-the-english-language-as-determined-by-software-developers.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/24/the-3-most-dangerous-words-in-the-english-language-as-determined-by-software-developers.aspx
 dsq_thread_id:
   - "1115699510"
 categories:

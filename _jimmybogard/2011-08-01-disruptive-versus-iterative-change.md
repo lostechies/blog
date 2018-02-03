@@ -1,10 +1,10 @@
 ---
-id: 507
+wordpress_id: 507
 title: Disruptive versus iterative change
 date: 2011-08-01T13:22:35+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/08/01/disruptive-versus-iterative-change/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/08/01/disruptive-versus-iterative-change/
 dsq_thread_id:
   - "374149720"
 categories:

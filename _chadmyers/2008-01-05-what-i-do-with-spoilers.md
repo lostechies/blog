@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: What I do (with spoilers)
 date: 2008-01-05T14:22:47+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/01/05/what-i-do-with-spoilers.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/01/05/what-i-do-with-spoilers.aspx
 dsq_thread_id:
   - "262113550"
 categories:

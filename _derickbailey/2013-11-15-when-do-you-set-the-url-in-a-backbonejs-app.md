@@ -1,10 +1,10 @@
 ---
-id: 1174
+wordpress_id: 1174
 title: When Do You Set The URL, In A BackboneJS App?
 date: 2013-11-15T08:39:49+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1174
+wordpress_guid: http://lostechies.com/derickbailey/?p=1174
 dsq_thread_id:
   - "1968475888"
 categories:

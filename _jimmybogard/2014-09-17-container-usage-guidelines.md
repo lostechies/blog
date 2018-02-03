@@ -1,10 +1,10 @@
 ---
-id: 948
+wordpress_id: 948
 title: Container Usage Guidelines
 date: 2014-09-17T19:25:56+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=948
+wordpress_guid: http://lostechies.com/jimmybogard/?p=948
 dsq_thread_id:
   - "3027593605"
 categories:

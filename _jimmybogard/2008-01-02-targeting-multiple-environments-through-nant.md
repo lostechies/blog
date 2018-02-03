@@ -1,10 +1,10 @@
 ---
-id: 118
+wordpress_id: 118
 title: Targeting multiple environments through NAnt
 date: 2008-01-02T20:49:13+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/02/targeting-multiple-environments-through-nant.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/02/targeting-multiple-environments-through-nant.aspx
 dsq_thread_id:
   - "264715470"
 categories:

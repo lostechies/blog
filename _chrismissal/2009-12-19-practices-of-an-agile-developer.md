@@ -1,10 +1,10 @@
 ---
-id: 3369
+wordpress_id: 3369
 title: Practices of an Agile Developer
 date: 2009-12-19T01:08:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/12/18/practices-of-an-agile-developer.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/12/18/practices-of-an-agile-developer.aspx
 dsq_thread_id:
   - "262175056"
 categories:

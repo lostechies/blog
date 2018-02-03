@@ -1,10 +1,10 @@
 ---
-id: 12
+wordpress_id: 12
 title: 'Dependency Inversion: &#8216;Abstraction&#8217; Does Not Mean &#8216;Interface&#8217;'
 date: 2008-10-20T20:04:54+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/10/20/dependency-inversion-abstraction-does-not-mean-interface.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/10/20/dependency-inversion-abstraction-does-not-mean-interface.aspx
 dsq_thread_id:
   - "262067916"
 categories:

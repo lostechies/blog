@@ -1,10 +1,10 @@
 ---
-id: 80
+wordpress_id: 80
 title: A smarter Rails url_for helper
 date: 2012-03-27T22:36:06+00:00
 author: Joshua Flanagan
 layout: post
-guid: http://lostechies.com/joshuaflanagan/2012/03/27/a-smarter-rails-url_for-helper/
+wordpress_guid: http://lostechies.com/joshuaflanagan/2012/03/27/a-smarter-rails-url_for-helper/
 dsq_thread_id:
   - "626612787"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1250
+wordpress_id: 1250
 title: Playing With Laravel 4 (the PHP MVC framework) And Telerik UI
 date: 2014-01-30T15:17:13+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1250
+wordpress_guid: http://lostechies.com/derickbailey/?p=1250
 dsq_thread_id:
   - "2196920056"
 categories:

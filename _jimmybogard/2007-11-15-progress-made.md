@@ -1,10 +1,10 @@
 ---
-id: 101
+wordpress_id: 101
 title: Progress made
 date: 2007-11-15T22:15:38+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/15/progress-made.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/15/progress-made.aspx
 dsq_thread_id:
   - "264715425"
 categories:

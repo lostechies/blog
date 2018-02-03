@@ -1,10 +1,10 @@
 ---
-id: 48
+wordpress_id: 48
 title: New book on NHibernate
 date: 2010-10-06T16:46:53+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/10/06/new-book-on-nhibernate.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/10/06/new-book-on-nhibernate.aspx
 dsq_thread_id:
   - "1069691603"
 categories:

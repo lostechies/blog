@@ -1,10 +1,10 @@
 ---
-id: 2949
+wordpress_id: 2949
 title: Silverlight Beta 2 Released and what that means for the Testing Framework.
 date: 2008-06-08T20:49:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/06/08/silverlight-beta-2-released-and-what-that-means-for-the-testing-framework.aspx
+wordpress_guid: /blogs/hex/archive/2008/06/08/silverlight-beta-2-released-and-what-that-means-for-the-testing-framework.aspx
 dsq_thread_id:
   - "266993969"
 categories:

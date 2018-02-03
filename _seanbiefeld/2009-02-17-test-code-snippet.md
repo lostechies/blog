@@ -1,10 +1,10 @@
 ---
-id: 4447
+wordpress_id: 4447
 title: test code snippet
 date: 2009-02-17T08:45:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2009/02/17/test-code-snippet.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2009/02/17/test-code-snippet.aspx
 dsq_thread_id:
   - "467281511"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1131
+wordpress_id: 1131
 title: Let Me Teach You Arduino, With JavaScript!
 date: 2013-07-30T14:16:13+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1131
+wordpress_guid: http://lostechies.com/derickbailey/?p=1131
 dsq_thread_id:
   - "1548701761"
 categories:

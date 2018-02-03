@@ -1,10 +1,10 @@
 ---
-id: 371
+wordpress_id: 371
 title: The Template Method is a lie
 date: 2009-12-03T01:56:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/12/02/the-template-method-is-a-lie.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/12/02/the-template-method-is-a-lie.aspx
 dsq_thread_id:
   - "264716353"
 categories:

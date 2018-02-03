@@ -1,10 +1,10 @@
 ---
-id: 4041
+wordpress_id: 4041
 title: How I Set Up My Mac
 date: 2009-06-24T03:24:23+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/06/24/how-i-set-up-my-mac.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/06/24/how-i-set-up-my-mac.aspx
 categories:
   - mac
 ---

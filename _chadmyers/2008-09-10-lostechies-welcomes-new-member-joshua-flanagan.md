@@ -1,10 +1,10 @@
 ---
-id: 87
+wordpress_id: 87
 title: 'LosTechies welcomes new member: Joshua Flanagan'
 date: 2008-09-10T03:16:02+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/09/09/lostechies-welcomes-new-member-joshua-flanagan.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/09/09/lostechies-welcomes-new-member-joshua-flanagan.aspx
 categories:
   - Misc
 ---

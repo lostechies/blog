@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: 'Coffeescript vs. Javascript: Dog eat Dog'
 date: 2013-10-23T03:15:25+00:00
 author: Brad Carleton
 layout: post
-guid: http://lostechies.com/bradcarleton/?p=6
+wordpress_guid: http://lostechies.com/bradcarleton/?p=6
 dsq_thread_id:
   - "1889232642"
 categories:

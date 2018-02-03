@@ -1,10 +1,10 @@
 ---
-id: 614
+wordpress_id: 614
 title: Tips For Using Backbone.js Routers With HTML5 PushState
 date: 2011-10-17T07:02:07+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=614
+wordpress_guid: http://lostechies.com/derickbailey/?p=614
 dsq_thread_id:
   - "445849969"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: Tiny Nudges in the General Direction of Success
 date: 2013-08-08T03:40:38+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=40
+wordpress_guid: http://lostechies.com/patricklioi/?p=40
 dsq_thread_id:
   - "1583440934"
 categories:

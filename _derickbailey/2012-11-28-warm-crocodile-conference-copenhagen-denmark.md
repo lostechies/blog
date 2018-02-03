@@ -1,10 +1,10 @@
 ---
-id: 1034
+wordpress_id: 1034
 title: 'Warm Crocodile Conference: Copenhagen, Denmark'
 date: 2012-11-28T07:56:40+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1034
+wordpress_guid: http://lostechies.com/derickbailey/?p=1034
 dsq_thread_id:
   - "948110392"
 categories:

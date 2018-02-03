@@ -1,10 +1,10 @@
 ---
-id: 803
+wordpress_id: 803
 title: '3 Stages Of A Backbone Application&#8217;s Startup'
 date: 2012-02-06T07:30:12+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=803
+wordpress_guid: http://lostechies.com/derickbailey/?p=803
 dsq_thread_id:
   - "566277710"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 178
+wordpress_id: 178
 title: '“Bring out yer dead!” *clang*'
 date: 2010-08-07T00:38:57+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/08/06/bring-out-yer-dead-clang.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/08/06/bring-out-yer-dead-clang.aspx
 dsq_thread_id:
   - "262908441"
 categories:

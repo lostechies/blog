@@ -1,10 +1,10 @@
 ---
-id: 3015
+wordpress_id: 3015
 title: Signup for MvcConf – Virtual ASP.Net MVC Conference
 date: 2010-07-08T10:47:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/07/08/signup-for-mvcconf-virtual-asp-net-mvc-conference.aspx
+wordpress_guid: /blogs/hex/archive/2010/07/08/signup-for-mvcconf-virtual-asp-net-mvc-conference.aspx
 dsq_thread_id:
   - "263816967"
 categories:

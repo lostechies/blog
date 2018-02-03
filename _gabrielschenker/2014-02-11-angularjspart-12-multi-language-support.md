@@ -1,10 +1,10 @@
 ---
-id: 685
+wordpress_id: 685
 title: AngularJS–Part 12, Multi language support
 date: 2014-02-11T11:44:56+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=685
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=685
 dsq_thread_id:
   - "2252566337"
 categories:

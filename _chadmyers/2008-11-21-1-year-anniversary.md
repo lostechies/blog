@@ -1,10 +1,10 @@
 ---
-id: 113
+wordpress_id: 113
 title: 1 Year Anniversary
 date: 2008-11-21T16:05:24+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/11/21/1-year-anniversary.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/11/21/1-year-anniversary.aspx
 dsq_thread_id:
   - "262114197"
 categories:

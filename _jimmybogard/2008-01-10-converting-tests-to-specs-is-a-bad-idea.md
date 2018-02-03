@@ -1,10 +1,10 @@
 ---
-id: 126
+wordpress_id: 126
 title: Converting tests to specs is a bad idea
 date: 2008-01-10T21:40:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/10/converting-tests-to-specs-is-a-bad-idea.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/10/converting-tests-to-specs-is-a-bad-idea.aspx
 dsq_thread_id:
   - "264715484"
 categories:

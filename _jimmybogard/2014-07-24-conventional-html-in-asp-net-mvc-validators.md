@@ -1,10 +1,10 @@
 ---
-id: 924
+wordpress_id: 924
 title: 'Conventional HTML in ASP.NET MVC: Validators'
 date: 2014-07-24T18:33:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=924
+wordpress_guid: http://lostechies.com/jimmybogard/?p=924
 dsq_thread_id:
   - "2870340219"
 categories:

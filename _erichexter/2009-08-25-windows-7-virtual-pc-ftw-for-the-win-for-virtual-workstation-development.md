@@ -1,10 +1,10 @@
 ---
-id: 2988
+wordpress_id: 2988
 title: Windows 7 Virtual PC FTW (For The Win) for virtual workstation development
 date: 2009-08-25T12:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/08/25/windows-7-virtual-pc-ftw-for-the-win-for-virtual-workstation-development.aspx
+wordpress_guid: /blogs/hex/archive/2009/08/25/windows-7-virtual-pc-ftw-for-the-win-for-virtual-workstation-development.aspx
 dsq_thread_id:
   - "262920212"
 categories:

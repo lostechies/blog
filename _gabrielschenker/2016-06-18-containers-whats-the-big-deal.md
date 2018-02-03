@@ -1,10 +1,10 @@
 ---
-id: 1534
+wordpress_id: 1534
 title: 'Containers &#8211; What&#8217;s the big Deal?'
 date: 2016-06-18T22:02:34+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1534
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1534
 dsq_thread_id:
   - "4921595398"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1521
+wordpress_id: 1521
 title: Blue-Green Deployment
 date: 2016-05-23T21:11:42+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1521
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1521
 dsq_thread_id:
   - "4852604738"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: Can your dev team handle Agile/iterative development?
 date: 2007-07-23T19:02:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/23/can-your-dev-team-handle-agile-iterative-development.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/23/can-your-dev-team-handle-agile-iterative-development.aspx
 dsq_thread_id:
   - "277352668"
 categories:

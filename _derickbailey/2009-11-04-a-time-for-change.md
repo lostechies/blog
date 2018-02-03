@@ -1,10 +1,10 @@
 ---
-id: 92
+wordpress_id: 92
 title: A Time For Change
 date: 2009-11-04T15:36:03+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/11/04/a-time-for-change.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/11/04/a-time-for-change.aspx
 dsq_thread_id:
   - "266324172"
 categories:

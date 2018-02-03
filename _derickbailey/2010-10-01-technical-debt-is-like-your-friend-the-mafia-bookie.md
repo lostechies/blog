@@ -1,10 +1,10 @@
 ---
-id: 188
+wordpress_id: 188
 title: Technical Debt Is Like Your Friend, The Mafia Bookie
 date: 2010-10-01T14:05:16+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/10/01/technical-debt-is-like-your-friend-the-mafia-bookie.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/10/01/technical-debt-is-like-your-friend-the-mafia-bookie.aspx
 dsq_thread_id:
   - "265412051"
 categories:

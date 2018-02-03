@@ -1,10 +1,10 @@
 ---
-id: 3968
+wordpress_id: 3968
 title: Validate a Facebook JavaScript SDK cookie with Ruby
 date: 2010-11-17T04:05:00+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/11/16/validate-a-facebook-javascript-sdk-cookie-with-ruby.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/11/16/validate-a-facebook-javascript-sdk-cookie-with-ruby.aspx
 dsq_thread_id:
   - "262225205"
 categories:

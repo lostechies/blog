@@ -1,10 +1,10 @@
 ---
-id: 80
+wordpress_id: 80
 title: 'Upcoming FubuMVC Webinar: F102 &#8211; FubuMVC In Action'
 date: 2011-08-10T21:09:42+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=80
+wordpress_guid: http://lostechies.com/josharnold/?p=80
 dsq_thread_id:
   - "382563072"
 categories:

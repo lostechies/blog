@@ -1,10 +1,10 @@
 ---
-id: 903
+wordpress_id: 903
 title: CQRS revisited
 date: 2015-04-07T17:19:00+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=903
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=903
 dsq_thread_id:
   - "3663283150"
 categories:

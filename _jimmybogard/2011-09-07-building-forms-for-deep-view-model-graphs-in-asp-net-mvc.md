@@ -1,10 +1,10 @@
 ---
-id: 532
+wordpress_id: 532
 title: Building forms for deep View Model graphs in ASP.NET MVC
 date: 2011-09-07T14:01:47+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/09/07/building-forms-for-deep-view-model-graphs-in-asp-net-mvc/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/09/07/building-forms-for-deep-view-model-graphs-in-asp-net-mvc/
 dsq_thread_id:
   - "407300056"
 categories:

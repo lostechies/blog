@@ -1,10 +1,10 @@
 ---
-id: 215
+wordpress_id: 215
 title: 'Message around a brick: Rising to traffic spikes'
 date: 2013-08-07T17:30:53+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=215
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=215
 dsq_thread_id:
   - "1582702286"
 categories:

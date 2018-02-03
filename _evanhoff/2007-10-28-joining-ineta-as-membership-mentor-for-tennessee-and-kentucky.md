@@ -1,10 +1,10 @@
 ---
-id: 19
+wordpress_id: 19
 title: Joining INETA as Membership Mentor for Tennessee and Kentucky
 date: 2007-10-28T22:27:29+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/28/joining-ineta-as-membership-mentor-for-tennessee-and-kentucky.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/28/joining-ineta-as-membership-mentor-for-tennessee-and-kentucky.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: Tutorial about mocking with Rhino Mocks and Moq
 date: 2009-04-21T10:01:36+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/04/21/tutorial-about-mocking-with-rhino-mocks-and-moq.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/04/21/tutorial-about-mocking-with-rhino-mocks-and-moq.aspx
 dsq_thread_id:
   - "263908862"
 categories:

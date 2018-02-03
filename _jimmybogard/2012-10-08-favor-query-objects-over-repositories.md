@@ -1,10 +1,10 @@
 ---
-id: 676
+wordpress_id: 676
 title: Favor query objects over repositories
 date: 2012-10-08T13:27:51+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/
 dsq_thread_id:
   - "876577661"
 categories:

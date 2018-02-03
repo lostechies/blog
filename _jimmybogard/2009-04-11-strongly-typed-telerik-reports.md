@@ -1,10 +1,10 @@
 ---
-id: 304
+wordpress_id: 304
 title: Strongly-typed Telerik reports
 date: 2009-04-11T18:43:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/04/11/strongly-typed-telerik-reports.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/04/11/strongly-typed-telerik-reports.aspx
 dsq_thread_id:
   - "264716110"
 categories:

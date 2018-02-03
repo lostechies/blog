@@ -1,10 +1,10 @@
 ---
-id: 4040
+wordpress_id: 4040
 title: A Couple of Quick Ubuntu Tips
 date: 2009-06-14T21:58:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/06/14/a-couple-of-quick-ubuntu-tips.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/06/14/a-couple-of-quick-ubuntu-tips.aspx
 categories:
   - Linux
   - Ubuntu

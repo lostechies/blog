@@ -1,10 +1,10 @@
 ---
-id: 573
+wordpress_id: 573
 title: Speaking at San Diego DNUG tonight
 date: 2012-01-24T17:01:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/01/24/speaking-at-san-diego-dnug-tonight/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/01/24/speaking-at-san-diego-dnug-tonight/
 dsq_thread_id:
   - "551086599"
 categories:

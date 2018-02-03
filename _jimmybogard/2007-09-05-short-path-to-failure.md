@@ -1,10 +1,10 @@
 ---
-id: 60
+wordpress_id: 60
 title: Short path to failure
 date: 2007-09-05T21:16:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/09/05/short-path-to-failure.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/09/05/short-path-to-failure.aspx
 dsq_thread_id:
   - "474749441"
 categories:

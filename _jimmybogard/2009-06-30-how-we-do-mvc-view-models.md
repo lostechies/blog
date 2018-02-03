@@ -1,10 +1,10 @@
 ---
-id: 329
+wordpress_id: 329
 title: How we do MVC – View models
 date: 2009-06-30T03:06:36+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/06/29/how-we-do-mvc-view-models.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/06/29/how-we-do-mvc-view-models.aspx
 dsq_thread_id:
   - "264716207"
 categories:

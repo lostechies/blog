@@ -1,10 +1,10 @@
 ---
-id: 62
+wordpress_id: 62
 title: Weird CruiseControl.NET error
 date: 2007-09-17T13:50:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/09/17/weird-cruisecontrol-net-error.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/09/17/weird-cruisecontrol-net-error.aspx
 dsq_thread_id:
   - "272670244"
 categories:

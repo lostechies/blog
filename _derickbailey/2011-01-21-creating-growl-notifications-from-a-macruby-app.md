@@ -1,10 +1,10 @@
 ---
-id: 208
+wordpress_id: 208
 title: Creating Growl Notifications From A MacRuby App
 date: 2011-01-21T05:39:06+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/01/21/creating-growl-notifications-from-a-macruby-app.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/01/21/creating-growl-notifications-from-a-macruby-app.aspx
 dsq_thread_id:
   - "262766683"
 categories:

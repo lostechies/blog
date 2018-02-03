@@ -1,10 +1,10 @@
 ---
-id: 4028
+wordpress_id: 4028
 title: 'Why Apple isn&#8217;t ready for the corporate game'
 date: 2008-09-11T12:54:58+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2008/09/11/why-apple-isn-t-ready-for-the-corporate-game.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2008/09/11/why-apple-isn-t-ready-for-the-corporate-game.aspx
 categories:
   - mac
   - Rant

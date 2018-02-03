@@ -1,10 +1,10 @@
 ---
-id: 2940
+wordpress_id: 2940
 title: 'ASP.NET 3.5 Extensions Preview &#8211; New version of MS MVC is available.'
 date: 2008-03-05T16:53:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/03/05/asp-net-3-5-extensions-preview-new-version-of-ms-mvc-is-available.aspx
+wordpress_guid: /blogs/hex/archive/2008/03/05/asp-net-3-5-extensions-preview-new-version-of-ms-mvc-is-available.aspx
 dsq_thread_id:
   - "1085842988"
 categories:

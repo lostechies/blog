@@ -1,10 +1,10 @@
 ---
-id: 384
+wordpress_id: 384
 title: My picture of an MVC-WebForms marriage
 date: 2010-01-19T01:25:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/01/18/my-picture-of-an-mvc-webforms-marriage.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/01/18/my-picture-of-an-mvc-webforms-marriage.aspx
 dsq_thread_id:
   - "264716404"
 categories:

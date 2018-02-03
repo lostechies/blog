@@ -1,10 +1,10 @@
 ---
-id: 914
+wordpress_id: 914
 title: 'Consistent or not that&#8217;s the question'
 date: 2015-04-08T21:09:53+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=914
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=914
 dsq_thread_id:
   - "3666626805"
 categories:

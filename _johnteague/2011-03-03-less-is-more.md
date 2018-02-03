@@ -1,10 +1,10 @@
 ---
-id: 3782
+wordpress_id: 3782
 title: Less Is More
 date: 2011-03-03T05:16:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2011/03/03/less-is-more.aspx
+wordpress_guid: /blogs/johnteague/archive/2011/03/03/less-is-more.aspx
 dsq_thread_id:
   - "262055790"
 categories:

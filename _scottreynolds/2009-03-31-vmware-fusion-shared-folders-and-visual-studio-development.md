@@ -1,10 +1,10 @@
 ---
-id: 4037
+wordpress_id: 4037
 title: VMWare Fusion Shared Folders and Visual Studio Development
 date: 2009-03-31T05:01:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/03/31/vmware-fusion-shared-folders-and-visual-studio-development.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/03/31/vmware-fusion-shared-folders-and-visual-studio-development.aspx
 categories:
   - mac
   - vmware

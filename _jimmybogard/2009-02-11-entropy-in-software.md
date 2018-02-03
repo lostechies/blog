@@ -1,10 +1,10 @@
 ---
-id: 281
+wordpress_id: 281
 title: Entropy in software
 date: 2009-02-11T01:23:54+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/10/entropy-in-software.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/10/entropy-in-software.aspx
 dsq_thread_id:
   - "267829792"
 categories:

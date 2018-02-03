@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: SOA Manifesto
 date: 2009-10-26T22:49:18+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/10/27/soa-manifesto.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/10/27/soa-manifesto.aspx
 categories:
   - Uncategorized
 ---

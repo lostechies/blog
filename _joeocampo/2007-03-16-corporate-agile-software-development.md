@@ -1,10 +1,10 @@
 ---
-id: 12
+wordpress_id: 12
 title: Corporate Agile Software Development
 date: 2007-03-16T02:34:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/03/15/corporate-agile-software-development.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/03/15/corporate-agile-software-development.aspx
 dsq_thread_id:
   - "262088499"
 categories:

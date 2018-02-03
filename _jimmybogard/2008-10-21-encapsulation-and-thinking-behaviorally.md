@@ -1,10 +1,10 @@
 ---
-id: 241
+wordpress_id: 241
 title: Encapsulation and thinking behaviorally
 date: 2008-10-21T11:58:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/21/encapsulation-and-thinking-behaviorally.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/21/encapsulation-and-thinking-behaviorally.aspx
 dsq_thread_id:
   - "264715968"
 categories:

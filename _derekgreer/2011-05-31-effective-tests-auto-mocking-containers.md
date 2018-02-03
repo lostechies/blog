@@ -1,10 +1,10 @@
 ---
-id: 465
+wordpress_id: 465
 title: 'Effective Tests: Auto-mocking Containers'
 date: 2011-05-31T12:20:52+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=465
+wordpress_guid: http://lostechies.com/derekgreer/?p=465
 dsq_thread_id:
   - "318415972"
 categories:

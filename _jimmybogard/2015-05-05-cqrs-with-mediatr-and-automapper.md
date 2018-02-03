@@ -1,10 +1,10 @@
 ---
-id: 1102
+wordpress_id: 1102
 title: CQRS with MediatR and AutoMapper
 date: 2015-05-05T15:15:41+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1102
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1102
 dsq_thread_id:
   - "3738402572"
 categories:

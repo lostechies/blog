@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: 'Encapsulation: Entities, Collections And Business Rules'
 date: 2008-10-23T12:49:09+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/10/23/encapsulation-entities-collections-and-business-rules.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/10/23/encapsulation-entities-collections-and-business-rules.aspx
 dsq_thread_id:
   - "262067901"
 categories:

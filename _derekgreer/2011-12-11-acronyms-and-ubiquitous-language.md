@@ -1,10 +1,10 @@
 ---
-id: 594
+wordpress_id: 594
 title: Acronyms and Ubiquitous Language
 date: 2011-12-11T18:00:41+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=594
+wordpress_guid: http://lostechies.com/derekgreer/?p=594
 dsq_thread_id:
   - "501050015"
 categories:

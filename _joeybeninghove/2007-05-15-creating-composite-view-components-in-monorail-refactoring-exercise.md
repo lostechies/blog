@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: Creating Composite View Components In MonoRail / Refactoring Exercise
 date: 2007-05-15T15:32:03+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/05/15/creating-composite-view-components-in-monorail-refactoring-exercise.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/05/15/creating-composite-view-components-in-monorail-refactoring-exercise.aspx
 categories:
   - 'C#'
   - Castle

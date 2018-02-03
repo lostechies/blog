@@ -1,10 +1,10 @@
 ---
-id: 343
+wordpress_id: 343
 title: 'JavaScript: A tool too sharp?'
 date: 2009-08-12T03:08:57+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/08/11/javascript-a-tool-too-sharp.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/08/11/javascript-a-tool-too-sharp.aspx
 dsq_thread_id:
   - "264716282"
 categories:

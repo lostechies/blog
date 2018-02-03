@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: 'Do Anonymous Methods Prevent Declaring Types from Being GC&#8217;d?'
 date: 2008-05-22T01:57:02+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/05/21/do-anonymous-methods-prevent-declaring-types-from-being-gc-d.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/05/21/do-anonymous-methods-prevent-declaring-types-from-being-gc-d.aspx
 categories:
   - Uncategorized
 ---

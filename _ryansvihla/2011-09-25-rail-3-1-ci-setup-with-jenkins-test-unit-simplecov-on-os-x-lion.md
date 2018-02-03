@@ -1,10 +1,10 @@
 ---
-id: 53
+wordpress_id: 53
 title: 'Rail 3.1 CI setup with Jenkins, Test Unit &#038; SimpleCov on OS X Lion.'
 date: 2011-09-25T12:04:54+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=53
+wordpress_guid: http://lostechies.com/ryansvihla/?p=53
 dsq_thread_id:
   - "425495610"
 categories:

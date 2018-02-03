@@ -1,10 +1,10 @@
 ---
-id: 105
+wordpress_id: 105
 title: 'Using  Context as an example group in rSpec'
 date: 2008-02-27T21:22:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/02/27/using-context-as-an-example-group-in-rspec.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/02/27/using-context-as-an-example-group-in-rspec.aspx
 dsq_thread_id:
   - "262089650"
 categories:

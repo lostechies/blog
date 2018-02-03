@@ -1,10 +1,10 @@
 ---
-id: 3345
+wordpress_id: 3345
 title: 'Ongoing Maintenance &#038; Debt Reduction'
 date: 2009-03-04T02:44:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/03/03/ongoing-maintenance-amp-debt-reduction.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/03/03/ongoing-maintenance-amp-debt-reduction.aspx
 dsq_thread_id:
   - "262174772"
 categories:

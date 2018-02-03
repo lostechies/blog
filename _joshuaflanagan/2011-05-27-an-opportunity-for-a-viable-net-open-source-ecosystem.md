@@ -1,10 +1,10 @@
 ---
-id: 3975
+wordpress_id: 3975
 title: An opportunity for a viable .NET open source ecosystem
 date: 2011-05-27T01:23:57+00:00
 author: Joshua Flanagan
 layout: post
-guid: http://lostechies.com/joshuaflanagan/2011/05/27/an-opportunity-for-a-viable-net-open-source-ecosystem/
+wordpress_guid: http://lostechies.com/joshuaflanagan/2011/05/27/an-opportunity-for-a-viable-net-open-source-ecosystem/
 dsq_thread_id:
   - "315037208"
 categories:

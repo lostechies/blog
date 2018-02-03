@@ -1,10 +1,10 @@
 ---
-id: 144
+wordpress_id: 144
 title: 'Pablo&#8217;s Fiesta &#8211; Thank you!'
 date: 2011-10-02T13:58:27+00:00
 author: Joe Ocampo
 layout: post
-guid: http://lostechies.com/joeocampo/?p=144
+wordpress_guid: http://lostechies.com/joeocampo/?p=144
 dsq_thread_id:
   - "432259144"
 categories:

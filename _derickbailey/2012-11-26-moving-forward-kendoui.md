@@ -1,10 +1,10 @@
 ---
-id: 1029
+wordpress_id: 1029
 title: 'Moving Forward: KendoUI'
 date: 2012-11-26T10:34:36+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1029
+wordpress_guid: http://lostechies.com/derickbailey/?p=1029
 dsq_thread_id:
   - "944919853"
 categories:

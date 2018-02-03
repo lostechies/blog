@@ -1,10 +1,10 @@
 ---
-id: 111
+wordpress_id: 111
 title: 'Don&#8217;t hide the ugly'
 date: 2007-12-06T13:51:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/12/06/don-t-hide-the-ugly.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/12/06/don-t-hide-the-ugly.aspx
 dsq_thread_id:
   - "264715456"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4693
+wordpress_id: 4693
 title: 'PTOM: Breaking Free from HttpContext'
 date: 2009-05-05T03:08:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2009/05/05/breaking-free-from-httpcontext.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2009/05/05/breaking-free-from-httpcontext.aspx
 categories:
   - Uncategorized
 ---

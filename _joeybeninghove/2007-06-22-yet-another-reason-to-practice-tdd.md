@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: Yet another reason to practice TDD
 date: 2007-06-22T17:32:42+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/06/22/yet-another-reason-to-practice-tdd.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/06/22/yet-another-reason-to-practice-tdd.aspx
 categories:
   - Productivity
   - TDD

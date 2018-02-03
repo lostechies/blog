@@ -1,10 +1,10 @@
 ---
-id: 834
+wordpress_id: 834
 title: 'Put your controllers on a diet: redux'
 date: 2013-10-10T13:03:27+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=834
+wordpress_guid: http://lostechies.com/jimmybogard/?p=834
 dsq_thread_id:
   - "1842872863"
 categories:

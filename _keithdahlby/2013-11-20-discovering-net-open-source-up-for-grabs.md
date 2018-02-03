@@ -1,10 +1,10 @@
 ---
-id: 137
+wordpress_id: 137
 title: 'Discovering Open Source: up-for-grabs.net'
 date: 2013-11-20T18:24:54+00:00
 author: Keith Dahlby
 layout: post
-guid: http://lostechies.com/keithdahlby/?p=137
+wordpress_guid: http://lostechies.com/keithdahlby/?p=137
 dsq_thread_id:
   - "1984096874"
 categories:

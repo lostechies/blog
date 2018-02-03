@@ -1,10 +1,10 @@
 ---
-id: 176
+wordpress_id: 176
 title: Vendor Lock-In Vs. Best Of Breed Tools
 date: 2010-07-27T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/07/27/vendor-lock-in-vs-best-of-breed-tools.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/07/27/vendor-lock-in-vs-best-of-breed-tools.aspx
 dsq_thread_id:
   - "263607628"
 categories:

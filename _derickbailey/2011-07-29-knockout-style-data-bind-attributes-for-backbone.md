@@ -1,10 +1,10 @@
 ---
-id: 500
+wordpress_id: 500
 title: Knockout Style Data-Bind Attributes For Backbone
 date: 2011-07-29T12:01:51+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=500
+wordpress_guid: http://lostechies.com/derickbailey/?p=500
 dsq_thread_id:
   - "372024806"
 categories:

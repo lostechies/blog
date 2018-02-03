@@ -1,10 +1,10 @@
 ---
-id: 3864
+wordpress_id: 3864
 title: ReSharper Shortcut for Context-Sensitive Unit-Test Running
 date: 2010-06-20T01:21:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2010/06/19/resharper-shortcut-for-context-sensitive-unit-test-running.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2010/06/19/resharper-shortcut-for-context-sensitive-unit-test-running.aspx
 dsq_thread_id:
   - "263370931"
 categories:

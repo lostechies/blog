@@ -1,10 +1,10 @@
 ---
-id: 818
+wordpress_id: 818
 title: Perception is Reality–The state of OSS in .NET
 date: 2013-09-25T13:29:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=818
+wordpress_guid: http://lostechies.com/jimmybogard/?p=818
 dsq_thread_id:
   - "1795724727"
 categories:

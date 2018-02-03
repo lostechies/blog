@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: Dynamic View Page, MVC without a View Model
 date: 2010-06-23T05:04:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2010/06/23/dynamic-view-page-mvc-without-a-view-model.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2010/06/23/dynamic-view-page-mvc-without-a-view-model.aspx
 dsq_thread_id:
   - "449608171"
 categories:

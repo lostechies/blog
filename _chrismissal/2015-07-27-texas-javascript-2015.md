@@ -1,10 +1,10 @@
 ---
-id: 481
+wordpress_id: 481
 title: Texas JavaScript 2015
 date: 2015-07-27T11:42:37+00:00
 author: Chris Missal
 layout: post
-guid: https://lostechies.com/chrismissal/?p=481
+wordpress_guid: https://lostechies.com/chrismissal/?p=481
 dsq_thread_id:
   - "3976456501"
 categories:

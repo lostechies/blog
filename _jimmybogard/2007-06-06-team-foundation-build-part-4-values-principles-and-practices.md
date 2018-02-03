@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: 'Team Foundation Build, Part 4: Values, Principles, and Practices'
 date: 2007-06-06T17:43:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/06/06/team-foundation-build-part-4-values-principles-and-practices.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/06/06/team-foundation-build-part-4-values-principles-and-practices.aspx
 dsq_thread_id:
   - "272118837"
 categories:

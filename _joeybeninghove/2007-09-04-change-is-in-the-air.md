@@ -1,10 +1,10 @@
 ---
-id: 23
+wordpress_id: 23
 title: 'Change is in the air&#8230;'
 date: 2007-09-04T07:42:47+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/04/change-is-in-the-air.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/04/change-is-in-the-air.aspx
 categories:
   - Castle
   - MonoRail

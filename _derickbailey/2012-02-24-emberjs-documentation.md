@@ -1,10 +1,10 @@
 ---
-id: 841
+wordpress_id: 841
 title: EmberJS Documentation
 date: 2012-02-24T07:31:42+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=841
+wordpress_guid: http://lostechies.com/derickbailey/?p=841
 dsq_thread_id:
   - "587749188"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 400
+wordpress_id: 400
 title: AutoMapper source moved to GitHub
 date: 2010-04-16T02:13:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/04/15/automapper-source-moved-to-github.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/04/15/automapper-source-moved-to-github.aspx
 dsq_thread_id:
   - "265908020"
 categories:

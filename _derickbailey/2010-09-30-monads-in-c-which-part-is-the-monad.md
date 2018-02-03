@@ -1,10 +1,10 @@
 ---
-id: 186
+wordpress_id: 186
 title: 'Monads in C#: Which Part Is The Monad?'
 date: 2010-09-30T02:31:07+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/09/29/monads-in-c-which-part-is-the-monad.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/09/29/monads-in-c-which-part-is-the-monad.aspx
 dsq_thread_id:
   - "262222485"
 categories:

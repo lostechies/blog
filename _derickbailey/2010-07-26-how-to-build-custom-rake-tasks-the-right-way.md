@@ -1,10 +1,10 @@
 ---
-id: 175
+wordpress_id: 175
 title: How To Build Custom Rake Tasks; The Right Way
 date: 2010-07-26T21:04:46+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/07/26/how-to-build-custom-rake-tasks-the-right-way.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/07/26/how-to-build-custom-rake-tasks-the-right-way.aspx
 dsq_thread_id:
   - "262110356"
 categories:

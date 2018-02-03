@@ -1,10 +1,10 @@
 ---
-id: 41
+wordpress_id: 41
 title: Anyone played with Enso?
 date: 2007-10-02T13:26:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/10/02/anyone-played-with-enso.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/10/02/anyone-played-with-enso.aspx
 categories:
   - Productivity
   - Tools

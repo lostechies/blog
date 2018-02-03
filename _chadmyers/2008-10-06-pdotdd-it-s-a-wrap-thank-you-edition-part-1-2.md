@@ -1,10 +1,10 @@
 ---
-id: 94
+wordpress_id: 94
 title: 'PDoTDD: It’s a Wrap!  Thank You Edition (Part 1/2)'
 date: 2008-10-06T01:08:24+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/05/pdotdd-it-s-a-wrap-thank-you-edition-part-1-2.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/05/pdotdd-it-s-a-wrap-thank-you-edition-part-1-2.aspx
 dsq_thread_id:
   - "268974214"
 categories:

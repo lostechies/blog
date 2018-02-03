@@ -1,10 +1,10 @@
 ---
-id: 4503
+wordpress_id: 4503
 title: Behaviours in MSpec
 date: 2010-01-18T12:42:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2010/01/18/behaviours-in-mspec.aspx
+wordpress_guid: /blogs/jagregory/archive/2010/01/18/behaviours-in-mspec.aspx
 dsq_thread_id:
   - "274816223"
 categories:

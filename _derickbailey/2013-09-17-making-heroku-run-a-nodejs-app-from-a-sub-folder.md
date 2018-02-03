@@ -1,10 +1,10 @@
 ---
-id: 1150
+wordpress_id: 1150
 title: Making Heroku Run A NodeJS App From A Sub-Folder
 date: 2013-09-17T12:50:57+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1150
+wordpress_guid: http://lostechies.com/derickbailey/?p=1150
 dsq_thread_id:
   - "1770978084"
 categories:

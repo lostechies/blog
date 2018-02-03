@@ -1,10 +1,10 @@
 ---
-id: 225
+wordpress_id: 225
 title: Building arrays in StructureMap 2.5
 date: 2008-09-03T12:08:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/09/03/building-arrays-in-structuremap-2-5.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/09/03/building-arrays-in-structuremap-2-5.aspx
 dsq_thread_id:
   - "264715899"
 categories:

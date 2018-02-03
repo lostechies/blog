@@ -1,10 +1,10 @@
 ---
-id: 373
+wordpress_id: 373
 title: LINQ query operators and null lists
 date: 2009-12-08T23:42:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/12/08/linq-query-operators-and-null-lists.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/12/08/linq-query-operators-and-null-lists.aspx
 dsq_thread_id:
   - "264716406"
 categories:

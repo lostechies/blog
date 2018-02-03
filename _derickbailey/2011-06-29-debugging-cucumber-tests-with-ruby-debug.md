@@ -1,10 +1,10 @@
 ---
-id: 462
+wordpress_id: 462
 title: Debugging Cucumber Tests With Ruby-Debug
 date: 2011-06-29T13:33:12+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=462
+wordpress_guid: http://lostechies.com/derickbailey/?p=462
 dsq_thread_id:
   - "345585513"
 categories:

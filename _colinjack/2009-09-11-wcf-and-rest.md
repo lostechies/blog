@@ -1,10 +1,10 @@
 ---
-id: 4653
+wordpress_id: 4653
 title: WCF and REST
 date: 2009-09-11T23:53:00+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/09/12/wcf-and-rest.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/09/12/wcf-and-rest.aspx
 categories:
   - REST
   - WCF

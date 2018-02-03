@@ -1,10 +1,10 @@
 ---
-id: 4215
+wordpress_id: 4215
 title: msysGit error setting certificate verify locations
 date: 2010-09-26T15:03:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/09/26/msysgit-error-setting-certificate-verify-locations.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/09/26/msysgit-error-setting-certificate-verify-locations.aspx
 dsq_thread_id:
   - "262493369"
 categories:

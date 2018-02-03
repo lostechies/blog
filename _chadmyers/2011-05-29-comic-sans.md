@@ -1,10 +1,10 @@
 ---
-id: 180
+wordpress_id: 180
 title: Comic Sans
 date: 2011-05-29T21:24:59+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=180
+wordpress_guid: http://lostechies.com/chadmyers/?p=180
 dsq_thread_id:
   - "317245969"
 categories:

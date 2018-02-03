@@ -1,10 +1,10 @@
 ---
-id: 3964
+wordpress_id: 3964
 title: Use gitk to understand git
 date: 2010-09-03T22:55:31+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git.aspx
 dsq_thread_id:
   - "262078944"
 categories:

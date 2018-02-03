@@ -1,10 +1,10 @@
 ---
-id: 4736
+wordpress_id: 4736
 title: 'Simple NHibernate Example, Part 4 : Session Management'
 date: 2007-03-30T16:37:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/03/30/simple-nhibernate-example-part-4-session-management.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/simple-nhibernate-example-part-4-session-management.aspx
 categories:
   - NHibernate
 ---

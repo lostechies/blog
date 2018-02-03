@@ -1,10 +1,10 @@
 ---
-id: 27
+wordpress_id: 27
 title: Walking through the creation of a complex installer package
 date: 2009-06-26T12:05:21+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/06/26/walking-through-the-creation-of-a-complex-installer-package.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/06/26/walking-through-the-creation-of-a-complex-installer-package.aspx
 dsq_thread_id:
   - "263908879"
 categories:

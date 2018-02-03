@@ -1,10 +1,10 @@
 ---
-id: 74
+wordpress_id: 74
 title: 'StuctureMap: Advanced-level Usage Scenarios (Part 1: Type/Convention Scanners)'
 date: 2008-08-02T00:51:58+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/08/01/stucturemap-advanced-level-usage-scenarios-part-1-type-convention-scanners.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/08/01/stucturemap-advanced-level-usage-scenarios-part-1-type-convention-scanners.aspx
 dsq_thread_id:
   - "262113960"
 categories:

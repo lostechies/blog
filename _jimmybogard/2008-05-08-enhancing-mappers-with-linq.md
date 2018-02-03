@@ -1,10 +1,10 @@
 ---
-id: 179
+wordpress_id: 179
 title: Enhancing mappers with LINQ
 date: 2008-05-08T11:49:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/08/enhancing-mappers-with-linq.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/08/enhancing-mappers-with-linq.aspx
 dsq_thread_id:
   - "264715727"
 categories:

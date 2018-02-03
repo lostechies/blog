@@ -1,10 +1,10 @@
 ---
-id: 1212
+wordpress_id: 1212
 title: 10 Lessons from a Long Running DDD Project – Part 2
 date: 2016-06-20T19:04:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1212
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1212
 dsq_thread_id:
   - "4925609122"
 categories:

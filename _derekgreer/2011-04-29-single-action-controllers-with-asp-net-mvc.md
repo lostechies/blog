@@ -1,10 +1,10 @@
 ---
-id: 286
+wordpress_id: 286
 title: Single Action Controllers with ASP.Net MVC
 date: 2011-04-29T01:40:16+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=286
+wordpress_guid: http://lostechies.com/derekgreer/?p=286
 dsq_thread_id:
   - "290982506"
 dsq_needs_sync:

@@ -1,10 +1,10 @@
 ---
-id: 127
+wordpress_id: 127
 title: Find And Replace With Regular Expressions In Vim / ViEmu
 date: 2010-03-30T18:38:32+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/30/find-and-replace-with-regular-expressions-in-vim-viemu.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/30/find-and-replace-with-regular-expressions-in-vim-viemu.aspx
 dsq_thread_id:
   - "262068529"
 categories:

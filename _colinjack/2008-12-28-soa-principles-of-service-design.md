@@ -1,10 +1,10 @@
 ---
-id: 4641
+wordpress_id: 4641
 title: SOA Principles of Service Design
 date: 2008-12-28T14:31:57+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2008/12/28/soa-principles-of-service-design.aspx
+wordpress_guid: /blogs/colinjack/archive/2008/12/28/soa-principles-of-service-design.aspx
 categories:
   - Uncategorized
 ---

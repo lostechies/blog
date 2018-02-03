@@ -1,10 +1,10 @@
 ---
-id: 111
+wordpress_id: 111
 title: 'Role Specific Interfaces: DIP And ISP In Action'
 date: 2010-03-07T19:56:07+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/07/role-specific-interfaces-dip-and-isp-in-action.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/07/role-specific-interfaces-dip-and-isp-in-action.aspx
 dsq_thread_id:
   - "275363510"
 categories:

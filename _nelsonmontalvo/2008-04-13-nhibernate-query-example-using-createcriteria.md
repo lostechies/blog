@@ -1,10 +1,10 @@
 ---
-id: 4743
+wordpress_id: 4743
 title: NHibernate Query Example using CreateCriteria
 date: 2008-04-13T13:18:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2008/04/13/nhibernate-query-example-using-createcriteria.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2008/04/13/nhibernate-query-example-using-createcriteria.aspx
 categories:
   - NHibernate
 ---

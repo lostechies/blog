@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: 'Real Swiss don&#8217;t need SRP, do they?'
 date: 2009-01-21T06:24:50+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/01/21/real-swiss-don-t-need-srp-do-they.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/01/21/real-swiss-don-t-need-srp-do-they.aspx
 dsq_thread_id:
   - "263908782"
 categories:

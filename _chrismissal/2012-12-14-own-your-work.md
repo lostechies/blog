@@ -1,10 +1,10 @@
 ---
-id: 358
+wordpress_id: 358
 title: Own Your Work
 date: 2012-12-14T07:50:30+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=358
+wordpress_guid: http://lostechies.com/chrismissal/?p=358
 dsq_thread_id:
   - "973622456"
 categories:

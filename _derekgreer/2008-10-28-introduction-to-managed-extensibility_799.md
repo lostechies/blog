@@ -1,10 +1,10 @@
 ---
-id: 452
+wordpress_id: 452
 title: An Introduction to the Managed Extensibility Framework
 date: 2008-10-28T19:06:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2008/10/an-introduction-to-the-managed-extensibility-framework/
+wordpress_guid: http://www.aspiringcraftsman.com/2008/10/an-introduction-to-the-managed-extensibility-framework/
 dsq_thread_id:
   - "325603762"
 categories:

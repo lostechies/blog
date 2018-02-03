@@ -1,10 +1,10 @@
 ---
-id: 83
+wordpress_id: 83
 title: Getting Started With jQuery QUnit for Client-Side Javascript Testing
 date: 2008-08-29T02:26:06+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/08/28/getting-started-with-jquery-qunit-for-client-side-javascript-testing.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/08/28/getting-started-with-jquery-qunit-for-client-side-javascript-testing.aspx
 dsq_thread_id:
   - "262114058"
 categories:

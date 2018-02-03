@@ -1,10 +1,10 @@
 ---
-id: 123
+wordpress_id: 123
 title: VAN (Virtual ALT.NET Meeting) Wednesday Night
 date: 2009-01-07T02:33:58+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/01/06/van-virtual-alt-net-meeting-wednesday-night.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/01/06/van-virtual-alt-net-meeting-wednesday-night.aspx
 dsq_thread_id:
   - "262114282"
 categories:

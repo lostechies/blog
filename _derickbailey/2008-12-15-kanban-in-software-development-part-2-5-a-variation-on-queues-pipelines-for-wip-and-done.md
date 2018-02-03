@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: 'Kanban in Software Development. Part 2.5: A Variation on Queues &#8211; Pipelines for WIP and Done'
 date: 2008-12-15T17:07:38+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/12/15/kanban-in-software-development-part-2-5-a-variation-on-queues-pipelines-for-wip-and-done.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/12/15/kanban-in-software-development-part-2-5-a-variation-on-queues-pipelines-for-wip-and-done.aspx
 dsq_thread_id:
   - "262067975"
 categories:

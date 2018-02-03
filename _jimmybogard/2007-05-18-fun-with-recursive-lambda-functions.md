@@ -1,10 +1,10 @@
 ---
-id: 20
+wordpress_id: 20
 title: Fun with recursive Lambda functions
 date: 2007-05-18T14:46:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/18/fun-with-recursive-lambda-functions.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/18/fun-with-recursive-lambda-functions.aspx
 dsq_thread_id:
   - "264715367"
 categories:

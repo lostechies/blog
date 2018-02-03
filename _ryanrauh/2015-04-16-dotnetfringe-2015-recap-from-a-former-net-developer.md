@@ -1,10 +1,10 @@
 ---
-id: 269
+wordpress_id: 269
 title: DotNetFringe 2015 Recap From a Former .NET Developer
 date: 2015-04-16T22:03:06+00:00
 author: Ryan Rauh
 layout: post
-guid: https://lostechies.com/ryanrauh/?p=269
+wordpress_guid: https://lostechies.com/ryanrauh/?p=269
 dsq_thread_id:
   - "3687862105"
 categories:

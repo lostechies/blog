@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: Swallowing exceptions is hazardous to your health
 date: 2007-04-30T13:12:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/04/30/swallowing-exceptions-is-hazardous-to-your-health.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/04/30/swallowing-exceptions-is-hazardous-to-your-health.aspx
 dsq_thread_id:
   - "266774441"
 categories:

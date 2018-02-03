@@ -1,10 +1,10 @@
 ---
-id: 723
+wordpress_id: 723
 title: NServiceBus, Semantic Versioning and events
 date: 2013-01-31T15:21:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=723
+wordpress_guid: http://lostechies.com/jimmybogard/?p=723
 dsq_thread_id:
   - "1057153271"
 categories:

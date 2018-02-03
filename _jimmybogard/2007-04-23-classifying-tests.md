@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: Classifying tests
 date: 2007-04-23T12:57:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/04/23/classifying-tests.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/04/23/classifying-tests.aspx
 dsq_thread_id:
   - "305804401"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 19
+wordpress_id: 19
 title: 'PTOM: Descriptive State Enumeration'
 date: 2008-11-26T19:31:57+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/11/26/ptom-descriptive-state-enumeration.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/11/26/ptom-descriptive-state-enumeration.aspx
 dsq_thread_id:
   - "262067977"
 categories:

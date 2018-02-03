@@ -1,10 +1,10 @@
 ---
-id: 3365
+wordpress_id: 3365
 title: 'I&#8217;m A Lucky Programmer Too!'
 date: 2009-09-02T18:44:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/09/02/i-m-a-lucky-programmer-too.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/09/02/i-m-a-lucky-programmer-too.aspx
 dsq_thread_id:
   - "272602458"
 categories:

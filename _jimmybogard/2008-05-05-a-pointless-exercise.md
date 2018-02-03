@@ -1,10 +1,10 @@
 ---
-id: 176
+wordpress_id: 176
 title: A pointless exercise
 date: 2008-05-05T11:40:40+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/05/a-pointless-exercise.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/05/a-pointless-exercise.aspx
 dsq_thread_id:
   - "264715686"
 categories:

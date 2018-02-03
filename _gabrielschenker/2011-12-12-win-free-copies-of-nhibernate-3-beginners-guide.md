@@ -1,10 +1,10 @@
 ---
-id: 74
+wordpress_id: 74
 title: 'Win Free Copies of NHibernate 3 Beginner&#8217;s Guide'
 date: 2011-12-12T08:07:31+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/2011/12/12/win-free-copies-of-nhibernate-3-beginners-guide/
+wordpress_guid: http://lostechies.com/gabrielschenker/2011/12/12/win-free-copies-of-nhibernate-3-beginners-guide/
 dsq_thread_id:
   - "501933429"
 categories:

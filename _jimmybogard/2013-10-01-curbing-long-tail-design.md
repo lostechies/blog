@@ -1,10 +1,10 @@
 ---
-id: 826
+wordpress_id: 826
 title: Curbing long tail design
 date: 2013-10-01T13:37:52+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=826
+wordpress_guid: http://lostechies.com/jimmybogard/?p=826
 dsq_thread_id:
   - "1814486780"
 categories:

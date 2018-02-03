@@ -1,10 +1,10 @@
 ---
-id: 163
+wordpress_id: 163
 title: Building a slack bot with botkit node and docker
 date: 2016-04-14T19:29:05+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=163
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=163
 dsq_thread_id:
   - "4747432518"
 categories:

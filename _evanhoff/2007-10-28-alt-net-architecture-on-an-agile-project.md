@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: 'ALT.NET: Architecture on an Agile Project'
 date: 2007-10-28T18:15:34+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/28/alt-net-architecture-on-an-agile-project.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/28/alt-net-architecture-on-an-agile-project.aspx
 categories:
   - Uncategorized
 ---

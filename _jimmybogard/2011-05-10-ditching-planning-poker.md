@@ -1,10 +1,10 @@
 ---
-id: 476
+wordpress_id: 476
 title: Ditching planning poker
 date: 2011-05-10T12:53:37+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/05/10/ditching-planning-poker/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/05/10/ditching-planning-poker/
 dsq_thread_id:
   - "300070684"
 categories:

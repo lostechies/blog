@@ -1,10 +1,10 @@
 ---
-id: 1181
+wordpress_id: 1181
 title: Getting The Real Client IP Address On A Heroku Hosted NodeJS App
 date: 2013-12-04T09:35:55+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1181
+wordpress_guid: http://lostechies.com/derickbailey/?p=1181
 dsq_thread_id:
   - "2024117376"
 categories:

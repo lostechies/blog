@@ -1,10 +1,10 @@
 ---
-id: 57
+wordpress_id: 57
 title: Template Delegate Pattern
 date: 2007-08-30T00:51:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/29/template-delegate-pattern.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/29/template-delegate-pattern.aspx
 dsq_thread_id:
   - "268581945"
 categories:

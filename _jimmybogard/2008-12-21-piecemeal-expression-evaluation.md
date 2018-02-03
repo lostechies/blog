@@ -1,10 +1,10 @@
 ---
-id: 266
+wordpress_id: 266
 title: Piecemeal Expression evaluation
 date: 2008-12-21T22:33:06+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/12/21/piecemeal-expression-evaluation.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/12/21/piecemeal-expression-evaluation.aspx
 dsq_thread_id:
   - "272315840"
 categories:

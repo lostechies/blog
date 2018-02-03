@@ -1,10 +1,10 @@
 ---
-id: 700
+wordpress_id: 700
 title: 'Messaging semantics: names and verbs'
 date: 2012-12-06T07:57:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=700
+wordpress_guid: http://lostechies.com/jimmybogard/?p=700
 dsq_thread_id:
   - "960712749"
 categories:

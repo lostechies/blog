@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: 'Book Reviews &#8211; Release It! and RESTful Web Services Cookbook'
 date: 2010-05-26T21:08:01+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2010/05/26/book-reviews-release-it-and-restful-web-services-cookbook.aspx
+wordpress_guid: /blogs/colinjack/archive/2010/05/26/book-reviews-release-it-and-restful-web-services-cookbook.aspx
 categories:
   - Books
 ---

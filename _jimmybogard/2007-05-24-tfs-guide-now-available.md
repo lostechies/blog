@@ -1,10 +1,10 @@
 ---
-id: 25
+wordpress_id: 25
 title: TFS Guide now available
 date: 2007-05-24T15:32:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/24/tfs-guide-now-available.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/24/tfs-guide-now-available.aspx
 dsq_thread_id:
   - "271347307"
 categories:

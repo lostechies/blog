@@ -1,10 +1,10 @@
 ---
-id: 27
+wordpress_id: 27
 title: 'Resharper templates: Don&#8217;t forget the Macros'
 date: 2009-04-06T04:36:17+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/04/06/resharper-templates-don-t-forget-the-macros.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/04/06/resharper-templates-don-t-forget-the-macros.aspx
 dsq_thread_id:
   - "262055623"
 categories:

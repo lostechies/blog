@@ -1,10 +1,10 @@
 ---
-id: 3219
+wordpress_id: 3219
 title: 'Refactoring Day 25 : Introduce Design By Contract checks'
 date: 2009-08-25T12:02:49+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/25/refactoring-day-25-introduce-design-by-contract-checks.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/25/refactoring-day-25-introduce-design-by-contract-checks.aspx
 dsq_thread_id:
   - "262355361"
 categories:

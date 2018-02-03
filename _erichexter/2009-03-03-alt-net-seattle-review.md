@@ -1,10 +1,10 @@
 ---
-id: 2965
+wordpress_id: 2965
 title: Alt.Net Seattle Review
 date: 2009-03-03T03:03:36+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/03/02/alt-net-seattle-review.aspx
+wordpress_guid: /blogs/hex/archive/2009/03/02/alt-net-seattle-review.aspx
 dsq_thread_id:
   - "265382907"
 categories:

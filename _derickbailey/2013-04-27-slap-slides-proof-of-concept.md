@@ -1,10 +1,10 @@
 ---
-id: 1095
+wordpress_id: 1095
 title: 'Slap-Slides: Arduino Powered Veggie Chopper Slide Deck Controller'
 date: 2013-04-27T14:31:39+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1095
+wordpress_guid: http://lostechies.com/derickbailey/?p=1095
 dsq_thread_id:
   - "1239993490"
 categories:

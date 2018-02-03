@@ -1,10 +1,10 @@
 ---
-id: 98
+wordpress_id: 98
 title: 'My ‘Decoupling Workflow’ Presentation Was Accepted For #LSSC10'
 date: 2010-01-20T16:55:46+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/01/20/my-decoupling-workflow-presentation-was-accepted-for-lssc10.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/01/20/my-decoupling-workflow-presentation-was-accepted-for-lssc10.aspx
 dsq_thread_id:
   - "272462269"
 categories:

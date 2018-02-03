@@ -1,10 +1,10 @@
 ---
-id: 123
+wordpress_id: 123
 title: Setting up Ubuntu Jaunty for Ruby and Rails development
 date: 2009-05-06T15:06:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2009/05/06/setting-up-ubuntu-jaunty-for-ruby-and-rails-development.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2009/05/06/setting-up-ubuntu-jaunty-for-ruby-and-rails-development.aspx
 dsq_thread_id:
   - "262089985"
 categories:

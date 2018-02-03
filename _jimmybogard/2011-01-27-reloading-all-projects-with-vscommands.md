@@ -1,10 +1,10 @@
 ---
-id: 450
+wordpress_id: 450
 title: Reloading all projects with VSCommands
 date: 2011-01-27T13:38:28+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/01/27/reloading-all-projects-with-vscommands.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/01/27/reloading-all-projects-with-vscommands.aspx
 dsq_thread_id:
   - "264744455"
 categories:

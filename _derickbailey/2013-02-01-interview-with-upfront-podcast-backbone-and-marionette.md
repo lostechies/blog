@@ -1,10 +1,10 @@
 ---
-id: 1043
+wordpress_id: 1043
 title: 'Interview With Upfront Podcast: Backbone And Marionette'
 date: 2013-02-01T08:06:42+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1043
+wordpress_guid: http://lostechies.com/derickbailey/?p=1043
 dsq_thread_id:
   - "1059073306"
 categories:

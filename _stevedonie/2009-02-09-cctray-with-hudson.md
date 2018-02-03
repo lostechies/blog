@@ -1,10 +1,10 @@
 ---
-id: 4765
+wordpress_id: 4765
 title: CCTray with Hudson
 date: 2009-02-09T15:42:12+00:00
 author: Steve Donie
 layout: post
-guid: /blogs/stevedonie/archive/2009/02/09/cctray-with-hudson.aspx
+wordpress_guid: /blogs/stevedonie/archive/2009/02/09/cctray-with-hudson.aspx
 dsq_thread_id:
   - "262124069"
 categories:

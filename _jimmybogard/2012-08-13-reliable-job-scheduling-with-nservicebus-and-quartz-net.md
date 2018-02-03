@@ -1,10 +1,10 @@
 ---
-id: 653
+wordpress_id: 653
 title: Reliable job scheduling with NServiceBus and Quartz.NET
 date: 2012-08-13T20:07:33+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/08/13/reliable-job-scheduling-with-nservicebus-and-quartz-net/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/08/13/reliable-job-scheduling-with-nservicebus-and-quartz-net/
 dsq_thread_id:
   - "803994416"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 224
+wordpress_id: 224
 title: One of those days
 date: 2008-08-30T14:35:39+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/08/30/one-of-those-days.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/08/30/one-of-those-days.aspx
 dsq_thread_id:
   - "264715875"
 categories:

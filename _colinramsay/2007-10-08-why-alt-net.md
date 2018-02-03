@@ -1,10 +1,10 @@
 ---
-id: 4681
+wordpress_id: 4681
 title: Why ALT.NET?
 date: 2007-10-08T10:56:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2007/10/08/why-alt-net.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2007/10/08/why-alt-net.aspx
 categories:
   - Uncategorized
 ---

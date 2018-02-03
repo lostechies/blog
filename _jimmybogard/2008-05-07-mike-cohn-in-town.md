@@ -1,10 +1,10 @@
 ---
-id: 178
+wordpress_id: 178
 title: Mike Cohn in town
 date: 2008-05-07T11:26:20+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/07/mike-cohn-in-town.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/07/mike-cohn-in-town.aspx
 dsq_thread_id:
   - "264715664"
 categories:

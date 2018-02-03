@@ -1,10 +1,10 @@
 ---
-id: 134
+wordpress_id: 134
 title: 'My C# Wish List'
 date: 2012-05-31T20:19:38+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=134
+wordpress_guid: http://lostechies.com/chrismissal/?p=134
 dsq_thread_id:
   - "710161998"
 categories:

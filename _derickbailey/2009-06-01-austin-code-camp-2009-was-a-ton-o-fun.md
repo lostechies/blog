@@ -1,10 +1,10 @@
 ---
-id: 56
+wordpress_id: 56
 title: Austin Code Camp 2009 Was A Ton-O-Fun!
 date: 2009-06-01T16:33:54+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/06/01/austin-code-camp-2009-was-a-ton-o-fun.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/06/01/austin-code-camp-2009-was-a-ton-o-fun.aspx
 dsq_thread_id:
   - "262068180"
 categories:

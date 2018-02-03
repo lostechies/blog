@@ -1,10 +1,10 @@
 ---
-id: 770
+wordpress_id: 770
 title: 'Rant: That&#8217;s Not Rest.'
 date: 2012-01-25T07:22:34+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=770
+wordpress_guid: http://lostechies.com/derickbailey/?p=770
 dsq_thread_id:
   - "552097202"
 categories:

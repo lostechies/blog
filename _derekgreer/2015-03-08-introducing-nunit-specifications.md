@@ -1,10 +1,10 @@
 ---
-id: 824
+wordpress_id: 824
 title: Introducing NUnit.Specifications
 date: 2015-03-08T09:57:06+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=824
+wordpress_guid: http://lostechies.com/derekgreer/?p=824
 dsq_thread_id:
   - "3577757679"
 categories:

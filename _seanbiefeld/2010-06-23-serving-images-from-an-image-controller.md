@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: Serving Images from an Image Controller
 date: 2010-06-23T13:40:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2010/06/23/serving-images-from-an-image-controller.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2010/06/23/serving-images-from-an-image-controller.aspx
 dsq_thread_id:
   - "466699914"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1041
+wordpress_id: 1041
 title: You Are Not Paid To Write Software
 date: 2013-01-21T14:18:36+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1041
+wordpress_guid: http://lostechies.com/derickbailey/?p=1041
 dsq_thread_id:
   - "1038984227"
 categories:

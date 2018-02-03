@@ -1,10 +1,10 @@
 ---
-id: 28
+wordpress_id: 28
 title: 'Ah Ha Moments &#8211; Handcrafted CSS'
 date: 2011-10-17T15:00:17+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=28
+wordpress_guid: http://lostechies.com/ryanrauh/?p=28
 dsq_thread_id:
   - "445950181"
 categories:

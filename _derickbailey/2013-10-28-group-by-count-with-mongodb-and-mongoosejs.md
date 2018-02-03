@@ -1,10 +1,10 @@
 ---
-id: 1172
+wordpress_id: 1172
 title: Group By Count With MongoDB And MongooseJS
 date: 2013-10-28T17:30:38+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1172
+wordpress_guid: http://lostechies.com/derickbailey/?p=1172
 dsq_thread_id:
   - "1912406878"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 97
+wordpress_id: 97
 title: Coding without confidence
 date: 2007-11-12T20:38:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/12/coding-without-confidence.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/12/coding-without-confidence.aspx
 dsq_thread_id:
   - "264715412"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: 'A Project Walk Through &#8211; Defining User Stories'
 date: 2008-02-23T23:04:28+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/02/23/a-project-walk-through-defining-user-stories.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/02/23/a-project-walk-through-defining-user-stories.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 4478
+wordpress_id: 4478
 title: This Week in Fail
 date: 2010-08-10T12:20:37+00:00
 author: Rod Paddock
 layout: post
-guid: /blogs/rodpaddock/archive/2010/08/10/this-week-in-fail.aspx
+wordpress_guid: /blogs/rodpaddock/archive/2010/08/10/this-week-in-fail.aspx
 dsq_thread_id:
   - "263003375"
 categories:

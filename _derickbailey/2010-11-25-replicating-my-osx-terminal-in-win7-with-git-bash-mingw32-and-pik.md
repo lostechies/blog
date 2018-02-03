@@ -1,10 +1,10 @@
 ---
-id: 199
+wordpress_id: 199
 title: Replicating My OSX Terminal In Win7 with Git Bash (MinGW32) and Pik
 date: 2010-11-25T17:14:16+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/11/25/replicating-my-osx-terminal-in-win7-with-git-bash-mingw32-and-pik.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/11/25/replicating-my-osx-terminal-in-win7-with-git-bash-mingw32-and-pik.aspx
 dsq_thread_id:
   - "262431042"
 categories:

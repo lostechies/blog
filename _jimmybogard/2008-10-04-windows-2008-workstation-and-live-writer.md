@@ -1,10 +1,10 @@
 ---
-id: 235
+wordpress_id: 235
 title: Windows 2008 Workstation and Live Writer
 date: 2008-10-04T13:50:53+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/04/windows-2008-workstation-and-live-writer.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/04/windows-2008-workstation-and-live-writer.aspx
 dsq_thread_id:
   - "265823857"
 categories:

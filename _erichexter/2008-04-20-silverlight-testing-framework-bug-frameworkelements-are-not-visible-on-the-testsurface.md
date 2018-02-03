@@ -1,10 +1,10 @@
 ---
-id: 2946
+wordpress_id: 2946
 title: 'Silverlight Testing framework bug &#8211; FrameworkElements are not visible on the TestSurface'
 date: 2008-04-20T04:24:36+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/04/20/silverlight-testing-framework-bug-frameworkelements-are-not-visible-on-the-testsurface.aspx
+wordpress_guid: /blogs/hex/archive/2008/04/20/silverlight-testing-framework-bug-frameworkelements-are-not-visible-on-the-testsurface.aspx
 dsq_thread_id:
   - "1088629346"
 categories:

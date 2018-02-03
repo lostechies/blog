@@ -1,10 +1,10 @@
 ---
-id: 1117
+wordpress_id: 1117
 title: My Smart Phone Made Me Dumb. I Fixed It.
 date: 2013-06-19T10:34:33+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1117
+wordpress_guid: http://lostechies.com/derickbailey/?p=1117
 dsq_thread_id:
   - "1412690942"
 categories:

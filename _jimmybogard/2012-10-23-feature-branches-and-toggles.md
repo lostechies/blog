@@ -1,10 +1,10 @@
 ---
-id: 679
+wordpress_id: 679
 title: Feature branches and toggles
 date: 2012-10-23T03:12:38+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/10/23/feature-branches-and-toggles/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/10/23/feature-branches-and-toggles/
 dsq_thread_id:
   - "896006426"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 229
+wordpress_id: 229
 title: Integrating StructureMap and NHibernate with WCF
 date: 2008-09-16T19:47:43+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/09/16/integrating-structuremap-and-nhibernate-with-wcf.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/09/16/integrating-structuremap-and-nhibernate-with-wcf.aspx
 dsq_thread_id:
   - "264715904"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 131
+wordpress_id: 131
 title: The Feature I Almost Skipped
 date: 2013-12-12T16:30:33+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=131
+wordpress_guid: http://lostechies.com/patricklioi/?p=131
 dsq_thread_id:
   - "2046178862"
 categories:

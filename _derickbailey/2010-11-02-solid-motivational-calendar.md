@@ -1,10 +1,10 @@
 ---
-id: 194
+wordpress_id: 194
 title: SOLID Motivational Calendar
 date: 2010-11-02T19:13:34+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/11/02/solid-motivational-calendar.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/11/02/solid-motivational-calendar.aspx
 dsq_thread_id:
   - "264473915"
 categories:

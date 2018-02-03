@@ -1,10 +1,10 @@
 ---
-id: 24
+wordpress_id: 24
 title: Creating a Silverlight Layout Panel
 date: 2008-09-14T16:21:04+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/09/14/creating-a-silverlight-layout-panel.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/09/14/creating-a-silverlight-layout-panel.aspx
 categories:
   - Uncategorized
 ---

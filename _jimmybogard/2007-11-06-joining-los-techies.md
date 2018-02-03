@@ -1,10 +1,10 @@
 ---
-id: 94
+wordpress_id: 94
 title: Joining Los Techies
 date: 2007-11-06T21:23:30+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/06/joining-los-techies.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/06/joining-los-techies.aspx
 dsq_thread_id:
   - "264715403"
 categories:

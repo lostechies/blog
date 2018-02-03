@@ -1,10 +1,10 @@
 ---
-id: 2131
+wordpress_id: 2131
 title: Up into the Swarm
 date: 2017-04-08T20:59:26+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=2131
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=2131
 dsq_thread_id:
   - "5709103488"
 categories:

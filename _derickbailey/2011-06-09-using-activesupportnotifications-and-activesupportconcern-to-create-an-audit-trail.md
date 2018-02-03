@@ -1,10 +1,10 @@
 ---
-id: 391
+wordpress_id: 391
 title: Using ActiveSupport::Notifications and ActiveSupport::Concern To Create An Audit Trail
 date: 2011-06-09T13:24:34+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=391
+wordpress_guid: http://lostechies.com/derickbailey/?p=391
 dsq_thread_id:
   - "327025468"
 categories:

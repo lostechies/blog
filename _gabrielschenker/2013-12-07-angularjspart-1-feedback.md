@@ -1,10 +1,10 @@
 ---
-id: 236
+wordpress_id: 236
 title: AngularJS–Part 1, Feedback
 date: 2013-12-07T13:22:13+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=236
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=236
 dsq_thread_id:
   - "2033440021"
 categories:

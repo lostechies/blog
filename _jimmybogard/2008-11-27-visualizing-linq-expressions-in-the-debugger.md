@@ -1,10 +1,10 @@
 ---
-id: 259
+wordpress_id: 259
 title: Visualizing LINQ expressions in the debugger
 date: 2008-11-27T03:08:52+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/11/26/visualizing-linq-expressions-in-the-debugger.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/11/26/visualizing-linq-expressions-in-the-debugger.aspx
 dsq_thread_id:
   - "264820126"
 categories:

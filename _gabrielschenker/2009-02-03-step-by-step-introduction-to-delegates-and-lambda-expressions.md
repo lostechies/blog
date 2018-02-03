@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: Step-by-step Introduction to Delegates and Lambda Expressions
 date: 2009-02-03T12:54:24+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/02/03/step-by-step-introduction-to-delegates-and-lambda-expressions.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/02/03/step-by-step-introduction-to-delegates-and-lambda-expressions.aspx
 dsq_thread_id:
   - "263908814"
 categories:

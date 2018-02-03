@@ -1,10 +1,10 @@
 ---
-id: 3224
+wordpress_id: 3224
 title: 'Refactoring Day 30 : Return ASAP'
 date: 2009-08-28T16:38:40+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/28/refactoring-day-30-return-asap.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/28/refactoring-day-30-return-asap.aspx
 dsq_thread_id:
   - "262356806"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 315
+wordpress_id: 315
 title: 'New Blogger: Ryan Rauh'
 date: 2011-10-07T15:06:02+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/2011/10/07/new-blogger-ryan-rauh/
+wordpress_guid: http://lostechies.com/chadmyers/2011/10/07/new-blogger-ryan-rauh/
 dsq_thread_id:
   - "437090945"
 categories:

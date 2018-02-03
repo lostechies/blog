@@ -1,10 +1,10 @@
 ---
-id: 4195
+wordpress_id: 4195
 title: Functional Construction for ASP.NET Web Forms
 date: 2009-09-13T08:59:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/09/13/functional-construction-for-asp-net-web-forms.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/09/13/functional-construction-for-asp-net-web-forms.aspx
 dsq_thread_id:
   - "264826946"
 categories:

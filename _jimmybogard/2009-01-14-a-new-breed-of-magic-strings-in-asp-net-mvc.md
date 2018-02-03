@@ -1,10 +1,10 @@
 ---
-id: 272
+wordpress_id: 272
 title: A new breed of magic strings in ASP.NET MVC
 date: 2009-01-14T12:34:20+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/01/14/a-new-breed-of-magic-strings-in-asp-net-mvc.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/01/14/a-new-breed-of-magic-strings-in-asp-net-mvc.aspx
 dsq_thread_id:
   - "264716034"
   - "264716034"

@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: A Challenge to Microsoft, Scott Guthrie
 date: 2008-01-06T14:35:29+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/01/06/a-challenge-to-microsoft-scott-guthrie.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/01/06/a-challenge-to-microsoft-scott-guthrie.aspx
 dsq_thread_id:
   - "262113563"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 174
+wordpress_id: 174
 title: How we do Internationalization
 date: 2011-02-04T18:10:30+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2011/02/04/how-we-do-internationalization.aspx
+wordpress_guid: /blogs/chad_myers/archive/2011/02/04/how-we-do-internationalization.aspx
 dsq_thread_id:
   - "262114586"
 categories:

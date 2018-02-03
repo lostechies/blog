@@ -1,10 +1,10 @@
 ---
-id: 46
+wordpress_id: 46
 title: 'Software is&#8230;'
 date: 2007-10-12T00:15:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/10/11/software-is.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/10/11/software-is.aspx
 categories:
   - blogging
   - Personal

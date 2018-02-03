@@ -1,10 +1,10 @@
 ---
-id: 775
+wordpress_id: 775
 title: Angular JS–Part 14, End to end tests
 date: 2014-04-18T11:08:52+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=775
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=775
 dsq_thread_id:
   - "2621822327"
 categories:

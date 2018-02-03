@@ -1,10 +1,10 @@
 ---
-id: 94
+wordpress_id: 94
 title: 'Albacore: Come join the discussion!'
 date: 2009-11-25T01:58:05+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/11/24/albacore-come-join-the-discussion.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/11/24/albacore-come-join-the-discussion.aspx
 dsq_thread_id:
   - "262068363"
 categories:

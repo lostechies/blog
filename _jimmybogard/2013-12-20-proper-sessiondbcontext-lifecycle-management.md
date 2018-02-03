@@ -1,10 +1,10 @@
 ---
-id: 847
+wordpress_id: 847
 title: Proper Session/DbContext lifecycle management
 date: 2013-12-20T14:56:50+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=847
+wordpress_guid: http://lostechies.com/jimmybogard/?p=847
 dsq_thread_id:
   - "2063097269"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 10
+wordpress_id: 10
 title: Castle ActiveRecord and registering classes at runtime
 date: 2009-06-03T06:02:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/06/03/castle-activerecord-and-registering-classes-at-runtime.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/06/03/castle-activerecord-and-registering-classes-at-runtime.aspx
 dsq_thread_id:
   - "1078364741"
 categories:

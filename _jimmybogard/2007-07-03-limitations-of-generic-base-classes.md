@@ -1,10 +1,10 @@
 ---
-id: 37
+wordpress_id: 37
 title: Limitations of generic base classes
 date: 2007-07-03T15:51:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/07/03/limitations-of-generic-base-classes.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/07/03/limitations-of-generic-base-classes.aspx
 dsq_thread_id:
   - "324047335"
 categories:

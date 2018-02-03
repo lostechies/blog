@@ -1,10 +1,10 @@
 ---
-id: 3867
+wordpress_id: 3867
 title: Hello World in C, Dev Setup
 date: 2010-12-29T21:15:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2010/12/29/hello-world-in-c-dev-setup.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2010/12/29/hello-world-in-c-dev-setup.aspx
 dsq_thread_id:
   - "263371082"
 categories:

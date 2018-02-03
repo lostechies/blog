@@ -1,10 +1,10 @@
 ---
-id: 675
+wordpress_id: 675
 title: Building a non-native mobile HTML5 App
 date: 2012-10-03T03:02:11+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/10/03/building-a-non-native-mobile-html5-app/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/10/03/building-a-non-native-mobile-html5-app/
 dsq_thread_id:
   - "868974935"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 109
+wordpress_id: 109
 title: Hard to say goodbye
 date: 2008-03-26T20:44:50+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/03/26/hard-to-say-goodbye.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/03/26/hard-to-say-goodbye.aspx
 dsq_thread_id:
   - "262089466"
 categories:

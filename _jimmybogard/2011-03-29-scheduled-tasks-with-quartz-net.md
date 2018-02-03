@@ -1,10 +1,10 @@
 ---
-id: 459
+wordpress_id: 459
 title: Scheduled tasks with Quartz.NET
 date: 2011-03-29T12:49:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/03/29/scheduled-tasks-with-quartz-net/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/03/29/scheduled-tasks-with-quartz-net/
 dsq_thread_id:
   - "265825430"
 categories:

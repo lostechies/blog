@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: Finding Design Smells In Non-Design Related Places
 date: 2008-10-28T17:45:45+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/10/28/finding-design-smells-in-non-design-related-places.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/10/28/finding-design-smells-in-non-design-related-places.aspx
 dsq_thread_id:
   - "262067919"
 categories:

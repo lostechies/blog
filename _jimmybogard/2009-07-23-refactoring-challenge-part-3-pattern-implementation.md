@@ -1,10 +1,10 @@
 ---
-id: 337
+wordpress_id: 337
 title: Refactoring Challenge Part 3 – Pattern Implementation
 date: 2009-07-23T01:21:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/22/refactoring-challenge-part-3-pattern-implementation.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/22/refactoring-challenge-part-3-pattern-implementation.aspx
 dsq_thread_id:
   - "270055988"
 categories:

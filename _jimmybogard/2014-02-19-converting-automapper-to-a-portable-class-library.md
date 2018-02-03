@@ -1,10 +1,10 @@
 ---
-id: 867
+wordpress_id: 867
 title: Converting AutoMapper to a Portable Class Library
 date: 2014-02-19T23:11:46+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=867
+wordpress_guid: http://lostechies.com/jimmybogard/?p=867
 dsq_thread_id:
   - "2290724497"
 categories:

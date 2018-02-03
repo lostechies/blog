@@ -1,10 +1,10 @@
 ---
-id: 131
+wordpress_id: 131
 title: Laws, Rules, Principles, Patterns, and Practices
 date: 2009-02-12T04:42:25+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/02/11/laws-rules-principles-patterns-and-practices.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/02/11/laws-rules-principles-patterns-and-practices.aspx
 dsq_thread_id:
   - "262114289"
 categories:

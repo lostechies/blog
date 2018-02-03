@@ -1,10 +1,10 @@
 ---
-id: 1123
+wordpress_id: 1123
 title: Docker on Windows Server 2016
 date: 2015-08-19T18:16:58+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1123
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1123
 dsq_thread_id:
   - "4048818981"
 categories:

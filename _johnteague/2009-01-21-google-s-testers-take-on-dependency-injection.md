@@ -1,10 +1,10 @@
 ---
-id: 20
+wordpress_id: 20
 title: Google’s Testers take on Dependency Injection
 date: 2009-01-21T00:27:11+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/01/20/google-s-testers-take-on-dependency-injection.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/01/20/google-s-testers-take-on-dependency-injection.aspx
 dsq_thread_id:
   - "262055589"
 categories:

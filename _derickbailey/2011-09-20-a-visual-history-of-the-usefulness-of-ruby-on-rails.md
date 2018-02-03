@@ -1,10 +1,10 @@
 ---
-id: 562
+wordpress_id: 562
 title: A Visual History Of The Usefulness Of Ruby On Rails
 date: 2011-09-20T15:27:24+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=562
+wordpress_guid: http://lostechies.com/derickbailey/?p=562
 dsq_thread_id:
   - "420714973"
 categories:

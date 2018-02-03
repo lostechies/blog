@@ -1,10 +1,10 @@
 ---
-id: 1227
+wordpress_id: 1227
 title: An Epic Report/Dashboard With Keen.io And Kendo UI DataViz
 date: 2014-01-21T10:38:26+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1227
+wordpress_guid: http://lostechies.com/derickbailey/?p=1227
 dsq_thread_id:
   - "2154228078"
 categories:

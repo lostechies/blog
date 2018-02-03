@@ -1,10 +1,10 @@
 ---
-id: 4794
+wordpress_id: 4794
 title: OO Do I Know Thee?
 date: 2011-01-21T22:13:00+00:00
 author: Gregory Long
 layout: post
-guid: /blogs/thatotherguy/archive/2011/01/21/oo-do-i-know-thee.aspx
+wordpress_guid: /blogs/thatotherguy/archive/2011/01/21/oo-do-i-know-thee.aspx
 dsq_thread_id:
   - "265182807"
 categories:

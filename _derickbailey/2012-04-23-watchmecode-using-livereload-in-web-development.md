@@ -1,10 +1,10 @@
 ---
-id: 908
+wordpress_id: 908
 title: 'WatchMeCode: Using LiveReload In Web Development'
 date: 2012-04-23T06:38:59+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=908
+wordpress_guid: http://lostechies.com/derickbailey/?p=908
 dsq_thread_id:
   - "660820728"
 categories:

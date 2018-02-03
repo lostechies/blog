@@ -1,10 +1,10 @@
 ---
-id: 3368
+wordpress_id: 3368
 title: Will Git Drive Open Source Contribution
 date: 2009-09-24T00:04:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/09/23/will-git-drive-open-source-contribution.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/09/23/will-git-drive-open-source-contribution.aspx
 dsq_thread_id:
   - "262175031"
 categories:

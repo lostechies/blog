@@ -1,10 +1,10 @@
 ---
-id: 3007
+wordpress_id: 3007
 title: DiscountASP.Net is a Platinum Sponsor of Austin Code Camp 2010
 date: 2010-03-15T12:25:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/03/15/discountasp-net-is-a-platinum-sponsor-of-austin-code-camp-2010.aspx
+wordpress_guid: /blogs/hex/archive/2010/03/15/discountasp-net-is-a-platinum-sponsor-of-austin-code-camp-2010.aspx
 dsq_thread_id:
   - "1107158636"
 categories:

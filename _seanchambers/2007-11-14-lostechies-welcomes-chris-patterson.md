@@ -1,10 +1,10 @@
 ---
-id: 3150
+wordpress_id: 3150
 title: LosTechies welcomes Chris Patterson!
 date: 2007-11-14T18:57:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/11/14/lostechies-welcomes-chris-patterson.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/11/14/lostechies-welcomes-chris-patterson.aspx
 dsq_thread_id:
   - "268123714"
 categories:

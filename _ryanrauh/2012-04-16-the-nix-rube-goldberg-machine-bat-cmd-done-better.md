@@ -1,10 +1,10 @@
 ---
-id: 139
+wordpress_id: 139
 title: 'The *nix Rube Goldberg Machine &#8211; .bat;.cmd done better'
 date: 2012-04-16T19:11:22+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=139
+wordpress_guid: http://lostechies.com/ryanrauh/?p=139
 dsq_thread_id:
   - "652006878"
 categories:

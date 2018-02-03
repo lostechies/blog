@@ -1,10 +1,10 @@
 ---
-id: 209
+wordpress_id: 209
 title: Responding To Growl Notification Clicks With MacRuby
 date: 2011-01-23T16:39:30+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/01/23/responding-to-growl-notification-clicks-and-timeouts-with-macruby.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/01/23/responding-to-growl-notification-clicks-and-timeouts-with-macruby.aspx
 dsq_thread_id:
   - "264031242"
 categories:

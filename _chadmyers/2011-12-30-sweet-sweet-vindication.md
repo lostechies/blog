@@ -1,10 +1,10 @@
 ---
-id: 322
+wordpress_id: 322
 title: Sweet, sweet vindication
 date: 2011-12-30T16:31:06+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?page_id=322
+wordpress_guid: http://lostechies.com/chadmyers/?page_id=322
 dsq_thread_id:
   - "521519771"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 73
+wordpress_id: 73
 title: Test Execution Order
 date: 2013-09-18T01:13:22+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=73
+wordpress_guid: http://lostechies.com/patricklioi/?p=73
 dsq_thread_id:
   - "1772037944"
 categories:

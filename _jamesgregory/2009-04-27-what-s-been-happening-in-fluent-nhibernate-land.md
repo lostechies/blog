@@ -1,10 +1,10 @@
 ---
-id: 4495
+wordpress_id: 4495
 title: 'What&#8217;s been happening in Fluent NHibernate land?'
 date: 2009-04-27T23:34:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2009/04/28/what-s-been-happening-in-fluent-nhibernate-land.aspx
+wordpress_guid: /blogs/jagregory/archive/2009/04/28/what-s-been-happening-in-fluent-nhibernate-land.aspx
 dsq_thread_id:
   - "273364417"
 categories:

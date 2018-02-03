@@ -1,10 +1,10 @@
 ---
-id: 176
+wordpress_id: 176
 title: 'Effective Tests: How Faking It Can Help You'
 date: 2011-03-29T17:50:32+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/2011/03/29/effective-tests-how-faking-it-can-help-you/
+wordpress_guid: http://lostechies.com/derekgreer/2011/03/29/effective-tests-how-faking-it-can-help-you/
 dsq_thread_id:
   - "266046447"
 categories:

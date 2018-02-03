@@ -1,10 +1,10 @@
 ---
-id: 35
+wordpress_id: 35
 title: Silverlight and styles
 date: 2010-01-06T13:43:40+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/01/06/silverlight-and-styles.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/01/06/silverlight-and-styles.aspx
 dsq_thread_id:
   - "263908912"
 categories:

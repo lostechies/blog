@@ -1,10 +1,10 @@
 ---
-id: 4684
+wordpress_id: 4684
 title: You Have Nothing To Fear From Javascript
 date: 2007-12-08T10:46:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2007/12/08/you-have-nothing-to-fear-from-javascript.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2007/12/08/you-have-nothing-to-fear-from-javascript.aspx
 categories:
   - JavaScript
 ---

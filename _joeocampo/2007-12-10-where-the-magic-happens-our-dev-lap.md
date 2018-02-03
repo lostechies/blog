@@ -1,10 +1,10 @@
 ---
-id: 88
+wordpress_id: 88
 title: 'Where the magic happens: Our Dev Lab'
 date: 2007-12-10T04:32:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/12/09/where-the-magic-happens-our-dev-lap.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/12/09/where-the-magic-happens-our-dev-lap.aspx
 dsq_thread_id:
   - "262090027"
 categories:

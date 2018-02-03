@@ -1,10 +1,10 @@
 ---
-id: 56
+wordpress_id: 56
 title: Agile references for PMs
 date: 2007-08-27T20:26:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/08/27/agile-references-for-pms.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/08/27/agile-references-for-pms.aspx
 dsq_thread_id:
   - "277469418"
 categories:

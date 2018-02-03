@@ -1,10 +1,10 @@
 ---
-id: 63
+wordpress_id: 63
 title: 'Ruth&#8217;s Story'
 date: 2013-02-04T06:28:45+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=63
+wordpress_guid: http://lostechies.com/ryansvihla/?p=63
 dsq_thread_id:
   - "1064380434"
 categories:

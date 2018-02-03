@@ -1,10 +1,10 @@
 ---
-id: 60
+wordpress_id: 60
 title: I’m Presenting SOLID At North Dallas .NET (NDDNUG), July 8th
 date: 2009-06-17T21:24:23+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/06/17/i-m-presenting-solid-at-north-dallas-net-nddnug-july-8th.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/06/17/i-m-presenting-solid-at-north-dallas-net-nddnug-july-8th.aspx
 dsq_thread_id:
   - "264634506"
 categories:

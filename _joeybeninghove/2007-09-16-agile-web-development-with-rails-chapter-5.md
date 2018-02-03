@@ -1,10 +1,10 @@
 ---
-id: 35
+wordpress_id: 35
 title: 'Agile Web Development with Rails &#8211; Chapter 5'
 date: 2007-09-16T22:44:14+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/16/agile-web-development-with-rails-chapter-5.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/16/agile-web-development-with-rails-chapter-5.aspx
 categories:
   - Books
   - Rails

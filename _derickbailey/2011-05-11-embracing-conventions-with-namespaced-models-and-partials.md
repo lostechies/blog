@@ -1,10 +1,10 @@
 ---
-id: 310
+wordpress_id: 310
 title: Embracing Conventions With Namespaced Models And Partials
 date: 2011-05-11T07:57:28+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=310
+wordpress_guid: http://lostechies.com/derickbailey/?p=310
 dsq_thread_id:
   - "301007218"
 categories:

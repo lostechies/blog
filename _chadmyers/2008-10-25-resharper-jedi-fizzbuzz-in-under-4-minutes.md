@@ -1,10 +1,10 @@
 ---
-id: 99
+wordpress_id: 99
 title: ReSharper Jedi – FizzBuzz in under 4 minutes
 date: 2008-10-25T05:12:00+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/25/resharper-jedi-fizzbuzz-in-under-4-minutes.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/25/resharper-jedi-fizzbuzz-in-under-4-minutes.aspx
 dsq_thread_id:
   - "262114097"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: 'How To: Change start location of a signed ClickOnce Application'
 date: 2009-03-24T08:51:16+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/03/24/how-to-change-start-location-of-a-signed-clickonce-application.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/03/24/how-to-change-start-location-of-a-signed-clickonce-application.aspx
 dsq_thread_id:
   - "263908829"
 categories:

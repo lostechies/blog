@@ -1,10 +1,10 @@
 ---
-id: 172
+wordpress_id: 172
 title: 'Legacy Operating Systems and Legacy Languages: If it ain&#8217;t broke, it still needs fixing'
 date: 2011-08-25T13:39:55+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=172
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=172
 dsq_thread_id:
   - "1091547294"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 511
+wordpress_id: 511
 title: Introducing the Expected Objects Library
 date: 2011-06-28T23:20:17+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=511
+wordpress_guid: http://lostechies.com/derekgreer/?p=511
 dsq_thread_id:
   - "344761418"
 categories:

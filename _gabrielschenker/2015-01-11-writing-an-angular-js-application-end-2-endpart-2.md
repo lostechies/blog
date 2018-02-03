@@ -1,10 +1,10 @@
 ---
-id: 883
+wordpress_id: 883
 title: Writing an Angular JS application end-2-end–Part 2
 date: 2015-01-11T13:45:09+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/?p=883
+wordpress_guid: http://lostechies.com/gabrielschenker/?p=883
 dsq_thread_id:
   - "3411485462"
 categories:

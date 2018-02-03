@@ -1,10 +1,10 @@
 ---
-id: 3618
+wordpress_id: 3618
 title: 'MassTransit ]|['
 date: 2014-11-30T00:28:20+00:00
 author: Chris Patterson
 layout: post
-guid: https://lostechies.com/chrispatterson/?p=116
+wordpress_guid: https://lostechies.com/chrispatterson/?p=116
 dsq_thread_id:
   - "3852074175"
 categories:

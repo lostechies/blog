@@ -1,10 +1,10 @@
 ---
-id: 326
+wordpress_id: 326
 title: More on Late-Bound Invocations with Expression Trees
 date: 2009-06-18T01:04:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/06/17/more-on-late-bound-invocations-with-expression-trees.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/06/17/more-on-late-bound-invocations-with-expression-trees.aspx
 dsq_thread_id:
   - "264716181"
 categories:

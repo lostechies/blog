@@ -1,10 +1,10 @@
 ---
-id: 184
+wordpress_id: 184
 title: 'Cool stuff in FubuCore No. 1: Cache'
 date: 2011-05-30T14:03:34+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=184
+wordpress_guid: http://lostechies.com/chadmyers/?p=184
 dsq_thread_id:
   - "317853776"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 1239
+wordpress_id: 1239
 title: 'Keen.io vs Telerik Analytics (Eqatec): You Should Be Using Both'
 date: 2014-01-23T11:06:47+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1239
+wordpress_guid: http://lostechies.com/derickbailey/?p=1239
 dsq_thread_id:
   - "2164352921"
 categories:

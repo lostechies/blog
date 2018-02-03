@@ -1,10 +1,10 @@
 ---
-id: 795
+wordpress_id: 795
 title: 'JavaScript File &#038; Folder Structures: Just Pick One'
 date: 2012-02-02T07:29:31+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=795
+wordpress_guid: http://lostechies.com/derickbailey/?p=795
 dsq_thread_id:
   - "561559798"
 categories:

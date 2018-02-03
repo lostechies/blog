@@ -1,10 +1,10 @@
 ---
-id: 1777
+wordpress_id: 1777
 title: 'Docker and Swarm Mode &#8211; Part 2'
 date: 2016-09-11T12:40:03+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1777
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1777
 dsq_thread_id:
   - "5136627994"
 dsq_needs_sync:

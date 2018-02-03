@@ -1,10 +1,10 @@
 ---
-id: 163
+wordpress_id: 163
 title: Looking for Extreme Programmers in Austin, TX
 date: 2008-03-25T18:50:06+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/25/looking-for-extreme-programmers-in-austin-tx.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/25/looking-for-extreme-programmers-in-austin-tx.aspx
 dsq_thread_id:
   - "264715622"
 categories:

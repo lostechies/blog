@@ -1,10 +1,10 @@
 ---
-id: 670
+wordpress_id: 670
 title: Evolutionary Project Structure
 date: 2012-08-30T16:40:56+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/08/30/evolutionary-project-structure/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/08/30/evolutionary-project-structure/
 dsq_thread_id:
   - "824503740"
 categories:

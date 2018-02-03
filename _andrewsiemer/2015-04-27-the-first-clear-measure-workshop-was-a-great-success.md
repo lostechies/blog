@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: The first Clear Measure Workshop was a great success
 date: 2015-04-27T15:29:13+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=32
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=32
 dsq_thread_id:
   - "3758592787"
 categories:

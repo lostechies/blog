@@ -1,10 +1,10 @@
 ---
-id: 231
+wordpress_id: 231
 title: Coding for Charity
 date: 2013-08-26T11:43:15+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=231
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=231
 dsq_thread_id:
   - "1650020939"
 categories:

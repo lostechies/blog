@@ -1,10 +1,10 @@
 ---
-id: 138
+wordpress_id: 138
 title: Excelling in a job interview
 date: 2009-04-17T04:12:41+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/04/17/excelling-in-a-job-interview.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/04/17/excelling-in-a-job-interview.aspx
 dsq_thread_id:
   - "273064963"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3000
+wordpress_id: 3000
 title: Automapper Auto Profile Registration.
 date: 2009-11-05T03:24:15+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/11/04/automapper-auto-profile-registration.aspx
+wordpress_guid: /blogs/hex/archive/2009/11/04/automapper-auto-profile-registration.aspx
 dsq_thread_id:
   - "262053425"
 categories:

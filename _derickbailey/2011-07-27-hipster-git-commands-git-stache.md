@@ -1,10 +1,10 @@
 ---
-id: 494
+wordpress_id: 494
 title: 'Hipster Git Commands: Git Stache'
 date: 2011-07-27T12:33:22+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=494
+wordpress_guid: http://lostechies.com/derickbailey/?p=494
 dsq_thread_id:
   - "370185794"
 categories:

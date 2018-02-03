@@ -1,10 +1,10 @@
 ---
-id: 4642
+wordpress_id: 4642
 title: 'Microsoft Forum &#8211; Creating a new community anti-pattern'
 date: 2008-12-30T07:59:00+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2008/12/30/microsoft-forum-creating-a-new-community-anti-pattern.aspx
+wordpress_guid: /blogs/colinjack/archive/2008/12/30/microsoft-forum-creating-a-new-community-anti-pattern.aspx
 categories:
   - Microsoft
 ---

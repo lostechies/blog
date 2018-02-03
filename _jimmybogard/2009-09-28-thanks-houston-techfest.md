@@ -1,10 +1,10 @@
 ---
-id: 354
+wordpress_id: 354
 title: Thanks Houston TechFest!
 date: 2009-09-28T12:41:01+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/09/28/thanks-houston-techfest.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/09/28/thanks-houston-techfest.aspx
 dsq_thread_id:
   - "265527686"
 categories:

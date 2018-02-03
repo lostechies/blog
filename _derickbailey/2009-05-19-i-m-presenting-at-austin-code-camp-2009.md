@@ -1,10 +1,10 @@
 ---
-id: 52
+wordpress_id: 52
 title: I’m Presenting At Austin Code Camp 2009
 date: 2009-05-19T01:29:32+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/05/18/i-m-presenting-at-austin-code-camp-2009.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/05/18/i-m-presenting-at-austin-code-camp-2009.aspx
 dsq_thread_id:
   - "271323209"
 categories:

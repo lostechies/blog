@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: WIX and Custom Actions
 date: 2010-05-18T22:47:50+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/05/19/wix-and-custom-actions.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/05/19/wix-and-custom-actions.aspx
 dsq_thread_id:
   - "263908918"
 categories:

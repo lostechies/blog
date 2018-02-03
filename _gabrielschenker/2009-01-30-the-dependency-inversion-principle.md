@@ -1,10 +1,10 @@
 ---
-id: 10
+wordpress_id: 10
 title: The Dependency Inversion Principle
 date: 2009-01-30T11:26:42+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/01/30/the-dependency-inversion-principle.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/01/30/the-dependency-inversion-principle.aspx
 dsq_thread_id:
   - "263908797"
 categories:

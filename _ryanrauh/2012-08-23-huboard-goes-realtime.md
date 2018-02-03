@@ -1,10 +1,10 @@
 ---
-id: 174
+wordpress_id: 174
 title: Huboard goes RealTime ™
 date: 2012-08-23T19:32:42+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=174
+wordpress_guid: http://lostechies.com/ryanrauh/?p=174
 dsq_thread_id:
   - "816089928"
 categories:

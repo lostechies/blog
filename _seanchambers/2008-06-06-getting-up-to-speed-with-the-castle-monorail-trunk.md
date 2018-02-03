@@ -1,10 +1,10 @@
 ---
-id: 3176
+wordpress_id: 3176
 title: Getting up to speed with the Castle.MonoRail trunk
 date: 2008-06-06T11:40:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/06/06/getting-up-to-speed-with-the-castle-monorail-trunk.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/06/06/getting-up-to-speed-with-the-castle-monorail-trunk.aspx
 dsq_thread_id:
   - "262830160"
 categories:

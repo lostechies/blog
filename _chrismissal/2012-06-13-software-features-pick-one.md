@@ -1,10 +1,10 @@
 ---
-id: 3394
+wordpress_id: 3394
 title: Software Features, Pick One
 date: 2012-06-13T06:00:26+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=218
+wordpress_guid: http://lostechies.com/chrismissal/?p=218
 dsq_thread_id:
   - "724098836"
 categories:

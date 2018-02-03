@@ -1,10 +1,10 @@
 ---
-id: 4739
+wordpress_id: 4739
 title: 'The &#8220;Domain Model&#8221;'
 date: 2007-09-27T01:02:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/09/26/the-quot-domain-model-quot.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/09/26/the-quot-domain-model-quot.aspx
 categories:
   - Domain Driven Design
 ---

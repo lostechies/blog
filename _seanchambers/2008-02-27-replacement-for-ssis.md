@@ -1,10 +1,10 @@
 ---
-id: 3167
+wordpress_id: 3167
 title: SSIS Frustration? Enter Pentaho
 date: 2008-02-27T15:19:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/02/27/replacement-for-ssis.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/02/27/replacement-for-ssis.aspx
 dsq_thread_id:
   - "262588607"
 categories:

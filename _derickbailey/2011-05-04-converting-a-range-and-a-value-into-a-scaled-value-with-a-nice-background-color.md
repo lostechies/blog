@@ -1,10 +1,10 @@
 ---
-id: 293
+wordpress_id: 293
 title: Converting A Range And A Value Into A Scaled Value, With A Nice Background Color
 date: 2011-05-04T06:36:17+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=293
+wordpress_guid: http://lostechies.com/derickbailey/?p=293
 dsq_thread_id:
   - "295035761"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 452
+wordpress_id: 452
 title: Autoprojecting LINQ queries
 date: 2011-02-09T13:51:50+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/02/09/autoprojecting-linq-queries.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/02/09/autoprojecting-linq-queries.aspx
 dsq_thread_id:
   - "264716654"
 categories:

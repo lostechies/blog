@@ -1,10 +1,10 @@
 ---
-id: 264
+wordpress_id: 264
 title: 'How to *easily* apt-get update &#8220;offline&#8221;'
 date: 2015-01-28T17:14:10+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=264
+wordpress_guid: http://lostechies.com/ryanrauh/?p=264
 dsq_thread_id:
   - "3463628590"
 categories:

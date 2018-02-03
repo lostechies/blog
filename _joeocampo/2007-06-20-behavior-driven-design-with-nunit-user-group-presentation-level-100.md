@@ -1,10 +1,10 @@
 ---
-id: 27
+wordpress_id: 27
 title: 'Behavior Driven Design with NUnit User Group Presentation &#8211; Level 100'
 date: 2007-06-20T12:36:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/06/20/behavior-driven-design-with-nunit-user-group-presentation-level-100.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/06/20/behavior-driven-design-with-nunit-user-group-presentation-level-100.aspx
 dsq_thread_id:
   - "262090083"
 categories:

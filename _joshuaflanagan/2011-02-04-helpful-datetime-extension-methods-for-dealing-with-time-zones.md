@@ -1,10 +1,10 @@
 ---
-id: 3971
+wordpress_id: 3971
 title: Helpful DateTime extension methods for dealing with Time Zones
 date: 2011-02-04T03:29:05+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2011/02/03/helpful-datetime-extension-methods-for-dealing-with-time-zones.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2011/02/03/helpful-datetime-extension-methods-for-dealing-with-time-zones.aspx
 dsq_thread_id:
   - "262113273"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 190
+wordpress_id: 190
 title: The Maybe Monad In Ruby
 date: 2010-10-10T01:41:59+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/10/09/the-maybe-monad-in-ruby.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/10/09/the-maybe-monad-in-ruby.aspx
 dsq_thread_id:
   - "263258991"
 categories:

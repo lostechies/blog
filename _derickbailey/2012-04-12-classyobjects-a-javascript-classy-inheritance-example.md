@@ -1,10 +1,10 @@
 ---
-id: 886
+wordpress_id: 886
 title: 'ClassyObjects: A JavaScript Class-y Inheritance Example'
 date: 2012-04-12T07:15:06+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=886
+wordpress_guid: http://lostechies.com/derickbailey/?p=886
 dsq_thread_id:
   - "646427279"
 categories:

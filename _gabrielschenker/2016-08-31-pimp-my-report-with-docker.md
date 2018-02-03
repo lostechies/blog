@@ -1,10 +1,10 @@
 ---
-id: 1719
+wordpress_id: 1719
 title: Pimp my report with Docker
 date: 2016-08-31T14:36:08+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1719
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1719
 dsq_thread_id:
   - "5109783117"
 categories:

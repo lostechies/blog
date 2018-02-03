@@ -1,10 +1,10 @@
 ---
-id: 3973
+wordpress_id: 3973
 title: 'Code samples from my ADNUG talk &#8211; Coding with Conventions'
 date: 2011-02-23T02:42:45+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2011/02/22/code-samples-from-my-adnug-talk-coding-with-conventions.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2011/02/22/code-samples-from-my-adnug-talk-coding-with-conventions.aspx
 dsq_thread_id:
   - "262428390"
 categories:

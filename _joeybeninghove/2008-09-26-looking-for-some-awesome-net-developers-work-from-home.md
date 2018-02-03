@@ -1,10 +1,10 @@
 ---
-id: 64
+wordpress_id: 64
 title: Looking for some awesome .NET developers (work from home)
 date: 2008-09-26T17:49:22+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2008/09/26/looking-for-some-awesome-net-developers-work-from-home.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2008/09/26/looking-for-some-awesome-net-developers-work-from-home.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 136
+wordpress_id: 136
 title: Coupling Is Your Friend
 date: 2010-04-12T21:59:29+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/12/coupling-is-your-friend.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/12/coupling-is-your-friend.aspx
 dsq_thread_id:
   - "266390768"
 categories:

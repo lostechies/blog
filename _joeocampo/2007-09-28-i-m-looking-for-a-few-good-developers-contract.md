@@ -1,10 +1,10 @@
 ---
-id: 66
+wordpress_id: 66
 title: 'I&#8217;m looking for a few good developers &#8211; contract'
 date: 2007-09-28T15:44:11+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/28/i-m-looking-for-a-few-good-developers-contract.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/28/i-m-looking-for-a-few-good-developers-contract.aspx
 categories:
   - Uncategorized
 ---

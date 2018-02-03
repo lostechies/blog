@@ -1,10 +1,10 @@
 ---
-id: 3596
+wordpress_id: 3596
 title: Prelude to Tulsa TechFest 2008
 date: 2008-09-25T00:32:53+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/09/24/prelude-to-tulsa-techfest-2008.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/09/24/prelude-to-tulsa-techfest-2008.aspx
 dsq_thread_id:
   - "262089246"
 categories:

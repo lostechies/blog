@@ -1,10 +1,10 @@
 ---
-id: 4060
+wordpress_id: 4060
 title: 'How We Do Things &#8211; The Team Room'
 date: 2009-11-17T14:30:16+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/11/17/how-we-do-things-the-team-room.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/11/17/how-we-do-things-the-team-room.aspx
 categories:
   - how we do it
   - improvement

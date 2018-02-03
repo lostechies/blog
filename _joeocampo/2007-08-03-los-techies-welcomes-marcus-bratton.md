@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: Los Techies Welcomes Marcus Bratton
 date: 2007-08-03T13:37:19+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/08/03/los-techies-welcomes-marcus-bratton.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/08/03/los-techies-welcomes-marcus-bratton.aspx
 dsq_thread_id:
   - "262089672"
 categories:

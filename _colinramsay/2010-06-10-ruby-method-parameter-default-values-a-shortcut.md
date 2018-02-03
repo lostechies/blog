@@ -1,10 +1,10 @@
 ---
-id: 4694
+wordpress_id: 4694
 title: 'Ruby Method Parameter Default Values &#8211; A Shortcut'
 date: 2010-06-10T17:05:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2010/06/10/ruby-method-parameter-default-values-a-shortcut.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2010/06/10/ruby-method-parameter-default-values-a-shortcut.aspx
 categories:
   - Ruby
 ---

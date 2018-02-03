@@ -1,10 +1,10 @@
 ---
-id: 173
+wordpress_id: 173
 title: Raising the bar
 date: 2008-04-26T03:34:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/04/25/raising-the-bar.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/04/25/raising-the-bar.aspx
 dsq_thread_id:
   - "264715661"
 categories:

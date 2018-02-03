@@ -1,10 +1,10 @@
 ---
-id: 3340
+wordpress_id: 3340
 title: Learning StructureMap Through Tiny Goals
 date: 2009-01-22T13:21:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/01/22/learning-structuremap-through-tiny-goals.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/01/22/learning-structuremap-through-tiny-goals.aspx
 dsq_thread_id:
   - "262878078"
 categories:

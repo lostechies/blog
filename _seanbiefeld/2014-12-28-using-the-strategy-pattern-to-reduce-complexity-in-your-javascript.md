@@ -1,10 +1,10 @@
 ---
-id: 4457
+wordpress_id: 4457
 title: Using the Strategy Pattern to Reduce Complexity in Your JavaScript
 date: 2014-12-28T18:48:30+00:00
 author: Sean Biefeld
 layout: post
-guid: http://lostechies.com/seanbiefeld/?p=188
+wordpress_guid: http://lostechies.com/seanbiefeld/?p=188
 dsq_thread_id:
   - "3367781000"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 499
+wordpress_id: 499
 title: Model binding XML in ASP.NET MVC 3
 date: 2011-06-24T01:48:24+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/06/24/model-binding-xml-in-asp-net-mvc-3/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/06/24/model-binding-xml-in-asp-net-mvc-3/
 dsq_thread_id:
   - "340788436"
 categories:

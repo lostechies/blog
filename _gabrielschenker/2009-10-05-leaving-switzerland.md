@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: Leaving Switzerland
 date: 2009-10-05T12:12:57+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/10/05/leaving-switzerland.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/10/05/leaving-switzerland.aspx
 dsq_thread_id:
   - "263908883"
 categories:

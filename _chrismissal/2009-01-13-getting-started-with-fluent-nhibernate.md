@@ -1,10 +1,10 @@
 ---
-id: 5
+wordpress_id: 5
 title: 'Fluent NHibernate&#8217;s AutoPersistenceModel'
 date: 2009-01-13T01:39:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/01/12/getting-started-with-fluent-nhibernate.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/01/12/getting-started-with-fluent-nhibernate.aspx
 dsq_thread_id:
   - "262174713"
 categories:

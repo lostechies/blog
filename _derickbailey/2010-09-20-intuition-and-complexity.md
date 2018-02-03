@@ -1,10 +1,10 @@
 ---
-id: 183
+wordpress_id: 183
 title: Intuition And Complexity
 date: 2010-09-20T19:57:41+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/09/20/intuition-and-complexity.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/09/20/intuition-and-complexity.aspx
 dsq_thread_id:
   - "271197050"
 categories:

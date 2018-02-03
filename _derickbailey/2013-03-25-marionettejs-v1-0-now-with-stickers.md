@@ -1,10 +1,10 @@
 ---
-id: 1080
+wordpress_id: 1080
 title: MarionetteJS v1.0
 date: 2013-03-25T07:19:08+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1080
+wordpress_guid: http://lostechies.com/derickbailey/?p=1080
 dsq_thread_id:
   - "1160413660"
 categories:

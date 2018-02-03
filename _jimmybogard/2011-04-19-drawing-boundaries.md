@@ -1,10 +1,10 @@
 ---
-id: 470
+wordpress_id: 470
 title: Drawing boundaries
 date: 2011-04-19T01:50:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/04/19/drawing-boundaries/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/04/19/drawing-boundaries/
 dsq_thread_id:
   - "282929235"
 categories:

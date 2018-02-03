@@ -1,10 +1,10 @@
 ---
-id: 205
+wordpress_id: 205
 title: ALT.NET Certification course
 date: 2008-07-12T21:16:26+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/07/12/alt-net-certification-course.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/07/12/alt-net-certification-course.aspx
 dsq_thread_id:
   - "264715836"
 categories:

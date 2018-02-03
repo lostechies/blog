@@ -1,10 +1,10 @@
 ---
-id: 720
+wordpress_id: 720
 title: Searching With A BackboneJS Collection
 date: 2011-12-15T08:18:31+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=720
+wordpress_guid: http://lostechies.com/derickbailey/?p=720
 dsq_thread_id:
   - "505389545"
 categories:

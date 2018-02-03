@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: 'Mapping Strings to Booleans Using NHibernate&#8217;s IUserType'
 date: 2008-03-23T05:03:26+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/03/23/mapping-strings-to-booleans-using-nhibernate-s-iusertype.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/03/23/mapping-strings-to-booleans-using-nhibernate-s-iusertype.aspx
 categories:
   - Uncategorized
 ---

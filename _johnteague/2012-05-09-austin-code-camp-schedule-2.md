@@ -1,10 +1,10 @@
 ---
-id: 110
+wordpress_id: 110
 title: Austin Code Camp Schedule
 date: 2012-05-09T04:56:00+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=110
+wordpress_guid: http://lostechies.com/johnteague/?p=110
 dsq_thread_id:
   - "681887692"
 categories:

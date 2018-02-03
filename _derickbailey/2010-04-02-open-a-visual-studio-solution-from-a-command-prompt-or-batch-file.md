@@ -1,10 +1,10 @@
 ---
-id: 130
+wordpress_id: 130
 title: Open A Visual Studio Solution From A Command Prompt Or Batch File
 date: 2010-04-02T13:47:34+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/02/open-a-visual-studio-solution-from-a-command-prompt-or-batch-file.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/02/open-a-visual-studio-solution-from-a-command-prompt-or-batch-file.aspx
 dsq_thread_id:
   - "262068536"
 categories:

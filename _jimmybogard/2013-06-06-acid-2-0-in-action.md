@@ -1,10 +1,10 @@
 ---
-id: 788
+wordpress_id: 788
 title: ACID 2.0 in action
 date: 2013-06-06T14:23:27+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=788
+wordpress_guid: http://lostechies.com/jimmybogard/?p=788
 dsq_thread_id:
   - "1369910969"
 categories:

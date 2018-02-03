@@ -1,10 +1,10 @@
 ---
-id: 4718
+wordpress_id: 4718
 title: Why Chrome OS Will Succeed (in a limited market)
 date: 2009-11-20T13:22:00+00:00
 author: Eric Anderson
 layout: post
-guid: /blogs/eric/archive/2009/11/20/why-chrome-os-will-succeed-in-a-limited-market.aspx
+wordpress_guid: /blogs/eric/archive/2009/11/20/why-chrome-os-will-succeed-in-a-limited-market.aspx
 categories:
   - Chrome OS
   - Google

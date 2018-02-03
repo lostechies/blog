@@ -1,10 +1,10 @@
 ---
-id: 184
+wordpress_id: 184
 title: 'ASP.NET: officially unmaintainable'
 date: 2008-05-19T02:13:26+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/18/asp-net-officially-unmaintainable.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/18/asp-net-officially-unmaintainable.aspx
 dsq_thread_id:
   - "264715710"
 categories:

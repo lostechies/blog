@@ -1,10 +1,10 @@
 ---
-id: 4321
+wordpress_id: 4321
 title: A Very Poor Object Model Is Really No Object Model At All
 date: 2008-05-05T01:59:02+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/05/04/a-very-poor-object-model-is-really-no-object-model-at-all.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/05/04/a-very-poor-object-model-is-really-no-object-model-at-all.aspx
 categories:
   - Uncategorized
 ---

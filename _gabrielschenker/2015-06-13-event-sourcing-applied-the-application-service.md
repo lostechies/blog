@@ -1,10 +1,10 @@
 ---
-id: 1050
+wordpress_id: 1050
 title: 'Event Sourcing applied &#8211; the application service'
 date: 2015-06-13T15:52:41+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1050
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1050
 dsq_thread_id:
   - "3846334219"
 categories:

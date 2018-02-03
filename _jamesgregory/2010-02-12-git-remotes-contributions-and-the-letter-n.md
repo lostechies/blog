@@ -1,10 +1,10 @@
 ---
-id: 4504
+wordpress_id: 4504
 title: 'Git: Remotes, contributions, and the letter N'
 date: 2010-02-12T02:23:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2010/02/12/git-remotes-contributions-and-the-letter-n.aspx
+wordpress_guid: /blogs/jagregory/archive/2010/02/12/git-remotes-contributions-and-the-letter-n.aspx
 dsq_thread_id:
   - "276447131"
 categories:

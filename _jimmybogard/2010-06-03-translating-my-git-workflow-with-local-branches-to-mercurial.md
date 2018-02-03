@@ -1,10 +1,10 @@
 ---
-id: 415
+wordpress_id: 415
 title: Translating my Git workflow with local branches to Mercurial
 date: 2010-06-03T02:46:08+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/06/02/translating-my-git-workflow-with-local-branches-to-mercurial.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/06/02/translating-my-git-workflow-with-local-branches-to-mercurial.aspx
 dsq_thread_id:
   - "264716503"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3182
+wordpress_id: 3182
 title: Jacksonville Code Camp
 date: 2008-08-24T13:56:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/08/24/jacksonville-code-camp.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/08/24/jacksonville-code-camp.aspx
 dsq_thread_id:
   - "360560661"
 categories:

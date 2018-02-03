@@ -1,10 +1,10 @@
 ---
-id: 102
+wordpress_id: 102
 title: LosTechies welcomes Eric Hexter!!!!
 date: 2008-02-25T19:27:43+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/02/25/lostechies-welcomes-eric-hexter.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/02/25/lostechies-welcomes-eric-hexter.aspx
 dsq_thread_id:
   - "262088391"
 categories:

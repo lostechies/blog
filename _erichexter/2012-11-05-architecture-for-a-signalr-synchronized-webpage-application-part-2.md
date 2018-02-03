@@ -1,10 +1,10 @@
 ---
-id: 218
+wordpress_id: 218
 title: Architecture for a SignalR Synchronized Webpage Application
 date: 2012-11-05T06:00:00+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=218
+wordpress_guid: http://lostechies.com/erichexter/?p=218
 dsq_thread_id:
   - "914692179"
 categories:

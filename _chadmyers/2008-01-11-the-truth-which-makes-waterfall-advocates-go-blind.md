@@ -1,10 +1,10 @@
 ---
-id: 12
+wordpress_id: 12
 title: The truth which makes waterfall advocates go blind
 date: 2008-01-11T19:04:58+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/01/11/the-truth-which-makes-waterfall-advocates-go-blind.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/01/11/the-truth-which-makes-waterfall-advocates-go-blind.aspx
 dsq_thread_id:
   - "262113590"
 categories:

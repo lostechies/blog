@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: 'Behave# and NSpec Nirvana, Getting Close'
 date: 2007-08-27T19:55:43+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/08/27/behave-and-nspec-nirvana-getting-close.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/08/27/behave-and-nspec-nirvana-getting-close.aspx
 dsq_thread_id:
   - "262089244"
 categories:

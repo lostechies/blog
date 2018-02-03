@@ -1,10 +1,10 @@
 ---
-id: 59
+wordpress_id: 59
 title: Authoring stories with NBehave 0.3
 date: 2007-09-04T21:39:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/09/04/authoring-stories-with-nbehave-0-3.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/09/04/authoring-stories-with-nbehave-0-3.aspx
 dsq_thread_id:
   - "265153437"
 categories:

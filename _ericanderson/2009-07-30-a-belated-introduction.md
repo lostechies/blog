@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: A Belated Introduction
 date: 2009-07-30T00:56:00+00:00
 author: Eric Anderson
 layout: post
-guid: /blogs/eric/archive/2009/07/29/a-belated-introduction.aspx
+wordpress_guid: /blogs/eric/archive/2009/07/29/a-belated-introduction.aspx
 categories:
   - Uncategorized
 ---

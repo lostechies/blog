@@ -1,10 +1,10 @@
 ---
-id: 6
+wordpress_id: 6
 title: Pardon the Construction Dust
 date: 2007-10-22T03:25:00+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/21/pardon-the-construction-dust.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/21/pardon-the-construction-dust.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 962
+wordpress_id: 962
 title: Partially Applied Functions In JavaScript
 date: 2012-07-20T08:30:16+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=962
+wordpress_guid: http://lostechies.com/derickbailey/?p=962
 dsq_thread_id:
   - "773265069"
 categories:

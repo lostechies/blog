@@ -1,10 +1,10 @@
 ---
-id: 533
+wordpress_id: 533
 title: Custom Jasmine Matchers For Clarity In Testing Backbone.js Models
 date: 2011-09-03T14:22:40+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=533
+wordpress_guid: http://lostechies.com/derickbailey/?p=533
 dsq_thread_id:
   - "403891191"
 categories:

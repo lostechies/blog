@@ -1,10 +1,10 @@
 ---
-id: 112
+wordpress_id: 112
 title: 'Separating Concerns &#8211; Part 2: Services'
 date: 2014-01-03T10:13:01+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=112
+wordpress_guid: http://lostechies.com/chrispatterson/?p=112
 dsq_thread_id:
   - "2089720203"
 categories:

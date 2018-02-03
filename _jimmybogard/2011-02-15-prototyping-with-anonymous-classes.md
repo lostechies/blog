@@ -1,10 +1,10 @@
 ---
-id: 455
+wordpress_id: 455
 title: Prototyping with anonymous classes
 date: 2011-02-15T13:55:09+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/02/15/prototyping-with-anonymous-classes.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/02/15/prototyping-with-anonymous-classes.aspx
 dsq_thread_id:
   - "264733374"
 categories:

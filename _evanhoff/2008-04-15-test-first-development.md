@@ -1,10 +1,10 @@
 ---
-id: 45
+wordpress_id: 45
 title: Test First Development
 date: 2008-04-15T05:32:40+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/04/15/test-first-development.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/04/15/test-first-development.aspx
 categories:
   - Uncategorized
 ---

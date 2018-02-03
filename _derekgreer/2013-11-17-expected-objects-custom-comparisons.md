@@ -1,10 +1,10 @@
 ---
-id: 808
+wordpress_id: 808
 title: Expected Objects Custom Comparisons
 date: 2013-11-17T21:41:47+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=808
+wordpress_guid: http://lostechies.com/derekgreer/?p=808
 dsq_thread_id:
   - "1975185290"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: The 8 Fallacies of Distributed Computing
 date: 2007-10-24T22:10:16+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/24/the-8-fallacies-of-distributed-computing.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/24/the-8-fallacies-of-distributed-computing.aspx
 categories:
   - Uncategorized
 ---

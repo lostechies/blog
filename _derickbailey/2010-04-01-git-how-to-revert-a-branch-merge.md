@@ -1,10 +1,10 @@
 ---
-id: 129
+wordpress_id: 129
 title: 'Git: How To Revert A Branch Merge'
 date: 2010-04-01T19:02:28+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/01/git-how-to-revert-a-branch-merge.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/01/git-how-to-revert-a-branch-merge.aspx
 dsq_thread_id:
   - "262068573"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4322
+wordpress_id: 4322
 title: 'Don&#8217;t Do That'
 date: 2008-05-09T03:18:30+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2008/05/08/don-t-do-that.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2008/05/08/don-t-do-that.aspx
 categories:
   - Uncategorized
 ---

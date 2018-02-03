@@ -1,10 +1,10 @@
 ---
-id: 240
+wordpress_id: 240
 title: Fluent hierarchical construction
 date: 2008-10-15T11:12:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/10/15/fluent-hierarchical-construction.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/10/15/fluent-hierarchical-construction.aspx
 dsq_thread_id:
   - "264715949"
 categories:

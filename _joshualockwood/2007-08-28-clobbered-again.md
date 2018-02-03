@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: CLOBbered again!
 date: 2007-08-28T22:47:00+00:00
 author: Joshua Lockwood
 layout: post
-guid: /blogs/joshua_lockwood/archive/2007/08/28/clobbered-again.aspx
+wordpress_guid: /blogs/joshua_lockwood/archive/2007/08/28/clobbered-again.aspx
 categories:
   - NHibernate
   - Oracle

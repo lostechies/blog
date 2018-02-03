@@ -1,10 +1,10 @@
 ---
-id: 4045
+wordpress_id: 4045
 title: 'Smart and gets things done *right*'
 date: 2009-09-30T02:56:54+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/09/29/smart-and-gets-things-done-right.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/09/29/smart-and-gets-things-done-right.aspx
 categories:
   - Rant
   - software

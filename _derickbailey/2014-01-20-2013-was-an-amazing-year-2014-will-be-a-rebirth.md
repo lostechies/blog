@@ -1,10 +1,10 @@
 ---
-id: 1204
+wordpress_id: 1204
 title: 'How I Met My Dream Job, Left It, And Why I&#8217;m Returning To Build Products And Services'
 date: 2014-01-20T06:05:16+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1204
+wordpress_guid: http://lostechies.com/derickbailey/?p=1204
 dsq_thread_id:
   - "2145836629"
 categories:

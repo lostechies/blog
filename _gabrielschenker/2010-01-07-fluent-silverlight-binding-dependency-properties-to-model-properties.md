@@ -1,10 +1,10 @@
 ---
-id: 36
+wordpress_id: 36
 title: Fluent Silverlight – Binding dependency properties to model properties
 date: 2010-01-07T13:47:33+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/01/07/fluent-silverlight-binding-dependency-properties-to-model-properties.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/01/07/fluent-silverlight-binding-dependency-properties-to-model-properties.aspx
 dsq_thread_id:
   - "1070207468"
 categories:

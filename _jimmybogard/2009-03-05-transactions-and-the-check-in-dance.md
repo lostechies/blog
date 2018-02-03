@@ -1,10 +1,10 @@
 ---
-id: 290
+wordpress_id: 290
 title: Transactions and the check-in dance
 date: 2009-03-05T14:28:31+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/03/05/transactions-and-the-check-in-dance.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/03/05/transactions-and-the-check-in-dance.aspx
 dsq_thread_id:
   - "264716090"
 categories:

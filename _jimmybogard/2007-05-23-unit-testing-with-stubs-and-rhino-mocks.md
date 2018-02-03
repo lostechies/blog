@@ -1,10 +1,10 @@
 ---
-id: 23
+wordpress_id: 23
 title: Unit testing with stubs and Rhino Mocks
 date: 2007-05-23T15:25:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/23/unit-testing-with-stubs-and-rhino-mocks.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/23/unit-testing-with-stubs-and-rhino-mocks.aspx
 dsq_thread_id:
   - "267952050"
 categories:

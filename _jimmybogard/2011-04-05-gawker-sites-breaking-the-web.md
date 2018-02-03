@@ -1,10 +1,10 @@
 ---
-id: 468
+wordpress_id: 468
 title: Gawker sites breaking the web
 date: 2011-04-05T13:11:38+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/04/05/gawker-sites-breaking-the-web/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/04/05/gawker-sites-breaking-the-web/
 dsq_thread_id:
   - "271581770"
 categories:

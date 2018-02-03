@@ -1,10 +1,10 @@
 ---
-id: 642
+wordpress_id: 642
 title: 'The Evolution Of A Site&#8217;s Design'
 date: 2011-11-06T14:23:55+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=642
+wordpress_guid: http://lostechies.com/derickbailey/?p=642
 dsq_thread_id:
   - "463603817"
 categories:

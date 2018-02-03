@@ -1,10 +1,10 @@
 ---
-id: 27
+wordpress_id: 27
 title: 'The Pathfinder: Reaching Your Organization’s Goal'
 date: 2009-01-12T18:41:35+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/01/12/the-pathfinder-reaching-your-organization-s-goal.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/01/12/the-pathfinder-reaching-your-organization-s-goal.aspx
 dsq_thread_id:
   - "262068000"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3231
+wordpress_id: 3231
 title: Do Unto Others
 date: 2011-03-26T13:14:21+00:00
 author: Sean Chambers
 layout: post
-guid: http://lostechies.com/seanchambers/?p=113
+wordpress_guid: http://lostechies.com/seanchambers/?p=113
 dsq_thread_id:
   - "263736850"
 categories:

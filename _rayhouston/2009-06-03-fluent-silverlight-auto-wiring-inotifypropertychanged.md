@@ -1,10 +1,10 @@
 ---
-id: 35
+wordpress_id: 35
 title: 'Fluent Silverlight &#8211; Auto Wiring INotifyPropertyChanged'
 date: 2009-06-03T03:13:00+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2009/06/02/fluent-silverlight-auto-wiring-inotifypropertychanged.aspx
+wordpress_guid: /blogs/rhouston/archive/2009/06/02/fluent-silverlight-auto-wiring-inotifypropertychanged.aspx
 categories:
   - Dynamic Proxy
   - fluent Silverlight

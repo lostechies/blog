@@ -1,10 +1,10 @@
 ---
-id: 25
+wordpress_id: 25
 title: 'Kanban in Software Development. Part 3: Andon and Jidoka &#8211; Handling Bugs and Emergency Fixes in Kanban'
 date: 2008-12-19T13:46:35+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/12/19/kanban-in-software-development-part-3-andon-and-jidoka-handling-bugs-and-emergency-fixes-in-kanban.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/12/19/kanban-in-software-development-part-3-andon-and-jidoka-handling-bugs-and-emergency-fixes-in-kanban.aspx
 dsq_thread_id:
   - "262067998"
 categories:

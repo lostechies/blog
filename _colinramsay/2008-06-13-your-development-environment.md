@@ -1,10 +1,10 @@
 ---
-id: 4687
+wordpress_id: 4687
 title: Your Development Environment
 date: 2008-06-13T10:00:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2008/06/13/your-development-environment.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2008/06/13/your-development-environment.aspx
 categories:
   - Uncategorized
 ---

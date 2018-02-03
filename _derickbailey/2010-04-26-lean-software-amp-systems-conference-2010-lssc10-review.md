@@ -1,10 +1,10 @@
 ---
-id: 147
+wordpress_id: 147
 title: 'Lean Software &#038; Systems Conference 2010 (#LSSC10) Review'
 date: 2010-04-26T18:22:43+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/26/lean-software-amp-systems-conference-2010-lssc10-review.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/26/lean-software-amp-systems-conference-2010-lssc10-review.aspx
 dsq_thread_id:
   - "262068654"
 categories:

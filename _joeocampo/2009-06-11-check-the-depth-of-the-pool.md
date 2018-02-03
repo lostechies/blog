@@ -1,10 +1,10 @@
 ---
-id: 126
+wordpress_id: 126
 title: Check the depth of the pool
 date: 2009-06-11T21:59:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2009/06/11/check-the-depth-of-the-pool.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2009/06/11/check-the-depth-of-the-pool.aspx
 dsq_thread_id:
   - "262088172"
 categories:

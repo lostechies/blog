@@ -1,10 +1,10 @@
 ---
-id: 914
+wordpress_id: 914
 title: Survey of two large MVC projects
 date: 2014-06-25T15:17:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=914
+wordpress_guid: http://lostechies.com/jimmybogard/?p=914
 dsq_thread_id:
   - "2794400812"
 categories:

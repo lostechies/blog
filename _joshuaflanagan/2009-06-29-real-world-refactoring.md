@@ -1,10 +1,10 @@
 ---
-id: 3948
+wordpress_id: 3948
 title: Real World Refactoring
 date: 2009-06-29T00:35:29+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/06/28/real-world-refactoring.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/06/28/real-world-refactoring.aspx
 dsq_thread_id:
   - "262113180"
 categories:

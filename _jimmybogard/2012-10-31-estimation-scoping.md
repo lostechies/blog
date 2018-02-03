@@ -1,10 +1,10 @@
 ---
-id: 683
+wordpress_id: 683
 title: Estimation scoping
 date: 2012-10-31T14:26:38+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=683
+wordpress_guid: http://lostechies.com/jimmybogard/?p=683
 dsq_thread_id:
   - "908510908"
 categories:

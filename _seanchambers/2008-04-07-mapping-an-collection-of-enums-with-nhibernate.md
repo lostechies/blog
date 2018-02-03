@@ -1,10 +1,10 @@
 ---
-id: 3173
+wordpress_id: 3173
 title: Mapping a collection of Enums with NHibernate
 date: 2008-04-07T01:34:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/04/06/mapping-an-collection-of-enums-with-nhibernate.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/04/06/mapping-an-collection-of-enums-with-nhibernate.aspx
 dsq_thread_id:
   - "262546546"
 categories:

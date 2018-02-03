@@ -1,10 +1,10 @@
 ---
-id: 4636
+wordpress_id: 4636
 title: 'DDD &#8211; Making meaningful relationships'
 date: 2008-10-28T03:35:00+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2008/10/28/ddd-making-meaningful-relationships.aspx
+wordpress_guid: /blogs/colinjack/archive/2008/10/28/ddd-making-meaningful-relationships.aspx
 categories:
   - DDD
 ---

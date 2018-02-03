@@ -1,10 +1,10 @@
 ---
-id: 338
+wordpress_id: 338
 title: 'Refactoring challenge #2 – functionally illiterate'
 date: 2009-07-27T01:37:25+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/26/refactoring-challenge-2-functionally-illiterate.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/26/refactoring-challenge-2-functionally-illiterate.aspx
 dsq_thread_id:
   - "270056105"
 categories:

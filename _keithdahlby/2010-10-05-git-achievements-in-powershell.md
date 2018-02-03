@@ -1,10 +1,10 @@
 ---
-id: 4216
+wordpress_id: 4216
 title: Git-Achievements in PowerShell
 date: 2010-10-05T14:00:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/10/05/git-achievements-in-powershell.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/10/05/git-achievements-in-powershell.aspx
 dsq_thread_id:
   - "262793958"
 categories:

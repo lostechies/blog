@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: Parsing strings with the TryParse method
 date: 2007-05-15T14:33:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/15/parsing-strings-with-the-tryparse-method.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/15/parsing-strings-with-the-tryparse-method.aspx
 dsq_thread_id:
   - "265998531"
 categories:

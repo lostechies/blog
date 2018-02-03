@@ -1,10 +1,10 @@
 ---
-id: 65
+wordpress_id: 65
 title: NHibernate + XML Columns
 date: 2009-01-14T04:42:05+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2009/01/13/nhibernate-xml-columns.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2009/01/13/nhibernate-xml-columns.aspx
 categories:
   - NHibernate
 ---

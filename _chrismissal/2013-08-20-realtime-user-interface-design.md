@@ -1,10 +1,10 @@
 ---
-id: 425
+wordpress_id: 425
 title: Realtime User Interface Design
 date: 2013-08-20T09:10:06+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=425
+wordpress_guid: http://lostechies.com/chrismissal/?p=425
 dsq_thread_id:
   - "1620757578"
 categories:

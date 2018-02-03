@@ -1,10 +1,10 @@
 ---
-id: 3946
+wordpress_id: 3946
 title: Let your Inversion of Control tool work for you
 date: 2009-06-10T03:58:51+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/06/09/let-your-inversion-of-control-tool-work-for-you.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/06/09/let-your-inversion-of-control-tool-work-for-you.aspx
 dsq_thread_id:
   - "262113176"
 categories:

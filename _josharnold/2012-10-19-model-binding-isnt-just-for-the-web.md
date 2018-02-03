@@ -1,10 +1,10 @@
 ---
-id: 176
+wordpress_id: 176
 title: 'Model Binding isn&#8217;t just for the web'
 date: 2012-10-19T13:00:06+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=176
+wordpress_guid: http://lostechies.com/josharnold/?p=176
 dsq_thread_id:
   - "891702501"
 categories:

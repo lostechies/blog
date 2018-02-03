@@ -1,10 +1,10 @@
 ---
-id: 56
+wordpress_id: 56
 title: Accessing ActiveMQ on Mac OSX from a Windows VM
 date: 2009-07-12T19:46:27+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/07/12/accessing-activemq-on-mac-osx-from-a-windows-vm.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/07/12/accessing-activemq-on-mac-osx-from-a-windows-vm.aspx
 dsq_thread_id:
   - "262089344"
 categories:

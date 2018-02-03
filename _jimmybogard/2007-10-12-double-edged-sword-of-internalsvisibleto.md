@@ -1,10 +1,10 @@
 ---
-id: 79
+wordpress_id: 79
 title: Double-edged sword of InternalsVisibleTo
 date: 2007-10-12T21:08:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/12/double-edged-sword-of-internalsvisibleto.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/12/double-edged-sword-of-internalsvisibleto.aspx
 dsq_thread_id:
   - "264715373"
 categories:

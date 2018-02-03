@@ -1,10 +1,10 @@
 ---
-id: 155
+wordpress_id: 155
 title: A small correction
 date: 2008-03-11T11:52:12+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/11/a-small-correction.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/11/a-small-correction.aspx
 dsq_thread_id:
   - "1238587240"
 categories:

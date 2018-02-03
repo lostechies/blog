@@ -1,10 +1,10 @@
 ---
-id: 3587
+wordpress_id: 3587
 title: ALT.NET Seattle Starts Tonight
 date: 2008-04-18T21:05:17+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/04/18/alt-net-seattle-starts-tonight.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/04/18/alt-net-seattle-starts-tonight.aspx
 dsq_thread_id:
   - "264874358"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 938
+wordpress_id: 938
 title: 'CQRS Workshop &#8211; Retrospective'
 date: 2015-04-25T14:40:30+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=938
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=938
 dsq_thread_id:
   - "3712460479"
 categories:

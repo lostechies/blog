@@ -1,10 +1,10 @@
 ---
-id: 4452
+wordpress_id: 4452
 title: Updated MonoChrome Firefox theme
 date: 2009-03-27T01:55:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2009/03/26/updated-monochrome-firefox-theme.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2009/03/26/updated-monochrome-firefox-theme.aspx
 dsq_thread_id:
   - "463220529"
 categories:

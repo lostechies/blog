@@ -1,10 +1,10 @@
 ---
-id: 54
+wordpress_id: 54
 title: Introducing Quality-first Notions Into an Existing Team
 date: 2008-05-27T17:16:02+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/05/27/introducing-quality-first-notions-into-an-existing-team.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/05/27/introducing-quality-first-notions-into-an-existing-team.aspx
 dsq_thread_id:
   - "272260917"
 categories:

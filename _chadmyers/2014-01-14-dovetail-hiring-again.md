@@ -1,10 +1,10 @@
 ---
-id: 341
+wordpress_id: 341
 title: Dovetail Hiring again
 date: 2014-01-14T11:41:30+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=341
+wordpress_guid: http://lostechies.com/chadmyers/?p=341
 dsq_thread_id:
   - "2121639739"
 categories:

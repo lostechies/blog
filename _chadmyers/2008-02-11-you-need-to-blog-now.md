@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: You need to blog. Now.
 date: 2008-02-11T04:14:57+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/02/10/you-need-to-blog-now.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/02/10/you-need-to-blog-now.aspx
 dsq_thread_id:
   - "262113640"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 86
+wordpress_id: 86
 title: Entity validation with visitors and extension methods
 date: 2007-10-24T14:52:24+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/24/entity-validation-with-visitors-and-extension-methods.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/24/entity-validation-with-visitors-and-extension-methods.aspx
 dsq_thread_id:
   - "264715383"
 dsq_needs_sync:

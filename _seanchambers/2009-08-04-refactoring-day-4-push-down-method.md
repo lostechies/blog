@@ -1,10 +1,10 @@
 ---
-id: 3198
+wordpress_id: 3198
 title: 'Refactoring Day 4 : Push Down Method'
 date: 2009-08-04T12:02:04+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/04/refactoring-day-4-push-down-method.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/04/refactoring-day-4-push-down-method.aspx
 dsq_thread_id:
   - "262346563"
 categories:

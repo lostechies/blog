@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: 'Don&#8217;t take encryption and hashing lightly'
 date: 2008-02-12T19:15:00+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/02/12/don-t-take-encryption-and-hashing-lightly.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/02/12/don-t-take-encryption-and-hashing-lightly.aspx
 dsq_thread_id:
   - "262113627"
 categories:

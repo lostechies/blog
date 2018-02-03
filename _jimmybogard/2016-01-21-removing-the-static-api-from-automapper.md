@@ -1,10 +1,10 @@
 ---
-id: 1170
+wordpress_id: 1170
 title: Removing the static API from AutoMapper
 date: 2016-01-21T20:19:36+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1170
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1170
 dsq_thread_id:
   - "4511678082"
 categories:

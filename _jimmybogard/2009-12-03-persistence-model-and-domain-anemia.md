@@ -1,10 +1,10 @@
 ---
-id: 372
+wordpress_id: 372
 title: Persistence model and domain anemia
 date: 2009-12-03T18:26:36+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/12/03/persistence-model-and-domain-anemia.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/12/03/persistence-model-and-domain-anemia.aspx
 dsq_thread_id:
   - "264716374"
 categories:

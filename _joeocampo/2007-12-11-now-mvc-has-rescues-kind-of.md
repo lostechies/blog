@@ -1,10 +1,10 @@
 ---
-id: 90
+wordpress_id: 90
 title: 'Now MVC has rescues: Kind Of'
 date: 2007-12-11T03:45:44+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/12/10/now-mvc-has-rescues-kind-of.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/12/10/now-mvc-has-rescues-kind-of.aspx
 dsq_thread_id:
   - "262089384"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 117
+wordpress_id: 117
 title: ALT.NET Online Open Meeting 10-DEC (featuring Jeremy Miller)
 date: 2008-12-09T19:32:46+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/12/09/alt-net-online-open-meeting-10-dec-featuring-jeremy-miller.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/12/09/alt-net-online-open-meeting-10-dec-featuring-jeremy-miller.aspx
 dsq_thread_id:
   - "262114218"
 categories:

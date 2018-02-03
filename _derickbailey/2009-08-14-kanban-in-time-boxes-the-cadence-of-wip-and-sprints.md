@@ -1,10 +1,10 @@
 ---
-id: 74
+wordpress_id: 74
 title: 'Kanban In Time-Boxes: The Cadence of WIP and Sprints'
 date: 2009-08-14T21:02:06+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/08/14/kanban-in-time-boxes-the-cadence-of-wip-and-sprints.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/08/14/kanban-in-time-boxes-the-cadence-of-wip-and-sprints.aspx
 dsq_thread_id:
   - "266472018"
 categories:

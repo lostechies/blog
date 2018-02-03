@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: 'I Thought These Days Were Over&#8230;'
 date: 2007-06-09T21:19:49+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/06/09/i-thought-these-days-were-over.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/06/09/i-thought-these-days-were-over.aspx
 categories:
   - firefox
 ---

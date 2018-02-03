@@ -1,10 +1,10 @@
 ---
-id: 579
+wordpress_id: 579
 title: 'SEO And Accessibility With HTML5 PushState, Part 2: Progressive Enhancement With Backbone.js'
 date: 2011-09-26T15:49:45+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=579
+wordpress_guid: http://lostechies.com/derickbailey/?p=579
 dsq_thread_id:
   - "426661314"
 categories:

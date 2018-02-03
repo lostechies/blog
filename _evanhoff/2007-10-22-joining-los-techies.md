@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: Joining Los Techies
 date: 2007-10-22T23:19:45+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/22/joining-los-techies.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/22/joining-los-techies.aspx
 categories:
   - Uncategorized
 ---

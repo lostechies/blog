@@ -1,10 +1,10 @@
 ---
-id: 70
+wordpress_id: 70
 title: The Legacy Code Dilemma and compiler warnings
 date: 2007-10-02T20:04:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/02/the-legacy-code-dilemma-and-compiler-warnings.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/02/the-legacy-code-dilemma-and-compiler-warnings.aspx
 dsq_thread_id:
   - "264977970"
 categories:

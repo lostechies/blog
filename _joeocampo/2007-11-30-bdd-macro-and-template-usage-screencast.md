@@ -1,10 +1,10 @@
 ---
-id: 84
+wordpress_id: 84
 title: BDD Macro and Template Usage screencast
 date: 2007-11-30T06:47:26+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/11/30/bdd-macro-and-template-usage-screencast.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/11/30/bdd-macro-and-template-usage-screencast.aspx
 dsq_thread_id:
   - "262088316"
 categories:

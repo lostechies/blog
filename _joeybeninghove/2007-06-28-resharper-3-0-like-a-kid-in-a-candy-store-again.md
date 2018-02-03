@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: 'ReSharper 3.0 &#8211; Like a kid in a candy store again'
 date: 2007-06-28T11:40:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/06/28/resharper-3-0-like-a-kid-in-a-candy-store-again.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/06/28/resharper-3-0-like-a-kid-in-a-candy-store-again.aspx
 categories:
   - Productivity
   - Resharper

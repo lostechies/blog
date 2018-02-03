@@ -1,10 +1,10 @@
 ---
-id: 49
+wordpress_id: 49
 title: Declarative Workflow with MassTransit
 date: 2009-04-08T01:53:36+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/04/07/declarative-workflow-with-masstransit.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/04/07/declarative-workflow-with-masstransit.aspx
 dsq_thread_id:
   - "262089319"
 categories:

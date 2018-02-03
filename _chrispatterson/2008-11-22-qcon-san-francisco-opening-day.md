@@ -1,10 +1,10 @@
 ---
-id: 3605
+wordpress_id: 3605
 title: QCon San Francisco, Opening Day
 date: 2008-11-22T05:50:49+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/11/22/qcon-san-francisco-opening-day.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/11/22/qcon-san-francisco-opening-day.aspx
 dsq_thread_id:
   - "365364476"
 categories:

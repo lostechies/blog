@@ -1,10 +1,10 @@
 ---
-id: 110
+wordpress_id: 110
 title: ASP.NET Web API List Parameter Binding
 date: 2012-10-04T22:49:42+00:00
 author: Keith Dahlby
 layout: post
-guid: http://lostechies.com/keithdahlby/?p=110
+wordpress_guid: http://lostechies.com/keithdahlby/?p=110
 dsq_thread_id:
   - "871977002"
 categories:

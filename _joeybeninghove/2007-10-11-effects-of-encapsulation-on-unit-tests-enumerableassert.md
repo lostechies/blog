@@ -1,10 +1,10 @@
 ---
-id: 45
+wordpress_id: 45
 title: 'Effects Of Encapsulation On Unit Tests &#8211; EnumerableAssert'
 date: 2007-10-11T16:13:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/10/11/effects-of-encapsulation-on-unit-tests-enumerableassert.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/10/11/effects-of-encapsulation-on-unit-tests-enumerableassert.aspx
 categories:
   - 'C#'
   - mbunit

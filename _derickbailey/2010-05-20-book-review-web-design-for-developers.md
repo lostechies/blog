@@ -1,10 +1,10 @@
 ---
-id: 158
+wordpress_id: 158
 title: 'Book Review: Web Design For Developers'
 date: 2010-05-20T13:59:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/20/book-review-web-design-for-developers.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/20/book-review-web-design-for-developers.aspx
 dsq_thread_id:
   - "267899424"
 categories:

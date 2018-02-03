@@ -1,10 +1,10 @@
 ---
-id: 105
+wordpress_id: 105
 title: 'Branching Strategies: The Cost Of Branching And Merging'
 date: 2010-02-24T15:22:50+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/02/24/branching-strategies-the-cost-of-branching-and-merging.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/02/24/branching-strategies-the-cost-of-branching-and-merging.aspx
 dsq_thread_id:
   - "262544521"
 categories:

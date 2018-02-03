@@ -1,10 +1,10 @@
 ---
-id: 4647
+wordpress_id: 4647
 title: E-VAN Videos Reminder
 date: 2009-05-06T18:49:19+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/05/06/e-van-videos-reminder.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/05/06/e-van-videos-reminder.aspx
 categories:
   - Uncategorized
 ---

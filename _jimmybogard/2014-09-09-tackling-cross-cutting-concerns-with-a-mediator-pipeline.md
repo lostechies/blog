@@ -1,10 +1,10 @@
 ---
-id: 946
+wordpress_id: 946
 title: Tackling cross-cutting concerns with a mediator pipeline
 date: 2014-09-09T16:17:49+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=946
+wordpress_guid: http://lostechies.com/jimmybogard/?p=946
 dsq_thread_id:
   - "3002479506"
 categories:

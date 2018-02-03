@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: 'RSpec and Behavior Driven Development: Interview with Lead Developers'
 date: 2007-04-03T16:06:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/04/03/rspec-and-behavior-driven-development-interview-with-lead-developers.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/04/03/rspec-and-behavior-driven-development-interview-with-lead-developers.aspx
 dsq_thread_id:
   - "262088247"
 categories:

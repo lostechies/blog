@@ -1,10 +1,10 @@
 ---
-id: 2987
+wordpress_id: 2987
 title: MvcContrib source code has moved to GitHub
 date: 2009-08-23T14:20:58+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/08/23/mvccontrib-source-code-has-moved-to-github.aspx
+wordpress_guid: /blogs/hex/archive/2009/08/23/mvccontrib-source-code-has-moved-to-github.aspx
 dsq_thread_id:
   - "267208552"
 categories:

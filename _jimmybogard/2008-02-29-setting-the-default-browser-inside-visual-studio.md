@@ -1,10 +1,10 @@
 ---
-id: 150
+wordpress_id: 150
 title: Setting the default browser inside Visual Studio
 date: 2008-02-29T14:01:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/29/setting-the-default-browser-inside-visual-studio.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/29/setting-the-default-browser-inside-visual-studio.aspx
 dsq_thread_id:
   - "264715583"
 categories:

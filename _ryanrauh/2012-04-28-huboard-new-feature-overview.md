@@ -1,10 +1,10 @@
 ---
-id: 152
+wordpress_id: 152
 title: 'Huboard &#8211; New feature overview'
 date: 2012-04-28T17:14:52+00:00
 author: Ryan Rauh
 layout: post
-guid: http://lostechies.com/ryanrauh/?p=152
+wordpress_guid: http://lostechies.com/ryanrauh/?p=152
 dsq_thread_id:
   - "667885862"
 categories:

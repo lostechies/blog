@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: 'Programming Basics: The for loop can do more than increment an integer'
 date: 2009-06-12T18:50:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/06/12/programming-basics-the-for-loop-can-do-more-than-increment-an-integer.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/06/12/programming-basics-the-for-loop-can-do-more-than-increment-an-integer.aspx
 dsq_thread_id:
   - "262055655"
 categories:

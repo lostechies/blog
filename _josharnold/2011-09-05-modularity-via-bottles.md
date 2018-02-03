@@ -1,10 +1,10 @@
 ---
-id: 110
+wordpress_id: 110
 title: Modularity via Bottles
 date: 2011-09-05T22:52:31+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=110
+wordpress_guid: http://lostechies.com/josharnold/?p=110
 dsq_thread_id:
   - "405681227"
 categories:

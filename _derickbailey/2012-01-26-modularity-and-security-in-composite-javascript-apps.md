@@ -1,10 +1,10 @@
 ---
-id: 782
+wordpress_id: 782
 title: Modularity And Security In Composite JavaScript Apps
 date: 2012-01-26T07:44:16+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=782
+wordpress_guid: http://lostechies.com/derickbailey/?p=782
 dsq_thread_id:
   - "553313488"
 categories:

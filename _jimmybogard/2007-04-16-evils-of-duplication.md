@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: Evils of duplication
 date: 2007-04-16T12:53:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/04/16/evils-of-duplication.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/04/16/evils-of-duplication.aspx
 dsq_thread_id:
   - "265528476"
 categories:

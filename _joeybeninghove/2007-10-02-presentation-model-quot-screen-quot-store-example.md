@@ -1,10 +1,10 @@
 ---
-id: 42
+wordpress_id: 42
 title: 'Presentation Model: &#8220;Screen&#8221; Store Example'
 date: 2007-10-02T18:38:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/10/02/presentation-model-quot-screen-quot-store-example.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/10/02/presentation-model-quot-screen-quot-store-example.aspx
 categories:
   - Uncategorized
 ---

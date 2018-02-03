@@ -1,10 +1,10 @@
 ---
-id: 3361
+wordpress_id: 3361
 title: Zero Percent in Google Analytics Site Overlay
 date: 2009-08-01T17:19:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/08/01/zero-percent-in-google-analytics-site-overlay.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/08/01/zero-percent-in-google-analytics-site-overlay.aspx
 dsq_thread_id:
   - "277191700"
 categories:

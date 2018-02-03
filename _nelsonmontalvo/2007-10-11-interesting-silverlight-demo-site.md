@@ -1,10 +1,10 @@
 ---
-id: 4741
+wordpress_id: 4741
 title: Interesting Silverlight demo site
 date: 2007-10-11T11:17:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/10/11/interesting-silverlight-demo-site.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/10/11/interesting-silverlight-demo-site.aspx
 categories:
   - UI
 ---

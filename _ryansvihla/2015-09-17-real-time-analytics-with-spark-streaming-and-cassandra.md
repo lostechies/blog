@@ -1,10 +1,10 @@
 ---
-id: 3491
+wordpress_id: 3491
 title: Real Time Analytics With Spark Streaming and Cassandra
 date: 2015-09-17T12:28:25+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=210
+wordpress_guid: https://lostechies.com/ryansvihla/?p=210
 dsq_thread_id:
   - "4138990898"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4719
+wordpress_id: 4719
 title: Organizational Knowledge Sharing
 date: 2009-12-28T14:38:00+00:00
 author: Eric Anderson
 layout: post
-guid: /blogs/eric/archive/2009/12/28/organizational-knowledge-sharing.aspx
+wordpress_guid: /blogs/eric/archive/2009/12/28/organizational-knowledge-sharing.aspx
 categories:
   - Uncategorized
 ---

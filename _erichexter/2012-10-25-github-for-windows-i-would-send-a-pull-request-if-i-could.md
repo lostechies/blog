@@ -1,10 +1,10 @@
 ---
-id: 154
+wordpress_id: 154
 title: Github for windows – I would send a pull request if I could
 date: 2012-10-25T07:54:16+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=154
+wordpress_guid: http://lostechies.com/erichexter/?p=154
 dsq_thread_id:
   - "899783082"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 270
+wordpress_id: 270
 title: DDD is not all-or-nothing
 date: 2009-01-06T02:33:38+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/01/05/ddd-is-not-all-or-nothing.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/01/05/ddd-is-not-all-or-nothing.aspx
 dsq_thread_id:
   - "264716028"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 685
+wordpress_id: 685
 title: NServiceBus and concurrency
 date: 2012-11-01T16:57:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=685
+wordpress_guid: http://lostechies.com/jimmybogard/?p=685
 dsq_thread_id:
   - "910018669"
 categories:

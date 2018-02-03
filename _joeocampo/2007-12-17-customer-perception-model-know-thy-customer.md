@@ -1,10 +1,10 @@
 ---
-id: 91
+wordpress_id: 91
 title: 'Customer Perception Model: Know thy customer'
 date: 2007-12-17T05:35:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/12/17/customer-perception-model-know-thy-customer.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/12/17/customer-perception-model-know-thy-customer.aspx
 dsq_thread_id:
   - "262088201"
 categories:

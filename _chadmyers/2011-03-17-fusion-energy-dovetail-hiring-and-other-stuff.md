@@ -1,10 +1,10 @@
 ---
-id: 176
+wordpress_id: 176
 title: Fusion energy, Dovetail Hiring, and other stuff
 date: 2011-03-17T21:41:32+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=176
+wordpress_guid: http://lostechies.com/chadmyers/?p=176
 dsq_thread_id:
   - "262114562"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 33
+wordpress_id: 33
 title: Why ‘Should Attach View To Presenter’ Is An Invalid Unit Test / Observation.
 date: 2009-02-05T20:16:48+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/02/05/why-should-attach-view-to-presenter-is-an-invalid-unit-test-observation.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/02/05/why-should-attach-view-to-presenter-is-an-invalid-unit-test-observation.aspx
 dsq_thread_id:
   - "262068032"
 categories:

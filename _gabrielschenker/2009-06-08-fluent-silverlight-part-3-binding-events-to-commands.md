@@ -1,10 +1,10 @@
 ---
-id: 26
+wordpress_id: 26
 title: Fluent Silverlight – Part 3 – Binding Events to Commands
 date: 2009-06-08T21:50:17+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/06/09/fluent-silverlight-part-3-binding-events-to-commands.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/06/09/fluent-silverlight-part-3-binding-events-to-commands.aspx
 dsq_thread_id:
   - "263908857"
 categories:

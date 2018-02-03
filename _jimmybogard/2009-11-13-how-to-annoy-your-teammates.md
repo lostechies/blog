@@ -1,10 +1,10 @@
 ---
-id: 367
+wordpress_id: 367
 title: How to annoy your teammates
 date: 2009-11-13T14:22:55+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/11/13/how-to-annoy-your-teammates.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/11/13/how-to-annoy-your-teammates.aspx
 dsq_thread_id:
   - "273166961"
 categories:

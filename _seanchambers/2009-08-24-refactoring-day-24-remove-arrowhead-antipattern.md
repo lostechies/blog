@@ -1,10 +1,10 @@
 ---
-id: 3218
+wordpress_id: 3218
 title: 'Refactoring Day 24 : Remove Arrowhead Antipattern'
 date: 2009-08-24T12:00:39+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/24/refactoring-day-24-remove-arrowhead-antipattern.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/24/refactoring-day-24-remove-arrowhead-antipattern.aspx
 dsq_thread_id:
   - "262182271"
 categories:

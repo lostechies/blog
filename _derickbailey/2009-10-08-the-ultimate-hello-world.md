@@ -1,10 +1,10 @@
 ---
-id: 91
+wordpress_id: 91
 title: The Ultimate ‘Hello World’
 date: 2009-10-08T20:42:51+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/10/08/the-ultimate-hello-world.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/10/08/the-ultimate-hello-world.aspx
 dsq_thread_id:
   - "319379583"
 categories:

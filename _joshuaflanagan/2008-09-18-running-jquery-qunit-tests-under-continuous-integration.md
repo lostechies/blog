@@ -1,10 +1,10 @@
 ---
-id: 3937
+wordpress_id: 3937
 title: Running jQuery QUnit tests under Continuous Integration
 date: 2008-09-18T22:23:54+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2008/09/18/running-jquery-qunit-tests-under-continuous-integration.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2008/09/18/running-jquery-qunit-tests-under-continuous-integration.aspx
 dsq_thread_id:
   - "262090914"
 categories:

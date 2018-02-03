@@ -1,10 +1,10 @@
 ---
-id: 89
+wordpress_id: 89
 title: ASP MVC Forum Link
 date: 2007-12-10T07:43:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/12/10/asp-mvc-forum-link.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/12/10/asp-mvc-forum-link.aspx
 dsq_thread_id:
   - "262089279"
 categories:

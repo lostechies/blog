@@ -1,10 +1,10 @@
 ---
-id: 1176
+wordpress_id: 1176
 title: A Short List Of Sci-Fi Novels Worth Reading
 date: 2013-11-27T09:00:33+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1176
+wordpress_guid: http://lostechies.com/derickbailey/?p=1176
 dsq_thread_id:
   - "2004528767"
 categories:

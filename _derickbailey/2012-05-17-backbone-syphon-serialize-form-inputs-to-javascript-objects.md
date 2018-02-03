@@ -1,10 +1,10 @@
 ---
-id: 934
+wordpress_id: 934
 title: 'Backbone.Syphon: Serialize Form Inputs To JavaScript Objects'
 date: 2012-05-17T06:57:13+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=934
+wordpress_guid: http://lostechies.com/derickbailey/?p=934
 dsq_thread_id:
   - "693403488"
 categories:

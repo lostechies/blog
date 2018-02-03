@@ -1,10 +1,10 @@
 ---
-id: 140
+wordpress_id: 140
 title: Adding Request / Reply To The Application Controller
 date: 2010-04-15T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/15/adding-request-reply-to-the-application-controller.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/15/adding-request-reply-to-the-application-controller.aspx
 dsq_thread_id:
   - "262068626"
 categories:

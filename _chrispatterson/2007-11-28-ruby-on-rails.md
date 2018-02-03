@@ -1,10 +1,10 @@
 ---
-id: 3573
+wordpress_id: 3573
 title: Ruby (on Rails)
 date: 2007-11-28T05:43:16+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/11/28/ruby-on-rails.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/11/28/ruby-on-rails.aspx
 dsq_thread_id:
   - "262089165"
 categories:

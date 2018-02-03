@@ -1,10 +1,10 @@
 ---
-id: 10
+wordpress_id: 10
 title: Good Code Is Not Just About Writing Lines of Code
 date: 2008-02-28T02:14:07+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/02/27/good-code-is-not-just-about-writing-lines-of-code.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/02/27/good-code-is-not-just-about-writing-lines-of-code.aspx
 categories:
   - Uncategorized
 ---

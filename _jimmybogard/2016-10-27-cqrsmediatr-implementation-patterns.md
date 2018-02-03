@@ -1,10 +1,10 @@
 ---
-id: 1251
+wordpress_id: 1251
 title: CQRS/MediatR implementation patterns
 date: 2016-10-27T16:36:02+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1251
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1251
 dsq_thread_id:
   - "5258085711"
 categories:

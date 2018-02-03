@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: Code Is Obsolete in Visual Studio 10
 date: 2007-10-30T23:40:50+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/30/code-is-obsolete-in-visual-studio-10.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/30/code-is-obsolete-in-visual-studio-10.aspx
 categories:
   - Uncategorized
 ---

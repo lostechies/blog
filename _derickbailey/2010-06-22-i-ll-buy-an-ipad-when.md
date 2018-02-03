@@ -1,10 +1,10 @@
 ---
-id: 170
+wordpress_id: 170
 title: I’ll Buy An iPad When …
 date: 2010-06-22T03:06:31+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/06/21/i-ll-buy-an-ipad-when.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/06/21/i-ll-buy-an-ipad-when.aspx
 dsq_thread_id:
   - "269205141"
 categories:

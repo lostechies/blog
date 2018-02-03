@@ -1,10 +1,10 @@
 ---
-id: 3181
+wordpress_id: 3181
 title: Designing Controllers
 date: 2008-06-25T02:01:46+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2008/06/24/designing-controllers.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2008/06/24/designing-controllers.aspx
 dsq_thread_id:
   - "265346492"
 categories:

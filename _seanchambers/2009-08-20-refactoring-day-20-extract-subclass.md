@@ -1,10 +1,10 @@
 ---
-id: 3214
+wordpress_id: 3214
 title: 'Refactoring Day 20 : Extract Subclass'
 date: 2009-08-20T12:08:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/20/refactoring-day-20-extract-subclass.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/20/refactoring-day-20-extract-subclass.aspx
 dsq_thread_id:
   - "262353498"
 categories:

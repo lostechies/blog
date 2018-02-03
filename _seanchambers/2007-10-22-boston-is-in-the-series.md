@@ -1,10 +1,10 @@
 ---
-id: 3147
+wordpress_id: 3147
 title: Boston is in the series!!!
 date: 2007-10-22T02:57:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/10/21/boston-is-in-the-series.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/10/21/boston-is-in-the-series.aspx
 dsq_thread_id:
   - "268123706"
 categories:

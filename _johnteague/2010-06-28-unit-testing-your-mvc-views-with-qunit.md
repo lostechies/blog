@@ -1,10 +1,10 @@
 ---
-id: 3780
+wordpress_id: 3780
 title: Unit Testing your MVC Views
 date: 2010-06-28T14:23:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2010/06/28/unit-testing-your-mvc-views-with-qunit.aspx
+wordpress_guid: /blogs/johnteague/archive/2010/06/28/unit-testing-your-mvc-views-with-qunit.aspx
 dsq_thread_id:
   - "262076893"
 categories:

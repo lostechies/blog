@@ -1,10 +1,10 @@
 ---
-id: 11
+wordpress_id: 11
 title: Engineering or Customer Service which is more important?
 date: 2009-06-07T19:16:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/06/07/engineering-or-customer-service-which-is-more-important.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/06/07/engineering-or-customer-service-which-is-more-important.aspx
 dsq_thread_id:
   - "425624169"
 categories:

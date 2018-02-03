@@ -1,10 +1,10 @@
 ---
-id: 36
+wordpress_id: 36
 title: ReSharper plugin for cyclomatic complexity
 date: 2007-06-27T21:36:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/06/27/resharper-plugin-for-cyclomatic-complexity.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/06/27/resharper-plugin-for-cyclomatic-complexity.aspx
 dsq_thread_id:
   - "268425645"
 categories:

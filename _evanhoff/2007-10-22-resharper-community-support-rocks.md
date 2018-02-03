@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: ReSharper Community Support Rocks
 date: 2007-10-22T23:13:31+00:00
 author: Evan Hoff
 layout: post
-guid: /blogs/evan_hoff/archive/2007/10/22/resharper-community-support-rocks.aspx
+wordpress_guid: /blogs/evan_hoff/archive/2007/10/22/resharper-community-support-rocks.aspx
 categories:
   - Uncategorized
 ---

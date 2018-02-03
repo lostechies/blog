@@ -1,10 +1,10 @@
 ---
-id: 65
+wordpress_id: 65
 title: Leveraging Windows 7 Boot to VHD to Test Visual Studio 2010
 date: 2010-01-02T00:11:01+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2010/01/01/leveraging-windows-7-boot-to-vhd-to-test-visual-studio-2010.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2010/01/01/leveraging-windows-7-boot-to-vhd-to-test-visual-studio-2010.aspx
 dsq_thread_id:
   - "262089419"
 categories:

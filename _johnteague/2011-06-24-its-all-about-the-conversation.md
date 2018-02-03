@@ -1,10 +1,10 @@
 ---
-id: 74
+wordpress_id: 74
 title: 'It&#8217;s All About the Conversation'
 date: 2011-06-24T18:49:47+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=74
+wordpress_guid: http://lostechies.com/johnteague/?p=74
 dsq_thread_id:
   - "341417698"
 categories:

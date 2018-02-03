@@ -1,10 +1,10 @@
 ---
-id: 810
+wordpress_id: 810
 title: 'Conventional HTML in ASP.NET MVC: A Primer'
 date: 2013-07-18T14:10:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=810
+wordpress_guid: http://lostechies.com/jimmybogard/?p=810
 dsq_thread_id:
   - "1509775558"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 116
+wordpress_id: 116
 title: 'Application Events: Modeling Selection vs De-Selection as Separate Events?'
 date: 2010-03-17T14:08:12+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/03/17/application-events-modeling-selection-vs-de-selection-as-separate-events.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/03/17/application-events-modeling-selection-vs-de-selection-as-separate-events.aspx
 dsq_thread_id:
   - "264729660"
 categories:

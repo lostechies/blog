@@ -1,10 +1,10 @@
 ---
-id: 3967
+wordpress_id: 3967
 title: Extending GitHub Issues
 date: 2010-10-26T14:09:00+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/10/26/extending-github-issues.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/10/26/extending-github-issues.aspx
 dsq_thread_id:
   - "262050154"
 categories:

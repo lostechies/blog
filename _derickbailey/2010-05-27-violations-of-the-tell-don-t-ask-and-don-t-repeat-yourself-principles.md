@@ -1,10 +1,10 @@
 ---
-id: 164
+wordpress_id: 164
 title: Violations Of The “Tell, Don’t Ask” and “Don’t Repeat Yourself” Principles?
 date: 2010-05-27T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/27/violations-of-the-tell-don-t-ask-and-don-t-repeat-yourself-principles.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/27/violations-of-the-tell-don-t-ask-and-don-t-repeat-yourself-principles.aspx
 dsq_thread_id:
   - "266523870"
 categories:

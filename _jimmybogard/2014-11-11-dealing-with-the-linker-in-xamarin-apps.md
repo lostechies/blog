@@ -1,10 +1,10 @@
 ---
-id: 973
+wordpress_id: 973
 title: Dealing with the linker in Xamarin apps
 date: 2014-11-11T16:51:47+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=973
+wordpress_guid: http://lostechies.com/jimmybogard/?p=973
 dsq_thread_id:
   - "3214483118"
 categories:

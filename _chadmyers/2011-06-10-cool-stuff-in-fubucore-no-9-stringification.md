@@ -1,10 +1,10 @@
 ---
-id: 210
+wordpress_id: 210
 title: 'Cool stuff in FubuCore No. 9: Stringification'
 date: 2011-06-10T17:16:08+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=210
+wordpress_guid: http://lostechies.com/chadmyers/?p=210
 dsq_thread_id:
   - "328148485"
 categories:

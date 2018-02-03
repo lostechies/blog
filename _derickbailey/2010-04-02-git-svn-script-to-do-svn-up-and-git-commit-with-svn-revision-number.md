@@ -1,10 +1,10 @@
 ---
-id: 131
+wordpress_id: 131
 title: 'Git+SVN: Script To Do “Svn Up” And “Git Commit” With Svn Revision Number'
 date: 2010-04-02T20:04:14+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/02/git-svn-script-to-do-svn-up-and-git-commit-with-svn-revision-number.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/02/git-svn-script-to-do-svn-up-and-git-commit-with-svn-revision-number.aspx
 dsq_thread_id:
   - "262068568"
 categories:

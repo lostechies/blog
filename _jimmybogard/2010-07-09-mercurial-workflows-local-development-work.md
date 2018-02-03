@@ -1,10 +1,10 @@
 ---
-id: 421
+wordpress_id: 421
 title: 'Mercurial workflows: local development work'
 date: 2010-07-09T03:18:18+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/07/08/mercurial-workflows-local-development-work.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/07/08/mercurial-workflows-local-development-work.aspx
 dsq_thread_id:
   - "264716536"
 categories:

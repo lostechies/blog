@@ -1,10 +1,10 @@
 ---
-id: 379
+wordpress_id: 379
 title: Tip to become a successful software engineer.
 date: 2013-01-27T17:07:05+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=379
+wordpress_guid: http://lostechies.com/erichexter/?p=379
 dsq_thread_id:
   - "1050198076"
 categories:

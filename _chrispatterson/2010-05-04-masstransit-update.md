@@ -1,10 +1,10 @@
 ---
-id: 66
+wordpress_id: 66
 title: MassTransit Update
 date: 2010-05-04T20:56:07+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2010/05/04/masstransit-update.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2010/05/04/masstransit-update.aspx
 dsq_thread_id:
   - "262089430"
 categories:

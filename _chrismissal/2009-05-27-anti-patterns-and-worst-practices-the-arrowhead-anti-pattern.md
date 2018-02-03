@@ -1,10 +1,10 @@
 ---
-id: 3353
+wordpress_id: 3353
 title: Anti-Patterns and Worst Practices – The Arrowhead Anti-Pattern
 date: 2009-05-27T12:00:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/05/27/anti-patterns-and-worst-practices-the-arrowhead-anti-pattern.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/05/27/anti-patterns-and-worst-practices-the-arrowhead-anti-pattern.aspx
 dsq_thread_id:
   - "262174888"
 categories:

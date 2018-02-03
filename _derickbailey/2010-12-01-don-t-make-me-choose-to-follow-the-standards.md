@@ -1,10 +1,10 @@
 ---
-id: 200
+wordpress_id: 200
 title: 'Don&#8217;t Make Me Choose To Follow The Standards'
 date: 2010-12-01T02:09:04+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/11/30/don-t-make-me-choose-to-follow-the-standards.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/11/30/don-t-make-me-choose-to-follow-the-standards.aspx
 dsq_thread_id:
   - "265053504"
 categories:

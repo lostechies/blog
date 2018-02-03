@@ -1,10 +1,10 @@
 ---
-id: 332
+wordpress_id: 332
 title: Re-learning The Meaning of ! in Ruby Methods
 date: 2011-05-16T20:35:32+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=332
+wordpress_guid: http://lostechies.com/derickbailey/?p=332
 dsq_thread_id:
   - "305689161"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 2939
+wordpress_id: 2939
 title: 'New MvcContrib build released on CodePlex &#8211; Build 0.0.1.75 Beta'
 date: 2008-02-29T10:57:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/02/29/new-mvccontrib-build-released-on-codeplex-build-0-0-1-75-beta.aspx
+wordpress_guid: /blogs/hex/archive/2008/02/29/new-mvccontrib-build-released-on-codeplex-build-0-0-1-75-beta.aspx
 dsq_thread_id:
   - "1112751959"
 categories:

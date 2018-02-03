@@ -1,10 +1,10 @@
 ---
-id: 3393
+wordpress_id: 3393
 title: I accidentally the code
 date: 2012-04-12T20:41:14+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=126
+wordpress_guid: http://lostechies.com/chrismissal/?p=126
 dsq_thread_id:
   - "647250998"
 categories:

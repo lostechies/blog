@@ -1,10 +1,10 @@
 ---
-id: 72
+wordpress_id: 72
 title: Treat warnings as errors
 date: 2007-10-04T21:25:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/10/04/treat-warnings-as-errors.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/10/04/treat-warnings-as-errors.aspx
 dsq_thread_id:
   - "306939326"
 categories:

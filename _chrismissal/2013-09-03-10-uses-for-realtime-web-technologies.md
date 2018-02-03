@@ -1,10 +1,10 @@
 ---
-id: 433
+wordpress_id: 433
 title: 10 Uses for Realtime Web Technologies
 date: 2013-09-03T19:00:45+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=433
+wordpress_guid: http://lostechies.com/chrismissal/?p=433
 dsq_thread_id:
   - "1704709120"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 377
+wordpress_id: 377
 title: 'Advanced StructureMap: connecting implementations to open generic types'
 date: 2009-12-18T04:03:41+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/12/17/advanced-structuremap-connecting-implementations-to-open-generic-types.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/12/17/advanced-structuremap-connecting-implementations-to-open-generic-types.aspx
 dsq_thread_id:
   - "264716377"
 categories:

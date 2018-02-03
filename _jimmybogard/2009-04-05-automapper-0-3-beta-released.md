@@ -1,10 +1,10 @@
 ---
-id: 301
+wordpress_id: 301
 title: AutoMapper 0.3 Beta released
 date: 2009-04-05T02:03:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/04/04/automapper-0-3-beta-released.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/04/04/automapper-0-3-beta-released.aspx
 dsq_thread_id:
   - "267050675"
 categories:

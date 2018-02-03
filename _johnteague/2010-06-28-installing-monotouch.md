@@ -1,10 +1,10 @@
 ---
-id: 49
+wordpress_id: 49
 title: Installing MonoTouch
 date: 2010-06-28T13:54:15+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2010/06/28/installing-monotouch.aspx
+wordpress_guid: /blogs/johnteague/archive/2010/06/28/installing-monotouch.aspx
 dsq_thread_id:
   - "262055758"
 categories:

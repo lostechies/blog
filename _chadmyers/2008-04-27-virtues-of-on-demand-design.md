@@ -1,10 +1,10 @@
 ---
-id: 43
+wordpress_id: 43
 title: Virtues of On Demand Design
 date: 2008-04-27T00:45:36+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/26/virtues-of-on-demand-design.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/26/virtues-of-on-demand-design.aspx
 dsq_thread_id:
   - "1084724844"
 categories:

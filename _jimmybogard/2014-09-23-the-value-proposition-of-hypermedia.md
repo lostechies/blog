@@ -1,10 +1,10 @@
 ---
-id: 959
+wordpress_id: 959
 title: The value proposition of Hypermedia
 date: 2014-09-23T14:13:13+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=959
+wordpress_guid: http://lostechies.com/jimmybogard/?p=959
 dsq_thread_id:
   - "3046113682"
 categories:

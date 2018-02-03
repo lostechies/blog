@@ -1,10 +1,10 @@
 ---
-id: 3961
+wordpress_id: 3961
 title: Using rake under IronRuby
 date: 2010-06-14T22:22:19+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2010/06/14/using-rake-under-ironruby.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2010/06/14/using-rake-under-ironruby.aspx
 dsq_thread_id:
   - "263133143"
 categories:

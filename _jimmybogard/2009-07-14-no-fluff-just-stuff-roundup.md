@@ -1,10 +1,10 @@
 ---
-id: 335
+wordpress_id: 335
 title: No Fluff Just Stuff roundup
 date: 2009-07-14T12:54:54+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/07/14/no-fluff-just-stuff-roundup.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/07/14/no-fluff-just-stuff-roundup.aspx
 dsq_thread_id:
   - "264716244"
 categories:

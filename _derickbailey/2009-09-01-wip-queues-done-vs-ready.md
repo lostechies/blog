@@ -1,10 +1,10 @@
 ---
-id: 78
+wordpress_id: 78
 title: 'WIP Queues: Done vs Ready'
 date: 2009-09-01T16:36:18+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/01/wip-queues-done-vs-ready.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/01/wip-queues-done-vs-ready.aspx
 dsq_thread_id:
   - "262068305"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4531
+wordpress_id: 4531
 title: Listening to Leaves
 date: 2014-02-13T23:51:19+00:00
 author: Patrick Lioi
 layout: post
-guid: http://lostechies.com/patricklioi/?p=166
+wordpress_guid: http://lostechies.com/patricklioi/?p=166
 dsq_thread_id:
   - "2263263022"
 categories:

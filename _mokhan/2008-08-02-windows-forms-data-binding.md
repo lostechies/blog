@@ -1,10 +1,10 @@
 ---
-id: 4559
+wordpress_id: 4559
 title: Windows Forms Data Binding
 date: 2008-08-02T04:36:34+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2008/08/01/windows-forms-data-binding.aspx
+wordpress_guid: /blogs/mokhan/archive/2008/08/01/windows-forms-data-binding.aspx
 categories:
   - Windows Forms
 ---

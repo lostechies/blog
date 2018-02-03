@@ -1,10 +1,10 @@
 ---
-id: 14
+wordpress_id: 14
 title: The open closed principle
 date: 2009-02-13T12:30:00+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/02/13/the-open-closed-principle.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/02/13/the-open-closed-principle.aspx
 dsq_thread_id:
   - "263908860"
 categories:

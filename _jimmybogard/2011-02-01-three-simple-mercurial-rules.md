@@ -1,10 +1,10 @@
 ---
-id: 451
+wordpress_id: 451
 title: Three simple Mercurial rules
 date: 2011-02-01T01:49:02+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/01/31/three-simple-mercurial-rules.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/01/31/three-simple-mercurial-rules.aspx
 dsq_thread_id:
   - "264716643"
 categories:

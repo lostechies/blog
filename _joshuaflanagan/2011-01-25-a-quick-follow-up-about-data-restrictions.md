@@ -1,10 +1,10 @@
 ---
-id: 3970
+wordpress_id: 3970
 title: A quick follow up about data restrictions
 date: 2011-01-25T03:35:46+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2011/01/24/a-quick-follow-up-about-data-restrictions.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2011/01/24/a-quick-follow-up-about-data-restrictions.aspx
 dsq_thread_id:
   - "262153150"
 categories:

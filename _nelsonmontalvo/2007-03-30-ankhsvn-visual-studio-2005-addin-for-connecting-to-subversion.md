@@ -1,10 +1,10 @@
 ---
-id: 4733
+wordpress_id: 4733
 title: AnkhSVN (Visual Studio 2005 AddIn for connecting to Subversion)
 date: 2007-03-30T16:34:00+00:00
 author: Nelson Montalvo
 layout: post
-guid: /blogs/nelson_montalvo/archive/2007/03/30/ankhsvn-visual-studio-2005-addin-for-connecting-to-subversion.aspx
+wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/ankhsvn-visual-studio-2005-addin-for-connecting-to-subversion.aspx
 categories:
   - Uncategorized
 ---

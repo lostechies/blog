@@ -1,10 +1,10 @@
 ---
-id: 121
+wordpress_id: 121
 title: Managing changes in scope and direction in an agile projects
 date: 2008-10-12T15:35:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/10/12/managing-changes-in-scope-and-direction-in-an-agile-projects.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/10/12/managing-changes-in-scope-and-direction-in-an-agile-projects.aspx
 dsq_thread_id:
   - "262089173"
 categories:

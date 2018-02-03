@@ -1,10 +1,10 @@
 ---
-id: 1280
+wordpress_id: 1280
 title: On The Value Of GateKeepers In Publishing
 date: 2014-02-23T15:37:22+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1280
+wordpress_guid: http://lostechies.com/derickbailey/?p=1280
 dsq_thread_id:
   - "2310058336"
 categories:

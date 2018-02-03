@@ -1,10 +1,10 @@
 ---
-id: 3213
+wordpress_id: 3213
 title: 'Refactoring Day 19 : Extract Factory Class'
 date: 2009-08-19T12:30:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/19/refactoring-day-19-extract-factory-class.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/19/refactoring-day-19-extract-factory-class.aspx
 dsq_thread_id:
   - "262353538"
 categories:

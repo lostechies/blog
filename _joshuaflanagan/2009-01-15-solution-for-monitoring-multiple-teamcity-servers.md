@@ -1,10 +1,10 @@
 ---
-id: 3941
+wordpress_id: 3941
 title: Solution for monitoring multiple TeamCity servers
 date: 2009-01-15T15:23:51+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/01/15/solution-for-monitoring-multiple-teamcity-servers.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/01/15/solution-for-monitoring-multiple-teamcity-servers.aspx
 dsq_thread_id:
   - "277486527"
 categories:

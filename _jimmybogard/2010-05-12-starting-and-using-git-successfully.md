@@ -1,10 +1,10 @@
 ---
-id: 408
+wordpress_id: 408
 title: Starting and using Git successfully
 date: 2010-05-12T15:04:18+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/05/12/starting-and-using-git-successfully.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/05/12/starting-and-using-git-successfully.aspx
 dsq_thread_id:
   - "264716505"
 categories:

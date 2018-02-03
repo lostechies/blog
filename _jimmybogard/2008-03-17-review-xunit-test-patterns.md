@@ -1,10 +1,10 @@
 ---
-id: 158
+wordpress_id: 158
 title: 'Review &#8211; xUnit Test Patterns'
 date: 2008-03-17T02:15:38+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/03/16/review-xunit-test-patterns.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/03/16/review-xunit-test-patterns.aspx
 dsq_thread_id:
   - "264715604"
 categories:

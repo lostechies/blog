@@ -1,10 +1,10 @@
 ---
-id: 453
+wordpress_id: 453
 title: Attack of the pseudo-frames
 date: 2011-02-10T13:47:35+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/02/10/attack-of-the-pseudo-frames.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/02/10/attack-of-the-pseudo-frames.aspx
 dsq_thread_id:
   - "264716681"
 categories:

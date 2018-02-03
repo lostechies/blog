@@ -1,10 +1,10 @@
 ---
-id: 215
+wordpress_id: 215
 title: 'Git: D&#8217;OH! I didn&#8217;t want to delete that branch!'
 date: 2011-02-23T17:48:09+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/02/23/git-d-oh-i-didn-t-want-to-delete-that-branch.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/02/23/git-d-oh-i-didn-t-want-to-delete-that-branch.aspx
 dsq_thread_id:
   - "262100835"
 categories:

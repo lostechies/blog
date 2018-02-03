@@ -1,10 +1,10 @@
 ---
-id: 273
+wordpress_id: 273
 title: Cleaning Up Log Files On Linux, With Logrotate
 date: 2011-04-28T06:41:51+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=273
+wordpress_guid: http://lostechies.com/derickbailey/?p=273
 dsq_thread_id:
   - "290455611"
 categories:

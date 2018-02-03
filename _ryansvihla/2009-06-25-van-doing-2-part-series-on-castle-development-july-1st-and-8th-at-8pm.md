@@ -1,10 +1,10 @@
 ---
-id: 15
+wordpress_id: 15
 title: 'VAN: Doing 2 Part Series on Castle development July 1st and 8th at 8pm'
 date: 2009-06-25T02:52:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/06/24/van-doing-2-part-series-on-castle-development-july-1st-and-8th-at-8pm.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/06/24/van-doing-2-part-series-on-castle-development-july-1st-and-8th-at-8pm.aspx
 dsq_thread_id:
   - "1373571273"
 categories:

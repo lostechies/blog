@@ -1,10 +1,10 @@
 ---
-id: 1124
+wordpress_id: 1124
 title: 'End-to-End Hypermedia: Choosing a Media Type'
 date: 2015-05-22T15:12:23+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1124
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1124
 dsq_thread_id:
   - "3785488904"
 categories:

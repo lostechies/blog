@@ -1,10 +1,10 @@
 ---
-id: 18
+wordpress_id: 18
 title: 'Kanban &#8211; Pulling Value From The Supplier'
 date: 2008-11-20T21:03:08+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/11/20/kanban-pulling-value-from-the-supplier.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/11/20/kanban-pulling-value-from-the-supplier.aspx
 dsq_thread_id:
   - "262067936"
 categories:

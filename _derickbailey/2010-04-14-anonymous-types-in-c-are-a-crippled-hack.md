@@ -1,10 +1,10 @@
 ---
-id: 138
+wordpress_id: 138
 title: 'Anonymous Types In C# Are A Crippled Hack'
 date: 2010-04-14T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/04/14/anonymous-types-in-c-are-a-crippled-hack.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/04/14/anonymous-types-in-c-are-a-crippled-hack.aspx
 dsq_thread_id:
   - "262068588"
 categories:

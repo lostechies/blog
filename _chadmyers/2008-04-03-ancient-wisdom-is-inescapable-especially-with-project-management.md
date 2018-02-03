@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: Ancient wisdom is inescapable, especially with project management
 date: 2008-04-03T02:06:40+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/02/ancient-wisdom-is-inescapable-especially-with-project-management.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/02/ancient-wisdom-is-inescapable-especially-with-project-management.aspx
 dsq_thread_id:
   - "264162633"
 categories:

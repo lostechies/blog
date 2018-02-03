@@ -1,10 +1,10 @@
 ---
-id: 240
+wordpress_id: 240
 title: Solving Some SSH Issues For Deploying Rails Apps
 date: 2011-04-07T14:39:19+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=240
+wordpress_guid: http://lostechies.com/derickbailey/?p=240
 dsq_thread_id:
   - "273890897"
 categories:

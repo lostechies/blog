@@ -1,10 +1,10 @@
 ---
-id: 405
+wordpress_id: 405
 title: 'Dependency Injection in ASP.NET MVC: Filters'
 date: 2010-05-03T16:51:31+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/05/03/dependency-injection-in-asp-net-mvc-filters.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/05/03/dependency-injection-in-asp-net-mvc-filters.aspx
 dsq_thread_id:
   - "264829959"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 12
+wordpress_id: 12
 title: NHibernate Mapping Validation Tool?
 date: 2007-05-25T00:45:11+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/05/24/nhibernate-mapping-validation-tool.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/05/24/nhibernate-mapping-validation-tool.aspx
 categories:
   - NHibernate
   - scriptaculous

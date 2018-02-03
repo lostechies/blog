@@ -1,10 +1,10 @@
 ---
-id: 47
+wordpress_id: 47
 title: Analyzing historical data and playing with interactive extensions
 date: 2010-09-21T14:07:38+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/09/21/analyzing-historical-data-and-playing-with-interactive-extensions.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/09/21/analyzing-historical-data-and-playing-with-interactive-extensions.aspx
 dsq_thread_id:
   - "1073173410"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3372
+wordpress_id: 3372
 title: 'SEO Tips for Developers : Page Speed'
 date: 2010-01-14T02:15:31+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/01/13/seo-tips-for-developers-page-speed.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/01/13/seo-tips-for-developers-page-speed.aspx
 dsq_thread_id:
   - "262175101"
 categories:

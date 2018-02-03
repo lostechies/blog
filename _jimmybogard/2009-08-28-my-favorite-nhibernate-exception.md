@@ -1,10 +1,10 @@
 ---
-id: 348
+wordpress_id: 348
 title: My favorite NHibernate exception
 date: 2009-08-28T14:35:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/08/28/my-favorite-nhibernate-exception.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/08/28/my-favorite-nhibernate-exception.aspx
 dsq_thread_id:
   - "267667133"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3142
+wordpress_id: 3142
 title: Wednesday is the Day
 date: 2007-10-08T01:58:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/10/07/wednesday-is-the-day.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/10/07/wednesday-is-the-day.aspx
 dsq_thread_id:
   - "268123697"
 categories:

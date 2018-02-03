@@ -1,10 +1,10 @@
 ---
-id: 3157
+wordpress_id: 3157
 title: What really are the ALT.NET Shared Values?
 date: 2007-12-11T22:24:43+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/12/11/what-really-are-the-alt-net-shared-values.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/12/11/what-really-are-the-alt-net-shared-values.aspx
 dsq_thread_id:
   - "268123748"
 categories:

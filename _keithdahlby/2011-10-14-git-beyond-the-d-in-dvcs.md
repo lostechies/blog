@@ -1,10 +1,10 @@
 ---
-id: 83
+wordpress_id: 83
 title: Git Beyond the D in DVCS
 date: 2011-10-14T06:23:33+00:00
 author: Keith Dahlby
 layout: post
-guid: http://lostechies.com/keithdahlby/?p=83
+wordpress_guid: http://lostechies.com/keithdahlby/?p=83
 dsq_thread_id:
   - "442889936"
 categories:

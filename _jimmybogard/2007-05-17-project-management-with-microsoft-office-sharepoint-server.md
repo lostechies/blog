@@ -1,10 +1,10 @@
 ---
-id: 19
+wordpress_id: 19
 title: Project management with Microsoft Office SharePoint Server
 date: 2007-05-17T14:37:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/17/project-management-with-microsoft-office-sharepoint-server.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/17/project-management-with-microsoft-office-sharepoint-server.aspx
 dsq_thread_id:
   - "271919700"
 categories:

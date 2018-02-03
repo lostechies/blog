@@ -1,10 +1,10 @@
 ---
-id: 589
+wordpress_id: 589
 title: Visual Studio Command Prompt in Console
 date: 2012-02-20T22:57:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/02/20/visual-studio-command-prompt-in-console/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/02/20/visual-studio-command-prompt-in-console/
 dsq_thread_id:
   - "583458971"
 categories:

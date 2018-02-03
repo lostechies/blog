@@ -1,10 +1,10 @@
 ---
-id: 5
+wordpress_id: 5
 title: Embracing Dependency Injection
 date: 2010-01-21T14:59:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2010/01/embracing-dependency-injection/
+wordpress_guid: http://www.aspiringcraftsman.com/2010/01/embracing-dependency-injection/
 dsq_thread_id:
   - "331047535"
 categories:

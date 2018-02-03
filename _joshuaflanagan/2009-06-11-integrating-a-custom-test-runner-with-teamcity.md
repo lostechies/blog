@@ -1,10 +1,10 @@
 ---
-id: 3947
+wordpress_id: 3947
 title: Integrating a custom test runner with TeamCity
 date: 2009-06-11T00:45:15+00:00
 author: Joshua Flanagan
 layout: post
-guid: /blogs/joshuaflanagan/archive/2009/06/10/integrating-a-custom-test-runner-with-teamcity.aspx
+wordpress_guid: /blogs/joshuaflanagan/archive/2009/06/10/integrating-a-custom-test-runner-with-teamcity.aspx
 dsq_thread_id:
   - "262113192"
 categories:

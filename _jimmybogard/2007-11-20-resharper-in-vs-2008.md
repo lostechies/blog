@@ -1,10 +1,10 @@
 ---
-id: 103
+wordpress_id: 103
 title: ReSharper in VS 2008
 date: 2007-11-20T19:21:40+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/20/resharper-in-vs-2008.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/20/resharper-in-vs-2008.aspx
 dsq_thread_id:
   - "264715444"
 categories:

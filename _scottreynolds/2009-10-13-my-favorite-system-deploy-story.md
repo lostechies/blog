@@ -1,10 +1,10 @@
 ---
-id: 4055
+wordpress_id: 4055
 title: My Favorite System Deploy Story
 date: 2009-10-13T17:32:59+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/10/13/my-favorite-system-deploy-story.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/10/13/my-favorite-system-deploy-story.aspx
 categories:
   - Uncategorized
 ---

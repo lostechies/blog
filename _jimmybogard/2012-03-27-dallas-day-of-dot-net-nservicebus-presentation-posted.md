@@ -1,10 +1,10 @@
 ---
-id: 605
+wordpress_id: 605
 title: Dallas Day of Dot Net NServiceBus presentation posted
 date: 2012-03-27T14:18:08+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/03/27/dallas-day-of-dot-net-nservicebus-presentation-posted/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/03/27/dallas-day-of-dot-net-nservicebus-presentation-posted/
 dsq_thread_id:
   - "625908440"
 categories:

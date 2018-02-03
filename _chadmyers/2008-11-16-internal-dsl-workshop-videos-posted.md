@@ -1,10 +1,10 @@
 ---
-id: 109
+wordpress_id: 109
 title: Internal DSL Workshop Videos Posted
 date: 2008-11-16T03:07:57+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/11/15/internal-dsl-workshop-videos-posted.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/11/15/internal-dsl-workshop-videos-posted.aspx
 dsq_thread_id:
   - "262262253"
 categories:

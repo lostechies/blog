@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: Self-Documenting Unit Tests
 date: 2007-04-10T16:49:00+00:00
 author: Jasdeep Singh
 layout: post
-guid: /blogs/jasdeep_singh/archive/2007/04/10/self-documenting-unit-tests.aspx
+wordpress_guid: /blogs/jasdeep_singh/archive/2007/04/10/self-documenting-unit-tests.aspx
 categories:
   - Agile
   - BDD

@@ -1,10 +1,10 @@
 ---
-id: 767
+wordpress_id: 767
 title: 'RabbitMQ for Windows: Fanout Exchanges'
 date: 2012-05-16T08:24:24+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=767
+wordpress_guid: http://lostechies.com/derekgreer/?p=767
 dsq_thread_id:
   - "691969148"
 categories:

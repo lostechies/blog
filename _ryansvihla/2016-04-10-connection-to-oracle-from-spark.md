@@ -1,10 +1,10 @@
 ---
-id: 289
+wordpress_id: 289
 title: Connection to Oracle From Spark
 date: 2016-04-10T08:51:54+00:00
 author: Ryan Svihla
 layout: post
-guid: https://lostechies.com/ryansvihla/?p=289
+wordpress_guid: https://lostechies.com/ryansvihla/?p=289
 dsq_thread_id:
   - "4661588863"
 categories:

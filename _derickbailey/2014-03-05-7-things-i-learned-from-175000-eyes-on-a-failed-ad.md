@@ -1,10 +1,10 @@
 ---
-id: 1312
+wordpress_id: 1312
 title: 7 Things I Learned From 175,000 Eyes And A Failed Ad
 date: 2014-03-05T06:45:06+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1312
+wordpress_guid: http://lostechies.com/derickbailey/?p=1312
 dsq_thread_id:
   - "2364573062"
 categories:

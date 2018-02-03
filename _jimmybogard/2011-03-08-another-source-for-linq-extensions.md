@@ -1,10 +1,10 @@
 ---
-id: 458
+wordpress_id: 458
 title: Another source for LINQ extensions
 date: 2011-03-08T14:04:50+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2011/03/08/another-source-for-linq-extensions.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2011/03/08/another-source-for-linq-extensions.aspx
 dsq_thread_id:
   - "264716671"
 categories:

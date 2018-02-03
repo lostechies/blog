@@ -1,10 +1,10 @@
 ---
-id: 4454
+wordpress_id: 4454
 title: Configuring Fluent NHibernate with an External NHibernate Config File
 date: 2009-07-13T16:12:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2009/07/13/using-fluent-nhibernate-with-and-external-nhibernate-config-file.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2009/07/13/using-fluent-nhibernate-with-and-external-nhibernate-config-file.aspx
 dsq_thread_id:
   - "449608152"
 categories:

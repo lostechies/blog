@@ -1,10 +1,10 @@
 ---
-id: 60
+wordpress_id: 60
 title: 'Scribbish Skin &#8211; For Subtext'
 date: 2008-02-11T02:20:04+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2008/02/10/scribbish-skin-for-subtext.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2008/02/10/scribbish-skin-for-subtext.aspx
 categories:
   - blogging
   - subtext

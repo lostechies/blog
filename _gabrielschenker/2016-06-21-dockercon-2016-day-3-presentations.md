@@ -1,10 +1,10 @@
 ---
-id: 1578
+wordpress_id: 1578
 title: 'DockerCon 2016 &#8211; Day 3, Presentations'
 date: 2016-06-21T21:03:05+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1578
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1578
 dsq_thread_id:
   - "4929160990"
 categories:

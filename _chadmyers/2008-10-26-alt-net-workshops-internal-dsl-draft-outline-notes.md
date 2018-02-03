@@ -1,10 +1,10 @@
 ---
-id: 100
+wordpress_id: 100
 title: 'ALT.NET Workshops: Internal DSL Draft Outline, Notes'
 date: 2008-10-26T04:30:00+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx
 dsq_thread_id:
   - "262262258"
 categories:

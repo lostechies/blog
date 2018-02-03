@@ -1,10 +1,10 @@
 ---
-id: 282
+wordpress_id: 282
 title: Deploying A Thor Application With Vlad, From Github, Run As A Cron Job
 date: 2011-05-03T06:21:35+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=282
+wordpress_guid: http://lostechies.com/derickbailey/?p=282
 dsq_thread_id:
   - "294135520"
 categories:

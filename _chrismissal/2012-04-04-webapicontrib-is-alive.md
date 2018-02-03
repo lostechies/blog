@@ -1,10 +1,10 @@
 ---
-id: 3392
+wordpress_id: 3392
 title: WebApiContrib is Alive
 date: 2012-04-04T19:47:55+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=117
+wordpress_guid: http://lostechies.com/chrismissal/?p=117
 dsq_thread_id:
   - "636987641"
 categories:

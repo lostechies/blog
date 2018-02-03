@@ -1,10 +1,10 @@
 ---
-id: 201
+wordpress_id: 201
 title: 'Separation of Concerns by example: Part 3'
 date: 2008-06-27T03:14:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/06/26/separation-of-concerns-by-example-part-3.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/06/26/separation-of-concerns-by-example-part-3.aspx
 dsq_thread_id:
   - "264715808"
 categories:

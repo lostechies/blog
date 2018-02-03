@@ -1,10 +1,10 @@
 ---
-id: 450
+wordpress_id: 450
 title: Interactive Application Architecture Patterns
 date: 2007-08-25T19:54:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2007/08/interactive-application-architecture-patterns/
+wordpress_guid: http://www.aspiringcraftsman.com/2007/08/interactive-application-architecture-patterns/
 dsq_thread_id:
   - "315803845"
 categories:

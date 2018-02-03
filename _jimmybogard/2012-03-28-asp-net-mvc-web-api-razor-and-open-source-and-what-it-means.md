@@ -1,10 +1,10 @@
 ---
-id: 606
+wordpress_id: 606
 title: ASP.NET MVC, Web API, Razor and Open Source and what it means
 date: 2012-03-28T13:39:10+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/03/28/asp-net-mvc-web-api-razor-and-open-source-and-what-it-means/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/03/28/asp-net-mvc-web-api-razor-and-open-source-and-what-it-means/
 dsq_thread_id:
   - "627141063"
 categories:

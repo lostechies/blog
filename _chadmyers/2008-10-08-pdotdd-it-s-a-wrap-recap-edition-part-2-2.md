@@ -1,10 +1,10 @@
 ---
-id: 95
+wordpress_id: 95
 title: 'PDoTDD: It’s a Wrap! Recap Edition (Part 2/2)'
 date: 2008-10-08T00:54:36+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/10/07/pdotdd-it-s-a-wrap-recap-edition-part-2-2.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/10/07/pdotdd-it-s-a-wrap-recap-edition-part-2-2.aspx
 dsq_thread_id:
   - "268270371"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 195
+wordpress_id: 195
 title: 'Separation of Concerns &#8211; how not to do it'
 date: 2008-06-17T12:00:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx
 dsq_thread_id:
   - "264715805"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 69
+wordpress_id: 69
 title: Does this mean we can patch the .Net Framework?
 date: 2007-10-03T18:14:53+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/03/does-this-mean-we-can-patch-the-net-framework.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/03/does-this-mean-we-can-patch-the-net-framework.aspx
 dsq_thread_id:
   - "262088407"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 320
+wordpress_id: 320
 title: Fighting technical debt with the wall of pain
 date: 2009-06-04T00:57:39+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/06/03/fighting-technical-debt-with-the-wall-of-pain.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/06/03/fighting-technical-debt-with-the-wall-of-pain.aspx
 dsq_thread_id:
   - "264716173"
 categories:

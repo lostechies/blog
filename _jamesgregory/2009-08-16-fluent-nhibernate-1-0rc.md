@@ -1,10 +1,10 @@
 ---
-id: 4498
+wordpress_id: 4498
 title: Fluent NHibernate 1.0RC
 date: 2009-08-16T03:23:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2009/08/16/fluent-nhibernate-1-0rc.aspx
+wordpress_guid: /blogs/jagregory/archive/2009/08/16/fluent-nhibernate-1-0rc.aspx
 dsq_thread_id:
   - "277276369"
 categories:

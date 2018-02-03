@@ -1,10 +1,10 @@
 ---
-id: 323
+wordpress_id: 323
 title: Simplest versus first thing that could possibly work
 date: 2009-06-11T02:58:21+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/06/10/simplest-versus-first-thing-that-could-possibly-work.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/06/10/simplest-versus-first-thing-that-could-possibly-work.aspx
 dsq_thread_id:
   - "265260244"
 categories:

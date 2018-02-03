@@ -1,10 +1,10 @@
 ---
-id: 1029
+wordpress_id: 1029
 title: Combating the lava-layer anti-pattern with rolling refactoring
 date: 2015-01-15T15:37:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=1029
+wordpress_guid: http://lostechies.com/jimmybogard/?p=1029
 dsq_thread_id:
   - "3422958162"
 categories:

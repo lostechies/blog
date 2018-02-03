@@ -1,10 +1,10 @@
 ---
-id: 7
+wordpress_id: 7
 title: LosTechies!
 date: 2008-02-18T01:34:00+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/02/17/lostechies.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/02/17/lostechies.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 559
+wordpress_id: 559
 title: Dealing with transactions
 date: 2011-11-28T17:05:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=559
+wordpress_guid: http://lostechies.com/jimmybogard/?p=559
 dsq_thread_id:
   - "486515557"
 categories:

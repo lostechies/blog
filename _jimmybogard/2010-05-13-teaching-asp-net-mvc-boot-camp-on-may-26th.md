@@ -1,10 +1,10 @@
 ---
-id: 409
+wordpress_id: 409
 title: Teaching ASP.NET MVC Boot Camp on May 26th
 date: 2010-05-13T15:46:51+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/05/13/teaching-asp-net-mvc-boot-camp-on-may-26th.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/05/13/teaching-asp-net-mvc-boot-camp-on-may-26th.aspx
 dsq_thread_id:
   - "266090223"
 categories:

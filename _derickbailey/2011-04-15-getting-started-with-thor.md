@@ -1,10 +1,10 @@
 ---
-id: 265
+wordpress_id: 265
 title: Getting Started With Thor
 date: 2011-04-15T07:00:20+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=265
+wordpress_guid: http://lostechies.com/derickbailey/?p=265
 dsq_thread_id:
   - "280125524"
 categories:

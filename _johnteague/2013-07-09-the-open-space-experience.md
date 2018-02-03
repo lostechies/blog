@@ -1,10 +1,10 @@
 ---
-id: 200
+wordpress_id: 200
 title: The Open Space Experience
 date: 2013-07-09T17:34:35+00:00
 author: John Teague
 layout: post
-guid: http://lostechies.com/johnteague/?p=200
+wordpress_guid: http://lostechies.com/johnteague/?p=200
 dsq_thread_id:
   - "1481942449"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 152
+wordpress_id: 152
 title: 'Rhino Mocks: Recursion And Multiple Return Values From Stubs'
 date: 2010-05-04T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/04/rhino-mocks-recursion-and-multiple-return-values-from-stubs.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/04/rhino-mocks-recursion-and-multiple-return-values-from-stubs.aspx
 dsq_thread_id:
   - "262065466"
 categories:

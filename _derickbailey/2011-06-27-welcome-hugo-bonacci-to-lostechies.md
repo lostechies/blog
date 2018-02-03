@@ -1,10 +1,10 @@
 ---
-id: 460
+wordpress_id: 460
 title: Welcome, Hugo Bonacci, To LosTechies!
 date: 2011-06-27T08:48:18+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=460
+wordpress_guid: http://lostechies.com/derickbailey/?p=460
 dsq_thread_id:
   - "343441957"
 categories:

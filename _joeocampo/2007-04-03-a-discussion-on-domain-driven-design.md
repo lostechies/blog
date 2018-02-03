@@ -1,10 +1,10 @@
 ---
-id: 13
+wordpress_id: 13
 title: A Discussion on Domain Driven Design
 date: 2007-04-03T02:08:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/04/02/a-discussion-on-domain-driven-design.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/04/02/a-discussion-on-domain-driven-design.aspx
 dsq_thread_id:
   - "262090892"
 categories:

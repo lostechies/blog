@@ -1,10 +1,10 @@
 ---
-id: 202
+wordpress_id: 202
 title: Getting a Fix on Fixie
 date: 2013-06-12T22:54:41+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=202
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=202
 dsq_thread_id:
   - "1396619539"
 categories:

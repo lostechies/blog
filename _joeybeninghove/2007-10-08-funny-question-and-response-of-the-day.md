@@ -1,10 +1,10 @@
 ---
-id: 43
+wordpress_id: 43
 title: Funny question and response of the day
 date: 2007-10-08T19:36:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/10/08/funny-question-and-response-of-the-day.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/10/08/funny-question-and-response-of-the-day.aspx
 categories:
   - 'C#'
 ---

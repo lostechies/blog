@@ -1,10 +1,10 @@
 ---
-id: 4026
+wordpress_id: 4026
 title: Viva LosTechies!
 date: 2008-09-04T11:14:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2008/09/04/viva-lostechies.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2008/09/04/viva-lostechies.aspx
 categories:
   - Uncategorized
 ---

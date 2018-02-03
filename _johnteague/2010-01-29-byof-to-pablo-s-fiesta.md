@@ -1,10 +1,10 @@
 ---
-id: 43
+wordpress_id: 43
 title: Brown Bag It To Pablo’s Fiesta
 date: 2010-01-29T15:11:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2010/01/29/byof-to-pablo-s-fiesta.aspx
+wordpress_guid: /blogs/johnteague/archive/2010/01/29/byof-to-pablo-s-fiesta.aspx
 dsq_thread_id:
   - "271132195"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 287
+wordpress_id: 287
 title: Polymorphism in Expression trees
 date: 2009-02-25T01:11:13+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/02/24/polymorphism-in-expression-trees.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/02/24/polymorphism-in-expression-trees.aspx
 dsq_thread_id:
   - "264716077"
 categories:

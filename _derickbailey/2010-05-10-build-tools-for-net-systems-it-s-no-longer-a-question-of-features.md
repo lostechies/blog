@@ -1,10 +1,10 @@
 ---
-id: 154
+wordpress_id: 154
 title: Build Tools Roundup For .NET Systems
 date: 2010-05-10T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/10/build-tools-for-net-systems-it-s-no-longer-a-question-of-features.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/10/build-tools-for-net-systems-it-s-no-longer-a-question-of-features.aspx
 dsq_thread_id:
   - "262295534"
 categories:

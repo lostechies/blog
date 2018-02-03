@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: 'Unit Testing NHibernate DALs &#8211; What Are You *Really* Testing?'
 date: 2007-05-17T11:19:53+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/05/17/unit-testing-nhibernate-dals-what-are-you-really-testing.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/05/17/unit-testing-nhibernate-dals-what-are-you-really-testing.aspx
 categories:
   - NHibernate
   - Patterns

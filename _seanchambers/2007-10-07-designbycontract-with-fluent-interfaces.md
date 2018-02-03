@@ -1,10 +1,10 @@
 ---
-id: 3141
+wordpress_id: 3141
 title: DesignByContract with Fluent Interfaces
 date: 2007-10-07T03:37:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/10/06/designbycontract-with-fluent-interfaces.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/10/06/designbycontract-with-fluent-interfaces.aspx
 dsq_thread_id:
   - "268123695"
 categories:

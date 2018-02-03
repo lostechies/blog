@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: 'I&#8217;m Presenting @ ADNUG, Monday the 13th.'
 date: 2008-10-09T12:55:56+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2008/10/09/i-m-presenting-adnug-monday-the-13th.aspx
+wordpress_guid: /blogs/derickbailey/archive/2008/10/09/i-m-presenting-adnug-monday-the-13th.aspx
 dsq_thread_id:
   - "521602935"
 categories:

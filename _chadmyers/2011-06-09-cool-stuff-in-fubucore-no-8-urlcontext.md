@@ -1,10 +1,10 @@
 ---
-id: 208
+wordpress_id: 208
 title: 'Cool stuff in FubuCore No. 8: UrlContext'
 date: 2011-06-09T22:14:01+00:00
 author: Chad Myers
 layout: post
-guid: http://lostechies.com/chadmyers/?p=208
+wordpress_guid: http://lostechies.com/chadmyers/?p=208
 dsq_thread_id:
   - "327318507"
 categories:

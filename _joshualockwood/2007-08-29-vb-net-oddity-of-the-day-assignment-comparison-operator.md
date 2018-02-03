@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: 'VB.Net oddity of the day &#8211; Assignment/Comparison operator'
 date: 2007-08-29T14:56:00+00:00
 author: Joshua Lockwood
 layout: post
-guid: /blogs/joshua_lockwood/archive/2007/08/29/vb-net-oddity-of-the-day-assignment-comparison-operator.aspx
+wordpress_guid: /blogs/joshua_lockwood/archive/2007/08/29/vb-net-oddity-of-the-day-assignment-comparison-operator.aspx
 categories:
   - Programming
   - VB.Net

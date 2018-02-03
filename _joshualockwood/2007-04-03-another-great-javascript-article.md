@@ -1,10 +1,10 @@
 ---
-id: 9
+wordpress_id: 9
 title: Another great JavaScript article
 date: 2007-04-03T00:25:00+00:00
 author: Joshua Lockwood
 layout: post
-guid: /blogs/joshua_lockwood/archive/2007/04/02/another-great-javascript-article.aspx
+wordpress_guid: /blogs/joshua_lockwood/archive/2007/04/02/another-great-javascript-article.aspx
 categories:
   - JavaScript
   - scripting

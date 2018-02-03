@@ -1,10 +1,10 @@
 ---
-id: 951
+wordpress_id: 951
 title: DDD applied
 date: 2015-04-28T21:28:07+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=951
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=951
 dsq_thread_id:
   - "3721370034"
 categories:

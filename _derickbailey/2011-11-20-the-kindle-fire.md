@@ -1,10 +1,10 @@
 ---
-id: 680
+wordpress_id: 680
 title: The Kindle Fire
 date: 2011-11-20T13:12:31+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=680
+wordpress_guid: http://lostechies.com/derickbailey/?p=680
 dsq_thread_id:
   - "478471011"
 categories:

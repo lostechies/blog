@@ -1,10 +1,10 @@
 ---
-id: 67
+wordpress_id: 67
 title: There is always time for TDD
 date: 2007-09-30T20:07:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/09/30/there-is-always-time-for-tdd.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/09/30/there-is-always-time-for-tdd.aspx
 dsq_thread_id:
   - "262088401"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3137
+wordpress_id: 3137
 title: Another reason to love MonoRail
 date: 2007-09-26T00:50:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/09/25/another-reason-why-i-love-monorail.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/09/25/another-reason-why-i-love-monorail.aspx
 dsq_thread_id:
   - "635100898"
 categories:

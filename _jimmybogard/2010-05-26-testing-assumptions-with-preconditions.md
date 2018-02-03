@@ -1,10 +1,10 @@
 ---
-id: 413
+wordpress_id: 413
 title: Testing assumptions with preconditions
 date: 2010-05-26T12:25:05+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/05/26/testing-assumptions-with-preconditions.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/05/26/testing-assumptions-with-preconditions.aspx
 dsq_thread_id:
   - "265046712"
 categories:

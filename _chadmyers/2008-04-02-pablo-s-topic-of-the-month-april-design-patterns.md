@@ -1,10 +1,10 @@
 ---
-id: 31
+wordpress_id: 31
 title: 'Pablo&#8217;s Topic of the Month &#8211; April: Design Patterns'
 date: 2008-04-02T02:20:16+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/01/pablo-s-topic-of-the-month-april-design-patterns.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/01/pablo-s-topic-of-the-month-april-design-patterns.aspx
 dsq_thread_id:
   - "262113726"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 930
+wordpress_id: 930
 title: 'Conventional HTML in ASP.NET MVC: Client-side templates'
 date: 2014-08-14T20:21:39+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=930
+wordpress_guid: http://lostechies.com/jimmybogard/?p=930
 dsq_thread_id:
   - "2927566011"
 categories:

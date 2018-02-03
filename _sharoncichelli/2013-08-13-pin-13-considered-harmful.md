@@ -1,10 +1,10 @@
 ---
-id: 222
+wordpress_id: 222
 title: Pin 13 Considered Harmful
 date: 2013-08-13T22:20:13+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=222
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=222
 dsq_thread_id:
   - "1604811121"
 categories:

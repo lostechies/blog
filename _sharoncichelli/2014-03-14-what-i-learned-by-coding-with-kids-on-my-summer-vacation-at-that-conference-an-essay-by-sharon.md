@@ -1,10 +1,10 @@
 ---
-id: 256
+wordpress_id: 256
 title: What I learned by coding with kids on my summer vacation at That Conference, an essay by Sharon
 date: 2014-03-14T08:45:57+00:00
 author: Sharon Cichelli
 layout: post
-guid: http://lostechies.com/sharoncichelli/?p=256
+wordpress_guid: http://lostechies.com/sharoncichelli/?p=256
 dsq_thread_id:
   - "2429564207"
 categories:

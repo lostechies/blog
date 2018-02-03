@@ -1,10 +1,10 @@
 ---
-id: 68
+wordpress_id: 68
 title: Why every developer needs a MacBook Pro?
 date: 2007-10-03T15:48:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/10/03/why-every-developer-needs-a-macbook-pro.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/10/03/why-every-developer-needs-a-macbook-pro.aspx
 dsq_thread_id:
   - "262088418"
 categories:

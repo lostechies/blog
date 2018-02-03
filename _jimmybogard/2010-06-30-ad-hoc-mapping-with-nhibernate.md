@@ -1,10 +1,10 @@
 ---
-id: 420
+wordpress_id: 420
 title: Ad-hoc mapping with NHibernate
 date: 2010-06-30T02:17:26+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/06/29/ad-hoc-mapping-with-nhibernate.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/06/29/ad-hoc-mapping-with-nhibernate.aspx
 dsq_thread_id:
   - "264716520"
 categories:

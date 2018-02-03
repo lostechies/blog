@@ -1,10 +1,10 @@
 ---
-id: 356
+wordpress_id: 356
 title: 'Git Branches: A Pointer, With History And Metadata'
 date: 2011-05-23T20:29:36+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=356
+wordpress_guid: http://lostechies.com/derickbailey/?p=356
 dsq_thread_id:
   - "312022239"
 categories:

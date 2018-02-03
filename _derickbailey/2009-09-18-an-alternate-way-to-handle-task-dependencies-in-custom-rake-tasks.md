@@ -1,10 +1,10 @@
 ---
-id: 85
+wordpress_id: 85
 title: An Alternate Way To Handle Task Dependencies In Custom Rake Tasks
 date: 2009-09-18T00:30:25+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/09/17/an-alternate-way-to-handle-task-dependencies-in-custom-rake-tasks.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/09/17/an-alternate-way-to-handle-task-dependencies-in-custom-rake-tasks.aspx
 dsq_thread_id:
   - "262068337"
 categories:

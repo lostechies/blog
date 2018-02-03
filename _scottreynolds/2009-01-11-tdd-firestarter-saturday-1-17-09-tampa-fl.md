@@ -1,10 +1,10 @@
 ---
-id: 4032
+wordpress_id: 4032
 title: 'TDD Firestarter &#8211; Saturday, 1/17/09, Tampa, FL'
 date: 2009-01-11T01:31:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/01/10/tdd-firestarter-saturday-1-17-09-tampa-fl.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/01/10/tdd-firestarter-saturday-1-17-09-tampa-fl.aspx
 categories:
   - Community
 ---

@@ -1,10 +1,10 @@
 ---
-id: 200
+wordpress_id: 200
 title: Download All the Build Videos, while you sleep
 date: 2012-11-02T16:00:12+00:00
 author: Eric Hexter
 layout: post
-guid: http://lostechies.com/erichexter/?p=200
+wordpress_guid: http://lostechies.com/erichexter/?p=200
 dsq_thread_id:
   - "911629598"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 2008
+wordpress_id: 2008
 title: How To Bootstrap Angular with Server Side Data
 date: 2016-10-28T16:31:09+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=2008
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=2008
 dsq_thread_id:
   - "5261552159"
 categories:

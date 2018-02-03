@@ -1,10 +1,10 @@
 ---
-id: 4206
+wordpress_id: 4206
 title: SPWeb.AssociatedGroups.Contains Lies
 date: 2010-01-27T11:00:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/01/27/spweb-associatedgroups-contains-lies.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/01/27/spweb-associatedgroups-contains-lies.aspx
 dsq_thread_id:
   - "262493322"
 categories:

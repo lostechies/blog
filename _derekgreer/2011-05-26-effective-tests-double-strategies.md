@@ -1,10 +1,10 @@
 ---
-id: 416
+wordpress_id: 416
 title: 'Effective Tests: Double Strategies'
 date: 2011-05-26T13:09:58+00:00
 author: Derek Greer
 layout: post
-guid: http://lostechies.com/derekgreer/?p=416
+wordpress_guid: http://lostechies.com/derekgreer/?p=416
 dsq_thread_id:
   - "314372817"
 categories:

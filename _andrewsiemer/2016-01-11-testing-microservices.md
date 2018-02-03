@@ -1,10 +1,10 @@
 ---
-id: 4427
+wordpress_id: 4427
 title: Testing microservices
 date: 2016-01-11T19:47:30+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=133
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=133
 dsq_thread_id:
   - "4482411862"
 categories:

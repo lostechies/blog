@@ -1,10 +1,10 @@
 ---
-id: 4502
+wordpress_id: 4502
 title: 'Git guts: Merging and rebasing'
 date: 2009-11-27T05:54:00+00:00
 author: James Gregory
 layout: post
-guid: /blogs/jagregory/archive/2009/11/27/git-guts-merging-and-rebasing.aspx
+wordpress_guid: /blogs/jagregory/archive/2009/11/27/git-guts-merging-and-rebasing.aspx
 dsq_thread_id:
   - "273792099"
 categories:

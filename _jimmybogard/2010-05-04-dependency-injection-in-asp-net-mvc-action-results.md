@@ -1,10 +1,10 @@
 ---
-id: 406
+wordpress_id: 406
 title: 'Dependency Injection in ASP.NET MVC: Action Results'
 date: 2010-05-04T21:01:54+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/05/04/dependency-injection-in-asp-net-mvc-action-results.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/05/04/dependency-injection-in-asp-net-mvc-action-results.aspx
 dsq_thread_id:
   - "264740650"
 categories:

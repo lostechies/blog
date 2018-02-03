@@ -1,10 +1,10 @@
 ---
-id: 4052
+wordpress_id: 4052
 title: 'How We Do Things &#8211; Planning Part 2'
 date: 2009-10-06T05:12:05+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/10/06/how-we-do-things-planning-part-2.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/10/06/how-we-do-things-planning-part-2.aspx
 categories:
   - how we do it
   - lean

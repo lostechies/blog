@@ -1,10 +1,10 @@
 ---
-id: 8
+wordpress_id: 8
 title: Double Dispatch is a Code Smell
 date: 2010-04-19T01:50:00+00:00
 author: Derek Greer
 layout: post
-guid: /blogs/derekgreer/archive/2010/04/18/double-dispatch-is-a-code-smell.aspx
+wordpress_guid: /blogs/derekgreer/archive/2010/04/18/double-dispatch-is-a-code-smell.aspx
 dsq_thread_id:
   - "262468819"
 categories:

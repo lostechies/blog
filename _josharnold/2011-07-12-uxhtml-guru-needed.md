@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: UX/HTML Guru Needed
 date: 2011-07-12T18:56:04+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=44
+wordpress_guid: http://lostechies.com/josharnold/?p=44
 dsq_thread_id:
   - "356544018"
 categories:

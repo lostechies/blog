@@ -1,10 +1,10 @@
 ---
-id: 425
+wordpress_id: 425
 title: Container-friendly domain events
 date: 2010-08-04T02:40:23+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/08/03/container-friendly-domain-events.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/08/03/container-friendly-domain-events.aspx
 dsq_thread_id:
   - "264716567"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 397
+wordpress_id: 397
 title: The Model Home
 date: 2013-07-15T18:59:48+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=397
+wordpress_guid: http://lostechies.com/chrismissal/?p=397
 dsq_thread_id:
   - "1503126472"
 categories:

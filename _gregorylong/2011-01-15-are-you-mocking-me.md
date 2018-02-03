@@ -1,10 +1,10 @@
 ---
-id: 4793
+wordpress_id: 4793
 title: Are you Mocking Me?
 date: 2011-01-15T01:08:00+00:00
 author: Gregory Long
 layout: post
-guid: /blogs/thatotherguy/archive/2011/01/14/are-you-mocking-me.aspx
+wordpress_guid: /blogs/thatotherguy/archive/2011/01/14/are-you-mocking-me.aspx
 dsq_thread_id:
   - "265387209"
 categories:

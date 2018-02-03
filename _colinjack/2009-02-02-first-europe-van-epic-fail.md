@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: 'First Europe VAN &#8211; Epic Fail'
 date: 2009-02-02T19:04:29+00:00
 author: Colin Jack
 layout: post
-guid: /blogs/colinjack/archive/2009/02/02/first-europe-van-epic-fail.aspx
+wordpress_guid: /blogs/colinjack/archive/2009/02/02/first-europe-van-epic-fail.aspx
 categories:
   - Uncategorized
 ---

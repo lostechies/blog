@@ -1,10 +1,10 @@
 ---
-id: 3619
+wordpress_id: 3619
 title: MassTransit v3 Update
 date: 2015-06-16T00:26:56+00:00
 author: Chris Patterson
 layout: post
-guid: https://lostechies.com/chrispatterson/?p=114
+wordpress_guid: https://lostechies.com/chrispatterson/?p=114
 dsq_thread_id:
   - "3852070426"
 categories:

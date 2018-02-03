@@ -1,10 +1,10 @@
 ---
-id: 346
+wordpress_id: 346
 title: Extending Objects in Dojo
 date: 2012-10-03T15:21:28+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=346
+wordpress_guid: http://lostechies.com/chrismissal/?p=346
 dsq_thread_id:
   - "870175139"
 categories:

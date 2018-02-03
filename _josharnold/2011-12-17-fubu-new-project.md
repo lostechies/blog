@@ -1,10 +1,10 @@
 ---
-id: 131
+wordpress_id: 131
 title: fubu new project
 date: 2011-12-17T06:09:43+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=131
+wordpress_guid: http://lostechies.com/josharnold/?p=131
 dsq_thread_id:
   - "507197179"
 categories:

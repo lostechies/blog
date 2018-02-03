@@ -1,10 +1,10 @@
 ---
-id: 136
+wordpress_id: 136
 title: 'Some C# obscurities'
 date: 2008-01-31T02:40:38+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/30/some-c-obscurities.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/30/some-c-obscurities.aspx
 dsq_thread_id:
   - "264715537"
 categories:

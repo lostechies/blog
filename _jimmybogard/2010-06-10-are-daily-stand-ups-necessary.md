@@ -1,10 +1,10 @@
 ---
-id: 417
+wordpress_id: 417
 title: Are daily stand-ups necessary?
 date: 2010-06-10T13:20:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/06/10/are-daily-stand-ups-necessary.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/06/10/are-daily-stand-ups-necessary.aspx
 dsq_thread_id:
   - "264716519"
 categories:

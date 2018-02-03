@@ -1,10 +1,10 @@
 ---
-id: 1055
+wordpress_id: 1055
 title: Some Notes On Screencasting
 date: 2013-02-19T16:55:24+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1055
+wordpress_guid: http://lostechies.com/derickbailey/?p=1055
 dsq_thread_id:
   - "1093539701"
 categories:

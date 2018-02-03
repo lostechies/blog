@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: Two random thoughts
 date: 2008-04-23T13:47:20+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/04/23/two-random-thoughts.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/04/23/two-random-thoughts.aspx
 dsq_thread_id:
   - "262113793"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 804
+wordpress_id: 804
 title: Austin Code Camp 2013 registration open
 date: 2013-06-24T13:45:22+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=804
+wordpress_guid: http://lostechies.com/jimmybogard/?p=804
 dsq_thread_id:
   - "1430523469"
 categories:

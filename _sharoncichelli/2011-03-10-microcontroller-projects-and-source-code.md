@@ -1,10 +1,10 @@
 ---
-id: 3868
+wordpress_id: 3868
 title: Microcontroller Projects and Source Code
 date: 2011-03-10T03:04:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2011/03/09/microcontroller-projects-and-source-code.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2011/03/09/microcontroller-projects-and-source-code.aspx
 dsq_thread_id:
   - "263371932"
 categories:

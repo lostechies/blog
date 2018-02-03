@@ -1,10 +1,10 @@
 ---
-id: 192
+wordpress_id: 192
 title: 'Ruby v1.9.2 On Windows: can&#8217;t find executable rake for rake-0.8.7'
 date: 2010-10-11T14:10:01+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/10/11/ruby-v1-9-2-on-windows-can-t-find-executable-rake-for-rake-0-8-7.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/10/11/ruby-v1-9-2-on-windows-can-t-find-executable-rake-for-rake-0-8-7.aspx
 dsq_thread_id:
   - "262292517"
 categories:

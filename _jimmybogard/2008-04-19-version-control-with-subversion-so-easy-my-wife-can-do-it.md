@@ -1,10 +1,10 @@
 ---
-id: 170
+wordpress_id: 170
 title: 'Version control with Subversion: so easy my wife can do it'
 date: 2008-04-19T17:06:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/04/19/version-control-with-subversion-so-easy-my-wife-can-do-it.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/04/19/version-control-with-subversion-so-easy-my-wife-can-do-it.aspx
 dsq_thread_id:
   - "264715644"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 4688
+wordpress_id: 4688
 title: VMWare Optimization
 date: 2008-06-15T21:19:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2008/06/15/vmware-optimization.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2008/06/15/vmware-optimization.aspx
 categories:
   - Uncategorized
 ---

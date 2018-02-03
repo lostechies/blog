@@ -1,10 +1,10 @@
 ---
-id: 625
+wordpress_id: 625
 title: Persisting enumeration classes with NHibernate
 date: 2012-05-01T13:31:40+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/05/01/persisting-enumeration-classes-with-nhibernate/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/05/01/persisting-enumeration-classes-with-nhibernate/
 dsq_thread_id:
   - "671493115"
 categories:

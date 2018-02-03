@@ -1,10 +1,10 @@
 ---
-id: 214
+wordpress_id: 214
 title: ADNUG Presentation July 9, 2012
 date: 2012-07-15T17:29:56+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/2012/07/15/adnug-presentation-july-12-2012/
+wordpress_guid: http://lostechies.com/gabrielschenker/2012/07/15/adnug-presentation-july-12-2012/
 dsq_thread_id:
   - "766768159"
 categories:

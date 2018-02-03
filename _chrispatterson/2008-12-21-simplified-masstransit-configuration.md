@@ -1,10 +1,10 @@
 ---
-id: 3606
+wordpress_id: 3606
 title: Simplified MassTransit Configuration
 date: 2008-12-21T05:26:02+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/12/21/simplified-masstransit-configuration.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/12/21/simplified-masstransit-configuration.aspx
 dsq_thread_id:
   - "262089303"
 categories:

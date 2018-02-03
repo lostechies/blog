@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: On The ‘Success’ Of A Project
 date: 2009-01-28T21:52:19+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/01/28/on-the-success-of-a-project.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/01/28/on-the-success-of-a-project.aspx
 dsq_thread_id:
   - "403559551"
 categories:

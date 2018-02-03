@@ -1,10 +1,10 @@
 ---
-id: 4199
+wordpress_id: 4199
 title: Is Functional Abstraction Too Clever?
 date: 2009-10-17T07:29:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2009/10/17/is-functional-abstraction-too-clever.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2009/10/17/is-functional-abstraction-too-clever.aspx
 dsq_thread_id:
   - "262493307"
 categories:

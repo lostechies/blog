@@ -1,10 +1,10 @@
 ---
-id: 38
+wordpress_id: 38
 title: 'Good bye NUnit.Behave hello Behave#'
 date: 2007-07-27T20:15:55+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/07/27/good-bye-nunit-behave-hello-behave.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/07/27/good-bye-nunit-behave-hello-behave.aspx
 dsq_thread_id:
   - "262088303"
 categories:

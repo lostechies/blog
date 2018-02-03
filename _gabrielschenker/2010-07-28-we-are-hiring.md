@@ -1,10 +1,10 @@
 ---
-id: 45
+wordpress_id: 45
 title: We are hiring!
 date: 2010-07-28T08:51:00+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/07/28/we-are-hiring.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/07/28/we-are-hiring.aspx
 dsq_thread_id:
   - "263908943"
 categories:

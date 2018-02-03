@@ -1,10 +1,10 @@
 ---
-id: 3143
+wordpress_id: 3143
 title: Staying on top of Test Coverage
 date: 2007-10-09T17:15:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/10/09/staying-on-top-of-code-coverage.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/10/09/staying-on-top-of-code-coverage.aspx
 dsq_thread_id:
   - "284219678"
 categories:

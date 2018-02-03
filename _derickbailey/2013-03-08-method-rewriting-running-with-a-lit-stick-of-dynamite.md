@@ -1,10 +1,10 @@
 ---
-id: 1061
+wordpress_id: 1061
 title: 'Method Rewriting: Running With A Lit Stick Of Dynamite'
 date: 2013-03-08T11:27:19+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1061
+wordpress_guid: http://lostechies.com/derickbailey/?p=1061
 dsq_thread_id:
   - "1125381538"
 categories:

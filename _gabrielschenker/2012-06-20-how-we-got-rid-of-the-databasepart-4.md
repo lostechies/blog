@@ -1,10 +1,10 @@
 ---
-id: 128
+wordpress_id: 128
 title: How we got rid of the database–part 4
 date: 2012-06-20T21:31:33+00:00
 author: Gabriel Schenker
 layout: post
-guid: http://lostechies.com/gabrielschenker/2012/06/20/how-we-got-rid-of-the-databasepart-4/
+wordpress_guid: http://lostechies.com/gabrielschenker/2012/06/20/how-we-got-rid-of-the-databasepart-4/
 dsq_thread_id:
   - "734825612"
 categories:

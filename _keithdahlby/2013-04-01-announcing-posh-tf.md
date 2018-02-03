@@ -1,10 +1,10 @@
 ---
-id: 122
+wordpress_id: 122
 title: Announcing posh-tf
 date: 2013-04-01T01:27:35+00:00
 author: Keith Dahlby
 layout: post
-guid: http://lostechies.com/keithdahlby/?p=122
+wordpress_guid: http://lostechies.com/keithdahlby/?p=122
 dsq_thread_id:
   - "1178682385"
 categories:

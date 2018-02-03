@@ -1,10 +1,10 @@
 ---
-id: 106
+wordpress_id: 106
 title: Some people have too much time
 date: 2008-03-18T21:59:55+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/03/18/some-people-have-too-much-time.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/03/18/some-people-have-too-much-time.aspx
 dsq_thread_id:
   - "262089773"
 categories:

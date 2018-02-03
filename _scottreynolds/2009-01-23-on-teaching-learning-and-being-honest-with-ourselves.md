@@ -1,10 +1,10 @@
 ---
-id: 4035
+wordpress_id: 4035
 title: On Teaching, Learning, and Being Honest With Ourselves
 date: 2009-01-23T16:15:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/01/23/on-teaching-learning-and-being-honest-with-ourselves.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/01/23/on-teaching-learning-and-being-honest-with-ourselves.aspx
 categories:
   - Community
   - mentoring

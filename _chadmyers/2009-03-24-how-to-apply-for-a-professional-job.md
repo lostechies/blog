@@ -1,10 +1,10 @@
 ---
-id: 136
+wordpress_id: 136
 title: How to apply for a professional job
 date: 2009-03-24T02:34:55+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/03/23/how-to-apply-for-a-professional-job.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/03/23/how-to-apply-for-a-professional-job.aspx
 dsq_thread_id:
   - "262114388"
 categories:

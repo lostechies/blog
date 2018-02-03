@@ -1,10 +1,10 @@
 ---
-id: 107
+wordpress_id: 107
 title: Twhirl is a must for a desktop Twitter client
 date: 2008-03-19T03:05:22+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/03/18/twhirl-is-a-must-for-a-desktop-twitter-client.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/03/18/twhirl-is-a-must-for-a-desktop-twitter-client.aspx
 categories:
   - Tools
 ---

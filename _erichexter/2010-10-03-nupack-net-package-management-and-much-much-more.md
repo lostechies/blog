@@ -1,10 +1,10 @@
 ---
-id: 3019
+wordpress_id: 3019
 title: NuPack– .Net Package Management… and much, much, more
 date: 2010-10-03T20:43:00+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/10/03/nupack-net-package-management-and-much-much-more.aspx
+wordpress_guid: /blogs/hex/archive/2010/10/03/nupack-net-package-management-and-much-much-more.aspx
 dsq_thread_id:
   - "262103358"
 categories:

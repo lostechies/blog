@@ -1,10 +1,10 @@
 ---
-id: 117
+wordpress_id: 117
 title: How healthy is your code?
 date: 2008-08-21T18:56:42+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/08/21/how-healthy-is-your-code.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/08/21/how-healthy-is-your-code.aspx
 dsq_thread_id:
   - "262089658"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3012
+wordpress_id: 3012
 title: Setting up automatic test runs after compilation in VS2010
 date: 2010-06-17T20:46:45+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2010/06/17/setting-up-automatic-test-runs-after-compilation-in-vs2010.aspx
+wordpress_guid: /blogs/hex/archive/2010/06/17/setting-up-automatic-test-runs-after-compilation-in-vs2010.aspx
 dsq_thread_id:
   - "262152326"
 categories:

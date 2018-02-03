@@ -1,10 +1,10 @@
 ---
-id: 75
+wordpress_id: 75
 title: Zen And The Art Of Software Development
 date: 2009-08-17T21:04:12+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/08/17/zen-and-the-art-of-software-development.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/08/17/zen-and-the-art-of-software-development.aspx
 dsq_thread_id:
   - "262068272"
 categories:

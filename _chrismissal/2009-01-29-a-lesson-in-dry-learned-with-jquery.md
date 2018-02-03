@@ -1,10 +1,10 @@
 ---
-id: 3342
+wordpress_id: 3342
 title: A Lesson in DRY Learned with jQuery
 date: 2009-01-29T17:55:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/01/29/a-lesson-in-dry-learned-with-jquery.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/01/29/a-lesson-in-dry-learned-with-jquery.aspx
 dsq_thread_id:
   - "262174813"
 categories:

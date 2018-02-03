@@ -1,10 +1,10 @@
 ---
-id: 327
+wordpress_id: 327
 title: Extending Objects in jQuery
 date: 2012-09-27T22:01:14+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=327
+wordpress_guid: http://lostechies.com/chrismissal/?p=327
 dsq_thread_id:
   - "862397318"
 categories:

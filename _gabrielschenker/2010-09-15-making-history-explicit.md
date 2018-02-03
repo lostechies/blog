@@ -1,10 +1,10 @@
 ---
-id: 46
+wordpress_id: 46
 title: Making history explicit
 date: 2010-09-15T04:19:00+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2010/09/15/making-history-explicit.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2010/09/15/making-history-explicit.aspx
 dsq_thread_id:
   - "263908933"
 categories:

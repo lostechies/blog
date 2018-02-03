@@ -1,10 +1,10 @@
 ---
-id: 374
+wordpress_id: 374
 title: Organizing ASP.NET MVC solutions
 date: 2009-12-09T02:27:14+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/12/08/organizing-asp-net-mvc-solutions.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/12/08/organizing-asp-net-mvc-solutions.aspx
 dsq_thread_id:
   - "264716372"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 40
+wordpress_id: 40
 title: 'Windows Git Tip: Hide ^M (Carriage Return) in Diff'
 date: 2011-04-06T05:20:33+00:00
 author: Keith Dahlby
 layout: post
-guid: http://lostechies.com/keithdahlby/?p=40
+wordpress_guid: http://lostechies.com/keithdahlby/?p=40
 dsq_thread_id:
   - "272269800"
 categories:

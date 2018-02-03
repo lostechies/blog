@@ -1,10 +1,10 @@
 ---
-id: 3216
+wordpress_id: 3216
 title: 'Refactoring Day 22 : Break Method'
 date: 2009-08-22T20:25:50+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/22/refactoring-day-22-break-method.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/22/refactoring-day-22-break-method.aspx
 dsq_thread_id:
   - "262354038"
 categories:

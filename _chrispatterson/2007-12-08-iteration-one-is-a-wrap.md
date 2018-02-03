@@ -1,10 +1,10 @@
 ---
-id: 3576
+wordpress_id: 3576
 title: Iteration One is a Wrap
 date: 2007-12-08T16:29:22+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/12/08/iteration-one-is-a-wrap.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/12/08/iteration-one-is-a-wrap.aspx
 dsq_thread_id:
   - "1228600994"
 categories:

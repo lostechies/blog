@@ -1,10 +1,10 @@
 ---
-id: 212
+wordpress_id: 212
 title: Good Refactoring / Patterns For Simple UI Logic?
 date: 2011-02-01T20:06:59+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2011/02/01/good-refactoring-patterns-for-simple-ui-logic.aspx
+wordpress_guid: /blogs/derickbailey/archive/2011/02/01/good-refactoring-patterns-for-simple-ui-logic.aspx
 dsq_thread_id:
   - "262286671"
 categories:

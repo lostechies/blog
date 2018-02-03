@@ -1,10 +1,10 @@
 ---
-id: 102
+wordpress_id: 102
 title: Installing Visual Studio 2008
 date: 2007-11-19T21:20:45+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/11/19/installing-visual-studio-2008.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/11/19/installing-visual-studio-2008.aspx
 dsq_thread_id:
   - "264715430"
 categories:

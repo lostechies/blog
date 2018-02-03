@@ -1,10 +1,10 @@
 ---
-id: 87
+wordpress_id: 87
 title: Cloud Academy oh my
 date: 2015-12-03T15:16:02+00:00
 author: Andrew Siemer
 layout: post
-guid: http://lostechies.com/andrewsiemer/?p=87
+wordpress_guid: http://lostechies.com/andrewsiemer/?p=87
 dsq_thread_id:
   - "4372341235"
 categories:

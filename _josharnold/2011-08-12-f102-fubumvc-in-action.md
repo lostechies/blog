@@ -1,10 +1,10 @@
 ---
-id: 82
+wordpress_id: 82
 title: F102 – FubuMVC In Action
 date: 2011-08-12T20:35:09+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=82
+wordpress_guid: http://lostechies.com/josharnold/?p=82
 dsq_thread_id:
   - "384348909"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 447
+wordpress_id: 447
 title: Model View Presenter Styles
 date: 2008-11-23T19:13:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2008/11/model-view-presenter-styles/
+wordpress_guid: http://www.aspiringcraftsman.com/2008/11/model-view-presenter-styles/
 dsq_thread_id:
   - "317966714"
 categories:

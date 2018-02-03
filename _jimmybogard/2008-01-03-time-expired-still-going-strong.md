@@ -1,10 +1,10 @@
 ---
-id: 119
+wordpress_id: 119
 title: Time expired, still going strong
 date: 2008-01-03T15:32:27+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/01/03/time-expired-still-going-strong.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/01/03/time-expired-still-going-strong.aspx
 dsq_thread_id:
   - "264715480"
 categories:

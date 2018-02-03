@@ -1,10 +1,10 @@
 ---
-id: 23
+wordpress_id: 23
 title: 'Discussion: Mentoring, Knowledge Transfer and Different Styles Of Learning'
 date: 2009-07-17T00:06:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/07/16/discussion-mentoring-knowledge-transfer-and-different-styles-of-learning.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/07/16/discussion-mentoring-knowledge-transfer-and-different-styles-of-learning.aspx
 dsq_thread_id:
   - "425624271"
 categories:

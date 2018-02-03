@@ -1,10 +1,10 @@
 ---
-id: 37
+wordpress_id: 37
 title: Big Software Rewrites
 date: 2011-01-30T16:29:09+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2011/01/30/big-software-rewrites.aspx
+wordpress_guid: /blogs/rhouston/archive/2011/01/30/big-software-rewrites.aspx
 categories:
   - Uncategorized
 ---

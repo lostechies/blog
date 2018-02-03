@@ -1,10 +1,10 @@
 ---
-id: 843
+wordpress_id: 843
 title: Recent Interviews On Podcasts
 date: 2012-02-23T07:52:37+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=843
+wordpress_guid: http://lostechies.com/derickbailey/?p=843
 dsq_thread_id:
   - "586583016"
 categories:

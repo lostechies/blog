@@ -1,10 +1,10 @@
 ---
-id: 258
+wordpress_id: 258
 title: 'Cleaning Up Rails Helper Methods With A Helper Class: Good Idea, Bad Idea, Or &#8216;Meh&#8217;?'
 date: 2011-04-12T13:01:54+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=258
+wordpress_guid: http://lostechies.com/derickbailey/?p=258
 dsq_thread_id:
   - "277777361"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3589
+wordpress_id: 3589
 title: VMware Fusion 2.0 Beta 1
 date: 2008-05-06T12:59:10+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2008/05/06/vmware-fusion-2-0-beta-1.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2008/05/06/vmware-fusion-2-0-beta-1.aspx
 dsq_thread_id:
   - "262089255"
 categories:

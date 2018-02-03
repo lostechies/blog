@@ -1,10 +1,10 @@
 ---
-id: 3379
+wordpress_id: 3379
 title: Why is CruiseControl.Net Hiding My Test Results?
 date: 2010-03-05T13:37:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/03/05/why-is-cruisecontrol-net-hiding-my-test-results.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/03/05/why-is-cruisecontrol-net-hiding-my-test-results.aspx
 dsq_thread_id:
   - "262175130"
 categories:

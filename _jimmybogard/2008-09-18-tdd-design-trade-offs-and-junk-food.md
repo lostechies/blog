@@ -1,10 +1,10 @@
 ---
-id: 230
+wordpress_id: 230
 title: TDD design trade-offs and junk food
 date: 2008-09-18T23:56:48+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/09/18/tdd-design-trade-offs-and-junk-food.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/09/18/tdd-design-trade-offs-and-junk-food.aspx
 dsq_thread_id:
   - "264715918"
 categories:

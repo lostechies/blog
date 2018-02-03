@@ -1,10 +1,10 @@
 ---
-id: 161
+wordpress_id: 161
 title: 'Simplify Your Unit Tests With Auto Mocking: Part 1 – Helper Methods'
 date: 2010-05-24T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/05/24/simplify-your-unit-tests-with-auto-mocking-part-1-helper-methods.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/05/24/simplify-your-unit-tests-with-auto-mocking-part-1-helper-methods.aspx
 dsq_thread_id:
   - "262068698"
 categories:

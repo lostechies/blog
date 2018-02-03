@@ -1,10 +1,10 @@
 ---
-id: 147
+wordpress_id: 147
 title: How to Write Unmaintainable Code
 date: 2009-06-19T22:05:46+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/06/19/how-to-write-unmaintainable-code.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/06/19/how-to-write-unmaintainable-code.aspx
 dsq_thread_id:
   - "262114448"
 categories:

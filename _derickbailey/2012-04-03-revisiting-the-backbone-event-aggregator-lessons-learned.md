@@ -1,10 +1,10 @@
 ---
-id: 863
+wordpress_id: 863
 title: 'Revisiting The Backbone Event Aggregator: Lessons Learned'
 date: 2012-04-03T07:14:28+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=863
+wordpress_guid: http://lostechies.com/derickbailey/?p=863
 dsq_thread_id:
   - "635009524"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 66
+wordpress_id: 66
 title: Smart Constructor Anti-Pattern
 date: 2009-09-02T04:46:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2009/09/02/smart-constructor-anti-pattern.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2009/09/02/smart-constructor-anti-pattern.aspx
 categories:
   - 'c# patterns mvp'
 ---

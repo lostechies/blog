@@ -1,10 +1,10 @@
 ---
-id: 3578
+wordpress_id: 3578
 title: Enterprise Service Bus using MSMQ in .NET
 date: 2007-12-30T06:07:22+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2007/12/30/enterprise-service-bus-using-msmq-in-net.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2007/12/30/enterprise-service-bus-using-msmq-in-net.aspx
 dsq_thread_id:
   - "262089172"
 categories:

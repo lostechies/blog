@@ -1,10 +1,10 @@
 ---
-id: 1217
+wordpress_id: 1217
 title: AutoMapper 5.0 Released
 date: 2016-07-07T15:42:29+00:00
 author: Jimmy Bogard
 layout: post
-guid: https://lostechies.com/jimmybogard/?p=1217
+wordpress_guid: https://lostechies.com/jimmybogard/?p=1217
 dsq_thread_id:
   - "4967852649"
 categories:

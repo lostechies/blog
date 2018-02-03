@@ -1,10 +1,10 @@
 ---
-id: 17
+wordpress_id: 17
 title: Common Interfaces for Tool Families
 date: 2008-11-13T10:05:00+00:00
 author: Colin Ramsay
 layout: post
-guid: /blogs/colin_ramsay/archive/2008/11/13/common-interfaces-for-tool-families.aspx
+wordpress_guid: /blogs/colin_ramsay/archive/2008/11/13/common-interfaces-for-tool-families.aspx
 categories:
   - softwaredesign
 ---

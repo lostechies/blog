@@ -1,10 +1,10 @@
 ---
-id: 185
+wordpress_id: 185
 title: More Entity Framework thoughts
 date: 2008-05-19T21:32:47+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/05/19/more-entity-framework-thoughts.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/05/19/more-entity-framework-thoughts.aspx
 dsq_thread_id:
   - "264715694"
 categories:

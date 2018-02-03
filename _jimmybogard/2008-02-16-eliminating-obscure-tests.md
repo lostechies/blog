@@ -1,10 +1,10 @@
 ---
-id: 142
+wordpress_id: 142
 title: Eliminating obscure tests
 date: 2008-02-16T23:47:44+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/02/16/eliminating-obscure-tests.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/02/16/eliminating-obscure-tests.aspx
 dsq_thread_id:
   - "265635255"
 categories:

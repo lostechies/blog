@@ -1,10 +1,10 @@
 ---
-id: 54
+wordpress_id: 54
 title: 'Result<T>: Directing Workflow With A Return Status And Value'
 date: 2009-05-19T14:35:34+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/05/19/result-lt-t-gt-directing-workflow-with-a-return-status-and-value.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/05/19/result-lt-t-gt-directing-workflow-with-a-return-status-and-value.aspx
 dsq_thread_id:
   - "262068189"
 categories:

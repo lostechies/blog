@@ -1,10 +1,10 @@
 ---
-id: 171
+wordpress_id: 171
 title: 'Load External JavaScript Files in on{X}'
 date: 2012-06-08T01:51:52+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=171
+wordpress_guid: http://lostechies.com/chrismissal/?p=171
 dsq_thread_id:
   - "717797067"
 categories:

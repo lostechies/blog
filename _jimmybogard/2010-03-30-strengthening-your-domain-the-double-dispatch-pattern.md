@@ -1,10 +1,10 @@
 ---
-id: 395
+wordpress_id: 395
 title: 'Strengthening your domain: The double dispatch pattern'
 date: 2010-03-30T12:37:58+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/03/30/strengthening-your-domain-the-double-dispatch-pattern.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/03/30/strengthening-your-domain-the-double-dispatch-pattern.aspx
 dsq_thread_id:
   - "264716430"
 categories:

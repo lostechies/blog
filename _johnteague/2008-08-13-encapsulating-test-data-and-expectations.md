@@ -1,10 +1,10 @@
 ---
-id: 12
+wordpress_id: 12
 title: Encapsulating Test Data and Expectations
 date: 2008-08-13T02:13:07+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2008/08/12/encapsulating-test-data-and-expectations.aspx
+wordpress_guid: /blogs/johnteague/archive/2008/08/12/encapsulating-test-data-and-expectations.aspx
 dsq_thread_id:
   - "262055500"
 categories:

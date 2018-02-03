@@ -1,10 +1,10 @@
 ---
-id: 749
+wordpress_id: 749
 title: Composition Of Responsibility vs Interface Implementation
 date: 2012-01-03T09:23:01+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=749
+wordpress_guid: http://lostechies.com/derickbailey/?p=749
 dsq_thread_id:
   - "525208939"
 categories:

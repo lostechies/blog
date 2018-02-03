@@ -1,10 +1,10 @@
 ---
-id: 4205
+wordpress_id: 4205
 title: Extension Methods on Types You Own?
 date: 2010-01-25T11:00:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2010/01/25/extension-methods-on-types-you-own.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2010/01/25/extension-methods-on-types-you-own.aspx
 dsq_thread_id:
   - "263510198"
 categories:

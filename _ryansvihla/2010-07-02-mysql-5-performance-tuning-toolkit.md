@@ -1,10 +1,10 @@
 ---
-id: 44
+wordpress_id: 44
 title: MySQL 5 Performance Tuning Toolkit
 date: 2010-07-02T02:57:00+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2010/07/01/mysql-5-performance-tuning-toolkit.aspx
+wordpress_guid: /blogs/rssvihla/archive/2010/07/01/mysql-5-performance-tuning-toolkit.aspx
 dsq_thread_id:
   - "1070352376"
 categories:

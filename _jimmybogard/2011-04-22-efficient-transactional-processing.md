@@ -1,10 +1,10 @@
 ---
-id: 472
+wordpress_id: 472
 title: Efficient transactional processing
 date: 2011-04-22T13:12:43+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2011/04/22/efficient-transactional-processing/
+wordpress_guid: http://lostechies.com/jimmybogard/2011/04/22/efficient-transactional-processing/
 dsq_thread_id:
   - "285935353"
 categories:

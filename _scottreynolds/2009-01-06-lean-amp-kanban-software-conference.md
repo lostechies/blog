@@ -1,10 +1,10 @@
 ---
-id: 4030
+wordpress_id: 4030
 title: 'Lean &#038; Kanban Software Conference'
 date: 2009-01-06T18:04:00+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/01/06/lean-amp-kanban-software-conference.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/01/06/lean-amp-kanban-software-conference.aspx
 categories:
   - Community
   - Kanban

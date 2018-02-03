@@ -1,10 +1,10 @@
 ---
-id: 3215
+wordpress_id: 3215
 title: 'Refactoring Day 21 : Collapse Hierarchy'
 date: 2009-08-21T12:23:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/21/refactoring-day-21-collapse-hierarchy.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/21/refactoring-day-21-collapse-hierarchy.aspx
 dsq_thread_id:
   - "262353913"
 categories:

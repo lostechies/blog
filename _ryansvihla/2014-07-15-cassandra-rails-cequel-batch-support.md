@@ -1,10 +1,10 @@
 ---
-id: 116
+wordpress_id: 116
 title: 'Cassandra &#038; Rails: Cequel Batch Support'
 date: 2014-07-15T12:15:51+00:00
 author: Ryan Svihla
 layout: post
-guid: http://lostechies.com/ryansvihla/?p=116
+wordpress_guid: http://lostechies.com/ryansvihla/?p=116
 dsq_thread_id:
   - "2846091548"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: SOLID Development Principles – In Motivational Pictures
 date: 2009-02-11T17:36:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2009/02/11/solid-development-principles-in-motivational-pictures.aspx
+wordpress_guid: /blogs/derickbailey/archive/2009/02/11/solid-development-principles-in-motivational-pictures.aspx
 dsq_thread_id:
   - "262049837"
 dsq_needs_sync:

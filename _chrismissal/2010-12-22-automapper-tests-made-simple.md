@@ -1,10 +1,10 @@
 ---
-id: 3384
+wordpress_id: 3384
 title: AutoMapper Tests Made Simple
 date: 2010-12-22T04:37:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2010/12/21/automapper-tests-made-simple.aspx
+wordpress_guid: /blogs/chrismissal/archive/2010/12/21/automapper-tests-made-simple.aspx
 dsq_thread_id:
   - "264669624"
 categories:

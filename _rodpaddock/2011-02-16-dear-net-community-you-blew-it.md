@@ -1,10 +1,10 @@
 ---
-id: 4482
+wordpress_id: 4482
 title: Dear .NET Community, You Blew It!
 date: 2011-02-16T22:31:00+00:00
 author: Rod Paddock
 layout: post
-guid: /blogs/rodpaddock/archive/2011/02/16/dear-net-community-you-blew-it.aspx
+wordpress_guid: /blogs/rodpaddock/archive/2011/02/16/dear-net-community-you-blew-it.aspx
 dsq_thread_id:
   - "263003380"
 categories:

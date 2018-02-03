@@ -1,10 +1,10 @@
 ---
-id: 32
+wordpress_id: 32
 title: BDD on Creatine
 date: 2009-03-12T16:47:27+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2009/03/12/bdd-on-creatine.aspx
+wordpress_guid: /blogs/mokhan/archive/2009/03/12/bdd-on-creatine.aspx
 categories:
   - TDD
   - Windows Forms

@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: 'Team Foundation Build, Part 1: Introduction'
 date: 2007-05-22T15:12:00+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2007/05/22/team-foundation-build-part-1-introduction.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2007/05/22/team-foundation-build-part-1-introduction.aspx
 dsq_thread_id:
   - "290422993"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 21
+wordpress_id: 21
 title: NHibernate 2nd level cache and multiple databases
 date: 2009-04-17T00:56:59+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/04/17/nhibernate-2nd-level-cache-and-multiple-databases.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/04/17/nhibernate-2nd-level-cache-and-multiple-databases.aspx
 dsq_thread_id:
   - "263908853"
 categories:

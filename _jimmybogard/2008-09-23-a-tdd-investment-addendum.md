@@ -1,10 +1,10 @@
 ---
-id: 233
+wordpress_id: 233
 title: A TDD investment addendum
 date: 2008-09-23T03:38:39+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2008/09/22/a-tdd-investment-addendum.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2008/09/22/a-tdd-investment-addendum.aspx
 dsq_thread_id:
   - "266605771"
 categories:

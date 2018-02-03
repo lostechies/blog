@@ -1,10 +1,10 @@
 ---
-id: 427
+wordpress_id: 427
 title: AutoMapper upgraded to .NET 4 and VS 2010
 date: 2010-08-17T13:01:18+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/08/17/automapper-upgraded-to-net-4-and-vs-2010.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/08/17/automapper-upgraded-to-net-4-and-vs-2010.aspx
 dsq_thread_id:
   - "264716571"
 categories:

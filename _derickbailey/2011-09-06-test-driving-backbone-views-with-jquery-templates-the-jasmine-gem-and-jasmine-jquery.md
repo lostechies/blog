@@ -1,10 +1,10 @@
 ---
-id: 539
+wordpress_id: 539
 title: Test-Driving Backbone Views With JQuery Templates, The Jasmine Gem, and Jasmine-JQuery
 date: 2011-09-06T08:31:03+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=539
+wordpress_guid: http://lostechies.com/derickbailey/?p=539
 dsq_thread_id:
   - "406257075"
 categories:

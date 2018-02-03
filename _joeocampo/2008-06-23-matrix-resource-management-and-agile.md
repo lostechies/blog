@@ -1,10 +1,10 @@
 ---
-id: 115
+wordpress_id: 115
 title: Matrix Resource Management and Agile
 date: 2008-06-23T20:03:41+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/06/23/matrix-resource-management-and-agile.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/06/23/matrix-resource-management-and-agile.aspx
 dsq_thread_id:
   - "262090245"
 categories:

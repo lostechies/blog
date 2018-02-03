@@ -1,10 +1,10 @@
 ---
-id: 4764
+wordpress_id: 4764
 title: 'Starting a new project &#8211; refactoring an existing system'
 date: 2009-02-05T20:07:30+00:00
 author: Steve Donie
 layout: post
-guid: /blogs/stevedonie/archive/2009/02/05/starting-a-new-project-refactoring-an-existing-system.aspx
+wordpress_guid: /blogs/stevedonie/archive/2009/02/05/starting-a-new-project-refactoring-an-existing-system.aspx
 dsq_thread_id:
   - "262124051"
 categories:

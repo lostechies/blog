@@ -1,10 +1,10 @@
 ---
-id: 4051
+wordpress_id: 4051
 title: Attribution and Analogy
 date: 2009-10-05T17:55:20+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/10/05/attribution-and-analogy.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/10/05/attribution-and-analogy.aspx
 categories:
   - Uncategorized
 ---

@@ -1,10 +1,10 @@
 ---
-id: 2994
+wordpress_id: 2994
 title: Video of the Continuous Integration workshop
 date: 2009-09-18T00:03:33+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2009/09/17/video-of-the-continuous-integration-workshop.aspx
+wordpress_guid: /blogs/hex/archive/2009/09/17/video-of-the-continuous-integration-workshop.aspx
 dsq_thread_id:
   - "278993560"
 categories:

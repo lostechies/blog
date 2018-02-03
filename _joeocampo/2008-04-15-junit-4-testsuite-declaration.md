@@ -1,10 +1,10 @@
 ---
-id: 112
+wordpress_id: 112
 title: JUnit 4 TestSuite Declaration
 date: 2008-04-15T02:35:00+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2008/04/14/junit-4-testsuite-declaration.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2008/04/14/junit-4-testsuite-declaration.aspx
 dsq_thread_id:
   - "262057834"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 153
+wordpress_id: 153
 title: Chad’s Comment-worthiness Ranking Scale
 date: 2009-09-01T02:15:22+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/08/31/chad-s-comment-worthiness-ranking-scale.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/08/31/chad-s-comment-worthiness-ranking-scale.aspx
 dsq_thread_id:
   - "266525343"
 categories:

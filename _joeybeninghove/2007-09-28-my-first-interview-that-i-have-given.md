@@ -1,10 +1,10 @@
 ---
-id: 38
+wordpress_id: 38
 title: My First Interview (that I have given)
 date: 2007-09-28T19:43:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/09/28/my-first-interview-that-i-have-given.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/09/28/my-first-interview-that-i-have-given.aspx
 categories:
   - 'C#'
   - Patterns

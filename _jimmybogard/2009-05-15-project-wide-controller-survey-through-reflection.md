@@ -1,10 +1,10 @@
 ---
-id: 314
+wordpress_id: 314
 title: Project-wide controller survey through reflection
 date: 2009-05-15T02:28:22+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2009/05/14/project-wide-controller-survey-through-reflection.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2009/05/14/project-wide-controller-survey-through-reflection.aspx
 dsq_thread_id:
   - "265232530"
 categories:

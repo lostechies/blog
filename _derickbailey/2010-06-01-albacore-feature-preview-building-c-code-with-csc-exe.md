@@ -1,10 +1,10 @@
 ---
-id: 166
+wordpress_id: 166
 title: 'Albacore Feature Preview: Building C# Code With CSC.exe'
 date: 2010-06-01T12:00:00+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/06/01/albacore-feature-preview-building-c-code-with-csc-exe.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/06/01/albacore-feature-preview-building-c-code-with-csc-exe.aspx
 dsq_thread_id:
   - "262206493"
 categories:

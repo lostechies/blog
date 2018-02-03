@@ -1,10 +1,10 @@
 ---
-id: 3859
+wordpress_id: 3859
 title: 'Happy Hack-o-ween: Electronics and a microcontroller spice up the haunt'
 date: 2009-11-08T16:27:00+00:00
 author: Sharon Cichelli
 layout: post
-guid: /blogs/sharoncichelli/archive/2009/11/08/happy-hack-o-ween-electronics-and-a-microcontroller-spice-up-the-haunt.aspx
+wordpress_guid: /blogs/sharoncichelli/archive/2009/11/08/happy-hack-o-ween-electronics-and-a-microcontroller-spice-up-the-haunt.aspx
 dsq_thread_id:
   - "307177120"
 categories:

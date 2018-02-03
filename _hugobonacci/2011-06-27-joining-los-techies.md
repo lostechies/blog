@@ -1,10 +1,10 @@
 ---
-id: 1
+wordpress_id: 1
 title: Joining Los Techies!
 date: 2011-06-27T13:49:40+00:00
 author: Hugo Bonacci
 layout: post
-guid: http://lostechies.com/hugobonacci/?p=1
+wordpress_guid: http://lostechies.com/hugobonacci/?p=1
 dsq_thread_id:
   - "397575015"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 431
+wordpress_id: 431
 title: Natural selection in IT
 date: 2010-09-08T13:11:15+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/09/08/natural-selection-in-it.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/09/08/natural-selection-in-it.aspx
 dsq_thread_id:
   - "264716574"
 categories:

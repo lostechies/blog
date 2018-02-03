@@ -1,10 +1,10 @@
 ---
-id: 30
+wordpress_id: 30
 title: Force .NET application to run in 32bit process on 64bit OS
 date: 2009-10-21T15:40:36+00:00
 author: Gabriel Schenker
 layout: post
-guid: /blogs/gabrielschenker/archive/2009/10/21/force-net-application-to-run-in-32bit-process-on-64bit-os.aspx
+wordpress_guid: /blogs/gabrielschenker/archive/2009/10/21/force-net-application-to-run-in-32bit-process-on-64bit-os.aspx
 dsq_thread_id:
   - "263908892"
 categories:

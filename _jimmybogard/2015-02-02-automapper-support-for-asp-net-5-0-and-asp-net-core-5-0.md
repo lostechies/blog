@@ -1,10 +1,10 @@
 ---
-id: 1041
+wordpress_id: 1041
 title: AutoMapper support for ASP.NET 5.0 and ASP.NET Core 5.0
 date: 2015-02-02T20:45:42+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=1041
+wordpress_guid: http://lostechies.com/jimmybogard/?p=1041
 dsq_thread_id:
   - "3479307841"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 19
+wordpress_id: 19
 title: 'Patterns of Compositional Architecture: Policies'
 date: 2011-07-09T22:50:03+00:00
 author: Josh Arnold
 layout: post
-guid: http://lostechies.com/josharnold/?p=19
+wordpress_guid: http://lostechies.com/josharnold/?p=19
 dsq_thread_id:
   - "354136072"
 categories:

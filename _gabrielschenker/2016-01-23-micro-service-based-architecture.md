@@ -1,10 +1,10 @@
 ---
-id: 1150
+wordpress_id: 1150
 title: Micro service based architecture
 date: 2016-01-23T17:34:53+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=1150
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=1150
 dsq_thread_id:
   - "4517615897"
 categories:

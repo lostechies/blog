@@ -1,10 +1,10 @@
 ---
-id: 680
+wordpress_id: 680
 title: Don’t forget your users
 date: 2012-10-24T14:54:57+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/2012/10/24/dont-forget-your-users/
+wordpress_guid: http://lostechies.com/jimmybogard/2012/10/24/dont-forget-your-users/
 dsq_thread_id:
   - "898316039"
 categories:

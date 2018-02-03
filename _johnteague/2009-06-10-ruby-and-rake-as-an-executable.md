@@ -1,10 +1,10 @@
 ---
-id: 31
+wordpress_id: 31
 title: Ruby and Rake as an executable
 date: 2009-06-10T20:05:00+00:00
 author: John Teague
 layout: post
-guid: /blogs/johnteague/archive/2009/06/10/ruby-and-rake-as-an-executable.aspx
+wordpress_guid: /blogs/johnteague/archive/2009/06/10/ruby-and-rake-as-an-executable.aspx
 dsq_thread_id:
   - "262055672"
 categories:

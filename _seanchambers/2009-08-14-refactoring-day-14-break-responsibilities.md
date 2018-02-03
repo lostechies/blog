@@ -1,10 +1,10 @@
 ---
-id: 3208
+wordpress_id: 3208
 title: 'Refactoring Day 14 : Break Responsibilities'
 date: 2009-08-14T11:45:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2009/08/14/refactoring-day-14-break-responsibilities.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2009/08/14/refactoring-day-14-break-responsibilities.aspx
 dsq_thread_id:
   - "262351614"
 categories:

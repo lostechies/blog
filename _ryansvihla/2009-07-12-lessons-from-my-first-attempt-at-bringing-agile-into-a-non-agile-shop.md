@@ -1,10 +1,10 @@
 ---
-id: 22
+wordpress_id: 22
 title: Lessons From My First Attempt At Bringing Agile Into A Non-Agile shop.
 date: 2009-07-12T07:06:08+00:00
 author: Ryan Svihla
 layout: post
-guid: /blogs/rssvihla/archive/2009/07/12/lessons-from-my-first-attempt-at-bringing-agile-into-a-non-agile-shop.aspx
+wordpress_guid: /blogs/rssvihla/archive/2009/07/12/lessons-from-my-first-attempt-at-bringing-agile-into-a-non-agile-shop.aspx
 dsq_thread_id:
   - "425624250"
 categories:

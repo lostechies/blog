@@ -1,10 +1,10 @@
 ---
-id: 1037
+wordpress_id: 1037
 title: 'Dear Open Source Project Leader: Quit Being A Jerk'
 date: 2012-12-14T08:47:35+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1037
+wordpress_guid: http://lostechies.com/derickbailey/?p=1037
 dsq_thread_id:
   - "974330928"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 99
+wordpress_id: 99
 title: “The purpose of kanban is to eliminate the kanban”
 date: 2010-01-30T16:49:43+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/01/30/the-purpose-of-kanban-is-to-eliminate-the-kanban.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/01/30/the-purpose-of-kanban-is-to-eliminate-the-kanban.aspx
 dsq_thread_id:
   - "262053957"
 categories:

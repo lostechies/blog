@@ -1,10 +1,10 @@
 ---
-id: 64
+wordpress_id: 64
 title: Traveling to Technical Events
 date: 2009-12-23T16:49:20+00:00
 author: Chris Patterson
 layout: post
-guid: /blogs/chris_patterson/archive/2009/12/23/traveling-to-technical-events.aspx
+wordpress_guid: /blogs/chris_patterson/archive/2009/12/23/traveling-to-technical-events.aspx
 dsq_thread_id:
   - "262089392"
 categories:

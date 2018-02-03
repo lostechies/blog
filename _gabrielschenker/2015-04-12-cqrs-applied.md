@@ -1,10 +1,10 @@
 ---
-id: 919
+wordpress_id: 919
 title: CQRS applied
 date: 2015-04-12T15:51:30+00:00
 author: Gabriel Schenker
 layout: post
-guid: https://lostechies.com/gabrielschenker/?p=919
+wordpress_guid: https://lostechies.com/gabrielschenker/?p=919
 dsq_thread_id:
   - "3676256066"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 434
+wordpress_id: 434
 title: Moving containers beyond testability
 date: 2010-09-21T16:39:16+00:00
 author: Jimmy Bogard
 layout: post
-guid: /blogs/jimmy_bogard/archive/2010/09/21/moving-containers-beyond-testability.aspx
+wordpress_guid: /blogs/jimmy_bogard/archive/2010/09/21/moving-containers-beyond-testability.aspx
 dsq_thread_id:
   - "264716579"
 categories:

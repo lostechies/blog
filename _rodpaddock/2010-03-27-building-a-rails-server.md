@@ -1,10 +1,10 @@
 ---
-id: 4475
+wordpress_id: 4475
 title: Building a Rails Server
 date: 2010-03-27T21:30:00+00:00
 author: Rod Paddock
 layout: post
-guid: /blogs/rodpaddock/archive/2010/03/27/building-a-rails-server.aspx
+wordpress_guid: /blogs/rodpaddock/archive/2010/03/27/building-a-rails-server.aspx
 dsq_thread_id:
   - "263003350"
 categories:

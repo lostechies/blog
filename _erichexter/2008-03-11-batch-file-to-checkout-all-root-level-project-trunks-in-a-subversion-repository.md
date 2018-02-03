@@ -1,10 +1,10 @@
 ---
-id: 2941
+wordpress_id: 2941
 title: Batch file to Checkout all root level project trunks in a Subversion repository
 date: 2008-03-11T16:46:15+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/03/11/batch-file-to-checkout-all-root-level-project-trunks-in-a-subversion-repository.aspx
+wordpress_guid: /blogs/hex/archive/2008/03/11/batch-file-to-checkout-all-root-level-project-trunks-in-a-subversion-repository.aspx
 dsq_thread_id:
   - "262304170"
 categories:

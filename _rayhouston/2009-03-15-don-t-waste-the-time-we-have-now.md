@@ -1,10 +1,10 @@
 ---
-id: 4154
+wordpress_id: 4154
 title: 'Don&#8217;t Waste The Time We Have Now'
 date: 2009-03-15T22:47:56+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2009/03/15/don-t-waste-the-time-we-have-now.aspx
+wordpress_guid: /blogs/rhouston/archive/2009/03/15/don-t-waste-the-time-we-have-now.aspx
 categories:
   - Uncategorized
 ---

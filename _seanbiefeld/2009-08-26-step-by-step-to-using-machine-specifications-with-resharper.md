@@ -1,10 +1,10 @@
 ---
-id: 16
+wordpress_id: 16
 title: Step by Step to Using MSpec (Machine.Specifications) with ReSharper
 date: 2009-08-26T01:34:00+00:00
 author: Sean Biefeld
 layout: post
-guid: /blogs/seanbiefeld/archive/2009/08/25/step-by-step-to-using-machine-specifications-with-resharper.aspx
+wordpress_guid: /blogs/seanbiefeld/archive/2009/08/25/step-by-step-to-using-machine-specifications-with-resharper.aspx
 dsq_thread_id:
   - "449608166"
 categories:

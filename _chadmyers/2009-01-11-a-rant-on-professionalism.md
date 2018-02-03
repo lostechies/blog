@@ -1,10 +1,10 @@
 ---
-id: 125
+wordpress_id: 125
 title: A Rant on Professionalism
 date: 2009-01-11T16:48:38+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/01/11/a-rant-on-professionalism.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/01/11/a-rant-on-professionalism.aspx
 dsq_thread_id:
   - "262114247"
 categories:

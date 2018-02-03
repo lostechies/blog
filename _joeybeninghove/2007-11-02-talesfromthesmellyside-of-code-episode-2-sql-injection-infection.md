@@ -1,10 +1,10 @@
 ---
-id: 3702
+wordpress_id: 3702
 title: 'TalesFromTheSmellySide(Of Code) &#8211; Episode #2 &#8211; SQL Injection Infection'
 date: 2007-11-02T14:36:00+00:00
 author: Joey Beninghove
 layout: post
-guid: /blogs/joeydotnet/archive/2007/11/02/talesfromthesmellyside-of-code-episode-2-sql-injection-infection.aspx
+wordpress_guid: /blogs/joeydotnet/archive/2007/11/02/talesfromthesmellyside-of-code-episode-2-sql-injection-infection.aspx
 categories:
   - tales from the smelly side
 ---

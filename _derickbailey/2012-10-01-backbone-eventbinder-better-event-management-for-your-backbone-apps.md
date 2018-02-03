@@ -1,10 +1,10 @@
 ---
-id: 1005
+wordpress_id: 1005
 title: 'Backbone.EventBinder: Better Event Management For Your Backbone Apps'
 date: 2012-10-01T08:22:17+00:00
 author: Derick Bailey
 layout: post
-guid: http://lostechies.com/derickbailey/?p=1005
+wordpress_guid: http://lostechies.com/derickbailey/?p=1005
 dsq_thread_id:
   - "866623076"
 categories:

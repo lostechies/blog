@@ -1,10 +1,10 @@
 ---
-id: 3135
+wordpress_id: 3135
 title: NAnt Build Prompter
 date: 2007-09-24T19:00:00+00:00
 author: Sean Chambers
 layout: post
-guid: /blogs/sean_chambers/archive/2007/09/24/nant-build-prompter.aspx
+wordpress_guid: /blogs/sean_chambers/archive/2007/09/24/nant-build-prompter.aspx
 dsq_thread_id:
   - "277720335"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 3338
+wordpress_id: 3338
 title: Testing Your Code to Test Yourself
 date: 2009-01-15T11:57:00+00:00
 author: Chris Missal
 layout: post
-guid: /blogs/chrismissal/archive/2009/01/15/testing-your-code-to-test-yourself.aspx
+wordpress_guid: /blogs/chrismissal/archive/2009/01/15/testing-your-code-to-test-yourself.aspx
 dsq_thread_id:
   - "262174727"
 categories:

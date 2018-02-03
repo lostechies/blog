@@ -1,10 +1,10 @@
 ---
-id: 127
+wordpress_id: 127
 title: How do you know your code works?
 date: 2009-01-15T03:44:05+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2009/01/14/how-do-you-know-your-code-works.aspx
+wordpress_guid: /blogs/chad_myers/archive/2009/01/14/how-do-you-know-your-code-works.aspx
 dsq_thread_id:
   - "262114281"
 categories:

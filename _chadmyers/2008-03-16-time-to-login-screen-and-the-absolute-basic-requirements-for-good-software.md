@@ -1,10 +1,10 @@
 ---
-id: 29
+wordpress_id: 29
 title: Time-to-Login-Screen, and the absolute basic requirements for good software
 date: 2008-03-16T14:56:03+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/03/16/time-to-login-screen-and-the-absolute-basic-requirements-for-good-software.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/03/16/time-to-login-screen-and-the-absolute-basic-requirements-for-good-software.aspx
 dsq_thread_id:
   - "262113721"
 categories:

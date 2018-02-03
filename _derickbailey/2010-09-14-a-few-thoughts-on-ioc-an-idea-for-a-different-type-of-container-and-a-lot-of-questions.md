@@ -1,10 +1,10 @@
 ---
-id: 181
+wordpress_id: 181
 title: A Few Thoughts On IoC, An Idea For A different Type Of Container, And A Lot Of Questions
 date: 2010-09-14T20:18:38+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/09/14/a-few-thoughts-on-ioc-an-idea-for-a-different-type-of-container-and-a-lot-of-questions.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/09/14/a-few-thoughts-on-ioc-an-idea-for-a-different-type-of-container-and-a-lot-of-questions.aspx
 dsq_thread_id:
   - "263850117"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 39
+wordpress_id: 39
 title: 'F# + Razor View Engine = FSRazor'
 date: 2011-02-07T02:39:00+00:00
 author: Keith Dahlby
 layout: post
-guid: /blogs/dahlbyk/archive/2011/02/06/fsharp-plus-razor-view-engine-equals-fsrazor.aspx
+wordpress_guid: /blogs/dahlbyk/archive/2011/02/06/fsharp-plus-razor-view-engine-equals-fsrazor.aspx
 dsq_thread_id:
   - "262493392"
 categories:

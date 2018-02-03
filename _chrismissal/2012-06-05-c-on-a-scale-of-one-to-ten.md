@@ -1,10 +1,10 @@
 ---
-id: 143
+wordpress_id: 143
 title: 'C# On a Scale of One to Ten'
 date: 2012-06-05T19:50:29+00:00
 author: Chris Missal
 layout: post
-guid: http://lostechies.com/chrismissal/?p=143
+wordpress_guid: http://lostechies.com/chrismissal/?p=143
 dsq_thread_id:
   - "715254430"
 categories:

@@ -1,10 +1,10 @@
 ---
-id: 832
+wordpress_id: 832
 title: Evolutionary architecture boundaries
 date: 2013-10-08T13:31:07+00:00
 author: Jimmy Bogard
 layout: post
-guid: http://lostechies.com/jimmybogard/?p=832
+wordpress_guid: http://lostechies.com/jimmybogard/?p=832
 dsq_thread_id:
   - "1836397228"
 categories:

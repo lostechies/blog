@@ -1,10 +1,10 @@
 ---
-id: 4480
+wordpress_id: 4480
 title: Commented Code == Technical Debt
 date: 2010-12-29T17:13:00+00:00
 author: Rod Paddock
 layout: post
-guid: /blogs/rodpaddock/archive/2010/12/29/commented-code-technical-debt.aspx
+wordpress_guid: /blogs/rodpaddock/archive/2010/12/29/commented-code-technical-debt.aspx
 dsq_thread_id:
   - "263003377"
 categories:

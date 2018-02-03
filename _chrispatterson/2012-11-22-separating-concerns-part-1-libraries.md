@@ -1,10 +1,10 @@
 ---
-id: 101
+wordpress_id: 101
 title: 'Separating Concerns &#8211; Part 1: Libraries'
 date: 2012-11-22T11:21:23+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=101
+wordpress_guid: http://lostechies.com/chrispatterson/?p=101
 dsq_thread_id:
   - "939458023"
 categories:

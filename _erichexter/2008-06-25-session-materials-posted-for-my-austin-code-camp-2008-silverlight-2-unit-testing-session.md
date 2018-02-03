@@ -1,10 +1,10 @@
 ---
-id: 2950
+wordpress_id: 2950
 title: Session materials posted for my Austin Code Camp 2008 Silverlight 2 Unit Testing session
 date: 2008-06-25T00:55:41+00:00
 author: Eric Hexter
 layout: post
-guid: /blogs/hex/archive/2008/06/24/session-materials-posted-for-my-austin-code-camp-2008-silverlight-2-unit-testing-session.aspx
+wordpress_guid: /blogs/hex/archive/2008/06/24/session-materials-posted-for-my-austin-code-camp-2008-silverlight-2-unit-testing-session.aspx
 dsq_thread_id:
   - "1145463780"
 categories:

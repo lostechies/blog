@@ -1,10 +1,10 @@
 ---
-id: 20
+wordpress_id: 20
 title: Connecting ActiveRecord to SQL Server
 date: 2008-05-03T15:13:36+00:00
 author: Ray Houston
 layout: post
-guid: /blogs/rhouston/archive/2008/05/03/connecting-activerecord-to-sql-server.aspx
+wordpress_guid: /blogs/rhouston/archive/2008/05/03/connecting-activerecord-to-sql-server.aspx
 categories:
   - Uncategorized
 ---

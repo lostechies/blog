@@ -1,10 +1,10 @@
 ---
-id: 86
+wordpress_id: 86
 title: 'Convention over Configuration: The Haack Response'
 date: 2007-12-09T18:40:13+00:00
 author: Joe Ocampo
 layout: post
-guid: /blogs/joe_ocampo/archive/2007/12/09/convention-over-configuration-the-haack-response.aspx
+wordpress_guid: /blogs/joe_ocampo/archive/2007/12/09/convention-over-configuration-the-haack-response.aspx
 dsq_thread_id:
   - "262089801"
 categories:

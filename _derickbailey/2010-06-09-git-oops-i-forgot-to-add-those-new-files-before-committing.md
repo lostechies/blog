@@ -1,10 +1,10 @@
 ---
-id: 168
+wordpress_id: 168
 title: 'Git: Oops. I Forgot To Add Those New Files Before Committing'
 date: 2010-06-09T21:05:43+00:00
 author: Derick Bailey
 layout: post
-guid: /blogs/derickbailey/archive/2010/06/09/git-oops-i-forgot-to-add-those-new-files-before-committing.aspx
+wordpress_guid: /blogs/derickbailey/archive/2010/06/09/git-oops-i-forgot-to-add-those-new-files-before-committing.aspx
 dsq_thread_id:
   - "263025747"
 categories:

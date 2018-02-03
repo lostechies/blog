@@ -1,10 +1,10 @@
 ---
-id: 456
+wordpress_id: 456
 title: An Early Glimpse of Future Composite Smart Client Guidance
 date: 2008-01-17T20:01:00+00:00
 author: Derek Greer
 layout: post
-guid: http://www.aspiringcraftsman.com/2008/01/an-early-glimpse-of-future-composite-smart-client-guidance/
+wordpress_guid: http://www.aspiringcraftsman.com/2008/01/an-early-glimpse-of-future-composite-smart-client-guidance/
 dsq_thread_id:
   - "324115939"
 categories:

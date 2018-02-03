@@ -1,10 +1,10 @@
 ---
-id: 172
+wordpress_id: 172
 title: 'Announcing: ATX Code Lunch'
 date: 2011-01-29T00:37:10+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2011/01/28/announcing-atx-code-lunch.aspx
+wordpress_guid: /blogs/chad_myers/archive/2011/01/28/announcing-atx-code-lunch.aspx
 dsq_thread_id:
   - "262114556"
 categories:

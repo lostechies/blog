@@ -1,10 +1,10 @@
 ---
-id: 4057
+wordpress_id: 4057
 title: Going Away Geek Beers
 date: 2009-11-12T14:47:43+00:00
 author: Scott Reynolds
 layout: post
-guid: /blogs/scottcreynolds/archive/2009/11/12/going-away-geek-beers.aspx
+wordpress_guid: /blogs/scottcreynolds/archive/2009/11/12/going-away-geek-beers.aspx
 categories:
   - Uncategorized
 ---

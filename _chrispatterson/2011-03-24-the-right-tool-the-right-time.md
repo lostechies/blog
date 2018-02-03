@@ -1,10 +1,10 @@
 ---
-id: 68
+wordpress_id: 68
 title: The Right Tool, The Right Time
 date: 2011-03-24T19:44:28+00:00
 author: Chris Patterson
 layout: post
-guid: http://lostechies.com/chrispatterson/?p=68
+wordpress_guid: http://lostechies.com/chrispatterson/?p=68
 dsq_thread_id:
   - "262401875"
 categories:

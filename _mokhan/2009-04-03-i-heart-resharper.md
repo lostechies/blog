@@ -1,10 +1,10 @@
 ---
-id: 34
+wordpress_id: 34
 title: I Heart ReSharper!
 date: 2009-04-03T22:56:52+00:00
 author: Mo Khan
 layout: post
-guid: /blogs/mokhan/archive/2009/04/03/i-heart-resharper.aspx
+wordpress_guid: /blogs/mokhan/archive/2009/04/03/i-heart-resharper.aspx
 categories:
   - Tools
 ---

@@ -1,10 +1,10 @@
 ---
-id: 59
+wordpress_id: 59
 title: Some Consulting Wisdom I Picked Up
 date: 2008-06-08T11:58:10+00:00
 author: Chad Myers
 layout: post
-guid: /blogs/chad_myers/archive/2008/06/08/some-consulting-wisdom-i-picked-up.aspx
+wordpress_guid: /blogs/chad_myers/archive/2008/06/08/some-consulting-wisdom-i-picked-up.aspx
 dsq_thread_id:
   - "262113865"
 categories:
