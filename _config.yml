@@ -267,6 +267,7 @@ JB:
 # to override the default setting.
 exclude:
   - scripts
+  - README.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
