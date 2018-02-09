@@ -123,6 +123,12 @@ collections:
     author: "Jasdeep Singh"
     output: true
     permalink: /:collection/:year/:month/:day/:title/
+  jasonmeridth:
+    active: true
+    author: "Jason Meridth"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+    feed: "https://blog.jasonmeridth.com/feed.xml"
   jimmybogard:
     active: true
     author: "Jimmy Bogard"
@@ -131,6 +137,8 @@ collections:
     disqus:
       short_name: "jimmybogardblog"
       active: true
+    post-prefix: "https://jimmybogard.com"
+    feed: "http://feeds.feedburner.com/GrabBagOfT"
   joeocampo:
     active: false
     author: "Joe Ocampo"
@@ -255,7 +263,6 @@ theme: minima
 plugins:
   - jekyll-redirect-from
   - jekyll-gist
-#- jekyll-feed
 
 JB:
   comments:

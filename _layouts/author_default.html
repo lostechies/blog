@@ -74,7 +74,7 @@
       <div class="tile is-4 is-child">
         <div class="tile is-parent is-vertical sidebar">
 
-          <div class="tile is-child widget">
+          <div id="recentAuthorPostsContainer" class="tile is-child widget">
             <div class="card">
               <header class="card-header">
                 <p class="card-header-title nice-title">
@@ -114,12 +114,57 @@
 
 {% include footer.html %}
 
-<!-- js -->
-<script type="text/javascript">
-    var page_collection = "{{page.collection}}";
+
+<script src="{{ site.baseurl }}/assets/js/feednami-client-v1.1.js"></script>
+<script src="{{ site.baseurl }}/assets/js/nav.js"></script>
+<script src="{{ site.baseurl }}/assets/js/search.js"></script>
+<script src="{{ site.baseurl }}/assets/js/load-authors.js"></script>
+{% if page.syndicated == true %}
+<script src="{{ site.baseurl }}/assets/js/load-aggregate-posts.js"></script>
+{% endif %}
+<script src="{{ site.baseurl }}/assets/js/load-recent-posts.js"></script>
+<script src="{{ site.baseurl }}/assets/js/load-recent-author-posts.js"></script>
+<script>
+  var collections = [
+    {% assign filtered_collections = ''|split:'' %}
+    {% assign unfiltered_collections = site.collections %}
+    {% for c in unfiltered_collections %}
+    {% if c.label != "posts" %}
+    {% assign filtered_collections = filtered_collections|push:c %}
+    {% endif %}
+    {% endfor %}
+    {% for collection in filtered_collections %}
+    {% assign label = collection.label %}
+    {
+      "label": "{{label}}",
+      "url": "{{site.baseurl}}/{{label}}",
+      "name": "{{collection.author}}",
+      "postPrefix": "{{collection.post-prefix}}",
+      "feed": "{{collection.feed}}"
+    } {% if forloop.last %}{% else %},{% endif %}
+    {% endfor %}
+  ];
+
+  {% assign col = site.collections | where: 'label', page.collection | first %}
+  var page_collection = "{{page.collection}}";
+  var collectionFeed = "{{col.feed}}";
+  var collection = collections.find(function(col) {
+    return col.label === "{{col.label}}";
+  });
+
+{% if page.syndicated == true %}
+  loadAggregatePosts("posts", collectionFeed, true, collection);
+{% endif %}
+  loadAuthors("authors");
+  loadRecentPosts("recentPosts");
+  loadRecentAuthorPosts("recentAuthorPosts", "recentAuthorPostsContainer");
 </script>
-<script src="{{ site.baseurl }}/assets/js/custom.js"></script>
-<script src="{{ site.baseurl }}/assets/js/typewriter.js"></script>
+
+<!-- page scripts -->
+{% if layout.scripts %}
+  {% include {{layout.scripts}} %}
+{% endif %}
+
 </body>
 </html>
 

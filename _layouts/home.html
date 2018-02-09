@@ -1,36 +1,17 @@
 ---
 layout: default
+scripts: home_scripts.html
 ---
 
 <div class="home">
 
   {{ content }}
 
-<ul class="posts">
-  {% assign author_posts = ''|split:''%}
-  {% assign unfiltered_posts = site.documents %}
-  {% for post in unfiltered_posts %}
-  {% if post.index != true %}
-  {% assign author_posts = author_posts|push:post%}
-  {% endif %}
-  {% endfor %}
+  <ul class="posts">
+    <div id="aggregate-posts"><img style="display:block; margin: auto;" src="{{site.baseurl}}/assets/images/spinner.gif"/></div>
+  </ul>
 
-  {% assign posts = author_posts | sort: 'date' | reverse %}
-  {% for post in posts limit: 10  %}
-
-    <div class="box">
-      <h1 class="post-title">
-        <a style="color:#4a4a4a;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </h1>
-      <span class="post-meta">{{ post.date | date: "%-d %B, %Y. It was a %A." }} <a style="color:grey" href="{{ site.baseurl }}{{ post.url }}"></a></span><hr/>
-
-      <span class="post-text">{{ post.content }}</span>
-    </div>
-
-    {% endfor %}
-</ul>
-
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ site.feed }}">via RSS</a></p>
 
 </div>
 

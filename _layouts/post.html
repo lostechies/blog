@@ -1,5 +1,6 @@
 ---
 layout: author_default
+scripts: post_scripts.html
 ---
 
 <div class="box">
@@ -30,10 +31,6 @@ layout: author_default
   </div>
   {%endif%}
 </div>
-
-<!--<div class="box">-->
-    <!-- google ads code box -->
-<!--</div>-->
 
 {% assign col = site.collections | where: 'label', page.collection | first%}
 {% if col.disqus.active == true %}
