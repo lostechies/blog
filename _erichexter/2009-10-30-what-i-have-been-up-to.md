@@ -9,6 +9,7 @@ dsq_thread_id:
   - "269682838"
 categories:
   - Community
+redirect_from: "/blogs/hex/archive/2009/10/29/what-i-have-been-up-to.aspx/"
 ---
 I have been pretty busy over the last few weeks. I just wanted to document what I have been doing.
 

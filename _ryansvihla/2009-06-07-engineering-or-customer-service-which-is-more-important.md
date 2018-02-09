@@ -9,6 +9,7 @@ dsq_thread_id:
   - "425624169"
 categories:
   - lean
+redirect_from: "/blogs/rssvihla/archive/2009/06/07/engineering-or-customer-service-which-is-more-important.aspx/"
 ---
 I&#8217;ve been reading a lot about lean/toyota way lately, mixing that with my past experience as an IT Consultant and throwing that up against a bit of an Ivory tower I fell into with XP that left me unable to deal with the following scenario:
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2009/10/27/soa-manifesto.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colinjack/archive/2009/10/27/soa-manifesto.aspx/"
 ---
 I&#8217;ve just gotten through reading the [SOA Manifesto](http://soa-manifesto.org/) and reactions from (among others) [Jim Webber](http://jim.webber.name/2009/10/24/95bf2681-9a7a-4f94-94d6-2156a3a46411.aspx) and [Stefan Tilkov](http://www.innoq.com/blog/st/2009/10/comments_on_the_soa_manifesto.html) and I can&#8217;t help feeling the whole thing is a missed opportunity. 
 

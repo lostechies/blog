@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715536"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/04/flexibility-and-control.aspx/"
 ---
 At our recent [Headspring .NET Boot Camp](http://codebetter.com/blogs/jeffrey.palermo/archive/2008/02/02/first-headspring-net-boot-camp-wrap-up.aspx), [Jeffrey](http://codebetter.com/blogs/jeffrey.palermo/default.aspx) and I had an interesting conversation with a couple of attendees whose company was considering an all-out [VSTS](http://msdn2.microsoft.com/en-us/vsts2008/products/default.aspx) love fest.
 

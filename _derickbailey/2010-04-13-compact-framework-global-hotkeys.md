@@ -11,6 +11,7 @@ categories:
   - .NET
   - 'C#'
   - Compact Framework
+redirect_from: "/blogs/derickbailey/archive/2010/04/13/compact-framework-global-hotkeys.aspx/"
 ---
 A long time ago, in a galaxy far far away… well… back when I worked in VB.NET up in Dallas… I wrote a little [hot key class](http://www.avocadosoftware.com/csblogs/dredge/articles/PPC_RegisterHotKey.aspx) for compact framework apps and [posted a little bit on how to use it](http://www.avocadosoftware.com/csblogs/dredge/archive/2005/02/17/PPC_RegisterHotKey_Example.aspx). Of course that was all done in VB.NET and I haven’t used that since the end of 2005. Fast forward 5 years and I find myself using the Compact Framework a lot and needing hotkeys again. So, here is the same code translated into C# ([with the help of PInvoke.NET](http://pinvoke.net/default.aspx/user32/RegisterHotKey.html)):
 

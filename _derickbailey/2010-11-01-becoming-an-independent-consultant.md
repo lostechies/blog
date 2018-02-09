@@ -12,6 +12,7 @@ categories:
   - Management
   - Pragmatism
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2010/11/01/becoming-an-independent-consultant.aspx/"
 ---
 After one year of a working with an amazing team and a great company at [TrackAbout](http://www.trackabout.com) (well, 361 days. 4 days shy of a year), I am moving on. Starting on Monday, November 15th, I will be a self-employed consultant! 
 

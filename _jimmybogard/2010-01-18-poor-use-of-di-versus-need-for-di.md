@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268147405"
 categories:
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2010/01/18/poor-use-of-di-versus-need-for-di.aspx/"
 ---
 Surprise surprise, but Uncle Bob got the twitterverse all riled up with another opinionated post, “[Dependency Injection Inversion](http://blog.objectmentor.com/articles/2010/01/17/dependency-injection-inversion)”.&#160; His basic advice from the post on DI tools is:
 

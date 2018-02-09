@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263003375"
 categories:
   - Uncategorized
+redirect_from: "/blogs/rodpaddock/archive/2010/08/10/this-week-in-fail.aspx/"
 ---
 Last week was a week full of fail. But not the type of fail you might think. 
 

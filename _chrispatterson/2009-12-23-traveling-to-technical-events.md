@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089392"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2009/12/23/traveling-to-technical-events.aspx/"
 ---
 Over the past couple of years I have been traveling more, both for work and to attend and/or present at a variety of technical events. While I have yet to earn the esteemed grizzled road veteran merit badge, I have managed to learn a few things along the way. When presenting at a technical event, whether it is a user group meeting, a code camp, or a full blown conference, being prepared is critical to delivering a successful presentation (hey, you aren&rsquo;t paying for this advice, so don&rsquo;t expect it to be groundbreaking).
 

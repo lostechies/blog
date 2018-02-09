@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Advice
   - IoC
+redirect_from: "/blogs/chad_myers/archive/2009/07/14/the-usual-result-of-poor-man-s-dependency-injection.aspx/"
 ---
 Alternate Title: An IoC Container is a Rich Man’s Factory Pattern Implementation
 

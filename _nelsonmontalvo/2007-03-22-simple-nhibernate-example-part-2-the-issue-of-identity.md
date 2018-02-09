@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/22/simple-nhibernate-example-part-2-the-issue-of-identity.aspx
 categories:
   - NHibernate
+redirect_from: "/blogs/nelson_montalvo/archive/2007/03/22/simple-nhibernate-example-part-2-the-issue-of-identity.aspx/"
 ---
 Before going into repositories, it is important to review the idea of identifying entities in the domain. In Domain Driven Design, by definition, an <span style="font-style: italic">Entity </span>is a domain object that is defined primarily by its identity.
 

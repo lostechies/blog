@@ -11,6 +11,7 @@ categories:
   - microprenuer
   - Rails
   - Ruby
+redirect_from: "/blogs/joeydotnet/archive/2010/06/23/from-alt-net-to-not-net.aspx/"
 ---
 For a long time now I&#8217;ve been known as &#8220;joeyDotNet&#8221;. Of course I&#8217;ll never make the mistake tying my name to a
   

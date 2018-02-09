@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/12/30/building-large-systems-at-google.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/12/30/building-large-systems-at-google.aspx/"
 ---
 I watched [this video](http://video.google.com/videoplay?docid=-5699448884004201579) very late last night&#8211;way cool.&nbsp; It&#8217;s a Google TechTalk about building very large systems.
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/08/25/community-reality-check-is-ineta-a-concrete-life-raft.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/08/25/community-reality-check-is-ineta-a-concrete-life-raft.aspx/"
 ---
 I&#8217;m asking you, dear reader, is INETA still viable as an organization?
 

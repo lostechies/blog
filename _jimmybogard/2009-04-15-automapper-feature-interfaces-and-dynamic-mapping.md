@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716117"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/04/14/automapper-feature-interfaces-and-dynamic-mapping.aspx/"
 ---
 In this post, I’ll highlight two features new in the 0.3 release: mapping to interfaces and dynamic mapping.&#160; Both of these come up in rather interesting scenarios.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262428390"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joshuaflanagan/archive/2011/02/22/code-samples-from-my-adnug-talk-coding-with-conventions.aspx/"
 ---
 A couple people have asked for the code I used during my talk at the Austin .NET User Group last night.
 

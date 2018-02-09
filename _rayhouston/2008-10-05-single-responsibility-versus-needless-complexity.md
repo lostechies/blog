@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/10/05/single-responsibility-versus-needless-complexity.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/10/05/single-responsibility-versus-needless-complexity.aspx/"
 ---
 At [Pablo&#8217;s Day of TDD](http://www.lostechies.com/blogs/chad_myers/archive/2008/09/15/announcing-pablo-s-days-of-tdd-in-austin-tx.aspx), we were discussing the [Single-Responsibility Principle (SRP)](http://www.lostechies.com/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx) while working through one of the labs and a question came up about a piece of code. The code in question looked something like the following (warning: this is over simplified code to show a point):
 

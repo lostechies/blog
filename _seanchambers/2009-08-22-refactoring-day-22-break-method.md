@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262354038"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/22/refactoring-day-22-break-method.aspx/"
 ---
 Today’s refactoring didn’t really come from any one source. It just named it although someone else may have something similar that’s named differently. If you know of anyone that has a name for this other than Break Method, please let me know.
 

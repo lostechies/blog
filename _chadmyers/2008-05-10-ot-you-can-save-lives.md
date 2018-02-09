@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113809"
 categories:
   - OffTopic
+redirect_from: "/blogs/chad_myers/archive/2008/05/10/ot-you-can-save-lives.aspx/"
 ---
 I debated about posting this on a technical blog and abusing the relationship with my subscribers, but I believe that the benefits outweigh the negatives. Lives are stake, people are suffering, and many of YOU can help. I hope you agree that this post is worth it.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Hacking LINQ
   - LINQ
+redirect_from: "/blogs/dahlbyk/archive/2009/09/19/hacking-linq-expressions-join-with-comparer.aspx/"
 ---
 In this installment of my [Hacking LINQ](http://solutionizing.net/tag/hacking-linq/) series we&#8217;ll take a look at providing an `IEqualityComparer` for use in a LINQ `join` clause.
 

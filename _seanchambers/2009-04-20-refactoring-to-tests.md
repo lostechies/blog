@@ -9,6 +9,7 @@ dsq_thread_id:
   - "337309931"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/04/20/refactoring-to-tests.aspx/"
 ---
 When presenting on TDD/Unit testing to user groups or code camps, a common question I hear is, "How can I get tests into my existing codebase?". This is often where people want to put effort when first starting with unit testing and it is a valid one, albeit a bit difficult at times.
 

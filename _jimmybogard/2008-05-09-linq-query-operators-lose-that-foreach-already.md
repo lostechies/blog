@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - LINQ
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/09/linq-query-operators-lose-that-foreach-already.aspx/"
 ---
 Now that .NET 3.5 is out with all its LINQ query operator goodness, I feel like going on a mean streak of trashing a lot of our (now) pointless foreach loops.&nbsp; Some example operations include:
 

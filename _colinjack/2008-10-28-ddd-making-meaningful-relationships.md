@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2008/10/28/ddd-making-meaningful-relationships.aspx
 categories:
   - DDD
+redirect_from: "/blogs/colinjack/archive/2008/10/28/ddd-making-meaningful-relationships.aspx/"
 ---
 A recent [discussion on the DDD forum](http://tech.groups.yahoo.com/group/domaindrivendesign/message/8276) made me want to post about what I consider to be an under-appreciated aspect of domain modelling, namely relationships. In the [thread](http://tech.groups.yahoo.com/group/domaindrivendesign/message/8276) Randy Stafford said the following:
 

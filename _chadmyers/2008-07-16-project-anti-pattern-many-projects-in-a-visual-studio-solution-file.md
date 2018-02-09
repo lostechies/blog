@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262401604"
 categories:
   - .NET
+redirect_from: "/blogs/chad_myers/archive/2008/07/15/project-anti-pattern-many-projects-in-a-visual-studio-solution-file.aspx/"
 ---
 I&#8217;ve been hearing from several colleagues about how their Visual Studio solution files have many (i.e. more than 10, and usually more than 30 &#8212; in one case, more than 100!).&nbsp; So far, none of them have been able to give me any good explanation for why this is and most of them hate it but they can&#8217;t change it because their architect/lead/whatever won&#8217;t let them.
 

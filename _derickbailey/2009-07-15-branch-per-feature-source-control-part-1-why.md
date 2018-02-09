@@ -18,6 +18,7 @@ categories:
   - Standardized Work
   - Subversion
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-part-1-why.aspx/"
 ---
 Several years ago, I started using source control systems to store all of my code. It was a life saver. I was no longer worried about losing changes that I had made. Then a few years ago, I found [Subversion](http://subversion.tigris.org/). It was a god-send compared to visual source safe. The feature set was very nice, [TortoiseSVN](http://tortoisesvn.org/) was easy to use, and I eventually found [VisualSVN](http://visualsvn.com/) which made life even easier. My team(s) quickly picked up on Subversion and we were very, very happy. We even started using some continuous integration processes to ensure our code built correctly, etc. 
 

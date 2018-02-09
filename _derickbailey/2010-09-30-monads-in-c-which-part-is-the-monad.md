@@ -12,6 +12,7 @@ categories:
   - 'C#'
   - Monads
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/09/29/monads-in-c-which-part-is-the-monad.aspx/"
 ---
 In [my previous post on refactoring some code](http://www.lostechies.com/blogs/derickbailey/archive/2010/09/24/a-refactoring-explicit-modeling-and-reducing-duplication.aspx), several people responded in the comments and via twitter that I should look at the Maybe<T> monad as an option. Now, I have to be honest… the potty-humor-teenager in me wants to giggle a little every time I hear, read, or say “monad”… but I’m sure that’s old news at this point. I’ve heard a lot about these things and I’ve never really had a reason to understand them until now. At least, that’s what I thought… but once I started reading about them and how they can be applied in C#, I realized that I’ve probably been using them for a long time and didn’t know it. In fact, LINQ is pretty much a DSL around monads… granted, I’ve never used the LINQ DSL, but I use the extension methods that come with LINQ pretty regularly.
 

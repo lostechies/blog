@@ -9,6 +9,7 @@ dsq_thread_id:
   - "297361947"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joshuaflanagan/archive/2010/05/11/austin-code-camp-2010.aspx/"
 ---
 A reminder that <a href="http://codecamp.adnug.org/" target="_blank">Austin .NET User Group’s Code Camp</a> is in a couple days – Saturday, May 15 2010. Code Camp is always free, and registration is still open.
 

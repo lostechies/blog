@@ -9,6 +9,7 @@ dsq_thread_id:
   - "442508633"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2009/03/19/dr-dru-and-phatboyg-on-elegant-code-cast.aspx/"
 ---
 Just over a week ago, [Dru Sellers](http://drusellers.codebetter.com/) and I recorded a podcast with [Elegant Code](http://elegantcode.com/)rs [Jarod Ferguson](http://elegantcode.com/about/jarod-ferguson/) and [David Starr](http://elegantcode.com/about/david-starr/). We spent a couple of hours discussing [event driven architecture](http://en.wikipedia.org/wiki/Event_Driven_Architecture) (EDA), messaging, and [MassTransit](http://code.google.com/p/masstransit/). Through the magic of editing, they managed to end up with a solid eighty minutes (most likely to achieve a straight up [G](http://www.urbandictionary.com/define.php?term=G) rating). 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715478"
 categories:
   - ASPdotNET
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/03/application-root-is-your-friend.aspx/"
 ---
 It still surprises me how many ASP.NET developers I run into don&#8217;t know about the different ways to construct path references in ASP.NET.&nbsp; Let&#8217;s say we want to include an image in our website.&nbsp; This image is hosted on our website, in an &#8220;img&#8221; subfolder off of the application root.&nbsp; So how do we create the image HTML, and what do we use as the URL?&nbsp; The wrong answer can lead to big-time maintenance headaches later.
 

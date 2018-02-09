@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2007/06/09/i-thought-these-days-were-over.aspx
 categories:
   - firefox
+redirect_from: "/blogs/joeydotnet/archive/2007/06/09/i-thought-these-days-were-over.aspx/"
 ---
 [<img height="185" alt="movielink_noff" src="http://farm2.static.flickr.com/1275/537832850_20884bc5fb_o.png" width="821" border="0" />](http://www.flickr.com/photos/joeyandstephanie/537832850/ "Photo Sharing")
 

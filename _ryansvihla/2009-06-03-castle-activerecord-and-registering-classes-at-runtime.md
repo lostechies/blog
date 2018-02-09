@@ -12,6 +12,7 @@ categories:
   - Castle
   - NHibernate
   - ORM
+redirect_from: "/blogs/rssvihla/archive/2009/06/03/castle-activerecord-and-registering-classes-at-runtime.aspx/"
 ---
 {% raw %}
 I use the following trick for adding ActiveRecord classes after the fact for our in-house plug-in architecture.&nbsp; Thanks to whichever blogger/mailing list I picked this up from so long ago.

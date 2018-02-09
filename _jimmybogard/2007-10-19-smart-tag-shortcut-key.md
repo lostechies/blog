@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715401"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/19/smart-tag-shortcut-key.aspx/"
 ---
 Ever notice that little red bar show up sometimes in while coding in&nbsp;Visual Studio 2005?&nbsp; It shows up after making certain changes to code, such as renaming methods, fields, or types that need to be imported:
 

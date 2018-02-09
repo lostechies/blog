@@ -12,6 +12,7 @@ categories:
   - Open Source
   - Reading Code
   - Spark
+redirect_from: "/blogs/chrismissal/archive/2010/01/28/reading-code-spark-s-once-attribute.aspx/"
 ---
 [<img style="border-right-width: 0px;margin: 0px 20px 0px 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Spark-320" align="left" src="http://lostechies.com/chrismissal/files/2011/03/Spark320_thumb_0CE3D06E.png" width="240" height="90" />](http://lostechies.com/chrismissal/files/2011/03/Spark320_58AFA727.png)For those who don’t know what Spark is… Spark is an open source view engine for <a href="http://castleproject.org/monorail/" rel="nofollow">Castle’s MonoRail Project</a> (version 2.0 just recently released!) and <a href="http://www.asp.net/mvc/" rel="nofollow">ASP.NET MVC</a>. The creator of Spark, [Louis DeJardin](http://whereslou.com/), came up with the project in a comment left on a Phil Haack blog post amidst people complaining about the “tag soup” in the default view engine.
 

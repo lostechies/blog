@@ -11,6 +11,7 @@ categories:
   - .NET
   - esb
   - masstransit
+redirect_from: "/blogs/chris_patterson/archive/2009/05/27/presenting-on-event-driven-architecture-and-masstransit.aspx/"
 ---
 <div style="text-align:center;padding-bottom: 12px">
   <h3>

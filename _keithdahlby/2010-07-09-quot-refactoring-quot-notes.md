@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Book Review
   - Refactoring
+redirect_from: "/blogs/dahlbyk/archive/2010/07/09/quot-refactoring-quot-notes.aspx/"
 ---
 I&#8217;m not going to bother with a review of [Martin
    

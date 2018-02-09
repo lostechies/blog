@@ -11,6 +11,7 @@ categories:
   - Controllerless
   - FubuMVC
   - MVC
+redirect_from: "/blogs/chad_myers/archive/2009/06/18/going-controller-less-in-mvc-the-way-fowler-meant-it.aspx/"
 ---
 This is sort of a stream-of-consciousness post. Several folks have been asking me what I mean by ‘Controllerless actions’ and what I’m thinking about doing in FubuMVC.&#160; The conversation has already started publically on twitter, so I thought I’d try to capture a brain-dump of my thoughts in a blog post so the conversation can continue.&#160; This post likely won’t be up to my normally high (read: barely legible) standards. Please forgive.
 

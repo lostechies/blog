@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Silverlight
   - Testing
+redirect_from: "/blogs/hex/archive/2008/04/21/silverlight-testing-part-2-making-the-test-easier-understand.aspx/"
 ---
 Now that we have a working test that can make the proper assertions, the next step is to make the test easier to understand.&nbsp; First, here is the existing test.
 

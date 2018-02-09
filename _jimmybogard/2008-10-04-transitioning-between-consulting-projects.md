@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715919"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/10/04/transitioning-between-consulting-projects.aspx/"
 ---
 Starting at Headspring gave me the first opportunity in my career to do consulting work.&#160; I had previously worked in a startup, a product team and a large IT department.&#160; In each of those cases, I didn’t leave a job until I gave my two weeks.&#160; It was more than a little strange to leave a place after six months, and not from quitting.&#160; Transitioning between projects is an interesting spot, having to both forget the old domain and learn a new one, all in a small amount of time.&#160; Before I forget, I wanted to look back both at my first project and my first transition.
 

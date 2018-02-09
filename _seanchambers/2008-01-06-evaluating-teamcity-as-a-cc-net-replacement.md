@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262125678"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/01/06/evaluating-teamcity-as-a-cc-net-replacement.aspx/"
 ---
 Over the last week or so I have installed <a href="http://www.jetbrains.com/teamcity/index.html" target="_blank">TeamCity</a> at home and at work to replace CruiseControl.NET. My interest was originally sparked by <a href="http://blog.eleutian.com/2007/12/22/CruiseControlNETIsDeadLongLiveTeamCity.aspx" target="_blank">this posting</a> by Aaron at Eleutian. After playing with TeamCity for a week I must say I am very impressed.
 

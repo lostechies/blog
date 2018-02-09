@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123673"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/09/22/blogging-at-lostechies.aspx/"
 ---
 Jason Meridth contacted me a couple of days ago inviting me to cross-post my blog posts on [LosTechies](http://www.lostechies.com/). I was very flattered to learn that anyone even read my blog posts let alone invite me to blog on their community site. He explained to me that the aim of the site was to create a very relaxed community around informative programming&nbsp;information that everyone would find&nbsp;useful. From an initial e-mail conversation I had with everyone I can already tell that this will be a lot of fun. Everyone I spoke with seems very pleasant and knowledgeable so I think it will be good to mingle with like minded people as well as learn some new things.
 

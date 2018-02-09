@@ -11,6 +11,7 @@ categories:
   - .NET
   - Design
   - DSL
+redirect_from: "/blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx/"
 ---
 I&rsquo;ve been preparing for the upcoming [ALT.NET Workshop](http://altdotnet.org/events/6) (associated with [KaizenConf](http://kaizenconf.com/workshops)) on Internal Domain Specific Languages (DSL).&nbsp; The schedule hasn&rsquo;t been released yet, but I&rsquo;m pretty sure the Internal DSL workshop will be on Friday 31-OCT (don&rsquo;t quote me just yet, David Laribee is the final arbiter of such things).
 

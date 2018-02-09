@@ -14,6 +14,7 @@ categories:
   - LINQ
   - LINQ to SQL
   - Queryable
+redirect_from: "/blogs/dahlbyk/archive/2009/09/13/simplifying-lazylinq.aspx/"
 ---
 This is the fourth in a series of posts on [LazyLinq](http://lazylinq.codeplex.com/), a wrapper to support lazy initialization and deferred disposal of a LINQ query context:
 

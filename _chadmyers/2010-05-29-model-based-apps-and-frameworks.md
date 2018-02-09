@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114513"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2010/05/28/model-based-apps-and-frameworks.aspx/"
 ---
 Having been involved (mostly as a user or observer) with several recent applications and frameworks, I’ve come to the conclusion that building your app/framework on an internal model is generally the best way to go.&#160; In this post I’ll explain what I mean by “on an internal model” and later describe the benefits I have seen, realized, been told about by others and still others that I’ve only imagined (but are still possible).&#160; I plan on writing a few blog posts along these lines to explore what it means to be a “model-based framework” and what are the benefits and problems with going that route.
 

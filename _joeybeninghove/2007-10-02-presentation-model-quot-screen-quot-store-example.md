@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2007/10/02/presentation-model-quot-screen-quot-store-example.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/joeydotnet/archive/2007/10/02/presentation-model-quot-screen-quot-store-example.aspx/"
 ---
 > _&#8220;It is_ better to trust in the LORD Than to put confidence in man.&#8221; &#8212;
   

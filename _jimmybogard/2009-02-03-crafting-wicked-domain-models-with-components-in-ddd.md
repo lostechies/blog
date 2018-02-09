@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716072"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/02/crafting-wicked-domain-models-with-components-in-ddd.aspx/"
 ---
 Domain-Driven Design can help focus development efforts into crafting a strong, expressive domain model.&#160; In Evans’ book, he dives in to a series of patterns which, when combined, form that strong domain model.&#160; These patterns include Entity, Value Object, Service, Factory, Repository, Aggregates and Roots.&#160; I think one of the biggest mistakes of someone learning and applying DDD is assuming that our entire model needs to fit into those few definitions.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715987"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/12/11/more-c-attribute-annoyances.aspx/"
 ---
 And on the subject of the deficiencies of attributes, there are a few more things I’d like to accomplish, but cant.&#160; First on the list, generic attributes:
 

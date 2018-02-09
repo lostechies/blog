@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123688"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/10/04/testing-monorail-filters.aspx/"
 ---
 I was trying to test an Authentication Filter today that needed to redirect the user to a login page.
 

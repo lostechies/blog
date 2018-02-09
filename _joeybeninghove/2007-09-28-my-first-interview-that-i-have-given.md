@@ -10,6 +10,7 @@ categories:
   - Patterns
   - Personal
   - TDD
+redirect_from: "/blogs/joeydotnet/archive/2007/09/28/my-first-interview-that-i-have-given.aspx/"
 ---
 Today I was asked to give&nbsp;a technical interview to a candidate which is kind
   

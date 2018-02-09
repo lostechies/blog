@@ -12,6 +12,7 @@ categories:
   - Community
   - Craftsmanship
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/01/19/active-vs-activist.aspx/"
 ---
 **Update:** There’s a now apparent disconnect between what I intended in this post, and what it came across as. The poor choice of labels and tasteless examples are getting in the way of what I was trying to say. My intention was to cry out against celebrity, opportunism, and abuse of status. Turns out, I came across as doing those things that I was trying to say were bad.
 

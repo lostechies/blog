@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262353913"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/21/refactoring-day-21-collapse-hierarchy.aspx/"
 ---
 Todays refactoring comes from Martin Fowlers catalog of patterns. You can find this refactoring in his <a target="_blank" href="http://refactoring.com/catalog/collapseHierarchy.html">catalog here</a>
 

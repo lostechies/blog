@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113768"
 categories:
   - Austin
+redirect_from: "/blogs/chad_myers/archive/2008/04/21/move-to-austin.aspx/"
 ---
 That&#8217;s it. Just do it. Yes, I know&#8230; I understand&#8230; Stop thinking about excuses for no and start thinking about reasons for Yes.&nbsp; 
 

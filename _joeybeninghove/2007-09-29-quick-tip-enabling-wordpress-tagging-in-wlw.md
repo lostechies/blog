@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joeydotnet/archive/2007/09/29/quick-tip-enabling-wordpres
 categories:
   - blogging
   - wordpress
+redirect_from: "/blogs/joeydotnet/archive/2007/09/29/quick-tip-enabling-wordpress-tagging-in-wlw.aspx/"
 ---
 I&#8217;ve been playing with [WordPress](http://wordpress.org/) a little
   

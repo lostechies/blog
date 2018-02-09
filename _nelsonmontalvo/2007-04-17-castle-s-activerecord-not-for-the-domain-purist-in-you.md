@@ -9,6 +9,7 @@ categories:
   - Castle
   - Domain Driven Design
   - NHibernate
+redirect_from: "/blogs/nelson_montalvo/archive/2007/04/16/castle-s-activerecord-not-for-the-domain-purist-in-you.aspx/"
 ---
 &nbsp;I finally &#8220;broke down&#8221; and began using ActiveRecord just to try it out. <a href="http://www.castleproject.org/monorail/gettingstarted/ar.html" target="_blank">Here&#8217;s the tutorial</a> that I used. Now, don&#8217;t get me wrong &#8211;&nbsp;ActiveRecord is built on top of NHibernate and it&#8217;s one of the fastest ways to start working with your persistence layer.
 

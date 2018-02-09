@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267286118"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/09/21/new-favorite-deployment-method.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/09/new-favorite-deployment-method.html)._
 

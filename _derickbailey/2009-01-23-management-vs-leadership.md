@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262068006"
 categories:
   - Management
+redirect_from: "/blogs/derickbailey/archive/2009/01/23/management-vs-leadership.aspx/"
 ---
 </p> 
 

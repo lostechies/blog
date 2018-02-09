@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089977"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/06/18/rbehave-with-nunit.aspx/"
 ---
 I just read Dan North&#8217;s article on <a href="http://dannorth.net/2007/06/introducing-rbehave" target="_blank">Introducing RBehave</a>.
 

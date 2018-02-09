@@ -11,6 +11,7 @@ categories:
   - 'Agile Project Coaching &amp; Management'
   - BDD (Behavior Driven Development)
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/15/re-bdd-and-requirements-traceability-oh-no-not-again.aspx/"
 ---
 This is a response to <a href="http://codebetter.com/blogs/scott.bellware/default.aspx" target="_blank">Scott Bellware’s</a> recent post on “**<a href="http://codebetter.com/blogs/scott.bellware/archive/2007/10/14/169723.aspx" target="_blank">BDD and Requirements Traceability &#8211; Oh No, Not Again”</a>**
 

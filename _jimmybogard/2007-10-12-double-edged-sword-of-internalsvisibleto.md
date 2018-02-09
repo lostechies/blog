@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715373"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/12/double-edged-sword-of-internalsvisibleto.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/double-edged-sword-of.html)._
 

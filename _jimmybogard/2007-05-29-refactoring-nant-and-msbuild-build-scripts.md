@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - MSBuild
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2007/05/29/refactoring-nant-and-msbuild-build-scripts.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/refactoring-nant-and-msbuild-build.html)._
 

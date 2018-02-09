@@ -9,6 +9,7 @@ dsq_thread_id:
   - "273064963"
 categories:
   - Advice
+redirect_from: "/blogs/chad_myers/archive/2009/04/17/excelling-in-a-job-interview.aspx/"
 ---
 My friend and co-worker [Gary Sherman](http://blogs.dovetailsoftware.com/blogs/gsherman/) recently tweeted this and I thought I would share it with you:
 

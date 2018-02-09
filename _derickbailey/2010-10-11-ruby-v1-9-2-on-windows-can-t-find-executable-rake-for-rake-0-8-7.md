@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Rake
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2010/10/11/ruby-v1-9-2-on-windows-can-t-find-executable-rake-for-rake-0-8-7.aspx/"
 ---
 FYI – I saw [this question over on StackOverflow](http://stackoverflow.com/questions/3902526/rake-failing-to-start/3906791) and did a little bit of searching for the problem and workarounds. In searching for an answer, I found [issue #3677 on the ruby-lang redmine site](http://redmine.ruby-lang.org/issues/show/3677). It turns out there’s a bug in v1.9.2 of Ruby, at least for Windows and possibly for Linux and other systems, as well. There’s some interesting discussion on the issue and a few workarounds are posted.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DomainDrivenDesign
   - NHibernate
+redirect_from: "/blogs/jimmy_bogard/archive/2010/12/06/ditching-domain-models-for-reads.aspx/"
 ---
 Last week was a tipping point for me.&#160; We had an issue where a production service failed because NHibernate was trying to issue thousands of UPDATE calls for domain objects that we didn’t update.&#160; It turned out that we had added a new column for an entity, but did not fill this column with values for existing objects.&#160; When we loaded up these objects for a bulk export, NHibernate detected changes for these thousands of objects.
 

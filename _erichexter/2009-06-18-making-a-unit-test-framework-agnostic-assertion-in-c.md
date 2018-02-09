@@ -15,6 +15,7 @@ categories:
   - Testing
   - Tools
   - Unittests
+redirect_from: "/blogs/hex/archive/2009/06/18/making-a-unit-test-framework-agnostic-assertion-in-c.aspx/"
 ---
 &#160;
 

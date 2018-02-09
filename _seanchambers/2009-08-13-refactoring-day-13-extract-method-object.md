@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262350797"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/13/refactoring-day-13-extract-method-object.aspx/"
 ---
 Today&#8217;s refactoring comes from Martin Fowlers list of refactorings. You can find his [original article here with a brief description](http://refactoring.com/catalog/replaceMethodWithMethodObject.html).
 

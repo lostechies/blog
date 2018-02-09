@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ALT.NET
   - LiveMeeting
+redirect_from: "/blogs/chad_myers/archive/2008/12/09/alt-net-online-open-meeting-10-dec-featuring-jeremy-miller.aspx/"
 ---
 Zach Young has set up another LiveMeeting space for Wednesday (10-DEC-2008).
 

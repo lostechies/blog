@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114067"
 categories:
   - Kaizenconf
+redirect_from: "/blogs/chad_myers/archive/2008/09/04/continuous-improvement-workshop-s.aspx/"
 ---
 I’ve been asked by [David Laribee](http://codebetter.com/blogs/david_laribee/) and [Scott Bellware](http://blog.scottbellware.com/) to assist in hosting one of the pre-conference workshops for the [Continuous Improvement in Software Development Conference](http://kaizenconf.com/) (\*pant \*pant that’s a mouthful, huh?). I’m not sure WHY they asked me, I think it was yet another mix-up with the CNN Weather personality “[Chad Myers](http://www.cnn.com/CNN/anchors_reporters/myers.chad.html),” but as always, I’m happy to act as his imposter.
 

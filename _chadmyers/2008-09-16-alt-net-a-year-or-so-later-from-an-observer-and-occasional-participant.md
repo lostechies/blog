@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114083"
 categories:
   - ALT.NET
+redirect_from: "/blogs/chad_myers/archive/2008/09/15/alt-net-a-year-or-so-later-from-an-observer-and-occasional-participant.aspx/"
 ---
 </p> </p> 
 

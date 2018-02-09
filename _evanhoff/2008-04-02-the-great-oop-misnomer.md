@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/04/01/the-great-oop-misnomer.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/04/01/the-great-oop-misnomer.aspx/"
 ---
 What&#8217;s the biggest minomer with OOP?
 

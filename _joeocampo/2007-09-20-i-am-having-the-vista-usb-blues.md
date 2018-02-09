@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090253"
 categories:
   - Vista
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/19/i-am-having-the-vista-usb-blues.aspx/"
 ---
 OK it has been three days now and Vista still cannot recognize ANY of my USB drives!&nbsp; I have installed the latest [cumulative update](http://support.microsoft.com/default.aspx?scid=kb%3Ben-us%3B936003) from the KB articles and ran through the steps [here](http://forums.logitech.com/logitech/board/message?board.id=bluetooth&message.id=4357) to recover the metabase for the drivers.&nbsp; Has anyone else had this issue?
 

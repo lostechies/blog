@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2007/10/01/working-with-interfaces-part-one-contracts.aspx
 categories:
   - 'C#'
+redirect_from: "/blogs/colin_ramsay/archive/2007/10/01/working-with-interfaces-part-one-contracts.aspx/"
 ---
 I hold my hands up &#8211; I am a programmer who doesn&#8217;t have a computer science background. My education only skimmed programming and was totally bereft of any architectural considerations. I almost stumbled into my first programming job, and I such I realise I have a lot of to learn about that which I use to earn a crust.
 

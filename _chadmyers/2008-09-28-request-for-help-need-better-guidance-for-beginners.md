@@ -12,6 +12,7 @@ categories:
   - Design
   - Guidance
   - Programming
+redirect_from: "/blogs/chad_myers/archive/2008/09/28/request-for-help-need-better-guidance-for-beginners.aspx/"
 ---
 This morning I happened to see the article “[.NET Coding Standard & Code Review Points](http://www.dotnetfunda.com/articles/article62.aspx)” linked from the good folks over at [DotNetKicks.com](http://www.dotnetkicks.com).&#160; I was horrified to see some of the very bad guidance being offered here. While I appreciate and applaud the effort and time put in by Mr. Narayan, I feel very strongly that some his guidance can cause great harm to those beginners who might follow it seriously. I hope that you, my dear reader, at least partially agree that many of the elements of this article are just plain wrong, if not dangerous.
 

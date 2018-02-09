@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715656"
 categories:
   - LegacyCode
+redirect_from: "/blogs/jimmy_bogard/archive/2008/04/16/profiling-a-legacy-app.aspx/"
 ---
 Approaching a legacy application can be a daunting task.&nbsp; You may or may not have access to the original developers (if they even still work for the company), and the domain experts might not be able to commit to teaching you the software full time.&nbsp; If you&#8217;re lucky enough to have access to true domain experts, it&#8217;s rare that they know the system from a technical standpoint, or are familiar with the entire system.&nbsp; It&#8217;s more likely they have intimate knowledge of one piece, and cursory knowledge of the rest.
 

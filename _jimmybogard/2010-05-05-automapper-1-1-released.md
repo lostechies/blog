@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266329476"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2010/05/05/automapper-1-1-released.aspx/"
 ---
 Today I pushed out the [1.1 release of AutoMapper](http://automapper.codeplex.com/releases/view/44802).&#160; From the release notes:
 

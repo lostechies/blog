@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Refactoring
   - Unit Testing
+redirect_from: "/blogs/sharoncichelli/archive/2009/10/13/refactoring-dinner-interfaces-instead-of-inheritance.aspx/"
 ---
 Last time, in [Cooking Up a Good Template Method](/blogs/sharoncichelli/archive/2009/08/29/cooking-up-a-good-template-method.aspx), I had a template method cooking our dinner. An abstract base class defined the template&mdash;the high level steps for preparing a one-skillet dinner&mdash;and a derived class provided the implementation for those steps. I&#8217;m currently reading [Ken Pugh&#8217;s _Interface Oriented Design_](http://www.pragprog.com/titles/kpiod/interface-oriented-design) (more on that after I finish the book), and it got me thinking of a way to change the design to use interfaces instead of inheritance.
 

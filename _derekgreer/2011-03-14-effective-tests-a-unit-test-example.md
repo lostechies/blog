@@ -11,6 +11,7 @@ categories:
   - Uncategorized
 tags:
   - Testing
+redirect_from: "/blogs/derekgreer/archive/2011/03/14/effective-tests-a-unit-test-example.aspx/"
 ---
 ## Posts In This Series
 

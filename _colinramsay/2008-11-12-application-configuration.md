@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2008/11/12/application-configuration.aspx
 categories:
   - configuration
+redirect_from: "/blogs/colin_ramsay/archive/2008/11/12/application-configuration.aspx/"
 ---
 I had cause to recently revisit an old ASP.NET application I&#8217;d written way back when I was a development newcomer. Digging around the web.config I found the appSettings section:
 

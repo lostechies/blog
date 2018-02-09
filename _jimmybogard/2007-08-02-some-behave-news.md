@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - 'Behave#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/08/02/some-behave-news.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/some-behave-news.html)._
 

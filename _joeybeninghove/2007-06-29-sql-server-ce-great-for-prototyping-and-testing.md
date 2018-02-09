@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joeydotnet/archive/2007/06/29/sql-server-ce-great-for-pro
 categories:
   - NHibernate
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/06/29/sql-server-ce-great-for-prototyping-and-testing.aspx/"
 ---
 #### Background
 

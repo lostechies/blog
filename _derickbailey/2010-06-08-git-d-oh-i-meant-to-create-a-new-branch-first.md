@@ -12,6 +12,7 @@ categories:
   - Command Line
   - git
   - Source Control
+redirect_from: "/blogs/derickbailey/archive/2010/06/08/git-d-oh-i-meant-to-create-a-new-branch-first.aspx/"
 ---
 Yesterday I ran into a situation with git where I was working away on some code, finished what I was doing and committed the changes. Immediately after making the commit, I realized that I was still sitting in my master branch instead and had made the commits there instead of on a topic branch like I meant to. 
 

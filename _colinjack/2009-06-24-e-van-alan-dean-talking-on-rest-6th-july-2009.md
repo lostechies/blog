@@ -10,6 +10,7 @@ categories:
   - E-VAN
   - REST
   - SOA
+redirect_from: "/blogs/colinjack/archive/2009/06/24/e-van-alan-dean-talking-on-rest-6th-july-2009.aspx/"
 ---
 First off if you didn&#8217;t watch [Udi Dahan](http://www.udidahan.com/?blog=true) talk on the SOA then you missed a treat, a real pro speaking on a topic that he and a very few others in the .NET space are way ahead of the rest of us on. Brilliant stuff and the [video is now online at Vimeo](http://vimeo.com/5022174).
 

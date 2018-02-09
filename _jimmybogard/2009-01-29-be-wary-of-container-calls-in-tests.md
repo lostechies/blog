@@ -10,6 +10,7 @@ dsq_thread_id:
   - "264716038"
 categories:
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2009/01/28/be-wary-of-container-calls-in-tests.aspx/"
 ---
 This one cost me a couple of hours today.&#160; To be clear:
 

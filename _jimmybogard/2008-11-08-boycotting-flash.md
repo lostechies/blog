@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264911714"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/08/boycotting-flash.aspx/"
 ---
 I’ve had it.&#160; I’m done with Flash and Silverlight and any other bogus “Rich Internet Application” technology used to deliver what should be normal websites on the WWW.&#160; Now, internal websites/applications are something entirely different.
 

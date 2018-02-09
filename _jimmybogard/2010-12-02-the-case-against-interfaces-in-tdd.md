@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716627"
 categories:
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2010/12/02/the-case-against-interfaces-in-tdd.aspx/"
 ---
 [Mark Ploeh](http://blog.ploeh.dk) has an interesting post about [interfaces in TDD](http://blog.ploeh.dk/2010/12/02/InterfacesAreNotAbstractions.aspx) – that interfaces aren’t necessarily abstractions.&#160; That’s certainly true.&#160;&#160; Interfaces don’t guarantee we’re actually following SOLID design principles.&#160; In fact, the whole idea of the typical repository pattern in a lot of “DDD” codebases just screams of ISP violations.
 

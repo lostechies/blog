@@ -11,6 +11,7 @@ categories:
   - Analysis and Design
   - Craftsmanship
   - User Experience
+redirect_from: "/blogs/derickbailey/archive/2010/09/20/intuition-and-complexity.aspx/"
 ---
 I just ran into a situation where I had to describe an easy, but not intuitive process to a coworker. The net result of the conversation is that I realized I would much rather have software or process that it intuitive yet difficult, rather than simple yet not intuitive.
 

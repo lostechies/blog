@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - altnetconf
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2008/01/09/how-to-drink-from-a-fire-hose.aspx/"
 ---
 I have encountered several people over the last week who have simply lost interest in the Alt.Net mailing list due to the overflow of information.&nbsp; Simply to much information to keep up with.&nbsp; So I asked them to show me how they were utilizing the mailing list.
 

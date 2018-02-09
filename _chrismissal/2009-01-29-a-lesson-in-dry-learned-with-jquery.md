@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DRY
   - JQuery
+redirect_from: "/blogs/chrismissal/archive/2009/01/29/a-lesson-in-dry-learned-with-jquery.aspx/"
 ---
 While working on a credit card entry form I decided to add a dynamic block of XHTML to highlight the credit card that is entered by the user, while graying out others. In this code, I attempt to retrieve an image object in the DOM using simple string comparison based on the input of a text field. 
 

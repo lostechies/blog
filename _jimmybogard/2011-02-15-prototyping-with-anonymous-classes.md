@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264733374"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2011/02/15/prototyping-with-anonymous-classes.aspx/"
 ---
 In the [last post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2011/02/11/trivia-friday.aspx), I presented a rather strange bit of code: 
 

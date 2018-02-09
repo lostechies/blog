@@ -12,6 +12,7 @@ categories:
   - Community
   - Presentations
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/06/03/i-m-presenting-solid-at-alamocoders-on-june-9th.aspx/"
 ---
 <strike>I may be jumping the gun a bit, since it’s not posted on the </strike>[<strike>AlamoCoders</strike>](http://www.alamocoders.net/)<strike> site, yet. 🙂</strike>
 

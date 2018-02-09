@@ -11,6 +11,7 @@ categories:
   - ASP.NET MVC
   - MVC
   - mvccontrib
+redirect_from: "/blogs/hex/archive/2009/02/09/i-will-be-presenting-an-afternoon-of-asp-net-mvc-with-headspring-systems-february-19th-in-austin.aspx/"
 ---
 &#160;
 

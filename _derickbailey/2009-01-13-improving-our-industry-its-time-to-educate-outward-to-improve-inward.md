@@ -13,6 +13,7 @@ categories:
   - Lean Systems
   - Management
   - Philosophy of Software
+redirect_from: "/blogs/derickbailey/archive/2009/01/13/improving-our-industry-its-time-to-educate-outward-to-improve-inward.aspx/"
 ---
 For so long there have been so many advocating the benefits of the various Agile, Lean, Iterative, or whatever-you-want-to-call-it-these-days methodologies. We, as software developers, seem to understand the benefits of these methods. So why, then, do we still have customers that insist on big design up front, waterfall based methodologies, and other practices that we know are wrong?
 

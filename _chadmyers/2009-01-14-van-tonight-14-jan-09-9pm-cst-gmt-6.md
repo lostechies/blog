@@ -11,6 +11,7 @@ categories:
   - ALT.NET
   - LiveMeeting
   - VAN
+redirect_from: "/blogs/chad_myers/archive/2009/01/14/van-tonight-14-jan-09-9pm-cst-gmt-6.aspx/"
 ---
 Sorry for the late notice, things have been bonkers at work.
 

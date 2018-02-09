@@ -11,6 +11,7 @@ categories:
   - mac
   - OSX
   - vmware
+redirect_from: "/blogs/chris_patterson/archive/2008/09/17/vmware-fusion-2-0-windows-2008-workstation.aspx/"
 ---
 [VMware Fusion 2.0](http://www.vmware.com/products/fusion/) was released yesterday and I was anxious to upgrade. Rather than feel the full pain myself, I let [brewbie](http://twitter.com/brewbie) go first. He got it setup and installed and said all was good, so I figured I&#8217;d give it a shot. 
 

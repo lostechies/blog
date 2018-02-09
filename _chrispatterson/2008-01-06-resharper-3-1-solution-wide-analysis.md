@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - Agile
+redirect_from: "/blogs/chris_patterson/archive/2008/01/06/resharper-3-1-solution-wide-analysis.aspx/"
 ---
 Since early last year, I have been using [Resharper](http://www.jetbrains.com/resharper/) to increase my .NET coding productivity. After seeing the product used at a Code Camp, I was intrigued by how it make test driven development so much easier. I started on version 3.0 and JetBrains dropped 3.1 on Christmas Eve so I checked it out over the holiday break.
 

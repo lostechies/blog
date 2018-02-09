@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716363"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2009/11/12/willed-and-forced-design.aspx/"
 ---
 Roy Osherove, as a TypeMock employee, presents quite a dilemma from opinionated TDD blog posts simply because whether he has one or not, there’s always the question of agenda.&#160; Which is quite unfortunate, everyone has some sort of selfish agenda at some level.&#160; One of those posts came up in a commentary on [willed and forced design](http://weblogs.asp.net/rosherove/archive/2009/11/12/test-driven-design-willed-vs-forced-designs.aspx), with respect to the usage of mocking frameworks:
 

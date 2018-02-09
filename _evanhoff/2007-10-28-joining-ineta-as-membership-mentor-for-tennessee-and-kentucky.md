@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/28/joining-ineta-as-membership-mentor-for-tennessee-and-kentucky.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/28/joining-ineta-as-membership-mentor-for-tennessee-and-kentucky.aspx/"
 ---
 </p> 
 

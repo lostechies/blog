@@ -11,6 +11,7 @@ categories:
   - Fluent NHibernate
   - introduction
   - NHibernate
+redirect_from: "/blogs/gabrielschenker/archive/2009/04/09/article-series-on-nhibernate-and-fluent-nhibernate.aspx/"
 ---
 I have been invited to write a series of articles on [NHibernate](http://www.nhforge.org) and [Fluent NHibernate](http://code.google.com/p/fluent-nhibernate/) on [http://dotnetslackers.com](http://dotnetslackers.com "http://dotnetslackers.com").
 

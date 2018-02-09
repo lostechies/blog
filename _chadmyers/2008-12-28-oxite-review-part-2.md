@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1081157221"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/12/28/oxite-review-part-2.aspx/"
 ---
 In [Part 1](http://www.lostechies.com/blogs/chad_myers/archive/2008/12/20/oxite-review.aspx), we covered some overall, general aspects of Oxite (as a sample application, as an OSS project, etc) as well as the lack of tests and the problematic domain and persistence strategy.
 

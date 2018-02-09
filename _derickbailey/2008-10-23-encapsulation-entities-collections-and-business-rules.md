@@ -15,6 +15,7 @@ categories:
   - Model-View-Presenter
   - Principles and Patterns
   - Refactoring
+redirect_from: "/blogs/derickbailey/archive/2008/10/23/encapsulation-entities-collections-and-business-rules.aspx/"
 ---
 Yesterday, I was involved two very separate yet very related conversations. One was via twitter with <a href="http://www.lostechies.com/blogs/colinjack/" target="_blank">Colin Jack</a> and <a href="http://www.lostechies.com/blogs/jimmy_bogard/" target="_blank">Jimmy Bogard</a> (which I was only a partial contributor to &#8211; mostly just reading their conversation) and another after work with a <a href="http://edgewolf.com/edus/" target="_blank">coworker</a>. The short version of both conversations can be boiled down to encapsulation of logic surrounding collections that are held by entities. Rather than rehash all of the conversations, I wanted to specifically address a violation of encapsulation that I&#8217;ve seen many times when dealing with collections and business rules.
 

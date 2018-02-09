@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265214436"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2008/10/23/new-masstransit-screencast-and-sample.aspx/"
 ---
 One of the more common scenarios I hear about when talking about building a service-oriented architecture has to do with providing a web service to external customers. This is often in the context of providing information from an internal system. The problem comes with how many of these systems are built.
 

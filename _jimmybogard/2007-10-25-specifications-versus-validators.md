@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DomainDrivenDesign
   - Patterns
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/25/specifications-versus-validators.aspx/"
 ---
 [Joe](http://www.lostechies.com/blogs/joe_ocampo/) posed a great question on my recent [entity validation post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/10/24/entity-validation-with-visitors-and-extension-methods.aspx):
 

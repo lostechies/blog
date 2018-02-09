@@ -11,6 +11,7 @@ categories:
   - Advice
   - composition
   - Principles
+redirect_from: "/blogs/chad_myers/archive/2010/02/12/composition-versus-inheritance.aspx/"
 ---
 One score (minus five) years ago, in the age of yore and of our programming forefathers, there was written a little book. A seminal book. A book that would change things. That book was called [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/).&#160; 
 

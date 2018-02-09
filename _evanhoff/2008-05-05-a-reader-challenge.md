@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/05/04/a-reader-challenge.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/05/04/a-reader-challenge.aspx/"
 ---
 This is a simple challenge.&nbsp; I want you to figure this out for yourself.&nbsp; It&#8217;s an important step I think every developer needs to take for him/herself.
 

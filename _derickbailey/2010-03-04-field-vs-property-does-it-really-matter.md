@@ -12,6 +12,7 @@ categories:
   - Pragmatism
   - Principles and Patterns
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2010/03/04/field-vs-property-does-it-really-matter.aspx/"
 ---
 Given my recent experiences with Ruby, my cursory knowledge of Java, and my past experiences with other object oriented systems, I find myself asking a lot of questions about why we do things the way we do in the C#/.NET space. Today’s questioning is about one of those fundamental things that I have been preaching for a long time, yet suddenly find myself unable to answer ‘why’: 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113998"
 categories:
   - Design
+redirect_from: "/blogs/chad_myers/archive/2008/08/18/good-design-is-not-subjective.aspx/"
 ---
 In case you haven’t guessed by my recent flurry of posts, I’ve been engaged in some debates in the past few days about design philosophies and why some designs are “good” and some are “bad.”&#160; I’ve been met with some relativistic arguments that no design is either good or bad, it just succeeds or fails differently, etc (ok, they didn’t really say that, but that was the gist of the argument).&#160; Of course arguments of relativism are always wrong in my book (it’s usually just that we haven’t reached a level of understanding and specificity in the subject matter to determine EXACTLY why something is A or B).
 

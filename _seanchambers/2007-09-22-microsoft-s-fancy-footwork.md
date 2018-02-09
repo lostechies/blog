@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123661"
 categories:
   - Microsoft
+redirect_from: "/blogs/sean_chambers/archive/2007/09/22/microsoft-s-fancy-footwork.aspx/"
 ---
 A couple of days ago Phil made <a href="http://haacked.com/archive/2007/09/17/why-is-microsoft-removing-my-mvp-status.aspx" target="_blank">this posting</a>&nbsp;stating that he is going to Seattle to join Microsoft. He mentioned that one of the projects he will be working on is the new ASP.Net MVC framework. I won&#8217;t be discussing my thoughts on the MVC framework here, but rather I will be discussing how this relates to the community which I had a very interesting conversation last night with my boss and a co-worker mainly about Apple but it also relates to the development community.
 

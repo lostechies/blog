@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262671030"
 categories:
   - DDD
+redirect_from: "/blogs/sean_chambers/archive/2007/09/29/organizing-namespaces-with-ddd.aspx/"
 ---
 About a week ago I posted a message to the Yahoo DDD group to see how other people were organizing their namespaces in their Domain Model. For the most part everyone had the same basic idea. You can read the <A class="" href="http://tech.groups.yahoo.com/group/domaindrivendesign/message/5873" target="_blank">message here</A>.
 

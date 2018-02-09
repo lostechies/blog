@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/06/29/how-we-do-mvc-view-models.aspx/"
 ---
 A while back, I went over a few of the patterns and opinions we’ve gravitated towards on our current large-ish ASP.NET MVC project, or, [how we do MVC](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/04/24/how-we-do-mvc.aspx).&#160; Many of these opinions were forged the hard way, by doing the wrong thing many times until we found the “right” opinion.&#160; Of course, many of these opinions are only really valid in the constraints of our project.&#160; While the domain of this project isn’t important, here are some key aspects to consider:
 

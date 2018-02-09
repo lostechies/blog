@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123705"
 categories:
   - family
+redirect_from: "/blogs/sean_chambers/archive/2007/10/11/the-world-welcomes-aidan.aspx/"
 ---
 Yesterday October 10th 2007, Aidan Chambers was born into the world!!!
 

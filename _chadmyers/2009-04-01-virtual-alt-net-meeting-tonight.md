@@ -9,6 +9,7 @@ dsq_thread_id:
   - "300665442"
 categories:
   - VAN
+redirect_from: "/blogs/chad_myers/archive/2009/04/01/virtual-alt-net-meeting-tonight.aspx/"
 ---
 Zachariah Young has been rockin’ the Virtual ALT.NET (VAN) meetings for the past several months. There’s been good turnout and good discussions.&#160; He’s kicking it up a notch and asking members of the community to present something interesting at each meeting.
 

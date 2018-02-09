@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715549"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/07/team-system-and-open-source.aspx/"
 ---
 A note to all open source developers in .NET:
 

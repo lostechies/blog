@@ -8,6 +8,7 @@ wordpress_guid: /blogs/eric/archive/2009/11/20/why-chrome-os-will-succeed-in-a-l
 categories:
   - Chrome OS
   - Google
+redirect_from: "/blogs/eric/archive/2009/11/20/why-chrome-os-will-succeed-in-a-limited-market.aspx/"
 ---
 Randall Kennedy released an excellent analysis of the Chrome OS that I <a target="_blank" href="http://www.computerworld.com/s/article/9141207/Why_Chrome_OS_will_fail_big_time?taxonomyId=0&pageNumber=2">invite you to read</a>.&nbsp; In that analysis, Mr. Kennedy outlines why he believes that the Chome OS is doomed to fail miserably.&nbsp; Though I haven&#8217;t seen Chrome OS myself, I believe his read on the operating system is solid.&nbsp; This is a stripped down operating system that basically locks the user into web applications with the Chrome browser as the interface.&nbsp; The operating system is at its core a paired down version of linux and does not seem to support running desktop applications.&nbsp; Because this is a this OS that only supports the web browser, Mr. Kennedy&#8217;s analysis is that no user will want this running on their computer.&nbsp; This is where Kennedy misses the point.
 

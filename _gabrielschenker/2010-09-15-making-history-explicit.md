@@ -11,6 +11,7 @@ categories:
   - Fluent NHibernate
   - How To
   - NHibernate
+redirect_from: "/blogs/gabrielschenker/archive/2010/09/15/making-history-explicit.aspx/"
 ---
 ## Introduction
 

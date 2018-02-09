@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715993"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2008/12/08/attributes-are-lousy-decorators.aspx/"
 ---
 Attributes allow developers to provide a mechanism to add metadata to types, assemblies, type members, method parameters, and just about anything else under the sun.&#160; One of the first trends I noticed in my early days of combing the BCL with Reflector was that without fail, no attribute type provided any behavior.&#160; The only information an attribute provided was its type and its properties, but I never found a method that did any work.&#160; Which makes sense, as attributes define metadata, not behavior.
 

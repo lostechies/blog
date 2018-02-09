@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/20/agile-vs-traditional-development-cost-models-maybe.aspx/"
 ---
 One of the developers in the lab had been talking to his friends, who is being introduced to Scrum.&nbsp; One of the value proposition that they are selling to his friends company is that Agile will save you money in project cost.&nbsp; I want to caution Agile Practitioners on selling this concept.&nbsp; Agile produces higher value for the money but doesn&#8217;t necessarily save you money in project cost.
 

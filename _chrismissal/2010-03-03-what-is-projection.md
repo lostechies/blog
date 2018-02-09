@@ -11,6 +11,7 @@ categories:
   - Communication
   - LINQ
   - Reading Code
+redirect_from: "/blogs/chrismissal/archive/2010/03/03/what-is-projection.aspx/"
 ---
 I think there&rsquo;s great benefit in not only knowing how to design your code to use common patterns but also to be able to speak about them clearly and concisely to others. If I mention that the problem sounds like it could be solved using the Strategy Pattern, somebody who knows what I&rsquo;m talking about shouldn&rsquo;t need much more of an explanation than that. Knowing certain terms in code will help with communication. Obviously, the better your team is at communicating, the more successful you&rsquo;re going to be.
 

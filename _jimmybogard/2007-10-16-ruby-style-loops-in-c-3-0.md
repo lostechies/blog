@@ -9,6 +9,7 @@ dsq_thread_id:
   - "289145800"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/15/ruby-style-loops-in-c-3-0.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/ruby-style-loops-in-c-30.html)._
 

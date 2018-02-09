@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2007/06/26/minor-change-bug-in-file-templates-feature-of-resharper-3-0.aspx
 categories:
   - Resharper
+redirect_from: "/blogs/joeydotnet/archive/2007/06/26/minor-change-bug-in-file-templates-feature-of-resharper-3-0.aspx/"
 ---
 Notice anything wrong with this?
 

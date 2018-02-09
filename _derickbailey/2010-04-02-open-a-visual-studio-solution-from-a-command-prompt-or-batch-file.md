@@ -11,6 +11,7 @@ categories:
   - .NET
   - Command Line
   - Visual Studio
+redirect_from: "/blogs/derickbailey/archive/2010/04/02/open-a-visual-studio-solution-from-a-command-prompt-or-batch-file.aspx/"
 ---
 I got this idea from the [MassTransit](http://github.com/phatboyg/MassTransit) source code… it’s a good idea because I’m an aspiring keyboard junkie and I’m tired of mouse clicking my way to my solution files. (Note: the MT “open.bat” file is significantly more complicated than what I need or what this post talks about. I got the _idea_, not the implementation, from MT.)
 

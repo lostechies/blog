@@ -11,6 +11,7 @@ categories:
   - BDD
   - BehaviorDrivenDevelopment
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2008/07/10/separation-of-concerns-by-example-part-4.aspx/"
 ---
 In the last part, we finally broke out the caching and data access concerns from our original class.&nbsp; The series so far includes:
 

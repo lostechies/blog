@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Best Practices
   - Design Principles
+redirect_from: "/blogs/chrismissal/archive/2009/01/17/the-aggressive-class-vs-the-laid-back-class.aspx/"
 ---
 Oftentimes it&#8217;s very beneficial to be aggressive. You can be in sales, sports, real estate, marketing,&nbsp; or Hollywood and an agressive attitude will most likely pay off. I think that as developers, having an agressive, &#8220;go-get-em&#8221; demeanor helps us keep on top of the game; we can learn new practices and technologies to help ourselves write better software. In contrast, developers who are laid-back, or even lazy, are going to have a much tougher road ahead as technology (inevitably) advances. It seems odd yet obvious to me that the code we write should be the complete opposite.&nbsp; Take this ComputerBuilder class for example:
 

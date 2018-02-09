@@ -11,6 +11,7 @@ categories:
   - ClickOnce
   - How To
   - Setup
+redirect_from: "/blogs/gabrielschenker/archive/2009/03/24/how-to-change-start-location-of-a-signed-clickonce-application.aspx/"
 ---
 Lately I had to fix a ClickOnce application for a customer who changed the **start location** of the application. Since the path of the start location of the ClickOnce application is part of the (signed) manifest the setup does not work any more if you change it.
 

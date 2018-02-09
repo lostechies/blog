@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090251"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/16/thoughts-on-openup.aspx/"
 ---
 I have been reading up on the The Eclipse Process Framework (EPF).&nbsp; In particular the OpenUP Agile Methodology.
 

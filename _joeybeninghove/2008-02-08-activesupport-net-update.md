@@ -9,6 +9,7 @@ categories:
   - activesupport.net
   - 'C#'
   - projects
+redirect_from: "/blogs/joeydotnet/archive/2008/02/08/activesupport-net-update.aspx/"
 ---
 So it seems there is some interest in getting something like this up and running.&nbsp; I went ahead and did some of the basic &#8220;project setup&#8221; type tasks.&nbsp; Here are some links of interest&#8230;
 

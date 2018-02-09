@@ -14,6 +14,7 @@ categories:
   - FNH.Contrib
   - git
   - NHibernate
+redirect_from: "/blogs/derickbailey/archive/2009/05/13/fluentnhibernate-contrib-fnh-contrib-is-alive.aspx/"
 ---
 A few months ago, a coworker created a set of extension methods to turn [NHibernate](http://nhibernate.org)’s [Criteria API](https://www.hibernate.org/hib_docs/nhibernate/1.2/reference/en/html/querycriteria.html) into a more fluenty, strongly typed API. We’ve been using it in a production app for a few months, and I wanted to share it with the world. After talking about it with the other [Fluent NHibernate](http://fluentnhibernate.org) contributors, we decided that it was not a good time to introduce new APIs and features into FNH right now (especially considering that we just removed Repository and Linq from FNH).
 

@@ -10,6 +10,7 @@ categories:
   - Principles
   - Programming
   - PTOM
+redirect_from: "/blogs/rhouston/archive/2008/11/17/ptom-the-composite-design-pattern.aspx/"
 ---
 ## The Composite Design Pattern
 

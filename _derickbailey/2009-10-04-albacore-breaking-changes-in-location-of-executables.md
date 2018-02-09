@@ -12,6 +12,7 @@ categories:
   - Rake
   - Refactoring
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2009/10/04/albacore-breaking-changes-in-location-of-executables.aspx/"
 ---
 I was working on cleaning up [Albacore](http://github.com/derickbailey/Albacore) this weekend, and I noted that both the NCoverConsole and MSBuild tasks in Albacore both require the location of the .exe, to execute. The MSBuild task defaults itself to the .NET 3.5 SP1 folder, if none is specified, but the NCoverConsole task requires the path to be specified. With both of these requiring a path to the .exe file, it made sense to consolidate the functionality of storing the location and executing the command in a module. This would help to ensure consistency across all the tasks that need to execute something on the command line. 
 

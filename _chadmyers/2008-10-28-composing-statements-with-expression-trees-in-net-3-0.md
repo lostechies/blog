@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - Expression Trees
+redirect_from: "/blogs/chad_myers/archive/2008/10/27/composing-statements-with-expression-trees-in-net-3-0.aspx/"
 ---
 I was preparing some examples for my upcoming [ALT.NET Workshop](http://www.lostechies.com/blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx) and thought that this might be of some interest to a few people.
 

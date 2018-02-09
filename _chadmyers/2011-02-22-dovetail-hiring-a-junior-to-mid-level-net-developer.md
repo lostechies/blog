@@ -11,6 +11,7 @@ categories:
   - .NET
   - Dovetail
   - hiring
+redirect_from: "/blogs/chad_myers/archive/2011/02/22/dovetail-hiring-a-junior-to-mid-level-net-developer.aspx/"
 ---
 (I’m sure [Gary Sherman](http://blogs.dovetailsoftware.com/users/gsherman), Dovetail CTO, won’t mind if I copy [his post](http://blogs.dovetailsoftware.com/blogs/gsherman/archive/2011/02/08/dovetail-is-hiring-a-junior-to-mid-level-net-developer) verbatim)
 

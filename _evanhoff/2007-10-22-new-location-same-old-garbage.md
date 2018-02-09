@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/22/new-location-same-old-garbage.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/22/new-location-same-old-garbage.aspx/"
 ---
 For those on my RSS feed, I&#8217;ve switched blog homes on the web.&nbsp; I switched the RSS feed in the background on you, so now that you are seeing this, you are fully switched over (there&#8217;s nothing to do on your part).
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716419"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx/"
 ---
 Previous posts in this series:
 

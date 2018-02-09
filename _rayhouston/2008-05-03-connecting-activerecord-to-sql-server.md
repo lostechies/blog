@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/05/03/connecting-activerecord-to-sql-server.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/05/03/connecting-activerecord-to-sql-server.aspx/"
 ---
 _Disclaimer: I&#8217;m a Ruby noobie. I know nada about Rails. Please leave a comment if something is not correct or if there is a better way to do this._
 

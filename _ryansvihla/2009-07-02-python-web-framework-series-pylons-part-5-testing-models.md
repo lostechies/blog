@@ -11,6 +11,7 @@ categories:
   - Pylons
   - Python
   - SqlAlchemy
+redirect_from: "/blogs/rssvihla/archive/2009/07/02/python-web-framework-series-pylons-part-5-testing-models.aspx/"
 ---
 UPDATE: was an error caught by Govind (who is turning out to be my unofficial proofreader). I&#8217;ve made a correction in the thread mapping for &#8220;dateadded&#8221; property in the _previous_ article. If this you are caught up with and _error indicating there is no dateadded property on thread_ make sure to edit your **model\_\_init\_\_.py** file to match the previous article and rebuild your db so that everything is happy. Please bear with me as I hone my tutorial writing skill set.
 

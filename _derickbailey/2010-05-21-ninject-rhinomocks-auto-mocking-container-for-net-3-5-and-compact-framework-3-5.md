@@ -16,6 +16,7 @@ categories:
   - Ninject
   - RhinoMocks
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/05/21/ninject-rhinomocks-auto-mocking-container-for-net-3-5-and-compact-framework-3-5.aspx/"
 ---
 Earlier today, I decided I was tired of calling RhinoMocks directly. I love RhinoMocks. It’s a great tool and I don’t want to write tests without it (or another mocking framework like Moq or whatever…). But I’m tired of all the boring “declare a variable here, mock the object there, pass the object to the constructor here” junk that I have to do to get a mock object into my class under test. 
 

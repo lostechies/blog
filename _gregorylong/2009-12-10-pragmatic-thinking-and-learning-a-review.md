@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Book Review
   - Books
+redirect_from: "/blogs/thatotherguy/archive/2009/12/10/pragmatic-thinking-and-learning-a-review.aspx/"
 ---
  <img alt="Pragmatic Thinking and Learning" src="http://www.pragprog.com/images/covers/original/ahptl.jpg" style="border: 1px solid black;margin: 5px" />So, back in August (or was it September?) the members of Los Techies were offered a sweet deal from [The Pragmatic Programmers](http://www.pragprog.com/ "The Pragmatic Programmers") &#8211; pick any book (free), read it, and write a review.&nbsp; There were no strings attached so we could give our honest opinion.&nbsp; I picked [_Pragmatic Thinking and Learning_](http://www.pragprog.com/titles/ahptl/pragmatic-thinking-and-learning "Pragmatic Thinking and Learning") (Andy Hunt) and eagerly awaited my package.&nbsp; For this to be a thorough review I should admit that I have already read and own several of The Pragmatic Programmers books.&nbsp; I&#8217;ve long considered _<a target="_blank" title="The Pragmatic Programmer" href="http://www.pragprog.com/titles/tpp/the-pragmatic-programmer">The Pragmatic Programmer</a>_ to be one of the few &#8220;must read&#8221; books for any programmer.&nbsp; So, it is fair to say I&#8217;m pre-disposed to the style and opinions of The Pragmatic Programmers team.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "421520601"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/10/29/searching-for-a-read-only-list.aspx/"
 ---
 A while back, Eric Lippert talked about [arrays being somewhat harmful](http://blogs.msdn.com/ericlippert/archive/2008/09/22/arrays-considered-somewhat-harmful.aspx).&#160; The reason being, if you’re looking to create logical immutability, arrays aren’t it.&#160; Array length is immutable, but its contents aren’t.&#160; If you need to return an array, make sure you create a new instance every single time, or it might get modified underneath you.
 

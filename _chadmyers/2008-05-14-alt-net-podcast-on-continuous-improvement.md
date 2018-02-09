@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113796"
 categories:
   - ALT.NET
+redirect_from: "/blogs/chad_myers/archive/2008/05/13/alt-net-podcast-on-continuous-improvement.aspx/"
 ---
 [Mike Moore](http://www.blowmage.com/) recently put together a [podcast about ALT.NET and Continuous Improvement](http://altnetpodcast.com/episodes/1-continuous-improvement) featuring [Jeremy Miller](http://codebetter.com/blogs/jeremy.miller/default.aspx), [David Laribee](http://codebetter.com/blogs/david_laribee/), and, in order to make the other guys sound smarter, me.
 

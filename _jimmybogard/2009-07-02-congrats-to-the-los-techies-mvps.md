@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716201"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2009/07/01/congrats-to-the-los-techies-mvps.aspx/"
 ---
 This morning, I and fellow Los Techies alumni Eric Hexter and Chris Patterson learned that we are MVPs!&#160; Well, technically I learned last night through an IM of a re-tweet of my MVP lead, but hey, close enough, right?&#160; I know it’s cheesy, but I think these awards are a testament to the great community Los Techies has built over the years, so for me, this is really an award for Los Techies.&#160; The roundup includes:
 

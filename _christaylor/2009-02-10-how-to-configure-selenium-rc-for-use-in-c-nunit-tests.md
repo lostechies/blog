@@ -12,6 +12,7 @@ categories:
   - TDD
   - Tools
   - Unit Testing
+redirect_from: "/blogs/agilecruz/archive/2009/02/10/how-to-configure-selenium-rc-for-use-in-c-nunit-tests.aspx/"
 ---
 When I set about integrating Selenium into my test suites, I found all the information I needed to do that with but had to hunt and peck through my google searches to find it.&nbsp; So, as a point of reference, I figured I&#8217;d put what I needed to do all in one place:
 

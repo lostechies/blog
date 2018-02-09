@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/08/05/announcing-the-nashville-alt-net-user-group.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/08/05/announcing-the-nashville-alt-net-user-group.aspx/"
 ---
 This has been a long time coming, but it&#8217;s finally here!
 

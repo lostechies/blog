@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090871"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/03/behave-merges-with-nbehave.aspx/"
 ---
 This is really exciting news!
 

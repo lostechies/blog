@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/06/09/the-cost-of-defects.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/06/09/the-cost-of-defects.aspx/"
 ---
 I just ran across some great stats on the cost of software defects.&nbsp; These are quotable, so I thought I would share.
 

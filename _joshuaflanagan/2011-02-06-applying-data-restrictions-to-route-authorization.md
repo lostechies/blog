@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262115864"
 categories:
   - FubuMVC
+redirect_from: "/blogs/joshuaflanagan/archive/2011/02/06/applying-data-restrictions-to-route-authorization.aspx/"
 ---
 I introduced our concept of data restrictions in the context of <a href="http://www.lostechies.com/blogs/joshuaflanagan/archive/2011/01/24/how-we-systemically-apply-filters-to-our-data-access.aspx" target="_blank">filtering out entities from data access queries</a>. I then had to <a href="http://www.lostechies.com/blogs/joshuaflanagan/archive/2011/01/24/a-quick-follow-up-about-data-restrictions.aspx" target="_blank">clarify that data restrictions are not tied to data access</a> &#8211; they are part of the domain logic. In this post I will demonstrate how we use those same data restrictions to protect web pages, using the same example of <a href="http://blogs.dovetailsoftware.com/blogs/jflanagan/archive/2011/01/24/limiting-access-to-sensitive-information-in-dovetail-support-center" target="_blank">sensitive cases in Dovetail Support Center</a>.
 

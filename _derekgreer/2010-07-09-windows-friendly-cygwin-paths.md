@@ -11,6 +11,7 @@ categories:
   - Uncategorized
 tags:
   - Cygwin
+redirect_from: "/blogs/derekgreer/archive/2010/07/09/windows-friendly-cygwin-paths.aspx/"
 ---
 Not too long ago, I ventured into using Rake for my .Net project builds.&#160; Given that my shell preference on Windows is Cygwin’s bash port (via the excellent [mintty](http://code.google.com/p/mintty/) terminal), I tend to prefer installing the Cygwin ruby package rather than using the [RubyInstaller for Windows](http://rubyinstaller.org/).
 

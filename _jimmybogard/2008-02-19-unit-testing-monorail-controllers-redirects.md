@@ -12,6 +12,7 @@ categories:
   - Patterns
   - TDD
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/18/unit-testing-monorail-controllers-redirects.aspx/"
 ---
 When developing with [MonoRail](http://www.castleproject.org/monorail/), one of the common operations is to redirect to other controllers and actions.&nbsp; Originally, I looked at the [BaseControllerTester](http://using.castleproject.org/display/MR/TDDingControllers) to help test, but it required a little too much knowledge of the inner workings of MonoRail for my taste.&nbsp; Instead, I&#8217;ll use a common [Legacy Code](http://www.amazon.com/Working-Effectively-Legacy-Robert-Martin/dp/0131177052) technique to achieve the same effect.
 

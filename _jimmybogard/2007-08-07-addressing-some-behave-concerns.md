@@ -9,6 +9,7 @@ dsq_thread_id:
   - "465266893"
 categories:
   - 'Behave#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/08/07/addressing-some-behave-concerns.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/addressing-some-behave-concerns.html)._
 

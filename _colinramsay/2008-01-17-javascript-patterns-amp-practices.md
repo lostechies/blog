@@ -8,6 +8,7 @@ wordpress_guid: /blogs/colin_ramsay/archive/2008/01/17/javascript-patterns-amp-p
 categories:
   - JavaScript
   - practices
+redirect_from: "/blogs/colin_ramsay/archive/2008/01/17/javascript-patterns-amp-practices.aspx/"
 ---
 My previous post on Javascript gave an insight into using the language in a more structured manner than you may 
 

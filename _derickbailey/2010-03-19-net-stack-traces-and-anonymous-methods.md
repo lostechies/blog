@@ -12,6 +12,7 @@ categories:
   - 'C#'
   - Debugging
   - Stack Trace
+redirect_from: "/blogs/derickbailey/archive/2010/03/19/net-stack-traces-and-anonymous-methods.aspx/"
 ---
 I learned a little more about stack traces in .NET today… in a very painful manner… but, lesson learned! Hopefully someone else will be able to learn this lesson without having to spend 4 hours on it like I did. Take a look at this stack trace that I was getting in my Compact Framework app, today:
 

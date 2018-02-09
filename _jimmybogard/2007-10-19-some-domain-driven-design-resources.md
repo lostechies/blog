@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265205311"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/19/some-domain-driven-design-resources.aspx/"
 ---
 [Eric Evans&#8217; book](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215/) may be the definitive resource, but there&#8217;s quite a lot of supporting information on print and on the web.&nbsp; For those looking to start looking at what all the DDD buzz is about, or just wanted to catch the next acronym wave, here&#8217;s a list of resources for domain-driven design:
 

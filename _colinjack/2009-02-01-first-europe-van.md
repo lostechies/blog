@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2009/02/01/first-europe-van.aspx
 categories:
   - ALT.NET
+redirect_from: "/blogs/colinjack/archive/2009/02/01/first-europe-van.aspx/"
 ---
 Just a reminder that the first Europe VAN is tomorrow: 
 

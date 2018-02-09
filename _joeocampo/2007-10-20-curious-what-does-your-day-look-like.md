@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090874"
 categories:
   - Humor
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/20/curious-what-does-your-day-look-like.aspx/"
 ---
 I am just curious about all these great post I see coming from many of you.&nbsp; How do you all (Texans ya&#8217;ll) find the time?
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113876"
 categories:
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/06/26/i-m-not-a-real-world-developer.aspx/"
 ---
 I made the mistake recently of reading some of the responses to the &#8216;Entity Framework Vote of No Confidence&#8217; letter which I&#8217;m sure you&#8217;ve heard about already.&nbsp; Granted, I haven&#8217;t read them all, but so far only one has been of any real value: [The one from the EF team themselves](http://blogs.msdn.com/efdesign/archive/2008/06/23/transparency-in-the-design-process.aspx). In fact, they even set up a [whole web site](http://blogs.msdn.com/efdesign/) to be more open about how they&#8217;re designing EF.&nbsp; This helps to address one of the major underlying problems that many of us have with EF (e.g. It was seemingly designed in a back room somewhere without considering some already well-established best practices that have been use in &#8220;in the wild&#8221; in production for at least 5 years). This doesn&#8217;t let the EF team off the hook though, but at least their response was positive, constructive, and sincere.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265811750"
 categories:
   - StructureMap
+redirect_from: "/blogs/jimmy_bogard/archive/2008/10/27/hail-to-the-king-baby.aspx/"
 ---
 Looks like [StructureMap 2.5 dropped](http://codebetter.com/blogs/jeremy.miller/archive/2008/10/26/structuremap-2-5-is-released.aspx) this weekend.&#160; Which is nice, as we’ve been running off of the trunk for around six months.
 

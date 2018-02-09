@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/04/03/influence-change.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/04/03/influence-change.aspx/"
 ---
 It&#8217;s easy to get bogged down in our jobs and forget that we have the power to make changes. You may not have the authority to make changes yourself, but you always have the power to influence other people. Part of working at a company is working with others and that often means that you&#8217;ll have ideas that you&#8217;ll need other people&#8217;s help to execute. I&#8217;ve worked at a lot of places where people are reluctant to change, but there have been very few places that completely refused to change.
 

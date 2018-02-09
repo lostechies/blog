@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262100835"
 categories:
   - git
+redirect_from: "/blogs/derickbailey/archive/2011/02/23/git-d-oh-i-didn-t-want-to-delete-that-branch.aspx/"
 ---
 In the process of writing up the [previous blog post](http://www.lostechies.com/blogs/derickbailey/archive/2011/02/23/git-oops-i-didn-t-mean-to-commit-on-that-remote-tracking-branch.aspx), I accidentally deleted my &#8220;bioreference&#8221; branch, with no current commit pointing to it. To illustrate, my repository went from this:
 

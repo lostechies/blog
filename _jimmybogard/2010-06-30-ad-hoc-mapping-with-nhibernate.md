@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716520"
 categories:
   - NHibernate
+redirect_from: "/blogs/jimmy_bogard/archive/2010/06/29/ad-hoc-mapping-with-nhibernate.aspx/"
 ---
 In my recent adventures with massive bulk processing, there are some times when I want to pull bulk loaded tables from SQL, but don’t want to go through all the trouble of building a mapping in NHibernate.&#160; For example, one recent project had an intermediate processing table of something like:
 

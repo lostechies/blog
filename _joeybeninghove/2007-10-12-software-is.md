@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joeydotnet/archive/2007/10/11/software-is.aspx
 categories:
   - blogging
   - Personal
+redirect_from: "/blogs/joeydotnet/archive/2007/10/11/software-is.aspx/"
 ---
 A friend and former colleague of mine&nbsp;has finally [started blogging](http://blog.softwareishardwork.com/), after a year of
   

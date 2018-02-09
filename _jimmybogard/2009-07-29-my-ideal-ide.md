@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716254"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2009/07/28/my-ideal-ide.aspx/"
 ---
 The old joke goes something like, “Oh Visual Studio?&#160; Yeah, that’s the tool I use to host ReSharper.”&#160; Visual Studio has made lots of strides since the old VS 2002 edition.&#160; Before then, it was Visual Studio 6.0, on the much too often occasion I needed to update some old VB6 COM components.&#160; But for me, my current IDE still has a ways to go.
 

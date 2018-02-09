@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/23/the-web-database-anti-pattern.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/23/the-web-database-anti-pattern.aspx/"
 ---
 I&#8217;m just naming what I&#8217;ve seen over and over again.&nbsp; It&#8217;s&nbsp;the extreme polar opposite of&nbsp;the <a href="http://codebetter.com/blogs/david.hayden/archive/2005/03/29/60806.aspx" target="_blank">Smart UI Anti-Pattern</a>&nbsp;(in terms of layering) and a play on words of the popular&nbsp;term &#8220;Web Application&#8221;.
 

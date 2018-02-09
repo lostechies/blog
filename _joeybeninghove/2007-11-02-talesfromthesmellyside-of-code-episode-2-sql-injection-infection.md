@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2007/11/02/talesfromthesmellyside-of-code-episode-2-sql-injection-infection.aspx
 categories:
   - tales from the smelly side
+redirect_from: "/blogs/joeydotnet/archive/2007/11/02/talesfromthesmellyside-of-code-episode-2-sql-injection-infection.aspx/"
 ---
 Just so folks don&#8217;t think I&#8217;m coming off as elitist with my [new
   

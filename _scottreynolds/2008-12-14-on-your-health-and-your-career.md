@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2008/12/14/on-your-health-and-your-career.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottcreynolds/archive/2008/12/14/on-your-health-and-your-career.aspx/"
 ---
 People haven&#8217;t really heard from me in a while, and there&#8217;s a few reasons for it, but I&#8217;m about to talk about the major one.
 

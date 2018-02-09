@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123769"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/12/29/dealing-with-rsi-properly.aspx/"
 ---
 Over the last two weeks I have been having bad symptoms of <a href="http://en.wikipedia.org/wiki/Repetitive_strain_injury" target="_blank">RSI</a> and <a href="http://en.wikipedia.org/wiki/Carpal_tunnel" target="_blank">Carpal Tunnel Syndrome</a>. Specifically in the right hand more so than the left. This is almost surely from the mouse.
 

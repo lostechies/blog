@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262124051"
 categories:
   - Uncategorized
+redirect_from: "/blogs/stevedonie/archive/2009/02/05/starting-a-new-project-refactoring-an-existing-system.aspx/"
 ---
 Well, the team is starting on a new project. Our company is in a situation that is probably familiar to many people. We have some existing code, we have data in the database, everything &#8216;sorta&#8217; works. But now we want to add some new functionality, and there is fear. Fear that changes to the existing system will break things that currently work. 
 

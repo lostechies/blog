@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2008/10/28/biztalk-and-wcf-when-two-big-beasts-collide.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colinjack/archive/2008/10/28/biztalk-and-wcf-when-two-big-beasts-collide.aspx/"
 ---
 I spent the entirety of last week trying to create a ridiculously simple Biztalk orchestration and trying to get it to talk to a simple WCF service and I thought I should describe what I &#8220;learned&#8221;.
 

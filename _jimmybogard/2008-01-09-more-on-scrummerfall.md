@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264827499"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/09/more-on-scrummerfall.aspx/"
 ---
 A couple of comments have led me to think that I didn&#8217;t explain what it is.&nbsp; Let&#8217;s review waterfall phases:
 

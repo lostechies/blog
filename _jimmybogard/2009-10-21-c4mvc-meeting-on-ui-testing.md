@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716332"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/10/21/c4mvc-meeting-on-ui-testing.aspx/"
 ---
 Today I’m showing giving a talk on UI testing MVC applications for the [Community for MVC.Net folks](http://www.c4mvc.net/).&#160; Those that went to my presentations in Arkansas and Houston have seen this talk already, so they’re off the hook on this one.&#160; I’ll be covering ways to create UI tests that don’t break when a butterfly flaps its wings in Japan, and how we can design our MVC applications for UI testability.
 

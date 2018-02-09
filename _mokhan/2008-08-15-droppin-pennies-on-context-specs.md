@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/08/15/droppin-pennies-on-context-specs.aspx
 categories:
   - TDD
+redirect_from: "/blogs/mokhan/archive/2008/08/15/droppin-pennies-on-context-specs.aspx/"
 ---
 First off I want to make it clear that I&#8217;m not a guru on the topic, but I do find it interesting. The topic of course is Context Based Specifications. I&#8217;ve seen an emergence in interest in writing context based specifications lately on the blogosphere. However, everyone seems to be advertising it slightly differently&#8230; 
 

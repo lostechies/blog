@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715948"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2008/10/22/where-are-the-ddd-sample-applications.aspx/"
 ---
 It’s a question I see quite a bit, on the ALT.NET mailing list, the DDD mailing list, and any other medium where DDD comes up.&#160; For those trying DDD, this is a rather difficult question to answer.&#160; Many have tried to create DDD how-to’s and samples, including Jimmy Nilsson in [his book](http://www.amazon.com/Applying-Domain-Driven-Design-Patterns-Examples/dp/0321268202).&#160; The problem with these examples are twofold:
 

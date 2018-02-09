@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123765"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/02/17/presenting-to-students.aspx/"
 ---
 It has been an extremely long time since I posted last. I apologize to everyone and I promise to get back in the groove soon. I have an amazing amount of stuff going on lately. Looking to buy a house, planning a wedding, a newborn son and training new people at work and working on two side jobs, needless to say I have been stretched a little thin. There is light at the end of the tunnel though.
 

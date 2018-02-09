@@ -9,6 +9,7 @@ categories:
   - JavaScript
   - jscript
   - scripting
+redirect_from: "/blogs/joshua_lockwood/archive/2007/04/06/reflectionesque-behavior-in-javascript.aspx/"
 ---
 &nbsp;
 

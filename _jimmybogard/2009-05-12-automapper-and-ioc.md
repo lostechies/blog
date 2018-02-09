@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716147"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/05/11/automapper-and-ioc.aspx/"
 ---
 Since we’re a big user of IoC containers, namely [StructureMap](http://structuremap.sourceforge.net/Default.htm) (which was obviously a big inspiration in the design of the configuration), I tried to make AutoMapper IoC-friendly out of the box.&#160; It wasn’t friendly at first, [Jeffrey Palermo](http://jeffreypalermo.com/) had to prod me…a few times on this one.&#160; All of the examples of AutoMapper right now use the static Mapper class like this:
 

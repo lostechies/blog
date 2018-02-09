@@ -8,6 +8,7 @@ wordpress_guid: /blogs/colinjack/archive/2009/09/12/wcf-and-rest.aspx
 categories:
   - REST
   - WCF
+redirect_from: "/blogs/colinjack/archive/2009/09/12/wcf-and-rest.aspx/"
 ---
 I&#8217;m on a project that was using WCF and we&#8217;ve managed to make the transition to using REST (well, to be honest so far its just POX). 
 

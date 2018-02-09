@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - altnetconf
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/07/alt-net-conference-and-behavior-driven-design.aspx/"
 ---
 Today at the <a href="http://www.altnetconf.com/" target="_blank">Alt.Net conference</a> we discussed Behavior Driven Design. The debate was heated and there were varying opinions on “What is BDD?” and how to implement it. What I am worried about is that I think we did more harm than good with this session in bringing awareness to the .Net community regarding BDD. 
 

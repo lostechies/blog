@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASP.NET MVC
   - Oxite
+redirect_from: "/blogs/chad_myers/archive/2008/12/15/my-quick-take-on-oxite.aspx/"
 ---
 I&rsquo;m really trying not to be negative with this post. The people behind Oxite are good folks and don&rsquo;t deserve any hate.&nbsp; They have made a mistake, though. A mistake I think needs to be corrected and requires some immediate action.
 

@@ -11,6 +11,7 @@ categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/12/17/customer-perception-model-know-thy-customer.aspx/"
 ---
 It&#8217;s important to know how your &#8220;working&#8221; software is being received out in the field.&nbsp; Immediate customer feedback is one thing during a release but what about after the code actually gets out into the field.&nbsp; How are those users feeling!
 

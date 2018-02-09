@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266390923"
 categories:
   - StructureMap
+redirect_from: "/blogs/jimmy_bogard/archive/2008/09/12/some-ioc-container-guidelines.aspx/"
 ---
 So Derick Bailey asked me <strike>the other day</strike> a few weeks ago to describe how we use our IoC container.&nbsp; I wouldn&#8217;t call it &#8220;best practices&#8221;, though some of these tips came from the creator of our container of choice, StructureMap (Jeremy Miller).&nbsp; Although IoC containers are everywhere these days, you don&#8217;t see many instructions on where and how to use them.&nbsp; We&#8217;ve developed a consistent approach to using our favorite container of choice, StructureMap.&nbsp; The basic ideals behind our approach are:
 

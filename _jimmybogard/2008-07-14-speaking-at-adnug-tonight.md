@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265770131"
 categories:
   - LegacyCode
+redirect_from: "/blogs/jimmy_bogard/archive/2008/07/14/speaking-at-adnug-tonight.aspx/"
 ---
 I&#8217;m speaking at [ADNUG](http://adnug.org/) tonight about legacy code:
 

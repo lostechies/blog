@@ -9,6 +9,7 @@ dsq_thread_id:
   - "274819859"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/04/15/building-maintainable-web-applications-training-course.aspx/"
 ---
 I am conducting a two day training workshop on Building Maintainable Web Applications.&#160; It will be here in Austin TX June 8-9.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266581012"
 categories:
   - Uncategorized
+redirect_from: "/blogs/derickbailey/archive/2010/03/16/side-projects-community-involvement-etc.aspx/"
 ---
 There was some interesting discussion amongst LosTechies members recently, and one of the things that came out of it was a comment about LT members keeping the community informed on what they are doing in terms of side projects, community efforts, etc. Since I haven’t blogged about my side projects on LT recently (I’ve been blogging about them on their own sites), I thought I would take a moment and talk about what I’m currently involved in. … i guess this is kind of a “state of the derick” or “what i’ve been up too, recently” post. 🙂
 

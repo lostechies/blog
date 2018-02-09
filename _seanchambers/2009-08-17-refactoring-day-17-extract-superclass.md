@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262352974"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/17/refactoring-day-17-extract-superclass.aspx/"
 ---
 Today&#8217;s refactoring is from Martin Fowler&#8217;s refactoring catalog. You can find the <a target="_blank" href="http://refactoring.com/catalog/extractSuperclass.html">original description here</a>
 

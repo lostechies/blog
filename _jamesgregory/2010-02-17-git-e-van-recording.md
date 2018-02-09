@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - git
   - speaking
+redirect_from: "/blogs/jagregory/archive/2010/02/17/git-e-van-recording.aspx/"
 ---
 Last monday (8th of Feb) I did an [E-VAN on Git](http://jagregory.com/writings/git-e-van/); an introductory talk on Git and DVCS, covering pretty much everything you need to know for day-to-day Git life. I think it went down well, certainly didn&#8217;t _hear_ anyone complaining.
 

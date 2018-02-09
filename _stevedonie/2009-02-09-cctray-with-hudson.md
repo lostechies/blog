@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262124069"
 categories:
   - Uncategorized
+redirect_from: "/blogs/stevedonie/archive/2009/02/09/cctray-with-hudson.aspx/"
 ---
 Hurrah! <a href="http://testinfected.blogspot.com/" target="_blank">Eric Anderson</a> did some research this weekend and we now have our CCTray lights and speech working again! 
 

@@ -10,5 +10,6 @@ dsq_thread_id:
 categories:
   - adnug
   - CodeCamp
+redirect_from: "/blogs/johnteague/archive/2010/03/23/codecamp-deadline-for-sessions-is-getting-close.aspx/"
 ---
 If you&#8217;re waiting until the last minute to submit your sessions for the Austin Code Camp, you&#8217;re just about there.&nbsp; The deadline for submissions is March 27.&nbsp; You can submit your session [here](/controlpanel/blogs/posteditor.aspx/codecamp.adnug.org "CodeCamp Website").

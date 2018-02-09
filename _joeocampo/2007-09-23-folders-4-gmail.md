@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088195"
 categories:
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/23/folders-4-gmail.aspx/"
 ---
 I have officially given up on Internet Explorer as my preferred browser and now exclusively use [FireFox](http://www.mozilla.com/en-US/firefox/)!
 

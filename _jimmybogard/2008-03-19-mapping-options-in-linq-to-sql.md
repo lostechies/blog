@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DomainDrivenDesign
   - LINQ2SQL
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/18/mapping-options-in-linq-to-sql.aspx/"
 ---
 A [recent thread](http://tech.groups.yahoo.com/group/altdotnet/message/4236) on the ALT.NET message board asked:
 

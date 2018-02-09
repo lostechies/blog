@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - JavaScript
+redirect_from: "/blogs/jimmy_bogard/archive/2009/08/11/javascript-a-tool-too-sharp.aspx/"
 ---
 Ehhhh…no.
 

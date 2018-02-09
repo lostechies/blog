@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262068669"
 categories:
   - Uncategorized
+redirect_from: "/blogs/derickbailey/archive/2010/04/30/albacore-albacore-albacore.aspx/"
 ---
 A lot of things are happening with [Albacore](http://albacorebuild.net) in the next weeks, so I thought I would share with the world:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715517"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/17/customer-facing-identifiers.aspx/"
 ---
 I&#8217;m still installing miscellaneous drivers for my work laptop (Dell Inspiron 1501).&nbsp; I just downloaded an additional printer driver for an office printer, but can anyone tell me in less than 5 seconds, without Googling, which file is the printer driver?
 

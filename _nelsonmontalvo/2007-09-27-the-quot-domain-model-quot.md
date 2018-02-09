@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/09/26/the-quot-domain-model-quot.aspx
 categories:
   - Domain Driven Design
+redirect_from: "/blogs/nelson_montalvo/archive/2007/09/26/the-quot-domain-model-quot.aspx/"
 ---
 There has been some recent discussion on User Stories, the Ubiquitous Language of a domain, and Domain Models. I have been fairly confused because I am not clear on what folks have meant by the &#8220;Domain Model.&#8221; Some folks seem to be referring to the true code construct that results from 1) having a user story define some desired behavior, 2) discussion of this behavior, and 3) refinement of the concepts into the code construct.
 

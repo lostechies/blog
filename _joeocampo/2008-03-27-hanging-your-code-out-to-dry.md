@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
+redirect_from: "/blogs/joe_ocampo/archive/2008/03/27/hanging-your-code-out-to-dry.aspx/"
 ---
 I was speaking with <a href="http://www.lostechies.com/blogs/marcus_bratton/" target="_blank">Marcus Bratton</a> the other day about code reviews. We both agreed that they are very valuable but finding the time is probably the most difficult aspect of any code review. 
 

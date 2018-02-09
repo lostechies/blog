@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114004"
 categories:
   - Design
+redirect_from: "/blogs/chad_myers/archive/2008/08/18/let-s-try-it-again-testability-succinctly.aspx/"
 ---
 </p> </p> 
 

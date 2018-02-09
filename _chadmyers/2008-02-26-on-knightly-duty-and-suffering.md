@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113683"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/02/25/on-knightly-duty-and-suffering.aspx/"
 ---
 I&#8217;ve been reading &#8220;[The story of King Arthur and His Knights](http://www.amazon.com/Story-Arthur-Knights-Unabridged-Classics/dp/1402725035/ref=sr_11_1?ie=UTF8&qid=1203995551&sr=11-1)&#8221; by Howard Pyle to my son in the evenings recently.&nbsp; It&#8217;s filled with various stories of knightly prowess, victory and defeat, triumph and humiliation, etc. Overall, I&#8217;d recommend it and I think my son got a lot out of it, even if the language (_Ye Olde English_) is somewhat difficult to parse (we just came off of the classic The Adventures of Robin Hood, so he was used to the language).
 

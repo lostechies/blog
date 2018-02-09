@@ -9,6 +9,7 @@ dsq_thread_id:
   - "277720335"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/09/24/nant-build-prompter.aspx/"
 ---
 This is a very basic script that a co-worker named Rabid made for me. I don&#8217;t know this syntax but he does for all the group policy stuff we have at work. Basically the way I had it setup to manually do nant builds was I had three seperate .bat files. That did the following:
 

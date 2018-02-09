@@ -11,6 +11,7 @@ categories:
   - Uncategorized
 tags:
   - Design Patterns
+redirect_from: "/blogs/derekgreer/archive/2010/04/23/the-agile-visitor.aspx/"
 ---
 When working with object structures, you may at times encounter the need to perform some operation across all the elements within the structure.&#160; For instance, given a compound piece of machinery, you may want to perform some operation which requires examining each part to create a parts manifest, compute the total price, or determine which parts may need special storage or handling needs.&#160; 
 

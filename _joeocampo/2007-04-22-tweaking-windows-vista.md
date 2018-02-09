@@ -9,6 +9,7 @@ dsq_thread_id:
   - ""
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/04/22/tweaking-windows-vista.aspx/"
 ---
 I got this from [Sam Gentile&#8217;s](http://codebetter.com/blogs/sam.gentile/archive/2007/04/15/Wanted_3A00_-A-Windows-Edition-for-Non-Idiots.aspx) blog but I know I am going to forget about it later when I need it, hence the blog post.
 

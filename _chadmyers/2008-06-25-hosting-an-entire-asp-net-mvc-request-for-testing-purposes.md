@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASP.NET MVC
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/06/24/hosting-an-entire-asp-net-mvc-request-for-testing-purposes.aspx/"
 ---
 We&#8217;ve been playing around a lot with the ASP.NET MVC Preview 3 at Dovetail and trying to find various ways to test at various levels.  One of the levels we were toying with was doing an end-to-end test including URL routing, controller action, and view result rendering.  Unfortunately it&#8217;s still pretty complicated due to a lot of coupling in the bowels of the routing, controller invocation, and view rendering pieces but we were able to get an in-process host for fast-feedback testing without the need to fire up a browser or consult IIS.
 

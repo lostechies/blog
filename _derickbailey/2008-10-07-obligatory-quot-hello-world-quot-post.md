@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262067873"
 categories:
   - Uncategorized
+redirect_from: "/blogs/derickbailey/archive/2008/10/07/obligatory-quot-hello-world-quot-post.aspx/"
 ---
 Hola and (Insert standard &#8220;hello world&#8221; content, here). 
 

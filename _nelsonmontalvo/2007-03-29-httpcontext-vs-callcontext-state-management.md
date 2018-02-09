@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/29/httpcontext-vs-callcontext-state-management.aspx
 categories:
   - NHibernate
+redirect_from: "/blogs/nelson_montalvo/archive/2007/03/29/httpcontext-vs-callcontext-state-management.aspx/"
 ---
 [Here&#8217;s](http://forum.springframework.net/showthread.php?t=572) an interesting thread on using these various state management techniques across threads. It was brought up as an issue by a commenter on my NHibernate post on session management.
 

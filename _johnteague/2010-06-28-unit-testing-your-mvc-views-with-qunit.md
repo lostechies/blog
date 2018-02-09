@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262076893"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2010/06/28/unit-testing-your-mvc-views-with-qunit.aspx/"
 ---
 {% raw %}
 The story around testing your UI JavaScript is getting better and better.&nbsp; I&rsquo;ve been using QUnit for a couple of years and it&rsquo;s not hard to to test individual components of your UI.&nbsp; One thing that has always bothered me is that a typical testing setup is to have part of your html markup in your test page that you run your tests against.&nbsp; This is obviously not very DRY and I tend to refactor my HTML frequently while working, getting closer to semantic markup style and constantly cleaning up and fine tuning the UI.

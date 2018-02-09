@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/02/28/a-simple-delegate-example.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/02/28/a-simple-delegate-example.aspx/"
 ---
 I was recently working on a code generator and I made use of some simple delegates and I thought that I would share a few ideas.
 

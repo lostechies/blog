@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - LegacyCode
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/14/a-downcasting-tragedy.aspx/"
 ---
 And now, for another tale of legacy code woe, here&#8217;s a gut-wrenching tragedy of [OCP](http://www.objectmentor.com/resources/articles/ocp.pdf) and [downcasting](http://www.vsj.co.uk/articles/display.asp?id=473), in [five acts](http://en.wikipedia.org/wiki/Dramatic_structure).
 

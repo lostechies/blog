@@ -15,6 +15,7 @@ categories:
   - Community
   - MVC
   - Usergroup
+redirect_from: "/blogs/hex/archive/2009/09/16/video-of-the-david-ebbo-presenting-t4mvc-to-the-community-for-mvc-virtual-user-group.aspx/"
 ---
 &#160;
 

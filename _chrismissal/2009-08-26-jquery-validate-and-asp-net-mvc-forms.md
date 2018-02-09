@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASP.NET MVC
   - JQuery
+redirect_from: "/blogs/chrismissal/archive/2009/08/25/jquery-validate-and-asp-net-mvc-forms.aspx/"
 ---
 &nbsp;
 

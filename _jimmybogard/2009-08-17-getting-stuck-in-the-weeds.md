@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2009/08/16/getting-stuck-in-the-weeds.aspx/"
 ---
 While plowing through some AutoMapper support issues this weekend, I got a rather troubling one, where a developer got a rather scary exception message:
 

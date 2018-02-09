@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/05/08/don-t-do-that.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/05/08/don-t-do-that.aspx/"
 ---
 Over lunch today, I learned about one of the company&#8217;s recent acquisitions.&nbsp; Here&#8217;s the short of it:
 

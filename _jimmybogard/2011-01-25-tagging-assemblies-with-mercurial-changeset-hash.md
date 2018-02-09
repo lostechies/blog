@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ContinuousIntegration
   - Mercurial
+redirect_from: "/blogs/jimmy_bogard/archive/2011/01/25/tagging-assemblies-with-mercurial-changeset-hash.aspx/"
 ---
 Once you move to a [distributed version control system](http://en.wikipedia.org/wiki/Distributed_revision_control) such as [Git](http://git-scm.com/) or [Hg](http://mercurial.selenic.com/), the concept of incremental commit numbers begins to lose its meaning as exists in centralized version control systems such as SVN or TFS.&#160; In centralized VCS, version numbers are kept as an incremental revision number.&#160; Since only one commit can occur against the central repository at a time, it’s easy to keep track of this number.
 

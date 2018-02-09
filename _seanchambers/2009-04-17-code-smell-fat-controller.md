@@ -9,5 +9,6 @@ dsq_thread_id:
   - "339506461"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/04/17/code-smell-fat-controller.aspx/"
 ---
 An unpublished anti-pattern that not everyone is familiar with can be called the &#8220;Fat Controller&#8221;

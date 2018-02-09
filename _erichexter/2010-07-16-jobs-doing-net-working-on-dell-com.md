@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1069827838"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2010/07/15/jobs-doing-net-working-on-dell-com.aspx/"
 ---
 So, you may or may not have heard that I left my old company Headspring and I took a job another well known Austin based company called Dell.&#160; It was with mixed feelings that I left, because Headspring has awesome people and I enjoyed working with all of them.&#160; At the same time, I missed working on high volume eCommerce websites.&#160; 
 

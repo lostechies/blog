@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/03/14/ptom-the-interface-segregation-principle.aspx
 categories:
   - PTOM
+redirect_from: "/blogs/rhouston/archive/2008/03/14/ptom-the-interface-segregation-principle.aspx/"
 ---
 In following suite with the [The Los Techies Pablo&#8217;s Topic of the Month &#8211; March: SOLID Principles](http://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx), I chose to write a little about the [The Interface Segregation Principle (ISP)](http://www.objectmentor.com/resources/articles/isp.pdf). As [Chad](http://lostechies.com/blogs/chad_myers/default.aspx) pointed out with [LSP](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/09/ptom-the-liskov-substitution-principle.aspx), the ISP is also one of Robert &#8216;Uncle Bob&#8217; Martin&#8217;s S.O.L.I.D design principles.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265140510"
 categories:
   - Mercurial
+redirect_from: "/blogs/jimmy_bogard/archive/2010/08/25/why-hg-branches-are-broken-or-at-least-less-useful.aspx/"
 ---
 In one picture:
 

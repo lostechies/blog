@@ -11,6 +11,7 @@ categories:
   - mvccontrib
   - Open Source Software
   - OSS
+redirect_from: "/blogs/hex/archive/2010/01/11/a-call-for-help-vote-for-my-codeplex-issues.aspx/"
 ---
 This is my second time of calling to the community to support some feature requests I have made for the CodePlex website.&#160;&#160; The [first](http://www.lostechies.com/blogs/hex/archive/2009/04/09/help-support-open-source-software-i-mean-you.aspx) time I did this, I got a great response. The community voted my issue up and the codeplex team promptly implemented the feature. It was a simple feature and the community clearly thought it had value.&#160; I am making a call for help.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "358878678"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/01/06/code-coverage.aspx/"
 ---
 I usually don&#8217;t post something I&#8217;ve read but this one made me crack up. You guys have got to read this one!
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "422899453"
 categories:
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/06/02/los-techies-welcomes-john-teague-to-the-group.aspx/"
 ---
 We are happy to announce a new member joining the Los Techies group: John Teague.&nbsp; John is an active member of the Austin .NET users community. He helps out with the Austin .NET User&#8217;s Group (ADNUG) including the recent Code Camp &#8217;08.&nbsp; He&#8217;s been blogging for awhile over a Geeks With Blogs and now he&#8217;s movin&#8217; over here.&nbsp; 
 

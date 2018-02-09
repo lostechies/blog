@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089172"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2007/12/30/enterprise-service-bus-using-msmq-in-net.aspx/"
 ---
 Over the past couple of weeks, I have been working on nailing down some design for a service bus to add real-time capability to one of our applications. This has led to spending some time looking at [nServiceBus](http://udidahan.weblogs.us/category/nservicebus) as well as a few other examples. I&#8217;ve also been reading [Enterprise Integration Patterns](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Addison-Wesley/dp/0321200683/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1198998045&sr=8-1) (Hohpe/Woolf) to understand some of the established patterns in the space.
 

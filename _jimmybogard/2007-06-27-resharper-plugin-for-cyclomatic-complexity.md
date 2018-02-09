@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268425645"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/06/27/resharper-plugin-for-cyclomatic-complexity.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/resharper-plugin-for-cyclomatic.html)._
 

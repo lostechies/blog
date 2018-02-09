@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - masstransit
+redirect_from: "/blogs/chris_patterson/archive/2010/05/04/masstransit-update.aspx/"
 ---
 It&#8217;s been a while since I&#8217;ve posted about MassTransit, the .NET distributed application framework and service bus that Dru Sellers, myself, and several other contributors have been working on for the past 2.5 years. This is mostly due to a pretty heavy schedule in the first quarter (CodeMash, the MVP Summit, Pablo&#8217;s Fiesta, the North Dallas .NET User Group, and having an in-ground swimming pool built), along with a lot of exploratory coding on some new features for the framework. 
 

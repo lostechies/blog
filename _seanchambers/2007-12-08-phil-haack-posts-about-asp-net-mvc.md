@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265806002"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/12/08/phil-haack-posts-about-asp-net-mvc.aspx/"
 ---
 <a href="http://haacked.com/Default.aspx" target="_blank">Phil Haack</a> has a <a href="http://haacked.com/archive/2007/12/07/tdd-and-dependency-injection-with-asp.net-mvc.aspx" target="_blank">tutorial type post</a> of usage of the new MS MVC with TDD, DI and the Repository Pattern. In the tutorial he sets up a new project, creates a repository and gets a sample app up and running with StructureMap.
 

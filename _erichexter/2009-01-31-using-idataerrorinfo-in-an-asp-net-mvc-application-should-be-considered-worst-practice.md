@@ -12,6 +12,7 @@ categories:
   - ASP.NET
   - ASP.NET MVC
   - MVC
+redirect_from: "/blogs/hex/archive/2009/01/31/using-idataerrorinfo-in-an-asp-net-mvc-application-should-be-considered-worst-practice.aspx/"
 ---
 I wanted to comment on the use of IDataErrorInfo in the Asp.Net Mvc Release Candidate.&nbsp;&nbsp; Take a look at a sample that <a target="_blank" href="http://codebetter.com/blogs/david.hayden/archive/2009/01/31/asp-net-mvc-and-validation-using-idataerrorinfo-and-validation-application-block.aspx">David Hayden</a> put together to demonstrate&nbsp;how to &nbsp;use this feature.
 

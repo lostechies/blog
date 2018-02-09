@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264756197"
 categories:
   - StructureMap
+redirect_from: "/blogs/jimmy_bogard/archive/2010/01/21/advanced-structuremap-diagnosing-problems.aspx/"
 ---
 So you’ve set up StructureMap, got all your registries in a row, go to run the application, and you’re greeted by a rather unfortunate message:
 

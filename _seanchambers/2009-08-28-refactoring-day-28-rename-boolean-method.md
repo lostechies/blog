@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262149496"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/28/refactoring-day-28-rename-boolean-method.aspx/"
 ---
 Today’s refactoring doesn’t necessarily come from Fowlers refactoring catalog. If anyone knows where this “refactoring” actually comes from, please let me know.
 

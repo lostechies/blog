@@ -11,6 +11,7 @@ categories:
   - Uncategorized
 tags:
   - Testing
+redirect_from: "/blogs/derekgreer/archive/2011/03/07/effective-tests-introduction.aspx/"
 ---
 ## Posts In This Series
 

@@ -12,6 +12,7 @@ categories:
   - How To
   - introduction
   - Silverlight
+redirect_from: "/blogs/gabrielschenker/archive/2010/01/03/fluent-silverlight-fluent-api-and-inheritance.aspx/"
 ---
 </p> 
 

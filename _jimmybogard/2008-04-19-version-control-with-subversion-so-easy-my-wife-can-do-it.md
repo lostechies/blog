@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715644"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/04/19/version-control-with-subversion-so-easy-my-wife-can-do-it.aspx/"
 ---
 Yes folks, it&#8217;s true.&nbsp; I have converted my wife to be a loyal Subversion user.&nbsp; My wife is not technical, not by a long shot.&nbsp; But the power of [Subversion](http://subversion.tigris.org/) and the simplicity of [TortoiseSVN](http://tortoisesvn.tigris.org/) made the convincing very easy.
 

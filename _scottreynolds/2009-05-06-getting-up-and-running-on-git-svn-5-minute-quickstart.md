@@ -8,6 +8,7 @@ wordpress_guid: /blogs/scottcreynolds/archive/2009/05/05/getting-up-and-running-
 categories:
   - git
   - svn
+redirect_from: "/blogs/scottcreynolds/archive/2009/05/05/getting-up-and-running-on-git-svn-5-minute-quickstart.aspx/"
 ---
 [Git](http://git-scm.com/) seems to be all the rage these days, and, while I was quite reluctant at first, I am here to tell you that I definitely see what all the fuss is about.
 

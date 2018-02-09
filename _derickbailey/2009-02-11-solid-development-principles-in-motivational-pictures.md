@@ -11,6 +11,7 @@ dsq_needs_sync:
   - "1"
 categories:
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/02/11/solid-development-principles-in-motivational-pictures.aspx/"
 ---
 I found the <a href="http://bighugelabs.com/flickr/motivator.php" target="_blank">Motivator</a> this morning. It lets you create your own motivational pictures. So, here&rsquo;s my first run at creating the <a href="/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx" target="_blank">SOLID software development principles</a> in motivational picture form. I &lsquo;borrowed&rsquo; the images from google image search results. I hope you find them to be as fun as I do! I have them all hanging up in my team room, already. 🙂
 

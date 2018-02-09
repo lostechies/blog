@@ -9,6 +9,7 @@ dsq_thread_id:
   - "324047335"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/07/03/limitations-of-generic-base-classes.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/07/limitations-of-generic-base-classes.html)._
 

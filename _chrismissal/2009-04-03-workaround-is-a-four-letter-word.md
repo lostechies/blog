@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - development
   - Rant
+redirect_from: "/blogs/chrismissal/archive/2009/04/02/workaround-is-a-four-letter-word.aspx/"
 ---
 [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 0px 0px 0px 15px;border-right-width: 0px" alt="broken_bridge" src="//lostechies.com/chrismissal/files/2011/03/broken_bridge_thumb_5D3AA847.jpg" width="244" align="right" border="0" height="199" />](//lostechies.com/chrismissal/files/2011/03/broken_bridge_0B256A4F.jpg) 
 

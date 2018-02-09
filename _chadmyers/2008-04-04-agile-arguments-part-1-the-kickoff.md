@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - Agile Arguments
+redirect_from: "/blogs/chad_myers/archive/2008/04/03/agile-arguments-part-1-the-kickoff.aspx/"
 ---
 # Kickoff
 

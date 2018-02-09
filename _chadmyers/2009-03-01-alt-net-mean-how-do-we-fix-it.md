@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ALT.NET
   - Mean
+redirect_from: "/blogs/chad_myers/archive/2009/03/01/alt-net-mean-how-do-we-fix-it.aspx/"
 ---
 I’m watching the video that Scott Hanselman graciously recorded of the “[ALT.NET: Why so mean?](http://www.kyte.tv/shanselman#uri=channels/240253/361169)” session at ALT.NET Seattle.
 

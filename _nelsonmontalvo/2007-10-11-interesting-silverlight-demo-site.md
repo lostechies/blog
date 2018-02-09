@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/10/11/interesting-silverlight-demo-site.aspx
 categories:
   - UI
+redirect_from: "/blogs/nelson_montalvo/archive/2007/10/11/interesting-silverlight-demo-site.aspx/"
 ---
 Interesting <a href="http://catalogsample.members.winisp.net/" target="_blank">demo </a>of Silverlight and AJAX for eCommerce.
 

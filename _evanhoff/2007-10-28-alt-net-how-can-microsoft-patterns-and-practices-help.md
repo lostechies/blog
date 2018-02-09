@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/28/alt-net-how-can-microsoft-patterns-and-practices-help.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/28/alt-net-how-can-microsoft-patterns-and-practices-help.aspx/"
 ---
 That question was raised by a member of Microsoft&#8217;s P&P Team earlier.&nbsp; I wanted to reproduce the <a href="http://tech.groups.yahoo.com/group/altnetconf/" target="_blank">correspondence</a> here:
 

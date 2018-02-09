@@ -9,6 +9,7 @@ dsq_thread_id:
   - "277352668"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2007/07/23/can-your-dev-team-handle-agile-iterative-development.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/07/can-your-dev-team-handle-agileiterative.html)._
 

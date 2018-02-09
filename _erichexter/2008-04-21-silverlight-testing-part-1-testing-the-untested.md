@@ -11,6 +11,7 @@ categories:
   - 'C#'
   - Silverlight
   - Testing
+redirect_from: "/blogs/hex/archive/2008/04/20/silverlight-testing-part-1-testing-the-untested.aspx/"
 ---
 <PRE><FONT face="Arial">The Silverlight testing framework was recently released and shows some great potential for being<BR /> a first class application platform. For more information about the test framework see this post from<BR /></FONT><A href="http://www.jeff.wilcox.name/2008/03/07/silverlight-unit-testing/"><FONT face="Arial">Jeff Wilcox</FONT></A><FONT face="Arial">. </FONT></PRE>
 

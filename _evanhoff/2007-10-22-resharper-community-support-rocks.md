@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/22/resharper-community-support-rocks.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/22/resharper-community-support-rocks.aspx/"
 ---
 After posting my <a href="http://evanhoff.com/archive/2007/10/17/56.aspx" target="_blank">TDD screencast</a> last week, I was surprised to receive an email from JetBrains.&nbsp; It seems they watched the screencast too.&nbsp; They had a couple questions for me and gave me a few pointers on keystrokes I could use to save myself time.&nbsp; I&#8217;m going to reproduce the email here, because I think it really shows the level of communityness they exhibit.
 

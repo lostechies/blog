@@ -9,6 +9,7 @@ categories:
   - blogging
   - subtext
   - Web
+redirect_from: "/blogs/joeydotnet/archive/2008/02/10/scribbish-skin-for-subtext.aspx/"
 ---
 This is long overdue, but [Nick Parker](http://developernotes.com/) asked me a long time ago (sorry Nick) where I got the skin I use for my (joeyDotNet.com) blog and I told him I&#8217;d make it available.&nbsp; I actually ported it myself from the existing [Scribbish theme](http://quotedprintable.com/pages/scribbish) that was already available for Mephisto, WordPress and others.&nbsp; I really liked the simplicity of it so I just grabbed the CSS and hacked away at it myself until I got it looking close enough as a [Subtext](http://subtextproject.com/) skin.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265042450"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/09/17/the-case-for-two-way-mapping-in-automapper.aspx/"
 ---
 I’m getting more and more requests around the area of two-way mapping, meaning you’d do something like:
 

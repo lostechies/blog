@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ALT.NET
   - LiveMeeting
+redirect_from: "/blogs/chad_myers/archive/2008/11/21/alt-net-online-open-meeting.aspx/"
 ---
 As you may recall, last week I announced the [ALT.NET Online Open Meeting](http://www.lostechies.com/blogs/chad_myers/archive/2008/11/17/announcing-alt-net-online-open-meeting.aspx).&#160; We met last Wednesday night and had a pretty good chat about all sorts of topics.&#160; I think at one point we had 45 people attending!
 

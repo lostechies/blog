@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262054518"
 categories:
   - LosTechies
+redirect_from: "/blogs/joe_ocampo/archive/2008/10/07/lostechies-welcomes-derick-bailey.aspx/"
 ---
 We would like to welcome [Derick Bailey](http://www.lostechies.com/blogs/derick_bailey/) to the LosTechies blogging community! 
 

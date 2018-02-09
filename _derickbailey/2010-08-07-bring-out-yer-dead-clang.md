@@ -14,6 +14,7 @@ categories:
   - IronRuby
   - Open Source
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2010/08/06/bring-out-yer-dead-clang.aspx/"
 ---
 Today, the twitterverse that I follow reminded me of the Monty Python “Bring out yer dead!” skit at the beginning of the quest for the holy grail. If you don’t know what I’m referring to, watch this: 
 

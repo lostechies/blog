@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716145"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2009/05/13/essential-tools-for-web-developers.aspx/"
 ---
 [Firefox](http://www.mozilla.com/en-US/firefox/personal.html)
 

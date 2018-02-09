@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263908853"
 categories:
   - NHibernate
+redirect_from: "/blogs/gabrielschenker/archive/2009/04/17/nhibernate-2nd-level-cache-and-multiple-databases.aspx/"
 ---
 Today we had an issue with our system. The application was showing unexpected behavior when different people where working with different databases. The application is a **Silverlight** based application. What we found out was that although the application was using different **NHibernate** session factories all of these factories used the same _2nd level cache_. That was a total surprise to us since the documentation of **NHibernate** clearly states that the _2nd level cache_ is tied to a _session factory_.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - RSpec
   - Ruby
+redirect_from: "/blogs/joe_ocampo/archive/2008/02/27/using-context-as-an-example-group-in-rspec.aspx/"
 ---
 If you try to do the following in rSpec you will receive a (nil:NilClass) error on the inner context in the &#8216;before&#8217; statement when it tries to use @user.
 

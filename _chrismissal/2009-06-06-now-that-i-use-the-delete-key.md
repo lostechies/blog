@@ -11,6 +11,7 @@ categories:
   - Best Practices
   - development
   - legacy code
+redirect_from: "/blogs/chrismissal/archive/2009/06/06/now-that-i-use-the-delete-key.aspx/"
 ---
 <div class="wlWriterEditableSmartContent" style="padding-right: 0px;padding-left: 0px;float: right;padding-bottom: 0px;margin: 0px;padding-top: 0px">
   <a href="//lostechies.com/chrismissal/files/2011/03/deleteKey8x6_6E6078EA.jpg" rel="thumbnail"><img src="//lostechies.com/chrismissal/files/2011/03/deleteKey_726D576D.png" width="335" border="0" height="229" /></a>

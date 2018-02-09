@@ -9,6 +9,7 @@ dsq_thread_id:
   - "340267563"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2007/12/03/visual-studio-2008-installfest-in-tulsa.aspx/"
 ---
 Tonight was the Tulsa installment of the [Visual Studio 2008](http://msdn2.microsoft.com/en-us/vstudio/default.aspx) [InstallFest](http://blogs.msdn.com/chkoenig/archive/2007/11/27/visual-studio-2008-installfest-update.aspx) that is sweeping the cities this month. In a move to get people excited about VS2008, Microsoft handed out 150 trial copies of VS2008 to those that registered. As an encouragement to those that installed VS two-double-oght-eight on site, participants who demonstrated the post-install goodness were given a t-shirt to commemorate the event. 
 

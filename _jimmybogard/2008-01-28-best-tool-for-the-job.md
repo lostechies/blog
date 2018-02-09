@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/28/best-tool-for-the-job.aspx/"
 ---
 I&#8217;m not sure if this is a trap, but I find myself doing this more and more.&nbsp; Let&#8217;s say you have a short (less than 2 weeks) project to work on, and maybe it&#8217;s for a church website or something similar.&nbsp; Non-business critical, but the customer wants it to look nice, wants it simple, and doesn&#8217;t want to pay much (or anything) for it.
 

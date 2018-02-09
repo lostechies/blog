@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DSL
   - Kaizenconf
+redirect_from: "/blogs/chad_myers/archive/2008/11/15/internal-dsl-workshop-videos-posted.aspx/"
 ---
 On October 31, 2008 I gave a workshop on building Internal DSLs in C# for [KaizenConf](http://www.kaizenconf.com/).&#160; Fellow Los Techian [John Teague](http://www.viddler.com/explore/Wbinford/videos/2/) was kind enough to record them and fellow Austinite Weston Binford rendered them and posted them up on Viddler. Thanks!
 

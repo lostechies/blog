@@ -11,6 +11,7 @@ categories:
   - Lean Systems
   - Management
   - Philosophy of Software
+redirect_from: "/blogs/derickbailey/archive/2009/02/20/one-team-one-aim-it-s-all-about-the-journey-not-the-goal.aspx/"
 ---
 I heard the phrase “one team, one aim” while listening to the audio book version of “<a href="http://www.audible.com/adbl/site/products/ProductDetail.jsp?productID=BK_GDAN_000153&BV_UseBVCookie=Yes" target="_blank">Extreme Toyota</a>”. This is a phrase that marks part of the core philosophies of Toyota, according to the book. There are many different philosophies that underlie this specific phrase and I’m sure there is a very large amount of text that can be written about it. Rather than jumping off of that deep end without a greater understanding than I currently have, though, I wanted to point out one very specific word in this phrase: “aim”. 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089643"
 categories:
   - Humor
+redirect_from: "/blogs/joe_ocampo/archive/2008/02/03/consultant-frustration-coefficient.aspx/"
 ---
 Talking to <a href="http://www.lostechies.com/blogs/joeydotnet/default.aspx" target="_blank">Joey B</a> this evening about creating a tool that would measure how frustrated you may become with wanting to mentor a team on Agile development practices. I am calling this the Consultant Frustration Coefficient. 
 

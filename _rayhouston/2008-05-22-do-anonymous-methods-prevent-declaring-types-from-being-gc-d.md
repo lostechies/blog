@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/05/21/do-anonymous-methods-prevent-declaring-types-from-being-gc-d.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/05/21/do-anonymous-methods-prevent-declaring-types-from-being-gc-d.aspx/"
 ---
 It seems that they do if they reference members of the declaring type. This makes perfect sense now that I think about it, but I didn&#8217;t think about it earlier and wrote some code that caused a memory leak. I had an object acting as a singleton and referencing a delegate instance that was created from an object acting as a non singleton. Bam! Memory Leak.
 

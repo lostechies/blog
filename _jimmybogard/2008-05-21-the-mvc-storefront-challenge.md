@@ -11,6 +11,7 @@ categories:
   - ASPNETMVC
   - DomainDrivenDesign
   - LINQ2SQL
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/20/the-mvc-storefront-challenge.aspx/"
 ---
 In [Rob Conery&#8217;s](http://blog.wekeroad.com/) [recent post](http://blog.wekeroad.com/mvc-storefront/mvc-store-intermission2-over/) on the MVC Storefront example he&#8217;s been working on, he got some comment to basically toss out Linq2SQL and use NHibernate instead.
 

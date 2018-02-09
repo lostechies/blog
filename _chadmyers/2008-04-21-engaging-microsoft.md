@@ -11,6 +11,7 @@ categories:
   - .NET
   - ALTdotNET
   - Programming
+redirect_from: "/blogs/chad_myers/archive/2008/04/21/engaging-microsoft.aspx/"
 ---
 Many Microsoft employees were at the ALT.NET conf in Seattle &#8212; including many of the ones that have been criticized publicly by the greater ALT.NET community. Not only was Microsoft there, but they were a sponsor and a few employees were even on the organizers list.
 

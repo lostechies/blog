@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716425"
 categories:
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2010/01/28/evolutionary-architecture.aspx/"
 ---
 A popular cause the Agile folks like to rally against is the idea of a Big Design Up Front (BDUF).&#160; But much like Waterfall, the people doing BDUF will hardly admit that it’s BDUF that they’re doing.&#160; Instead, you’re much more likely to get a bevy of really convincing cautionary tales of what might happen if you _don’t_ do a certain design.&#160; With enough experience under their belt, the architect slips into a “Just-In-Case” design mode, where the myriad of pain points encountered in the past leave a design that’s hardened against every possible difficulty that might come up.
 

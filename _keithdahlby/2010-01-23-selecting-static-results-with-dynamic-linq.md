@@ -12,6 +12,7 @@ categories:
   - Expression Trees
   - LINQ
   - Stack Overflow
+redirect_from: "/blogs/dahlbyk/archive/2010/01/23/selecting-static-results-with-dynamic-linq.aspx/"
 ---
 Dynamic LINQ (DLINQ) is a LINQ extension provided in the [VS 2008 Samples](http://msdn.microsoft.com/en-us/bb330936.aspx "Visual Studio 2008 Samples"). Scott Guthrie provides a good overview here: [Dynamic LINQ (Part 1: Using the LINQ Dynamic Query Library)](http://weblogs.asp.net/scottgu/archive/2008/01/07/dynamic-linq-part-1-using-the-linq-dynamic-query-library.aspx), but the executive summary is that it implements certain query operations on `IQueryable`
   

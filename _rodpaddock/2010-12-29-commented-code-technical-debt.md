@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263003377"
 categories:
   - Uncategorized
+redirect_from: "/blogs/rodpaddock/archive/2010/12/29/commented-code-technical-debt.aspx/"
 ---
 Over the last month I have spent countless hours modifying code in our
   

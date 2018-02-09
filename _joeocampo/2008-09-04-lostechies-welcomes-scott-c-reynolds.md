@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089871"
 categories:
   - LosTechies
+redirect_from: "/blogs/joe_ocampo/archive/2008/09/03/lostechies-welcomes-scott-c-reynolds.aspx/"
 ---
 Captivated by his dashing good looks and over all sex appeal, LosTechies is pleased to welcome <a href="http://www.lostechies.com/blogs/scottcreynolds/default.aspx" target="_blank">Scott C Reynolds</a> to our happy family. 
 

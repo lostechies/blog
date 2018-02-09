@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266090223"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2010/05/13/teaching-asp-net-mvc-boot-camp-on-may-26th.aspx/"
 ---
 A lot of what I try to do on this blog, user group presentations, and other community events is to try and share the knowledge and experience that I and my teammates have built up over the years.&#160; I’ve hosted talks on “How we do MVC” and things of that nature, blogged about our setup and so on.
 

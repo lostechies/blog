@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265233431"
 categories:
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2009/05/19/beyond-top-down-design.aspx/"
 ---
 Here at Los Techies, we talk a lot about SOLID principles and design.&#160; Two of the principles that have always resonated with me are the Single Responsibility Principle and the Dependency Inversion Principle.&#160; With the two together, the need for some kind of inversion of control almost becomes required.&#160; When I first started using the DIP, I didn’t really feel the pain of locating dependencies, I always provided some no-argument constructor or the various construction patterns to get my dependencies in play.
 

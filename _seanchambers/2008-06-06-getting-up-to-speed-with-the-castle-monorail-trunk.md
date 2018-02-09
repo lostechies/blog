@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262830160"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/06/06/getting-up-to-speed-with-the-castle-monorail-trunk.aspx/"
 ---
 Over the last couple of months there have been a slew of great refactorings done on the castle monorail trunk. Some of these refactorings were inspired by ASP.Net MVC changes such as the new routing module. I have just now started to play with monorail trunk so I am by no means an expert on the changes that were done there. If you are interested in getting up to speed as well. The best thing to do is get a fresh copy of the monorail trunk and start looking through the source code specifically on Controller, EngineContext, ControllerContext and IController. After looking at the changes for only an hour or so and updating a project up to the monorail trunk, I can already get a good idea of where things logically should belong now.
 

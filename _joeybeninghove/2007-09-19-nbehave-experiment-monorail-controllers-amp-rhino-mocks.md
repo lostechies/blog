@@ -12,6 +12,7 @@ categories:
   - Patterns
   - TDD
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/09/19/nbehave-experiment-monorail-controllers-amp-rhino-mocks.aspx/"
 ---
 > _&#8230;whoever keeps His word, truly the love of God is perfected in him. By this we know that we are in Him. &#8212; [1 John 2:5](http://www.blueletterbible.org/cgi-bin/tools/printer-friendly.pl?book=1Jo&chapter=002&version=nkjv#5)_
 

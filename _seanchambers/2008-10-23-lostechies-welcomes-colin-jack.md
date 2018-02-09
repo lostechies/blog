@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123847"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/10/23/lostechies-welcomes-colin-jack.aspx/"
 ---
 Today the LosTechies family welcomes Colin Jack to the site.
 

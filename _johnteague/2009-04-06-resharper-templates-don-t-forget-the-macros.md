@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055623"
 categories:
   - Resharper
+redirect_from: "/blogs/johnteague/archive/2009/04/06/resharper-templates-don-t-forget-the-macros.aspx/"
 ---
 I use Resharper templates (among other features) on a daily basis.&#160; Most of them create very small pieces of code that I use VERY frequently.&#160; For instance, I have a set of templates that help me build out my test classes and cases very quickly.&#160; One of the very cool features you can add to your templates is to use Macros that let&#8217;s R# do more work for you.
 

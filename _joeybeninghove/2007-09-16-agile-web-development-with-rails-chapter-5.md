@@ -10,6 +10,7 @@ categories:
   - Rails
   - Reviews
   - Ruby
+redirect_from: "/blogs/joeydotnet/archive/2007/09/16/agile-web-development-with-rails-chapter-5.aspx/"
 ---
 What!&nbsp; You tease me with code in Chapter 4 and now there is none in this chapter?!?&nbsp; Oh wait, I guess we should at least figure out _what_ we want to build moving forward.&nbsp; 🙂
 

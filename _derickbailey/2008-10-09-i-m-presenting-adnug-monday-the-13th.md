@@ -12,6 +12,7 @@ categories:
   - Analysis and Design
   - Community
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2008/10/09/i-m-presenting-adnug-monday-the-13th.aspx/"
 ---
 FYI &#8211; I&#8217;ll be giving my <a href="http://www.derickbailey.com/2008/09/03/ObjectOrientedDevelopmentViaTheSOLIDSoftwareDevelopmentPrinciples.aspx" target="_blank">S.O.L.I.D. Software Principles</a> presentation at the <a href="http://www.adnug.org/" target="_blank">Austin .NET User Group</a> on Monday the 13th. This is the same presentation that I gave at Pablo&#8217;s Day(s) of TDD last weekend, except I&#8217;ll have the missing code in place and the slide errors fixed. 🙂 
 

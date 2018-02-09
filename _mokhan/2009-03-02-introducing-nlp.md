@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2009/03/02/introducing-nlp.aspx
 categories:
   - Books
+redirect_from: "/blogs/mokhan/archive/2009/03/02/introducing-nlp.aspx/"
 ---
 I recently finished reading&#8230;
 

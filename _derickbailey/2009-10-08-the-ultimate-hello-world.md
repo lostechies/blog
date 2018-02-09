@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Craftsmanship
   - Quality
+redirect_from: "/blogs/derickbailey/archive/2009/10/08/the-ultimate-hello-world.aspx/"
 ---
 So… my blog may be going dark for a while… I don’t think I’m going to have a lot of free time for at least a few weeks, due to the ultimate ‘Hello World’ baby girl that my wife delivered on Wednesday morning @ 1:45am.
 

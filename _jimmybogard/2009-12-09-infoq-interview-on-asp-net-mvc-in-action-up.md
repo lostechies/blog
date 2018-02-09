@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267047256"
 categories:
   - ASP.NET MVC in Action
+redirect_from: "/blogs/jimmy_bogard/archive/2009/12/09/infoq-interview-on-asp-net-mvc-in-action-up.aspx/"
 ---
 Last week, Jeffrey, Ben and I were interviewed by Jon Arild Tørresdal at InfoQ to talk about our recent book [ASP.NET MVC in Action](http://manning.com/palermo/).&#160; I’ve always loved the InfoQ interviews (as well as their articles), as they asked us really great questions.&#160; Not the normal “do you like ASP.NET MVC or do you <u>like like</u> ASP.NET MVC”?&#160; You can check out the [interview here](http://www.infoq.com/articles/aspnet-mvc-in-action).
 

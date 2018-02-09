@@ -12,6 +12,7 @@ categories:
   - Design Principles
   - SOLID
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2009/05/28/anti-patterns-and-worst-practices-monster-objects.aspx/"
 ---
 [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin-left: 0px;margin-right: 0px;border-right-width: 0px" alt="monster" src="//lostechies.com/chrismissal/files/2011/03/monster_thumb_571B6822.jpg" width="240" align="right" border="0" height="214" />](//lostechies.com/chrismissal/files/2011/03/monster_275DBFA3.jpg) Monster objects (or <a href="http://en.wikipedia.org/wiki/God_object" target="_blank">God objects</a>) know too much, or do too much; monster objects are nasty beasts. The term God object was coined because these objects are said to be &ldquo;all-knowing&rdquo;. I&rsquo;m in favor of the term Monster objects because knowing something isn&rsquo;t a bad thing. These objects are usually bad things and Monsters are both big and bad, I find that more fitting. There are several problems with this anti-pattern. The two problems I most often see are testability problems and violating the Law(<a href="http://www.martinfowler.com/articles/mocksArentStubs.html#DesignStyle" target="_blank">Suggestion</a>) of Demeter.
 

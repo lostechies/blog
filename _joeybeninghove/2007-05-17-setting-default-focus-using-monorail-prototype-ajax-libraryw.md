@@ -10,6 +10,7 @@ categories:
   - MonoRail
   - usability
   - Web
+redirect_from: "/blogs/joeydotnet/archive/2007/05/17/setting-default-focus-using-monorail-prototype-ajax-libraryw.aspx/"
 ---
 It&#8217;s the little things that make web applications a bit more user friendly.&nbsp; One of these very basic things is simply making sure that some element, ideally the most important one (i.e. search box, first data entry element, etc.), is set to have default focus when the page loads.&nbsp; Think about those precious seconds that would be lost if, when you browsed to Google.com, you had to set focus to the search box yourself.&nbsp; Ugh!&nbsp; 🙂&nbsp; (Some if this may be the keyboard-addict coming out in me&#8230;)
 

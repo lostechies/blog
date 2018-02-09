@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113563"
 categories:
   - .NET
+redirect_from: "/blogs/chad_myers/archive/2008/01/06/a-challenge-to-microsoft-scott-guthrie.aspx/"
 ---
 After reading [Ayende&#8217;s latest post](http://ayende.com/Blog/archive/2008/01/06/ASP.Net-Ajax-Error-Handling-and-WTF.aspx), and having run into few myself just this weekend (see System.Data.SqlClient.MetaType), I&#8217;d like to challenge Microsoft&#8217;s .NET efforts, and particularly Scott Guthrie&#8217;s group (since I have the most hope of them actually accomplishing this), to release a library/framework/module (something like ASP.NET AJAX, ASP.NET MVC Extensions, etc &#8212; on that scope) with the following statistics:
 

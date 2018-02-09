@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265518053"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2007/12/18/dead-google-calendar-gadget.aspx/"
 ---
 This morning I received an interesting yet disturbing message on the [Google Calendar gadget](http://www.r2unit.com/gmodule/) on my iGoogle home page:
 

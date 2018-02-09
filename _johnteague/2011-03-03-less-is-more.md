@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055790"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2011/03/03/less-is-more.aspx/"
 ---
 I started a new project this year and part of my responsibilities is gathering requirements and converting them to user stories and acceptance criteria. &nbsp;It&#8217;s been a very interesting experience for me and put me a little out of my comfort zone. &nbsp;I&#8217;ve been sheltered most of my career, with someone else there to drive out these requirements. &nbsp;It&#8217;s actually taught or reinforced a lot of things that I think are very important.
 

@@ -11,6 +11,7 @@ categories:
   - data binding
   - fluent Silverlight
   - MVVM pattern
+redirect_from: "/blogs/gabrielschenker/archive/2009/06/02/fluent-silverlight-part-2-binding-properties.aspx/"
 ---
 ## Introduction
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113150"
 categories:
   - teamcity
+redirect_from: "/blogs/joshuaflanagan/archive/2009/01/06/raising-awareness-for-teamcity-tray-notifier-issue.aspx/"
 ---
 **<font color="#ff0000">UPDATE:</font>** JetBrains has released a solution to this issue, [I posted a follow up](http://www.lostechies.com/blogs/joshuaflanagan/archive/2009/01/15/solution-for-monitoring-multiple-teamcity-servers.aspx).
 

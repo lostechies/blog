@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Rake
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2009/09/18/help-e-text-editor-can-t-run-my-rake-tasks.aspx/"
 ---
 I downloaded the E-Text Editor to work with my ruby / rake stuff, because it’s a great editor and because it supports all of the TextMate bundles. The idea is that I should be able to run all of my Rake tasks and RSpec tests directly from E. However, I can’t seem to run my rake tasks.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265531522"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2007/06/19/the-problem-with-code-comments.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/problem-with-code-comments.html)._
 

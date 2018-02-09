@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - GenericFun
+redirect_from: "/blogs/chad_myers/archive/2009/05/05/i-need-some-peer-review-on-this.aspx/"
 ---
 So I have a problem where I have an open type:
 

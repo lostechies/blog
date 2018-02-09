@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716130"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/05/05/automapper-feature-custom-type-converters.aspx/"
 ---
 This one came up on the mailing list, so I thought I might as well blog about it (and fill in the [documentation](http://automapper.codeplex.com/Wiki/View.aspx?title=Custom%20Type%20Converters)).
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266979168"
 categories:
   - 'Behave#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/08/27/authoring-stories-with-bdd-using-behave-and-nspec.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/authoring-stories-with-bdd-using-behave.html)._
 

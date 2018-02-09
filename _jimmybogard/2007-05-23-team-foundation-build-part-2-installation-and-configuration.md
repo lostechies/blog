@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - TeamBuild
   - VSTS
+redirect_from: "/blogs/jimmy_bogard/archive/2007/05/23/team-foundation-build-part-2-installation-and-configuration.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/05/img-border-0-so-now-that-we-have-some.html)._
 

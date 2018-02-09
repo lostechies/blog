@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Design
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/08/16/design-and-testability.aspx/"
 ---
 There was a rather healthy public discussion and debate going on via Twitter today between Roy Osherove, Ayende Rahien, Colin Jack, me, and several others. Michael Feathers even dropped in at one point which was cool.&#160; This all started when Roy twittered an interesting [link to a post](http://theruntime.com/blogs/jacob/archive/2008/08/15/testability-in-.net.aspx) by Jacob Proffitt.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Agile Project Coaching &amp; Management'
   - Scrum
+redirect_from: "/blogs/joe_ocampo/archive/2008/06/07/my-issues-with-the-term-quot-scrum-master-quot.aspx/"
 ---
 A few years ago I was very excited at the possibility of becoming a Scrum master.&nbsp; At the time I had been an avid XP practitioner for a little over two years.&nbsp; I had read several books on the Scrum but viewed it as simply Yet Another Agile Methodology (YAAM) with a focus more on the project management.&nbsp; I thought to myself that I must have been missing something.&nbsp; How can something as simple as this methodology be taking off like wild fire in the corporate arena?&nbsp; I figured that a Scrum Master class would shed light on this dilemma of mine.
 

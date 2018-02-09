@@ -13,6 +13,7 @@ categories:
   - Solution Factory
   - Tools
   - VS2010
+redirect_from: "/blogs/hex/archive/2010/10/07/using-solution-factory-nupack-to-create-opinionated-visual-studio-solutions.aspx/"
 ---
 Using Solution Factory inside of NuPack opens up a great new world of creating Solution Level templates. Previously, I wrote a lot of code in Solution Factory that just kept running into edge cases working against the Visual Studio automation API ,DTE. Most of what I wanted to achieve was setting some defaults and installing dependencies.&#160; This is where using solution factory with Nupack really shines.
 

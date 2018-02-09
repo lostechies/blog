@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Community
   - Management
+redirect_from: "/blogs/derickbailey/archive/2008/12/19/my-soap-box-no-really.aspx/"
 ---
 My coworkers really do love me. This was their Christmas present for me, complete with shiny bow. 
 

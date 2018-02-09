@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262126452"
 categories:
   - development
+redirect_from: "/blogs/sean_chambers/archive/2009/10/20/31-days-of-refactoring-ebook.aspx/"
 ---
 Back in August I did the [31 Days of Refactoring](/blogs/sean_chambers/archive/2009/07/31/31-days-of-refactoring.aspx) blog series. Fellow LosTechies as well as other community members urged me to convert the series into an eBook. I had intended to (really!), but [Simone Chiaretta](http://codeclimber.net.nz/) beat me to it and took it upon himself to create the series into an eBook perfectly formatted and threw in some nice styling.
 

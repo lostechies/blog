@@ -12,6 +12,7 @@ categories:
   - introduction
   - NHibernate
   - review
+redirect_from: "/blogs/gabrielschenker/archive/2010/10/06/new-book-on-nhibernate.aspx/"
 ---
 Yesterday a new excellent book about **NHibernate** has been published by [www.packtpub.com](http://www.packtpub.com). (Disclosure: I have been a reviewer thus consider that when reading this post)
 

@@ -12,6 +12,7 @@ categories:
   - Certification
   - Education
   - Philosophy of Software
+redirect_from: "/blogs/derickbailey/archive/2009/09/11/some-initial-thoughts-on-agile-developer-skills-and-certification.aspx/"
 ---
 There’s a new mailing list over on Google Groups surrounding the ideas behind [Agile Developer Skills Certification](http://groups.google.com/group/agile-developer-skills). After reading [this post by Ron Jeffries](http://xprogramming.com/blog/tech/developer-certification/), I joined up with the group and started reading the traffic. I generally share the same opinions as many of the people on this list about multiple choice, memorization based &#8216;tests&#8217; &#8211; the Microsoft Certifies XYZ type test where the only thing you need is a good memory and no real skill. This type of test is lousy and we should avoid it at all costs.
 

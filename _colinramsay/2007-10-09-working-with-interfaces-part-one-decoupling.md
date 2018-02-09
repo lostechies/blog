@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2007/10/09/working-with-interfaces-part-one-decoupling.aspx
 categories:
   - 'c# practices interfaces'
+redirect_from: "/blogs/colin_ramsay/archive/2007/10/09/working-with-interfaces-part-one-decoupling.aspx/"
 ---
 In the first part of this mini-series I talked about the basic use of interfaces, which is to provide a contract for your developers to work to. In this part, I&#8217;m going to try and demonstrate how interfaces can be used to make your application more flexible. This is probably the most common type of tutorial on interfaces you&#8217;ll see around the web, so forgive me for adding another.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089166"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/06/27/dependency-patterns.aspx/"
 ---
 <a href="http://codebetter.com/blogs/scott.bellware/default.aspx" target="_blank">Scott Bellware</a> has an excellent post on <a href="http://codebetter.com/blogs/scott.bellware/archive/2007/06/26/164729.aspx" target="_blank">dependency injection patterns</a>.&nbsp; By far this has been a concept that I struggle with in explaining to other developers.
 

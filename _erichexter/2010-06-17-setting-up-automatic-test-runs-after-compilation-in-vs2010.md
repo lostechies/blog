@@ -11,6 +11,7 @@ categories:
   - .NET
   - Agile
   - VS2010
+redirect_from: "/blogs/hex/archive/2010/06/17/setting-up-automatic-test-runs-after-compilation-in-vs2010.aspx/"
 ---
 I lifted some scripts from the interwebs so that after every compilation in visual studio unit tests are automatically run.&#160; I have been a long supporter of the TestDriven.Net addin and Resharper but I found auto running unit tests to be pretty freeing.&#160; Here&#8217;s the code.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263003364"
 categories:
   - Uncategorized
+redirect_from: "/blogs/rodpaddock/archive/2010/04/15/film-making-a-better-software-development-metaphor.aspx/"
 ---
 The craft of software development is in dire need of a new metaphor. In this authors opinion the common &ldquo;Manufacturing&rdquo; metaphor we bandy about is tired and has bigger holes in it than a&nbsp; <a target="_blank" href="http://www.roundrockdonuts.com/">Round Rock Donut</a>
 

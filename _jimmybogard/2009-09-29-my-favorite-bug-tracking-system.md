@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716307"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2009/09/29/my-favorite-bug-tracking-system.aspx/"
 ---
 I’m of the opinion that a process must demonstrate the need for software, before software is put in place to manage that process.&#160; Bug tracking is a process, but often we jump straight to a software solution for managing/tracking bugs before considering lower-tech, lower-risk and lower-overhead approaches.&#160; In our bug-tracking process, we employ a few main principles:
 

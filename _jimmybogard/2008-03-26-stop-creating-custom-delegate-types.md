@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715631"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/26/stop-creating-custom-delegate-types.aspx/"
 ---
 Note to OSS and framework developers:
 

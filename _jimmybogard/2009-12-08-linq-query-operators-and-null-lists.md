@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716406"
 categories:
   - LINQ
+redirect_from: "/blogs/jimmy_bogard/archive/2009/12/08/linq-query-operators-and-null-lists.aspx/"
 ---
 One of my pet peeves with the LINQ extension methods is their inability to handle null source lists.&#160; For example, this will throw an ArgumentNullException:
 

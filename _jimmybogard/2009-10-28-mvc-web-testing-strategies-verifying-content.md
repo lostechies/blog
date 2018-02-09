@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716338"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/10/27/mvc-web-testing-strategies-verifying-content.aspx/"
 ---
 Some of the questions during the C4MVC presentation concerned how I liked to locate data displayed in the rendered HTML for validation purposes.&#160; You have quite a few options for doing so, such as:
 

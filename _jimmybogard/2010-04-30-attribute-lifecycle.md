@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716472"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2010/04/30/attribute-lifecycle.aspx/"
 ---
 For some reason, I had this assumption that the lifecycle of System.Attribute instances was singleton.&#160; Javier Lozano wrote a quick test to prove me wrong after I looked at ways to inject services into attribute instances.&#160; I really should have read the [CLR via C#](http://www.amazon.com/CLR-via-Dev-Pro-Jeffrey-Richter/dp/0735627045/) book a little more closely, as it states (emphasis mine):
 

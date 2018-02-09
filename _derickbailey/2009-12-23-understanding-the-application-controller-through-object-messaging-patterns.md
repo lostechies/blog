@@ -15,6 +15,7 @@ categories:
   - Model-View-Presenter
   - Principles and Patterns
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx/"
 ---
 ### 
 

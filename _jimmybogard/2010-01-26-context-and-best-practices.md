@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716410"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2010/01/26/context-and-best-practices.aspx/"
 ---
 Last night, I had a Skype/SharedView session with a buddy in Arkansas trying to apply DDD and “best practices” to an application he was building.&#160; He wanted to use all the ALT.NET tools he’s heard so much about, such as NHibernate, StructureMap and so on.&#160; The problem came when he went to go look at the sample applications for “Floogle Architecture”, and was basically stopped dead in his tracks.&#160; His question to me was, “do I really have to do all this?&#160; It seems like a little overkill”.&#160; He had looked at several reference applications for every different Floogle Architecture out there, and all confused more than enlightened.
 

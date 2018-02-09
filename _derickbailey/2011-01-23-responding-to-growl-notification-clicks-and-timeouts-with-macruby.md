@@ -13,6 +13,7 @@ categories:
   - OSX
   - Ruby
   - Xcode
+redirect_from: "/blogs/derickbailey/archive/2011/01/23/responding-to-growl-notification-clicks-and-timeouts-with-macruby.aspx/"
 ---
 In my last post, I detailed the process of s[etting up a MacRuby app to send Growl notifications](http://www.lostechies.com/blogs/derickbailey/archive/2011/01/21/creating-growl-notifications-from-a-macruby-app.aspx). To get even more mileage out of Growl, though, it&#8217;s a good idea to response to various interactions with the notifications that you send. For example, you can have your application respond to your notice being clicked, or to the notice timing out and disappearing from the screen.
 

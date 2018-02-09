@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2009/03/13/deploying-net-applications-learning-msbuild-and-clickonce.aspx
 categories:
   - Books
+redirect_from: "/blogs/mokhan/archive/2009/03/13/deploying-net-applications-learning-msbuild-and-clickonce.aspx/"
 ---
 I recently finished reading…
 

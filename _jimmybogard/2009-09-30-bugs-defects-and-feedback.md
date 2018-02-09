@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716317"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2009/09/30/bugs-defects-and-feedback.aspx/"
 ---
 In [my last post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/09/29/my-favorite-bug-tracking-system.aspx), I talked about how we like to track bugs, with just pieces of paper.&#160; At lot of the responses were interesting, but I think some came back to the issue of “what is a bug?”&#160; Some felt that bugs needed to live in a more durable system (as if paper isn’t durable, and previous to around 1985 no one knew how to manage information).&#160; But for us, bugs don’t live more than 1 business day, so there’s no need to keep them around, unless we want to do trend analysis.
 

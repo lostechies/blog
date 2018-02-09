@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASP.NET
   - RSS
+redirect_from: "/blogs/chad_myers/archive/2009/02/06/serving-rss-feeds-made-simple-in-asp-net-3-5.aspx/"
 ---
 This has come up a few times in various forums in the past few weeks, so I’m glad my friend and co-worker, [Kevin Miller](http://blogs.dovetailsoftware.com/blogs/kmiller) did a great blog post on it.
 

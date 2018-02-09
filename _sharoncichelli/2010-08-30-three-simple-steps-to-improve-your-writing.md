@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263371080"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sharoncichelli/archive/2010/08/30/three-simple-steps-to-improve-your-writing.aspx/"
 ---
 Technical books are longer than they ought to be. Most software books could be improved by shedding a tenth of their heft. It&#8217;s a product of market pressures, of course: Tech books need to get to market _fast_, which does not allow for the time-consuming labor of honing and refining a text until it is lean and tight. I have a few simple strategies, though&mdash;simple tips that provide a disproportionately beneficial return on a trivial time investment. You can use the following tips to improve your blog posts, books, and presentations.
 

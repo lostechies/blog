@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716519"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2010/06/10/are-daily-stand-ups-necessary.aspx/"
 ---
 On a recent long project, our team’s commitment to continuous improvement led to some interesting results.&#160; Originally, we started with quite a bit of the Scrum ceremony, such as sprint planning meetings, time-boxed iterations, and daily stand-ups.&#160; However, since we practiced “whole team”, the daily stand-ups included around 25 people or so.&#160; As a means of communicating information, these meetings tended to drag quite a bit.
 

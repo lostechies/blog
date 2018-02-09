@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/using-nhibernate-1-2-with-monorail.aspx
 categories:
   - NHibernate
+redirect_from: "/blogs/nelson_montalvo/archive/2007/03/30/using-nhibernate-1-2-with-monorail.aspx/"
 ---
 The current Castle distribution seems to be linked to an older version of NHibernate. To use Castle with NHibernate 1.2, I had to work from the development trunk and not from the compiled distributions.   
   

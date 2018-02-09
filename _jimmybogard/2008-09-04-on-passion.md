@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715906"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/09/04/on-passion.aspx/"
 ---
 One of my favorite bloggers, [JP Boodhoo](http://www.jpboodhoo.com/Home.oo), has a little saying he puts at the end of every post:
 

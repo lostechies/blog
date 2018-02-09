@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716660"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2011/01/12/defining-unit-tests.aspx/"
 ---
 I don’t know where I got off the tracks on this one, but I’m really liking [Michael Feathers’ definition of a unit test](http://www.artima.com/weblogs/viewpost.jsp?thread=126923):
 

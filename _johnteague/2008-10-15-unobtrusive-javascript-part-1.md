@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055531"
 categories:
   - JavaScript
+redirect_from: "/blogs/johnteague/archive/2008/10/15/unobtrusive-javascript-part-1.aspx/"
 ---
 I&#8217;ve been talking to a lot of people lately about Unobtrusive JavaScript (UJS) and what it means to design your web UI around this paradigm.&nbsp; I&#8217;m surprised in the number of people who are not aware of this concept and how it can improve your UI design and performance.&nbsp; I am going to do a series of posts on this topic: a brief introduction to the concepts and detailed posts on each concept with examples.&nbsp; At the end I am going to introduce a helper library I have been working on to help create content in a UJS style.
 

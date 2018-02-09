@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265611933"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/14/making-the-permanent-move.aspx/"
 ---
 I&#8217;m getting pretty tired of cross-posting, so I&#8217;m making the permanent move over to [Los Techies](http://lostechies.com).&nbsp; After all, if I get a free t-shirt:
 

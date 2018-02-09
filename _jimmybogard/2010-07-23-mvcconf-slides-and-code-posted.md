@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716525"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2010/07/23/mvcconf-slides-and-code-posted.aspx/"
 ---
 Yesterday, I gave a talk at the virtual ASP.NET MVC conference, [mvcConf](http://mvcconf.com/) on “Putting your controllers on a diet.&#160; You can find the slides and code at the Headspring Labs CodePlex site:
 

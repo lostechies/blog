@@ -11,6 +11,7 @@ dsq_needs_sync:
   - "1"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/20/entities-value-objects-aggregates-and-roots.aspx/"
 ---
 Taking a small detour before I deliver the first installment in the [Domain-Driven Design: Supple Design Patterns](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/05/15/domain-driven-design-supple-design-patterns-series.aspx) series, I&#8217;d like to cover the basic elements of Domain-Driven Design modeling:
 

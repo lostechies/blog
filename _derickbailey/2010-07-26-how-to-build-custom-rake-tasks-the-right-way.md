@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Albacore
   - Rake
+redirect_from: "/blogs/derickbailey/archive/2010/07/26/how-to-build-custom-rake-tasks-the-right-way.aspx/"
 ---
 A long time ago (last year) I wrote a few blog posts that talked about how I was going about creating some custom rake tasks. This turned out to be the beginning of my albacore project and I’ve been working on that project for nearly a year now. It’s been a lot of fun and I’ve learned a lot in the process of creating and maintaining it. One of the things I learned recently is that the way I am currently handling task creation – the way that I talked about in those posts – is not the best way to do it. There is, in fact, a much easier way to create a custom rake task: the _Rake::Task.define_task_ method.
 

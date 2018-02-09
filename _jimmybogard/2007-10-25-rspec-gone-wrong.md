@@ -9,6 +9,7 @@ dsq_thread_id:
   - "351276187"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/25/rspec-gone-wrong.aspx/"
 ---
 I&#8217;ve seen some weird things in code comments, but with [RSpec](http://rspec.rubyforge.org/), you can take programming humor to a different level.&nbsp; Don&#8217;t let your customers see these, though.&nbsp; Here are a few RSpec specifications gone completely wrong:
 

@@ -11,6 +11,7 @@ categories:
   - .NET
   - Bootstrap
   - Command Line
+redirect_from: "/blogs/derickbailey/archive/2011/01/25/bootstrapping-the-net-framework-without-an-msi-installer.aspx/"
 ---
 I recently needed to test the idea of whether or not I could bootstrap .NET v4.0 onto a WinXP machine, from a USB thumb drive, without an application installer for the target app. The goal was to insert a thumb drive, run the app directly from the root of the thumb drive and have .NET 4 installed onto the system if it wasn&#8217;t already there, prior to the application starting up.
 

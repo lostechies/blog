@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715817"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/26/when-a-space-isn-t-a-space.aspx/"
 ---
 I ran into a scenario recently where this test failed:
 

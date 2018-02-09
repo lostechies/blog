@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267430822"
 categories:
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2010/09/30/concepts-and-features-an-example.aspx/"
 ---
 One of my favorite posts by Ayende covers the idea of [concepts and features](http://ayende.com/Blog/archive/2009/03/06/application-structure-concepts-amp-features.aspx).&#160; Design occurs at the concept level, whereas features build on top of concepts.&#160; This can be a little abstract, but I recently ran into a situation where the presence of a concept in one area allowed for feature development, while the absence of a concept in another area made change difficult.
 

@@ -10,6 +10,7 @@ categories:
   - fluent Silverlight
   - INotifyPropertyChanged
   - MVVM
+redirect_from: "/blogs/rhouston/archive/2009/06/02/fluent-silverlight-auto-wiring-inotifypropertychanged.aspx/"
 ---
 In [Gabriel&#8217;s introductory post for Fluent Silverlight](/blogs/gabrielschenker/archive/2009/06/02/fluent-silverlight-part-2-binding-properties.aspx), he showed that the code typically associated with implementing INotifyPropertyChanged can be reduced to a simple auto property. This can really improve the clarity of a large class as well as save some typing. I&#8217;m going to show you how to get it setup.
 

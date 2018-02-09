@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joeydotnet/archive/2007/06/22/yet-another-reason-to-pract
 categories:
   - Productivity
   - TDD
+redirect_from: "/blogs/joeydotnet/archive/2007/06/22/yet-another-reason-to-practice-tdd.aspx/"
 ---
 Things have been a little slow on the blog lately because this week is the start of a new job/company for me.&nbsp; I&#8217;m still getting a feel for things and of course one of the first things I&#8217;m trying to get folks interested in is TDD.&nbsp; I have a usual list of advantages and points that I use for getting across to folks the benefits of practicing TDD.&nbsp; Most of which center around the fact that TDD is primarily a design tool, and the fact that you get a nice set of automated regression tests is just a nice side effect.&nbsp; **TDD is not about testing!**
 

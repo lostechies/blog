@@ -17,6 +17,7 @@ categories:
   - mvccontrib
   - Open Source Software
   - OSS
+redirect_from: "/blogs/hex/archive/2009/06/30/opinionated-input-builders-part-9-override-the-default-date-time-picker.aspx/"
 ---
 &#160;
 

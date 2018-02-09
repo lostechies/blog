@@ -11,6 +11,7 @@ categories:
   - .NET
   - masstransit
   - msmq
+redirect_from: "/blogs/chris_patterson/archive/2009/05/27/masstransit-now-speaks-xml-by-default.aspx/"
 ---
 **Last night, I made a major update to the trunk of MassTransit that changes the default message format from binary to XML.** 
 

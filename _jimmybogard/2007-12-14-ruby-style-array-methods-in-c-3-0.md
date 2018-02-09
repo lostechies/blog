@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715462"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/12/14/ruby-style-array-methods-in-c-3-0.aspx/"
 ---
 A while back I played with [Ruby-style loops in C# 3.0](http://grabbagoft.blogspot.com/2007/10/ruby-style-loops-in-c-30.html).&nbsp; This sparked my jealousy of other fun Ruby constructs that I couldn&#8217;t find in C#, and a couple of them&nbsp;are the &#8220;each&#8221; and &#8220;each\_with\_index&#8221; methods for arrays.&nbsp; Here&#8217;s an example, from [thinkvitamin.com](http://www.thinkvitamin.com/):
 

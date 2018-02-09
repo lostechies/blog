@@ -9,6 +9,7 @@ dsq_thread_id:
   - "272260917"
 categories:
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/05/27/introducing-quality-first-notions-into-an-existing-team.aspx/"
 ---
 In a [recent discussion](http://tech.groups.yahoo.com/group/altdotnet/message/8734) on the [altdotnet mailing list](http://tech.groups.yahoo.com/group/altdotnet/), a question was raised: How to you start introducing TDD into an existing team?&nbsp; Bill Barry had some [good thoughts on how the process might work](http://tech.groups.yahoo.com/group/altdotnet/message/8735), I suggest you check out his post. 
 

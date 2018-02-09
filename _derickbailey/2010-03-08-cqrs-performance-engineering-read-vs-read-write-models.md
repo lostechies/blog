@@ -12,6 +12,7 @@ categories:
   - CQRS
   - Pragmatism
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/03/08/cqrs-performance-engineering-read-vs-read-write-models.aspx/"
 ---
 I&rsquo;ve used a lot of different architectures, patterns and implementations that revolve around the core concept of [command-query separation](http://en.wikipedia.org/wiki/Command-query_separation) (CQS) and the more recent label of [command-query responsibility separation](http://www.udidahan.com/2009/12/09/clarified-cqrs/) (CQRS). The ideas behind these principles help us create code that targeted to a single purpose, generally side-effect free and easier to work with and maintain. In the last few days, though, I&rsquo;ve begun to see how CQRS can be used for performance engineering as well.
 

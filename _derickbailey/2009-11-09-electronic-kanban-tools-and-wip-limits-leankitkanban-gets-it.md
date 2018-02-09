@@ -12,6 +12,7 @@ categories:
   - Management
   - Metrics
   - Tools and Vendors
+redirect_from: "/blogs/derickbailey/archive/2009/11/09/electronic-kanban-tools-and-wip-limits-leankitkanban-gets-it.aspx/"
 ---
 Most of the electronic Kanban boards that exist simply don’t understand what WIP limits are really about. They all seem to go down the path of forcing any step (column) in the process to have a maximum limit that is very hard and fast. They set it up so that you cannot add any more items to the step than the limit allows. But the truth about WIP limits is that they are not supposed to be hard and fast, mechanical limits. Putting in a hard limit like this is a great way to destroy the productivity of a team and usefulness of a tool when the team finds themselves in a crunch, in a situation with additional resources and needs, or any of a number of other circumstances.
 

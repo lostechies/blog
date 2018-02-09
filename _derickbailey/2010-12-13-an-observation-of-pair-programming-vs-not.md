@@ -13,6 +13,7 @@ categories:
   - Continuous Improvement
   - Productivity
   - Quality
+redirect_from: "/blogs/derickbailey/archive/2010/12/13/an-observation-of-pair-programming-vs-not.aspx/"
 ---
 I&#8217;ve spent the better part of the last month doing remote pair programming with Joey Beninghove, on our current contract. It&#8217;s been great &#8211; the constant discussion, the driving out of features, one small step at a time, the realizations of when and where we need to refactor and restructure to move forward. I&#8217;ve loved it tremendously.
 

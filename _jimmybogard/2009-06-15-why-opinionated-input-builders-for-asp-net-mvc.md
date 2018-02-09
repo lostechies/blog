@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265260473"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/06/15/why-opinionated-input-builders-for-asp-net-mvc.aspx/"
 ---
 When we first started looking at crafting forms for MVC in a recent big project, we had just completed a ton of “view” screens for a wide variety of information.&#160; Having learned quite a few things on crafting HTML on the view side, we had a few goals in mind to ensure that we improved our development experience on the edit side.
 

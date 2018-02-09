@@ -16,6 +16,7 @@ categories:
   - Testing
   - Tools
   - Unittests
+redirect_from: "/blogs/hex/archive/2009/06/30/updated-tdd-productivity-plug-in-for-resharper.aspx/"
 ---
 </p> 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "564117523"
 categories:
   - resharper tdd
+redirect_from: "/blogs/sean_chambers/archive/2007/11/06/testing-security-link-demands-with-r.aspx/"
 ---
 This is more just a reference for me or anyone else that may stumble across this.
 

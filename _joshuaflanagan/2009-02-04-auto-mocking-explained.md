@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113157"
 categories:
   - RhinoMocks
+redirect_from: "/blogs/joshuaflanagan/archive/2009/02/03/auto-mocking-explained.aspx/"
 ---
 ## What does it do?
 

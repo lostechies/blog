@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2008/12/28/soa-principles-of-service-design.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colinjack/archive/2008/12/28/soa-principles-of-service-design.aspx/"
 ---
 I&#8217;ve been learning a lot more about SOA and REST recently and so have been doing a lot of reading including [SOA Principles of Service Design](http://www.amazon.co.uk/Principles-Service-Prentice-Service-Oriented-Computing/dp/0132344823/ref=cm_lmf_tit_3_rsrsrs0) and I thought I should write a short review.
 

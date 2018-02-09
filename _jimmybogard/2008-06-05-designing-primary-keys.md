@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DomainDrivenDesign
   - SQL
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/04/designing-primary-keys.aspx/"
 ---
 When creating a primary key for a table, we have a few options:
 

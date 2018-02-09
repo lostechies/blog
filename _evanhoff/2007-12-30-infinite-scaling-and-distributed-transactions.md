@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/12/30/infinite-scaling-and-distributed-transactions.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/12/30/infinite-scaling-and-distributed-transactions.aspx/"
 ---
 I posted a link to this paper a few days agon on one of the mailinglists I subscribe to.&nbsp; I thought I would share with you guys as well:
 

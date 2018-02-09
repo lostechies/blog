@@ -9,6 +9,7 @@ dsq_thread_id:
   - "270183090"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2007/08/09/importance-of-collocation.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/jeremy-miller-mentioned-that-fred.html)._
 

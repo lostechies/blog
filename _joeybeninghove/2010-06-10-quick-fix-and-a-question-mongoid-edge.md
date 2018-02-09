@@ -10,6 +10,7 @@ categories:
   - Mongoid
   - RSpec
   - Ruby
+redirect_from: "/blogs/joeydotnet/archive/2010/06/10/quick-fix-and-a-question-mongoid-edge.aspx/"
 ---
 I just went throught the process of upgrading my current app to the latest edge for Rails 3, Mongoid and all of my other
   

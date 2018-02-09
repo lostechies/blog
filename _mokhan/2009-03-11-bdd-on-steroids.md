@@ -8,6 +8,7 @@ wordpress_guid: /blogs/mokhan/archive/2009/03/11/bdd-on-steroids.aspx
 categories:
   - TDD
   - Tools
+redirect_from: "/blogs/mokhan/archive/2009/03/11/bdd-on-steroids.aspx/"
 ---
 In the last couple of weeks I had a chance to sprinkle some of JP’s syntactic sugar, all over my projects. It’s amazing how much more concise my units test have become. I’ve had a couple of issues where I was mocking out the behavior of some Win Forms controls, but for the most part it’s been an awesome experience!
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - git
   - Open Source
+redirect_from: "/blogs/chrismissal/archive/2009/09/23/will-git-drive-open-source-contribution.aspx/"
 ---
 I know I&#8217;m not alone when I say that I&#8217;ve been hearing a lot more about Git lately. I have talked to others that have expressed interested in moving to Git and dropping use of Subversion. _Now just to properly date this post&#8230; (SVN is currently on version 1.6.5 and Git is on version&nbsp;v1.6.4.4)._
 

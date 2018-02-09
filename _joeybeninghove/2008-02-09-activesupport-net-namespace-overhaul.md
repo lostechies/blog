@@ -9,6 +9,7 @@ categories:
   - activesupport.net
   - 'C#'
   - projects
+redirect_from: "/blogs/joeydotnet/archive/2008/02/08/activesupport-net-namespace-overhaul.aspx/"
 ---
 Figured I&#8217;d try and get this nailed down as early as possible.&nbsp; So after some recent feedback, I decided to change the namespacing so that it focused more on &#8220;behavior/concern&#8221; rather than &#8220;types&#8221;.&nbsp; What this means is&#8230;
 

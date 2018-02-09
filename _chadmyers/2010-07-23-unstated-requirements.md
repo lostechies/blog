@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267259753"
 categories:
   - professionalism
+redirect_from: "/blogs/chad_myers/archive/2010/07/23/unstated-requirements.aspx/"
 ---
 I was formulating some thoughts for a whitepaper today and I was talking about two different ways to accomplish a particular task. Both ways accomplished the task, but one of them was clearly better.&#160; I pondered why, exactly, I thought it was better.
 

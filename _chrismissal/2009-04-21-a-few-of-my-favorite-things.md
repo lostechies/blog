@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262174837"
 categories:
   - Favorites
+redirect_from: "/blogs/chrismissal/archive/2009/04/21/a-few-of-my-favorite-things.aspx/"
 ---
 <div class="wlWriterEditableSmartContent" style="padding-right: 0px;padding-left: 0px;float: right;padding-bottom: 0px;margin: 0px;padding-top: 0px">
   <a href="//lostechies.com/chrismissal/files/2011/03/dog_192182_11118x6_2C225E35.jpg" rel="thumbnail"><img src="//lostechies.com/chrismissal/files/2011/03/dog_192182_1111_6E28CD76.png" border="0" width="345" height="278" /></a>

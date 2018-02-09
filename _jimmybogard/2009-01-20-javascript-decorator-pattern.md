@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716053"
 categories:
   - JavaScript
+redirect_from: "/blogs/jimmy_bogard/archive/2009/01/20/javascript-decorator-pattern.aspx/"
 ---
 I don’t care how many other places this is on the net, file this one under “so I won’t need to look ever again.”
 

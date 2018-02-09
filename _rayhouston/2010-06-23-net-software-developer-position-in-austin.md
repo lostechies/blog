@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2010/06/23/net-software-developer-position-in-austin.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2010/06/23/net-software-developer-position-in-austin.aspx/"
 ---
 &nbsp;
 

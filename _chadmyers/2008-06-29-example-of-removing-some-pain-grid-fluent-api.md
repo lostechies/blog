@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - Fluent API
+redirect_from: "/blogs/chad_myers/archive/2008/06/28/example-of-removing-some-pain-grid-fluent-api.aspx/"
 ---
 So on a previous project, we were making use a 3rd party WinForms UberGrid which, of course has a monstrous designer that spits out tons of code into your InitializeComponent() method in your .designer file. I think you know what I&#8217;m talking about, but for those who wish to experience it in all its glory, check out this:
 

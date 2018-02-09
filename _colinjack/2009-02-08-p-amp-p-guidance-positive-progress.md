@@ -10,6 +10,7 @@ categories:
   - DDD
   - 'p&amp;p'
   - REST
+redirect_from: "/blogs/colinjack/archive/2009/02/08/p-amp-p-guidance-positive-progress.aspx/"
 ---
 I put up a post a while back about the P&P REST guidance which I considered to be quite flawed. The reaction from the P&P team was superb and [Greg Young](http://codebetter.com/blogs/gregyoung/), [Sebastien Lambla](http://serialseb.blogspot.com/) and myself immediately got involved in an e-mail exchange with them regarding this and other guidance. They&#8217;ve&nbsp;shown they are incredibly open to feedback and we&#8217;re still involved in this exchange&nbsp;but&nbsp;it looks like the result may be changes to the existing article and/or new articles.
 

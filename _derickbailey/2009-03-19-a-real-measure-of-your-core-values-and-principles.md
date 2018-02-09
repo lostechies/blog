@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262068105"
 categories:
   - Philosophy of Software
+redirect_from: "/blogs/derickbailey/archive/2009/03/19/a-real-measure-of-your-core-values-and-principles.aspx/"
 ---
 How a person behaves during the positive times and upswings in life is not a good indicator of that person’s values and principles. Find a person in a difficult time, a low point in their life – someone who has been working excessive hours in a highly stressful job; is having serious family issues or has lost a loved one; lost their job and doesn’t know how to make financial ends meet; etc etc. Look at the behavior, the attitude, and the outlook on life and situations that this person has. That’s where you’ll find the real measures of that person’s worth, and their values and principles. 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715940"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/10/14/acceptable-test-failures.aspx/"
 ---
 As [Derick Bailey](http://www.lostechies.com/blogs/derickbailey/) pointed out in my last post, one of the annoyances with ReSharper is the NotImplementedException it puts in when you generate a method.&#160; Going from the TDD side, this is exactly what we _don’t_ want when we’re doing Red-Green-Refactor.&#160; There’s probably a setting somewhere, but I haven’t found it.&#160; It does bring up a larger issue – **what is an acceptable test failure**?&#160; That’s fairly simple:
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/07/03/book-review-it-architectures-and-middleware-2-ed.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/07/03/book-review-it-architectures-and-middleware-2-ed.aspx/"
 ---
 **What is Middleware?**
 

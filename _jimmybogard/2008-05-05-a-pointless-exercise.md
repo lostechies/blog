@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Misc
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/05/a-pointless-exercise.aspx/"
 ---
 I caught this last night from [Scott Hanselman](http://www.hanselman.com/blog/) on Twitter:
 

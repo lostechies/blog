@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716181"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/06/17/more-on-late-bound-invocations-with-expression-trees.aspx/"
 ---
 Recently, I went on a bit of a tear in the AutoMapper trying to improve performance.&#160; Besides the threading issues I introduced (dictionary lookups are NOT thread safe, in case you’re wondering), I looked at improving the performance of the reflection piece of AutoMapper.&#160; At its core, I map various kinds of MemberInfo objects on source types to MemberInfo objects on destination types.&#160; The semantic model is a little more involved of course, but that’s the basic model of going from one complex type to another.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - JavaScript
   - JQuery
+redirect_from: "/blogs/johnteague/archive/2009/09/14/jquery-does-not-like-quirksmode.aspx/"
 ---
 I was helping a client out today with a JQuery issue. They were well into the development of an applications that heavily uses the JQuery UI dialog widget to show information.&#160; Like most web developers they were using Firefox/Firebug for day-to-day development (because trying to develop complicated apps with IE is painful).&#160; All of their dialog windows were working normally with an acceptable load time.
 

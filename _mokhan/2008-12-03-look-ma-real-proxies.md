@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/12/03/look-ma-real-proxies.aspx
 categories:
   - Design Patterns
+redirect_from: "/blogs/mokhan/archive/2008/12/03/look-ma-real-proxies.aspx/"
 ---
 I took some time today to pull down the source code for [SvnBridge](http://www.codeplex.com/SvnBridge) today, and man, I was blown away. I started at Program.cs and made it to line 25 Bootstrapper.Start(). From there I went on to look at the hand rolled container, then the ProxyFactory.
 

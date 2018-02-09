@@ -10,6 +10,7 @@ categories:
   - Rails
   - Reviews
   - Ruby
+redirect_from: "/blogs/joeydotnet/archive/2007/09/15/agile-web-development-with-rails-chapter-3.aspx/"
 ---
 Hmm, well I&#8217;ve already zoomed through to chapter 8 in my actual reading/coding.&nbsp; Better start getting these notes cranked out.&nbsp; Oh, and why not [purchase the book yourself](http://www.pragmaticprogrammer.com/title/rails/) and follow along.&nbsp; It&#8217;d be interesting to get comments from other folks who are currently going through the&nbsp;RoR learning experience.
 

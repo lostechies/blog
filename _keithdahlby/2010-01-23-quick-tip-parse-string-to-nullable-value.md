@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263918333"
 categories:
   - Uncategorized
+redirect_from: "/blogs/dahlbyk/archive/2010/01/23/quick-tip-parse-string-to-nullable-value.aspx/"
 ---
 When you&#8217;re dealing with a system like SharePoint that returns most
   

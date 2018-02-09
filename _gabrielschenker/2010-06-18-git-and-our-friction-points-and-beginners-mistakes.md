@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - git
   - Workflow
+redirect_from: "/blogs/gabrielschenker/archive/2010/06/18/git-and-our-friction-points-and-beginners-mistakes.aspx/"
 ---
 ## Introduction
 

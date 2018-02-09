@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1085355853"
 categories:
   - StructureMap
+redirect_from: "/blogs/chad_myers/archive/2008/07/26/structuremap-interlude.aspx/"
 ---
 I&#8217;m trying to wrap up the &#8220;StructureMap: Advanced Scenarios Usage&#8221; post. In the meantime, I wanted to make you aware of a few things:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716233"
 categories:
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2009/07/07/refactoring-challenge-part-1-examination.aspx/"
 ---
 Most of the time I post code on my blog, it’s something I’m proud of.&#160; Other times, it’s code I didn’t write, which I promptly lambaste.&#160; In my [last post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/07/06/refactoring-challenge.aspx), I threw up code I did write, but couldn’t see the design coming out.&#160; From the responses, I think I have some direction.&#160; But first, let’s take a closer look at the design issues with the original code, and try to catalog the code smells.&#160; This should give us direction on how we need to refactor it.&#160; Here’s the original code:
 

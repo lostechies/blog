@@ -15,6 +15,7 @@ categories:
   - git
   - Rake
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2009/09/23/albacore-a-suite-of-rake-build-tasks-for-net-solutions.aspx/"
 ---
 [<img style="border-right-width: 0px;margin: 0px 25px 0px 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Albacore Tuna - http://www.flickr.com/photos/djs1021/3906751541/" align="left" src="http://lostechies.com/derickbailey/files/2011/03/image_10AB210C.png" width="316" height="210" />](http://www.flickr.com/photos/djs1021/3906751541/) After my [previous post on building a “real” rake task](http://www.lostechies.com/blogs/derickbailey/archive/2009/09/17/how-a-net-developer-hacked-out-a-rake-task.aspx), I decided to dive in head first and learn how to get this stuff done. I chose to drive the tasks out via rspec, through a TDD process, and I created a couple of rake tasks that are proving to be quite useful to me: an msbuild task and an assembly info generate task. Yeah, I know that this has been done to death, at this point. During the trials and tribulations of me getting down and dirty with ruby, rake, gemspec, rspec, etc, I came across some libraries that already do exactly what I set out to do.
 

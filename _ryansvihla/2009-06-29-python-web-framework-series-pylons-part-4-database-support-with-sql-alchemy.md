@@ -11,6 +11,7 @@ categories:
   - ORM
   - Pylons
   - Python
+redirect_from: "/blogs/rssvihla/archive/2009/06/28/python-web-framework-series-pylons-part-4-database-support-with-sql-alchemy.aspx/"
 ---
 We last left off with <a href="/blogs/rssvihla/archive/2009/06/25/python-web-framework-series-pylons-part-3-views-with-mako.aspx" target="_blank">Views with Mako</a>, now Pylons does not enforce on you an ORM at all, so you can use hand crafted SQL if you prefer. However, since I&rsquo;ve done enough of that for a career or two we&rsquo;re going to use my Python ORM of choice and the preferred one for Pylons SQLAlchemy. 
 

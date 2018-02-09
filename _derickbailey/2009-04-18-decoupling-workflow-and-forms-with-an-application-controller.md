@@ -15,6 +15,7 @@ categories:
   - git
   - Model-View-Presenter
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller.aspx/"
 ---
 One of the big problems I’ve been trying to solve recently, is in my current WinForms application that using a Model-View-Presenter setup. I have my workflow between forms coupled to the forms directly. That is, in order to get from MainForm to SubForm, I have code inside of MainForm instantiate SubForm and it’s Presenter. The nightmares of changing any part of the workflow because of this, are astounding. I won’t go into great detail on the problems. It should be sufficient to know that my form codebehind would often contain several hundred lines of code to create all the needed views and presenters for a workflow, per workflow.
 

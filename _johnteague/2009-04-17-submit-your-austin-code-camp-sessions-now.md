@@ -9,6 +9,7 @@ dsq_thread_id:
   - "696842044"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/04/17/submit-your-austin-code-camp-sessions-now.aspx/"
 ---
 The deadline for submitting session is April 19.&#160; If you want to speak at this year’s code camp, better hurry up.&#160; We have about 27 sessions submitted so far, most of them 2 hours in length.&#160; Also remember, I don’t reject submissions unless I am out of space, which is very unlikely.&#160; So if you submit multiple sessions be prepared to do all of them.
 

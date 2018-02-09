@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715591"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/12/advanced-mocking-mocks-and-stubs.aspx/"
 ---
 [Test Spies](http://xunitpatterns.com/Test%20Spy.html) can help us verify the indirect outputs of a system under test.&nbsp; If an OrderProcessor needs to send an email, we don&#8217;t want that test sending real emails, so we set up a Test Spy to capture that indirect output so we can verify it inside our test.
 

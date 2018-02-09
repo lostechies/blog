@@ -13,6 +13,7 @@ categories:
   - ASP.NET MVC
   - MVC
   - mvccontrib
+redirect_from: "/blogs/hex/archive/2009/02/07/if-you-are-developing-on-asp-net-mvc-and-your-are-not-using-mvccontrib-what-is-wrong-with-you.aspx/"
 ---
 &nbsp;
 

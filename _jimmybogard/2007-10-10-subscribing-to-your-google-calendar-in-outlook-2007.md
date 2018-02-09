@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Misc
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/10/subscribing-to-your-google-calendar-in-outlook-2007.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/subscribing-to-your-google-calendar-in.html)._
 

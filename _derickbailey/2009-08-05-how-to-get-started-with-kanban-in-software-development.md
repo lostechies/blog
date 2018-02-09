@@ -17,6 +17,7 @@ categories:
   - Retrospectives
   - Throughput
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/08/05/how-to-get-started-with-kanban-in-software-development.aspx/"
 ---
 There’s a lot of great talk around the inter-weber-net-o-sphere on why Kanban works in software development, how to do specific details of Kanban, how to effectively talk about it, and other such subjects. If you’re interested in a great set of resources surrounding many of these subjects, I would highly recommend that you check out the [Resources page at the Limited WIP Society](http://www.limitedwipsociety.org/?page_id=12). One thing I’m not seeing a lot of, though, is how to get started with Kanban in software development. 
 

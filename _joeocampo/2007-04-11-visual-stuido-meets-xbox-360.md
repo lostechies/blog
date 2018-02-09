@@ -9,5 +9,6 @@ dsq_thread_id:
   - "262090375"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/04/10/visual-stuido-meets-xbox-360.aspx/"
 ---
 You all have to check this [site](http://defyallchallenges.com/) out!&nbsp; The videos alone worth it.&nbsp; Now I can code and game at the same time.

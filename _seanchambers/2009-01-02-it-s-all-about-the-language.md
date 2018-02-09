@@ -9,6 +9,7 @@ dsq_thread_id:
   - "524956953"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/01/02/it-s-all-about-the-language.aspx/"
 ---
 In His Holiness Evans Bible. He states: &#8220;
 

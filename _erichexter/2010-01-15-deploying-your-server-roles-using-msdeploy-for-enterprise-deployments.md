@@ -15,6 +15,7 @@ categories:
   - headspring
   - IIS
   - MSDeploy
+redirect_from: "/blogs/hex/archive/2010/01/15/deploying-your-server-roles-using-msdeploy-for-enterprise-deployments.aspx/"
 ---
 &#160;
 

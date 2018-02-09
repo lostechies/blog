@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264983766"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/09/refactoring-day-9-extract-interface.aspx/"
 ---
 <span style="font-size: xx-small">Today we look at an often overlooked refactoring. Extract Interface. When you notice more than one class using a similar subset of methods on a class, it is useful to break the dependency and introduce an interface that the consumers to use. It&rsquo;s easy to implement and has benefits from loose coupling.</span>
 

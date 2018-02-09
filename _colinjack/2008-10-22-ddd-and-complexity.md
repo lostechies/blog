@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2008/10/22/ddd-and-complexity.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colinjack/archive/2008/10/22/ddd-and-complexity.aspx/"
 ---
 </p> 
 

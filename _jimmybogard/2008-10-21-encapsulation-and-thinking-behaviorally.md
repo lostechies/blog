@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - BDD
   - BehaviorDrivenDevelopment
+redirect_from: "/blogs/jimmy_bogard/archive/2008/10/21/encapsulation-and-thinking-behaviorally.aspx/"
 ---
 I’ve been reading quite a bit lately about [setters and encapsulation](http://codebetter.com/blogs/david_laribee/archive/2008/07/08/super-models-part-2-avoid-mutators.aspx), but for whatever reason, it never really “clicked” for me.&#160; I _thought_ I was developing behaviorally, as I’ve been using the Context/Specification style of BDD specifications for a while.&#160; I even go outside-in, starting from the outermost layer of the application, writing specs towards the inner parts of the application.&#160; The outer clients dictate the inner behavior.
 

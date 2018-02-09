@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113793"
 categories:
   - Mangement
+redirect_from: "/blogs/chad_myers/archive/2008/04/23/two-random-thoughts.aspx/"
 ---
 1 &#8211; Support open source in the .NET realm. [Ray Houston](http://rhouston.lostechies.com) [posted about this](http://www.lostechies.com/blogs/rhouston/archive/2008/04/22/funding-open-source-with-donations.aspx). We helped prod [Hammet](http://hammett.castleproject.org) into putting up a [donate link for the Castle Project](http://hammett.castleproject.org/?p=279).&nbsp; I suggest investing $25, $50, or $100.&nbsp; I say &#8216;investing&#8217; because it&#8217;s not charity. It&#8217;s an investment in .NET&#8217;s future. Already open source projects like NHibernate, Castle Project, and others have affected Microsoft and prompted them to change how they do some things for the better and we all benefit for it. It&#8217;s quite possible MS would not have considered doing ASP.NET MVC if it had not been for the Castle MonoRail project. 
 

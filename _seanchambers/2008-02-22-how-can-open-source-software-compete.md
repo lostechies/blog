@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123768"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/02/21/how-can-open-source-software-compete.aspx/"
 ---
 I admit, that title is misleading and intriguing at the same time.
 

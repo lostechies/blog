@@ -14,6 +14,7 @@ categories:
   - 'C#'
   - CoC
   - mvccontrib
+redirect_from: "/blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-using-partials-part-i.aspx/"
 ---
 </p> 
 

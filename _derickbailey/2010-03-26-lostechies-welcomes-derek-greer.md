@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Community
   - Craftsmanship
+redirect_from: "/blogs/derickbailey/archive/2010/03/26/lostechies-welcomes-derek-greer.aspx/"
 ---
 A former coworker and good friend of mine, Derek Greer, has joined up with the LosTechies crew. He previously lived and worked in the Austin, TX area where I had the good fortune to meet him and hire him on at my previous job. He’s now living in Tennessee, near Nashville… but we’ll forgive him for moving so far away. 🙂 
 

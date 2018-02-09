@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263160613"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/06/refactoring-day-6-push-down-field.aspx/"
 ---
 Opposite of the Pull Up Field refactoring is push down field. Again, this is a pretty straight forward refactoring without much description needed
 

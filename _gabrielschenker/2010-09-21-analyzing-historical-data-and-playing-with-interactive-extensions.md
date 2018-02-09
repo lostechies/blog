@@ -12,6 +12,7 @@ categories:
   - interactive extensions
   - NHibernate
   - Reporting
+redirect_from: "/blogs/gabrielschenker/archive/2010/09/21/analyzing-historical-data-and-playing-with-interactive-extensions.aspx/"
 ---
 ## Introduction
 

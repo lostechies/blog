@@ -11,6 +11,7 @@ categories:
   - ASP.NET
   - MVC
   - mvccontrib
+redirect_from: "/blogs/hex/archive/2008/03/30/asp-net-mvc-mvccontrib-we-need-your-opinion.aspx/"
 ---
 I started working with sandcastle to generate api documentation for the Asp.Net MVC &#8211; MvcContrib project ([http://MvcContrib.org](http://mvccontrib.org/)).&nbsp; I wanted to get some feedback as to how useful the general API Namespace/Class listings are. Below are two of the outputs of the documentation. I encourage you to take a quick look at it so that you can provide feedback.
   

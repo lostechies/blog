@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715823"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/07/12/going-lean-in-visual-studio.aspx/"
 ---
 Left unchecked, Visual Studio tends to get very cluttered:
 

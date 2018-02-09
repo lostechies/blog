@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715849"
 categories:
   - Rails
+redirect_from: "/blogs/jimmy_bogard/archive/2008/08/04/rails-notes-from-the-net-side.aspx/"
 ---
 I&#8217;m starting a small experiment to try out Rails, and I&#8217;m keeping notes as I go.&nbsp; From the first day, here&#8217;s what I have so far:
 

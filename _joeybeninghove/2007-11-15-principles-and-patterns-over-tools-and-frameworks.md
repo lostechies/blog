@@ -9,6 +9,7 @@ categories:
   - Patterns
   - Refactoring
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/11/15/principles-and-patterns-over-tools-and-frameworks.aspx/"
 ---
 It&#8217;s interesting to see what other developers value and/or what topics they are interested in regarding the development of software.&nbsp; I&#8217;m going to start doing some internal presentations and live coding sessions at my company for my fellow consultants.&nbsp; I&#8217;ve got a pretty long list of possible topics, but I offered up 2 topics today that pertain to some of the work I&#8217;m doing on my current project.
 

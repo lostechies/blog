@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262493307"
 categories:
   - Functional Programming
+redirect_from: "/blogs/dahlbyk/archive/2009/10/17/is-functional-abstraction-too-clever.aspx/"
 ---
 I received a rather interesting comment on a recent Stack Overflow answer:
 

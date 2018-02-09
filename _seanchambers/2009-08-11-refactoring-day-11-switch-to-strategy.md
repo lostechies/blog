@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262347277"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/11/refactoring-day-11-switch-to-strategy.aspx/"
 ---
 Todays refactoring doesn&#8217;t come from any one source, rather I&#8217;ve used different versions over the years and I&#8217;m sure other have different variations of the same aim.
 

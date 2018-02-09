@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123706"
 categories:
   - general
+redirect_from: "/blogs/sean_chambers/archive/2007/10/21/boston-is-in-the-series.aspx/"
 ---
 The red sox have just won game 7 of the american league pennant. The final was 11-2.
 

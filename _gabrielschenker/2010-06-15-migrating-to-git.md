@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - git
   - Workflow
+redirect_from: "/blogs/gabrielschenker/archive/2010/06/15/migrating-to-git.aspx/"
 ---
 This weekend our development team migrated to **Git**. As any other migration this migration introduced some friction at the very beginning. But all in all I think it went rather smooth.
 

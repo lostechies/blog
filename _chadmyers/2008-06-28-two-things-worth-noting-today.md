@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASP.NET MVC
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/06/28/two-things-worth-noting-today.aspx/"
 ---
 1.) [Serious] [Rob Conery](http://blog.wekeroad.com/) (of SubSonic fame, and oh yeah I think he works at Microsoft or something, too :)) has posted his [FIFTEENTH screencast](http://blog.wekeroad.com/mvc-storefront/mvcstore-part-15/) in his [series on building an e-ecommerce app using ASP.NET MVC](http://blog.wekeroad.com/mvc-storefront/) and exploring and learning lots of things along the way.&nbsp; I tell you, this series was outstanding before it hit Episode 10, and 15 is a topper for sure.&nbsp; In this episode he pairs with [Ayende Rahien](http://www.ayende.com/Blog/) (Rhino.Mocks, Castle Windsor, NHibernate, among other project) and [Steven Harman](http://stevenharman.net/) (SubText, among others).&nbsp; 
 

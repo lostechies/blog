@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265731334"
 categories:
   - ContinuousImprovement
+redirect_from: "/blogs/jimmy_bogard/archive/2009/04/02/required-developer-reading.aspx/"
 ---
 The path from good developer to great developer is a long road, and not one with clear markers along the way.&#160; When I started developing years and years ago, I was the fish floundering about, looking for the “Right” way of developing.&#160; Most of this desire came from a innate feeling that I had no idea what the hell I was doing.&#160; The first step I found from novice to expert was to acquire a depth, and breadth of knowledge on both how to write and how to deliver software.&#160; I read a lot of books throughout the years, some good, some bad, and some indispensible.&#160; Rather than come up with my own list, James Kovacs has an absolute perfect list:
 

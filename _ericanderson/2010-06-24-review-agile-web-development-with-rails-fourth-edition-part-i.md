@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/eric/archive/2010/06/24/review-agile-web-development-with-rails-fourth-edition-part-i.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/eric/archive/2010/06/24/review-agile-web-development-with-rails-fourth-edition-part-i.aspx/"
 ---
 With a full house of kids, I don&#8217;t get as much of a chance to dabble in technologies that I&#8217;m not using at work.&nbsp; So, I am much more selective in what I choose to learn.&nbsp; I also seemed to be moving jobs enough and bouncing back and forth between the JVM (Java, Groovy) and the CLR (VB.Net, C#) that I was already expanding my language horizon on an annual basis.&nbsp; While, I&#8217;ve been watching Rails from a distance for quite some time, I never seemed to have the bandwidth to take the jump and force myself to sit down and learn it.&nbsp; For whatever reason, I&#8217;ve decided that now is the time.&nbsp; After asking several friends which book to start with, I settled on [_Agile Web Development with Rails_](http://pragprog.com/titles/rails4/agile-web-development-with-rails) [PragPress].
 

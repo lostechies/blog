@@ -14,6 +14,7 @@ categories:
   - Presentations
   - Principles and Patterns
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/05/19/result-lt-t-gt-directing-workflow-with-a-return-status-and-value.aspx/"
 ---
 I often code user interfaces that have some sort of cancel button on them. For example, in my upcoming ‘[Decoupling Workflow](http://www.lostechies.com/blogs/derickbailey/archive/2009/05/18/i-m-presenting-at-austin-code-camp-2009.aspx)’ presentation, I have the following screen:
 

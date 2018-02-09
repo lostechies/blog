@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268941505"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/31/coding-responsibly.aspx/"
 ---
 I just ordered [Kent Beck&#8217;s](http://www.threeriversinstitute.org/) newest book, [Implementation Patterns](http://www.informit.com/store/product.aspx?isbn=0321413091).&nbsp; In the [sample chapter online](http://www.informit.com/content/images/9780321413093/samplechapter/BeckCh_0321413091.pdf), there&#8217;s a great quote at the end of the preface:
 

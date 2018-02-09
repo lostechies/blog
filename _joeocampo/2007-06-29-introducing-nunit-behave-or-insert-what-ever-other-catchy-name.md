@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089437"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/06/28/introducing-nunit-behave-or-insert-what-ever-other-catchy-name.aspx/"
 ---
 OK I was bored yesterday and I decided to update what I had worked on the other day from <a href="http://dannorth.net/" target="_blank">Dan North&#8217;s</a> post on <a href="http://dannorth.net/2007/06/introducing-rbehave" target="_blank">rbehave</a>.
 

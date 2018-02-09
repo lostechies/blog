@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114282"
 categories:
   - VAN
+redirect_from: "/blogs/chad_myers/archive/2009/01/06/van-virtual-alt-net-meeting-wednesday-night.aspx/"
 ---
 **Subject:** VAN Meeting for 1-07-09   
 **Start Time:** [Wednesday, Jan 7, 2009 9:00 PM GMT-06:00](http://www.timeanddate.com/worldclock/converter.html?year=2009&month=1&day=7&hour=21&min=0&sec=0&p1=24&p2=0) (click link for time zone conversions)   

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715802"
 categories:
   - EntityFramework
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/24/entity-framework-vote-of-no-confidence.aspx/"
 ---
 As was [announced initially](http://weblogs.asp.net/bsimser/archive/2008/06/23/ado-net-enity-framework-vote-of-no-confidence.aspx) (as far as I can tell) on Bil Simser&#8217;s blog, some concerned citizens of the .NET world put out an online vote-of-no-confidence concerning the Entity Framework:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266774441"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/04/30/swallowing-exceptions-is-hazardous-to-your-health.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/swallowing-exceptions-is-hazardous-to.html)._
 

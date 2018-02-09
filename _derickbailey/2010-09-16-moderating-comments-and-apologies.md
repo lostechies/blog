@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264153038"
 categories:
   - Uncategorized
+redirect_from: "/blogs/derickbailey/archive/2010/09/15/moderating-comments-and-apologies.aspx/"
 ---
 If anyone&rsquo;s been reading my blog for the last few days, you&rsquo;ve probably seen the giant comment trail left on my Design and Testability post. After a lot of discussion the LosTechies community and with a few other friends, I&rsquo;ve decided to start moderating comments that are significantly off-track on the discussion of content related to the post, when those comments veer off the technical or other paths related to the content of the original post. This means that I have deleted a significant number of comments from that post &ndash; including comments from good friends of mind, and comments of fellow LosTechies people. The comments were not serving the community in a manner that I feel is appropriate and were a disservice to the LosTechies readers.
 

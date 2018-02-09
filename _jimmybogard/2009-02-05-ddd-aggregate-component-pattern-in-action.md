@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716050"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/04/ddd-aggregate-component-pattern-in-action.aspx/"
 ---
 In my last post, I went on a long-winded rant on how the composition and the Aggregate Component pattern can ease the burden of the interaction between Entities and Services.&#160; The question comes up often on DDD or IoC forums:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1084724844"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/04/26/virtues-of-on-demand-design.aspx/"
 ---
 # Process Virtues
 

@@ -13,6 +13,7 @@ categories:
   - Craftsmanship
   - Messaging
   - Model-View-Presenter
+redirect_from: "/blogs/derickbailey/archive/2010/03/17/application-events-modeling-selection-vs-de-selection-as-separate-events.aspx/"
 ---
 I’m using my [Event Aggregator](http://www.lostechies.com/blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx) in my current project to manage communication between a custom control and it’s parent form. This is the same control I talked about in my [CQRS Performance Engineering](http://www.lostechies.com/blogs/derickbailey/archive/2010/03/08/cqrs-performance-engineering-read-vs-read-write-models.aspx) post. It has several drop down lists on it, and each one is progressively filled in based on the value selected in the previous one. 
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Dovetail
   - hiring
+redirect_from: "/blogs/chad_myers/archive/2009/03/19/dovetail-hiring-software-tester-test-engineer.aspx/"
 ---
 <http://www.dovetailsoftware.com/about/careers.aspx>
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055744"
 categories:
   - automated-builds, ADNUG
+redirect_from: "/blogs/johnteague/archive/2010/06/19/automated-build-adnug-presentation.aspx/"
 ---
 The last ADNUG presentation was on Automated Builds.&#160; We (were supposed) briefly discuss the different build tools available for .Net.&#160; I gave a demo of using Nant, Derrick Bailey demonstrated Rake / [Albacore](http://github.com/derickbailey/Albacore), Jorge Matos demonstrated powereshell / [psake](http://github.com/JamesKovacs/psake) and Eric Hexter demonstrated [pstrami](http://pstrami.codeplex.com/), his automated deployment stack.&#160; It was really cool having so many project contributors to be able to talk about their projects. Note to Session Organizers: 4 speakers in one session is way to many, won’t make that mistake again.
 

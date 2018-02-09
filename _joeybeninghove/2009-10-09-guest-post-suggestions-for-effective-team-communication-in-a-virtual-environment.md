@@ -9,6 +9,7 @@ categories:
   - Communication
   - virtual teams
   - working from home
+redirect_from: "/blogs/joeydotnet/archive/2009/10/09/guest-post-suggestions-for-effective-team-communication-in-a-virtual-environment.aspx/"
 ---
 _Note: Below is a guest post from Larry Silverman, Chief Technology Officer, TrackAbout.&#160; &#8211;Joey_
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "425574808"
 categories:
   - Python
+redirect_from: "/blogs/rssvihla/archive/2010/01/08/adventures-in-meta-programming-in-python-im-class-import-getattribute.aspx/"
 ---
 With my recent work in Python win32 programming I&rsquo;ve had a real need for AAA style mocking framework. Unable to find anything that I&rsquo;ve been completely happy with I started my own simple mocking framework and got to learn some Python style meta programming&nbsp; in the process. I&rsquo;ve found out a lot about the depth of the Python 2.x object model over the last 2 weeks and here are some of the nicer things I&rsquo;ve found (updated as per Chris Taveres below):
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266324172"
 categories:
   - Uncategorized
+redirect_from: "/blogs/derickbailey/archive/2009/11/04/a-time-for-change.aspx/"
 ---
 Change comes in groups of three, right? Well, I have [a 4 week old baby girl](http://www.lostechies.com/blogs/derickbailey/archive/2009/10/08/the-ultimate-hello-world.aspx) (I can hardly believe she’s 4 weeks old already). That would be change #1.&#160; For change #2, I turned in my two week notice to [my current employer](http://www.mclaneat.com) on Monday.
 

@@ -10,6 +10,7 @@ categories:
   - Rails
   - Reviews
   - Ruby
+redirect_from: "/blogs/joeydotnet/archive/2007/09/13/agile-web-development-with-rails-chapter-1.aspx/"
 ---
 [As I mentioned previously](http://joeydotnet.com/blog/archive/2007/09/04/Change-is-in-the-air.aspx), I&#8217;m starting to dig into the Ruby language for its elegance&nbsp;and the Rails framework in search of better, more efficient ways to develop web applications.&nbsp; As part of this learning&nbsp;process, I figured it was essential that I pick up and read&nbsp;[Agile Web Development with Rails](http://pragmaticprogrammer.com/titles/rails/index.html) (PDF edition for me).&nbsp; I&#8217;m going to take some brief notes on each chapter and figured I&#8217;d use my blog for storing them.&nbsp; 🙂&nbsp; (To basically act as chapter reviews)
 

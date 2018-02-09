@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262660999"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/10/refactoring-day-10-extract-method.aspx/"
 ---
 <span style="font-size: xx-small">Today we look at the Extract Method refactoring. This is an extremely easy refactoring with several benefits. First, it helps to make code more readable by placing logic behind descriptive method names. This reduces the amount of investigation the next developer needs to do as a method name can describe what a portion of code is doing. This in turn reduces bugs in the code because less assumptions need to be made. Here&rsquo;s some code before we apply the refactoring:</span>
 

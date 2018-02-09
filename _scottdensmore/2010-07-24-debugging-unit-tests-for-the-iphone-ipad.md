@@ -9,6 +9,7 @@ dsq_thread_id:
   - "269512975"
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottdensmore/archive/2010/07/24/debugging-unit-tests-for-the-iphone-ipad.aspx/"
 ---
 **Update 8/17/2010**
 

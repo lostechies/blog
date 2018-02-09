@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716581"
 categories:
   - Ruby
+redirect_from: "/blogs/jimmy_bogard/archive/2010/09/22/sinatra-and-heroku-the-elevator-pitch.aspx/"
 ---
 Recently, I needed to upgrade an old ASP.NET 2.0 site I’ve maintained for a family member.&#160; I built the original site back in 2000 or so with ASP and FrontPage (had the FrontPage Bible on my desk for that one).&#160; I later upgraded the site in 2005 to ASP.NET 2.0 with semantic HTML, XHTML and all that goodness.
 

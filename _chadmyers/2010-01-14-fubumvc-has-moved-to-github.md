@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1082487269"
 categories:
   - FubuMVC
+redirect_from: "/blogs/chad_myers/archive/2010/01/14/fubumvc-has-moved-to-github.aspx/"
 ---
 FYI, if you’re looking at FubuMVC, you should be advised that the new home for the FubuMVC source is now at [GitHub](http://github.com/darthfubumvc/fubumvc).
 

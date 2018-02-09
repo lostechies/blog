@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - posh-git
   - Powershell
+redirect_from: "/blogs/dahlbyk/archive/2010/04/03/lazy-powershell-coalesce-args.aspx/"
 ---
 A while back I posted a [coalesce function for PowerShell](http://solutionizing.net/2008/12/20/powershell-coalesce-and-powershellasp-query-string-parameters/ "PowerShell Coalesce and PowerShellASP Query String Parameters") that would try to return the first non-null argument passed to it. One drawback of this function is that each argument expression will be evaluated before being passed into the function. This didn&#8217;t work so well for [posh-git](http://github.com/dahlbyk/posh-git/), where each call to `git` adds undesirable delay to the prompt. To address this issue, I wrote a new ScriptBlock-aware version that allows us to defer execution of the fallback cases until we need them:
 

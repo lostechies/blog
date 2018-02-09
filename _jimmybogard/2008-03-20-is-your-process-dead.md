@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715635"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/20/is-your-process-dead.aspx/"
 ---
 Two of the conventional criteria for exhibiting life are:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1077805322"
 categories:
   - ALT.NET
+redirect_from: "/blogs/chad_myers/archive/2008/05/24/alt-net-podcast-ep2-on-microsoft.aspx/"
 ---
 The [altnetpodcast](http://www.altnetpodcast.com/) crew released the [second part of the discussion](http://www.altnetpodcast.com/episodes/2-alt.net-and-microsoft) that [Mike Moore](http://www.blowmage.com/), [Jeremy Miller](http://codebetter.com/blogs/jeremy.miller/default.aspx), [David Laribee](http://codebetter.com/blogs/david_laribee/), and I had about ALT.NET, continuous improvement, and the relationship between Microsoft and the .NET community at large.
 

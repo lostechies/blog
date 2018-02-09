@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joe_ocampo/archive/2007/09/04/i-ve-been-simpsonized.aspx
 categories:
   - Humor
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/04/i-ve-been-simpsonized.aspx/"
 ---
 Inspired by Bellware&#8217;s post I decided to <a href="http://simpsonizeme.com/" target="_blank">Simposonize</a>&nbsp;a pic of mine.&nbsp; Striking likeness don&#8217;t you agree. 🙂
 

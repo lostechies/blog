@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715412"
 categories:
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/12/coding-without-confidence.aspx/"
 ---
 As a favor to my wife, I developed an Excel application to help her employer out with scheduling and status in a small wood manufacturing shop.&nbsp; Excel was chosen as it was the lowest barrier to entry, and the quickest to get out the door.&nbsp; It wasn&#8217;t a mission-critical app and I wasn&#8217;t getting paid or anything, so I thought I could get something delivered fairly easily.
 

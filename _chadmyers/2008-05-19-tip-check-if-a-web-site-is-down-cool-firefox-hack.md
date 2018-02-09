@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113815"
 categories:
   - Tips
+redirect_from: "/blogs/chad_myers/archive/2008/05/19/tip-check-if-a-web-site-is-down-cool-firefox-hack.aspx/"
 ---
 I was having problems connecting to a web site and I managed to stumble into a web site via Google to check to see if a web site is really down or not (get a second opinion) and I found this site:
 

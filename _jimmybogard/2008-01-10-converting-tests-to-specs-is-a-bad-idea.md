@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - BDD
   - BehaviorDrivenDevelopment
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/10/converting-tests-to-specs-is-a-bad-idea.aspx/"
 ---
 When I first started experimenting with [BDD](http://behaviour-driven.org/), all the talk about the shift in language led me to believe that to &#8220;do BDD&#8221; all I needed to do was to change my &#8220;Asserts&#8221; to some &#8220;Shoulds&#8221;.&nbsp; At the root, it looked like all I was really doing was changing the order of my &#8220;expected&#8221; and &#8220;actual&#8221;.
 

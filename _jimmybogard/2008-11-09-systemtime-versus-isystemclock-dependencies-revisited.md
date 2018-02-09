@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Design
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/09/systemtime-versus-isystemclock-dependencies-revisited.aspx/"
 ---
 Yes, it’s true, I’m a big fan of the Dependency Inversion Principle and Dependency Injection.&#160; Scandalous!&#160; But there are some situations where DI can make your classes…rather interesting.
 

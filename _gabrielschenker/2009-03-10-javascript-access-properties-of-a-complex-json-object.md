@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - JQuery
   - plugins
+redirect_from: "/blogs/gabrielschenker/archive/2009/03/10/javascript-access-properties-of-a-complex-json-object.aspx/"
 ---
 Lately I needed to dynamically access the value of a nested property in a complex JSON object in a [jQuery](http://jquery.com) plug-in I wrote. Since to my knowledge this is not possible directly I wrote a little function in Java Script.
 

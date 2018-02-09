@@ -11,6 +11,7 @@ categories:
   - ASP.NET
   - MVC
   - mvccontrib
+redirect_from: "/blogs/hex/archive/2008/02/29/new-mvccontrib-build-released-on-codeplex-build-0-0-1-75-beta.aspx/"
 ---
 I just released the latest build in binary and source code format on CodePlex.
 

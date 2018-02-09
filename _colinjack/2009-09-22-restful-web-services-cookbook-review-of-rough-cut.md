@@ -8,6 +8,7 @@ wordpress_guid: /blogs/colinjack/archive/2009/09/22/restful-web-services-cookboo
 categories:
   - Books
   - REST
+redirect_from: "/blogs/colinjack/archive/2009/09/22/restful-web-services-cookbook-review-of-rough-cut.aspx/"
 ---
 I&#8217;ve just finished reading the rough cut of [RESTful Web Services Cookbook](http://www.restful-webservices-cookbook.org/) by [Subbu Allamaraju](http://www.subbu.org/) and [Mike Amundsen](http://www.amundsen.com/blog/) and thought I&#8217;d write a very quick review. 
 

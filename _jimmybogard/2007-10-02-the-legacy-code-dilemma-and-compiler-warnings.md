@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264977970"
 categories:
   - LegacyCode
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/02/the-legacy-code-dilemma-and-compiler-warnings.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/legacy-code-dilemma-and-compiler.html)._
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "323179167"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/07/24/try-ruby-in-15-minutes.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/07/try-ruby-in-15-minutes.html)._
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2007/10/29/talesfromthesmellyside-lt-code-gt-episode-1.aspx
 categories:
   - tales from the smelly side
+redirect_from: "/blogs/joeydotnet/archive/2007/10/29/talesfromthesmellyside-lt-code-gt-episode-1.aspx/"
 ---
 #### What is this?
 

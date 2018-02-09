@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263510198"
 categories:
   - Uncategorized
+redirect_from: "/blogs/dahlbyk/archive/2010/01/25/extension-methods-on-types-you-own.aspx/"
 ---
 It&#8217;s no secret that I&#8217;m a fan of using extension methods to make
   

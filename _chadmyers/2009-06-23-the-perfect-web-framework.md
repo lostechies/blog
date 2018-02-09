@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Humor
   - MVC
+redirect_from: "/blogs/chad_myers/archive/2009/06/23/the-perfect-web-framework.aspx/"
 ---
 I’ve been paid professionally to work with or have messed around with many web frameworks. To name most of them:
 

@@ -11,6 +11,7 @@ categories:
   - Quality
   - Rant
   - software
+redirect_from: "/blogs/scottcreynolds/archive/2009/10/02/quit-living-in-the-past-practices-evolve.aspx/"
 ---
 In 1846 it wasn&#8217;t a required practice for medical professionals to wash their hands or equipment when treating a patient. In 1847, [Ignaz Semmelweis](http://en.wikipedia.org/wiki/Ignaz_Semmelweis) experimented and discovered that incidences of maternal death from Puerperal fever at Vienna General Hospital were drastically reduced simply by requiring midwife ward staff to wash their hands.
 

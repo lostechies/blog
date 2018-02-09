@@ -9,6 +9,7 @@ dsq_thread_id:
   - "279708234"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2008/12/26/masstransit-turns-one-year-old-celebrations-held-around-the-world.aspx/"
 ---
 <img src="http://blog.phatboyg.com/wp-content/uploads/2008/12/ndf03569.jpg" alt="NDF03569.jpg" border="0" width="640" height="503" />
 

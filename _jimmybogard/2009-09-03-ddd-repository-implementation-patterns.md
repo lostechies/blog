@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716301"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2009/09/02/ddd-repository-implementation-patterns.aspx/"
 ---
 One of the major structural patterns encountered in DDD (and one of the most argued about) is the [Repository pattern](http://martinfowler.com/eaaCatalog/repository.html).&#160; You’ve created a persistent domain model, and now you need to be able to retrieve these objects from an encapsulated store.&#160; In Fowler’s PoEAA, the Repository pattern is described as:
 

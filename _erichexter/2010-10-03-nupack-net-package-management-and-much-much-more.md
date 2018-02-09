@@ -11,6 +11,7 @@ categories:
   - .NET
   - nupack
   - OSS
+redirect_from: "/blogs/hex/archive/2010/10/03/nupack-net-package-management-and-much-much-more.aspx/"
 ---
 Yeah.. so all the Ruby and Java guys are saying.. Its about time .Net got a package management system. There were a few growing in the open source space, but none have really gained any traction.&nbsp; Nu seemed to be getting going, I saw it earlier on at Pablo&rsquo;s Fiesta here in Austin at the beginning of the year.&nbsp; I would pull the source down and it seemed to be going, but slowly.&nbsp; It has picked up some traction over the summer. But now that they guys have gotten together with Microsoft to make NuPack, I think we are going to see some interesting things happen in the .Net space.&nbsp; Why is that?
 

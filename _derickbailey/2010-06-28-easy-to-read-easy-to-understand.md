@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Analysis and Design
   - AntiPatterns
+redirect_from: "/blogs/derickbailey/archive/2010/06/28/easy-to-read-easy-to-understand.aspx/"
 ---
 I ran into this code a while back:
 

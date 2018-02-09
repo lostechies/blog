@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joe_ocampo/archive/2007/10/13/reinstalled-firefox-what-add-ons-do-you-use.aspx
 categories:
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/13/reinstalled-firefox-what-add-ons-do-you-use.aspx/"
 ---
 I recently had to reinstall Firefox and was wondering what (other than the add-ons listed below) add-on&#8217;s everyone else is using?
 

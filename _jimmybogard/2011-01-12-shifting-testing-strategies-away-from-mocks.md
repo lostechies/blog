@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716639"
 categories:
   - BDD
+redirect_from: "/blogs/jimmy_bogard/archive/2011/01/11/shifting-testing-strategies-away-from-mocks.aspx/"
 ---
 Over the past couple of years or so, I’ve started to come to the opinion that reliance on mocks for driving out design can seriously hamper large- to medium-scale refactoring efforts.&#160; Things like adding method parameters, renames and the like aren’t affected.&#160; But many of the techniques in [Refactoring](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) and [Refactoring to Patterns](http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351) become quite difficult to do when our tests are overly concerned with the implementation details of our system under test.
 

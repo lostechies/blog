@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - mac
   - OSX
+redirect_from: "/blogs/chris_patterson/archive/2007/11/14/ftp-editing-with-textmate-using-cyberduck-on-leopard.aspx/"
 ---
 While I spend most of mine developing applications with .NET in Visual Studio 2005, there are times when I want to tweak a site built in PHP/MySQL. Since all my sites are hosted on GoDaddy, I don&#8217;t have SSH access into the server. This leaves FTP as the sole choice for editing remote content. While a solid practice would be to have a local development environment to text changes, it&#8217;s a blog, and it&#8217;s just not that important to me if I make a quick mistake. Plus, sometimes you&#8217;re dealing with Authorize.NET or PayPal, or FedEx, or another cart-based solution that requires cURL through a proxy. 
 

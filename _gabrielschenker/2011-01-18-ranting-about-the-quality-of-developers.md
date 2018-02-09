@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - hiring
   - Misc
+redirect_from: "/blogs/gabrielschenker/archive/2011/01/18/ranting-about-the-quality-of-developers.aspx/"
 ---
 I am in the happy position that I work for a company who is steadily growing. As a consequence we were and are hiring new developers. I had and have the “pleasure” to be part of this hiring process. I put the word “pleasure” in double quotes since often times it was more a sad than a pleasant experience. 
 

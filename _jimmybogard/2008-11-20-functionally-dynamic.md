@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715986"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/19/functionally-dynamic.aspx/"
 ---
 I was just playing with this tonight, but I don’t know it’s worth anything.&#160; I thought of it after some conversations with [Matt Podwysocki](http://podwysocki.codebetter.com/) back at KaizenConf on how do apply some functional ideas in C#.&#160; First, I started with a simple class:
 

@@ -11,6 +11,7 @@ categories:
   - AutoMapper
   - 'C#'
   - LINQ
+redirect_from: "/blogs/jimmy_bogard/archive/2011/02/09/autoprojecting-linq-queries.aspx/"
 ---
 Something I’ve been looking at adding to AutoMapper was the idea of doing automatic query projection in the Select query projection in LINQ statements.&#160; One downside of AutoMapper is that projection from domain objects still forces the entire domain object to be queried and loaded.&#160; For a lot of read-only scenarios, loading up a tracked, persistent entity is a bit of a waste.&#160; And unless you’re doing CQRS with read-specific tables, you’re doing projection somehow from the write tables.
 

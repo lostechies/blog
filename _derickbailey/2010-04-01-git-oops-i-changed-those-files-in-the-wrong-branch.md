@@ -11,6 +11,7 @@ categories:
   - Branching Strategies
   - git
   - Source Control
+redirect_from: "/blogs/derickbailey/archive/2010/04/01/git-oops-i-changed-those-files-in-the-wrong-branch.aspx/"
 ---
 I do this a lot… I’ll be assigned some work, start into it and get part way down the path, am ready for a commit and I realize that I’ve been changing code in the wrong branch of my local git repository. For example:
 

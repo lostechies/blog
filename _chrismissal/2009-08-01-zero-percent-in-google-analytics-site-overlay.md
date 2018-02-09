@@ -9,6 +9,7 @@ dsq_thread_id:
   - "277191700"
 categories:
   - Analytics
+redirect_from: "/blogs/chrismissal/archive/2009/08/01/zero-percent-in-google-analytics-site-overlay.aspx/"
 ---
 I was recently looking at a Google Analytics Site Overlay (a very nice feature if you haven&#8217;t seen it before) and noticed that almost all links are showing up as 0% click-through. I know this couldn&#8217;t be the case because the the bounce rate for that page was 32.75%; the numbers just didn&#8217;t add up. After digging through some help pages, I found the following: (<http://www.google.com/support/googleanalytics/bin/answer.py?hl=en&answer=66982>)
 

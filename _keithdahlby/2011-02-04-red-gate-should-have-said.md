@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - red-gate
   - reflector
+redirect_from: "/blogs/dahlbyk/archive/2011/02/03/red-gate-should-have-said.aspx/"
 ---
 Red Gate Software&#8217;s recent [open letter to the .NET community](http://www.red-gate.com/products/dotnet-development/reflector/announcement) has caused a bit of a stir. Here&#8217;s an alternate version that may have gone over better&#8230;
 

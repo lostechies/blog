@@ -11,6 +11,7 @@ categories:
   - Analysis and Design
   - 'C#'
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/06/05/violating-cqs-looking-for-suggestions-and-alternatives.aspx/"
 ---
 When doing simple input validation on forms, I often end up writing a lot of code like this:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089201"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2008/02/26/updates-to-nbehave.aspx/"
 ---
 What happened to NSpec? 
 

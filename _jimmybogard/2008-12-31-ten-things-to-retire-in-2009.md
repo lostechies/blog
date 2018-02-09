@@ -9,6 +9,7 @@ dsq_thread_id:
   - "271020604"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2008/12/30/ten-things-to-retire-in-2009.aspx/"
 ---
 This year, 2008, was a year that saw many a new term or expression get ingrained in the minds of us .NET developers.&#160; Quite a few I’d rather not see in the next year, as they’ve overstayed their welcome.&#160; Some are catch-phrases, some are misapplied concepts, and others fall into the “make my brain hurt” category.&#160; Regardless of where they came from, here are ten .NET things I’d like to see make a graceful exit in the new year:
 

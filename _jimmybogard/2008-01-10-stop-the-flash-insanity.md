@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715495"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/10/stop-the-flash-insanity.aspx/"
 ---
 More and more it seems high-profile websites are using Flash as a mechanism to deliver essential content.&nbsp; In extreme cases, such as [mycokerewards](http://www.mycokerewards.com), the entire site is built on Flash.&nbsp;&nbsp;Ads in websites, which you used to be able to ignore, now use Flash to replace the entire screen contents, screaming at you to &#8220;GO SEE CLOVERFIELD!!!&#8221;.
 

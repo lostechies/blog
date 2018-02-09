@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715836"
 categories:
   - ALTdotNET
+redirect_from: "/blogs/jimmy_bogard/archive/2008/07/12/alt-net-certification-course.aspx/"
 ---
 I am pleased to announce a new certification course, offered directly by me:
 

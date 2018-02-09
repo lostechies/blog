@@ -13,6 +13,7 @@ categories:
   - Lean Systems
   - Management
   - Philosophy of Software
+redirect_from: "/blogs/derickbailey/archive/2009/01/12/the-pathfinder-reaching-your-organization-s-goal.aspx/"
 ---
 Imagine that there are three group of people going out for a hike. Within each group of people, we have a goal of everyone reaching a picnic table at the end of the hike (and no one can eat until everyone has arrived). One of the people in each group has a map and a compass, knows how to use them, and will be directing the group on where they need to be going (we’ll call that person “the Pathfinder”). Everyone else is just along for the hike and the picnic. 
 

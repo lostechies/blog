@@ -11,6 +11,7 @@ categories:
   - DSL
   - Kaizenconf
   - MVC
+redirect_from: "/blogs/chad_myers/archive/2008/11/05/kaizenconf-mvc-and-internal-dsls-oh-my.aspx/"
 ---
 First of all, KaizenConf ended up turning out really well. Thank you Scott Bellware, David Laribee, and others involved in its organization. Also, thank you Doc List and the various sponsors who also had a big hand in its success.
 

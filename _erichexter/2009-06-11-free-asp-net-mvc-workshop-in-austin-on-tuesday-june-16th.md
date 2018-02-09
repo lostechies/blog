@@ -9,6 +9,7 @@ dsq_thread_id:
   - "272215601"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2009/06/11/free-asp-net-mvc-workshop-in-austin-on-tuesday-june-16th.aspx/"
 ---
 &#160;
 

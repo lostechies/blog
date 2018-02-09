@@ -11,6 +11,7 @@ categories:
   - Design
   - practices
   - SOLID
+redirect_from: "/blogs/gabrielschenker/archive/2009/01/30/the-dependency-inversion-principle.aspx/"
 ---
 In this post I want to discuss the _**D**_ of the **[S.O.L.I.D.](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)** principles and patterns. The principles and patterns subsumed in S.O.L.I.D. can be seen as the cornerstones of &#8220;good&#8221; application design. In this context _**D**_ is the place holder for the _dependency inversion_ principle. In a previous [post](http://gabrielschenker.lostechies.com/blogs/gabrielschenker/archive/2009/01/21/real-swiss-don-t-need-srp-do-they.aspx) I already have discussed the _**S**_ which is the placeholder for _single responsibility_ principle.
 

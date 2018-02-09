@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264781121"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx/"
 ---
 Posts in this series:
 

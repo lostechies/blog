@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268270371"
 categories:
   - PDoTDD
+redirect_from: "/blogs/chad_myers/archive/2008/10/07/pdotdd-it-s-a-wrap-recap-edition-part-2-2.aspx/"
 ---
 [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin-left: 0px;margin-right: 0px;border-right-width: 0px" height="240" alt="akbar" src="http://lostechies.com/chadmyers/files/2011/03PDoTDDItsaWrapRecapEditionPart22_11962/akbar_thumb.jpg" width="185" align="right" border="0" />](http://lostechies.com/chadmyers/files/2011/03PDoTDDItsaWrapRecapEditionPart22_11962/akbar_2.jpg)As predicted, I did forget a few “Thanks” from my [previous post on this subject](http://www.lostechies.com/blogs/chad_myers/archive/2008/10/05/pdotdd-it-s-a-wrap-thank-you-edition-part-1-2.aspx).&#160; I’d like to thank my own employer, [Dovetail Software](http://www.dovetailsoftware.com) and, personally, the CEO, Stephen Lynn who generously granted me time to attend and help organize the event. 
 

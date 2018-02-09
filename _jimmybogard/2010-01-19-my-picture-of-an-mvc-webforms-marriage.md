@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPdotNET
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2010/01/18/my-picture-of-an-mvc-webforms-marriage.aspx/"
 ---
 Like it or not, WebForms is not going away.&#160; Fortune 50 companies use it for their public facing, mission critical websites, and I can’t really see many of these folks tossing away years of work simply because MVC is the new shiny.&#160; Talking with some industry folks, I see a lot of fear/misunderstanding around the MVC/WebForms story going forward.
 

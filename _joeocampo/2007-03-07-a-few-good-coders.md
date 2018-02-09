@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089637"
 categories:
   - Humor
+redirect_from: "/blogs/joe_ocampo/archive/2007/03/06/a-few-good-coders.aspx/"
 ---
 This is a paraody based on a conversation, that one of my developers had with a development manager as he was trying to implement XP.
 

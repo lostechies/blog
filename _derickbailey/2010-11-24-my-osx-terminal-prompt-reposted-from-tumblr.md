@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263109745"
 categories:
   - Uncategorized
+redirect_from: "/blogs/derickbailey/archive/2010/11/24/my-osx-terminal-prompt-reposted-from-tumblr.aspx/"
 ---
 I wanted to post this on LosTechies, originally, but I didn&#8217;t have a good blogging tool at the time. I&#8217;m using MarsEdit now, and it seems to do what I want&#8230; but I digress&#8230;
 

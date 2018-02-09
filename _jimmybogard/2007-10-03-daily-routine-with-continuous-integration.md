@@ -9,6 +9,7 @@ dsq_thread_id:
   - "836888911"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/03/daily-routine-with-continuous-integration.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/daily-routine-with-continuous.html)._
 

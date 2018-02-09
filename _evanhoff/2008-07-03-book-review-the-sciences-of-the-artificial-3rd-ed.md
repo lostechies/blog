@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/07/03/book-review-the-sciences-of-the-artificial-3rd-ed.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/07/03/book-review-the-sciences-of-the-artificial-3rd-ed.aspx/"
 ---
 <a href="http://www.amazon.com/Sciences-Artificial-Herbert-Simon/dp/0262691914" target="_blank"><img style="border-right: 0px;border-top: 0px;margin: 0px 15px 0px 0px;border-left: 0px;border-bottom: 0px" height="244" alt="simon" src="http://www.lostechies.com/blogs/evan_hoff/WindowsLiveWriter/BookReviewTheSciencesoftheArtificial3rdE_11551/simon_3.jpg" width="167" align="left" border="0" /></a> In a nutshell, this book blew me away!&nbsp; I&#8217;m giving it 6 stars (out of 5).
 

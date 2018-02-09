@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2009/04/24/pro-tip-don-t-co-opt-net-conventions-for-your-own-purposes.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottcreynolds/archive/2009/04/24/pro-tip-don-t-co-opt-net-conventions-for-your-own-purposes.aspx/"
 ---
 Right. 
 

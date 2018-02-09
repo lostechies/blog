@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/10/26/udi-s-soa-class-made-me-smart.aspx
 categories:
   - SOA
+redirect_from: "/blogs/rhouston/archive/2008/10/26/udi-s-soa-class-made-me-smart.aspx/"
 ---
 [Chris](http://www.lostechies.com/blogs/chris_patterson) challenged me to write a post showing how smart I am after taking the class. 😉 While I know that &#8220;made me smart&#8221; is completely unbelievable, I did manage learn a great deal.
 

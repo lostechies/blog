@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123860"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/04/21/vice-testing.aspx/"
 ---
 Refactoring to tests is no easy task. The largest problem that you run into is moving around code with no feedback as to whether you are breaking modules other than doing very high level user/functional testing directly against the UI. This makes the first step of refactoring to tests the most difficult to take.
 

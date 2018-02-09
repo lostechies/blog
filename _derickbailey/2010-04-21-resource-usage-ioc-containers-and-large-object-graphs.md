@@ -12,6 +12,7 @@ categories:
   - 'C#'
   - Design Patterns
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/04/21/resource-usage-ioc-containers-and-large-object-graphs.aspx/"
 ---
 In my about [adding request/reply to the app controller](/blogs/derickbailey/archive/2010/04/15/adding-request-reply-to-the-application-controller.aspx), I talked about some resource usage problems that IoC containers can introduce if they are not used properly. Here&rsquo;s that original text, again:
 

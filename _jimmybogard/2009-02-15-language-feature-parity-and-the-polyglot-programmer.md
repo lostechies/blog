@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716059"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/15/language-feature-parity-and-the-polyglot-programmer.aspx/"
 ---
 For the average .NET developer, language features in the other .NET language don’t matter 99% of the time.&#160; Unless of course, you’re using a framework designed for features that don’t exist for the language you’re using.
 

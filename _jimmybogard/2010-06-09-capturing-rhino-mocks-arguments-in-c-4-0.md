@@ -12,6 +12,7 @@ dsq_needs_sync:
 categories:
   - 'C#'
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2010/06/09/capturing-rhino-mocks-arguments-in-c-4-0.aspx/"
 ---
 As a quick review, a [test fixture](http://xunitpatterns.com/test%20fixture%20-%20xUnit.html) has inputs and outputs.&#160; We set up our test fixture by configuring inputs.&#160; We observe the results through the fixture’s outputs.
 

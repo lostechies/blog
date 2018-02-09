@@ -13,6 +13,7 @@ categories:
   - Management
   - Retrospectives
   - Standardized Work
+redirect_from: "/blogs/derickbailey/archive/2008/11/19/adventures-in-lean.aspx/"
 ---
 In the last six months, my team has undergone some very radical changes and has turned into a full blown Agile team. I&#8217;m very happy with our success and I consider this team to be the shining example in our company, at the moment. 
 

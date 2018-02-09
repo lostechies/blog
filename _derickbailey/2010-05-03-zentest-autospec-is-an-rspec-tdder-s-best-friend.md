@@ -18,6 +18,7 @@ categories:
   - Ruby
   - Unit Testing
   - Vim
+redirect_from: "/blogs/derickbailey/archive/2010/05/03/zentest-autospec-is-an-rspec-tdder-s-best-friend.aspx/"
 ---
 In all the time that I’ve been using RSpec (almost a year now), I never knew about the zentest or autospec tools until I was recently watching a code kata that was using Ruby and RSpec. … so, now I have to ask… why didn’t I know about ZenTest and autospec until just over a week ago?! For the last year or so, I’ve been manually running my [albacore](http://albacorebuild.net) test suite after every change that I made. This meant a series of time wasting steps, dependent on what I was doing: 
 

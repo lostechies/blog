@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715580"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/02/letting-the-customer-drive-the-demo.aspx/"
 ---
 At the end of an iteration, we have a demo to the customer (and any interested stakeholders) of functionality delivered in that iteration.&nbsp; Something I hadn&#8217;t tried until recently was letting a user or customer drive the demo.&nbsp; There were some minor issues with this approach, but overall I really liked the outcome.
 

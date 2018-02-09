@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Pylons
   - Python
+redirect_from: "/blogs/rssvihla/archive/2009/06/23/python-web-framework-series-pylons-part-1-getting-started.aspx/"
 ---
 This article assumes you have <a target="_blank" href="http://www.python.org/download/">Python 2.6</a> and <a target="_blank" href="http://pypi.python.org/pypi/setuptools">Setuptools</a> already installed on your machine and that you&rsquo;re install SQL Alchemy 0.54 and Pylons 0.97
 

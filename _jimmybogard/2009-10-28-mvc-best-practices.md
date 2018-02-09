@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716326"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/10/28/mvc-best-practices.aspx/"
 ---
 Simone has a great post (as usual) on [12 ASP.NET MVC Best Practices](http://codeclimber.net.nz/archive/2009/10/27/12-asp.net-mvc-best-practices.aspx):
 

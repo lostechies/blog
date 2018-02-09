@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - introduction
   - Misc
+redirect_from: "/blogs/gabrielschenker/archive/2009/01/12/coming-from-place-far-far-away.aspx/"
 ---
 Many many thanks to all the guys from **Los Techies** for their invitation! I feel flattered being now a member of the group. Many of the members of **Los Techies** I have been able to meet personally either at the [Alt.Net Open Space](http://altdotnet.org/events/seattle) conference in Seattle/Redmond last year or at the [Kaizen conference](http://www.kaizenconf.com/) in Austin TX also last year.
 

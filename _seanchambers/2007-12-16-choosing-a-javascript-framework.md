@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123756"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/12/16/choosing-a-javascript-framework.aspx/"
 ---
 Before I dive into details of details I found in each framework I think it would be best to highlight features of each framework. In case you&#8217;ve been living under a rock, a javascript framework makes it easier for you to write complex javascript code. Almost all of them provide an effects framework for snazzy visual effects along with AJAX support for making remote updates/calls to your server. When writing any javascript in this day and age it is almost a requirement to have one of these handy frameworks in your toolkit.&nbsp;Like any new technology, many different variables are taken into account when making a decision. I will try to highlight as many of these variables in this posting.
 

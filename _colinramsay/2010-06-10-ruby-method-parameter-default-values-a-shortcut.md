@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2010/06/10/ruby-method-parameter-default-values-a-shortcut.aspx
 categories:
   - Ruby
+redirect_from: "/blogs/colin_ramsay/archive/2010/06/10/ruby-method-parameter-default-values-a-shortcut.aspx/"
 ---
 Today was one of those moments where I thought to myself: &#8220;wouldn&#8217;t it be cool if I could&#8221;&#8230; and it turned out I could. In Ruby, you can give your method parameters default values:
 

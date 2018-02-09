@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ContinuousImprovement
   - ContinuousIntegration
+redirect_from: "/blogs/jimmy_bogard/archive/2009/04/15/speeding-up-a-local-build.aspx/"
 ---
 For the past few years, I’ve been fairly strict about following a rigorous Continuous Integration process.&#160; That means we run a local build (NOT just a solution compile) before we check in.&#160; However, our local build was getting rather long.&#160; For us on a large team, five minutes is too long.&#160; It’s just long enough that people start to get bored.&#160; It’s just long enough that we attached a build chime to the end so that we had audible cues that our build was done (no one likes to stare at a console screen).
 

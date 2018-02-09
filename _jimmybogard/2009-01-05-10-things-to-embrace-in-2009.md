@@ -10,6 +10,7 @@ dsq_thread_id:
   - "264716013"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2009/01/04/10-things-to-embrace-in-2009.aspx/"
 ---
 With 2008 behind us, what better way to kick off the new year than another cheesy top 10 list.&#160; This time, with **more bold!**
 

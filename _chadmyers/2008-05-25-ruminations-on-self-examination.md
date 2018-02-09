@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113832"
 categories:
   - Self-examination
+redirect_from: "/blogs/chad_myers/archive/2008/05/24/ruminations-on-self-examination.aspx/"
 ---
 First, let me apologize for not sticking to my self-imposed regimen of only meat-posts for the next few months, but I was smacked in the face by these tonight and wanted to share them with you.&nbsp; Second, I don&#8217;t proclaim to be any good at following any of these or be any sort of expert at them. I heard them tonight and will try to put them into action the best I can. I wanted to share them with you so that maybe you might get some benefit from them also.
 

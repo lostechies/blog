@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264874358"
 categories:
   - ALTdotNET
+redirect_from: "/blogs/chris_patterson/archive/2008/04/18/alt-net-seattle-starts-tonight.aspx/"
 ---
 While I&#8217;m trying to keep my posts at pace with the event here in Seattle, it gets harder as more attendees arrive. Yesterday, Evan Hoff showed up and we took another trip down to Pike Place Market for some food and festivities. After an afternoon of good conversation, we went to Kells Irish Pub to meet up with Ayende and Udi (along with some other folks) to talk about software architecture.
 

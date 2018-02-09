@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262068030"
 categories:
   - Community
+redirect_from: "/blogs/derickbailey/archive/2009/02/14/it-s-2-for-1-day-welcome-louis-and-sean.aspx/"
 ---
 This weekend, I was given the honor of inviting both [Louis Salin](/blogs/louissalin/default.aspx) and [Sean Biefeld](/blogs/seanbiefeld/default.aspx) to be a part of the Los Techies crew.
 

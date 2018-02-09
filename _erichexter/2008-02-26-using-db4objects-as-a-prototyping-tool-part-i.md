@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - DB4O
+redirect_from: "/blogs/hex/archive/2008/02/26/using-db4objects-as-a-prototyping-tool-part-i.aspx/"
 ---
 {% raw %}
 I have been looking at DB4Objects [http://db4objects.com](http://db4objects.com/) as a persistence layer that could help with prototyping work. If you are not familiar with db4objects ( DB4O ), it is an object oriented database.&nbsp; What does that mean?&nbsp; If I boil it down in laymen&#8217;s terms : it is a database without tables or columns. 

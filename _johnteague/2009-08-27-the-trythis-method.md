@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055710"
 categories:
   - 'C#'
+redirect_from: "/blogs/johnteague/archive/2009/08/27/the-trythis-method.aspx/"
 ---
 The more I learn and use dynamic languages like JavaScript and Ruby, the more I feel the constraints placed on me by the C# compiler.&#160; Today I needed to wrap a bunch of calls to a web service facade in some try catch statements.&#160; I really hated the idea of littering my code with these because a lot them make the code that much harder to read.&#160; What I really wanted was a method that would execute the statement in a try/catch and do the necessary exception handling for me. In this situation, the method calls were very different (number of parameters, return values), but the error handling was exactly the same.
 

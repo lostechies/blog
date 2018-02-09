@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - How To
   - Misc
+redirect_from: "/blogs/gabrielschenker/archive/2009/10/21/force-net-application-to-run-in-32bit-process-on-64bit-os.aspx/"
 ---
 ## Introduction
 

@@ -11,6 +11,7 @@ categories:
   - BDD
   - BehaviorDrivenDevelopment
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/16/eliminating-obscure-tests.aspx/"
 ---
 One of the purported benefits of unit tests and TDD in general is unit tests doubling as living documentation.&nbsp; Unit tests are documentation in the form of executable client code demonstrating small units of behavior.&nbsp; The idea is that if you wanted to understand how a class worked, you simply needed to look at the unit tests.
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/11/30/the-shape-of-the-domain-model.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/11/30/the-shape-of-the-domain-model.aspx/"
 ---
 This is a bit of a random thought which I had this morning regarding the relationship between the domain model and data.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055589"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/01/20/google-s-testers-take-on-dependency-injection.aspx/"
 ---
 If you’re not already subscribing to the [Google Testing Blog](http://googletesting.blogspot.com/), you should be.&#160; There are some really interesting articles on it.&#160; The latest one takes on if and [when to use Dependency Injection](http://googletesting.blogspot.com/2009/01/when-to-use-dependency-injection.html).&#160; I agree with their answer: **yes** and **always!**
 

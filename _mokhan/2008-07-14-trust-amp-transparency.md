@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/07/14/trust-amp-transparency.aspx
 categories:
   - Teamwork
+redirect_from: "/blogs/mokhan/archive/2008/07/14/trust-amp-transparency.aspx/"
 ---
 Our team is comprised of 3 dedicated developers, 1 project manager, 1 super dedicated product owner and a trusty task board. Although, we&#8217;re a small team we&#8217;ve been uber successful, and so far have been able to out perform the competition (in a surprisingly short amount of time).
 

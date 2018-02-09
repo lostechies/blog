@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715444"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/20/resharper-in-vs-2008.aspx/"
 ---
 **UPDATE 11/26/2007**
 

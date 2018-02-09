@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2007/04/16/evils-of-duplication.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/evils-of-duplication.html)._
 

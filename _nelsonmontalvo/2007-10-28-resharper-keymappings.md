@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/10/28/resharper-keymappings.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/nelson_montalvo/archive/2007/10/28/resharper-keymappings.aspx/"
 ---
 As part of the install of ReSharper 3.0 install into Visual Studio 2008, I "accidentally" selected the Visual Studio keymappings to try it out. 
 

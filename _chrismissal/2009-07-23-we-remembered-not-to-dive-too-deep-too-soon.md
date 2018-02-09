@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - development
   - Project Management
+redirect_from: "/blogs/chrismissal/archive/2009/07/22/we-remembered-not-to-dive-too-deep-too-soon.aspx/"
 ---
 While reading &#8220;[Remember to not dive too deep too soon](http://devlicio.us/blogs/derik_whittaker/archive/2009/07/22/remember-to-not-dive-too-deep-too-soon.aspx)&#8221; by [Derik Whittaker](http://devlicio.us/blogs/derik_whittaker/default.aspx), I was reminded of something that happened at work today. We were going over a couple new stories in our backlog and needed to assign points to them.
 

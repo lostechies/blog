@@ -9,6 +9,7 @@ dsq_thread_id:
   - "450726259"
 categories:
   - ALTdotNET
+redirect_from: "/blogs/chris_patterson/archive/2008/04/13/preparing-for-alt-net-seattle.aspx/"
 ---
 While the MVPs descend upon Seattle for the 2008 MVP Summit, I&#8217;m getting ready to head to Seattle for the ALT.NET Open Spaces Conference this coming weekend. Many of the people attending the ALT.NET conference are also MVPs, so there are likely to be some tired folks by the end of this week(end). 
 

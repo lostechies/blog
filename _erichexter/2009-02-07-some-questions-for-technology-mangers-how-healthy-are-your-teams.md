@@ -11,6 +11,7 @@ categories:
   - .NET
   - Agile
   - continous improvement
+redirect_from: "/blogs/hex/archive/2009/02/07/some-questions-for-technology-mangers-how-healthy-are-your-teams.aspx/"
 ---
 ****
 

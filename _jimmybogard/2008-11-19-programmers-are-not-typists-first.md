@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715984"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/18/programmers-are-not-typists-first.aspx/"
 ---
 [Jeff Atwood](http://www.codinghorror.com/blog/) [had a recent post](http://www.codinghorror.com/blog/archives/001188.html) that coders are typists first, programmers second:
 

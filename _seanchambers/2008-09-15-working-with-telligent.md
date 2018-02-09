@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123831"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/09/15/working-with-telligent.aspx/"
 ---
 Over the last couple of months I have been casually looking at the job market in the Jacksonville/Orlando area at various opportunities. None of the really interested me and had mediocre opportunities at best. I was comfortable in my current job, but was looking for more of a challenge. Eventually, I came to the conclusion that in order for me to continue to gain
   

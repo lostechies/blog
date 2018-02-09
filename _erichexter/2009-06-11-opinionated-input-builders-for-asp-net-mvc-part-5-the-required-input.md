@@ -14,6 +14,7 @@ categories:
   - 'C#'
   - CoC
   - mvccontrib
+redirect_from: "/blogs/hex/archive/2009/06/10/opinionated-input-builders-for-asp-net-mvc-part-5-the-required-input.aspx/"
 ---
   * <a target="_blank" href="/blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-using-partials-part-i.aspx">Part 1 &ndash; Overview</a>
   * <a target="_blank" href="/blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-part-2-html-layout-for-the-label.aspx">Part 2 &ndash; the Labe</a>l

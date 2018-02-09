@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113960"
 categories:
   - StructureMap
+redirect_from: "/blogs/chad_myers/archive/2008/08/01/stucturemap-advanced-level-usage-scenarios-part-1-type-convention-scanners.aspx/"
 ---
 I’ll start with my strong hand on the advanced StructureMap-foo and go straight to the type scanners (a.k.a. convention scanners).&#160; Thankfully, there was [a thread](http://groups.google.com/group/structuremap-users/browse_thread/thread/5f3c5c6824d380ad) on the [StructureMap Users mailing list](http://groups.google.com/group/structuremap-users) with just the kind of problem these things solve. I’ll use that problem as the strawman for this post.
 

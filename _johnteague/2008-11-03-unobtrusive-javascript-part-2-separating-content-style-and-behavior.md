@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055564"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2008/11/03/unobtrusive-javascript-part-2-separating-content-style-and-behavior.aspx/"
 ---
 In my first post, I described some of the major principles that drive UJS style of development.&nbsp; In this article, I&#8217;m going into more detail about separating content from markup.
 

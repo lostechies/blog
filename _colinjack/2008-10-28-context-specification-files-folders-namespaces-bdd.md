@@ -8,6 +8,7 @@ wordpress_guid: /blogs/colinjack/archive/2008/10/28/context-specification-files-
 categories:
   - BDD
   - TDD
+redirect_from: "/blogs/colinjack/archive/2008/10/28/context-specification-files-folders-namespaces-bdd.aspx/"
 ---
 <span style="font-weight: bold">Files/Folders</span>  
 One thing that can be troublesome when moving to a&nbsp;BDD style approach is how to organize your files and folders, so far I&#8217;ve tried two approaches: 

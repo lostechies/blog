@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/28/alt-net-re-how-can-microsoft-patterns-and-practices-help.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/28/alt-net-re-how-can-microsoft-patterns-and-practices-help.aspx/"
 ---
 Please <a href="http://www.lostechies.com/blogs/evan_hoff/archive/2007/10/28/alt-net-how-can-microsoft-patterns-and-practices-help.aspx" target="_blank">read this</a> first&nbsp;
 

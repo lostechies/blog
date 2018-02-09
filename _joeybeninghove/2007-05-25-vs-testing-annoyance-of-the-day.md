@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joeydotnet/archive/2007/05/25/vs-testing-annoyance-of-the
 categories:
   - TDD
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/05/25/vs-testing-annoyance-of-the-day.aspx/"
 ---
 This is mostly a rant, so feel free to skip this one.&nbsp; Really.
 

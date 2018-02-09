@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088216"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/05/11/upgraded-to-community-server-2007.aspx/"
 ---
 </p> 
 

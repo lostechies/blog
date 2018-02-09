@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Command Processor Pattern
   - DDD
+redirect_from: "/blogs/johnteague/archive/2010/11/22/using-a-command-execution-style-architecture-with-a-domain-model.aspx/"
 ---
 Kyle Baley has an interesting [article](http://codebetter.com/blogs/kyle.baley/archive/2010/10/20/command-pattern-architecture-or-how-to-do-it-a-little-at-a-time.aspx) about how he’s using commands to break up the logic of his application into small manageable pieces. I’m using the same command processor pattern for a project I’ve working on as well.&#160; It&#8217;s a great way for breaking up those "service" classes that really just end up as great big lint collectors for various methods.
 

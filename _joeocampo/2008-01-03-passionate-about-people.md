@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
+redirect_from: "/blogs/joe_ocampo/archive/2008/01/02/passionate-about-people.aspx/"
 ---
 Over the last couple of weeks I have had time to observe many aspects of myself and of the development community. 
 

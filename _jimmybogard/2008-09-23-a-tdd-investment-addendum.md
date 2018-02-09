@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266605771"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/09/22/a-tdd-investment-addendum.aspx/"
 ---
 I completely left out one very important tip in my [top 10 tips to get a return on your TDD investment](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/09/21/ten-tips-to-maximize-the-return-on-your-tdd-investment.aspx):
 

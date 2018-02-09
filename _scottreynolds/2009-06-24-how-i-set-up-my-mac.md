@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2009/06/24/how-i-set-up-my-mac.aspx
 categories:
   - mac
+redirect_from: "/blogs/scottcreynolds/archive/2009/06/24/how-i-set-up-my-mac.aspx/"
 ---
 Some time ago I [switched](http://scottcreynolds.com/archive/2008/07/12/moving-to-the-macbook-pro.aspx) to Mac OS X for my day to day work, using Windows only in a virtual machine for when I absolutely needed to use Visual Studio.
 

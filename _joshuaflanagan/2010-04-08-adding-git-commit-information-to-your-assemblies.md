@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - git
   - teamcity
+redirect_from: "/blogs/joshuaflanagan/archive/2010/04/08/adding-git-commit-information-to-your-assemblies.aspx/"
 ---
 ### The problem
 

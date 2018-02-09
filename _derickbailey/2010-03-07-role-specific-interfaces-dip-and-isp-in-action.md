@@ -12,6 +12,7 @@ categories:
   - 'C#'
   - Model-View-Presenter
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/03/07/role-specific-interfaces-dip-and-isp-in-action.aspx/"
 ---
 I do most of my UI development – in ASP.NET WebForms and in WinForms – with a Model-View-Presenter setup. It helps me keep my application logic separate from my view implementations, makes it possible to unit test the presenters, etc. I also like to use custom controls – often with their own presenter &#8211; to help encapsulate UI related process and keep my UI implementations clean. The challenge with custom controls is getting them to converse to each other and getting the parent form to converse with the controls. My favorite way of solving this challenge is through simple [messaging patterns](http://www.lostechies.com/blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx). This gives you a lot of control and ensures your system is nice and decoupled. Of course, there is a cost/benefit tradeoff that needs to be considered. There may not need the indirection and potential complexities that come along with those solutions. The system in question may not need a messaging system, event aggregator, command pattern or whatever else. There are times when its easier and makes more sense to forego these patterns and have the presenters talk directly to each other. 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088371"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/11/scrum-creates-job-opportunities.aspx/"
 ---
 Well maybe at least for consultants that is.
 

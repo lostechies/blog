@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/14/agile-bibliography-wiki.aspx/"
 ---
 <info>
 

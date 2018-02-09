@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055759"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/12/16/the-open-space-conference-experience.aspx/"
 ---
 he [Los Techies Fiesta](http://fiesta.lostechies.com) is shaping up to be a wonderful conference.&#160; We’ve had excellent response with more than 60 people register and quite a few sponsors to help make it even better.&#160; I thought I would take a moment and talk about what it&#8217;s like attending and open space conference.&#160; These are, of course, my experiences and one thing about an Open Space conference is that everyone’s experience will be different.
 

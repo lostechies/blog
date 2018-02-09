@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715756"
 categories:
   - ASPdotNET
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/21/working-with-the-web-model.aspx/"
 ---
 Lots of comments from my [recent post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/05/18/asp-net-officially-unmaintainable.aspx) on <strike>ASP.NET</strike> WebForms being officially unmaintainable noted that:
 

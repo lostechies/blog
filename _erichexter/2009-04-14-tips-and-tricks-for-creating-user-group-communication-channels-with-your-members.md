@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Community
   - Usergroup
+redirect_from: "/blogs/hex/archive/2009/04/13/tips-and-tricks-for-creating-user-group-communication-channels-with-your-members.aspx/"
 ---
 I know this is not a code related post, but I think that community in the software development industry is important.&#160; Here are some tricks that I have been using which combine some of my experience working in eCommerce with my experience running the communication for the Austin .Net Users Group.
 

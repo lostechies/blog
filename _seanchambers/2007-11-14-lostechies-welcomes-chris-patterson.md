@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123714"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/11/14/lostechies-welcomes-chris-patterson.aspx/"
 ---
 Let me take this moment to welcome Chris Patterson to the LosTechies crew. Many of you know him has PhatBoyG. His website can be found here: [http://www.phatboyg.com](http://www.phatboyg.com/). His blog on LosTechies can be found at this address: <http://www.lostechies.com/blogs/chris_patterson/>
 

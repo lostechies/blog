@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262217226"
 categories:
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2011/02/23/how-to-have-bundler-load-a-custom-gem-into-a-rails-3-app.aspx/"
 ---
 I have a rails 3 app that needs some specific functionality that is built into a gem. Unfortunately, the current gem that is published on RubyGems.org only works with rails 2. I was able to get the gem to work by commenting out some code that I don&#8217;t need, though. I wanted to do a custom gem build and have this gem installed into my rails app&#8217;s vendor folder, so Bundler could load it from there (note: the gem is MIT licensed, so there&#8217;s nothing stopping me from doing this, legally). But I only want this one gem to load from the vendor folder. The rest of the gems in the app should load from wherever bundler normally loads gems.
 

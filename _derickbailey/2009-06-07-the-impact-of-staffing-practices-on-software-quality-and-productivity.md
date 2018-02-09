@@ -11,6 +11,7 @@ categories:
   - Management
   - Philosophy of Software
   - Quality
+redirect_from: "/blogs/derickbailey/archive/2009/06/07/the-impact-of-staffing-practices-on-software-quality-and-productivity.aspx/"
 ---
 ### A Junior-Heavy Organization
 

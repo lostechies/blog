@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Misc
   - Programming
+redirect_from: "/blogs/chad_myers/archive/2008/03/03/ping-pong-pairing-it-s-not-just-for-breakfast-anymore.aspx/"
 ---
 Yesterday was my first day working at my new employer, [Bayern Software](http://www.bayernsoftware.com/), with (name drop alert!) [Jeremy Miller](http://codebetter.com/blogs/jeremy.miller/default.aspx).&nbsp; We started right off with an easy story doing ping-pong pairing. I really dig this method of doing development (not to mention pairing, not to mention TDD).
 

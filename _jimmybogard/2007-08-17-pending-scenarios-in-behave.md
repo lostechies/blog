@@ -9,6 +9,7 @@ dsq_thread_id:
   - "317229731"
 categories:
   - 'Behave#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/08/17/pending-scenarios-in-behave.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/pending-scenarios-in-behave.html)._
 

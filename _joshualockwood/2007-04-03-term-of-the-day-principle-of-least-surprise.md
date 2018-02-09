@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joshua_lockwood/archive/2007/04/03/term-of-the-day-princi
 categories:
   - Best Practices
   - Principles
+redirect_from: "/blogs/joshua_lockwood/archive/2007/04/03/term-of-the-day-principle-of-least-surprise.aspx/"
 ---
 The principle of least surprise (AKA POLS) simply dictates that the interface to any given entity (method, for instance) should exhibit the bevahior that is least suprising to the user/programmer when there are conflicts or ambiguities between members of said interface.
 

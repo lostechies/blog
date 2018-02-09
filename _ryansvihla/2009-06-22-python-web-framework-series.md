@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1370582316"
 categories:
   - Uncategorized
+redirect_from: "/blogs/rssvihla/archive/2009/06/22/python-web-framework-series.aspx/"
 ---
 I&rsquo;ve wanted to dive more in depth into Python&rsquo;s web frameworks for some time and get to know them the way I know Castle Monorail.&nbsp;&nbsp; 
 

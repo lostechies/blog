@@ -14,6 +14,7 @@ categories:
   - masstransit
   - msmq
   - OSX
+redirect_from: "/blogs/chris_patterson/archive/2009/07/12/accessing-activemq-on-mac-osx-from-a-windows-vm.aspx/"
 ---
 With [MassTransit](http://code.google.com/p/masstransit/), we support multiple messaging transports, including MSMQ (comes with Windows), ActiveMQ (an open-source Java message broker), and [TIBCO EMS](http://www.tibco.com/software/messaging/enterprise-message-service/default.jsp) (a not-so-open-source message broker). With that in mind, teams building on the Windows platform can comfortably choose MSMQ and enjoy familiar management tools. If your needs expand to multiple platforms, however, the other choices become more important. One of our goals is to enable MassTransit to communicate between services running on Windows, OS X, and Linux. By using the [Mono Project](http://mono-project.com/Main_Page) to run .NET code on OS X and Linux, and ActiveMQ to handle the messaging, we&#8217;re pretty confident that we can reach that goal.
 

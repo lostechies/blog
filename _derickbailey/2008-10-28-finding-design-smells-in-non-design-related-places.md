@@ -15,6 +15,7 @@ categories:
   - NHibernate
   - Principles and Patterns
   - Refactoring
+redirect_from: "/blogs/derickbailey/archive/2008/10/28/finding-design-smells-in-non-design-related-places.aspx/"
 ---
 In <a href="http://www.lostechies.com/blogs/derickbailey/archive/2008/10/23/encapsulation-entities-collections-and-business-rules.aspx" target="_blank">my last post</a>, I talked about the idea of encapsulation and using it to ensure that our business rules were enforced correctly. What I didn&#8217;t talk about, though, was the second half of the conversation that my coworker and I had, concerning the patent -> consultation relationship. It turns out that we had the relationship wrong. That&#8217;s not to say that patients don&#8217;t have consultations, but that the logical model we were traveling with had an incorrect perspective and was causing us to create some very ugly workarounds in various parts of the system. What really stuck out in my mind, though, was not the idea that we had the model wrong, but how we came to the conclusion of the model being wrong. It has become apparent to me, upon reflection of the conversations and situation as a whole, that design smells are not always evidenced by design related activities, if ever.
 

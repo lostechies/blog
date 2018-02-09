@@ -12,6 +12,7 @@ categories:
   - Branching Strategies
   - Principles and Patterns
   - Source Control
+redirect_from: "/blogs/derickbailey/archive/2010/04/06/branching-strategies-handling-dependencies-between-branches.aspx/"
 ---
 Every system evolves over times. There’s no way around this and there is no reasonable/certain/real way to think ahead 100% of the time. It’s simply not possible to predict every possible outcome or issue or situation. This change affects every part of software development, from requirements and feature definition, down to the code, and out to source control and configuration management. Good architecture, coding practices and source control management can make change easier, but even when all of the rules for when to use which branching strategy in source control are followed, there are still going to be situations that make it difficult to keep branches clean and decoupled. At some point in a project’s lifecycle, branch dependencies – where one or more branches directly depend on the features, functionality, code, and/or other changes in another branch that is currently in development – will occur. When this happens, there are some high level techniques that can be used to mitigate the problems.
 

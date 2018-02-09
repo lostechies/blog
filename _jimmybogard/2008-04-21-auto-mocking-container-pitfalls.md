@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - TDD
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/04/21/auto-mocking-container-pitfalls.aspx/"
 ---
 I&#8217;m taking a closer look at the auto-mocking container idea, specifically as we&#8217;re including it in the upcoming release of NBehave.&nbsp; I&#8217;m a little wary of prolonged use, but wanted to get some feedback (it&#8217;s also on the ALT.NET message board).&nbsp; Some pitfalls I thought of offhand were:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "269927140"
 categories:
   - git
+redirect_from: "/blogs/derickbailey/archive/2010/07/22/why-is-git-trying-to-delete-my-project-folder.aspx/"
 ---
  <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_06B4F115.png" width="963" height="344" />
 

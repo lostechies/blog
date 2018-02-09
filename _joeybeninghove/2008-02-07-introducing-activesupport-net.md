@@ -9,6 +9,7 @@ categories:
   - 'C#'
   - Rails
   - Ruby
+redirect_from: "/blogs/joeydotnet/archive/2008/02/07/introducing-activesupport-net.aspx/"
 ---
 To my surprise, none of my googling seemed to come up with anyone doing this.&nbsp; So I figured I&#8217;d start it off (please let me know if you know of any other efforts already underway).&nbsp; As some would say, taking [extension method abuse](http://codebetter.com/blogs/david.hayden/archive/2007/03/28/Extension-Methods-in-C_2300_-3.0---Shiny-New-Hammer-Looking-for-a-Nail-_3A002900_.aspx) to a whole new level.&nbsp; 😀&nbsp; But, I see these little utility methods to be a good fit as extensions methods to make the syntactic sugar that much sweeter.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "274094817"
 categories:
   - Uncategorized
+redirect_from: "/blogs/dahlbyk/archive/2009/08/18/introducing-lazylinq-internals.aspx/"
 ---
 This is the second in a series of posts on LazyLinq, a wrapper to support lazy initialization and deferred disposal of a LINQ query context: 
 

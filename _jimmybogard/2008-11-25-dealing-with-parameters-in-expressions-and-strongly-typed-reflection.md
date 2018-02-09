@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266626728"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/24/dealing-with-parameters-in-expressions-and-strongly-typed-reflection.aspx/"
 ---
 Something that always bothered me using Expression trees for strongly-typed reflection were the weirdness of doing reflection for methods that return parameters.&#160; Expression trees and reflection go hand-in-hand when doing fluent interfaces/internal DSLs.&#160; Suppose we want to do strongly-typed reflection over this class:
 

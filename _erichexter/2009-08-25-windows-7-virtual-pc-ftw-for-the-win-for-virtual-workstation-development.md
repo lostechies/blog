@@ -11,6 +11,7 @@ categories:
   - .NET
   - Tools
   - Virtual Machines
+redirect_from: "/blogs/hex/archive/2009/08/25/windows-7-virtual-pc-ftw-for-the-win-for-virtual-workstation-development.aspx/"
 ---
 I have constantly fought both Virtual PC and VM Workstation when working on virtual machines for development purposes. While VMWare had the features I liked it also had a price tag and a rather smug attitude. I usually ended up having to use the free version of VMWare which was crippled or Virtual PC which was not much better. Both were missing features that I wanted.
 

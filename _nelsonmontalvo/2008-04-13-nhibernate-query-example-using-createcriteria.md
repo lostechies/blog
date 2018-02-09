@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2008/04/13/nhibernate-query-example-using-createcriteria.aspx
 categories:
   - NHibernate
+redirect_from: "/blogs/nelson_montalvo/archive/2008/04/13/nhibernate-query-example-using-createcriteria.aspx/"
 ---
 I&#8217;m a big fan of NHibernate. I love how it abstracts out the data portion of your application and allows you to work from the perspective of the domain rather than the database.
 

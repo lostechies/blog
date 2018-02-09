@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123817"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/06/21/a-call-for-alt-net-speakers.aspx/"
 ---
 In an attempt to spread awareness in the North/Central Florida area on Alt.Net topics I am trying to gather speakers&nbsp;familiar with Alt.Net topics to speak at the <A class="" title="Jacksonville Code Camp" href="http://www.jaxcodecamp.com/" target="_blank">Jacksonville Code Camp</A> that is coming up on August 23rd.&nbsp;The&nbsp;topics I am envisioning are Domain Driven&nbsp;Design, TDD, BDD, NHibernate, ORM&#8217;s in general or any other topics that would be of interest in the alt.net space.
 

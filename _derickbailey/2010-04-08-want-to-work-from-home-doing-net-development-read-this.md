@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - 'C#'
+redirect_from: "/blogs/derickbailey/archive/2010/04/08/want-to-work-from-home-doing-net-development-read-this.aspx/"
 ---
 **UPDATE: This job posting is closed.** Thanks to everyone who read this and responded by submitting a resume! We had more tremendously talented applications for the position than we could handle. 🙂
 

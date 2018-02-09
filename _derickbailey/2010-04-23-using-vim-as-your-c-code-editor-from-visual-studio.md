@@ -14,6 +14,7 @@ categories:
   - Resharper
   - Vim
   - Visual Studio
+redirect_from: "/blogs/derickbailey/archive/2010/04/23/using-vim-as-your-c-code-editor-from-visual-studio.aspx/"
 ---
 No, not through [ViEmu](http://www.viemu.com/) or [VsVim](http://github.com/jaredpar/VsVim)… I mean, actual honest to goodness [Vim](http://vim.org). 
 

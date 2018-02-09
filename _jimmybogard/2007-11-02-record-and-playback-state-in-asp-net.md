@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPdotNET
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/02/record-and-playback-state-in-asp-net.aspx/"
 ---
 Most ASP.NET applications hold various state objects in Session, Application, or other stateful mediums.&nbsp; For regression testing and defect reproducing purposes, often I want to capture the _exact_ state of these objects and replay them back at a later time, without needing to walk through the exact steps needed to setup that state.&nbsp; For many defects, I don&#8217;t know how the state got to where it was, I just know what the state is, so I need a mechanism to record it and play it back.
 

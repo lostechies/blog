@@ -9,6 +9,7 @@ dsq_thread_id:
   - "282353040"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2008/10/19/heartland-developers-conference-2008.aspx/"
 ---
 This past week I had the pleasure of attending the [Heartland Developers Conference](http://www.heartlanddc.com/Omaha/) in Omaha, Nebraska. I was already in town visiting family and decided to take a day to see what the local flavor had to offer. I&#8217;m particularly grateful to Joe Olsen of [PhenomBlue](http://www.phenomblue.com/) for allowing me to register. I was originally hoping to secure a spot as a presenter, but the list apparently fills up in early March so next year I&#8217;ll try to plan for it.
 

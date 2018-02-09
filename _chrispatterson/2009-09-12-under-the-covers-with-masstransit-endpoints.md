@@ -13,6 +13,7 @@ categories:
   - 'C#'
   - masstransit
   - msmq
+redirect_from: "/blogs/chris_patterson/archive/2009/09/12/under-the-covers-with-masstransit-endpoints.aspx/"
 ---
 _This post details some of the internal changes to how [MassTransit](http://code.google.com/p/masstransit/), an open-source lightweight service bus, communicates with transports such as MSMQ, ActiveMQ, and TIBCO. These changes are not likely to impact anyone using MassTransit, they are all well below the abstraction layer provided by the bus. At the same time, I felt it was important to share the change, along with the reasons it was made, with those that are using MassTransit._ 
 

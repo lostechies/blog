@@ -9,6 +9,7 @@ dsq_thread_id:
   - "285174268"
 categories:
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/03/failures-of-aimless-large-scale-refactorings.aspx/"
 ---
 At the recent Austin Code Camp, I heard a few stories after my Legacy Code talk about teams attacking their legacy code in prolonged refactoring binges that never seemed to end.&nbsp; Never ending, because no one had a good idea of what success looked like.
 

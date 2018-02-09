@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716090"
 categories:
   - ContinuousIntegration
+redirect_from: "/blogs/jimmy_bogard/archive/2009/03/05/transactions-and-the-check-in-dance.aspx/"
 ---
 At our current project, I’m on the largest individual team I’ve ever worked for.&#160; I’ve been in larger groups working on the same codebase, but not where everyone was actually committing code every day.&#160; One thing that’s been a constant for me in XP/Agile teams is CI and the [check-in dance](http://codebetter.com/blogs/jeremy.miller/archive/2005/07/25/129797.aspx).&#160; The check-in dance is roughly as follows:
 

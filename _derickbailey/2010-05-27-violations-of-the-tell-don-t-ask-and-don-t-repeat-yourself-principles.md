@@ -13,6 +13,7 @@ categories:
   - AntiPatterns
   - 'C#'
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/05/27/violations-of-the-tell-don-t-ask-and-don-t-repeat-yourself-principles.aspx/"
 ---
 In the last few years, I’ve written a lot of code that looks like this:
 

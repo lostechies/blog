@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/11/03/intercepting-business-transactions.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/mokhan/archive/2008/11/03/intercepting-business-transactions.aspx/"
 ---
 In [Patterns of Enterprise Application Architecture](http://www.amazon.com/Enterprise-Application-Architecture-Addison-Wesley-Signature/dp/0321127420), the Unit of Work design pattern is defined as:
 

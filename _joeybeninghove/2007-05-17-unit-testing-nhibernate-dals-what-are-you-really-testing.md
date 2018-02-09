@@ -10,6 +10,7 @@ categories:
   - Patterns
   - TDD
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/05/17/unit-testing-nhibernate-dals-what-are-you-really-testing.aspx/"
 ---
 </p> 
 

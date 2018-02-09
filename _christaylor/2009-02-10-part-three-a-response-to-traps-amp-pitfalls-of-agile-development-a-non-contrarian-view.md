@@ -10,6 +10,7 @@ categories:
   - Community
   - Extreme Programming
   - I.T. Management
+redirect_from: "/blogs/agilecruz/archive/2009/02/10/part-three-a-response-to-traps-amp-pitfalls-of-agile-development-a-non-contrarian-view.aspx/"
 ---
 In the previous two installments ([Part One](/blogs/agilecruz/archive/2009/02/10/part-one-a-response-to-traps-amp-pitfalls-of-agile-development-a-non-contrarian-view.aspx) and [Part Two](/blogs/agilecruz/archive/2009/02/10/part-two-a-response-to-traps-amp-pitfalls-of-agile-development-a-non-contrarian-view.aspx)), I wrote about Pitfalls 1 through 5 of [Sean Landis&rsquo; this blog entry](http://www.artima.com/weblogs/viewpost.jsp?thread=246513).&nbsp; I continue with Pitfall 6 here.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716549"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2010/08/05/oss-and-the-net-framework-upgrade.aspx/"
 ---
 I’ve hit a bit of a dilemma recently, I want to use features in C# 4.0 and .NET 4.0 to enhance AutoMapper, but this would eliminate the possibility of .NET 3.0 projects from being able to use the new version.
 

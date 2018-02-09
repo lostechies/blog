@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123776"
 categories:
   - microsoft mvc
+redirect_from: "/blogs/sean_chambers/archive/2008/02/26/what-happened-to-you-ve-been-haacked.aspx/"
 ---
 I normally don&#8217;t write blog posts directly at one person. I don&#8217;t like to be confrontational, and I have professional courtesy. That being said, please take this post as constructive criticism rather than being negative.
 

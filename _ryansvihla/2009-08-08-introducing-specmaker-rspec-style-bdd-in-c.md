@@ -13,6 +13,7 @@ categories:
   - Context
   - Spec
   - SpecMaker
+redirect_from: "/blogs/rssvihla/archive/2009/08/08/introducing-specmaker-rspec-style-bdd-in-c.aspx/"
 ---
 So I&rsquo;m certain this will be met with mixed response, because really .Net already has several decent BDD frameworks and many of you will chastise me for adding yet another framework when really BDD has nothing to do with what testing framework you use.&nbsp; So why you ask?
 

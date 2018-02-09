@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262105677"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2009/06/17/opinionated-input-builders-part-8-the-auto-form.aspx/"
 ---
   * <a href="/blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-using-partials-part-i.aspx" target="_blank">Part 1 – Overview</a> 
   * <a href="/blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-part-2-html-layout-for-the-label.aspx" target="_blank">Part 2 – the Labe</a>l 

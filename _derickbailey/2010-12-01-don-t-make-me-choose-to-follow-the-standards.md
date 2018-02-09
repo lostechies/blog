@@ -15,6 +15,7 @@ categories:
   - Security
   - Standardized Work
   - User Experience
+redirect_from: "/blogs/derickbailey/archive/2010/11/30/don-t-make-me-choose-to-follow-the-standards.aspx/"
 ---
 Most systems that involve humans making decisions have a set of standards: guidelines, rules and/or policies that help people make good decisions. These standards are usually in place for good reason &#8211; to prevent bad things from happening or to encourage good things. Software development and the software that we use every day are no different. For example, we set standards in how we develop our software: what language, what frameworks, the architectures, the application partitioning, and much much more. We also set standards in how people use our software &#8211; the user interface and how users interact with the system. Standards are all around us every day, even if we don&#8217;t recognize them.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Misc
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2007/07/05/when-technical-debt-leads-to-bankruptcy.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/07/when-technical-debt-leads-to-bankruptcy.html)._
 

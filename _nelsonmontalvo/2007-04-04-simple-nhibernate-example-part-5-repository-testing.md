@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/04/03/simple-nhibernate-example-part-5-repository-testing.aspx
 categories:
   - NHibernate
+redirect_from: "/blogs/nelson_montalvo/archive/2007/04/03/simple-nhibernate-example-part-5-repository-testing.aspx/"
 ---
 <a href="http://devlicio.us/blogs/billy%5Fmccafferty/" target="_blank">Bill McCafferty</a> has released his updates to his NHibernate Best Practices article. <a href="http://www.codeproject.com/aspnet/NHibernateBestPractices.asp" target="_blank">The article</a> is fantastic. It is listed as an advanced topic, but if you follow every link and study the topics in his article, the article makes for as great&nbsp;a comprehensive introduction as any&#8230; Go <a href="http://www.codeproject.com/aspnet/NHibernateBestPractices.asp" target="_blank">read it</a> now. 
 

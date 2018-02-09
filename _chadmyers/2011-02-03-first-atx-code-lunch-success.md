@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ATX Code Lunch
   - Austin
+redirect_from: "/blogs/chad_myers/archive/2011/02/03/first-atx-code-lunch-success.aspx/"
 ---
 [<img style="border-right-width: 0px;margin: 0px 0px 0px 10px;padding-left: 0px;padding-right: 0px;float: right;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;padding-top: 0px" border="0" alt="FirstATXCodeLunch" align="right" src="http://lostechies.com/chadmyers/files/2011/03/FirstATXCodeLunch_thumb_4A258993.png" width="244" height="198" />](http://lostechies.com/chadmyers/files/2011/03/FirstATXCodeLunch_4667E4C3.png)We had our first [ATX Code Lunch](https://groups.google.com/group/atx-code-lunch/) today and we had a great turnout.&#160; The estimates ranged from 20-22 participants. I heard lots of different discussions from employment opportunities, to side projects, to specific technologies (iOS development, Android Java Development, .NET and other web frameworks, and a number of others).&#160; 
 

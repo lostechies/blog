@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716466"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2010/03/24/strengthening-your-domain-encapsulating-operations.aspx/"
 ---
 Other posts in this series:
 

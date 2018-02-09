@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089741"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/27/programmers-still-in-the-dark-ages.aspx/"
 ---
 Have to say I was a little intrigued after reading <a href="http://www.news.com/8301-10784_3-9785568-7.html?part=rss&subj=news&tag=2547-1_3-0-20" target="_blank">this article</a> on CNet.
 

@@ -11,6 +11,7 @@ categories:
   - BDD
   - Context
   - Spec
+redirect_from: "/blogs/rssvihla/archive/2009/05/21/context-spec-style-testing-and-my-approach-to-bdd.aspx/"
 ---
 I borrow heavily my approach to testing from a combination of Ayende&#8217;s <a href="http://rhino-tools.svn.sourceforge.net/viewvc/rhino-tools/trunk/" target="_blank">Rhino Tools</a> tests, and my reading of the <a href="http://www.pragprog.com/titles/achbd/the-rspec-book" target="_blank">Rspec</a> beta book. But I think I&#8217;ve stumbled onto something I&#8217;m happy with and I can generate reports out of. Let&#8217;s go over some basic rules first:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090892"
 categories:
   - Domain Driven Design (DDD)
+redirect_from: "/blogs/joe_ocampo/archive/2007/04/02/a-discussion-on-domain-driven-design.aspx/"
 ---
 </p> 
 

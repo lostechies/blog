@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089773"
 categories:
   - Humor
+redirect_from: "/blogs/joe_ocampo/archive/2008/03/18/some-people-have-too-much-time.aspx/"
 ---
 So I gave my two weeks at my current employer around a week ago.&nbsp; So I really wasn&#8217;t expecting practical jokes until maybe the end of this week.&nbsp; Well lets just say my team got creative and managed to wrap my entire cube in foil paper in less then 30 minutes while I was in a meeting today.&nbsp; Very impressive!
 

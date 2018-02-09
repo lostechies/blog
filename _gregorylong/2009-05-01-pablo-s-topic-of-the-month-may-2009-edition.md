@@ -11,6 +11,7 @@ categories:
   - Brownfield
   - Programming
   - PTOM
+redirect_from: "/blogs/thatotherguy/archive/2009/05/01/pablo-s-topic-of-the-month-may-2009-edition.aspx/"
 ---
 <img align="right" width="240" src="/cfs-file.ashx/__key/CommunityServer.Components.PostAttachments/00.00.00.60.06/pablo_topic_of_the_month.png" height="240" />
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - TeamBuild
   - VSTS
+redirect_from: "/blogs/jimmy_bogard/archive/2007/05/24/team-foundation-build-part-3-creating-a-build.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/team-foundation-build-part-3-creating.html)._
 

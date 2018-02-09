@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/04/07/book-review-the-power-to-predict.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/04/07/book-review-the-power-to-predict.aspx/"
 ---
 <a href="http://www.amazon.com/Power-Predict-Businesses-Opportunities-Competition/dp/0071450149/" target="_blank">The Power to Predict</a> is one of a series of books I&#8217;m currently sloshing through on event-based programming.&nbsp; It&#8217;s author is none other than the CEO of Tibco, [Vivek Ranadive](http://www.tibco.com/company/leadership/bio_ranadive.jsp).&nbsp; Noticing that and the forward by <a href="http://news.van.fedex.com/frederickwsmith" target="_blank">Frederick Smith</a>, the FedEx CEO, it definitely caught my eye.
 

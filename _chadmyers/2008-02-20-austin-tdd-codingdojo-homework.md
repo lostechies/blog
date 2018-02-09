@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - CodingDojo
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/02/19/austin-tdd-codingdojo-homework.aspx/"
 ---
 A few folks have been working on some of the stories and code we were talking about at the Austin TDD CodingDojo earlier this month.&nbsp; [Joe Ocampo](http://agilejoe.lostechies.com), [Ray Houston](http://rhouston.lostechies.com), and I have been discussing it and Joe even did a cool spike/prototype to get things moving (I&#8217;ve looked at it Joe, I haven&#8217;t had a chance to write back my thoughts or merge the code in yet, sorry man).
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - CodeSmells
+redirect_from: "/blogs/jimmy_bogard/archive/2007/12/18/extension-methods-and-primitive-obsession.aspx/"
 ---
 In another water-cooler argument today, a couple of coworkers didn&#8217;t like my [extension method example](http://grabbagoft.blogspot.com/2007/11/string-extension-methods.html).&nbsp; One main problem is that it violates instance semantics, where you expect that a method call off an instance won&#8217;t work if the instance is null.&nbsp; However, extension methods break that convention, leading the developer to question _every_ method call and wonder if it&#8217;s an extension method or not.&nbsp; For example, you can run into these types of scenarios:
 

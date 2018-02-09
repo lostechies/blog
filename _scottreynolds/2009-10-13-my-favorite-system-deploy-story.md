@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2009/10/13/my-favorite-system-deploy-story.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottcreynolds/archive/2009/10/13/my-favorite-system-deploy-story.aspx/"
 ---
 I just remembered this and regaled the newer members of the team with this amazing story that happened when we rolled out our new enterprise lab management system a few years ago.
 

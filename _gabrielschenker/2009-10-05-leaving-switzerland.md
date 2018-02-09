@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Misc
   - Personal
+redirect_from: "/blogs/gabrielschenker/archive/2009/10/05/leaving-switzerland.aspx/"
 ---
 Dear reader you might have asked yourself why I have been quiet for such a long time. Well, one of the reasons is that I have been preparing my move from Switzerland to the United States; and more precisely to Austin TX. The following post talks about some of my adventures while moving from Switzerland to Austin.
 

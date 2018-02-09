@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089303"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2008/12/21/simplified-masstransit-configuration.aspx/"
 ---
 One of the things I&#8217;ve missed since we integrated container support is the ability to quickly and easily create an instance of the ServiceBus. After Ayende agreed, I decided it was time to do something about it.
 

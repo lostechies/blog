@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113192"
 categories:
   - teamcity
+redirect_from: "/blogs/joshuaflanagan/archive/2009/06/10/integrating-a-custom-test-runner-with-teamcity.aspx/"
 ---
 JetBrains’ TeamCity build server provides a wealth of information about the tests that are run as part of your build. If you use one of the test runners that they support out of the box, you automatically get real-time individual test results, detailed timing reports, and historical performance metrics.
 

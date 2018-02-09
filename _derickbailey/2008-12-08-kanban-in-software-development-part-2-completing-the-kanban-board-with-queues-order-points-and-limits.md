@@ -14,6 +14,7 @@ categories:
   - Management
   - Philosophy of Software
   - Retrospectives
+redirect_from: "/blogs/derickbailey/archive/2008/12/08/kanban-in-software-development-part-2-completing-the-kanban-board-with-queues-order-points-and-limits.aspx/"
 ---
 </p> 
 

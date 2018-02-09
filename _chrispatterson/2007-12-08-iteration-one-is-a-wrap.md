@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1228600994"
 categories:
   - Agile
+redirect_from: "/blogs/chris_patterson/archive/2007/12/08/iteration-one-is-a-wrap.aspx/"
 ---
 Over the past two weeks, my department has been working on our first iteration using agile practices. Yesterday, we wrapped up with a retrospective to go over our progress. We used a fish bowl to keep the conversation centered and focused &#8212; a method that once again proved to be useful for controlling a discussion without controlling the discussion. 
 

@@ -14,6 +14,7 @@ categories:
   - Implement Interface
   - Specification
   - Unit Test
+redirect_from: "/blogs/seanbiefeld/archive/2009/04/10/testing-compiled-classes-which-don-t-implement-an-interface.aspx/"
 ---
 *UPDATE: Per&nbsp;<a href="/members/schambers/default.aspx" target="_blank">sean chambers</a>, this is an example of the&nbsp;<a href="http://en.wikipedia.org/wiki/Adapter_pattern" target="_blank">adapter pattern</a>
 

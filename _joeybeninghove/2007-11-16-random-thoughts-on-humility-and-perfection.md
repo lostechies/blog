@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2007/11/15/random-thoughts-on-humility-and-perfection.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/joeydotnet/archive/2007/11/15/random-thoughts-on-humility-and-perfection.aspx/"
 ---
 (Sorry for the recent&nbsp;codeless posts, but these are just some of the things I&#8217;ve been thinking about and dealing with recently)
 

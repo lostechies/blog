@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/11/04/mocking-queryables.aspx
 categories:
   - TDD
+redirect_from: "/blogs/mokhan/archive/2008/11/04/mocking-queryables.aspx/"
 ---
 Recently, we&#8217;ve been mocking out IQueryable&#8217;s as return values, which had led to setups that look like the following&#8230;</p> 
 

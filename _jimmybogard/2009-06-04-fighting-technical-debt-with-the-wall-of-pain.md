@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2009/06/03/fighting-technical-debt-with-the-wall-of-pain.aspx/"
 ---
 Technical debt, even on the agile-ist of agilista teams, still accumulates.&#160; Debt is inevitable, as initial design is always based on assumptions, not all of which pan out.&#160; I never view that as a failure, as all we can do is make the best decision given the limited information we know at any given time.&#160; Experience with DDD has shown me that often, design and architecture doesn’t undergo linear improvements.&#160; Rather, we reach a critical mass of information and knowledge where it becomes plainly and painfully obvious that our current design will no longer suffice.
 

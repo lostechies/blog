@@ -9,6 +9,7 @@ dsq_thread_id:
   - "273024915"
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottdensmore/archive/2009/02/15/my-first-journey-into-bdd.aspx/"
 ---
 <p style="clear: both">
   Lately I have been trying to teach people TDD and running into the usual suspects of misconceptions. I decided that maybe it was about time to update my tool belt and try teaching in a new way. I also wanted to try out something new and hopefully improve myself. I decided to give <a href="http://behaviour-driven.org/">BDD (Behavior Driven Development)</a> a try.

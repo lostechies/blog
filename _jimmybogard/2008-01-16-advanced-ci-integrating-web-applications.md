@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPdotNET
   - ContinuousIntegration
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/16/advanced-ci-integrating-web-applications.aspx/"
 ---
 So you&#8217;ve already got an automated build with unit tests and deployment packaging.&nbsp; But if you have a Web Application project as part of your solution, there is still the potential for some compilation errors to get past your builds.&nbsp; So if your builds compile your solution, how can we run into compilation problems?&nbsp; Let&#8217;s look at a simple scenario.
 

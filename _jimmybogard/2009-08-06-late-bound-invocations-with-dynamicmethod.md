@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716267"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/08/05/late-bound-invocations-with-dynamicmethod.aspx/"
 ---
 When I was looking at improving AutoMapper performance, I initially focused on just the “getter” side of the mapping equation.&#160; At its core, you map between types by getting a value from one member and setting it on the other.&#160; I was already familiar with expression trees, so I went with an extension of Nate Kohari’s method of doing code generation by using [expression trees to do late-bound invocation](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/06/17/more-on-late-bound-invocations-with-expression-trees.aspx).&#160; However, you can’t really do this with setters.&#160; This won’t compile, for example:
 

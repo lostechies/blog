@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055598"
 categories:
   - JavaScript
+redirect_from: "/blogs/johnteague/archive/2009/02/18/polymorphism-with-javascript.aspx/"
 ---
 I don’t know if I picked this line up in a book or somewhere else, but the best way to describe the JavaScript language is schizophrenic.&#160; The language itself (regardless of the hosting environment) doesn’t know if it’s Object Oriented or Functional.&#160; It’s always been my opinion that the functional aspects of the language are more powerful than the OO features, yet the least used.&#160; This is probably my most classically trained OOP developers don’t really like JavaScript. The other reason is because most classically trained OOP developers coming from .Net and Java ( myself included) also forget that JavaScript is also a _dynamic_ language.&#160; So we try to get the language do things statically as we would expect other “grown up” languages to do.
 

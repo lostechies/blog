@@ -11,6 +11,7 @@ categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/12/09/user-story-templates.aspx/"
 ---
 A couple of people emailed me and asked me what the story cards looked like on our <a href="http://www.lostechies.com/blogs/joe_ocampo/archive/2007/12/08/information-radiators-make-life-visible.aspx" target="_blank">information radiator</a>.
 

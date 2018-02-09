@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715918"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/09/18/tdd-design-trade-offs-and-junk-food.aspx/"
 ---
 [Tony Rasa](http://elegantcode.com/) recently [talked about design trade-offs](http://elegantcode.com/2008/09/16/tdd-test-driven-dogma/) when doing TDD:
 

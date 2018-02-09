@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264849374"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/01/27/asp-net-mvc-options-for-consolidating-html.aspx/"
 ---
 It comes up very early in any ASP.NET MVC application: duplicated HTML.&#160; Bits and pieces of final rendered page may appear on two or more different pages, and that’s duplication we would like to eliminate.&#160; In WebForms land, we had quite a few options to consolidate and refactor that common HTML: Master Pages, custom controls, user controls, composite controls and so on.&#160; In ASP.NET MVC, the potential for duplicate HTML is still close to a guarantee, so we’ll need to explore different options for common HTML.&#160; This time around, our options are a little more straightforward than in WebForms land.
 

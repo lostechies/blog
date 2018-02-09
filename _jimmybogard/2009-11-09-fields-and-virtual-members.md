@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716340"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/11/09/fields-and-virtual-members.aspx/"
 ---
 It seems like the sillier the bug, the more time you’ll spend debugging it, simply because it’s in functionality you just _knew_ that worked correctly (and had the tests to back it up).&#160; One problem we hit recently was code that used fields to back virtual properties:
 

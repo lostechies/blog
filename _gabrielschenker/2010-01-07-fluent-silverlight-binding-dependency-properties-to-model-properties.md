@@ -12,6 +12,7 @@ categories:
   - fluent Silverlight
   - introduction
   - Silverlight
+redirect_from: "/blogs/gabrielschenker/archive/2010/01/07/fluent-silverlight-binding-dependency-properties-to-model-properties.aspx/"
 ---
 Please view the [table of content](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx) of this series for reference.
 

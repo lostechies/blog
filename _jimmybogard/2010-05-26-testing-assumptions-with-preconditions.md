@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265046712"
 categories:
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2010/05/26/testing-assumptions-with-preconditions.aspx/"
 ---
 While driving design with unit tests, I often break behaviors out into separate classes, both to increase cohesion, and as a side effect, increase testability.&#160; Occasionally, I run into situations where I have some sort of environmental variable that never changes.&#160; Or, if it does change, it would take an act of Congress.
 

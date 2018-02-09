@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - infrastructure
   - StructureMap
+redirect_from: "/blogs/joshuaflanagan/archive/2009/07/12/how-we-handle-application-configuration.aspx/"
 ---
 We recently overhauled the way we handle configurable settings within our application (server names, email addresses, polling frequencies, etc) . I’m going to present our solution below, but its new enough that I’d like to hear feedback on how others approach the problem.
 

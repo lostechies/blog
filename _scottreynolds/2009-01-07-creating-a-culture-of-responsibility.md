@@ -8,6 +8,7 @@ wordpress_guid: /blogs/scottcreynolds/archive/2009/01/07/creating-a-culture-of-r
 categories:
   - lean
   - Management
+redirect_from: "/blogs/scottcreynolds/archive/2009/01/07/creating-a-culture-of-responsibility.aspx/"
 ---
 Shooting from the hip a little here, please to bear with me. Also, turned out a little lengthy. Sorry &#8217;bout that.
 

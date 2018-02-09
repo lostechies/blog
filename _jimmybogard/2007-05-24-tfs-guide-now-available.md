@@ -9,6 +9,7 @@ dsq_thread_id:
   - "271347307"
 categories:
   - VSTS
+redirect_from: "/blogs/jimmy_bogard/archive/2007/05/24/tfs-guide-now-available.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/tfs-guide-now-available.html)._
 

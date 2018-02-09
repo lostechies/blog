@@ -11,6 +11,7 @@ categories:
   - Branching Strategies
   - git
   - Source Control
+redirect_from: "/blogs/derickbailey/archive/2010/04/01/git-how-to-revert-a-branch-merge.aspx/"
 ---
 This was a stumper for me a while back. Jason Meridth posted on [reseting / reverting git commits](http://www.lostechies.com/blogs/jason_meridth/archive/2010/03/23/git-reset-checkout-amp-quot-bare-double-dash-quot-and-revert.aspx) and I had a question in the comments. My specific situation was about having a branch merged at the wrong time and how to undo that merge. Here’s an example of the situation, shown with gitk:
 

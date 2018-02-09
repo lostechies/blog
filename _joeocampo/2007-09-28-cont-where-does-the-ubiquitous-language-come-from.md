@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089845"
 categories:
   - Domain Driven Design (DDD)
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/28/cont-where-does-the-ubiquitous-language-come-from.aspx/"
 ---
 [<img src="http://lostechies.com/joeocampo/files/2011/03ContWheredoestheUbiquitousLanguagecomefr_1E31/legos_thumb.jpg" style="border: 0px none;margin: 10px" alt="legos" align="right" border="0" height="167" width="240" />](http://lostechies.com/joeocampo/files/2011/03ContWheredoestheUbiquitousLanguagecomefr_1E31/legos_2.jpg) This is a follow up post to a question <a href="http://codebetter.com/blogs/scott.bellware/archive/2007/09/25/168685.aspx" target="_blank">Scott Bellware</a> asked me concerning origins of the Ubiquitous Language. To save you time with having to go back an forth between the post this was my response.
 

@@ -8,6 +8,7 @@ wordpress_guid: /blogs/scottcreynolds/archive/2009/08/11/some-new-blogs-to-check
 categories:
   - Community
   - lean
+redirect_from: "/blogs/scottcreynolds/archive/2009/08/11/some-new-blogs-to-check-out.aspx/"
 ---
 This week two of the members of my team finally jumped into the blogging scene in an effort to share what they&#8217;ve learned, give back (so to speak) to the community, and, in some ways, learn out loud.
 

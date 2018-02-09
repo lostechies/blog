@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716105"
 categories:
   - Process
+redirect_from: "/blogs/jimmy_bogard/archive/2009/04/08/quality-against-a-deadline.aspx/"
 ---
 Parkinson’s Law states:
 

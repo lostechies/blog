@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - DependencyInjection
+redirect_from: "/blogs/jimmy_bogard/archive/2010/04/26/dependency-injection-in-asp-net-mvc-controllers.aspx/"
 ---
 After working for 5 years with WebForms, it was quite a breath of fresh air to deal with simple controllers and actions with MVC.&#160; Even better was that there is support for IoC containers built in to the framework.
 

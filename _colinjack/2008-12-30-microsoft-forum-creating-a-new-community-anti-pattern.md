@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2008/12/30/microsoft-forum-creating-a-new-community-anti-pattern.aspx
 categories:
   - Microsoft
+redirect_from: "/blogs/colinjack/archive/2008/12/30/microsoft-forum-creating-a-new-community-anti-pattern.aspx/"
 ---
 I&#8217;ve recently had reason to ask questions on the Oslo and [WCF](http://social.msdn.microsoft.com/Forums/en-US/wcf/threads/) forums and in both cases my posts got responses quickly (which is more than can be said for the [WCF REST starter kit forum](http://forums.asp.net/1180.aspx) which is dead as a doornail). However in both cases a strange thing then happened, someone else immediately&nbsp;marked the answer given as being _THE_ answer to my question.
 

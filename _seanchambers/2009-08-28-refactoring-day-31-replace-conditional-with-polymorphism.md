@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262356903"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/28/refactoring-day-31-replace-conditional-with-polymorphism.aspx/"
 ---
 The last day of refactoring comes from Fowlers refactoring catalog and can be <a href="http://refactoring.com/catalog/replaceConditionalWithPolymorphism.html" target="_blank">found here</a>.
 

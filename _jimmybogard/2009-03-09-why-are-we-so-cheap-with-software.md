@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265282126"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2009/03/08/why-are-we-so-cheap-with-software.aspx/"
 ---
 On twitter today, Ayende [asked the question](http://twitter.com/ayende/status/1297780722):
 

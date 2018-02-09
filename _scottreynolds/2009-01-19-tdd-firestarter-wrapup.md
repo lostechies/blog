@@ -8,6 +8,7 @@ wordpress_guid: /blogs/scottcreynolds/archive/2009/01/18/tdd-firestarter-wrapup.
 categories:
   - Community
   - Testing
+redirect_from: "/blogs/scottcreynolds/archive/2009/01/18/tdd-firestarter-wrapup.aspx/"
 ---
 This weekend [Sean Chambers](http://schambers.lostechies.com) and I put on a day-long testing workshop at Microsoft in Tampa, FL. I want to thank all the attendees for giving up their Saturday to come out and learn about testing.
 

@@ -12,6 +12,7 @@ dsq_needs_sync:
 categories:
   - 'C#'
   - Patterns
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/24/entity-validation-with-visitors-and-extension-methods.aspx/"
 ---
 On the [Yahoo ALT.NET group](http://tech.groups.yahoo.com/group/altnetconf/), an interesting conversation sprung up around the topic of validation.&nbsp; Entity validation can be a tricky beast, as validation rules typically depend on the context of the operation (persistence, business rules, etc.).
 

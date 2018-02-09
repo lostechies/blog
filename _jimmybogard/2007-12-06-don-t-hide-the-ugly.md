@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715456"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/12/06/don-t-hide-the-ugly.aspx/"
 ---
 I wanted to take some time to highlight the difference between encapsulation and subterfuge.&nbsp; Just so we&#8217;re on the same page:
 

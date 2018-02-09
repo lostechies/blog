@@ -11,6 +11,7 @@ categories:
   - Management
   - Philosophy of Software
   - Retrospectives
+redirect_from: "/blogs/derickbailey/archive/2009/01/28/on-the-success-of-a-project.aspx/"
 ---
 I recently saw this question asked and answered in an after-project retrospective paper.
 

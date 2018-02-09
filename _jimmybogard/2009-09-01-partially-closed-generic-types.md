@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716292"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/09/01/partially-closed-generic-types.aspx/"
 ---
 If you swallow enough of the generic pills, you may run into situations where a not-quite closed and a not-quite open generic type would be nice.&#160; It’s in situations where decisions based on types are prevalent, such as in IoC containers.&#160; An open generic type is simply a generic type whose type parameters have not been specified.&#160; For example, IEnumerable<> is an **open generic type**, and IEnumerable<int> (or string or whatever) is a **closed generic type**, as its type parameter has been specified.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262098816"
 categories:
   - FubuMVC
+redirect_from: "/blogs/joshuaflanagan/archive/2011/01/24/how-we-systemically-apply-filters-to-our-data-access.aspx/"
 ---
 I wrote about <a href="http://blogs.dovetailsoftware.com/blogs/jflanagan/archive/2011/01/24/limiting-access-to-sensitive-information-in-dovetail-support-center" target="_blank">limiting access to sensitive information in Dovetail Support Center</a> on the company blog, but didn&#8217;t get too deep into the technical implementation. Since that feature development relied heavily on the capabilities of our open source web framework, <a href="http://fubumvc.com/" target="_blank">FubuMVC</a> (and the related FubuFastPack), I figured it would be worthwhile to document how it all works. This post will describe how we filter data retrieved from the database.
 

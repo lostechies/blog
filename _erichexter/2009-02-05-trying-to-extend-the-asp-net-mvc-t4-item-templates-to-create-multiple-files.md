@@ -15,6 +15,7 @@ categories:
   - MVC
   - Testing
   - Tools
+redirect_from: "/blogs/hex/archive/2009/02/05/trying-to-extend-the-asp-net-mvc-t4-item-templates-to-create-multiple-files.aspx/"
 ---
 &nbsp;
 

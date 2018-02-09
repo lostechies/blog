@@ -11,6 +11,7 @@ categories:
   - 'C#'
   - LegacyCode
   - People
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/29/hall-of-shame.aspx/"
 ---
 We keep a &#8220;Hall of Shame&#8221; of [WTF-level](http://worsethanfailure.com/) code snippets&nbsp;to remind us that however bad we might think things get, it could always be worse.&nbsp; It also serves as a reminder to us that we can&#8217;t be complacent with ignorance, and lack of strong technical leadership in critical applications can have far-reaching negative consequences.&nbsp; Here are a few fun examples.
 

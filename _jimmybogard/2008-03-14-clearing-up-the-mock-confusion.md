@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715598"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/13/clearing-up-the-mock-confusion.aspx/"
 ---
 There&#8217;s some bad blood concerning Mocks, and a lot of it rightfully so.&nbsp; Because of popular mocking frameworks, the name &#8220;Mock&#8221; has become interchangeable for &#8220;Test Double&#8221;.&nbsp; In Texas, we ask for a Kleenex, not a tissue, and a Coke instead of a soft drink.&nbsp; The brand name has defined the family of products, though not every soft drink is a Coke.
 

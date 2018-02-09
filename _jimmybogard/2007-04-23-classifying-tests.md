@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2007/04/23/classifying-tests.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/classifying-tests.html)._
 

@@ -9,6 +9,7 @@ categories:
   - Cocoa
   - mac
   - Objective-C
+redirect_from: "/blogs/scottcreynolds/archive/2009/02/05/beginning-objective-c-for-the-c-guy.aspx/"
 ---
 So my [new language of the year](http://www.pragprog.com/titles/tpp/the-pragmatic-programmer) is going to be Objective-C and Cocoa/CocoaTouch. This is actually a new language and a new IDE and a new platform and, well, everything. I&#8217;ve decided to document much of what I&#8217;m doing along the way. As you know I [switched my main platform to Mac](http://scottcreynolds.com/archive/2008/07/12/moving-to-the-macbook-pro.aspx) last year and have been doing my .Net development in a Virtual Machine. This has been great, working out extremely well, but part of what I wanted the Mac for was to branch out and explore some different ways of writing applications. Studying a new language is a great way to get a different view of how to accomplish programming tasks, and seeing how things are done on other platforms can only increase your skills as an application developer.
 

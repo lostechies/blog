@@ -13,6 +13,7 @@ categories:
   - Productivity
   - Refactoring
   - Vim
+redirect_from: "/blogs/derickbailey/archive/2010/03/30/find-and-replace-with-regular-expressions-in-vim-viemu.aspx/"
 ---
 Here’s another entry in my how-i-saved-a-few-hundred-keystrokes blog posts on using [Vim](http://www.vim.org/) / [ViEmu](http://www.viemu.com/) with Visual Studio. 
 

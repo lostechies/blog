@@ -12,6 +12,7 @@ categories:
   - Community
   - Rake
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2009/11/27/albacore-all-a-twitter-with-a-new-logo-tag-line-and-url.aspx/"
 ---
 There’s been a lot of fun things happening with [Albacore](http://albacorebuild.net) over the holiday weekend.
 

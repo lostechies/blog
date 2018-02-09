@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - LINQ
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/07/some-improved-linq-operators.aspx/"
 ---
 I ran across a couple of scenarios the other day that were made pretty difficult given the current LINQ query operators.&nbsp; First, I needed to see if an item existed in a collection.&nbsp; That&#8217;s easy with the Contains method, when you want to find item that matches all the attributes you&#8217;re looking for.
 

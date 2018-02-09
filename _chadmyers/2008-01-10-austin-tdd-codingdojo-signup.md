@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/01/10/austin-tdd-codingdojo-signup.aspx/"
 ---
 The details of the Austin TDD CodingDojo event have been finalized and the sign up form is now online.
 

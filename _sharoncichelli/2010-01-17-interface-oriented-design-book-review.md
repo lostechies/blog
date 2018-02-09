@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263370913"
 categories:
   - Books
+redirect_from: "/blogs/sharoncichelli/archive/2010/01/17/interface-oriented-design-book-review.aspx/"
 ---
 Ken Pugh&#8217;s _[Interface-Oriented Design](http://www.pragprog.com/titles/kpiod/interface-oriented-design)_ (Pragmatic Programmers) presents an approach to designing applications that focuses first on the interfaces, the places where pieces of the application interact. The interfaces here are not primarily user interfaces, but module-to-module interfaces and service interfaces, and the applications are not exclusively object-oriented. Pugh&#8217;s proposed process is to identify use cases and test cases, determine the interfaces that will enable those use cases, then create tests and implementations for the interfaces.
 

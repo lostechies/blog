@@ -15,6 +15,7 @@ categories:
   - Management
   - Principles and Patterns
   - Retrospectives
+redirect_from: "/blogs/derickbailey/archive/2009/03/24/why-no-issues-is-not-an-acceptable-answer.aspx/"
 ---
 Many of the software development teams at my company now practice the <a href="http://en.wikipedia.org/wiki/Stand-up_meeting" target="_blank">daily standup</a> from <a href="http://en.wikipedia.org/wiki/Scrum_(development)" target="_blank">Scrum project management</a>. There’s a lot of great value in these meetings, even if a team is not practicing anything else from Scrum. 
 

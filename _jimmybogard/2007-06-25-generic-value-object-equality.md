@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2007/06/25/generic-value-object-equality.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/generic-value-object-equality.html)._
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267828237"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/05/11/proper-string-comparison.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/proper-string-comparison.html)._
 

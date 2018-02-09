@@ -17,6 +17,7 @@ categories:
   - Ruby
   - steak
   - Testing
+redirect_from: "/blogs/joeydotnet/archive/2010/05/28/the-ruby-rails-life-my-rails-3-stack-part-2.aspx/"
 ---
 # **Rails Deployment & Testing**
 

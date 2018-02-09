@@ -11,6 +11,7 @@ categories:
   - .NET
   - 'C#'
   - Refactoring
+redirect_from: "/blogs/derickbailey/archive/2010/10/07/a-less-ugly-switch-statement-for-c.aspx/"
 ---
 I know switch statements are considered “evil” because they are very procedural code, they violate the Open-Closed Principle, etc etc. But every now and then I don’t see a need to do anything more than a switch statement because the complexity of the scenario does not need anything more, and the code’s maintainability is not going to be so adversely affected by it.
 

@@ -14,6 +14,7 @@ categories:
   - Quality
   - Risk Management
   - Testing
+redirect_from: "/blogs/derickbailey/archive/2010/11/11/cost-vs-risk-in-testing.aspx/"
 ---
 There was a bit of interesting discussion on twitter this morning, concerning the cost of test-first vs. risk. Here’s the visual version of what I’m saying:
 

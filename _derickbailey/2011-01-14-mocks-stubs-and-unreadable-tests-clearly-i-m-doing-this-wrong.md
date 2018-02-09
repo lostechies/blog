@@ -15,6 +15,7 @@ categories:
   - Test Automation
   - Testing
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2011/01/13/mocks-stubs-and-unreadable-tests-clearly-i-m-doing-this-wrong.aspx/"
 ---
 I tweeted this a few minutes ago:
 

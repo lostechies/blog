@@ -11,6 +11,7 @@ categories:
   - ASP.NET MVC
   - JQuery
   - MVC
+redirect_from: "/blogs/hex/archive/2010/06/23/using-modelmetadata-in-asp-net-mvc-2-to-wire-up-sweet-jquery-awesomeness.aspx/"
 ---
 I recently came up with an approach to wiring up some jquery plugins that modify the behavior of standard input text boxes.&nbsp; The approach is not original by any means.I got the idea from the built in client side validation for MVC2, which was inspired by Steve Sanderson&#8217;s xVal framework.
 

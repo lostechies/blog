@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/28/oopsla-podcasts.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/28/oopsla-podcasts.aspx/"
 ---
 If you are looking for some good podcasts to listen to, you might check out some of the <a href="http://www.oopsla.org/oopsla2007/index.php?page=podcasts/" target="_blank">keynotes from OOPSLA 2007</a>.&nbsp; They&#8217;ve put them all out on the web.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113550"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/01/05/what-i-do-with-spoilers.aspx/"
 ---
 [Joe Ocampo](http://www.lostechies.com/blogs/joe_ocampo) (a.k.a. AgileJoe, not to be mistaken for his evil cousin, [WaterfallJoe](http://www.waterfall2006.com/)) [has tagged me](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/12/20/what-i-do.aspx) for a [What I do post](http://www.sheysrebellion.net/blog/2007/11/20/what-do-you-do/).
 

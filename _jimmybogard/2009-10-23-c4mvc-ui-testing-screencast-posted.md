@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716323"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/10/22/c4mvc-ui-testing-screencast-posted.aspx/"
 ---
 Yesterday the [C4MVC](http://www.c4mvc.net/) guys hosted a screencast with me on UI testing ASP.NET MVC.&#160; It was a lot of fun, but I actually forgot I was being videotaped (webcam’d?), so all those times I turned off my mic to catch a drink of water or cough uncontrollably are caught in glorious 370i.&#160; Anyway, check out the video here:
 

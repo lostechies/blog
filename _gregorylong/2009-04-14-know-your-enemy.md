@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265816381"
 categories:
   - Community
+redirect_from: "/blogs/thatotherguy/archive/2009/04/14/know-your-enemy.aspx/"
 ---
 Is it too late to make resolutions?&#160; Oh well, I’ll make one anyway.
 

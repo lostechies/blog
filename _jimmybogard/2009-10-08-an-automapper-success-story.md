@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716325"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/10/08/an-automapper-success-story.aspx/"
 ---
 I got a cool message on the [AutoMapper mailing list](http://groups.google.com/group/automapper-users) from [Howard Van Rooijen](http://consultingblogs.emc.com/howardvanrooijen/) on how they used [AutoMapper](http://automapper.codeplex.com/) in a site they recently launched to production:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262166535"
 categories:
   - Fluent NHibernate
+redirect_from: "/blogs/chad_myers/archive/2009/01/11/auto-mapping-with-fluent-nhibernate.aspx/"
 ---
 [James Gregory](http://blog.jagregory.com), one of the primary maintainers/developers of the Fluent NHibernate project, has posted a 4-part series on how to use the existing auto-mapping features in Fluent NHibernate. Before the links, I’d like to give a shout-out to Andrew Stewart, also a committer on the project, who, as I recall, was the original developer who charged ahead with the auto-mapping features and got it to a usable point from which others have improved upon it.
 

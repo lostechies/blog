@@ -16,6 +16,7 @@ categories:
   - Orcas
   - self-documenting
   - Unit Tests
+redirect_from: "/blogs/jasdeep_singh/archive/2007/04/10/self-documenting-unit-tests.aspx/"
 ---
 We have been practicing agile for more than a few years now and getting better as&nbsp;we move along, or at least that&#8217;s the goal and a desired expectation from the&nbsp;team; rightfully so since humans typically learn from experience. We jumped on the notion that by going agile, we can certainly reduce the mostly obsolete documents that managers/developers strive to keep current (or not), and fail. So the idea of having self documented code and unit tests sounded encouraging, to say the least. 
 

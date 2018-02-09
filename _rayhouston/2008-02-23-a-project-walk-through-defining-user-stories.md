@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/02/23/a-project-walk-through-defining-user-stories.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/02/23/a-project-walk-through-defining-user-stories.aspx/"
 ---
 One of the things that I&#8217;ve learned is that you shouldn&#8217;t start development until you&#8217;re ready. You shouldn&#8217;t start until you have a good idea of what you are building. You shouldn&#8217;t start until you have some reasonable idea of how long it&#8217;s going to take. You need to make sure the information is organized and that everyone knows what they&#8217;re supposed to be working on. 
 

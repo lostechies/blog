@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/12/10/shortening-the-feedback-loop.aspx
 categories:
   - Teamwork
+redirect_from: "/blogs/mokhan/archive/2008/12/10/shortening-the-feedback-loop.aspx/"
 ---
 Thank you everyone who attended [our presentation](http://calgaryagile.com/node/25) last night at the [Calgary Agile Methodologies User Group](http://calgaryagile.com/). We had a tonne of fun, and hope that you took away some valuable information.
 

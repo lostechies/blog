@@ -11,6 +11,7 @@ categories:
   - Castle
   - MonoRail
   - VAN
+redirect_from: "/blogs/rssvihla/archive/2009/06/24/van-doing-2-part-series-on-castle-development-july-1st-and-8th-at-8pm.aspx/"
 ---
 I know this isn&#8217;t related to my Pylons series and worry not there is no interruption in that, but I&#8217;m giving a couple of talks on <a target="_blank" title="Virtual Alt.net" href="/controlpanel/blogs/posteditor.aspx/www.virtualaltnet.com">Virtual Alt.Net</a><span style="border-collapse: collapse">. The first one I&#8217;ve done before and you may have heard it at Alamo Coders, the second one is all new and it&#8217;ll give me opportunity to clean up and release my lightweight plugin framework for monorail.</span>
 

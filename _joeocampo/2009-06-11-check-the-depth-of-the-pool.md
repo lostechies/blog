@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088172"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2009/06/11/check-the-depth-of-the-pool.aspx/"
 ---
 I was really inspired by Jimmy Bogards latest post. I find that taking the simplest path does not always lead a team down the most best path that towards sustainable flow (continuity).
 

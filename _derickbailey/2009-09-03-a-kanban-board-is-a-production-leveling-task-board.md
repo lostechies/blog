@@ -13,6 +13,7 @@ categories:
   - Lean Systems
   - Management
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/09/02/a-kanban-board-is-a-production-leveling-task-board.aspx/"
 ---
 In the lean manufacturing world [heijunka](http://en.wikipedia.org/wiki/Heijunka) &#8211; production leveling &#8211; “_is a technique for reducing the_ [_mura_](http://en.wikipedia.org/wiki/Mura_%28Japanese_term%29) _waste and vital to the development of production efficiency […]. The general idea is to produce intermediate goods at a constant rate, to allow further processing to be carried out at a constant and predictable rate._” – from [Wikipedia](http://en.wikipedia.org/wiki/Heijunka). While heijunka is the process of eliminating variance or unevenness in the system, a [Heijunka Box](http://en.wikipedia.org/wiki/Heijunka_box) is a tool that is used to achieve the goal of heijunka. It is a visual representation of the production system that is used to show how the work is being scheduled and mixed
 

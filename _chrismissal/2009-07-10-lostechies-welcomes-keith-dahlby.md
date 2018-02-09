@@ -9,6 +9,7 @@ dsq_thread_id:
   - "737199639"
 categories:
   - Members
+redirect_from: "/blogs/chrismissal/archive/2009/07/10/lostechies-welcomes-keith-dahlby.aspx/"
 ---
 LosTechies is proud to welcome Keith Dahlby! Keith is a software consultant living in Cedar Rapids, IA working mostly in SharePoint, while playing around in all sorts of other languages like F#. Keith is very active in the local software community and has been presenting at nearby regional user groups as well. 
 

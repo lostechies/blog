@@ -13,6 +13,7 @@ categories:
   - fluent Silverlight
   - Lambda Expressions
   - Silverlight
+redirect_from: "/blogs/gabrielschenker/archive/2009/06/09/fluent-silverlight-part-3-binding-events-to-commands.aspx/"
 ---
 ## Introduction
 

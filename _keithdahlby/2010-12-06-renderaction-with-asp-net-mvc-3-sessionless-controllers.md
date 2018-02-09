@@ -14,6 +14,7 @@ categories:
   - mvc 3
   - RenderAction
   - SessionStateAttribute
+redirect_from: "/blogs/dahlbyk/archive/2010/12/06/renderaction-with-asp-net-mvc-3-sessionless-controllers.aspx/"
 ---
 One of the new features of ASP.NET MVC 3 is a controller-level
   

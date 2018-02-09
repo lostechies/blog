@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264820126"
 categories:
   - LINQ
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/26/visualizing-linq-expressions-in-the-debugger.aspx/"
 ---
 In [Ben’s](http://flux88.com/) recent post on [Fluent Route Testing in ASP.NET MVC](http://flux88.com/blog/fluent-route-testing-in-asp-net-mvc/), he recalled a problem we had when trying to figure out how to deal with an Expression<> once we have one.&#160; Typically, I like to parse the Expression to get at some reflection information, whether it’s to look at model members for DTO mapping or specifying controller actions.&#160; Expression<> is very helpful for strongly-typed reflection, but the underlying type can be a pain to deal with.&#160; The base Expression type has quite a few derived types to deal with:
 

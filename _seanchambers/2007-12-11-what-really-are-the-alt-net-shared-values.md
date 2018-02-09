@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123748"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/12/11/what-really-are-the-alt-net-shared-values.aspx/"
 ---
 <a href="http://www.haacked.com" target="_blank">Phil Haack</a>&nbsp;just wrote a post about <a href="http://haacked.com/archive/2007/12/11/favor-composition-over-inheritance-and-other-pithy-catch-phrases.aspx" target="_blank">Composition over Inheritance</a> and how adopting practices just because they are talked about is silly. I agree 100% with him on this note. Making a design decision&nbsp;without context is like removing your engine from your car to make it go faster. It&#8217;s just completely backwards. I have been busy this week and didn&#8217;t have a chance to read the thread on the alt.net mailing list but this is just silly to propose.
 

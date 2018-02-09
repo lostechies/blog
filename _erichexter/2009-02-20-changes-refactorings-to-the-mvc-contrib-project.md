@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1080047442"
 categories:
   - mvccontrib
+redirect_from: "/blogs/hex/archive/2009/02/20/changes-refactorings-to-the-mvc-contrib-project.aspx/"
 ---
 &#160;
 

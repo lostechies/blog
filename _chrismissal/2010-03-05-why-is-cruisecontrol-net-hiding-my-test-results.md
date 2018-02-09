@@ -11,6 +11,7 @@ categories:
   - Continuous Integration
   - NUnit
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2010/03/05/why-is-cruisecontrol-net-hiding-my-test-results.aspx/"
 ---
 Some time ago, I noticed a CruiseControl.Net build report with thousands of unit tests passed, zero failed and a dozen or so skipped, suddenly showing that no tests were run:
 

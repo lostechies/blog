@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716643"
 categories:
   - Mercurial
+redirect_from: "/blogs/jimmy_bogard/archive/2011/01/31/three-simple-mercurial-rules.aspx/"
 ---
 The following is highly opinionated, but it matches most closely to what typical Git workflows are.&#160; The nice thing about Hg is that its tools can hide the complexity of working with distributed version control systems (DVCS).&#160; That’s also a drawback, because if you don’t know what’s actually going on behind the scenes with your commits, you can get into some rather strange situations and complicated commit graphs:
 

@@ -12,6 +12,7 @@ dsq_needs_sync:
 categories:
   - JQuery
   - Validation
+redirect_from: "/blogs/gabrielschenker/archive/2009/03/10/how-to-add-a-custom-validation-method-to-the-jquery-validator-plug-in.aspx/"
 ---
 For my current project I needed a custom **validator** method for the **[jQuery](http://jquery.com/)** [validator](http://bassistance.de/jquery-plugins/jquery-plugin-validation/) plug-in. I wanted to validate that a user has chosen a value from a combo box where the value is of type **Guid**.
 

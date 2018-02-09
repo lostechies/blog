@@ -9,6 +9,7 @@ categories:
   - Castle
   - MonoRail
   - Web
+redirect_from: "/blogs/joeydotnet/archive/2007/06/01/castle-monorail-response-to-comments-ramblings.aspx/"
 ---
 [Billy](http://devlicio.us/blogs/billy_mccafferty/default.aspx) has&nbsp;[decided to move forward with using MonoRail](http://devlicio.us/blogs/billy_mccafferty/archive/2007/05/29/concise-introduction-to-castle-monorail.aspx) on one of his current projects.&nbsp; As I was writing the comment on his post to respond to some other folks&#8217; comments, I decided it was getting too long and perhaps I should must make it a post on its own. 
 

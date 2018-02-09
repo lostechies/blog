@@ -14,6 +14,7 @@ categories:
   - Design Patterns
   - Principles and Patterns
   - Quality
+redirect_from: "/blogs/derickbailey/archive/2010/03/19/a-response-concerning-semantics-and-intention-revealing-code.aspx/"
 ---
 [My previous post](http://www.lostechies.com/blogs/derickbailey/archive/2010/03/17/application-events-modeling-selection-vs-de-selection-as-separate-events.aspx) talked about some code that was using a null value to cause certain behavior. The general idea behind the post was questioning how I should go about remodeling that part of my code so that it would be more explicit. One of the comments questioned why I would want to change what I have and event stated that using null is the right thing to do for various reasons. It’s probably apparent that I don’t agree with that. Rather than just dismissing the comments or carrying on a very lengthy conversation in the comments about the assumptions that I was making in that post, I thought it would be better to address those assumptions in a separate post… so, here goes.
 

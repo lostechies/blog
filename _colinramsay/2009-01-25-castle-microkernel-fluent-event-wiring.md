@@ -9,6 +9,7 @@ categories:
   - 'C#'
   - microkernel
   - windsor
+redirect_from: "/blogs/colin_ramsay/archive/2009/01/25/castle-microkernel-fluent-event-wiring.aspx/"
 ---
 The Castle MicroKernel Registration API is also used in Windsor, and both have a facility to allow a components to subscribe to events exposed by each other. Right now, the only way to use the fluent API to configure the facility is to go right down and build the configuration nodes (taken from <http://blogger.forgottenskies.com/?p=266>):
 

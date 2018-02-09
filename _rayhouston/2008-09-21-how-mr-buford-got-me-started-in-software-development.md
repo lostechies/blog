@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/09/20/how-mr-buford-got-me-started-in-software-development.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/09/20/how-mr-buford-got-me-started-in-software-development.aspx/"
 ---
 [Jason](http://www.lostechies.com/blogs/jason_meridth/) tagged me awhile back for a [&#8220;How did I get started in software development?&#8221;](http://www.lostechies.com/blogs/jason_meridth/archive/2008/06/27/how-did-i-get-started-in-software-development.aspx) post and I&#8217;m just now getting around to it, but I&#8217;m going to change the format a little.
 

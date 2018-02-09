@@ -9,6 +9,7 @@ dsq_thread_id:
   - "271132195"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2010/01/29/byof-to-pablo-s-fiesta.aspx/"
 ---
 Thanks to the generous folks, at St. Edwards PEC, the only real cost to organizing our Open Space conference is providing food.&nbsp; This what the $15 registration fee is covering: food, drinks and snacks.
 

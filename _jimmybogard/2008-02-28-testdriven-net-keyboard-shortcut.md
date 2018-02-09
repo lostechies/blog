@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715564"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/27/testdriven-net-keyboard-shortcut.aspx/"
 ---
 Continuing with the Palermo brain dump theme, [Jeffrey](http://codebetter.com/blogs/jeffrey.palermo/) introduced me to a keyboard shortcut for running [TestDriven.NET](http://www.testdriven.net/) tests from a keyboard shortcut.&nbsp; I had been right-clicking and going from the context menu:
 

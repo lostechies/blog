@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/ankhsvn-visual-studio-2005-addin-for-connecting-to-subversion.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/nelson_montalvo/archive/2007/03/30/ankhsvn-visual-studio-2005-addin-for-connecting-to-subversion.aspx/"
 ---
 I was in refactoring mode, preparing for my repository post, and had to move files from one location to another.  
   

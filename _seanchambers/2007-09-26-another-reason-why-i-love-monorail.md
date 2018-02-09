@@ -9,6 +9,7 @@ dsq_thread_id:
   - "635100898"
 categories:
   - monorail aspnet
+redirect_from: "/blogs/sean_chambers/archive/2007/09/25/another-reason-why-i-love-monorail.aspx/"
 ---
 W3C Validation is easy!!
 

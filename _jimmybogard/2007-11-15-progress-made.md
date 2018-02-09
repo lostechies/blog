@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Testing
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/15/progress-made.aspx/"
 ---
 I just wanted to highlight a quote from [Scott Guthrie&#8217;s](http://weblogs.asp.net/scottgu/) [recent post on MVC](http://weblogs.asp.net/scottgu/archive/2007/11/13/asp-net-mvc-framework-part-1.aspx)&nbsp;(emphasis mine):
 

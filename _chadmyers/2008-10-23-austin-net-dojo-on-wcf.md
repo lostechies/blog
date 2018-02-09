@@ -11,6 +11,7 @@ categories:
   - .NET
   - CodingDojo
   - WCF
+redirect_from: "/blogs/chad_myers/archive/2008/10/23/austin-net-dojo-on-wcf.aspx/"
 ---
 [J Sawyer](http://blog.microsoft-j.net), our local MS events guy, and Stephen Fulcher are hosting [a .NET coding dojo here in Austin, TX on November 3rd, 2008](http://blog.microsoft-j.net/2008/10/16/AustinrsquosFirstNetDojoWindowsCommunicationFoundation.aspx).
 

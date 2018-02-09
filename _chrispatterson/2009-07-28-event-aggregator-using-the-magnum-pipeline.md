@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089360"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2009/07/28/event-aggregator-using-the-magnum-pipeline.aspx/"
 ---
 In the past few weeks, both [Udi Dahan](http://www.udidahan.com/2009/06/14/domain-events-salvation/) and [Jeremy D. Miller](http://codebetter.com/blogs/jeremy.miller/archive/2009/07/23/how-i-m-using-the-event-aggregator-pattern-in-storyteller.aspx) have posted on events. Udi posted about domain events, while Jeremy posted about his use of the event aggregator pattern in StoryTeller. In each case, events are represented as messages and each message is a class in C#. And in each post, a small publish/subscribe system is described that allowed objects (be it a domain object, domain service, or a controller) to subscribe to messages. Other objects could then use that same system to publish events to the subscribed objects.
 

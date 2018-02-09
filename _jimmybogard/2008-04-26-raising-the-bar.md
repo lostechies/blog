@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715661"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/04/25/raising-the-bar.aspx/"
 ---
 [Continuous improvement](http://www.lostechies.com/blogs/chad_myers/archive/2008/04/23/two-random-thoughts.aspx) is absolutely essential for any serious software developer.&nbsp; Personally, my drive for constant improvement is not so much the next shiny developer toy (though this happens occasionally), but the idea that there is always some way to deliver value to the customer better and cheaper than what I&#8217;m doing now.
 

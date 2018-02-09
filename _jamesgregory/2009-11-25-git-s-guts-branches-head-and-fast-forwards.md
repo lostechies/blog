@@ -9,6 +9,7 @@ dsq_thread_id:
   - "275507055"
 categories:
   - git
+redirect_from: "/blogs/jagregory/archive/2009/11/25/git-s-guts-branches-head-and-fast-forwards.aspx/"
 ---
 Lets get some learning done. There are a few questions that keep cropping up when I introduce people to Git, so I thought I&#8217;d post some answers as a mini-series of blog posts. I&#8217;ll cover some fundamentals, while trying not to retread too much ground that the fantastic [Git community book](http://book.git-scm.com) already covers so well. Instead I&#8217;m going to talk about things that should help you understand what you and Git are doing day-to-day.
 

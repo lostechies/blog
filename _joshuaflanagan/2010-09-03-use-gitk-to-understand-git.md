@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262078944"
 categories:
   - git
+redirect_from: "/blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git.aspx/"
 ---
 Moving from subversion to git can be a struggle, trying to understand what terms like checkout, commit, branch, remote, rebase all mean in the git world. I learned by experimenting in a demo repository, trying out various commands, and using gitk to visualize their impact. This post is broken up into two parts – after reading this, you may want to <a href="http://www.lostechies.com/blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git-merge-and-rebase.aspx" target="_blank">read the second part</a>.
 

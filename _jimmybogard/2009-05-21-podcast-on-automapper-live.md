@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716176"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/05/21/podcast-on-automapper-live.aspx/"
 ---
 A couple of weeks ago, [Craig](http://weblogs.asp.net/craigshoemaker/) at [Polymorphic Podcast](http://polymorphicpodcast.com/) was kind, and patient enough to listen to me ramble for about an hour or so on [AutoMapper](http://automapper.codeplex.com/).&#160; We talked about quite a few topics concerning object-to-object mapping and AutoMapper, including:
 

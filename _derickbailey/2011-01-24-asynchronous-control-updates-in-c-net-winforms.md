@@ -12,6 +12,7 @@ categories:
   - Async
   - 'C#'
   - WinForms
+redirect_from: "/blogs/derickbailey/archive/2011/01/24/asynchronous-control-updates-in-c-net-winforms.aspx/"
 ---
 Every .NET WinForms project I&#8217;ve written, since .NET 2.0, has included some form of this code:
 

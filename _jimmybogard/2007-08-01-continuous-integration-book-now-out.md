@@ -9,6 +9,7 @@ dsq_thread_id:
   - "351114578"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2007/08/01/continuous-integration-book-now-out.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/continuous-integration-book-now-out.html)._
 

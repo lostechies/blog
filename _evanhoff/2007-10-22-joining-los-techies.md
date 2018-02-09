@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/22/joining-los-techies.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/22/joining-los-techies.aspx/"
 ---
 So, for the curious, they have an initiation ritual at Los Techies.&nbsp; I&#8217;m going to spill the secret.&nbsp; 
 

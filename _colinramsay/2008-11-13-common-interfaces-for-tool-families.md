@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2008/11/13/common-interfaces-for-tool-families.aspx
 categories:
   - softwaredesign
+redirect_from: "/blogs/colin_ramsay/archive/2008/11/13/common-interfaces-for-tool-families.aspx/"
 ---
 There are a load of different tool &#8220;families&#8221; in use in the .NET ecosystem which I&#8217;m sure LosTechies readers will take advantage of pretty much every day. IoC containers. Logging infrastructures. URL routing mechanisms. Each of these families operate on broadly similar principals &#8211; taking the container example, we know that we need to add types to the container and resolve types which are already in there. For logging, we&#8217;d generally have the ability to log to different levels of severity. So you can see that while the implementations and underlying behaviour may be significantly different, there is a layer of abstraction which highlights commonality.
 

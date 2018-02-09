@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Castle
   - IoC
+redirect_from: "/blogs/johnteague/archive/2009/08/20/wiring-up-generics-in-castle-windsor.aspx/"
 ---
 {% raw %}
 I&#8217;m working with a new team that has a slightly different technology stack then I&#8217;m used to.&nbsp; On most projects where I am the team lead, StructureMap is my IOC container of choice.&nbsp; I&#8217;ve always thought that this was just laziness on my part because I can wire up most things very quickly. Now I&#8217;m beginning to think that SM has spoiled me 🙂

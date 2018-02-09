@@ -14,6 +14,7 @@ categories:
   - Quality
   - Selenium
   - Test Automation
+redirect_from: "/blogs/derickbailey/archive/2009/08/27/how-to-get-started-with-selenium-core-and-asp-net-mvc.aspx/"
 ---
 About a year and a half ago, my team and I tried to get some WaitiN UI tests up and running. We got some basic tests working on our local machines after a while, but we were never able to get them to run correctly in our CruiseControl.NET CI server. We spent near 2 months trying to get it to work with nothing but pain and heartache. Eventually we gave up on WatiN and left UI test automation out of our process. 
 

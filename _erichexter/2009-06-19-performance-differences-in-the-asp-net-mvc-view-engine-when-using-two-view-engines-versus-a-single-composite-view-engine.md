@@ -16,6 +16,7 @@ categories:
   - MVC
   - Testing
   - x64
+redirect_from: "/blogs/hex/archive/2009/06/18/performance-differences-in-the-asp-net-mvc-view-engine-when-using-two-view-engines-versus-a-single-composite-view-engine.aspx/"
 ---
 &#160;
 

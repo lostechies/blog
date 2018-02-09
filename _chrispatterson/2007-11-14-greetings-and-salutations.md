@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089146"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2007/11/14/greetings-and-salutations.aspx/"
 ---
 I just wanted to give a shout out to the guys at Los Techies for inviting me to join the site. I&#8217;m just now getting things up and running (and testing [MarsEdit](http://www.red-sweater.com/marsedit/) with Community Server with this post) so I can easily post content to the site.
 

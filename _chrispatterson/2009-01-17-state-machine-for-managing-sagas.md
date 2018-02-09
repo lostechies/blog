@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - masstransit
+redirect_from: "/blogs/chris_patterson/archive/2009/01/16/state-machine-for-managing-sagas.aspx/"
 ---
 MassTransit supports sagas, which are long-lived transactions consisting of multiple events. The saga support makes it easy to orchestrate the events into a process, but it doesn&#8217;t do much to help with state management. Since state management is fairly common, I felt it necessary to add some support for a state machine. 
 

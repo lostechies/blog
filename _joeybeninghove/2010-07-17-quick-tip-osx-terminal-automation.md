@@ -11,6 +11,7 @@ categories:
   - Rails
   - Ruby
   - terminal
+redirect_from: "/blogs/joeydotnet/archive/2010/07/16/quick-tip-osx-terminal-automation.aspx/"
 ---
 ## My OSX Terminal Environment (as of today)
 

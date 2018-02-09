@@ -9,6 +9,7 @@ dsq_thread_id:
   - "470738015"
 categories:
   - Members
+redirect_from: "/blogs/chrismissal/archive/2009/01/06/who-is-this-chris-missal-guy.aspx/"
 ---
 Thanks again to the Los Techies guys for inviting me to blog with them. I was privileged to meet several of them at [Kaizenconf](http://kaizenconf.com/) in Austin, TX last fall and I couldn&#8217;t hope for a better group of talented people to have my name next to. As [Tim Barcz](http://www.devlicio.us/blogs/tim_barcz) said in [Jason&#8217;s Welcome Post](/blogs/jason_meridth/archive/2009/01/05/pablo-welcomes-chris-missal.aspx), I&#8217;m relatively unknown at this point, so I&#8217;ll tell you a little more about what interests me and what you can expect from me.
 

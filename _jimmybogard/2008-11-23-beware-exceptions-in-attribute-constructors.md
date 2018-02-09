@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266628135"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/22/beware-exceptions-in-attribute-constructors.aspx/"
 ---
 If you’d like to have some really wacky bugs, be sure to do something like this:
 

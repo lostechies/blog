@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089319"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2009/04/07/declarative-workflow-with-masstransit.aspx/"
 ---
 One of the really cool features that is available in the 0.6 release of MassTransit is the ability to declaratively define a saga/workflow using a nested-closure syntax in combination with a fluent builder. While some wonder if fluent interfaces are going to [become the &#8220;aluminum wiring&#8221;](http://odetocode.com/Blogs/scott/archive/2009/03/16/12651.aspx) of the current generation of software development, I find them incredible valuable for building an expressive representation of logic. 
 

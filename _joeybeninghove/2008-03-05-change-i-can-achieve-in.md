@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joeydotnet/archive/2008/03/04/change-i-can-achieve-in.asp
 categories:
   - Personal
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2008/03/04/change-i-can-achieve-in.aspx/"
 ---
 Well, this post is more of the personal variety, but it may affect future posts in one way or another (however, [not like this](http://lostechies.com/blogs/sean_chambers/archive/2008/02/26/what-happened-to-you-ve-been-haacked.aspx)).&nbsp; In short, a season of change is upon me.
 

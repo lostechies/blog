@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/30/code-is-obsolete-in-visual-studio-10.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/30/code-is-obsolete-in-visual-studio-10.aspx/"
 ---
 Sorry, I can&#8217;t resist.
 

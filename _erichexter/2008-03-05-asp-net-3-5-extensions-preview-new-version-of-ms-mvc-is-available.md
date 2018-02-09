@@ -11,6 +11,7 @@ categories:
   - ASP.NET
   - MVC
   - mvccontrib
+redirect_from: "/blogs/hex/archive/2008/03/05/asp-net-3-5-extensions-preview-new-version-of-ms-mvc-is-available.aspx/"
 ---
 As part of the Mix 08 conference a new version of the Microsoft MVC framework is available for download.
 

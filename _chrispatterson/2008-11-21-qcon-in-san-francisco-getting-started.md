@@ -9,6 +9,7 @@ dsq_thread_id:
   - "269052861"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2008/11/21/qcon-in-san-francisco-getting-started.aspx/"
 ---
 This week I&#8217;m attending [QCon](http://qconsf.com/), the international software developers conference, and since the day I arrived it has been great. The depth of knowledge is truly amazing and I&#8217;m enjoying some excellent conversations. The attendee mix is (based on my estimation) 50% Java developers, 30% .NET developers, and 20% other languages like Ruby or Python. The diverse nature of the conference is interesting in that many of the sessions are platform-neutral, focusing more on patterns and practices and a less on tools. 
 

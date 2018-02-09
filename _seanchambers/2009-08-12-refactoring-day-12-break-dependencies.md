@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262350112"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/12/refactoring-day-12-break-dependencies.aspx/"
 ---
 Today&#8217;s refactoring is useful if you are trying to introduce unit tests into your code base as testing &ldquo;seams&rdquo; are needed to properly mock/isolate areas you don&rsquo;t wish to test. In this example we have client code that is using a static class to accomplish some work. The problem with this when it comes to unit testing because there is no way to mock the static class from our unit test. To work around this you can apply a wrapper interface around the static to create a seam and break the dependency on the static.
 

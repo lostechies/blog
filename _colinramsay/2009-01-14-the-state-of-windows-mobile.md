@@ -8,6 +8,7 @@ wordpress_guid: /blogs/colin_ramsay/archive/2009/01/14/the-state-of-windows-mobi
 categories:
   - Compact Framework
   - windows mobile
+redirect_from: "/blogs/colin_ramsay/archive/2009/01/14/the-state-of-windows-mobile.aspx/"
 ---
 &ldquo;Have you done any Windows Mobile development?&rdquo;
   

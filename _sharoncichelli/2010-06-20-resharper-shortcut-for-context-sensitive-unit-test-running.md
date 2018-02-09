@@ -12,6 +12,7 @@ categories:
   - shortcut
   - Unit Testing
   - Visual Studio
+redirect_from: "/blogs/sharoncichelli/archive/2010/06/19/resharper-shortcut-for-context-sensitive-unit-test-running.aspx/"
 ---
 For a keyboard shortcut to the context-sensitive ReSharper unit test runner (otherwise available via right-click > Run Unit Tests), map:
 

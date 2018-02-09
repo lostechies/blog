@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - IronPython
   - Python
+redirect_from: "/blogs/rssvihla/archive/2009/05/28/ironpython-how-cool-it-is.aspx/"
 ---
 Briefly, <a target="_blank" href="http://www.codeplex.com/IronPython">IronPython</a> is an implementation of Python in the .Net runtime. This allows you access to&nbsp; .Net framework goodness while programming in a dynamic language. The current stable version 2.0.1 maps to CPython 2.5.This allows me to do fun fun things like use my python project to access a c# project. follows is a python script using Pinsor and accessing a .net dll.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262174727"
 categories:
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2009/01/15/testing-your-code-to-test-yourself.aspx/"
 ---
 <img alt="A rhinoceros beetle (aka bug) - CraigPJ" style="float: right;margin-left: 15px;margin-right: 15px" src="//lostechies.com/chrismissal/files/2011/03/beetle.jpg" />
 

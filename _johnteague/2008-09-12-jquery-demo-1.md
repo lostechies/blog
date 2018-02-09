@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - JavaScript
   - JQuery
+redirect_from: "/blogs/johnteague/archive/2008/09/12/jquery-demo-1.aspx/"
 ---
 I did several demonstrations during the [Alamo Coders](http://www.alamocoders.net/) presentation.&nbsp; I am going to walk through two of them that I think are the most interesting.&nbsp; One cool thing about jQuery demonstrations is that you don&#8217;t need very many of them.&nbsp; One or two real world examples will demonstrate 80% of jQuery&#8217;s functionality.&nbsp; Not because the library is not robust, but because it is such a compact library and you can do so much with just a few statements.
 

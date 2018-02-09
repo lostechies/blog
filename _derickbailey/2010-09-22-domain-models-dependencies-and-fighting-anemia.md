@@ -13,6 +13,7 @@ categories:
   - Design Patterns
   - Domain Driven Design
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/09/22/domain-models-dependencies-and-fighting-anemia.aspx/"
 ---
 For a long time now, I’ve been in the camp that says you shouldn’t have domain entities take dependencies… but at this point I’m having a hard time remembering why. I’m sure I could dig up my old notes and blog posts, but I don’t feel like doing that right now. Rather, I wanted to discuss a scenario that I run into a lot – and am currently facing – anemic domain models. The problem that I constantly run into is that I need to have access to a repository or some other functionality inside of my entities in order to get something done. If I decide to go down the path of not letting my entities have dependencies, then I end up pulling the logic that might belong in my entities out into a service class and my domain model becomes anemic – nothing more than simple data transfer objects with a few simple factory methods for the various collections and child objects on the entity. 
 

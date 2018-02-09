@@ -10,6 +10,7 @@ categories:
   - NHibernate
   - Patterns
   - Refactoring
+redirect_from: "/blogs/joeydotnet/archive/2007/09/29/re-presentation-model-question.aspx/"
 ---
 I&#8217;ve been&nbsp;working on an end to end example using MonoRail (I know, just get
   

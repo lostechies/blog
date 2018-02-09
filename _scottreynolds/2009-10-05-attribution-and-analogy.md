@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2009/10/05/attribution-and-analogy.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottcreynolds/archive/2009/10/05/attribution-and-analogy.aspx/"
 ---
 Brief pause to correct and address a couple of things.
 

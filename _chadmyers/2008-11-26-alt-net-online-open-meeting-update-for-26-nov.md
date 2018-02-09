@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ALT.NET
   - LiveMeeting
+redirect_from: "/blogs/chad_myers/archive/2008/11/25/alt-net-online-open-meeting-update-for-26-nov.aspx/"
 ---
 I just talked with [Zach Young](http://zachariahyoung.com/zy/post/2008/11/Second-ALTNet-Livemeeting-on-19-Nov-2008.aspx) earlier today and given the fact that Thursday is a major holiday in the U.S. (Thanksgiving), we will not be hosting an ALT.NET meeting this Wednesday night (26-NOV).&#160; That doesn’t mean it can’t happen. Anyone with a Live Meeting account (or Skype or ooVoo or anything, really) can fire one up.&#160; 
 

@@ -12,6 +12,7 @@ categories:
   - Patterns
   - Refactoring
   - TDD
+redirect_from: "/blogs/joeydotnet/archive/2007/05/15/creating-composite-view-components-in-monorail-refactoring-exercise.aspx/"
 ---
 In&nbsp;a [previous post](http://joeydotnet.com/blog/archive/2007/04/13/Having-fun-creating-reusable-components-in-MonoRail.aspx), I showed&nbsp;some examples of how to create custom view components in MonoRail and touched on the ability&nbsp;to create composite view components.&nbsp; Since then I&#8217;ve refactored towards the use of interfaces which I think is a cleaner approach, so I thought I&#8217;d share.&nbsp;
 

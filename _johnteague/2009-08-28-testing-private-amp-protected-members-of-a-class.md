@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - Testing
+redirect_from: "/blogs/johnteague/archive/2009/08/28/testing-private-amp-protected-members-of-a-class.aspx/"
 ---
 In my last blog post, someone asked me you can write unit tests for a private or protected method.&#160; I gave part of the response in a comment, but I need to give a more detailed description.
 

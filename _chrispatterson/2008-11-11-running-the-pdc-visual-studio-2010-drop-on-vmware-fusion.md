@@ -11,6 +11,7 @@ categories:
   - .NET
   - mac
   - OSX
+redirect_from: "/blogs/chris_patterson/archive/2008/11/10/running-the-pdc-visual-studio-2010-drop-on-vmware-fusion.aspx/"
 ---
 At the Microsoft PDC in Los Angeles this year, attendees received a CTP of Visual Studio 2010 on an external HD along with all the conference materials. VSX came installed on Windows Server 2008 (along with TFS) giving attendees a chance to dig into the new features of .NET 4.0 and the IDE. 
 

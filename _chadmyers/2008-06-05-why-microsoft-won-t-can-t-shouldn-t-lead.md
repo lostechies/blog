@@ -11,6 +11,7 @@ categories:
   - ALT.NET
   - Misc
   - Self-examination
+redirect_from: "/blogs/chad_myers/archive/2008/06/04/why-microsoft-won-t-can-t-shouldn-t-lead.aspx/"
 ---
 That&#8217;s a rather sensationalistic headline, I admit, but it&#8217;s true and here&#8217;s why:
 

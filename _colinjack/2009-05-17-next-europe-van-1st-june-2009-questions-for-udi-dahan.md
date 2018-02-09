@@ -8,6 +8,7 @@ wordpress_guid: /blogs/colinjack/archive/2009/05/18/next-europe-van-1st-june-200
 categories:
   - ALT.NET
   - E-VAN
+redirect_from: "/blogs/colinjack/archive/2009/05/18/next-europe-van-1st-june-2009-questions-for-udi-dahan.aspx/"
 ---
 [Udi Dahan](http://www.udidahan.com/?blog=true) has been kind enough to agree to do the next Europe VAN and suggested that we all put forward our questions for him to answer. 
 

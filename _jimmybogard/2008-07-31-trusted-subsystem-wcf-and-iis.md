@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268425675"
 categories:
   - WCF
+redirect_from: "/blogs/jimmy_bogard/archive/2008/07/30/trusted-subsystem-wcf-and-iis.aspx/"
 ---
 I&#8217;ve just about pulled my hair out on this one.&nbsp; This used to be very easy with ASMX:
 

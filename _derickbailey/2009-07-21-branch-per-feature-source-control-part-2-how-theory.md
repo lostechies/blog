@@ -17,6 +17,7 @@ categories:
   - Source Control
   - Subversion
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/07/21/branch-per-feature-source-control-part-2-how-theory.aspx/"
 ---
 In the first part of my [Branch-Per-Feature (BPF) series](http://www.lostechies.com/blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-introduction.aspx), I talked about why you would want to use a source control strategy like BPF – what circumstances would warrant such a strategy, what problems it solves, and a little bit of the cost involved.&#160; 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715465"
 categories:
   - altnetconf
+redirect_from: "/blogs/jimmy_bogard/archive/2007/12/18/alt-net-summary-blog.aspx/"
 ---
 If the ALT.NET mailing list is too much to keep up with, as it is the Mother of All Firehoses (MOAF), several folks have pointed out a nice summary blog:
 

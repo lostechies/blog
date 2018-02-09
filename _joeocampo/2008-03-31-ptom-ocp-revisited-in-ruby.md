@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - PTOM
   - Ruby
+redirect_from: "/blogs/joe_ocampo/archive/2008/03/30/ptom-ocp-revisited-in-ruby.aspx/"
 ---
 I was playing with some <a title="Ruby" href="http://www.ruby-lang.org/en/" target="_blank">Ruby</a> code this weekend and thought I would show some <a href="http://www.objectmentor.com/resources/articles/ocp.pdf" target="_blank">OCP</a> with <a title="Ruby" href="http://www.ruby-lang.org/en/" target="_blank">Ruby</a>. 
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/eric/archive/2009/08/31/up-and-running-and-squirrel-sql-and-sql-server-express-2005.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/eric/archive/2009/08/31/up-and-running-and-squirrel-sql-and-sql-server-express-2005.aspx/"
 ---
 Squirrel SQL provides some nice features that SQL Management Studio does not have out-of-the-box including auto-completion of table and column names.&nbsp; Granted, Red Gate makes tools for Management Studio to get the same functionality, but SQuirrel SQL is open source and free.
 

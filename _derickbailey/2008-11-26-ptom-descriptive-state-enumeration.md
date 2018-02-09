@@ -12,6 +12,7 @@ categories:
   - Design Patterns
   - Principles and Patterns
   - Refactoring
+redirect_from: "/blogs/derickbailey/archive/2008/11/26/ptom-descriptive-state-enumeration.aspx/"
 ---
 This post is part of the [November 2008 Pablo&#8217;s Topic Of The Month (PTOM) &#8211; Design Patterns](http://www.lostechies.com/blogs/rhouston/archive/2008/11/05/pablo-s-topic-of-the-month-november-design-patterns.aspx) and will primarily outline the State pattern, with an Enumeration or Descriptor pattern thrown in for good measure.
 

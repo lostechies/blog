@@ -9,6 +9,7 @@ dsq_thread_id:
   - "270056105"
 categories:
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2009/07/26/refactoring-challenge-2-functionally-illiterate.aspx/"
 ---
 In the [last refactoring challenge](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/07/06/refactoring-challenge.aspx), I had a problem with some nasty conditional complexity.&#160; To be honest, the challenge was a subtle way to crowdsource new features in AutoMapper, but hey, it worked.&#160; One of the hard parts of being a sole contributor to an OSS project is that I lose the benefits of teammates and pair programming, to be able to bounce design ideas around and brainstorm solutions.&#160; So instead, I’ll just post my problems here.
 

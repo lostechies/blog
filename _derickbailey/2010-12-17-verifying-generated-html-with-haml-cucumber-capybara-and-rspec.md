@@ -15,6 +15,7 @@ categories:
   - Ruby
   - Test Automation
   - Testing
+redirect_from: "/blogs/derickbailey/archive/2010/12/17/verifying-generated-html-with-haml-cucumber-capybara-and-rspec.aspx/"
 ---
 Several of the reports that the app that Joey and I are working on will be generated via HAML to be displayed in the app, for the users. The generated content will end up being HTML, but starts it&#8217;s life as HAML markup &#8211; our preferred markup for Rails apps. It&#8217;s easy to generate HAML into HTML, in code:</p> 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716071"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/15/validation-in-a-ddd-world.aspx/"
 ---
 It’s a common question, “Where do I put validation?”&#160; Simple answer: put it where it’s needed.
 

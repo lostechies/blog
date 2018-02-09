@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267899424"
 categories:
   - Books Reviews
+redirect_from: "/blogs/derickbailey/archive/2010/05/20/book-review-web-design-for-developers.aspx/"
 ---
 I recently finished reading [Web Design For Developers: A Programmer&rsquo;s Guide to Design Tools and Techniques](http://pragprog.com/titles/bhgwad/web-design-for-developers) and while I would like to have seen a few more specific details in a few places, the book overall does a great job of breaking down the mystic art of web design in a manner that allows almost any left-brained analytical developer to grasp the concepts and produce work of sufficient quality. If you are a software developer that is interested in web design, this is the book for you. It is full of great parallels between the two worlds and will help you understand how to create a design that works, while conforming to standards and be accessible to all types of browsers and devices.
 

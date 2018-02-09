@@ -12,6 +12,7 @@ categories:
   - Java
   - Maven
   - MSBuild
+redirect_from: "/blogs/rssvihla/archive/2010/07/12/project-management-in-java-a-confused-net-developer-s-perspective.aspx/"
 ---
 When I was first introduced to workplace Java the amount of ways one could define a project appeared to be restrictive, confusing and a point of frequent friction. While those things may all be true, it’s a great deal better than I would have expected since I was coming from a world where an upgrade to a newer version of Visual Studio requires your whole team to sync up to that same version!&#160; So how do cross IDEA teams get any work done in the Java workplace? Do Java OSS projects require everyone uses Eclipse, NetBeans, or IntelliJ?&#160; Does every new IDE need to have import/export filters for all of the other existing ones and if it becomes popular do the already present IDE’s have to include this? Which system is the best and what matters?
 

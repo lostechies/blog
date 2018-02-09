@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/24/the-8-fallacies-of-distributed-computing.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/24/the-8-fallacies-of-distributed-computing.aspx/"
 ---
 I wanted to reproduce these here for reference.
 

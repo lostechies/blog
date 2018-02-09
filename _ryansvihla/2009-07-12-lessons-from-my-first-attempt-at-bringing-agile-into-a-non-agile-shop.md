@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - lean
+redirect_from: "/blogs/rssvihla/archive/2009/07/12/lessons-from-my-first-attempt-at-bringing-agile-into-a-non-agile-shop.aspx/"
 ---
 Since I’m moving on from my current employer I figure now is a great time to share my post-mortem of my time there, specifically what worked, what didn’t and what did I learn.
 

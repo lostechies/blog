@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264261097"
 categories:
   - microsoft tools monorail
+redirect_from: "/blogs/sean_chambers/archive/2007/10/15/yet-another-microsoft-mvc-monorail-blog-post.aspx/"
 ---
 I am not going to quote any other blogs posts that I have read in the past two weeks about these topics, If you do a System.Web.MVC search or were at ALT.Net then I&#8217;m sure you&#8217;ve already read enough about it.
 

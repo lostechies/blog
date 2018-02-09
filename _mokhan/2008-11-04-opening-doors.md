@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/11/04/opening-doors.aspx
 categories:
   - Design Patterns
+redirect_from: "/blogs/mokhan/archive/2008/11/04/opening-doors.aspx/"
 ---
 </p> 
 

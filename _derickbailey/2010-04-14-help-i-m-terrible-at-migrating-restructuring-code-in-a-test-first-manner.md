@@ -15,6 +15,7 @@ categories:
   - Philosophy of Software
   - Pragmatism
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/04/14/help-i-m-terrible-at-migrating-restructuring-code-in-a-test-first-manner.aspx/"
 ---
 I’ve spent the last day or so restructuring some code – specifically converting a WinForms form into a user control so that I can host the control in several different forms that need it. This involves changing the presenter for the original form, the form itself, the view interface for the form and then re-creating these as the user control. 
 

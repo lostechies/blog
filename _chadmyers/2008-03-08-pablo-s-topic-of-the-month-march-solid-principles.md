@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113714"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx/"
 ---
 # Pablo&#8217;s Topic of the Month &#8211; March: SOLID Principles[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 15px;border-right-width: 0px" height="240" alt="pablos_topic" src="http://lostechies.com/chadmyers/files/2011/03PablosTopicoftheMonthMarchSOLIDPrinciple_12781/pablos_topic_thumb.png" width="240" align="right" border="0" />](http://lostechies.com/chadmyers/files/2011/03PablosTopicoftheMonthMarchSOLIDPrinciple_12781/pablos_topic_2.png)
 

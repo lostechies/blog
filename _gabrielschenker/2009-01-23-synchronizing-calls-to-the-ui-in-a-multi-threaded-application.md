@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - asynchronous
   - multi threading
+redirect_from: "/blogs/gabrielschenker/archive/2009/01/23/synchronizing-calls-to-the-ui-in-a-multi-threaded-application.aspx/"
 ---
 [<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="200" alt="synchronize" src="http://lostechies.com/gabrielschenker/files/2011/03/synchronize_thumb.jpg" width="244" align="right" border="0" />](http://lostechies.com/gabrielschenker/files/2011/03/synchronize_2.jpg) 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268027361"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/03/16/unicode-in-regular-expressions.aspx/"
 ---
 Wow, what an interesting blog post title!&#160; Two technologies, each scintillating by itself, when brought together have more energy than a 1988 GnR concert.
 

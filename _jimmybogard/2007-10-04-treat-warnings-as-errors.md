@@ -9,6 +9,7 @@ dsq_thread_id:
   - "306939326"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/04/treat-warnings-as-errors.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/treat-warnings-as-errors.html)._
 

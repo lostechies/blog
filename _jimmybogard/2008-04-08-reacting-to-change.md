@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715645"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2008/04/07/reacting-to-change.aspx/"
 ---
 When dealing with the possibility of change in requirements in the middle of development, I&#8217;ve generally seen three reactions:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716354"
 categories:
   - SQL
+redirect_from: "/blogs/jimmy_bogard/archive/2009/11/23/hitting-the-upper-limit-of-foreign-key-constraints.aspx/"
 ---
 There are bugs, and then there are _bugs_.&#160; We recently hit one that fell directly in crazy-town category.&#160; What exactly would you do if you get this fun message:
 

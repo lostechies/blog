@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263177379"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2010/02/21/austin-code-camp-2010-call-for-speakers.aspx/"
 ---
 ##### &#160;
 

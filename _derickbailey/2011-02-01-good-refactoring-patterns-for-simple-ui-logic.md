@@ -13,6 +13,7 @@ categories:
   - Pragmatism
   - Principles and Patterns
   - Refactoring
+redirect_from: "/blogs/derickbailey/archive/2011/02/01/good-refactoring-patterns-for-simple-ui-logic.aspx/"
 ---
 I&#8217;ve got a chunk of C# that sits inside of a very simple form. The form downloads an update from a web page &#8211; one of two possible downloads, based on which one is available &#8211; and shows a message to the user saying it&#8217;s done. The basic rules for which one to download are:
 

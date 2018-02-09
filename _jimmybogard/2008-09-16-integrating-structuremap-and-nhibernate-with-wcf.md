@@ -11,6 +11,7 @@ categories:
   - NHibernate
   - StructureMap
   - WCF
+redirect_from: "/blogs/jimmy_bogard/archive/2008/09/16/integrating-structuremap-and-nhibernate-with-wcf.aspx/"
 ---
 Following many examples I found online for other IoC containers, I <strike>borrowed</strike> utilized those designs to create a [StructureMap instance provider](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/07/29/integrating-structuremap-with-wcf.aspx).&nbsp; One problem we ran into with that design was dealing with NHibernate.&nbsp; Mainly, there are two types that are very important to care about when using NHibernate:
 

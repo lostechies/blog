@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Philosophy of Software
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/03/30/your-type-of-framework-tool-choice-is-not-a-feature-of-your-application.aspx/"
 ---
 Tim Barcz posted a great article on how <a href="http://devlicio.us/blogs/tim_barcz/archive/2009/03/29/your-ioc-container-choice-is-not-a-feature-of-your-application.aspx" target="_blank">the specific choice of an IoC container doesn’t really mean much</a> in the grand scheme of the application. This line, at the bottom of the post, really sums it up for me:
 

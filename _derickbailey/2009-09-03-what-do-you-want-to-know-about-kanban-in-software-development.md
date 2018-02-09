@@ -12,6 +12,7 @@ categories:
   - Education
   - Kanban
   - Presentations
+redirect_from: "/blogs/derickbailey/archive/2009/09/03/what-do-you-want-to-know-about-kanban-in-software-development.aspx/"
 ---
 I asked this question [via Twitter](http://twitter.com/derickbailey/statuses/3734878894) a few minutes ago, and wanted to ask the non-twittering inter-web-o-blog-reading public:
 

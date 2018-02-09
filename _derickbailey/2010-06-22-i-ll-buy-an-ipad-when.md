@@ -9,6 +9,7 @@ dsq_thread_id:
   - "269205141"
 categories:
   - Uncategorized
+redirect_from: "/blogs/derickbailey/archive/2010/06/21/i-ll-buy-an-ipad-when.aspx/"
 ---
 no, really… I’m actually interested in buying an iPad… but under very specific circumstances. Here’s the app that I want, that would make me shell out $500 for an iPad: a remote whiteboard app that transmits my drawing on the iPad over to my computer so that I can have a virtual whiteboard shared with my coworkers across the internet. It’s entirely a collaboration problem that I’m trying to solve. I want to grab my coworkers and walk over to a whiteboard… except we’re all thousands of miles from each other so that doesn’t really work. 
 

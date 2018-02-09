@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263072431"
 categories:
   - Product Reviews
+redirect_from: "/blogs/derickbailey/archive/2010/07/13/i-bought-an-ipad-and-i-m-returning-it.aspx/"
 ---
 A while back I posted that I would [buy an iPad when I found a very specific type of app for it](http://www.lostechies.com/blogs/derickbailey/archive/2010/06/21/i-ll-buy-an-ipad-when.aspx). Well I found that app thanks to the comments on the blog post and I’ve had my iPad for about 24 hours now. I’ve downloaded apps, and played games. I’ve watched movies from my Netflix account. I’ve checked email, I’ve used IRC and Twitter to communicate with my team while my laptop was going through 20 hours of CheckDisk (no joke on the 20 hours)… and I’m going to return the iPad. It’s not worth $600.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267850059"
 categories:
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2007/09/10/smells-to-refactorings-quick-reference-guide.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/09/smells-to-refactorings-quick-reference.html)._
 

@@ -10,6 +10,7 @@ categories:
   - MonoRail
   - TDD
   - Web
+redirect_from: "/blogs/joeydotnet/archive/2007/09/07/quick-tip-asserting-response-redirects-in-a-monorail-controller-test.aspx/"
 ---
 Reading [this post](http://schambers.wordpress.com/2007/09/04/testing-monorail-controllers-from-castles-trunk/trackback/) by [Sean](http://schambers.wordpress.com/) reminded me of when I first started using the trunk&#8217;s BaseControllerTest.&nbsp; One nifty little property on the base test controller&#8217;s mock Response object is **RedirectedTo**.&nbsp; So you can do something like this:
 

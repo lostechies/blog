@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2009/01/13/nhibernate-xml-columns.aspx
 categories:
   - NHibernate
+redirect_from: "/blogs/joeydotnet/archive/2009/01/13/nhibernate-xml-columns.aspx/"
 ---
 One of the things I’ve been working on recently involves using XML columns in SQL Server.&#160; Starting out, it was simple and I was just doing vanilla ADO.NET (wrapped in a simple Query API) combined with XML serialization/deserialization, which worked pretty well for a while.&#160; 
 

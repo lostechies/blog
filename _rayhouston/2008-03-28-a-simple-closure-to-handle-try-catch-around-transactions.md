@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/03/27/a-simple-closure-to-handle-try-catch-around-transactions.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/03/27/a-simple-closure-to-handle-try-catch-around-transactions.aspx/"
 ---
 _(Updated: I moved the begin transaction outside of the try as [Chad](http://www.lostechies.com/blogs/chad_myers/default.aspx) suggested in the comments.)_
 

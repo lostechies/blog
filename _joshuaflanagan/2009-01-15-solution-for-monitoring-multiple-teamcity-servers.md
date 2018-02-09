@@ -9,6 +9,7 @@ dsq_thread_id:
   - "277486527"
 categories:
   - teamcity
+redirect_from: "/blogs/joshuaflanagan/archive/2009/01/15/solution-for-monitoring-multiple-teamcity-servers.aspx/"
 ---
 Proving yet again that the squeaky wheel gets the grease (this issue rose up to have the second highest number of votes in the TeamCity issue tracker), and what a truly responsive vendor JetBrains is, we now have a solution for the problem of monitoring more than one TeamCity server.
 

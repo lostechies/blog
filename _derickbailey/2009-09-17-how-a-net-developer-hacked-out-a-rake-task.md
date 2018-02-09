@@ -14,6 +14,7 @@ categories:
   - Lambda Expressions
   - Rake
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2009/09/17/how-a-net-developer-hacked-out-a-rake-task.aspx/"
 ---
 I spent the last two days having my brain melted by [Scott Bellware](http://blog.scottbellware.com/), in a crash course on [Ruby](http://www.ruby-lang.org), [Rake](http://rake.rubyforge.org/), [RSpec](http://rspec.info/), [Selenium](http://seleniumhq.org/), web UI test automation best practices, and all-around uber-normal-person-language-oriented development. It was great! After the first 7 hour day, I felt like I had been awake for 24 hours. After the second 8 hour day, I felt like I actually knew something about Ruby and good web UI test automation practices.
 

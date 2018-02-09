@@ -12,6 +12,7 @@ categories:
   - Continuous Improvement
   - development
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2010/02/02/how-i-approach-a-defect.aspx/"
 ---
 Lately I&#8217;ve been tracking some of the steps I go through in a given day or week. I was fixing a bug the other day when I decided that I should write down all the mental notes I refer to when addressing a problem like a bug in code. These are questions I didn&#8217;t always ask in the past and I feel they are valuable, so why not share them?
 

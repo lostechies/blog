@@ -11,6 +11,7 @@ categories:
   - Analytics
   - Continuous Improvement
   - Project Management
+redirect_from: "/blogs/chrismissal/archive/2009/07/13/a-different-type-of-r-and-r.aspx/"
 ---
 I received an insert in the mail today and while it was aimed towards something much different than software development, I thought the idea was still relevant. The flyer came with my quarterly retirement savings statement and read as follows:
 

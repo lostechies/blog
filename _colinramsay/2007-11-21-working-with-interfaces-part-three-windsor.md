@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2007/11/21/working-with-interfaces-part-three-windsor.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colin_ramsay/archive/2007/11/21/working-with-interfaces-part-three-windsor.aspx/"
 ---
 [Castle Windsor](http://www.castleproject.org/container/index.html) is an [Inversion of Control](http://www.betaversion.org/%7Estefano/linotype/news/38/) container which uses interfaces as a key concept. When working in the manner I described in my previous articles on interfaces, you get a decoupled application but may end up with a lot of &#8220;wiring-up&#8221; &#8211; instantiating interface implementations then passing them into your classes.
 

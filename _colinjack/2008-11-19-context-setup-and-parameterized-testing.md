@@ -9,6 +9,7 @@ categories:
   - BDD
   - TDD
   - Unit Testing
+redirect_from: "/blogs/colinjack/archive/2008/11/19/context-setup-and-parameterized-testing.aspx/"
 ---
 Although I really like&nbsp;[Astels style BDD](http://blog.daveastels.com/files/BDD_Intro.pdf) still use a lot of [parameterized testing](http://xunitpatterns.com/Parameterized%20Test.html) and though I should give you an example why, using XUnit.net. 
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/09/14/creating-a-silverlight-layout-panel.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/09/14/creating-a-silverlight-layout-panel.aspx/"
 ---
 On our current project, we came across the need to build some custom layout panels in Silverlight to achieve some complex fluid layouts that we could not get from the built in controls. I was amazed to see how easy it was to create your own. This panel that I&#8217;m going to show is nothing fancy, but it shows how simple it really is. It will layout it&#8217;s children in a diagonal direction from upper left to lower right.
 

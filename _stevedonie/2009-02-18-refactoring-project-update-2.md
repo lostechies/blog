@@ -12,6 +12,7 @@ categories:
   - ProjectManagement
   - retrospective
   - Testing
+redirect_from: "/blogs/stevedonie/archive/2009/02/18/refactoring-project-update-2.aspx/"
 ---
 So, work on the refactoring project continues. We had a meeting with some of the key stakeholders, and came to an agreement between everyone that we should strive for several small releases. Our first release goal is fairly modest, and actually removes some little-used functionality in the system. We&#8217;re starting by setting up an end-to-end automated smoke test of the system. All of this is being automated using Hudson as our CI server. We approached the problem sort of like we would TDD, but in a larger context. Step one was to imagine what we wanted the end result to look like. Something like &#8220;Whenever a code change is checked in, we want to create a deployable packaged loader, save that artifact somewhere, then run a smoke test of that packaged artifact&#8221;. That led to us looking at the packaging and artifact repository system we had been using. We had been using a system very similar to what I described in a <a href="http://donie.homeip.net:8080/pebble/Steve/2005/12/28/1135786642478.html" target="_blank">post at my old blog</a> in which built artifacts were checked into subversion. There were some issues with that system, and we&#8217;ve been wanting to move more towards a maven style of managing dependencies and build artifacts, so we spent a day or so getting that set up. On a side note, maven can be a pain in the butt.
 

@@ -11,6 +11,7 @@ categories:
   - 'C#'
   - DomainDrivenDesign
   - LINQ
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/08/enhancing-mappers-with-linq.aspx/"
 ---
 The &#8220;big 3&#8221; higher-order functions in functional programming are Filter, Map and Reduce.&nbsp; When looking at the new C# 3.0 LINQ query operators, we find that [all three have equivalents](http://diditwith.net/2007/06/27/AHigherCallingRevisited.aspx):
 

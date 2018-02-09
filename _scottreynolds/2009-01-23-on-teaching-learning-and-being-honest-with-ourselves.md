@@ -9,6 +9,7 @@ categories:
   - Community
   - mentoring
   - teaching
+redirect_from: "/blogs/scottcreynolds/archive/2009/01/23/on-teaching-learning-and-being-honest-with-ourselves.aspx/"
 ---
 _Preamble: I&#8217;m not an expert teacher or mentor. I practice all the time to get better. Much of what you are about to read comes from personal failings in this arena, as recently as a week ago. This is an open letter to all who would teach._
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089235"
 categories:
   - Music
+redirect_from: "/blogs/chris_patterson/archive/2008/02/29/coding-tunes.aspx/"
 ---
 I got <a href="http://www.codesqueeze.com/what-music-do-you-code-to/" target="_blank">tagged</a> by Max Pool of <a href="http://www.codesqueeze.com/" target="_blank">{codesqueeze}</a> regarding my choice of tunes while coding. 
 

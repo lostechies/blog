@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114393"
 categories:
   - Open Source
+redirect_from: "/blogs/chad_myers/archive/2009/05/28/lifecycle-of-an-open-source-project.aspx/"
 ---
 I’ve had several people ask me about the state of various open source projects that I’m involved with or advocate.&#160; They ask questions such as “Is it alpha or beta?”, “Should we start using it?”, and “Where can I get started learning more?”.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - MonoRail
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/19/controller-bloat.aspx/"
 ---
 Some of my background information first:
 

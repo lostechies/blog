@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/11/30/book-review-enterprise-architecture-as-strategy.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/11/30/book-review-enterprise-architecture-as-strategy.aspx/"
 ---
 Environments where many applications and many development teams must&nbsp;talk have an additional layer of complexity surrounding them.&nbsp; The more integrated the applications have to become, the hairier it gets.&nbsp; If this scenario sounds like the company you are at, there&#8217;s a good change <a href="http://architectureasstrategy.com/book/eas/" target="_blank">this book</a> will bring some clarity to your world view. 🙂
 

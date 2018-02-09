@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123822"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/06/22/monorail-best-practices-series.aspx/"
 ---
 <FONT face="Trebuchet MS" size="2">Due to a spell of blogger&#8217;s block, I thought I would do a series postings to help me get past it. This post begins a series on highlighting various features of the Castle Project MonoRail. All series will be examples from the MonoRail trunk. Some of the features I will be discussing are only available on the trunk (specifically the new Routing Module). To start off the series. The first part will cover MonoRail helpers. The series will have the following topics: </FONT>
 

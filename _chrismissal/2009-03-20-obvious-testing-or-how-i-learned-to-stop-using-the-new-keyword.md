@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262174832"
 categories:
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2009/03/19/obvious-testing-or-how-i-learned-to-stop-using-the-new-keyword.aspx/"
 ---
 Here’s a basic test; looks simple right? Well, that’s because it is. A new Order is given three different order items, each with a quantity of one. We assert (using nunit) that there are three OrderItems, then RemoveAllItems and assert that there are zero.
 

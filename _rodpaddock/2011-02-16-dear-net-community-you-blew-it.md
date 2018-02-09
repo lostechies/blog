@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263003380"
 categories:
   - Uncategorized
+redirect_from: "/blogs/rodpaddock/archive/2011/02/16/dear-net-community-you-blew-it.aspx/"
 ---
 <!--[if gte mso 9]>-->
 

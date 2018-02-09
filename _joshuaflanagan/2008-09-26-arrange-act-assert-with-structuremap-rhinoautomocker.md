@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113173"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joshuaflanagan/archive/2008/09/25/arrange-act-assert-with-structuremap-rhinoautomocker.aspx/"
 ---
 Fresh on the heels of finally figuring out <a href="http://www.lostechies.com/blogs/joshuaflanagan/archive/2008/09/25/the-rhino-mocks-assertwascalled-method-does-work.aspx" target="_blank">how to make the AAA syntax in Rhino.Mocks work</a>, I&#8217;ve added support to StructureMap&#8217;s RhinoAutoMocker. If you pass MockMode.AAA to the constructor of your RhinoAutoMocker, all of the mocks that it creates will be in replay mode. This is required to successfully use the AssertWasCalled extension method. By default, if you do not pass a MockMode to the constructor, mocks will be created in record mode so that you can continue to set expectations the old fashioned way.
 

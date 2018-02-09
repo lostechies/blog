@@ -9,6 +9,7 @@ dsq_thread_id:
   - "273364395"
 categories:
   - Uncategorized
+redirect_from: "/blogs/jagregory/archive/2009/03/27/my-name-s-james-gregory-and-i-m-new-here.aspx/"
 ---
 Hello everybody,
 

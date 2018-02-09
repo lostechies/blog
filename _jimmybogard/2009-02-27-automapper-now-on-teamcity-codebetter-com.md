@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266972824"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/26/automapper-now-on-teamcity-codebetter-com.aspx/"
 ---
 Big thanks to [Jeffrey](http://jeffreypalermo.com/) for getting this going:
 

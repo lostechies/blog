@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/10/25/senior-developer-opportunity-in-austin.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/10/25/senior-developer-opportunity-in-austin.aspx/"
 ---
 [TOPAZ Technologies](http://www.topazti.com/) is currently looking for a [Senior Developer](http://www.topazti.com/company/jobs.htm) who loves to write .NET code. We&#8217;re a product company that builds software solutions for the medical research industry. Here are some of the details for the position:
 

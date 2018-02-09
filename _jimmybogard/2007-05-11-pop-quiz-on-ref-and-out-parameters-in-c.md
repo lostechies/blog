@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265581561"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/05/11/pop-quiz-on-ref-and-out-parameters-in-c.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/pop-quiz-on-ref-and-out-parameters-in-c.html)._
 

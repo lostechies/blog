@@ -11,6 +11,7 @@ categories:
   - Agile
   - Kanban
   - Management
+redirect_from: "/blogs/derickbailey/archive/2009/07/13/kanban-is-process-control-not-a-process-for-adding-value-to-wip.aspx/"
 ---
 There’s some very interesting conversation on Chris McMahon’s blog titled “[against kanban](http://chrismcmahonsblog.blogspot.com/2009/07/against-kanban.html)”. In general, I don’t agree with what he is saying. I think that he is largely basing his current opinion on some misguided “expert” opinions rather than doing the research for himself… but that’s another post / response entirely. I wanted to point out an issue that I have with the way people approach Kanban, in general. And while this is somewhat spurred by Chris’ post, it has more to do with what I am seeing in the comments and discussion after the post, combined with a lot of discussion on the [Kanbandev](http://finance.groups.yahoo.com/group/kanbandev/) list.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Extension Methods
   - Mocks
+redirect_from: "/blogs/chad_myers/archive/2008/09/25/catching-arguments-with-rhino-mocks.aspx/"
 ---
 I’ve noticed that in quite a few of my tests, I was using a mock simply to test one argument on one of the methods called.&#160; Maybe I was making sure it passed a correctly formatted string, the right date/time, or whatever.&#160; There was a lot of setup and overhead (even using the new AAA syntax in Rhino Mocks) just to catch one argument.&#160; While pairing with [Josh Flanagan](http://joshuaflanagan.lostechies.com), he said, “Wouldn’t it be cool if you could just catch the argument rather than having to go through all the mock setup stuff? I think Jeffrey Palermo did something like this.”&#160; Sure enough, he was right.&#160; We found [this post which was almost exactly what we wanted](http://codebetter.com/blogs/jeffrey.palermo/archive/2007/10/02/generic-constraint-for-rhino-mocks-make-unit-tests-more-readable.aspx). It was a little behind the times, however, since it didn’t account for some .NET 3.5 features (namely lambda expressions and expression trees) nor the new AAA syntax.&#160; We decided to take a few minutes and update it and this is what we came up with!
 

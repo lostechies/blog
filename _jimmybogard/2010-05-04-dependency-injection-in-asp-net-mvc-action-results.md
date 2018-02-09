@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - DependencyInjection
+redirect_from: "/blogs/jimmy_bogard/archive/2010/05/04/dependency-injection-in-asp-net-mvc-action-results.aspx/"
 ---
 On a recent, very large project, we started to notice a distinct trend in our controllers.&#160; All of our “POST” actions started to look very similar.&#160; Check form validation, run business rule validation.&#160; If validation succeeds, execute the actual business logic.&#160; If it fails, just show the view with the original form.
 

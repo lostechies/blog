@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089165"
 categories:
   - rubyonrails
+redirect_from: "/blogs/chris_patterson/archive/2007/11/28/ruby-on-rails.aspx/"
 ---
 Last week, I started looking into using WATIR for web application testing. In the short amount of time I spent with the tool, I got an initial look at Ruby. Aside from seeing it here or there, this was the first time I actually wrote any Ruby code &#8212; but it was mostly cut and paste based on the testing examples.
 

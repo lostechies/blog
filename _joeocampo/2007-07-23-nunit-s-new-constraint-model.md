@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088275"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/07/22/nunit-s-new-constraint-model.aspx/"
 ---
 I was working on some code this weekend and happened to come across <a href="http://nunit.com/blogs/?p=44" target="_blank">NUnit 2.4&#8217;s&nbsp;new constraint objects</a>.&nbsp; I can&#8217;t believe I just now found out about this!&nbsp; I am glad to see that the mocking frameworks influenced this addition to NUnit.&nbsp; &nbsp;Being a big fan of fluent interfaces, I love how the new constraint model allows the assertion model to be easily read.&nbsp; For example:
 

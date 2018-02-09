@@ -10,6 +10,7 @@ dsq_thread_id:
   - "264716034"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/01/14/a-new-breed-of-magic-strings-in-asp-net-mvc.aspx/"
 ---
 One of the common patterns in Ruby on Rails is the use of hashes in place of large parameter lists.&#160; Instead of hashes, which don’t exist in C#, ASP.NET MVC uses anonymous types for quite a few HTML generators on the view side.&#160; For example, we might want to generate a strongly-typed URL for a specific controller action:
 

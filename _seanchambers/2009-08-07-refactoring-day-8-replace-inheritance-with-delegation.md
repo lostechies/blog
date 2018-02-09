@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262347111"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/07/refactoring-day-8-replace-inheritance-with-delegation.aspx/"
 ---
 All too often inheritance is used in the wrong scenarios. Inheritance should only be used in _logical_ circumstances but it is often used for convenience purposes. I&rsquo;ve seen this many times and it leads to complex inheritance hierarchies that don&rsquo;t make sense. Take the following code:
 

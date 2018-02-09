@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - IoC
   - StructureMap
+redirect_from: "/blogs/chrismissal/archive/2009/01/22/learning-structuremap-through-tiny-goals.aspx/"
 ---
 While I&#8217;ve been using [Castle&#8217;s Windsor](http://www.castleproject.org/container/ "Castle's Windsor Inversion of Control Container") for a bit now, but wanted to get some [StructureMap](http://structuremap.sourceforge.net/Default.htm "StructureMap Home Page") code running just to get some exposure to it; I&#8217;ve heard good things. I decided to set a simple goal and try to achieve it using StructureMap. Here&#8217;s my goal:
 

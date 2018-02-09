@@ -11,6 +11,7 @@ categories:
   - DDD
   - LINQ
   - NHibernate
+redirect_from: "/blogs/johnteague/archive/2010/01/30/implementing-domain-queries.aspx/"
 ---
 My current Repository interface looks something like this:
 

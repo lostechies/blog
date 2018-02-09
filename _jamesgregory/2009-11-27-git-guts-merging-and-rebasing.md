@@ -9,6 +9,7 @@ dsq_thread_id:
   - "273792099"
 categories:
   - git
+redirect_from: "/blogs/jagregory/archive/2009/11/27/git-guts-merging-and-rebasing.aspx/"
 ---
 Here we go again, explaining the internals of Git with the intention of helping you understand what you&#8217;re doing day-to-day. Last time I covered [branches, HEAD, and fast-forwarding](http://www.lostechies.com/blogs/jagregory/archive/2009/11/25/git-s-guts-branches-head-and-fast-forwards.aspx). Today we&#8217;ll dive into the guts of merging and rebasing.
 

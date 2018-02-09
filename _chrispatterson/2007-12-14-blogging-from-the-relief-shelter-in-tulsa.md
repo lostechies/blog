@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089197"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2007/12/13/blogging-from-the-relief-shelter-in-tulsa.aspx/"
 ---
 When the ice storm hit Tulsa on Sunday, our home lost power early Monday morning. It wasn&#8217;t long before the temperatures in our home dropped to nearly 60 degrees F. We initially planned to &#8220;tough it out&#8221; but realized quickly that with two young children (1 year and 5 years), it just wasn&#8217;t a smart choice. So we packed up some blankets and drove to an area church where the Red Cross had set up a relief shelter for those without heat. I was a bit tentative at first, but our options were limited. 
 

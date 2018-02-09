@@ -9,6 +9,7 @@ dsq_thread_id:
   - "365364476"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2008/11/22/qcon-san-francisco-opening-day.aspx/"
 ---
 The main conference for QCon started Wednesday, opening with a keynote by Martin Fowler and Rebecca Parsons from Thoughtworks. The topic was Architects and Agilists &#8211; Allies not Adversaries. As you can surmise from the title, this talk focused on building a collaborative relationship between ivory tower architects and the teams responsible for delivering software. With a scene from the Matrix where Neo meets The Architect as the backdrop, a number of solutions were presented after highlighting the key disconnects between the two roles. I&#8217;ve always been a firm believer that architects who do not code (NCA&#8217;s) are not nearly as effective as those who understand the issues of those actually writing code.
 

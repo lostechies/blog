@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716430"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2010/03/30/strengthening-your-domain-the-double-dispatch-pattern.aspx/"
 ---
 Previous posts in this series:
 

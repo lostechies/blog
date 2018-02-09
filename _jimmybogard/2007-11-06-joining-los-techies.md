@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715403"
 categories:
   - Personal
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/06/joining-los-techies.aspx/"
 ---
 How very rude of me, looking back I forgot to mention I&#8217;ve joined [Los Techies](http://www.lostechies.com/Default.aspx).&nbsp; A few things drew me to joining:
 

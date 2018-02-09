@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715392"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/30/oslo-mda-soa.aspx/"
 ---
 Yeah, yeah, too many acronyms.&nbsp; One of the biggest challenges in large enterprises is getting all of the disparate systems and applications to talk to each other in a well-defined, agreed-upon&nbsp;manner.&nbsp; Announced [here](http://searchsoa.techtarget.com/originalContent/0,289142,sid26_gci1280299,00.html) and blogged [here](http://samgentile.com/blogs/samgentile/archive/2007/10/30/microsoft-soa-and-bpm-conference-oslo.aspx), it looks like Microsoft is hoping to fill some of the gaps other big players in the SOA world (like IBM) have already filled.&nbsp; Here&#8217;s a quote describing Oslo&nbsp;from Microsoft:
 

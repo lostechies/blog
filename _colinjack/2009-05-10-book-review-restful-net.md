@@ -9,6 +9,7 @@ categories:
   - Books
   - REST
   - WCF
+redirect_from: "/blogs/colinjack/archive/2009/05/10/book-review-restful-net.aspx/"
 ---
 Since we are using REST on top of WCF on my current project I was glad to see that this book had been written as I was hoping it would answer some questions I had. 
 

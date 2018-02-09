@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264776681"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2011/02/22/versioning-strategies-for-the-sane.aspx/"
 ---
 I don’t know why I didn’t think of this one earlier, it makes so much sense.&#160; A coworker of mine shared a fantastic assembly versioning strategy that eliminates all of the decisions about major/minor version numbers we have to make up.
 

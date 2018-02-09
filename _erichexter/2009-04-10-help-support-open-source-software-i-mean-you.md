@@ -11,6 +11,7 @@ categories:
   - .NET
   - Open Source Software
   - OSS
+redirect_from: "/blogs/hex/archive/2009/04/09/help-support-open-source-software-i-mean-you.aspx/"
 ---
 &#160;
 

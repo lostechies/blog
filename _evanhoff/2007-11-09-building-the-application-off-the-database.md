@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/11/09/building-the-application-off-the-database.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/11/09/building-the-application-off-the-database.aspx/"
 ---
 </p> 
 

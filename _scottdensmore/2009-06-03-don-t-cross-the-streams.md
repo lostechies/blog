@@ -9,6 +9,7 @@ dsq_thread_id:
   - "273601285"
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottdensmore/archive/2009/06/02/don-t-cross-the-streams.aspx/"
 ---
 &nbsp;
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2008/09/26/looking-for-some-awesome-net-developers-work-from-home.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/joeydotnet/archive/2008/09/26/looking-for-some-awesome-net-developers-work-from-home.aspx/"
 ---
 Are you:
 

@@ -12,6 +12,7 @@ categories:
   - Design
   - docu
   - StructureMap
+redirect_from: "/blogs/joshuaflanagan/archive/2009/06/28/real-world-refactoring.aspx/"
 ---
 If you’ve ever asked, or been asked, for an example to illustrate a software design principle, you know how frustrating it can be to work with a contrived example. There is rarely any depth to the example, and it lines up so neatly with the concept being explained that the student may have trouble recognizing similar situations in the wild. I’m going to try and relate a real world example of a recent refactoring effort, with the hope that the extra context and narrated walkthrough will help someone make a connection that has failed before.
 

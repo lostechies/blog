@@ -9,6 +9,7 @@ dsq_thread_id:
   - "270690804"
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottdensmore/archive/2009/08/13/singletons-are-evil-part-2.aspx/"
 ---
 <p style="clear: both">
   A while back I wrote a post about why <a href="http://blogs.msdn.com/scottdensmore/archive/2004/05/25/140827.aspx">singletons are evil</a>. I still agree with that statement, yet after my comment on twitter today, I think I need to show how you can solve this problem differently.

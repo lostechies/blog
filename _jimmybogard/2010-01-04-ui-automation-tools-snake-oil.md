@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716387"
 categories:
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2010/01/04/ui-automation-tools-snake-oil.aspx/"
 ---
 Michael Feathers posted a thoughtful piece describing the [general problems of UI testing tools and the industry in general](http://blog.objectmentor.com/articles/2010/01/04/ui-test-automation-tools-are-snake-oil).&#160; In general, I’d agree here.&#160; Automation tool vendors, as with almost every tool vendor out there, are eager to solve perceived software development problems.&#160; Unfortunately, these tools usually only address symptoms of larger problems.
 

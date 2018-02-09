@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Programming
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/06/27/how-did-i-get-started-in-software-development.aspx/"
 ---
 [Jason Meridth](http://www.lostechies.com/blogs/jason_meridth/archive/2008/06/27/how-did-i-get-started-in-software-development.aspx) tagged me with this meme, so I&#8217;ll play along if anyone cares.
 

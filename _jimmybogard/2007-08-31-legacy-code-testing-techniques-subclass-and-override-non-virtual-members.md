@@ -11,6 +11,7 @@ categories:
   - 'C#'
   - LegacyCode
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2007/08/31/legacy-code-testing-techniques-subclass-and-override-non-virtual-members.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/legacy-code-testing-techniques-subclass.html)._
 

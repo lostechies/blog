@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716415"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx/"
 ---
 Our application complexity has hit its tipping point, and we decide to move past [anemic domain models](http://martinfowler.com/bliki/AnemicDomainModel.html) to rich, behavioral models.&#160; But what is this anemic domain model?&#160; Let’s look at Fowler’s definition, now over 6 years old:
 

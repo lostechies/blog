@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - RhinoMocks
   - StructureMap
+redirect_from: "/blogs/joshuaflanagan/archive/2008/09/25/the-rhino-mocks-assertwascalled-method-does-work.aspx/"
 ---
 </p> 
 

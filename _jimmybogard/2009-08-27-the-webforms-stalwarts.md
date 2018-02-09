@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265336808"
 categories:
   - ASPdotNET
+redirect_from: "/blogs/jimmy_bogard/archive/2009/08/27/the-webforms-stalwarts.aspx/"
 ---
 One sentence I’d never thought I’d see describing WebForms is:
 

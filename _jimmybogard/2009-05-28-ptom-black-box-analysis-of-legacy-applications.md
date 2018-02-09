@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716166"
 categories:
   - LegacyCode
+redirect_from: "/blogs/jimmy_bogard/archive/2009/05/27/ptom-black-box-analysis-of-legacy-applications.aspx/"
 ---
 It seems like such a great situation, you’ve been tasked with replacing an old legacy system with a shiny new Web 3.0 AJAX-ified replacement.&#160; It’s your chance for the limelight as the knight in shining armor to come charging in with a new system that will \*surely\* blow away the old one.&#160; That is, until you get mired in the problem of requirements coming in of “make it work like the other system”.
 

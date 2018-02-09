@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/23/transactions-across-service-boundaries.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/23/transactions-across-service-boundaries.aspx/"
 ---
 I figured I might as well bring this back up in light of my next topic.
 

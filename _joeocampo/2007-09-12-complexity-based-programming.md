@@ -11,6 +11,7 @@ categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
   - Architechture
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/12/complexity-based-programming.aspx/"
 ---
 So what is it? As an Agile practitioner do you ever struggle having to justify <A href="http://en.wikipedia.org/wiki/Pair_programming" target="_blank">Paired Programming</A> to management? Typical management reaction to even the idea of Paired Programming is “Why would I pay two programmers to do something what one programmer can do?” You can rant and rave about quality and breadth of knowledge exchange but to management money talks and (you can fill in the rest). So what can you do to better explain the argument from a cost perspective as well as quality perspective?
   

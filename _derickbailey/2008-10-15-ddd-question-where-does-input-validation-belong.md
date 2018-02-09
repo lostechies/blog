@@ -13,6 +13,7 @@ categories:
   - Design Patterns
   - Domain Driven Design
   - Model-View-Presenter
+redirect_from: "/blogs/derickbailey/archive/2008/10/15/ddd-question-where-does-input-validation-belong.aspx/"
 ---
 Let&#8217;s say I have a small hierarchy of object: Faults and Parts. A Fault can contain many parts, and a part has no meaning without being associated to a Fault. To ensure that I have no Parts without a parent Fault, I have this basic code in place:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113590"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/01/11/the-truth-which-makes-waterfall-advocates-go-blind.aspx/"
 ---
 [Frans Bouma](http://weblogs.asp.net/fbouma) recently posted a [post to his blog](http://weblogs.asp.net/fbouma/archive/2008/01/11/the-waterfall-which-makes-agile-pundits-go-blind.aspx?CommentPosted=true#commentmessage) pointing out some of his frustration with the various ALT.NET communities (specifically mailing lists).&nbsp;&nbsp; As I understand it, his primary argument was that there wasn&#8217;t much academic thinking and citations behind some of the positions and postulations people have voiced on the list. While I certainly appreciate his (and am guilty of it) and agree that there&#8217;s a less citation and academic backup behind some of the ideas than there should be.&nbsp; Part of this is simply because the CS academic community is behind the commercial world in some areas, and the commercial software development world generally doesn&#8217;t produce a lot of academic-quality research papers sufficient for the level of citation Frans appears to be demanding.
 

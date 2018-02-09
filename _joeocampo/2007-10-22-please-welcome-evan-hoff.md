@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088489"
 categories:
   - Humor
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/21/please-welcome-evan-hoff.aspx/"
 ---
 <humor>
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DependencyInjection
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2010/05/20/the-religion-of-dependency-injection.aspx/"
 ---
 A quick way to explain a set of differing opinions is to label it as “a religious argument”.&#160; In a post about [using MEF on NerdDinner](http://www.hanselman.com/blog/ExtendingNerdDinnerAddingMEFAndPluginsToASPNETMVC.aspx), Scott Hanselman showed an example on using poor man’s DI versus regular DI.&#160; Now, the post wasn’t about that topic, but more on how to integrate MEF with ASP.NET MVC.&#160; I do get rather annoyed at comments like this however (emphasis mine):
 

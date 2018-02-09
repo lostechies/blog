@@ -9,6 +9,7 @@ categories:
   - Personal
   - Productivity
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/09/08/the-importance-of-tools-to-a-software-craftsman.aspx/"
 ---
 > _And I have filled him with the spirit of God, in wisdom, and in understanding, and in knowledge, and in all manner of workmanship &#8212; [Exodus 31:3](http://www.blueletterbible.org/kjv/Exd/Exd031.html#3)_
 

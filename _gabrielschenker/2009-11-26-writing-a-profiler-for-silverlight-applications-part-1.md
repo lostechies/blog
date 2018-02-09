@@ -14,6 +14,7 @@ categories:
   - Mono Cecil
   - MSIL
   - Silverlight
+redirect_from: "/blogs/gabrielschenker/archive/2009/11/26/writing-a-profiler-for-silverlight-applications-part-1.aspx/"
 ---
 </p> 
 

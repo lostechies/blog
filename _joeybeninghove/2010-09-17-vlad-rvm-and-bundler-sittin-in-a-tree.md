@@ -11,6 +11,7 @@ categories:
   - Ruby
   - rvm
   - vlad the deployer
+redirect_from: "/blogs/joeydotnet/archive/2010/09/17/vlad-rvm-and-bundler-sittin-in-a-tree.aspx/"
 ---
 <img alt="Vlad the Deployer" style="float: right;margin: 20px" src="//lostechies.com/joeybeninghove/files/2011/03/deployed.png" />(Thanks to Chad for nudging me to write this post 🙂
 

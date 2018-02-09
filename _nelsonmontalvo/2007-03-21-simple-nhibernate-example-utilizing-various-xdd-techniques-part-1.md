@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/21/simple-nhibernate-example-utilizing-various-xdd-techniques-part-1.aspx
 categories:
   - NHibernate
+redirect_from: "/blogs/nelson_montalvo/archive/2007/03/21/simple-nhibernate-example-utilizing-various-xdd-techniques-part-1.aspx/"
 ---
 I wanted to present a simple NHibernate example utilizing some techniques I’ve learned along the way. This first post will provide some domain level background.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - For Fun
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2009/05/06/unit-testing-where-s-the-dollar.aspx/"
 ---
 I was given the following riddle today. I thought I&rsquo;d right a unit test in C# to &ldquo;prove&rdquo; it.
 

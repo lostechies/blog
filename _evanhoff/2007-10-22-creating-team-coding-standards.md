@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/22/creating-team-coding-standards.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/22/creating-team-coding-standards.aspx/"
 ---
 It&#8217;s nice when your entire team can agree on naming standards (at least).&nbsp; We are currently going through the process of formalizing a few of ours in the form of&nbsp;a very short Word doc.
 

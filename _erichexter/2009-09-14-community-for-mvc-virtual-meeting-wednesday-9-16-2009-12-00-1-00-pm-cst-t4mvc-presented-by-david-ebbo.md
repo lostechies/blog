@@ -14,6 +14,7 @@ categories:
   - Community
   - MVC
   - Usergroup
+redirect_from: "/blogs/hex/archive/2009/09/14/community-for-mvc-virtual-meeting-wednesday-9-16-2009-12-00-1-00-pm-cst-t4mvc-presented-by-david-ebbo.aspx/"
 ---
 Link to the meeting information here: <http://bit.ly/uj9VA>&#160; Please feel free to share this link on twitter, blogs, ect. 
 

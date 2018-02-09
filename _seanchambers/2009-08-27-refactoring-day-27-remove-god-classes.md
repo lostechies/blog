@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262356083"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/27/refactoring-day-27-remove-god-classes.aspx/"
 ---
 Often with legacy code bases I will often come across classes that are clear <a href="http://www.lostechies.com/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx" target="_blank">SRP</a> violations. Often these classes will be suffixed with either “Utils” or “Manager”. Sometimes they don’t have this indication and are just classes with multiple grouped pieces of functionality. Another good indicator of a God class is methods grouped together with using statements or comments into seperate roles that this one class is performing.
 

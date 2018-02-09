@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114495"
 categories:
   - FubuMVC
+redirect_from: "/blogs/chad_myers/archive/2010/01/07/announcing-fubumvc.aspx/"
 ---
 ### A Little Background
 

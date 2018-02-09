@@ -15,6 +15,7 @@ categories:
   - IIS
   - JQuery
   - Usergroup
+redirect_from: "/blogs/hex/archive/2010/07/08/signup-for-mvcconf-virtual-asp-net-mvc-conference.aspx/"
 ---
 [<img height="127" width="640" src="http://mvcconf.com/images/logo.png" alt="Logo" border="0" style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" />&nbsp;](http://mvcconf.com/)
 

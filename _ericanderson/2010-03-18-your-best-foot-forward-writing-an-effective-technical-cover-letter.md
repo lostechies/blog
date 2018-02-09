@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/eric/archive/2010/03/18/your-best-foot-forward-writing-an-effective-technical-cover-letter.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/eric/archive/2010/03/18/your-best-foot-forward-writing-an-effective-technical-cover-letter.aspx/"
 ---
 Are you sure that your cover letter is doing its job?&nbsp; How do you know if you&rsquo;ve written an effective cover letter?&nbsp; If you aren&rsquo;t getting a call back on your application, your cover letter may be the problem.
 

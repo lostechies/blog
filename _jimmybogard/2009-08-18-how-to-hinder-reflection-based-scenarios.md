@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716296"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/08/17/how-to-hinder-reflection-based-scenarios.aspx/"
 ---
 In one easy step:&#160; Make sure an object’s runtime type doesn’t actually match its compile-time type.&#160; This test fails:
 

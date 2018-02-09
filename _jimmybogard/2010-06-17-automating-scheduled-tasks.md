@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716531"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2010/06/17/automating-scheduled-tasks.aspx/"
 ---
 Back in the day, I used to develop scheduled tasks by writing my own task scheduler and batch execution program.&#160; I don’t think at the time I knew about the [Task Scheduler](http://msdn.microsoft.com/en-us/library/aa383614(VS.85).aspx) service built in to Windows.&#160; It support just about any scheduling algorithm I could throw at it, outside of building dependent or cascading tasks.
 

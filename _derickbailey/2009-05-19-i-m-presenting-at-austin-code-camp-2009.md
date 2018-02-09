@@ -13,6 +13,7 @@ categories:
   - Community
   - Presentations
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/05/18/i-m-presenting-at-austin-code-camp-2009.aspx/"
 ---
 As Chad so eloquently stated, this year’s [AustinCodeCamp](http://austincodecamp.com/) really is going to be [better than bacon](http://www.lostechies.com/blogs/chad_myers/archive/2009/05/17/austin-codecamp-09-quite-possibly-better-than-bacon.aspx)! And I feel honored to be one of the better than bacon speakers at this year’s event. 
 

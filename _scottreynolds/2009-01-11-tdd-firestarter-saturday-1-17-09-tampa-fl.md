@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2009/01/10/tdd-firestarter-saturday-1-17-09-tampa-fl.aspx
 categories:
   - Community
+redirect_from: "/blogs/scottcreynolds/archive/2009/01/10/tdd-firestarter-saturday-1-17-09-tampa-fl.aspx/"
 ---
 This coming Saturaday, January 17, [Sean Chambers](http://schambers.lostechies.com) and I, in conjunction with Microsoft, will be hosting a day-long set of workshops centered around testing. Admission is free, so come prepared to spend the day getting intimate with testing!
 

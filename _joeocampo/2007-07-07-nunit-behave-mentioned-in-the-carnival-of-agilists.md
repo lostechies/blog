@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joe_ocampo/archive/2007/07/07/nunit-behave-mentioned-in-the-carnival-of-agilists.aspx
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/07/07/nunit-behave-mentioned-in-the-carnival-of-agilists.aspx/"
 ---
 I just received an email from <a href="http://silkandspinach.net/" target="_blank">Kevin Rutherford</a> indicating that I have been mentioned in the <a href="http://www.agilealliance.org/show/1670" target="_blank">Agile Alliance&#8217;s Carnival of Agilists</a> news letter.
 

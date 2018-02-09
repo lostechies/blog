@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/21/pardon-the-construction-dust.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/21/pardon-the-construction-dust.aspx/"
 ---
 Pardon the construction dust while I move in.&nbsp; In the mean time, you can find my existing rants and ramblings at my \*other\* url..lol 🙂
 

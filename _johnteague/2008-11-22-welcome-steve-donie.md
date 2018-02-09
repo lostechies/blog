@@ -9,6 +9,7 @@ dsq_thread_id:
   - "608272748"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2008/11/21/welcome-steve-donie.aspx/"
 ---
 We have a new member to the Los Techies Crew.&#160; Steve Donie has been managing Agile teams for a long time, currently leading a team a DrilingInfo.&#160; He’s a familiar face in the Austin development community.&#160; He’s been involved in the Austin .Net User Group, Code Camps, Open Space Conferences, and book clubs.
 

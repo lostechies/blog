@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114197"
 categories:
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/11/21/1-year-anniversary.aspx/"
 ---
 I’m generally not one for sentimentality, so it should come as no surprise to anyone that knows me that I allowed October to come and go without any ceremony.&#160; I figured, though, that I should give some dignity to the fact that I have been blogging for over a year now.&#160; 
 

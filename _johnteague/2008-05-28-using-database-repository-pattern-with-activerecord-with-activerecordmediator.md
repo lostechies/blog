@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ActiveRecord
   - Repository Pattern
+redirect_from: "/blogs/johnteague/archive/2008/05/27/using-database-repository-pattern-with-activerecord-with-activerecordmediator.aspx/"
 ---
 This is a Re-Post from my older blog at [geekswithblogs](http://geekswithblogs.net/johnteague/archive/2008/04/23/using-database-repository-pattern-with-activerecord-with-activerecordmediator.aspx).
 

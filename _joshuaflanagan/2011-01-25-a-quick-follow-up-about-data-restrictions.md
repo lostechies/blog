@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262153150"
 categories:
   - FubuMVC
+redirect_from: "/blogs/joshuaflanagan/archive/2011/01/24/a-quick-follow-up-about-data-restrictions.aspx/"
 ---
 A comment on <a href="http://www.lostechies.com/blogs/joshuaflanagan/archive/2011/01/24/how-we-systemically-apply-filters-to-our-data-access.aspx" target="_blank">my last post</a> caused me to re-read it, and realize that I didn&#8217;t do a good job of emphasizing the role of data restrictions (implementations of `IDataRestriction<T>`) in our application. Since I introduced them in the context of the `RestrictedQuery` method on our Repository class, it gave the impression that they were just helpers for data access. The reality is that RestrictedQuery was actually a usage we discovered very late in the design of data restrictions. The data restriction classes simply encapsulate rules for determining access to an entity.
 

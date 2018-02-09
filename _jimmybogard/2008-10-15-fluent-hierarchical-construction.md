@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715949"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/10/15/fluent-hierarchical-construction.aspx/"
 ---
 Building a hierarchy of objects doesn’t happen that often in code, but when it does, it can get pretty ugly.&#160; Most of the time, the hierarchy will come out of the database.&#160; Recently, we had a hierarchy that needed to be built straight in code.&#160; We had something like this going on:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264789208"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2010/03/31/strengthening-your-domain-avoiding-setters.aspx/"
 ---
 Previous posts in this series:
 

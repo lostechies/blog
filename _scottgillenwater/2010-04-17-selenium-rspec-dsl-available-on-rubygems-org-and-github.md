@@ -12,6 +12,7 @@ categories:
   - JQuery
   - RSpec
   - Selenium
+redirect_from: "/blogs/stgillen/archive/2010/04/17/selenium-rspec-dsl-available-on-rubygems-org-and-github.aspx/"
 ---
 I have released my first version of selenium-rspec-dsl on RubyGems.org and on GitHub.&nbsp; It that makes selenium testing easier to create, maintainable, and scalable.&nbsp; 
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ALTdotNET
   - git
+redirect_from: "/blogs/jagregory/archive/2009/07/20/git-s-and-command-line-fear.aspx/"
 ---
 [Git](http://git-scm.org) has been gaining a lot of traction lately, and rightly so. I&#8217;ve used it for a couple of years now, for all my projects ([Fluent NHibernate](http://fluentnhibernate.org) and [Docu](http://docu.jagregory.com) being the prominent ones), but something that hasn&#8217;t changed is the tag-line of &#8220;but Windows support isn&#8217;t very good!&#8221;. What you quickly learn is that when people say that, they actually mean there isn&#8217;t a Visual Studio plug-in or some similar all-singing all-dancing GUI; this is a dire misrepresentation of Git, because it&#8217;s tooling on Windows is excellent if your definition of tooling includes the command-line.
 

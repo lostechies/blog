@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/08/01/recursive-command.aspx
 categories:
   - Design Patterns
+redirect_from: "/blogs/mokhan/archive/2008/08/01/recursive-command.aspx/"
 ---
 </p> 
 

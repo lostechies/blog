@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/03/23/mapping-strings-to-booleans-using-nhibernate-s-iusertype.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/03/23/mapping-strings-to-booleans-using-nhibernate-s-iusertype.aspx/"
 ---
 _Update: I failed to realized that the functionality of converting &#8220;Y&#8221; or &#8220;N&#8221; to a boolean is already built into NHibernate by doing **type=&#8221;YesNo&#8221;** (see comments). I&#8217;ll leave this post up just for the academics of creating a IUserType. Go figure that I would come up with something that&#8217;s built in!_
 

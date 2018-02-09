@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090083"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/06/20/behavior-driven-design-with-nunit-user-group-presentation-level-100.aspx/"
 ---
 I recently gave a presentation on <A href="http://behaviour-driven.org/" target="_blank">Behavior Driven Design</A> at the <A href="http://alamocoders.net/" target="_blank">AlamoCoders</A>&nbsp;user group here in <A href="http://www.sanantoniocvb.com/" target="_blank">San Antonio</A>.
 

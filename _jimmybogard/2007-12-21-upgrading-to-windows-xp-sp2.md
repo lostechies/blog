@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715473"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2007/12/20/upgrading-to-windows-xp-sp2.aspx/"
 ---
 After months of soul-searching, I made the gut-wrenching decision today to upgrade my home PC to Windows XP SP2.
 

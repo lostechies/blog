@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Humor
   - Unmaintainability
+redirect_from: "/blogs/chad_myers/archive/2009/06/19/how-to-write-unmaintainable-code.aspx/"
 ---
 A friend showed this one to me a long time ago, and I still chuckle every time I remember a snippet or two from it.
 

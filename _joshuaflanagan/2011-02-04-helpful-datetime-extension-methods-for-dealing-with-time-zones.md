@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113273"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joshuaflanagan/archive/2011/02/03/helpful-datetime-extension-methods-for-dealing-with-time-zones.aspx/"
 ---
 This post is inspired by Scott Mitchell&#8217;s <a href="http://dotnetslackers.com/articles/aspnet/5-Helpful-DateTime-Extension-Methods.aspx" target="_blank">5 Helpful DateTime Extension Methods</a>. I built a couple extension methods while adding time zone support to our application. Since time zone math is never fun, I figure someone else may benefit from these.
 

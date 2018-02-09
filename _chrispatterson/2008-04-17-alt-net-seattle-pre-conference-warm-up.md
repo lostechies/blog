@@ -9,6 +9,7 @@ dsq_thread_id:
   - "276377720"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2008/04/17/alt-net-seattle-pre-conference-warm-up.aspx/"
 ---
 I arrived in Seattle today to get warmed up for the ALT.NET Seattle conference this weekend. I came up a couple of days early to meet with a few people before the event started on Friday.
 

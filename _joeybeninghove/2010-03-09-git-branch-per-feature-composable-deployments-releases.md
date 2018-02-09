@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2010/03/09/git-branch-per-feature-composable-deployments-releases.aspx
 categories:
   - git branch-per-feature
+redirect_from: "/blogs/joeydotnet/archive/2010/03/09/git-branch-per-feature-composable-deployments-releases.aspx/"
 ---
 (composed in vim with love)
 

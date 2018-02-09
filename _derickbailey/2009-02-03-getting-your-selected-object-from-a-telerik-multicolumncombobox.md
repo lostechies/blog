@@ -11,6 +11,7 @@ categories:
   - .NET
   - 'C#'
   - Telerik
+redirect_from: "/blogs/derickbailey/archive/2009/02/03/getting-your-selected-object-from-a-telerik-multicolumncombobox.aspx/"
 ---
 Wow! I’m actually writing code! 🙂
 

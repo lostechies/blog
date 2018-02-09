@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264260914"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/09/01/jacksonville-code-camp-2009.aspx/"
 ---
 This past weekend Jacksonville Code Camp took place at University of North Florida campus in Jacksonville. The event was very well organized and donations also went to Goodson’s Children’s Hospital. There was a silent auction fundraiser after the code camp at Sneakers in Jacksonville where all proceeds went towards the children’s hospital.
 

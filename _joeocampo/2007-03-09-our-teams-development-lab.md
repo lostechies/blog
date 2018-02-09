@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089262"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/03/08/our-teams-development-lab.aspx/"
 ---
 I have been asked by several friends, how our team development lab is arranged. I have explained it several times but they don&#8217;t believe me. So without further adieu, our Development Lab. 
 

@@ -9,6 +9,7 @@ categories:
   - BUILD
   - NAnt
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/06/11/lt-kill-processname-quot-peskylittleprocess-quot-gt.aspx/"
 ---
 For&nbsp;a second time now,&nbsp;I&#8217;ve found myself needing to&nbsp;kill processes&nbsp;in my automated build scripts, so&nbsp;that was enough for me to automate it and wrap it up in a custom&nbsp;[NAnt](http://nant.sourceforge.net/) task.&nbsp; The first time I needed it, I just embedded the C# code inside a [NAnt script block](http://nant.sourceforge.net/release/latest/help/tasks/script.html), but using it as &#8220;real&#8221; NAnt task is much nicer.&nbsp; And, perhaps I overlooked it, but I did not see a task in the set of NAnt or NAntContrib tasks to do this kind of simple&nbsp;operation&nbsp;and Google didn&#8217;t turn up anything either.&nbsp; So I just banged it out real quick&#8230;
 

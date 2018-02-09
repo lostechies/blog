@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268066516"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/06/22/refactoring-an-established-domain-language.aspx/"
 ---
 Writing Domain models is by far one of the most difficult things to do. It takes years of practice, errors and learning to get&nbsp;good at writing&nbsp;halfway decent domain models. This becomes even more difficult when we attempt to add ideas like Domain Driven Design to the mix.&nbsp;I am not proposing I am even remotely good at it, but I have had lots of practice.
 

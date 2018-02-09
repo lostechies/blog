@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/10/24/jetbrains-seeder-program.aspx
 categories:
   - Tools
+redirect_from: "/blogs/mokhan/archive/2008/10/24/jetbrains-seeder-program.aspx/"
 ---
 Today I received an email about the [JetBrains Seeder Program](http://www.jetbrains.net/confluence/display/JBSDR/About+the+Program), and thought that I would try to sign up for an account to find out more.
 

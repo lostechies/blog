@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/setting-up-apache-with-ssl-on-windows-for-subversion.aspx
 categories:
   - NHibernate
+redirect_from: "/blogs/nelson_montalvo/archive/2007/03/30/setting-up-apache-with-ssl-on-windows-for-subversion.aspx/"
 ---
 Well, I finally decided to begin using [Subversion](http://subversion.tigris.org/) rather than my usual choice, [SourceGear Vault](http://www.sourcegear.com/vault/index.html), for source code control. Vault is great, but lately I&#8217;ve been finding the need to use Subversion and well&#8230; it&#8217;s free (but certainly not without its hassles).  
   

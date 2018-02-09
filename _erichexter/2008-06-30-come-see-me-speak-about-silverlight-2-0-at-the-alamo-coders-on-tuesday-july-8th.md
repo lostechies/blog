@@ -9,6 +9,7 @@ dsq_thread_id:
   - "297750323"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2008/06/29/come-see-me-speak-about-silverlight-2-0-at-the-alamo-coders-on-tuesday-july-8th.aspx/"
 ---
 I am excited to have a chance to speak to the <a href="http://www.alamocoders.net/" target="_blank">Alamo Coders user group</a> about Silverlight 2.0.&nbsp; I am planing on covering some general information about Silverlight and where if fits in the overall technology stack against some of the other technologies like AIR and FLEX.&nbsp; I do plan on demonstrating the areas that I think makes it a legitimate Application platform which is it&#8217;s built in support for testability and rich APIs.&nbsp; 
 

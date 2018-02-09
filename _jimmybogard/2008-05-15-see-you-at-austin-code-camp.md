@@ -9,6 +9,7 @@ dsq_thread_id:
   - "369954006"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/15/see-you-at-austin-code-camp.aspx/"
 ---
 This week I&#8217;ll be speaking at [Austin Code Camp](http://www.austincodecamp.com/), a technical conference here in Austin that features in-depth code-centric sessions.&nbsp; The sessions I&#8217;m doing are:
 

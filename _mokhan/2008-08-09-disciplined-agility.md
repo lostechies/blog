@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/08/09/disciplined-agility.aspx
 categories:
   - Books
+redirect_from: "/blogs/mokhan/archive/2008/08/09/disciplined-agility.aspx/"
 ---
 I finished reading&#8230;
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715899"
 categories:
   - StructureMap
+redirect_from: "/blogs/jimmy_bogard/archive/2008/09/03/building-arrays-in-structuremap-2-5.aspx/"
 ---
 Although it was possible in previous versions of StructureMap, the new fluent interface for StructureMap configuration in version 2.5 allows easy configuration of array type constructor parameters.&nbsp; For example, consider a simple order processor pipeline:
 

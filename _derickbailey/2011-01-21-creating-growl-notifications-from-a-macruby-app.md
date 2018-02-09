@@ -13,6 +13,7 @@ categories:
   - OSX
   - Ruby
   - Xcode
+redirect_from: "/blogs/derickbailey/archive/2011/01/21/creating-growl-notifications-from-a-macruby-app.aspx/"
 ---
 I&#8217;ve been wanting an excuse to learn how to code for OSX for a while now, and I finally thought of a project worth trying. In an effort to get up and running on XCode and Cocoa as quickly as possible, a number of people suggested I check out [MacRuby](http://www.macruby.org/). I have to say, I&#8217;m quite happy with it so far. I was able to find some simple tutorials to get me moving and started putting together some simple native OSX UIs pretty quickly, with UI elements that actually do things.
 

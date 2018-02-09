@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715486"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/07/svn-and-proxy-servers.aspx/"
 ---
 So I wanted to check out [Jeffrey&#8217;s](http://jeffreypalermo.com/) [sample code](http://palermo.googlecode.com/svn/aspnetmvc/trunk) he demonstrates in the [latest dnrTV episode](http://www.dnrtv.com/default.aspx?showNum=95).&nbsp; I get a fun message back from SVN, which is completely meaningless to me:
 

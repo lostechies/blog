@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - professionalism
   - Rant
+redirect_from: "/blogs/chad_myers/archive/2009/01/11/a-rant-on-professionalism.aspx/"
 ---
 This is a rant. I’m stating it up front. You have been warned :)&#160; Leave a comment if you disagree, but if it’s more than a paragraph or two, please post your response on your own blog and let us know in a comment.
 

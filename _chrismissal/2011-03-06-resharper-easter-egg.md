@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - For Fun
   - Reading Code
+redirect_from: "/blogs/chrismissal/archive/2011/03/06/resharper-easter-egg.aspx/"
 ---
 A while ago, I was looking through some C# code and came across something fun that was being added by [ReSharper](http://www.jetbrains.com/resharper/).
 

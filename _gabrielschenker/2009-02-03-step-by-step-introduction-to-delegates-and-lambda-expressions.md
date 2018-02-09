@@ -11,6 +11,7 @@ categories:
   - delegates
   - introduction
   - Lambda Expressions
+redirect_from: "/blogs/gabrielschenker/archive/2009/02/03/step-by-step-introduction-to-delegates-and-lambda-expressions.aspx/"
 ---
 Many so often during my lectures an courses I provide to &#8211; what I would call &#8211; main stream developers I realize that **delegates**, **anonymous methods** and **lambda expressions** are concepts either completely unknown or not really fully understood. This is a pity! In this post I want to provide a _step-by-step_ introduction to the usage of delegates and lambda expressions. The concepts are demonstrated at a real world example.
 

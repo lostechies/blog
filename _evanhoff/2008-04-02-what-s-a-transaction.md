@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/04/01/what-s-a-transaction.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/04/01/what-s-a-transaction.aspx/"
 ---
 > It&#8217;s an abstraction that balances the simplicity and correctness&nbsp;of serial data access (a single query at a time)&nbsp;against the performance and perils&nbsp;of concurrency (multiple queries running in parallel).
 

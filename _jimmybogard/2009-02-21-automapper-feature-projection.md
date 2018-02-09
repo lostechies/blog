@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716080"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/21/automapper-feature-projection.aspx/"
 ---
 I’m slowly filling in documentation for [AutoMapper](http://www.codeplex.com/AutoMapper), which is turning out to be exactly as much fun as I estimated.
 

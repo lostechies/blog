@@ -16,6 +16,7 @@ categories:
   - model
   - MVC
   - View
+redirect_from: "/blogs/seanbiefeld/archive/2010/06/23/dynamic-view-page-mvc-without-a-view-model.aspx/"
 ---
 Hello fellow techies on this roller coaster called life. It has been a while since my last post, I have been focusing on some other more important aspects of my life.
 

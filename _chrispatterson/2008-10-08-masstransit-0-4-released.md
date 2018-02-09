@@ -9,6 +9,7 @@ dsq_thread_id:
   - "271878264"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2008/10/07/masstransit-0-4-released.aspx/"
 ---
 I&#8217;m happy to say that we&#8217;ve just tied a bow around the latest release of [MassTransit](http://code.google.com/p/masstransit/). Release 0.4 includes a number of new features and some tweaks to the internals as well. I&#8217;m going to describe a few of those features below, but you can grab the latest from the [trunk](http://code.google.com/p/masstransit/source/browse/#svn/trunk) or [download the 0.4 release](http://code.google.com/p/masstransit/downloads/list).
 

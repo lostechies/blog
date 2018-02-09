@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Pragmatism
   - Product Reviews
+redirect_from: "/blogs/derickbailey/archive/2010/11/16/evaluating-alternatives-vs-reacting-to-differences.aspx/"
 ---
 Have you ever noticed that we tend to &ldquo;evaluate&rdquo; new products and services through the perspective of the existing products and services that we use? We compare feature implementations and making judgements on whether or not the implementations are the same or better than what we are used to. We have a tendency to react to the differences that we encounter, because those differences are &#8230; well&#8230; different than what we are used to. We tend to not see the product or service we are evaluating, objectively, because of this.
 

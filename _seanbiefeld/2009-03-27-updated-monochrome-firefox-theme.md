@@ -11,6 +11,7 @@ categories:
   - firefox
   - monochrome
   - theme
+redirect_from: "/blogs/seanbiefeld/archive/2009/03/26/updated-monochrome-firefox-theme.aspx/"
 ---
 Hey just wanted to let everyone know that I updated my Firefox theme, MonoChrome, for version 3.5b4pre.  
 You can grab it from the link below:

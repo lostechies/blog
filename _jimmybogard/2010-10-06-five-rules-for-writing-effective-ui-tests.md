@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264934531"
 categories:
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2010/10/05/five-rules-for-writing-effective-ui-tests.aspx/"
 ---
 For about 3 years, I wrote absolutely horrible UI tests.&#160; These tests worked great for a while, but like most people that tried their hands at UI tests, found them to be utterly brittle and unmaintainable in the face of change.
 

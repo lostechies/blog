@@ -15,6 +15,7 @@ categories:
   - 'C#'
   - Tools and Vendors
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/05/04/rhino-mocks-recursion-and-multiple-return-values-from-stubs.aspx/"
 ---
 A coworker and I were recently working on some recursive code in a WinForms app that followed these basic steps: 
 

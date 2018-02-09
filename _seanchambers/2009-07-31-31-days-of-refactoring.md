@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262346009"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/07/31/31-days-of-refactoring.aspx/"
 ---
 Refactoring is an integral part of continually improving your code while it moves forward through time. Without refactoring you accrue technical debt, forget what portions of code do and create code that is resistant to any form of testing. It is an easy concept to get started with and opens the door to much better practices such as unit testing, shared code ownership and more reliable, bug-free code in general.
 

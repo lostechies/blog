@@ -10,6 +10,7 @@ categories:
   - compiler
   - JavaScript
   - scripting
+redirect_from: "/blogs/joshua_lockwood/archive/2007/04/02/c-javascript.aspx/"
 ---
 Joe had asked me recently if I thought I might want to make a tool that compiles C# into JavaScript.&nbsp; I might want to futs with something like that, but fortunately I don&#8217;t have to any time soon.&nbsp; There&#8217;s already a tool called script# that does just that.&nbsp; This is a pet project of Nikhil Kothari and is definitely a must see.&nbsp; I plan on messing with this in the near future with the goal of covering client code with nunit testing and rendering&nbsp;the business rules related client side scripts during the build.
 

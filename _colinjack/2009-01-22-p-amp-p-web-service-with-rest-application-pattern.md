@@ -8,6 +8,7 @@ wordpress_guid: /blogs/colinjack/archive/2009/01/22/p-amp-p-web-service-with-res
 categories:
   - 'p&amp;p'
   - REST
+redirect_from: "/blogs/colinjack/archive/2009/01/22/p-amp-p-web-service-with-rest-application-pattern.aspx/"
 ---
 It was interesting that all the fuss over Oxite had a positive impact. Unfortunately Microsoft are also now giving us their views on REST (WCF REST starter kit, argh) and more recently REST with a domain model in [Two-Tier Service Application Scenario (REST)](http://www.codeplex.com/AppArch/Wiki/View.aspx?title=App%20Pattern%20-%20Two-Tier%20Service%20Application%20Scenario%20%28REST%29&referringTitle=Application%20Patterns) which J.D. Meier calls the [Web Service with REST Application Pattern](http://blogs.msdn.com/jmeier/archive/2009/01/21/application-patterns.aspx).
 

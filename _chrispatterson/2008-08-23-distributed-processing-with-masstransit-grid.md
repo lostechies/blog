@@ -9,6 +9,7 @@ dsq_thread_id:
   - "270739423"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2008/08/23/distributed-processing-with-masstransit-grid.aspx/"
 ---
 I was reading through the Xgrid documentation for OS X yesterday after reading an article on Integrating Xgrid Into Cocoa Applications. The article gave me some ideas and I decided to see what it would take to build a distributed processing system on top of MassTransit. The result is a new MassTransit.Grid namespace that includes support for building distributed task processing into an application. The following sections define the language used in the distributed task classes.
 

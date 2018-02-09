@@ -8,6 +8,7 @@ wordpress_guid: /blogs/scottcreynolds/archive/2009/06/14/a-couple-of-quick-ubunt
 categories:
   - Linux
   - Ubuntu
+redirect_from: "/blogs/scottcreynolds/archive/2009/06/14/a-couple-of-quick-ubuntu-tips.aspx/"
 ---
 I&#8217;m setting up an Ubuntu Jaunty install for a friend and trying to get it nice and usable. I&#8217;ll be messing more with Linux in the near future I think. Anyway, I ran across a couple of things that really bugged me and that took me a \*while\* to fix, so I thought I&#8217;d share/document for next time.
 

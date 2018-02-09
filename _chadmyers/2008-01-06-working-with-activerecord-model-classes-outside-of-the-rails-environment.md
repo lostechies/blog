@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Rails
   - Ruby
+redirect_from: "/blogs/chad_myers/archive/2008/01/06/working-with-activerecord-model-classes-outside-of-the-rails-environment.aspx/"
 ---
 I had a task yesterday that involved me wanting to dump some information about a Rails ActiveRecord class I had (don&#8217;t ask, it&#8217;s a long story).
 

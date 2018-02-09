@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263186350"
 categories:
   - FubuMVC
+redirect_from: "/blogs/joshuaflanagan/archive/2010/02/07/adding-variable-output-behavior-to-your-fubumvc-actions.aspx/"
 ---
 ### Introduction
 

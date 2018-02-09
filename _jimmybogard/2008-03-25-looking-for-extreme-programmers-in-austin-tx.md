@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715622"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/25/looking-for-extreme-programmers-in-austin-tx.aspx/"
 ---
 As was announced on [Jeffrey&#8217;s blog](http://codebetter.com/blogs/jeffrey.palermo), Headspring is [hiring Extreme Programmers](http://codebetter.com/blogs/jeffrey.palermo/archive/2008/03/21/extreme-programmers-wanted-in-austin-tx.aspx).&nbsp; We have several positions to fill, so if you&#8217;re interested in joining the [leading agile consulting company in Austin](http://www.headspringsystems.com/), please apply through [our job posting](http://www.headspringsystems.com/insideheadspring/join_our_team20080320.jsp).
 

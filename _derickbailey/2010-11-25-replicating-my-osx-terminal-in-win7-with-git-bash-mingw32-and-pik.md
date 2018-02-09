@@ -11,6 +11,7 @@ categories:
   - Command Line
   - git
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2010/11/25/replicating-my-osx-terminal-in-win7-with-git-bash-mingw32-and-pik.aspx/"
 ---
 After getting my [OSX Terminal prompt](http://www.lostechies.com/blogs/derickbailey/archive/2010/11/24/my-osx-terminal-prompt-reposted-from-tumblr.aspx) all set up and loving it, I decided I wanted to have the same basic prompt in my Win7 virtual machine when I use a [Git Bash (MinGW32) shell w/ MSysGit](http://code.google.com/p/msysgit/). Here&#8217;s what I came up with:
 

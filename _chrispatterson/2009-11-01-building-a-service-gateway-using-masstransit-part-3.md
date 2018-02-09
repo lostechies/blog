@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089410"
 categories:
   - masstransit
+redirect_from: "/blogs/chris_patterson/archive/2009/10/31/building-a-service-gateway-using-masstransit-part-3.aspx/"
 ---
 _This post is the third in a series on building a highly available service gateway. The implementation will be built in C# using [MassTransit](http://code.google.com/p/masstransit/), [StructureMap](http://structuremap.sourceforge.net/Default.htm), [ASP.NET MVC](http://www.asp.net/mvc/), and [NHibernate](http://nhforge.org/)._ 
 

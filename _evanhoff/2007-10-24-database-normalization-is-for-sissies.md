@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/24/database-normalization-is-for-sissies.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/24/database-normalization-is-for-sissies.aspx/"
 ---
 Sorry, I rarely do link posts, but this is a must read (even if it is old news).
 

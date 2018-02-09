@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262086259"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/03/05/nunit-behavior-driven-development.aspx/"
 ---
 <P class="MsoNormal">
   <FONT face="Calibri" color="#000000" size="3">I know it has been a while since I posted but I have been working on several projects lately one of which involves </FONT><A href="http://behaviour-driven.org/"><FONT face="Calibri" size="3">Behavior Driven Development</FONT></A><FONT face="Calibri" color="#000000" size="3">.</FONT>

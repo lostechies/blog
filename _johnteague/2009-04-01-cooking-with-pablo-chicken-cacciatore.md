@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055634"
 categories:
   - april-fools
+redirect_from: "/blogs/johnteague/archive/2009/04/01/cooking-with-pablo-chicken-cacciatore.aspx/"
 ---
  <img style="margin: 5px" height="192" src="http://farm1.static.flickr.com/46/108501892_47a04b87ce.jpg?v=0" width="256" align="left" />In this edition of Cooking With Pablo, were going to do one of my favorite one pot dishes: Chicken Cacciatore.&#160; Cacciatore means “hunters stew”.&#160; This would be a dish that hunters would make while on long hunting trips with whatever game they caught cooked with whatever vegetables were available.&#160; Today it more traditionally served with a tomato sauce over pasta or rice.
 

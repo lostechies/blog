@@ -11,6 +11,7 @@ categories:
   - Uncategorized
 tags:
   - Cygwin
+redirect_from: "/blogs/derekgreer/archive/2010/04/08/getting-started-with-cygwin.aspx/"
 ---
 With the increasing popularity of the <a id="b89_" title="Git" href="http://git-scm.com/" target="_blank">Git</a> version control system, many .Net developers are being introduced for the first time to Unix-like tools for Windows by way of two popular Git client platforms: <a id="nucy" title="msysgit" href="http://code.google.com/p/msysgit/" target="_blank">msysgit</a> and <a id="tw22" title="Cygwin" href="http://en.wikipedia.org/wiki/Cygwin" target="_blank">Cygwin</a>. The more substantial of the two, Cygwin is a Linux-like environment for Windows and provides a wide range of useful utilities. The following is a guide for helping newcomers quickly get up and going with the Cygwin environment.
 

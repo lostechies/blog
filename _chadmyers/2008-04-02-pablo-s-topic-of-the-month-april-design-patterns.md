@@ -12,6 +12,7 @@ categories:
   - Principles
   - Programming
   - PTOM
+redirect_from: "/blogs/chad_myers/archive/2008/04/01/pablo-s-topic-of-the-month-april-design-patterns.aspx/"
 ---
 # Pablo&#8217;s Topic of the Month &#8211; April: Design Patterns[<img height="240" alt="pablos_topic" src="http://lostechies.com/chadmyers/files/2011/03PablosTopicoftheMonthMarchSOLIDPrinciple_12781/pablos_topic_thumb.png" width="240" align="right" border="0" />](http://lostechies.com/chadmyers/files/2011/03PablosTopicoftheMonthMarchSOLIDPrinciple_12781/pablos_topic_2.png)
 

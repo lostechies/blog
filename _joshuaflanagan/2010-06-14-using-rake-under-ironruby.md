@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263133143"
 categories:
   - Ruby
+redirect_from: "/blogs/joshuaflanagan/archive/2010/06/14/using-rake-under-ironruby.aspx/"
 ---
 ### Download and install IronRuby
 

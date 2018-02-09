@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1084684370"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/04/26/agile-arguments-part-3-arguments-from-time-and-money.aspx/"
 ---
 &nbsp;&nbsp;&nbsp; In this part 3 of my Agile Arguments series, I&#8217;d like to tackle the very common question &#8212; whenever the word &#8216;agile&#8217; is mentioned among people who have budgetary control of some sort &#8212; that goes something like, &#8216;With Agile, how can you ever budget for time or money on your project?&#8217;
 

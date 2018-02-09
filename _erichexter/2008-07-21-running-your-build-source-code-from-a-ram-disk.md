@@ -11,6 +11,7 @@ categories:
   - .NET
   - 'C#'
   - Testing
+redirect_from: "/blogs/hex/archive/2008/07/21/running-your-build-source-code-from-a-ram-disk.aspx/"
 ---
 &#160;
 

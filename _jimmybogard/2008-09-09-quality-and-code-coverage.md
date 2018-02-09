@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - TDD
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2008/09/09/quality-and-code-coverage.aspx/"
 ---
 It&#8217;s an age-old question: should our team&#8217;s goal be 100% coverage?&nbsp; A valid question, but one I&#8217;ve never much cared about in practice.&nbsp; The idea is that the team, all practicing TDD, should dutifully measure and add unit tests until they reach the _assumed_ pinnacle of unit testing: 100% coverage.
 

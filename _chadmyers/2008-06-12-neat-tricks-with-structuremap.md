@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113866"
 categories:
   - StructureMap
+redirect_from: "/blogs/chad_myers/archive/2008/06/11/neat-tricks-with-structuremap.aspx/"
 ---
 I&#8217;ve been getting a crash course in [StructureMap](http://structuremap.sourceforge.net/) the past 2 weeks. It&#8217;s been going pretty well especially when you consider that the author/maintainer sits next to me every day 🙂
 

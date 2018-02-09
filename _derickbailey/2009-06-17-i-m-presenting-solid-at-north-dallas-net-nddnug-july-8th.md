@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264634506"
 categories:
   - Uncategorized
+redirect_from: "/blogs/derickbailey/archive/2009/06/17/i-m-presenting-solid-at-north-dallas-net-nddnug-july-8th.aspx/"
 ---
 On Wednesday, July 8th, I’m scheduled to give my SOLID presentation at [NDDNUG](http://northdallas.net/), up in Plano, TX. I don’t know if anyone up there remembers me, but NDDNUG was the first user group that I ever went to. I worked in Richardson, TX, for more than 4 years, just off Collins & 75, half a block away from [NerdBooks](http://www.nerdbooks.com/). I’m excited to be able to return to my old stomping ground and do a presentation in front of the first professional software developer group that I was a part of, 6+ years ago!
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089867"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/09/live-writer-beta-3-available.aspx/"
 ---
 Don&#8217;t know how I missed this one but being an avid user of&nbsp;Live Writer, Microsoft has released [Beta 3](http://windowslivewriter.spaces.live.com/blog/cns!D85741BB5E0BE8AA!1421.entry) for download.
 

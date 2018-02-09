@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - 'C#'
+redirect_from: "/blogs/chris_patterson/archive/2009/07/01/i-m-a-microsoft-c-mvp.aspx/"
 ---
 Opening my Inbox this morning resulted in a pleasant surprise from Microsoft. I have been presented with the 2009 Microsoft&reg; MVP Award as a recognition for sharing my expertise in Visual C# with others. It is an honor to be recognized by Microsoft for doing something that I truly enjoy &#8211; building really cool software.
 

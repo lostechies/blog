@@ -12,6 +12,7 @@ categories:
   - Design Principles
   - legacy code
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2009/05/30/anti-patterns-and-worst-practices-heisenbugs.aspx/"
 ---
 As I mentioned before, a Heisenbug occurs when trying to check the state of an object. These types of defects are common with concurrency issues are present. Microsoft has put out a library to help diagnose these problems: <a href="http://research.microsoft.com/en-us/projects/chess/" target="_blank">CHESS</a> ([http://msdn.microsoft.com/en-us/devlabs/cc950526.aspx](http://msdn.microsoft.com/en-us/devlabs/cc950526.aspx "http://msdn.microsoft.com/en-us/devlabs/cc950526.aspx")). I&rsquo;m not going to be addressing the concurrency issue, but the <span style="text-decoration: line-through">more common</span>&nbsp;_simpler_ types of Heisenbugs; the occurrences of these types of flaws in a &ldquo;normal&rdquo; application. When digging deeper into the issue, you may be causing more of a problem. This type of bug can manifest itself when not adhering to <a href="http://en.wikipedia.org/wiki/Command-Query_Separation" target="_blank">command-query separation guidelines</a> (CQS). I&rsquo;ve seen a prime example of this in code that performs calculations and validation inside a C# property setter.
 

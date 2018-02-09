@@ -11,6 +11,7 @@ categories:
   - ASP.NET
   - ASP.NET MVC
   - FubuMVC
+redirect_from: "/blogs/chad_myers/archive/2009/04/27/to-mvc-or-to-webforms.aspx/"
 ---
 In case you haven’t been following it, there’s a sort of blog storm happening around whether or not you should learn ASP.NET MVC (or indeed MVC in general) or stick with Web Forms.
 

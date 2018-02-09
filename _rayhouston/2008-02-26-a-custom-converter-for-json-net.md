@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/02/25/a-custom-converter-for-json-net.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/02/25/a-custom-converter-for-json-net.aspx/"
 ---
 {% raw %}
 I was playing around with [Json.NET](http://james.newtonking.com/pages/json-net.aspx) while trying to move some data back and forth between .NET and Flex. I found that I needed to deserialize a string that looks something like:

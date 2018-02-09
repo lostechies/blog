@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123784"
 categories:
   - virii
+redirect_from: "/blogs/sean_chambers/archive/2008/03/16/the-amazing-storm-worm.aspx/"
 ---
 I originally heard about the <A class="" href="http://en.wikipedia.org/wiki/Storm_botnet" target="_blank">storm worm/botnet</A> about 6 months ago but wrote it off as another b.s. botnet used by spammers for mediocre spreading of email. Recently I saw some newer articles and started looking into it again. This is when I realized how diabolical, beautiful and well crafted of a worm this beast actually is.
 

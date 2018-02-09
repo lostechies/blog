@@ -11,6 +11,7 @@ categories:
   - book
   - introduction
   - NHibernate
+redirect_from: "/blogs/gabrielschenker/archive/2011/01/18/nhibernate-3-beginners-guide.aspx/"
 ---
 I am heading towards another mile stone in my life. Later this year my first book will be published. I have always wanted to write a book but never had a topic that is at the same time interesting for me and also of relevance to a publisher. After having reviewed my [first book](https://www.packtpub.com/nhibernate-3-0-cookbook/book) lately, the publisher approached me whether I am not interested in writing a book myself. Happily I accepted this proposal. The book is about NHibernate, a topic which is very familiar to me as most of your readers might know. I have been writing a lot of posts about NHibernate in the past, mostly on the [NHibernate FAQ blog](http://blogs.hibernatingrhinos.com/nhibernate/Default.aspx) and also posted some articles and tutorials on the [NHibernate home page](http://nhforge.org/Default.aspx) and on [DotNetSlackers](http://dotnetslackers.com/articles/ado_net/Your-very-first-NHibernate-application-Part-1.aspx) Web Site.
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2009/03/11/data-driven-services-with-silverlight-2.aspx
 categories:
   - Books
+redirect_from: "/blogs/mokhan/archive/2009/03/11/data-driven-services-with-silverlight-2.aspx/"
 ---
 I recently finished reading&#8230;</p> 
 

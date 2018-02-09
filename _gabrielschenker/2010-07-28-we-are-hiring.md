@@ -11,6 +11,7 @@ categories:
   - developer
   - hiring
   - job
+redirect_from: "/blogs/gabrielschenker/archive/2010/07/28/we-are-hiring.aspx/"
 ---
 We ([TOPAZ](http://www.topazti.com) Technologies Ltd.) are looking for a junior developer ideally having 1-2 years of experience. If you are eager to work in an agile environment together with a highly motivated team then do not hesitate to contact me. On the other hand if you are NOT a junior developer any more but have a friend that might be a candidate for us then please do not hesitate to forward this message to her or him.
 

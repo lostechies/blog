@@ -11,6 +11,7 @@ categories:
   - Albacore
   - Principles and Patterns
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2009/10/05/a-basic-yaml-config-module-for-ruby.aspx/"
 ---
 In the process of working with [Albacore](http://github.com/derickbailey/Albacore) and creating a task to wrap around SQL Server’s [SQLCmd.exe](http://msdn.microsoft.com/en-us/library/ms162773.aspx), I wanted to ensure that I could allow individual developers the ability to easily provide their own database server connection information, so that they can easily run database scripts against their local database server instance. To do this, I decided to have a little fun with [YAML](http://www.yaml.org/) and some [ruby metaprogramming](http://pragdave.blogs.pragprog.com/pragdave/2008/06/screencasting-r.html). 
 

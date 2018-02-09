@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2009/11/12/going-away-geek-beers.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottcreynolds/archive/2009/11/12/going-away-geek-beers.aspx/"
 ---
 Most of you have heard by now that I am leaving Florida for the concrete pastures of New York City.
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2010/11/15/why-facebook-s-messaging-solution-matters.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colin_ramsay/archive/2010/11/15/why-facebook-s-messaging-solution-matters.aspx/"
 ---
 _This was originally posted on my company blog: &#8220;[Why Facebook&#8217;s Messaging Solution Matters](http://www.gotripod.com/?p=2017 "Go Tripod - Why Facebook's Messaging Solution Matters")&#8220;_
 

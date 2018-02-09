@@ -13,6 +13,7 @@ categories:
   - Productivity
   - Theory Of Constraints
   - Throughput
+redirect_from: "/blogs/derickbailey/archive/2009/07/03/theory-of-constraints-productivity-metrics-in-software-development.aspx/"
 ---
 In the past, I’ve been a true believer that software development is not really possible to measure from a productivity perspective. I was ignorant, basically. I’m now a bit wiser and I understand that software development is no different than any other product development process. We can and should measure productivity of software developers by understanding that we are building business value via functionality that the end-user wants. So, we should essentially be measuring our progress toward the end user facing functionality (as an over-simplification). 
 

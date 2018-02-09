@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Best Practices
   - SEO
+redirect_from: "/blogs/chrismissal/archive/2010/01/18/seo-tips-for-developers-site-structure.aspx/"
 ---
 Continuing in this series of tips for improving your search engine goodness, we’re going to take a look at some tips to designing the structure of your site so that it is friendly for our robot/spider friends.
 

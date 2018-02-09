@@ -12,6 +12,7 @@ categories:
   - LazyLinq
   - LINQ
   - Queryable
+redirect_from: "/blogs/dahlbyk/archive/2009/08/20/introducing-lazylinq-queryability.aspx/"
 ---
 This is the third in a series of posts on LazyLinq, a wrapper to support lazy initialization and deferred disposal of a LINQ query context: 
 

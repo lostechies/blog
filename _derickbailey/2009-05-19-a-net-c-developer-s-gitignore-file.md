@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262068165"
 categories:
   - git
+redirect_from: "/blogs/derickbailey/archive/2009/05/18/a-net-c-developer-s-gitignore-file.aspx/"
 ---
 As a recent convert to [the awesomeness that is git](http://git-scm.com/) (my current flavor is [msysgit](http://code.google.com/p/msysgit/)), I find myself continuously needing to update the [.gitignore](http://www.kernel.org/pub/software/scm/git/docs/gitignore.html) file that I copy and paste between my repositories. Here’s what my ignore file currently contains:
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - OO Concepts
   - Programming
+redirect_from: "/blogs/thatotherguy/archive/2011/01/21/oo-do-i-know-thee.aspx/"
 ---
 I was first introduced to the OO Programming Paradigm through JAVA in 1998. &nbsp;Before that I did most of my work in C or shell scripts. &nbsp;I liked it well enough but for business applications the paradigm felt wrong. &nbsp;JAVA was a breath of fresh air and &#8211; at first &#8211; it seemed so natural. &nbsp;I was indoctrinated into the well known 4 Concepts of OO and the whole Is A vs Has A relationships. &nbsp;I dutifully created my Parent Objects which then had more specific Children (Dog Is A(n) Animal). &nbsp;And it quickly began to feel as awkward as procedural programming. &nbsp;In fact it was worse, because of a sense that my initial &#8220;this is so natural&#8221; reaction was correct and I must have taken a wrong turn.
 

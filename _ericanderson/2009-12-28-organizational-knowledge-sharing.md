@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/eric/archive/2009/12/28/organizational-knowledge-sharing.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/eric/archive/2009/12/28/organizational-knowledge-sharing.aspx/"
 ---
 Recently, I have been reading _Chasing The Rabbit_ by Steven Spear.&nbsp; This is a methodical dissection of market leading organizations and what they do to gain and maintain the lead in their respective markets.&nbsp; Spear looks at a wide variety of companies in various sectors including defense, health care, and automotive.&nbsp; Soon, I will be writing a blog series to look at the main concepts covered by Spear and how those concepts apply to software companies specifically.
 

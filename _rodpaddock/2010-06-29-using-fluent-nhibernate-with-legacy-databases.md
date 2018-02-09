@@ -12,6 +12,7 @@ categories:
   - Legacy Data
   - NHibernate
   - SQL Server
+redirect_from: "/blogs/rodpaddock/archive/2010/06/29/using-fluent-nhibernate-with-legacy-databases.aspx/"
 ---
 I am currently working on a project that has a requirement that it be able to access&nbsp; data from a legacy SQL Server database.
 

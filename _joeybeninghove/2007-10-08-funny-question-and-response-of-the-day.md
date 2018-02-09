@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2007/10/08/funny-question-and-response-of-the-day.aspx
 categories:
   - 'C#'
+redirect_from: "/blogs/joeydotnet/archive/2007/10/08/funny-question-and-response-of-the-day.aspx/"
 ---
 A co-worker of mine sent an email with this question to the whole&nbsp;&#8220;dev&#8221;
   

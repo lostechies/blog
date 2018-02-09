@@ -11,6 +11,7 @@ categories:
   - Refactoring
   - Resharper
   - TDD
+redirect_from: "/blogs/joeydotnet/archive/2007/09/06/refactoring-towards-a-dry-fluent-interface.aspx/"
 ---
 > _But I (Jesus)&nbsp;say to you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who spitefully use you and persecute you &#8212;_ [_Matthew 5:44_](http://www.blueletterbible.org/cgi-bin/tools/printer-friendly.pl?book=Mat&chapter=5&version=NKJV#44)
 

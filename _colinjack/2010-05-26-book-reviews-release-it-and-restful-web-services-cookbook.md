@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2010/05/26/book-reviews-release-it-and-restful-web-services-cookbook.aspx
 categories:
   - Books
+redirect_from: "/blogs/colinjack/archive/2010/05/26/book-reviews-release-it-and-restful-web-services-cookbook.aspx/"
 ---
 I’ve recently been doing a lot more reading and wanted to recommend two excellent books. 
 

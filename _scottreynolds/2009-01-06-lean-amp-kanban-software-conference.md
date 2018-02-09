@@ -9,6 +9,7 @@ categories:
   - Community
   - Kanban
   - lean
+redirect_from: "/blogs/scottcreynolds/archive/2009/01/06/lean-amp-kanban-software-conference.aspx/"
 ---
 Just wanted to put it out there for my fellow Floridians that the [Lean & Kanban Conference](http://leankanbanconference.com/) is going on in Miami, February 18-20. Space is strictly limited so register today for your spot. I&#8217;m currently trying to make my own arrangements to attend though, so don&#8217;t take my spot! 
 

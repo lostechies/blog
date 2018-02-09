@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262346651"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/03/refactoring-day-3-pull-up-method.aspx/"
 ---
 The Pull Up Method refactoring is the process of taking a method and &ldquo;Pulling&rdquo; it up in the inheritance chain. This is used when a method needs to be used by multiple implementers.
 

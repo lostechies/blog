@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - VSTS
+redirect_from: "/blogs/jimmy_bogard/archive/2007/06/14/vsts-scrum-process-templates.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/vsts-scrum-process-templates.html)._
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1115699510"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/10/24/the-3-most-dangerous-words-in-the-english-language-as-determined-by-software-developers.aspx/"
 ---
 What are these words? Oh, I can’t possibly mention them because they will apparently unleash all sorts of evil and toil upon the Earth. Why do I believe this? Because people (at least people in my industry – that is, the IT industry) will NEVER be caught uttering them, no matter how true they may be in any given situation for any given person in said industry.&#160; To speak them, I have to infer, must be so dangerous and so heinous that no one dare even talk about the fact that they cannot be talked about. It’s like Fight Club, except even other Fight Club members can’t talk about Fight Club to other Fight Club members. 
 

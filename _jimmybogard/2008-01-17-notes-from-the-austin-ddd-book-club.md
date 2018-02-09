@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715515"
 categories:
   - AustinDDDBookClub
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/17/notes-from-the-austin-ddd-book-club.aspx/"
 ---
 We had our first meeting of the [Austin DDD (Domain-Driven Design) Book Club](http://groups.google.com/group/austin-ddd-book-club/) today, and I thought it went well for a first meeting.&nbsp; The book club was created because a few of us noticed at the Austin altnetconf that a discussion on DDD brought many widely different views on the subject.&nbsp; To gain a deeper insight on DDD, some Austinites decided to get together every other week to read and discuss topics in Eric Evans&#8217; [Domain-Driven Design book](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215).
 

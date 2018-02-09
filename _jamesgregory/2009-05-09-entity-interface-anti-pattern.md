@@ -11,6 +11,7 @@ categories:
   - Design
   - ORM
   - things we all already knew
+redirect_from: "/blogs/jagregory/archive/2009/05/09/entity-interface-anti-pattern.aspx/"
 ---
 This has been discussed many times before on various mailing lists, and I&#8217;m sure there are blog posts about it that are eluding me currently, but I&#8217;ll put it out there anyway.
 

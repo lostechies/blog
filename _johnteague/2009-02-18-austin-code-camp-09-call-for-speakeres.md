@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055600"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/02/17/austin-code-camp-09-call-for-speakeres.aspx/"
 ---
 ### When: May 30, 2009 – 8:30 AM – 5PM   
 Where: St. Edwards professional learning center, Austin, TX

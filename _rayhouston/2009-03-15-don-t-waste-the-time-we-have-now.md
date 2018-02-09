@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2009/03/15/don-t-waste-the-time-we-have-now.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2009/03/15/don-t-waste-the-time-we-have-now.aspx/"
 ---
 I almost titled this &#8220;Get Things Done&#8221; but this post is not about how to do things. This post is about minimizing waste associated with distractions from non work related activities. I&#8217;m talking about things like Instant Messenger, Twitter, Skype, Facebook, personal phone calls, texting or anything else that is a distraction.
 

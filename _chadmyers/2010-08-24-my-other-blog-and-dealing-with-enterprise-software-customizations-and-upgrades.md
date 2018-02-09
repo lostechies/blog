@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Dovetail
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2010/08/24/my-other-blog-and-dealing-with-enterprise-software-customizations-and-upgrades.aspx/"
 ---
 I have a few blog posts queued up that relate to the product I’m working on for my day job.&#160; The blog posts are generally product-specific and so (I feel) aren’t appropriate for posting on this (my Los Techies) blog as it would be crass marketing.&#160; I think that you, dear reader, did not subscribe to this feed to be marketed to, so I won’t offend you like that.&#160; If, for whatever reason, you’re interested in what I’m working on, or what my company is working on, you can check out [my employee blog](http://blogs.dovetailsoftware.com/blogs/cmyers/default.aspx), or [all the Dovetail blogs](http://blogs.dovetailsoftware.com/blogs/).
 

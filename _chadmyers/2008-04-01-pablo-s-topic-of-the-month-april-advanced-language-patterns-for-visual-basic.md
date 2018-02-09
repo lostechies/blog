@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - "1998"
   - Humor
+redirect_from: "/blogs/chad_myers/archive/2008/03/31/pablo-s-topic-of-the-month-april-advanced-language-patterns-for-visual-basic.aspx/"
 ---
 # Pablo&#8217;s Topic of the Month &#8211; April: Advanced Language Patterns for Visual Basic
 

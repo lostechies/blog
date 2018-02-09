@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2007/12/30/just-like-being-there-almost.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/joeydotnet/archive/2007/12/30/just-like-being-there-almost.aspx/"
 ---
 Unfortunately I haven&#8217;t been able to make it to any of the jazzy conferences in 2007.&nbsp; There are a few that I would&#8217;ve really liked to have attended; [altnetconf](http://www.altnetconf.com/home), [DevTeach](http://www.devteach.com/), [RailsConf](http://railsconf.org) and [RubyConf](http://rubyconf.org/) to name a few.&nbsp; Luckily, you can find quite a bit of the content from some of these kinds of conferences online.&nbsp; Just tonight I watched a really good presentation from RubyConf 2007, [Behaviour Driven Development with RSpec](http://rubyconf2007.confreaks.com/d3t1p2_rspec.html).&nbsp; There are many more I&#8217;d like to [watch from RubyConf](http://rubyconf2007.confreaks.com/) if I can find the time.&nbsp; And of course the [awesome MVC video from ScottGu](http://www.hanselman.com/blog/ScottGuMVCPresentationAndScottHaScreencastFromALTNETConference.aspx) himself at altnetconf is a must see.
 

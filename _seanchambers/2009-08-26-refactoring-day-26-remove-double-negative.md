@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262355517"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/26/refactoring-day-26-remove-double-negative.aspx/"
 ---
 Today’s refactoring comes from Fowler’s refactoring catalog and can be <a href="http://www.refactoring.com/catalog/removeDoubleNegative.html" target="_blank">found here</a>.
 

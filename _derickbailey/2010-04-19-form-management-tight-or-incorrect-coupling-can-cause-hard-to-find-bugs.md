@@ -14,6 +14,7 @@ categories:
   - 'C#'
   - Compact Framework
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/04/19/form-management-tight-or-incorrect-coupling-can-cause-hard-to-find-bugs.aspx/"
 ---
 A coworker and I ran into this code in some of our WinForms in our Compact Framework (.net 3.5) application:
 

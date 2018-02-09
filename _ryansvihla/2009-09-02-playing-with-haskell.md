@@ -12,6 +12,7 @@ categories:
   - GHC
   - Haskell
   - learning
+redirect_from: "/blogs/rssvihla/archive/2009/09/01/playing-with-haskell.aspx/"
 ---
 My tech book club is starting to look at Haskell. I&#8217;m as big of a language addict as anyone so I wanted to dive in early and this is the overview of what I&#8217;ve found so far
 

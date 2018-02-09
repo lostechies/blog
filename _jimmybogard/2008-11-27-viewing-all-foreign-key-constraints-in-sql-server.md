@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264790082"
 categories:
   - SQL
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/26/viewing-all-foreign-key-constraints-in-sql-server.aspx/"
 ---
 This one goes in the “so I never have to look again” category.&#160; I needed to get a list of all foreign keys in the database, for some reason which was probably dire but now escapes me.&#160; [This guy had the answer](http://blog.sqlauthority.com/), don’t you love those MVPs?&#160; I was going to ask it on the StackOverflow site, but then I realized I don’t want to be a complete tool.&#160; Here’s the query:
 

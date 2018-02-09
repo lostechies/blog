@@ -18,6 +18,7 @@ categories:
   - Management
   - Networking
   - Presentations
+redirect_from: "/blogs/derickbailey/archive/2010/04/26/lean-software-amp-systems-conference-2010-lssc10-review.aspx/"
 ---
 Last week I attended (and presented at) the Lean Software & Systems Conference in Atlanta and it was well worth the trip! Everything from the keynote speakers to the individual sessions, from the hotel accommodations to the conference rooms, was well organized creating an environment of learning, collaboration, open discussion and true progress in the continuous improvement of software development and related processes.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088529"
 categories:
   - Domain Driven Design (DDD)
+redirect_from: "/blogs/joe_ocampo/archive/2007/04/14/a-discussion-on-domain-driven-design-entities.aspx/"
 ---
 My last post was intended to help better explain how the [ubiquitous language](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/04/02/a-discussion-on-domain-driven-design.aspx) forms the back bone of Domain Driven Design (DDD). I am hoping that this post helps to explain some of the more foundational artifacts of DDD, namely Entities.
 

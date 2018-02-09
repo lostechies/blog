@@ -9,6 +9,7 @@ dsq_thread_id:
   - "283720910"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/01/setting-off-a-cc-net-build-from-nant.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/setting-off-ccnet-build-from-nant.html)._
 

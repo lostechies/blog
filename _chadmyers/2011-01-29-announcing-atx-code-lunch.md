@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ATX Code Lunch
   - Austin
+redirect_from: "/blogs/chad_myers/archive/2011/01/28/announcing-atx-code-lunch.aspx/"
 ---
 ## ATX Code Lunch (Austin, TX)
 

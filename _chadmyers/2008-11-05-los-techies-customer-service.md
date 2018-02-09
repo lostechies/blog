@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262580383"
 categories:
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/11/04/los-techies-customer-service.aspx/"
 ---
 A quick break from my (ir)regularly scheduled blog posts to point out something worth pointing out.
 

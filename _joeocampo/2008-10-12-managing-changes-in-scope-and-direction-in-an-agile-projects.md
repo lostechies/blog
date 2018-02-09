@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
+redirect_from: "/blogs/joe_ocampo/archive/2008/10/12/managing-changes-in-scope-and-direction-in-an-agile-projects.aspx/"
 ---
 I was recently asked the following question, “How do you best manage changes in scope and direction in an agile project?” 
 

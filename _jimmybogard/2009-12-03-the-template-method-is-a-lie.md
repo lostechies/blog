@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Design
   - OO
+redirect_from: "/blogs/jimmy_bogard/archive/2009/12/02/the-template-method-is-a-lie.aspx/"
 ---
 [<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_2C7FA22D.png" width="304" height="349" />](http://lostechies.com/jimmybogard/files/2011/03/image_4F23E0A8.png) 
 

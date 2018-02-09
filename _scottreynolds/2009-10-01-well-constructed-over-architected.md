@@ -10,6 +10,7 @@ categories:
   - Quality
   - software
   - SOLID
+redirect_from: "/blogs/scottcreynolds/archive/2009/10/01/well-constructed-over-architected.aspx/"
 ---
 Let&#8217;s imagine for a moment that we&#8217;re building a dog house for our beloved family pet. We want it to protect Rover from the elements, be a comfortable place for him to escape the sun and relax, and in general, have the structure hold up for quite some time.
 

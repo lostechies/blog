@@ -11,6 +11,7 @@ categories:
   - LegacyCode
   - TDD
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/05/advanced-mocking-auto-interaction-testing.aspx/"
 ---
 When dealing with legacy systems or those not designed with specific testability scenarios in mind, you have to test your changes in non-traditional means.&nbsp; In normal mocking (or [test double](http://xunitpatterns.com/Test%20Double.html)) scenarios, you have some kind of external dependency that you want to substitute for.
 

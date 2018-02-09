@@ -11,6 +11,7 @@ categories:
   - ad nauseum
   - Humor
   - sanctus bovis
+redirect_from: "/blogs/chad_myers/archive/2010/09/07/a-brief-history-of-programming.aspx/"
 ---
 In 1977, Bill Gates invented programming. Working closely with Steve Jobs, together they invented the SQL language (Steve being particularly responsible for the JOIN keyword).&#160; That is a story for another blog post, however. In this blog post, I endeavor to relate to you how the West was Won, or rather, how we ended up with Stored Procedures as the primary way in which programmers glean business value out of computer systems.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090051"
 categories:
   - LosTechies
+redirect_from: "/blogs/joe_ocampo/archive/2008/02/26/please-update-your-lostechies-rss-feed.aspx/"
 ---
 We have recently updated our main feed to feedburner.&nbsp; Everyone please update your RSS readers to point too.
 

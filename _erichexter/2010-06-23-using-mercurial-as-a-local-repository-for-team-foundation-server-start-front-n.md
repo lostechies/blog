@@ -11,6 +11,7 @@ categories:
   - Mercurial
   - Source Control
   - TFS
+redirect_from: "/blogs/hex/archive/2010/06/22/using-mercurial-as-a-local-repository-for-team-foundation-server-start-front-n.aspx/"
 ---
 This post covers how to setup mercurial(HG) as are local source control repository to sit in front of a Team Foundation Server . I am not going to go into the details of why you would want to run this way in this post. You can look at the [StackOverflow question](http://stackoverflow.com/questions/2331636/real-word-use-of-mercurial-with-a-team-foundation-server) that may give you more insight. For those of you who want to use mercurial for your day to day source control but have to synchronize your source code into a TFS server, this will allow you to do this.
 

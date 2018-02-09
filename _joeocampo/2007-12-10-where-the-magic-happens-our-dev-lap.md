@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile Teams
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/12/09/where-the-magic-happens-our-dev-lap.aspx/"
 ---
 Some if you wanted to see what our lab looks like so I found some pics and thought I would share them with you.&nbsp; I took these pics late in the day and most of developers had left at this point.&nbsp; They are camera shy.&nbsp; 🙂
 

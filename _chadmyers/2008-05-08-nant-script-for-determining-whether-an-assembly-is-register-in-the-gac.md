@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262654434"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/05/08/nant-script-for-determining-whether-an-assembly-is-register-in-the-gac.aspx/"
 ---
 A friend of mine, [Kevin Miller](http://blogs.dovetailsoftware.com/blogs/kmiller/), recently put out a public call for anyone who had some NAnt magic for detecting whether a given assembly is in the GAC or not. I had written something like this a year or so ago and I thought I&#8217;d share it with everyone in the hopes it might help you.
 

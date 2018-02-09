@@ -11,6 +11,7 @@ categories:
   - Mako
   - Pylons
   - Python
+redirect_from: "/blogs/rssvihla/archive/2009/06/25/python-web-framework-series-pylons-part-3-views-with-mako.aspx/"
 ---
 This is a huge post and I should have split this into several smaller ones so please bear with me while I get my series format tweaked.&nbsp; We last left off with <a href="/blogs/rssvihla/archive/2009/06/24/python-web-framework-series-pylons-part-2-controllers-and-views.aspx" target="_blank">Controllers, Views and Testing</a> with a basic test, basic view and basic controller.&nbsp; Now with our basic scaffold built we can focus on making our views reusable, dynamic, and more pleasant to look at.
 

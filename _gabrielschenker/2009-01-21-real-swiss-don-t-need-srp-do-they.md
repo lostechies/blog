@@ -12,6 +12,7 @@ categories:
   - Patterns
   - practices
   - SOLID
+redirect_from: "/blogs/gabrielschenker/archive/2009/01/21/real-swiss-don-t-need-srp-do-they.aspx/"
 ---
 ## Introduction
 

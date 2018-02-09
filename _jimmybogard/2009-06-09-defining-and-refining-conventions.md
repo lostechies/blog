@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265260169"
 categories:
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2009/06/09/defining-and-refining-conventions.aspx/"
 ---
 At last night’s [ADNUG](http://adnug.org/) talk, [Jeremy Miller](http://codebetter.com/blogs/jeremy.miller/) talked about Convention over Configuration, and many of the principles the Rails community embraces.&#160; He showed a few examples of opinionated software, such as FubuMVC.&#160; One thing I would have liked more conversation around (but no time, alas), was the process of discovering conventions and forming the opinions that make up [opinionated software](http://gettingreal.37signals.com/ch04_Make_Opinionated_Software.php).
 

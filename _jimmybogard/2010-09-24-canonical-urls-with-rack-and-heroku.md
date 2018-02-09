@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716598"
 categories:
   - Ruby
+redirect_from: "/blogs/jimmy_bogard/archive/2010/09/23/canonical-urls-with-rack-and-heroku.aspx/"
 ---
 In my Heroku/Sinatra adventures, I wanted to make sure that I enforced canonical URLs.&#160; That is:
 

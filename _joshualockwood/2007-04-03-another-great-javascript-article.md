@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joshua_lockwood/archive/2007/04/02/another-great-javascri
 categories:
   - JavaScript
   - scripting
+redirect_from: "/blogs/joshua_lockwood/archive/2007/04/02/another-great-javascript-article.aspx/"
 ---
 Sorry all, I&#8217;ll probably be over this JavaScript tear soon enough, but now that I&#8217;ve given the language another glance it has really caught my eye this time.&nbsp; I can only explain my recent engagement with the language as a total re-discovery.&nbsp; I&#8217;ve done some js OO before in the past, but looking at the language completely outside of a web development context has really helped my make a paradigm shift.&nbsp; It&#8217;s been kind of like when I was scripting in sed then discovered perl.
 

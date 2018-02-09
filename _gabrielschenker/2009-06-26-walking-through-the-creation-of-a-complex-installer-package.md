@@ -12,6 +12,7 @@ categories:
   - NSIS
   - tutorial
   - WIX
+redirect_from: "/blogs/gabrielschenker/archive/2009/06/26/walking-through-the-creation-of-a-complex-installer-package.aspx/"
 ---
 ## Introduction
 

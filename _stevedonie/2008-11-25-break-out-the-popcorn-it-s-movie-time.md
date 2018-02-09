@@ -13,6 +13,7 @@ categories:
   - burndown
   - ProjectManagement
   - retrospective
+redirect_from: "/blogs/stevedonie/archive/2008/11/25/break-out-the-popcorn-it-s-movie-time.aspx/"
 ---
 My team just finished up our most recent project &#8211; we spent about 4 months writing what we call a loader. It is basically an automated process that loads data from one database into another.
 

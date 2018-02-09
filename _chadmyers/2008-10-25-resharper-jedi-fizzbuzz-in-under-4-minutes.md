@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Resharper
   - Video
+redirect_from: "/blogs/chad_myers/archive/2008/10/25/resharper-jedi-fizzbuzz-in-under-4-minutes.aspx/"
 ---
 Video (FLV/Flash, 3:55,06, CSA 0:00,00 no words/captioning)
 

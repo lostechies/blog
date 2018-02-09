@@ -12,6 +12,7 @@ categories:
   - TDD
   - Test Doubles
   - Unit Testing
+redirect_from: "/blogs/thatotherguy/archive/2011/01/14/are-you-mocking-me.aspx/"
 ---
 Jimmy has had a couple posts ([mocks](/blogs/jimmy_bogard/archive/2011/01/06/putting-mocks-in-their-place.aspx), [mocks](/blogs/jimmy_bogard/archive/2011/01/11/shifting-testing-strategies-away-from-mocks.aspx), and [less mocks](/blogs/jimmy_bogard/archive/2011/01/12/defining-unit-tests.aspx)) that prompted Derick to post [this](/blogs/derickbailey/archive/2011/01/13/mocks-stubs-and-unreadable-tests-clearly-i-m-doing-this-wrong.aspx) on his experience with tests &ndash; I&rsquo;d like to add my thoughts to mix.&nbsp; First, let me say I&rsquo;m not offering an answer to Derick&rsquo;s question (sorry Derick), simply some ideas to consider.&nbsp; If they help you, great.&nbsp; If not, please join the mix.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265260244"
 categories:
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2009/06/10/simplest-versus-first-thing-that-could-possibly-work.aspx/"
 ---
 One of the core [XP practices](http://www.xprogramming.com/xpmag/whatisxp.htm) that resonated with me quite early on was the concept of simple design.&#160; When I learned TDD, this practice was further refined with the concept of doing the “simplest thing that could possibly work”.&#160; To make a test pass, I would code the simplest thing that could possibly work.&#160; It takes quite a bit of discipline to adhere to this mantra of simplicity, fighting a constant urge to design something more complex than the problem at hand requires.
 

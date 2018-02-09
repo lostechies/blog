@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088252"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/07/02/more-fluent-interfaces-for-nunit-behave.aspx/"
 ---
 I have been enhancing the overall structure of NUnit.Behave to evolve to a more <a href="http://www.martinfowler.com/bliki/FluentInterface.html" target="_blank">fluent interface</a>.&nbsp; The following is a working example of what I have come up with.
 

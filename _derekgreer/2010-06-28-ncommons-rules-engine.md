@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262468830"
 categories:
   - Uncategorized
+redirect_from: "/blogs/derekgreer/archive/2010/06/27/ncommons-rules-engine.aspx/"
 ---
 I recently decided to invest some time in learning how my team might leverage the <a href="http://mvccontrib.codeplex.com/" target="_blank">MvcContrib</a> rules engine for our projects at work. I discovered this feature after browsing the <a href="http://codecampserver.codeplex.com/" target="_blank">CodeCampServer</a> source which seems to be the only publicly available example of the rules engine in use. I was impressed at how clean the controller actions were as a result of leveraging this feature in conjunction with some additional infrastructure sugar the CodeCampServer adds. 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267829792"
 categories:
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/10/entropy-in-software.aspx/"
 ---
 One of the greatest lessons I had growing up was from my music teacher, on improvement:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716589"
 categories:
   - Personal
+redirect_from: "/blogs/jimmy_bogard/archive/2010/09/09/a-healthy-transition.aspx/"
 ---
 A couple of years ago, [Justice Gray](http://graysmatter.codivation.com/) shared his journey from out of shape, yet still sexy to in shape.&#160; Believe it or not, it was actually a bit of a motivation for me to get back in shape.&#160; It had been a long descent when I left college until my late 20s, until no donut was safe, no fry was left un-eaten, and no shake left unslurped.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123845"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/08/24/refactoring-towards-deeper-insight.aspx/"
 ---
 While giving my DDD presentation at the Jacksonville Code Camp, I felt that DDD refactoring was one area that I really didn&#8217;t touch on enough. I mentioned it briefly but I wanted to build on the discussion that we started to have in the presentation. I feel this is a very important practice of DDD and needs more explanation.
 

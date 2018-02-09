@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113134"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joshuaflanagan/archive/2008/09/09/hola-los-techies.aspx/"
 ---
 I&#8217;m very happy to accept an invitation to join the Los Techies community. I&#8217;ve been posting at <http://flimflan.com/blog> for the past four years, and am looking forward to blogging more among some great company.
 

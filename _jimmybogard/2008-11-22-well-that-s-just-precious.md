@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715991"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/22/well-that-s-just-precious.aspx/"
 ---
 Looks like Gmail has themes:
 

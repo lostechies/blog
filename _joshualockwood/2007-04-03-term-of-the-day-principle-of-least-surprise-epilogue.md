@@ -12,6 +12,7 @@ categories:
   - TDD
   - Unit Tests
   - Why We Rock
+redirect_from: "/blogs/joshua_lockwood/archive/2007/04/03/term-of-the-day-principle-of-least-surprise-epilogue.aspx/"
 ---
 <SPAN>Okay, this is funny.&nbsp; Little did I know that while writing “Term of the Day: Principle Of Least Surprise” I was entering the midst of just such a problem.</SPAN>
 

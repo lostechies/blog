@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113535"
 categories:
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/01/04/joining-the-donkey-side.aspx/"
 ---
 The wonderful folks over at [Los Techies](http://www.lostechies.com/) invited me to join the list of their notable and venerable bloggers and I humbly accepted.
 

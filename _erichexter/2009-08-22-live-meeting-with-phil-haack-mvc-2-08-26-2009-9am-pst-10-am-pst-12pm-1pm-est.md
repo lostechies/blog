@@ -12,6 +12,7 @@ categories:
   - ASP.NET MVC
   - c4mvc
   - Community
+redirect_from: "/blogs/hex/archive/2009/08/22/live-meeting-with-phil-haack-mvc-2-08-26-2009-9am-pst-10-am-pst-12pm-1pm-est.aspx/"
 ---
 Phil will cover the new features in the MVC 2 CTP and take questions and answers. So get your nerd headset on and join us!
 

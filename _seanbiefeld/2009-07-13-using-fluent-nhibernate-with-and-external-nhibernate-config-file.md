@@ -12,6 +12,7 @@ categories:
   - Fluent NHibernate
   - infrastructure
   - NHibernate
+redirect_from: "/blogs/seanbiefeld/archive/2009/07/13/using-fluent-nhibernate-with-and-external-nhibernate-config-file.aspx/"
 ---
 A while ago I was having issues using configuring fluent NHibernate with an external configuration file. I kept running into the issue of mappings not being registered. I was finally able to get it working appropriately and thought I would share my solution. The key is to configure the normal mappings first and then pass that configuration in when configuring fluent NHibernate.
 

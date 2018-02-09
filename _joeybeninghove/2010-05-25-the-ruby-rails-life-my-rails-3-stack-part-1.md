@@ -18,6 +18,7 @@ categories:
   - Ruby
   - rvm
   - SASS
+redirect_from: "/blogs/joeydotnet/archive/2010/05/24/the-ruby-rails-life-my-rails-3-stack-part-1.aspx/"
 ---
 # <span style="font-weight: normal;font-size: 12px">As some of you might know, About a month ago I left my almost 10 year career as a Microsoft developer to become<br /> an independent Ruby/Rails developer (a term I&#8217;m deeming <a href="http://afreshcup.com/home/2006/12/8/what8217s-going-on-here.html">&#8220;pulling a Gunderloy&#8221;</a>).<br /> It was long overdue for me and I couldn&#8217;t be happier to be free from the shackles of Microsoft.<br /> It seems lately there are <a href="http://www.infoq.com/articles/architecting-tekpub">more and more folks</a> coming to the<br /> same realization as I have and are making the jump to work with more open technologies and platforms on the web.<br /> But I&#8217;ll leave that conversation to the twitterverse.</span>
 

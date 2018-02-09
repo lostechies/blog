@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/08/04/disconnected-channels-of-communication.aspx
 categories:
   - Books
+redirect_from: "/blogs/mokhan/archive/2008/08/04/disconnected-channels-of-communication.aspx/"
 ---
 A few weeks ago I started feeling a little over whelmed by the volume of interest in what I was up to. After reading a chapter from Tim Ferris&#8217; book, I decided to disconnect. It was the most effective advice I could have ever received. I went [cold turkey](http://en.wikipedia.org/wiki/Cold_turkey). I turned off my phone and put it in a drawer. I completely stopped checking my email, and wouldn&#8217;t allow myself to "surf" the net. 
 

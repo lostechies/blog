@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joeydotnet/archive/2007/06/07/what-does-maintainability-m
 categories:
   - Patterns
   - TDD
+redirect_from: "/blogs/joeydotnet/archive/2007/06/07/what-does-maintainability-mean-to-you.aspx/"
 ---
 Sometimes in my discussions with other developers, we have to agree to disagree on certain things.&nbsp; One recent topic was that of maintainability, in regards to&nbsp;the size of&nbsp;classes/methods and project structures.&nbsp; 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716346"
 categories:
   - NHibernate
+redirect_from: "/blogs/jimmy_bogard/archive/2009/12/01/migrating-to-fluent-nhibernate.aspx/"
 ---
 Recently, I’ve been entrenched in migrating our existing hbm.xml mapping files to Fluent NHibernate.&#160; Having been through other OSS upgrades, I was expecting something along the lines of pulling teeth.&#160; I pictured a branch, tedious work to try and move mappings over, all the while making parallel changes to changes going on back in the trunk’s hbm files.&#160; Instead, Fluent NHibernate supports a painless migration path, really surprising me.&#160; I haven’t finished the migration, but all of the difficult mappings are behind me, and I haven’t run into a situation that couldn’t be migrated yet.&#160; However, I have found a few things along the way that have helped make the migration much easier.
 

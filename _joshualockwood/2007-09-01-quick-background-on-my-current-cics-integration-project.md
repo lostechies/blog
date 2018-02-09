@@ -11,6 +11,7 @@ categories:
   - Oracle
   - Programming
   - VB.Net
+redirect_from: "/blogs/joshua_lockwood/archive/2007/08/31/quick-background-on-my-current-cics-integration-project.aspx/"
 ---
 I&#8217;m currently working on a stop-gap legacy integration project that is geared toward data integration between a legacy CICS system and a new 3rd party product.&nbsp; I have 2 major tasks in this project, the first being a web application for bulk data entry into both systems simultaneously and the second being cross-system data transformation and transfer.&nbsp; The integration points between the two systems are expected to support operations for the next 12 months.&nbsp; Past integration projects have been handled through cron&#8217;d UNIX scripts, PL/SQL stored procedures, triggers, CICS batch jobs, etc.&nbsp; Past projects also have left a dearth of documentation in their paths.
 

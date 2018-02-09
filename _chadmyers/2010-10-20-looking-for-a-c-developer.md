@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1088723063"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2010/10/20/looking-for-a-c-developer.aspx/"
 ---
 Sorry for the string of job-seeking related posts recently.&#160;&#160; I figure you won’t mind since there’s a lot of people out of work now and helping people find work is a work of mercy <img style="border-bottom-style: none;border-right-style: none;border-top-style: none;border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smile" src="http://lostechies.com/chadmyers/files/2011/03/wlEmoticon-smile_0A049782.png" />
 

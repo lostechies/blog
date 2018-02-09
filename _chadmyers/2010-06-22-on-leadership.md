@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114542"
 categories:
   - leadership
+redirect_from: "/blogs/chad_myers/archive/2010/06/22/on-leadership.aspx/"
 ---
 I recently passed the two year mark in my first major/official role as a “manager” of anything.&#160; I’ve been the lead of a team which now consists of 7 souls and I’ve learned (i.e. screwed up repeatedly and had the idea pounded into me) a few things along the way about what it means to “lead… a team”.
 

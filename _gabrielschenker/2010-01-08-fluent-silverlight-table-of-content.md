@@ -13,6 +13,7 @@ categories:
   - framework
   - MVVM pattern
   - Silverlight
+redirect_from: "/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx/"
 ---
 In a series of posts I would like to introduce our Fluent Silverlight framework and discuss the important concepts behind it and describe some implementation details. This post will be updated continuously as I am adding new posts to the series
 

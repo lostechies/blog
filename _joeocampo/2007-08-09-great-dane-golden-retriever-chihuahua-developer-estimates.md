@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
+redirect_from: "/blogs/joe_ocampo/archive/2007/08/08/great-dane-golden-retriever-chihuahua-developer-estimates.aspx/"
 ---
 I just read <a href="http://ayende.com/Blog/archive/2007/08/09/You-cant-estimate-a-month.aspx" target="_blank">Ayende&#8217;</a>s and <a href="http://udidahan.weblogs.us/2007/08/06/dont-trust-developers-with-project-management/" target="_blank">Udi&#8217;s</a>&nbsp;post on estimation.&nbsp; I was intrigued because over the last three year we have been using &#8220;story units&#8221; to estimate our work load for all our projects to great success.
 

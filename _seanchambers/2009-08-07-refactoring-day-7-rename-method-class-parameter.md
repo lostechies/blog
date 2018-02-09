@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264034533"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/07/refactoring-day-7-rename-method-class-parameter.aspx/"
 ---
 This refactoring I use most often and is one of the most useful refactoring. All too often we do not name methods/classes/parameters properly that leads to a misunderstanding as to what the method/class/parameter&rsquo;s function is. When this occurs, assumptions are made and bugs are introduced to the system. As simple of a refactoring this seems, it is one of the most important to leverage.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "274773761"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/01/06/being-quot-the-computer-guy-quot.aspx/"
 ---
 This is a break from the usual developer oriented posts but I have been extremely busy lately with getting ready to launch StuntJuice in the next couple of days. I will do another posting on that later in the week. In a couple of minutes of downtime I churned out this post to just vent really. After removing more spyware in the last 2 months than most people do in a year. I&#8217;m happy to get through it with my sanity. I read <a href="http://thedailywtf.com/Articles/Could-You-Explain-Programming-Please.aspx" target="_blank">this post</a> at the <a href="http://thedailywtf.com/" target="_blank">DailyWTF</a> and laughed so I figured I would share my experiences in a blog post.
 

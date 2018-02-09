@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262346345"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/02/refactoring-day-2-move-method.aspx/"
 ---
 _<font size="1"></font>_
 

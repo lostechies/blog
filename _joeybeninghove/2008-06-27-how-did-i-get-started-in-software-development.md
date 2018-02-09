@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2008/06/27/how-did-i-get-started-in-software-development.aspx
 categories:
   - Personal
+redirect_from: "/blogs/joeydotnet/archive/2008/06/27/how-did-i-get-started-in-software-development.aspx/"
 ---
 Well apparently [Derik](http://devlicio.us/blogs/derik_whittaker/default.aspx) is trying to bring me out of my blogging hiatus by [tagging me](http://devlicio.us/blogs/derik_whittaker/archive/2008/06/24/how-did-i-get-started-in-software-development.aspx) with the meme of the week.&nbsp; 🙂&nbsp; My story is pretty boring, but I&#8217;ll play along in an effort to bring me out of my recent break from the blogosphere.
 

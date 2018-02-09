@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Silverlight
   - Testing
+redirect_from: "/blogs/hex/archive/2008/04/20/silverlight-testing-framework-bug-frameworkelements-are-not-visible-on-the-testsurface.aspx/"
 ---
 <div class="wlWriterSmartContent" style="padding-right: 0px;padding-left: 0px;padding-bottom: 0px;margin: 0px;padding-top: 0px">
   Technorati Tags: <a href="http://technorati.com/tags/Silverlight" rel="tag">Silverlight</a>,<a href="http://technorati.com/tags/Unit%20Testing" rel="tag">Unit Testing</a>,<a href="http://technorati.com/tags/Test%20Framework" rel="tag">Test Framework</a>

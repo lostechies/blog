@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090229"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/03/09/net-behavior-driven-development-using-nunit-next-steps.aspx/"
 ---
 <P class="MsoNormal">
   <A href="http://www.ayende.com/default.aspx"><FONT face="Calibri" size="3">Oren Eini</FONT></A><FONT face="Calibri" color="#000000" size="3"> left a comment on a recent </FONT><A href="http://blog.agilejoe.com/PermaLink,guid,ed4400d1-b36a-4dd4-a2ff-fa375bcfa71d.aspx"><FONT face="Calibri" size="3">post</FONT></A><FONT face="Calibri" color="#000000" size="3"> I did on Behavior Driven Development.<SPAN>&nbsp; </SPAN>At first the questions seemed very easy and I thought I would be able to answer it within 15 minutes but as pondered the different possibilities of answering the question, I wanted to make sure that I gave an answer that was true to BDD as it relates to C#.<SPAN>&nbsp; </SPAN>A day later, I finally came up with one but in the process I learned a great deal about the value of “context” and “behavior”, so I wanted to take this time to share what I have learned.</FONT>

@@ -11,6 +11,7 @@ categories:
   - Design
   - practices
   - Refactoring
+redirect_from: "/blogs/gabrielschenker/archive/2009/02/27/refactoring-legacy-code.aspx/"
 ---
 Lately my co-worker asked me to pair with him and make a code review with him of one of his projects. After having spent some hours on refactoring this legacy application together with my co-worker I want to share some important lessons learned. I call this application a **legacy application** because it has not been developed from grounds up by using TDD. Only at a very late stage of the project did my co-worker start to apply TDD.
 

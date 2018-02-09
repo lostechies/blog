@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joe_ocampo/archive/2008/03/18/twhirl-is-a-must-for-a-desktop-twitter-client.aspx
 categories:
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2008/03/18/twhirl-is-a-must-for-a-desktop-twitter-client.aspx/"
 ---
 If you are Twitterhaulic like <a href="http://twitter.com/chadmyers" target="_blank">Mr Chad Meyer</a>.&nbsp; I strongly recommend giving <a href="http://www.twhirl.org/" target="_blank">Twhirl</a> a whirl!&nbsp; (Sorry couldn&#8217;t resist).&nbsp; I am very impressed with the <a href="http://www.adobe.com/products/air/" target="_blank">Adobe Air interface</a>.&nbsp; Very clean and stylish. 
 

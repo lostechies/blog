@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1073111247"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/04/26/real-rapid-development.aspx/"
 ---
 &nbsp;&nbsp;&nbsp;&nbsp; From my experience, which is admittedly tainted with many bad RAD experiences, the term &#8216;RAD&#8217; or &#8216;Rapid Application Development&#8217; has come to mean &#8216;Bang on the keyboard and mouse as absolutely fast as possible to get through all the features you can and then have a major death march hero bugfixing party near the end of the project and then ship it and hope for the best.
 

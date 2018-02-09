@@ -11,6 +11,7 @@ categories:
   - Rails
   - Ruby
   - Web
+redirect_from: "/blogs/joeydotnet/archive/2007/09/04/change-is-in-the-air.aspx/"
 ---
 > _Your word is a lamp to my feet and a light to my path &#8212; [Psalms 119:105](http://www.blueletterbible.org/cgi-bin/tools/printer-friendly.pl?book=Psa&chapter=119&version=NKJV#105)_
 

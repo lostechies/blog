@@ -11,6 +11,7 @@ categories:
   - Book Review
   - NUnit
   - Testing
+redirect_from: "/blogs/dahlbyk/archive/2010/05/17/review-pragmatic-unit-testing-in-c-with-nunit-2nd-edition.aspx/"
 ---
 <div class="content">
   <div class="snap_preview">

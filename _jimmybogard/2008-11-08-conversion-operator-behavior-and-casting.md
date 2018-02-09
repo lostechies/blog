@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715978"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/07/conversion-operator-behavior-and-casting.aspx/"
 ---
 Today I hit something that I just assumed would work, but absolutely did not.&#160; The issue was around the explicit conversion operators, which I use from time to time when I create [Value Objects](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/06/25/generic-value-object-equality.aspx) that wrap a specific primitive with extra behavior.&#160; Concepts like Email, Phone Number, Money and others tend to wrap a single primitive, but with some extra behavior.&#160; Now, in C# 3.0, extension methods can be used to add this extra behavior.&#160; But I tend to think [extension methods can be a form of primitive obsession](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/12/18/extension-methods-and-primitive-obsession.aspx).&#160; So instead, I’ll create Value Object classes, but with some conversion operators to help go back and forth from primitive types to the Value Object.
 

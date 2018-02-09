@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/11/09/who-do-you-wanna-jott-twitter.aspx
 categories:
   - Tools
+redirect_from: "/blogs/mokhan/archive/2008/11/09/who-do-you-wanna-jott-twitter.aspx/"
 ---
 So I recently started twittering&#8230; or tweeting. I&#8217;m not sure what the correct lingo is, so hook me up if you know. It all started a while back when [James](http://codebetter.com/blogs/james.kovacs/archive/2008/09/07/i-cry-uncle.aspx) announced that he was the newest Twit. He mentioned a WPF client called [Witty](http://code.google.com/p/wittytwitter/), and I wanted to see what it was all about. So I setup a [Twitter](http://twitter.com/) account to play with the app. After I had my fun, I never deleted my account. Or at least I never looked into how to delete my account.
 

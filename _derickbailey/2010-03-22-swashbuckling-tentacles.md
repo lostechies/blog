@@ -14,6 +14,7 @@ categories:
   - Model-View-Presenter
   - Principles and Patterns
   - Semantics
+redirect_from: "/blogs/derickbailey/archive/2010/03/22/swashbuckling-tentacles.aspx/"
 ---
 Surrounded by the wriggling tentacles of the beast that had attached itself to the ship, Ed – the lone surviving member of the ship’s crew – brandishes he sword and lunges toward the nearest of the appendages. With a cry of both fear and determination, Ed slices halfway through the tentacle before he is knocked backward by the convulsing of the wounded creature. Gathering his feet under himself and recovering from the blow, he rushes back toward the gaping wound that his weapon had created and separates the tentacle with another slice. As the now separated arm of the creature convulses, the planks of the ship that it had attached itself to begin to crack and pull apart. Undaunted by the flying debris, Ed side-steps a board flying toward his chest and moves in for other attack. A second tentacle is removed with a single slice and Ed hardly notices the additional cracking and crumbling of the planks and boards that this tentacle had wrapped around. His focus is set on the next of the beasts many appendages, with a single goal in mind: destroy the towering arms that are now flailing about the ship, and send his foe to the bottom of the sea.
 

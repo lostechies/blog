@@ -12,6 +12,7 @@ categories:
   - JQuery
   - OSS
   - Silverlight
+redirect_from: "/blogs/rodpaddock/archive/2010/11/05/javascript-can-t-do-math-silverlightcalculator-a-new-silverlight-oss-project.aspx/"
 ---
 It&#8217;s amazing what a lack of sleep can do for the OSS World. Over the last year I have encountered numerous places where I wanted to do simple financial equations in my JavaScript applications. You know really complex stuff like adding and subtracting dollar amounts. Well if you have spent any time doing JavaScript work you soon realize that this is just a dream. Hence the creation of the SilverLight Calculator. This is a real simple application and is described by the contents of the README below. 
 

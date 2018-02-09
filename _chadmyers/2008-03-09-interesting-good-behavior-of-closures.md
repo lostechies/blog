@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/03/08/interesting-good-behavior-of-closures.aspx/"
 ---
 For some reason, I didn&#8217;t think this would work, but it does:
 

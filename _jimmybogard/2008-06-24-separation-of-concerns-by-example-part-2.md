@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715807"
 categories:
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/24/separation-of-concerns-by-example-part-2.aspx/"
 ---
 Separation of concerns is one of the fundamental tenets of good object-oriented design.&nbsp; Anyone can throw a bunch of code in a method and call it a day, but that&#8217;s not the most maintainable approach.&nbsp; So far, we&#8217;ve looked at:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263492713"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2008/10/07/announcing-the-test-driven-development-productivity-plugin-for-resharper.aspx/"
 ---
 _****_
 

@@ -11,6 +11,7 @@ categories:
   - .NET
   - Austin
   - hiring
+redirect_from: "/blogs/chad_myers/archive/2010/10/18/net-opportunity-in-austin.aspx/"
 ---
 A good friend of mine is looking for two intermediate and senior .NET developers in the Austin area (local only, no remote developers).&#160; 
 

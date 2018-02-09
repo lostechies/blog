@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262068611"
 categories:
   - Books Reviews
+redirect_from: "/blogs/derickbailey/archive/2010/04/20/partial-book-review-beautiful-teams.aspx/"
 ---
 [<img style="border-bottom: 0px;border-left: 0px;margin: 0px 10px 5px 0px;border-top: 0px;border-right: 0px" border="0" alt="image" align="left" src="http://lostechies.com/derickbailey/files/2011/03/image_0F4CC0BD.png" width="180" height="236" />](http://oreilly.com/catalog/9780596518028/) 
 

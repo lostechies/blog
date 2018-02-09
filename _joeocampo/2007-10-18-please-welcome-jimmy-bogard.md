@@ -9,5 +9,6 @@ dsq_thread_id:
   - "262089394"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/18/please-welcome-jimmy-bogard.aspx/"
 ---
 It was a long hard fight with a lot of hair pulling and sacrificing small dogs(not really) but please help&nbsp;me Welcome Jimmy Bogard to Los Techies!&nbsp;&nbsp;

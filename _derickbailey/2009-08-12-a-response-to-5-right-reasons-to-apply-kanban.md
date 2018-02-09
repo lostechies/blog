@@ -15,6 +15,7 @@ categories:
   - Quality
   - Theory Of Constraints
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/08/12/a-response-to-5-right-reasons-to-apply-kanban.aspx/"
 ---
 [Michael Dubakov](http://twitter.com/mdubakov) has a couple of great posts over at TargetProcess on [5 Wrong Reasons To Apply Kanban](http://www.targetprocess.com/blog/2009/08/5-wrong-reasons-to-apply-kanban.html) and [5 Reasons To Apply Kanban](http://www.targetprocess.com/blog/2009/08/5-right-reasons-to-apply-kanban.html). I started to post this as a comment in response to his 5 Reasons To Apply Kanban, but the size of the comment got a little out of hand, so I thought it would be more appropriate to post here.
 

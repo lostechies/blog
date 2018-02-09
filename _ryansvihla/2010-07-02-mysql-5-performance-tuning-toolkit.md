@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1070352376"
 categories:
   - MySQL
+redirect_from: "/blogs/rssvihla/archive/2010/07/01/mysql-5-performance-tuning-toolkit.aspx/"
 ---
 Recently we’d played with table partitioning and because of the limitations of it and some decisions we’d made a very long time ago we ended up spending a couple of days tracking down hotspots. In the process I picked up a few tricks, I’m not even an authority on any of this but I figured it’d help out others in the same spot.
 

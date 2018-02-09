@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716384"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/12/23/automapper-dsl-design-post-mortem.aspx/"
 ---
 As I move towards the 1.0 release of AutoMapper, I’m already running in to things I wish I had done differently.&#160; I still will probably fix all of these eventually, but none of these design issues should prevent a release, especially since it’s not any public functionality.&#160; A lot of it came from trying out designs in the open, but it can be difficult to change direction once it’s out in the open and in production.&#160; The Fluent NHibernate guys have changed their API quite a bit up to release, for better or worse, and I wasn’t too keen to follow that same path.
 

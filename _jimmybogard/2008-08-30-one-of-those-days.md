@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715875"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2008/08/30/one-of-those-days.aspx/"
 ---
 I had one of those days the other day.&nbsp; Not quite a case of the Mondays, but one where I thought maybe I should just go home and start over.&nbsp; If you&#8217;re trying to get this test to pass:
 

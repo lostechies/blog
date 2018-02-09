@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088418"
 categories:
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/03/why-every-developer-needs-a-macbook-pro.aspx/"
 ---
 <IMG height="375" alt="Mac" src="http://farm1.static.flickr.com/194/442501887_6de9e38899.jpg?v=0" width="500" align="right" />Over the past couple of week I have been debating of why I should NOT by a Mac.&nbsp; In the past before Apple moved to the Intel chipset, I saw Macs as more of a overpriced graphics workstation with a niche market targeting people who&nbsp;wear&nbsp;black turtlenecks and frequent&nbsp;coffee shops.I was under the impression that they really did not have any viability in making it into the&nbsp;mainstream development arena.
 

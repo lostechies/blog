@@ -14,6 +14,7 @@ categories:
   - fsrazor
   - mvc 3
   - razor
+redirect_from: "/blogs/dahlbyk/archive/2011/02/06/fsharp-plus-razor-view-engine-equals-fsrazor.aspx/"
 ---
 Last month InfoQ [posted](http://www.infoq.com/news/2011/01/Razor-Extensions "Razor with F# and Other Languages") some info from the ASP.NET team about using F# with the new Razor view engine. It seemed like it should be pretty simple, so I thought I&#8217;d give it a shot. My (very rough) progress so far is available on [GitHub](https://github.com/dahlbyk/FSRazor "dahlbyk/FSRazor - GitHub"). The solution includes a sample project with a simple F# view using expression blocks:
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASP.NET MVC
   - development
+redirect_from: "/blogs/chrismissal/archive/2010/03/10/one-year-of-production-asp-net-mvc.aspx/"
 ---
 Last week marked the one year anniversary our team’s first ASP.NET MVC application in production. We really have two different types of production. Internal and external. While an internal application might get used by 2 to 100 people, our external applications get used by millions. After chatting with some members of the team and looking at the source code from a year ago, I’d like to share some thoughts with you. Let’s take a look back into the past, all the way back to the year 2009.
 

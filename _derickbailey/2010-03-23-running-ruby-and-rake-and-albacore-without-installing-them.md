@@ -12,6 +12,7 @@ categories:
   - Rake
   - Ruby
   - Source Control
+redirect_from: "/blogs/derickbailey/archive/2010/03/23/running-ruby-and-rake-and-albacore-without-installing-them.aspx/"
 ---
 One of the more frequent complaints that I’ve heard about using Ruby and Rake to build .NET systems is that you have to install yet another framework and learn yet another language to be able to use it. In a large team or on a project that involves a significant number of computers, installing the runtime may be a time consuming maintenance problem. I’ve even heard of cases where people are just [not allowed](http://twitter.com/DaveTheNinja/status/10844684005) to install stuff from the internet or from specific places on the internet or whatever. Truthfully, I’ve been very dismissive of this in the past. I’ve just been telling people that they should just get over it and install the tools that get the job done. That’s probably not the best strategy. Instead, I’d like to address the concerns and offer a solution. 
 

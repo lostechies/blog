@@ -15,6 +15,7 @@ categories:
   - Test Automation
   - Testing
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/12/15/a-semi-intelligent-watchr-script-for-rails-and-rspec.aspx/"
 ---
 I&#8217;m using [Watchr](https://github.com/mynyml/watchr) in my current Rails 3 project, instead of Autotest, to run my Cucumber and RSpec tests whenever I save a file. It makes life so much easier than having to manually run them. Yesterday, I decided to put a little more intelligence in my rspec script, and have it run the tests for the file that i&#8217;m working with &#8211; whether it&#8217;s a spec file or a model, controller, or whatever else.
 

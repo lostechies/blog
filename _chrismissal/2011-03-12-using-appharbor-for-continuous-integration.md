@@ -12,6 +12,7 @@ categories:
   - Continuous Integration
   - Deployment
   - git
+redirect_from: "/blogs/chrismissal/archive/2011/03/11/using-appharbor-for-continuous-integration.aspx/"
 ---
 I thought it would be interesting to use [AppHarbor](http://appharbor.com/) as a quick way to get some code with tests under a continuous integration environment. Along with this, if I could also use the AppHarbor deployed web site to serve that file, even better!
 

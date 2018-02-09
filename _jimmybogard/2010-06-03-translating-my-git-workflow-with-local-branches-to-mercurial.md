@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - git
   - Mercurial
+redirect_from: "/blogs/jimmy_bogard/archive/2010/06/02/translating-my-git-workflow-with-local-branches-to-mercurial.aspx/"
 ---
 It took me a while to really settle in to a Git workflow I like to use on a daily basis.&#160; It’s a pretty common workflow, and is centered around local topic branches and rebasing.&#160; It’s not actually much different than the workflow I used with SVN, except that I prefer rebase over merge.&#160; My [typical Git workflow](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/04/30/automapper-git-workflow-dealing-with-bugs-issues.aspx) starts out with:
 

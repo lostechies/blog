@@ -15,6 +15,7 @@ categories:
   - legacy code
   - SOLID
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2009/05/26/anti-patterns-and-worst-practices-you-re-doing-it-wrong.aspx/"
 ---
 [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 0px 0px 0px 10px;border-right-width: 0px" alt="doing-it-wrong" src="//lostechies.com/chrismissal/files/2011/03/doingitwrong_thumb_72CB7849.jpg" width="244" align="right" border="0" height="192" />](//lostechies.com/chrismissal/files/2011/03/doingitwrong_45B68B7B.jpg) When shown ideal code, I think developers understand why it is favorable. When it is regarding <a href="http://en.wikipedia.org/wiki/Separation_of_concerns" target="_blank">Separation of Concerns (SoC)</a> or <a href="/blogs/jason_meridth/archive/2008/03/26/ptom-single-responsibility-principle.aspx" target="_blank">Single Responsibility Principle</a> (<a href="/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx" target="_blank">SRP</a>) the consensus is something along the lines of &ldquo;of course, that makes sense&rdquo;. But not always do these same developers actually practice the techniques or principles. It&rsquo;s always nice to see good code, but I think it&rsquo;s also important to look at bad code from time-to-time.
 

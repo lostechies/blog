@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715804"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/18/adios-netflix-profiles.aspx/"
 ---
 It was a good run.&nbsp; But it looks like your creators are giving you the axe, judging by the email I received today:
 

@@ -12,6 +12,7 @@ categories:
   - ASP.NET
   - ASP.NET MVC
   - Portable Area
+redirect_from: "/blogs/hex/archive/2009/11/03/asp-net-mvc-portable-areas-part-3.aspx/"
 ---
 This is a multi post series on ASP.Net MVC Portable Areas
 

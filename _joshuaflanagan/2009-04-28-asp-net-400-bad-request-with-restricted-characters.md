@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262100433"
 categories:
   - MVC
+redirect_from: "/blogs/joshuaflanagan/archive/2009/04/27/asp-net-400-bad-request-with-restricted-characters.aspx/"
 ---
 Today I had to hunt down a reported defect that said our advanced search functionality was returning a Bad Request error. On initial inspection, I was unable to reproduce the issue. After talking to our product manager, I learned that he was trying to seed the search with the text &ldquo;% %&rdquo;. We have a quick search text box that lets you enter your criteria, and it has some built in rules about which fields it applies the criteria to. If you need more control over the criteria, you can enable the advanced search, and your quick search criteria will automatically be populated in the advanced search page. The way we were doing that was by passing the criteria in the URL, as in: http://localhost/dovetailcrm/contacts/query/**yourbasiccriteria**.
 

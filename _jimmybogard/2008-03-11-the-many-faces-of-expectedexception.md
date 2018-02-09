@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715596"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/10/the-many-faces-of-expectedexception.aspx/"
 ---
 I&#8217;m not a fan of the style most xUnit frameworks suggest for verifying exceptions.&nbsp; After seeing the problems with using an attribute to perform assertions, many frameworks have come up with their own way of their own way of doing it.&nbsp; Outside using a different xUnit framework, you can also perform this verification manually inside your test.&nbsp; It&#8217;s not quite as explicit, but it&#8217;s possible.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089150"
 categories:
   - Agile
+redirect_from: "/blogs/chris_patterson/archive/2007/11/15/agile-fishbowl.aspx/"
 ---
 Earlier in the week, I posted about an introduction to agile development that I gave at work. Afterwards, I talked to several of those that attended and figured out that I left a lot of things out of the presentation. This was partly due to some inadequate preparation on my part and a pretty narrow time constraint. As a result, I presented a lot of information without a sufficient amount of supporting information. I also failed to provide enough clarity as to how these new methods would integrate with our existing processes.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Best Practices
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2009/01/26/ignoring-testing-can-be-explained-but-never-excused.aspx/"
 ---
  <img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 0px 0px 5px 10px;border-right-width: 0px" alt="gears2" src="//lostechies.com/chrismissal/files/2011/03/gears2_722BEA3B.jpg" width="285" align="right" border="0" height="338" />Many individuals that practice software development will tell you the same thing; testing is vital. I&rsquo;ve never worked at a place that &ldquo;requires&rdquo; <a title="Development Cycle" href="http://en.wikipedia.org/wiki/Test-driven_development#Test-Driven_Development_Cycle" target="_blank">automated testing</a>. Any of the testing that we&rsquo;ve automated was put in place as a way for our team to check ourselves. Those who have implemented it have understood its importance, and put something in place to benefit from it. In these cases, something is better is nothing. What I have dealt with at some jobs is testing as a manual process by the developer (and/or supervisors) to run the application and &ldquo;eye-ball&rdquo; the results. This isn&rsquo;t how testing should work, definitely not how automated testing works and how dare you even bring up the term TDD! 
 

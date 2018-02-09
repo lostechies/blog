@@ -12,6 +12,7 @@ categories:
   - Design Principles
   - DRY
   - SOLID
+redirect_from: "/blogs/chrismissal/archive/2009/09/10/using-the-specification-pattern-for-querying.aspx/"
 ---
 The [specification pattern](http://dimecasts.net/Casts/CastDetails/139) is great for adhering to the [Single Responsibility Principle (SRP)](http://en.wikipedia.org/wiki/Single_responsibility_principle). The reason it can be so powerful is that it encapsulates one piece of logic, and nothing more. I&#8217;ve decided to come up with some code that takes advantage of this very easily readable and maintainable code structure.
 

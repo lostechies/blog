@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262046146"
 categories:
   - git
+redirect_from: "/blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git-merge-and-rebase.aspx/"
 ---
 This is the second part of my [Use gitk to understand git](/blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git.aspx) post.
 

@@ -11,6 +11,7 @@ categories:
   - ASP.NET
   - MVC
   - mvccontrib
+redirect_from: "/blogs/hex/archive/2008/04/19/asp-net-mvc-framework-new-version-of-the-mvc-contrib-project-v-0-0-1-101.aspx/"
 ---
 There was a new source code release of the [Asp.Net MVC framework](http://shrinkster.com/x4x) .&nbsp; We just got the MVC Contrib project upgraded to work against the new release.
 

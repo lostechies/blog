@@ -13,6 +13,7 @@ tags:
   - BDD
   - TDD
   - Testing
+redirect_from: "/blogs/derekgreer/archive/2011/03/21/effective-tests-test-first.aspx/"
 ---
 ## Posts In This Series
 

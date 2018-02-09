@@ -12,6 +12,7 @@ categories:
   - Management
   - Pragmatism
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/09/01/knowing-when-to-ask.aspx/"
 ---
 It doesn&#8217;t matter how much experience you have, what your title is, or whether you are considered a leader in the team / project / company. If you don&#8217;t know yourself and when you need to ask questions, you&#8217;re going to be in trouble. You must be able to evaluate your own perspective and whether or not you are stuck down in the weeds or not. 
 

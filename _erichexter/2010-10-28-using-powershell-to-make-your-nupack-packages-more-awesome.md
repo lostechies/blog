@@ -12,6 +12,7 @@ categories:
   - nupack
   - Solution Factory
   - VS2010
+redirect_from: "/blogs/hex/archive/2010/10/28/using-powershell-to-make-your-nupack-packages-more-awesome.aspx/"
 ---
 Yeah.. Its a cheesy title but what can I say. You can file this under “why nupack is not just for open source”.&#160; We are using Nupack to distributed dependencies libraries and for the UI Framework where I work (Dell).&#160; My team is responsible for the UI Framework which builds on top of MVC2 and while we try to be unobtrusive, there are a few spots where the easiest form of integration caused us some pain as far as walking teams through setting up our framework.&#160; That aside, I think this technique is useful outside of my usecase.
 

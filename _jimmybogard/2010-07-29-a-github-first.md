@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265396547"
 categories:
   - git
+redirect_from: "/blogs/jimmy_bogard/archive/2010/07/29/a-github-first.aspx/"
 ---
 Like many [github](https://github.com/) users, I often create forks for projects whenever I want to pull down their code, rather than cloning from the source directly.&#160; This is pretty much the default way of working on github, as the site encourages collaboration through individualized repositories.&#160; On my github page, this is what you’d see for my repositories:
 

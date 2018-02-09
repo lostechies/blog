@@ -10,6 +10,7 @@ categories:
   - Principles
   - Programming
   - PTOM
+redirect_from: "/blogs/rhouston/archive/2008/11/05/pablo-s-topic-of-the-month-november-design-patterns.aspx/"
 ---
 ### Pablo&#8217;s Topic of the Month &#8211; November: Design Patterns
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716102"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/03/17/a-better-model-binder.aspx/"
 ---
 One of the more interesting extension points in ASP.NET MVC are the Model Binders.&#160; Model Binders are tasked with transforming the HTTP Form and Querystring information and coercing real .NET types out of them.&#160; A normal POST is merely a set of string key-value pairs, which isn’t that fun to work with.
 

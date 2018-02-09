@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2010/10/01/it-s-not-goodbye.aspx
 categories:
   - blogging
+redirect_from: "/blogs/joeydotnet/archive/2010/10/01/it-s-not-goodbye.aspx/"
 ---
 Hey there folks,
 

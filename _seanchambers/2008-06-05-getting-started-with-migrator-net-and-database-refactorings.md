@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262070610"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/06/04/getting-started-with-migrator-net-and-database-refactorings.aspx/"
 ---
 <font face="Tahoma" size="2">Database Refactoring is always a pain to be dealt with in any medium-large sized software. There are new tables, columns, primary keys, foreign keys added and removed constantly from a database under development. Some people have a strict plan of creating sql scripts for every change they make in the database. Others have a text file holding a listing of changes to be done on QA and Production machines along with migrating existing data into new structures. Anyway you slice it, It&#8217;s a headache all around and if you ignore it, it will eventually bite you in ass.</font>
 

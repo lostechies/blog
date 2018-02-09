@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - git
   - Powershell
+redirect_from: "/blogs/dahlbyk/archive/2010/12/05/code-review-with-git-patches-and-outlook-via-powershell.aspx/"
 ---
 In the spirit of &#8220;simplest thing that works,&#8221; my team has a rather
   

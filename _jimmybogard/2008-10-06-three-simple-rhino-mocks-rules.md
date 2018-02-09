@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - RhinoMocks
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/10/05/three-simple-rhino-mocks-rules.aspx/"
 ---
 In previous versions of Rhino Mocks, the Record/Replay model was the only way to create and verify mocks.&#160; You would have an area that set up expectations in a record mode, then the replay mode would verify your expectations.&#160; What was really strange about the Record/Replay model was that it didn’t vibe with the “Setup, Exercise, Verify” unit test pattern.&#160; It looked like you had verifications in the middle of your setup, and your verification was just one line of code, “VerifyAll”.&#160; In addition, you had to decide _what kind_ of test double you wanted when you created it.&#160; Last time I checked, there were at least four choices, and I’ll never get any of them straight on what exactly they did differently.
 

@@ -15,6 +15,7 @@ categories:
   - MSDeploy
   - Open Source Software
   - Tools
+redirect_from: "/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx/"
 ---
 </p> 
 

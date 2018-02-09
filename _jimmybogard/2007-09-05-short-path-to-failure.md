@@ -9,6 +9,7 @@ dsq_thread_id:
   - "474749441"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2007/09/05/short-path-to-failure.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/09/short-path-to-failure.html)._
 

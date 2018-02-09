@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/09/13/from-flex-to-silverlight.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/09/13/from-flex-to-silverlight.aspx/"
 ---
 A couple of years ago my company started development on a web product that had designs for a very rich user interface. We started out building a AJAX HTML based application and realized very soon that we were having to work really hard to make HTML and CSS do what we wanted it to do and in many cases it just wasn&#8217;t happening.
 

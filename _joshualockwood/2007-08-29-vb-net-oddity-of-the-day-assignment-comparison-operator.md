@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joshua_lockwood/archive/2007/08/29/vb-net-oddity-of-the-d
 categories:
   - Programming
   - VB.Net
+redirect_from: "/blogs/joshua_lockwood/archive/2007/08/29/vb-net-oddity-of-the-day-assignment-comparison-operator.aspx/"
 ---
 On my current project I&#8217;m forced to code in VB.Net.&nbsp; Normally I&#8217;m pretty open to other languages, but VB.Net is irritating (more so than VB6 in my opinion).&nbsp; The language syntax&nbsp;is riddled with ambiguity (at least for a c-type guy like myself) and moving from c# to VB can be confusing.
 

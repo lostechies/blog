@@ -13,6 +13,7 @@ categories:
   - Refactoring
   - Tools and Vendors
   - Vim
+redirect_from: "/blogs/derickbailey/archive/2010/03/24/eliminating-repetitious-coding-with-vim-viemu-and-macros.aspx/"
 ---
 Anyone that has been [following me on twitter](http://twitter.com/derickbailey) recently is probably aware that I’ve been trying to learn [Vim](http://www.vim.org/) and [ViEmu for Visual Studio](http://www.viemu.com/). It’s been a very slow, somewhat painful learning process, but I think it is finally starting to pay off. I won’t bore you with most of the details as you can find plenty of stories on people’s converting to vim, around the web. What I did want to share was that I just learned how to cut down on serious code repetition using vim’s macros.
 

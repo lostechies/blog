@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/03/19/the-architect-sketch.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/03/19/the-architect-sketch.aspx/"
 ---
 While this wasn&#8217;t targeted at Software Developers or the famed Software Architect, there are a frightening number of parallels.&nbsp; Oh, and it&#8217;s good for a laugh.. 😉
 

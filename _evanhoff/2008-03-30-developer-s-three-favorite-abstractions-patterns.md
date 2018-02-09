@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/03/30/developer-s-three-favorite-abstractions-patterns.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/03/30/developer-s-three-favorite-abstractions-patterns.aspx/"
 ---
 These might not actually be the top 3, but I know they are going to be pretty close for most people:
 

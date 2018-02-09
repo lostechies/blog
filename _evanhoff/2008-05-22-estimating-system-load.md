@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/05/22/estimating-system-load.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/05/22/estimating-system-load.aspx/"
 ---
 One of the initial steps that every non-trivial project should go through revolves around determining system usage requirements.
 

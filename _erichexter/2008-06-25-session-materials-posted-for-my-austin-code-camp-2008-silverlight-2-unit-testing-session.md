@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1145463780"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2008/06/24/session-materials-posted-for-my-austin-code-camp-2008-silverlight-2-unit-testing-session.aspx/"
 ---
 &nbsp;
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715971"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/17/where-tdd-fails-for-me.aspx/"
 ---
 TDD is by far the sharpest tool in my belt.&#160; The simplicity of client-driven design combined with the safety net of unit tests allow me to build software at a remarkable constant pace.&#160; At the edges of most of the applications I’ve worked on are areas where TDD has completely fallen flat on its face (for me).&#160; It’s a little disheartening when these areas are always around frameworks that I can’t change.&#160; These are areas where adding unit tests provides coverage, but completely fails in the “tests as documentation” category.&#160; Or, it’s in an area where testing is difficult or impossible, regardless of the available tools at your disposal.
 

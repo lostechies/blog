@@ -11,6 +11,7 @@ categories:
   - BDD
   - Brownfield
   - TDD
+redirect_from: "/blogs/rssvihla/archive/2009/08/14/hero-mode-refactoring-aka-enemy-of-brown-field-development.aspx/"
 ---
 What do I mean by “Hero Mode Refactoring”?&#160; We’ve all worked with code that wasn’t easily made testable. Most of the time we see a big ball of mud and have no idea where to begin. Sometimes however we have an epiphany, a \_great\_idea_ , a “cold fusion” moment (that ends up being poignant in so many ways).&#160; 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716048"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/01/29/automapper-mailing-list-created.aspx/"
 ---
 Since the one AutoMapper blog post comment section is a terrible place to ask and answer questions, I created an AutoMapper-users Google Group:
 

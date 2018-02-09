@@ -11,6 +11,7 @@ categories:
   - ASPdotNET
   - 'C#'
   - MVC
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/15/abusing-using-statements.aspx/"
 ---
 I&#8217;ve always thought that the [using statement](http://msdn2.microsoft.com/en-us/library/yh598w02.aspx) was one of the most useful features included in C#.&nbsp; It&#8217;s easy to use:
 

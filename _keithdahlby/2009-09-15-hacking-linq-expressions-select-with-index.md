@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Hacking LINQ
   - LINQ
+redirect_from: "/blogs/dahlbyk/archive/2009/09/15/hacking-linq-expressions-select-with-index.aspx/"
 ---
 First, a point of clarification: I use LINQ Expressions to mean
   

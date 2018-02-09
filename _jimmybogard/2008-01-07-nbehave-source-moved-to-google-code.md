@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266521787"
 categories:
   - NBehave
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/07/nbehave-source-moved-to-google-code.aspx/"
 ---
 Well, we&#8217;re fed up with it.&nbsp; [CodePlex](http://codeplex.com/) is&nbsp;a great home for everything&#8230;except source control.&nbsp; We&#8217;ve decided to keep all things project related (wiki, releases, discussions, etc.) on CodePlex, but move our source to [Google Code](http://code.google.com/).
 

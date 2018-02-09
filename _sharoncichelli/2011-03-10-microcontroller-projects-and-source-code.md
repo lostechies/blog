@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Arduino
   - electronics
+redirect_from: "/blogs/sharoncichelli/archive/2011/03/09/microcontroller-projects-and-source-code.aspx/"
 ---
 Welcome, [Ignite/Dorkbot Science Fair](http://dorkbot.org/dorkbotaustin/2011/03/dorkbot-28-sxsw-2011-science-fair-pesenters/) Party Goers. Here are details on the two projects I had with me at the Science Fair.
 

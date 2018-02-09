@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joe_ocampo/archive/2007/10/05/off-to-the-alt-net-conference.aspx
 categories:
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/05/off-to-the-alt-net-conference.aspx/"
 ---
 I am really excited about the <a href="http://www.altnetconf.com/" target="_blank">Alt.Net conference</a> this weekend.&nbsp; If anything it will give me a chance to meet a lot of&nbsp;my blog&nbsp;roll in person.&nbsp; 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715951"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/04/continuous-integration-tip-of-the-day.aspx/"
 ---
 We wasted quite a bit of time not following this rule today:
 

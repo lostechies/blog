@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - parsing
   - regex
+redirect_from: "/blogs/chad_myers/archive/2010/11/19/parsing-a-url-with-a-regex.aspx/"
 ---
 If that title didn’t strike you dead with fear, then you’ve never attempted this impossible task before. I consider it right up there with finding [Shangri-la](http://en.wikipedia.org/wiki/Shangri-La),&#160; [Atlantis](http://en.wikipedia.org/wiki/Atlantis),&#160; [Z](http://en.wikipedia.org/wiki/Lost_City_of_Z), or [El Dorado](http://en.wikipedia.org/wiki/El_Dorado).
 

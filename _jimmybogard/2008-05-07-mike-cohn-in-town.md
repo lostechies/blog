@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715664"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/07/mike-cohn-in-town.aspx/"
 ---
 [Mike Cohn](http://blog.mountaingoatsoftware.com/), author of [User Stories Applied](http://www.amazon.com/User-Stories-Applied-Development-Addison-Wesley/dp/0321205685) and [Agile Estimation and Planning](http://www.amazon.com/Agile-Estimating-Planning-Robert-Martin/dp/0131479415), is speaking tomorrow night as a part of [Agile Austin&#8217;s](http://agileaustin.org/) Distinguished Speaker Series.&nbsp; The topic is [&#8220;Succeeding with Agile: A Guide to Transitioning&#8221;](http://mikecohnpresentation.eventbrite.com/), with the description:
 

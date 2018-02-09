@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716039"
 categories:
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2009/01/11/enabling-success-with-opinionated-architecture.aspx/"
 ---
 One of my pet peeve questions I often see on various tech mailing lists is “How can I prevent situation XYZ”.&#160; In one recent case, it was “How can I prevent UI calls to mutable methods in the domain?”&#160; The specific situation is one where I have two methods, with the same name, but in different layers:
 

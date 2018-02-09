@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - altnetconf
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/11/30/bdd-macro-and-template-usage-screencast.aspx/"
 ---
 What timing I just finished reading <a href="http://codebetter.com/blogs/jean-paul_boodhoo/archive/2007/11/29/getting-started-with-bdd-style-context-specification-base-na.aspx" target="_blank">JP&#8217;s blog</a> about how he paired with <a href="http://codebetter.com/blogs/scott.bellware/" target="_blank">Scott Bellware</a> and modified his Macro for BDD.&nbsp; Well, while they were busy doing that I decided to make a <a href="http://screencast.lostechies.com/screencasts/agilejoe/bdd_macro_fun/Joe_Ocampo_BDD_Macro_Fun.html" target="_blank">screencast</a> on some modifications I did to JP&#8217;s initial macro.&nbsp; I extended his macro in concert with some ReSharper templates I use to show just how to take advantage of BDD.&nbsp; Funny thing is I extended it to do the same thing he and Scott did but I added a little flare to it 🙂&nbsp; Take a look at the screen cast to see what I mean.
 

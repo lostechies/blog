@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716020"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/12/18/why-we-need-named-parameters.aspx/"
 ---
 [C# 4.0](http://code.msdn.microsoft.com/csharpfuture) brings the idea of named parameters to C#.&#160; While optional/default arguments are of questionable value (this is from my VB.NET days), named parameters can really clear up the meaning of a method call.&#160; We’re already faking named parameters, as seen here in the ASP.NET MVC codebase:
 

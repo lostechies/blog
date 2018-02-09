@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113226"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joshuaflanagan/archive/2009/12/19/readable-regular-expressions-revisited.aspx/"
 ---
 Many, many years ago (internet time), I proposed a <a href="http://flimflan.com/blog/ReadableRegularExpressions.aspx" target="_blank">fluent interface for composing regular expressions</a>. People either loved the idea or hated it (or thought it was just ok). The intention was to try and tackle the opaqueness of regular expressions that might be embedded in your otherwise familiar C# source code.
 

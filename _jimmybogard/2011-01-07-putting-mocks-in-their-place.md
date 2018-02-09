@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716630"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2011/01/06/putting-mocks-in-their-place.aspx/"
 ---
 Awhile back, I talked about [3 simple rules for Rhino Mocks](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/10/05/three-simple-rhino-mocks-rules.aspx):
 

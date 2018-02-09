@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265688334"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2010/08/26/database-indexes-are-your-friend.aspx/"
 ---
 I guess I assumed that creating a foreign key constraint would automatically create a non-clustered index.&#160; I mean, a primary key _is_ a clustered index, why wouldn’t a foreign key also create an index?
 

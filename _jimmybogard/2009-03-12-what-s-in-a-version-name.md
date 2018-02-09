@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265778961"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2009/03/11/what-s-in-a-version-name.aspx/"
 ---
 The best AutoMapper feature request I’ve received so far is one I got at the recent ALT.NET conference:
 

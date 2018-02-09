@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055758"
 categories:
   - MonoTouch
+redirect_from: "/blogs/johnteague/archive/2010/06/28/installing-monotouch.aspx/"
 ---
 I trying out MonoTouch for a few sample apps.&#160; I’m going to log my travails as I go.&#160; I’ve done a few sample Objective-C apps as well, so I should be able to do a compare and contrast between the two as well.&#160; Using Objective-C is really not too bad, but getting used to XCode was really frustrating.&#160; I’m hoping the general development experience will be closer to what I’m accustomed to.
 

@@ -14,6 +14,7 @@ categories:
   - MVC
   - mvccontrib
   - Portable Area
+redirect_from: "/blogs/hex/archive/2009/11/02/asp-net-mvc-portable-areas-part-2.aspx/"
 ---
 # Sample Portable Area
 

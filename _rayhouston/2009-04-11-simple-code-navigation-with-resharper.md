@@ -9,6 +9,7 @@ categories:
   - .NET
   - Resharper
   - Tools
+redirect_from: "/blogs/rhouston/archive/2009/04/10/simple-code-navigation-with-resharper.aspx/"
 ---
 [Here&#8217;s a quick 5 minute screen cast](http://screencasts.lostechies.com/screencasts/rhouston/NavWithResharper/NavWithResharper.htm) that demonstrates how you can use ReSharper to get where you want to be in your code. If you haven&#8217;t tried ReSharper yet, I highly recommend that you download the free trial and give it a spin.
 

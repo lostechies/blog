@@ -9,6 +9,7 @@ dsq_thread_id:
   - "492415312"
 categories:
   - development
+redirect_from: "/blogs/sean_chambers/archive/2007/10/14/avoiding-development-disasters-wtf.aspx/"
 ---
 At the moment we are between feedings for Aidan and all is quiet at the moment. I am trying to catch up on my rss feeds and came across a really good post on Worse Than Failure title &#8220;<A class="" href="http://worsethanfailure.com/Articles/Avoiding-Development-Disasters.aspx" target="_blank">Avoiding Development Disasters</A>&#8220;
 

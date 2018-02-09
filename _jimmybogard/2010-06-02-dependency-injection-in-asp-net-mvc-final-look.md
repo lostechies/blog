@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - DependencyInjection
+redirect_from: "/blogs/jimmy_bogard/archive/2010/06/01/dependency-injection-in-asp-net-mvc-final-look.aspx/"
 ---
 Other posts in this series:
 

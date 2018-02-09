@@ -9,6 +9,7 @@ categories:
   - JavaScript
   - jscript
   - scripting
+redirect_from: "/blogs/joshua_lockwood/archive/2007/03/31/ugh-fun-with-javascript-part-0.aspx/"
 ---
 I was working on using javascript as a system scripting tool using wscript.&nbsp; Here&#8217;s a quick summary of highlights:
 

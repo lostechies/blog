@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265526633"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/06/15/choosing-between-constants-or-static-fields.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/choosing-between-constants-or-static.html)._
 

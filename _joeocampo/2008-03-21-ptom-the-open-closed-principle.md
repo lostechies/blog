@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088470"
 categories:
   - PTOM
+redirect_from: "/blogs/joe_ocampo/archive/2008/03/21/ptom-the-open-closed-principle.aspx/"
 ---
 The open closed principle is one of the oldest principles of Object Oriented Design. I won’t bore you with the history since you can find countless articles out on the net. But if you want a really comprehensive read please checkout Robert Martin’s excellent write up on the subject. 
 

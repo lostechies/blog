@@ -11,6 +11,7 @@ categories:
   - git
   - Ruby
   - Sinatra
+redirect_from: "/blogs/joshuaflanagan/archive/2010/10/26/extending-github-issues.aspx/"
 ---
 {% raw %}
 ### The problem

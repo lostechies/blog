@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Behave#'
   - NBehave
+redirect_from: "/blogs/jimmy_bogard/archive/2007/09/04/authoring-stories-with-nbehave-0-3.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/09/authoring-stories-with-nbehave-03.html)._
 

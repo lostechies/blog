@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Misc
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/09/26/organizing-with-solution-folders.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/09/organizing-with-solution-folders.html)._
 

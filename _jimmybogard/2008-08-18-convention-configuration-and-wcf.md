@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266052352"
 categories:
   - WCF
+redirect_from: "/blogs/jimmy_bogard/archive/2008/08/18/convention-configuration-and-wcf.aspx/"
 ---
 Convention is something that&#8217;s fairly lacking in WCF.&nbsp; Here&#8217;s what I&#8217;d like to do:
 

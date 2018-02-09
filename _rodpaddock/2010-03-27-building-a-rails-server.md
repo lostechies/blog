@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263003350"
 categories:
   - Uncategorized
+redirect_from: "/blogs/rodpaddock/archive/2010/03/27/building-a-rails-server.aspx/"
 ---
 Fellow Los Techie ****[**John Petersen**](/blogs/johnvpetersen/default.aspx "http://www.lostechies.com/blogs/johnvpetersen/default.aspx") took the famous (or infamous) [**Nerd Dinner**](http://www.nerddinner.com/ "http://www.nerddinner.com/") ****application created by [**Scott Hanselman**](http://www.hanselman.com/blog/) and ported it to the ****[**Ruby on Rails**](http://rubyonrails.org/ "http://rubyonrails.org/") platform. When John was developing this, I recommended we actually put it online and proceeded to purchase the domain name [**www.railsdinner.com**](http://www.railsdinner.com)
 

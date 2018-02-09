@@ -11,6 +11,7 @@ categories:
   - git
   - Source Control
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2010/05/14/managing-bug-fixes-across-multiple-releases-with-git-cherry-pick.aspx/"
 ---
 One of the problems I’ve faced in my software development career is managing bug fixes across multiple releases. If there are multiple versions of the software in development, test, production, out at client sites and deployed to internal servers, it can be difficult to keep up with all of the versions. If a bug is found in one version and it’s verified that the same bug exists in the other versions, then the patch for that bug has to be applied to all of the affected versions. In the past, I’ve manually handled the updating of the various versions in various ways: creating patch files, merging individual revisions across subversion branches, copy & paste code between multiple checkouts, etc. Yesterday, I found a new way of handling this and it seemed to be much easier than the things that I have done in the past: [git cherry-pick](http://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html).
 

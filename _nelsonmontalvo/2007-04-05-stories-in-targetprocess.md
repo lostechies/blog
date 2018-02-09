@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/04/04/stories-in-targetprocess.aspx
 categories:
   - Agile
+redirect_from: "/blogs/nelson_montalvo/archive/2007/04/04/stories-in-targetprocess.aspx/"
 ---
 <a href="http://www.targetprocess.com" target="_blank">TargetProcess</a> is fantastic tool for managing projects using <a href="http://www.targetprocess.com/agile_tour_20/iterative_development.asp" target="_blank">Agile</a> techniques. Gone are the days of 6 month Gantt charts, not truly knowing where you&#8217;re at on a daily basis and less effective communication of status.
 

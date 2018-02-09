@@ -9,6 +9,7 @@ dsq_thread_id:
   - "425624157"
 categories:
   - Uncategorized
+redirect_from: "/blogs/rssvihla/archive/2009/05/21/glad-to-be-here.aspx/"
 ---
 Hi, my name is Ryan Svihla and I’m the newest member of Los Techies and I’d like to provide some background for most of you wondering “who is this guy”.
 

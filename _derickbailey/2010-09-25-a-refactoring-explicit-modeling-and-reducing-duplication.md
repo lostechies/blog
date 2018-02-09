@@ -12,6 +12,7 @@ categories:
   - 'C#'
   - Principles and Patterns
   - Refactoring
+redirect_from: "/blogs/derickbailey/archive/2010/09/24/a-refactoring-explicit-modeling-and-reducing-duplication.aspx/"
 ---
 A coworker showed me a method that had a series of guard clauses at the top and a series of sequential steps that had to be processed after that. All of the guard clauses and sequential steps were executed the same way – call a method, get the result, check the result status, return if errors have occurred. 
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - NHibernate
   - Patterns
+redirect_from: "/blogs/jimmy_bogard/archive/2008/08/26/strategies-and-discriminators-in-nhibernate.aspx/"
 ---
 I recently [posted about enumeration classes](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/08/12/enumeration-classes.aspx), and how I like to use them as a sort of &#8220;Enumerations with behavior&#8221;.&nbsp; Not every enumeration should be replaced with a class, but that pattern helps quite a bit when I find a lot of switch statements concerning my enumeration.&nbsp; Often, these strategies come from data.&nbsp; For example, I recently had a situation where individual Product instances had different PricingStrategies.&nbsp; Each PricingStrategy depended on specific rules around Product data, so the Product data owners would decide what PricingStrategy each Product was eligible for.
 

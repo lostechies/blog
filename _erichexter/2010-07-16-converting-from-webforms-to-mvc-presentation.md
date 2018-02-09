@@ -13,6 +13,7 @@ categories:
   - ASP.NET MVC
   - MVC
   - Usergroup
+redirect_from: "/blogs/hex/archive/2010/07/16/converting-from-webforms-to-mvc-presentation.aspx/"
 ---
 I just posted the video from the <a target="_blank" href="http://c4mvc.net">Community for MVC</a> presentation by <a target="_blank" href="http://www.eworldui.net/blog/">Matt Hawley</a> about how <a target="_blank" href="http://www.codeplex.com">Codeplex</a> has been converting the site from ASP.Net Webforms to ASP.Net MVC .
 

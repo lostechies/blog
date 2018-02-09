@@ -11,6 +11,7 @@ categories:
   - Rails
   - Ruby
   - rvm
+redirect_from: "/blogs/joeydotnet/archive/2010/07/19/rvm-bash-scripting-and-rails-3-edge.aspx/"
 ---
 I&#8217;ve only begun to tap into the power of bash scripting, but I had a need to automate setting up a Rails 3 app on edge, using [RVM](http://rvm.beginrescueend.com/) like I want. &nbsp;So I decided to whip up a very simple script that does the following for the name of app you&#8217;re creating:
 

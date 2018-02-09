@@ -13,6 +13,7 @@ categories:
   - Tools and Vendors
   - Vim
   - Visual Studio
+redirect_from: "/blogs/derickbailey/archive/2010/05/05/trying-to-get-vim-intellisense-working-help.aspx/"
 ---
 Setup: I’m running Windows 7 x64 with gVim installed. I have Visual Studio 2008 and 2010 installed, and am trying to get [vim intellisense](http://insenvim.sourceforge.net/) up and running. This plugin provides intellisense features for languages such as C#, C++, Java, and much more. Unfortunately, I haven’t been able to get it working yet. Here’s what I have done to try, so far:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "298482695"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2007/09/26/driving-and-refining-ubiquitous-language.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/09/driving-and-refining-ubiquitous.html)._
 

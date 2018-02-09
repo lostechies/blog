@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055672"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/06/10/ruby-and-rake-as-an-executable.aspx/"
 ---
 I&#8217;ve been trying for months to get my partner in [crime](http://www.nextleveltechnology.com), [Stephen Balkum](http://www.stephenbalkum.com), to switch to Rake as our default build system.&nbsp; We&#8217;ve been using Nant FOREVER and while it works, I really hate writing Nant scripts.
 

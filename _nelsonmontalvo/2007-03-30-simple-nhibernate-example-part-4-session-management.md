@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/simple-nhibernate-example-part-4-session-management.aspx
 categories:
   - NHibernate
+redirect_from: "/blogs/nelson_montalvo/archive/2007/03/30/simple-nhibernate-example-part-4-session-management.aspx/"
 ---
 Before continuing with the implementation, let&#8217;s talk briefly about NHibernate session management. This will be a short discussion, as you can get more details from chapter 8 of the book, <a href="http://www.amazon.com/Hibernate-Action-Christian-Bauer/dp/193239415X/ref=pd_bbs_sr_1/104-7167080-3547947?ie=UTF8&s=books&qid=1174402169&sr=8-1" target="_blank">Hibernate In Action</a>. Also, please review the article, <a href="http://www.codeproject.com/aspnet/NHibernateBestPractices.asp" target="_blank">NHibernate Best Practices</a>, for further explanation of the Session In View.
 

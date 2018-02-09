@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - AutoMapper
   - Conventions
+redirect_from: "/blogs/joshuaflanagan/archive/2010/03/19/teaching-automapper-about-our-conventions.aspx/"
 ---
 I often need to send data from my entities to the client in JSON format to enable rich AJAX functionality. It isn’t practical to serialize the entities directly, so they are first flattened to a data transfer object (DTO) before serialization. For example, the Case entity has a reference to a Contact entity, which has a FirstName property. On the Case DTO, I might have a ContactFirstName property to hold that value. We use <a href="http://www.codeplex.com/AutoMapper" target="_blank">AutoMapper</a> to handle the chore of populating the properties of the DTO using values from the original entity.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "271919700"
 categories:
   - VSTS
+redirect_from: "/blogs/jimmy_bogard/archive/2007/05/17/project-management-with-microsoft-office-sharepoint-server.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/project-management-with-microsoft.html)._
 

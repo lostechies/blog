@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ALT.NET
   - LiveMeeting
+redirect_from: "/blogs/chad_myers/archive/2008/11/17/announcing-alt-net-online-open-meeting.aspx/"
 ---
 For a few months now, [Zachariah Young](http://www.zachariahyoung.com/), various other folks, and I have been meeting online via Skype+SharedView or LiveMeeting (depending on the size of the crowd) every Wednesday night to discuss various .NET and general technology-related issues. We met at the [Agile Austin Open Spaces 2008](http://openspace.agileaustin.org/index.php?title=Agile_Open_Space_Austin) conference where I made the foolish statement, out loud, “If anyone wants to remote pair and learn some of this stuff, I’ll pair with you, just name the time and IP address” (or something like that).&#160; Zach took me up on that offer and the rest was history. 
 

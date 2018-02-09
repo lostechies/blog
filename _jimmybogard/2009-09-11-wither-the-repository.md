@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716311"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2009/09/10/wither-the-repository.aspx/"
 ---
 Looking at the different Repository pattern implementations, one thing really surprised me – how far off these implementations are from the original Fowler definition of the Repository.&#160; Instead, we see a transformation to the examples in the Evans description of Repository.&#160; Fowler’s definition for a Repository is:
 

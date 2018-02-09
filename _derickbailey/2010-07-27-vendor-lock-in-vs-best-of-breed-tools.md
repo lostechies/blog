@@ -11,6 +11,7 @@ categories:
   - Continuous Improvement
   - Pragmatism
   - Tools and Vendors
+redirect_from: "/blogs/derickbailey/archive/2010/07/27/vendor-lock-in-vs-best-of-breed-tools.aspx/"
 ---
 I posted the bulk of this on the Albacore group as a reason for my wanting to take Albacore down to it’s “core” as a suite of build related tasks (which I talked about in the [Preview1 post](http://www.lostechies.com/blogs/derickbailey/archive/2010/07/14/albacore-v0-2-0-preview-1-is-available.aspx)). However, I thought the information was enough to warrant it’s own post on my blog… so here it is: why I think best-of-breed tools that you tie together yourself tend to be better than the all-in-one vendor lock-in approach.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716442"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2010/03/11/no-silver-domain-modeling-bullets.aspx/"
 ---
 This past week, I attended a presentation on Object-Role Modeling (with the unfortunate acronym ORM) and its application to DDD modeling".&#160; The talk itself was interesting, but more interesting were some of the questions from the audience.&#160; The gist of the tool is to provide a better modeling tool for domain modeling than traditional ERM tools or UML class diagrams.&#160; ORM is a tool for fact-based analysis of informational models, information being data plus semantics.&#160; I’m not an ORM expert, but there are plenty of resources on the web.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262352391"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/15/refactoring-day-15-remove-duplication.aspx/"
 ---
 A day late on this one. Sorry about that!
 

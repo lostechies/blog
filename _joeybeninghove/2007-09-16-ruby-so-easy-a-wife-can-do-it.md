@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joeydotnet/archive/2007/09/15/ruby-so-easy-a-wife-can-do-
 categories:
   - Personal
   - Ruby
+redirect_from: "/blogs/joeydotnet/archive/2007/09/15/ruby-so-easy-a-wife-can-do-it.aspx/"
 ---
 I just have to share this.&nbsp; So my wife asks me why I&#8217;m learning this new thing called Ruby.&nbsp; She&#8217;s usually not interested in the specifics of the programming languages I use.&nbsp; (A few years ago, she asked me, &#8220;what&#8217;s that C-Pound book you&#8217;re reading?&#8221;&nbsp; 🙂
 

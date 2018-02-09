@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089487"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2008/08/26/need-to-get-something-off-my-chest.aspx/"
 ---
 For the most part I have been out of pocket from the .Net community over the last 6 months due to new obligations I have taken on. These new obligations have given me the opportunity to explore other communities outside of .Net such as Java, Python and Ruby. All these groups have their quirks but the some things they do have is an expressive community that welcomes innovation and alternative view points.&nbsp; Where as the .Net community I feel my view points and belief structure are contrary to the majority, so I don&#8217;t \*feel\* part of community so much as I \*feel\* a part of a small rebel faction (which is kind of thrilling in a StarWars kind of way).
 

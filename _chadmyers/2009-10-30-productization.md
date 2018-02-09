@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Advice
   - Deployment
+redirect_from: "/blogs/chad_myers/archive/2009/10/30/productization.aspx/"
 ---
 I need some ‘wisdom of the crowd’ here.
 

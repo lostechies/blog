@@ -16,6 +16,7 @@ categories:
   - Philosophy of Software
   - Principles and Patterns
   - Refactoring
+redirect_from: "/blogs/derickbailey/archive/2008/10/20/dependency-inversion-abstraction-does-not-mean-interface.aspx/"
 ---
 A coworker recently asked if we should always abstract every object into an interface in order to fulfill the <a href="http://en.wikipedia.org/wiki/Dependency_inversion_principle" target="_blank">Dependency Inversion Principle</a> (DIP). The question stunned me at first, honestly. I knew in my head that this was a bad idea &#8211; abstracting into interfaces for the sake of abstraction leads down the path of needless complexity. However, I wasn&#8217;t able to clearly answer his question with specific examples of when you would not want to do this, at the time. I&#8217;ve been thinking about this for a few days now and I think I have a good, albeit very long winded, answer.
 

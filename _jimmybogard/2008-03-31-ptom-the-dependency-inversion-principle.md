@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715638"
 categories:
   - PTOM
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/31/ptom-the-dependency-inversion-principle.aspx/"
 ---
 The Dependency Inversion Principle, the last of the Uncle Bob &#8220;SOLID&#8221; object-oriented design principles, can be thought of the natural progression of the Liskov Substitution Principle, the Open Closed Principle and even the Single Responsibility Principle.&nbsp; This post is the latest in the set of SOLID posts:
 

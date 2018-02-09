@@ -12,6 +12,7 @@ categories:
   - How To
   - Silverlight
   - Styles and Templates
+redirect_from: "/blogs/gabrielschenker/archive/2010/05/27/working-with-code-based-templates-in-silverlight.aspx/"
 ---
 ## Introduction
 

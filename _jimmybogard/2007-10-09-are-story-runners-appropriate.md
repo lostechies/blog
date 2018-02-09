@@ -9,6 +9,7 @@ dsq_thread_id:
   - "279553072"
 categories:
   - NBehave
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/09/are-story-runners-appropriate.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/are-story-runners-appropriate.html)._
 

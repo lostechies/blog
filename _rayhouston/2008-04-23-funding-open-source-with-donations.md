@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/04/22/funding-open-source-with-donations.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/04/22/funding-open-source-with-donations.aspx/"
 ---
 Read this post! I&#8217;m challenging you to make a difference.
 

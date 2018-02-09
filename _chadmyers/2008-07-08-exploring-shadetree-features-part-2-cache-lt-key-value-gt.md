@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - ShadeTree
+redirect_from: "/blogs/chad_myers/archive/2008/07/07/exploring-shadetree-features-part-2-cache-lt-key-value-gt.aspx/"
 ---
 Or, as I like to call it: "That stupid dictionary thing we&#8217;ve all written a thousand times but were too lazy to component-ize for reuse"
 

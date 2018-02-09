@@ -9,6 +9,7 @@ dsq_thread_id:
   - "270985752"
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottdensmore/archive/2009/09/24/orlando-net-user-group-talk-12-practices-to-be-a-better-developer.aspx/"
 ---
 Last week I gave a talk at the Orlando .NET User Group on Practical Software Craftsmanship &#8211; 12 Practices to be a Better Developer. Most of these 12 are just things I have learned over my years of development. I promised I would put links to the slides and resources from my talk. They are in no particular order and I don&#8217;t claim they are nothing more than fortune cookie wisdom :D. I will try and write more about these in the future.
 

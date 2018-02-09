@@ -9,6 +9,7 @@ dsq_thread_id:
   - "272602458"
 categories:
   - Continuous Improvement
+redirect_from: "/blogs/chrismissal/archive/2009/09/02/i-m-a-lucky-programmer-too.aspx/"
 ---
 &nbsp;
 

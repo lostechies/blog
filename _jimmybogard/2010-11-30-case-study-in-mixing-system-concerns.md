@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716601"
 categories:
   - Architecture
+redirect_from: "/blogs/jimmy_bogard/archive/2010/11/30/case-study-in-mixing-system-concerns.aspx/"
 ---
 For the vast majority of systems I’ve been involved with, transaction isolation levels were never something I really had to worry about too much.&#160; The number of reads on these systems overwhelmingly outnumbered the number of writes.&#160; But every once in a while, you work on a system where it’s actually the opposite, and you have just about an equal number of writes as reads.
 

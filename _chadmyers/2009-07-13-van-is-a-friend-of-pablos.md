@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ALT.NET
   - VAN
+redirect_from: "/blogs/chad_myers/archive/2009/07/13/van-is-a-friend-of-pablos.aspx/"
 ---
 In case you haven’t noticed, the VAN logo now appears in our “Friends of Pablo” section. VAN is really taking off!
 

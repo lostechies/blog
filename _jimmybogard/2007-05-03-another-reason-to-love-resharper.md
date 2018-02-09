@@ -9,6 +9,7 @@ dsq_thread_id:
   - "301825537"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/05/03/another-reason-to-love-resharper.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/another-reason-to-love-resharper.html)._
 

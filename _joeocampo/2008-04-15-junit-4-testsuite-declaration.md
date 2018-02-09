@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Java
   - JUnit
+redirect_from: "/blogs/joe_ocampo/archive/2008/04/14/junit-4-testsuite-declaration.aspx/"
 ---
 This is mainly for my own reference but if it helps people out there great!&nbsp; The documentation on this aspect of JUnit is very poor.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Humor
   - Sad
+redirect_from: "/blogs/chad_myers/archive/2009/01/16/webforms-myths-busted.aspx/"
 ---
 This is a comedy goldmine that I wanted to share with you.
 

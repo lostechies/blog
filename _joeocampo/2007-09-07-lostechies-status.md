@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joe_ocampo/archive/2007/09/07/lostechies-status.aspx
 categories:
   - LosTechies
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/07/lostechies-status.aspx/"
 ---
 To all readers,
 

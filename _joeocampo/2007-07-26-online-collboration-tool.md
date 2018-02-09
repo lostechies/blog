@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joe_ocampo/archive/2007/07/25/online-collboration-tool.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/07/25/online-collboration-tool.aspx/"
 ---
 I stumbled across this interesting tool called <a href="http://thinkature.com/" target="_blank">Thinkature</a> for collaborating online.&nbsp; Seems to&nbsp;very&nbsp;promising however the UI seems to be&nbsp;unresponsive at times.&nbsp; Interesting concept&nbsp;since you should be able to brain storm with colleagues on a project and persist the workspace for later viewing.&nbsp;&nbsp;
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "272142634"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2009/02/27/my-alt-net-topics-proposals-i-need-a-proxy-for-tonight.aspx/"
 ---
 &#160;
 

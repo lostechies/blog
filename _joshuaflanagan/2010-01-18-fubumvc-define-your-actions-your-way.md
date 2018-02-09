@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113193"
 categories:
   - FubuMVC
+redirect_from: "/blogs/joshuaflanagan/archive/2010/01/18/fubumvc-define-your-actions-your-way.aspx/"
 ---
 In this post I’m going to try and demonstrate the flexibility that <a href="http://fubumvc.com/" target="_blank">FubuMVC</a> allows in how you build your web applications. While FubuMVC is opinionated about some things (lean on your container as much as possible), it mostly gets out of your way to let you work the way you want. We know how valuable it can be to work with an opinionated framework that allows you to move quickly as long as you follow its conventions, but we also know how painful it can be when you find yourself fighting established conventions at every step. With FubuMVC, _you_ define the conventions and build your own opinionated framework, on top of which you build your applications. But don’t let the sound of building your own framework scare you off, as I’m going to demonstrate how little effort that requires.
 

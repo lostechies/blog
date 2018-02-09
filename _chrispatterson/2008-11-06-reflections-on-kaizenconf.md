@@ -9,6 +9,7 @@ dsq_thread_id:
   - "276369973"
 categories:
   - ALTdotNET
+redirect_from: "/blogs/chris_patterson/archive/2008/11/05/reflections-on-kaizenconf.aspx/"
 ---
 Last weekend, Dru Sellers and I (along with 100 or so others) attended the [Continuous Improvement in Software Development](http://www.kaizenconf.com/) (referred to as KaizenConf, likely [due to the URL](http://www.kaizenconf.com/)) conference in Austin, TX. We left Tulsa late Friday night after taking my girls trick-or-treating for Halloween and drove all night arriving in Austin around 5:30 AM. After a quick nap and a shower, we went to the first day of the conference.
 

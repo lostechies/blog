@@ -14,6 +14,7 @@ categories:
   - Lean Systems
   - Philosophy of Software
   - Standardized Work
+redirect_from: "/blogs/derickbailey/archive/2010/02/03/can-pdca-help-us-improve-our-test-first-development-efforts.aspx/"
 ---
 I was thinking about target conditions and the [Plan-Do-Check-Act (PDCA)](http://en.wikipedia.org/wiki/PDCA) cycle earlier today when a code related issue that I was having popped into head and decided to meld with the current string of thoughts. The resulting thought was leading me toward wondering if a PDCA approach to test-first development (TDD/BDD/etc) would be of significant benefit. 
 

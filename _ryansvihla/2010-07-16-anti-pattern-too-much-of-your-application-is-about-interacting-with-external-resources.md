@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1069937824"
 categories:
   - Anti-Patterns
+redirect_from: "/blogs/rssvihla/archive/2010/07/15/anti-pattern-too-much-of-your-application-is-about-interacting-with-external-resources.aspx/"
 ---
 Firstly, what am I talking about? Applications that meet some of the following descriptions:
 

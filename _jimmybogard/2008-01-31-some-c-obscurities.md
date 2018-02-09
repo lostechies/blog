@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715537"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/30/some-c-obscurities.aspx/"
 ---
 I&#8217;m sure everyone&#8217;s tired of hearing about C# 3.0 features like lambda expressions, extension methods, anonymous types and so on.&nbsp; Before you fall in love with the new features, there are a few oldies-but-goodies that revolve around the &#8220;?&#8221; character.&nbsp; I use a couple of these to stump interviewees who proclaim themselves to be C# experts.&nbsp; These question marks can provide a much cleaner, terser syntax for some fairly common C# usage patterns.
 

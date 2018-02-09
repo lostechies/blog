@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090361"
 categories:
   - LosTechies
+redirect_from: "/blogs/joe_ocampo/archive/2007/11/15/who-said-tie-fighter-pilots-aren-t-real.aspx/"
 ---
  <img height="157" src="http://www.comicstatues.com/images/attfightpilot2.jpg" width="151" align="right" /> <img src="http://i.i.com.com/cnwk.1d/i/bto/20071114/scary_helmet.jpg" align="right" />I know this post isn&#8217;t tech related but the geek in me and my former Air Force persona, couldn&#8217;t help but share this.
 

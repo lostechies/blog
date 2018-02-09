@@ -12,6 +12,7 @@ categories:
   - DRY
   - Moq
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2009/09/16/actually-querying-with-the-specification-pattern.aspx/"
 ---
 In my previous post, I talked about [using the specification pattern for querying](/blogs/chrismissal/archive/2009/09/10/using-the-specification-pattern-for-querying.aspx) collections. I didn&#8217;t actually show any code that does what I was talking about, I just showed the set-up and creation of specifications. The following is how you can put this into practice.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088240"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/04/nbehave-story-authoring.aspx/"
 ---
 <a href="http://grabbagoft.blogspot.com/" target="_blank">Jimmy Bogard</a> has an excellent <a href="http://grabbagoft.blogspot.com/2007/09/authoring-stories-with-nbehave-03.html" target="_blank">post</a> show casing some of the new features of <a href="http://www.codeplex.com/NBehave/Release/ProjectReleases.aspx?ReleaseId=6849" target="_blank">NBehave 0.3</a>.
 

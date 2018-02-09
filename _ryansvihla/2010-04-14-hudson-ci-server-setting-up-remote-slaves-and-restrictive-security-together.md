@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - CI
   - Hudson
+redirect_from: "/blogs/rssvihla/archive/2010/04/14/hudson-ci-server-setting-up-remote-slaves-and-restrictive-security-together.aspx/"
 ---
 ### <font color="#ff0000">NOTE: this applies to Hudson version 1.352</font>
 

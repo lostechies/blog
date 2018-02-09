@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113167"
 categories:
   - docu
+redirect_from: "/blogs/joshuaflanagan/archive/2009/05/19/latest-docu-builds-available.aspx/"
 ---
 <a href="http://docu.jagregory.com/" target="_blank">Docu</a> is a tool to create documentation out of your .NET XML comments, much in the same way we used to use NDoc. If legend has it right, it was created by the prolific <a href="http://jagregory.lostechies.com" target="_blank">James Gregory</a> with the sole goal of generating the documentation for <a href="http://fluentnhibernate.org/" target="_blank">Fluent NHibernate</a>. It won’t ever compete with <a href="http://sandcastle.codeplex.com/" target="_blank">Sandcastle</a> on features or functionality, nor should it. If you just need to create developer-focused, HTML documentation for your API, docu is the perfect tool. If you need to create higher level end-user documentation in different formats, you’ll probably always be better off with something like Sandcastle.
 

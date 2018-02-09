@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - BDD (Behavior Driven Development)
   - Domain Driven Design (DDD)
+redirect_from: "/blogs/joe_ocampo/archive/2007/07/15/more-bdd-xbehave-madness.aspx/"
 ---
 Well over the past week or so I have been working off and on with improving the usage of NUnit.Behave.&nbsp; It started off being tightly coupled with NUnit since you actually had to inherit an abstract fixture that exposed the &#8220;Given, When, Then&#8221; <a href="http://dannorth.net/introducing-bdd" target="_blank">BDD</a> constructs.&nbsp; With a bit of tinkering with C# generics and some <a href="http://www.martinfowler.com/bliki/FluentInterface.html" target="_blank">fluent interface</a> magic, I managed to decouple the code into its own, dare I say,&nbsp; framework.
 

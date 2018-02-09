@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Principles
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/02/24/i-find-your-lack-of-tests-disturbing.aspx/"
 ---
 Found this here: [{|one, step, back|}](http://onestepback.org/index.cgi/Tech/Programming/DarthTest.red) and I had to <strike>cry </strike>chuckle.
 

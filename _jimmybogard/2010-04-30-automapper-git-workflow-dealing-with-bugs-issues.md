@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - AutoMapper
   - git
+redirect_from: "/blogs/jimmy_bogard/archive/2010/04/30/automapper-git-workflow-dealing-with-bugs-issues.aspx/"
 ---
 Along with the switch of VCS to git came the ability to have much improved workflows that simply weren’t possible in CVCS like TFS or SVN.&#160; The nice thing about Git over CVCS is that because of its power, I can choose the workflow I want to use depending on my situation.&#160; Most, if not all of this comes from the fact that local branches are cheap, and the commit model of git.
 

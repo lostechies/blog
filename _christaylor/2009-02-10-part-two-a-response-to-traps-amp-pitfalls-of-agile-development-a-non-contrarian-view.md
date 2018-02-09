@@ -10,6 +10,7 @@ categories:
   - Community
   - Extreme Programming
   - I.T. Management
+redirect_from: "/blogs/agilecruz/archive/2009/02/10/part-two-a-response-to-traps-amp-pitfalls-of-agile-development-a-non-contrarian-view.aspx/"
 ---
 In my [last installment](/blogs/agilecruz/archive/2009/02/10/part-one-a-response-to-traps-amp-pitfalls-of-agile-development-a-non-contrarian-view.aspx), I began giving my initial thoughts on [this blog entry](http://www.artima.com/weblogs/viewpost.jsp?thread=246513)
   

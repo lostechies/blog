@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265539498"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/04/25/re-throwing-exceptions.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/re-throwing-exceptions.html)._
 

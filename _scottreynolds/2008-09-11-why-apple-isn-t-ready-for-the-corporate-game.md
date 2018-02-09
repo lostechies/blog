@@ -8,6 +8,7 @@ wordpress_guid: /blogs/scottcreynolds/archive/2008/09/11/why-apple-isn-t-ready-f
 categories:
   - mac
   - Rant
+redirect_from: "/blogs/scottcreynolds/archive/2008/09/11/why-apple-isn-t-ready-for-the-corporate-game.aspx/"
 ---
 _I&#8217;ve been wanting to get this off my chest for a while now, and in a way that is more than a handful of tweetbursts. So here goes._
 

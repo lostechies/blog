@@ -20,6 +20,7 @@ categories:
   - Tools and Vendors
   - Unit Testing
   - Vim
+redirect_from: "/blogs/derickbailey/archive/2010/12/09/web-development-stack-in-osx.aspx/"
 ---
 It has been almost a month since I ventured out into contracting and took up OSX on a Macbook Pro as my primary operating system. In that time, I&#8217;ve been very fortunate to have [Joey Beninghove](http://joeybeninghove.com/) guide me through the torrent of options and possibilities for building web apps in OSX. I&#8217;ve thrown in a few of my own tools based on all the things I&#8217;m doing and my own personal experience, too. Most of these tools are available to other platforms, too. You don&#8217;t have to be a OSX user to take advantage of them, but it certainly seems to be easy if you are.
 

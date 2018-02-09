@@ -15,6 +15,7 @@ categories:
   - Principles and Patterns
   - Refactoring
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/03/25/red-green-refactor-for-the-right-reasons.aspx/"
 ---
 First, let me say this: WHAAaa???? something _useful_ occurred on Google Buzz?! 🙂 Ok, now that I’ve got that over with… there was [a useful stream of comments](http://www.google.com/buzz/derickbailey/GNmueprNnTM/refactor-dont-forget-the-refactor-part-of-red) over on the [extended twitter reply network](http://twitter.com/derickbailey/status/9546697945) from one of my tweets a while back.
 

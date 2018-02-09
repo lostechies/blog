@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716160"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2009/05/22/subverting-tdd-as-a-design-tool.aspx/"
 ---
 So TypeMock can now [mock DateTime.Now](http://blog.typemock.com/2009/05/mockingfaking-datetimenow-in-unit-tests.html).&#160; Replacing the functionality of DateTime.Now, which is an external dependency, was one of the first issues that taught me the value of TDD.&#160; With TypeMock replacing DateTime.Now, I get all the benefits of unit testing, but none of the benefits of TDD.&#160; Yes, my code is now “testable” in the sense that I can now write a unit test against my code, but I’m using Jedi mind-tricks to do so.
 

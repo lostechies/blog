@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Advice
   - hiring
+redirect_from: "/blogs/chad_myers/archive/2009/03/23/how-to-apply-for-a-professional-job.aspx/"
 ---
 Think for a good solid 10 seconds before answering these two questions: “What does the word ‘professional’ mean to you?” and “Do you consider yourself a professional?”&#160;&#160; I’ll wait while you think.
 

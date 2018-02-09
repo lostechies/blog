@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113254"
 categories:
   - Vim
+redirect_from: "/blogs/joshuaflanagan/archive/2010/07/16/error-detected-while-processing-vimrc-error-when-using-utf-8-characters-in-listchars-variable.aspx/"
 ---
 This error stumped me for a while, and I didn’t find any good answers on Google, so hopefully this can help someone else. I’m running gVim 7.2 on Windows – this information may not apply to other versions/platforms.
 

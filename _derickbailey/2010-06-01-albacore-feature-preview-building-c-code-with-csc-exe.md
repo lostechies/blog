@@ -14,6 +14,7 @@ categories:
   - Rake
   - Unit Testing
   - Vim
+redirect_from: "/blogs/derickbailey/archive/2010/06/01/albacore-feature-preview-building-c-code-with-csc-exe.aspx/"
 ---
 I’ve been meaning to do this for a very long time… it’s been asked for multiple times and it’s been on my list of things to do for a very long time… but it’s finally happening! I’m finally putting a ‘csc’ task into albacore so that you can build your c# code directly from the **c**&#8211;**s**harp **c**ompiler (csc.exe). 
 

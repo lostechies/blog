@@ -12,6 +12,7 @@ categories:
   - Agile
   - Deployment
   - MSDeploy
+redirect_from: "/blogs/hex/archive/2009/12/29/update-on-using-msdeploy-for-remote-deployments.aspx/"
 ---
 This is a follow up to the post [http://www.lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx](http://www.lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx "http://www.lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx")
 

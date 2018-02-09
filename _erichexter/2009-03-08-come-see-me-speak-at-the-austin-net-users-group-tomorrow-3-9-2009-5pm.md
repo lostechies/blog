@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1124105997"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2009/03/08/come-see-me-speak-at-the-austin-net-users-group-tomorrow-3-9-2009-5pm.aspx/"
 ---
 &#160;
 

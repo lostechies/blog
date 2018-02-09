@@ -12,6 +12,7 @@ categories:
   - How To
   - NHibernate
   - tutorial
+redirect_from: "/blogs/gabrielschenker/archive/2009/09/02/article-series-on-nhibernate-and-fluent-nhibernate-part-3.aspx/"
 ---
 Today the third part of my series on NHibernate and Fluent NHibernate went live. You can read it [here](http://dotnetslackers.com/articles/ado_net/Your-very-first-NHibernate-application-Part-3.aspx).
 

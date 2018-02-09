@@ -13,6 +13,7 @@ categories:
   - Data Access
   - Security
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2009/06/25/how-to-highly-complex-query-generating-based-on-security-needs.aspx/"
 ---
 I have the following object model:
 

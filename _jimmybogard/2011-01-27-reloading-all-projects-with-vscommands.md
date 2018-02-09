@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264744455"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2011/01/27/reloading-all-projects-with-vscommands.aspx/"
 ---
 Quite often I’ll find myself working in situations where multiple projects have changed, and Visual Studio asks to reload them, one at a time.&#160; This happens when I’m working a lot with source control, and doing things like switching branches, performing merges, or just integrating upstream changes.&#160; I have to click “Reload” a million times for each project that changed on disk, and it’s quite annoying.&#160; On top of that, VS forgets which files I have open, so every file that I was working on gets closed.
 

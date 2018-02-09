@@ -18,6 +18,7 @@ categories:
   - Messaging
   - Pragmatism
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/04/15/adding-request-reply-to-the-application-controller.aspx/"
 ---
 Back in December of 2009 I had a post on using various [messaging patterns within an application controller](http://www.lostechies.com/blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx) as part of an application’s architecture. One of the patterns that I distinctly left out was request/reply. At the time I had not yet implemented a good solution for it. Since then I’ve tried several variations of implementations but had not found anything that I liked for various reasons. However, during a conversation with a coworker today that touched on many different subjects the concept of request/reply came up again. He came up with a quick hack that would allow him to get it done with the existing app controller’s .Execute() method and his idea sparked another idea for a full fledged request/reply implementation. This time, I liked the results that I came up with and I added it to our application controller.
 

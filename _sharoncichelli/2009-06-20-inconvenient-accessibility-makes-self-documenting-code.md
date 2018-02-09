@@ -9,6 +9,7 @@ dsq_thread_id:
   - "311645159"
 categories:
   - DDD
+redirect_from: "/blogs/sharoncichelli/archive/2009/06/20/inconvenient-accessibility-makes-self-documenting-code.aspx/"
 ---
 Intentional use of [access modifiers](http://msdn.microsoft.com/en-us/library/ms173121.aspx) (public, private, etc.) is like a clear memo to your team. This came up during [Steve Bohlen](http://unhandled-exceptions.com/blog/)&#8216;s [Virtual Alt.Net](http://www.virtualaltnet.com/) talk on [domain-driven design](http://en.wikipedia.org/wiki/Domain-driven_design).
 

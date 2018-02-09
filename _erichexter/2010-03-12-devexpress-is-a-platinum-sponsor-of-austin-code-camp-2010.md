@@ -11,6 +11,7 @@ categories:
   - AustinCodeCamp
   - Community
   - Tools
+redirect_from: "/blogs/hex/archive/2010/03/12/devexpress-is-a-platinum-sponsor-of-austin-code-camp-2010.aspx/"
 ---
 **_[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="dev-exp-logo-with-slogan-350" src="http://lostechies.com/erichexter/files/2011/03/devexplogowithslogan350_1456B2A6.png" width="240" height="71" />](http://bit.ly/b0Nv4N)_** 
 

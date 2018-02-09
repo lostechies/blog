@@ -10,6 +10,7 @@ dsq_thread_id:
   - "264716093"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2009/03/15/a-sign-of-the-times.aspx/"
 ---
 From [Daniel Cazzulino](http://www.clariusconsulting.net/blogs/kzu/archive/2009/03/15/121161.aspx):
 

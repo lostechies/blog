@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264977440"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2010/02/01/automapper-1-0-rtw.aspx/"
 ---
 [AutoMapper](http://automapper.codeplex.com/) is now officially 1.0.&#160; You can go grab the latest binaries here:
 

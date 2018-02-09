@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265908020"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2010/04/15/automapper-source-moved-to-github.aspx/"
 ---
 After putting it through the paces, I’m ready to (finally) announce that the AutoMapper source code has moved to GitHub:
 

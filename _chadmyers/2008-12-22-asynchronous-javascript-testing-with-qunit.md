@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262239805"
 categories:
   - QUnit
+redirect_from: "/blogs/chad_myers/archive/2008/12/22/asynchronous-javascript-testing-with-qunit.aspx/"
 ---
 I’m implementing a feature that does some stuff when an IFRAME is finished loading.&#160; Due to the inherent asynchronous nature of this functionality, it was hard to test.&#160; I was trying to use QUnit, but having issues, until I found this post:
 

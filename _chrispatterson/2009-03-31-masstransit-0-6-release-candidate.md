@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089326"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2009/03/30/masstransit-0-6-release-candidate.aspx/"
 ---
 I&#8217;m proud to announce that we are getting close to a final 0.6 release of [MassTransit](http://code.google.com/p/masstransit/). We&#8217;ve been working on this release since early December and have added a lot of new functionality. We&#8217;re also glad to have integrated a number of patches that the community has contributed &#8212; thanks for your help! 
 

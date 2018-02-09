@@ -9,6 +9,7 @@ dsq_thread_id:
   - "271235344"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/12/05/configuring-macbook-pro-for-multi-platform-development.aspx/"
 ---
 I received a MacBook Pro yesterday from my boss. He purchased a new one and I got his old one. I was ecstatic. The memory and small screen/keyboard was really holding me back on my MacBook. With the larger display (15&#8243;) and large keyboard I have already found that the MBP is much easier to use then a MB. Couple that with the fact that it is actually lighter than a MB, I&#8217;m sold.
 

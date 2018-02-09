@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - debugger
   - fluent interface
+redirect_from: "/blogs/jagregory/archive/2009/08/18/debugger-property-evaluation-side-effects.aspx/"
 ---
 Property getters with side-effects, now there&#8217;s a controversial subject if ever I saw one. Don&#8217;t do it is the rule; as with any rule though, there&#8217;s generally an exception that proves it. If you&#8217;re in this situation and you genuinely do have a scenario that requires a property getter to have side-effects, then there&#8217;s a side-effect (ha!) that you should be aware of.
 

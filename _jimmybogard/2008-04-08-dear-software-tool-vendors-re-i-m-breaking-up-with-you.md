@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715641"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2008/04/08/dear-software-tool-vendors-re-i-m-breaking-up-with-you.aspx/"
 ---
 Dear software tool vendors,
 

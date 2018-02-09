@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715788"
 categories:
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/19/separation-of-concerns-by-example-part-1.aspx/"
 ---
 In the prelude to this series, I looked at a snippet of code that took the kitchen sink approach to concerns.&nbsp; Here&#8217;s what we started out with:
 

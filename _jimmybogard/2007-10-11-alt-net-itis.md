@@ -9,6 +9,7 @@ dsq_thread_id:
   - "367290544"
 categories:
   - altnetconf
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/11/alt-net-itis.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/altnet-itis.html)._
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055612"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/02/20/the-mvc-template-team-got-it-right.aspx/"
 ---
 I just created my first project with ASP.Net MVC RC1 and I had a pleasant surprise!!
 

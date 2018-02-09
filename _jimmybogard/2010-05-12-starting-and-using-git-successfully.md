@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716505"
 categories:
   - git
+redirect_from: "/blogs/jimmy_bogard/archive/2010/05/12/starting-and-using-git-successfully.aspx/"
 ---
 It took quite a while (around 2 months) for me to finally become comfortable with Git.&#160; Why so long?&#160; One of the benefits of Git is that it’s very powerful.&#160; It’s also one of the drawbacks.&#160; It was a bit of a journey to unlearn all the knowledge and habits I’ve picked up with SVN and TFS over the years.&#160; Along the way, I picked up a few pointers around using Git that have made using Git a much better experience, that I wish I had when I first started with Git.
 

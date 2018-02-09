@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113947"
 categories:
   - StructureMap
+redirect_from: "/blogs/chad_myers/archive/2008/07/15/structuremap-basic-scenario-usage.aspx/"
 ---
 First, I&#8217;m going to assume that you are somewhat already familiar with the concepts of Dependency Injection and what, in general, an Inversion of Control Container is for. If not, you may find these links helpful:
 

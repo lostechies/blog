@@ -9,6 +9,7 @@ dsq_thread_id:
   - "425624325"
 categories:
   - ALT.NET
+redirect_from: "/blogs/rssvihla/archive/2009/09/13/alt-net-evangelism-and-what-we-could-do-better.aspx/"
 ---
 If we assume our goal as the Alt.Net community is to improve software development as a whole, we&#8217;re doing a pretty bad job. &nbsp;Not that many people have even heard of the concepts we espouse, and those that have but didn&#8217;t convert become hostile to our ideas.&nbsp;
 

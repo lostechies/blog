@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2008/04/15/guidelines-aren-t-rules.aspx/"
 ---
 I&#8217;m a huge fan of the Framework Design Guidelines book.&nbsp; It provides great instruction on creating reusable libraries, based on Microsoft&#8217;s design on the .NET Framework.
 

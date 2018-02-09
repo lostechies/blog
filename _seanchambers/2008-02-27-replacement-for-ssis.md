@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262588607"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/02/27/replacement-for-ssis.aspx/"
 ---
 For awhile now I have been wrestling with SSIS. I don&#8217;t like it at all so much to the point that the majority of my nightly packages are still on SQL 2000 as I have been unsuccessful in porting them to SQL 2005 SSIS.
 

@@ -15,6 +15,7 @@ categories:
   - continous integration
   - Testing
   - Tools
+redirect_from: "/blogs/hex/archive/2009/09/10/free-continuous-integration-workshop-in-austin-tuesday-sept-15th-1pm-5pm.aspx/"
 ---
 &#160;
 

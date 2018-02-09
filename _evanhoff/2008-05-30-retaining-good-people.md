@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/05/29/retaining-good-people.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/05/29/retaining-good-people.aspx/"
 ---
 This is largely common sense, but I&#8217;d bet there&#8217;s a large number of IT shops out there that haven&#8217;t picked up on this yet.
 

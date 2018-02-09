@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/09/28/values-over-vendors.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/09/values-over-vendors.html)._
 

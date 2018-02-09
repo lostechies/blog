@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715470"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/02/targeting-multiple-environments-through-nant.aspx/"
 ---
 One of the nice things about using a [command-line local build](http://grabbagoft.blogspot.com/2007/11/some-nant-tips.html)&nbsp;is that I can easily target multiple environments.&nbsp; Our configuration scheme is fairly straightforward, with all changes limited to one &#8220;web.config&#8221; file.
 

@@ -11,6 +11,7 @@ categories:
   - .NET
   - mac
   - OSX
+redirect_from: "/blogs/chris_patterson/archive/2008/02/16/developing-for-windows-on-mac-os-x.aspx/"
 ---
 This past week I setup a new development environment on my [MacBook Pro](http://www.apple.com/macbookpro/). As I got into it, I realized that it might be a good idea to share the setup process with others who might be switching to a Mac. Unlike a lot of people that use Windows XP for development, I do all my .NET development on Windows Server 2003. I have always had a firm belief in developing on your target environment. 
 

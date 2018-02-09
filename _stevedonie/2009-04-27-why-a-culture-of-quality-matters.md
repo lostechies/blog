@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262124076"
 categories:
   - Uncategorized
+redirect_from: "/blogs/stevedonie/archive/2009/04/27/why-a-culture-of-quality-matters.aspx/"
 ---
 My company just recently started using ADP for processing our paychecks. So far, the core functions that ADP provides seem to work well, in that I do indeed get paid regularly. However, they have also provided us with access to their &#8216;web portal&#8217; (beware of portals &#8211; they may lead to another world!) that allows me to do things like update my w-4, change my address, or download PDFs of paystubs. Recently we have also started using other ADP provided websites for other HR-related functions including recruiting and a very badly done company directory. 
 

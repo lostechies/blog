@@ -12,6 +12,7 @@ categories:
   - Code Specifications
   - Enforcement
   - Proof
+redirect_from: "/blogs/chad_myers/archive/2009/01/14/how-do-you-know-your-code-works.aspx/"
 ---
 [Warning: shameless Austin plug and a bunch of&#160; namedropping] 
 

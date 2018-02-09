@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715604"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/16/review-xunit-test-patterns.aspx/"
 ---
 I consider one of the measures of quality of a book to be the number of personal assumptions challenged by its material.&nbsp; To that point, Gerard Meszaros&#8217; [xUnit Test Patterns](http://xunitpatterns.com/) did not disappoint.
 

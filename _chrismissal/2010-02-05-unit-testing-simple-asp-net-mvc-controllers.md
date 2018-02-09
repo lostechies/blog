@@ -14,6 +14,7 @@ categories:
   - Moq
   - NUnit
   - RhinoMocks
+redirect_from: "/blogs/chrismissal/archive/2010/02/05/unit-testing-simple-asp-net-mvc-controllers.aspx/"
 ---
 I have created enough simple projects using ASP.NET MVC with unit tests to notice a very helpful pattern. The following is a sample of a test fixture using RhinoMocks and NUnit to test a controller.
 

@@ -11,6 +11,7 @@ categories:
   - ASPNETMVC
   - DomainDrivenDesign
   - Patterns
+redirect_from: "/blogs/jimmy_bogard/archive/2008/12/15/domain-models-in-presentation-frameworks.aspx/"
 ---
 One common question when applying DDD is how to interpret other architecture’s concepts of a “model”.&#160; For example, two common presentation architectures are MVC and MVP.&#160; In each of those acronyms, the “M” is short for “Model”.&#160; So what exactly is this Model?&#160; Is it the Domain Model?&#160; Presentation Model?&#160; Something else entirely?
 

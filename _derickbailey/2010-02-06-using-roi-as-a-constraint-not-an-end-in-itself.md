@@ -13,6 +13,7 @@ categories:
   - Management
   - Metrics
   - Philosophy of Software
+redirect_from: "/blogs/derickbailey/archive/2010/02/06/using-roi-as-a-constraint-not-an-end-in-itself.aspx/"
 ---
 I had a fun conversation over instant messenger yesterday. The original subject matter revolved around a problem that the other person was having and how that problem was consuming a number of minutes per day with repetitive, tedious work. At the start of the conversation the focus was on a specific solution implementation and some general direction on how to get there. After a while, though, we started talking about the complexities of the proposed solution and potential high cost. At that point the other person mentioned that they probably don’t have the ROI to justify working on the solution during business hours.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716277"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2009/07/28/succeeding-with-mediocrity.aspx/"
 ---
 One of the criticisms of engineering practices like XP (and Agile for that matter) is that success is only really possible with strong, experienced developers.&#160; But is it really possible to succeed with mediocrity?
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2007/12/08/you-have-nothing-to-fear-from-javascript.aspx
 categories:
   - JavaScript
+redirect_from: "/blogs/colin_ramsay/archive/2007/12/08/you-have-nothing-to-fear-from-javascript.aspx/"
 ---
 Building a web application consists of a number of discrete layers: server code, client code, HTML, and styling. If you cannot sit down with one of those layers and work on it, you are not fulfilling your role. If I hire a web developer, I don&#8217;t expect them to tell me that they know little of Javascript, but unfortunately there seems to be a fear of that language, where people are happy to hide it away behind a facade of server-side code which autogenerates it.
 

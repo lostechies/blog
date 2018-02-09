@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715853"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2008/07/19/showing-some-mvc-support.aspx/"
 ---
 [Joey](http://www.lostechies.com/blogs/joeydotnet/default.aspx) was kind enough to create a shirt to support MVC:
 

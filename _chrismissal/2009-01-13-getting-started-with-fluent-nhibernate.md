@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262174713"
 categories:
   - Fluent NHibernate
+redirect_from: "/blogs/chrismissal/archive/2009/01/12/getting-started-with-fluent-nhibernate.aspx/"
 ---
 ### Much of this information may be out of date, please check <http://fluentnhibernate.org/> for current information.  
 

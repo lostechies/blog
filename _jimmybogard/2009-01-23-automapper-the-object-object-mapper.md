@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264722682"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/01/22/automapper-the-object-object-mapper.aspx/"
 ---
 In Domain-Driven Design, creating a rich domain model in code is essential for capturing the richness and complexity of the real-world domain.&#160; These domain models, designed as [POCOs](http://en.wikipedia.org/wiki/Plain_Old_CLR_Object), are not very portable, nor should they be.&#160; Domain models live inside the domain layer, not to be exposed to the outside world.&#160; Very often, we don’t want to expose these models to other layers of our application.&#160; To mitigate this issue, we often create various sorts of other models, like DTOs, ViewModels, messages, and so on.&#160; Two things were in common with these objects:
 

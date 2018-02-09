@@ -12,6 +12,7 @@ categories:
   - Design Principles
   - SOLID
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2009/03/10/need-help-spotting-that-hard-to-test-code.aspx/"
 ---
 I&rsquo;m a big fan of <a href="http://www.iunknown.com/2007/06/vibrant_ink_vis.html" target="_blank">Jon Lam&#8217;s Vibrant Ink Visual Studio theme</a>. Here&rsquo;s why: If you look at the syntax highlighting in the following code, you&rsquo;ll see some yellow text. In this theme, or any any other theme that does it well, you&rsquo;ll notice class names stand out a bit on their own. Referencing a class name means you&rsquo;re probably either creating a new object or referencing a static function or property. Both of these make for hard to test code. Code that is hard to test is brittle. Apply <a href="http://en.wikipedia.org/wiki/Murphy%27s_law" target="_blank">Murphy&rsquo;s Law</a> and you&rsquo;re in trouble.
 

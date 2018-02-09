@@ -11,6 +11,7 @@ categories:
   - HTTP Compression
   - IIS
   - Performance
+redirect_from: "/blogs/dahlbyk/archive/2010/01/08/script-to-enable-http-compression-gzip-deflate-in-iis-6.aspx/"
 ---
 One of the easiest ways to improve web site performance is to enable [HTTP compression](http://en.wikipedia.org/wiki/HTTP_compression) (often referred to as GZIP compression), which trades CPU time to compress content for a reduced payload delivered over the wire. In the vast majority of cases, the trade-off is a good one.
 

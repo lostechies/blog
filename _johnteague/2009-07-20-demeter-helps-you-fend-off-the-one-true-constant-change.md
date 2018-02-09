@@ -11,6 +11,7 @@ categories:
   - Law of Demeter
   - Software Design
   - SOLID
+redirect_from: "/blogs/johnteague/archive/2009/07/20/demeter-helps-you-fend-off-the-one-true-constant-change.aspx/"
 ---
 There have been some [good](http://haacked.com/archive/2009/07/14/law-of-demeter-dot-counting.aspx) [discussion](http://codebetter.com/blogs/jeremy.miller/archive/2009/07/18/what-i-ve-learned-over-the-last-five-years.aspx) lately around the [Law of Demeter](http://en.wikipedia.org/wiki/Law_of_Demeter).&nbsp; The worst thing about Law of Demeter is that it has the word &ldquo;Law&rdquo; in it.&nbsp; Like all of the SOLID principles, it should be considered a rule of thumb and your experience and knowledge of the domain should tell you when it it appropriate.&nbsp; However, I would consider staying consistent with this principles (as with all of the others) the starting point and transgress only under special circumstances.
 

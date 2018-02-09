@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Favorites
   - Personal
+redirect_from: "/blogs/chrismissal/archive/2011/03/10/new-to-me-applications.aspx/"
 ---
 Recently, I&#8217;ve been using some new applications on which I should share some thoughts.
 

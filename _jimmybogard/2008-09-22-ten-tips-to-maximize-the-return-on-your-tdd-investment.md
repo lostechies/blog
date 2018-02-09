@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715934"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/09/21/ten-tips-to-maximize-the-return-on-your-tdd-investment.aspx/"
 ---
 Paul Cowen presented an interesting personal observation of using TDD on the ALT.NET mailing list, under the title &#8220;[TDD + effort != return](http://tech.groups.yahoo.com/group/altdotnet/message/15301)&#8220;.&nbsp; The implication being that doing TDD requires extra work during development, extra work in training, extra work in hiring qualified people, even extra coding.&nbsp; TDD is an investment in your team, your product and your craft.&nbsp; But there are a few things you can do to get the most out of your TDD experience.&nbsp; Here are ten tips to maximize your TDD investment:
 

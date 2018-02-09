@@ -12,6 +12,7 @@ categories:
   - Management
   - Throughput
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/08/04/daycare-as-a-kanban-system.aspx/"
 ---
 I was discussing my two year old son’s daycare with my wife, yesterday, when it dawned on me that the daycare itself can be viewed as a Kanban system. [A Kanban system is a system level process control system](http://www.lostechies.com/blogs/derickbailey/archive/2009/07/13/kanban-is-process-control-not-a-process-for-adding-value-to-wip.aspx) that limits the work in process (WIP), authorizes work to be done based on capacity, and pulls work through the system. 
 

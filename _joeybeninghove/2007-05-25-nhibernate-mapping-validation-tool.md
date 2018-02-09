@@ -9,6 +9,7 @@ categories:
   - NHibernate
   - scriptaculous
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/05/24/nhibernate-mapping-validation-tool.aspx/"
 ---
 Writing [my last post](http://joeydotnet.com/blog/archive/2007/05/24/Thoughts-On-Validating-NHibernate-Mapping-Files.aspx) got me thinking&#8230;&nbsp; Surely someone has written an automated script or tool that could examine NHibernate mapping files and&nbsp;verify all the items I pointed out in [my previous post](http://joeydotnet.com/blog/archive/2007/05/24/Thoughts-On-Validating-NHibernate-Mapping-Files.aspx).&nbsp; Or maybe even, another step further, also make sure the column names specified in the mapping files actually exist in the tables in a real database schema!
 

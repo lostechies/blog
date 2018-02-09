@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - ALTdotNET
+redirect_from: "/blogs/chris_patterson/archive/2009/05/10/i-m-down-with-m-v-c-yeah-you-know-me.aspx/"
 ---
 Over the past week, I&#8217;ve had some time to dig into the new [ASP.NET MVC framework](http://www.asp.net/mvc/). For starters, my background in web development is mostly classic ASP talking to COM objects built in C++. I&#8217;ve only used ASP.NET to provide web services for smart clients. Beyond that, my experience has been all PHP joined by a short experimentation period with Ruby on Rails. When Scott Gu presented the new ASP.NET MVC framework at the first ALT.NET Austin in 2007, I was excited to see Microsoft stepping into the space where at the time Monorail was the only viable choice.
 

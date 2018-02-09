@@ -9,6 +9,7 @@ categories:
   - 'C#'
   - mbunit
   - TDD
+redirect_from: "/blogs/joeydotnet/archive/2007/10/11/effects-of-encapsulation-on-unit-tests-enumerableassert.aspx/"
 ---
 To keep your classes properly encapsulated,&nbsp;I&#8217;ve learned (from others and my
   

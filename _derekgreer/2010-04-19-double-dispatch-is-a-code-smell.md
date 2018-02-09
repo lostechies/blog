@@ -11,6 +11,7 @@ categories:
   - Uncategorized
 tags:
   - Design Patterns
+redirect_from: "/blogs/derekgreer/archive/2010/04/18/double-dispatch-is-a-code-smell.aspx/"
 ---
 If you&#8217;re using [Double Dispatch](http://en.wikipedia.org/wiki/Double_dispatch) in your code, this may be a symptom of an underlying design issue which may impact the maintainability of your application.&#160; Due to the fact that Double Dispatch is at times confused with a form of the [Strategy Pattern](http://en.wikipedia.org/wiki/Strategy_Pattern), an overview may be in order to elaborate on this assertion further.
 

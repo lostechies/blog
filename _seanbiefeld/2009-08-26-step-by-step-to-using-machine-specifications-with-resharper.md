@@ -15,6 +15,7 @@ categories:
   - Resharper
   - Specifications
   - Unit Test
+redirect_from: "/blogs/seanbiefeld/archive/2009/08/25/step-by-step-to-using-machine-specifications-with-resharper.aspx/"
 ---
 Whilst researching using MSpec with ReSharper I found it difficult to find all the resources I needed in one place. This is an attempt to condense everything into that one place and facilitate those seeking to accomplish the same task.
 

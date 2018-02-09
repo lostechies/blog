@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716069"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/11/automapper-0-2-released.aspx/"
 ---
 With quite a few community patches submitted, I dropped [AutoMapper](http://www.codeplex.com/AutoMapper) [version 0.2](http://www.codeplex.com/AutoMapper/Release/ProjectReleases.aspx?ReleaseId=23119) today.&#160; Here’s the release notes:
 

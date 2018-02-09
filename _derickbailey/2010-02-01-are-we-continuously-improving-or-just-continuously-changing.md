@@ -13,6 +13,7 @@ categories:
   - Lean Systems
   - Management
   - Productivity
+redirect_from: "/blogs/derickbailey/archive/2010/02/01/are-we-continuously-improving-or-just-continuously-changing.aspx/"
 ---
 Don’t confuse activity – even when it has a visible, measurable effect – with productivity. Without a clear picture of where we are going and why, our best efforts at improvement (though they may be ‘continuous’ efforts) are likely to be change for the sake of change. At best, change without direction has a chance of doing something useful and making part of our system easier to work, reducing cost relatively soon. At worst, change without direction has is a direct cause of lost revenue as we are spending our time and money to change areas of the system that are not causing any immediate financial difficulties. Worse yet, even when we have a goal set, we can still do financial damage to the project and company.
 

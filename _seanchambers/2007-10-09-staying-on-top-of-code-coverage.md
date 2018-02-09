@@ -9,6 +9,7 @@ dsq_thread_id:
   - "284219678"
 categories:
   - TDD
+redirect_from: "/blogs/sean_chambers/archive/2007/10/09/staying-on-top-of-code-coverage.aspx/"
 ---
 <IMG height="369" hspace="20" src="http://i184.photobucket.com/albums/x270/dkode8880/coverage.jpg" width="345" align="left" border="1" />It&#8217;s always a good idea to make sure you stay on top of&nbsp;test coverage. As the image to the left clearly displays, it will quickly get out of hand and before you know it your coverage is in the toilet =)
 

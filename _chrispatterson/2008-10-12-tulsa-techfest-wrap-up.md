@@ -9,6 +9,7 @@ dsq_thread_id:
   - "289729160"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2008/10/12/tulsa-techfest-wrap-up.aspx/"
 ---
 This past Thursday and Friday, the [Tulsa TechFest](http://techfests.com/Tulsa/2008/Agenda/default.aspx) was held at OSU Tulsa in Tulsa (could I write Tulsa one more time, I knew I could). Attendance was high and most of the sessions I attended were in rooms full of people. The day started off early Thursday morning, but that&#8217;s not the start of the story.
 

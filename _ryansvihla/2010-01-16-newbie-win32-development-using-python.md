@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DotNet
   - Python
+redirect_from: "/blogs/rssvihla/archive/2010/01/15/newbie-win32-development-using-python.aspx/"
 ---
 First a disclaimer. I’m not in anyway shape or form an experienced win32 systems programmer.&#160; I’ve always done application development or systems administration scripting. That in-between area where you get out your C/C++ compiler and start dealing with pointers is completely alien to me.&#160; This has created problems in the past when I need to do something outside of the scope of C# and found myself staring at MSDN docs in C trying to extrapolate the equivalent C# code, and typically being disgusted at having to use hand rolled Structs with calls to Marshall.GetLastWin32Error().
 

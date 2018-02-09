@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715457"
 categories:
   - People
+redirect_from: "/blogs/jimmy_bogard/archive/2007/12/12/decomposing-a-book-club.aspx/"
 ---
 Book clubs can be a great way to foster learning and encourage growth on a team.&nbsp; They aren&#8217;t always the best avenue for training, which might include:
 

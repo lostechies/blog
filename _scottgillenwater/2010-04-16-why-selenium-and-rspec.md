@@ -10,6 +10,7 @@ categories:
   - Hudson
   - RSpec
   - Selenium
+redirect_from: "/blogs/stgillen/archive/2010/04/15/why-selenium-and-rspec.aspx/"
 ---
 <span style="text-decoration: underline"><b>Introduction</b></span>
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055534"
 categories:
   - NHibernate
+redirect_from: "/blogs/johnteague/archive/2008/08/28/converting-columns-to-rows-with-nhibernate-usertype.aspx/"
 ---
 For some of you who have been using Nhibernate for a while, may found this old news, but I thought this was coolest thing ever (at least this week).
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267357045"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/06/23/disable-annoying-computer-beep.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/disable-annoying-computer-beep.html)._
 

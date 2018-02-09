@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715389"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/31/bizarro-tive-development.aspx/"
 ---
 Anyone familiar with [Superman](http://en.wikipedia.org/wiki/Superman)&nbsp;also knows about [Bizarro](http://en.wikipedia.org/wiki/Bizarro), a doppelganger of Superman.&nbsp; Bizarro looks like Superman, but is opposite in every way.&nbsp; Instead of saving people, he kills them.&nbsp; Instead of eloquent speech, he talks like&nbsp;Tarzan.&nbsp; He&#8217;s not from Earth, but from Htrea (Earth backwards, clever).&nbsp; And so on.
 

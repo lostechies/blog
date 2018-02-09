@@ -9,6 +9,7 @@ dsq_thread_id:
   - "271086299"
 categories:
   - ASPdotNET
+redirect_from: "/blogs/jimmy_bogard/archive/2007/06/05/asp-net-2-0-page-lifecycle-poster.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/aspnet-20-page-lifecycle-poster.html)._
 

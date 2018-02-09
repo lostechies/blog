@@ -11,6 +11,7 @@ categories:
   - Agile
   - Mangement
   - Programming
+redirect_from: "/blogs/chad_myers/archive/2008/04/02/ancient-wisdom-is-inescapable-especially-with-project-management.aspx/"
 ---
 # Introduction
 

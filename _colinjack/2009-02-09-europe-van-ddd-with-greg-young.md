@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2009/02/09/europe-van-ddd-with-greg-young.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colinjack/archive/2009/02/09/europe-van-ddd-with-greg-young.aspx/"
 ---
 The delayed first E-VAN is on now with Greg Young, discussing DDD and CQS. The URL is: <http://snipr.com/virtualaltnet> (Live Meeting).
 

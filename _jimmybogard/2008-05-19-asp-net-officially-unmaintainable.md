@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPdotNET
   - MonoRail
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/18/asp-net-officially-unmaintainable.aspx/"
 ---
 Recent forays back into &#8220;classic&#8221; ASP.NET (i.e. not MVC) have me completely convinced that ASP.NET is inherently unmaintainable.&nbsp; Not partially convinced, not on the fence, but completely convinced that the presentation layer of ASP.NET cannot be maintained in any reasonable manner.
 

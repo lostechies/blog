@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113241"
 categories:
   - git
+redirect_from: "/blogs/joshuaflanagan/archive/2010/10/06/view-files-on-github-from-visual-studio.aspx/"
 ---
 My favorite way to view the history of a file in git is via the GitHub website. It gives me all the information I need, with convenient hyperlinks to to additional information. However, it was never easy to go from the file I’m currently viewing in Visual Studio, to the file’s page on GitHub. I had to manually open the browser to the repository’s GitHub page, the click the links as a I navigate the folder structure on the Source tab. If you have a deeply nested structure as we do, you know how painful this is.
 

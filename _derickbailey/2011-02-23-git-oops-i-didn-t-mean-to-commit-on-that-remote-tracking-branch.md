@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262064342"
 categories:
   - git
+redirect_from: "/blogs/derickbailey/archive/2011/02/23/git-oops-i-didn-t-mean-to-commit-on-that-remote-tracking-branch.aspx/"
 ---
 I&#8217;ve talked about 2 [very similar](http://www.lostechies.com/blogs/derickbailey/archive/2010/04/01/git-oops-i-changed-those-files-in-the-wrong-branch.aspx) [situations](http://www.lostechies.com/blogs/derickbailey/archive/2010/06/08/git-d-oh-i-meant-to-create-a-new-branch-first.aspx) in the past. This is just a small variation, but I still find it useful enough to make another small post. I&#8217;m using the same checkout and reset commands that I&#8217;ve shown before. The small difference here, is that I&#8217;m using a remote branch as a point of reference in the reset calls. This let&#8217;s me move my local branch that is tracking the remote back to the same commit as the remote.
 

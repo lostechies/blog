@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715480"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/03/time-expired-still-going-strong.aspx/"
 ---
 My [Live Writer beta expired](http://grabbagoft.blogspot.com/2007/12/time-is-running-out.html) at the beginning of the year, but I&#8217;m still going strong:
 

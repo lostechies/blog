@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/08/01/windows-forms-data-binding.aspx
 categories:
   - Windows Forms
+redirect_from: "/blogs/mokhan/archive/2008/08/01/windows-forms-data-binding.aspx/"
 ---
 A couple of weeks ago, [Adam](http://www.linkedin.com/pub/3/933/425) and I were pairing on a new screen in a windows forms application. He started showing me some stuff that he had learned about windows forms data bindings. I showed him a little bit of what [JP](http://jpboodhoo.com) tried to teach me, back in the [Austin Nothin&#8217; But .NET boot camp](http://blog.jpboodhoo.com/NothinButNetAustinRecap.aspx), about Expressions and we decided to try a different way of binding domain object to screen elements in our application. The following is a method on the view that&#8217;s invoked from a presenter. It&#8217;s given an object from our model to display. 
 

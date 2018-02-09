@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joeydotnet/archive/2007/09/12/courage-driven-blogging.asp
 categories:
   - blogging
   - Personal
+redirect_from: "/blogs/joeydotnet/archive/2007/09/12/courage-driven-blogging.aspx/"
 ---
 > _When wisdom enters your heart, And knowledge is pleasant to your soul, Discretion will preserve you; Understanding will keep you, &#8212; [Proverbs 2:10-11](http://www.blueletterbible.org/cgi-bin/tools/printer-friendly.pl?book=Pro&chapter=002&version=nkjv#10)_
 

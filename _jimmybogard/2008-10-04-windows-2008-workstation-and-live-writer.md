@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265823857"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/10/04/windows-2008-workstation-and-live-writer.aspx/"
 ---
 After quite a bit of work, I’ve finally been able to post a blog entry with my new Windows 2008 Workstation machine.&#160; I recently switched laptops, and have been forced to go silent because of the issues of installing Windows Live Writer on Server 2008.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1643026812"
 categories:
   - VAN
+redirect_from: "/blogs/chad_myers/archive/2009/01/16/virtual-alt-net-group.aspx/"
 ---
 [Zach Young](http://www.zachariahyoung.com) has gone to the trouble to set up a [Google Group for VAN](http://groups.google.com/group/virtualaltnet).&#160; I recommend you subscribe to the list and give some feedback if you can! He’ll be posting announcements and URLs for future events.
 

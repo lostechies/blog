@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715447"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/26/string-extension-methods.aspx/"
 ---
 I got really tired of the [IsNullOrEmpty](http://msdn2.microsoft.com/en-us/library/system.string.isnullorempty.aspx) static method, so I converted it into an extension method:
 

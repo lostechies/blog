@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/04/01/large-scale-software-failures.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/04/01/large-scale-software-failures.aspx/"
 ---
 I tend to follow the news quite regularly, and if you are like me, you are probably aware of the catastrophe that is British Airlines and the new Heathrow T5 terminal.&nbsp; The accumulation of <a href="http://news.sky.com/skynews/article/0,,30400-1311192,00.html" target="_blank">a mountain of 20k pieces of luggage</a> should give you some indication of the size of the problem.&nbsp; The gist of the story is that a new £4.3 billion terminal just opened, and what was supposed to be a technologically advanced baggage handling system wasn&#8217;t quite up to task.
 

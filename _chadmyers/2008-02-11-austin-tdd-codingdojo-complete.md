@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - CodingDojo
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/02/10/austin-tdd-codingdojo-complete.aspx/"
 ---
 <img style="margin: 0px 0px 0px 15px" src="http://farm3.static.flickr.com/2069/2256055088_2c08066a8a.jpg?v=0" align="right" />On Saturday morning, February 9th, 2008, on the [frozen tundra of Lambeau Field](http://en.wikipedia.org/wiki/Lambeau_Field#.22The_Frozen_Tundra.22), 20+ geeks descended to explore what TDD was all about. Ok, it wasn&#8217;t frozen, nor tundra, nor Lambeau Field, but it was Feb. 9th and we were all geeks and it was good.
 

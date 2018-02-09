@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/22/the-art-of-the-metaobject-protocol.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/22/the-art-of-the-metaobject-protocol.aspx/"
 ---
 <table cellpadding="6">
   <tr>

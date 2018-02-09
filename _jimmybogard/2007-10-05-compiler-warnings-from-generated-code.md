@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266545079"
 categories:
   - ASPdotNET
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/05/compiler-warnings-from-generated-code.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/compiler-warnings-from-generated-code.html)._
 

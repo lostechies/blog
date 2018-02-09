@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - CodeCamp
   - LosTechies
+redirect_from: "/blogs/chad_myers/archive/2009/05/17/austin-codecamp-09-quite-possibly-better-than-bacon.aspx/"
 ---
 ## You should go to Austin CodeCamp ‘09.
 

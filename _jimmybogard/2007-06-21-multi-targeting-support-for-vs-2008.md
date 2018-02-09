@@ -9,6 +9,7 @@ dsq_thread_id:
   - "337034183"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/06/21/multi-targeting-support-for-vs-2008.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/multi-targeting-support-for-vs-2008.html)._
 

@@ -12,6 +12,7 @@ categories:
   - introduction
   - Mono Cecil
   - Silverlight
+redirect_from: "/blogs/gabrielschenker/archive/2009/12/08/writing-a-profiler-for-silverlight-applications-part-2.aspx/"
 ---
 ## Introduction
 

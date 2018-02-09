@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - DependencyInjection
+redirect_from: "/blogs/jimmy_bogard/archive/2010/04/28/dependency-injection-in-asp-net-mvc-contextual-controller-injection.aspx/"
 ---
 In the last post, we looked at the basic DI usage in ASP.NET MVC – instantiating controllers.&#160; However, there are quite a few other things we can do with controllers besides merely instantiate them.&#160; One thing to keep in mind with the Controller base class is that although you can inject your controller’s dependencies, quite a few others are around via properties.
 

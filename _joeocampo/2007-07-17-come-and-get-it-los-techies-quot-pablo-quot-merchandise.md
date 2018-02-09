@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089968"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/07/17/come-and-get-it-los-techies-quot-pablo-quot-merchandise.aspx/"
 ---
 <img src="http://www.lostechies.com/sitefiles/1000/Pablo.png" align="left" />
 

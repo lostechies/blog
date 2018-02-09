@@ -11,6 +11,7 @@ categories:
   - .NET
   - Misc
   - Resharper
+redirect_from: "/blogs/chad_myers/archive/2008/04/07/dear-jetbrains-re-resharper-4-eap-nightlies.aspx/"
 ---
 Dear JetBrains,
 

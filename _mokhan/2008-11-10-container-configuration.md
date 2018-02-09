@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/11/09/container-configuration.aspx
 categories:
   - Design Patterns
+redirect_from: "/blogs/mokhan/archive/2008/11/09/container-configuration.aspx/"
 ---
 In [my last post](http://mokhan.ca/blog/2008/11/09/Lazy+Loaded+Interceptors.aspx) I briefly mentioned how we were wiring some components in to our container.&nbsp; The syntax looked like the following:
 

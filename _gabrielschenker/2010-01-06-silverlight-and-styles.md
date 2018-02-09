@@ -11,6 +11,7 @@ categories:
   - fluent Silverlight
   - Silverlight
   - Styles and Templates
+redirect_from: "/blogs/gabrielschenker/archive/2010/01/06/silverlight-and-styles.aspx/"
 ---
 This post is the result of a couple of frustrating moments passed yesterday. In our application we use the date picker control of the Silverlight toolkit. Unfortunately this control does not work exactly as we would like to thus I decided to redefine its template such as that the control better fits our needs. I didn’t want to put the new style into the app.xaml file but rather store it as a resource in the assembly where our new and improved date picker resides.
 

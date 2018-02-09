@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2008/09/04/ocala-central-florida-geek-pub-night-9-17.aspx
 categories:
   - Community
+redirect_from: "/blogs/scottcreynolds/archive/2008/09/04/ocala-central-florida-geek-pub-night-9-17.aspx/"
 ---
 Wednesday, 9/17, 6:30pm until we&#8217;re done.
 

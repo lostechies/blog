@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715660"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/04/30/developers-or-engineers.aspx/"
 ---
 I&#8217;ve had quite a few job titles where I basically did the same function: Software Engineer, Software Developer, Technical Lead, and so on.&nbsp; In some companies, a Software Developer is a completely different position than Software Engineer, and in others they&#8217;re used interchangeably.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716269"
 categories:
   - ContinuousImprovement
+redirect_from: "/blogs/jimmy_bogard/archive/2009/08/15/continuous-learning-and-getting-left-behind.aspx/"
 ---
 One of the more tiring arguments against ideas like Agile or Lean is the line of “gee, it used to be RUP, now Agile, now Lean.&#160; Make up your mind!&#160; I’ll come back in 2 years when it’s something else shiny you’ve latched onto.”&#160; But that’s not an argument against ideas, it’s just an argument against change.
 

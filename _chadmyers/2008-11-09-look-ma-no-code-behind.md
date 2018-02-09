@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASP.NET
   - MVC
+redirect_from: "/blogs/chad_myers/archive/2008/11/08/look-ma-no-code-behind.aspx/"
 ---
 I’ve been playing with some MVC-related stuff and one of the things I took a second to look at was not having to have a code behind in order to do the whole ViewPage<MODEL> business.
 

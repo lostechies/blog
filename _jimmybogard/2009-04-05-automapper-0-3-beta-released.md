@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267050675"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/04/04/automapper-0-3-beta-released.aspx/"
 ---
 Today, I dropped [AutoMapper](http://automapper.codeplex.com/) [0.3 Beta](http://automapper.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=25697).&#160; From the release notes:
 

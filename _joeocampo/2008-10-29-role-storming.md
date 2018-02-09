@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
+redirect_from: "/blogs/joe_ocampo/archive/2008/10/28/role-storming.aspx/"
 ---
 **UPDATE: This excercise is ideal for large projects with many SME&#8217;s in the room. &nbsp;In this case I was building a Loan Orgination System for a bank with 10+ SME&#8217;s in the room that were all arguing with each other about the Persona&#8217;s and thier behaviors this took two days to do but the outcome was well worth the effort. If you have 1-4 SME&#8217;s this is possibly overkill. &nbsp;Be pragmatic not dogmatic.**&nbsp;
 

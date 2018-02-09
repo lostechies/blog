@@ -8,6 +8,7 @@ wordpress_guid: /blogs/agilecruz/archive/2009/02/10/qualities-the-undergird-agil
 categories:
   - Agile Development
   - Extreme Programming
+redirect_from: "/blogs/agilecruz/archive/2009/02/10/qualities-the-undergird-agile-xp-development.aspx/"
 ---
 &nbsp;
 

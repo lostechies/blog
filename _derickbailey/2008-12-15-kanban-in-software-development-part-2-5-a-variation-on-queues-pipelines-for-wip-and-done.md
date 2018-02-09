@@ -13,6 +13,7 @@ categories:
   - Kanban
   - Lean Systems
   - Management
+redirect_from: "/blogs/derickbailey/archive/2008/12/15/kanban-in-software-development-part-2-5-a-variation-on-queues-pipelines-for-wip-and-done.aspx/"
 ---
 In <a href="http://www.lostechies.com/blogs/derickbailey/archive/2008/12/08/kanban-in-software-development-part-2-completing-the-kanban-board-with-queues-order-points-and-limits.aspx" target="_blank">part 2 of my Kanban in Software Development</a> series, I talked about completing a kanban board with queues, order points and limits. We saw how to take a complete development pipeline and work with a team, its processes and its bottlenecks. In the end, we had a kanban board that could easily represent the processes of the fictional team that we outlined. 
 

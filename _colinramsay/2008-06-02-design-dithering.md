@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2008/06/02/design-dithering.aspx
 categories:
   - practices pragmatism
+redirect_from: "/blogs/colin_ramsay/archive/2008/06/02/design-dithering.aspx/"
 ---
 When you break out of the &#8220;new programmer&#8221; mindset and begin thinking in terms of organisation, patterns, and good design, I think there&#8217;s a real danger of hitting a development wall. What actually is the correct way of implementing a shopping cart? Should you use a three or four tier application design? My outlook on this is pretty simple:
 

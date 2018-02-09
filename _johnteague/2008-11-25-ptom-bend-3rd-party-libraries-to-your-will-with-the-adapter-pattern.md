@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Design Patterns
   - PTOM
+redirect_from: "/blogs/johnteague/archive/2008/11/25/ptom-bend-3rd-party-libraries-to-your-will-with-the-adapter-pattern.aspx/"
 ---
 No matter what you do or where you work, there will always be the 3rd party library that your manager insists you use (you know, the one whose agreement was made on the golf course), or that old legacy code that is impossible to test.&nbsp; Now it might be easy to just throw your hands up in desperation, but you can shield your code from this big ugly untestable tangle by hiding it so that you will never know you are using the library.&nbsp; The easiest way is to use the [Adapter Pattern](http://en.wikipedia.org/wiki/Adapter_pattern).
 

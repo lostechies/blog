@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716567"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2010/08/03/container-friendly-domain-events.aspx/"
 ---
 A lot of times an operation on a single aggregate root needs to result in side effects that are outside the aggregate root boundary.&#160; There are several ways to accomplish this, such as:
 

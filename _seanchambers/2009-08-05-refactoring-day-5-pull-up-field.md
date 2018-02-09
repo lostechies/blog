@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264034235"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/05/refactoring-day-5-pull-up-field.aspx/"
 ---
 </p> 
 

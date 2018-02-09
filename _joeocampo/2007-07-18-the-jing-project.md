@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089888"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/07/18/the-jing-project.aspx/"
 ---
 I just learned about an exciting new screen capture utility called the <a href="http://www.jingproject.com/" target="_blank">Jing Project</a>.&nbsp; You have to check this out.&nbsp; It is pretty easy to use and best of all it is written in .Net 3.0.
 

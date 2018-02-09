@@ -11,6 +11,7 @@ categories:
   - .NET
   - IronRuby
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2011/02/24/validating-xml-against-xsd-schema-in-ironruby.aspx/"
 ---
 There&#8217;s a thousand examples of how to validate an xml document against an xsd schema in C# around the web, but I had a hard time finding one that worked in IronRuby. So I translated some of the C# examples I found into a working IronRuby version.<span style="line-height: 0px">﻿</span>
 

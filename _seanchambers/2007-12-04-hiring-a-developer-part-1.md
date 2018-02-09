@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123736"
 categories:
   - general
+redirect_from: "/blogs/sean_chambers/archive/2007/12/04/hiring-a-developer-part-1.aspx/"
 ---
 In the next couple of weeks we will be posting positions for two new developers to work with myself. As a service to the community I am going to post the process I am going through on my blog so everyone can see what I did when hiring a new developer that would perhaps give them a better idea what works and what does not. Down to business!
 

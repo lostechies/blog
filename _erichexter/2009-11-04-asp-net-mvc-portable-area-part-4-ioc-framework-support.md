@@ -11,6 +11,7 @@ categories:
   - ASP.NET
   - ASP.NET MVC
   - Portable Area
+redirect_from: "/blogs/hex/archive/2009/11/04/asp-net-mvc-portable-area-part-4-ioc-framework-support.aspx/"
 ---
 This is a multi post series on ASP.Net MVC Portable Areas
 

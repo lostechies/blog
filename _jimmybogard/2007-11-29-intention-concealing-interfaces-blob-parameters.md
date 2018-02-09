@@ -11,6 +11,7 @@ categories:
   - 'C#'
   - DomainDrivenDesign
   - Patterns
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/29/intention-concealing-interfaces-blob-parameters.aspx/"
 ---
 When someone is using your code, you want your code to be as explicit and easy to understand&nbsp;as possible.&nbsp; This is achieved through Intention-Revealing Interfaces.&nbsp; [Evans](http://domainlanguage.com/about/ericevans.html) describes the problems of opaque and misleading interfaces in [Domain-Driven Design](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215):
 

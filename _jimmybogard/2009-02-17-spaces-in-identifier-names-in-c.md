@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - BDD
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/16/spaces-in-identifier-names-in-c.aspx/"
 ---
 While I’m a fan of descriptive member names for testcase classes and test methods, there wasn’t a great way to create readable text.&#160; Text in code editors is almost universally monospace, which reads very well for languages with lots of syntax.&#160; But when it comes to stringing several words together to form a phrase, things get ugly.&#160; Here’s a test I found in the StructureMap source code:
 

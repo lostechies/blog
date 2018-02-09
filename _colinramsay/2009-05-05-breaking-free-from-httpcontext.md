@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2009/05/05/breaking-free-from-httpcontext.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colin_ramsay/archive/2009/05/05/breaking-free-from-httpcontext.aspx/"
 ---
 The System.Web.HttpContext class is a real heavyweight of the .NET Framework. It holds a wealth of information on the current server context, from the details of the current user request to a host of details about the server. It&#8217;s accessible from the HttpContext.Current static property, which means you can get hold of this information at and point in your code. Whether this is a strength or a weakness depends on your point of view, but consider the following code:
 

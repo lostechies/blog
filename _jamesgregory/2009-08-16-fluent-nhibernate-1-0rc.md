@@ -9,6 +9,7 @@ dsq_thread_id:
   - "277276369"
 categories:
   - Fluent NHibernate
+redirect_from: "/blogs/jagregory/archive/2009/08/16/fluent-nhibernate-1-0rc.aspx/"
 ---
 It&#8217;s nearly here, at long last [Fluent NHibernate](http://fluentnhibernate.org) has nearly reached 1.0. Now starts the official public testing of our 1.0RC.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089226"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2008/04/29/open-spaces-in-practice.aspx/"
 ---
 After a great weekend in Seattle for the ALT.NET Open Spaces event (aside from a slight error in judgement on Friday night [as depicted in this blog post](http://flux88.com/ALTNETDay1.aspx)), the two coworkers and I discussed how we could bring the experience of Open Spaces back to the team in Tulsa. We decided that instead of just giving a few talks about some of the things we took away from Seattle, we would bring the experience itself to the team.
 

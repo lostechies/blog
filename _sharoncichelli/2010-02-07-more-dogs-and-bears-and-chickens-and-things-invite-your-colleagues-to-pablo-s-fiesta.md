@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263370994"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sharoncichelli/archive/2010/02/07/more-dogs-and-bears-and-chickens-and-things-invite-your-colleagues-to-pablo-s-fiesta.aspx/"
 ---
 If you work with developers who are women, please tell them about the [Los Techies Open Space conference](http://fiesta.lostechies.com/), coming up at the end of February. If you&#8217;ve attended an event like this in the past, you&#8217;re already aware of some facts:
 

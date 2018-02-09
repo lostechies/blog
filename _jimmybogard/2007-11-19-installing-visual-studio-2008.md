@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715430"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/19/installing-visual-studio-2008.aspx/"
 ---
 As has already been noted in numerous places, VS 2008&nbsp;dropped today.&nbsp; The installation process has been surprisingly smooth, given my past installation experiences.
 

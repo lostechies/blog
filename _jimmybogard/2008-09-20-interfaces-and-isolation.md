@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715915"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/09/20/interfaces-and-isolation.aspx/"
 ---
 Roy Osherove has [suggested a new name](http://weblogs.asp.net/rosherove/archive/2008/09/20/goodbye-mocks-farewell-stubs.aspx) for mocks, fakes, stubs or any test double: **Isolation**.&nbsp; True, the myriad of test double names can muddy the language, and Meszaros&#8217; suggested name of &#8220;test double&#8221; still confuses people that don&#8217;t get the &#8220;stunt double&#8221; comparison.
 

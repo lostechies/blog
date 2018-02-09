@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/03/16/breaking-the-silence.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/03/16/breaking-the-silence.aspx/"
 ---
 So it&#8217;s been quite some time since my last post.&nbsp; I figured I&#8217;d put an ice breaker out to break the silence.&nbsp; This is it.
 

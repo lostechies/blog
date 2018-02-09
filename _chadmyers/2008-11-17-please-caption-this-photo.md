@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114150"
 categories:
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/11/16/please-caption-this-photo.aspx/"
 ---
 (hat tip: [Tim Barcz](http://devlicio.us/blogs/tim_barcz) for the idea of making this Slide #1 on all my slide decks henceforth)
 

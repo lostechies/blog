@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2009/01/19/pablo-welcomes-scott-densmore.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottcreynolds/archive/2009/01/19/pablo-welcomes-scott-densmore.aspx/"
 ---
 It is my pleasure to announce Scott Densmore as the newest Los Techie. Scott is a reformed Blue Badge with work in P&P and CodePlex in his credits, and, more importantly, brings some credibility to the Florida wing of LT which was being held back by Sean and I. He also represents phase 2 of my master plan to turn this place into Los Scotts.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088247"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/04/03/rspec-and-behavior-driven-development-interview-with-lead-developers.aspx/"
 ---
 InfoQ interviews Dave Astels and Steven Baker, two of the authors of the successful Rspec framework about enabling Behavior-Driven Development in Ruby, and the implications of moving from a test-centric point of view to one that is more specification-driven. 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "279197643"
 categories:
   - Fluent NHibernate
+redirect_from: "/blogs/jagregory/archive/2009/08/28/fluent-nhibernate-1-0-rtm.aspx/"
 ---
 It&#8217;s [here](http://fluentnhibernate.org/downloads).
 

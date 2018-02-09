@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716622"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2010/12/16/most-boring-debates-ever.aspx/"
 ---
 As lived for us every day in Twitter, irc, newsgroups, blog comments, digg, reddit, over and over and over again:
 

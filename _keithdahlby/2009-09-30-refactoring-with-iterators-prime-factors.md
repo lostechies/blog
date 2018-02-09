@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Iterators
   - Refactoring
+redirect_from: "/blogs/dahlbyk/archive/2009/09/30/refactoring-with-iterators-prime-factors.aspx/"
 ---
 [Andrew Woodward](http://www.21apps.com/) recently posted a [comparison of his test-driven Prime Factors solution](http://www.21apps.com/development/comparing-myself-to-uncle-bob-martin/ "Comparing myself to Uncle Bob Martin") to [one written by](http://www.butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata "Prime Factors Kata") [Uncle Bob](http://butunclebob.com/ "Robert C. Martin"). In the comments, someone suggested that Andrew use an iterator instead so I thought I&#8217;d give it a try.
 

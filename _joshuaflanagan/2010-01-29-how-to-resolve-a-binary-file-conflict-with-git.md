@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113201"
 categories:
   - git
+redirect_from: "/blogs/joshuaflanagan/archive/2010/01/28/how-to-resolve-a-binary-file-conflict-with-git.aspx/"
 ---
 When performing a merge in <a href="http://git-scm.com/" target="_blank">git</a>, you might see the message:
 

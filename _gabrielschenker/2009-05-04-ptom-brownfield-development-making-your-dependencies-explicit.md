@@ -15,6 +15,7 @@ categories:
   - PTOM
   - SOLID
   - TDD
+redirect_from: "/blogs/gabrielschenker/archive/2009/05/05/ptom-brownfield-development-making-your-dependencies-explicit.aspx/"
 ---
 # Introducing DI and “poor man’s DI”
 

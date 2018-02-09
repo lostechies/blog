@@ -11,6 +11,7 @@ categories:
   - Agile
   - Books Reviews
   - Lean Systems
+redirect_from: "/blogs/derickbailey/archive/2009/03/08/book-review-the-art-of-lean-software-development.aspx/"
 ---
 [The Art of Lean Software Development](http://www.amazon.com/gp/product/0596517319?ie=UTF8&tag=loste02-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596517319) <img style="border-right: medium none;border-top: medium none;margin: 0px;border-left: medium none;border-bottom: medium none" height="1" alt="" src="http://www.assoc-amazon.com/e/ir?t=loste02-20&l=as2&o=1&a=0596517319" width="1" border="0" />
 

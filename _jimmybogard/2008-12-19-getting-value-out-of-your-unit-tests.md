@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716006"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/12/18/getting-value-out-of-your-unit-tests.aspx/"
 ---
 Unit tests, with TDD in particular, are the most efficient way I’ve found in creating behavior for my application.&#160; For lasting value, beyond just the safety net of “if I change something, will something break”, requires extra discipline, and a more refined manner in which we go about doing TDD.&#160; One of the most frustrating aspects of TDD done wrong is dozens of unit tests that provide no other value than they might fail.
 

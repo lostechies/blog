@@ -14,6 +14,7 @@ categories:
   - Pragmatism
   - Quality
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/03/29/why-i-write-automated-tests-for-my-code.aspx/"
 ---
 I started my journey of unit testing my code about 4 years ago… I had played with nunit prior to that, but I never understood the point and would delete my tests after I got them to pass… that was a long time ago, and of course I’m much more educated and experienced now. 🙂 One of the interesting things that I’ve noticed in myself over the years, concerning tests, is a change in why I write tests for my code. I’m not sure I could articulate all the various reasons that have come and gone since I started this journey, so I won’t try to do that. Rather, I wanted to note why I test, currently.
 

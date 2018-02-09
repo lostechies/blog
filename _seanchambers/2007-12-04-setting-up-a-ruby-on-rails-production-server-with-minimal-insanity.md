@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263238944"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/12/04/setting-up-a-ruby-on-rails-production-server-with-minimal-insanity.aspx/"
 ---
 So last week a co-worker came to me and said he needed a &#8220;quick and dirty&#8221; application for keeping track of assets internally. I told him that I didn&#8217;t have enough time to do a full scale .Net web app but that perhaps RoR could give us what we were looking for. Within 30 minutes we had a pretty good looking model setup and was entering dummy data into it with the help of scaffolding. My co-worker assured me that this would be fine for now pending a handful of changes and validations to perform when entering data. That being said I set off to get a production server up and running. That&#8217;s where I left my sanity.
 

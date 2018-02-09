@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/eric/archive/2009/08/12/unused-constructor-dependencies.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/eric/archive/2009/08/12/unused-constructor-dependencies.aspx/"
 ---
 <span style="font-size: medium">Some classes simply require multiple dependencies that don&rsquo;t always get used.&nbsp; When testing such a class, there are several options for supplying the constructor parameters that will not be used.&nbsp; I prefer to write tests that are as intention-revealing as possible.&nbsp; </span>
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "806302404"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/13/fluent-interface-endgame.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/fluent-interface-endgame.html)._
 

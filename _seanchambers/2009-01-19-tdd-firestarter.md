@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123868"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/01/18/tdd-firestarter.aspx/"
 ---
 I want to thank everyone for coming out to the TDD Firestarter event that we had in Tampa yesterday. We had an excellent turnout (about 80 people), and everyone was very interested in getting to know TDD/BDD.
 

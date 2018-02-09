@@ -12,6 +12,7 @@ categories:
   - burndown
   - ProjectManagement
   - Scrum
+redirect_from: "/blogs/stevedonie/archive/2009/03/26/updated-release-burndown-spreadsheet-template.aspx/"
 ---
 I mentioned this release burndown template in one of my earlier posts, but I have updated it quite a bit since then, so I am re-posting the link, along with some instructions.
 

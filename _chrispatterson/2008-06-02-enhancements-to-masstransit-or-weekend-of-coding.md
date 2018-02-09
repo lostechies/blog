@@ -9,6 +9,7 @@ dsq_thread_id:
   - "270739654"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2008/06/02/enhancements-to-masstransit-or-weekend-of-coding.aspx/"
 ---
 This past couple of weeks I&#8217;ve been putting some serious time into [MassTransit](http://masstransit.googlecode.com/). My primary goal is to improve the internal architecture and remove some of the MSMQ leaks into the infrastructure. Our original goal was to stick purely to MSMQ, however, as we got more into messaging systems we found that there are a lot of other transports with different advantages. For example, using [ActiveMQ](http://activemq.apache.org/) would make it easy to add integration with Java applications down the line. The problem at this point was all the code designed around MSMQ was making it difficult to support other transport types. 
 

@@ -13,6 +13,7 @@ categories:
   - git
   - Source Control
   - Subversion
+redirect_from: "/blogs/derickbailey/archive/2010/02/24/branching-strategies-when-to-branch-and-merge.aspx/"
 ---
 </p> 
 

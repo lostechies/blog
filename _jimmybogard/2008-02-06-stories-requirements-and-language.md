@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715543"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/06/stories-requirements-and-language.aspx/"
 ---
 The negotiation between client and team on what gets delivered is the toughest aspect of software development that I&#8217;ve encountered.&nbsp; Something that&#8217;s eased this aspect for me is adopting [User Stories](http://www.extremeprogramming.org/rules/userstories.html) and abandoning &#8220;Function Requirements&#8221; and &#8220;Feature Requests&#8221;.&nbsp; I&#8217;m reading through [Mike Cohn&#8217;s](http://blog.mountaingoatsoftware.com/) [User Stories Applied](http://www.mountaingoatsoftware.com/book/2-user-stories-applied) to gain a better understanding of the concept.&nbsp; In the book, Mike Cohn shares a quote from a customer of his:
 

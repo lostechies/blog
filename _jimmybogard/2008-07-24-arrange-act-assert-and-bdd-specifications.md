@@ -11,6 +11,7 @@ categories:
   - BDD
   - BehaviorDrivenDevelopment
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/07/24/arrange-act-assert-and-bdd-specifications.aspx/"
 ---
 With Rhino Mocks 3.5 just around the corner, I&#8217;ve started using it to create much more readable tests.&nbsp; One of the things that always bothered me with Expect.Call, constraints and the like was that it mixed in the Arrange with Assert.&nbsp; For those that haven&#8217;t heard of AAA, it&#8217;s a pattern for authoring unit tests:
 

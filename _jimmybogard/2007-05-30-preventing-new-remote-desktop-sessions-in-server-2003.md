@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715364"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/05/30/preventing-new-remote-desktop-sessions-in-server-2003.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/preventing-new-remote-desktop-sessions.html)._
 

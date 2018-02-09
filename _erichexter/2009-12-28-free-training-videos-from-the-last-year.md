@@ -11,6 +11,7 @@ categories:
   - .NET
   - Community
   - headspring
+redirect_from: "/blogs/hex/archive/2009/12/28/free-training-videos-from-the-last-year.aspx/"
 ---
 As part of a technical retreat we are doing for our company ( Headspring) , I thought I would put some posts together and in the name of transparency put this stuff out for others to see, comment, criticize or applaud. I will leave it up to you, which of those you wish to do.
 

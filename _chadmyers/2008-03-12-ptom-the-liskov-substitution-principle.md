@@ -12,6 +12,7 @@ categories:
   - Principles
   - Programming
   - PTOM
+redirect_from: "/blogs/chad_myers/archive/2008/03/11/ptom-the-liskov-substitution-principle.aspx/"
 ---
 # The Liskov Substitution Principle
 

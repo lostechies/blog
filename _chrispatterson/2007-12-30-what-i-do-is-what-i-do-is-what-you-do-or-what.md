@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089195"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2007/12/30/what-i-do-is-what-i-do-is-what-you-do-or-what.aspx/"
 ---
 Since I got [tagged](http://lostechies.com/blogs/joe_ocampo/default.aspx) by [more than one](http://www.lostechies.com/blogs/sean_chambers/default.aspx) of my fellow Los Techies bloggers, I figured I better step up and throw down.
 

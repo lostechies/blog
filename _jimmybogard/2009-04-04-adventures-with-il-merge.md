@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - AutoMapper
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/04/04/adventures-with-il-merge.aspx/"
 ---
 A recent addition to AutoMapper is the feature where I can map directly to and from interfaces.&#160; You don’t need a concrete type to do this, AutoMapper will create an implementation for you at runtime, with default property behavior.&#160; To do so, I needed to use the slick LinFu project, with its dynamic proxy abilities.&#160; This required me to add a reference to an assembly that most folks don’t have, as everything else AutoMapper uses is straight up .NET.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716670"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2011/02/11/trivia-friday.aspx/"
 ---
 Everybody loves a cliffhanger, right?&#160; I found myself needing to write the following code the other day: 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263371082"
 categories:
   - 'C#'
+redirect_from: "/blogs/sharoncichelli/archive/2010/12/29/hello-world-in-c-dev-setup.aspx/"
 ---
 As mentioned, [I&#8217;m learning C](/blogs/sharoncichelli/archive/2010/12/03/dipping-into-c.aspx), and I&#8217;ve achieved hello-world, plus recursive calculations of factorials and some data structures. Whee. 🙂 For those playing along at home, I&#8217;ll describe my dev setup.
 

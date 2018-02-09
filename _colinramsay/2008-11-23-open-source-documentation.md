@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2008/11/23/open-source-documentation.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colin_ramsay/archive/2008/11/23/open-source-documentation.aspx/"
 ---
 Recently I&#8217;ve set up a network attached storage computer on my home network. As well as providing RAID storage for all the devices in the house, it acts as a central download server for everyone to use. Key to this strategy is [SABnzbd](http://www.sabnzbd.org/), a Python application which downloads binaries from newsgroups, and which sits on the server as a daemon, grabbing files on a schedule or when we ask it to. The functionality of this software is incredible, but more than that, there is a great deal of documentation for each feature directly linked from the web interface. This enabled me to set up advanced features such as RSS feeds, categorisation, and post-download scripts, in order to shift SABnzbd from being handy to indispensible.
 

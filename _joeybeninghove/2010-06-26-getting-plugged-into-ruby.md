@@ -10,6 +10,7 @@ categories:
   - podcasts
   - Ruby
   - screencasts
+redirect_from: "/blogs/joeydotnet/archive/2010/06/26/getting-plugged-into-ruby.aspx/"
 ---
 Brad Mead asked a question on my [previous
   

@@ -14,6 +14,7 @@ categories:
   - 'C#'
   - Principles and Patterns
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2010/04/12/coupling-is-your-friend.aspx/"
 ---
 [My SOLID article in Code Magazine](http://www.code-magazine.com/Article.aspx?quickid=1001061) talks about the concept of coupling as one of the object oriented principles that we are striving to get right. 
 

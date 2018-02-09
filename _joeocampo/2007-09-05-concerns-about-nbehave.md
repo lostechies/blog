@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - BDD (Behavior Driven Development)
   - Domain Driven Design (DDD)
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/05/concerns-about-nbehave.aspx/"
 ---
  <img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="240" alt="square_round" src="http://lostechies.com/joeocampo/files/2011/03ConcernsaboutNBehave_CC25/square_round_1.jpg" width="163" align="right" border="0" />This is an attempt to answer <a href="http://codebetter.com/blogs/scott.bellware/archive/2007/09/05/167500.aspx" target="_blank">Scott Bellware’s</a> concerns and questions about <a href="http://nbehave.org/" target="_blank">NBehave</a>. 
 

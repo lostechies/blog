@@ -12,6 +12,7 @@ categories:
   - Patterns
   - practices
   - SOLID
+redirect_from: "/blogs/gabrielschenker/archive/2009/02/13/the-open-closed-principle.aspx/"
 ---
 {% raw %}
 [<img style="border-right: 0px;border-top: 0px;margin-left: 0px;border-left: 0px;margin-right: 0px;border-bottom: 0px" alt="wall_thumb4" src="//lostechies.com/gabrielschenker/files/2011/03/wall_thumb4_3A8C0CF7.jpg" align="right" border="0" width="185" height="244" />](/Users/Administrator/AppData/Local/Temp/WindowsLiveWriter1286139640/supfiles34414B9/wall6.jpg) In the previous two posts I discussed the **S** of S.O.L.I.D. which is the [Single Responsibility Principle](/blogs/gabrielschenker/archive/2009/01/21/real-swiss-don-t-need-srp-do-they.aspx) (SRP) and the D of S.O.L.I.D. which corresponds to the [Dependency Inversion](/blogs/gabrielschenker/archive/2009/01/30/the-dependency-inversion-principle.aspx) Principle (DI). This time I want to continue this series with the second letter of S.O.L.I.D. namely the O which represents the **Open Close Principle** (OCP).

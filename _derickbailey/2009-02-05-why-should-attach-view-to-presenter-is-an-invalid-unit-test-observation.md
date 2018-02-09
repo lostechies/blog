@@ -15,6 +15,7 @@ categories:
   - Model-View-Presenter
   - Principles and Patterns
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2009/02/05/why-should-attach-view-to-presenter-is-an-invalid-unit-test-observation.aspx/"
 ---
 I’ve written a lot of specification tests like this in the last three years, from a UI / Workflow perspective, with Model-View-Presenter as my core UI architecture:
 

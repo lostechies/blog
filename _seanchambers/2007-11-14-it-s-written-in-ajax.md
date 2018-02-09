@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123724"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/11/14/it-s-written-in-ajax.aspx/"
 ---
 Had a very long webinar this morning about some new software we&#8217;re looking at purchasing. The sales guy is showing us a bunch of features and blurts out the &#8220;AJAX&#8221; buzz word. I listen in more closely to see what he&#8217;s going to say. It goes something like this:
 

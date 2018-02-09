@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113646"
 categories:
   - Principles
+redirect_from: "/blogs/chad_myers/archive/2008/02/12/guiding-principles-101.aspx/"
 ---
 As a answer-in-part to my own [Call To Blog More](http://www.lostechies.com/blogs/chad_myers/archive/2008/02/10/you-need-to-blog-now.aspx), I&#8217;d like to make an entry.&nbsp; I&#8217;d like to talk about some of the guiding principles of design we should all be thinking about and re-enforcing in each other.&nbsp; These principles require discipline and it&#8217;s VERY easy to not use them and still achieve decent results (at the cost of looming, expensive problems down the road).&nbsp; You owe it to yourself and your fellow co-worker developer to be familiar with these, at least, and to make an attempt to practice them on a daily basis.
 

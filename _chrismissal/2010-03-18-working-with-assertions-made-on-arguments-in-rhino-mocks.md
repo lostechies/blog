@@ -14,6 +14,7 @@ categories:
   - NUnit
   - RhinoMocks
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2010/03/17/working-with-assertions-made-on-arguments-in-rhino-mocks.aspx/"
 ---
 &nbsp;
 

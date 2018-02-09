@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - BDD
   - TDD
+redirect_from: "/blogs/rssvihla/archive/2009/09/01/simple-bdd-tdd.aspx/"
 ---
 Todays theory is **most tests and specs should be very short (2-3 lines), have at most a setup for context establishment, avoid the majority of test framework features as they should be used as an exception and not as a rule.**&nbsp; Note: I practice BDD nowadays and do not like using the term &#8220;test&#8221;, but these rules apply for BDD as well as TDD, and I imagine most of you practice TDD so I&#8217;ll be using primarily TDD terminology.
 

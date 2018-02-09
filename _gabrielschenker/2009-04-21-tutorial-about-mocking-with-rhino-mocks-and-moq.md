@@ -11,6 +11,7 @@ categories:
   - Mock
   - mocking framework
   - tutorial
+redirect_from: "/blogs/gabrielschenker/archive/2009/04/21/tutorial-about-mocking-with-rhino-mocks-and-moq.aspx/"
 ---
 I was asked to write a tutorial about mocking with Rhino Mocks on [DotNetSlackers](http://dotnetslackers.com).
 

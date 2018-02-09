@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/04/21/thanks-alt-net-seattle.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/04/21/thanks-alt-net-seattle.aspx/"
 ---
 The ALT.NET conference wrapped up yesterday afternoon. I wanted to say thanks to all the volunteers, organizers, and sponsors. Thanks to all the other participants who made up the conference. I got to meet a lot of folks who I had only previously known online and I got to be involved in many interesting conversations. I even got to see some snow coming down. It was a very productive conference.
 

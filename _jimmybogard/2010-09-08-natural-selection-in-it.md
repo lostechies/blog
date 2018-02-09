@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716574"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2010/09/08/natural-selection-in-it.aspx/"
 ---
 Or, survival of the fittest.&#160; When I worked for a large IT organization a few years back, there was an effort to purge the company of what were referred to as “Client Supported Systems”.&#160; In other words, systems the business was using that weren’t maintained under the official IT umbrella.&#160; When the number of these applications was finally tallied, **the sheer volume was _staggering_**.&#160; Tens of thousands of micro applications around the business, helping to generate revenue or support the business in some way.&#160; This was in a Fortune 50 company whose business centered around technology.
 

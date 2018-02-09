@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055506"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2008/09/12/intro-to-jquery-slides.aspx/"
 ---
 I had the pleasure of speaking at the San Antonio .Net Users Group, aka [Alamo Coders](http://www.alamocoders.net/), this week.&nbsp; We talked about [jQuery](http://www.jquery.com) and [Unobtrusive JavaScript](http://en.wikipedia.org/wiki/Unobtrusive_JavaScript).
 

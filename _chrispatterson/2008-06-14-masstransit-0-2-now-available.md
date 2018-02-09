@@ -12,6 +12,7 @@ categories:
   - activemq
   - masstransit
   - msmq
+redirect_from: "/blogs/chris_patterson/archive/2008/06/13/masstransit-0-2-now-available.aspx/"
 ---
 We&rsquo;ve dropped a new release of [MassTransit](http://code.google.com/p/masstransit/) today, [version 0.2](http://masstransit.googlecode.com/files/masstransit-0.2.zip) is now available on the main page. There are several new features included in this release. It was great to get some feedback from people who have tried MassTransit, along with the evolution from discussions with Greg Young, Udi Dahan, Ayende, and others at ALT.NET Seattle.
 

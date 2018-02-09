@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/09/23/learning-tdd.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/09/23/learning-tdd.aspx/"
 ---
 Learning TDD takes time and can be especially tough if you don&#8217;t have an opportunity to work with folks that are already doing TDD. It requires you to think and work differently and there are many pitfalls along the way. I know that I&#8217;ve made a ton of mistakes.
 

@@ -11,6 +11,7 @@ categories:
   - git
   - git-achievements
   - Powershell
+redirect_from: "/blogs/dahlbyk/archive/2010/10/05/git-achievements-in-powershell.aspx/"
 ---
 Reading through Jason&#8217;s post on [using Git-Achievements with msysGit](../../blogs/jason_meridth/archive/2010/09/24/git-achievements-on-windows.aspx "Git-Achievements on Windows"), I couldn&#8217;t help but get it working with PowerShell. The result is a single PowerShell script added to [my Git-Achievements repository](http://github.com/dahlbyk/git-achievements "dahlbyk's git-achievements"), tagged [here](http://github.com/dahlbyk/git-achievements/tree/powershell "powershell on dahlbyk's git-achievements") on the off chance I decided to upload my achievements.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088567"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/04/18/if-the-defence-department-can-do-agile-anyone-can.aspx/"
 ---
 The title says it all!&nbsp; If the defence department can somehow find a way to incorporate agile there isn&#8217;t any excuse for any industry not to adopt it.
 

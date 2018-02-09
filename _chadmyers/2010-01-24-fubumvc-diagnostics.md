@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114489"
 categories:
   - FubuMVC
+redirect_from: "/blogs/chad_myers/archive/2010/01/24/fubumvc-diagnostics.aspx/"
 ---
 _This post is about the_ [_FubuMVC_](http://fubumvc.com/) _framework. For more info on getting started, click the previous link, or view the_ [_Getting started wiki page_](http://wiki.fubumvc.com/Getting_started)_._
 

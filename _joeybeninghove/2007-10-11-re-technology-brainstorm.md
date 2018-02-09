@@ -10,6 +10,7 @@ categories:
   - Domain Driven Design
   - MonoRail
   - Patterns
+redirect_from: "/blogs/joeydotnet/archive/2007/10/10/re-technology-brainstorm.aspx/"
 ---
 (Because I often get tired of writing my verbose comments in a 300&#215;300 text
   

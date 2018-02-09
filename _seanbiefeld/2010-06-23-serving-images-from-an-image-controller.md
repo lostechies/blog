@@ -11,6 +11,7 @@ categories:
   - .NET
   - ASP.NET MVC
   - 'C#'
+redirect_from: "/blogs/seanbiefeld/archive/2010/06/23/serving-images-from-an-image-controller.aspx/"
 ---
 Found this solution rather simple when you want to serve images from your database.
 

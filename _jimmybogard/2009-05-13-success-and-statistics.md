@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716140"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2009/05/12/success-and-statistics.aspx/"
 ---
 The [2009 CHAOS Summary](http://www.standishgroup.com/newsroom/chaos_2009.php) has some interesting numbers:
 

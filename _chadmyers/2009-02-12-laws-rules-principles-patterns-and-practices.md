@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114289"
 categories:
   - Principles
+redirect_from: "/blogs/chad_myers/archive/2009/02/11/laws-rules-principles-patterns-and-practices.aspx/"
 ---
 I speak and write a lot about principles, patterns, and practices.&#160; There has been a lot of hullabaloo lately about blind, rigid adherence to principles and how, apparently, this will result in some sort of catastrophe. Frankly, if we, as a profession, ever got the point where we were too rigidly following things like the [SOLID principles](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx), I think we’d be doing pretty good and that it would generally be a good problem to have (like having too much money or one extra piece of cake – a problem no doubt, but a good problem and one easily solved).
 

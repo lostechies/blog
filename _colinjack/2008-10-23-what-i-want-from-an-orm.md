@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2008/10/23/what-i-want-from-an-orm.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colinjack/archive/2008/10/23/what-i-want-from-an-orm.aspx/"
 ---
 Thought I&#8217;d blog about some of the things I&#8217;d like to see in an ORM in the future, particularly to support DDD cleanly: 
 

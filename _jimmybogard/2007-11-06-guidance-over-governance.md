@@ -9,6 +9,7 @@ dsq_thread_id:
   - "395403874"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/06/guidance-over-governance.aspx/"
 ---
 Being part of a large IT organization, I&#8217;ve become acutely aware of the need to provide a central policy or governance over critical IT operations.&nbsp; While greenfield/product teams can largely operate in independence, the risk associated with large, complex, and business-critical systems demands some degree of oversight.&nbsp; However, an IT governance team can fall into some huge traps in their effort to set and enforce policy:
 

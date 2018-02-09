@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715927"
 categories:
   - JavaScript
+redirect_from: "/blogs/jimmy_bogard/archive/2008/09/26/javascript-block-scoping.aspx/"
 ---
 I&#8217;m going through [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742) (which I highly, highly recommend), and I&#8217;m finding I knew next to nothing about JavaScript.&nbsp; For example, this does not compile in C#:
 

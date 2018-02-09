@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268812530"
 categories:
   - .NET
+redirect_from: "/blogs/chris_patterson/archive/2008/08/28/managing-long-lived-transactions-with-masstransit-saga.aspx/"
 ---
 One of the first applications we built with [MassTransit](http://code.google.com/p/masstransit/) provides messaging for a long-running transaction started by an application submitting a request. The request is formatted into a X12 envelope and sent to a web service. An intermediate response is returned (a X12 997) with a correlation identifier for the request. Another web service is polled for the response, which can be the result or an indication that the request is still pending. When the response is received, the X12 document is translated and stored in the database. Finally, the user is notified that the transaction is complete and the result is displayed. 
 

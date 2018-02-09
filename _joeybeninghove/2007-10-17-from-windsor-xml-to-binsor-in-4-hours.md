@@ -10,6 +10,7 @@ categories:
   - Boo
   - Castle
   - windsor
+redirect_from: "/blogs/joeydotnet/archive/2007/10/17/from-windsor-xml-to-binsor-in-4-hours.aspx/"
 ---
 I&#8217;m getting ready to take a break from my current project and switch gears
   

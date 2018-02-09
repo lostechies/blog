@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265816400"
 categories:
   - Uncategorized
+redirect_from: "/blogs/thatotherguy/archive/2009/06/18/if-you-re-looking-for-nothin-but-net.aspx/"
 ---
 I attended JP&#8217;s Nothin But .Net course (<http://www.jpboodhoo.com/training.oo>) last week and I wanted to share my perspective with anyone who might be considering the course.&nbsp; I really enjoyed the experience and I&#8217;d happily recommend the course . . . to the right people.&nbsp; Rather than do the usual &#8220;I recommend this course because blah, blah, blah&#8221; I&#8217;d like to tell you why you shouldn&#8217;t or wouldn&#8217;t want to attend.&nbsp; If you make to the end of this post and still want to attend, I highly recommend you do as soon as possible.
 

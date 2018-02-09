@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716536"
 categories:
   - Mercurial
+redirect_from: "/blogs/jimmy_bogard/archive/2010/07/08/mercurial-workflows-local-development-work.aspx/"
 ---
 The nice thing about distributed version control systems (DVCS) such as [Git](http://git-scm.com/) and [Hg](http://mercurial.selenic.com/) is that they both allow me to basically decide how my source control should fit with my short and long-term development workflows.&#160; A while back, I wrote what was basically a [stream of consciousness post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/06/02/translating-my-git-workflow-with-local-branches-to-mercurial.aspx) on getting my Git workflow working in Hg.&#160; Well, a teammate tried to follow those steps…and found that I missed a few important nuggets.
 

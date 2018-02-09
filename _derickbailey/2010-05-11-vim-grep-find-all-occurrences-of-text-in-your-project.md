@@ -13,6 +13,7 @@ categories:
   - Ruby
   - Smoke Test
   - Vim
+redirect_from: "/blogs/derickbailey/archive/2010/05/11/vim-grep-find-all-occurrences-of-text-in-your-project.aspx/"
 ---
 I’m in the middle of some sweeping changes in [albacore](http://albacorebuild.net) – changing the .path\_to\_command property to .command for all of the tasks that run an external tool. The core of the change is easy. I have a RunCommand module that contains the definition for .path\_to\_command. However, there are a lot of unit tests and example code chunks that use the .path\_to\_command attribute all throughout the code. Back when I was using E TextEditor or another editor that had the concept of a “project”, I would do a “find all occurrences” in the project and look for the .path\_to\_command property. In vim, I wasn’t sure how to do this, but I did know that I could accomplish the same thing using grep on the command line. A quick google search for “vim grep” turned up&#160; a page on the vim wikia and had me up and running with [vimgrep](http://vim.wikia.com/wiki/Find_in_files_within_Vim) (among other options) in no time.
 

@@ -11,6 +11,7 @@ categories:
   - Mock
   - mocking framework
   - TDD
+redirect_from: "/blogs/gabrielschenker/archive/2009/01/29/true-swiss-don-t-like-mocks.aspx/"
 ---
 ## Preface
 

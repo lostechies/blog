@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715415"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/14/the-sinking-ship.aspx/"
 ---
 An interesting quote from a colleague today (paraphrased):
 

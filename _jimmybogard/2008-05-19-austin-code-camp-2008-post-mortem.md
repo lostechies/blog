@@ -9,6 +9,7 @@ dsq_thread_id:
   - "344085116"
 categories:
   - AustinCodeCamp
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/18/austin-code-camp-2008-post-mortem.aspx/"
 ---
 I really hate the word &#8220;post-mortem.&#8221;&nbsp; Did someone die?&nbsp; Anyway, I had a great time in my talks over:
 

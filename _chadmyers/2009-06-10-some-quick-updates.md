@@ -11,6 +11,7 @@ categories:
   - Agile
   - Misc
   - NHibernate
+redirect_from: "/blogs/chad_myers/archive/2009/06/09/some-quick-updates.aspx/"
 ---
 I know I’ve been remiss in my blog posting duties. Please trust me when I say it’s for good reason and that you’d understand.
 

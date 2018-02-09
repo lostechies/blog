@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262175209"
 categories:
   - git
+redirect_from: "/blogs/chrismissal/archive/2010/12/22/quirk-with-invalid-git-config.aspx/"
 ---
 I bumped into what seems like a weird quirk with one of my git config files today. A bad value was reported:
 

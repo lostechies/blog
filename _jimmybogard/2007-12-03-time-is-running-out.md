@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715455"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2007/12/03/time-is-running-out.aspx/"
 ---
 I popped open [Windows Live Writer](http://get.live.com/writer/overview) today and got a fun message:
 

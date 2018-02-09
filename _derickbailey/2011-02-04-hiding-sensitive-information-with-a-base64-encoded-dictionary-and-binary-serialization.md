@@ -11,6 +11,7 @@ categories:
   - .NET
   - 'C#'
   - Data Access
+redirect_from: "/blogs/derickbailey/archive/2011/02/04/hiding-sensitive-information-with-a-base64-encoded-dictionary-and-binary-serialization.aspx/"
 ---
 I&#8217;ve been back in C# land for the last few weeks writing a small Winforms application that runs from a USB thumb drive.
 

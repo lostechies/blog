@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262346114"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/02/refactoring-day-1-encapsulate-collection.aspx/"
 ---
 In certain scenarios it is beneficial to not expose a full collection to consumers of a class. Some of these circumstances is when there is additional logic associated with adding/removing items from a collection. Because of this reason, it is a good idea to only expose the collection as something you can iterate over without modifying the collection. Let’s take a look at some code 
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Screencast
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/05/14/ping-pong-pairing-session-screencast-with-ben-scheirman.aspx/"
 ---
 Well, it&#8217;s two-fer Tuesday here at Los Techies, I guess!&nbsp; By pure coincidence, Ben Scheirman wrapped up the post-production of a screencast we did a few weeks ago.
 

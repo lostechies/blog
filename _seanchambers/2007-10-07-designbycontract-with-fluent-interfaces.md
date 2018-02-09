@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123695"
 categories:
   - general
+redirect_from: "/blogs/sean_chambers/archive/2007/10/06/designbycontract-with-fluent-interfaces.aspx/"
 ---
 I was reading through some&nbsp;blog posts and through a recent post, stumbled&nbsp;across <a target="_blank" href="http://devlicio.us/blogs/billy_mccafferty/archive/2006/09/22/Design-by-Contract_3A00_-A-Practical-Introduction.aspx">this one</a>&nbsp;from <a target="_blank" href="http://devlicio.us/blogs/billy_mccafferty/default.aspx">Bill McCafferty</a>&nbsp;and took a look at the <a target="_blank" href="http://www.codeproject.com/csharp/designbycontract.asp">DesignByContract CodeProject article</a>. This is just a simple utility class to pass in assertions and get an exception to be thrown with a message if the contract has been violated. I did this manually in my last project using repetitive code that got to be a pain. On a new project I definately wanted to use a utility to perform these checks for me. The DesignByContract sample would seem to fit the solution. It is working fine thus far, but I didn&#8217;t like how the method calls looked and thought it would be a prime candidate for some fluent interfaces.
 

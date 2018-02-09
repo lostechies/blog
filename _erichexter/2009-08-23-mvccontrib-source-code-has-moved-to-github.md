@@ -14,6 +14,7 @@ categories:
   - mvccontrib
   - Open Source Software
   - OSS
+redirect_from: "/blogs/hex/archive/2009/08/23/mvccontrib-source-code-has-moved-to-github.aspx/"
 ---
 We recently moved the MvcContrib projects source code over to GitHub.&#160; We are hoping that the ease of creating forks and pulling them back into the trunk will allow for more contributions to the project.&#160; I know that GIT seems to be a source control system that few developers in the .Net space seem to know about but Jeremy Skinner created a great [tutorial](http://mvccontrib.github.com/MvcContrib/) specifically for the MvcContrib project.
 

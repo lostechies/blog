@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Agile Project Coaching &amp; Management'
   - lean
+redirect_from: "/blogs/joe_ocampo/archive/2009/06/04/what-are-you-solving-for.aspx/"
 ---
 Exactly!<img style="margin: 0px 0px 10px 15px" src="http://www.library.jhu.edu/images/rsc/subjectguides/svmath_problem.jpg" width="273" align="right" height="195" />
 

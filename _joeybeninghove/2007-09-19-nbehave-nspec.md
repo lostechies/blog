@@ -10,6 +10,7 @@ categories:
   - NBehave
   - nspec
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/09/19/nbehave-nspec.aspx/"
 ---
 So, quickly, I decided to go ahead and throw [NSpec](http://nspec.tigris.org/) into the mix on top of [NBehave](http://www.codeplex.com/NBehave).&nbsp; Why not!&nbsp; 🙂
 

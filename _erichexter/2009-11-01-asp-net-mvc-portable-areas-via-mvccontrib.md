@@ -14,6 +14,7 @@ categories:
   - mvccontrib
   - Open Source Software
   - OSS
+redirect_from: "/blogs/hex/archive/2009/11/01/asp-net-mvc-portable-areas-via-mvccontrib.aspx/"
 ---
 Follow me on RSS and Twitter
   

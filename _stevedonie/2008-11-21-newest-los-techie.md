@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262124042"
 categories:
   - welcome
+redirect_from: "/blogs/stevedonie/archive/2008/11/21/newest-los-techie.aspx/"
 ---
 Thanks to all the Los Techies for inviting me to join the group. For those who haven&#8217;t met me, I am software developer and team lead in Austin Texas. I currently work for Drillinginfo, a smallish company that gathers data about the domestic oil and gas industry and then sells it through a subscription-based website. I manage the Data Integration group, consisting of myself and 4 other developers. I&#8217;ve been here about 2 years, and have been working on converting the company from &#8216;slash and burn&#8217; development to a more disciplined Scrum/XP process. 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089158"
 categories:
   - Agile
+redirect_from: "/blogs/chris_patterson/archive/2007/11/27/user-story-writing.aspx/"
 ---
 Since we had our agile fishbowl at work, we&#8217;ve moved ahead with adapting agile practices in our development process. For our projects, we&#8217;re working on creating user stories to fill our product backlog. I&#8217;ve read several threads on writing good user stories and gotten advice from several people on what makes a good user story, but I never realized how hard it is to actually write good user stories.
 

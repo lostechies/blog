@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2011/02/04/thoughts_2D00_on_2D00_hiring_2D00_developers.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2011/02/04/thoughts_2D00_on_2D00_hiring_2D00_developers.aspx/"
 ---
 Gabriel posted this [rant](http://www.lostechies.com/blogs/gabrielschenker/archive/2011/01/18/ranting-about-the-quality-of-developers.aspx) regarding his frustration with trying to find the right developer talent for positions that we were trying fill. At the time, I was the final decision maker regarding these interview candidates, so I thought I would offer my perspective.
 

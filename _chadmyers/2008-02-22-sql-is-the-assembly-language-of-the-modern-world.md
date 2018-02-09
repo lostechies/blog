@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Misc
   - SQL is evil
+redirect_from: "/blogs/chad_myers/archive/2008/02/21/sql-is-the-assembly-language-of-the-modern-world.aspx/"
 ---
 This isn&#8217;t a new idea, it&#8217;s [been mentioned before](http://www.codinghorror.com/blog/archives/000117.html), so I&#8217;m not taking credit for it, but it&#8217;s still worth pointing out&#8230; again&#8230; for the umpteenth time. So I&#8217;m gonna pick up the baton-of-flames and try the argument again:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088549"
 categories:
   - 'Agile Project Coaching &amp; Management'
+redirect_from: "/blogs/joe_ocampo/archive/2007/08/30/enterprise-agile-generations.aspx/"
 ---
 <p class="MsoNormal">
   Recent events in my professional life have placed me in an Agile evangelistic position that can help permeate the adoption of Agile development throughout my companies global presence.<span>&nbsp; </span>I am really excited about this opportunity but at the same time apprehensive.<span>&nbsp; </span>I have spent the last 4 years learning and refining my understanding of many of the Agile development methodologies.<span>&nbsp; </span>I know of its shortcomings and I know of its many strengths, which leads me to my quandary.

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715694"
 categories:
   - EntityFramework
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/19/more-entity-framework-thoughts.aspx/"
 ---
 [Dan Simmons](http://blogs.msdn.com/dsimmons/) has a great write-up on Microsoft&#8217;s [vision of Entity Framework](http://blogs.msdn.com/dsimmons/archive/2008/05/17/why-use-the-entity-framework.aspx) that really gives some insight into the motivation behind a lot of the direction that they&#8217;re going in.&nbsp; Go read that post, and come back.
 

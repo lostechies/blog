@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Data Access
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/07/14/database-id-int-vs-bigint-vs-guid.aspx/"
 ---
 I’ve been hearing a lot of talk about using a GUID as a database row ID, in recent months… last night I was talking with [Jeffrey Palermo](http://jeffreypalermo.com/) about this, specifically, and he brought up some interesting points about decoupling the ID of a record from the database implementation. We also talked briefly about scalability of Int vs. BigInt (Int64) vs. Guid, and how any type of replication for scalability would cause the need for a GUID identifier, anyways. Another good point he made was that getting away from a simple number for an ID often helps facilitate discussions of a “natural key” for database records – such as a customer account # that the business assigns – instead of relying 100% on a database generated key.
 

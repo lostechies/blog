@@ -11,6 +11,7 @@ categories:
   - CodingDojo
   - Programming
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/02/12/the-first-2-hours-of-tdd-are-the-most-painful.aspx/"
 ---
 ## Quick Background
 

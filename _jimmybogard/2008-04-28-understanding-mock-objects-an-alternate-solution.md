@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715651"
 categories:
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2008/04/27/understanding-mock-objects-an-alternate-solution.aspx/"
 ---
 In [AzamSharp&#8217;s](http://geekswithblogs.net/AzamSharp/Default.aspx) recent post [Understanding Mock Objects](http://geekswithblogs.net/AzamSharp/archive/2008/04/27/121695.aspx), he poses a problem of testing with volatile data.&nbsp; His example extends on [an article on AspAlliance](http://aspalliance.com/1400_Beginning_to_Mock_with_Rhino_Mocks_and_MbUnit__Part_1.all), which exhibits the same problems with its solution.&nbsp; Suppose I have an image service that returns images based on the time of day:
 

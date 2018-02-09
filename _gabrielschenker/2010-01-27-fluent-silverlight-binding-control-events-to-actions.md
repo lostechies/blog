@@ -11,6 +11,7 @@ categories:
   - fluent Silverlight
   - How To
   - Silverlight
+redirect_from: "/blogs/gabrielschenker/archive/2010/01/27/fluent-silverlight-binding-control-events-to-actions.aspx/"
 ---
 Please view the [table of content](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx) of this series for reference.
 

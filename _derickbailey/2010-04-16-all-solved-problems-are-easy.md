@@ -11,6 +11,7 @@ categories:
   - AntiPatterns
   - Coaching
   - Community
+redirect_from: "/blogs/derickbailey/archive/2010/04/16/all-solved-problems-are-easy.aspx/"
 ---
 I wanted to post a witty retort to something I saw on a website today. I wanted to write about how the people experiencing a particular problem were just doing it wrong and explain how simple this thing really was if they just took the time to read the documentation and follow the instructions. I also wanted to talk about how the person who posted the item related to the problem was misleading a lot of people and propagating a lot of misinformation based on people not knowing how to solve the problem in the right way. 
 

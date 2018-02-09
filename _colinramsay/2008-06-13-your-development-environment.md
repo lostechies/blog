@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2008/06/13/your-development-environment.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colin_ramsay/archive/2008/06/13/your-development-environment.aspx/"
 ---
 When I first started working in &#8220;the real world&#8221;, I had a development environment which I&#8217;d describe as typical: average Dell computer and peripherals, one monitor, Windows XP with all my applications installed, including VS2003 and VS2005. I&#8217;m sure
 

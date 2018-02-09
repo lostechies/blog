@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262304170"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2008/03/11/batch-file-to-checkout-all-root-level-project-trunks-in-a-subversion-repository.aspx/"
 ---
 Our source control tree is setup with the projects at the root of our server and each has a separate trunk, tags, and branches.&nbsp; While this makes it very easy to have a location agnostic build and include all the dependencies in one place for a particular project, this aspect can be painful when you want to checkout the trunk of each project to a new developer machine.&nbsp; I wrote a little batch file to ease the pain.
 

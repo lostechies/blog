@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Albacore
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2010/05/23/albacore-should-we-continue-to-support-ruby-v1-8-6.aspx/"
 ---
 Ruby 1.8.6 seems to be an outdated version at this point… but I can’t find any official information on the life cycle and support plans for this version. I’d like to drop support for Ruby 1.8.6 from [albacore](http://albacorebuild.net), but I’m not sure if that’s a good idea. Here’s why I want to drop it:
 

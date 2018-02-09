@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715619"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/22/variations-on-a-func-y-theme.aspx/"
 ---
 Delegates have come a long way since C# 1.0 debuted back in early 2002.&nbsp; The progression from using delegate parameters (outside of events) grew from quite cumbersome to fairly expressive with Lambda expressions with C# 3.0.&nbsp; Functional style programming has become easier (some say feasible) with generics, lambdas and expression trees.
 

@@ -11,6 +11,7 @@ categories:
   - HTML
   - XML
   - xpath
+redirect_from: "/blogs/colin_ramsay/archive/2008/12/07/parsing-xml-like-files.aspx/"
 ---
 The quantity of data now stored in XML, HTML, and other similar formats must now be absolutely huge. Fetching that data from XML-like files is largely seen as a solved problem on many platforms, but I&#8217;m going to look at the various alternatives and see where each would be appropriate and how you can improve the development process by using each method.
 

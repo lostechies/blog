@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colin_ramsay/archive/2007/10/08/why-alt-net.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colin_ramsay/archive/2007/10/08/why-alt-net.aspx/"
 ---
 DISCLAIMER: This post was inspired by, and contains material from,&nbsp;a recent post on my personal blog entitled &#8220;<A class="" title="Abandon ALT.NET" href="http://colinramsay.co.uk/2007/10/07/abandon-altnet/" target="_blank">Abandon ALT.NET</A>&#8220;.
 

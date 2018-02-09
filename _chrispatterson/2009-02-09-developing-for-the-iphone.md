@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089312"
 categories:
   - OSX
+redirect_from: "/blogs/chris_patterson/archive/2009/02/08/developing-for-the-iphone.aspx/"
 ---
 First, one my the reasons I love using OSX: 16 applications open including 4 Xcode projects, Photoshop, Numbers, Evernote, Mindjet MindManager, and more without a hint of slowdown and still 1.3 GB free (4GB total on my MBP). It&#8217;s wide, because I use a 24&#8243; display next to my built-in laptop display.
 

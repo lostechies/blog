@@ -11,6 +11,7 @@ categories:
   - Architecture
   - DistributedSystems
   - NServiceBus
+redirect_from: "/blogs/jimmy_bogard/archive/2010/11/18/queues-are-still-queues.aspx/"
 ---
 Recently, we’ve started migrating our application to more of a message-based architecture.&#160; This will be part of a bigger series on migrating to a messaging-based architecture, but one rather funny (or not funny, since we were in production) side effect of the nature of queues hit us the other week.
 

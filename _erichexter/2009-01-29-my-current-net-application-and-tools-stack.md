@@ -13,6 +13,7 @@ categories:
   - continous integration
   - Testing
   - Tools
+redirect_from: "/blogs/hex/archive/2009/01/29/my-current-net-application-and-tools-stack.aspx/"
 ---
 For what it is worth I thought I would share what my current application stack for Enterprise Web Application / Line of Business Applications.&#160; When these tools are used together they allow me to develop in a frictionless way.&#160; I am able to build maintainable software using these tools.
 

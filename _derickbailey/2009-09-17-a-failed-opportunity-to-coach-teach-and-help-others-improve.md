@@ -14,6 +14,7 @@ categories:
   - Kanban
   - Lean Systems
   - Management
+redirect_from: "/blogs/derickbailey/archive/2009/09/17/a-failed-opportunity-to-coach-teach-and-help-others-improve.aspx/"
 ---
 A colleague in the nation of Pablo-The-Donkey asked a question on the LosTechies private mailing list:
 

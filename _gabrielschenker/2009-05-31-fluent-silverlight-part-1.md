@@ -14,6 +14,7 @@ categories:
   - Patterns
   - practices
   - reflection
+redirect_from: "/blogs/gabrielschenker/archive/2009/06/01/fluent-silverlight-part-1.aspx/"
 ---
 ## Introduction
 

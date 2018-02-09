@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1080320429"
 categories:
   - altnethouston
+redirect_from: "/blogs/stevedonie/archive/2009/03/20/houston-alt-net-conference.aspx/"
 ---
 Just in case you haven&#8217;t heard, the Houston Alt.NET conference is coming up in 2 weeks &#8211; there is still time to register.
 

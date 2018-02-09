@@ -14,6 +14,7 @@ categories:
   - Kanban
   - Lean Systems
   - Management
+redirect_from: "/blogs/derickbailey/archive/2010/06/14/work-in-process-wip-limits-policies-etc.aspx/"
 ---
 I had a great discussion a few of my team members this morning. We were discussion work in process (WIP) limits, policies, and other items that are related to both of those. By the end of the discussion we had some great policies outlined for how we wanted to handle WIP limits, moving forward. The following represents the notes on the various policies that I wrote up based on the conversions. Before I get into the detail of what we are starting with for our policies, though, I wanted to talk about policies briefly
 

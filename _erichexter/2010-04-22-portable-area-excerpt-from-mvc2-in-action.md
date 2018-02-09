@@ -12,6 +12,7 @@ categories:
   - mvccontrib
   - mvcinaction
   - Portable Area
+redirect_from: "/blogs/hex/archive/2010/04/22/portable-area-excerpt-from-mvc2-in-action.aspx/"
 ---
 If some of you want to know why I have not been blogging as much for the last few months..&#160; and this is why. I have been putting my energy into this book as a co-author.&#160; I am excited to be part of it and glad to share the results of all of this work.
 

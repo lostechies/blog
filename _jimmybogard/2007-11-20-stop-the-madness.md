@@ -11,6 +11,7 @@ categories:
   - Agile
   - LegacyCode
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/20/stop-the-madness.aspx/"
 ---
 I&#8217;ve been extending a legacy codebase lately to make it a bit more testable, and a few small, bad&nbsp;decisions have slowed my progress immensely.&nbsp; One decision isn&#8217;t bad in and of itself, but a small bad decision multiplied a hundred times leads to significant pain.&nbsp; It&#8217;s [death by a thousand cuts](http://en.wikipedia.org/wiki/Slow_slicing), and it absolutely kills productivity.&nbsp; Some of the small decisions I&#8217;m seeing are:
 

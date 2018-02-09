@@ -11,6 +11,7 @@ categories:
   - Books
   - LosTechies
   - Personal
+redirect_from: "/blogs/chrismissal/archive/2009/12/21/chris-year-in-review-2009.aspx/"
 ---
 Last year on this day, I wrote <a href="http://dumpsterdoggy.com/articles/?chris-year-in-review-2008" target="_blank">a review of 2008</a> and some goals for 2009. I had not yet started blogging for Los Techies yet, but that started at the beginning of the year. Looking back on those goals, I think I did fairly well:
 

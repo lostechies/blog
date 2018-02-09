@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ALT.NET
   - LiveMeeting
+redirect_from: "/blogs/chad_myers/archive/2008/12/02/alt-net-online-open-meeting-3-dec.aspx/"
 ---
 Zach Young has set up another LiveMeeting space for Wednesday (3-DEC-2008).
 

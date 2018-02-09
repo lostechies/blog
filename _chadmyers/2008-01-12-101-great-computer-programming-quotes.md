@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113597"
 categories:
   - Programming
+redirect_from: "/blogs/chad_myers/archive/2008/01/12/101-great-computer-programming-quotes.aspx/"
 ---
 (Found [via DotNetKicks &#8212; please kick it there](http://www.dotnetkicks.com/other/101_Great_Computer_Programming_Quotes_1), don&#8217;t kick this post)
 

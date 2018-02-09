@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - LINQ
+redirect_from: "/blogs/jimmy_bogard/archive/2008/08/13/deferred-execution-gotchas.aspx/"
 ---
 I was trying to be clever the other day and try to chain assertions on an array:
 

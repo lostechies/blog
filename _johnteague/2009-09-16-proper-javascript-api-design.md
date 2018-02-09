@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055730"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/09/16/proper-javascript-api-design.aspx/"
 ---
 Todd Anglin presented some of the AJAX functionality available in ASP.Net 4.0 at this months [ADNUG](http://adnug.org) meeting.&nbsp; One of the things he demonstrated was the Client Side binding, which is really cool (I&rsquo;ll have more on this later).&nbsp; In one of his code samples, he showed how the MS AJAX library call to bind an element to a datasource.&nbsp; It looked odd to me at first and and I couldn&rsquo;t figure out why at first.&nbsp; Then on the way home, I realized that it designed completely wrong for a JavaScript function.&nbsp; The function call looked something like this (I may not get this syntax completely right,it&rsquo;s just an example, please don&rsquo;t sweat the details).
 

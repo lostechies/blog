@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715749"
 categories:
   - AustinCodeCamp
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/27/austin-code-camp-material-posted.aspx/"
 ---
 I&#8217;ve (finally) posted my slides and code from Austin Code Camp:
 

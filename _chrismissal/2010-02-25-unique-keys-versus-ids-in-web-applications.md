@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Best Practices
   - development
+redirect_from: "/blogs/chrismissal/archive/2010/02/24/unique-keys-versus-ids-in-web-applications.aspx/"
 ---
 An ID is a fine way to uniquely identify an object, the common usage is also very user un-friendly. A while back I was watching a presentation by Jeffrey Palermo on <a href="http://www.c4mvc.net/" rel="nofollow">Community For MVC.Net</a>, then later at a live presentation and discussion at the local user group in Cedar Rapids. Not that it’s a new idea, but the idea of a Key and the IKeyable<T> interface was mentioned. This idea being a unique, human readable string. Throughout the rest of this post, when I mention “ID”, I’m speaking of an auto-generated number or meaningless string. When I mention a “Key”, I’m speaking of a meaningful string identifier that gives some sense as to what it is representing when a human reads it.
 

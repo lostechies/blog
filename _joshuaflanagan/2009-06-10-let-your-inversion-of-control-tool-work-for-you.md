@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - composition
   - StructureMap
+redirect_from: "/blogs/joshuaflanagan/archive/2009/06/09/let-your-inversion-of-control-tool-work-for-you.aspx/"
 ---
 If you are just starting out exploring use of an Inversion of Control tool (IoC), its very easy to go down the wrong path, and make things harder for yourself. Today I had a conversation with a bright developer who was feeling the pain because doing it all wrong. And just a month or so ago, I had the same conversation with another bright developer who was also doing it the same, wrong, way.
 

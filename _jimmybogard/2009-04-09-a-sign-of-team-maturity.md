@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2009/04/09/a-sign-of-team-maturity.aspx/"
 ---
 You know you have a mature team when, nine months into a project, your testing stats are:
 

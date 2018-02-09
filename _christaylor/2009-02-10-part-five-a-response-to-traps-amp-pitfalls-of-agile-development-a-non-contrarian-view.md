@@ -10,6 +10,7 @@ categories:
   - Community
   - Extreme Programming
   - I.T. Management
+redirect_from: "/blogs/agilecruz/archive/2009/02/10/part-five-a-response-to-traps-amp-pitfalls-of-agile-development-a-non-contrarian-view.aspx/"
 ---
 This is the last of a five-part series (sans conclusion) I&rsquo;ve written in response to [this entry by Sean Landis](http://www.artima.com/weblogs/viewpost.jsp?thread=246513).&nbsp; Previous entries in this series are:
 

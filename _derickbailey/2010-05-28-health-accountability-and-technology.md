@@ -11,6 +11,7 @@ categories:
   - Community
   - Product Reviews
   - Tools and Vendors
+redirect_from: "/blogs/derickbailey/archive/2010/05/28/health-accountability-and-technology.aspx/"
 ---
 Anyone that’s been [following me on twitter](http://twitter.com/derickbailey) (or for the few of you left, [facebook](http://facebook.com/derickbailey)) for the last month has probably seen my status updates talking about jogging so many miles, etc etc. Some of you are probably annoyed by it, but others seem to be interested and are offering advice and motivation. I really do appreciate the motivation and advice, so keep it coming. 🙂 I’m only going to bore you a little with my declining health over the last few years, but I promise that it all comes down to how I am managing to get through this with technology. 🙂
 

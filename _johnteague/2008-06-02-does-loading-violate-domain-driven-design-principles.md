@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055469"
 categories:
   - NHibernate DDD
+redirect_from: "/blogs/johnteague/archive/2008/06/02/does-loading-violate-domain-driven-design-principles.aspx/"
 ---
 Some comments to a recent [post](http://codebetter.com/blogs/jeremy.miller/archive/2008/05/25/we-re-talking-past-each-other-on-the-entity-framework.aspx) on [Jeremy Miller&#8217;s](http://codebetter.com/blogs/jeremy.miller/default.aspx) blog raised the question of whether NHibernate&#8217;s lazy loading capabilities violate Domain Driven Design.&nbsp; While that conversation was centered around bypassing repositories for access data, which is not true since your aggregate roots are your repository source.&nbsp; But there is another aspect that was not discussed.
 

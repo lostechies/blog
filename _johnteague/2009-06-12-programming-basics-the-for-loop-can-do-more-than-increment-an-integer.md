@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055655"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/06/12/programming-basics-the-for-loop-can-do-more-than-increment-an-integer.aspx/"
 ---
 This is one of those small things that is easy to forget.&nbsp; Usually when we use a for loop, we&#8217;ll just incrment over an integer so that we can get a specific item out of some iteration.&nbsp; But you can do much more than that.&nbsp; My current project has a complicated scheduling component and I&#8217;m often working with a range of dates.&nbsp; I often need to do something with the days between two dates.&nbsp; I created a TimePeriod class that is created with a start and end date.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265527686"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/09/28/thanks-houston-techfest.aspx/"
 ---
 This past weekend I gave a talk on one of my favorite topics – UI testing.&#160; In it, I focused almost exclusively on techniques for authoring maintainable UI tests, and how design for testability extends to views, models and controllers in MVC land.&#160; It’s trivial to write UI tests that break easily, but not much more difficult to write maintainable tests, given that you’ve intentionally designed your UI layer for UI testability.
 

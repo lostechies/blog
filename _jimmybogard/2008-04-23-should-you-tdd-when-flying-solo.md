@@ -9,6 +9,7 @@ dsq_thread_id:
   - "273965158"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/04/22/should-you-tdd-when-flying-solo.aspx/"
 ---
 A couple of weeks ago [a question came up](http://tech.groups.yahoo.com/group/altdotnet/message/6120) on the [ALT.NET message board](http://tech.groups.yahoo.com/group/altdotnet/):
 

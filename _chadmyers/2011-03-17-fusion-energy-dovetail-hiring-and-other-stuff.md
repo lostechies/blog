@@ -11,6 +11,7 @@ categories:
   - cool
   - hiring
   - Video
+redirect_from: "/blogs/chad_myers/archive/2011/03/17/fusion-energy-dovetail-hiring-and-other-stuff.aspx/"
 ---
 ## Nuclear Fusion!
 

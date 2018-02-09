@@ -11,6 +11,7 @@ categories:
   - git
   - Source Control
   - Subversion
+redirect_from: "/blogs/derickbailey/archive/2010/04/02/git-svn-script-to-do-svn-up-and-git-commit-with-svn-revision-number.aspx/"
 ---
 I’ve been using [Git+SVN](http://www.lostechies.com/blogs/derickbailey/archive/2010/02/03/branch-per-feature-how-i-manage-subversion-with-git-branches.aspx) for a while now, and I really like what it does for me. What I don’t like is the constant repetition of the same command to update from svn into my local git branch, over and over and over again. So, I wrote a little batch file to do my svn update and my git commit. I committed it to our repository so that I wouldn’t lose it when branching, merging, etc. and one of my coworkers asked if it was populating any useful info into the git commit message, like the svn revision #. At the time it was only committing with a “svn up” message, but it was easy to add other detail.
 

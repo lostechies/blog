@@ -9,6 +9,7 @@ categories:
   - NHibernate
   - Oracle
   - Programming
+redirect_from: "/blogs/joshua_lockwood/archive/2007/08/28/clobbered-again.aspx/"
 ---
 Hey all, 
 

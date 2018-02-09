@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715868"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2008/08/19/ddd-repositories-and-orms.aspx/"
 ---
 One of the confusing aspects of those new to DDD is the concept of a Repository.&nbsp; From Fowler&#8217;s Patterns of Enterprise Application Architecture, a Repository:
 

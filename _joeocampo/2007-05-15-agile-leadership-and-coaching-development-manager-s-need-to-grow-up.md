@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088161"
 categories:
   - 'Agile Project Coaching &amp; Management'
+redirect_from: "/blogs/joe_ocampo/archive/2007/05/14/agile-leadership-and-coaching-development-manager-s-need-to-grow-up.aspx/"
 ---
 &nbsp;
 

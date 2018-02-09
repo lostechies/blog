@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1070599690"
 categories:
   - mvccontrib
+redirect_from: "/blogs/hex/archive/2009/02/20/asp-net-mvccontrib-logo-contest.aspx/"
 ---
 &#160;
 

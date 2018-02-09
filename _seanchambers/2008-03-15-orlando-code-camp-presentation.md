@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123792"
 categories:
   - ci presentations
+redirect_from: "/blogs/sean_chambers/archive/2008/03/14/orlando-code-camp-presentation.aspx/"
 ---
 I will be doing a presentation at the [Orlando Code Camp](http://www.orlandocodecamp.com/){.} on next Saturday on March 22nd on Continuous Integration with TeamCity.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113935"
 categories:
   - StructureMap
+redirect_from: "/blogs/chad_myers/archive/2008/07/17/structuremap-medium-level-usage-scenarios.aspx/"
 ---
 This is a follow-on to my previous post about [basic usage scenarios for StructureMap](http://www.lostechies.com/blogs/chad_myers/archive/2008/07/15/structuremap-basic-scenario-usage.aspx).&#160; This post will focus on slightly more advanced usage scenarios and how StructureMap handles them.&#160; For those playing the home game, I’m still working on the ‘Exploring ShadeTree’ series, but it’s hit a small roadblock because there are some design changes pending on the NHibernate stuff I was going to cover. Please bear with me.&#160; Anyhow, in the meantime, I hope you find these StructureMap guides helpful.
 

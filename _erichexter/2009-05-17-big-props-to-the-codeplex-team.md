@@ -11,6 +11,7 @@ categories:
   - .NET
   - Open Source Software
   - OSS
+redirect_from: "/blogs/hex/archive/2009/05/16/big-props-to-the-codeplex-team.aspx/"
 ---
 &#160;
 

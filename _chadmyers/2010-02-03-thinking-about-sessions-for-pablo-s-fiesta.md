@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Fiesta
   - FubuMVC
+redirect_from: "/blogs/chad_myers/archive/2010/02/03/thinking-about-sessions-for-pablo-s-fiesta.aspx/"
 ---
 We’ve been head’s down at Dovetail, so I haven’t spent a lot of time thinking about Pablo’s Fiesta (shame!).&#160; I’ve come up for air recently and I’m starting to get excited about it again.&#160; 
 

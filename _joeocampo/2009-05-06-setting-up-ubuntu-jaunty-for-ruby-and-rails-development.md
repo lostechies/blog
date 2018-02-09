@@ -11,6 +11,7 @@ categories:
   - Rails
   - Ruby
   - Ubuntu
+redirect_from: "/blogs/joe_ocampo/archive/2009/05/06/setting-up-ubuntu-jaunty-for-ruby-and-rails-development.aspx/"
 ---
 Getting Ruby setup on Ubuntu &ndash; Jaunty
 

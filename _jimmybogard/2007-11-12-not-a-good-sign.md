@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1232821528"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/12/not-a-good-sign.aspx/"
 ---
 At the end of lunch today at a Chinese restaurant, I cracked open the obligatory fortune cookie to learn what a stale, shrink-wrapped, mass-produced dessert could portend.
 

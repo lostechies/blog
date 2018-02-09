@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DomainDrivenDesign
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/22/moving-past-stored-procedures.aspx/"
 ---
 On [Chad&#8217;s](http://www.lostechies.com/blogs/chad%5Fmyers/) recent [SQL-assembly comparison post](http://lostechies.com/blogs/chad_myers/archive/2008/02/21/sql-is-the-assembly-language-of-the-modern-world.aspx), a few interesting comments caught my eye proclaiming the glory of stored procedures.&nbsp; From tom (no link):
 

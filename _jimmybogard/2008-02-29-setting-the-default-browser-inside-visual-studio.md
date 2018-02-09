@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715583"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/29/setting-the-default-browser-inside-visual-studio.aspx/"
 ---
 My default browser is [Firefox](http://www.mozilla.com/en-US/firefox/), and has been for many, many years.&nbsp; But that&#8217;s not everyone&#8217;s favorite browser, nor is the one they have to use all day long.&nbsp; When developing web applications for clients, it&#8217;s important to know what their browser requirements are.&nbsp; Often, for LOB apps or intranet apps, it&#8217;s some version of IE.&nbsp; In this case, I need to develop my web app using IE.
 

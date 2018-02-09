@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716257"
 categories:
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2009/07/14/when-is-poor-man-s-dependency-injection-appropriate.aspx/"
 ---
 When is Poor Man’s Dependency Injection appropriate?
 

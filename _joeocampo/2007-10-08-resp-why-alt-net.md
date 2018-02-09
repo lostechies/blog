@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090272"
 categories:
   - altnetconf
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/08/resp-why-alt-net.aspx/"
 ---
 </p> 
 

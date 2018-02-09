@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1238587240"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/11/a-small-correction.aspx/"
 ---
 During a conversation at this week&#8217;s [ADNUG](http://adnug.org/), I realized the title of one of my latest posts ([Advanced mocking: auto-interaction testing](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/03/05/advanced-mocking-auto-interaction-testing.aspx)) had a misleading title.
 

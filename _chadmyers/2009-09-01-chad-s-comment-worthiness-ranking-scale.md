@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266525343"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2009/08/31/chad-s-comment-worthiness-ranking-scale.aspx/"
 ---
 I try to be fair to commenters and give them a say, even if they’re belligerent and obnoxious as long as their making good points or otherwise contributing to the thread (even if they’re disagreeing with me).
 

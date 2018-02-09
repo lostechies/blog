@@ -14,6 +14,7 @@ categories:
   - 'C#'
   - Craftsmanship
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/04/22/expressive-code-good-variable-names-instead-of-magic-values-and-calculations.aspx/"
 ---
 I like to remind myself of these little principles that I take for granted, now and then. It’s good habit to get back to basics and really understand why you hold principles so that you can judge whether or not they are appropriate in the circumstances you are in. Today’s little nugget of principle is to write expressive code and avoid magic values in your code. 
 

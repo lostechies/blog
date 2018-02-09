@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265346492"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/06/24/designing-controllers.aspx/"
 ---
 <font face="Trebuchet MS" size="2">Once you wrap your head around using MVC in your web apps you tend to look at other ways to make your Controllers more descriptive. Specifically the way you structure and document your controllers.</font>
 

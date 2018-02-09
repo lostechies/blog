@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Open Source Software
   - OSS
+redirect_from: "/blogs/hex/archive/2010/07/27/msdn-license-giveaways-for-open-source-projects.aspx/"
 ---
 I am totally excited to support the folks over at Devlicio.us and their giveaway.&#160; They are giving away MSDN&#160; Licenses to Open Source projects in need of said licenses.&#160; As a Microsoft MVP, I was given three MSDN License’s to help spread the the goodness of VS2010.&#160; As a supporter of Open Source I think the best way to help stimulate the .Net Open Source eco system is to provide license to those who need them. I have tried a few times to get the folks over at the Codeplex Foundation to start up a program, but no luck yet.&#160; That is why I am happy to see the MVPs who are part of the blogging community pulling together to help stimulate these project.
 

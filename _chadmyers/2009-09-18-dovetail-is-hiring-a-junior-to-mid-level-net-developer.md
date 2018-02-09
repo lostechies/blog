@@ -12,6 +12,7 @@ categories:
   - Austin
   - Dovetail
   - hiring
+redirect_from: "/blogs/chad_myers/archive/2009/09/18/dovetail-is-hiring-a-junior-to-mid-level-net-developer.aspx/"
 ---
 Come work for one of the most progressive development shops in the US. This is an opportunity to work with some of the leaders in the .NET/C# space including Jeremy Miller and Joshua Flanagan – both senior developers, designers, architects, authors, and open source project leaders &#8212; with tons of experience. We use cutting edge project practices and our testers and information developers are integrated with the development team.
 

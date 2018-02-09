@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Arduino
   - electronics
+redirect_from: "/blogs/sharoncichelli/archive/2009/11/08/happy-hack-o-ween-electronics-and-a-microcontroller-spice-up-the-haunt.aspx/"
 ---
 Ah, Halloween, when a young woman&#8217;s fancy turns to love. And zombies.
 

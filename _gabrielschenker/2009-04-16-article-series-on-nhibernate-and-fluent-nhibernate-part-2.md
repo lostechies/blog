@@ -11,6 +11,7 @@ categories:
   - Fluent NHibernate
   - introduction
   - NHibernate
+redirect_from: "/blogs/gabrielschenker/archive/2009/04/16/article-series-on-nhibernate-and-fluent-nhibernate-part-2.aspx/"
 ---
 Today the second part of my series on NHibernate and Fluent NHibernate went live. You can read it [here](http://dotnetslackers.com/articles/ado_net/Your-very-first-NHibernate-application-Part-2.aspx).
 

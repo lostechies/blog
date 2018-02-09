@@ -11,6 +11,7 @@ categories:
   - Kanban
   - Lean Systems
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/06/18/a-kanban-is-just-a-signal-to-do-work.aspx/"
 ---
 A [kanban](http://en.wikipedia.org/wiki/Kanban) is [a signal to do something](http://www.lostechies.com/blogs/derickbailey/archive/2008/11/20/kanban-pulling-value-from-the-supplier.aspx). I don’t think kanban implies a pull-based system, honestly. [Joe Ocampo](http://agilejoe.lostechies.com/) showed it best in his Scrumban presentation at Austin Code Camp:
 

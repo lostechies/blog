@@ -15,6 +15,7 @@ categories:
   - Pragmatism
   - Principles and Patterns
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2010/03/05/how-ruby-taught-me-to-dry-up-my-code-with-lambda-blocks.aspx/"
 ---
 I’ve been working in Ruby for my Albacore project over the last 6 or 8 months, and taking every chance I can find to learn how to really use the language effectively. One of the benefits I’m seeing in a dynamic language like Ruby is the ability to really [DRY](http://en.wikipedia.org/wiki/DRY) up your code through it’s [dynamic](http://en.wikipedia.org/wiki/Dynamic_typing#Dynamic_typing)/[duck type](http://en.wikipedia.org/wiki/Duck_typing) system, and through [metaprogramming](http://www.pragprog.com/titles/ppmetr/metaprogramming-ruby). 
 

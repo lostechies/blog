@@ -9,6 +9,7 @@ dsq_thread_id:
   - "270565536"
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottdensmore/archive/2009/10/20/monotouch-comparison-with-apple-tools.aspx/"
 ---
 I have been playing around with MonoTouch trying to figure out if I liked the new approach to building Cocoa Touch apps. I decided to take a couple of the samples built using MonoTouch and build them for the Cocoa Touch using Apple&#8217;s toolset.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262299172"
 categories:
   - PTOM
+redirect_from: "/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx/"
 ---
 After Chad and Ray I followed suit as well and am doing Pablo&#8217;s Topic of the month post on the Single Responsibility Principle or SRP for short.
 

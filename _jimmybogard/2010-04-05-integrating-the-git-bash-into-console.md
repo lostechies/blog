@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264748053"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2010/04/05/integrating-the-git-bash-into-console.aspx/"
 ---
 One of the essential development tools (found on [Hanselman’s tools list](http://hanselman.com/tools)) is a better command shell.&#160; The regular “cmd.exe” that comes with every version of Windows is quite lame.&#160; [Console](http://sourceforge.net/projects/console/) offers a host of improvements over the build-in command prompt, not least of which is the tabbed interface, allowing me to have one Console window with tabs for different directories/shells.
 

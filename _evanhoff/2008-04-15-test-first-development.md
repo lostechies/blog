@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/04/15/test-first-development.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/04/15/test-first-development.aspx/"
 ---
 This is my attempt at&nbsp;sharing some of&nbsp;my personal reasoning around the topic of test-first development.
 

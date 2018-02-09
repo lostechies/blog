@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPdotNET
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/23/watin-and-inamingcontainer-adventures.aspx/"
 ---
 I decided to add a simple [WatiN](http://watin.sourceforge.net/) acceptance test today to validate our login page.&nbsp; When a user enters invalid credentials, the page should show an error message.
 

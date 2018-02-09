@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262262863"
 categories:
   - svn nant cruisecontrol
+redirect_from: "/blogs/sean_chambers/archive/2007/11/05/versioning-with-cruise-control-nant-and-subversion.aspx/"
 ---
 I haven&#8217;t had a chance to post any of my other posts sitting in the queue lately with the newborn and all so I figured I would post this topic as it didn&#8217;t take long to perform the task at hand.
 

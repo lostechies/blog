@@ -12,6 +12,7 @@ categories:
   - Design Principles
   - DRY
   - legacy code
+redirect_from: "/blogs/chrismissal/archive/2009/05/27/anti-patterns-and-worst-practices-the-arrowhead-anti-pattern.aspx/"
 ---
 [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 0px 10px 0px 0px;border-right-width: 0px" alt="arrow" src="//lostechies.com/chrismissal/files/2011/03/arrow_thumb_093FEC00.jpg" width="244" align="left" border="0" height="193" />](//lostechies.com/chrismissal/files/2011/03/arrow_59824380.jpg)
 

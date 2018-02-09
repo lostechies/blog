@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267667133"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/08/28/my-favorite-nhibernate-exception.aspx/"
 ---
 We have a rather large, connected domain model, so we use quite a bit of lazy loading to deal with the richness all these connections provide.&#160; The one thing I would have liked C# to get from Java is “virtual by default”, if only for one selfish reason: so I don’t see this exception ever, ever again:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265166064"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2011/02/17/agile-10-years-later.aspx/"
 ---
 One of the interesting pieces of [Mike Cohn’s post on the 10 year anniversary](http://blog.mountaingoatsoftware.com/reflections-on-the-10-years-since-the-agile-manifesto) of the [Agile manifesto](http://agilemanifesto.org/) was a comparison of the arguments in the previous decade around OOP:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715958"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/04/thoughts-on-c-4-0.aspx/"
 ---
 It looks like VB.NET.
 

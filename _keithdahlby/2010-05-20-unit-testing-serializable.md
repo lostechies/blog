@@ -11,6 +11,7 @@ categories:
   - NUnit
   - Serializable
   - Testing
+redirect_from: "/blogs/dahlbyk/archive/2010/05/20/unit-testing-serializable.aspx/"
 ---
 <div class="content">
   <div class="snap_preview">

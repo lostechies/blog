@@ -9,6 +9,7 @@ categories:
   - Castle
   - MonoRail
   - TDD
+redirect_from: "/blogs/joeydotnet/archive/2007/09/13/another-quick-tip-asserting-view-renders-in-a-monorail-controller-test.aspx/"
 ---
 This is another one of those &#8220;blog it&nbsp;so I can remember it&#8221; posts.
 

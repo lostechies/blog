@@ -11,6 +11,7 @@ categories:
   - git
   - posh-git
   - Powershell
+redirect_from: "/blogs/dahlbyk/archive/2010/03/15/posh-git-a-powershell-environment-for-git.aspx/"
 ---
 I&#8217;ve been meaning to put together a post about this for a few days, but [Mark Embling](http://www.markembling.info/) [beat me to it](http://www.markembling.info/view/git-powershell-revisited "Git & PowerShell Revisited").
 

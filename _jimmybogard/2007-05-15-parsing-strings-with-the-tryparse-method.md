@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265998531"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2007/05/15/parsing-strings-with-the-tryparse-method.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/parsing-strings-with-tryparse-method.html)._
 

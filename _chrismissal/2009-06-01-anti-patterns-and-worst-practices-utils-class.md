@@ -11,6 +11,7 @@ categories:
   - Best Practices
   - Design Principles
   - DRY
+redirect_from: "/blogs/chrismissal/archive/2009/06/01/anti-patterns-and-worst-practices-utils-class.aspx/"
 ---
 [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 0px 0px 0px 10px;border-right-width: 0px" alt="tools" src="//lostechies.com/chrismissal/files/2011/03/tools_thumb_53296EBA.jpg" width="244" align="right" border="0" height="184" />](//lostechies.com/chrismissal/files/2011/03/tools_486986B4.jpg) If you ever start typing &ldquo;Utils&rdquo; or &ldquo;Utility&rdquo; stop and think a bit; if you need some help, ask a fellow developer a question of what this code actually does. This anti-pattern is caused either by lack of domain knowledge, or laziness, sometimes both. The problem isn&rsquo;t with the functions that these Utils are performing, but what they&rsquo;re called and how they&rsquo;re grouped together. Most often, I see the following types of functions inside a Utils class.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262174772"
 categories:
   - Best Practices
+redirect_from: "/blogs/chrismissal/archive/2009/03/03/ongoing-maintenance-amp-debt-reduction.aspx/"
 ---
 I don’t like like analogies or metaphors most of the time, they’re weak logical arguments; I try to avoid them. Recently, I’ve seen many weak analogies that don’t really put things into real perspective. Comparing <a title="The Ferengi Programmer" href="http://www.codinghorror.com/blog/archives/001225.html" target="_blank">Star Trek to software development</a> is probably not going to give somebody a good understanding of the situation; especially since:
 

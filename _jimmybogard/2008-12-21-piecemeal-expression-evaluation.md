@@ -9,6 +9,7 @@ dsq_thread_id:
   - "272315840"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/12/21/piecemeal-expression-evaluation.aspx/"
 ---
 One of the more interesting uses of Expressions is [strongly-typed reflection](http://www.clariusconsulting.net/blogs/kzu/archive/2006/07/06/TypedReflection.aspx).&#160; It seems that most of the time dealing with expressions, I never care about ever actually _evaluating_ the expression for any reason.&#160; When all I’m doing is parsing and examining the expression, I’ll never really need to evaluate the result.&#160; But any expression can be compiled to a delegate, so you’ll usually see code like this:
 

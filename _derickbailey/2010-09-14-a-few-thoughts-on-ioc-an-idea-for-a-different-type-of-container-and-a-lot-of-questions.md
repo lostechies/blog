@@ -14,6 +14,7 @@ categories:
   - Pragmatism
   - Productivity
   - Quality
+redirect_from: "/blogs/derickbailey/archive/2010/09/14/a-few-thoughts-on-ioc-an-idea-for-a-different-type-of-container-and-a-lot-of-questions.aspx/"
 ---
 With all the comments on my previous post, there actually is a lot of great insight to be had. I’ve picked up on a few underlying themes and several of the commenters were able to cut through the cruft of my post and post something meaningful, driving to the heart of what I was asking instead of just addressing the surface level issues (I seem to have a hard time getting to the heart of the matter without going through the superficial examples first).
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263370911"
 categories:
   - Design Patterns
+redirect_from: "/blogs/sharoncichelli/archive/2009/08/29/cooking-up-a-good-template-method.aspx/"
 ---
 The software concept of &#8220;raising the level of abstraction&#8221; has improved my skill and creativity in cooking, by teaching me to think about recipe components in terms of their properties and functions. Practicing abstraction-raising in cooking feeds back to help me with coding; for example, keeping me from going astray the other day with the [Template Method pattern](http://en.wikipedia.org/wiki/Template_method_pattern). This post is more about coding than cooking. The cooking&#8217;s a metaphor. (The cake is a lie.)
 

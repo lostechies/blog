@@ -11,6 +11,7 @@ categories:
   - Management
   - Philosophy of Software
   - Quality
+redirect_from: "/blogs/derickbailey/archive/2009/02/26/quality-must-be-built-in-it-cannot-be-added-on.aspx/"
 ---
 Quality must be built in, it cannot be added on. … well, ok. I’ll admit that it’s not entirely true. If you don’t mind spending exorbitant amounts of money doing rework, causing projects to be late and over budget, and possibly losing the business, then by all means, wait until after-the-fact to try and add quality onto a product. No really. It can be done. You just have to accept that the system will be rewritten. After all, isn’t that the way software development goes? Build something… try to add on to it… recognize the problems that prevent you from continuing and then justify starting the same vicious cycle over. (How arrogant are we, as software developers and development teams, to expect our customers to accept this? But, I digress…)
 

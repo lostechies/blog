@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113614"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/01/26/i-don-t-trust-me.aspx/"
 ---
 ## Where I&#8217;m Coming From
 

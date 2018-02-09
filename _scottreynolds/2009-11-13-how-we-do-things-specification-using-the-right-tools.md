@@ -14,6 +14,7 @@ categories:
   - Quality
   - software
   - team
+redirect_from: "/blogs/scottcreynolds/archive/2009/11/13/how-we-do-things-specification-using-the-right-tools.aspx/"
 ---
 _This content comes solely from my experience, study, and a lot of trial and error (mostly error). I make no claims stating that which works for me will work for you. As with all things, your mileage may vary, and you will need to apply all knowledge through the filter of your context in order to strain out the good parts for you. Also, feel free to call BS on anything I say. I write this as much for me to learn as for you._
 

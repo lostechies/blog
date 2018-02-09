@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - TDD
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2008/03/06/advanced-mocking-anonymous-test-spy.aspx/"
 ---
 When practicing TDD, I create interfaces to abstract away the ugly stuff, like databases, file I/O, web service calls, email messages, and other external systems.&nbsp; I can run tests now that don&#8217;t have to interact with real implementations of these external components, which may or may not be available all the time or may take a long time to run in practice.
 

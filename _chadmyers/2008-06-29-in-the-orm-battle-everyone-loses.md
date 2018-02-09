@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Database
   - ORM
+redirect_from: "/blogs/chad_myers/archive/2008/06/28/in-the-orm-battle-everyone-loses.aspx/"
 ---
 As Ted Neward aptly pointed out in his post: [ORM is the Vietnam of Computer Science](http://blogs.tedneward.com/2006/06/26/The+Vietnam+Of+Computer+Science.aspx)(credit to [Justin Etheredge](http://www.codethinked.com) for reminding me of this).&nbsp; You need to do it, but there&#8217;s no real good end solution here. RDBMS do what they do very well (that is, persist things to disk and load them back up quickly and reliably).
 

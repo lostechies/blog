@@ -8,6 +8,7 @@ wordpress_guid: /blogs/scottcreynolds/archive/2009/09/17/would-you-like-to-know-
 categories:
   - Community
   - Management
+redirect_from: "/blogs/scottcreynolds/archive/2009/09/17/would-you-like-to-know-how-i-do-things.aspx/"
 ---
 Over the years, as I speak to other developers, or give presentations at events, I always end up with a lot of questions about &#8220;How do you&#8230;[x]?&#8221;
 

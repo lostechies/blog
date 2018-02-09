@@ -9,5 +9,6 @@ dsq_thread_id:
   - "262088192"
 categories:
   - WPF
+redirect_from: "/blogs/joe_ocampo/archive/2007/04/24/optimizing-wpf-application-performance.aspx/"
 ---
 If you ever need to figure out why your WPF application is performing so poorly check out this MSDN Article on [optimizing WPF Application Performance](http://msdn2.microsoft.com/en-gb/library/aa970683.aspx).

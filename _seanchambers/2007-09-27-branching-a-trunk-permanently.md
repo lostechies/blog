@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123691"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/09/27/branching-a-trunk-permanently.aspx/"
 ---
 I am wondering how someone else would achieve what I am trying to do here. Basically I have a development trunk for Project A. It is updated with new code on a daily basis and has frequent branches and merges for various features etc..
 

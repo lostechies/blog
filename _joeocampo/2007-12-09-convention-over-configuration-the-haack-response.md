@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Architechture
   - ASP.MVC
+redirect_from: "/blogs/joe_ocampo/archive/2007/12/09/convention-over-configuration-the-haack-response.aspx/"
 ---
 Yesterday Sean and I talked briefly about [Convention over Configuration](http://www.lostechies.com/blogs/sean_chambers/archive/2007/12/08/phil-haack-posts-about-asp-net-mvc.aspx) and how disappointed we both were on MS direction requiring the [ControllerAction] attribute for each action in the controller.&nbsp; Similar sentiments seen in [Ayende&#8217;s post](http://www.ayende.com/Blog/archive/2007/12/08/Configuration-over-Convention.aspx) as well.&nbsp; 
 

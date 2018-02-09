@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Functional Programming
   - LINQ
+redirect_from: "/blogs/dahlbyk/archive/2009/07/23/improve-your-code-golf-game-with-linq.aspx/"
 ---
 I always enjoy a good coding challenge, and variations of code golf are most common. For the uninitiated, code golf provides a problem with the objective of providing a solution that requires the fewest keystrokes or lines. While production code certainly deserves more white space than games tend to afford, there are still some lessons we can learn from the experience.
 

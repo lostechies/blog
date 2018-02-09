@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268974214"
 categories:
   - PDoTDD
+redirect_from: "/blogs/chad_myers/archive/2008/10/05/pdotdd-it-s-a-wrap-thank-you-edition-part-1-2.aspx/"
 ---
 On Saturday, we concluded our Pablo’s Days of TDD event here in sunny Austin, TX.&#160; Over all, I think it went really well. All the feedback I personally heard was positive and we asked people to fill out evaluation forms and, from what I saw, they all had good things to say and lots of good suggestions for making the next one (if we can ever manage it) even better.
 

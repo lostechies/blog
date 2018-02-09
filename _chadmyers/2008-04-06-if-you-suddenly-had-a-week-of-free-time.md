@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113763"
 categories:
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/04/06/if-you-suddenly-had-a-week-of-free-time.aspx/"
 ---
 I&#8217;m gonna take a minute away from my regularly scheduled blog posts (GoF patterns, Agile Arguments, etc) and seek wisdom from the Collective. Aside from spending more time with the family and the kids, doing some networking and career building, there&#8217;s going to be some time where I&#8217;ll have a chance to work on something and I&#8217;m trying to decide how best to spend this time. 
 

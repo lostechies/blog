@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Albacore
   - Rake
+redirect_from: "/blogs/derickbailey/archive/2010/08/06/albacore-v0-2-0-preview-2-is-available.aspx/"
 ---
 I’ve pushed another preview release of [albacore](http://albacorebuild.net) up to [rubygems.org](http://rubygems.org/gems/albacore/versions/0.2.0.preview2). This release builds on the changes that I talked about in the [Preview 1 Notes](http://www.lostechies.com/blogs/derickbailey/archive/2010/07/14/albacore-v0-2-0-preview-1-is-available.aspx) and adds (what I think is) some great new capabilities for contributors and end-users, both.
 

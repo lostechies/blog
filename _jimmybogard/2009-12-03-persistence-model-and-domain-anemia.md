@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716374"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2009/12/03/persistence-model-and-domain-anemia.aspx/"
 ---
 Domain anemia is a term thrown around like it’s a horrible disease.&#160; However, a while back, Greg Young talked about an intentional decision to create an [anemic domain model](http://codebetter.com/blogs/gregyoung/archive/2009/07/15/the-anemic-domain-model-pattern.aspx).&#160; In some contexts, an anemic domain model is an [anti-pattern](http://martinfowler.com/bliki/AnemicDomainModel.html).&#160; Instead, I see a rather different issue going on here.&#160; For the vast majority of systems built that I’ve encountered, a true domain model is overkill.&#160; But what is the domain model pattern?&#160; It could be all the way to a [CQRS system](http://blog.fohjin.com/blog/2009/11/12/CQRS_a_la_Greg_Young), or it could be a system where your entities are more than containers of data, but containers of behavior.
 

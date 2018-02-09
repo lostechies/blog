@@ -9,6 +9,7 @@ categories:
   - Castle
   - MonoRail
   - Screencast
+redirect_from: "/blogs/joeydotnet/archive/2007/12/07/monorail-quickly-screencast.aspx/"
 ---
 <span style="font-weight: bold">Update: Zip file links have been updated due to the first one being corrupt!</span> 
 

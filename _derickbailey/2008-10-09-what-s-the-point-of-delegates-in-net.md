@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262067865"
 categories:
   - Uncategorized
+redirect_from: "/blogs/derickbailey/archive/2008/10/09/what-s-the-point-of-delegates-in-net.aspx/"
 ---
 A coworker just asked me this question &#8211; what&#8217;s the point of delegates in .NET? My answer was very short and one that he had not found online: to delay execution of a method.
 

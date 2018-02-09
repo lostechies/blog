@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - git
   - git-svn
+redirect_from: "/blogs/dahlbyk/archive/2010/11/29/git_2D00_svn_2D00_aliases_2D00_git_2D00_up_2D00_and_2D00_git_2D00_dci.aspx/"
 ---
 I&#8217;ve been using git-svn for almost a year now, and have settled on a
   

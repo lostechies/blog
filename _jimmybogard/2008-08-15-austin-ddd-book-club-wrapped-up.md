@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - AustinDDDBookClub
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2008/08/14/austin-ddd-book-club-wrapped-up.aspx/"
 ---
 The last Austin DDD Book Club meeting came and went today, finishing up with the last couple of chapters in Evans&#8217; excellent [Domain-Driven Design](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) book (covering Chapter 17, Bringing the Strategy Together and the Conclusion).&nbsp; I want to thank our hosts for the meetings, both [Drilling Info](http://www.info.drillinginfo.com/) and [Dovetail Software](http://www.dovetailsoftware.com/).&nbsp; They both provided great meeting spaces that allowed some great discussions to take place.&nbsp; Although I think we really confused the office assistants with a bunch of geeks showing up every couple of weeks, each with a big blue book in hand.
 

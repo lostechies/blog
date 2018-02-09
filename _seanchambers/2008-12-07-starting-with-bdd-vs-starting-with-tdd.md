@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262110465"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/12/07/starting-with-bdd-vs-starting-with-tdd.aspx/"
 ---
 Yesterday I did a presentation on TDD/BDD at the [Tamp Code Camp](http://www.tampacodecamp.com). I have done several TDD presentations in the past but this was the first time I also showed the attendees BDD at the same time. In actuality I didn&#8217;t even show them a traditional TDD test. Not to my surprise, newcomers seem to grasp BDD much quicker and easier than from a TDD perspective. I did touch on that some tests would still be driven from a technical aspect, but from a business requirements they should try to use BDD. Another thing I very briefly touched on was Mocks/Stubs. I try not to go too in depth as you can discuss mocks and stubs for an hour by themselves and isn’t worth it to dive into when all you have is an hour.
 

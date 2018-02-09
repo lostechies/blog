@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089420"
 categories:
   - 'Agile Project Coaching &amp; Management'
+redirect_from: "/blogs/joe_ocampo/archive/2008/01/26/should-you-blog.aspx/"
 ---
 Jeremy Miller has a great post on <a href="http://codebetter.com/blogs/jeremy.miller/archive/2008/01/25/should-i-blog.aspx" target="_blank">should you blog</a>.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - CSS
   - MVC
+redirect_from: "/blogs/johnteague/archive/2009/07/15/giving-your-mvc-views-an-identity.aspx/"
 ---
 One of the great CSS tips I got from [Zen of CSS](http://bit.ly/19HYXY) was to put an id on the body tag of your html pages.&nbsp; This makes it really easy to use one CSS file for your entire site (a optimization trick) and allow you to target elements on specific page easily without creating a lot of unnecessary content wrappers or bogey class names.&nbsp; 
 

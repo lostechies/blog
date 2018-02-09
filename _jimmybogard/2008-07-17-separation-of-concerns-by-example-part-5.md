@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - LINQ2SQL
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2008/07/17/separation-of-concerns-by-example-part-5.aspx/"
 ---
 In our last example, disaster finally struck our quaint little application.&nbsp; A strange defect showed up, which would be almost impossible to reproduce back on our developer machine.&nbsp; But because we&#8217;ve broken out our dependencies, our CustomerFinder became easier to test.&nbsp; When it became easier, actually possible to test, we were able to reproduce the circumstances of the bug.
 

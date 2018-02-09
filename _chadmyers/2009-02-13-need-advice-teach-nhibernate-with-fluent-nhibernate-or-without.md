@@ -12,6 +12,7 @@ categories:
   - CoDe Magazine
   - Fluent NHibernate
   - NHibernate
+redirect_from: "/blogs/chad_myers/archive/2009/02/12/need-advice-teach-nhibernate-with-fluent-nhibernate-or-without.aspx/"
 ---
 I’m in the process of writing an upcoming article for [CoDe Magazine](http://www.code-magazine.com/) about getting started with NHibernate.
 

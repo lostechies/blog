@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123727"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/11/28/entities-vs-value-objects.aspx/"
 ---
 I haven&#8217;t done a post in quite awhile. I have been taking care of my newborn boy Aidan of just about 2 months and needless to say I greatly underestimated the amount of time and effort it takes in the first couple of months for a new parent. We love him all the same and are getting enough sleep to not keel over and die. That being said, I hope everyone can forgive my absence. 
 

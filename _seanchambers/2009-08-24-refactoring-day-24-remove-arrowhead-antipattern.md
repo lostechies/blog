@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262182271"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/24/refactoring-day-24-remove-arrowhead-antipattern.aspx/"
 ---
 Today’s refactoring is based on the c2 wiki entry and can be <a href="http://c2.com/cgi/wiki?ArrowAntiPattern" target="_blank">found here</a>. Los Techies own Chris Missal also did a very informative post on the antipattern that you can <a href="http://www.lostechies.com/blogs/chrismissal/archive/2009/05/27/anti-patterns-and-worst-practices-the-arrowhead-anti-pattern.aspx" target="_blank">find here</a>.
 

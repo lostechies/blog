@@ -9,6 +9,7 @@ dsq_thread_id:
   - "274389898"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2009/05/16/austin-code-camp-sessions-voting-results.aspx/"
 ---
 Keeping with total transparency in the way that we run the Austin Code Camp: below are the results for the voting for sessions.&#160; The voting is used for the following purposes: 
 

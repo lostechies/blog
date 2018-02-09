@@ -14,6 +14,7 @@ categories:
   - Continuous Integration
   - Resharper
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2008/11/19/organizing-bdd-context-specs-for-findability.aspx/"
 ---
 ### Finding Classes With Resharper
 

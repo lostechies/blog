@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/04/17/sun-votes-for-open-source.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/04/17/sun-votes-for-open-source.aspx/"
 ---
 I managed to miss the acquisition in February, but this is really cool nonetheless.&nbsp; Sun Microsystems paid $1 Billion for the commercial support vendor behind MySql (yes, the open source database).
 

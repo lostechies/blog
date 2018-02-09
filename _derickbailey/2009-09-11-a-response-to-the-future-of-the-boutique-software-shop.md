@@ -12,6 +12,7 @@ categories:
   - Quality
   - Re-Post
   - User Experience
+redirect_from: "/blogs/derickbailey/archive/2009/09/11/a-response-to-the-future-of-the-boutique-software-shop.aspx/"
 ---
 [Sean Biefeld](http://seanbiefeld.lostechies.com) forwarded a link to Michael Feather’s [Thoughts on the Future of the Boutique Software Shop](http://michaelfeathers.typepad.com/michael_feathers_blog/2009/09/thoughts-on-the-future-of-the-boutique-software-shop.html) earlier today and it sparked some interesting conversations at the office, via email. One response from a coworker (Robert O’Neil, who doesn’t have a blog, as far as I know) really resonated well with me. I’m posting his entire response, with his permission, and only adding one small [Edit] near the end. Although my experience set is different from Robert’s, I share the sentiments and opinions that he offers in this response.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "428146872"
 categories:
   - Project Management
+redirect_from: "/blogs/chrismissal/archive/2009/05/06/understanding-the-problem.aspx/"
 ---
 <div class="wlWriterEditableSmartContent" style="padding-right: 0px;padding-left: 0px;float: right;padding-bottom: 0px;margin: 0px;padding-top: 0px">
   <a href="//lostechies.com/chrismissal/files/2011/03/logicHomework28x6_00058DE0.jpg" rel="thumbnail"><img src="//lostechies.com/chrismissal/files/2011/03/logicHomework2_59C855E9.png" width="335" border="0" height="260" /></a>

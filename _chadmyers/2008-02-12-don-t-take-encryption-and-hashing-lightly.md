@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113627"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/02/12/don-t-take-encryption-and-hashing-lightly.aspx/"
 ---
 A word to the wise for framework and product-shipping designers: Don&#8217;t take encryption, signing, and hashing lightly. Also, choose your cryptographic algorithms well and even consider making the cryptographic algorithm choice a configurable item.
 

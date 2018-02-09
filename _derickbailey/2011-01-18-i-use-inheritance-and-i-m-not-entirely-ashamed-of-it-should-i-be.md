@@ -11,6 +11,7 @@ categories:
   - AntiPatterns
   - Principles and Patterns
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2011/01/18/i-use-inheritance-and-i-m-not-entirely-ashamed-of-it-should-i-be.aspx/"
 ---
 Some time ago I saw a video of [Dave Thomas](http://pragdave.pragprog.com/) at the [Scotland On Rails 2009](http://www.engineyard.com/blog/community/scotland-on-rails/page-2/) event. I[n this video](http://scotland-on-rails.s3.amazonaws.com/2A04_DaveThomas-SOR.mp4) he says something along the line of
 

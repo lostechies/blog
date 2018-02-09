@@ -14,6 +14,7 @@ categories:
   - ORM
   - Oxite
   - Repositories
+redirect_from: "/blogs/chad_myers/archive/2008/12/20/oxite-review.aspx/"
 ---
 Several folks, including Microsoft employees and members of the Oxite team, have politely requested I do a post or few on the problems I see with Oxite and why I [previously recommended](http://www.lostechies.com/blogs/chad_myers/archive/2008/12/15/my-quick-take-on-oxite.aspx) that it is not a good example/sample from which to base future products.
 

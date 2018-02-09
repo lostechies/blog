@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Testing
   - WatiN
+redirect_from: "/blogs/dahlbyk/archive/2010/01/12/http-error-codes-in-watin-1-3.aspx/"
 ---
 One of the biggest surprises when I started working with WatiN was
   

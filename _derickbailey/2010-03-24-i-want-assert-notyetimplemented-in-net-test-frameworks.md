@@ -20,6 +20,7 @@ categories:
   - Test Automation
   - Tools and Vendors
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/03/24/i-want-assert-notyetimplemented-in-net-test-frameworks.aspx/"
 ---
 One of my coworkers recently tweeted this:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715379"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/18/myth-of-the-isolated-production-fix.aspx/"
 ---
 While in WCF training this week, I heard once again the argument why config files are great &#8211; your IT staff can change them without a recompilation.&nbsp; Sounds great right?&nbsp; But what exactly does this imply?
 

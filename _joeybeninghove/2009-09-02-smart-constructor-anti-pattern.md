@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joeydotnet/archive/2009/09/02/smart-constructor-anti-pattern.aspx
 categories:
   - 'c# patterns mvp'
+redirect_from: "/blogs/joeydotnet/archive/2009/09/02/smart-constructor-anti-pattern.aspx/"
 ---
 If you look at the <a href="http://en.wikipedia.org/wiki/Constructor_(computer_science)" target="_blank">definition of a constructor</a> in the context of software development on Wikipedia (a completely factual and reliable source :), you&#8217;ll find this simple statement of their responsibility&#8230; 
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - .NET
   - Agile
+redirect_from: "/blogs/chris_patterson/archive/2008/01/21/assert-that-this-is-easy.aspx/"
 ---
 I came up with this a month or two ago, but finally decided to share it. While working on [Mass Transit](http://masstransit.googlecode.com/), I was joking with [Dru Sellers](http://geekswithblogs.net/dsellers/Default.aspx) about how nice it was to have really good test coverage when making design changes to some all-new development code. I&#8217;ve had very limited opportunity for a completely new projected started purely from unit tests, so I was just impressed at how easy it was to make code changes knowing that a passing set of tests meant all was well in the world.
 

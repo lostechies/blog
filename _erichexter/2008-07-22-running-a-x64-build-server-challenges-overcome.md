@@ -13,6 +13,7 @@ categories:
   - continous integration
   - IIS
   - x64
+redirect_from: "/blogs/hex/archive/2008/07/22/running-a-x64-build-server-challenges-overcome.aspx/"
 ---
 We just setup a new build server on my current project and with it came some of those little hiccups which made the setup take longer than planned.
 

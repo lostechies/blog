@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/12/dialing-up-quality.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/dialing-up-quality.html)._
 

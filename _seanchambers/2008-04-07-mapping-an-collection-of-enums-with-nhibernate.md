@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262546546"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/04/06/mapping-an-collection-of-enums-with-nhibernate.aspx/"
 ---
 Just came across a situation where I needed to have a collection of enum values mapped to an IList and to have it supported by NHibernate. It took me a little bit to find the proper approach and get NHibernate to play nicely. So as a reference for anyone else running into this you can find some <A class="" href="http://forum.hibernate.org/viewtopic.php?t=955766" target="_blank">information at this posting here</A>
 

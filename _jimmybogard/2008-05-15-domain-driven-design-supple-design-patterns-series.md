@@ -11,6 +11,7 @@ dsq_needs_sync:
   - "1"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/15/domain-driven-design-supple-design-patterns-series.aspx/"
 ---
 At last week&#8217;s [Austin DDD Book Club](http://groups.google.com/group/austin-ddd-book-club/), we discussed my favorite chapter in Evans&#8217; [Domain-Driven Design book](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215): Supple Design.&nbsp; Modeling is an important exercise in Domain-Driven Design, but it&#8217;s not enough to have a codebase that&#8217;s easy to work with.&nbsp; In addition to designs that are easily changed, supple designs enable changes originating from deep modeling.
 

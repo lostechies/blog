@@ -11,6 +11,7 @@ categories:
   - .NET
   - 'C#'
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/03/25/law-of-demeter-extension-methods-don-t-count.aspx/"
 ---
 We all know the [Law of Demeter](http://en.wikipedia.org/wiki/Law_Of_Demeter), right? It’s the principle that says “don’t let the paperboy reach into your wallet when he wants to be paid. It’s your wallet, you decide what form of payment and how much without letting him have access to the contents of your wallet.”
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/nelson_montalvo/archive/2007/03/30/simple-nhibernate-example-part-3-initial-repository-implementation.aspx
 categories:
   - NHibernate
+redirect_from: "/blogs/nelson_montalvo/archive/2007/03/30/simple-nhibernate-example-part-3-initial-repository-implementation.aspx/"
 ---
 _Repositories_ are our central access point to pre-existing domain objects. Repositories simplify the management of the object&#8217;s life cycle and decouple the domain from data access technologies and strategies. Finally, repositories are domain level, communicating to other domain objects how certain objects can be accessed.
 

@@ -11,6 +11,7 @@ categories:
   - .NET
   - 'C#'
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2010/05/13/class-definitions-binding-contracts-and-agreements-to-get-things-done.aspx/"
 ---
 I’ve been reading the [Metaprogramming Ruby](http://pragprog.com/titles/ppmetr/metaprogramming-ruby) book from Pragmatic Press off and on for a few months now. It’s really helped me understand a lot about how Ruby works and how I should go about using the language to do what I need. One of my personal favorite points that it makes is how Ruby treats a class definition as a change in the scope of executing code, rather than a contract definition. It’s especially interesting to me in comparison to how C# (and I assume, Java) work with class definitions. 
 

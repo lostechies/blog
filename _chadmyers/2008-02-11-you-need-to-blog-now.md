@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113640"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/02/10/you-need-to-blog-now.aspx/"
 ---
 Seriously. No, I know. Stop it. Stop whining. Yes, they will care what you have to say. No, it hasn&#8217;t all been said before. Yes, seriously. Do it. YOU, YES YOU!
 

@@ -11,6 +11,7 @@ categories:
   - 'C#'
   - Silverlight
   - Testing
+redirect_from: "/blogs/hex/archive/2008/06/08/silverlight-beta-2-released-and-what-that-means-for-the-testing-framework.aspx/"
 ---
 ok..&nbsp; So Silverlight Beta 2 was released on and it has some great new features. But what is the story about testing&#8230;?
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715561"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/19/last-xml-serializer-i-ll-ever-write.aspx/"
 ---
 I&#8217;ve made this class probably a half dozen times, and I&#8217;m getting pretty tired of writing it.&nbsp; It seems like every application I write has to serialize and deserialize back and forth between XML strings and objects.&nbsp; For future reference, here it is:
 

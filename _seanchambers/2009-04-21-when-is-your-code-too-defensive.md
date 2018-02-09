@@ -9,6 +9,7 @@ dsq_thread_id:
   - "350593542"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/04/20/when-is-your-code-too-defensive.aspx/"
 ---
 I had a discussion with some fellow developers a little while ago about DesignByContract and creating defensive code. The subject of being \*too\* defensive came up in the fact that while writing defensive code is a good thing, it’s not hard to go off the deep end and start building too many walls protecting your fort.
 

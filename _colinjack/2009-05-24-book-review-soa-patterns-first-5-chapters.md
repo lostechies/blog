@@ -8,6 +8,7 @@ wordpress_guid: /blogs/colinjack/archive/2009/05/24/book-review-soa-patterns-fir
 categories:
   - Books
   - SOA
+redirect_from: "/blogs/colinjack/archive/2009/05/24/book-review-soa-patterns-first-5-chapters.aspx/"
 ---
 I&#8217;ll cut straight to the chase, I definitely recommend [SOA Patterns](http://www.manning.com/rotem/) to anyone interested in SOA. 
 

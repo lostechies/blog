@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - DependencyInjection
+redirect_from: "/blogs/jimmy_bogard/archive/2010/05/03/dependency-injection-in-asp-net-mvc-filters.aspx/"
 ---
 So far, we’ve looked at extending the advantages of dependency injection to our [controllers](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/04/26/dependency-injection-in-asp-net-mvc-controllers.aspx) and [its various services](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/04/28/dependency-injection-in-asp-net-mvc-contextual-controller-injection.aspx).&#160; We started with a basic controller factory that merely instantiates controllers to one that takes advantage of the modern container feature of nested/child containers to provide contextual, scoped injection of services.&#160; With a child container, we can do things like scope a unit of work to a request, without needing to resort to an IHttpModule (and funky service location issues).
 

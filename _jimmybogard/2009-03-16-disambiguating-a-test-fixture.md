@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716100"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2009/03/15/disambiguating-a-test-fixture.aspx/"
 ---
 One of the more disappointing things I found reading the xUnit Test Patterns book was how much one tool could shape my views on a concept.&#160; NUnit, as great and simple tool as it is, doesn’t quite match the other xUnit tools out there when it comes to defining the pieces of a unit test.
 

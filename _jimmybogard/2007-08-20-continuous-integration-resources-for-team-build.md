@@ -9,6 +9,7 @@ dsq_thread_id:
   - "330723153"
 categories:
   - TeamBuild
+redirect_from: "/blogs/jimmy_bogard/archive/2007/08/20/continuous-integration-resources-for-team-build.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/continuous-integration-resources-for.html)._
 

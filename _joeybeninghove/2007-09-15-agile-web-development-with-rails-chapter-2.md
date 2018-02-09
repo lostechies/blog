@@ -10,6 +10,7 @@ categories:
   - Rails
   - Reviews
   - Ruby
+redirect_from: "/blogs/joeydotnet/archive/2007/09/15/agile-web-development-with-rails-chapter-2.aspx/"
 ---
 Got.&nbsp; To.&nbsp; Learn.&nbsp; Ruby.&nbsp; On.&nbsp; Rails.
 

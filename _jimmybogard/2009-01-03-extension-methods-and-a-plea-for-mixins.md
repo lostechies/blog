@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/01/02/extension-methods-and-a-plea-for-mixins.aspx/"
 ---
 I was having a spot of trouble the other day trying to get my extension methods to show up in my ASP.NET MVC Views.&#160; One of the issues we’ve run into is trying to make our Views (more) intelligent on the HTML they create.&#160; Our Views still _only_ work off of a Model, but they can be much more intelligent on creating the HTML for a single property, or group of properties.&#160; However, if we’re trying to extend our Views (and not that crazy HtmlHelper), there are at least 6 View types we have to deal with:
 

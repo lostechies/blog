@@ -11,6 +11,7 @@ categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/12/08/information-radiators-make-life-visible.aspx/"
 ---
 A couple of people have asked me how we track our work for our iterations. We basically use a somewhat simple [information radiator](http://c2.com/cgi-bin/wiki?InformationRadiator). 
 

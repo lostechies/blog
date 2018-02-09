@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264871028"
 categories:
   - Mercurial
+redirect_from: "/blogs/jimmy_bogard/archive/2010/07/27/mercurial-workflows-mainline-workflow.aspx/"
 ---
 In the last post, we [looked at a workflow](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/07/08/mercurial-workflows-local-development-work.aspx) very common in the Git sphere: utilizing local branches to create segregated workspaces for individual topic branches.&#160; As far as I can tell, this seems to be the preferred day-to-day workflow for Git users, as its first-class local branching support makes it completely seamless to create segregated areas of work.
 

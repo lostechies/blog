@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2009/04/03/i-heart-resharper.aspx
 categories:
   - Tools
+redirect_from: "/blogs/mokhan/archive/2009/04/03/i-heart-resharper.aspx/"
 ---
 I’m still surprised by just how many people still aren’t using ReSharper. It’s an amazing productivity adding for Microsoft Visual Studio.&#160; Once you’ve spent the time learning a few keyboard shortcuts you will not go back to naked studio.
 

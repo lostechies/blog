@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716179"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2009/05/28/meaning-of-life.aspx/"
 ---
 Wolfram Alpha knows all:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089254"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/04/05/agile-logistics.aspx/"
 ---
 &nbsp;
 

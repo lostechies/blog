@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - git
   - github
+redirect_from: "/blogs/jagregory/archive/2010/02/12/git-remotes-contributions-and-the-letter-n.aspx/"
 ---
 Here&#8217;s a few ways to think about Git and it&#8217;s distributed nature.
 

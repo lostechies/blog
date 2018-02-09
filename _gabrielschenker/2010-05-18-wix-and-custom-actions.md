@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - tutorial
   - WIX
+redirect_from: "/blogs/gabrielschenker/archive/2010/05/19/wix-and-custom-actions.aspx/"
 ---
 ## Introduction
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089795"
 categories:
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/04/nspec-merges-with-nbehave.aspx/"
 ---
 I am pleased to announce that [Tim Haughton](http://agilemicroisv.com/) has agreed to join his NSpec project with NBehave!
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - adnug
   - CodeCamp
+redirect_from: "/blogs/johnteague/archive/2009/02/09/austin-code-camp-09.aspx/"
 ---
 ## <span style="color: #400080">When: Saturday, May 30th</span>
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262356806"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/28/refactoring-day-30-return-asap.aspx/"
 ---
 This topic actually came up during the Remove Arrowhead Antipattern refactoring. The refactoring introduces this as a side effect to remove the arrowhead. To eliminate the arrowhead you return as soon as possible.
 

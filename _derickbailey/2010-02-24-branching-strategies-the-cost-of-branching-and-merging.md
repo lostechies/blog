@@ -13,6 +13,7 @@ categories:
   - Productivity
   - Source Control
   - Test Automation
+redirect_from: "/blogs/derickbailey/archive/2010/02/24/branching-strategies-the-cost-of-branching-and-merging.aspx/"
 ---
 [Branching and merging](http://www.lostechies.com/blogs/derickbailey/archive/2010/02/24/branching-strategies-when-to-branch-and-merge.aspx) are never free operations. Even if you are using a source control system that makes the mechanical process of branching and merging negligible, there are other costs that need to be accounted for than just the button clicks or commands that are required for a developer to commit changes. 
 

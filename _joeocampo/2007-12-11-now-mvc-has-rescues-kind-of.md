@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Architechture
   - ASP.MVC
+redirect_from: "/blogs/joe_ocampo/archive/2007/12/10/now-mvc-has-rescues-kind-of.aspx/"
 ---
 I really missed using the <a href="http://www.castleproject.org/monorail/documentation/v1rc2/usersguide/rescues.html" target="_blank">[Rescue] attribute</a> from <a href="http://www.castleproject.org/monorail/index.html" target="_blank">MonoRail</a> in the ASP MVC framework.&nbsp; I missed it so much that I decided to create my own.&nbsp; With the help of <a href="http://haacked.com/archive/2007/12/09/extending-asp.net-mvc-to-add-conventions.aspx" target="_blank">Phil Haack&#8217;s ConventionController</a> and <a href="http://weblogs.asp.net/fredriknormen/archive/2007/11/22/asp-net-mvc-framework-handling-exception-by-using-an-attribute.aspx" target="_blank">Frederick Norman&#8217;s post on ErrorHandlerAttribute</a> it wasn&#8217;t that hard at all.&nbsp; In fact in the end I have something that almost looks like the MonoRail controller syntax.&nbsp; Mind you it is not using any Filters but I really see how easy it would be implement them given the time.
 

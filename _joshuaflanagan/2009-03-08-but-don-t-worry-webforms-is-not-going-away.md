@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - JQuery
   - MVC
+redirect_from: "/blogs/joshuaflanagan/archive/2009/03/08/but-don-t-worry-webforms-is-not-going-away.aspx/"
 ---
 I got a kick out of <a href="http://codebetter.com/blogs/jeremy.miller/archive/2009/03/08/why-i-prefer-the-mvc-model-2-style-over-webforms.aspx" target="_blank">Jeremy’s eye poke at the ASP.NET WebForms</a> “simpler” approach to web development.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ALTdotNET
   - CodingDojo
+redirect_from: "/blogs/chad_myers/archive/2008/04/21/remote-pairing-and-screencasting.aspx/"
 ---
 I&#8217;m starting to question the value of blogging as a way of rallying community efforts.&nbsp; I&#8217;m inclined to focus more on article-style blogging vs. conversational-style blogging and moving the conversation to Skype+VNC and recording the interactions and minimally producing screencasts of interesting interactions.
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joe_ocampo/archive/2007/12/20/say-goodbye-to-411-charges.aspx
 categories:
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/12/20/say-goodbye-to-411-charges.aspx/"
 ---
 And say hello <a href="http://www.google.com/goog411/" target="_blank">Goog 411</a>
 

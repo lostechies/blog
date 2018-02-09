@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/01/01/running-microsoft-excel-on-a-scalable-computing-grid.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/01/01/running-microsoft-excel-on-a-scalable-computing-grid.aspx/"
 ---
 Sorry, I had to post this one.
 

@@ -12,6 +12,7 @@ categories:
   - 'C#'
   - Domain Driven Design
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/02/15/proactive-vs-reactive-validation-don-t-we-need-both.aspx/"
 ---
 **Update:** There’s a wealth of knowledge out there that I just haven’t been aware of until now. Thanks to the many commenters of this post, other posts, and other conversations for the links and info. Here is a list of items that I’m finding to be very helpful in understanding what is only a surface level “validation” problem:
 

@@ -12,6 +12,7 @@ categories:
   - Resharper
   - TDD
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/06/24/preliminary-thoughts-on-tdd-with-mstest-in-orcas.aspx/"
 ---
 [Naysawn](http://blogs.msdn.com/nnaderi/default.aspx), the PM for MSTest, asked that I take a look at the new unit testing features of Orcas, after he read [my thoughts on the (sad) current state of MSTest](http://joeydotnet.com/blog/archive/2006/12/25/15.aspx).&nbsp; Unfortunately, I haven&#8217;t yet had a chance to actually fire up the Orcas VPC to play with it, but Naysawn wrote up [a couple](http://blogs.msdn.com/nnaderi/archive/2007/05/11/new-unit-testing-features-in-orcas-part-1.aspx) [of posts](http://blogs.msdn.com/nnaderi/archive/2007/05/14/new-unit-testing-features-in-orcas-part-2.aspx) describing some of the new features coming to MSTest in Orcas.&nbsp; So I figured I&#8217;d post some initial feedback on his posts as it relates to TDD&#8230;
 

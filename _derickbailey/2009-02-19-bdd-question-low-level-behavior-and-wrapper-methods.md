@@ -12,6 +12,7 @@ categories:
   - Behavior Driven Development
   - 'C#'
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2009/02/19/bdd-question-low-level-behavior-and-wrapper-methods.aspx/"
 ---
 I have a service object with an interface explicitly defined for it. I like this because it let’s me unit test the things that need the service without having to worry about the implementation detail of the actual service. 
 

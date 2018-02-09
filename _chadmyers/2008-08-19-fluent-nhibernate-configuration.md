@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113994"
 categories:
   - Fluent NHibernate
+redirect_from: "/blogs/chad_myers/archive/2008/08/18/fluent-nhibernate-configuration.aspx/"
 ---
 Used NHibernate?&nbsp; Had to use the XML configuration (hibernate.cfg.xml)?&nbsp; Remember this?
 

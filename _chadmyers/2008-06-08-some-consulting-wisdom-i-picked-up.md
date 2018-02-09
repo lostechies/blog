@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113865"
 categories:
   - Consulting
+redirect_from: "/blogs/chad_myers/archive/2008/06/08/some-consulting-wisdom-i-picked-up.aspx/"
 ---
 I did a consulting gig for a few years at a very large government institution and I picked up some wisdom about how to best serve the customer (even sometimes in spite of themselves), how to remain sane, and how to maintain your scruples while doing it all.&nbsp; I typed these up on Twitter awhile back and then forgot about &#8217;em. Several people encouraged me to blog them, so here goes:
 

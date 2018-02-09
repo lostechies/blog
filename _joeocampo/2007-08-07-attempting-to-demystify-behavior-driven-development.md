@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - BDD (Behavior Driven Development)
   - Domain Driven Design (DDD)
+redirect_from: "/blogs/joe_ocampo/archive/2007/08/07/attempting-to-demystify-behavior-driven-development.aspx/"
 ---
 After receiving several emails and reading [Roy Osherove&#8217;s post](http://weblogs.asp.net/rosherove/archive/2007/08/04/behave-enables-behavior-driven-testing-raises-some-interesting-questions.aspx) on Behave#, I wanted to give more incite and answer some questions that were asked&nbsp;about Behave# and BDD in general. 
 

@@ -8,6 +8,7 @@ wordpress_guid: /blogs/joeydotnet/archive/2007/10/02/anyone-played-with-enso.asp
 categories:
   - Productivity
   - Tools
+redirect_from: "/blogs/joeydotnet/archive/2007/10/02/anyone-played-with-enso.aspx/"
 ---
 I ran across this pretty nifty looking launcher/productivity tool called [Enso](http://humanized.com/enso/).&nbsp; I&#8217;ve downloaded the launcher and
   

@@ -14,6 +14,7 @@ categories:
   - Kaizen
   - Lean Systems
   - Retrospectives
+redirect_from: "/blogs/derickbailey/archive/2010/02/28/failure-is-not-an-option-it-is-a-requirement.aspx/"
 ---
 Of course that statement on it’s own can obviously be shown to be fallacy. When you consider the context of continuous improvement, learning or generally advancing our own capabilities and understanding, though, this statement can be quit liberating. Why? Because without failure, you are not learning anything.
 

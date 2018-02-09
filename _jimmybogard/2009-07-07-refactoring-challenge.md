@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716252"
 categories:
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2009/07/06/refactoring-challenge.aspx/"
 ---
 I don’t like messy, obfuscated code.&#160; But <strike>occasionally</strike> often, I write it anyway as I can’t quite see the right way to go.&#160; Today is one of those days where I can’t seem to get past some ugly code, none of my normal tricks seem to work.&#160; Instead of me doing any more work on it, I’m curious if anyone else has any ideas.&#160; Here’s the offending function, in the TypeMapMapper class from the trunk (R97) of the [AutoMapper codebase](http://code.google.com/p/automapperhome/):
 

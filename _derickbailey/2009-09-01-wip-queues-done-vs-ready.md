@@ -11,6 +11,7 @@ categories:
   - Kanban
   - Lean Systems
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/09/01/wip-queues-done-vs-ready.aspx/"
 ---
 I’ve used two types of queues in my Kanban systems, in the last year – but I didn’t realize it until a recent conversation at the [Lean Software Austin](http://leansoftwareaustin.org) meeting in August. As recently as the [Conversation on Adopting Kanban](http://www.lostechies.com/blogs/derickbailey/archive/2009/08/19/a-conversation-on-adopting-kanban.aspx), I talked about how it didn’t really matter if you called a queue a “done” queue vs a “ready” queue. At the LSA meeting, though, [Scott](http://blog.scottbellware.com/) pointed out a key difference between these two types of queues based on the language of the queue name.
 

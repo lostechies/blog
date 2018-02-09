@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/03/30/taxonomy-of-interaction-models.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/03/30/taxonomy-of-interaction-models.aspx/"
 ---
 We live and work&nbsp;a world where tech talk quick devolves into muddy, undefined&nbsp;communication revolving around one of three concepts: the object, the component, or the service.
 

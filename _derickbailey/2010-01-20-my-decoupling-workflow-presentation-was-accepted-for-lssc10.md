@@ -13,6 +13,7 @@ categories:
   - Lean Systems
   - Presentations
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2010/01/20/my-decoupling-workflow-presentation-was-accepted-for-lssc10.aspx/"
 ---
 [<img style="margin: 0px 10px 0px 0px" border="0" alt="Atlanta 2010 Speaker" align="left" src="http://www.agilemanagement.net/lssc10/Atlanta2010Speaker.png" />](http://atlanta2010.leanssc.org/)I was notified yesterday that my ‘[Decoupling Workflow](http://atlanta2010.leanssc.org/home/derick-bailey/)’ submission for the Lean Software & Systems Conference in Atlanta was accepted!
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262353176"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/18/refactoring-day-18-replace-exception-with-conditional.aspx/"
 ---
 Today&#8217;s refactoring doesn&#8217;t come from any place specifically, just something I&#8217;ve picked up over time that I find myself using often. Any variations/comments would be appreciated to this approach. I think there&#8217;s some other good refactorings around these type of problems.
 

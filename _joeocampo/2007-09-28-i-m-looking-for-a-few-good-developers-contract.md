@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joe_ocampo/archive/2007/09/28/i-m-looking-for-a-few-good-developers-contract.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/09/28/i-m-looking-for-a-few-good-developers-contract.aspx/"
 ---
 If you are in the San Antonio area and want to work with a great Agile team on a 6 month contract let me know.&nbsp; I am currently taking application for 3 web developers.&nbsp; If you are interested go ahead and click on the <a href="http://www.lostechies.com/blogs/joe_ocampo/contact.aspx" target="_blank">contact</a> link.
 

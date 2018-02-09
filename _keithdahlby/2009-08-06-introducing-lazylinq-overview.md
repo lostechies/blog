@@ -13,6 +13,7 @@ categories:
   - LazyLinq
   - LINQ
   - LINQ to SQL
+redirect_from: "/blogs/dahlbyk/archive/2009/08/06/introducing-lazylinq-overview.aspx/"
 ---
 This is the first in a series of posts on LazyLinq, a wrapper to support lazy initialization and deferred disposal of a LINQ query context, including LINQ to SQL&#8217;s [`DataContext`](http://msdn.microsoft.com/en-us/library/system.data.linq.datacontext.aspx "DataContext Class (System.Data.Linq)"):
 

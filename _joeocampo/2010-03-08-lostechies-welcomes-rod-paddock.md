@@ -9,5 +9,6 @@ dsq_thread_id:
   - "262088573"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2010/03/08/lostechies-welcomes-rod-paddock.aspx/"
 ---
 I am proud to announce that&nbsp;[Rod Paddock](/blogs/rodpaddock/)&nbsp;has joined LosTechies!&nbsp; We are all looking forward to his perspective and insights into software development.

@@ -15,6 +15,7 @@ categories:
   - JavaScript
   - Microsoft
   - RESTful web service
+redirect_from: "/blogs/seanbiefeld/archive/2009/03/03/developing-at-the-speed-of-microsoft.aspx/"
 ---
 As .net developers do you ever feel like <a target="_blank" href="http://en.wikipedia.org/wiki/Microsoft">Microsoft i</a>s hindering your development by the development tools they impose on us. I have been thinking about this lately and decide to discuss it, or this might actually be a rant, forgive the rant. I aim to take a brief look at web development the Microsoft way, how it has evolved, and the hindrances imposed on the community.
 

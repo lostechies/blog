@@ -13,6 +13,7 @@ categories:
   - 'C#'
   - Principles and Patterns
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/11/03/a-response-to-what-is-an-interface-by-john-sonmez.aspx/"
 ---
 this started out as a very lengthy reply to john sonmez’ post on [What Is An Interface](http://simpleprogrammer.com/2010/11/02/back-to-basics-what-is-an-interface/). There’s enough that I want to say that I think it warrants me posting on my blog instead of blogging in his comment stream.
 

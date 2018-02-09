@@ -8,6 +8,7 @@ wordpress_guid: /blogs/colinjack/archive/2009/02/15/europe-van-25th-february-200
 categories:
   - ALT.NET
   - VAN
+redirect_from: "/blogs/colinjack/archive/2009/02/15/europe-van-25th-february-2009.aspx/"
 ---
 After a bit of discussion [Jan](http://elegantcode.com/about/jan-van-ryswyck/) and I have decided that for now it seems to make sense to run the Europe VAN every two weeks, we have discussed having more open discussions on alternate weeks but we&#8217;ll have to see if there is an appetite for that. 
 

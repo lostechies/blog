@@ -9,6 +9,7 @@ dsq_thread_id:
   - "273845742"
 categories:
   - LegacyCode
+redirect_from: "/blogs/jimmy_bogard/archive/2007/10/19/dependency-breaking-techniques-inline-static-class.aspx/"
 ---
 Often times I run into a class that has a dependency not on a [Singleton](http://www.dofactory.com/Patterns/PatternSingleton.aspx), but a static class.&nbsp; When refactoring away from a Singleton, a common approach is to use [Inline Singleton](http://industriallogic.com/xp/refactoring/inlinesingleton.html).&nbsp; With static classes, a slightly different approach needs to be taken because client code isn&#8217;t working with an instance of a type, but rather static methods on the type itself.
 

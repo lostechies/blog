@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASP.NET
   - MVP
+redirect_from: "/blogs/chad_myers/archive/2008/08/29/thoughts-on-mvp-and-webforms.aspx/"
 ---
 I got an email from a friend asking about MVP in WebForms and how the view should do databinding.&#160; There was talk of using a FormView and various *DataSource objects, so I thought I’d do a brain-dump of MVP and Presentation Model.&#160; I’ve had a few other people ask me about this recently, so I hope it benefits all of you.
 

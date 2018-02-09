@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2008/09/04/viva-lostechies.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottcreynolds/archive/2008/09/04/viva-lostechies.aspx/"
 ---
 As [Joe so eloquently stated](http://www.lostechies.com/blogs/joe_ocampo/archive/2008/09/03/lostechies-welcomes-scott-c-reynolds.aspx), I&#8217;ve joined the LosTechies blogging community after just over 4 years blogging freestyle.
 

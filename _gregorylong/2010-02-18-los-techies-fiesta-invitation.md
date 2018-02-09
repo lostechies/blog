@@ -9,6 +9,7 @@ dsq_thread_id:
   - "270029640"
 categories:
   - Uncategorized
+redirect_from: "/blogs/thatotherguy/archive/2010/02/18/los-techies-fiesta-invitation.aspx/"
 ---
 <span style="font-size: large">Pablo&#8217;s Fiesta Invitation</span>
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - JQuery
   - QUnit
+redirect_from: "/blogs/chad_myers/archive/2008/08/28/getting-started-with-jquery-qunit-for-client-side-javascript-testing.aspx/"
 ---
 # Setup
 

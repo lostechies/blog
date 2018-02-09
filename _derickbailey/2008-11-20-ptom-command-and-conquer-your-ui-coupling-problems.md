@@ -12,6 +12,7 @@ categories:
   - Analysis and Design
   - Design Patterns
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2008/11/19/ptom-command-and-conquer-your-ui-coupling-problems.aspx/"
 ---
 This post is part of the <a href="/blogs/rhouston/archive/2008/11/05/pablo-s-topic-of-the-month-november-design-patterns.aspx" target="_blank">November 2008 Pablo&#8217;s Topic Of The Month (PTOM) &#8211; Design Patterns</a> and will outline a simple Command pattern, its implementation and use.
 

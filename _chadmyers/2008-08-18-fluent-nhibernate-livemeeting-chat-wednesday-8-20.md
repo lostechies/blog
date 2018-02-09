@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Fluent NHibernate
   - LiveMeeting
+redirect_from: "/blogs/chad_myers/archive/2008/08/17/fluent-nhibernate-livemeeting-chat-wednesday-8-20.aspx/"
 ---
 </p> 
 

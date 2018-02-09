@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262997837"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/31/31-days-of-refactoring-series-complete.aspx/"
 ---
 Well, we have come to the end of the series. I hope everyone has found some value in the series. Some examples were extremely contrived and maybe not all that useful but hopefully someone can use them at some point.
 

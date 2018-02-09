@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088391"
 categories:
   - LosTechies
+redirect_from: "/blogs/joe_ocampo/archive/2008/02/25/lostechies-welcomes-eric-hexter.aspx/"
 ---
 What more could be said about the <a href="http://www.codeplex.com/MVCContrib" target="_blank">MVCContrib</a> coordinator extraordinaire, Eric Hexter! 
 

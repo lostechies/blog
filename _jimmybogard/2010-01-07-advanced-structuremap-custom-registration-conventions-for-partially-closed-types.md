@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264995067"
 categories:
   - StructureMap
+redirect_from: "/blogs/jimmy_bogard/archive/2010/01/07/advanced-structuremap-custom-registration-conventions-for-partially-closed-types.aspx/"
 ---
 A while back, I highlighted an issue we ran into where I had basically [partially closed generic types](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/09/01/partially-closed-generic-types.aspx).&#160; A common pattern in message- and command-based architectures is the concept of a handler for a message:
 

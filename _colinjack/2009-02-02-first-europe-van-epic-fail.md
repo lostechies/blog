@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2009/02/02/first-europe-van-epic-fail.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colinjack/archive/2009/02/02/first-europe-van-epic-fail.aspx/"
 ---
 The first Europe VAN went off without a hitch and was an amazing success. Ha, yeah sorry about that. 
 

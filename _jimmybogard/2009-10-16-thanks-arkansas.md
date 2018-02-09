@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716335"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2009/10/15/thanks-arkansas.aspx/"
 ---
 This week I made the drive from Austin to Fort Smith and Springdale, Arkansas to speak at the [Fort Smith DNUG](http://www.fsdnug.org/) and the [Northwest Arkansas DNUG](http://www.nwadnug.org/) on UI testing ASP.NET MVC.&#160; Although I showed tools such as WatiN and Gallio, I focused more on design for UI testability, and covered items such as:
 

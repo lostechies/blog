@@ -12,6 +12,7 @@ categories:
   - 'C#'
   - Lambda Expressions
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/02/23/closures-in-c-variable-scoping-and-value-types-vs-reference-types.aspx/"
 ---
 I read Sergio’s post on “<a href="http://devlicio.us/blogs/sergio_pereira/archive/2009/02/23/javascript-time-to-grok-closures.aspx" target="_blank">Javascript, time to grok closures</a>” today and it was very enlightening. Overall, it helped me to understand <a href="http://en.wikipedia.org/wiki/Closure_(computer_science)" target="_blank">closures</a> more than I previously had – not just in Javascript, though. I put together a quick sample on closures in C# to illustrate the same behavior that Sergio is talking about in the ‘Closures can be tricky’ section of his post. I’m happy to see C# is behaving the same way as Javascript, in the case of ‘value’ types in closures. This probably isn’t new to anyone that understands closures already. It’s new to me, though, and seems to be a fairly important concept to understand when using anonymous methods (lambda expression or otherwise) and closures.
 

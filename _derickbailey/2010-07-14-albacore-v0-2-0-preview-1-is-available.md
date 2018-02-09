@@ -13,6 +13,7 @@ categories:
   - Build Tools
   - Rake
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2010/07/14/albacore-v0-2-0-preview-1-is-available.aspx/"
 ---
 A few days ago I pushed a preview version of Albacore up to RubyGems. The intention of doing a preview release was to show everyone the new direction that Albacore is heading and to get feedback from the community on that direction. Things are far from complete in this preview… there is a lot of work that I still want to pack in before the final release of v0.2.0… but there’s already enough change that has occurred, that I think it is time to start getting feedback and making improvements based on that. 
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/05/19/on-comparing-current-tools-to-futureware.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/05/19/on-comparing-current-tools-to-futureware.aspx/"
 ---
 I&#8217;m going to take a quote from <a href="http://blogs.msdn.com/dsimmons/" target="_blank">Daniel Simmons</a> on [why we should use the Entity Framework](http://blogs.msdn.com/dsimmons/archive/2008/05/17/why-use-the-entity-framework.aspx).
 

@@ -14,6 +14,7 @@ categories:
   - 'C#'
   - Open Source Software
   - Tools
+redirect_from: "/blogs/hex/archive/2009/05/18/the-flat-tire-principal-for-source-control.aspx/"
 ---
 There is a strange correlation between automobiles and line of business software applications when it comes to performing some standard repairs.
 

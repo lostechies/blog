@@ -11,6 +11,7 @@ categories:
   - ASPNETMVC
   - Refactoring
   - StructureMap
+redirect_from: "/blogs/jimmy_bogard/archive/2009/07/03/how-not-to-do-dependency-injection-in-nerddinner.aspx/"
 ---
 Checking out the [NerdDinner](http://nerddinner.codeplex.com/) code the other day, I found a common Dependency Injection anti-pattern.&#160; One of the core concepts of DI is that components are not responsible for locating their own dependencies.&#160; The code went part of the way to full-on DI, but not quite far enough.&#160; Here’s the offending code:
 

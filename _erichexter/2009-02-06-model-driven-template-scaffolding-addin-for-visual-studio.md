@@ -15,6 +15,7 @@ categories:
   - MVC
   - mvccontrib
   - Tools
+redirect_from: "/blogs/hex/archive/2009/02/05/model-driven-template-scaffolding-addin-for-visual-studio.aspx/"
 ---
 &#160;
 

@@ -13,6 +13,7 @@ categories:
   - Education
   - Rake
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2009/04/08/how-a-net-developer-learned-ruby-and-rake-to-build-net-apps-in-windows.aspx/"
 ---
 I recently decided it was time for me to learn Ruby and Rake – with the specific goal of replacing my NAnt scripts in some projects, due to the high level of complexity and logic that I need in the build process. After asking around the LosTechies crew for advice, and receiving more advice than I had ever hoped for, here’s the basics of what I did to learn Ruby and Rake…
 

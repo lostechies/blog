@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089419"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2010/01/01/leveraging-windows-7-boot-to-vhd-to-test-visual-studio-2010.aspx/"
 ---
 The goal of this article is simple: a clean installation of Windows 7 that can be used to test new versions of Visual Studio 2010 until we reach RTM. Since a new beta drops every couple of months (and maybe even an interim release or two in between for those lucky enough to get access to it), I don&#8217;t want to have to repave the machine for each new release. Since Windows 7 has the ability to boot into a VHD, I thought this would be the perfect opportunity to try this functionality myself. 
 

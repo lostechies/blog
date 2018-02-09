@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'Agile Project Coaching &amp; Management'
   - Agile Teams
+redirect_from: "/blogs/joe_ocampo/archive/2008/06/23/matrix-resource-management-and-agile.aspx/"
 ---
 I have been having an ongoing discussion lately concerning matrix management styles and how they conflict with Agile Project Management. 
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/joe_ocampo/archive/2008/01/06/a-belated-welcome-chad-myers.aspx
 categories:
   - LosTechies
+redirect_from: "/blogs/joe_ocampo/archive/2008/01/06/a-belated-welcome-chad-myers.aspx/"
 ---
 Sorry about this one Chad, I accidentally saved it to my draft folder.
 

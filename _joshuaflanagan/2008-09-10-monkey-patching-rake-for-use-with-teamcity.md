@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Ruby
   - teamcity
+redirect_from: "/blogs/joshuaflanagan/archive/2008/09/10/monkey-patching-rake-for-use-with-teamcity.aspx/"
 ---
 We use Ruby’s <a href="http://rake.rubyforge.org/" target="_blank">rake</a> as our build automation tool.&#160; It provides a nice, XML-free way to define logical groupings of steps to perform, with dependency resolution.
 

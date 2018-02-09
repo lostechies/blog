@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264779568"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2008/08/21/services-in-domain-driven-design.aspx/"
 ---
 Services are first-class citizens of the domain model.&nbsp; When concepts of the model would distort any Entity or Value Object, a Service is appropriate.&nbsp; From Evans&#8217; DDD, a good Service has these characteristics:
 

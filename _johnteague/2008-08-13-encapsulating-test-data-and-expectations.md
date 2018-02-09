@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - TDD
   - Testing
+redirect_from: "/blogs/johnteague/archive/2008/08/12/encapsulating-test-data-and-expectations.aspx/"
 ---
 I love it when I find new ways to improve my testing ability.&nbsp; In this case, it&#8217;s not really new, just new to me.&nbsp; I&#8217;m referring The [Object Mother](http://c2.com/cgi/wiki?ObjectMother) or [Test Data Builder](http://nat.truemesh.com/archives/000714.html) patterns used to encapsulate objects you need for testing.&nbsp; I started playing with these patterns to simplify my tests and I found a way to further reduce the noise in my tests.
 

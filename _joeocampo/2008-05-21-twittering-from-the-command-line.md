@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Tools
   - Twitter
+redirect_from: "/blogs/joe_ocampo/archive/2008/05/21/twittering-from-the-command-line.aspx/"
 ---
 So I was experimenting with Twitter last night and started to use their RESTful services from the command line.&nbsp; 
 

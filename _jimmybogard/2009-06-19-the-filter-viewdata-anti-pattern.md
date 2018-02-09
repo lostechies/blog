@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716197"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/06/18/the-filter-viewdata-anti-pattern.aspx/"
 ---
 In just about every website you go to these days, its layout follows a very similar pattern:
 

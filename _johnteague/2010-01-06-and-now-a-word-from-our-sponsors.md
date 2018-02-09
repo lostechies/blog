@@ -9,6 +9,7 @@ dsq_thread_id:
   - "463024145"
 categories:
   - fiesta open-spaces
+redirect_from: "/blogs/johnteague/archive/2010/01/06/and-now-a-word-from-our-sponsors.aspx/"
 ---
 I wanted to take a moment and thank the sponsors of&#160; [Pablo’s fiesta open space conference](http://fiesta.lostechies.com).&#160; People and Organizations who sponsor conferences do so because they value their community and use base.&#160; This is especially so for open space conferences since there are very few “formal” presentations with PowerPoint slides and product demos.&#160; We have been very lucky to have a lot support from the Friends of Pablo other companies to keep the cost low enough so the ticket price is not a barrier to attend.
 

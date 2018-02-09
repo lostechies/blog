@@ -9,6 +9,7 @@ categories:
   - Productivity
   - Resharper
   - usability
+redirect_from: "/blogs/joeydotnet/archive/2007/06/28/resharper-3-0-like-a-kid-in-a-candy-store-again.aspx/"
 ---
 When I first started using [ReSharper](http://www.jetbrains.com/resharper/) a couple years ago and with each subsequent release, I&#8217;ve had a lot of fun just exploring all of those &#8220;little&#8221; features that sometimes go unnoticed, but yet, can greatly increase your productivity in Visual Studio.&nbsp; With the latest 3.0 release, I&#8217;m in that mode again.&nbsp; I&#8217;m finding many more cool &#8220;little&#8221; features that just make my life easier.&nbsp; For instance, here&#8217;s just one example&#8230;
 

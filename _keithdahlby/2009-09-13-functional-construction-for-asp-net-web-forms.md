@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASP.NET
   - Functional Construction
+redirect_from: "/blogs/dahlbyk/archive/2009/09/13/functional-construction-for-asp-net-web-forms.aspx/"
 ---
 System.Xml.Linq (a.k.a. LINQ to XML) introduces a nifty approach to creating XML elements called [functional construction](http://msdn.microsoft.com/en-us/library/bb387019.aspx "Functional Construction (LINQ to XML)").
   

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113222"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joshuaflanagan/archive/2010/07/04/linux-re-revisited.aspx/"
 ---
 I have long been a Windows user, but I have a habit of installing Linux on a home machine every couple years to give it a chance to grow on me. It had never won me over to become my primary machine for various reasons: installation issues, driver issues, unable to run my games, unable to run the software I depended on, and no apparent advantage over what I was comfortable using. Until now.
 

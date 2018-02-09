@@ -9,6 +9,7 @@ dsq_thread_id:
   - "263006961"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/05/18/austin-net-code-camp-08-awesome.aspx/"
 ---
 Yesterday a bunch of .NET geeks descended upon Austin for the &#8217;08 Code Camp and it was a great success. From what I heard, about ~200 folks showed up. We had sessions all day and all of them were meaty, good stuff. I don&#8217;t recall seeing one single vendor salesware demo. Every presentation had meat in it (even the vendor ones). There were several patterns/practices talks and we even got to do a fishbowl on TDD/BDD practices.
 

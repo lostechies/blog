@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716083"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/26/seamless-test-authoring-with-resharper-and-autohotkey.aspx/"
 ---
 Although I’m no big believer of code generation, the micro-code generation of ReSharper can be a huge timesaver.&#160; For every common snippet of code or common file I would create, I could create a simple template that might create a class, method, or just a small snippet of code.
 

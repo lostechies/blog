@@ -9,6 +9,7 @@ dsq_thread_id:
   - "270731182"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2009/05/22/masstransit-saga-enhancements-for-event-processing.aspx/"
 ---
 In the past year, I&#8217;ve been learning about [Event Driven Architecture](http://en.wikipedia.org/wiki/Event_Driven_Architecture) and how using it in the enterprise can make adding functionality over time easier through a loosely-coupled event-based architecture. With Event Driven Architecture, business components can subscribe and react to events, using correlation and orchestration to combine those events to represent business processes. The loose-coupled nature makes it easier to add functionality without modifying existing services &#8212; reducing the risk of deploying new services over time. 
 

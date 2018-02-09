@@ -11,6 +11,7 @@ categories:
   - Command Line
   - git
   - Source Control
+redirect_from: "/blogs/derickbailey/archive/2010/06/09/git-oops-i-forgot-to-add-those-new-files-before-committing.aspx/"
 ---
 I do this pretty regularly… working away, adding files, finish something up and commit. Only after I commit do I realize that I forgot to add the new files to git. 
 

@@ -11,6 +11,7 @@ categories:
   - StructureMap
   - Tools
   - WCF
+redirect_from: "/blogs/jimmy_bogard/archive/2008/07/29/integrating-structuremap-with-wcf.aspx/"
 ---
 When developing with an IoC container like StructureMap, eventually some place in your code you will need to call the [registry](http://martinfowler.com/eaaCatalog/registry.html) to instantiate your classes with their dependencies.&nbsp; With StructureMap, this means a call to ObjectFactory.GetInstance.&nbsp; Ideally, we&#8217;d like to limit the number of places the registry is called, so that we don&#8217;t have a lot of StructureMap concerns sprinkled throughout our application.
 

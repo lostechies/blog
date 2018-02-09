@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - LINQ
   - Repositories
+redirect_from: "/blogs/chad_myers/archive/2008/08/01/query-objects-with-the-repository-pattern.aspx/"
 ---
 [Nate Kohari](http://kohari.org/) (whose primate brain is far too small to comprehend this post [inside joke, he’s actually really sharp]) was asking on Twitter today about how to structure his repositories: Per aggregate root, Per entity, or just one repository for everything?
 

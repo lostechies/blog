@@ -9,6 +9,7 @@ dsq_thread_id:
   - "278821846"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2009/06/18/dallas-techfest-2009-tomorrow.aspx/"
 ---
 It&#8217;s been a couple of busy weeks! The weekend before my presentations in Arkansas, I decided to forego sleep and go to [Wakarusa](http://www.wakarusa.com/)! The Saturday lineup included two of my favorite electronica acts, [Shpongle](http://www.twistedmusic.com/artists/shpongle) and [Ott](http://www.ottsonic.com/), and introduced to another band STS9. Staying up all night dancing to heavy techno music and getting no sleep was one heck of a prelude to the week. After the seriously fun times I stopped in on the Fort Smith and Northwest Arkansas .NET user groups and shared my thoughts on Event Driven Architecture. Both nights went well, with some great conversations afterwards about the how and why that took me towards that style of architectural system design.
 

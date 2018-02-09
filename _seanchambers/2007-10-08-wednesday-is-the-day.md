@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123697"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2007/10/07/wednesday-is-the-day.aspx/"
 ---
 The time has finally come. After 9 long months of waiting and a miserable fiancee, our son Aidan&nbsp;will be delivered this week on Wednesday (hopefully)
 

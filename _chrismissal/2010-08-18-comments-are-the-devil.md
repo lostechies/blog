@@ -12,6 +12,7 @@ categories:
   - CSS
   - Design
   - DRY
+redirect_from: "/blogs/chrismissal/archive/2010/08/18/comments-are-the-devil.aspx/"
 ---
 I recently read Chris Coyier&#8217;s article entitled [Show Markup in CSS Comments](http://css-tricks.com/show-markup-in-css-comments/). I was actually a bit angry that so many responses praised this and so few were turned off from the idea. I appreciate the idea of making things easier for working with CSS, but there are just so many better alternatives.
 

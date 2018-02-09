@@ -10,6 +10,7 @@ categories:
   - Legacy Systems
   - NHibernate
   - Transactions
+redirect_from: "/blogs/joshua_lockwood/archive/2007/04/10/how-to-enlist-ado-commands-into-an-nhibernate-transaction.aspx/"
 ---
 <SPAN>Adoption of NHibernate in a legacy environment can be daunting for a number of reasons.&nbsp; Aside from the overhead of becoming proficient with the framework itself, developers are also faced with thousands of lines of working (it&#8217;s assumed) code that is already conversing with the system&#8217;s data store(s).&nbsp; If complete migration to NHibernate is a prerequisite, then such systems would never make the move.&nbsp; That being said, NHibernate does afford a way to make calls&nbsp;using&nbsp;the plain old ADO.Net API.&nbsp; To be more precise, NHibernate allows users to enlist IDbCommands into NHibernate transactions.</SPAN>
 

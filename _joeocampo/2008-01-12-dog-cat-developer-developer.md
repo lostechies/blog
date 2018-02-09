@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089318"
 categories:
   - Programming Analogies
+redirect_from: "/blogs/joe_ocampo/archive/2008/01/12/dog-cat-developer-developer.aspx/"
 ---
 <a href="http://weblogs.asp.net/rosherove/" target="_blank">Roy Osherove</a> is looking for some help on his book on how to explain the ease of changeability of <a href="http://weblogs.asp.net/rosherove/archive/2008/01/12/refactoring-private-methods-is-like.aspx" target="_blank">private vs. public methods.</a>
 

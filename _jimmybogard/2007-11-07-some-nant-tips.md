@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715409"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/07/some-nant-tips.aspx/"
 ---
 [Jason](http://www.lostechies.com/blogs/jason_meridth/default.aspx) got me thinking on some other NAnt tips from his post on [listing the targets in the build file](http://www.lostechies.com/blogs/jason_meridth/archive/2007/11/07/nant-list-all-targets-in-build-file.aspx).
 

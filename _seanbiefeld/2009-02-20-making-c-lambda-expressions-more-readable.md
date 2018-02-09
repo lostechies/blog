@@ -12,6 +12,7 @@ categories:
   - Lambda Expressions
   - Rhino Mocks
   - Unit Test
+redirect_from: "/blogs/seanbiefeld/archive/2009/02/19/making-c-lambda-expressions-more-readable.aspx/"
 ---
 How often do you use lambda expressions? I use them a great deal, mostly when I am making method assertions in [Rhino Mocks](http://ayende.com/projects/rhino-mocks.aspx). Their use is also on the rise with the popularity of fluent interfaces growing. If you do the bare minimum, which i see a lot, the expression can be somewhat cryptic.
   

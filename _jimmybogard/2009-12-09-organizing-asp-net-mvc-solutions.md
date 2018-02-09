@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716372"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/12/08/organizing-asp-net-mvc-solutions.aspx/"
 ---
 Recently, a question came up on Twitter around your favorite project structure/solution organizing for ASP.NET MVC projects.&#160; I’ve toyed around with quite a few different strategies for structuring projects, and I’m currently settled around one that gives me the most flexibility.&#160; It’s extremely simple:
 

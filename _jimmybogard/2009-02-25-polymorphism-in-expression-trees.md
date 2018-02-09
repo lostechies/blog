@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716077"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/24/polymorphism-in-expression-trees.aspx/"
 ---
 While trying to be extra-clever today, I found a potential nasty issue when dealing with [strongly-typed reflection](http://weblogs.asp.net/cazzu/archive/2006/07/06/Linq-beyond-queries_3A00_-strong-typed-reflection_2100_.aspx).&#160; Suppose I have a simple hierarchy of objects:
 

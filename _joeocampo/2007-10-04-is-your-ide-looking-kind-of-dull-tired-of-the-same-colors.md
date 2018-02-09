@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262090075"
 categories:
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2007/10/03/is-your-ide-looking-kind-of-dull-tired-of-the-same-colors.aspx/"
 ---
 Well then I have the place for you.&nbsp; Ok used car salesmen pitch over.&nbsp; I stumbled across this site <a href="http://idehotornot.ning.com/" target="_blank">IsYourIDEHot</a> that has allot of preconfigured color schemes to try.&nbsp; 
 

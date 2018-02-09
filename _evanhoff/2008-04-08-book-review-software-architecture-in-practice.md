@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/04/07/book-review-software-architecture-in-practice.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/04/07/book-review-software-architecture-in-practice.aspx/"
 ---
 Having stumbled onto some of the SEI&#8217;s material on software quality attributes, I decided I had to know more.&nbsp; That was the motivation that drove me to read <a href="http://www.amazon.com/Software-Architecture-Practice-2nd-Engineering/dp/0321154959/" target="_blank">Software Architecture in Practice</a>.&nbsp; It didn&#8217;t hurt when the book was shortly thereafter recommended to me&nbsp;by <a href="http://www.rgoarchitects.com/" target="_blank">Arnon</a>.
 

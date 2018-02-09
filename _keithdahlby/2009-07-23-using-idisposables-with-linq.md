@@ -11,6 +11,7 @@ categories:
   - IDisposable
   - LINQ
   - LINQ to SQL
+redirect_from: "/blogs/dahlbyk/archive/2009/07/23/using-idisposables-with-linq.aspx/"
 ---
 Objects that implement `IDisposable` are everywhere. The interface even gets its own language features ([C#](http://msdn.microsoft.com/en-us/library/yh598w02.aspx "using Statement (C# Reference)"), [VB](http://msdn.microsoft.com/en-us/library/htd05whh.aspx "Using Statement (Visual Basic)"), [F#](http://msdn.microsoft.com/en-us/library/dd233240(VS.100).aspx "Resource Management (F#)")). However, LINQ throws a few wrenches into things: 
 

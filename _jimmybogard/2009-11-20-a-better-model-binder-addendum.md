@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265384218"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/11/19/a-better-model-binder-addendum.aspx/"
 ---
 A while back, I wrote about a [ModelBinder enhancement](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/03/17/a-better-model-binder.aspx) we use to do arbitrary filtering on types.&#160; The underlying matching algorithm only matches on one type, but we like to use layer supertypes for a lot of our domain objects, so we want to use a single model binder for every Entity or Enumeration type in our system.
 

@@ -8,6 +8,7 @@ wordpress_guid: /blogs/jasdeep_singh/archive/2007/05/15/ubiquitous-language-can-
 categories:
   - Domain Driven Design
   - Ubiquitous Language
+redirect_from: "/blogs/jasdeep_singh/archive/2007/05/15/ubiquitous-language-can-be-refactored.aspx/"
 ---
 _Recognize that a change in_ [_UbiquitousLanguage_](http://domaindrivendesign.org/discussion/messageboardarchive/UbiquitousLanguage.html) _is a change to the model._ 
 

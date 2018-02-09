@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Brownfield
   - Technical Debt
+redirect_from: "/blogs/derickbailey/archive/2010/10/01/technical-debt-is-like-your-friend-the-mafia-bookie.aspx/"
 ---
 You’ve known the guy for years… he’s your friend and you’ve never had any troubles in spite of his job. Then one day, you’re hard up for some money to pay rent or get a car repair done. Fortunately your friend is there to help. In spite of your misgivings about taking money from him, he assures you that it’s just a friendly loan between people that have known each other for years. It has nothing to do with his professional life, he says. In fact, it was such a small amount of money that he may not even ask you to repay it. You can relax knowing that it’s not a big deal and you took care of your needs.
 

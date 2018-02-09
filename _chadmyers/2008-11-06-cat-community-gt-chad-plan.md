@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114134"
 categories:
   - Plan
+redirect_from: "/blogs/chad_myers/archive/2008/11/05/cat-community-gt-chad-plan.aspx/"
 ---
 <font color="#ff0000">UPDATE: Wow, I’m truly humbled by the response. I expected all of about 3 comments. THANK YOU for your help here, it means more than you know.&#160; I’ve updated the vote tallies (so far) below.</font>
 

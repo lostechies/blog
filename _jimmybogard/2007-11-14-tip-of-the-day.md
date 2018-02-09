@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715414"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/11/14/tip-of-the-day.aspx/"
 ---
 If you&#8217;re going to physically demonstrate &#8220;[handwaving](http://en.wikipedia.org/wiki/Handwaving)&#8220;, make sure you don&#8217;t have hot chai tea in one of the waving hands.
 

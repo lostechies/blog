@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/31/alt-net-drinking-from-the-firehose.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/31/alt-net-drinking-from-the-firehose.aspx/"
 ---
 Speaking of the firehose:
 

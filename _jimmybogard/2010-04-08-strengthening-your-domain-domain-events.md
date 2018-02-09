@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716450"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2010/04/08/strengthening-your-domain-domain-events.aspx/"
 ---
 Previous posts in this series:
 

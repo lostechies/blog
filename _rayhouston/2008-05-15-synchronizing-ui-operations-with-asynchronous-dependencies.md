@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/05/14/synchronizing-ui-operations-with-asynchronous-dependencies.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/05/14/synchronizing-ui-operations-with-asynchronous-dependencies.aspx/"
 ---
 When working with asynchronous data access such as using a Silverlight client to access data from a server side service, you will inevitably run into the situation where you have two or more calls which have results that need to be processed in a synchronous manner. A simple example is populating a list box from server side data and then making a second call to get the value that needs to be selected. You could wait until the list is populated before making the second call, but that would be a waste.
 

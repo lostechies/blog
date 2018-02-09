@@ -14,6 +14,7 @@ categories:
   - 'C#'
   - Resharper
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2009/03/19/my-current-bdd-specunit-live-templates.aspx/"
 ---
 **UPDATE 3-30-2009**: FYI, I’ve made a few minor updates to my templates. They are now a little more intelligent – the “spec” templates automatically inherits from the parent spec file’s superclass, and all of the templates now have more intelligent placing of cursors for the “When” and “Should” text. I’ve also updated the “When” and “Should” variables to default to a blank (empty) state, so you can start typing without any existing text highlighted by the cursor. All of the “constant value” macros below are defaulted to nothing (empty). The zip file linked at the bottom has been updated with these changes.
 

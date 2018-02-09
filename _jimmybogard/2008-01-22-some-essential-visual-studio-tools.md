@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715520"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/22/some-essential-visual-studio-tools.aspx/"
 ---
 Visual Studio for me personally is tough to use without some essential tools and add-ins installed.&nbsp; Having recently set up a dev machine, I became keenly aware of the pain of using a clean installation of Visual Studio.&nbsp; So I don&#8217;t forget next time, here are the add-ins I like to use:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716221"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/06/24/expressions-cheat-sheet.aspx/"
 ---
 I started getting really tired of looking up the translation between the ExpressionType and concrete Expression type (they don’t match up), so I created this cheat sheet that has each ExpressionType, derived Expression type and a simple example.&#160; What’s interesting is a few are only available in VB.NET, but no one really wants non-short-circuited Or/And operators, do they?&#160; You can [download the PDF version](http://grabbagoftimg.s3.amazonaws.com/Expression Cheat Sheet.pdf), or just view the big list in all its glory:
 

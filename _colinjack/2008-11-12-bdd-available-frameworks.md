@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/colinjack/archive/2008/11/12/bdd-available-frameworks.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/colinjack/archive/2008/11/12/bdd-available-frameworks.aspx/"
 ---
 I&#8217;ve been using the [Astels style of BDD](http://blog.daveastels.com/files/BDD_Intro.pdf) for a while now but so far I&#8217;ve just done it using MSTest/NUnit and a few custom base classes. I think that&#8217;s a good way to start out, as with so many good things in life it doesn&#8217;t require a new whizzy tool/framework.
 

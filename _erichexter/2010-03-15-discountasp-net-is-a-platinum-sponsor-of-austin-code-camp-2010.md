@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - AustinCodeCamp
   - Community
+redirect_from: "/blogs/hex/archive/2010/03/15/discountasp-net-is-a-platinum-sponsor-of-austin-code-camp-2010.aspx/"
 ---
 _[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="dasplogo_tagline" src="http://lostechies.com/erichexter/files/2011/03/dasplogo_tagline_37E67135.jpg" width="240" height="140" />](http://bit.ly/drsr6H)_ 
 

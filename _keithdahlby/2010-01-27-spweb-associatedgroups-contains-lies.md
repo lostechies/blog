@@ -11,6 +11,7 @@ categories:
   - Extension Methods
   - SharePoint
   - SPExLib
+redirect_from: "/blogs/dahlbyk/archive/2010/01/27/spweb-associatedgroups-contains-lies.aspx/"
 ---
 While working on [SPExLib](http://solutionizing.net/2009/06/01/spexlib-release-these-are-a-few-of-my-favorite-things/ "SPExLib Release: These Are A Few Of My Favorite Things") (several months ago), I revisited [this post](http://solutionizing.net/2009/03/19/more-sharepoint-higher-order-functions/ "More SharePoint Higher-Order Functions"), which presented a functional approach to a solution Adam describes [here](http://www.sharepointsecurity.com/blog/sharepoint/sharepoint-2007-development/get-spgroup-if-not-available-create/ "Get SPGroup, If Not Available, Create!"). Both posts include logic to add an `SPWeb` group association, which most simply could look something like this:
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - greasemonkey
   - teamcity
+redirect_from: "/blogs/joshuaflanagan/archive/2009/08/28/big-visible-teamcity.aspx/"
 ---
 <a href="http://code.google.com/p/bigvisiblecruise/" target="_blank">Big Visible Cruise</a> is a cool utility for adding a build information radiator to your team room. It makes your Cruise Control build status immediately clear with a large green (good) or red (bad) screen. My (admittedly limited) search for an equivalent solution for <a href="http://www.jetbrains.com/teamcity/" target="_blank">JetBrains’ TeamCity</a> came up empty. TeamCity has a few built-in notification options, but none of them seemed to be the right fit. I toyed with many different possibilities, all of which would require more development or infrastructure than we wanted to allocate to the task. Luckily, we found a solution that cost us little time and requires very little deployment footprint.
 

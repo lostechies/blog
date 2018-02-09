@@ -9,6 +9,7 @@ categories:
   - 'C#'
   - Resharper
   - style guidelines
+redirect_from: "/blogs/colin_ramsay/archive/2007/09/25/coding-in-style.aspx/"
 ---
 I admit it; I&#8217;ve got problems. I get itchy when my code isn&#8217;t arranged in the right order, I get the shakes when I open a file and see code sprawling all over the place, I get nervous when my fields aren&#8217;t prefixed with an underscore. So I work to my own personal style, strictly adhering to some key guidelines.
 

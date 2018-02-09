@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716278"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/08/04/analyzing-automapper-performance.aspx/"
 ---
 One of the last things I wanted to look at [AutoMapper](http://automapper.codeplex.com/) before pushing it out to production was to get some idea of how it performed.&#160; One of the more difficult things in doing this is trying to come up with a good idea of what exactly I should measure.&#160; Especially with performance numbers, measuring them will lead you to improve them, so it’s important that what you measure is representative of how it will actually be used.
 

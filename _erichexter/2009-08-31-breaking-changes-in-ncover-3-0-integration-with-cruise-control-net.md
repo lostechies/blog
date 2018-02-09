@@ -14,6 +14,7 @@ categories:
   - OSS
   - Testing
   - Tools
+redirect_from: "/blogs/hex/archive/2009/08/31/breaking-changes-in-ncover-3-0-integration-with-cruise-control-net.aspx/"
 ---
 &#160;
 

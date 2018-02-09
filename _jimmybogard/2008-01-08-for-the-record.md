@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715481"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/08/for-the-record.aspx/"
 ---
 This is not Scrum:
 

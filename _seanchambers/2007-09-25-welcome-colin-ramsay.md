@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123675"
 categories:
   - general
+redirect_from: "/blogs/sean_chambers/archive/2007/09/25/welcome-colin-ramsay.aspx/"
 ---
 Everyone at LosTechies would like to welcome Colin Ramsay to Los Techies!
 

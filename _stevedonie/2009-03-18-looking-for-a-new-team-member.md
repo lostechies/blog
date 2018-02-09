@@ -11,6 +11,7 @@ categories:
   - Agile
   - jobs
   - resume
+redirect_from: "/blogs/stevedonie/archive/2009/03/18/looking-for-a-new-team-member.aspx/"
 ---
 <EDIT &#8211; this is long since filled, just in case you&#8217;re wondering.>
 

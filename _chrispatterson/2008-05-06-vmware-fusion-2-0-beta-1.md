@@ -11,6 +11,7 @@ categories:
   - .NET
   - mac
   - OSX
+redirect_from: "/blogs/chris_patterson/archive/2008/05/06/vmware-fusion-2-0-beta-1.aspx/"
 ---
 It looks like VMware has dropped a public beta of VMware Fusion 2.0 to the public. There are too many new features in this release to mention, so I will just share the link:
 

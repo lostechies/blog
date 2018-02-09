@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Philosophy of Software
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/08/17/zen-and-the-art-of-software-development.aspx/"
 ---
 There are times when we need to slow down to learn how to go faster. There are times when we need to slowly learn something so we can maintain our current pace. There are times when we have to put in the extra hours and extra effort to learn something so that we don’t impact the current schedule. Which of these situations (and probably more) is right for you and your team, is up to you and your team to decide. However, if we default into “don’t learn because we don’t have time”, then we are immediately subjecting ourselves to becoming outdated and ineffective. 
 

@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/05/04/a-very-poor-object-model-is-really-no-object-model-at-all.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/05/04/a-very-poor-object-model-is-really-no-object-model-at-all.aspx/"
 ---
 First let me say that I&#8217;ve met <a href="http://keithelder.net/blog/" target="_blank">Keith</a> personally, and he&#8217;s a really cool guy.&nbsp; Cool enough in fact, that he&#8217;s on my RSS subscription list. I&#8217;d consider him a friend.&nbsp; 🙂
 

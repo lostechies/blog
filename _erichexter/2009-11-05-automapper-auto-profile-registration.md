@@ -12,6 +12,7 @@ categories:
   - AutoMapper
   - 'C#'
   - Open Source Software
+redirect_from: "/blogs/hex/archive/2009/11/04/automapper-auto-profile-registration.aspx/"
 ---
 </p> 
 

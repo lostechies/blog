@@ -11,6 +11,7 @@ categories:
   - Community
   - Management
   - Philosophy of Software
+redirect_from: "/blogs/derickbailey/archive/2008/12/04/professionalism-and-thermodynamics.aspx/"
 ---
 For the last month or so, I&#8217;ve been having a serious problem with the apparent lack of professionalism in the software development industry as a whole. There are many factors contributing to this and many different aspects of the problem. I&#8217;m not going to go into any detail on the issues I&#8217;m seeing, at this point, though. It will be sufficient, for the moment, to simply state that there is a serious lack of professionalism in our industry.
 

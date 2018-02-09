@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265532396"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2007/04/24/notes-on-defects.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/notes-on-defects.html)._
 

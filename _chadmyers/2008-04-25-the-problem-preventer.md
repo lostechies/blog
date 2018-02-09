@@ -11,6 +11,7 @@ categories:
   - .NET
   - Mangement
   - Principles
+redirect_from: "/blogs/chad_myers/archive/2008/04/25/the-problem-preventer.aspx/"
 ---
 # Problem Statement
 

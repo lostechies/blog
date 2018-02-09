@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113579"
 categories:
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/01/10/what-would-an-apple-gaming-console-look-like.aspx/"
 ---
 While pondering my navel, it occurred to me that there is a potential GUI-heavy lickable touchable poke-able consumer electronic device that Apple has not yet touched: Gaming Consoles.
 

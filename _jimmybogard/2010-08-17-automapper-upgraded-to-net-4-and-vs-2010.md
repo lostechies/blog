@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716571"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2010/08/17/automapper-upgraded-to-net-4-and-vs-2010.aspx/"
 ---
 In the [last post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/08/05/oss-and-the-net-framework-upgrade.aspx), I posed the question on what to do with .NET framework upgrades and OSS support.&#160; I wanted to upgrade AutoMapper to .NET 4, but I didn’t want to leave a lot of folks behind because their project isn’t .NET 4.&#160; I had a couple of choices:
 

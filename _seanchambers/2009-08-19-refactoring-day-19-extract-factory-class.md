@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262353538"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/19/refactoring-day-19-extract-factory-class.aspx/"
 ---
 Todays refactoring was first coined by the <a href="http://www.dofactory.com" target="_blank">GangOfFour</a> and has many resources on the web that have different usages of this pattern. Two different aims of the factory pattern can be found on the GoF website <a href="http://dofactory.com/Patterns/PatternFactory.aspx" target="_blank">here</a> and <a href="http://dofactory.com/Patterns/PatternAbstract.aspx" target="_blank">here</a>.
 

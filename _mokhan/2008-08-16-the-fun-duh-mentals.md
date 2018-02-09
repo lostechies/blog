@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/08/15/the-fun-duh-mentals.aspx
 categories:
   - Programming
+redirect_from: "/blogs/mokhan/archive/2008/08/15/the-fun-duh-mentals.aspx/"
 ---
 So tonight I got to help demo what a fishbowl was at the ALT.NET Canada (thanks Doc!) conference and the topic of discussion was on the Fundamentals of Software development. During the session I started to realize that what I considered to be fundamental seemed to be far from what others did. After a few discussions I started to think that the fundamentals were different based on generational divides.
 

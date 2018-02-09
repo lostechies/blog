@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716624"
 categories:
   - Process
+redirect_from: "/blogs/jimmy_bogard/archive/2011/01/05/the-developer-s-true-goal.aspx/"
 ---
 Having been a part of several large, long-term products and projects, I’ve come to a bit of an epiphany on what our goal as developers truly is.&#160; For the longest time, I believed that our goal was to write **good** software.&#160; That was a little nebulous, so you start to see distillations towards **high quality** or **maintainable** software.
 

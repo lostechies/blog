@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Domain Driven Design
   - Entity Validation
+redirect_from: "/blogs/seanbiefeld/archive/2009/02/14/entity-validation-ideation.aspx/"
 ---
 ### Issue at Hand:
 

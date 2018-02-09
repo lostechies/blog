@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262933570"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2010/08/25/a-quick-primer-on-net-web-frameworks.aspx/"
 ---
 _Update: Much to my embarrassment, I forgot to mention OpenRasta!_
 

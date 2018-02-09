@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716232"
 categories:
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2009/07/08/refactoring-challenge-part-2-preparation.aspx/"
 ---
 Other posts in this series:
 

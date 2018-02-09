@@ -8,6 +8,7 @@ wordpress_guid: /blogs/scottcreynolds/archive/2009/03/31/vmware-fusion-shared-fo
 categories:
   - mac
   - vmware
+redirect_from: "/blogs/scottcreynolds/archive/2009/03/31/vmware-fusion-shared-folders-and-visual-studio-development.aspx/"
 ---
 So today I had a bit of an adventure that I figured I would document for those of you that may run into this same thing and get just as frustrated as I was for many hours trying to make this work.
 

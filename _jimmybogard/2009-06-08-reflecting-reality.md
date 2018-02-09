@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716188"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2009/06/07/reflecting-reality.aspx/"
 ---
 Reading over the latest MSDN magazine issue, I’m always encouraged when I see something that I consider important on the cover, [Test-Driven Design](http://msdn.microsoft.com/en-us/magazine/dd882516.aspx).&#160; It covers one of the more difficult technical aspects of TDD, which is mock objects.&#160; It took me a couple of years before I really understood the “right” way to use mocks as a design tool, and it wasn’t until I read the [Meszaros book](http://www.amazon.com/xUnit-Test-Patterns-Refactoring-Addison-Wesley/dp/0131495054) that the concept of direct and indirect inputs and outputs laid down simple rules for mock objects.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055585"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/02/10/another-way-to-test-ajax-methods.aspx/"
 ---
 {% raw %}
 A while ago, [Chad](http://chadmyers.lostechies.com) posted about how to [test Ajax methods with QUnit](http://www.lostechies.com/blogs/chad_myers/archive/2008/12/22/asynchronous-javascript-testing-with-qunit.aspx).&#160; I’m also testing Ajax calls, but taking a different approach I thought I would share.

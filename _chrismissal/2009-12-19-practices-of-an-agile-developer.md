@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Best Practices
   - Book Review
+redirect_from: "/blogs/chrismissal/archive/2009/12/18/practices-of-an-agile-developer.aspx/"
 ---
 [<img alt="Book Cover - Practices of an Agile Developer" src="http://assets3.pragprog.com/images/covers/190x228/pad.jpg" style="float: right;margin-left: 12px;margin-right: 12px;margin-top: 8px;margin-bottom: 8px;border: 1px solid black" height="228" width="190" />](http://www.pragprog.com/titles/pad/practices-of-an-agile-developer)Before I was even finished reading &#8220;[Practices of an Agile Developer](http://www.pragprog.com/titles/pad/practices-of-an-agile-developer)&#8221; by Venkat Subramaniam and Andy Hunt, I realized that it was going to exceed my expectations. I consider a lot of the practices in which I&#8217;m engaged in daily to be good agile practices. It wasn&#8217;t until I read Venkat and Andy&#8217;s descriptions of them that I truly appreciated the practices I regularly partake and learned about many others that I&#8217;m not participating. 
 

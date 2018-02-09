@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262354826"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/23/refactoring-day-23-introduce-parameter-object.aspx/"
 ---
 This refactoring comes from Fowler’s refactoring catalog and can be <a href="http://refactoring.com/catalog/introduceParameterObject.html" target="_blank">found here</a>
 

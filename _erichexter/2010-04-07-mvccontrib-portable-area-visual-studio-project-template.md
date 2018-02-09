@@ -12,6 +12,7 @@ categories:
   - Open Source Software
   - OSS
   - Portable Area
+redirect_from: "/blogs/hex/archive/2010/04/07/mvccontrib-portable-area-visual-studio-project-template.aspx/"
 ---
 <img style="margin: 0px 0px 0px 20px" align="right" src="http://www.fas.org/man/dod-101/sys/land/m-60a1-avlb-dvic336.jpg" width="640" height="424" />I just uploaded a visual studio project template for creating portable areas.&#160; 
 

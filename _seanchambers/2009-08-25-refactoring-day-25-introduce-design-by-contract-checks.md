@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262355361"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/25/refactoring-day-25-introduce-design-by-contract-checks.aspx/"
 ---
 Design By Contract or DBC defines that methods should have defined input and output verifications. Therefore, you can be sure you are always working with a usable set of data in all methods and everything is behaving as expected. If not, exceptions or errors should be returned and handled from the methods. To read more on DBC read the <a href="http://en.wikipedia.org/wiki/Design_by_contract" target="_blank">wikipedia page here</a>.
 

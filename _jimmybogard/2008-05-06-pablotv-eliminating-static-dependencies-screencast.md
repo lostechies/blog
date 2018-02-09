@@ -13,6 +13,7 @@ categories:
   - PabloTV
   - Refactoring
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2008/05/06/pablotv-eliminating-static-dependencies-screencast.aspx/"
 ---
 Nature abhors a vacuum.&nbsp; It turns out she also abhors static dependencies (I have my sources).&nbsp; Static dependencies are the modern-day globals, often exposed through classes named &#8220;Helper&#8221;.&nbsp; I&#8217;ve certainly been guilty of overusing static dependencies in the past, with classes like &#8220;LoggingHelper&#8221;, &#8220;SessionHelper&#8221;, &#8220;DBHelper&#8221; and so on.
 

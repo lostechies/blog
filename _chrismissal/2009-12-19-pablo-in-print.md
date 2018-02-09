@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262175059"
 categories:
   - Members
+redirect_from: "/blogs/chrismissal/archive/2009/12/19/pablo-in-print.aspx/"
 ---
 <img style="margin-left: 25px;margin-right: 25px;float: left" src="//lostechies.com/chrismissal/files/2011/03/pablo-book-240.png" height="218" width="240" />Because of things like feed readers, many of you reading this may not visit the <a href="/" target="_blank">LosTechies home page</a> very often. I just wanted to share with you that <a title="Jason Meridth" href="http://jason.lostechies.com" target="_blank">Jason</a> has posted some links to print articles and/or books that our bloggers have had published.
 

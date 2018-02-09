@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716142"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/04/24/how-we-do-mvc.aspx/"
 ---
 Our team has been using the ASP.NET MVC framework on a production application for about 9 months now, and in that time, we’ve crafted a number of opinions on how we want to design MVC applications.&#160; Much of this design is inspired by the concepts from FubuMVC, and in particular, [Jeremy’s post on their MVC opinions](http://codebetter.com/blogs/jeremy.miller/archive/2008/10/23/our-opinions-on-the-asp-net-mvc-introducing-the-thunderdome-principle.aspx).&#160; Our approach is rather similar, but deviates in a few places.
 

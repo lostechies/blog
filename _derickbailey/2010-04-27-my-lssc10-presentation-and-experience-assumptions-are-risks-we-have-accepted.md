@@ -13,6 +13,7 @@ categories:
   - Continuous Improvement
   - Kanban
   - LSSC
+redirect_from: "/blogs/derickbailey/archive/2010/04/27/my-lssc10-presentation-and-experience-assumptions-are-risks-we-have-accepted.aspx/"
 ---
 During the 2nd day’s keynote speech at the [Lean Software & Systems Conference](http://atlanta2010.leanssc.org/) ([#LSSC10](http://www.google.com/search?q=%23LSSC10)), Bob Charette had the title quote of this post in his slides and his speech. There’s no better way to learn a principle like this than by first hand experience, and unfortunately that first hand experience came the afternoon prior to Bob’s keynote.
 

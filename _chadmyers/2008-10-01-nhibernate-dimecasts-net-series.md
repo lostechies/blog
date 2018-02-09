@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DimeCasts
   - NHibernate
+redirect_from: "/blogs/chad_myers/archive/2008/10/01/nhibernate-dimecasts-net-series.aspx/"
 ---
 [Derik Whittaker](http://devlicio.us/blogs/derik_whittaker/) and his band of merry video elves over at [DimeCasts.net](http://www.dimecasts.net) have posted [the 0th of about 5 parts](http://www.dimecasts.net/Casts/CastDetails/50) to an NHibernate draft run-through presentation I did with a few of my colleagues.
 

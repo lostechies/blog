@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055517"
 categories:
   - TDD
+redirect_from: "/blogs/johnteague/archive/2008/06/06/creating-a-culture-of-quality.aspx/"
 ---
 I&#8217;ve been testing my code for a long time.&nbsp; I finally got on the TDD / BDD bandwagon a year ago and haven&#8217;t looked back.&nbsp; But as much as I believe that testing is important, and I would never write professional code without an extensive suite of unit tests, I still find myself writing code at home without tests.&nbsp; The reality is that it takes discipline to keep a test driven approach to software development on track.&nbsp; When talking about a company that follows these practices and has the normal turnover of staff, it become even more important to have a culture that embraces, encourages and, when necessary, enforce quality at all stages of development.
 

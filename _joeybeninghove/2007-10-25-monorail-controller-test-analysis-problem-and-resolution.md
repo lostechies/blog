@@ -10,6 +10,7 @@ categories:
   - MonoRail
   - Refactoring
   - TDD
+redirect_from: "/blogs/joeydotnet/archive/2007/10/25/monorail-controller-test-analysis-problem-and-resolution.aspx/"
 ---
 Last night, my fellow [LosTechies](http://lostechies.com/) geek [Jason](//www.lostechies.com/blogs/jason_meridth/default.aspx),&nbsp;wanted
   

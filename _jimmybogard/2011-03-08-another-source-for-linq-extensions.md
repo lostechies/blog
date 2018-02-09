@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716671"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2011/03/08/another-source-for-linq-extensions.aspx/"
 ---
 While poking around for LINQ extensions, I found a project on Google Code, [morelinq](http://code.google.com/p/morelinq/), that has \*numerous\* LINQ extensions from some rock-star authors like Jon Skeet, such as:
 

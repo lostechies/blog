@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089672"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/08/03/los-techies-welcomes-marcus-bratton.aspx/"
 ---
 I like to welcome <a href="http://www.lostechies.com/blogs/marcus_bratton/" target="_blank">Marcus Bratton</a> to the Los Techies blogging community!&nbsp; 
 

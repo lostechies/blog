@@ -8,6 +8,7 @@ wordpress_guid: /blogs/mokhan/archive/2009/03/12/bdd-on-creatine.aspx
 categories:
   - TDD
   - Windows Forms
+redirect_from: "/blogs/mokhan/archive/2009/03/12/bdd-on-creatine.aspx/"
 ---
 In an attempt to further understand BDD, I chose to revise the code from my [previous post](http://mokhan.ca/blog/2009/03/11/BDD+On+Steroids.aspx) after receiving some amazing advice from two people I regard highly ([Scott](http://blog.scottbellware.com/) & [JP](http://blog.jpboodhoo.com)). I should state that this is my interpretation of that advice. This may or may not be the direction they were trying to guide me towards.</p> 
 

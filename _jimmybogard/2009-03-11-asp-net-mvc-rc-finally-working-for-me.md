@@ -9,6 +9,7 @@ dsq_thread_id:
   - "271649449"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/03/11/asp-net-mvc-rc-finally-working-for-me.aspx/"
 ---
 It’s been about 4 misfires, but I’ve finally upgraded my local machine to the RC2 of ASP.NET MVC.&#160; What was holding me back?&#160; Every time I opened a WebForms page (.aspx, .ascx, .master), Visual Studio would hard-crash on me.&#160; Open a WebForms file, VS would just disappear, gone.&#160; No error message except for an ever-so-informative entry in the Windows application log.
 

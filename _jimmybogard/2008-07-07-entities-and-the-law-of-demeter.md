@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - DomainDrivenDesign
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2008/07/07/entities-and-the-law-of-demeter.aspx/"
 ---
 The [Law of Demeter](http://en.wikipedia.org/wiki/Law_of_Demeter), and its corresponding code smell, [Inappropriate Intimacy](http://c2.com/cgi/wiki?InappropriateIntimacy), are some of the best bang-for-your-buck code smells that you can address.&nbsp; The basic idea behind each of these concepts is code related to an object should probably be inside that object.&nbsp; It&#8217;s also known as the Principle of Least Knowledge, and I&#8217;ve found it very helpful in creating objects with rich behavior.
 

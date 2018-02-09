@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Product Reviews
   - User Experience
+redirect_from: "/blogs/derickbailey/archive/2009/05/14/balsamiq-and-a-sneak-preview-of-my-decoupling-workflow-presentation.aspx/"
 ---
 I know I’m late jumping on this bandwagon, but it’s better late than never, right? 🙂
 

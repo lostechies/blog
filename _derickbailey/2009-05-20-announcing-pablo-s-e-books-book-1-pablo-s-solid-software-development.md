@@ -11,6 +11,7 @@ categories:
   - Community
   - E-Books
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2009/05/19/announcing-pablo-s-e-books-book-1-pablo-s-solid-software-development.aspx/"
 ---
 Hello World! I’m happy to announce the first Los Techies compiled, Pablo endorsed, E-Book: 
 

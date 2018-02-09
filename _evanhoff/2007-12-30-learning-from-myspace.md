@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/12/30/learning-from-myspace.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/12/30/learning-from-myspace.aspx/"
 ---
 I wanted to draw attention to another valuable read.&nbsp; This one comes as a bit of a history of the design and architecture over at MySpace.
 

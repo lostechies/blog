@@ -9,6 +9,7 @@ dsq_thread_id:
   - "525806640"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2008/03/26/eric-hexter-about-me.aspx/"
 ---
 I thought I would take a moment to introduce myself and give some context around my opinions.
 

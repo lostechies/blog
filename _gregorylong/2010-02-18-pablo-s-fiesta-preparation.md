@@ -9,6 +9,7 @@ dsq_thread_id:
   - "301634554"
 categories:
   - Uncategorized
+redirect_from: "/blogs/thatotherguy/archive/2010/02/18/pablo-s-fiesta-preparation.aspx/"
 ---
 I just posted our invitation to the upcoming Fiesta.&nbsp; If you&#8217;re planning to attend I hope you&#8217;ll take a few minutes to prepare yourself so we all get the most out of the experience.&nbsp; 
 

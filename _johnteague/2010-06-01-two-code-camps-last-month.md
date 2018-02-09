@@ -9,6 +9,7 @@ dsq_thread_id:
   - "270208342"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2010/06/01/two-code-camps-last-month.aspx/"
 ---
 I had the opportunity to speak at two code camps in May.&#160; I spoke at the Iowa Code Camp and of course the Austin Code Camp.&#160; I had a great time in Iowa, and no one made fun of my Longhorns shirt the whole time.When I wasn’t presenting I saw some great sessions as well.
 

@@ -11,6 +11,7 @@ categories:
   - JQuery
   - QUnit
   - teamcity
+redirect_from: "/blogs/joshuaflanagan/archive/2008/09/18/running-jquery-qunit-tests-under-continuous-integration.aspx/"
 ---
 **UPDATE:** The code in this post is out of date. Read it for the explanation, but if you want to implement it, go grab <a href="https://github.com/robdmoore/NQUnit" target="_blank">NQUnit</a> via nuget.
 

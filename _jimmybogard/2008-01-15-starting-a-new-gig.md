@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715514"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/01/14/starting-a-new-gig.aspx/"
 ---
 A few months ago, [Jeffrey Palermo](http://codebetter.com/blogs/jeffrey.palermo/default.aspx) approached me at an AgileATX meeting to join him at [Headspring Systems](http://www.headspringsystems.com/index.jsp).&nbsp; After much cajoling and intimidation (Jeff&#8217;s a big guy), I accepted the offer, and today I started my new job.&nbsp; Headspring Systems offered me a great opportunity to help customers succeed, where success might not mean just developing whatever requirement the customer throws at me.
 

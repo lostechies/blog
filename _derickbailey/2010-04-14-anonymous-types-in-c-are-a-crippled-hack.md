@@ -12,6 +12,7 @@ categories:
   - Android
   - 'C#'
   - Java
+redirect_from: "/blogs/derickbailey/archive/2010/04/14/anonymous-types-in-c-are-a-crippled-hack.aspx/"
 ---
 I’ve been learning a bit of Java recently, reading [Unlocking Android](http://manning.com/ableson/) and playing with the [Android SDK](http://developer.android.com) to try and learn how to write apps for my [Droid](http://www.motorola.com/Consumers/US-EN/Consumer-Product-and-Services/Mobile-Phones/Motorola-DROID-US-EN). I have known, intellectually, about some of the key differences between .NET and Java for quite some times now – how Java doesn’t have properties, how events are done through an Observer pattern, and various other differences. Now that I’m trying to put some of these differences in practice, though, I find some of them to be very intriguing – especially the way events are handled.
 

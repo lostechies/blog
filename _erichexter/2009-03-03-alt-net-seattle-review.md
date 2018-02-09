@@ -12,6 +12,7 @@ categories:
   - Agile
   - altnetseattle
   - ASP.NET MVC
+redirect_from: "/blogs/hex/archive/2009/03/02/alt-net-seattle-review.aspx/"
 ---
 &#160;
 

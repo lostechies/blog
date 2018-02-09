@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262055724"
 categories:
   - los-techies-fiesta
+redirect_from: "/blogs/johnteague/archive/2009/11/16/pablo-s-fiesta-open-space-conference-in-austin-tx.aspx/"
 ---
 ## Pablo&#8217;s Fiesta
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715964"
 categories:
   - Rant
+redirect_from: "/blogs/jimmy_bogard/archive/2008/11/06/worst-visual-studio-message-ever.aspx/"
 ---
 This is about the worst Visual Studio message, ever:
 

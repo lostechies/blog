@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ContinuousIntegration
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/20/nhibernate-and-xmlpoke.aspx/"
 ---
 Some time ago I wrote about [targeting multiple environments through NAnt](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/01/02/targeting-multiple-environments-through-nant.aspx).&nbsp; The basic concept is to use the [xmlpoke task](http://nant.sourceforge.net/release/latest/help/tasks/xmlpoke.html) in NAnt to modify any XML configuration files your application might use.&nbsp; One setting that changes in each deployment we have is the &#8220;connection.connection_string&#8221; setting in the [NHibernate](http://www.hibernate.org/343.html)&nbsp;[hibernate.cfg.xml file](http://www.hibernate.org/hib_docs/nhibernate/html/session-configuration.html).&nbsp; This setting controls the connection string NHibernate uses to connect to the database.
 

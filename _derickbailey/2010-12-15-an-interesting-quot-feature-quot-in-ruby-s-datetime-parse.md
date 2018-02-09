@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262216407"
 categories:
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2010/12/14/an-interesting-quot-feature-quot-in-ruby-s-datetime-parse.aspx/"
 ---
 It&#8217;s not all rainbows and unicorns in the Ruby world&#8230; everything now and then you run into something that really makes you go &#8220;WHAT THE?!&#8221; &#8230; today&#8217;s misadventure comes curtesy of Ruby&#8217;s DateTime.parse method. Generally speaking, this method is quite useful and quite forgiving in what it can parse. It will take a large number of formats and do what it can, even with very little.
 

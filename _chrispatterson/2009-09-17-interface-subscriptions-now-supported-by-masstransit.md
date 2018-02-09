@@ -12,6 +12,7 @@ categories:
   - esb
   - masstransit
   - msmq
+redirect_from: "/blogs/chris_patterson/archive/2009/09/16/interface-subscriptions-now-supported-by-masstransit.aspx/"
 ---
 Last year when we were reviewing the backlog of items that we wanted to build for MassTransit, one item that kept rising to the top of the list is a solid story for evolving message producers over the lifecycle of an enterprise system. Being able to publish events that current and down-level subscribers could consume was a key goal to avoid having to upgrade systems all at once when a publisher is updated. Fortunately, it hasn&#8217;t been a real concern in our application since we deploy the entire system as a whole with each delivery.
 

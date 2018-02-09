@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089246"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chris_patterson/archive/2008/09/24/prelude-to-tulsa-techfest-2008.aspx/"
 ---
 In two weeks, the 2008 installment of [Tulsa TechFest](http://techfests.com/Tulsa/2008/default.aspx) will be upon us. For two days, Tulsa is going to unleash an impressive [array of sessions](http://techfests.com/Tulsa/2008/Agenda/default.aspx) on all aspects of IT, security, and software development. As I review the broad list of presenters I can&#8217;t help but see conflicting sessions where I&#8217;m going to have to make some tough choices.
 

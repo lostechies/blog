@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716614"
 categories:
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2010/12/01/protip-viewing-large-xml-files.aspx/"
 ---
 There are lots of editors that can view large XML files, such as Visual Studio, Notepad++, UltraEdit and so on.&#160; But all of these have one flaw – they try and do _too much_ in viewing XML.&#160; Things like coloring, expand/collapse widgets and so on.
 

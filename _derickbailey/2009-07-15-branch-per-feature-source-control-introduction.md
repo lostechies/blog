@@ -17,6 +17,7 @@ categories:
   - Standardized Work
   - Subversion
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-introduction.aspx/"
 ---
 **Update:** 
 

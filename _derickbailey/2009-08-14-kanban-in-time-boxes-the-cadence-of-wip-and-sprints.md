@@ -15,6 +15,7 @@ categories:
   - Metrics
   - Productivity
   - Workflow
+redirect_from: "/blogs/derickbailey/archive/2009/08/14/kanban-in-time-boxes-the-cadence-of-wip-and-sprints.aspx/"
 ---
 A comment that was left [on a previous post](http://www.lostechies.com/blogs/derickbailey/archive/2009/08/12/a-response-to-5-right-reasons-to-apply-kanban.aspx), and a response that I made to the comment, got me thinking about [Kanban](http://en.wikipedia.org/wiki/Kanban) and time boxes such as [Sprints](http://en.wikipedia.org/wiki/Sprint_(scrum)) or [Iterations](http://en.wikipedia.org/wiki/Iteration) some more. As I stated in my response, I don’t think time boxes are “not Lean”, at this point. I still advocate and coach Scrum at my office. It is a significant improvement over the previous waterfall-ish chaos that our teams have operated in. I also advocate and coach Kanban. At times, the realms of Scrum and Kanban overlap, as well. 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114302"
 categories:
   - Fluent NHibernate
+redirect_from: "/blogs/chad_myers/archive/2009/02/14/fluent-nhibernate-binary-drops.aspx/"
 ---
 Until today, in order to start using Fluent NHibernate, you had to pull the trunk from Subversion and build it yourself.&#160; It wasn’t a big deal, but it was a small barrier to entry for some new folks just approaching Fluent NHibernate for the first time.
 

@@ -11,6 +11,7 @@ categories:
   - ActiveRecord
   - NHibernate
   - Repository Pattern
+redirect_from: "/blogs/johnteague/archive/2008/05/27/why-use-activerecordmediator-instead-of-nhibernate.aspx/"
 ---
 My blog post on using ActiveRecordMediator to use the Repository pattern with ActiveRecord was discussed on [Castle&#8217;s Forums](http://forum.castleproject.org/viewtopic.php?t=4439).&nbsp; A good question was raised in that forum, and other people that I talked to about using the Mediator class: &#8220;Why use this instead of NHibernate directly&#8221;
 

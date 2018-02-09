@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/09/03/glamma-s-and-friends.aspx
 categories:
   - Community
+redirect_from: "/blogs/mokhan/archive/2008/09/03/glamma-s-and-friends.aspx/"
 ---
 My wife is running in this years CIBC Run for the cure, on Sunday October. 5th 2008. This is an annual fund raiser to raise money for breast cancer research. This is a cause that is near and dear to us since she has lost loved ones in her family to breast cancer.
 

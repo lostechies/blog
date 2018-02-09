@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089160"
 categories:
   - Agile
+redirect_from: "/blogs/chris_patterson/archive/2007/11/29/first-iteration-week-1.aspx/"
 ---
 On Monday, we started our first iteration. We spent the previous two weeks discussing the process, preparing stories, and learning how we can adapt extreme programming (XP) practices into our development process.
 

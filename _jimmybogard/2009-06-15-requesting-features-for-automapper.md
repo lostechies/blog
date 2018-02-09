@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716190"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/06/14/requesting-features-for-automapper.aspx/"
 ---
 On the [AutoMapper mailing list](http://groups.google.com/group/automapper-users), I get a lot of what I consider wacky requests.&#160; Not because the requests aren’t valid, but rarely do I get any context of what people are trying to do with [AutoMapper](http://automapper.codeplex.com/).&#160; As a reference, we are using AutoMapper in these situations:
 

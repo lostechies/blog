@@ -11,6 +11,7 @@ categories:
   - 'C#'
   - Patterns
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2007/08/29/template-delegate-pattern.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/template-delegate-pattern_29.html)._
 

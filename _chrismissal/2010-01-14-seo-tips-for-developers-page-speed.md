@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Best Practices
   - SEO
+redirect_from: "/blogs/chrismissal/archive/2010/01/13/seo-tips-for-developers-page-speed.aspx/"
 ---
 I have been paying a good amount of attention to <strike>Google</strike> search engines since I started at my current job almost 3 years ago. Working on a public web site has more of a need for creating a robot friendly, content rich web pages than an internal web application. I don’t like to keep things to myself (I find it rude) so I thought I’d share some quick tips. These are more aimed at developers, than designers or content writers, of web sites.
 

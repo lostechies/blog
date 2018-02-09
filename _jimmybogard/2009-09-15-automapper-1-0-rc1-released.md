@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716305"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2009/09/14/automapper-1-0-rc1-released.aspx/"
 ---
 It’s been quite a long journey with [AutoMapper](http://automapper.codeplex.com/), with the origins written just over a year ago now.&#160; I’ve focused on stability and performance since the 0.3.1 release back in May, and from here to the 1.0 release, I’ll just be doing bug fixes.&#160; I did work in quite a few new enhancements, but I’m waiting on bigger changes until after the 1.0 release.&#160; From the [CodePlex download site](http://automapper.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=32994):
 

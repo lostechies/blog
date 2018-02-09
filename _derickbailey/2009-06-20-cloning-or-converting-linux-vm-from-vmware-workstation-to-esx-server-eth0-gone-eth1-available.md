@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Linux
   - Networking
+redirect_from: "/blogs/derickbailey/archive/2009/06/20/cloning-or-converting-linux-vm-from-vmware-workstation-to-esx-server-eth0-gone-eth1-available.aspx/"
 ---
 I ran into a fun situation yesterday. I downloaded a virtual appliance for the [Agilo Trac Plugin](http://www.agile42.com/cms/pages/agilo/) (which, if you’re a [Trac](http://trac.edgewall.org/) user and trying to do sprints or iterations with it, you need to get this. It’s free and it rocks.) Turns out this VM is a Debian distribution. (I’m certainly no linux guru, but I can usually find my way around.)
 

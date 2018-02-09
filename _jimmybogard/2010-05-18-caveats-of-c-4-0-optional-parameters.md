@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716487"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2010/05/18/caveats-of-c-4-0-optional-parameters.aspx/"
 ---
 C# 4.0 includes lots of shiny new hammers for us to bang away at every new and existing development problem we face.&#160; One of the more interesting features is the concept of named and optional parameters.&#160; Consider this rather cryptic bit of code:
 

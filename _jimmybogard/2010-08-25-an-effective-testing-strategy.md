@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716557"
 categories:
   - Testing
+redirect_from: "/blogs/jimmy_bogard/archive/2010/08/24/an-effective-testing-strategy.aspx/"
 ---
 On a recent large project, we had a goal early on that we didn’t want to have a lot of QA folks manually testing our software.&#160; Finding bugs through manual testing is incredibly time consuming and expensive, so we opted to try and build as much quality in to the product.&#160; That’s not to say that manual testing doesn’t have its place, as humans are fantastic about using software in ways you _didn’t_ expect.
 

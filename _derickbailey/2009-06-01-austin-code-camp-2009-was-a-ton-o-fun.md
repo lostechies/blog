@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Austin Code Camp
   - Community
+redirect_from: "/blogs/derickbailey/archive/2009/06/01/austin-code-camp-2009-was-a-ton-o-fun.aspx/"
 ---
 First and foremost &#8211; thanks to John Teague and Eric Hexter for organizing such a great event. It was as good, if not better than any of the previous Code Camps. The content was tremendous, the speakers were great, the attendees were passionate and eager to ask questions! Everyone that was there really pulled together a great conference.
 

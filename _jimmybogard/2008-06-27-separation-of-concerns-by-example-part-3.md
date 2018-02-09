@@ -11,6 +11,7 @@ categories:
   - LINQ2SQL
   - Patterns
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/26/separation-of-concerns-by-example-part-3.aspx/"
 ---
 We made quite a bit of progress separating out the concerns in Part 2, but there are still some issues with our current design.&nbsp; Other parts in this series include:
 

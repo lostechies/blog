@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262948011"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/03/13/separating-subversion-repositories-using-svndumpfilter.aspx/"
 ---
 About a year ago I setup a Ubuntu machine on an old P2 400 at home to use as a subversion repository. At the time I created one repository to house all of my projects. Over time I was adding more and more projects to it all under one master repository path. This was fine when there was 2 or 3 projects, but after growing to about 15 different projects, performing selective dumps and repository maintenance in general becomes a little cumbersome. I recently decided to break out the large repositories into their own repositories under the same subversion path (/var/svn/project). The original large repository was located at (/var/svn/repos). 
 

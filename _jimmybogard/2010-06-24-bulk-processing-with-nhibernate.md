@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716528"
 categories:
   - NHibernate
+redirect_from: "/blogs/jimmy_bogard/archive/2010/06/24/bulk-processing-with-nhibernate.aspx/"
 ---
 On a recent project, much of the application integration is done through bulk, batch processing.&#160; Lots of FTP shuffling, moving files around, and processing large CSV or XML files.&#160; Everything worked great with our normal NHibernate usage, until recently when we had to process historical transactional data.
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ShadeTree
   - Static Reflection
+redirect_from: "/blogs/chad_myers/archive/2008/07/06/exploring-shadetree-features-part-1-static-reflection-with-reflectionhelper.aspx/"
 ---
 At work, [Jeremy](http://codebetter.com/blogs/jeremy.miller/) and I have been using &#8212; and contributing to &#8212; some of the code he&#8217;s put together over the past few years.&#160; He&#8217;s created the &#8216;ShadeTree&#8217; project which is currently housed in the [Storyteller Project](http://storyteller.tigris.org/) source repository. I&#8217;d like to do a few blog posts to share with you some of the really neat gems in this project that you can you use in your projects to help accelerate your development. 
 

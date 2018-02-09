@@ -12,6 +12,7 @@ categories:
   - Lambda Expressions
   - Rake
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2009/09/17/an-alternate-way-to-handle-task-dependencies-in-custom-rake-tasks.aspx/"
 ---
 Earlier today, [I showed how to create a custom Rake task from the base TaskLib](http://www.lostechies.com/blogs/derickbailey/archive/2009/09/17/how-a-net-developer-hacked-out-a-rake-task.aspx), so that we can use more than just simple “task :name” syntax for our rake tasks. In that example, I showed how to add explicit support for task dependencies by adding a second parameter to the initializer of our custom task:
 

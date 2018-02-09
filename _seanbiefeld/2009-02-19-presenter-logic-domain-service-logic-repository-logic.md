@@ -14,6 +14,7 @@ categories:
   - Presenter
   - Repository
   - View
+redirect_from: "/blogs/seanbiefeld/archive/2009/02/18/presenter-logic-domain-service-logic-repository-logic.aspx/"
 ---
 Obviously the answer to the titular question is yes.
 

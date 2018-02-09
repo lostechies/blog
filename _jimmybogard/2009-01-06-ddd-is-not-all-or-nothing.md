@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716028"
 categories:
   - DomainDrivenDesign
+redirect_from: "/blogs/jimmy_bogard/archive/2009/01/05/ddd-is-not-all-or-nothing.aspx/"
 ---
 The Domain-Driven Design book (or, the Blue Bible), is chock-full of patterns.&#160; Software patterns, team patterns, integration patterns and so on.&#160; As a consequence, many readers might assume that DDD requires these patterns, that you must apply these patterns, and not following these patterns means that you’re doing DDD.
 

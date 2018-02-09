@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/05/21/and-you-thought-your-deployments-were-tough.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/05/21/and-you-thought-your-deployments-were-tough.aspx/"
 ---
 Did you know:
 

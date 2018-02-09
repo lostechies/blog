@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2008/04/01/partitioned-complexity.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2008/04/01/partitioned-complexity.aspx/"
 ---
 Roger Sessions has some good material I wanted to take a moment to highlight.&nbsp; This is part of his work around&nbsp; a new Enterprise Architecture framework, Simple Iterative Partitions (SIP).
 

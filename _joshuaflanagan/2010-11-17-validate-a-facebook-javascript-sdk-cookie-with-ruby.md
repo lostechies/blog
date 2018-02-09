@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - facebook
   - Ruby
+redirect_from: "/blogs/joshuaflanagan/archive/2010/11/16/validate-a-facebook-javascript-sdk-cookie-with-ruby.aspx/"
 ---
 <span style="color:red;font-weight:bold">UPDATE:</span> The Facebook API has changed since this article was posted. The code below will no longer work with the cookies provided by Facebook (which now looks like &#8220;fbsr\_#{@fb\_app_id}&#8221;). There is some [sample code in the comments below](#comment-628598633) that is working for me now (Aug 26, 2012).
 

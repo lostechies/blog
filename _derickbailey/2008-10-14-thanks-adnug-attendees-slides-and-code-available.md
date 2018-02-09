@@ -11,6 +11,7 @@ categories:
   - .NET
   - Community
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2008/10/14/thanks-adnug-attendees-slides-and-code-available.aspx/"
 ---
 I had a lot of fun giving my SOLID Principles presentation at the <a href="http://adnug.org" target="_blank">Austin .NET User Group</a> last night. It was a pleasure and an honor to be able to give back to the community that has supported me for so many years. 
 

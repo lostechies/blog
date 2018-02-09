@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716422"
 categories:
   - AutoMapper
+redirect_from: "/blogs/jimmy_bogard/archive/2010/02/18/automapper-for-silverlight-3-0-alpha.aspx/"
 ---
 In between workshops here at the MVP Summit, I’ve been working on pushing out an early Alpha for an AutoMapper version built against Silverlight 3.0.&#160; Thanks to some existing patches from the community, it was pretty straightforward to get things going.&#160; I’ve also started working against an AutoMapper github repository, which also made some other things much, much easier (which I’ll touch on soon).&#160; To get the alpha, grab the binaries from the CodePlex site:
 

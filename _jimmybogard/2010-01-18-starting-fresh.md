@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716397"
 categories:
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2010/01/18/starting-fresh.aspx/"
 ---
 While prepping for the Headspring MVC Boot Camp last week, I had a couple of choices for getting the examples project up and going.&#160; I wanted the examples to use an actual domain model, a real IoC tool, and a real ORM underneath the covers.&#160; Getting these pieces up and going isn’t necessarily a trivial affair, and time spent doing that is time taken away from preparing the other parts of the course.&#160; So I had two options: The first option would be to take an existing application and pare away the pieces I don’t need.&#160; The second option would be to bite the bullet and just start from scratch.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "360560661"
 categories:
   - Community
+redirect_from: "/blogs/sean_chambers/archive/2008/08/24/jacksonville-code-camp.aspx/"
 ---
 Jacksonville Code Camp was a great success. Even with faced with changing the venue only 48 hours before the event due to Tropical Storm Fay, Jonathan Bates and the rest of the team was able to pull it off with flying colors! I have great respect for these guys, they did an excellent job.
 

@@ -11,6 +11,7 @@ categories:
   - Community
   - hiring
   - Rant
+redirect_from: "/blogs/thatotherguy/archive/2011/02/04/to-thine-own-self-be-true.aspx/"
 ---
 This post is both a rant and a bit of encouragement to any aspiring developers &#8211; this will not have code.
 

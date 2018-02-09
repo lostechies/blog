@@ -19,6 +19,7 @@ categories:
   - Telerik
   - Tools and Vendors
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/09/10/design-and-testability.aspx/"
 ---
 In the line of business applications that I build, it&rsquo;s considered good practice to use a test-first approach; Test-Driven Development, Behavior-Driven Development, or whatever you want to call it. Write a test, verify that it fails for the right reasons, make it pass, refactor the code to ensure it&rsquo;s up to all required standards. How a person goes about doing the implementation of the tests and the code to fulfill the tests depends largely on the platform, language and testing tools used. Each platform has different needs and different ways of approaching the idea of &ldquo;testability&rdquo; in code. Some languages require specific design decisions to enable testable code, while other languages pretty much guarantee that your code will be testable &ndash; even if some designs are easier to test than others.
 

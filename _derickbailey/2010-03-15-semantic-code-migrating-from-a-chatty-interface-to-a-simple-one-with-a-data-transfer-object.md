@@ -12,6 +12,7 @@ categories:
   - Analysis and Design
   - 'C#'
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2010/03/15/semantic-code-migrating-from-a-chatty-interface-to-a-simple-one-with-a-data-transfer-object.aspx/"
 ---
 I’ve worked on several C#/Compact Framework/WinForms projects for handheld devices over the years – most of which have involved a require for users wearing gloves to be able to type on a virtual keyboard. It’s not terribly difficult to implement this from a functional / UI standpoint and there are probably some controls that can be purchased to do this. In one particular project, though, we had a custom virtual keyboard abstracted through an interface with 8 write-only properties used for the various options in the keyboard, and a read-write property for the text being input (it allows you to specify an existing value or start with an empty value). That interface definition looked like this:</p> 
 

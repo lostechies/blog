@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - git
   - msysgit
+redirect_from: "/blogs/dahlbyk/archive/2010/09/26/msysgit-error-setting-certificate-verify-locations.aspx/"
 ---
 I had never had any problems using msysGit with SSL until last night, when I came across the following error:
 

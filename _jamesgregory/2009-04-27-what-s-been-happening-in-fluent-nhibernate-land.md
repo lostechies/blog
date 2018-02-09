@@ -11,6 +11,7 @@ categories:
   - Fluent NHibernate
   - NHibernate
   - Open Source
+redirect_from: "/blogs/jagregory/archive/2009/04/28/what-s-been-happening-in-fluent-nhibernate-land.aspx/"
 ---
 &nbsp;
 

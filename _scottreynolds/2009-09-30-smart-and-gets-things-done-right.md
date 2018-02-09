@@ -9,6 +9,7 @@ categories:
   - Rant
   - software
   - Testing
+redirect_from: "/blogs/scottcreynolds/archive/2009/09/29/smart-and-gets-things-done-right.aspx/"
 ---
 I suppose it&#8217;s time for the obligatory weigh-in on the latest bit o&#8217; reckless software advice from Joel Spolsky on the merits of the &#8220;Duct Tape Programmer&#8221;. 
 

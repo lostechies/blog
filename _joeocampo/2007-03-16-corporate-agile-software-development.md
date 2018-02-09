@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088499"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/03/15/corporate-agile-software-development.aspx/"
 ---
 For those of you that don&#8217;t know, I am currently the&nbsp;software development manager for a fortune 500 financial company in the United States.&nbsp; Because I work in the financial industry most agile coaches are shocked that we even practice agile development.&nbsp; Most financial institutions are set in their ways when it comes to developing software.&nbsp; Usually it is the traditional waterfall (BDUF) process that plagues these institutions.
 

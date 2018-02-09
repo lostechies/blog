@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268659375"
 categories:
   - TDD
+redirect_from: "/blogs/jimmy_bogard/archive/2009/10/19/how-not-to-implement-a-failing-test.aspx/"
 ---
 One of the first things I change in ReSharper, along with one of my biggest pet peeves is a failing test that fails because of something like this:
 

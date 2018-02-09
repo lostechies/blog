@@ -13,6 +13,7 @@ categories:
   - Pragmatism
   - Principles and Patterns
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/03/06/don-t-expose-ilist-lt-t-gt-just-so-you-can-assert-against-its-contents.aspx/"
 ---
 Lately I’ve been trying to return IEnumerable<T> whenever I need a collection that will only be enumerated or databound to something. This prevents me from making changes to the collection outside the context of the collection’s parent entity. The problem with doing this is that I might need to write a unit test that looks for a specific item in the collection, checks the count of the collection or otherwise needs to do something that the IEnumerable<T> interface doesn’t provide. 
 

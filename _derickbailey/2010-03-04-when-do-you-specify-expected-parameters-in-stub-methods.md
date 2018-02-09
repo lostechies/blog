@@ -14,6 +14,7 @@ categories:
   - Pragmatism
   - Principles and Patterns
   - Unit Testing
+redirect_from: "/blogs/derickbailey/archive/2010/03/04/when-do-you-specify-expected-parameters-in-stub-methods.aspx/"
 ---
 I’m writing a spec with a mock object that mock object returns data to the class under test. In these situations, I don’t bother asserting that my mock object’s method was called because I know that if it’s not called the data I need in the class under test won’t be there and I’ll end up having other unexpected behavior. This falls under the general guideline of ‘test output and interactions, not input’. 
 

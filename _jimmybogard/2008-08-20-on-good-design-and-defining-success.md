@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
   - Design
+redirect_from: "/blogs/jimmy_bogard/archive/2008/08/19/on-good-design-and-defining-success.aspx/"
 ---
 This is for the most part a reaction to conversations on design:
 

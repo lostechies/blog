@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - NHibernate
   - Screencast
+redirect_from: "/blogs/chad_myers/archive/2008/10/22/nhibernate-intro-screencast-source.aspx/"
 ---
 A few folks have asked me recently to post the source/binaries for my recent NHibernate Intro screencasts that are [currently up on Dimecasts.net](http://www.dimecasts.net/Casts/CastDetails/54).&#160; So, here they are!
 

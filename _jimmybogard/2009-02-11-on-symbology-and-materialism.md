@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265770130"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2009/02/10/on-symbology-and-materialism.aspx/"
 ---
 In a great article, [Scott Bellware](http://blog.scottbellware.com/) talks about the detrimental nature of a [fixation of symbology on teaching](http://blog.scottbellware.com/2009/02/teaching-symbology-and-intellectual_01.html).&#160; This is especially true in software development, where the justification, shape and application of tools are not quite as clear as other craftsman-like jobs.&#160; You may be able to teach an apprentice carpenter what a screwdriver is or rotary saw, but those names are quite descriptive of the function, whereas software terms like “Inversion of Control” and the like require quite a bit more introduction.
 

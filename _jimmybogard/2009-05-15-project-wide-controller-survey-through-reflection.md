@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - LINQ
+redirect_from: "/blogs/jimmy_bogard/archive/2009/05/14/project-wide-controller-survey-through-reflection.aspx/"
 ---
 I often lose track of all of the different controllers in our system, especially if I’m trying to see what existing conventions we have in place for the design of actions.&#160; To get around this, I use a simple LINQ query to display all of the controllers and actions in our system in an easily readable format:
 

@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Books
   - 'C#'
+redirect_from: "/blogs/sharoncichelli/archive/2010/12/03/dipping-into-c.aspx/"
 ---
 I decided on Monday that I should learn C. Cultivate a nodding acquaintance, at any rate. [Louis](/blogs/louissalin/) is always prodding me to become a better craftsman, to become more proficient with my tools. So I figured I should understand my roots.
 

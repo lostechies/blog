@@ -9,6 +9,7 @@ dsq_thread_id:
   - "277469418"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2007/08/27/agile-references-for-pms.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/agile-references-for-pms.html)._
 

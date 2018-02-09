@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715458"
 categories:
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2007/12/03/dealing-with-primitive-obsession.aspx/"
 ---
 One code smell I tend to miss a lot is [primitive obsession](http://sis36.berkeley.edu/projects/streek/agile/bad-smells-in-code.html#Primitive+Obsession).&nbsp; Primitives are the building blocks of data in any programming language, such as strings, numbers, booleans, and so on.
 

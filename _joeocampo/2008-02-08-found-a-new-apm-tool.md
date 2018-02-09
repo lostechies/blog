@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Agile Teams
   - Tools
+redirect_from: "/blogs/joe_ocampo/archive/2008/02/07/found-a-new-apm-tool.aspx/"
 ---
 Out browsing some mailing list today and came across this really nice Agile Project Management tool, <a href="http://www.acunote.com/promo" target="_blank">Acunote</a>.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268396197"
 categories:
   - STLDODN
+redirect_from: "/blogs/dahlbyk/archive/2010/07/21/st-louis-day-of-net-august-20-21-2010.aspx/"
 ---
 One of my favorite developer events last year was [St. Louis Day of .NET](http://www.stlouisdayofdotnet.com/). Not only were the facilities (<span class="ciinfo right">Ameristar Casino) top-notch, but there were a ton of great sessions and I got to pick the brains of some really sharp people. This year&#8217;s event looks to be even better, with a <a target="_blank" href="http://www.stlouisdayofdotnet.com/Sessions.aspx">huge variety of sessions</a> on principles, practices and plenty of programming. I will be presenting two sessions:</span>
 

@@ -12,6 +12,7 @@ categories:
   - DRY
   - NUnit
   - Testing
+redirect_from: "/blogs/chrismissal/archive/2010/12/21/automapper-tests-made-simple.aspx/"
 ---
 I work primarily on a C# ASP.NET MVC application that deals with many other systems which seem to dish out strings all over the place. Hence the need for something like AutoMapper. When converting this data into objects or enumerations, I find it&#8217;s easiest to extend TypeConverter<TSource, TDestination> with our own class that we can cover with several data/unit tests. A lot of these test fixtures were very similar and I was looking to clean up some of these tests to make them easier to maintain and less &#8220;copy/paste&#8221; when a new one is ready to be added.
 

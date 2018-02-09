@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Color Scheme
   - Visual Studio
+redirect_from: "/blogs/seanbiefeld/archive/2009/03/22/my-visual-studio-twilight-theme.aspx/"
 ---
 I just finalized my text color theme for visual studio. Just thought I would share it with everyone. It is geared towards those of you who have resharper installed, but it should still work fine without it.
 

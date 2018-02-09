@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - 'C#'
   - Rails
+redirect_from: "/blogs/jimmy_bogard/archive/2010/09/17/a-question-for-rubyists.aspx/"
 ---
 I was checking out [this post from Derick Bailey](http://www.lostechies.com/blogs/derickbailey/archive/2010/09/10/design-and-testability.aspx) today, and something struck me rather odd.&#160; Not the “DI only enables testability” argument, but the ruby code:
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262088527"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2010/03/08/lostechies-welcomes-john-petersen.aspx/"
 ---
 <div>
   <p>

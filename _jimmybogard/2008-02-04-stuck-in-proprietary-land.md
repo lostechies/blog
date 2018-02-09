@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715528"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2008/02/04/stuck-in-proprietary-land.aspx/"
 ---
 Many years ago, I made the fateful decision to standardize my home music collection on [WMA](http://en.wikipedia.org/wiki/Windows_Media_Audio).&nbsp; The bundled software in Windows XP, [Windows Media Player](http://en.wikipedia.org/wiki/Windows_media_player), ripped my CDs to the WMA format, for free.
 

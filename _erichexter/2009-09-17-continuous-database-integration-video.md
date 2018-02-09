@@ -14,6 +14,7 @@ categories:
   - continous integration
   - Tarantino
   - Tools
+redirect_from: "/blogs/hex/archive/2009/09/17/continuous-database-integration-video.aspx/"
 ---
 At the continuous integration workshop [Headspring Systems](http://headspringsystems.com) held in Austin this week one of the topics that we covered was Database Integration. We are still in the process of publishing the videos of the entire workshop but I thought I would publish this snippet (30 minutes) that talks about how **We Do Database Migrations**.&#160; [Jeffrey Palermo](http://jeffreypalermo.com/) and I did this workshop and had a great time doing it. This demonstrates how to use the **Tarantino** toolset.
 

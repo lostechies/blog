@@ -11,6 +11,7 @@ categories:
   - introduction
   - Lambda Expressions
   - reflection
+redirect_from: "/blogs/gabrielschenker/archive/2009/02/03/dynamic-reflection-versus-static-reflection.aspx/"
 ---
 Since the very beginning the new **Fluent NHibernate** framework which provides an **internal DSL** for mapping the domain entities to the underlying database has attracted me very much. Why?
 

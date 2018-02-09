@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716244"
 categories:
   - NFJS
+redirect_from: "/blogs/jimmy_bogard/archive/2009/07/14/no-fluff-just-stuff-roundup.aspx/"
 ---
 This past weekend, the [No Fluff Just Stuff](http://www.nofluffjuststuff.com/home/main) event came to town, and this humble .NET author infiltrated the Java ranks.&#160; This was my first NFJS event, and first of any Java event.&#160; In fact, I’ve never opened Eclipse or wrote a single line of Java.&#160; However, I’m extremely interested how other communities are solving the same problems as us (the .NET world), so I was really looking forward to seeing what kinds of innovation were coming out of the Java space.
 

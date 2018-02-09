@@ -10,6 +10,7 @@ categories:
   - Domain Driven Design
   - MonoRail
   - Patterns
+redirect_from: "/blogs/joeydotnet/archive/2007/09/10/building-the-often-needed-anti-corruption-layer.aspx/"
 ---
 > _The fear of the LORD is the beginning of knowledge, But fools despise wisdom and instruction.&nbsp; &#8212;_ [_Proverbs 1:7_](http://www.blueletterbible.org/cgi-bin/tools/printer-friendly.pl?book=Pro&chapter=1&version=NKJV#7)
 

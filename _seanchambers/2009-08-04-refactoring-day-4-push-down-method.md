@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262346563"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/04/refactoring-day-4-push-down-method.aspx/"
 ---
 Yesterday we looked at the pull up refactoring to move a method to a base class so mutiple derived classes can use a method. Today we look at the opposite. Here is the code before the refactoring:
 

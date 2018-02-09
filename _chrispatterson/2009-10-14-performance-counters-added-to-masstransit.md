@@ -11,6 +11,7 @@ categories:
   - .NET
   - 'C#'
   - masstransit
+redirect_from: "/blogs/chris_patterson/archive/2009/10/14/performance-counters-added-to-masstransit.aspx/"
 ---
 One feature that is often overlooked in software development is the output of information that can be observed by operations once the application is in production. Fortunately, many open source projects are leveraging [log4net](http://logging.apache.org/log4net/index.html) to provide a configurable level of runtime information that can be useful in figuring out why a system is behaving a certain way (and face, if you&#8217;re looking, it&#8217;s more than likely behaving badly). Logging, however, is only one view into an application &#8212; one that might not deliver the appropriate information in a useful way. 
 

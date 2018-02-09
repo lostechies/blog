@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - PDoTDD
   - TDD
+redirect_from: "/blogs/chad_myers/archive/2008/09/15/announcing-pablo-s-days-of-tdd-in-austin-tx.aspx/"
 ---
 [Los Techies(.com)](http://www.lostechies.com), its president, Pablo El Burro, and our sponsors are pleased to announce "Pablo&#8217;s Days of TDD" (PDoTDD).&#160; PDoTDD is a day-and-a-half event of workshops, discussion, practice, and training around automated unit testing, specifically the practice of Test-Driven Development (TDD).&#160; Experienced practitioners of TDD will be conducting workshops, labs, and discussions around the practice of TDD in the hopes that its practice will bring value to the developer community in general.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1103056361"
 categories:
   - StructureMap
+redirect_from: "/blogs/chad_myers/archive/2008/07/15/structuremap-users-mailing-list-set-up.aspx/"
 ---
 In preparation for the upcoming 2.5 release of StructureMap, and since I can&#8217;t stand SourceForge&#8217;s mailing list and forum capabilities, I set up a mailing list via Google Groups for users of StructureMap to discuss usage, give and receive support, etc.
 

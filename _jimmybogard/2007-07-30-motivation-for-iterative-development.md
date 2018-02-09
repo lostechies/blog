@@ -9,6 +9,7 @@ dsq_thread_id:
   - "287652762"
 categories:
   - Agile
+redirect_from: "/blogs/jimmy_bogard/archive/2007/07/30/motivation-for-iterative-development.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/07/motivation-for-iterative-development.html)._
 

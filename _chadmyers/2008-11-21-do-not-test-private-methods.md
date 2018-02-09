@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - TDD
   - Tips
+redirect_from: "/blogs/chad_myers/archive/2008/11/21/do-not-test-private-methods.aspx/"
 ---
 You should only be testing public methods. Private methods are an implementation detail of the object and are subject to heavy change, etc.&#160; Any class, including test fixtures, that care about private methods on another object exhibit the “Inappropriate intimacy” code <strike>smell </strike>stench. 
 

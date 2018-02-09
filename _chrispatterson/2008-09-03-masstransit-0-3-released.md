@@ -13,6 +13,7 @@ categories:
   - masstransit
   - msmq
   - servicebus
+redirect_from: "/blogs/chris_patterson/archive/2008/09/03/masstransit-0-3-released.aspx/"
 ---
 <a href="http://code.google.com/p/masstransit/downloads/list" target="_blank">Download MassTransit 0.3 Here</a> 
 

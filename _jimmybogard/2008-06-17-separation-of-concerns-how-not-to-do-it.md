@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - LINQ2SQL
   - Refactoring
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx/"
 ---
 In a recent article on layered LINQ applications in the latest ASP.NET PRO magazine (no link, you have to pay), the author proposes separating your application into three distinct layers:
 

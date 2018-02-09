@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262596901"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/06/17/the-strive-to-do-better.aspx/"
 ---
 Late night thoughts after a coding session before&nbsp;going to sleep.&nbsp;
 

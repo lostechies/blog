@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268033801"
 categories:
   - Uncategorized
+redirect_from: "/blogs/johnteague/archive/2009/05/24/austin-code-camp-schedule.aspx/"
 ---
 [Several](/blogs/hex/archive/2009/05/16/austin-code-camp-sessions-voting-results.aspx) [people](/blogs/chad_myers/archive/2009/05/17/austin-codecamp-09-quite-possibly-better-than-bacon.aspx) [have](http://devlicious.com/blogs/anne_epstein/archive/2009/05/17/austin-code-camp-2009.aspx) already mentioned some of the sessions at this year&#8217;s Austin Code Camp. We&#8217;ve [posted the schedule](http://www.adnug.org/austincodecamp09 "Austin Code Camp 09") for people to view.&nbsp; We may move some around depending on how the [voting](http://www.adnug.org/AustinCodeCamp09/Proposal/List "Vote for sessions") goes to make sure there is adequate space for each session.&nbsp; So be sure and check again at the conference.
 

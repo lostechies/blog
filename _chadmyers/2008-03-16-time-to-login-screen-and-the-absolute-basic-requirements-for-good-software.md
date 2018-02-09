@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Principles
   - Programming
+redirect_from: "/blogs/chad_myers/archive/2008/03/16/time-to-login-screen-and-the-absolute-basic-requirements-for-good-software.aspx/"
 ---
 I went and hung out with some fellow developers on Saturday (at the [Grist Mill in New Braunfels, TX](http://www.gristmillrestaurant.com/), incidentally &#8212; wonderful place!) and we talked about all sorts of things on the way down, there, and back up.&nbsp; One of the things that particularly stuck in my mind was a discussion how there are still software development teams out there not using things like source control or automated builds.&nbsp; Everything is by hand and magic.
 

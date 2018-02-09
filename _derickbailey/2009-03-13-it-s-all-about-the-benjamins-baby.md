@@ -12,6 +12,7 @@ categories:
   - Management
   - Philosophy of Software
   - Throughput
+redirect_from: "/blogs/derickbailey/archive/2009/03/13/it-s-all-about-the-benjamins-baby.aspx/"
 ---
 Puff Daddy <a href="http://en.wikipedia.org/wiki/It%27s_All_about_the_Benjamins" target="_blank">got it right</a>. No, I don’t mean having money and wealth. Never mind the actual lyrical content or intentions of those lyrics in this song. The title alone tells us everything we need to know about justifying anything in business – including the reasons that we must use when arguing the need to improve on the quality of our software development efforts. Every argument that has ever been made for the improvement of software development efforts should come down to this one, undeniable truth: Your company and your customers care about the cost of producing the software and the return on that investment, first. It would be irresponsible for your company or the customer not to consider this the top priority. Every other aspect of the software development processes that we use are ancillary to, and in support of, that simple truth.
 

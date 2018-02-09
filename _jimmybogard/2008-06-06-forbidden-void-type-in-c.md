@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264715793"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/06/05/forbidden-void-type-in-c.aspx/"
 ---
 I&#8217;ve had this come up a couple of times.&nbsp; I&#8217;d really like to be able to do something like this:
 

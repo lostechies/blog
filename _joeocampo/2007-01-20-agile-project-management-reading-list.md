@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089668"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/01/19/agile-project-management-reading-list.aspx/"
 ---
 <P class="MsoNormal">
   <SPAN>Here is a list of the top 30 Agile Project Management books to read compiled by Jim Highsmith.<SPAN>&nbsp; </SPAN>I have read a majority of these books and found them to be invaluable in my development as an agile practitioner.<SPAN>&nbsp; </SPAN>These are a must read for anyone seriously taking on enterprise level agile development.</SPAN>

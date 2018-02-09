@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262114381"
 categories:
   - VAN
+redirect_from: "/blogs/chad_myers/archive/2009/04/20/virtual-alt-net-meeting-about-s-harp-architecture.aspx/"
 ---
 The VAN is still going strong, thanks to [Zachariah Young](http://www.zachariahyoung.com/zy/post/2009/04/19/A-Kick-Butt-evening-of-Sharp-Architecture-with-the-one-and-only-Billy-McCafferty-at-the-Helm.aspx) for all his dedication and hard work! We’re looking for feedback on the format and topics. Please opine on the [Virtual ALT.NET Mailing List](http://groups.google.com/group/virtualaltnet/) (they’re up to 286 members now!).
 

@@ -11,6 +11,7 @@ categories:
   - didactics
   - learning
   - methodology
+redirect_from: "/blogs/gabrielschenker/archive/2009/02/05/learning-and-understanding.aspx/"
 ---
 [<img style="border-right: 0px;border-top: 0px;margin: 0px 10px 0px 0px;border-left: 0px;border-bottom: 0px" height="68" alt="attention" src="http://lostechies.com/gabrielschenker/files/2011/03/attention_thumb.jpg" width="75" align="left" border="0" />](http://lostechies.com/gabrielschenker/files/2011/03/attention_2.jpg) **Warning**: This is a special post. It&#8217;s about _learning in action_. In my [introduction](http://www.lostechies.com/blogs/gabrielschenker/archive/2009/01/12/coming-from-place-far-far-away.aspx) I told you that I have a flair for **didactics** and **methodology** and I have worked for quite some time in this field. So, don&#8217;t expect me to show you some new tips and tricks of software development or processes around software development! No, it&#8217;s all about learning and understanding.
 

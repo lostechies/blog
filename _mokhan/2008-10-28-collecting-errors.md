@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/mokhan/archive/2008/10/28/collecting-errors.aspx
 categories:
   - Design Patterns
+redirect_from: "/blogs/mokhan/archive/2008/10/28/collecting-errors.aspx/"
 ---
 Validation is a tough subject. One that I&#8217;m constantly trying to think of better ways of doing. Some suggest that all validation should occur in the domain, and some prefer to check if the object is valid before proceeding. I lean towards the idea of not allowing your objects to enter an invalid state. So far the easiest approach I have found to do this is to raise meaningful exceptions in the domain to ensure this. 
 

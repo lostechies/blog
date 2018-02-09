@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/evan_hoff/archive/2007/10/28/alt-net-architecture-on-an-agile-project.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/evan_hoff/archive/2007/10/28/alt-net-architecture-on-an-agile-project.aspx/"
 ---
 I&#8217;m clipping this for myself.&nbsp; 😉
 

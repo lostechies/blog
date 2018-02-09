@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262353498"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/20/refactoring-day-20-extract-subclass.aspx/"
 ---
 Todays refactoring comes from Martin Fowlers catalog of patterns. You can find this refactoring in his <a href="http://refactoring.com/catalog/extractSubclass.html" target="_blank">catalog here</a>
 

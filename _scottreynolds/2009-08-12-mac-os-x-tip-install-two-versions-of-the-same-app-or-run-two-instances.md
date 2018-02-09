@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/scottcreynolds/archive/2009/08/12/mac-os-x-tip-install-two-versions-of-the-same-app-or-run-two-instances.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/scottcreynolds/archive/2009/08/12/mac-os-x-tip-install-two-versions-of-the-same-app-or-run-two-instances.aspx/"
 ---
 For my recently former Windows brothers out there who may not be clued into this &#8211; you can&#8217;t run two instances of an app on OS X (at least not from the normal UI) nor can you install say, two versions of Firefox, side by side in the normal fashion.
 

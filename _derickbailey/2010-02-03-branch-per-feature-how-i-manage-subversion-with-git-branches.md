@@ -12,6 +12,7 @@ categories:
   - git
   - Source Control
   - Subversion
+redirect_from: "/blogs/derickbailey/archive/2010/02/03/branch-per-feature-how-i-manage-subversion-with-git-branches.aspx/"
 ---
 Anyone that follow me on [twitter](http://twitter.com/derickbailey) likely knows that I’m a big fan of [Git](http://git-scm.com/) these days. I’ll spare you the gushing heart felt nausea of how it’s so awesome&#160; and skip right to the point, though: I don’t always have the luxury of being able to use Git. For example, my current team has been using [Subversion](http://subversion.apache.org/) for quite some time. Changing source control systems is not an easy thing to do when your system is as large as this one and has several key points of the development / build process tied directly to the existing source control. So, rather than be forceful and pushy and tell everyone on the team that we need to use git (most of them are already using or learning git, so there’s not much need to preach the good news), I decided to approach the situation a little differently.
 

@@ -12,6 +12,7 @@ categories:
   - How To
   - installation
   - WIX
+redirect_from: "/blogs/gabrielschenker/archive/2010/05/19/creating-a-bootstrapper-with-dotnetinstaller.aspx/"
 ---
 ## Introduction
 

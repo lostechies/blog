@@ -14,6 +14,7 @@ categories:
   - Pragmatism
   - Product Reviews
   - Tools and Vendors
+redirect_from: "/blogs/derickbailey/archive/2010/05/10/build-tools-for-net-systems-it-s-no-longer-a-question-of-features.aspx/"
 ---
 It seems there is not shortage of build tools that are available for the .NET developer these days. Of course I’m quite partial to the Ruby + Rake + Albacore solution, being the big tuna behind albacore and all… but quite honestly that amount of choice makes me very happy. It seems there is a good tool for just about every different comfort zone in the .NET developer world. At this point in time, there’s not one right answer of which build tool to use. You don’t need to choose which tool to use based on what features and functionality it supports anymore. Rather, you can make the choices based on what your comfortable with – be it the runtime environment, the language to create build steps, the data specification, etc. Choice is good. Understanding what each choice offers is even better. Here’s my take on the current set of tools that I’m aware of and what the comfort zone of these tools are.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "1208816863"
 categories:
   - learning
+redirect_from: "/blogs/rssvihla/archive/2009/08/30/focused-and-narrow-superficial-and-broad.aspx/"
 ---
 In my 20&#8217;s I got exposed to a large variety of work situations and was able to succeed in a variety of technical fields (admin, developer, hardware tech, etc). I had the time back then to not have to choose which direction I went with things, I went broad but deep into each field I was interested in. Every couple of years I&#8217;d go head long into another field and read dozen books, setup labs experiment like crazy, use whatever connections I&#8217;d made to get my foot in the door somewhere and then make sure I delivered in big ways, and most importantly keep reviewing what I&#8217;d done in the past to make sure it actually did work and did work well.
 

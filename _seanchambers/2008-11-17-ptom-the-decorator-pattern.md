@@ -9,6 +9,7 @@ dsq_thread_id:
   - "266341176"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2008/11/16/ptom-the-decorator-pattern.aspx/"
 ---
 For the month of November, Pablo&#8217;s Topic of the Month is Design Patterns. I will be talking about the Decorator design pattern in this post.
 

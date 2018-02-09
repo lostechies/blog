@@ -9,6 +9,7 @@ dsq_thread_id:
   - "273166961"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2009/11/13/how-to-annoy-your-teammates.aspx/"
 ---
 In 3 easy steps:
 

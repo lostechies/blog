@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/02/27/good-code-is-not-just-about-writing-lines-of-code.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/02/27/good-code-is-not-just-about-writing-lines-of-code.aspx/"
 ---
 At work we&#8217;ve been having a few coding sessions where we have one computer and a hand full of developers and work on a couple of tasks from the current sprint. It&#8217;s sort of like a mini [CodingDojo](http://www.assembla.com/wiki/show/austintddcodingdojo). These meetings have been very educational for learning tips and tricks from each other as well as design and architecture.
 

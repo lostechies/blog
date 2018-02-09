@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - altnetconf
   - BDD (Behavior Driven Development)
+redirect_from: "/blogs/joe_ocampo/archive/2007/12/19/bdd-surprise-r-usage-scenarios.aspx/"
 ---
 I had to blog about this because it brought a smile to my face when I saw it.
 

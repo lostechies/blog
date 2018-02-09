@@ -11,6 +11,7 @@ categories:
   - ALT.NET
   - LiveMeeting
   - VAN
+redirect_from: "/blogs/chad_myers/archive/2008/12/22/van-virtual-alt-net-meeting-update.aspx/"
 ---
 Zach has suggested the catchy name VAN for the online ALT.NET meetings and it’s sticking, so I’ll start calling it that now, too.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262113553"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chad_myers/archive/2008/01/05/announcing-an-austin-tdd-randori-codingdojo-session.aspx/"
 ---
 [Ray Houston](www.rayhouston.com/blog) and I will be hosting/facilitating a [CodingDojo](http://wiki.agilefinland.com/?CodingDojo)-style, [Randori](http://en.wikipedia.org/wiki/Randori)-style TDD session in early February here in Austin, TX.
 

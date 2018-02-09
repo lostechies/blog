@@ -10,6 +10,7 @@ dsq_thread_id:
   - "264716029"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2008/12/14/making-frameworks-container-aware.aspx/"
 ---
 I’m currently knee-deep in NHibernate custom listeners, for the purpose of adding auditing to our application.&#160; Besides current documentation being plain wrong on the subject (I’ll update on the solution in the future), I hit a rather frustrating snag around the instantiation of my custom listener.&#160; One of the shouldn’t-be-frustrating-but-yet-it-is side-effects of committing fully to Dependency Injection and Inversion of Control Containers is all the code out there with “extension” points that don’t allow custom factory implementations.&#160; Sure, your framework allows for custom Floogle providers.&#160; But how does it _create_ the IFloogleProvider implementations?
 

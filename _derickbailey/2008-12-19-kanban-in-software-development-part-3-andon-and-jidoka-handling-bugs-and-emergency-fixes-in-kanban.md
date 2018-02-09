@@ -16,6 +16,7 @@ categories:
   - Management
   - Philosophy of Software
   - Principles and Patterns
+redirect_from: "/blogs/derickbailey/archive/2008/12/19/kanban-in-software-development-part-3-andon-and-jidoka-handling-bugs-and-emergency-fixes-in-kanban.aspx/"
 ---
 Let&#8217;s assume that we are doing <a href="http://stevenharman.net/blog/archive/2008/12/17/when-should-i-write-tests.aspx" target="_blank">the appropriate amount</a> of testing during our development process. If we include TDD, test automation, test engineers and customer acceptance testing, we should find the majority of the bugs in our system before they are released. However, not every bug will be found. There will be some situation that no one thought about before. There will be some special circumstance on someone&#8217;s computer that hasn&#8217;t been accounted for. There will be some client data that does fit the expected variance, despite the data being valid. The point is, there will be something that breaks after we deliver the software. Worse yet &#8211; it doesn&#8217;t even take delivery to find bugs. What happens when the software gets to customer acceptance and the customer says that something is wrong, broken or whatever? We simply must account for the inevitable bug fixes and emergency patches in our system.
 

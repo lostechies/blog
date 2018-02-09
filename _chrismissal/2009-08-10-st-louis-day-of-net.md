@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262174989"
 categories:
   - Uncategorized
+redirect_from: "/blogs/chrismissal/archive/2009/08/10/st-louis-day-of-net.aspx/"
 ---
 I&#8217;m getting excited for [St. Louis Day of .Net](http://stlouisdayofdotnet.com), August 28th-29th! We have two <a>Los Techies</a> members speaking at this event. [Chris Patterson](/blogs/chris_patterson/default.aspx) is speaking on [Event Driven Architecture](http://stlouisdayofdotnet.com/SessionDetail.aspx?SessionID=40) and [Keith Dahlby](/blogs/dahlbyk/default.aspx) is speaking on [Linq Internals](http://stlouisdayofdotnet.com/SessionDetail.aspx?SessionID=34).
 

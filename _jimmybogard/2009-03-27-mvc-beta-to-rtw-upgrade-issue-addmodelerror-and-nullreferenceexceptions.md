@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716123"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2009/03/26/mvc-beta-to-rtw-upgrade-issue-addmodelerror-and-nullreferenceexceptions.aspx/"
 ---
 Since we use quite a lot of the MVC extension points on our current project, we knew that we’d suffer some upgrade pains going from release to release of MVC.&#160; This isn’t that new for us, as we use a variety of open source projects.&#160; But for a Beta product, it’s almost guaranteed that you’ll run into some issues with upgrades.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "267493615"
 categories:
   - Misc
+redirect_from: "/blogs/chad_myers/archive/2008/05/04/tying-up-loose-ends.aspx/"
 ---
 # Blogging Stuff
 

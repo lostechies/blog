@@ -16,6 +16,7 @@ categories:
   - Philosophy of Software
   - Refactoring
   - Standardized Work
+redirect_from: "/blogs/derickbailey/archive/2009/01/30/favor-defect-prevention-over-quality-inspection-and-correction.aspx/"
 ---
 In the manufacturing world, you would never find a company that assembles a bunch of parts into a final product before inspecting any of the individual parts, and they would not wait until the end of the assembly line to test for the quality of the product. The very notion of waiting until the product is “done”, to test it, would be appalling. How much time and money would be lost trying to figure out why something didn’t fit together properly, why it didn’t work, and why there was a quality issue with the final product? Rather, we see the manufacturing world taking an active role in preventing defects. Yes, they still do a final quality inspection, but the primary means of ensuring a quality product is delivered is not by waiting until the product is assembled to test it. They build quality in from the start and maintain that quality throughout the manufacturing process.
 

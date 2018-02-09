@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - TeamBuild
   - Tools
+redirect_from: "/blogs/jimmy_bogard/archive/2007/07/24/if-you-can-t-wait-for-team-build-2008.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/07/if-you-can-wait-for-team-build-2008.html)._
 

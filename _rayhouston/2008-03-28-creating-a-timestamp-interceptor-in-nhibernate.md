@@ -7,6 +7,7 @@ layout: post
 wordpress_guid: /blogs/rhouston/archive/2008/03/27/creating-a-timestamp-interceptor-in-nhibernate.aspx
 categories:
   - Uncategorized
+redirect_from: "/blogs/rhouston/archive/2008/03/27/creating-a-timestamp-interceptor-in-nhibernate.aspx/"
 ---
 <div>
   In a previous <a href="http://www.lostechies.com/blogs/rhouston/archive/2008/03/23/mapping-timestamp-data-using-nhibernate-s-icompositeusertype.aspx">post</a>, I gave an example of a Timestamp class and how one might create an ICompositeUserType to map it within NHibernate. Here I want to show of an example of an <a href="http://www.hibernate.org/hib_docs/nhibernate/1.2/reference/en/html/manipulatingdata.html#manipulatingdata-interceptors">IInterceptor</a> which will automatically populate the values for my Timestamp class. OnSave is for the inserts, and OnFlushDirty is for the updates. There are a bunch of other methods that you can tap into for different things, so check out the NHibernate docs.

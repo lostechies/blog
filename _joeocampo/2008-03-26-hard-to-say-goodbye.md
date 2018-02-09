@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089466"
 categories:
   - LosTechies
+redirect_from: "/blogs/joe_ocampo/archive/2008/03/26/hard-to-say-goodbye.aspx/"
 ---
 Well yesterday was my final day at Wachovia.&nbsp; It was really hard to say goodbye to all the wonderful friends and colleagues I have made there but it was time to move on.&nbsp; It was really difficult to leave such a great team that has created so many wonderful applications over the last couple of years.&nbsp; Their Agile mind sets have been cultivated to the point of self sustainability and only great things can come from this group in the future.
 

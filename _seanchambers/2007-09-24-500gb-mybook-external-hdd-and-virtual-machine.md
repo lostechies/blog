@@ -9,6 +9,7 @@ dsq_thread_id:
   - "268123680"
 categories:
   - general linux ubuntu
+redirect_from: "/blogs/sean_chambers/archive/2007/09/23/500gb-mybook-external-hdd-and-virtual-machine.aspx/"
 ---
 I am wondering if anyone else has had experience with attempting to recognize a 500gb Western Digital MyBook HDD in either VirtualBox or VMWare.
 

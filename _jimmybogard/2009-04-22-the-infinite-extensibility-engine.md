@@ -9,6 +9,7 @@ dsq_thread_id:
   - "265769949"
 categories:
   - Misc
+redirect_from: "/blogs/jimmy_bogard/archive/2009/04/21/the-infinite-extensibility-engine.aspx/"
 ---
 The biggest issue facing developers today is not lack of OO knowledge, patterns, or guidance.&#160; It’s a sad lack of extensibility in today’s frameworks.&#160; Over the past year or so, getting familiar with ASP.NET MVC, I think I’ve found an answer to the lack of extensibility in not just application frameworks, but the .NET Framework in general.
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262351614"
 categories:
   - Uncategorized
+redirect_from: "/blogs/sean_chambers/archive/2009/08/14/refactoring-day-14-break-responsibilities.aspx/"
 ---
 When breaking apart responsibilities on a class this is enforcing Single Responsiblity Principle from <a href="/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx" target="_blank">SOLID</a>. It&rsquo;s an easy approach to apply this refactoring although it&rsquo;s often disputed as what consitutes a &ldquo;responsibility&rdquo;. While I won&rsquo;t be answering that here, I will show a clear cut example of a class that can be broken into several classes with specific responsibilities.
 

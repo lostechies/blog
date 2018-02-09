@@ -11,6 +11,7 @@ dsq_thread_id:
 categories:
   - ASP.NET
   - MVC
+redirect_from: "/blogs/chad_myers/archive/2008/09/03/opinionated-asp-net-mvc-by-joshua-flanagan.aspx/"
 ---
 [Joshua Flanagan](http://flimflan.com/blog), who’s been tearing it up for the team I work on at Dovetail, has recently posted two great posts on how we’re doing ASP.NET MVC. I suggest you check ‘em out:
 

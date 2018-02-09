@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262089374"
 categories:
   - Uncategorized
+redirect_from: "/blogs/joe_ocampo/archive/2007/04/22/technical-support-spoof.aspx/"
 ---
 Found this on YouTube and thought I would share it with everyone.&nbsp; Enjoy.
 

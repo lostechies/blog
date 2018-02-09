@@ -9,6 +9,7 @@ dsq_thread_id:
   - "262047759"
 categories:
   - Uncategorized
+redirect_from: "/blogs/hex/archive/2009/03/02/hot-fix-available-for-visual-studio-2008-sp1-crashing-when-opening-up-aspx-files-views-on-vista-sp1-x64.aspx/"
 ---
 &#160;
 

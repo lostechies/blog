@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264716110"
 categories:
   - 'C#'
+redirect_from: "/blogs/jimmy_bogard/archive/2009/04/11/strongly-typed-telerik-reports.aspx/"
 ---
 I absolutely loathe magic strings, especially if all they’re used for is pointing to a member on a type.&#160; Using strings to reference a type member is ridiculously brittle, as any change in the source type member, rename or remove, will not cause a compile-time error, but a runtime error.&#160; This is unacceptable.
 

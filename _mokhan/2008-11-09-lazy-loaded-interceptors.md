@@ -10,6 +10,7 @@ categories:
   - Design Patterns
   - TDD
   - Tools
+redirect_from: "/blogs/mokhan/archive/2008/11/09/lazy-loaded-interceptors.aspx/"
 ---
 [<img src="http://mokhan.ca/blog/content/binary/51X1K7R6FGL._SL160_.jpg" align="left" border="0" />](http://www.amazon.com/gp/product/0321127420?ie=UTF8&tag=mokhthliofawa-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321127420) 
 

@@ -9,6 +9,7 @@ dsq_thread_id:
   - "269691546"
 categories:
   - ASPNETMVC
+redirect_from: "/blogs/jimmy_bogard/archive/2010/01/06/mvc-bootcamp-next-week.aspx/"
 ---
 Next week, I’ll be teaching a 3-day course on ASP.NET MVC, as part of [Headspring’s](http://www.headspring.com)&#160;[ASP.NET MVC Boot Camp](http://www.headspringsystems.com/services/agile-training/mvc-training/).&#160; The material touches on a lot of the ASP.NET MVC features we use day-to-day, as well as looking at how _we_ use ASP.NET MVC.&#160; Topics will include (but not be limited to):
 

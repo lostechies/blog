@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
   - MonoRail
+redirect_from: "/blogs/jimmy_bogard/archive/2008/10/29/testing-fun-with-asp-net-mvc.aspx/"
 ---
 So I assumed that much like MonoRail, ASP.NET MVC would have created, at the very least, abstractions on top of HttpContext.&#160; Although HttpContext is an absolute beast of a god class, creating an abstraction is possible.&#160; Let’s look at MonoRail’s approach:
 

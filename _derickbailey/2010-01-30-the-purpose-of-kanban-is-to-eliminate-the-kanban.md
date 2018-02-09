@@ -11,6 +11,7 @@ categories:
   - Kaizen
   - Kanban
   - Management
+redirect_from: "/blogs/derickbailey/archive/2010/01/30/the-purpose-of-kanban-is-to-eliminate-the-kanban.aspx/"
 ---
 I found the quote that title’s this blog post in Mike Rother’s [Toyota Kata](http://www.amazon.com/Toyota-Kata-Managing-Improvement-Adaptiveness/dp/0071635238) book – the origin is simply stated as “a Toyota person”. 
 

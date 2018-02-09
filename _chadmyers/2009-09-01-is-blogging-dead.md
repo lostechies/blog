@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - Misc
   - Twitter die die die
+redirect_from: "/blogs/chad_myers/archive/2009/08/31/is-blogging-dead.aspx/"
 ---
 The other day I was at lunch with some folks (I won’t name drop except to give credit for the person who originally brought it up: [Jeremy](http://codebetter.com/blogs/jeremy.miller/)), and he commented that, while is number of RSS subscriptions has actually increased, the volume of daily unread posts has dramatically decreased.
 

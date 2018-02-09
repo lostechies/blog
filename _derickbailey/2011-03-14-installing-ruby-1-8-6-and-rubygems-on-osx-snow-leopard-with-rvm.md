@@ -10,6 +10,7 @@ dsq_thread_id:
 categories:
   - OSX
   - Ruby
+redirect_from: "/blogs/derickbailey/archive/2011/03/14/installing-ruby-1-8-6-and-rubygems-on-osx-snow-leopard-with-rvm.aspx/"
 ---
 [RubyGems no longer supports Ruby v1.8.6](http://blog.segment7.net/2010/04/23/ruby-1-8-6-policy), so when I tried to install 1.8.6 on my Macbook, via [RVM](http://rvm.beginrescueend.com/), I ran into this nice little error message:
 

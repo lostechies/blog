@@ -9,6 +9,7 @@ dsq_thread_id:
   - "264719531"
 categories:
   - NHibernate
+redirect_from: "/blogs/jimmy_bogard/archive/2008/08/26/parameter-lists-in-nhibernate.aspx/"
 ---
 {% raw %}
 Occasionally I need to return a set of entites that match a collection of parameters.&nbsp; In SQL, I would use the &#8220;IN&#8221; clause, then manually create each parameter in ADO.NET.&nbsp; With NHibernate, that&#8217;s not necessary anymore.&nbsp; NHibernate has built-in capabilities for a collection parameter, creating all the necessary ADO.NET parameters behind the scenes.
