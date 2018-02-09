@@ -28,7 +28,7 @@ Whenever we start a container from an image we need to declare what command(s) s
 
 consequently our `Dockerfile` would look like this
 
-[gist id=7d3f92b7c034012d2464b4a463283739]
+{% gist 7d3f92b7c034012d2464b4a463283739 %}
 
 note the last line declaring the `ENTRYPOINT`. The syntax I have chosen in the above sample is one possible way of declaring the entry point. An alternative syntax is using an array of words, i.e.
 
@@ -38,7 +38,7 @@ According to the documentation the latter is the preferred way but honestly I fi
 
 For the moment let&#8217;s assume that `app.py` contains the following code
 
-[gist id=75725782421a1ac7805c366cc8bce07d]
+{% gist 75725782421a1ac7805c366cc8bce07d %}
 
 We can now build an image using the `Dockerfile`
 
@@ -46,7 +46,7 @@ We can now build an image using the `Dockerfile`
 
 And we should see something like this
 
-[gist id=d8252d1d0ceb294cf0d5638c14b16bbf]
+{% gist d8252d1d0ceb294cf0d5638c14b16bbf %}
 
 Now we can run a container from our new image like this
 
@@ -54,7 +54,7 @@ Now we can run a container from our new image like this
 
 and we should see this output
 
-[gist id=bf8da1bc71371963120b409e441098b8]
+{% gist bf8da1bc71371963120b409e441098b8 %}
 
 # Overriding the Entry Point
 
@@ -66,7 +66,7 @@ This possibility to override the entry point cannot be overestimated. It is very
 
 Another use case is to run tests. Let&#8217;s assume we have a file `tests.py` in our project which contains some tests.
 
-[gist id=0db43c333de60ff6085a7f6e59a89c66]
+{% gist 0db43c333de60ff6085a7f6e59a89c66 %}
 
 We can then run a container in test mode as follows
 
@@ -76,7 +76,7 @@ That is really helpful! We can use one and the same container image to generate 
 
 The same also works when we use `docker-compose`. Assume we have the following `docker-compose.yml` file in our project
 
-[gist id=0778686b4d3f5bd0584913c834f453fa]
+{% gist 0778686b4d3f5bd0584913c834f453fa %}
 
 On line 5 you can see how we declare what entry point to use when starting the container.
 
@@ -106,7 +106,7 @@ So, what just happened? We defined the start command using `--entrypoint` to be 
 
 Now let&#8217;s work with a `Dockerfile`. Our first version of the file looks like this, that is we continue with our Alpine image and the &#8220;Hello World&#8221; message
 
-[gist id=b5547b2e06a7d9784018e2e020696514]
+{% gist b5547b2e06a7d9784018e2e020696514 %}
 
 let&#8217;s create an image from this
 
@@ -124,7 +124,7 @@ In this sample we did not explicitly define an entry point, thus Docker assumes 
 
 According to what I told above we should now also be able to achieve the same result with the following `Dockerfile` variant
 
-[gist id=817020dcad9ea8fa6f5ccc3195cf2068]
+{% gist 817020dcad9ea8fa6f5ccc3195cf2068 %}
 
 and indeed after building the image and running a container we have the same end result
 
@@ -145,7 +145,7 @@ and indeed it works as expected
 
 The last variant of my `Dockerfile` is only using the keyword `ENTRYPOINT`
 
-[gist id=ea759b47473b13d76334b10895be39a5]
+{% gist ea759b47473b13d76334b10895be39a5 %}
 
 Again after building the image and running a container we see the expected result
 

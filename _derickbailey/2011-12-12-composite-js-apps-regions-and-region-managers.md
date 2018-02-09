@@ -21,7 +21,7 @@ My simple item management application started out with nothing more than these t
 
 <img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/12/NewImage.png" border="0" alt="NewImage" width="574" height="536" />
 
-Once this was in place, though, a new requirement came along… a complex search with search results. To implement this, I needed to modify the application&#8217;s interface to swap the grid and add/edit form out and put in a search results screen instead. The idea is that when the user does a search, the main content area will show the search results. The user can then go back to the location management aspect of the app whenever they need to. After a bit of searching, I found a high level pattern that made this easy, and also realized that I had previously implemented the core of this pattern without knowing it.
+Once this was in place, though, a new requirement came along… a complex search with search results. To implement this, I needed to modify the application&#8217;s interface to swap the grid and add/edit form out and put in a search results screen instead. The idea is that when the user does a search, the main content area will show the search results. The user can then go back to the location management aspect of the app whenever they need to. After a bit of searching, I found a high level pattern that made this easy, and also realized that I had previously implemented the core of this pattern without knowing it.
 
 ## Microsoft Prism: Regions and Region Managers
 
@@ -42,7 +42,7 @@ In Prism, a region is defined in the XAML markup. In web applications, it&#8217;
 
 What I came up with as an initial pass at handling these needs, is the following (hard coded specifically to use a &#8220;#mainregion&#8221; element from the DOM):
 
-[gist id=1468250 file=regionmanager.js]
+{% gist 1468250 regionmanager.js %}
 
 Does that look familiar? It certainly does to me. I&#8217;ve written this same code dozens of times and blogged about it in my [Zombies! RUN!](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/) post. So, it turns out that I&#8217;ve been using what I&#8217;m now calling a &#8220;region manager&#8221; for a while &#8211; I just didn&#8217;t realize it, previously. Oh, happy day! I&#8217;m just formalizing a concept I had introduced somewhere else, instead of having to create something new and unknown. 🙂
 
@@ -50,9 +50,9 @@ Does that look familiar? It certainly does to me. I&#8217;ve written this same c
 
 An in-depth use of the region manager has been covered in my Zombies post already. As a refresher, though, you only need to provide a Backbone view to the \`show\` method and the region manager will take over from there.
 
-[gist id=1468250 file=view.js]
+{% gist 1468250 view.js %}
 
-The usual \`close\` method exists so we can handle our zombie problems. I&#8217;ve also added a bit more to the API that the region manager can handle, making it more robust and allowing it to handle more complex UI needs. Specifically, an \`onShow\` method fires on your view if you&#8217;ve provided one, just after the view&#8217;s \`el\` has been added to the DOM. This method will let you call into code that expects the DOM elements to exist, to manipulate them.
+The usual \`close\` method exists so we can handle our zombie problems. I&#8217;ve also added a bit more to the API that the region manager can handle, making it more robust and allowing it to handle more complex UI needs. Specifically, an \`onShow\` method fires on your view if you&#8217;ve provided one, just after the view&#8217;s \`el\` has been added to the DOM. This method will let you call into code that expects the DOM elements to exist, to manipulate them.
 
 In this simple example, I&#8217;m using the \`onShow\` to fade the contents of the view in to view, using jQuery&#8217;s \`.show\` method and giving it a 500 milliseconds (1/2 of 1 second) time to do the fade. It&#8217;s a simple idea, but one that I&#8217;ve found is needed when using some libraries, such as the jQuery layout plugin. Again, this isn&#8217;t an idea that I came up with, either. I took this directly from my experience in working with WinForms applications. \`onShow\` is a standard event in the lifecycle of a Windows form, in .NET. It works well there, and it works well here in JavaScript, too.
 

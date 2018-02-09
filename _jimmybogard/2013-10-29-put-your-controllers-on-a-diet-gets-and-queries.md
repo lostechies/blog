@@ -26,7 +26,7 @@ It was also clear once we defactored that there is a clear delineation between o
 
 Our GET actions are almost identical:
 
-[gist id=7213782]
+{% gist 7213782 %}
 
 I take in some parameter from the action, use it to query the database, then map that result into a View Model. Finally, I pass that View Model into a ViewResult, and I’m done. As far as items I control, I see three distinct steps:
 
@@ -40,25 +40,25 @@ For more complex models, I often have to compose several pieces together into on
 
 Let’s pull that piece out into a separate class, called “ShowHandler”, since it handles the bulk of the work of the Show action:
 
-[gist id=7213918]
+{% gist 7213918 %}
 
 My controller action is now quite small and manageable:
 
-[gist id=7213937]
+{% gist 7213937 %}
 
 The “_showHandler” variable is just a constructor injected instance of the ShowHandler class created above.
 
 I like what we have so far, but I do foresee one problem here. If I get more parameters to my controller action, I’ll have to modify the signature of the Handle method. That can get annoying, so why don’t we create a class to represent the parameters of that call? And since we’re looking at “requests” of information, that pattern is typically called a Query. Our ShowQuery class now encapsulates that request for information:
 
-[gist id=7213980]
+{% gist 7213980 %}
 
 The controller action can now take this query object as a parameter (also helping with refactoring efforts when we use parameter objects):
 
-[gist id=7214007]
+{% gist 7214007 %}
 
 All my URLs still look the same, I’ve simply encapsulated all action parameters into a single type. This type is then passed all the way down to my handler:
 
-[gist id=7214048]
+{% gist 7214048 %}
 
 I now have the querying to build a View Model completely encapsulated in a handler, and my controller is now responsible for delegation and ActionResult creation.
 
@@ -66,21 +66,21 @@ I now have the querying to build a View Model completely encapsulated in a handl
 
 Most folks probably guessed this, but let’s get rid of those calls to build up a View Model. I can use [AutoMapper](http://automapper.org/) and the [LINQ projection capabilities](https://github.com/AutoMapper/AutoMapper/wiki/Queryable-Extensions) to eliminate nearly all of the mapping code. After creating maps between my source/destination types, my handler starts to become pretty small:
 
-[gist id=7214158]
+{% gist 7214158 %}
 
 After creating handlers for my other controller actions, they also become fairly small:
 
-[gist id=7214211]
+{% gist 7214211 %}
 
 And my edit handler:
 
-[gist id=7214283]
+{% gist 7214283 %}
 
 Queryable extensions project at the LINQ level, meaning it alters the actual query at the ORM layer (and eventually the SQL layer). I don’t return tracked entities, I project directly from SQL into a DTO. The Project().To<Foo> methods alter the expression tree created by IQueryable to include AutoMapper projections. Cool stuff!
 
 Our controller actions are now small, and somewhat uniform:
 
-[gist id=7214327]
+{% gist 7214327 %}
 
 However, something’s still a bit off. We have to take all these handlers as constructor arguments, and that will get annoying. What I’d rather do is not depend directly on handlers, but instead shoot the query off to…something…and have that something return my result. I want something to mediate between my request for information and the handler getting the result. Sounds like the [Mediator pattern](http://www.oodesign.com/mediator-pattern.html)!
 
@@ -88,27 +88,27 @@ However, something’s still a bit off. We have to take all these handlers as co
 
 If we want to pull all our queries behind a common abstraction, we first need to make sure all of our query handlers “look the same”. With our introduction of a query object, they all have the basic form of “class with one public method, one input and one output”. For the lazy, this pattern is already abstracted into the [ShortBus](https://github.com/mhinze/ShortBus) project from [Matt Hinze](http://lostechies.com/matthinze/). I don’t feel lazy, so let’s just build this from scratch. We’ll first create an interface representing our queries:
 
-[gist id=7214493]
+{% gist 7214493 %}
 
 This is the interface our query objects will use, with a generic parameter annotating what result this query will represent. Next, an interface to represent our query handlers:
 
-[gist id=7214522]
+{% gist 7214522 %}
 
 Finally, our mediator interface:
 
-[gist id=7214547]
+{% gist 7214547 %}
 
 I’ll leave it as an exercise to the reader to implement our mediator, or just grab the ShortBus code/NuGet goodness. Our ShowQuery becomes:
 
-[gist id=7214582]
+{% gist 7214582 %}
 
 And the handler doesn’t change except for an interface implementation:
 
-[gist id=7214595]
+{% gist 7214595 %}
 
 Repeating this exercise for all of my queries/handlers, our controller starts to look pretty darn good:
 
-[gist id=7214645]
+{% gist 7214645 %}
 
 That’s pretty much it! I might have other UI concerns going in my controller action, but the work to actually take the request and build a model is behind a uniform interface, mediated through our mediator, and easily testable in isolation from any UI work that needs to happen.
 

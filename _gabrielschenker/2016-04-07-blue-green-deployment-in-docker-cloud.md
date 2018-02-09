@@ -24,11 +24,11 @@ This post is part of my series about [implementing a CI/CD pipeline](https://los
 
 To not over complicate things we create a simple node JS application consisting of a `package.json` file and a `server.js` file. The content of the `package.json` file is
 
-[gist id=223592c60c03d534fc21734edaddc346]
+{% gist 223592c60c03d534fc21734edaddc346 %}
 
 And the content of the `server.js` file looks like this
 
-[gist id=2c7822fb9390b2ac0f3e118151afebe2]
+{% gist 2c7822fb9390b2ac0f3e118151afebe2 %}
 
 The `test` command is not important at this point. We will come back to it later down. We can now test this application locally by running
 
@@ -44,7 +44,7 @@ Note that we are listening on port 80! This is important as we move along.
 
 If we want to Docker-ize the application we need a Dockerfile. The content looks like this
 
-[gist id=070e194b42068f9686d8b3ae515416d9]
+{% gist 070e194b42068f9686d8b3ae515416d9 %}
 
 Specifically note how we expose port 80. This will be important once we use a load balancer in front of the sample application in the cloud.
 
@@ -72,7 +72,7 @@ Create a new repository in Docker Cloud and link it to the above GitHub reposito
 
 Create a new stack in Docker Cloud and name it appropriately. The content of the `Stackfile` should look like this
 
-[gist id=03079bab920ddcbd3344316980c9ff1c]
+{% gist 03079bab920ddcbd3344316980c9ff1c %}
 
 Here we have a definition for the two services `lb` and `web`. The former one represents our load balancer and the latter our node JS application. The web service will be scaled to 3 instances and since we are using **high availability** strategy the instances will be put on different nodes of our cluster. We use self-healing in the sense as we require the service instances to **restart automatically** in case of failure. We also need to assign the role `global` to the load balancer such as that the service is able to query the Docker Cloud API.
 
@@ -92,7 +92,7 @@ If we refresh the browser a few times we will see that the **from server:** chan
 
 We can now also scale our load balancer such as that it is highly available. For that we should change our `Stackfile` to look like this
 
-[gist id=6bf56460976011414ff785dce20275e5]
+{% gist 6bf56460976011414ff785dce20275e5 %}
 
 Note line 3 and 4 that have been added. The former guarantees us that the instances of the load balancer are distributed to different cluster nodes while the latter tells us how many load balancer instances we want to run. After we have redeployed the whole stack we can see in the Node dashboard that indeed every node has now 2 containers on it, one for the load balancer and one for the node application.
 
@@ -132,7 +132,7 @@ Now we can modify our repository in Docker Cloud. We can add **image tags** that
 
 If we want to introduce **blue-green deployment** (also called **non-destructive deployment**) we need to modify our `Stackfile` as follows
 
-[gist id=742589f74df630b3342470ddbbf94d3d]
+{% gist 742589f74df630b3342470ddbbf94d3d %}
 
 Here we have instead of one service called `web` two services called `web-blue` and `web-green`. Only one of the two services is active at a given time (that is the load balancer is routing the traffic to it). At the beginning the load balancer is wired to `web-blue`. We are starting with both services being in version `v1`. We can then redeploy the whole stack and once it is up and running we can test it. We should see this
 
@@ -168,7 +168,7 @@ And we&#8217;ll have this outcome
 
 If something goes terribly wrong we can just rollback by linking the load balancer again with `web-blue` and redeploying it.
 
-[gist id=8643be79938770dd5b2c913dbf0f7baf]
+{% gist 8643be79938770dd5b2c913dbf0f7baf %}
 
 # Summary
 

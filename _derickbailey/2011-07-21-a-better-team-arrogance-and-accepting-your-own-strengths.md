@@ -28,7 +28,7 @@ Here&#8217;s the problem as I see it now: in my effort to fight my own arrogance
 
 When I convinced myself that I wasn&#8217;t any better than anyone else, I unconciously reacted in an arrogant manner because I couldn&#8217;t understand why others couldn&#8217;t remember the detail that I did. After all, &#8220;I remember it and I&#8217;m not any better than anyone else&#8221; &#8211; or so I thought to myself. And if that&#8217;s true, then &#8220;why can&#8217;t you remember the code that you wrote a few weeks ago and use it as a template for what you&#8217;re doing now?&#8221;
 
-Talk about arrogance&#8230; here I was trying to fight my own tendencies and in the process I ended up right at the place I was trying to avoid, without knowing it. How could I even remotely stand a chance in a fight against this if I didn&#8217;t even recognize that I was stuck right in the middle of it?
+Talk about arrogance&#8230; here I was trying to fight my own tendencies and in the process I ended up right at the place I was trying to avoid, without knowing it. How could I even remotely stand a chance in a fight against this if I didn&#8217;t even recognize that I was stuck right in the middle of it?
 
 ### Acceptance Of Your Own Strengths
 

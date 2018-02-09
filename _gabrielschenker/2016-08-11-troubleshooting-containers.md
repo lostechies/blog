@@ -32,7 +32,7 @@ Let&#8217;s assume we are containerizing a RESTful API written in Python using F
 
 Create a new project folder. Add a file `app.py` to this folder. The content of this file defines our simple API and looks like this
 
-[gist id=613d877acab21fe5157611c370c50620]
+{% gist 613d877acab21fe5157611c370c50620 %}
 
 If we have Python and Flask installed on our developer machine we can run this application as follows
 
@@ -46,7 +46,7 @@ Then we open a Browser and navigate to `http://localhost:5000/api/tasks` and sho
 
 So far so good. But the goal is to run this application in a container. Let&#8217;s add a `Dockerfile` to our project folder
 
-[gist id=4b272e9228888194ae091de724f5dd26]
+{% gist 4b272e9228888194ae091de724f5dd26 %}
 
 Now we want to build a Docker image using the above `Dockerfile`. Open a terminal and navigate to the project folder. Execute the following command to build the image
 
@@ -54,7 +54,7 @@ Now we want to build a Docker image using the above `Dockerfile`. Open a termina
 
 you should see the following output in you terminal
 
-[gist id=01439d26b8aeeda52d611e8043fb91f2]
+{% gist 01439d26b8aeeda52d611e8043fb91f2 %}
 
 Well, that was easy. Now let&#8217;s try to run a container using the image we just built.
 
@@ -86,15 +86,15 @@ Let&#8217;s use the container name, `my-api` in our case
 
 `docker logs my-api`
 
-[gist id=243acf98a336136cd9e7716b18b2c609]
+{% gist 243acf98a336136cd9e7716b18b2c609 %}
 
 OK, the log informs us that Python encountered an error. The module `flask` could not be found. Oh yeah, my bad, I forgot to install this module. The Docker base image `python:2.7` from which we inherit our image does not have any 3rd party modules installed. Let&#8217;s add a file `requirements.txt` to our project and add flask as a dependency. The content of the file looks like this
 
-[gist id=6bbd4739509a98a23872849c4078b305]
+{% gist 6bbd4739509a98a23872849c4078b305 %}
 
 now we can modify the `Dockerfile` as follows
 
-[gist id=297dc19d5d3b6a522aed9a49d4be4652]
+{% gist 297dc19d5d3b6a522aed9a49d4be4652 %}
 
 Note how I added two lines after the `WORKDIR` command. One to copy the `requirements.txt` file into the image and the other to run `pip install`. We can now rebuild the image
 
@@ -110,7 +110,7 @@ now we&#8217;re good to go
 
 executing `docker logs my-api` will show the expected output
 
-[gist id=74449319fc6de1d134cf0e2e0833bb83]
+{% gist 74449319fc6de1d134cf0e2e0833bb83 %}
 
 The Flask (web-) server is listening at port 5000. If we open a browser and navigate to `http://localhost:5000/api/tasks` we see the same result as when we ran the Python application directly on our host.
 
@@ -146,7 +146,7 @@ with the above command we start a new process running bash inside the container 
 
 We can now use the `ps aux` command to show all running processes in the container
 
-[gist id=49a66fe6de683b8f03722ff9d5d88289]
+{% gist 49a66fe6de683b8f03722ff9d5d88289 %}
 
 And indeed we see our Python application running as well as the bash shell that we just started.
 

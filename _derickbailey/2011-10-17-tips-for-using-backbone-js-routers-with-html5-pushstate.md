@@ -17,13 +17,13 @@ categories:
 
 Jeremy Ashkenas pointed out that this won&#8217;t work in Internet Explorer (or other browsers that don&#8217;t support PushState). I had tested this, but apparently I didn&#8217;t hit the Back button in IE, in my testing. The Back button, indeed, does not work in IE when setting things up this way. So, if you don&#8217;t care that IE users can&#8217;t use their Back button, this works great… otherwise… I think I need to re-work some of this and post a followup with corrections.
 
- 
+ 
 
 **Update #2**
 
 To avoid further confusion, I&#8217;m striking through everything I said that is wrong, in this post. A new post will be up soon-ish, to provide some real tips.
 
- 
+ 
 
 &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;
 
@@ -38,7 +38,7 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
 </h2>
 
 <p>
-  You don&#8217;t need a Backbone.Router if you&#8217;re using PushState. That&#8217;s pretty much the end of it. The rest of the &#8220;tips&#8221; I was originally going to write are pretty much useless because you don&#8217;t need to use a router when you&#8217;re using <a href="http://diveintohtml5.info/history.html">HTML5&#8217;s PushState</a>.
+  You don&#8217;t need a Backbone.Router if you&#8217;re using PushState. That&#8217;s pretty much the end of it. The rest of the &#8220;tips&#8221; I was originally going to write are pretty much useless because you don&#8217;t need to use a router when you&#8217;re using <a href="http://diveintohtml5.info/history.html">HTML5&#8217;s PushState</a>.
 </p>
 
 <h2>
@@ -46,7 +46,7 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
 </h2>
 
 <p>
-  Here&#8217;s the secret: The Backbone.Router doesn&#8217;t give you much functionality. Most of what we use a router for is done through the Backbone.History object. Router.navigate? How about History.navigate instead? <a href="http://documentcloud.github.com/backbone/docs/backbone.html#section-85">Router.navigate delegates to this anyways</a>. Route callback methods? Yeah, those are also delegated to History. Routers give us a nice way to organize our route definitions and callbacks in a clean way &#8211; and that&#8217;s a very important role to play &#8211; but end up delegating the majority of their functionality to the History object, anyways.
+  Here&#8217;s the secret: The Backbone.Router doesn&#8217;t give you much functionality. Most of what we use a router for is done through the Backbone.History object. Router.navigate? How about History.navigate instead? <a href="http://documentcloud.github.com/backbone/docs/backbone.html#section-85">Router.navigate delegates to this anyways</a>. Route callback methods? Yeah, those are also delegated to History. Routers give us a nice way to organize our route definitions and callbacks in a clean way &#8211; and that&#8217;s a very important role to play &#8211; but end up delegating the majority of their functionality to the History object, anyways.
 </p>
 
 <p>
@@ -70,7 +70,7 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
 </p>
 
 <p>
-   
+   
 </p>
 
 <p>
@@ -78,7 +78,7 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
 </p>
 
 <p>
-   
+   
 </p>
 
 <p>
@@ -105,7 +105,7 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
   </h3>
   
   <p>
-    If you don&#8217;t have a router, you won&#8217;t be able to call `router.navigate(&#8220;…&#8221;, true)` with that pesky &#8216;true&#8217; parameter. But, this shouldn&#8217;t be an issue, anyways, You should be <a href="http://lostechies.com/derickbailey/2011/08/28/dont-execute-a-backbone-js-route-handler-from-your-code/">building your apps in a stateful manner with state-based workflow</a> instead of <a href="http://lostechies.com/derickbailey/2011/08/03/stop-using-backbone-as-if-it-were-a-stateless-web-server/">using Backbone as if it were a stateless web server</a>. You&#8217;ll still want to call `history.navigate(&#8220;…&#8221;)` to update your browser&#8217;s URL. This is done in response to the application being put into a specific state, and not done to put the application into a specific state. Don&#8217;t pass the `true` parameter as the second argument to navigate, and you&#8217;ll be fine.
+    If you don&#8217;t have a router, you won&#8217;t be able to call `router.navigate(&#8220;…&#8221;, true)` with that pesky &#8216;true&#8217; parameter. But, this shouldn&#8217;t be an issue, anyways, You should be <a href="http://lostechies.com/derickbailey/2011/08/28/dont-execute-a-backbone-js-route-handler-from-your-code/">building your apps in a stateful manner with state-based workflow</a> instead of <a href="http://lostechies.com/derickbailey/2011/08/03/stop-using-backbone-as-if-it-were-a-stateless-web-server/">using Backbone as if it were a stateless web server</a>. You&#8217;ll still want to call `history.navigate(&#8220;…&#8221;)` to update your browser&#8217;s URL. This is done in response to the application being put into a specific state, and not done to put the application into a specific state. Don&#8217;t pass the `true` parameter as the second argument to navigate, and you&#8217;ll be fine.
   </p>
   
   <h2>
@@ -117,11 +117,11 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
   </p>
   
   <p>
-    [gist id=1290199 file=1.js]
+    {% gist 1290199 1.js %}
   </p>
   
   <p>
-    [gist id=1290199 file=1.html]
+    {% gist 1290199 1.html %}
   </p>
   
   <p>
@@ -137,15 +137,15 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
   </p>
   
   <p>
-    [gist id=1290199 file=2.js]
+    {% gist 1290199 2.js %}
   </p>
   
   <p>
-    [gist id=1290199 file=2.html]
+    {% gist 1290199 2.html %}
   </p>
   
   <p>
-    The only differences in this version of the code are the two links and the use of `{pushState: true}` when starting the router. The two links are standard links without hash fragments. This means that they would make a request back to the server when you click on them. If you run this code and click on a link, it makes a full request back to the server to render the page because the links are full URLs.
+    The only differences in this version of the code are the two links and the use of `{pushState: true}` when starting the router. The two links are standard links without hash fragments. This means that they would make a request back to the server when you click on them. If you run this code and click on a link, it makes a full request back to the server to render the page because the links are full URLs.
   </p>
   
   <p>
@@ -161,11 +161,11 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
   </p>
   
   <p>
-    [gist id=1290199 file=3.js]
+    {% gist 1290199 3.js %}
   </p>
   
   <p>
-    [gist id=1290199 file=3.html]
+    {% gist 1290199 3.html %}
   </p>
   
   <p>
@@ -177,7 +177,7 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
   </p>
   
   <p>
-    Check out <a href="http://backbonetraining.net/javascripts/backbonetraining.js">the JavaScript for my BackboneTraining.net</a> site. There are no routers in site. There is only an instance of Backbone.History and a call being made to the history.navigate method to update the URL when a link is clicked. This works because I have PushState enabled and because I am not passing the `true` argument to the `navigate` method.
+    Check out <a href="http://backbonetraining.net/javascripts/backbonetraining.js">the JavaScript for my BackboneTraining.net</a> site. There are no routers in site. There is only an instance of Backbone.History and a call being made to the history.navigate method to update the URL when a link is clicked. This works because I have PushState enabled and because I am not passing the `true` argument to the `navigate` method.
   </p>
   
   <p>

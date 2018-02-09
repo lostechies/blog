@@ -58,7 +58,7 @@ Please note how we place the service onto the `dockercoins` network by using the
 
 After this we run all the other services. To simplify things and avoid repetitive typing we can use a for loop
 
-[gist id=554de48ad4d1220e0145d3bbb749c7ff]
+{% gist 554de48ad4d1220e0145d3bbb749c7ff %}
 
 After running this and waiting for a short moment we should see the following when listing all services with `docker service ls`
 
@@ -180,7 +180,7 @@ To generate/send a (sample) log message we can e.g. use the following command
 
 Now we can update all our services to use the ELK stack with this command
 
-[gist id=f41614506f131a0c344c85697a1875d4]
+{% gist f41614506f131a0c344c85697a1875d4 %}
 
 Finally we can open the Browser at the IP of one of our nodes and `port 5601` (e.g. http://192.168.99.101:5601) to see `Kibana`. Click on the top level menu &#8220;Discover&#8221; to see the incoming logs. You might want to change the time window and the refresh interval in the top right of the screen to say last 1 hour and every 5 sec.
 

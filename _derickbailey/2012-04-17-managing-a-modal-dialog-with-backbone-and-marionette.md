@@ -19,7 +19,7 @@ My current client project is using [Twitter Bootstrap](http://twitter.github.com
 
 ## The Problem: Moving DOM Elements
 
-The core of the problem that people run in to when using a modal dialog is that the modal plugin removes the DOM element that wraps the modal, from the DOM. It usually gets added to some special holding location where the modal plugin can guarantee that the element won&#8217;t be visible until the modal dialog is opened. I&#8217;m over-generalizing this a bit, but many of the modal dialogs work this way or in a similar manner.
+The core of the problem that people run in to when using a modal dialog is that the modal plugin removes the DOM element that wraps the modal, from the DOM. It usually gets added to some special holding location where the modal plugin can guarantee that the element won&#8217;t be visible until the modal dialog is opened. I&#8217;m over-generalizing this a bit, but many of the modal dialogs work this way or in a similar manner.
 
 The problem that this usually causes is that a Backbone view will lose it&#8217;s event handling when the DOM element gets moved around by the modal dialog. When the modal dialog removes the view&#8217;s \`el\` from the DOM, the \`events\` configuration is lost because the DOM element has been moved or removed from the DOM and jQuery had to let go of the events. When the \`el\` is re-added to the DOM for displaying it as a modal, then, the \`events\` are not re-attached.
 
@@ -33,11 +33,11 @@ I&#8217;m not saying you can&#8217;t use a Backbone view in a modal. I&#8217;m s
 
 Let&#8217;s see an example of a Twitter Bootstrap modal dialog, displaying a Backbone view. First, the HTML and Underscore template:
 
-[gist id=2359717 file=1.html]
+{% gist 2359717 1.html %}
 
 Note that I have a &#8220;<div id=&#8217;modal&#8217;></div>&#8221; in there. This is explicitly for the Twitter Bootstrap modal dialog to use. This div is the modal. There&#8217;s no content in it, though. I will supply the content for the modal through a Backbone view, which looks like this:
 
-[gist id=2359717 file=2.js]
+{% gist 2359717 2.js %}
 
 How easy is that? I&#8217;m just rendering a view like I always do, stuffing the view&#8217;s \`el\` in to the &#8220;#modal&#8221; div, and then calling \`.modal\` on the jQuery selector object. And that&#8217;s it. My modal is done and my view&#8217;s \`events\` will still work.
 
@@ -51,7 +51,7 @@ This largely sounds like a Region object in Backbone.Marionette: a way to manage
 
 To do this, I&#8217;m going to take advantage of Marionette&#8217;s &#8220;Region&#8221; and extend it with the behavior that I need for managing the modal:
 
-[gist id=2359717 file=3.js]
+{% gist 2359717 3.js %}
 
 This is honestly more code than I wanted to write. There&#8217;s a few things that I need to clean up and add in my Region object to make this a little more elegant. But, it works! And that&#8217;s the important part.
 
@@ -61,7 +61,7 @@ I&#8217;m also setting up a &#8220;close&#8221; event handler on the view itself
 
 As I said before, I want to reduce the amount of code that is required to make this happen. But for now, this is a functional modal dialog region. I&#8217;m using it in my application, like this:
 
-[gist id=2359717 file=4.js]
+{% gist 2359717 4.js %}
 
 Note that I&#8217;m registering my ModalRegion object in my Marionette.Application with my other regions. Instead of passing in a DOM selector, though, I passing in the ModalRegion type.
 

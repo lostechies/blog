@@ -18,7 +18,7 @@ I really like C#, but I wish there were a bit more to the language. The Visual S
 
 ### String Interpolation
 
-[gist id=2843776]
+{% gist 2843776 %}
 
 I want something like this mostly because I hate writing string.Format and/or creating .Format() type extension methods.
 
@@ -30,6 +30,6 @@ I would love to be able to override/extend the null-coalescing operator (??) in 
 
 I don&#8217;t know what this is actually called, but I&#8217;d like to write this code in some instances:
 
-[gist id=2847833]
+{% gist 2847833 %}
 
 I think this could make things cleaner and easier to read in several circumstances.

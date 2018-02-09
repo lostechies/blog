@@ -20,15 +20,15 @@ Respawn is [available on NuGet](http://www.nuget.org/packages/respawn), and can 
 
 You create a checkpoint:
 
-[gist id=fe857eb3d206abd9092a]
+{% gist fe857eb3d206abd9092a %}
 
 You can supply tables to ignore and schemas to exclude for tables you don’t want cleared out. In your test fixture setup, reset your checkpoint:
 
-[gist id=b1e69710ba4239d183e4]
+{% gist b1e69710ba4239d183e4 %}
 
 Or if you’re using a database besides SQL Server, you can pass in an open DbConnection:
 
-[gist id=4c32e325061b2a4e6936]
+{% gist 4c32e325061b2a4e6936 %}
 
 Because Respawn stores the correct SQL in the right order to clear your tables, you don’t need to maintain a list of tables to delete or recalculate on every checkpoint reset. And since table truncation won’t work with tables that include foreign key constraints, DELETE will be faster than table truncation for test databases.
 

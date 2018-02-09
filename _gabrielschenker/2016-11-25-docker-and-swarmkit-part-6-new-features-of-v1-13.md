@@ -146,7 +146,7 @@ In my case I see this
 
 We can now aggregate all snippets into one single script which makes it really easy in the future to create a swarm from scratch
 
-[gist id=daf505d896b135ccfbbf7507ef653553]
+{% gist daf505d896b135ccfbbf7507ef653553 %}
 
 # Analyzing the new Features
 
@@ -262,7 +262,7 @@ after giving the service some time to initialize and run the tasks we can now ou
 
 and we should see something like this (I am just showing the first few lines)
 
-[gist id=2eeeddd78c14a92247ee96fbcbbf10ea]
+{% gist 2eeeddd78c14a92247ee96fbcbbf10ea %}
 
 We can clearly see how the output is aggregated from the 3 tasks running on nodes 3, 4 and 5. This is a huge improvement IMHO and I can&#8217;t wait until it is part of the stable release.
 

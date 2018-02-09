@@ -15,7 +15,7 @@ categories:
 ---
 A few days ago, I wrote about [using the Cells gem to create an encapsulated segment of my app](http://lostechies.com/derickbailey/2011/04/11/cells-partial-controllers-and-views-for-rails-3/), with view and controller, etc. Well, this didn&#8217;t work out so well after all. Aside form the initial problem of \`content_for\` not working, I ran into another set of issues where the controller and view for the cell wouldn&#8217;t play nice with CanCan &#8211; our authorization system of choice. Rather than go down the path of trying to make it work (which I tried, for an hour or so), I decided to take [the advice of Brian Hogan](https://twitter.com/#!/bphogan/status/57625998866399236) and change approaches.
 
- 
+ 
 
 ### A Helper Class And A Service Object
 
@@ -62,7 +62,7 @@ It&#8217;s a fairly simple object, in this case, with some methods that retrieve
   end
 end</pre>
 
- 
+ 
 
 My view partial was updated to use this class, by having a \`:locals => {}\` variable named \`dashboard\` passed into it. For example, here&#8217;s the code that displays the open assessments, from the partial:
 
@@ -76,11 +76,11 @@ My view partial was updated to use this class, by having a \`:locals => {}\` var
                 \||
                 = submit_tag "Close" </pre>
 
- 
+ 
 
 You can see several calls to \`dashboard\` in this code, to retrieve the data I need.
 
- 
+ 
 
 ### Calling The Helper Class And Running The Partial
 
@@ -89,7 +89,7 @@ To wire all of this together, I make a call to my helper class from within the p
 <pre>- @patient_programs.each do |patient_program|
     #program= ProgramDashboard.render self, patient_program</pre>
 
- 
+ 
 
 The \`ProgramDashboard.render\` is the call to the helper class. I&#8217;m passing \`self\` as the first parameter because this gives me access to the render and content_for methods, from within the helper class. The helper class then uses conventions to find the correct partial, css, and service object to run the partial and wires it all up.
 
@@ -97,7 +97,7 @@ Within the ProgramDashboard helper class, I am making a call to render the parti
 
 <pre>view.render :partial =&gt; "#{key}/program/dashboard", :locals =&gt; { :dashboard =&gt; dashboard }</pre>
 
- 
+ 
 
 ### A Better Solution For Partial Controllers
 
@@ -105,4 +105,4 @@ In the end, I think this solution is a little cleaner. It uses the built in rail
 
 As always, I&#8217;m interested in feedback on this. What do you think? It obviously solves my problem, but does it do it in a well structured manner that doesn&#8217;t violate a ton of design principles? Is there sill a better way to solve my problem? Any feedback you have is always welcome.
 
- 
+ 

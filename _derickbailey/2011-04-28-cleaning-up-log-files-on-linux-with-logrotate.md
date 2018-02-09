@@ -14,7 +14,7 @@ categories:
 ---
 In [my previous post](http://lostechies.com/derickbailey/2011/04/27/the-whenever-gem-making-cron-easy/), I talked about the need to run a command on a schedule with cron. I also mentioned cron creating a bunch of email and how to redirect the output to log files with the whenever gem. After getting everything set up and running, sending data to the correct log files, I realized the need to keep my log files from filling up my drive space. A quick [question on twitter led me to the &#8220;logrotate&#8221; system in linux](https://twitter.com/#!/bphogan/status/62966908881862656). This little tool will rotate, compress, and clean out your log files based on many different configuration options.
 
- 
+ 
 
 ### A Bit Of Philosophy, First
 
@@ -30,7 +30,7 @@ With these principles in mind, though, I changed how my app works. Instead of al
 
 Now that I have my app logging correctly &#8211; log nothing normally, log everything in verbose mode, log any errors or crashes &#8211; I could move on to logrotate and set a more reasonable schedule for rotation.
 
- 
+ 
 
 ### Configuring A Simple Logrotate
 
@@ -38,18 +38,18 @@ There&#8217;s a default logrotate configuration file that holds several system l
 
 In this file, you need to specify the log file or files, and the options for how to rotate them. If I wanted to rotate my /var/logs/foobar.log file once a day and keep a maximum of 10 days worth of files, I could set up my logrotate configuration like this:
 
-<pre>/var/logs/foobar.log {<br />  daily<br />  rotate 10<br />} </pre>
+<pre>/var/logs/foobar.log {<br />  daily<br />  rotate 10<br />} </pre>
 
- 
+ 
 
 Once you have your logrotate configuration file in place, you&#8217;re done. There is no need to restart a logrotate daemon, because there isn&#8217;t one. It turns out logrotate runs as a daily cron job.
 
- 
+ 
 
 ### Good Examples And Documentation
 
 There are a lot of available options for rotating the log, too. You can compress the logs, handle a log file not existing or being empty, run some pre or post rotation scripts, etc. It&#8217;s quite a powerful little tool and fairly easy to understand the options, too. There are plenty of good tutorials for logrotate on the interwebs, and the man pages for logrotate will explain the vast array of options for you. I read through [this tutorial](http://linuxers.org/howto/howto-use-logrotate-manage-log-files) and it was enough to get me up and running pretty quickly.
 
- 
+ 
 
- 
+ 

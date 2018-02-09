@@ -43,7 +43,7 @@ Since all of the bin files for all of the node packages are installed in to ./no
 
 Easy enough:
 
-[gist id=2409904 file=npm_exec.sh]
+{% gist 2409904 npm_exec.sh %}
 
 Just &#8220;chmod +x npm_exec&#8221; to make this file executable, and away we go.
 
@@ -59,13 +59,13 @@ This last option is one that I&#8217;m using more and more often for project spe
 
 When you create an express app, it builds a package.json file for you. One of the pieces that it sticks in there is the &#8220;scripts&#8221; setting which contains a &#8220;start&#8221; setting, by default.
 
-[gist id=2409904 file=package.json]
+{% gist 2409904 package.json %}
 
 It turns out you can use these &#8220;scripts&#8221; from the npm command line. When you call &#8220;npm start&#8221;, npm will execute the &#8220;scripts&#8221;/&#8221;start&#8221; configuration for you. By default, this is just a call to &#8220;node app&#8221; which runs the app.js file in node and gets your express.js app up and running.
 
 You can do more with &#8220;scripts&#8221;, too. You can add your own named script, in fact.
 
-[gist id=2409904 file=scripts.json]
+{% gist 2409904 scripts.json %}
 
 But you can&#8217;t just &#8220;npm foo&#8221;. The &#8220;start&#8221; script is recognized by npm explicitly. For other non-standard script names, you have to use the &#8220;run-script&#8221; command from node: npm run-script foo
 
@@ -75,7 +75,7 @@ The other thing that this does for us, is give us direct access to all of the bi
 
 For example, if I want to use the node-supervisor package to restart my app whenever any files change, I can set up my package.json file to look like this:
 
-[gist id=2409904 file=supervisor.json]
+{% gist 2409904 supervisor.json %}
 
 This will install the &#8220;supervisor&#8221; package for development only, and set up the &#8220;start&#8221; script to run &#8220;supervisor app&#8221;. Now from the command line, I can&#8217;t run &#8220;supervisor app&#8221; directly:
 
@@ -93,4 +93,4 @@ I really do miss the &#8220;bundle exec&#8221; feature of bundler. I honestly do
 
 There might be better option than the ones I&#8217;ve listed, as well. So, what am I missing? Is there something built in to npm to make this easier? Are there other ways that you&#8217;ve worked around this? Or am I going to stick with my &#8220;npm_exec&#8221; script and using npm &#8220;scripts&#8221; in my package.json fil?
 
- 
+ 

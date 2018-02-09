@@ -14,7 +14,7 @@ categories:
   - Test Automation
   - Validation
 ---
-A few days ago I pushed some changes to the form validation up to my [WatchMeCode](http://watchmecode.net) website. I was trying to fix a scenario where a browser cache would have some of the data in the purchase form already filled in. In that scenario, a potential customer would have to modify each field, even though they were already filled in, in order for my  Backbone code to see the data in the field.
+A few days ago I pushed some changes to the form validation up to my [WatchMeCode](http://watchmecode.net) website. I was trying to fix a scenario where a browser cache would have some of the data in the purchase form already filled in. In that scenario, a potential customer would have to modify each field, even though they were already filled in, in order for my  Backbone code to see the data in the field.
 
 To &#8220;fix&#8221; the problem, I switched my code from a &#8220;change&#8221; event to a &#8220;keyup&#8221; event for the text boxes … bad idea!
 
@@ -51,4 +51,4 @@ There certainly are some great things you can do with the &#8220;keyup&#8221; ev
 
 And unfortunately for me, 2 of my customers ran in to this problem before I got it fixed. It makes it very hard to email someone the download instructions for their order. One of them contacted me and I corrected the order. But the other purchaser has not yet contacted me, and I don&#8217;t have enough information to figure out who they are, so I can&#8217;t track them down. I hope this person realizes that they didn&#8217;t get their order, they contact me. My contact info is all over the site… so … hopefully … the lessons learned for running an e-commerce site are sometimes painful.
 
- 
+ 

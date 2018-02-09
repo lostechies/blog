@@ -28,7 +28,7 @@ When presented with concurrency issues with [NServiceBus sagas](http://particula
                   * If work done, send batch done message</ol> 
                 The problem with this approach is that we’re creating a shared resource for our work to be done. Even if we do something completely naïve for tracking work:
                 
-                [gist id=9134508]
+                {% gist 9134508 %}
                 
                 Even if we’re only tracking the count of work completed (or decrementing a counter, doesn’t matter), the problem is that only one “work done” message can be processed at a time. Our actual work might be isolated, letting us scale out our workers to N nodes, but the notification of done still has to get back into a single file line for our saga. Even if we up the worker count on the saga side, modifications to our saga entity must be serialized, done only one at a time. Upping the number of workers on the saga side is only going to lead to concurrency violations, exceptions, and an overall _much_ slower process.
                 

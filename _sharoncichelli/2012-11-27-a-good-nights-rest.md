@@ -41,7 +41,7 @@ The solution is to take the decision out of your hands. To wit, automate it. Sch
 
 I created a PowerShell script that warns me to wrap up my work, then sets the computer to sleep. I call that script from a Windows scheduled task.
 
-[gist id=4151973]
+{% gist 4151973 %}
 
 Caveat emptor. To write this script, I picked up pieces of PowerShell and stuck them together with mud and spit. Please make a better version, put it in a [gist](https://gist.github.com/), and link to it in the comments. Sleepy nerds will thank you.
 

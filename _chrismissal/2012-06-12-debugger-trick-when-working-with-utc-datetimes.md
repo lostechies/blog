@@ -19,7 +19,7 @@ A couple days ago, this idea popped into my head when I was listening to a prese
 
 If I have a DateTime property that is set to UTC, I&#8217;m not great at doing the calculation in my head as quickly as I&#8217;d like. I was hoping I could leverage the DebuggerDisplayAttribute to show me both the Local time and the Universal time. It was actually really easy to hook up.
 
-[gist id=2915408]
+{% gist 2915408 %}
 
 [<img class="alignnone size-full wp-image-184" title="Screen shot of modified debug text" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/local-time-debugger.png" alt="" width="474" height="99" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/local-time-debugger.png 474w, http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/local-time-debugger-300x63.png 300w" sizes="(max-width: 474px) 100vw, 474px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/local-time-debugger.png)
 

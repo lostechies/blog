@@ -13,7 +13,7 @@ categories:
 ---
 [Domain events](http://www.udidahan.com/2009/06/14/domain-events-salvation/) are one of the final patterns needed to create a [fully encapsulated domain model](http://lostechies.com/jimmybogard/2010/02/04/strengthening-your-domain-a-primer/) – one that fully enforces a consistency boundary and invariants. The need for domain events comes from a desire to inject services into domain models. What we really want is to create an encapsulated domain model, but decouple ourselves from potential side effects and isolate those explicitly. The original example I gave looked something like this:
 
-[gist id=076e02e18d00eff723b4]
+{% gist 076e02e18d00eff723b4 %}
 
 There’s one small problem with our domain event implementation. Because the domain events class is static, it also dispatches to handlers immediately. This makes testing our domain model difficult, because side effects, however crazy, are executed immediately at the point of raising the domain event.
 
@@ -21,19 +21,19 @@ Typically, I want the side effects of a domain event to occur within the same lo
 
 Instead of dispatching to a domain event handler immediately, what if instead we recorded our domain events, and before committing our transaction, dispatch those domain events at that point? This will have a number of benefits, besides us not tearing our hair out. Instead of raising domain events, let’s define a container for events on our domain object:
 
-[gist id=3f12e1dcb2e248273496]
+{% gist 3f12e1dcb2e248273496 %}
 
 In our method that raises the domain event, instead of dispatching immediately, we simply record a domain event on our entity:
 
-[gist id=56ce12c36623db1412ab]
+{% gist 56ce12c36623db1412ab %}
 
 This makes testing quite a bit simpler since we don’t this global domain event dispatcher firing things off, we can just assert on our self-contained entity class:
 
-[gist id=c9e092b30af8251a8cdf]
+{% gist c9e092b30af8251a8cdf %}
 
 Finally, we need to actually fire off these domain events. This is something we can hook into our infrastructure of whatever ORM we’re using. In EF, we can hook into the SaveChanges method:
 
-[gist id=50407a1c1a823a83e9bb]
+{% gist 50407a1c1a823a83e9bb %}
 
 Just before we commit our transaction, we dispatch our events to their respective handlers. With this approach, we decouple the raising of a domain event from dispatching to a handler, which is much more obvious to me as a developer. If you want immediate side effects with other entities, just pass those in as arguments.
 

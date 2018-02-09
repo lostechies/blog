@@ -17,9 +17,9 @@ categories:
 ---
 I was fortunate enough to be the first guest on the [Upfront Podcast](http://upfrontpodcast.com/) this week. It&#8217;s a new podcast hosted by [Jack Franklin](http://javascriptplayground.com/) and [Ben Howdle](http://benhowdle.im/), focused on all things front-end web development. You&#8217;re going to want to add this podcast to your subscriptions, as they have a lot of great content lined up for us web devs.
 
-For my part, the interview covered some of [Backbone](http://backbonejs.org/), some of it&#8217;s philosophy, and my [MarionetteJS](http://marionettejs.com/) project that provides infrastructure for scaling Backbone apps. 
+For my part, the interview covered some of [Backbone](http://backbonejs.org/), some of it&#8217;s philosophy, and my [MarionetteJS](http://marionettejs.com/) project that provides infrastructure for scaling Backbone apps. 
 
-From the [Upfront Podcast episode 2](http://upfrontpodcast.com/2013/02/01/episode2.html) page:
+From the [Upfront Podcast episode 2](http://upfrontpodcast.com/2013/02/01/episode2.html) page:
 
 > In Episode 2 of Upfront Podcast we chat with JavaScript and Backbone expert Derick Bailey about the merits of using Backbone for JavaScript applications. We also chat about Marionette, Derick’s own set of tools that provide a lot of the boilerplate code typically associated with Backbone.
 > 

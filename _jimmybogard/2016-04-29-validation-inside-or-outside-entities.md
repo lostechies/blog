@@ -14,7 +14,7 @@ A common question I get asked, especially around a vertical slice architecture, 
 
 Typically, an entity validating itself will do so with validation/data annotations on itself. Suppose we have a Customer and its First/Last names are “required”:
 
-[gist id=bd3e2a7f43b5ce09c5c07502c88a9ed7]
+{% gist bd3e2a7f43b5ce09c5c07502c88a9ed7 %}
 
 The issue with this approach is twofold:
 
@@ -25,11 +25,11 @@ So while you can surface these validation errors (typically from an ORM) to the 
 
 But if you’re all up in DDD, you might want to introduce some methods to wrap around mutating state:
 
-[gist id=5fdcf142da23d0ef74a917dafeb392b6]
+{% gist 5fdcf142da23d0ef74a917dafeb392b6 %}
 
 Slightly better, but only slightly, because the only way I can surface “validation errors” are through exceptions. So you don’t do exceptions, you use some sort of command result:
 
-[gist id=6915c225c9f5a5df7cb80c33c1329e5b]
+{% gist 6915c225c9f5a5df7cb80c33c1329e5b %}
 
 Again, this is annoying to surface to the end user because I have one validation error at a time being returned. I can batch them up, but how do I correlate back to the field name on the screen? I really can’t. Ultimately, entities are lousy at command validation. Validation frameworks, however, are great.
 
@@ -39,11 +39,11 @@ Instead of relying on an entity/aggregate to perform command validation, I entru
 
 With this in mind, my validation centers around commands and actions, not entities. I could do something like this instead:
 
-[gist id=77418363357f563348b1dc1b98e70ded]
+{% gist 77418363357f563348b1dc1b98e70ded %}
 
 My validation attributes are on the command itself, and only when the command is valid do I pass it to my entities for state transition. Inside my entity, I’m responsible for successfully accepting a ChangeNameCommand and performing the state transition, ensuring my invariants are satisfied. In many projects, I wind up using FluentValidation instead:
 
-[gist id=00580a98bc9129199ecf4be67903baa5]
+{% gist 00580a98bc9129199ecf4be67903baa5 %}
 
 The key difference here is that I’m validating a command, not an entity. And since entities themselves are not validation libraries, it’s much, much cleaner to validate at the command level. Because the command is the form I’m presenting to the user, any validation errors are easily correlated to the UI since the command was used to build the form in the first place.
 

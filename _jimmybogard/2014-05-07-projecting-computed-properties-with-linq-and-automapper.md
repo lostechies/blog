@@ -17,7 +17,7 @@ Another from the “wicked awesome” category of AutoMapper. Other blogs about 
           * [Using AutoMapper to perform LINQ aggregations](http://lostechies.com/jimmybogard/2014/04/08/using-automapper-to-perform-linq-aggregations/) </ul> 
         One current limitation of ORM LINQ projections in general is that it can’t project computed properties:
         
-        [gist id=d5382766981c264f46b6]
+        {% gist d5382766981c264f46b6 %}
         
         If you try this using LINQ, you’ll get some error in your LINQ provider about not being able to use a computed property in an expression. Your options at this point are to duplicate the computed property on the destination type, to switch over to the regular Mapper.Map call, or modify your ORM such that the database column itself is defined as a computed column. All of these are fairly intrusive.
         
@@ -29,23 +29,23 @@ Another from the “wicked awesome” category of AutoMapper. Other blogs about 
         
         Next, let’s create an extension method for AutoMapper to make it easy to wrap our projection calls with the delegate decompilation:
         
-        [gist id=0462e5b7474d1e80033a]
+        {% gist 0462e5b7474d1e80033a %}
         
         See that extra “Decompile” method? That’s modifying our existing expression tree that AutoMapper built and replacing computed properties with our own. Underneath the covers, it’s taking this LINQ expression:
         
-        [gist id=dccffce40add560b9817]
+        {% gist dccffce40add560b9817 %}
         
         And replacing it with this:
         
-        [gist id=fed5807b30d38f271ffe]
+        {% gist fed5807b30d38f271ffe %}
         
         The only change to our models was to indicate to the delegate decompiler that this is a computed property. In our domain model, we decorate with the Computed attribute, and now everything works!
         
-        [gist id=d33241ab923959c8be7d]
+        {% gist d33241ab923959c8be7d %}
         
         Looking at the underlying SQL generated, since the LINQ provider can understand that LINQ expression, we’ll see something like:
         
-        [gist id=5446e56e74bcef0c7f26]
+        {% gist 5446e56e74bcef0c7f26 %}
         
         I can build computed properties on my domain model, project them automatically using AutoMapper, and have computed properties evaluated all the way down at the database tier with that opt-in “Computed” attribute.
         

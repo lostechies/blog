@@ -21,7 +21,7 @@ to this:
 
 All of my commits appear to be gone&#8230; they don&#8217;t show up in the commit log, at least.
 
- 
+ 
 
 ### Enter The Reflog
 
@@ -31,7 +31,7 @@ Run _git reflog_ from the command line and it shows you what has been going on w
 
 <img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-02-23-at-11.31.03-AM.png" border="0" alt="Screen shot 2011 02 23 at 11 31 03 AM" width="600" height="233" />
 
- 
+ 
 
 ### Branch From A Starting Point
 

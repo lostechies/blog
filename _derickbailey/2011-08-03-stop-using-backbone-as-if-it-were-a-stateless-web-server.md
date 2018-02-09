@@ -24,7 +24,7 @@ Unfortunately I see the same patterns emerging in a lot of sample code for javas
 
 A web application is a stateless system. Your browser does not have a live connection to the server for any more time than is needed to transfer the rendered html, css, javascript, images, etc to your browser. Once that data transfer is done, you are viewing the page on your local system. The server is not holding a ton of resources in memory, allowing you to manipulate them directly through your browser. You&#8217;re manipulating a representation of those things, that has been turned into a combination of technologies that your browser knows how to deal with.
 
-Because of the stateless nature of web servers, it makes sense for every action you want to do to have a route associated with it. The server needs to have some context to tell it what you are trying to do, so it can figure out what code you&#8217;re trying to run. All of this is necessary because the browser is disconnected from the server. The server doesn&#8217;t know that you&#8217;re looking at item #1 or the list of items. It knows nothing about what you&#8217;re doing until your browser tells the server to do something.
+Because of the stateless nature of web servers, it makes sense for every action you want to do to have a route associated with it. The server needs to have some context to tell it what you are trying to do, so it can figure out what code you&#8217;re trying to run. All of this is necessary because the browser is disconnected from the server. The server doesn&#8217;t know that you&#8217;re looking at item #1 or the list of items. It knows nothing about what you&#8217;re doing until your browser tells the server to do something.
 
 ## State. Do You Speak It?
 
@@ -38,19 +38,19 @@ I&#8217;ve seen this a number of times &#8211; and have built it at least once, 
 
 The delete route and view often look like this:
 
-[gist id=1123795 file=1-routing-delete.js]
+{% gist 1123795 1-routing-delete.js %}
 
 With an HTML layout that looks like this (after being rendered):
 
-[gist id=1123795 file=2-routing-delete.html]
+{% gist 1123795 2-routing-delete.html %}
 
-Yes, this is functional. You can click on that link and it will delete the model in question. The rendered view for that model will also be removed from the HTML that is displayed on the screen. As functional as this is, though, there are several problems with it.
+Yes, this is functional. You can click on that link and it will delete the model in question. The rendered view for that model will also be removed from the HTML that is displayed on the screen. As functional as this is, though, there are several problems with it.
 
 ### Browser History
 
 One of the features that we get with Backbone&#8217;s router is the ability to control the browser&#8217;s history and the back button. Every time we send the browser to a new url#route, Backbone records it in the browser&#8217;s history. This allows us to move backward and forward in the application, using the browser&#8217;s backward and forward navigation button.
 
-When we use a delete route, we get the deletion stuffed into our browser&#8217;s history. If we hit the back button, after navigating to another url#route, the router will try to find and delete the model again. It gets even worse if we are routing deletes of groups of things.  Assume that we routed to #/delete/green in order to delete all items that are colored green. Then the user adds several new items that are green. Now that they are done, they click through the back button history in order to get to where they started. Along the way, they hit the #/delete/green route again, and all of the work they had just done is destroyed.
+When we use a delete route, we get the deletion stuffed into our browser&#8217;s history. If we hit the back button, after navigating to another url#route, the router will try to find and delete the model again. It gets even worse if we are routing deletes of groups of things.  Assume that we routed to #/delete/green in order to delete all items that are colored green. Then the user adds several new items that are green. Now that they are done, they click through the back button history in order to get to where they started. Along the way, they hit the #/delete/green route again, and all of the work they had just done is destroyed.
 
 To prevent these bad scenarios and prevent unwanted errors from models not existing when the router fires the delete code again, we have to put null checks around things. This makes our code a little uglier, a little less readable and gives us more to maintain over time.
 
@@ -68,7 +68,7 @@ The result of this is negligible in terms of memory and performance, in the exam
 
 The last line of the router&#8217;s delete method removes the view that was displaying the item because when you&#8217;re deleting an item, you will likely want to remove it from the view as well. By using a jQuery selector to find the view and remove the HTML that represents the view from the DOM directly, though, we are breaking the view&#8217;s encapsulation and creating spaghetti code which will likely become difficult to maintain over time.
 
-A Backbone view provides a significant amount of functionality and capabilities. One of the convenience features that is provided for us is the \`remove\` method of the view. This method, according to the documentation, calls \`$(this.el).remove()\`. This is essentially the same code that we have called in our router&#8217;s delete method. However, this remove method is encapsulated within the view and uses the context and knowledge that the view holds in order to do the delete. Even if this convenience method doesn&#8217;t exist in your version of Backbone, it is 1 line of code to add it and allow work against your view to be encapsulated correctly.
+A Backbone view provides a significant amount of functionality and capabilities. One of the convenience features that is provided for us is the \`remove\` method of the view. This method, according to the documentation, calls \`$(this.el).remove()\`. This is essentially the same code that we have called in our router&#8217;s delete method. However, this remove method is encapsulated within the view and uses the context and knowledge that the view holds in order to do the delete. Even if this convenience method doesn&#8217;t exist in your version of Backbone, it is 1 line of code to add it and allow work against your view to be encapsulated correctly.
 
 By making this call outside of the view, we are breaking encapsulation. We are also opening up the possibility of bugs being introduced to the app in ways that are difficult to track down. If we have code strewn throughout the app that removes HTML elements, but we are not cleaning up the view objects that represent (and own) those elements, there could be problems. If a view tries to access an element that is no longer there, the work it&#8217;s trying to do will at best, not do anything. At worst, it will cause unexpected errors and potentially ruin the work that the user has been doing.
 
@@ -82,13 +82,13 @@ Given the number of problems that have been identified, it should hopefully be a
 
 Here&#8217;s an example of the code that we can use to allow deletion of the model via the view, directly:
 
-[gist id=1123795 file=3-view-delete.js]
+{% gist 1123795 3-view-delete.js %}
 
 And the view can be simplified a little, too:
 
-[gist id=1123795 file=4-view-delete.html]
+{% gist 1123795 4-view-delete.html %}
 
-You&#8217;ll notice that this is roughly the same amount of code. There may be 1 or 2 lines less in the new version, but that&#8217;s negligible at best. We don&#8217;t get any advantage from this perspective. However, we do get a number of advantages with regards to the previous problems that I described.
+You&#8217;ll notice that this is roughly the same amount of code. There may be 1 or 2 lines less in the new version, but that&#8217;s negligible at best. We don&#8217;t get any advantage from this perspective. However, we do get a number of advantages with regards to the previous problems that I described.
 
 ### No Browser History For The Delete
 
@@ -96,7 +96,7 @@ We&#8217;ve changed the delete link in the HTML from &#8220;#/delete/1&#8221; to
 
 ### No Bookmark or Copy & Paste Urls For Deletion
 
-Again, we&#8217;ve changed the delete link in the HTML from &#8220;#/delete/1&#8221; to &#8220;#&#8221;. This will prevent a bookmark or url copy & paste from triggering any deletion. Since you can&#8217;t create a bookmark to a specific line of javascript code, or copy & paste a url that starts out on a specific line of javascript code, we don&#8217;t have to worry about this problem at all.
+Again, we&#8217;ve changed the delete link in the HTML from &#8220;#/delete/1&#8221; to &#8220;#&#8221;. This will prevent a bookmark or url copy & paste from triggering any deletion. Since you can&#8217;t create a bookmark to a specific line of javascript code, or copy & paste a url that starts out on a specific line of javascript code, we don&#8217;t have to worry about this problem at all.
 
 ### No Unnecessary Lookup To Find The Model For Deletion
 
@@ -116,7 +116,7 @@ Beyond the issues that I&#8217;ve addressed, there are additional benefits of bu
 
 ## Where Routing Works With Backbone
 
-There are plenty of examples of where routes work well with backbone, of course. Imagine your building a large website that contains articles, for example. You could try to load all of the articles into the browser, all at once, using Backbone&#8217;s models and collections. It&#8217;s trivially simple to load a Backbone collection, after all. But loading all of these articles into the browser would cause the browser to slow down to a crawl, eat up a ton of memory and possibly crash the browser depending on the quality of browser and memory handling. Whatever the actual effects are, they would likely not be good.
+There are plenty of examples of where routes work well with backbone, of course. Imagine your building a large website that contains articles, for example. You could try to load all of the articles into the browser, all at once, using Backbone&#8217;s models and collections. It&#8217;s trivially simple to load a Backbone collection, after all. But loading all of these articles into the browser would cause the browser to slow down to a crawl, eat up a ton of memory and possibly crash the browser depending on the quality of browser and memory handling. Whatever the actual effects are, they would likely not be good.
 
 The router is perfect for situations like this. You don&#8217;t need to load all of the articles from the server all at once. Instead, you can use routes to figure out which article the user wants and only load the detail for the one specified from the server or other data store.
 
@@ -124,4 +124,4 @@ The router is perfect for situations like this. You don&#8217;t need to load all
 
 I&#8217;ve outlined a very simple example of a route that enabled some functionality while creating a slew of potential problems. This is a very simple example, as well. Imagine what could possibly go wrong if you have a very large Backbone app with nested views and the ability to move forward and backward in those views.
 
-While there are some very distinct advantages of using a router, it should not be our default go-to object to enable functionality. MV* frameworks, like Backbone, give us the opportunity to bridge the gap between the web and the thick clients. We need to take off our stateless-web-server glasses and realize that Backbone opens a world of different principles and patterns. We need to look to the thick-client, desktop and native-mobile-device applications for guidance in some of these areas. Not every pattern we find will apply, of course. But many of them will, and they will help us produce much longer-lasting, maintainable solutions for our interaction-heavy web pages.
+While there are some very distinct advantages of using a router, it should not be our default go-to object to enable functionality. MV* frameworks, like Backbone, give us the opportunity to bridge the gap between the web and the thick clients. We need to take off our stateless-web-server glasses and realize that Backbone opens a world of different principles and patterns. We need to look to the thick-client, desktop and native-mobile-device applications for guidance in some of these areas. Not every pattern we find will apply, of course. But many of them will, and they will help us produce much longer-lasting, maintainable solutions for our interaction-heavy web pages.

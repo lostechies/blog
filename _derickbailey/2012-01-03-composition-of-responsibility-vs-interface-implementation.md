@@ -28,7 +28,7 @@ ActiveRecord might truly be a horrible beast with far too many concerns in one g
 
 I have dug deep in to Mongoid, though (a MongoDB ODM for ruby), which sits on top of various pieces of ActiveRecord. I&#8217;ve submitted a handful of patches for Mongoid and have spent a fair amount of time studying it to learn how it works. On the surface, it also looks like a ton of bloat and SoC/SRP violations. Run &#8220;puts my_model.methods.sort&#8221;, and you&#8217;ll see 354 methods&#8230; it makes you wonder&#8230;
 
-[gist id=1555221 file=mongoid.sh]
+{% gist 1555221 mongoid.sh %}
 
 But when I look at the source for Mongoid, it&#8217;s one of the most beautiful sets of code that i&#8217;ve seen in Ruby. From my perspective, it has a very clean separation of concerns and follows many other good OO principles to the core (at least until it has to interact w/ activerecord).
 

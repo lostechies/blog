@@ -15,7 +15,7 @@ categories:
 ---
 I&#8217;ve talked about [what I went through to learn thor](http://lostechies.com/derickbailey/2011/04/15/getting-started-with-thor/), already. After all of that, I found myself becoming rather fond of thor and the end result of learning thor was a nice little command line tool that I am [automating with a cron job](http://lostechies.com/derickbailey/2011/04/27/the-whenever-gem-making-cron-easy/).
 
- 
+ 
 
 ### More Than Just A Script
 
@@ -25,7 +25,7 @@ As my app began to accumulate features and command line options, such as the abi
 
 I decided to borrow a few ideas from rails and rubygems, and this is what I came up with.
 
- 
+ 
 
 ### A Basic File And Folder Structure
 
@@ -35,7 +35,7 @@ Here&#8217;s the basic file and folder structure that I ended up with. Note that
 
 <img src="http://lostechies.com/derickbailey/files/2011/04/Screen-shot-2011-04-27-at-2.46.30-PM.png" border="0" alt="Screen shot 2011 04 27 at 2 46 30 PM" width="243" height="460" />
 
- 
+ 
 
 ### The Thor File, The Executable Script, And DRYing Up The App
 
@@ -45,19 +45,19 @@ The contents of my .thor file end up being this:
 
 <pre>$: &lt;&lt; File.expand_path("../lib/", __FILE__)<br />require 'bioref'</pre>
 
- 
+ 
 
 Yeah&#8230; that&#8217;s it. I&#8217;m setting up the ruby $LOAD_PATH to search my lib folder so I can easily load all the files I need, and then I&#8217;m requiring the bioref.rb file out of that folder. My ./bioref executable script only has a few additionals line when compared with the .thor file:
 
 <pre>#!/usr/bin/env ruby<br />$: &lt;&lt; File.expand_path("../lib/", __FILE__)<br />require 'thor'<br />require 'bioref'<br />Bioref.start</pre>
 
- 
+ 
 
 The difference here is due to the way thor works from the command line. When I run thor and it reads my .thor file, it has already loaded itself into memory, therefore I don&#8217;t need to do a require &#8216;thor&#8217; in the .thor file, itself. However, when running as an executable script, thor is not automatically loaded, so I needed to include the require &#8216;thor&#8217; in the executable file. I also have to call Bioref.start &#8211; the start method on my thor class &#8211; to run the actual thor class. Still, this is a pretty simple script to execute.
 
 In the end, there is only a few lines of duplication between these two files &#8211; the load path and the require statement. Other than that, my entire thor application is all DRY&#8217;d up, minimizing the changes that I have to duplicate anywhere in in the app.
 
- 
+ 
 
 ### Bioref.rb: My Thor Class And App Bootstrapper
 
@@ -91,11 +91,11 @@ class Bioref &lt; Thor
   end
 end</pre>
 
- 
+ 
 
-Yes, this file is fairly large. Notice what the majority of the file is, though: require statements and thor&#8217;s method_options.  The actual executable code consists of three line of code. One to convert the hash of options into an openstruct (and it&#8217;s debatable as to whether this even adds any value&#8230; probably doesn&#8217;t, honestly), one line to instantiate my app&#8217;s primary class to run the import process, and one to actually run the import process.
+Yes, this file is fairly large. Notice what the majority of the file is, though: require statements and thor&#8217;s method_options.  The actual executable code consists of three line of code. One to convert the hash of options into an openstruct (and it&#8217;s debatable as to whether this even adds any value&#8230; probably doesn&#8217;t, honestly), one line to instantiate my app&#8217;s primary class to run the import process, and one to actually run the import process.
 
- 
+ 
 
 ### From There, An App As Any Other App
 

@@ -35,7 +35,7 @@ I&#8217;ve only just begun to explore these patterns and architectures in the la
 
 A JavaScript module isn&#8217;t a special construct or keyword in the language itself. Rather, it&#8217;s a way to take advantage of functions closures, to create scope. The core of a JavaScript module is usually an &#8220;immediate function&#8221;:
 
-[gist id=1373574 file=1.js]
+{% gist 1373574 1.js %}
 
 The use of the parenthesis around the function definition allows the function to be returned, ready to go (if you forget the parenthesis around the function, you&#8217;ll get a syntax error).The second pair of parenthesis immediately execute the returned function. The result can be assigned to a variable, which becomes a reference to the module&#8217;s public API (if anything was returned).
 
@@ -53,7 +53,7 @@ In spite of our desire to separate each of the functional areas of the applicati
 
 The usual method of doing this with a plain JavaScript module is to pass the dependencies into the module function. For example, if you need jQuery and Backbone in your module, you might add a $ and Backbone parameters to your module definition. Then you would pass the references to them when you execute the module function:
 
-[gist id=1373574 file=2.js]
+{% gist 1373574 2.js %}
 
 The same thing applies to your own modules and libraries. If you have a module defined somewhere else and you know it will be available before the module your currently working on is loaded, you can pass in a reference like this.
 
@@ -63,23 +63,23 @@ The same thing applies to your own modules and libraries. If you have a module d
 
 Writing a bunch of modules in a decoupled manner is great, but it introduces another problem: initialization. Most JavaScript applications have some public API that you call when you want to initialize the app and make everything run. If you&#8217;re building your app in a modular manner, you don&#8217;t want to have to call a separate public API for every module in your system. This would become a nightmare over time by requiring a lot of app initialization code, and worse.
 
-To work around this problem, modules need to have some sort of initialization code in them. Module frameworks like RequireJS have this built in to them. In the app I&#8217;m writing, I&#8217;m not using RequireJS or any other module frameworks, so I wrote my own registration. It&#8217;s pretty simple when it comes down to it. Since every module I write for my app receives an app object, I attached a \`addInitializer\` function to it. This allows each module to add it&#8217;s own initializer code as a callback function, like this:
+To work around this problem, modules need to have some sort of initialization code in them. Module frameworks like RequireJS have this built in to them. In the app I&#8217;m writing, I&#8217;m not using RequireJS or any other module frameworks, so I wrote my own registration. It&#8217;s pretty simple when it comes down to it. Since every module I write for my app receives an app object, I attached a \`addInitializer\` function to it. This allows each module to add it&#8217;s own initializer code as a callback function, like this:
 
-[gist id=1373574 file=3.js]
+{% gist 1373574 3.js %}
 
-The application object keeps track of all the callbacks that were passed in to the \`addInitializer\` function. When the overall application is being initialized, a call to the app object&#8217;s \`initialize\` method will loop through each of the registered module initializers and call them. Each module gets to do it&#8217;s own thing and spin itself up.
+The application object keeps track of all the callbacks that were passed in to the \`addInitializer\` function. When the overall application is being initialized, a call to the app object&#8217;s \`initialize\` method will loop through each of the registered module initializers and call them. Each module gets to do it&#8217;s own thing and spin itself up.
 
-[gist id=1373574 file=4.js]
+{% gist 1373574 4.js %}
 
 ## Event Driven Architecture
 
 Modules are great for organizing your code, but present a challenge when you realize that you need these modules to communicate with each other. Your code is now separated into different files, encapsulated in different modules, and generally unable to make direct calls in to your other modules and objects like you may be used to. Don&#8217;t worry, though. You&#8217;re only bumping in to the next steps of decoupling your applications correctly.
 
-There are many different ways that you can solve this problem, of course. One of my favorite ways is the use of an [event aggregato](http://martinfowler.com/eaaDev/EventAggregator.html)r. [I&#8217;ve blogged about the use of an event aggregator with Backbone already](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/). If you need an introduction to the idea, check out that post and some of my many other [Winforms / Application Controller](http://lostechies.com/derickbailey/category/appcontroller/) posts. The benefit of an event aggregator in this case, is that is gives you a simple, decoupled way to facilitate communication between your modules.
+There are many different ways that you can solve this problem, of course. One of my favorite ways is the use of an [event aggregato](http://martinfowler.com/eaaDev/EventAggregator.html)r. [I&#8217;ve blogged about the use of an event aggregator with Backbone already](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/). If you need an introduction to the idea, check out that post and some of my many other [Winforms / Application Controller](http://lostechies.com/derickbailey/category/appcontroller/) posts. The benefit of an event aggregator in this case, is that is gives you a simple, decoupled way to facilitate communication between your modules.
 
-To get started,  you need to have a module or other object that is defined prior to any other modules being defined. This object needs to be passed in to each of the modules that you&#8217;re defining, so that these modules can have access to the event aggregator. In my app, I put the event aggregator directly on the top level application namespace, and then pass the namespace object into each of my modules:
+To get started,  you need to have a module or other object that is defined prior to any other modules being defined. This object needs to be passed in to each of the modules that you&#8217;re defining, so that these modules can have access to the event aggregator. In my app, I put the event aggregator directly on the top level application namespace, and then pass the namespace object into each of my modules:
 
-[gist id=1373574 file=5.js]
+{% gist 1373574 5.js %}
 
 Now each of my modules can bind to and trigger events from the event aggregator. This allows one module to send notification of something that happened, without having to know specifically which parts of the application are going to respond to that notification, or how.
 
@@ -95,7 +95,7 @@ If you don&#8217;t make use of one of these packaging tools, you&#8217;re going 
 
 ## So Much More: Resources
 
-At this point, you should be able to wire together a very simple, composite JavaScript application. This is only the tip of the iceberg, though. There&#8217;s so much more to writing well organized, scalable,  modularized and composite JavaScript applications. If you would like to continue down this path, be sure to read the posts I&#8217;ve linked to. You&#8217;ll also want to check out these resources:
+At this point, you should be able to wire together a very simple, composite JavaScript application. This is only the tip of the iceberg, though. There&#8217;s so much more to writing well organized, scalable,  modularized and composite JavaScript applications. If you would like to continue down this path, be sure to read the posts I&#8217;ve linked to. You&#8217;ll also want to check out these resources:
 
   * **[Scalable JavaScript Application Architecture](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture) &#8211;** and the framework that was produced with it, on GitHub:
   * **[https://github.com/eric-brechemier/lb\_js\_scalableApp](https://github.com/eric-brechemier/lb_js_scalableApp)** (Thanks to [Aaron Mc Adam](https://twitter.com/#!/aaronmcadam/status/136187476736880640) for the tip on the slides!)

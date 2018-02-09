@@ -30,21 +30,21 @@ The easiest solution seemed to be to change the name of the test and add a prefi
 
 The structure of a Robot generated test report (called `output.xml`) looks like this
 
-[gist id=409844ced77a48dbfcd4b5a2851d63a9]
+{% gist 409844ced77a48dbfcd4b5a2851d63a9 %}
 
 Thus I had to come up with a solution to find the value of the `name` attribute of all `<test>` tags in the XML document and concatenate this value with the prefix consisting of the browser and platform names. For this purpose I used `SED` and a bit of `Regex` foo. _I&#8217;m again and again baffled how powerful `Regex` is yet how easily I tend to forget everything about it&#8217;s syntax&#8230;_ The command I came up looks like this
 
-[gist id=2cf1fcf7c168e9511fbe29572e735c65]
+{% gist 2cf1fcf7c168e9511fbe29572e735c65 %}
 
 Here the variable `$prefix` contains the said combination of browser and platform name and `$file` is the test output file who&#8217;s test names need to be changed.
 
 Now I have the detail results of all platform/browser combinations in respective sub-folders of my reports directory. The names of the subfolders are a combination of &#8220;[Platform]-[Browser]-[Browser Version]-[Test Run ID]-[Data]-[Time]&#8221;. Thus I need to loop over all `output.xml` files located in those sub-folders and modify them. The `$prefix` I can deduce from the folder name. The logic looks like this
 
-[gist id=b2aa88736a9ec58a648301f74eaf0950]
+{% gist b2aa88736a9ec58a648301f74eaf0950 %}
 
 Once I have modified all reports I can use the [Rebot](http://robot-framework.readthedocs.io/en/2.9.2/_modules/robot/rebot.html) tool of the Robot framework to generate a summary report. It looks like this
 
-[gist id=f786a1d0747a8447014841e1dd5c167d]
+{% gist f786a1d0747a8447014841e1dd5c167d %}
 
 That&#8217;s all.
 
@@ -52,15 +52,15 @@ That&#8217;s all.
 
 Now why do I even want to consider using a container to run the above logic on Bamboo? First of all using a container allows me to test and run this logic on my laptop in exactly the same way as it will run on the build server Bamboo. Having a container I also do not depend on what is installed on the Bamboo build agent. The `sed` tool and `bash` are easy requirements but not so much `rebot` which is a Python application and needs the Robot framework library to be installed. That said, let&#8217;s define a `Dockerfile`
 
-[gist id=dfce5ac563ab4aa61b6f6d9a5a8e2925]
+{% gist dfce5ac563ab4aa61b6f6d9a5a8e2925 %}
 
 The script `entrypoint.sh` contains the logic specified above. I can now build the Docker image
 
-[gist id=5aa5e571d9fb5f95631a098942414f8a]
+{% gist 5aa5e571d9fb5f95631a098942414f8a %}
 
 and then run it
 
-[gist id=98d3009ea89a7566cf446a0093c93336]
+{% gist 98d3009ea89a7566cf446a0093c93336 %}
 
 Please note the volume mapping I&#8217;m using to mount the directory containing the test output into the container.
 

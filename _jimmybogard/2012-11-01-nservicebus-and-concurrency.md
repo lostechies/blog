@@ -52,7 +52,7 @@ Serializable </p>
                         
                         The nice thing about isolation levels in NServiceBus is that you can tune these on an endpoint basis. If you have messages that require different concurrency needs, you’re better off putting those in their own endpoint as those messages likely have different SLAs than ones with other concurrency needs. To override the isolation level for a given endpoint, just use the IsolationLevel configuration method:
                         
-                        [gist id=3993938]
+                        {% gist 3993938 %}
                         
                         But I wouldn’t just choose an isolation level at random, it’s something we should carefully consider. In fact, if you expect to have any sort of concurrent users against a single entity, it’s wise to be explicit about your concurrency model. Having gone through the exercise of choosing an isolation level, I start to wonder if it shouldn’t always be explicit, no matter what your application (unless handled for you automatically by the underlying frameworks).
                         

@@ -57,6 +57,6 @@ These attributes allow us to change the Criteria Expression or Apply the filter 
 
 This relatively simple construct saved us a lot time, especially when you think about how much code we would have written after about 10 or 12 of these by hand. When you start to put these types of conventions in your entire codebase, they add up to a lot of time savings. Just another example of how working smarter, not harder can make your life a little bit easier.
 
-    [gist id=1007612]
+    {% gist 1007612 %}
 
 &nbsp;

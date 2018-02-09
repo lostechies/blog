@@ -13,15 +13,15 @@ categories:
 ---
 I pushed out a little library I&#8217;ve been using for the last couple years for helping to use AutoMapper and Entity Framework together. It&#8217;s a series of extension methods that cuts down the number of calls going from a DbSet to DTOs. Instead of this:
 
-[gist id=9ba315371fc5a935b628]
+{% gist 9ba315371fc5a935b628 %}
 
 You do this:
 
-[gist id=7711be3a3f26cddb7627]
+{% gist 7711be3a3f26cddb7627 %}
 
 The extension methods themselves are not that exciting, it&#8217;s just code I&#8217;ve been copying from project to project:
 
-[gist id=c796a9b365bb97324467]
+{% gist c796a9b365bb97324467 %}
 
 I have helper methods for:
 

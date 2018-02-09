@@ -28,13 +28,13 @@ If you are not using Linux as the OS of choice install the Docker Toolbox. It is
 
 First we want to run TeamCity in a Docker container on our Docker Host. To do that execute the following command in the Docker Quickstart terminal
 
-[gist id=91d87da6d9346756bf58]
+{% gist 91d87da6d9346756bf58 %}
 
 This should download the Docker image and run it. TeamCity will be accessible at port 8111. The image is based on the image **java:8**.
 
 Once the Docker container is running we should be able to access TeamCity via browser. First make sure you get the IP address of your Docker host VM. As mentioned above this VM usually this is called **default** if you are using the Docker Toolkit. We can easily get the IP address by using docker-machine as follows
 
-[gist id=6f75e11ffcd01948f51d]
+{% gist 6f75e11ffcd01948f51d %}
 
 Which in my case results in the IP address 192.168.99.100. Now in the browser we have
 
@@ -46,7 +46,7 @@ Nice, that was easy. By default TC now uses an internal DB to store the configur
 
 To do something meaningful with TC we need to add at least one build agent. As you possibly can guess we can do this by running yet another Docker container and linking it with the above TC container. Please execute the following command to run an agent in a container called **teamcity-agent-1**
 
-[gist id=8a8eb8705ecdeda35a2d]
+{% gist 8a8eb8705ecdeda35a2d %}
 
 If we want to run more than one agent (remember, up to 3 agents are free) we can run the above command again and just change the name to **teamcity-agent-2** and **teamcity-agent-3** respectively. The agent will not be accessible from the outside other than by TC running in the first container.
 
@@ -82,7 +82,7 @@ Next add a trigger to the build configuration. Select **VCS Trigger** as type. T
 
 Last step is to add a build step to the build configuration. Select **Command Line** as step type and call it **build and push**. Add the following code to the field **Custom script**:
 
-[gist id=03ee1651c60b058436b2]
+{% gist 03ee1651c60b058436b2 %}
 
 The above script does the following: On line 2 we define the version that we will use to tag our Docker image. We take the content of the environment variable BUILD\_NUMBER that is defined and updated by TC on each build. If for some reason BUILD\_NUMBER is not defined we take the value 99 instead. On line 4 we build the Docker image and at the same time capture its unique ID in the corresponding variable. On line 6 we assign the version number as tag to the image. On line 7 we assign the tag &#8220;latest&#8221; to the same image. On line 9 we make sure that we are logged in to Docker hub such as that we can push the newly build images. Finally on lines 11 and 12 we push the tagged images to the Docker hub.
 

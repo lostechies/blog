@@ -19,7 +19,7 @@ In a previous post, I showed a very brief intro to using [an application level e
 
 Before I show you how to create an evented object in WinJS, you need to know how to create a &#8220;class&#8221; in WinJS. This is done by passing a constructor function and/or a list of methods as an object literal in to a [WinJS.Class.define API](http://msdn.microsoft.com/en-us/library/windows/apps/br229813.aspx):
 
-[gist id=3219691 file=1.js]
+{% gist 3219691 1.js %}
 
 There are two other methods on the [WinJS.Class](http://msdn.microsoft.com/en-us/library/windows/apps/br229776.aspx) object, which are also useful but not important to this blog post.
 
@@ -33,7 +33,7 @@ Now that we know how to build a &#8220;class&#8221; in WinJS, we can very easily
 
 Here&#8217;s how you do that, using [WinJS.Utilities.eventMixin](http://msdn.microsoft.com/en-us/library/windows/apps/br211693.aspx):
 
-[gist id=3219691 file=2.js]
+{% gist 3219691 2.js %}
 
 Yes, it&#8217;s that easy. One line of code, and you&#8217;re done. This object is now capable of triggering events and having those events listened to, which gives us everything we need to either create a dedicated event aggregator or just have our objects trigger events to facilitate workflow or other event-driven features of our app.
 
@@ -43,21 +43,21 @@ Triggering and handling events in an eventMixin object is a little different tha
 
 To trigger an event, call the &#8220;[dispatchEvent](http://msdn.microsoft.com/en-us/library/windows/apps/br211692.aspx)&#8221; method and pass the name of the event as the first parameter, with the event arguments as the second parameter.
 
-[gist id=3219691 file=3.js]
+{% gist 3219691 3.js %}
 
 To handle an event triggered by another object, call the &#8220;[addEventListener](http://msdn.microsoft.com/en-us/library/windows/apps/br211690.aspx)&#8221; method and tell it what event you want to listen to, then provide a callback function that receives the event arguments.
 
-[gist id=3219691 file=4.js]
+{% gist 3219691 4.js %}
 
 Lastly, event handlers can be removed via a call to the &#8220;[removeEventListener](http://msdn.microsoft.com/en-us/library/windows/apps/br211695.aspx)&#8221; method.
 
-[gist id=3219691 file=5.js]
+{% gist 3219691 5.js %}
 
 (You may have noticed the &#8220;useCapture&#8221; parameter in the documentation for both the addEventListener and removeEventListener methods. I have no idea what this does.)
 
 ## Managing Memory
 
-One last tip with event aggregators and evented objects: **You are responsible for memory management with observable / evented objects.** While this may not play out the same way that C++ forces you to allocate / deallocate memory, it&#8217;s still very true. If you allow a function to be triggered by an event, and that function is a method, then the object that holds a reference to the method runs the risk of becoming a memory leak. 
+One last tip with event aggregators and evented objects: **You are responsible for memory management with observable / evented objects.** While this may not play out the same way that C++ forces you to allocate / deallocate memory, it&#8217;s still very true. If you allow a function to be triggered by an event, and that function is a method, then the object that holds a reference to the method runs the risk of becoming a memory leak. 
 
 Fortunately the solution to this is easy: **remove your event bindings when you&#8217;re done with them**.
 

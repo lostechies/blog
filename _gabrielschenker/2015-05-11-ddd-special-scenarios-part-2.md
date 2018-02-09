@@ -20,13 +20,13 @@ In my [last post](https://lostechies.com/gabrielschenker/2015/05/07/ddd-special-
 
 Aggregates in DDD are very self centric or self focused. An aggregate does not care where it comes from and where it goes nor does it care about its environment. But sometimes our application needs functionality that requires two or more instances of aggregates to collaborate. In our world of personal loans that I have used in the preceding posts this could be a customer aggregate and a loan application aggregate. If we want to keep track about how many applications a specific customer has started and/or how many loans have been granted to this customer we need some kind of collaboration between said two types of aggregates.
 
-[gist id=7a991fbad2b499b112cf]
+{% gist 7a991fbad2b499b112cf %}
 
 In the above snippet a service IIdGenerator is used to generate a new ID for the loan application aggregate to be created and a service ICustomerLocator is used to locate a customer having the given email address and return its ID. This ID is then used to re-hydrate the customer aggregate using the repository. Then we call the StartNewApplication method of the customer aggregate which will return a new instance of a loan application aggregate. Finally the (modified) customer and loan application aggregates are persisted using the repository.
 
 The respective (simplified) code in the customer aggregate might look like this
 
-[gist id=b1a7228d74c63daff168]
+{% gist b1a7228d74c63daff168 %}
 
 As we can see each aggregate remains pretty much self centered and really doesn&#8217;t care about its environment and the whereabouts. The application service is responsible for the orchestration of multiple aggregate instances.
 
@@ -36,25 +36,25 @@ One of the most problematic things that I regularly stumble across is the fact t
 
 To give a concrete sample let&#8217;s assume we have the following command
 
-[gist id=02301345aad7257fe33b]
+{% gist 02301345aad7257fe33b %}
 
 which is used to update certain properties of an existing loan application. Easy enough you might think. No! Why not? This seemingly harmless command leaves a lot of questions unanswered and the back-end code that handles this command has to do a lot of guess work. What was the intent of the user when this command was triggered? What exactly changed. Did every property change or only a single one. What edge cases do we have to consider, etc. The validation logic and the business logic become extremely complex over time the more properties this very generic command includes.
 
 It is much much better to have very precise and intention revealing commands that are focusing on an explicit scenario that is limited in scope like
 
-[gist id=0adcd18662e88f6ff895]
+{% gist 0adcd18662e88f6ff895 %}
 
 or
 
-[gist id=8cf41bb2e29294e68774]
+{% gist 8cf41bb2e29294e68774 %}
 
 or
 
-[gist id=28720785fc47d4225016]
+{% gist 28720785fc47d4225016 %}
 
 or
 
-[gist id=435c96fdc0a69b627e39]
+{% gist 435c96fdc0a69b627e39 %}
 
 technically we could have used the one generic update command to use in all four scenarios and thus avoid to have many different command classes. But the drawbacks of this approach by far outweighs the advantage.
 

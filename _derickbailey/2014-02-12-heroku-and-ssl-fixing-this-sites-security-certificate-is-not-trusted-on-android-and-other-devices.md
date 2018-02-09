@@ -15,7 +15,7 @@ categories:
 ---
 I recently received a report of [SignalLeaf](http://signalleaf.com) being &#8220;blacklisted&#8221; by Chrome. After a bit of panic, and asking twitter to see if the site was having issues, I got confirmation that Android phones and other devices / browsers were getting a security warning about the SSL certificate I had installed on SignalLeaf.
 
-<img src="http://lostechies.com/derickbailey/files/2014/02/SSL-Cert-Issue-3.png" alt="SSL Cert Issue 3" width="337" height="600" border="0" /> <img src="http://lostechies.com/derickbailey/files/2014/02/SSL-Cert-Issue-1.png" alt="SSL Cert Issue 1" width="337" height="600" border="0" />
+<img src="http://lostechies.com/derickbailey/files/2014/02/SSL-Cert-Issue-3.png" alt="SSL Cert Issue 3" width="337" height="600" border="0" /> <img src="http://lostechies.com/derickbailey/files/2014/02/SSL-Cert-Issue-1.png" alt="SSL Cert Issue 1" width="337" height="600" border="0" />
 
 This sent me in to a bit more of a panic, as I had no clue what was wrong or how to fix it. Time to start googling error messages and random combinations of words related to the services I&#8217;m using&#8230;
 
@@ -25,7 +25,7 @@ I use [DNSimple](http://dnsimple.com) for my domain name hosting (if you&#8217;r
 
 When you buy an SSL certificate through DNSimple, it is issued through a service called [RapidSSL](http://www.rapidssl.com/). This is a legit service, and the certs that you get are as good as any other cert. The &#8220;issue&#8221; that I ran in to, is that RapidSSL is not yet trusted on every browser and device around the world. They have not been around forever, and are not as big as some other certificate authorities, so they don&#8217;t have trusted status everywhere (yet). But like I said, they are legit and they are certified by GeoTrust to prove their legit status.
 
-Because RapidSSL is not a big name certificate authority, and because they are not yet trusted by every browser and device, yet, you need to install a set of intermediate certificates on your server, when you set up a RapidSSL certificate. This certificate &#8220;chain&#8221; provides the authority that older browsers and devices need, in order to completely trust RapidSSL certificates. 
+Because RapidSSL is not a big name certificate authority, and because they are not yet trusted by every browser and device, yet, you need to install a set of intermediate certificates on your server, when you set up a RapidSSL certificate. This certificate &#8220;chain&#8221; provides the authority that older browsers and devices need, in order to completely trust RapidSSL certificates. 
 
 ## Setting Up A Certificate Chain On Heroku
 
@@ -35,7 +35,7 @@ After some additional digging and some help from the DNSimple people (have I men
 
 `heroku certs:add server.crt bundle.pem server.key --app my-app-name`
 
-This will install the actual SSL certificate along with the RapidSSL bundle.pem file (from the link above), and verify everything with your server&#8217;s SSL key. (The `--app my-app-name` option is only needed if you are running this command from a folder that is not already tied to a Heroku app instance.)
+This will install the actual SSL certificate along with the RapidSSL bundle.pem file (from the link above), and verify everything with your server&#8217;s SSL key. (The `--app my-app-name` option is only needed if you are running this command from a folder that is not already tied to a Heroku app instance.)
 
 ## Updating A Certificate Chain On Heroku
 
@@ -59,6 +59,6 @@ Once I had the right version of the Heroku Toolbelt installed, the error went wa
 
 ## This Is Still Easier Than It Used To Be
 
-For as many problems as I had getting this fixed, this is still 1,000 times easier than it used to be. I remember the days when buying an SSL certificate cost several hundred dollars and required a verification process on your business in the United States. It took weeks, certificates were mailed to you (not email&#8230; actual mail), and installation / configuration of SSL often took hours or days. If you got something wrong in the initial configuration, you would have to start over. 
+For as many problems as I had getting this fixed, this is still 1,000 times easier than it used to be. I remember the days when buying an SSL certificate cost several hundred dollars and required a verification process on your business in the United States. It took weeks, certificates were mailed to you (not email&#8230; actual mail), and installation / configuration of SSL often took hours or days. If you got something wrong in the initial configuration, you would have to start over. 
 
-These days, with DNSimple and Heroku, buying and setting up an SSL certificate took me less than 1 hour total. It was only because of a mistake that I made and not understanding the need for intermediate certificates that I had these problems. Even with these problems and the few hours of research and troubleshooting, I am more than happy to have paid a small fee for the SSL certificate, and the monthly fee to host on Heroku with SSL. 
+These days, with DNSimple and Heroku, buying and setting up an SSL certificate took me less than 1 hour total. It was only because of a mistake that I made and not understanding the need for intermediate certificates that I had these problems. Even with these problems and the few hours of research and troubleshooting, I am more than happy to have paid a small fee for the SSL certificate, and the monthly fee to host on Heroku with SSL. 

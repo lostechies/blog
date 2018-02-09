@@ -28,7 +28,7 @@ In my opinion Command Query Responsibility Segregation (CQRS) is one of the most
 
 <span>All read and write operations are handled by a domain model in the backend. Often this domain model is very anemic and consists mainly of entities that are pure data containers (DTOs) and some services that manipulate those entities. Sometimes the repository pattern is used to abstract the data store from the domain’s perspective. In this case we might see repository interfaces that look similar to this</span>
 
-<span>[gist id=0124e9645ec2b2cf7d1e]</span>
+<span>{% gist 0124e9645ec2b2cf7d1e %}</span>
 
 <span>We can see that in the same interface we have both methods that query data and methods that change data. And this is a problem! Reading or querying data is a fundamentally different concern than changing data. As such we should keep these two types of operations separate from each other. There are various reasons for that</span>
 
@@ -58,7 +58,7 @@ Read operations can never change any data! Read operations need to be side-effec
 
 As we have discussed above write operations typically only affect a very limited set of data. Let’s say we have an operation “add product XYZ to shopping cart” in an e-commerce application. In this operation we add an item to the shopping cart object consisting of product number and quantity. The shopping cart itself is identified by a shopping cart Id. Thus the command that we send to the backend might look like this
 
-[gist id=e5b7f8cc517812718b62]
+{% gist e5b7f8cc517812718b62 %}
 
 As we can see although the operation is a very important one only a very limited set of data is sent to the back-end for processing. Note that the name of the command gives the context of the operation whilst the payload of the command only contains the minimal amount of information needed to successfully fulfill the requested operation.
 
@@ -80,7 +80,7 @@ We use database views to simplify the data access when reading data. Views often
 
 If we use this approach and continue using the repository pattern from above then our resulting customer repository might look much simpler
 
-[gist id=7879f5fd408e9d2ec866]
+{% gist 7879f5fd408e9d2ec866 %}
 
 We only have a get method to retrieve the Customer record or entity we want to change and a save method to add a new instance of type Customer. For completeness I also added a Delete method to remove an existing Customer from the data store although I usually tend to avoid this. IMHO data should never be physically deleted from the data store… but that is a totally different discussion.
 

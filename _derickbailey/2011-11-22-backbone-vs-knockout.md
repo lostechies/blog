@@ -12,7 +12,7 @@ categories:
   - JavaScript
   - Knockout
 ---
-There&#8217;s an unfortunate dichotomy of &#8220;Backbone vs Knockout&#8221; floating around these days. It&#8217;s mostly in the .NET space where Knockout tends to get the most attention but I&#8217;ve heard others mention this, too. It&#8217;s an unfortunate argument, though. Both libraries are great, both are very powerful and both solve different problems in the front-end development space. The major difference between the two is the focus of each.
+There&#8217;s an unfortunate dichotomy of &#8220;Backbone vs Knockout&#8221; floating around these days. It&#8217;s mostly in the .NET space where Knockout tends to get the most attention but I&#8217;ve heard others mention this, too. It&#8217;s an unfortunate argument, though. Both libraries are great, both are very powerful and both solve different problems in the front-end development space. The major difference between the two is the focus of each.
 
 ## Strengths And Weaknesses
 
@@ -22,7 +22,7 @@ Backbone, on the other hand, takes a &#8220;good JavaScript app architecture&#82
 
 ## Model Binding
 
-It really is a shame that there is such a &#8220;Backbone vs Knockout&#8221; mentality when these tools should play together and create an even better experience for the developer and end-user. The big problem has been that they clobber each other when it comes to the idea of a &#8220;model&#8221;. However, Knockout&#8217;s recent releases have an API that can be used to bind anything to Knockout. With that, here&#8217;s a project up on Github that brings both KO and BB together:
+It really is a shame that there is such a &#8220;Backbone vs Knockout&#8221; mentality when these tools should play together and create an even better experience for the developer and end-user. The big problem has been that they clobber each other when it comes to the idea of a &#8220;model&#8221;. However, Knockout&#8217;s recent releases have an API that can be used to bind anything to Knockout. With that, here&#8217;s a project up on Github that brings both KO and BB together:
 
 <https://github.com/kmalakoff/knockback>
 

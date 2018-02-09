@@ -16,7 +16,7 @@ LINQ&#8217;s `.Any()` method is under-utilized, given the benefits it brings in 
 
 Here&#8217;s a representative example:
 
-[gist id=1877234]
+{% gist 1877234 %}
 
 I want to determine if my to-do list has any items that are late, so I use `.Where()` to filter my list of deliverables down to items with a deadline in the past; then I take a `.Count()` of the resulting list, and see if that number is greater than zero. This is a plausible solution, and our years of SQL lead us to write LINQ this way. But it can be better.
 
@@ -24,7 +24,7 @@ Testing &#8220;count greater than zero&#8221; is a programmer&#8217;s way of say
 
 Here&#8217;s the new version:
 
-[gist id=1877236]
+{% gist 1877236 %}
 
 In addition to being shorter, this version more directly and declaratively states my intent: &#8220;Are there any late deliverables?&#8221;
 

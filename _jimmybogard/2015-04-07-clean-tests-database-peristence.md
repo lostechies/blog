@@ -37,15 +37,15 @@ I want something flexible that works with different styles of tests and not have
 
 At the setup portion of my tests, I&#8217;m generally only saving things. In that case, I can just create a helper method in my test fixture to build up a DbContext (in the case of Entity Framework) and save some things:
 
-[gist id=e2926bedb1ab8d5786eb]
+{% gist e2926bedb1ab8d5786eb %}
 
 We create our context, open a transaction, perform whatever action and commit/rollback our transaction. With this method, we now have a simple way to perform any action in an isolated transaction without our test needing to worry about the semantics of transactions, change tracking and the like. We can create a convenience method to save a set of entities:
 
-[gist id=c3dc344e6e888cad5803]
+{% gist c3dc344e6e888cad5803 %}
 
 And finally in our tests:
 
-[gist id=4d50f9e339ee88cc8c2c]
+{% gist 4d50f9e339ee88cc8c2c %}
 
 We still have our entities to be used in our tests, but they&#8217;re now detached and isolated from any ORMs. When we get to Verify, we&#8217;ll look at reloading these entities. But first, let&#8217;s look at Execute.
 
@@ -57,15 +57,15 @@ In production, there&#8217;s a context set up, a transaction started, request ma
 
 That&#8217;s a little much, but I can at least do the same things I was doing before. I like to treat the Fixture as the fixture for Execute, and isolate Setup and Verify. If I do this, then I just need a little helper method to send a request and get a response, all inside a transaction:
 
-[gist id=086cbaddc5333b99ed75]
+{% gist 086cbaddc5333b99ed75 %}
 
 It looks very similar to the &#8220;Txn&#8221; method I build earlier, except I&#8217;m treating the child container as part of my context and retrieving all items from it including any ORM class. Sending a request like this ensures that when I&#8217;m done with Send in my test method, everything is completely done and persisted:
 
-[gist id=b5d1e0c021aaeb7cc4dd]
+{% gist b5d1e0c021aaeb7cc4dd %}
 
 My class under test now routes through this handler:
 
-[gist id=e154481d7b636f6d098f]
+{% gist e154481d7b636f6d098f %}
 
 With my Execute built around a uniform interface with reliable, repeatable results, all that&#8217;s left is the Verify step.
 
@@ -75,11 +75,11 @@ Failures around Verify typically arise because I&#8217;m verifying against in-me
 
 One way to do this is to reload an item:
 
-[gist id=509bfd026e26b65f96a4]
+{% gist 509bfd026e26b65f96a4 %}
 
 I pass in an entity I want to reload, and a means to get the item&#8217;s ID. Inside a transaction and fresh DbContext, I reload the entity and set it as the ref parameter in my method. In my test, I can then use this reloaded entity as what I assert against:
 
-[gist id=4e72eeda76567eee0643]
+{% gist 4e72eeda76567eee0643 %}
 
 In this case, I tend to prefer the &#8220;ref&#8221; argument rather than something like &#8220;foo = fixture.Reload(foo, foo.Id)&#8221;, but I might be in the minority here.
 

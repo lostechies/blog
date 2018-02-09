@@ -16,43 +16,43 @@ categories:
 ---
 Anyone building a large enough app in NodeJS will tell you that it gets really really really frustrating to have 3 or more lines of this in every module you build:
 
-[gist id=9107152 file=1.js]
+{% gist 9107152 1.js %}
 
-It&#8217;s ugly. It&#8217;s hard to read. It&#8217;s hard to maintain. And when you need to refactor your file and folder structure, guess what you get to do to every one of these references? I spent a long time trying to find a way around this that was clean and elegant. There are no solutions that are both, at this point. So I picked the one that was the least ugly: modify the `NODE_PATH` environment variable to include a folder of my choosing.
+It&#8217;s ugly. It&#8217;s hard to read. It&#8217;s hard to maintain. And when you need to refactor your file and folder structure, guess what you get to do to every one of these references? I spent a long time trying to find a way around this that was clean and elegant. There are no solutions that are both, at this point. So I picked the one that was the least ugly: modify the `NODE_PATH` environment variable to include a folder of my choosing.
 
 ## Modifying NODE_PATH
 
 I now have this entry in my .bashrc file:
 
-[gist id=9107152 file=2.sh]
+{% gist 9107152 2.sh %}
 
 Having this allows me to put any of my apps&#8217; modules in to a ./lib folder, relative to the location from which I run the node executable. In other words, if my folder structure looks like this (from [SignalLeaf](http://signalleaf.com)):
 
 <img src="http://lostechies.com/derickbailey/files/2014/02/NewImage2.png" alt="NewImage" width="100" border="0" />
 
-Then all of my commands to execute code need to be run from the `app/` folder. This ensures all of the modules I&#8217;ve built in to the `app/lib` folder will be found when I use simple require statements like this:
+Then all of my commands to execute code need to be run from the `app/` folder. This ensures all of the modules I&#8217;ve built in to the `app/lib` folder will be found when I use simple require statements like this:
 
-[gist id=9107152 file=3.js]
+{% gist 9107152 3.js %}
 
 ## Deploy NODE_PATH To Heroku
 
-SignalLeaf, along with most of my other apps these days, is deployed to Heroku. In order to get the NODE_PATH to work on that setup, I have to use the `config:set` command from the Heroku toolbelt:
+SignalLeaf, along with most of my other apps these days, is deployed to Heroku. In order to get the NODE_PATH to work on that setup, I have to use the `config:set` command from the Heroku toolbelt:
 
-[gist id=9107152 file=4.sh]
+{% gist 9107152 4.sh %}
 
 It&#8217;s a simple enough fix for Heroku and it ensures everything works when all commands are run from the root folder of the project. This means I have to set up my Procfile to do exactly that. Here&#8217;s what my Profile for the SignalLeaf web app looks like:
 
-[gist id=9107152 file=5]
+{% gist 9107152 5 %}
 
-Notice that the commands are run with `folder/file/path.js` parameters. I do this to ensure the node command is run from the root folder, allowing the `NODE_PATH` to work correctly.
+Notice that the commands are run with `folder/file/path.js` parameters. I do this to ensure the node command is run from the root folder, allowing the `NODE_PATH` to work correctly.
 
 ## I Would Prefer First Class Support From NPM
 
 Ultimately, I would prefer first class support for local modules in NPM and package.json files. Right now, we can either specify a package that comes from NPMJS.org, or one that comes from a git repository. It would be optimal, in my opinion, to specify a relative folder path that points to my module.
 
-[gist id=9107152 file=6.json]
+{% gist 9107152 6.json %}
 
-With that in place, NPM / Node&#8217;s `require` statement should use this local path to find the module. Yes, I understand that there are some issues in making this happen. Like I said &#8211; it would be my preferred way of handling it. I didn&#8217;t say it would be easy.
+With that in place, NPM / Node&#8217;s `require` statement should use this local path to find the module. Yes, I understand that there are some issues in making this happen. Like I said &#8211; it would be my preferred way of handling it. I didn&#8217;t say it would be easy.
 
 ## Yes, There Are Other Solutions
 

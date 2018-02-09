@@ -21,7 +21,7 @@ Container configuration typically occurs once at the beginning of the lifecycle 
 
 Scanning is somewhat expensive, as scanning involves passing each type in an assembly through each convention. A typical use of scanning is to target one or more assemblies, find all custom Registries, and apply conventions. Conventions include generics rules, matching common naming conventions (IFoo to Foo) and applying custom conventions. A typical root configuration would be: 
 
-[gist id=819d10c3349c2518488a] 
+{% gist 819d10c3349c2518488a %} 
 
 Component-specific configuration is then separated out into individual Registry objects, instead of mixed with scanning. Although it is possible to perform both scanning and component configuration in one step, separating component-specific registration in individual registries provides a better separation of conventions and configuration. 
 
@@ -29,7 +29,7 @@ Component-specific configuration is then separated out into individual Registry 
 
 Individual Registry classes contain component-specific registration. Prefer smaller, targeted Registries, organized around function, scope, component etc. All container configuration for a single 3rd-party component organized into a single Registry makes it easy to view and modify all configuration for that one component: 
 
-[gist id=7475667b018d7cbd6d54] 
+{% gist 7475667b018d7cbd6d54 %} 
 
 **X DO NOT** use the static API for configuring or resolving. 
 
@@ -63,7 +63,7 @@ Avoid creating custom factories or builder methods for component lifecycles. You
 
 Child/nested containers inherit configuration from a root container, and many modern application frameworks include the concept of creating scopes for requests. Web API in particular creates a dependency scope for each request. Instead of using a lifecycle, individual components can be configured for an individual instance of a child container: 
 
-[gist id=98d8a66db08490c5a0ca] 
+{% gist 98d8a66db08490c5a0ca %} 
 
 Since components configured for a child container are transient for that container, child containers provide a mechanism to create explicit lifecycle scopes configured for that one child container instance. Common applications include creating child containers per integration test, MVVM command handler, web request etc. 
 
@@ -94,7 +94,7 @@ When designs do become unwieldy, breaking down components into multiple services
                                   * REST document readers/writers</ul> 
                                 Each of these patterns begins with a common interface: 
                                 
-                                [gist id=64c5db966e10e7de4e7a] 
+                                {% gist 64c5db966e10e7de4e7a %} 
                                 
                                 Registration for these components involves adding all implementations of an interface, and code using these components request an instance based on a generic parameter or all instances in the case of the chain of responsibility pattern. 
                                 
@@ -130,7 +130,7 @@ When designs do become unwieldy, breaking down components into multiple services
                                 
                                 Ideally, component resolution occurs once in a request, but in the cases where this is not possible, use a framework&#8217;s built-in resolution capabilities. In Web API for example, dynamically resolved dependencies should be resolved from the current dependency scope: 
                                 
-                                [gist id=6af8ee5f46e7a7d6e7fe] 
+                                {% gist 6af8ee5f46e7a7d6e7fe %} 
                                 
                                 Web API creates a child container per request and caches this scoped container within the request message. If the framework does not provide a scoped instance, store the current container in an appropriately scoped object, such as HttpContext.Items for web requests. Occasionally, you might need to depend on a service but need to explicitly decouple or control its lifecycle. In those cases, containers support depending directly on a Func. 
                                 
@@ -138,7 +138,7 @@ When designs do become unwieldy, breaking down components into multiple services
                                 
                                 For cases where known types need to be resolved dynamically, instead of trying to build special caching/resolution services, you can instead depend on a constructor function in the form of a Func. This separates wiring of dependencies from instantiation, allowing client code to have explicit construction without depending directly on a container. 
                                 
-                                [gist id=eabe8b266e12ae74b547] 
+                                {% gist eabe8b266e12ae74b547 %} 
                                 
                                 In cases where this becomes complicated, or reflection code is needed, a factory method or delegate type explicitly captures this intent. 
                                 
@@ -146,11 +146,11 @@ When designs do become unwieldy, breaking down components into multiple services
                                 
                                 The Patterns and Practices Common Service Locator defines a delegate type representing the creation of a service locator instance: 
                                 
-                                [gist id=b292acfb9415758bf0d0] 
+                                {% gist b292acfb9415758bf0d0 %} 
                                 
                                 For code needing dynamic instantiation of a service locator, configuration code creates a dependency definition for this delegate type: 
                                 
-                                [gist id=c096ee70aac656eb9103] 
+                                {% gist c096ee70aac656eb9103 %} 
                                 
                                 This pattern is especially useful if an outer dependency has a longer configured lifecycle (static/singleton) but you need a window of shorter lifecycles. For simple instances of reflection-based component resolution, some containers include automatic facilities for creating factories. 
                                 
@@ -158,6 +158,6 @@ When designs do become unwieldy, breaking down components into multiple services
                                 
                                 Auto-factories in StructureMap are available as a separate package, and allow you to create an interface with an automatic implementation: 
                                 
-                                [gist id=f98cbe316c25b108547a] 
+                                {% gist f98cbe316c25b108547a %} 
                                 
                                 The AutoFactories feature will dynamically create an implementation that defers to the container for instantiating the list of plugins.

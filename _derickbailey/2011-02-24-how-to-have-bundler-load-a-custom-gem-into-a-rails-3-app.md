@@ -13,7 +13,7 @@ redirect_from: "/blogs/derickbailey/archive/2011/02/23/how-to-have-bundler-load-
 ---
 I have a rails 3 app that needs some specific functionality that is built into a gem. Unfortunately, the current gem that is published on RubyGems.org only works with rails 2. I was able to get the gem to work by commenting out some code that I don&#8217;t need, though. I wanted to do a custom gem build and have this gem installed into my rails app&#8217;s vendor folder, so Bundler could load it from there (note: the gem is MIT licensed, so there&#8217;s nothing stopping me from doing this, legally). But I only want this one gem to load from the vendor folder. The rest of the gems in the app should load from wherever bundler normally loads gems.
 
- 
+ 
 
 ### Installing The Gem Into The Vendor Folder
 
@@ -38,7 +38,7 @@ The end result is that my vendor/vitalkey-notamock-1.0.1 folder now contains all
 
 <img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-02-23-at-8.57.19-PM.png" border="0" alt="Screen shot 2011 02 23 at 8 57 19 PM" width="600" height="275" />
 
- 
+ 
 
 ### Setting The Location Of The Gem In The Gemfile
 
@@ -48,7 +48,7 @@ Once the gem has been unpacked into the folder, the Gemfile in the app needs to 
 
 Note that if you don&#8217;t specify the version number (the 2nd parameter) then you have to provide a .gemspec file in the folder that you set here. There&#8217;s a few different ways to get the gemspec file, but since we know what version we are dealing with, it&#8217;s easier to specify the version here.
 
- 
+ 
 
 ### Bundler&#8217;s Auto-Require
 
@@ -60,7 +60,7 @@ In my rails app&#8217;s case, the file to require is not the same name as the ge
 
 > require &#8216;not\_a\_mock&#8217;
 
- 
+ 
 
 ### That&#8217;s It. Done
 

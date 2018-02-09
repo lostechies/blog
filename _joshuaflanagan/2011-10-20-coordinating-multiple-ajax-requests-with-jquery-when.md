@@ -27,7 +27,7 @@ To get the tweets for three users, you would need to make three separate <font f
 
 As of jQuery 1.5, the solution is much simpler. Each of the ajax functions were changed to return a Deferred object which manages the callbacks for a call. (The Deferred object is beyond the scope of this post, but I encourage you to <a href="http://api.jquery.com/category/deferred-object/" target="_blank">read the documentation</a> for a more thorough explanation.) The power of Deferred objects become apparent when used with the new <font face="Courier New">jquery.when</font> utility function. <font face="Courier New">jquery.when</font> accepts any number of Deferred objects, and allows you to assign callbacks that will be invoked when all of the Deferred objects have completed. The Deferred objects returned by the ajax functions are complete when the responses are received. This may sound confusing, but it should be much clearer when you see it applied to the example scenario:
 
-[gist id=1302978] 
+{% gist 1302978 %} 
 
   * I have a helper method, <font face="Courier New">getTweets</font>, which returns the return value of a call to $.get. This will be a Deferred object representing that call to the twitter server. 
       * I call <font face="Courier New">$.when</font>, passing it the three Deferred objects from the three ajax calls. 

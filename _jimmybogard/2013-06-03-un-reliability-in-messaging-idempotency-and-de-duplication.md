@@ -21,15 +21,15 @@ Idempotency is by far the easiest way to deal with duplicate messages. There are
 
 The first way is conditional on our message. If there is a natural idempotency to the outcome of our message, then we really don’t need to do anything special. If our message is to affect state, and doing the same thing twice achieves the same result, then no need to do any sort of special checking:
 
-[gist id=5627789]
+{% gist 5627789 %}
 
 If your recipient can process the message multiple times and have the same result every time, we can just rely on that. For objects that represent state machines, or operations that alter state without side effects, this can work quite nicely for us. But what about something that isn’t naturally idempotent?
 
-[gist id=5627812]
+{% gist 5627812 %}
 
 If I ask to credit this account $1000, and I receive this message twice, my resulting balance is now $2000 higher! Not exactly what I want. A simple approach here would be to attach some sort of correlation identifier to my request (i.e., your checks have a check number):
 
-[gist id=5627831]
+{% gist 5627831 %}
 
 Now I keep track of the transfer requests, and only process ones that I see are new. This is similar to receiving payment in the form of a check, that might have been both mailed and faxed. The check can only get cashed once, so I just keep track of what checks I’ve cashed on my side to determine if this check is “new” or not.
 

@@ -43,7 +43,7 @@ The answer to this is pretty simple / obvious, once [Brian Hogan showed me the w
    end
 end</pre>
 
- 
+ 
 
 Now I can run \`rake bootstrap:demo\` any time I need to, or not at all when doing general deployments and re-seeding the staging database. As an added bonus, the demo data is created using our actual models. This means they are all validated at runtime, ensuring we had good demo data in place.
 

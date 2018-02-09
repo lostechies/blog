@@ -54,7 +54,7 @@ Or perhaps it’s the actual API server that’s deployed to your customers, and
 
 These are the cases where hypermedia shines. But to do so, you need to build generic components on the client app to interpret self-describing messages. Consider [Collection+JSON](http://amundsen.com/media-types/collection/format/):
 
-[gist id=1b9aa1f35d78316e1006]
+{% gist 1b9aa1f35d78316e1006 %}
 
 Interpreting this, I can build a list of links for this item, and build the text output and labels. Want to change the label shown to the end user? Just change the “prompt” value, and your text label is changed. Want to support internationalization? Easy, just handle this on the server side. Want to provide additional links? Just add new links in the “links” array, and your client can automatically build them out.
 

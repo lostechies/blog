@@ -22,7 +22,7 @@ Previous posts in this series:
         
         There are a couple of things we need to deal with before we get to looking at going all the way to handlers. First, let’s review our POST action:
         
-        [gist id=8016839]
+        {% gist 8016839 %}
         
         Ugh, what awful code! Well, not really. There’s nothing particularly smelly about this controller action in isolation. It’s got a few concerns going on:
         
@@ -59,37 +59,37 @@ Previous posts in this series:
         
         At this point, once I’ve removed all orthogonal concerns, I’m left with the “meat” of the action:
         
-        [gist id=8034065]
+        {% gist 8034065 %}
         
         I could stop here as I’ve mentioned before, and most of the time, I do. But if I have even more things going on:
         
-        [gist id=8034088]
+        {% gist 8034088 %}
         
         _And_ this sort of orthogonal code is spread across many actions, not refactorable into filters, then I really would rather have this sort of thing more easily composable. That’s exactly what a mediator and command pattern will give me. First, let’s define what a command and its handler are:
         
-        [gist id=8034112]
+        {% gist 8034112 %}
         
         It might seem rather strange that commands always have a result, but it’s much, much easier to deal with side effects of commands through return parameters than through some other means (global registry, static field, re-querying some object, collecting parameter, etc.). For commands that create an item, I usually want to redirect to a screen showing that item, very easily accomplished when I can get the created item and as for its ID.
         
         This is a bit controversial, but don’t frankly care, as it’s the simplest thing that could possibly work. If I want to have a command that returns Void, I could steal a page from F# and have a Command base class that returns a Unit type:
         
-        [gist id=8034139]
+        {% gist 8034139 %}
         
         Where the Unit type simply represents “Void” (which unfortunately in C# is “special”. The Action/Func divide is the result.)
         
         Our handler just moves the code out of the controller action into a handler:
         
-        [gist id=8034260]
+        {% gist 8034260 %}
         
         The mediator now needs an additional method to be able to process commands:
         
-        [gist id=8034270]
+        {% gist 8034270 %}
         
         Again, very similar to the Query method. I’ll leave out the implementation of our actual mediator implementation – it’s nearly identical to the Query example. So why two methods? Fairly simple – it’s a bit easier to deal with separate pipelines for queries and commands, as the potential extensions for these two pipelines might be different. I also might have different rules applied and so on.
         
         Finally, our controller in its entirety:
         
-        [gist id=8034310]
+        {% gist 8034310 %}
         
         All very uniform, and completely pointless to test. In fact, my tests now focus on handlers, with simple model in/model out semantics. I don’t have to deal with action results, validation and so on. Each concern is separated into its own unit, composed together at runtime.
         

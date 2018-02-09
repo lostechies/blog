@@ -27,12 +27,12 @@ That was my debug version of the app, where no assemblies were linked. In the Re
 
 Normally, this is OK, until you get a series of telling exceptions, usually a MissingMethodException. In my case, I switched my Debug settings to the same as Release, and got:
 
-[gist id=75d57edddee82383a9bc]
+{% gist 75d57edddee82383a9bc %}
 
 First lesson: **keep linker settings the same between build configurations**. When you encounter this sort of issue, the problem is usually the same – reflection/dynamic loading of assemblies means the linker can’t see that you’re going to access some type or member until runtime. The fix is relatively simple – force a reference to the types/members in question.
 
 In my iOS project, I have a file called “LinkerPleaseInclude.cs”, and in it, I include all types/members referenced:
 
-[gist id=996b8252a8343cad1ac1]
+{% gist 996b8252a8343cad1ac1 %}
 
 Completely silly, but this reference allowed my app to run with the linker in play. More info on the linker can be found on the [Xamarin documentation](http://developer.xamarin.com/guides/ios/advanced_topics/linker/).

@@ -15,11 +15,11 @@ As I&#8217;ve started to use MassTransit with SignalR, one of the things that an
 
 Well, I&#8217;ve changed that. With version 2.5.3 (a prerelease version on NuGet), you can now get a really nice clean syntax to return tasks from server-side SignalR hubs (and other calls that expect a Task return value.
 
-[gist id=3061985 file=First.cs]
+{% gist 3061985 file=First.cs %}
 
 Shown above is a SignalR hub that sends a request message off to some service. The LocationResult handler that is added within the closure returns a Task<LocationResult>, which can be returned to SignalR allowing the server-side code to remain asynchronous. If additional work needed to be done to transform the message to another type or do perform some type of validation, a .ContinueWith() could be added to the task to return the proper result type.
 
-[gist id=3061985 file=Second.cs]
+{% gist 3061985 file=Second.cs %}
 
 If the request times out, the task for the handler will be cancelled, so be sure to take that into account.
 

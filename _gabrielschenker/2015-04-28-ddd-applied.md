@@ -56,19 +56,19 @@ Let&#8217;s start with the aggregate. This is the component where the interestin
 
 I start by defining the aggregate as a class named according to the noun I identified in the ubiquitous language (loan application) with a post fix aggregate. The aggregate has a constructor
 
-[gist id=ca00e2e8a1a054d9202c]
+{% gist ca00e2e8a1a054d9202c %}
 
 As you can see the constructor expects one parameter which is the state of the aggregate. I prefer to define the state as an encapsulated object containing all the properties necessary to define the aggregate. The aggregate implements the following interface
 
-[gist id=b2b52c5c66a542cbd943]
+{% gist b2b52c5c66a542cbd943 %}
 
 Now for each verb that I identified in the ubiquitous language I define a method on the aggregate. Let&#8217;s take the verb withdraw as a sample.
 
-[gist id=029221f5153e24604d6b]
+{% gist 029221f5153e24604d6b %}
 
 This method has no parameters. Another sample would be the verb accept (offer)
 
-[gist id=749528223e2dff3a5987]
+{% gist 749528223e2dff3a5987 %}
 
 in this case the method has one parameter, namely the id of the offer that the user accepted for his loan.
 
@@ -76,15 +76,15 @@ in this case the method has one parameter, namely the id of the offer that the u
 
 Each aggregate needs a host which provides it the necessary infrastructure. The application service is this host. This service is among other responsible to re-hydrate the aggregate from storage and after acting upon it to persist the changes back to the storage. The application service also provides the aggregate with the necessary (helper) services if needed and facilitates the collaboration of more than one instance of an aggregate where appropriate.
 
-[gist id=306cb2a626c515668dc1]
+{% gist 306cb2a626c515668dc1 %}
 
 The service implements a public method called When with one parameter, which is the command we want to handle &#8211; in this case the Withdraw command. In the method we use the repository to re-hydrate the aggregate from storage using its unique ID which must be provided by the command. Then we act upon the aggregate and finally we use the repository again to persist (the changed state of) the aggregate back to the storage. Any other command we handle very similarly, here the accept offer command as a sample
 
-[gist id=95ecb4508b998ed049bd]
+{% gist 95ecb4508b998ed049bd %}
 
 Since all methods look somewhat the same we can refactor this class like so
 
-[gist id=9f12e347284b8db3e1ac]
+{% gist 9f12e347284b8db3e1ac %}
 
 This reduces the amount of code needed significantly.
 
@@ -94,13 +94,13 @@ In our imperfect world where computers can shut down due to hardware failure or 
 
 Our repository implements the simple interface
 
-[gist id=09df01f5416a40bf622a]
+{% gist 09df01f5416a40bf622a %}
 
 Only two methods are needed, the one to re-hydrate an aggregate instance and the other to persist the changes (in the state) of the aggregate.
 
 The implementation of the repository depends on the storage mechanism or library used for persistance. If we use NHibernate a simple implementation could look like this
 
-[gist id=e613e323c44db99b70ba]
+{% gist e613e323c44db99b70ba %}
 
 The API
 
@@ -108,11 +108,11 @@ The messages are fed into the domain through some API. This can be e.g. a REST-f
 
 Here is how I implement a REST-ful API. I am using attribute routing to make the definition of (arbitrary) endpoints super easy. In the following snippet I defined the two endpoints for withdraw and accept order
 
-[gist id=1f2d03ab0a65e79af902]
+{% gist 1f2d03ab0a65e79af902 %}
 
 The controller is only an API component and does nothing else that immediateley forward control to the application service which hosts the target aggregate.
 
-[gist id=57dda0199f2bfcd05c78]
+{% gist 57dda0199f2bfcd05c78 %}
 
 ## Summary
 

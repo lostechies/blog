@@ -41,11 +41,11 @@ Testing frameworks are opinionated, but normally not in a good way. I wanted to 
 
 That’s why for every project I’ve been on in the last 18 months or so, I’ve used [Fixie](http://fixie.github.io) as my test framework of choice. I want tests as clean as this:
 
-[gist id=027879256ea4d99cb23e]
+{% gist 027879256ea4d99cb23e %}
 
 I don’t want gimmicks, I don’t want clever, I want code that actually matches what I do. I don’t want inheritance, I don’t want restrictions on fixtures, I want to code my test how I code everything else. I want to build different rules based on different [test organization patterns](http://xunitpatterns.com/Test%20Organization.html):
 
-[gist id=53f6fe229eed18d86e2d]
+{% gist 53f6fe229eed18d86e2d %}
 
 Fixie gives me this, while none others can completely match its flexibility. Fixie’s philosophy is that assertions shouldn’t be a part of your test framework. Executing tests is what a test framework should provide out of the box, but test discovery, pipelines and customization should be completely up to you.
 

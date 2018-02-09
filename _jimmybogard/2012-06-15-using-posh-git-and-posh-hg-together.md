@@ -15,6 +15,6 @@ I use both Git and Mercurial for projects, as well as Powershell as a console fo
 
 However, thanks to [this Stack Overflow answer](http://stackoverflow.com/questions/4500134/posh-git-and-posh-hg-together), it’s easy to use both of these together. I cloned both repositories to my local box, and then just modified the script to point to that version:
 
-[gist id=2936866]
+{% gist 2936866 %}
 
 Now I get both posh-hg and posh-git working together!

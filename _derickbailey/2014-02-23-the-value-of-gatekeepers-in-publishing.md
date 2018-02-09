@@ -19,7 +19,7 @@ And Cal turns this around to offer some advice on why you would want to use a tr
 
 > ### Sidebar: Read Cal&#8217;s Book
 > 
-> As a quick side-bar, Cal is the author of one of my favorite career book: [So Good They Can&#8217;t Ignore You](http://www.amazon.com/gp/product/B0076DDBJ6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0076DDBJ6&linkCode=as2&tag=lostechies-20). If you haven&#8217;t read this one yet, you should. It dispels the myth of &#8220;do what you love&#8221; and aptly replaces it with &#8220;love what you do&#8221; early in the book, and it only gets better from there. 
+> As a quick side-bar, Cal is the author of one of my favorite career book: [So Good They Can&#8217;t Ignore You](http://www.amazon.com/gp/product/B0076DDBJ6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0076DDBJ6&linkCode=as2&tag=lostechies-20). If you haven&#8217;t read this one yet, you should. It dispels the myth of &#8220;do what you love&#8221; and aptly replaces it with &#8220;love what you do&#8221; early in the book, and it only gets better from there. 
 > 
 > [<img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0076DDBJ6&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lostechies-20" alt="" border="0" />](http://www.amazon.com/gp/product/B0076DDBJ6/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0076DDBJ6&linkCode=as2&tag=lostechies-20)<img style="border: none !important;margin: 0px !important" src="http://ir-na.amazon-adsystem.com/e/ir?t=lostechies-20&l=as2&o=1&a=B0076DDBJ6" alt="" width="1" height="1" border="0" />
 
@@ -36,11 +36,11 @@ The gatekeepers in this case, may have told me no or they may have helped me alt
 
 I didn&#8217;t want to worry about whether or not the market size was large enough for a traditional publisher. This is actually one of the reasons I got rejected from a publisher, a few years ago. The idea that I pitched was not a large enough market, and even this small time publisher which I was talking to couldn&#8217;t afford to spend the time and money on a market of only ~5 to 10 thousand people.
 
-Yes, a market of 10,000 people is a small market for publishing print books, by most standards. You have to consider the cost of acquiring a customer, conversion rates from interested in to actual customer, etc. You&#8217;ll never get 100% of your potential market to buy. It&#8217;s usually a pretty low number, percentage-wise. So it makes sense that a publisher needs to avoid small audience sizes. 
+Yes, a market of 10,000 people is a small market for publishing print books, by most standards. You have to consider the cost of acquiring a customer, conversion rates from interested in to actual customer, etc. You&#8217;ll never get 100% of your potential market to buy. It&#8217;s usually a pretty low number, percentage-wise. So it makes sense that a publisher needs to avoid small audience sizes. 
 
 ## The Motivation GateKeeper
 
-I sat on the book for months, after getting started. It went nowhere while I waited for time to perfect my pitch to a publisher (that I already have a relationship with, through publishing screencasts). After sitting for so long, I decided that waiting for myself to perfect the pitch was not worth it. Even if I would get a bigger audience and produce a better book, getting it launched and getting paying customers would be more of an advantage for me. The income of paying customers helped drive me to make time for the book. 
+I sat on the book for months, after getting started. It went nowhere while I waited for time to perfect my pitch to a publisher (that I already have a relationship with, through publishing screencasts). After sitting for so long, I decided that waiting for myself to perfect the pitch was not worth it. Even if I would get a bigger audience and produce a better book, getting it launched and getting paying customers would be more of an advantage for me. The income of paying customers helped drive me to make time for the book. 
 
 In this case, I&#8217;m the gatekeeper. I have a hard time being motivated by potential. I don&#8217;t want to spend a year writing a book or an app, with the hopes that it will sell. I want to get something done quickly, start selling it, and use the initial sales to gauge interest and opportunity. My motivation is a gate keeper, but it&#8217;s me in this case, not someone else.
 

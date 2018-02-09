@@ -33,13 +33,13 @@ In fact, this is exactly what both NHibernate and [Microsoft](http://msdn.micros
 
 If you’re using a repository, you shouldn’t be opening or closing sessions/transactions. Business transaction boundaries are a concern of the application, not low-level services. Don’t do this:
 
-[gist id=8009286]
+{% gist 8009286 %}
 
 Consumers of your repository don’t know that you’re opening and closing sessions, nor should they. It’s completely non-obvious and potentially nasty behavior. If a user calls “Save” twice and then “Delete” in the context of one business operation, “Delete” could fail but the two “Save” calls succeed! Very nasty behavior, indeed! Even if we merely open/close sessions for reads (I’ve seen this done to prevent lazy-loading), it’s still not obvious and prevents us from using the Unit of Work and Identity Map functionality. Again, not a good idea.
 
 Instead, our repository should merely consume a session:
 
-[gist id=8009323]
+{% gist 8009323 %}
 
 Control of the business transaction is restored back to the application.
 

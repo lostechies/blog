@@ -20,7 +20,7 @@ The interesting bit is that ruby itself installed. It&#8217;s only RubyGems that
 
 The fix is pretty simple: install a compatible version of rubygems, manually.
 
-Head over to http://rubyforge.org/frs/?group_id=126 and grab the version of rubygems that you want. I went with 1.4.2 even though the blog post I linked to says it won&#8217;t work. It does. Drop the .tgz file on your computer somewhere and unpack it:
+Head over to http://rubyforge.org/frs/?group_id=126 and grab the version of rubygems that you want. I went with 1.4.2 even though the blog post I linked to says it won&#8217;t work. It does. Drop the .tgz file on your computer somewhere and unpack it:
 
 > tar xvf rubygems-1.4.2-tgz
 

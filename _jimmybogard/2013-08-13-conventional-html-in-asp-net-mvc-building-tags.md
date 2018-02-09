@@ -28,7 +28,7 @@ In ASP.NET MVC, all of the HtmlHelper methods return a single type – the MvcHt
 
 But if you actually want to _modify_ that output, you’re in a bit of a spot. For example, you might want Html.ActionLink, but slightly modify the output. You can pass parameters to modify it, but only through an anonymous object/dictionary thingy:
 
-[gist id=6215611]
+{% gist 6215611 %}
 
 It’s a bit clumsy, and difficult to modify after the fact. Once ActionLink is called, you only have the opaque, raw string to work with. Underneath the covers, MVC does use an object to build up the HTML – the TagBuilder object. Unfortunately, none of the existing HtmlHelper methods allow you to talk about things in terms of a TagBuilder object, it’s all internal.
 
@@ -40,27 +40,27 @@ Instead of using the existing HtmlHelper extensions, let’s create our own. We�
 
 First, our own link method:
 
-[gist id=6216980]
+{% gist 6216980 %}
 
 A couple of things we see here. First, instead of string building, we’re dealing with an actual object. We instantiate the tag with its element, then initialize with a couple of values. We could have also done:
 
-[gist id=6216996]
+{% gist 6216996 %}
 
 HtmlTags uses a syntax similar to jQuery, where we chain methods to continuously manipulate the object. In our view, we then use it just like our normal ActionLink methods:
 
-[gist id=6217003]
+{% gist 6217003 %}
 
 Those extra parenthesis are there because we’re using explicit generic parameters, and those pesky less than/greater than characters confuse our Razor parser.
 
 At runtime, Razor automatically calls .ToString() on any expression. That’s when our HtmlTag object is converted to properly escaped/encoded HTML, but not before. This allows us to manipulate the HtmlTag however we like:
 
-[gist id=6217030]
+{% gist 6217030 %}
 
 Because our HtmlTag is an object and not a string, we can programmatically manipulate tag, add children tags, add a wrapper tag, perform smart attribute manipulation (data attributes, CSS classes etc).
 
 Additionally, because we’re building up objects, we can easily build up more HtmlHelper extensions:
 
-[gist id=6217039]
+{% gist 6217039 %}
 
 Finally, because our HtmlTags are objects, we can
 

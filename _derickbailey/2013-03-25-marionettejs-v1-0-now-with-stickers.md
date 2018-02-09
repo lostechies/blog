@@ -17,7 +17,7 @@ Hot on the heels of the [Backbone v1.0 release](http://ashkenas.com/backbonejs-1
 
 I quietly released it over the weekend, and I&#8217;m glad I did. I already had a bug report and have released v1.0.1 to fix it. 😀
 
-The last few years of working on Marionette have been tremendously fun, exciting, frustrating at time, and have provided much more work and opportunity for me than I had ever imagined. I started this project out of need, and hoped that it might help a few people out &#8211; at least show them what could be done and give them ideas on how to do it. I never expected that this project would have 1/10th the number of stars it has on Github, or that this project would lead to working with dozens of amazing companies, travelling around the world, create new friendships, and land me some awesome speaking opportunities on podcasts and at conferences! 
+The last few years of working on Marionette have been tremendously fun, exciting, frustrating at time, and have provided much more work and opportunity for me than I had ever imagined. I started this project out of need, and hoped that it might help a few people out &#8211; at least show them what could be done and give them ideas on how to do it. I never expected that this project would have 1/10th the number of stars it has on Github, or that this project would lead to working with dozens of amazing companies, travelling around the world, create new friendships, and land me some awesome speaking opportunities on podcasts and at conferences! 
 
 ## What&#8217;s New
 
@@ -27,7 +27,7 @@ You can **read the complete [change log](https://github.com/marionettejs/backbon
 
 ### Backbone.Wreqr Updates
 
-Backbone.Wreqr is an integral part of Marionette and helps to provide a lot of the communication infrastructure for scaling applications. 
+Backbone.Wreqr is an integral part of Marionette and helps to provide a lot of the communication infrastructure for scaling applications. 
 
 In the latest release of Wreqr, I&#8217;ve renamed &#8220;addHandler&#8221; to &#8220;setHandler&#8221; for all Wreqr objects. There was confusion around the name &#8220;addHander&#8221; as it implied the ability to add multiple handlers. Since none of Wreqr allows multiple handlers for any one registered name, I changed this to &#8220;setHandler&#8221;. Anyone updating to Wreqr v0.2.0, along with Marionette v1.0.0, will need to account for this.
 
@@ -41,7 +41,7 @@ One of the most requested features in recent times has been the ability to add a
 
 WOOO! STICKERS!!! 😀
 
- [<img title="marionette-sticker-detail.jpg" src="http://lostechies.com/derickbailey/files/2013/03/marionette-sticker-detail.jpg" alt="Marionette sticker detail" width="400" height="400" border="0" />](http://www.devswag.com/products/marionette-stickers-4)
+ [<img title="marionette-sticker-detail.jpg" src="http://lostechies.com/derickbailey/files/2013/03/marionette-sticker-detail.jpg" alt="Marionette sticker detail" width="400" height="400" border="0" />](http://www.devswag.com/products/marionette-stickers-4)
 
 You can [order yours from DevSwag](http://www.devswag.com/products/marionette-stickers-4). They are providing order management and fulfillment for stickers, for Marionette and many other amazing open source projects.
 

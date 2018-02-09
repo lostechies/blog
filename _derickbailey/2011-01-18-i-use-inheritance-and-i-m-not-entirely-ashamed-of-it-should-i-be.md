@@ -21,7 +21,7 @@ At the time my primary ruby work was albacore &#8211; and I think I did a pretty
 
 My current rails project is Rails 3 with MongoDB and Mongoid as the document mapper. This combination makes it stupid-simple to use inheritance and not feel any pain.
 
- 
+ 
 
 ## Some Context
 
@@ -35,7 +35,7 @@ The Question model looks something like this:</p>
 
 The Selection model looks something like this:</p> 
 
- 
+ 
 
 ## Why Inheritance?
 
@@ -47,7 +47,7 @@ The document we end up with looks like this:</p>
 
 It&#8217;s that simple. Mongoid knows how to save and load the correct model based on the types in the inheritance chain and the _type field that it stores for us. It&#8217;s easy and we don&#8217;t have to worry about configuration or special code to make it work.
 
- 
+ 
 
 ## Why Not Inheritance? What Should I Be Doing?
 

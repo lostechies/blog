@@ -23,7 +23,7 @@ One of the biggest roadblocks with getting automated browser tests (we use [Wati
 
 A third option now is to run the build service as a user of your choice and set &#8220;Allow service to interact with desktop&#8221; through the Windows Registry. A [Code Project article](http://www.codeproject.com/KB/install/cswindowsservicedesktop.aspx "Interact With Desktop when Installing Windows Service") identified the necessary Registry setting, but still suggested the account must be LocalSystem. However, the same setting appears to work for other accounts as well. I&#8217;ve put together a simple PowerShell script to make the change; just run it with administrative privileges:
 
-[gist id=1143996]
+{% gist 1143996 %}
 
 If you&#8217;re not a PowerShell person:
 

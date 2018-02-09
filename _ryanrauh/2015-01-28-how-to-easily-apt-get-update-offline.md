@@ -43,7 +43,7 @@ Now you can provision your machine as would normally, personally we use [puppet]
 
 Next you&#8217;ll want to package up the apt-cacher-ng cache folder that&#8217;s located at /var/cache/apt-cacher-ng. For HuBoard:Enterprise we use debian files as our &#8220;file delivery&#8221; mechanism. We have a simple rake script that uses fpm to build a debian package containing the cache folder, but a tarball will work just as well.
 
-[gist id=&#8221;0bace9f91326a9f65d59&#8243; file=&#8221;Apt-packager.rake&#8221;]
+{% gist 0bace9f91326a9f65d59 Apt-packager.rake %}
 
 Ok, so now you have a base line, you&#8217;ve effectively built a 1.0 version of every debian package installed on your image. It&#8217;s important understand the concept of your &#8220;offline&#8221; image and your &#8220;online&#8221; image. The **offline** image is the Virtual Appliance that your have given to your customer your **online** image is your snapshot of the image before you exported it to the OVF. Here is where it can get a little tricky, let imagine that you&#8217;ve released 1.0 of your amazing product&#8230; Let&#8217;s call it HuBoard:Enterprise 😉
 
@@ -66,7 +66,7 @@ Now what&#8217;s really cool about this approach is that apt-cacher-ng builds le
 
 Here&#8217;s an example
 
-[gist id=&#8221;0bace9f91326a9f65d59&#8243; file=&#8221;sources.list&#8221;]
+{% gist 0bace9f91326a9f65d59 sources.list %}
 
 Ok now that you&#8217;ve pointed your offline machine at your local file system, you can install the missing packages extremely easy
 

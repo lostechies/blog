@@ -17,11 +17,11 @@ I record [my screencasts](http://www.watchmecode.net/) in 720p resolution. Up un
 
 To fix this problem, I&#8217;ve stopped changing my monitor resolution. Instead, I set the size of the windows for the applications that I am going to record. I looked around for some simple ways to do this and came across a few window management apps that may have made it easy. But I already use [SizeUp](http://www.irradiatedsoftware.com/sizeup/) and I really like it, so I didn&#8217;t want to switch to something else. Instead, I whipped up a little bash script that uses Apple&#8217;s &#8220;osascript&#8221; tool to do the window resizing for me.
 
-Copy this gist in to the file \`/usr/bin/720p\` and then \`sudo chmod +x /usr/bin/720p\` to  make it executable:
+Copy this gist in to the file \`/usr/bin/720p\` and then \`sudo chmod +x /usr/bin/720p\` to  make it executable:
 
-[gist id=3676822 file=720p.sh]
+{% gist 3676822 720p.sh %}
 
-Now from a terminal window I can run 
+Now from a terminal window I can run 
 
 > $ 720p AppName
 

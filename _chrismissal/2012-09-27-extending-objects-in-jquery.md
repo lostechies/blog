@@ -24,7 +24,7 @@ Welcome to my journey of  [extending objects in JavaScript frameworks](http://l
 </div>
 
 <div>
-  [gist id=3797108 file=extending-objects-in-jquery-1.js]
+  {% gist 3797108 file=extending-objects-in-jquery-1.js %}
 </div>
 
 <div>
@@ -38,7 +38,7 @@ Welcome to my journey of  [extending objects in JavaScript frameworks](http://l
 </div>
 
 <div>
-  [gist id=3797108 file=extending-objects-in-jquery-2.js]
+  {% gist 3797108 file=extending-objects-in-jquery-2.js %}
 </div>
 
 <div>

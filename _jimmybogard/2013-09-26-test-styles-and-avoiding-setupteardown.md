@@ -36,13 +36,13 @@ My tests generally fall into two patterns:
 
 The first one is fairly simple:
 
-[gist id=6713500]
+{% gist 6713500 %}
 
 Arrange, act and assert are contained in each method. It’s really as simple as can be, and this code looks pretty much exactly as my code would in production. No mental gymnastics needed here to figure out what the execution lifecycle/steps are. The entire test is self-contained in a single method.
 
 Context-specification looks a little different:
 
-[gist id=6713536]
+{% gist 6713536 %}
 
 In this test, I have one setup (that private field). Depending on your test framework, this looks different. It could be a constructor, [TestFixture] attribute and so on. The key is the arrange/act steps are executed once, as described in the context of the test. The asserts are all different test methods, explicitly named. Because I’m testing multiple facets of behavioral observations, this style lets me incrementally add and verify behavior.
 

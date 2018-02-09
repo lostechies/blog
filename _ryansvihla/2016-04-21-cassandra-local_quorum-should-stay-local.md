@@ -20,7 +20,7 @@ categories:
 
 ## Here is how (but you DO NOT WANT TO DO THIS) {#hereishowbutyoudonotwanttodothis}
 
-[gist id=ce907d1d53a9a3735ecdccffa2a44516]
+{% gist ce907d1d53a9a3735ecdccffa2a44516 %}
 
 However you may end up with more than you bargained for.
 

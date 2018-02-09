@@ -105,6 +105,6 @@ Now the Backbone.View has been replaced with your view type, while still maintai
 
 ## An Excerpt From Building Backbone Plugins
 
-This blog post is an excerpt and preview of [Chapter 5 in my Building Backbone plugins e-book](http://backboneplugins.com). The complete chapter includes a more meaningful problem statement and solution set: trying to inject behavior in to a Backbone application without requiring any part of the application to know about the new behavior. It&#8217;s an interesting and common problem, and the solution as shown here is simple but not at all obvious. 
+This blog post is an excerpt and preview of [Chapter 5 in my Building Backbone plugins e-book](http://backboneplugins.com). The complete chapter includes a more meaningful problem statement and solution set: trying to inject behavior in to a Backbone application without requiring any part of the application to know about the new behavior. It&#8217;s an interesting and common problem, and the solution as shown here is simple but not at all obvious. 
 
 For more information about the e-book, including additional samples of the content, head over to [BackbonePlugins.com](http://backboneplugins.com).

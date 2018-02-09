@@ -34,15 +34,15 @@ This becomes a bit of a problem – the token expires very soon, and it’s anno
 
 Since the refresh token is stored on the device, we just need to ask Google for another refresh token once the current token has expired. To get Xamarin.Auth to request a refresh token, we need to do a couple of things: first, override the GetInitialUrlAsync method to request a refresh token as part of getting an auth token:
 
-[gist id=059d278cb06b1602b959]
+{% gist 059d278cb06b1602b959 %}
 
 The format of the URL is from Google’s documentation, plus looking at the behavior of the [existing Xamarin.Auth component](https://github.com/xamarin/Xamarin.Auth/blob/master/src/Xamarin.Auth/OAuth2Authenticator.cs#L210). Next, we create a method to request our refresh token if we need one:
 
-[gist id=62591cd829477c02e5af]
+{% gist 62591cd829477c02e5af %}
 
 I have a [pull request open](https://github.com/xamarin/Xamarin.Auth/pull/79) to include this method out-of-the-box, but until then, we’ll just need to code it ourselves. Finally, we just need to call our refresh token as need be before making an API call:
 
-[gist id=77c48524dc801342bf87]
+{% gist 77c48524dc801342bf87 %}
 
 In practice, we’d likely wrap up this behavior around every call to our backend API, checking the expiration date of the token and refreshing as needed. In our app, we just a simple decorator pattern around an API gateway interface, so that refreshing our token was as seamless as possible to the end user.
 

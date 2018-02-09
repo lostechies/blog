@@ -49,7 +49,7 @@ Not surprisingly, we can model our REST API exactly as we did our HTML-based web
 
 Back to our API, let’s design a CQRS-centric set of resources. First, the collection resource:
 
-[gist id=f110119ca3477dfb080e1182d8c3022f]
+{% gist f110119ca3477dfb080e1182d8c3022f %}
 
 I’m intentionally not using any established media type, just to illustrate the basics. No HAL or Siren or JSON-API etc.
 
@@ -57,27 +57,27 @@ Just like the HTML page, my collection resource could join in 20 tables to build
 
 In my client, I can then follow the link to see more details about the invoice (or, alternatively, included links directly to actions). Following the details link:
 
-[gist id=117b40caae49ca0433f4dd8726a79583]
+{% gist 117b40caae49ca0433f4dd8726a79583 %}
 
 I now include links to additional resources, which in the CQRS world, those additional resources are commands. And just like our HTML version of things, these resources can return hypermedia controls, or, in the case of a modal dialog, I could have embedded the hypermedia controls inside the original response. Let’s go with the non-modal example:
 
-[gist id=e2aaefcf96fcd06e5c968d1205d3779a]
+{% gist e2aaefcf96fcd06e5c968d1205d3779a %}
 
 In my command resource, I include enough information to instruct clients how to build a response (given they have SOME knowledge of our protocol). I even include some display information, as I would have in my HTML version. I have an array of fields, only one in my case, with enough information to instruct something to render it if necessary. I could then POST information up, perhaps with my JSON structure or form encoded if I liked, then get a response:
 
-[gist id=d993626f5d7790aa9c7c2c4c67b12984]
+{% gist d993626f5d7790aa9c7c2c4c67b12984 %}
 
 Or, I could have my command return an immediate response and have its own data, because maybe approving an invoice kicks off its own workflow:
 
-[gist id=a1b8cf79b826a49ed1c033ed143ed7be]
+{% gist a1b8cf79b826a49ed1c033ed143ed7be %}
 
 In that example I could follow the location or the body to the approve resource. Or maybe this is an asynchronous command, and approval acceptance doesn’t happen immediately and I want to model that explicitly:
 
-[gist id=a6966aac8094091f95084ccf3d41730c]
+{% gist a6966aac8094091f95084ccf3d41730c %}
 
 I’ve received your approval request, and I’ve accepted it, but it’s not created yet so try this URL after 2 minutes. Or maybe approval is its own dedicated resource under an invoice, therefore I can only have one approval at a time, and my operation is idempotent. Then I can use PUT:
 
-[gist id=0687fd9c9eff973c28f794cab35bdc05]
+{% gist 0687fd9c9eff973c28f794cab35bdc05 %}
 
 If I do this, my resource is stored in that URL so I can then do a GET on that URL to see the status of the approval, and an invoice only gets one approval. Remember, PUT is idempotent and I’m operating under the resource identified by the URL. So PUT is only reserved for when the client can apply the request to **that resource**, not to some other one.
 

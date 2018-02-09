@@ -16,13 +16,13 @@ categories:
 ---
 I love solving problems and making the lives and/or jobs of others easier. I have a natural fascination with puzzles, electronics and tools combined with a deep seeded need to create and combine things in different ways. This is part of what makes me loving software development. I get to combine many of the different things that I love, throw it all together and (hopefully) provide something of value to someone &#8211; even if it&#8217;s just me.
 
- 
+ 
 
 ## Ultimately, I want To Deliver Value
 
 There are many different aspects of software development that I really get into. At a high level, I love the process of understanding, defining, building and delivering software. And I get the most joy out of my creations when I have evidence to say that the end users find it easy to use and that it does not get in their way. There&#8217;s a sense of pride and accomplishment in delivering small, working bits of a system and getting good feedback so that I can improve the system during the next release.
 
- 
+ 
 
 ## My Favorite Thing To Do Is Modeling
 
@@ -34,7 +34,7 @@ Within a software project, these aesthetics are the API that you are building an
 
 For me, the pride and sense of accomplishment that I get when my models get out of my way and let me build the solutions my customers need, is why I find modeling so intriguing and exciting. When I spend days or weeks refining models and designs, getting feedback and continuing the push the design, all that hard work is a build up to the accomplishment of orchestrating it all into a system that the user needs and wants to use.
 
- 
+ 
 
 ## Modeling Is More Than Just The Domain
 
@@ -42,13 +42,13 @@ Yes, I&#8217;m a fan of [the big blue book](http://domaindrivendesign.org/books/
 
 Look at the MV* architectures, for example: model view controller, model view presenter, model view view-model, etc. There are several components within each of these variations that each need to be modeled correctly. Each of them has some sort of model to represent and work with the view, and it&#8217;s very easy to extend all of them to say that you should have a separate domain model that runs things behind the scenes.
 
- 
+ 
 
 ## Context, Context, Context
 
 There are still more opportunities for modeling in your software and domain driven design and MV* architectures are not the only way to build systems. I tend to gravitate toward these solutions because the software systems that I build tend to benefit from them. I know that there are languages and systems out there that would not benefit from the approaches that I take with modeling, though.
 
- 
+ 
 
 ## What About You?
 

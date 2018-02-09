@@ -22,7 +22,7 @@ I&#8217;ve got a chunk of C# that sits inside of a very simple form. The form do
   * If a data update is available, only download it if a software update is not available 
       * After a data update has been downloaded, show the data
 
-As this is a very small application with very simple process and no real business logic, I&#8217;ve coded the majority of it straight into the form, in a method that runs in a background worker. The code works and does everything it needs to do, but it&#8217;s getting ugly and needs some TLC to refactor it into something more manageable and easier to maintain.
+As this is a very small application with very simple process and no real business logic, I&#8217;ve coded the majority of it straight into the form, in a method that runs in a background worker. The code works and does everything it needs to do, but it&#8217;s getting ugly and needs some TLC to refactor it into something more manageable and easier to maintain.
 
 > <pre><div class="highlight">
   <pre><div class="line">
@@ -34,103 +34,103 @@ As this is a very small application with very simple process and no real busines
 </div>
 
 <div class="line">
-      <span class="k">try</span>
+      <span class="k">try</span>
 </div>
 
 <div class="line">
-      <span class="p">{</span>
+      <span class="p">{</span>
 </div>
 
 <div class="line">
-          <span class="n">SetProgress</span><span class="p">(</span><span class="m">5</span><span class="p">);</span>
+          <span class="n">SetProgress</span><span class="p">(</span><span class="m">5</span><span class="p">);</span>
 </div>
 
 <div class="line">
-          <span class="n">MessageLabel</span><span class="p">.</span><span class="n">Do</span><span class="p">(</span><span class="n">ctl</span> <span class="p">=&gt;</span> <span class="n">ctl</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="n">AvailableUpdate</span><span class="p">.</span><span class="n">DownloadingUpdateLabelText</span><span class="p">);</span>
+          <span class="n">MessageLabel</span><span class="p">.</span><span class="n">Do</span><span class="p">(</span><span class="n">ctl</span> <span class="p">=&gt;</span> <span class="n">ctl</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="n">AvailableUpdate</span><span class="p">.</span><span class="n">DownloadingUpdateLabelText</span><span class="p">);</span>
 </div>
 
 <div class="line">
-          <span class="c1">//software updates always take precedence over data updates</span>
+          <span class="c1">//software updates always take precedence over data updates</span>
 </div>
 
 <div class="line">
-          <span class="k">if</span> <span class="p">(</span><span class="n">AvailableUpdate</span><span class="p">.</span><span class="n">SoftwareUpdateAvailable</span><span class="p">)</span>
+          <span class="k">if</span> <span class="p">(</span><span class="n">AvailableUpdate</span><span class="p">.</span><span class="n">SoftwareUpdateAvailable</span><span class="p">)</span>
 </div>
 
 <div class="line">
-          <span class="p">{</span>
+          <span class="p">{</span>
 </div>
 
 <div class="line">
-              <span class="n">SetProgress</span><span class="p">(5</span><span class="m"></span><span class="p">);</span>
+              <span class="n">SetProgress</span><span class="p">(5</span><span class="m"></span><span class="p">);</span>
 </div>
 
 <div class="line">
-              <span class="n">UpdateSoftware</span><span class="p">();<br />            SetProgress(100); </span>
+              <span class="n">UpdateSoftware</span><span class="p">();<br />            SetProgress(100); </span>
 </div>
 
 <div class="line">
-              <span class="k">this</span><span class="p">.</span><span class="n">Do</span><span class="p">(</span><span class="n">frm</span> <span class="p">=&gt;</span> <span class="n">frm</span><span class="p">.</span><span class="n">Close</span><span class="p">());</span>
+              <span class="k">this</span><span class="p">.</span><span class="n">Do</span><span class="p">(</span><span class="n">frm</span> <span class="p">=&gt;</span> <span class="n">frm</span><span class="p">.</span><span class="n">Close</span><span class="p">());</span>
 </div>
 
 <div class="line">
-          <span class="p">}</span>
+          <span class="p">}</span>
 </div>
 
 <div class="line">
-          <span class="k">else</span>
+          <span class="k">else</span>
 </div>
 
 <div class="line">
-          <span class="p">{</span>
+          <span class="p">{</span>
 </div>
 
 <div class="line">
-              <span class="k">if</span> <span class="p">(</span><span class="n">AvailableUpdate</span><span class="p">.</span><span class="n">DataUpdateAvailable</span><span class="p">)</span>
+              <span class="k">if</span> <span class="p">(</span><span class="n">AvailableUpdate</span><span class="p">.</span><span class="n">DataUpdateAvailable</span><span class="p">)</span>
 </div>
 
 <div class="line">
-              <span class="p">{<br />                SetProgress(50) </span>
+              <span class="p">{<br />                SetProgress(50) </span>
 </div>
 
 <div class="line">
-                  <span class="n">UpdateData</span><span class="p">();</span>
+                  <span class="n">UpdateData</span><span class="p">();</span>
 </div>
 
 <div class="line">
-                  <span class="n">MessageLabel</span><span class="p">.</span><span class="n">Do</span><span class="p">(</span><span class="n">ctl</span> <span class="p">=&gt;</span> <span class="n">ctl</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">"Complete"</span><span class="p">);</span>
+                  <span class="n">MessageLabel</span><span class="p">.</span><span class="n">Do</span><span class="p">(</span><span class="n">ctl</span> <span class="p">=&gt;</span> <span class="n">ctl</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">"Complete"</span><span class="p">);</span>
 </div>
 
 <div class="line">
-                  <span class="n">SetProgress</span><span class="p">(</span><span class="m">100</span><span class="p">);</span>
+                  <span class="n">SetProgress</span><span class="p">(</span><span class="m">100</span><span class="p">);</span>
 </div>
 
 <div class="line">
-                  <span class="n">Cancel</span><span class="p">.</span><span class="n">Do</span><span class="p">(</span><span class="n">ctl</span> <span class="p">=&gt;</span> <span class="n">ctl</span><span class="p">.</span><span class="n">Hide</span><span class="p">());</span>
+                  <span class="n">Cancel</span><span class="p">.</span><span class="n">Do</span><span class="p">(</span><span class="n">ctl</span> <span class="p">=&gt;</span> <span class="n">ctl</span><span class="p">.</span><span class="n">Hide</span><span class="p">());</span>
 </div>
 
 <div class="line">
-                  <span class="n">ContinueButton</span><span class="p">.</span><span class="n">Do</span><span class="p">(</span><span class="n">ctl</span> <span class="p">=&gt;</span> <span class="n">ctl</span><span class="p">.</span><span class="n">Show</span><span class="p">());</span>
+                  <span class="n">ContinueButton</span><span class="p">.</span><span class="n">Do</span><span class="p">(</span><span class="n">ctl</span> <span class="p">=&gt;</span> <span class="n">ctl</span><span class="p">.</span><span class="n">Show</span><span class="p">());</span>
 </div>
 
 <div class="line">
-              <span class="p">}</span>
+              <span class="p">}</span>
 </div>
 
 <div class="line">
-          <span class="p">}</span>
+          <span class="p">}</span>
 </div>
 
 <div class="line">
-      <span class="p">}</span>
+      <span class="p">}</span>
 </div>
 
 <div class="line">
-      <span class="k">catch</span> <span class="p">(</span><span class="n">Exception</span> <span class="n">e</span><span class="p">)</span>
+      <span class="k">catch</span> <span class="p">(</span><span class="n">Exception</span> <span class="n">e</span><span class="p">)</span>
 </div>
 
 <div class="line">
-      <span class="p">{</span>
+      <span class="p">{</span>
 </div>
 
 <div class="line">
@@ -138,7 +138,7 @@ As this is a very small application with very simple process and no real busines
 </div>
 
 <div class="line">
-      <span class="p">}</span>
+      <span class="p">}</span>
 </div>
 
 <div class="line">
@@ -170,5 +170,5 @@ As this is a very small application with very simple process and no real busines
 
 
 <p>
-   
+   
 </p>

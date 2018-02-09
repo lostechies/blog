@@ -16,20 +16,20 @@ NUnit simplifies its own output when exceptions are thrown by its own assertion 
 
 Since Fixie has no assertion library of its own, you may instruct it which types make up your assertion library&#8217;s implementation details. Consider some hypothetical assertion library:
 
-[gist id=9338868]
+{% gist 9338868 %}
 
 Out of the box, Fixie doesn&#8217;t distinguish AssertionException from any other Exception (How could it?), so all of the exception details appear in the output. Consider a test class with some tests that will surely fail, and the corresponding default verbose output:
 
-[gist id=9338886]
+{% gist 9338886 %}
 
-[gist id=9338895]
+{% gist 9338895 %}
 
 The implementation details of assertion libraries are rarely interesting to the developer. A custom convention can be instructed to simplify failure output by listing the types that make up the assertion library:
 
-[gist id=9338909]
+{% gist 9338909 %}
 
 Rerunning the failing tests, Fixie simplifies the output, directing the developer to the actual failing line of test code:
 
-[gist id=9338916]
+{% gist 9338916 %}
 
 In addition to identifying the types which make up your assertion library of choice, your custom convention may also list assertion extension classes defined in your own projects, further simplifying your output during failures.

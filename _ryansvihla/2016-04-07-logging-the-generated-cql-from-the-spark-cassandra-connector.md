@@ -46,7 +46,7 @@ tags:
   Say I have a typical join query:
 </p>
 
-[gist id=69b7ba6b51e4b6e00624328a89ef074c]
+{% gist 69b7ba6b51e4b6e00624328a89ef074c %}
 
 <p id="3ce6">
   On the spark nodes now configure the DataStax java driver RequestHandler.
@@ -56,13 +56,13 @@ tags:
   In my case using the tarball this is dse-4.8.4/resources/spark/conf/logback-spark-executor.xml. In that file I just added the following inside the <configuration> element:
 </p>
 
-[gist id=c1043ac25df9db068a03e1d7e1d56b4d]
+{% gist c1043ac25df9db068a03e1d7e1d56b4d %}
 
 <p id="884a">
   On the spark nodes in the executor logs you’ll now have. In my case /var/lib/spark/worker/worker-0/app-20160203094945–0003/0/stdout, app-20160203094945–0003 is the job name.
 </p>
 
-[gist id=28b0688802bdcc7f014550f5295c4c08]
+{% gist 28b0688802bdcc7f014550f5295c4c08 %}
 
 <p id="48a0">
   You’ll note this is a dumb table scan that is only limited to the tokens that the node owns. You’ll note the tokens involved are not visible, I leave it to the reader to repeat this exercise with pushdown like 2i and partitions.

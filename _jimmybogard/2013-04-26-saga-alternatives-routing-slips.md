@@ -39,20 +39,20 @@ It turns out this pattern is a well-known pattern in the messaging world (which,
 
 Routing slips don’t exist in NServiceBus, but it turns out it’s not too difficult to implement. A routing slip represents the list of steps (and the progress), as well as a place for us to stash any extra information needed further down the line:
 
-[gist id=5469268]
+{% gist 5469268 %}
 
 We can attach our routing slip to the original message, so that each step can inspect the slip for the next step. We’ll kick off the process when we first send out the message:
 
-[gist id=5469353]
+{% gist 5469353 %}
 
 Each handler handles the message, but doesn’t really need to do anything to pass it down the line, we can do this at the NServiceBus infrastructure level.
 
-[gist id=5469381]
+{% gist 5469381 %}
 
 The nice aspect of this model is that it eliminates any centralized control. The message flows straight through the set of queues – leaving out any potential bottleneck our saga implementation would introduce. Additionally, we don’t need to resort to things like pub-sub – since this would still force our steps to be aware of the overall order, hard-coding who is next in the chain. If a customer doesn’t toast their sandwich – it doesn’t go through the oven, but we know this up front! No need to have each step to know both what to do and what the next step is.
 
 I put the message routing implementation up on [NuGet](http://nuget.org/packages/nservicebus.messagerouting) and [GitHub](https://github.com/jbogard/NServiceBus.MessageRouting), you just need to enable it on each endpoint via configuration:
 
-[gist id=5469796]
+{% gist 5469796 %}
 
 If you need to process a message in a series of steps (known up front), and want to keep individual steps from knowing what’s next (or introduce a central controller), the routing slip pattern could be a good fit.

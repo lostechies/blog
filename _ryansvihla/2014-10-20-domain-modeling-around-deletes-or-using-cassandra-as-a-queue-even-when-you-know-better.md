@@ -50,7 +50,7 @@ Make 1 table per unit of work.
 
 Lets say you have only a limited number of workers at a given time, you can say assign them an id and create tables based on this id, when the worker is done with it’s work, truncate the table. Something like
 
-[gist id=df167c021d437606e52d2348583fed5e]
+{% gist df167c021d437606e52d2348583fed5e %}
 
 [<img src="https://farm6.staticflickr.com/5609/15584609585_7b04516016_z.jpg" alt="queues1" width="640" height="363" />](https://www.flickr.com/photos/ryansvihla/15584609585 "queues1 by Ryan Svihla, on Flickr") fig 2-1
 
@@ -73,7 +73,7 @@ Cons
 
 For time series, or global queues shared by several workers the domain modeling approach may not work as well. For those events I use the less optimal but still effective time based queues. The basic idea is size your tables around your desired size and time. Lets say I only need to query the last 2 days of data, if I create tables by day and make the clients aware of the this, it it’s Tuesday I can safely query data from Monday and Tuesday and then truncate all data from Sunday.
 
-[gist id=ee8e5b11ef9d16a21b29f1e0371e4a19]
+{% gist ee8e5b11ef9d16a21b29f1e0371e4a19 %}
 
 [<img src="https://farm6.staticflickr.com/5604/15398605787_e88d37f9cb_z.jpg" alt="time_partition3" width="640" height="354" />](https://www.flickr.com/photos/ryansvihla/15398605787 "time_partition3 by Ryan Svihla, on Flickr") fig 2-2
 

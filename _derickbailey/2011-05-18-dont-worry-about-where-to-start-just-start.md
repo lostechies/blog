@@ -19,7 +19,7 @@ The same thing happens in software. Open visual studio, or vim, or whatever edit
 
 I&#8217;ve run into this more times than I can count, on both writing blog posts / articles and writing software.
 
- 
+ 
 
 ### The Secret Sauce: Start, Realize, Scrap. Repeat.
 
@@ -29,7 +29,7 @@ For example, look at writing a time tracking system. The goal is probably to rep
 
 Sometimes you&#8217;re not that lucky, though. Sometimes you need to start working before you know what the end goal is. That&#8217;s fine, too. Just start working. The key here is to get feedback as early and often as possible, so that you can begin to get a better idea of what the goal is. You&#8217;re likely going to throw away a lot of what you start with, in this scenario, so be sure to build things as quickly and cheaply as possible. There is a cost to learning by doing, and we want to minimize that cost as much as possible so we can get to doing something of real value.
 
- 
+ 
 
 ### On Writing
 

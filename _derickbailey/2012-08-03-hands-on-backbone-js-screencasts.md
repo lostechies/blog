@@ -13,7 +13,7 @@ categories:
   - Screencast
   - WatchMeCode
 ---
-I&#8217;ve been talking about this for what seems like an eternity in Internet time: earlier this week my [4 part screencast series on Backbone.js](http://pragprog.com/screencasts/v-dback/hands-on-backbone-js) was released through [PragProg](http://pragprog.com/)! It&#8217;s a hands-on, no-fluff walk through of all the major parts of Backbone, building an application with a good structure, handling some common error scenarios, and much much more. 
+I&#8217;ve been talking about this for what seems like an eternity in Internet time: earlier this week my [4 part screencast series on Backbone.js](http://pragprog.com/screencasts/v-dback/hands-on-backbone-js) was released through [PragProg](http://pragprog.com/)! It&#8217;s a hands-on, no-fluff walk through of all the major parts of Backbone, building an application with a good structure, handling some common error scenarios, and much much more. 
 
 [From the PragProg site](http://pragprog.com/screencasts/v-dback/hands-on-backbone-js):
 
@@ -30,6 +30,6 @@ I&#8217;ve been talking about this for what seems like an eternity in Internet t
 
 ## Additional Resources
 
-One thing to note about this series &#8211; I make some assumptions about what the viewer should know about JavaScript in general. Things like context, variable scoping, and more, are important to understand when building Backbone apps. I briefly cover some of these topics, but there&#8217;s only so much room for so much information. If you&#8217;re interested in learning more about the basics of Backbone, getting in introduction to writing test-driven JavaScript, or seeing some of the tools I use in more detail, check out my other screencasts at [WatchMeCode.net](http://www.watchmecode.net/).
+One thing to note about this series &#8211; I make some assumptions about what the viewer should know about JavaScript in general. Things like context, variable scoping, and more, are important to understand when building Backbone apps. I briefly cover some of these topics, but there&#8217;s only so much room for so much information. If you&#8217;re interested in learning more about the basics of Backbone, getting in introduction to writing test-driven JavaScript, or seeing some of the tools I use in more detail, check out my other screencasts at [WatchMeCode.net](http://www.watchmecode.net/).
 
 If you&#8217;re looking for more information on Backbone specifically, additional screencasts (some free, some paid), books, blog posts, add-ons and frameworks, check out my list of Backbone resources at [BackboneTraining.net/resources](http://backbonetraining.net/resources).

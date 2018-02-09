@@ -26,7 +26,7 @@ It seems to be common in the JavaScript applications world, to have very poorly 
 
 For example, might have a human resources application that allows you to add a new employee and select a manager for the employee. After entering a name and email address, we would show the form to select the manager. When the user clicks save, we create the employee. A crude, but all too common implementation of this workflow might look something like this:
 
-[gist id=2651039 file=1.js]
+{% gist 2651039 1.js %}
 
 Can you quickly and easily describe the workflow in this example? If you can, then you&#8217;re a better person than I am. I have to spend time looking at the implementation details of both views in order to see what&#8217;s going on and why. I have to piece together the bits from multiple places and form a more coherent high level overview in my head. It&#8217;s not easy for me to see what&#8217;s going on because every time I look at another part of the code, I have to put together the pieces again to make sure I am not breaking someone from the other parts.
 
@@ -59,17 +59,17 @@ What we want to do, instead, is get back to that high level workflow with fewer 
 
 Wouldn&#8217;t it be nice if we could write this code, for example:
 
-[gist id=2651039 file=2.js]
+{% gist 2651039 2.js %}
 
 In this pseudo-code example, we can more clearly see the high level workflow. When we complete the employee info, we move on to the selecting a manager. When that completes, we save the employee with the data that we had entered. It all looks very clean and simple. We could even add in some of the secondary and third level workflow without creating too much mess. And more importantly, we could [get rid of some of the nested callbacks](http://wekeroad.com/2012/04/05/cleaning-up-deep-callback-nesting-with-nodes-eventemitter) with better patterns and function separation.
 
 But let&#8217;s see what this would really look like in code that we could execute:
 
-[gist id=2651039 file=2.js]
+{% gist 2651039 2.js %}
 
 Yeah &#8211; turns out this is code that we can actually run, and it can be implemented fairly easily with a couple of Backbone views and a model for the details:
 
-[gist id=2651039 file=3.js]
+{% gist 2651039 3.js %}
 
 I&#8217;ve obviously omitted some of the details of the views and model, but you get the idea.
 

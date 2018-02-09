@@ -11,9 +11,9 @@ categories:
   - Ruby
 redirect_from: "/blogs/derickbailey/archive/2010/12/14/an-interesting-quot-feature-quot-in-ruby-s-datetime-parse.aspx/"
 ---
-It&#8217;s not all rainbows and unicorns in the Ruby world&#8230; everything now and then you run into something that really makes you go &#8220;WHAT THE?!&#8221; &#8230; today&#8217;s misadventure comes curtesy of Ruby&#8217;s DateTime.parse method. Generally speaking, this method is quite useful and quite forgiving in what it can parse. It will take a large number of formats and do what it can, even with very little.
+It&#8217;s not all rainbows and unicorns in the Ruby world&#8230; everything now and then you run into something that really makes you go &#8220;WHAT THE?!&#8221; &#8230; today&#8217;s misadventure comes curtesy of Ruby&#8217;s DateTime.parse method. Generally speaking, this method is quite useful and quite forgiving in what it can parse. It will take a large number of formats and do what it can, even with very little.
 
-For example, did you know that this string will correctly parse: &#8220;SHOW ME THE MONEY!!!&#8221; &#8230; it results in a very &#8220;interesting&#8221; date&#8230; like this:
+For example, did you know that this string will correctly parse: &#8220;SHOW ME THE MONEY!!!&#8221; &#8230; it results in a very &#8220;interesting&#8221; date&#8230; like this:
 
 > => #<DateTime: 2010-12-13T00:00:00+00:00 (4911087/2,0/1,2299161)>
 
@@ -33,6 +33,6 @@ No matter how badly munged the rest of the string is, the DateTime.parse will fi
 
 Crazy, eh? Threw me for a serious loop, for quite some time.
 
- 
+ 
 
- 
+ 

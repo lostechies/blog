@@ -92,11 +92,11 @@ I intentionally left out code to limit threads in flight. Many people new to Cas
 
 #### Using classic manual manipulation of futures {#3a17}
 
-[gist id=26271f351bdd679553d55368171407be]
+{% gist 26271f351bdd679553d55368171407be %}
 
 #### This is with a fixed thread pool and callbacks {#b7db}
 
-[gist id=4b62b8e5625a805583c1ce39b1260ff4]
+{% gist 4b62b8e5625a805583c1ce39b1260ff4 %}
 
 <p id="5472">
   Either approach works as well as the other. Your preference should fit your background.

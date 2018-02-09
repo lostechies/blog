@@ -16,17 +16,17 @@ I was digging around on twitter and I found [a great comment from @BenAtExocorte
 
 What Ben is referring to is that JavaScript doesn&#8217;t scope your variables to if statements or other blocks the way C# and other languages would. Consider this example in C#:
 
-[gist id=1430488 file=block.cs]
+{% gist 1430488 block.cs %}
 
 On the &#8220;i++&#8221; line, the C# compiler (or Resharper / Telerik JustCode / etc) would throw a compiler error or warning, telling you that the variable isn&#8217;t defined at this point. This happens because the variable declaration is scoped to the if statement.
 
 In JavaScript, though, the same code is perfectly fine:
 
-[gist id=1430488 file=block.js]
+{% gist 1430488 block.js %}
 
 This is because JavaScript scopes your variables to functions and not to if-blocks. But, we can achieve block-like scope through the use of immediate functions like this:
 
-[gist id=1430488 file=block2.js]
+{% gist 1430488 block2.js %}
 
 The &#8220;i&#8221; var in the &#8220;doSomething&#8221; function is assigned the value returned by the immediate function. The &#8220;x&#8221; var is scoped to the immediate function giving us block-like scope for our variables.
 

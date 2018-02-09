@@ -18,11 +18,11 @@ Dojo works a bit differently than we saw with [jQuery](http://lostechies.com/chr
 
 Let&#8217;s discuss _mixin_, this is more like what we previously saw with previous libraries&#8217; methods:
 
-[gist id=3797197 file=extending-objects-in-dojo-1.js]
+{% gist 3797197 file=extending-objects-in-dojo-1.js %}
 
 And the output:
 
-[gist id=3797197 file=extending-objects-in-dojo-2.js]
+{% gist 3797197 file=extending-objects-in-dojo-2.js %}
 
 If you remember from the previous posts, we extended our _start_, _more_, and _extra_ objects from left to right. Using a Dojo mixin, our arguments are passed to the function in the reverse order; this is by design. Everything in our output of the _extended_ object remains as it was in our _start_ object. The only difference is that _more_ added the _name_ property and _extra_ added the _dojo_ property. This works just like you&#8217;d expect a mixin function to work and just like our previous extend and apply from jQuery and Ext JS.
 

@@ -27,7 +27,7 @@ Once we have some ground rules, we can look at a few options for dealing with da
 
 One popular method is to simply create a transaction at the beginning of a test and roll it back at the end of the test:
 
-[gist id=3914135]
+{% gist 3914135 %}
 
 In the above pseudo-code, we just make sure we roll back our transaction at the end of the test. We’ll also need to make sure that all of the code executed in our test actually _uses_ this transaction, but that’s really up to your environment how that transaction gets disseminated to your fixtures and so on.
 
@@ -39,7 +39,7 @@ This works well for a lot of cases, and it is quite effective at isolating chang
 
 Another option is to have the database dropped and re-created between each test. This one’s a bit trickier, but not too bad to manage. If you’re already doing database migrations (**you ARE doing database migrations, RIGHT?!?!?!**) then it’s not too bad to just blast through the scripts to recreate the DB each time around:
 
-[gist id=3914246]
+{% gist 3914246 %}
 
 The upside is that you’re wiping the slate clean each time, so you have an absolute known begin state for each test.
 
@@ -59,7 +59,7 @@ We could do something like:
 
 This will work, but it’s 3 times slower than if I just happened to know the order of the tables to delete. **But what if we could just know the right order to delete**? If I had a list to maintain, that would also not be too fun, but luckily, it’s not too difficult just to figure out the order by examining SQL metadata:
 
-[gist id=3914345]
+{% gist 3914345 %}
 
 Assuming I’m using NHibernate (only to get a SQL connection and execute scripts), we query to get the list of tables and list of foreign keys. Based on this graph, we just order our deletion in terms of grabbing leaf nodes first, removing them from of foreign keys, and repeat ad nauseum until we’ve eliminated all the tables.
 

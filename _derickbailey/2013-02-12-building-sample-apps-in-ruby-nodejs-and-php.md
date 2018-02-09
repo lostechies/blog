@@ -14,7 +14,7 @@ categories:
   - Productivity
   - Ruby
 ---
-In the last three years I&#8217;ve gone from full time .NET development to full time Ruby on Rails and then full time JavaScript. It&#8217;s been an awesome ride, so far, but it&#8217;s not done yet. I started digging in to PHP recently, and while I&#8217;m not going to be doing full time work with it I am certainly adding it to my list languages and runtimes that I enjoy using. 
+In the last three years I&#8217;ve gone from full time .NET development to full time Ruby on Rails and then full time JavaScript. It&#8217;s been an awesome ride, so far, but it&#8217;s not done yet. I started digging in to PHP recently, and while I&#8217;m not going to be doing full time work with it I am certainly adding it to my list languages and runtimes that I enjoy using. 
 
 I know PHP is not the sexiest language in the web world right now, but it has a few things going for it: maturity in the language and frameworks for it, the amazingly friendly community of developers, and how quickly I can get a simple web server up and running.
 
@@ -30,7 +30,7 @@ I don&#8217;t use Rails unless I know I need to build a full stack, server-side 
 
 ## NodeJS
 
-Node is about the same amount of work to get up and running for a simple demo app. I have to install the Express package through npm and then configure an app.js file to server things correctly. This takes about the same amount of work as Ruby and Sinatra. 
+Node is about the same amount of work to get up and running for a simple demo app. I have to install the Express package through npm and then configure an app.js file to server things correctly. This takes about the same amount of work as Ruby and Sinatra. 
 
 There are 3 distinct advantages that I see in Node/Express over, though:
 
@@ -52,7 +52,7 @@ What does it take to get a PHP web server running, so I can begin hacking on a s
 
 > php -S localhost:5000
 
-Done. 
+Done. 
 
 No package manager config files to build. No packages to install. No need to configure a web server file with code. I just type that one liner and I&#8217;m good to go. I can edit and display any .php file or .html file that I want, without any other infrastructure work.
 

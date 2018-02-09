@@ -19,13 +19,13 @@ redirect_from: "/blogs/derickbailey/archive/2010/11/30/don-t-make-me-choose-to-f
 ---
 Most systems that involve humans making decisions have a set of standards: guidelines, rules and/or policies that help people make good decisions. These standards are usually in place for good reason &#8211; to prevent bad things from happening or to encourage good things. Software development and the software that we use every day are no different. For example, we set standards in how we develop our software: what language, what frameworks, the architectures, the application partitioning, and much much more. We also set standards in how people use our software &#8211; the user interface and how users interact with the system. Standards are all around us every day, even if we don&#8217;t recognize them.
 
- 
+ 
 
 ## Don&#8217;t Make Me Choose To Follow The Standards
 
 In the process of creating the standards and the system that is built around those standards, we often have a choice in how we implement the system and standards that is overlooked: whether or not the standards are the defaults. We can implement a system so that we must explicitly choose to follow the standards, or explicitly choose to deviate from the standards. The right choice &#8211; which isn&#8217;t alway obvious &#8211; is to set up the system so that the standards we want to follow are the defaults. We should not have to think about too much about implementing them. It should be easy and natural &#8211; the default way &#8211; to use the standards that are in place. Thus, when we need to deviate from the standards, it must be an explicit choice.
 
- 
+ 
 
 ## Helping Users Make Good Decisions
 
@@ -37,7 +37,7 @@ After some discussion, though, we realized that there are some potential issues 
 
 The net result of this decision is that it is now an explicit choice for an admin to create a manager (or assign themselves the role of manager) and work with patients. By having this be a decision that the admin must make, and not the default, we are encouraging admins to think about whether or not they need the rights to work with patients. Of course, it&#8217;s still simple for the admin to modify their own account or create a junk account with the rights to work with patients. At the very least, though, we&#8217;ll help keep the honest people honest.
 
- 
+ 
 
 ## Helping Developers Make Good Decisions
 
@@ -58,4 +58,4 @@ With this in mind, we decided to implement the authentication requirement in the
 
 Now our system is nice and secure, and we don&#8217;t have to worry about whether or not we put authentication into any given controller. Of course, authorization still has to be added to the individual controllers, but we expected that. Authorization is much more fine-grained than authentication in our system and we are not yet sure if we can generalize it to the base controller (seems unlikely, off-hand).
 
- 
+ 

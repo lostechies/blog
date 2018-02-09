@@ -12,7 +12,7 @@ categories:
 ---
 A few months ago, I had an &#8220;AHA!&#8221; moment working with git. I was doing one of my usual fixes for a mistake I had made and I had the realization that a named branch in git can be thought of as a pointer in C or C++ programming. I&#8217;d heard a number of people say similar things in the past, so it certainly wasn&#8217;t an original thought. However, it was an important realization for me and it has begun to influence the way I think about and work with git, and the way I approach teaching git.
 
- 
+ 
 
 ### Pointers: A Location In Memory
 
@@ -20,7 +20,7 @@ Software systems run in memory, and memory can be accessed through various mecha
 
 Of course, this is an over simplification of pointers, purposely. There&#8217;s a lot of nuances to pointers that I don&#8217;t understand anymore (it&#8217;s been 15+ years since I&#8217;ve dealt with them). But the oversimplification gives us a starting point to work with for a perspective on git commits and branches.
 
- 
+ 
 
 ### Branches: Named Pointers
 
@@ -36,9 +36,9 @@ If you want an explicit branch in git, you need to have a named HEAD (or pointer
 
 <img title="Screen shot 2011-05-23 at 9.03.08 PM.png" src="http://lostechies.com/derickbailey/files/2011/05/Screen-shot-2011-05-23-at-9.03.08-PM.png" border="0" alt="Screen shot 2011 05 23 at 9 03 08 PM" width="208" height="64" />
 
-Each of the five labels in this screen shot is an explicit branch &#8211; a named pointer that is addressable as a &#8220;branch&#8221; in git, and points to a specific commit. Notice, though, that there are only two commits in this screen shot in spite of 5 named branches being shown. If you think of each of these named branches as a pointer variable, it starts to become a little more clear. We have 5 pointers. 3 of them point to the commit highlighted in the blue line and 2 of them point to a commit just below that one.
+Each of the five labels in this screen shot is an explicit branch &#8211; a named pointer that is addressable as a &#8220;branch&#8221; in git, and points to a specific commit. Notice, though, that there are only two commits in this screen shot in spite of 5 named branches being shown. If you think of each of these named branches as a pointer variable, it starts to become a little more clear. We have 5 pointers. 3 of them point to the commit highlighted in the blue line and 2 of them point to a commit just below that one.
 
- 
+ 
 
 ### Pointers Are Easy To Manipulate
 
@@ -52,7 +52,7 @@ The selected commit in this screen shot would have an &#8220;address&#8221; of 5
 HEAD is now at 5ec76a3 model and color code cardio, resistance and total exercise
 </pre>
 
- 
+ 
 
 We now have our foo branch pointing at this commit.
 
@@ -62,7 +62,7 @@ There are several other commands that can manipulate pointers directly, too. Eve
 
 Additionally, most of the [&#8220;Oops!&#8221; series of posts](http://lostechies.com/derickbailey/category/git/) that I&#8217;ve done on git are nothing more than pointer manipulations in this manner. Not all of them of course, but many of them are.
 
- 
+ 
 
 ### Analogies Fall Apart, But Branches Are Pointers
 

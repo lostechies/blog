@@ -38,13 +38,13 @@ With the DbCommand, you’re at the SQL level, not where I want to be. Instead, 
 
 I used the NHibernate design for EF, in that you define your filters with the entity metadata, and the parameters of the filter on an instance of your DbContext:
 
-[gist id=d8b5b36c38d4136826d6]
+{% gist d8b5b36c38d4136826d6 %}
 
 There are some limitations and the queries aren’t as powerful as what you can do in NHibernate, but the basic scenarios are there. Because filter parameter values are scoped against an instance of a DbContext, you can effectively partition the filter values based on specific scenarios/contexts. Behind the covers, I translate the LINQ expression passed in via filter configuration to a DbExpression, substitute the contextual parameter values appropriately, and append the result as an additional filter to your query.
 
 For example, different users in a multi-tenant environment will have their tenant filter applied based on their specific tenant:
 
-[gist id=ffc76e80068320dcc972]
+{% gist ffc76e80068320dcc972 %}
 
 The GitHub readme has more details, and the code can at least provide an inspiration for those that want to do something a bit more dynamic than [what was shown at Tech Ed](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DEV-B417#fbid=).
 

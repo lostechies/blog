@@ -19,7 +19,7 @@ Most applications offer some way of adding or changing data to the user. In this
 
 As a starting point let’s create a very simple data entry form in pure HTML5. This sample is a login form where the user has to enter a username and a password and where there is a login button she can click.
 
-[gist id=151edde2e7152c8e8aaf]
+{% gist 151edde2e7152c8e8aaf %}
 
 # Angular Forms
 
@@ -29,7 +29,7 @@ Angular augments the functionality provided by the HTML5 form significantly. If 
 
 Most importantly we have properties **$valid** and **$invalid** on the form which tell us whether or not our form in in a valid state. We can now bind to these values in our view. Let’s make the above sample an Angular form now. To be able to have the form in an invalid state we’ll add the HTML5 **required** attribute to the **userName** and **password** input tags.
 
-[gist id=c61160e04190f452a354]
+{% gist c61160e04190f452a354 %}
 
 Note that I have added the attribute **novalidate** to the form tag to suppress the normal HTML5 validation and rather rely on the validation through Angular. If we load the above page in our browser we can see that initially the form is invalid since both data entry fields are empty. 
 
@@ -39,7 +39,7 @@ As soon as we enter something in both fields the form becomes valid which is sho
 
 We cannot only determine whether the whole form is valid or not but also does Angular provide us the validity of each individual data entry control on the form. To access the validity of a control we have to name it similar as we did with the form. Each named control then becomes a property on our loginForm object. Let’s use this possibility to display the state of each input control right after the control itself
 
-[gist id=061e207af3f1c5da6f0b]
+{% gist 061e207af3f1c5da6f0b %}
 
 And this is how it should look like in the browser
 
@@ -47,7 +47,7 @@ And this is how it should look like in the browser
 
 We can now use what we just learned to conditionally display some error message next to each input element if it is invalid. For this we use the ng-hide attribute on a div tag which contains the error message. In the case of the userName input this would look like this
 
-[gist id=f6462fdb464ffea45171]
+{% gist f6462fdb464ffea45171 %}
 
 And again in the browser we get something like this if we have a valid and an invalid input control
 
@@ -55,7 +55,7 @@ And again in the browser we get something like this if we have a valid and an in
 
 We can of course also keep the login button disabled while the form is invalid by using the **ng-disabled** directive on the button
 
-[gist id=96580833e7b9854262b8]
+{% gist 96580833e7b9854262b8 %}
 
 ## Is the form dirty?
 
@@ -63,15 +63,15 @@ Angular also provides us the two properties **$dirty** and **$pristine** (the op
 
 First let’s use the form level properties and use them in the section where we display the form properties
 
-[gist id=135b1d5a119e3fefbdf2]
+{% gist 135b1d5a119e3fefbdf2 %}
 
 Initially our form will be clean or pristine. As soon as the user starts to type something in any of the input fields the form gets dirty. We can reset the dirty status of the form by using the **$setPristine()** function provided by Angular on our form. Let’s add a button to the form to achieve this.
 
-[gist id=4ca3608c1d06426910b9]
+{% gist 4ca3608c1d06426910b9 %}
 
 Currently we are displaying error messages next to each input control which is invalid. This is annoying if the user has not yet visited and changed the appropriate control. We want to only display the error message if the control is dirty and invalid. Using the $dirty flag we can easily achieve this e.g. for the user name control
 
-[gist id=94cbd68cbda4e670b776]
+{% gist 94cbd68cbda4e670b776 %}
 
 Note that I have changed the directive from **ng-hide** to **ng-show** and I am using the combination of **$invalid** and **$dirty**. Now, to be able to see the error text we have to first enter some username such as that the control is dirty and then erase the content of the input.
 

@@ -16,12 +16,12 @@ Some Nuget packages include executables in their tools folder. It is very easy t
 
 The solution is to create a helper that can figure out where the tool lives. If you are using rake for build automation, it is fairly straightforward:
 
-[gist id=1044159 file=nuget_tool.rb]
+{% gist 1044159 file=nuget_tool.rb %}
 
 If not, you may want to create a batch file in the root of your project that calls your tool. You can create a tool specific batch file:
 
-[gist id=1044159 file=nunit.bat]
+{% gist 1044159 file=nunit.bat %}
 
 Or, if you have lots of tools from different packages, you might just want a generic batch file that allows you to specify the executable name:
 
-[gist id=1044159 file=nuget_tool.bat]
+{% gist 1044159 file=nuget_tool.bat %}

@@ -13,9 +13,9 @@ categories:
   - JavaScript
   - Marionette
 ---
-One of my most popular blog posts in recent history is my [Zombies! RUN!](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/) post where I outline the possibility and problem of memory leaks and &#8220;zombie&#8221; views and other objects in Backbone applications. There&#8217;s a good chance, in fact, that if you&#8217;ve built a Backbone application, you&#8217;ve read this article already. It seems to get more traffic and more &#8220;THANK YOU!!!!&#8221; responses than any other blog post (and rightfully so, IMO). 
+One of my most popular blog posts in recent history is my [Zombies! RUN!](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/) post where I outline the possibility and problem of memory leaks and &#8220;zombie&#8221; views and other objects in Backbone applications. There&#8217;s a good chance, in fact, that if you&#8217;ve built a Backbone application, you&#8217;ve read this article already. It seems to get more traffic and more &#8220;THANK YOU!!!!&#8221; responses than any other blog post (and rightfully so, IMO). 
 
-Down in the comments of that post, [Johnny Oshika](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/#comment-323591119) posted a link to [his solution for managing events](http://stackoverflow.com/questions/7567404/backbone-js-repopulate-or-recreate-the-view/7607853#7607853). I fell in love with that approach almost as soon as I saw it, and baked it in to [Backbone.Marionette](http://marionettejs.com). Over the last year, then, it has grown and evolved a little and become a solution that I rely on to help me manage events in Marionette and in my backbone app development. I even baked it&#8217;s use directly in to every Marionette view, to handle the zombie view problems. I&#8217;ve had a lot of people ask how I manage zombies in Marionette, and I always point them to this solution. I&#8217;ve also had a number of people ask if they could use that solution outside of Marionette &#8211; YES! definitely. You should use this solution in any Backbone application that attached to events! 
+Down in the comments of that post, [Johnny Oshika](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/#comment-323591119) posted a link to [his solution for managing events](http://stackoverflow.com/questions/7567404/backbone-js-repopulate-or-recreate-the-view/7607853#7607853). I fell in love with that approach almost as soon as I saw it, and baked it in to [Backbone.Marionette](http://marionettejs.com). Over the last year, then, it has grown and evolved a little and become a solution that I rely on to help me manage events in Marionette and in my backbone app development. I even baked it&#8217;s use directly in to every Marionette view, to handle the zombie view problems. I&#8217;ve had a lot of people ask how I manage zombies in Marionette, and I always point them to this solution. I&#8217;ve also had a number of people ask if they could use that solution outside of Marionette &#8211; YES! definitely. You should use this solution in any Backbone application that attached to events! 
 
 And now it&#8217;s even easier to use this in your app, even if you&#8217;re not using Marionette.
 
@@ -46,7 +46,7 @@ If you are working with handful of objects, binding to their events, and those o
 
 Let&#8217;s say you have ObjA, ObjB and ObjC. Each of these fires some events, and you want to make sure you clean up the event handlers when your code is done. This is easy with an \`EventBinder\`:
 
-[gist id=3812055 file=1.js]
+{% gist 3812055 1.js %}
 
 Calling \`stop\` in this code will properly clean up all the event handlers for this use.
 

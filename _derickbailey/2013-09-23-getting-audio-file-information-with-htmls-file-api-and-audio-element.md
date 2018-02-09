@@ -21,11 +21,11 @@ I&#8217;ve been cranking out features and capabilities on [**SignalLeaf**](http:
 
 Most of the file information that I need can be gathered with the [HTML File API](http://www.w3.org/TR/FileAPI/). File name, size and content type, for example, can be pulled from this easily. The only thing you need is a <file> input element and a little bit of JavaScript (jQuery in this case).
 
-[gist id=6670383 file=fileInfo.html]
+{% gist 6670383 fileInfo.html %}
 
-[gist id=6670383 file=fileInfo.js]
+{% gist 6670383 fileInfo.js %}
 
-When the &#8220;change&#8221; event on the file input fires, you can grab the file information using the .files attribute of the input element. In this case, I&#8217;m using jQuery to capture the &#8220;change&#8221; event, but I&#8217;m grabbing the e.currentTarget directly after that. This gives me the HTML file input element, which has the .files attribute on it. This attribute is an array of files, for scenarios where you are selecting multiple files. In this case, there is only a single file selected so I&#8217;m grabbing the first item in the array.
+When the &#8220;change&#8221; event on the file input fires, you can grab the file information using the .files attribute of the input element. In this case, I&#8217;m using jQuery to capture the &#8220;change&#8221; event, but I&#8217;m grabbing the e.currentTarget directly after that. This gives me the HTML file input element, which has the .files attribute on it. This attribute is an array of files, for scenarios where you are selecting multiple files. In this case, there is only a single file selected so I&#8217;m grabbing the first item in the array.
 
 Once I have the file object, I can get the .name, .size and .type information and populate the HTML in my document, store these in <input> fields, or do whatever else I need to do with them. But while this information is great, it isn&#8217;t enough. I need to know the song duration as well, so that podcasters uploading an mp3 file to SignalLeaf won&#8217;t have to manually enter the song duration.
 
@@ -33,11 +33,11 @@ Once I have the file object, I can get the .name, .size and .type information an
 
 After some tweeting and asking if I there was a JavaScript library to get song duration in the browser, I found out that the HTML <audio> element has this built in to it. Once the <audio> element has loaded the file set in it&#8217;s &#8220;src&#8221; attribute, I can read the .duration of the element which returns the song duration in seconds.
 
-[gist id=6670383 file=audioElement.html]
+{% gist 6670383 audioElement.html %}
 
 Once I had that in place, I set up a &#8220;[canplaythrough](https://developer.mozilla.org/en-US/docs/Web/Reference/Events/canplaythrough)&#8221; event listener to tell me when the song had been loaded. This event fires when the song is loaded and can play all the way through. From there, I read the duration and then using momentjs, I convert the duration from seconds in to a more useful &#8220;hh:mm:ss&#8221; format.
 
-[gist id=6670383 file=audio-duration.js]
+{% gist 6670383 audio-duration.js %}
 
 This worked well for files hosted somewhere on the web, but I needed to load the file from the local machine of the person using SignalLeaf, before it was uploaded anywhere. It turns out there are a couple of options for this.
 
@@ -45,7 +45,7 @@ This worked well for files hosted somewhere on the web, but I needed to load the
 
 The first thing I tried to do was read the file contents in to memory and create a Data URI with the FileReader API. I found [this article on HTML5 Rocks](http://www.html5rocks.com/en/tutorials/file/dndfiles/), and it gave me all the information I needed for this attempt. So I set up a FileReader and built a Data URL &#8211; a base64 encoded version of a binary file.
 
-[gist id=6670383 file=fileReader.js]
+{% gist 6670383 fileReader.js %}
 
 My first test was successful! I was able to get the file information that I wanted. But when I tried to use this on files that were more than a few seconds long, I noticed the browser was locking up. The larger the file, the longer it locked up.
 
@@ -57,7 +57,7 @@ Shortly after running in to this problem and complaining about it on twitter, [C
 
 The gist of [the URL.createObjectUrl function](https://developer.mozilla.org/en-US/docs/Web/API/URL.createObjectURL), is that it returns a URL that points to a memory location in the browser, for an object. This object URL can be used in most places where a URL is supported. I used this to load large image files into memory for that project, and it makes sense to use it for a large audio file as well.
 
-[gist id=6670383 file=createObjectURL.js]
+{% gist 6670383 createObjectURL.js %}
 
 Now when I select a file, the audio information is parsed and displayed nearly instantly. It doesn&#8217;t seem to matter whether I load a 5 meg or 50 meg audio file, either. The browser is pulling the file in to memory, and the <audio> element is pointed at that memory location.
 

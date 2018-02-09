@@ -30,7 +30,7 @@ Create a new folder for the project. In the terminal navigate to this folder and
 
 When asked about the start file enter `server.js` and when asked for the `test` command then enter `jasmine-node spec`. This will generate our `package.json` file. It should look similar to this
 
-[gist id=296e9a74635f1d06bda2300f894ced8b]
+{% gist 296e9a74635f1d06bda2300f894ced8b %}
 
 This sample application will use [express JS](http://expressjs.com/) and thus we install this library using
 
@@ -38,11 +38,11 @@ This sample application will use [express JS](http://expressjs.com/) and thus we
 
 Now we can add a file `server.js` to the project. It should contain the following code
 
-[gist id=9e798bd95f0570fdb28a5899f8af36e4]
+{% gist 9e798bd95f0570fdb28a5899f8af36e4 %}
 
 On line 4 we import a module `primes.js` which contains the logic to determine whether or not a given number is a prime. Thus let&#8217;s add such a file `primes.js` to the project and add the following content to it
 
-[gist id=18fb048489a12628cd2c3ca04a927033]
+{% gist 18fb048489a12628cd2c3ca04a927033 %}
 
 Note how we export a function `isPrime` which is used on line 11 in the `server.js` file. I didn&#8217;t spend a lot of time to come up with the most efficient way of determining whether or not the number is a prime, thus bare with me&#8230;
 
@@ -50,7 +50,7 @@ Note how we export a function `isPrime` which is used on line 11 in the `server.
 
 To be able to package our application into a Docker image we need to add a file called `Dockerfile` to the solution. The content of this file should look like this
 
-[gist id=f8a1b5169cd75ac499972e6ec7ba6949]
+{% gist f8a1b5169cd75ac499972e6ec7ba6949 %}
 
 Note how on line 3 we install `jasmine-node` which we need to run our tests and how we expose not only port 3000 but also port 5858. The latter will be used to attach the debugger. Also note how we first copy only the `package.json` into the image and run `npm install` and only after this copy the remainder of the application folder into the image. This helps us to optimize the build of the Docker image. When building an image Docker will only rebuild the layers of the image that have changed. And it is much less likely that we change the content of the `package.json` file than that we change some code in the application.
 
@@ -78,7 +78,7 @@ I have selected Jasmine as my testing framework. To use Jasmine in a node applic
 
 we can now start defining our tests. Let&#8217;s first start with a simple unit test. Please add a folder `spec` to your application. Then add a file called `primes-spec.js` to this folder. Add the following content to this file
 
-[gist id=7f8ed2b96ddfcc7fa0ae868f0786be2a]
+{% gist 7f8ed2b96ddfcc7fa0ae868f0786be2a %}
 
 I am not going to discuss the syntax of a Jasmine test here. Please consult the excellent documentation [here](http://jasmine.github.io/) if you are not familiar with Jasmine. Once we have defined a test we can now execute the following command in our terminal
 
@@ -92,13 +92,13 @@ This translates to the call `jasmine-node spec` as we have defined in our `proje
 
 Now add a file called `server-spec.js` to the `spec` folder. It should have the following content
 
-[gist id=5650ca994d5f96c6638c412cbf3b970e]
+{% gist 5650ca994d5f96c6638c412cbf3b970e %}
 
 Once again we can run all tests by executing `npm test` in the terminal.
 
 We can now run the test in a container. For this we use `docker-compose`. Let&#8217;s a add a file `docker-compose.test.yml` file to our project. The content should be
 
-[gist id=8f1126eef93772a8b01238bd9501e158]
+{% gist 8f1126eef93772a8b01238bd9501e158 %}
 
 This yaml file contains instructions to build a container image using the Dockerfile in the current directory, open port 3000 and map it to port 3000 on the host. Finally we override the value of `entrypoint` as defined in the `Dockerfile` with the value `npm test`. Now on in the terminal enter the following command
 
@@ -120,7 +120,7 @@ Running automated tests against our application is one thing but sometimes we st
 
 This assumes that the name of the VM which is your Docker host is `default`. In my case the IP address is `192.168.99.100` which is default when you are using Docker Toolbox. Next we add another `docker-compose` file which we&#8217;ll be using for debugging. Add a file called `docker-compose.debug.yml` to the project and add the following content to the file
 
-[gist id=4becd7ad377e16223d876213be15b354]
+{% gist 4becd7ad377e16223d876213be15b354 %}
 
 Similar to the `docker-compose` file for testing we are using the `Dockerfile` to build the image, we open port 3000 and(!) port 5858 and map them to the same ports on the host. Finally we override the `entrypoint` with `node --debug=5858 server.js`. That is we start node in debug mode listening on port `5858`. We can start a debug session by using this command
 
@@ -130,7 +130,7 @@ As a last step we need to configure Visual Studio Code to attach to the node app
 
 [<img src="https://lostechies.com/gabrielschenker/files/2016/04/vs-code.png" alt="" title="vs-code" width="220" height="204" class="alignnone size-full wp-image-1407" />](https://lostechies.com/gabrielschenker/files/2016/04/vs-code.png) The content of this file should be like this
 
-[gist id=6ce229df4bbd74a04f49a1a46a5c603a]
+{% gist 6ce229df4bbd74a04f49a1a46a5c603a %}
 
 The interesting part for debugging is the section with the name `Attach`. We specifically need to make sure that the entry `address` is set to the correct IP address of our Docker host (192.168.99.100 in my case). Also double check that the `port` corresponds to the one node is listening at. Once we have added the launch configuration we can click on the **debug** symbol in VS Code. Make sure that the `Attach` configuration is selected and then hit the **run** button.
 

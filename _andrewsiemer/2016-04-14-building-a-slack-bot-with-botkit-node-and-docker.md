@@ -66,7 +66,7 @@ For windows go [grab an installer from nodejs.org](https://nodejs.org/en/downloa
 
 With node installed on your machine you can now run a node server.  Doing this is also pretty easy.  Open up your preferred text editor and type in the following code and save it as program.js.
 
-[gist id=ad6c96b384faabe83949359b8a7c1ac8]
+{% gist ad6c96b384faabe83949359b8a7c1ac8 %}
 
 Then open up a terminal window and cd into the directory with your program.js file.  Then type the following on a command line.
 
@@ -94,7 +94,7 @@ Now we are ready to install a bot into Slack.  To get started you need to have 
 
 With your API key in hand you can now create a new file in your preferred text editor called robot.js and enter the following code:
 
-[gist id=2181a1ca5a1a6e1b73b1a0289b14aaf0]
+{% gist 2181a1ca5a1a6e1b73b1a0289b14aaf0 %}
 
 Make sure you replace the <my\_slack\_bot_token> with your API token.
 
@@ -116,7 +116,7 @@ Specifically we need to add a package.json file which is basically a configurati
 
 Here is the contents of the file I am currently using for my bot.
 
-[gist id=c69236b390c30093e3a5b2601a43ec38]
+{% gist c69236b390c30093e3a5b2601a43ec38 %}
 
 With this file named package.json and living next to your robot.js file you can now use the following command to start your node app.
 
@@ -146,7 +146,7 @@ As long as you have the Docker Quickstart Terminal running you should be good to
 
 Once you have installed docker and have touched their simple tutorials (understanding the basics) you will need to understand the Dockerfile (capital D is important for some reason).  Start by creating a file named Dockerfile.  This is just an empty text file with no file extension.  This is the configuration for your docker image.  Here is the one I am using for my bot.
 
-[gist id=45ff51c7621589e22f8d43e499f06ab7]
+{% gist 45ff51c7621589e22f8d43e499f06ab7 %}
 
 [Here is the formal docs for Dockerfile](https://docs.docker.com/engine/reference/builder/) if you really want to dig deep on this.
 
@@ -235,7 +235,7 @@ Now that all of our plumbing is configured let&#8217;s build a quick weather bot
 
 You can find [the source for this weather bot here](https://github.com/asiemer/weather-bot).
 
-[gist id=00841a242eb4a69316084db2e0a51e1a]
+{% gist 00841a242eb4a69316084db2e0a51e1a %}
 
 ## Chat ops
 

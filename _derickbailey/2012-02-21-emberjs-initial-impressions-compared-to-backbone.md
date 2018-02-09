@@ -44,9 +44,9 @@ This project is perfect for me to start with because the original &#8211; BBClon
 
 EmberCloneMail, then, should be built from the JavaScript-ground up, using the same back-end, same HTML and CSS and producing the same functionality.
 
-You can find what little code there is for it on Github: <https://github.com/derickbailey/emberclonemail>
+You can find what little code there is for it on Github: <https://github.com/derickbailey/emberclonemail>
 
-And you can see what little there is to see on Heroku: <http://emberclonemail.heroku.com/>
+And you can see what little there is to see on Heroku: <http://emberclonemail.heroku.com/>
 
 ## Philosophy: Rails vs Sinatra
 
@@ -74,7 +74,7 @@ Now the documentation for Ember says that you can replace Handlebars with any te
 
 ## Handlebars: Yes, Please
 
-I like Handlebars. I really do. I&#8217;ve been a fan of the &#8220;no code in views&#8221; approach for a long time. Handlebars provides pretty much a perfect approach to this, from what I&#8217;ve seen so far. It combines a &#8220;no-code&#8221; approach with an ability to register helpers.  These helpers give you access to more advanced functionality when you need them, but prevent you from writing a bunch of logic and code in your views, directly.
+I like Handlebars. I really do. I&#8217;ve been a fan of the &#8220;no code in views&#8221; approach for a long time. Handlebars provides pretty much a perfect approach to this, from what I&#8217;ve seen so far. It combines a &#8220;no-code&#8221; approach with an ability to register helpers.  These helpers give you access to more advanced functionality when you need them, but prevent you from writing a bunch of logic and code in your views, directly.
 
 Up til now, I&#8217;ve been primarily using jQuery Templates or UnderscoreJS templates for Backbone&#8217;s rendering needs. I&#8217;m fairly certain that I&#8217;m going to switch to using Handlebars for Backbone now that I&#8217;ve seen it in action. I&#8217;m going to at least give it a try and see if it gives me a better approach within Backbone.
 

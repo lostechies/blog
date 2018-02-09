@@ -42,7 +42,7 @@ Common here is that we’re building a drop down list based on set of known enti
 
 On our ViewModel, we’d handle this in our form post with an entity:
 
-[gist id=a2d67d622d2975fce594]
+{% gist a2d67d622d2975fce594 %}
 
 We have our normal registration data, but the user also gets to choose their account type. The values of the account type, however, come from the database (and we use model binding to automatically bind up in the POST the AccountType you chose).
 
@@ -52,15 +52,15 @@ Wrong.
 
 Luckily for us, our conventions let us easily handle this scenario. We’ll take the same approach as our enum drop down builder, but instead of using type metadata for our list, we’ll use our database.
 
-[gist id=d39fc6b458b11bc752a9]
+{% gist d39fc6b458b11bc752a9 %}
 
 Instead of going to our type system, we query the DbContext to load all entities of that property type. We built a base entity class for the common behavior:
 
-[gist id=667c71beb2482a7c7d2d]
+{% gist 667c71beb2482a7c7d2d %}
 
 This goes into how we build our select element, with the display value showed to the user and the ID as the value. With this in place, our drop down in our view is simply:
 
-[gist id=912443b8424ab3333b67]
+{% gist 912443b8424ab3333b67 %}
 
 And any entity-backed drop-down in our system requires zero extra effort. Of course, if we needed to cache that list we would do so but that is beyond the scope of this discussion.
 
@@ -76,11 +76,11 @@ It turns out this isn’t really a good choice for a convention – because a co
 
 What we wound up with is something like this:
 
-[gist id=17dd4dd4e0394fb1b235]
+{% gist 17dd4dd4e0394fb1b235 %}
 
 We represent the list of items we want as a query, then execute the query through a mediator. From the results, we specify what should be the display/value selectors. Finally, we build our select tag as normal, using an HtmlTag instance directly. The [query/mediator](https://github.com/jbogard/mediatr) piece is the same as I described back in my [controllers on a diet series](http://lostechies.com/jimmybogard/2013/10/29/put-your-controllers-on-a-diet-gets-and-queries/), we’re just reusing the concept here. Our usage would look something like:
 
-[gist id=43a7bae28c0cb9d9ac31]
+{% gist 43a7bae28c0cb9d9ac31 %}
 
 If the query required contextual parameters – not a problem, we simply add them to the definition of our request object, the ActiveUsersQuery class.
 

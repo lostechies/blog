@@ -20,13 +20,13 @@ One of the advantages behind the [mediator pattern](http://en.wikipedia.org/wiki
 
 As a review, a mediator encapsulates how a series of objects interact. Our mediator looks like:
 
-[gist id=d0e6dd08f6f9042d3715]
+{% gist d0e6dd08f6f9042d3715 %}
 
 This is from a simple library ([MediatR](https://github.com/jbogard/MediatR)) I created (and borrowed heavily from others) that enables basic message passing. It facilitates loose coupling between how a series of objects interact. And like many OO patterns, it exists because of missing features in the language. In other functional languages, passing messages to handlers is accomplished with features like pattern matching.
 
 Our handler interface represents the ability to take an input, perform work, and return some output:
 
-[gist id=c6c28bdf8051a04dcfb9]
+{% gist c6c28bdf8051a04dcfb9 %}
 
 With this simple pattern, we encapsulate the work being done to transform input to output in a single method. Any complexities around this work are encapsulated, and any refactorings are isolated to this one method. As systems become more complex, isolating side-effects becomes critical for maintaining overall speed of delivery and minimizing risk.
 
@@ -38,17 +38,17 @@ These surrounding behaviors become implementations of the [decorator pattern](ht
 
 One common request I see is to do work on the requests coming in, or post-process the request on the way out. We can define some interfaces around this:
 
-[gist id=f1686afbddea1cbea282]
+{% gist f1686afbddea1cbea282 %}
 
 With this, we can modify inputs before they arrive to the main handler or modify responses on the way out.
 
 In order to execute these handlers, we just need to define a decorator around our main handler:
 
-[gist id=c2e33d125c4a1eab40e5]
+{% gist c2e33d125c4a1eab40e5 %}
 
 And if we’re using a modern IoC container (StructureMap in this case), registering our decorator is as simple as:
 
-[gist id=bddd83786f08dc26b1bf]
+{% gist bddd83786f08dc26b1bf %}
 
 When our mediator builds out the handler, it delegates to our container to do so. Our container builds the inner handler, then surrounds the handler with additional work. If this seems familiar, many modern web frameworks like [koa](http://koajs.com/) include a similar construct using continuation passing to define a pipeline for requests. However, since our pipeline is defined in our application layer, we don’t have to deal with things like HTTP headers, content negotiation and so on.
 
@@ -56,15 +56,15 @@ When our mediator builds out the handler, it delegates to our container to do so
 
 Most validation frameworks I use validate against a type, whether it’s validation with attributes or delegated validation to a handler. With [Fluent Validation](https://fluentvalidation.codeplex.com/), we get a very simple interface representing validating an input:
 
-[gist id=f769d5a25b0ea5164f23]
+{% gist f769d5a25b0ea5164f23 %}
 
 Fluent Validation defines base classes for validators for a variety of scenarios:
 
-[gist id=141ee2df995a7451443a]
+{% gist 141ee2df995a7451443a %}
 
 We can then plug our validation to the pipeline as occurring before the main work to be done:
 
-[gist id=1cad86869b41a954aec2]
+{% gist 1cad86869b41a954aec2 %}
 
 In our validation handler, we perform validation against Fluent Validation by loading up all of the matching validators. Because we have generic variance in C#, we can rely on the container to inject all validators for all matching types (base classes and interfaces). Having validators around messages means we can remove validation from our entities, and into contextual actions from a task-oriented UI.
 
@@ -84,11 +84,11 @@ We can now push a number of concerns into our application code instead of embedd
                             
                             Once we have this approach set up, we can define our application pipeline as a series of decorators around handlers:
                             
-                            [gist id=e6bb5c513846a9d889b0]
+                            {% gist e6bb5c513846a9d889b0 %}
                             
                             Since this code is not dependent on frameworks or HTTP requests, it’s easy for us to build up a request, send it through the pipeline, and verify a response:
                             
-                            [gist id=b8e7bc7b0e20c6561d18]
+                            {% gist b8e7bc7b0e20c6561d18 %}
                             
                             Or if we just want one handler, we can test that one implementation in isolation, it’s really up to us.
                             

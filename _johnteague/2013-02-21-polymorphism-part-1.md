@@ -34,23 +34,23 @@ You need to define the contract that will define abstraction the rest of your sy
 
 We’re going to create a component the sends messages to users.  We’ll start with the contract.  In this case we’ll use an interface to define the contract.
 
-[gist id=&#8221;4998293&#8243; file=&#8221;IMessenger.cs&#8221;]
+{% gist 4998293 IMessenger.cs %}
 
 It’s a very simple abstraction and only includes what we need it to do.  Now what we’ll do is create some concrete implorations of the interface.
 
-[gist id=&#8221;4998293&#8243; file=&#8221;EmailMessenger.cs&#8221;]
+{% gist 4998293 EmailMessenger.cs %}
 
-[gist id=&#8221;4998293&#8243; file=&#8221;SMSMessenger.cs&#8221;]
+{% gist 4998293 SMSMessenger.cs %}
 
 Now we’ve got two different behaviors with the same while keeping a consistent contract for send a message.  Now we’ll leverage the abstraction somewhere else in our application.
 
-[gist id=&#8221;4998293&#8243; file=&#8221;OrderProcessor.cs&#8221;]
+{% gist 4998293 OrderProcessor.cs %}
 
 Notice that the constructor takes a parameter of ISendMessages, not a concrete implementation.  The OrderSender is not concerned with determining what type of message should be sent or the implementation details of sending the message.  It only needs to know that the contract requires a Message object.   This is known as the Inversion of Control Principle.  By using only the abstraction and not the concrete types in the OrderProcessor the OrderProcessor has _inverted control_ of how to send the message to the originator.  When the OrderProcessor is created, it must be told what implementation to use.
 
 Also notice that because the contract in both concrete implementations, we can substitute any subtype for the base type (in this case the interface).  This is another of the design principle: Liskov Substitution Principle.  Let’s change the implementation a bit that will break LSP.
 
-[gist id=&#8221;5007533&#8243;]
+{% gist 5007533 %}
 
 Now that we need to set the Carrier on the SMSMessenger, we have to change what the order processor to set the carrier in the case of SMSMessager.  As you can see it really complicates using the messenger.  Now the OrderProcessor must have specific knowledge on how use a concrete type, and so will every other component that needs to send a message.  In this case there are several ways to solve this problem will still maintaining the LSP and we’ll discuss some of them later.
 

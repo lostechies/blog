@@ -77,13 +77,13 @@ Normally, the MVC view engine runs the Razor parser. But we’re not going that 
 
 A couple key points here. First, the part that runs the template through the view engine to render an HTML string:
 
-[gist id=2a037f77eaa939469b56]
+{% gist 2a037f77eaa939469b56 %}
 
 We render the view through our normal Razor view engine, but surround the result in a script tag signifying this is a Handlebars template. We’ll place the results in cache of course, as there’s no need to perform this step more than once. In our context objects we build up, we simply leave our ViewData blank, so that there isn’t any data bound to input elements.
 
 We also make sure our templates are named correctly, using the folder structure to match Ember’s conventions. In our one actual MVC action, we’ll include the templates in the first request:
 
-[gist id=bc991d77f65b6be17b2f]
+{% gist bc991d77f65b6be17b2f %}
 
 Now that our templates are parsed and named appropriately, we can focus on building our view templates.
 
@@ -95,29 +95,29 @@ We don’t have our convention model, or even our HtmlTag library to use. Instea
 
 Eventually, I want to get to this:
 
-[gist id=05620cf82d2e6afb2abc]
+{% gist 05620cf82d2e6afb2abc %}
 
 But have this render this:
 
-[gist id=5c86e742877396dedc75]
+{% gist 5c86e742877396dedc75 %}
 
 First, let’s start with our basic input and just cover the very simple case of a text field.
 
-[gist id=01d4f6f0f72b72b6d00e]
+{% gist 01d4f6f0f72b72b6d00e %}
 
 We grab the expression text and model metadata, and begin building up our Handlebars snippet. We apply our conventions manually for each required attribute, including any additional attributes we need based on the MVC-style mode of passing in extra key/value pairs as a dictionary.
 
 Once we have this in place, we can layer on our label helper:
 
-[gist id=637ceae59754c9f42151]
+{% gist 637ceae59754c9f42151 %}
 
 It’s very similar to the code in the MVC label helper, with the slight tweak of defaulting label names to the property names with spaces between words. Finally, our input block combines these two together:
 
-[gist id=28119afea684cdf64c58]
+{% gist 28119afea684cdf64c58 %}
 
 Now, our views start to become a bit more sane, and it takes a keen eye to see that it’s actually a Handlebars template. We still get strongly-typed helpers, metadata-driven elements, and synergy between our client-side code and our server-side models:
 
-[gist id=e491ca933a1bb35a5ef4]
+{% gist e491ca933a1bb35a5ef4 %}
 
 We’ve now come full-circle, leverage our techniques that let us be ultra-productive building out pages on the server side, but not losing that productivity on the client-side. A concept such as “required field” lives in exactly one spot, and the rest of our system reads and reacts to that information.
 

@@ -31,15 +31,15 @@ If you have Visual Studio 2015 installed then make sure you get ASP.NET Core 1.0
 
 In VS 2015 create a new ASP.NET solution. Select the ASP.NET 5 template and select Web.API. Since we only want to target the .NET core library and not the full framework make sure you modify your **project.json** file and have your frameworks section looking like this
 
-[gist id=2397a296e6506694ac93]
+{% gist 2397a296e6506694ac93 %}
 
 Let&#8217;s delete the default controller that the VS template creates for us and define our own. Delete the **ValuesController.c**s class and add a controller named **ProjectsController**. Add the following content to that file
 
-[gist id=303969958a52f65ca4b1]
+{% gist 303969958a52f65ca4b1 %}
 
 If we want to have the Kestrel Web Server listen on any other port than 5000 (default) we can do so by adding a file called **hosting.json** to our project. The file should contain this content
 
-[gist id=3d1a21419fdf6b37df78]
+{% gist 3d1a21419fdf6b37df78 %}
 
 Now run the project. A terminal will open and you should see this
 
@@ -55,11 +55,11 @@ Hurray, our API is working.
 
 Create a project folder and using an editor of choice add and edit the necessary files. You can find a working sample [here](https://github.com/gnschenker/web-api-sample). Once you have created the project execute the following command in a command shell (terminal)
 
-[gist id=2279eece4f3e1d93f1f2]
+{% gist 2279eece4f3e1d93f1f2 %}
 
 Now run the application using this command
 
-[gist id=77a6d04ccdbc20a3d378]
+{% gist 77a6d04ccdbc20a3d378 %}
 
 Note, if you get an error similar to this
 
@@ -67,7 +67,7 @@ Note, if you get an error similar to this
 
 then your currently set target framework does not match with the one you require. You can get the list of all possible setting using
 
-[gist id=e9aea9374f6bdacfcfac]
+{% gist e9aea9374f6bdacfcfac %}
 
 which should show you something similar to
 
@@ -75,13 +75,13 @@ which should show you something similar to
 
 To change the active version to corecrl and x64 use this command
 
-[gist id=5ab9bb2251c0b0bcaaae]
+{% gist 5ab9bb2251c0b0bcaaae %}
 
 # Building the Docker image
 
 Now it is time to pack it as a Docker image. For this we need to first add a **Dockerfile** to the solution. The content of the file should look like this
 
-[gist id=c299c05a497b42dc54db]
+{% gist c299c05a497b42dc54db %}
 
 As you can see this Docker image we are going to build inherits from a base image curated by Microsoft (line 1). The name of the image is awful but I am sure it will get better once ASP.NET Core is final. On line 3 we copy the **project.json** file into the image. Then on line 4 we make the project folder (**/app**)  the working directory. Now we run the command to restore all nuget packages (line 5).  Finally on line 6 we copy the whole content of our project folder into the image. It is very important that we separate the copying of the **project.json** file and the restoring of the nuget packages from the copying of the whole project directory content. Since Docker images are layered doing so will avoid that we have to restore the nuget packages on each build although only some code has changed and no additional nuget packages have been added to the project. The difference is a compile/build time in the area of minutes (if we have many nuget packages) versus a couple of seconds&#8230;
 

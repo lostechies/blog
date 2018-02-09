@@ -141,15 +141,15 @@ With the VMs I want to achieve the following goals
                                                                                                                                                 
                                                                                                                                                 Add the Mono Project GPG signing key 
                                                                                                                                                 
-                                                                                                                                                [gist id=0844c54896fc21dcc248] 
+                                                                                                                                                {% gist 0844c54896fc21dcc248 %} 
                                                                                                                                                 
                                                                                                                                                 Next, add the package repository by running this command 
                                                                                                                                                 
-                                                                                                                                                [gist id=b010581914dbf322d8f0] 
+                                                                                                                                                {% gist b010581914dbf322d8f0 %} 
                                                                                                                                                 
                                                                                                                                                 If on Ubuntu 1.10 or later… also run the following command 
                                                                                                                                                 
-                                                                                                                                                [gist id=ff5c41924fd0908698af] 
+                                                                                                                                                {% gist ff5c41924fd0908698af %} 
                                                                                                                                                 
                                                                                                                                                 Now, using apt, install Mono (the complete package, note: this may take a while…) and also install xsp4 (a lightweight and simple web-server written in C#) 
                                                                                                                                                 

@@ -30,7 +30,7 @@ In the case of tests that cannot even be reached, we want to report exactly the 
 
 In other words, we want to &#8220;unwrap&#8221; any `TargetInvocationException` thrown by the test method invocation. We&#8217;d be tempted to do the following:
 
-[gist id=6170654]
+{% gist 6170654 %}
 
 This attempt would certainly usher test failures back to rest of the test framework. Test methods that are reached yet fail will throw the actual assertion failure back to the rest of the framework, to be caught and reported to the user. Test framework bugs will bypass this catch block (since they are some _other_ Exception type) and likewise throw back to the rest of the framework, to be caught and reported to the user.
 
@@ -46,7 +46,7 @@ I had two problems: the need to unwrap TargetInvocationExceptions, and the need 
 
 Mistakenly combining these two small problems into one all-encompassing exception-handling problem led me to an overly complex solution. Where ExceptionList belonged in a very small part of my system, it quickly spread everywhere. As a &#8220;fix&#8221; for the insufficient try/catch above, I did something like this:
 
-[gist id=6170663]
+{% gist 6170663 %}
 
 Instead of throwing exceptions, I would return nonempty ExceptionLists. I was correctly &#8220;unwrapping&#8221; TargetInvocationExceptions, and I was allowing the rest of the framework to combine these exceptions with things like failed teardown and Dispose() exceptions. I thought I was doing Good.
 
@@ -54,13 +54,13 @@ Instead of throwing exceptions, I would return nonempty ExceptionLists. I was co
 
 Collecting and returning exceptions didn&#8217;t seem too offensive. The caller, though, _also_ had to adopt the pattern of collecting and returning exceptions. The caller&#8217;s caller? Collect and return. On and on. When Fixie needed to construct a test class, run several tests, and finally Dispose of the test class, I was doing this:
 
-[gist id=6170669]
+{% gist 6170669 %}
 
 Wait a sec. At each step I ask, &#8220;Did anything fail yet?&#8221;. If something failed, I note the failure and then stop doing the rest of the operation. These if/else/return sequences are suspiciously like try/catch/throw, except that they are complex, nonidiomatic C#, and just _weird_.
 
 The ExceptionList nonsense was spreading into the public customization API, which is _supposed_ to be Fixie&#8217;s main selling point. An example from a previous blog post included a ridiculous method of the form:
 
-[gist id=6170674]
+{% gist 6170674 %}
 
 Insanity.
 

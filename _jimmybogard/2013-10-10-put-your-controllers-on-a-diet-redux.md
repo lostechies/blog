@@ -23,7 +23,7 @@ As before, we found that in our controller actions, there is a stark contrast be
 
 Before we start looking at our changes, let’s look back on what we want to actually fix:
 
-[gist id=6917851]
+{% gist 6917851 %}
 
 There’s nothing horrible about this controller, each action isn’t too bad. However, if GETs or POSTs get any more complex than this, I’d want to start isolating that behavior outside of things like ModelState and ActionResults. In the next series of posts, we’ll cover building concepts around GETs and POSTs, moving all business logic outside of the controller into pieces isolated from the UI, without resorting to as many somewhat esoteric tricks of custom action results and inflexible model binding extensions.
 

@@ -70,15 +70,15 @@ One example is something like a ConcurrentDictionary – sure, that doesn’t ex
 
 And then each of these would have an interface for a factory:
 
-[gist id=9103212]
+{% gist 9103212 %}
 
 A platform-specific library could then provide an override implementation for that type:
 
-[gist id=9103240]
+{% gist 9103240 %}
 
 Finally, I need a way to, at runtime, load the correct platform-specific implementation. I used a technique found in the [PCL Contrib project](http://pclcontrib.codeplex.com/) called the “[Probing Adapter Resolver](http://pclcontrib.codeplex.com/SourceControl/latest#Source/Portable.Runtime/Adaptation/ProbingAdapterResolver.cs)”. A class that needs a specific platform-specific implementation will ask a common resolver for one:
 
-[gist id=9103309]
+{% gist 9103309 %}
 
 At runtime, the probing resolver scans for assemblies named “AutoMapper.Xyz” where “Xyz” is a known platform name (NET4, SL4, WP8 etc.). If there is an implementation of that interface in that platform-specific assembly, I’ll use that one. Otherwise, I fall back on what is defined in AutoMapper.
 
@@ -110,7 +110,7 @@ It’s a stupid, annoying problem, but isn’t going away any time soon. My opti
 
 I wound up going with the last option. Initially, I did this in your project itself, and you’d see “AutoMapper.Net4.dll” in your project as content. Confusing to users, and not always wanted. Instead, I wound up creating an MSBuild hook to do this dynamically, and I now will inject into the build pipeline directly to dynamically add the platform-specific assembly as content:
 
-[gist id=9103524]
+{% gist 9103524 %}
 
 This method doesn’t modify your project file to include the assembly at content, but it does dynamically insert that content item during the build. Your project file doesn’t change, and you don’t see the platform-specific assembly as content in your solution. The only change to your project file is to reference this new targets file, but that’s a common approach NuGet packages do to provide build-time behavior. This change isn’t released, but is in the latest pre-release package.
 

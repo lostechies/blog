@@ -32,7 +32,7 @@ If you read through the source code for Backbone.Marionette, you&#8217;ll find a
 
 The only significant difference between a normal command and a Docco ready comment is that some of the comments have a //&#8212;&#8212;&#8212;&#8212;&#8212; line underneath of them. This tells Docco that this is going to be a section header, in the compiled documentation. Using a fixed with font, set the number of &#8211; in that comment line to the same width as your header title:
 
-[gist id=1476877 file=comments.js]
+{% gist 1476877 comments.js %}
 
 Other than that, comment your code as you normally would. You can also do some cool tricks like using \`bacticks\` around code, and the generated document will encompass that inside of a &lt;code&gt; tag, with CSS set accordingly. There&#8217;s likely some other tricks you can do, too, as this is all run through a Markdown processor to build the docs.
 
@@ -52,15 +52,15 @@ If you&#8217;re on a Windows machine, you can find installation instructions for
 
 **NodeJS (via Homebrew):**
 
-[gist id=1476877 file=nodejs.sh]
+{% gist 1476877 nodejs.sh %}
 
 **NPM:**
 
-[gist id=1476877 file=npm.sh]
+{% gist 1476877 npm.sh %}
 
 **CoffeeScript:**
 
-[gist id=1476877 file=coffeescript.sh]
+{% gist 1476877 coffeescript.sh %}
 
 **Python:** 
 
@@ -68,7 +68,7 @@ May be included in OSX… might be part of XCode. I&#8217;m on OSX Lion and I ha
 
 **Pygments:**
 
-[gist id=1476877 file=pygments.sh]
+{% gist 1476877 pygments.sh %}
 
 I&#8217;m not actually sure if you need to install the NPM pygments… I did, and things worked well for me. I&#8217;m assuming this is needed so NodeJS can run the Pygments tool.
 
@@ -76,7 +76,7 @@ I&#8217;m not actually sure if you need to install the NPM pygments… I did, an
 
 Once you have all the prerequisites in place, installing Docco is a one liner:
 
-[gist id=1476877 file=docco.sh]
+{% gist 1476877 docco.sh %}
 
 Now you have access to the \`docco\` command line tool.
 
@@ -84,7 +84,7 @@ Now you have access to the \`docco\` command line tool.
 
 This is super easy. Just run \`docco {file pattern}\` from the command line. For example, the above \`comments.js\` file can be run like this:
 
-[gist id=1476877 file=commandline.sh]
+{% gist 1476877 commandline.sh %}
 
 You can also use file patterns such as \`*.js\`
 
@@ -92,7 +92,7 @@ You can also use file patterns such as \`*.js\`
 
 I don&#8217;t like to run things manually when I don&#8217;t have to. Since my Marionette project uses Sinatra and Rake to run it&#8217;s Jasmine test suite, I decided to create a Docco task. Here&#8217;s what that would look like, for the above comments.js file:
 
-[gist id=1476877 file=rake.rb]
+{% gist 1476877 rake.rb %}
 
 Now I can run \`rake docco\` from the command line and it will build the docs for me. … yeah, this is probably overkill, but I wanted to do it anyways. 🙂
 

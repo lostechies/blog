@@ -17,7 +17,7 @@ I received a question via Github, asking if I had any simple, functional example
 
 
 
-(and for those of you using an RSS reader, the above iframe points to <http://jsfiddle.net/derickbailey/Cpn3g/4/> )
+(and for those of you using an RSS reader, the above iframe points to <http://jsfiddle.net/derickbailey/Cpn3g/4/> )
 
 The functionality of this example is very simple, but is shows just how little code you need to make your forms and html elements work together, through the use of backbone&#8217;s models and my plugin.
 

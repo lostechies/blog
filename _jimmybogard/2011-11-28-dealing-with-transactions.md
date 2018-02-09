@@ -27,7 +27,7 @@ I instead like the idea of a unit of work, or at the very least, a concept of [r
 
 Day to day, I’m living in the green section. I don’t want to “remember” to create transactions, deal with a pattern of saving, committing, rolling back etc. This should just be taken care of for me, through required infrastructure. One example is in Ayende’s example of the RavenController in MVC:
 
-[gist]https://gist.github.com/1401053[/gist]
+{% gist 1401053 %}
 
 On every request, a Raven session is opened, and everything saved at the end of the request. All developers have to do to make sure that transactions are used properly is simply inherit from this controller.
 

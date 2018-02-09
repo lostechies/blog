@@ -60,7 +60,7 @@ Our nodes on Virtualbox consist of a minimal Linux installation with Docker and 
 
 and then we can run a container with compose like this
 
-[gist id=97bd2faec269dc0de6b671117e94bf62]
+{% gist 97bd2faec269dc0de6b671117e94bf62 %}
 
 Note how I mount the `docker.sock` to have direct access to Docker on the host from within the container and I also mount the working directory into the container to have access to the files on the host like the `docker-compose.yml` file, etc. If I run the above command the version of docker-compose will be printed. To simplify my life I can define an alias as follows
 
@@ -84,7 +84,7 @@ Now we&#8217;re ready to create a new Docker swarm. Note that Docker (starting f
 
 where `[ip-address]` is the public IP address of the node (e.g. 192.168.99.101). The above command will tell us in the output which command to use to join other worker nodes to the swarm. In my case this looks like this
 
-[gist id=ce79cd887cb316dc1c16f0e94bb93395]
+{% gist ce79cd887cb316dc1c16f0e94bb93395 %}
 
 Don&#8217;t worry if you forget this command. At any time we can retrieve it again using
 
@@ -102,13 +102,13 @@ Open another terminal window and `ssh` into `node2`
 
 and run the join command needed for a worker (in my case this is)
 
-[gist id=02def3a0df1db9941e637d60c01ee842]
+{% gist 02def3a0df1db9941e637d60c01ee842 %}
 
 In your case you will of course have another swarm token and probably a different IP address.
 
 Now, we can do the very same for nodes 3 to 5 but that&#8217;s a bit tedious, especially if we don&#8217;t have 5 but 10 or more nodes. Let&#8217;s automate this
 
-[gist id=471fb50bb0bb2b5b00f53ef5a24b1278]
+{% gist 471fb50bb0bb2b5b00f53ef5a24b1278 %}
 
 OK, so now we have a 5 node swarm as we can easily test by running the command
 
@@ -162,7 +162,7 @@ and then push it
 
 If we now query the registry we get this
 
-[gist id=f98b4fa53675bd994ff9d663fec76da1]
+{% gist f98b4fa53675bd994ff9d663fec76da1 %}
 
 # Building and pushing services
 
@@ -176,7 +176,7 @@ cd into the source directory of the repository
 
 and then build and push all the services using this script
 
-[gist id=e0bd034078ae89115dc7affb80244660]
+{% gist e0bd034078ae89115dc7affb80244660 %}
 
 If we query the registry again we should now find all the services just built in the catalog too.
 

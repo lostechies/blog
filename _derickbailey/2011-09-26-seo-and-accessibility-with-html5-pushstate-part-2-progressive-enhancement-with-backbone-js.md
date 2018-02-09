@@ -24,13 +24,13 @@ Before we get into enabling PushState with our Backbone.js code, let&#8217;s tak
 
 Start by having a web server produce a very simple HTML form with a single textbox and button:
 
-[gist id=1243356 file=1-form.html]
+{% gist 1243356 1-form.html %}
 
 After the server renders this and delivers it down to the browser, the JavaScript for the page (a Backbone.js view in this case) would pick it up and run with it:
 
-[gist id=1243356 file=2-sayname.js]
+{% gist 1243356 2-sayname.js %}
 
-When i instantiate the view after the page loads, I&#8217;m providing the existing content of the form that was rendered by the server to the view instance as the &#8216;el&#8217; of the view. I am not calling render or having the view generate an for me when the first view is loaded. I have a render method available for after the view is up and running and the page is all javascript, though. This lets me re-render the view later if i need to. (In all honestly, though, this example doesn&#8217;t need a render method and it could easily be left out).
+When i instantiate the view after the page loads, I&#8217;m providing the existing content of the form that was rendered by the server to the view instance as the &#8216;el&#8217; of the view. I am not calling render or having the view generate an for me when the first view is loaded. I have a render method available for after the view is up and running and the page is all javascript, though. This lets me re-render the view later if i need to. (In all honestly, though, this example doesn&#8217;t need a render method and it could easily be left out).
 
 Clicking the &#8220;Say My Name&#8221; button with JavaScript enabled will cause an alert box.
 
@@ -40,13 +40,13 @@ Without javascript, it would post back to the server and the server could render
 
 ## A Less Trivial Example: A List Of Users
 
-Now say we have a list of users in a \`ul\` tag. This list is rendered by the server when the browser makes a request and the result looks something like this:
+Now say we have a list of users in a \`ul\` tag. This list is rendered by the server when the browser makes a request and the result looks something like this:
 
-[gist id=1243356 file=3-list.html]
+{% gist 1243356 3-list.html %}
 
-Now we need to loop through this list and attach a backbone view and model to each of the \`<li>\` items. With the use of the \`data-id\` attribute, we can find the model that each tag comes from easily. We&#8217;ll then need a collection view and item view that is smart enough to attach to this html.
+Now we need to loop through this list and attach a backbone view and model to each of the \`<li>\` items. With the use of the \`data-id\` attribute, we can find the model that each tag comes from easily. We&#8217;ll then need a collection view and item view that is smart enough to attach to this html.
 
-[gist id=1243356 file=4-list.js]
+{% gist 1243356 4-list.js %}
 
 In this example, the \`UserListView\` will loop through all of the \`<li>\` tags and attach a view object with the correct model for each one. It also sets up an event handler for the model&#8217;s \`change:name\` event and updates the displayed text of the element when a change occurs.
 
@@ -54,7 +54,7 @@ Then after we initialize everything and attach it to the HTML, we grab the first
 
 <img title="Screen Shot 2011-09-26 at 4.19.00 PM.png" src="http://lostechies.com/derickbailey/files/2011/09/Screen-Shot-2011-09-26-at-4.19.00-PM.png" border="0" alt="Screen Shot 2011 09 26 at 4 19 00 PM" width="144" height="95" />
 
-With this pattern of implementation in place, it should be fairly easy to see how we can progressively enhance our server-generated HTML with JavaScript frameworks like Backbone.js. However, there&#8217;s one more issue to cover still &#8211; what happens when we need to render the same HTML from the server side as well as from the client side?
+With this pattern of implementation in place, it should be fairly easy to see how we can progressively enhance our server-generated HTML with JavaScript frameworks like Backbone.js. However, there&#8217;s one more issue to cover still &#8211; what happens when we need to render the same HTML from the server side as well as from the client side?
 
 We don&#8217;t want to duplicate the HTML templates that our server uses, in our front-end HTML and JavaScript code. This would become a nightmare to maintain. Fortunately, we have some very sophisticated and malleable templating systems in both our server side frameworks and our client side frameworks, these days.
 
@@ -62,7 +62,7 @@ We don&#8217;t want to duplicate the HTML templates that our server uses, in our
 
 Looking back at a few of my previous posts, we can see the beginnings of what we need to do, to handle this situation. In my post on [Rendering A Rails Partial As A jQuery Template](http://lostechies.com/derickbailey/2011/06/22/rendering-a-rails-partial-as-a-jquery-template/), I covered the subject of re-using an ERB template from a Rails application in the front-end JavaScript with jQuery Templates. In this post, I show how to use a Rails model and populate it with data that looks like the jQuery Template markers:
 
-[gist id=1041780 file=some_controller.rb]
+{% gist 1041780 some_controller.rb %}
 
 You can see in this example that I&#8217;m populating a model&#8217;s \`value\` attribute with the data &#8220;${value}&#8221;. When this gets rendered into HTML via an ERB template, it will produce HTML that can be used with jQuery Templates.
 
@@ -72,9 +72,9 @@ In addition to this double-rendering technique, you may want to provide some fun
 
 With all of this in place &#8211; server rendered HTML and progressive enhancement to enable client side JavaScript &#8211; we can set our Backbone application up to use PushState. To do this, we only need to enable PushState via the \`Backbone.history.start\` function:
 
-[gist id=1243356 file=5-pushstate.js]
+{% gist 1243356 5-pushstate.js %}
 
-Using Backbone&#8217;s \`history\` requires a Router with at least one route, of course. While I haven&#8217;t shown how to use a router in this post, there are plenty of example of using routers out there on the web, including [my own blog posts on backbone.js](http://lostechies.com/derickbailey/category/backbone/) and [my training course](http://backbonetraining.net). Once a router is in place, though, and Backbone&#8217;s history is started, the browser will have it&#8217;s URL updated with full URLs instead of URL hash fragments.
+Using Backbone&#8217;s \`history\` requires a Router with at least one route, of course. While I haven&#8217;t shown how to use a router in this post, there are plenty of example of using routers out there on the web, including [my own blog posts on backbone.js](http://lostechies.com/derickbailey/category/backbone/) and [my training course](http://backbonetraining.net). Once a router is in place, though, and Backbone&#8217;s history is started, the browser will have it&#8217;s URL updated with full URLs instead of URL hash fragments.
 
 If we have set everything up correctly, a user will be able to hit the root of our application and Backbone will pick up and start the application from there. Then, once the user has progressed through the application and the browser&#8217;s URL has been updated appropriately, they can either bookmark the URL, copy & paste it or simply hit the refresh button in their browser. Doing this will cause the browser to make a request back to the server for the page that the browser was previously looking at. Once the page is rendered by the server and sent down to the browser, our JavaScript will kick in and enhance the functionality of the page, allowing the full experience of the page for those browsers that can support it.
 

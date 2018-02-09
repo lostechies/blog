@@ -14,17 +14,17 @@ categories:
   - SlideChop
   - Teensy
 ---
-[My previous post](http://lostechies.com/derickbailey/2013/04/27/slap-slides-proof-of-concept/) showed a working prototype for what I&#8217;m now calling SlideChop (huge thanks to [Eric Anderson](https://twitter.com/eric_anderson) for the name!) Since then, I&#8217;ve upgraded things a bit and now have a much more stable, much easier to use version. It no longer requires a NodeJS server, and now works on Mac, Linux and Windows. 
+[My previous post](http://lostechies.com/derickbailey/2013/04/27/slap-slides-proof-of-concept/) showed a working prototype for what I&#8217;m now calling SlideChop (huge thanks to [Eric Anderson](https://twitter.com/eric_anderson) for the name!) Since then, I&#8217;ve upgraded things a bit and now have a much more stable, much easier to use version. It no longer requires a NodeJS server, and now works on Mac, Linux and Windows. 
 
 ![](http://lostechies.com/derickbailey/files/2013/04/NewImage.png)
 
 ## Teensy 3.0
 
-The secret is in the use of [a Teensy 3.0 for the controller](http://www.pjrc.com/teensy/). This little device is an [Arduino](http://arduino.cc) compatible micro controller that has a few very specific advantages: it can emulate a mouse, keyboard, joystick or any other native serial communications device, through the hardware itself! All I had to do was write a little bit of C code to handle the click of the physical button, and then call the Mouse.click() method from the Teensy API. Teensy handles the rest for me.
+The secret is in the use of [a Teensy 3.0 for the controller](http://www.pjrc.com/teensy/). This little device is an [Arduino](http://arduino.cc) compatible micro controller that has a few very specific advantages: it can emulate a mouse, keyboard, joystick or any other native serial communications device, through the hardware itself! All I had to do was write a little bit of C code to handle the click of the physical button, and then call the Mouse.click() method from the Teensy API. Teensy handles the rest for me.
 
 Here are a few images of the Teensy in the hardware setup for the SlideChop:
 
-<img title="IMAG1664.jpg" src="http://lostechies.com/derickbailey/files/2013/06/IMAG1664.jpg" alt="IMAG1664" width="600" height="338" border="0" /> 
+<img title="IMAG1664.jpg" src="http://lostechies.com/derickbailey/files/2013/06/IMAG1664.jpg" alt="IMAG1664" width="600" height="338" border="0" /> 
 
 <img title="IMAG1666.jpg" src="http://lostechies.com/derickbailey/files/2013/06/IMAG1666.jpg" alt="IMAG1666" width="600" height="338" border="0" />
 
@@ -42,15 +42,15 @@ Once you have it installed, you&#8217;ll get some extra menu items in the Arduin
 
 <img title="ArduinoToolsMenu.png" src="http://lostechies.com/derickbailey/files/2013/06/ArduinoToolsMenu.png" alt="ArduinoToolsMenu" width="600" height="441" border="0" />
 
- 
+ 
 
- <img title="ArduinoBoardType.png" src="http://lostechies.com/derickbailey/files/2013/06/ArduinoBoardType.png" alt="ArduinoBoardType" width="600" height="208" border="0" />
+ <img title="ArduinoBoardType.png" src="http://lostechies.com/derickbailey/files/2013/06/ArduinoBoardType.png" alt="ArduinoBoardType" width="600" height="208" border="0" />
 
- 
+ 
 
-<img title="ArduinoUSBType.png" src="http://lostechies.com/derickbailey/files/2013/06/ArduinoUSBType.png" alt="ArduinoUSBType" width="600" height="175" border="0" /> 
+<img title="ArduinoUSBType.png" src="http://lostechies.com/derickbailey/files/2013/06/ArduinoUSBType.png" alt="ArduinoUSBType" width="600" height="175" border="0" /> 
 
- 
+ 
 
 Now the Teensy will emulate a Keyboard / Mouse / Joystick, and you can use [the appropriate API for that](http://www.pjrc.com/teensy/td_mouse.html). There&#8217;s no need to include any specific header files or libraries, either. If you have selected the right USB type, then the API is made available without doing anything else.
 
@@ -58,7 +58,7 @@ Now the Teensy will emulate a Keyboard / Mouse / Joystick, and you can use [the 
 
 The code for this is [available from this repository](https://github.com/derickbailey/slidechop). It&#8217;s fairly simple, but I&#8217;m terrible at C code and even worse with run loops. So there are a few bugs in here… most notably is when you hold down the button for a &#8220;right click&#8221;, it sometimes does a left click as well as a right click. I have no idea why… someone else with better C / run loop skillz can probably school me in this pretty quickly, though.
 
-The Teensy has a built in LED and I&#8217;m taking advantage of that. When you plug the SlideChop in to your computer, I blink the LED twice. This tells you that the SlideChop is ready to roll. When you slap the button down, I blink the light. And when you hold the button down for more than a second, I tell the SlideChop to do a right-click and turn the light on for you. This extra little bit of LED goodness is there just to tell you that the code is working. 
+The Teensy has a built in LED and I&#8217;m taking advantage of that. When you plug the SlideChop in to your computer, I blink the LED twice. This tells you that the SlideChop is ready to roll. When you slap the button down, I blink the light. And when you hold the button down for more than a second, I tell the SlideChop to do a right-click and turn the light on for you. This extra little bit of LED goodness is there just to tell you that the code is working. 
 
 ## Misc Other Stuff
 

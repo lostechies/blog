@@ -61,7 +61,7 @@ When we use a method reference (that is, a function attached to another object) 
 </pre>
 </div>
 
-In this case, the Subject is only directly handed a reference to the `someHandler` function. This function does not bring along a reference to `anotherObject,` but the someHandler function does not get cleaned up when the &#8220;anotherObject&#8221; goes out of scope. &#8220;myObject&#8221; has a reference to it, so it can&#8217;t be cleaned up. And this, as we know, is one of the most common causes of [zombie objects in JavaScript apps](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/). There are simple ways to solve this, though. We just need to remove the observer reference from the Subject when we&#8217;re done:
+In this case, the Subject is only directly handed a reference to the `someHandler` function. This function does not bring along a reference to `anotherObject,` but the someHandler function does not get cleaned up when the &#8220;anotherObject&#8221; goes out of scope. &#8220;myObject&#8221; has a reference to it, so it can&#8217;t be cleaned up. And this, as we know, is one of the most common causes of [zombie objects in JavaScript apps](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/). There are simple ways to solve this, though. We just need to remove the observer reference from the Subject when we&#8217;re done:
 
 <div class="highlight">
   <pre><span class="nx">myObject</span><span class="p">.</span><span class="nx">off</span><span class="p">(</span><span class="s2">"some:event"</span><span class="p">,</span> <span class="nx">anotherObject</span><span class="p">.</span><span class="nx">someHandler</span><span class="p">);</span>

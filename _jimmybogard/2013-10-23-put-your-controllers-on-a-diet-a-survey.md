@@ -25,11 +25,11 @@ Looking at just this one controller, I don’t currently see any reason to go an
 
 But maybe I do, and testing these controllers isn’t really a big deal. It’s an integration test, one that would exercise the database. We already know how to do that, so there’s not much point in refactoring these controllers any in the goal of “testability”. It’s already testable. I can control all the pieces I need to in this picture:
 
-[gist id=7118873]
+{% gist 7118873 %}
 
 Back to our goals, why go further? What about complexity? Is this complex?
 
-[gist id=7118902]
+{% gist 7118902 %}
 
 Again, not really. I’ve got a few things going on (validation, querying, mutation and then redirection) covering various layers (UI/DB/Domain) all in one method. Is this fundamentally wrong?
 

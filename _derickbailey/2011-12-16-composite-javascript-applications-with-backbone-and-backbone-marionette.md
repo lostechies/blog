@@ -47,15 +47,15 @@ This was the big piece for me in building Marionette. I noticed that at some poi
 
 The problem is that these objects have usually ended up in a giant tangled mess with far too many concerns. For example, here&#8217;s some code from an image gallery that I wrote a few months ago. Note that this is only the application startup code:
 
-[gist id=1486459 file=gallery.js]
+{% gist 1486459 gallery.js %}
 
 It&#8217;s a giant mess and it&#8217;s difficult to understand and maintain.
 
-The solution involved recognizing that I was putting far too many concerns into a single place, combined with a healthy dose of encapsulation. I want each functional area of my application to have it&#8217;s own start up code, encapsulated within that functional area&#8217;s code. I don&#8217;t want to have to mash all the functional areas together into one procedural mess. So, I build the \`Backbone.Marionette.Application\` object.
+The solution involved recognizing that I was putting far too many concerns into a single place, combined with a healthy dose of encapsulation. I want each functional area of my application to have it&#8217;s own start up code, encapsulated within that functional area&#8217;s code. I don&#8217;t want to have to mash all the functional areas together into one procedural mess. So, I build the \`Backbone.Marionette.Application\` object.
 
-This object provides a number of different features, one of which is the ability to register application initialization callbacks. To do this, you need to create an instance of an Application object, first. Then call the \`addInitializer\` method and provide a callback function. The initialization functions are then kicked off when you call the \`start\` method on your application:
+This object provides a number of different features, one of which is the ability to register application initialization callbacks. To do this, you need to create an instance of an Application object, first. Then call the \`addInitializer\` method and provide a callback function. The initialization functions are then kicked off when you call the \`start\` method on your application:
 
-[gist id=1486459 file=initializer.js]
+{% gist 1486459 initializer.js %}
 
 You can optionally pass an object through the start method, as well. This object is made available to all of the initializer callbacks as a single parameter to the callback function. Additionally, there&#8217;s a &#8220;initialize:before&#8221; and &#8220;initialize:after&#8221; event that the application object raises, using Backbone&#8217;s Event functionality.
 
@@ -69,19 +69,19 @@ The \`Application\` object comes with an event aggregator built into it. You can
 
 Of course you can still build your own event aggregator with one line of code.
 
-[gist id=1486459 file=vent.js]
+{% gist 1486459 vent.js %}
 
 In fact, this is all I&#8217;m doing in the Application object. I just put it there as a convenience so I don&#8217;t have to create one manually for every app:
 
 ## How: View Management
 
-In one of my recent blog posts on composite JS apps I talked about [the use of a region manager](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/), and the code that I wrote in that post has been migrated into Backbone.Marionette as the \`RegionManager\` object.
+In one of my recent blog posts on composite JS apps I talked about [the use of a region manager](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/), and the code that I wrote in that post has been migrated into Backbone.Marionette as the \`RegionManager\` object.
 
-The [intent and purpose of a RegionManager](http://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/) is the same as I&#8217;ve previously talked about. The difference in Marionette is how you access a RegionManager. You have two options: use the \`addRegions\` method on your Application instance, or manually create a RegionManager object. The choice gives you flexibility, allowing you to use a RegionManager without using the rest of Marionette, if you want to.
+The [intent and purpose of a RegionManager](http://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/) is the same as I&#8217;ve previously talked about. The difference in Marionette is how you access a RegionManager. You have two options: use the \`addRegions\` method on your Application instance, or manually create a RegionManager object. The choice gives you flexibility, allowing you to use a RegionManager without using the rest of Marionette, if you want to.
 
 The \`addRegions\` method on the Application object accepts a single parameter of a JavaScript object literal. The keys for this object become the names of the regions, and the value of each key should be a jQuery selector that points to the HTML DOM element that your region manager will manage:
 
-[gist id=1486459 file=region.js]
+{% gist 1486459 region.js %}
 
 You can also pass a RegionManager definition as a value. See [the documentation](http://github.com/derickbailey/backbone.marionette) for more info on this.
 

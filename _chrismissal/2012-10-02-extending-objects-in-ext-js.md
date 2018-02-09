@@ -16,11 +16,11 @@ tags:
 ---
 Last time we explored [JavaScript object extension](http://lostechies.com/chrismissal/2012/09/27/extending-objects-with-javascript/ "Extending Objects with JavaScript") we dove into the most popular JavaScript library in the known universe, [jQuery](http://lostechies.com/chrismissal/2012/09/27/extending-objects-in-jquery/ "Extending Objects in jQuery"). This time around we&#8217;ll be looking at Ext JS, a framework I&#8217;ve been using quite a bit lately. Ext JS relies on this capability all over the place. Especially when you want to create your own customizable components.
 
-[gist id=3797195 file=extending-objects-in-ext-js-1.js]
+{% gist 3797195 file=extending-objects-in-ext-js-1.js %}
 
 And the output:
 
-[gist id=3797195 file=extending-objects-in-ext-js-2.js]
+{% gist 3797195 file=extending-objects-in-ext-js-2.js %}
 
 You&#8217;re welcome to click back or open a new tab to compare this to the previous post, but this is different from the jQuery example. The single difference is that the _desc_ property doesn&#8217;t exist in our extended object. Ext JS has decided that a property with a null value will overwrite a previous value (see _title_), but an _undefined_ value will in effect erase the property.
 

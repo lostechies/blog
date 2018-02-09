@@ -31,15 +31,15 @@ First, let’s look at a simple scenario of creating a mock and modifying our co
 
 We’ve got our libraries added, now we just need to add a way to create a fake and inject it into our child container. Since we’ve built an explicit fixture object, this is the perfect place to put our code:
 
-[gist id=a47c41d2d15b4de9e1ae]
+{% gist a47c41d2d15b4de9e1ae %}
 
 We create the fake using FakeItEasy, then inject the instance into our child container. Because we might have some existing instances configured, I use “EjectAllInstancesOf” to purge any configured instances. Once we’ve injected our fake, we can now both configure the fake and use our container to build out an instance of a root component. The code we’re trying to test is:
 
-[gist id=9b28f34b7535b996b6a7]
+{% gist 9b28f34b7535b996b6a7 %}
 
 In our situation, the approval service is some web service that we can’t control and we’d like to stub that out. Our test now becomes:
 
-[gist id=0f8e1629991ea2a315dd]
+{% gist 0f8e1629991ea2a315dd %}
 
 Instead of using FakeItEasy directly, we go through our fixture instead. Once our fixture creates the fake, we can use the fixture’s child container directly to build out our root component. We configured the child container to use our fake instead of the real web service – but this is encapsulated in our test. We just grab a fake and start going.
 
@@ -49,19 +49,19 @@ The manual injection works fine, but we can also instruct AutoFixture to handle 
 
 We’re trying to get out of creating the fake and root component ourselves – that’s what AutoFixture is supposed to take care of, creating our fixtures. We can instead create an attribute that AutoFixture can key into:
 
-[gist id=d2d7cf2df9f2cc763897]
+{% gist d2d7cf2df9f2cc763897 %}
 
 Instead of building out the fixture items ourselves, we go back to AutoFixture supplying them, but now with our new Fake attribute:
 
-[gist id=83e6f38939e6ee2a5cd6]
+{% gist 83e6f38939e6ee2a5cd6 %}
 
 In order to build out our fake instances, we need to create a specimen builder for AutoFixture:
 
-[gist id=9ad9f90ed4587c6b89ec]
+{% gist 9ad9f90ed4587c6b89ec %}
 
 It’s the same code as inside our context object’s “Fake” method, made a tiny bit more verbose since we’re dealing with type metadata. Finally, we need to register our specimen builder with AutoFixture:
 
-[gist id=fc941023014f4b24357a]
+{% gist fc941023014f4b24357a %}
 
 We now have two options when building out fakes – manually through our context object, or automatically through AutoFixture. Either way, our fakes are completely isolated from other tests but we still build out our root components we’re testing through our container. Building out through the container forces our test to match what we’d do in production as much as possible. This cuts down on false positives/negatives.
 

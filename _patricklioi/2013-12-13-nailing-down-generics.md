@@ -14,7 +14,7 @@ categories:
 
 You write a class containing a harmless generic method:
 
-[gist id=7944797]
+{% gist 7944797 %}
 
 Actually, for the purposes of this discussion, this is **not** one method declaration. Rather, it is an infinite number of method declarations:
 
@@ -25,7 +25,7 @@ Actually, for the purposes of this discussion, this is **not** one method declar
 
 Each time you make a call, the compiler decides which of the infinite methods you really meant. It makes this decision each time you call something called &#8220;GenericMethod&#8221;. It makes this decision based on the compile-time types at each call site:
 
-[gist id=7944816]
+{% gist 7944816 %}
 
 The compiler knows the compile-time type of each argument, and compares this to the generic type definition in order to pick the single winning &#8220;specific&#8221; method.
 
@@ -35,7 +35,7 @@ Easy, right? C# 101 stuff.
 
 Let&#8217;s try to call the same method, with the same inputs, via reflection:
 
-[gist id=7944838]
+{% gist 7944838 %}
 
 MethodInfo.Invoke(&#8230;) wants you to throw an object[] at the method. It wants to take the first item of that array for the first parameter of the method, the second item for the second parameter, etc. 
 
@@ -55,7 +55,7 @@ Translation: the exception message is saying, &#8220;You cannot invoke the metho
 
 Lets narrow things down, each time we want to call the method via reflection. _Just like the compiler did for us in the original compile-time example_:
 
-[gist id=7944850]
+{% gist 7944850 %}
 
 This time, thankfully, we get the same output as the original plain calls to GenericMethod<T>(T). As with the original example, we know _exactly which 3_ of the _infinite_ methods are being called.
 
@@ -63,7 +63,7 @@ This time, thankfully, we get the same output as the original plain calls to Gen
 
 Let&#8217;s say you&#8217;re using the Fixie test framework and you have [defined an [Input] attribute with an associated Fixie Convention in order to have parameterized tests](http://lostechies.com/patricklioi/2013/09/27/a-swiss-army-katana/). If one of your test methods is generic, Fixie faces the same problem we faced above:
 
-[gist id=7944867]
+{% gist 7944867 %}
 
 Fixie calls test methods via reflection, using an object[] of inputs. In this case, the object[] has length 1, and the values come from the [Input] attributes. In order to successfully invoke the MethodInfo, Fixie must also call MethodInfo.MakeGenericMethod(&#8230;), passing in the right concrete Type, in order to get a handle on the specific, concrete version of the MethodInfo. Finally, Fixie can invoke _that_ MethodInfo.
 

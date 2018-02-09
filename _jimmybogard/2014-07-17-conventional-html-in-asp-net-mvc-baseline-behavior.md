@@ -28,11 +28,11 @@ First, in order to establish a baseline, we need to examine what our current imp
 
 First, let’s create our own HtmlConventions class that inherits from the default:
 
-[gist id=178a3afb6a9345f07b54]
+{% gist 178a3afb6a9345f07b54 %}
 
 We’ll then redirect our container configuration to use this convention library instead:
 
-[gist id=939d0de004cb6763f31f]
+{% gist 939d0de004cb6763f31f %}
 
 The OverrideHtmlConventions class is where we’ll apply our own conventions on top of the existing ones. The base conventions class lets us apply conventions to several classes of items:
 
@@ -67,21 +67,21 @@ You have a lot of information to work with, the original value, new value, conta
 
 I want to set up our “Always” conventions first, which means really only adding CSS classes. The input elements are easy:
 
-[gist id=eab71767ab785b0739d8]
+{% gist eab71767ab785b0739d8 %}
 
 Our input elements become a bit simpler now:
 
-[gist id=8ba7b259f007af25d26f]
+{% gist 8ba7b259f007af25d26f %}
 
 Our labels are a bit more interesting. Looking across the app, it appears that all labels have two CSS classes applied, one pertaining to styling a label, and one pertaining to width. At this point we need to make a judgment call. Do we standardize that all labels are a certain width? Or do we force all of our views to explicitly set this class?
 
 Luckily, we can still adopt a site-wide convention and replace this CSS class as necessary. Personally, I’d rather standardize on how screens should look rather than each new screen becoming a point of discussion on how wide/narrow things are. Standardize, but allow deviation. Our label configuration now becomes:
 
-[gist id=d21effc640964932794c]
+{% gist d21effc640964932794c %}
 
 Then in our HTML, we can replace our labels with our convention-based version:
 
-[gist id=a053b78ea94f30005959]
+{% gist a053b78ea94f30005959 %}
 
 It turns out in this app so far we’re not using display elements, but we could go a similar path (surrounding the element with a span tag etc).
 

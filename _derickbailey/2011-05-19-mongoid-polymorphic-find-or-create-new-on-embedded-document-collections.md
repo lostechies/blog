@@ -34,18 +34,18 @@ class YesNoQuestion &lt; Question
 end
 </pre>
 
- 
+ 
 
 I would be able to call this:
 
 <pre class="brush:ruby">assessment.questions.find_or_create_by({:name =&gt; "Some name"}, YesNoQuestion)
 </pre>
 
- 
+ 
 
 and it would create the YesNoQuestion type and add it to the assesment.questions collection, instead creating the base question type.
 
- 
+ 
 
 ### Rolling My Own
 
@@ -70,13 +70,13 @@ The good news is the source code for Mongoid is fairly easy to follow. I figured
 end
 </pre>
 
- 
+ 
 
 Now I can call this on my model:
 
 <pre class="brush:ruby">assessment.questions.find_or_new({:name =&gt; "Some name"}, YesNoQuestion)</pre>
 
- 
+ 
 
 and it works the way I need it to work.
 

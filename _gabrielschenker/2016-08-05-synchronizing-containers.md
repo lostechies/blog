@@ -25,7 +25,7 @@ In the project I am currently working we are using Docker in all environments, t
 
 We&#8217;re using `docker-compose` to define our setup we&#8217;re using to run UI tests. The corresponding docker-compose Yaml file looks similar to this
 
-[gist id=ec5670017086d41fea8a3a05d35a8853]
+{% gist ec5670017086d41fea8a3a05d35a8853 %}
 
 As you can see we&#8217;re having 4 services in our setup; each service runs in its own container. We have a container for Mongo DB, one for MySQL, one for our application that we want to test and one container to execute our Robot tests. Note how the application service `app` links to the Mongo DB and the MySQL services. By defining those links we effectively configure the DNS service of Docker and as a consequence we&#8217;re able to connect to Mongo DB and MySQL from the `app` container by using the names of the respective service, `mongodb` and `mysql`. This is important for what follows.
 
@@ -44,13 +44,13 @@ How can we solve this problem. The solution we chose is the following
 
 The latter is easy since our application is a web application we use `curl` to access the index page. We repeat a get request to this URL until the response status code is 200 (OK). We normally wait 5 seconds between subsequent requests. The logic is written in `Bash` and looks similar to this
 
-[gist id=a8eb70fc4cd1f8e89d3450dfc26176d5]
+{% gist a8eb70fc4cd1f8e89d3450dfc26176d5 %}
 
 Note how we use the two environment variables `HOST_NAME` and `EXPOSED_PORT` that we defined in the `docker-compose` file.
 
 Waiting for the database is a bit more tricky. Here we need to wait until the respective DB starts to listen at the defined TCP port. For this we use the logic found in the `wait-for-it.sh` script that I found [here](https://github.com/vishnubob/wait-for-it). The code snippet in our bash script looks similar to this
 
-[gist id=0ce01f0b445119a27568850eb0b1927e]
+{% gist 0ce01f0b445119a27568850eb0b1927e %}
 
 Note how I use the DNS names `mongodb` and `mysql` as hostnames in the snippet above.
 

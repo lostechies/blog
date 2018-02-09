@@ -32,7 +32,7 @@ These are marker interfaces, which light up instances of IConfigureRole<TRole> f
 
 The client’s role is somewhat simple – it can send messages, it \*may\* receive messages, but any messages received are purged on startup. This is because a client only receives messages for replies – and replies are often contextual to a command, so it doesn’t make sense to address replies to things that have happened earlier. The client role handler is:
 
-[gist id=1886612]
+{% gist 1886612 %}
 
 A few things to note – the inbox is cleared at startup, and reading from the inbox isn’t transactional. Again, this is because a client role receiving messages is only for replies, and for send-only endpoints, replies are all about acknowledgements. These kinds of acknowledgements are usually for contextual actions done by user.
 
@@ -40,7 +40,7 @@ A few things to note – the inbox is cleared at startup, and reading from the i
 
 Server role is a bit more involved. The server receives messages that are either sent to it or published to it. Typically, work is done from these handlers, so we want a bit more ACID-ty to our handlers. Our server role handler is:
 
-[gist id=1886614]
+{% gist 1886614 %}
 
 The big changes here are that we’re enlisting in a transaction when consuming messages. Additionally, any sent/published messages are in the same transaction, so no message is sent unless the transaction succeed. Additionally, we configure ourselves to be able to handle sagas (but specifics are in the profiles).
 

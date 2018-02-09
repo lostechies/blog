@@ -29,7 +29,7 @@ tags:
   </h3>
   
   <p>
-    [gist id=8b9dd0f5dadfa84f7969851b4ae12e7b]
+    {% gist 8b9dd0f5dadfa84f7969851b4ae12e7b %}
   </p>
   
   <h3 id="367e">
@@ -37,7 +37,7 @@ tags:
   </h3>
   
   <p>
-    [gist id=36abe7538944fed4a0120bc7cc288c85]
+    {% gist 36abe7538944fed4a0120bc7cc288c85 %}
   </p>
   
   <h4 id="4d8e">
@@ -53,7 +53,7 @@ tags:
   </p>
   
   <p>
-    [gist id=ca4f8e13d8794b3c2d1b7628b6b11887]
+    {% gist ca4f8e13d8794b3c2d1b7628b6b11887 %}
   </p>
   
   <p id="6da8">
@@ -61,7 +61,7 @@ tags:
   </p>
   
   <p>
-    [gist id=309f83fb74774c04dfab8f052454ab97]
+    {% gist 309f83fb74774c04dfab8f052454ab97 %}
   </p>
   
   <p id="a64a">
@@ -69,7 +69,7 @@ tags:
   </p>
   
   <p>
-    [gist id=f335f8b37bc857e64542eedfaab1cc5d]
+    {% gist f335f8b37bc857e64542eedfaab1cc5d %}
   </p>
   
   <p id="045f">
@@ -77,7 +77,7 @@ tags:
   </p>
   
   <p>
-    [gist id=a763c29cc02eea4b27c1a5bc6d099b55]
+    {% gist a763c29cc02eea4b27c1a5bc6d099b55 %}
   </p>
   
   <p id="2ad2">
@@ -85,7 +85,7 @@ tags:
   </p>
   
   <p>
-    [gist id=308453d2815b4784caa5210608489083]
+    {% gist 308453d2815b4784caa5210608489083 %}
   </p>
   
   <p id="fa2d">
@@ -97,7 +97,7 @@ tags:
   </h4>
   
   <p>
-    [gist id=e569418e16e053375c21c67974beaaea]
+    {% gist e569418e16e053375c21c67974beaaea %}
   </p>
   
   <p id="5b46">
@@ -105,7 +105,7 @@ tags:
   </p>
   
   <p>
-    [gist id=260f819352540d84098f01896ebd19fd]
+    {% gist 260f819352540d84098f01896ebd19fd %}
   </p>
   
   <p id="b294">
@@ -113,7 +113,7 @@ tags:
   </p>
   
   <p>
-    [gist id=545bc4475e071326359657d7915f54fe]
+    {% gist 545bc4475e071326359657d7915f54fe %}
   </p>
   
   <p id="1cad">
@@ -121,7 +121,7 @@ tags:
   </p>
   
   <p>
-    [gist id=54e5c225c213f9f146fb5a34b4f1fe31]
+    {% gist 54e5c225c213f9f146fb5a34b4f1fe31 %}
   </p>
   
   <p id="20ca">

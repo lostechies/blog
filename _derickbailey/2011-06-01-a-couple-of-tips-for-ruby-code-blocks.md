@@ -20,7 +20,7 @@ categories:
 ---
 Ruby&#8217;s code blocks (a.k.a &#8220;lambdas&#8221; or anonymous functions in .net) are powerful little tools that get used everywhere, and for good reason. But, every now and then I run into a little trick or issue related to them. For example:
 
- 
+ 
 
 ### Variable Scoping
 
@@ -44,7 +44,7 @@ Earlier today, I ran into a scoping issue related to ruby code blocks. Can you s
 end
 </pre>
 
- 
+ 
 
 It wasn&#8217;t obvious to me, for about 30 minutes of banging my head into my keyboard&#8230; the \`value\` variable is scoped to the \`do&#8230;end\` code block because that&#8217;s the first place that it gets initialized. Since it was scoped to the code block, the \`value = &#8220;N/A&#8221; unless value\` line was always evaluating false and always setting value to &#8220;N/A&#8221;. This was an easy fix, of course. Just initialize the variable outside of the code block and the magic of closures will take over.
 
@@ -67,11 +67,11 @@ It wasn&#8217;t obvious to me, for about 30 minutes of banging my head into my k
 end
 </pre>
 
- 
+ 
 
 I need to go back and re-read the [Metaprogramming Ruby](http://pragprog.com/titles/ppmetr/metaprogramming-ruby) sections on scope gates and blocks. There&#8217;s obviously some stuff that I&#8217;ve not remembered since the last time I picked up that book.
 
- 
+ 
 
 ### Code Blocks vs Hashes
 
@@ -86,7 +86,7 @@ The reason why this happens had never occurred to me before, but I have run into
 [1..3].each { |i| puts i }
 </pre>
 
- 
+ 
 
 If you have a method that wants a hash as the parameter and you want to specify that hash in-line with the method call, the following will fail:
 
@@ -97,7 +97,7 @@ end
 something { :foo =&gt; "bar" }
 </pre>
 
- 
+ 
 
 Ruby will interpret this as a code block even though the developer intends it to be a hash, and it will crash:
 
@@ -105,7 +105,7 @@ Ruby will interpret this as a code block even though the developer intends it to
 something { :foo =&gt; "bar" }
 </pre>
 
- 
+ 
 
 Fortunately, the solution is simple, again. You can either omit the curly braces or wrap the method call with parenthesis:
 
@@ -117,7 +117,7 @@ something :foo =&gt; "bar"
 something({:foo =&gt; "bar"})
 </pre>
 
- 
+ 
 
 I prefer to eliminate the curly braces, just to reduce the syntax noise of the method call.
 

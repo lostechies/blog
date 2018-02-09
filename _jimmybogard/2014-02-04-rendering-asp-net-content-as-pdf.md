@@ -38,7 +38,7 @@ At the very heart of ASP.NET, we have our HTTP module pipeline. What we’d like
 
 We’ll attach our filter at the beginning of the request, wait for the normal MVC HTTP Handler to execute, and modify the stream as it gets writing to the Response stream. Here’s our PDF module:
 
-[gist id=8803982]
+{% gist 8803982 %}
 
 First, we attach ourselves to an “early enough” event. In this case, PreRequest worked for me. I detect to see if there is a “Pdf” request parameter (the value doesn’t matter), and if it doesn’t, I just return and leave the request alone. I could pick anything here, as long as it doesn’t interfere with any other potential request parameters my application might need to use.
 
@@ -50,15 +50,15 @@ Response filters are interesting in that they’re only [Streams](http://msdn.mi
 
 First, when I create the filter, I capture the existing filter and create a new MemoryStream to temporarily save the MVC output:
 
-[gist id=8804285]
+{% gist 8804285 %}
 
 As ASP.NET writes to my filter (effectively, the output of our MVC handler), I just capture the output as it writes:
 
-[gist id=8804310]
+{% gist 8804310 %}
 
 Finally, when ASP.NET closes my filter stream, I invoke the converter, outputting the result of my conversion into the original ASP.NET response filter:
 
-[gist id=8804333]
+{% gist 8804333 %}
 
 The PDF converter has a ton of options, and even is able to allow Javascript to execute in the page. I opt to disable URLs, as it’s a bit strange to click links inside a PDF document for internal business applications, where these documents are often just saved and shared around. With this in place, I can just modify the URL of any page in my site to have a PDF version, matching the styling of the CSS print media:
 

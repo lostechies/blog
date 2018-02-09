@@ -34,11 +34,11 @@ So in no particular order, let’s look at my gripes of templated helpers.
 
 At its core, templated helpers are a way of using model metadata to build HTML. To achieve this, we need some way of providing the builders of HTML with the metadata about which they are building. We’ll have this in our view:
 
-[gist id=6029039]
+{% gist 6029039 %}
 
 And we need to pass the metadata from the “FirstName” expression to whatever builds our HTML, because it will use all that information when deciding what to build. Dates? Do something special. Guids? Do something special, and so on. Our model is rather simple:
 
-[gist id=6029064]
+{% gist 6029064 %}
 
 You might think that model metadata would include the PropertyInfo item plus perhaps some context and the model value. You’d be wrong though, we instead have another object serving as the encapsulation of our model metadata, without actually giving us access to things we really need, ModelMetadata:
 

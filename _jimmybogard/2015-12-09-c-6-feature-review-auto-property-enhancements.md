@@ -20,11 +20,11 @@ In this series, I&#8217;ll be looking at a long-lived codebase, AutoMapper, and 
 
 The auto-property enhancements mainly center around making fields and properties on an even playing field. In a lot of my AutoMapper code, I have field initializers:
 
-[gist id=d8d9507d2648dcd12713]
+{% gist d8d9507d2648dcd12713 %}
 
 Property initializers would instead look like this:
 
-[gist id=fee2ce04f0851d38ef94]
+{% gist fee2ce04f0851d38ef94 %}
 
 It looks&#8230;rather strange to me. The only place in my code where I could find that I could use property auto-property initializers were places I had existing private fields in place. And I&#8217;m not terribly keen on converting private fields into private properties. Properties are my window into exposing state to the others, otherwise I use private fields to encapsulate state. And no I&#8217;m not one of those weirdos that leaves off access modifiers, waaaaaay too easy to screw up.
 
@@ -34,11 +34,11 @@ It looks&#8230;rather strange to me. The only place in my code where I could fin
 
 One pattern I found all over the place in AutoMapper are immutable properties. In C# 5 and earlier, this involved creating a private readonly field and a get-only property. I have this all over the place:
 
-[gist id=80b8cc739294273763a0]
+{% gist 80b8cc739294273763a0 %}
 
 Not \*horrible\* but it would be nice to encapsulate the idiom of an immutable property in the language. This is exactly what getter-only automatic properties do:
 
-[gist id=606065995d16cd63ad29]
+{% gist 606065995d16cd63ad29 %}
 
 I&#8217;m only allowed to set the property in a constructor or initializer, and cannot set it anywhere else inside or outside my class. It has the same effect as a readonly field, just encapsulated. I use this pattern now all over the place.
 

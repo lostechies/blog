@@ -22,7 +22,7 @@ So you think &#8220;The Rails Life&#8221; is all unicorns, rainbows and glitter?
 
 [Joey](http://joeybeninghove.com/) and I are deploying our rails app with [Vlad The Deployer](http://www.rubyhitsquad.com/Vlad_the_Deployer.html). It&#8217;s a pretty sweet little deployment setup. He&#8217;s been doing the deployments, so far, but today I wanted to do a deploy. After adding my ssh key to my account on the server so that I could ssh into the server without requiring a username / password, we ran into some troubles. Note that these troubles were not related to Vlad itself but related to getting my SSH keys working with the server and with Github where our code is hosted.
 
- 
+ 
 
 ### Username Is Different On Local Machine And Server
 
@@ -34,7 +34,7 @@ Well, the only way to do that with vlad is to put the username into the ssh_flag
 > 
 > <pre>set :ssh_flags, "-l derick"</pre>
 
- 
+ 
 
 This isn&#8217;t a good solution because joey&#8217;s account name is not &#8220;derick&#8221;&#8230; obviously 🙂 &#8230; and we don&#8217;t want to hard code the user that we&#8217;re using to do the deploys. We want to have the logging and security and other neat things that come along with separate accounts.
 
@@ -54,11 +54,11 @@ On my local machine, I a file called ~/.ssh/config and put this into it:
 > 
 > <pre>ForwardAgent yes</pre>
 
- 
+ 
 
 Now that I have this set up, I can do &#8220;ssh my.server.com&#8221; (without specifying a username@) and it will pull the correct username and rsa key for the server, logging me in automatically. This alows Vlad to do the same and we can leave the ssh_flags out of the deploy settings.
 
- 
+ 
 
 ### Github&#8217;s And My SSH Key
 
@@ -76,7 +76,7 @@ We have to use the git@github.com ssh configuration for our remote because ours 
 > 
 > <pre>execution failed with status 128</pre>
 
- 
+ 
 
 At first I thought it was my ssh key failing against my server. Joey noted that it was likely an issue with connecting to github, though.
 
@@ -109,7 +109,7 @@ Easy enough:
 > 
 > <pre>Warning: Permanently added 'github.com,207.97.227.239' (RSA) to the list of known hosts.</pre>
 
- 
+ 
 
 ### Vlad Deploys &#8230; Are Still Awesome
 
@@ -117,7 +117,7 @@ Start with the standard SSH setup on our server, creating a user account for me,
 
 > <pre>rake vlad:deploy</pre>
 
- 
+ 
 
 from my local machine, and deploy our site to our server.
 

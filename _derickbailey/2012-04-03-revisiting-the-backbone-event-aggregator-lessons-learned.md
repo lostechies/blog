@@ -22,7 +22,7 @@ This is the first of the obvious mistakes that I made my original blog post and 
 
 You can see the obvious problems in the original code, pretty easily:
 
-[gist id=1092444 file=5-event-aggregation.js]
+{% gist 1092444 5-event-aggregation.js %}
 
 Having to pass the \`vent\` object to every single constructor gets frustrating, fast. It turns in to a real nightmare, though, when you want to trigger an event from an object that is 5 or 6 levels deep in an object graph. If this is the only place that needs to trigger an event, you still have to pass the aggregator around to all of the objects in the graph.
 
@@ -30,11 +30,11 @@ Having to pass the \`vent\` object to every single constructor gets frustrating,
 
 One of the solutions, and the easiest way to start using an event aggregator, is to attach the aggregator to your application&#8217;s namespace object. This becomes the application level event aggregator that any code in your application can attach to and trigger events from.
 
-[gist id=2146930 file=1.js]
+{% gist 2146930 1.js %}
 
 I&#8217;ve baked this idea directly in to my Marionette.Application object. When you instantiate a Marionette.Application, you get the \`vent\` attribute with it.
 
-[gist id=2146930 file=2.js]
+{% gist 2146930 2.js %}
 
 <span style="font-size: 14px; font-weight: bold;">Solution: Sub-Module Aggregators</span>
 
@@ -42,17 +42,17 @@ Along with the application level event aggregator, there are times when you&#821
 
 For example, if I were building an application module to manage users and I needed to run some events in between various parts of the user management screens, I might do it like this:
 
-[gist id=2146930 file=3.js]
+{% gist 2146930 3.js %}
 
 Note that I&#8217;m also showing the Marionette.EventAggregator object in this example. This object is a tiny bit more than the standard \`_.extend({}, Backbone.Events);\` that I typically use, but not by much.
 
 I still have access to the application&#8217;s event aggregator, but now I also have access to an aggregator that is specific to the module. This lets me publish and subscribe to events that are local to the module. Other modules in the application are not able to see this aggregator, so they are not able to publish / subscribe with it. If I need this module to talk to other modules, then, I use the application&#8217;s aggregator.
 
- 
+ 
 
 ## Multiple Channels For Events
 
-This idea comes from [a blog post I read a while back](http://www.michikono.com/2012/01/11/adding-a-centralized-event-dispatcher-on-backbone-js/) that posits the idea of having multiple channels for events. Thinking back to my full-scale enterprise-service-bus development days, I can see the value in this. It allows you to have different subscribers on different channels, letting each of those channels act independently. But there&#8217;s a few problems with this in JavaScript that are solved in much more simple manners.
+This idea comes from [a blog post I read a while back](http://www.michikono.com/2012/01/11/adding-a-centralized-event-dispatcher-on-backbone-js/) that posits the idea of having multiple channels for events. Thinking back to my full-scale enterprise-service-bus development days, I can see the value in this. It allows you to have different subscribers on different channels, letting each of those channels act independently. But there&#8217;s a few problems with this in JavaScript that are solved in much more simple manners.
 
 ### The Idea
 
@@ -66,7 +66,7 @@ The same principle is often applied in service-bus architectures, where standing
 
 A simple use of an event aggregator that supports channels might look something like this:
 
-[gist id=2146930 file=4.js]
+{% gist 2146930 4.js %}
 
 In this example, we&#8217;re standing up an aggregator and then subscribing to an even on a channel. We then trigger the event on that channel, and our handler is called. This seems easy enough and it shouldn&#8217;t take that much work to implement channels.
 
@@ -82,7 +82,7 @@ Again, I understand why this seems like a good idea. When you&#8217;re dealing w
 
 By setting up multiple event aggregators, we can more effectively optimize the memory and performance of our application.
 
-[gist id=2146930 file=5.js]
+{% gist 2146930 5.js %}
 
 Now when we have many overall subscribers to many event aggregators, publishing to a single event aggregator doesn&#8217;t have to think about which subscribers should and should not be checked, based on channels. When you publish to a specific event aggregator, it checks all of the subscribers that it has registered, and that&#8217;s it.
 
@@ -90,7 +90,7 @@ Now when we have many overall subscribers to many event aggregators, publishing 
 
 The other option that we see in Backbone events is the use of namespaced events. For example, when you set some data on a Backbone model, you get multiple events:
 
-[gist id=2146930 file=6.js]
+{% gist 2146930 6.js %}
 
 Now this isn&#8217;t truly a namespace in the event handler. There is no parsing of the event name to try and figure out where the : is in the event name, to filter out which subscribers should be receiving the event. This is only a convention that helps us, as developers, see which events belong together.
 
@@ -98,7 +98,7 @@ Now this isn&#8217;t truly a namespace in the event handler. There is no parsing
 
 In the end, the event aggregator object does have to filter out the subscribers that don&#8217;t care about the event being triggered. There&#8217;s simply no way around this. When you have an event subscriber, you tell it what specific event to listen to. If a different event is triggered, that subscriber doesn&#8217;t get called. This is filtering by it&#8217;s nature and we can&#8217;t reasonably get away from that. My argument, though, is that we should limit the filtering as much as possible because it&#8217;s more expensive to filter a larger list than it is to split the list out in to multiple, separate objects.
 
- 
+ 
 
 ## Semantics: Separating Command Messages From Event Messages
 

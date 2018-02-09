@@ -16,7 +16,7 @@ Ah Ha Moment #1: a { display:block; }
 
 Your classic anchor tag:
 
-[gist id=1275482 file=gistfile1.html]
+{% gist 1275482 gistfile1.html %}
 
 The anchor tag is an inline element, which 99% of the time is what you want. Think about that 1% of the time when you want an anchor tag to make the entire element clickable.
 

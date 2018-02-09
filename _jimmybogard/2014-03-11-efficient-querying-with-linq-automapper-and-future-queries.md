@@ -18,7 +18,7 @@ We can do better!
 
 Let’s say we have a controller action (taken from the [Contoso University Entity Framework sample](http://www.asp.net/mvc/tutorials/getting-started-with-ef-using-mvc)) that pulls in instructor, course, and enrollment information:
 
-[gist id=9485068]
+{% gist 9485068 %}
 
 This doesn’t look so bad at first glance, but what isn’t so obvious here is that this involves four round trips to the database, one for each set of data, plus some wonky lazy loading I couldn’t figure out:
 
@@ -30,25 +30,25 @@ There’s a bigger issue here too – I’m passing around a live queryable arou
 
 Ideally, I’d hit the database exactly once for only the data I need, and nothing more. This is what I often see people create stored procedures for – building up the exact resultset you need at the database level, only getting what we need. First, let’s pull in AutoMapper and create a ViewModel that represents our projected data:
 
-[gist id=9487371]
+{% gist 9487371 %}
 
 We can flatten many members out (Department.Name to DepartmentName). Next, let’s modify our controller action to project with LINQ and [AutoMapper](http://automapper.org/):
 
-[gist id=9487421]
+{% gist 9487421 %}
 
 Finally, we’ll need to configure AutoMapper to build mapping definitions for these types:
 
-[gist id=9493233]
+{% gist 9493233 %}
 
 With these changes, our SQL has improved (somewhat) in reducing the data returned to only what I have in my view models:
 
-[gist id=9487643]
+{% gist 9487643 %}
 
 We’re now only selecting the columns back that we’re interested in. I’m not an EF expert, so this is about as good as it gets, SQL-wise. EF does however recognize we’re using navigation properties, and will alter the SQL accordingly with joins.
 
 We’re still issuing three different queries to the server, how can we get them all back at once? We can do this with [Future queries](http://weblogs.asp.net/pwelter34/archive/2011/11/29/entity-framework-batch-update-and-future-queries.aspx), an extension to EF that allows us to gather up multiple queries and execute them all when the first executes. Pulling in the “[EntityFramework.Extended](https://www.nuget.org/packages/EntityFramework.Extended)” NuGet package, we only need to add “Future” to our LINQ methods in our controller:
 
-[gist id=9492782]
+{% gist 9492782 %}
 
 Which results in all 3 queries getting sent at once to the server in one call:
 

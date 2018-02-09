@@ -29,11 +29,11 @@ Integrating NServiceBus and Quartz.NET is fairly straightforward, but is a littl
 
 But basically, I got it to the point where I have my job initiator and definition of a job:
 
-[gist id=3343521]
+{% gist 3343521 %}
 
 Where I just send a message as part of my job. Then I can define the schedule to initiate that job:
 
-[gist id=3343531]
+{% gist 3343531 %}
 
 This schedule runs just once a month, on the first of the month, at 5 AM. In the sample, I also configure Quartz to use durable, database-backed schedules to be able to handle service stoppage/restarts.
 

@@ -19,11 +19,11 @@ Repositories I see generally come in two flavors:
 
 An example of the first might be something like:
 
-[gist id=3755794]
+{% gist 3755794 %}
 
 While one encapsulating queries would more more along the lines of:
 
-[gist id=3755811]
+{% gist 3755811 %}
 
 Where each method encapsulates a single query. Both cases provide value in certain cases. If I have a goal of abstracting my ORM, I would go with the first, and perhaps include the second as well.
 
@@ -33,17 +33,17 @@ But is an ORM something that requires abstraction? I don’t think so – abstra
 
 We need to go back to _why_ we introduced the Repository pattern in the first place. It was likely in the name of “testability”. We might start with something like this:
 
-[gist id=3755845]
+{% gist 3755845 %}
 
 Seems complex, no? However, if the complexity grows, we’re still limiting its scope to exactly one method. Whether we pull this query out into a class, repository or extension method, the query will be in one method. In our controller action, what does it matter exactly that this code lies in our controller or another class? What about a more complex example:
 
-[gist id=3755895]
+{% gist 3755895 %}
 
 Again, it’s just a set of queries. I’d still want to encapsulate this in one spot, but I really don’t see a reason to move this code out from where it is. If the query changes, I’m still just changing code in one spot. An abstraction here would only serve to misdirect.
 
 The trick is when I have more than one concept in play. Let’s look at an action that has to do a couple of different things (queries are quite dull, it turns out):
 
-[gist id=3755938]
+{% gist 3755938 %}
 
 In this case, I have a lot of validation, but the actual work is delegated to the “AddCommentTask” object. It’s a command object, that takes care of performing the actual work of the task outside of MVC, validation, ActionResults and the like.
 

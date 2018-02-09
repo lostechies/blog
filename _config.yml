@@ -255,6 +255,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-gist
 
 JB:
   comments:

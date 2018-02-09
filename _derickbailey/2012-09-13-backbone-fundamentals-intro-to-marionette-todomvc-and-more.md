@@ -28,7 +28,7 @@ Here&#8217;s a couple of paragraphs from [the intro section of this chapter](htt
 
 In addition to the chapter in this book, there are a number of other things happening with Marionette. I finally have a couple of other core contributors that are helping to run things, and keeping things moving. There&#8217;s a new website in the works, a logo in the works, an IRC channel and a twitter account.
 
-Core Contributors: [Jarrod Overson](https://twitter.com/jsoverson) and [Tony Abou-Assaleh](https://twitter.com/tony_aa)
+Core Contributors: [Jarrod Overson](https://twitter.com/jsoverson) and [Tony Abou-Assaleh](https://twitter.com/tony_aa)
 
 Website: <http://marionettejs.com>
 

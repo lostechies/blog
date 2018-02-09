@@ -14,11 +14,11 @@ I think this is pretty, and I wanted to share. I like classes where the compiler
 
 I was writing a class that needed to call a third-party service and then return a result that either indicated there was an error (with the error reason) or reported success and parsed the JSON into a collection of objects. The `Result` class could have been implemented as a dumb property bag:
 
-[gist id=8375957]
+{% gist 8375957 %}
 
 The code that calls the service and constructs the result would set properties accordingly:
 
-[gist id=8376006]
+{% gist 8376006 %}
 
 The syntactic brevity of auto-properties lulls us into writing `{ get; set; }` without thinking about it, providing public accessors without considering whether or not we&#8217;re flouting encapsulation. We lose the protection and power that properties had granted us, and might as well be using public fields. Talk about anemic classes.
 
@@ -26,7 +26,7 @@ The pitfall, then, is that consuming code has to check the IsSuccess property be
 
 Okay, I promised pretty. What did I do instead?
 
-[gist id=8376021]
+{% gist 8376021 %}
 
 The constructor of the class is private. So are the setters on its properties. You can only get at this thing through the entry points I&#8217;m giving you. And those entry points are:
 
@@ -40,7 +40,7 @@ Consumers can even safely call `foreach` over the Results collection without che
 
 Here&#8217;s what the consuming class looks like:
 
-[gist id=8376113]
+{% gist 8376113 %}
 
 Briefer and clearer. #success
 

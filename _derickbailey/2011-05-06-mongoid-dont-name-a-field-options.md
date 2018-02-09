@@ -15,7 +15,7 @@ categories:
 ---
 Joey and I spent the last day or more upgrading our rails environment, specifically so that we could get from Mongoid v2.0.0.Beta.20 up to v2.0.1. In general, the upgrade went ok&#8230; with the exception of the Mongoid upgrade. There are a significant number of changes in how relationships work and the new polymorphic behavior is awesome! I&#8217;m really glad we took the time to do the upgrade because it&#8217;s already making our lives easier.
 
- 
+ 
 
 ## A Nasty Little Bug
 
@@ -87,7 +87,7 @@ During the upgrade process, we ran into on really sticky issue that was causing 
 
 
 <p>
-   
+   
 </p>
 
 
@@ -115,7 +115,7 @@ During the upgrade process, we ran into on really sticky issue that was causing 
 
 
 <p>
-   
+   
 </p>
 
 

@@ -14,11 +14,11 @@ categories:
   - Stripe
   - Testing
 ---
-[SignalLeaf](http://signalleaf.com) uses [Stripe.com](http://stripe.com) for billing. One of the cool things it does is provide web hooks to get events so that you can have your system do things in response to those events. Examples of events include customer creation, customer subscription changes, charges being made to a customer, charges failing, and a whole lot more. 
+[SignalLeaf](http://signalleaf.com) uses [Stripe.com](http://stripe.com) for billing. One of the cool things it does is provide web hooks to get events so that you can have your system do things in response to those events. Examples of events include customer creation, customer subscription changes, charges being made to a customer, charges failing, and a whole lot more. 
 
-I find myself needing to use these webhooks (well, ok&#8230; I needed to be using them 6 months ago, but I&#8217;m here now and I&#8217;m finally getting it done) and began wondering how I could get sample data and sample requests &#8211; not just documentation or &#8220;Events & Webhooks&#8221; list on the Stripe site. I want to see the actual request headers, body and payload of the request as a web server will see it. Call me paranoid&#8230; I just don&#8217;t trust documentation and logs all that much &#8211; even from a company that I trust with my business. 
+I find myself needing to use these webhooks (well, ok&#8230; I needed to be using them 6 months ago, but I&#8217;m here now and I&#8217;m finally getting it done) and began wondering how I could get sample data and sample requests &#8211; not just documentation or &#8220;Events & Webhooks&#8221; list on the Stripe site. I want to see the actual request headers, body and payload of the request as a web server will see it. Call me paranoid&#8230; I just don&#8217;t trust documentation and logs all that much &#8211; even from a company that I trust with my business. 
 
-Enter, [Requestb.in](http://requestb.in/) &#8211; an epic little service from [Runscope](https://www.runscope.com/) that lets me set up a sandbox URL to receive HTTP requests and log all the pretty details that I want to see. 
+Enter, [Requestb.in](http://requestb.in/) &#8211; an epic little service from [Runscope](https://www.runscope.com/) that lets me set up a sandbox URL to receive HTTP requests and log all the pretty details that I want to see. 
 
 ## Setting Up The Bin
 

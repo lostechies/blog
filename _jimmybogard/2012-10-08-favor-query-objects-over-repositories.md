@@ -12,7 +12,7 @@ categories:
 ---
 So I’m over [Repositories](http://martinfowler.com/eaaCatalog/repository.html), and definitely over [abstracting your data layer](http://lostechies.com/jimmybogard/2012/09/20/limiting-your-abstractions/), but where does that leave us? I don’t think creating an abstraction over your ORM provides much value, nor do I think it is necessarily bad if you use your ORM directly in the UI tier. After all, it’s pretty hard to suggest that this:
 
-[gist id=3755845]
+{% gist 3755845 %}
 
 Is not maintainable. You can pretty easily write tests for this code, just going straight against the actual underlying data source. But queries can get hairy, and I might have too much going on in my controller action at some point that would necessitate some level of refactoring.
 
@@ -20,11 +20,11 @@ In the land of repositories, we might solve this by adding another method on a R
 
 Let’s create a query that is just the extracted method and class of the query above:
 
-[gist id=3852502]
+{% gist 3852502 %}
 
 My query encapsulates not the data access, but the query itself. However crazy my query gets, it’s isolated from my controller action:
 
-[gist id=3852511]
+{% gist 3852511 %}
 
 We could have used dependency injection to push our query object in, but I’m still not convinced an application as flat as RaccoonBlog needs a container. It’s just not that interesting, yet.
 

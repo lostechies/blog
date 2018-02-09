@@ -20,7 +20,7 @@ categories:
 ---
 Promises are a powerful way to handle asynchronous code in JavaScript. They give us a lot of opportunity to clean up code, and to write code that can register work to be done when the promise is resolved, whether or not the promise has already been resolved. The emergence of the various Promises spec has been great in the last few years, and we are moving toward a more consistent behavior and API set for the core of what promises do.
 
-However… We’re not there yet, and it’s frustrating me nearly every day.
+However… We’re not there yet, and it’s frustrating me nearly every day.
 
 I work in several different projects and runtime environments, and I have to deal with a lot of different promise libraries because of this. The result: a constant learning and re-learning battle, because every Promise library does something slightly different than the others, even when the libraries in question are written to the same Promise spec.
 
@@ -30,7 +30,7 @@ Let’s look at how you create and resolve a promise in [q.js](https://github.co
 
 I’ll start with q.js because I’m using it in one of my projects and it’s on my mind at the moment.
 
-[gist id=6642093 file=q.js]
+{% gist 6642093 q.js %}
 
 Q uses the idea of a “deferred” object to handle the real processing and the promise is only the public API of the promise. You should note that q does not allow you to call `.then()` or other “promise” methods on the deferred object, though. You can only call those on the promise itself.
 
@@ -38,7 +38,7 @@ Q uses the idea of a “deferred” object to handle the real processing and the
 
 Q is quite similar to jQuery’s idea of a promise. I honestly don’t know if there is a relationship / influence between q and jQuery, but there certainly looks to be on the surface. The same code in jQuery, though, is just different enough to frustrate you endlessly.
 
-[gist id=6642093 file=jquery.js]
+{% gist 6642093 jquery.js %}
 
 The major difference here, is that q does `q.defer()` and `deferred.promise;` while jQuery does `$.Deferred()` and `deferred.promise()`. jQuery Deferred objects also let you call `.then()` and other “promise” functions on the deferred object itself, unlike q.
 
@@ -50,7 +50,7 @@ Next up is RSVP. I’m also using this in a current project. It was brought in t
 
 RSVP has yet another API for creating an manipulating promises and it is dramtically different than q or jQuery in how you get a promise up and running.
 
-[gist id=6642093 file=rsvp.js]
+{% gist 6642093 rsvp.js %}
 
 If you’ve never seen RSVP (or WinJS &#8211; coming up next) this may be confusing. You are not allowed access to a `.resolve()` method on an object instance. Instead, you must provide a callback function to the Promise constructor function. This callback receives a resolve and reject parameter, which are themselves functions. The `resolve` method is the equivalent of `deferred.resolve()` in the previous q and jQuery examples.
 
@@ -60,7 +60,7 @@ Great. Yet another odd syntax that makes me do things in a strange place this ti
 
 RSVP isn’t alone, though. As I just mentioned WinJS (the Windows 8 JavaScript API for WinRT/Microsoft Surface applications) uses the same style of promise creation and resolution.
 
-[gist id=6642093 file=win.js]
+{% gist 6642093 win.js %}
 
 Other than the `WinJS` vs `RSVP` parent namespaces, WinJS and RSVP’s APIs are pretty much interchangeable. I think there are some slight difference in other areas of the API, though, such as which methods WinJS provides for wrapping code in a promise, or providing progress updates, etc. I’m not sure if these difference fall in to our out of a given Promise spec, though.
 
@@ -70,11 +70,11 @@ I’m begging the JavaScript community at this point. Please, for the love of de
 
 Yes, I get that there are different needs in different situations. Some libs will have extra things. That’s awesome. But for the parts that are supposed to be the same, please make them the same &#8211; all the way around, from constructor function to method signatures and expected behaviors. Frankly it doesn&#8217;t matter to me all that much, which spec wins. Just make it consistent across all the promises libraries. There are far too many inconsistencies in promises, at this point.
 
- 
+ 
 
 [![](http://imgs.xkcd.com/comics/standards.png?v=101271)](http://xkcd.com/927/)
 
- 
+ 
 
 ## Need To Learn More About Promises?
 
@@ -86,4 +86,4 @@ If you&#8217;re looking to wrap your head around these powerful objects, check o
 
 [<img style="margin-left: auto;margin-right: auto" src="http://www.watchmecode.net/images/promises-ground-up.png" alt="" width="" height="" border="0" />](http://www.watchmecode.net/promises-ground-up)
 
- 
+ 

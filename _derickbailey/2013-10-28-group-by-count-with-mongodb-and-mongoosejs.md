@@ -21,19 +21,19 @@ In [my last post about reports](http://lostechies.com/derickbailey/2013/10/18/mi
 
 ## Group-By
 
-The challenge that I have in getting this data is that I am tracking downloads/listens in a separate MongoDB collection. I have a Podcasts collection and each Podcast has Episodes. Then I have a Tracking collection, where each Tracking instance contains a podcastId and episodeId to tell me which podcast/episode is being tracked. I have some other data in there, too, but it isn&#8217;t relevant right now. 
+The challenge that I have in getting this data is that I am tracking downloads/listens in a separate MongoDB collection. I have a Podcasts collection and each Podcast has Episodes. Then I have a Tracking collection, where each Tracking instance contains a podcastId and episodeId to tell me which podcast/episode is being tracked. I have some other data in there, too, but it isn&#8217;t relevant right now. 
 
-I knew I needed to group the Tracking table by episodeId to start with, so I called on the [aggregate](http://mongoosejs.com/docs/api.html#model_Model.aggregate) function to do this. 
+I knew I needed to group the Tracking table by episodeId to start with, so I called on the [aggregate](http://mongoosejs.com/docs/api.html#model_Model.aggregate) function to do this. 
 
-[gist id=7205671 file=group.js]
+{% gist 7205671 group.js %}
 
 This gives me back a list of unique episodeId entries in the Tracking collection &#8211; that&#8217;s the first problem solved. But now I need to get a count of each episodeId in the Tracking collection as well.
 
 ## Group By Count &#8211; Failures
 
-At first I thought I was going to have to loop through the list of episode IDs and make a separate call for each. That would be a horrible performance nightmare, though. So I tried to add a total value to the grouped output using a 
+At first I thought I was going to have to loop through the list of episode IDs and make a separate call for each. That would be a horrible performance nightmare, though. So I tried to add a total value to the grouped output using a 
 
-[gist id=7205671 file=count.js]
+{% gist 7205671 count.js %}
 
 This failed miserably because the [group aggregation operators](http://docs.mongodb.org/manual/reference/operator/aggregation-group/) does not support $count. It looked like I was back to iterating and querying for each for a moment. Then I had a thought that seemed kind of stupid but might work.
 
@@ -41,7 +41,7 @@ This failed miserably because the [group aggregation operators](http://docs.mong
 
 I&#8217;ve used [the $sum function](http://docs.mongodb.org/manual/reference/operator/aggregation/sum/#grp._S_sum) to get totals in another place within [SignalLeaf](http://signalleaf.com). Why not use that for my count, by doing a sum of a hard coded value of 1? The configuration of the group query options is a JavaScript object, after all, so I&#8217;ll just hard code 1 in to the value instead of using a string to tell it which field to sum.
 
-[gist id=7205671 file=group-by-count.js]
+{% gist 7205671 group-by-count.js %}
 
 And it worked!
 

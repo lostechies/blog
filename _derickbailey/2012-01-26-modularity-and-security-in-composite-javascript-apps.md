@@ -16,7 +16,7 @@ categories:
 ---
 In one of my current apps for a client, I have [an activity based security system](http://lostechies.com/derickbailey/2011/05/24/dont-do-role-based-authorization-checks-do-activity-based-checks/) that determines what the user is allowed to do. The trick to this system is that all of the authorization checks happen on the server, but the functionality that is being secured runs on the client, in JavaScript.
 
-This is a bit of a problem. If I send all of the JavaScript that is uses to run any part of the system to the browser, then it&#8217;s possible that a clever user could enable it and do things they aren&#8217;t supposed to do. Of course, when they send a request back to the server, the server will verify they can do what they requested and block it… but the user should not be able to even try to do things they aren&#8217;t authorized to do, in the first place.
+This is a bit of a problem. If I send all of the JavaScript that is uses to run any part of the system to the browser, then it&#8217;s possible that a clever user could enable it and do things they aren&#8217;t supposed to do. Of course, when they send a request back to the server, the server will verify they can do what they requested and block it… but the user should not be able to even try to do things they aren&#8217;t authorized to do, in the first place.
 
 The solution that I&#8217;ve come up with, at a very high &#8220;functional area of the application&#8221; level, is simply not to send JavaScript to the browser if the user is not allowed to use it. This keeps me from having to do extra security checks in the browser, keeps the download for the user smaller and generally makes the app appear snappier because there is less code to run. More importantly, though, it keeps the user from being able to try things they can&#8217;t do.
 
@@ -32,7 +32,7 @@ Each of the functional areas of my application is built in it&#8217;s own set of
 
 When I need a functional area of my site to be sent down to the user, I tell my server side template language to include the correct HTML file. For example, I&#8217;m doing this in an ASP.NET MVC application:
 
-[gist id=1680805 file=1.cshtml]
+{% gist 1680805 1.cshtml %}
 
 In this code, I&#8217;m checking to see if the current user is allowed to manage locations. If they are, the extension method &#8220;LocationManagementScripts&#8221; is called. This in turn renders the &#8220;LocationManagementScript.html&#8221; file at this point in my HTML layout. That file contains all of the <script> tags for the location management JavaScript app. In the same way, I&#8217;m checking to see if the user can search through locations, and running the same basic process if they can.
 
@@ -42,7 +42,7 @@ When a functional module is included after passing one of these checks, it needs
 
 Marionette has an explicit concept of an &#8220;initializer&#8221; tied to it&#8217;s Application objects. When you create an instance of an Application object, you can call &#8220;app.addInitializer&#8221; and pass a callback function. The callback function represents everything that your module needs to do, to get itself up and running. All of these initializer functions &#8211; no matter how many you add &#8211; get fired when you call &#8220;app.start()&#8221;.
 
-[gist id=1680805 file=2.js]
+{% gist 1680805 2.js %}
 
 Each functional area of my application has it&#8217;s own initializer function. When a functional area has been included in the rendered <script> tags, the initializer gets added and when the &#8220;start&#8221; method is called, the modules for that functional area are fired up and they do there thing.
 
@@ -52,7 +52,7 @@ One of the tricks to making all of this work, is that I need to have a primary &
 
 A better example of what a module definition and initializer might look like, would be this:
 
-[gist id=1680805 file=3.js]
+{% gist 1680805 3.js %}
 
 In this example, I&#8217;m using the simple JavaScript module pattern to encapsulate my search functionality. I&#8217;m also providing an initializer for the module that instantiates a search view and shows it to the user using a [region manager](http://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/).
 
@@ -70,4 +70,4 @@ Of course there are other security concerns that are not this simple. When a fun
 
 I&#8217;m still learning and exploring this space. I have some ideas and am going to be implementing some of them soon. If anyone out there has any experience in handling finer grained security needs in JavaScript apps, I&#8217;d love to hear about it. Post links to your favorite resources for this, in the comments.
 
- 
+ 

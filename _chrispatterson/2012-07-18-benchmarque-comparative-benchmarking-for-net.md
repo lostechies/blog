@@ -21,21 +21,21 @@ Benchmarque (pronounced [bench-mar-key](http://www.bizmarkie.com/)) allows you t
 
 To understand how to use Benchmarque, let&#8217;s work through an example. First, start Visual Studio 2010 Service Pack 1 with NuGet 2.0 installed and create a new class library project using the .NET 4.0 runtime. Once created, we&#8217;re going to define an interface for our benchmark.
 
-[gist id=3137095 file=AppendText.cs]
+{% gist 3137095 file=AppendText.cs %}
 
 In this benchmark, we are going to compare the performance of the different ways to append text into a single string. Now that we have the interface defining the behavior we want to benchmark, we need to create a few implementations that perform the operation.
 
 First, the good old concatenation operator.
 
-[gist id=3137095 file=ConcatAppendText.cs]
+{% gist 3137095 file=ConcatAppendText.cs %}
 
 Next, we&#8217;ll use a StringBuilder to handle the work.
 
-[gist id=3137095 file=StringBuilderAppendText.cs]
+{% gist 3137095 file=StringBuilderAppendText.cs %}
 
 And last, we&#8217;ll try to use string.Join with an empty separator.
 
-[gist id=3137095 file=JoinAppendText2.cs]
+{% gist 3137095 file=JoinAppendText2.cs %}
 
 With our three implementations ready to benchmark, we now need to create an actual benchmark. We&#8217;ll take a list of names, and call the interface with those names. Before we can do that, however, it&#8217;s time to add Benchmarque to the project. Using the NuGet package manager, install Benchmarque to your class library project.
 
@@ -43,7 +43,7 @@ With our three implementations ready to benchmark, we now need to create an actu
 
 Once installed, we can create our benchmark class as shown below.
 
-[gist id=3137095 file=NameAppendBenchmark.cs]
+{% gist 3137095 file=NameAppendBenchmark.cs %}
 
 A benchmark includes three methods that involve the execution of the benchmark, along with a property that returns the iteration counts for each run. WarmUp is called with the implementation to allow any one-time initialization of the implementation to be established. This allow should include a few runs through the test to allow the runtime to JIT any code to ensure the benchmark only includes actual execution time (versus assembly load and JIT time). The Run method is then called with each of the iteration counts to actually run the benchmark. Once complete, the Shutdown method is called to dispose of any resources used by the implementation.
 

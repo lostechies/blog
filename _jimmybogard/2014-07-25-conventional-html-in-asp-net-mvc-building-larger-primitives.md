@@ -26,7 +26,7 @@ We’ve taken our individual form elements quite far now, adopting a variety of 
 
 And that’s a good thing – we want to keep using those primitives around individual elements. But what if we peeked a little bit larger? Are there larger common patterns in play that we can start incorporating? Let’s look at the basic input template, from Bootstrap:
 
-[gist id=fa436ab24798147c83d5]
+{% gist fa436ab24798147c83d5 %}
 
 Starting with the most basic element, the input tag, let’s look at gradually increasing scope of our building block:
 
@@ -50,13 +50,13 @@ We already have our original Input method, let’s create the first input block.
 
 Because we have our HtmlTag primitive, it’s trivial to combine elements together. This is a lot easier than working with strings or MvcHtmlStrings or the less powerful TagBuilder primitive. We’ll return the outer div tag, but we still need ways of altering the inner tags. This includes the Label, the Input, and Validator. Here’s our input block:
 
-[gist id=fb93ff284d0630af99e3]
+{% gist fb93ff284d0630af99e3 %}
 
 We create an Action<HtmlTag> for the input/validator tags. If someone wants to modify those two elements directly, instead of wonky anonymous-objects-as-dictionaries, we allow them full access to the tag via a callback, similar to jQuery. Next, we default those two modifiers to no-op if they are not supplied.
 
 We then build up our input block, which consists of the outer div with the input tag and validator tag as children. In our view, we can replace the input block:
 
-[gist id=ede72d9730b8b5ea3b89]
+{% gist ede72d9730b8b5ea3b89 %}
 
 Just to contrast, I included the non-input-blocked version. Now that we have this piece, let’s look at building the largest primitive, the form block.
 
@@ -64,19 +64,19 @@ Just to contrast, I included the non-input-blocked version. Now that we have thi
 
 In the same tradition of Angular directives, React classes and Ember views, we can build larger components out of smaller ones, reusing the smaller components as necessary. This also ensures our larger component automatically picks up changes from the smaller ones. Here’s our FormBlock method:
 
-[gist id=8b53aff35ddf043b5b5f]
+{% gist 8b53aff35ddf043b5b5f %}
 
 It’s very similar to our input block method, where we provide defaults for our initializers, create the outer div tag, build the child tags, apply child modifiers, and append those child tags to the outer div. Going back to our view, it becomes quite simplified:
 
-[gist id=6192e6af2da176c0c0c9]
+{% gist 6192e6af2da176c0c0c9 %}
 
 We have one outlier, our “remember me” checkbox, which I try to avoid at all costs. Let’s look at a couple of other examples. Here’s our register view:
 
-[gist id=4b36c24e7d95aa9b87ec]
+{% gist 4b36c24e7d95aa9b87ec %}
 
 And here’s our reset password view:
 
-[gist id=5c7f1b07ab93e1eb4332]
+{% gist 5c7f1b07ab93e1eb4332 %}
 
 Much more simplified, with conventions around the individual input elements and HtmlHelper extensions around larger blocks. I would likely go an additional step and create an HtmlHelper extension around the buttons as well, since Bootstrap buttons have a very predictable, standardized set of HTML to build out.
 

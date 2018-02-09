@@ -19,7 +19,7 @@ In my last post, I detailed the process of s[etting up a MacRuby app to send Gro
 
 To get started, open the sample app that we created from the previous post.
 
- 
+ 
 
 ## The Growl Delegate
 
@@ -37,13 +37,13 @@ In our application, though, we want to set up a click event. Since we already ha
 
 This method will be called any time a user clicks on a notification that our application sends. From this method, we can do anything we want &#8211; take our app to a specific screen, run a background process, kick off another app or process, send another growl notification or anything else that we can think of. It&#8217;s our code, after all, and we get to determine what it does.
 
- 
+ 
 
 ## The Context Parameter
 
 Having the method defined and the delegate set up is only part of what we need. The context parameter (which can be named anything you like) is also important.
 
-Looking back at the growl notification that we are sending from our ApplicationDelegate, there is a clickContext key in the hash. At this point, we have set it to nil, but if we want to use any of the callback methods from Growl, we need to set this to something other than nil. When we set this value, it will be passed to our clicked callback method. This allows us to provide context to the method &#8211; hence the name of the parameter &#8211; which can be used to determine what actions to take.
+Looking back at the growl notification that we are sending from our ApplicationDelegate, there is a clickContext key in the hash. At this point, we have set it to nil, but if we want to use any of the callback methods from Growl, we need to set this to something other than nil. When we set this value, it will be passed to our clicked callback method. This allows us to provide context to the method &#8211; hence the name of the parameter &#8211; which can be used to determine what actions to take.
 
 For this example, set the value of clickContext to &#8220;You Clicked A Notification!&#8221;
 
@@ -63,18 +63,18 @@ For this example, set the value of clickContext to &#8220;You Clicked A Notifica
 
 If you do not provide some form of data for the context, the clicked callback will not execute.
 
- 
+ 
 
 ## The Clicked Callback Method
 
-As a simple example of using the clicked callback method, we can send another Growl notification. In this case, we will take the context and use it as the Growl description. The ApplicationDelegate class now looks like this:
+As a simple example of using the clicked callback method, we can send another Growl notification. In this case, we will take the context and use it as the Growl description. The ApplicationDelegate class now looks like this:
 
 > <pre><p style="margin: 0.0px 0.0px 0.0px 0.0px;font: 11.0px Menlo">
   framework <span style="color: #d12e1b">"Growl"</span>
 </p>
 
 <p style="margin: 0.0px 0.0px 0.0px 0.0px;font: 11.0px Menlo">
-   
+   
 </p>
 
 <p style="margin: 0.0px 0.0px 0.0px 0.0px;font: 11.0px Menlo">
@@ -139,7 +139,7 @@ As a simple example of using the clicked callback method, we can send another Gr
 
 Note that we are setting the clickContext to nil for this send notification. If we set it to anything else, we would allow the user to click it and it would call back into this same method. This isn&#8217;t necessarily a bad thing &#8211; but could be if we aren&#8217;t careful.
 
- 
+ 
 
 ## The End Results
 
@@ -147,4 +147,4 @@ Run the app from Xcode and when the first notification pops up, click on it. You
 
 <img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-01-23-at-10.36.10-AM.png" border="0" alt="Screen shot 2011-01-23 at 10.36.10 AM.png" width="327" height="83" />
 
- 
+ 

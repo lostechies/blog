@@ -19,13 +19,13 @@ tags:
   This originally started with this <a href="http://stackoverflow.com/questions/35024274/java-io-invalidclassexception-org-apache-spark-sql-types-timestamptype-and-java/35187029#35187029" rel="nofollow" data-href="http://stackoverflow.com/questions/35024274/java-io-invalidclassexception-org-apache-spark-sql-types-timestamptype-and-java/35187029#35187029">SO question</a>, and I’ll be honest I was flummoxed for a couple of days looking at this (in no small part because the code was doing a lot). But at some point I was able to isolate all issues down to dataFrame.saveToCassandra. Every 5 or so runs I’d get one or two errors:
 </p>
 
-[gist id=b3b0d2b0c8a3cc15d7c6e651425dddc0]
+{% gist b3b0d2b0c8a3cc15d7c6e651425dddc0 %}
 
 <p id="716c">
   or
 </p>
 
-[gist id=820a6def4f9c97dd73561dd33e84804d]
+{% gist 820a6def4f9c97dd73561dd33e84804d %}
 
 <p id="186f">
   I could write this data to a file with no issue, but when writing to a Cassandra these errors would come flying out at me. With the help of <a href="https://twitter.com/RussSpitzer" rel="nofollow" data-href="https://twitter.com/RussSpitzer">Russ Spitzer</a> (by help I mean explaining to my thick skull what was going on) I was pointed to the fact that reflection <a href="http://docs.scala-lang.org/overviews/reflection/thread-safety.html" rel="nofollow" data-href="http://docs.scala-lang.org/overviews/reflection/thread-safety.html">wasn’t thread safe in Scala 2.10</a>.

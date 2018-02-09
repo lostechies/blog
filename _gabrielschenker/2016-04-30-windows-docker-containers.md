@@ -167,7 +167,7 @@ When we now use `docker images` to get a list of container images we should see 
 
 As mentioned above, a better way to create an Nginx based image is to use a `Dockerfile`. For this let&#8217;s create a folder `c:\docker\nginx`. In this folder we create a new new file called `Dockerfile`. The content of the file should be
 
-[gist id=fa1d9e3e4320940e6a2c9a03409f68c2]
+{% gist fa1d9e3e4320940e6a2c9a03409f68c2 %}
 
 We can build this image using
 

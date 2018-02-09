@@ -43,11 +43,11 @@ These two pull down a number of other packages. To make things easier on ourselv
 
 Once that’s done, we have StructureMap plugged in to MVC, and the components ready for plugging FubuMVC into ASP.NET MVC. We’ll need to make sure that the correct assemblies are loaded into StructureMap for scanning:
 
-[gist id=a2c524f5f4e3b3a6b5e6]
+{% gist a2c524f5f4e3b3a6b5e6 %}
 
 We just make sure we add the default conventions (IFoo –> Foo) for the Fubu assemblies we referenced as part of the NuGet packages. Next, we need to configure the pieces that normally are done through FubuMVC configuration, but because we’re not pulling all of Fubu, we need to do through container configuration:
 
-[gist id=705f956ffc7fbb9ca1bb]
+{% gist 705f956ffc7fbb9ca1bb %}
 
 There’s a bit here. First, we create an HtmlConventionLibrary, import default conventions, and register this instance with the controller. We’re going to modify this in the future but for now we’ll use the defaults. This class tells FubuMVC how to generate HtmlTag instances based on element requests (more on that soon). Next, we register a value source, which is analogous to a ValueProvider in MVC. The ITagRequestActivator is for filling in extra details around a tag request (again, normally filled in with FubuMVC configuration).
 
@@ -65,13 +65,13 @@ Now that we have Fubu MVC configured for our application, we need to actually us
 
 Because the EditorFor and DisplayFor are impossible to completely replace, we need to come up with our own methods. FubuMVC exposes similar functionality in InputFor/DisplayFor/LabelFor methods. We need to build HtmlHelper extensions that call into FubuMVC element generators instead:
 
-[gist id=9842d07bd7dfcfcadf27]
+{% gist 9842d07bd7dfcfcadf27 %}
 
 We build an extension method for HtmlHelper that accepts an expression for the model member you’re building an input for. Next, we use the dependency resolver (service location because MVC) to request an instance of an IElementGenerator based on the model type. Finally, we call the InputFor of IElementGenerator to generate an HtmlTag based our expression and model. Notice there’s no ModelState involved (yet). We’ll get to validation in the future.
 
 Finally, we need to use these Label and Input methods in our forms. Here’s one example from the Register.cshtml view from the default MVC template:
 
-[gist id=e1cac762559e2c9f6dcd]
+{% gist e1cac762559e2c9f6dcd %}
 
 I left the second alone to contrast our version. So far not much is different. We do get a more elegant way of modifying the HTML, instead of weird anonymous classes, we get targeted, explicit methods. But more than that, we now have a hook to add our own conventions. What kinds of conventions? That’s what we’ll go into the next few posts.
 

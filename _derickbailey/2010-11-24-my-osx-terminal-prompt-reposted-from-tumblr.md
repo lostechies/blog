@@ -13,7 +13,7 @@ redirect_from: "/blogs/derickbailey/archive/2010/11/24/my-osx-terminal-prompt-re
 ---
 I wanted to post this on LosTechies, originally, but I didn&#8217;t have a good blogging tool at the time. I&#8217;m using MarsEdit now, and it seems to do what I want&#8230; but I digress&#8230;
 
- 
+ 
 
 ## My OSX Terminal Prompt
 
@@ -41,7 +41,7 @@ Finally, I drop to a new line before putting &#8220;$ &#8221; &#8211; yes, with 
 
 &#8230; and not shown in this screen shot, I set the title bar of the terminal to &#8220;username@machinename&#8221;
 
- 
+ 
 
 ## The PS1 Settings For This Prompt
 

@@ -29,7 +29,7 @@ If you&#8217;re storing templates in a script tag, don&#8217;t access that DOM e
 
 The easiest way of storing a template is to use the DOM selector as a key, and the template contents as a value. Check for the existence of that key on an object, and if it exists use that. If it doesn&#8217;t exist, load it:
 
-[gist id=2232998 file=1.js]
+{% gist 2232998 1.js %}
 
 ## Pre-Compile Templates
 
@@ -39,7 +39,7 @@ One of the commenters in the thread of discussion liked the test I put together 
 
 Clearly, pre-compiling your templates is important. So let&#8217;s update our TemplateCache to pre-compile the templates for us (assuming we&#8217;re using underscore.js):
 
-[gist id=2232998 file=2.js]
+{% gist 2232998 2.js %}
 
 ## Template Cache Built In To Backbone.Marionette
 

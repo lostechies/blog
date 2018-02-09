@@ -22,7 +22,7 @@ When it comes to the [Mediator](http://en.wikipedia.org/wiki/Mediator_pattern) a
 
 ## It&#8217;s All About Logic
 
-The TL;DR version of this article is this: where does the logic live? An event aggregator has no logic, other than forwarding events from a publisher to a subscriber. A mediator, on the other hand, encapsulates the potentially complex logic of coordinating multiple other objects and/or services, to accomplish a goal. A mediator contains real application / business / workflow / process logic.
+The TL;DR version of this article is this: where does the logic live? An event aggregator has no logic, other than forwarding events from a publisher to a subscriber. A mediator, on the other hand, encapsulates the potentially complex logic of coordinating multiple other objects and/or services, to accomplish a goal. A mediator contains real application / business / workflow / process logic.
 
 This is the line I&#8217;m drawing in the ever-shifting sands of implementation details and fuzzy heuristics.
 

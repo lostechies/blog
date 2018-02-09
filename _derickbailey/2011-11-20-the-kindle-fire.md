@@ -36,7 +36,7 @@ I bought this device expecting it to be a Kindle first, and I am not disappointe
 
 I&#8217;ve been a fan of the Kindle e-readers for some time now. I have a 2nd generation Kindle DX (9&#8243;), a 3rd generation Kindle Wifi (6&#8243;), the Kindle app on my Android phone and laptop, and now the Kindle Fire.
 
-I&#8217;m also an Amazon Prime subscriber which gives me access to a small but growing collection of Amazon Instant streaming movies and TV shows for free. More importantly, though, it gives me access to paid rentals much cheaper than Playstation Network or XBOX Live (both of which I have) and long before Netflix would ever have it available for streaming. I have not yet tried to Amazon MP3 cloud storage / player, but I have heard good things about it. I&#8217;m likely going to try it out soon, but I doubt that I&#8217;ll use this much since I have an Rdio.com subscription.
+I&#8217;m also an Amazon Prime subscriber which gives me access to a small but growing collection of Amazon Instant streaming movies and TV shows for free. More importantly, though, it gives me access to paid rentals much cheaper than Playstation Network or XBOX Live (both of which I have) and long before Netflix would ever have it available for streaming. I have not yet tried to Amazon MP3 cloud storage / player, but I have heard good things about it. I&#8217;m likely going to try it out soon, but I doubt that I&#8217;ll use this much since I have an Rdio.com subscription.
 
 ## The Good Parts: Software
 
@@ -116,7 +116,7 @@ There are a few problems I have with the hardware. This makes me very sad… it&
 
 ### The Power Button
 
-The power button is located on the bottom of the device, right where I want to put my pinky when I&#8217;m holding it. This means I accidentally turn it off while I&#8217;m trying to hold it with one hand. This is a seriously stupid mistake on Amazon&#8217;s part. They should have taken a note from every Android phone and put the power button on the top. It&#8217;s also very sensitive. I accidentally click it when I unplug the USB cable, regularly.
+The power button is located on the bottom of the device, right where I want to put my pinky when I&#8217;m holding it. This means I accidentally turn it off while I&#8217;m trying to hold it with one hand. This is a seriously stupid mistake on Amazon&#8217;s part. They should have taken a note from every Android phone and put the power button on the top. It&#8217;s also very sensitive. I accidentally click it when I unplug the USB cable, regularly.
 
 Unfortunately, this is hardware so it can&#8217;t be fixed in this generation of Fire.
 

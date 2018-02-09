@@ -13,7 +13,7 @@ categories:
 ---
 Hugo Bonacci has been [tweeting a lot about the Eloquent Ruby book](https://twitter.com/#!/hugoware/status/69971179498250240), so I decided to pick up a copy. In spite in my year or two of working with Ruby, I still feel like a n00b most of the time because I&#8217;m still stuck with a C# mentality most of the time. So, I decided to give this book a whirl and hope that I can finally cross the chasm of ruby idioms.
 
- 
+ 
 
 ### My Misunderstanding Of ! Methods
 
@@ -23,7 +23,7 @@ I used to think that a method with a ! on it, for example \`Array#map!\`, meant 
 
 However, my understanding of the ! convention was not complete and it often left me questioning the use of the symbol in other methods on other objects. Things just didn&#8217;t quite match up to my understanding. For example, in Rails and ActiveModel, \`save!\` doesn&#8217;t necessarily change anything in the in-memory object. It saves changes to the underlying data store and throws exceptions if any validation or other errors have occurred. The non-! version does the same work, but instead of throwing exceptions, it stores messages in the .errors collection. This was very puzzling to me. Why would they use a ! method name for something that doesn&#8217;t always change the object?
 
- 
+ 
 
 ### Adjusting My Understanding
 
@@ -37,7 +37,7 @@ In the case of map vs map!, the ! version is dangerous and/or has unexpected beh
 
 In the case of save vs save!, the ! version is unexpected behavior and/or dangerous because it will raise exceptions when validation fails. The non-! version, by contrast, won&#8217;t. It will only populate the .errors collection. Calling save! is potentially dangerous because it can crash an app due to throwing exceptions.
 
- 
+ 
 
 ### Off To A Great Start
 

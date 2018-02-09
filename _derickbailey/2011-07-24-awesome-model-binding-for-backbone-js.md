@@ -16,7 +16,7 @@ categories:
 ---
 A few weeks ago, [Brandon Satrom](https://twitter.com/#!/BrandonSatrom) introduced me to Knockout.js by [pointing me to a video by Steve Sanderson](http://channel9.msdn.com/events/MIX/MIX11/FRM08). I haven&#8217;t had a chance to try KO, yet, but I have to say I was blown away by the data-binding capabilties. Then, Brandon puts up [this blog post and talks about how he made KO even more awesome](http://userinexperience.com/?p=633) by eliminating the data-* attributes that KO needs, from his HTML markup.
 
-Needless to say, I was envious. KO&#8217;s data binding is impressive &#8211; especially compared to what we get out of the box with Backbone. Then this last week, [Neive](https://twitter.com/#!/nieveg) pointed me to a post by Brad Phelan that talks about [adding better model binding to Backbone](http://xtargets.com/2011/06/11/binding-model-attributes-to-form-elements-with-backbone-js/).
+Needless to say, I was envious. KO&#8217;s data binding is impressive &#8211; especially compared to what we get out of the box with Backbone. Then this last week, [Neive](https://twitter.com/#!/nieveg) pointed me to a post by Brad Phelan that talks about [adding better model binding to Backbone](http://xtargets.com/2011/06/11/binding-model-attributes-to-form-elements-with-backbone-js/).
 
 With all of this gong on, I was inspired! So I set out to build not just a manual configuration model binder, but a convention based binder that I can use in my apps to reduce the amount of view logic and code I need.
 
@@ -38,13 +38,13 @@ Here is the screen shot from the previous post, showing a list of medications wi
 
 There are 7 input fields and one select box on this form. To code to bind these fields to my model previously looked like this:
 
-[gist id=1102944 file=1-old.js]
+{% gist 1102944 1-old.js %}
 
 Given the number of inputs on this form, this code isn&#8217;t too bad. I was able to use some javascript and jQuery magic to reduce the amount of code I needed for each of the input boxes. However, I ended up with code to handle input fields and select fields, separately.
 
 Now let&#8217;s look at this code with Backbone.ModelBinding in place.
 
-[gist id=1102944 file=2-new.js]
+{% gist 1102944 2-new.js %}
 
 Notice a small difference in the amount of code needed to bind all 8 of those fields (7 inputs, 1 select)? What this comparison doesn&#8217;t show is the code that would have been needed to bind a model change back out to the form&#8217;s input fields. The one line of code in the render function, though, to call the Backbone.ModelBinding plugin handles this as well.
 
@@ -56,7 +56,7 @@ The Backbone.ModelBinding convention to make this work is very simple. The #id o
 
 If you don&#8217;t have your fields and model attributes aligned to this convention, though, Backbone.ModelBinding still supports you! But you have to drop back to manual configuration of the binding.
 
-[gist id=1102944 file=3-formBinding.js]
+{% gist 1102944 3-formBinding.js %}
 
 Still, this is pretty simple. All you need to do is specify which form element is being bound to which model attribute and Backbone.ModelBinding takes care of the rest for you. The only requirement is that the html element you specify must fire a &#8216;change&#8217; event that jQuery can bind to, and must be able to have it&#8217;s value set via jQuery&#8217;s &#8216;.val&#8217; method.
 

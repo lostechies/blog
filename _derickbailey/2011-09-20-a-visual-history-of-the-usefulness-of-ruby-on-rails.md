@@ -21,7 +21,7 @@ So, in order to help myself and maybe a few others understand what I&#8217;m get
 <img style="border: 0px initial initial;" title="3760098528_efbea17252.jpg" src="http://lostechies.com/derickbailey/files/2011/09/3760098528_efbea17252.jpg" border="0" alt="3760098528 efbea17252" width="500" height="334" />
 
 <p style="font-size: 10px;">
-  (Photo from <a href="http://www.flickr.com/photos/tonythemisfit/3760098528/sizes/m/in/photostream/">http://www.flickr.com/photos/tonythemisfit/3760098528/sizes/m/in/photostream/</a>)
+  (Photo from <a href="http://www.flickr.com/photos/tonythemisfit/3760098528/sizes/m/in/photostream/">http://www.flickr.com/photos/tonythemisfit/3760098528/sizes/m/in/photostream/</a>)
 </p>
 
 ## Rails 2: The Most Really Useful Engine
@@ -43,7 +43,7 @@ So, in order to help myself and maybe a few others understand what I&#8217;m get
 <img title="5512183307_b9788e211a.jpg" src="http://lostechies.com/derickbailey/files/2011/09/5512183307_b9788e211a.jpg" border="0" alt="5512183307 b9788e211a" width="500" height="272" />
 
 <p style="font-size: 10px;">
-  (Photo from <a href="http://www.flickr.com/photos/steveinleighton/5512183307/sizes/m/in/photostream/">http://www.flickr.com/photos/steveinleighton/5512183307/sizes/m/in/photostream/</a>)
+  (Photo from <a href="http://www.flickr.com/photos/steveinleighton/5512183307/sizes/m/in/photostream/">http://www.flickr.com/photos/steveinleighton/5512183307/sizes/m/in/photostream/</a>)
 </p>
 
 I have yet to hear &#8220;WOW! that was SO EASY!&#8221; out of anyone, regarding Rails 3.1 and the Asset Pipeline. Instead, I continue to hear more and more complaints about how difficult it is to make it work; how much work it takes to get it running, and how people are frustrated by Rails now, more than ever … and don&#8217;t even ask about the pipeline and coffeescript in a Windows environment… This all makes me very wary about upgrading or even starting a new Rails 3.1 project.

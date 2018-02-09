@@ -22,7 +22,7 @@ One of the more recent features that I added to my [Backbone.Marionette](https:/
 
 The CompositeView combines both the ItemView and the CollectionView in to one convenient structure. But what does that really mean? To understand this, you have to step back to the core design patterns outline by the [GoF](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612), and look at the [Composite structure pattern](http://en.wikipedia.org/wiki/Composite_pattern).
 
-The basic idea behind this pattern is most easily understood as a tree structure where every &#8220;leaf&#8221; &#8211; or end point &#8211; may also a &#8220;branch&#8221; &#8211; or collection of leaves and branches. We&#8217;re all familiar with this, whether or not we realize it:
+The basic idea behind this pattern is most easily understood as a tree structure where every &#8220;leaf&#8221; &#8211; or end point &#8211; may also a &#8220;branch&#8221; &#8211; or collection of leaves and branches. We&#8217;re all familiar with this, whether or not we realize it:
 
 <img title="Screen Shot 2012-03-23 at 4.41.06 PM.png" src="http://lostechies.com/derickbailey/files/2012/03/Screen-Shot-2012-03-23-at-4.41.06-PM.png" alt="Screen Shot 2012 03 23 at 4 41 06 PM" width="344" height="459" border="0" />
 
@@ -34,7 +34,7 @@ The core idea behind the CompositeView in Marionette is that it represents a vis
 
 For example:
 
-[gist id=2226605 file=1.js]
+{% gist 2226605 1.js %}
 
 In this example, I&#8217;ve defined a CompositeView called \`TreeView\`. By default, a CompositeView is recursive. For every item in the collection that the composite view is handed, the same CompositeView type will be used to render the item. Of course you can override the item view by specifying an \`itemView\` attribute. In this case, though, we want the recursive structure.
 
@@ -50,10 +50,10 @@ Here&#8217;s the TreeView example [running in a JSFiddle](http://jsfiddle.net/de
 
 But there are more uses for the CompositeView than just nested hierarchies. In fact, I rarely use CompositeView for this purpose, because I rarely need nested hierarchies. The most common use case that I have for the CompositeView is a simple collection rendered within an outer template.
 
-**UPDATE:** Chris Hoffman pointed out, in the comments, that this version of the code renders a <ul> tag around every <li> in the result. I did some digging and managed to create a version that doesn&#8217;t have this problem. But my version left an empty <ul></ul> at the bottom of every branch of the tree. Chris then created a version that looks for empty <ul> tags and removes them.
+**UPDATE:** Chris Hoffman pointed out, in the comments, that this version of the code renders a <ul> tag around every <li> in the result. I did some digging and managed to create a version that doesn&#8217;t have this problem. But my version left an empty <ul></ul> at the bottom of every branch of the tree. Chris then created a version that looks for empty <ul> tags and removes them.
 
-  * My updated version: <http://jsfiddle.net/derickbailey/xX9X3/>
-  * Chris&#8217; updated version: <http://jsfiddle.net/hoffmanc/NH9J6/>
+  * My updated version: <http://jsfiddle.net/derickbailey/xX9X3/>
+  * Chris&#8217; updated version: <http://jsfiddle.net/hoffmanc/NH9J6/>
 
 ## Grid Views: Collections With Wrapper Templates
 
@@ -61,9 +61,9 @@ It seems fairly common, at least in my applications, to need an area of your app
 
 For example, you might have a list of users that you want to put in a table or grid. The easiest way to do this is to use a CompositeView where the &#8216;itemView&#8217; is a row, and the CompositeView is the table / grid itself:
 
-[gist id=2226605 file=2.js]
+{% gist 2226605 2.js %}
 
-In this example, the &#8216;template&#8217; that I defined on the CompositeView directly contains the raw <thead> and <tbody> definitions. This puts the basic table structure in place. The &#8216;GridRow&#8217;, then, has a template of &#8216;row-template&#8217; and renders with a &#8216;tagName&#8217; of &#8220;tr&#8221;. This produces the needed &#8220;<tr>&#8221; tag with the &#8220;<td>&#8221; tags from the template getting stuffed in to the table row.
+In this example, the &#8216;template&#8217; that I defined on the CompositeView directly contains the raw <thead> and <tbody> definitions. This puts the basic table structure in place. The &#8216;GridRow&#8217;, then, has a template of &#8216;row-template&#8217; and renders with a &#8216;tagName&#8217; of &#8220;tr&#8221;. This produces the needed &#8220;<tr>&#8221; tag with the &#8220;<td>&#8221; tags from the template getting stuffed in to the table row.
 
 The last thing to note is the &#8220;appendHtml&#8221; method in the CompositeView definition. By default, the appendHtml method will do what the name suggests: append the HTML for each item to the end of the template from the composite view. By overriding this method with my own implementation for this structure, though, I can make sure that I am stuffing the rendered HTML for each item / row in to the table&#8217;s &#8220;<tbody>&#8221; tag, and end up with the table structure that I need.
 
@@ -87,7 +87,7 @@ I particularly like the way he separated the base accordion widget implementatio
 
 ## A Model For The Composite Wrapper
 
-You can specify a &#8216;model&#8217; for a CompositeView to render, as well. When the CompositeView is rendering the &#8216;template&#8217; that you specify, the &#8216;model&#8217; that you hand to the composite view will be used as the data source for the template. This means you can create a parent / children relationship with data from both the parent and children showing up.
+You can specify a &#8216;model&#8217; for a CompositeView to render, as well. When the CompositeView is rendering the &#8216;template&#8217; that you specify, the &#8216;model&#8217; that you hand to the composite view will be used as the data source for the template. This means you can create a parent / children relationship with data from both the parent and children showing up.
 
 ## Events For The Composite Wrapper
 

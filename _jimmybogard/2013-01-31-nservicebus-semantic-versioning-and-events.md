@@ -14,7 +14,7 @@ Something that caught us quite off guard when migrating from the 2.6 version of 
 
 When a subscriber expresses intent for a subscription of a message type, it does so automatically via a subscription message sent to the publisher. This message contains metadata information about which message types the subscriber intends to subscribe to, including full assembly version. It’s then stored in some persistent store, RavenDB, SQL Server, etc.
 
-[gist id=4683129]
+{% gist 4683129 %}
 
 Note that the assembly version is included in the subscription store. So here’s our picture right now:
 

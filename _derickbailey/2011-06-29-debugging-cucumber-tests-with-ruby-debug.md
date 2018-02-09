@@ -18,7 +18,7 @@ Today I ran into a scenario where I needed to step through some ruby code and ex
 
 Here&#8217;s the first things that I did to get ruby-debug to work with cucumber.
 
-[gist id=1054669 file=1-general-setup.rb]
+{% gist 1054669 1-general-setup.rb %}
 
 The first chunk of code in my Gemfile ensures that I have the ruby debugger loaded up. I&#8217;ve had this line in my Gemfile for some time now, since I&#8217;ve done debugging of my rails apps.
 
@@ -30,8 +30,8 @@ The last chunk should go in some cucumber step definition file. It&#8217;s a con
 
 I&#8217;m a little surprised that I had to add the require &#8216;ruby-debug&#8217; to my env.rb file, honestly. Bundler usually handles the &#8216;require&#8217; for you, when you include a gem &#8230; except that the gem is named &#8216;ruby-debug19&#8217; and the require statement is &#8216;ruby-debug&#8217;, which breaks the convention that bundler uses to do the include.
 
-Fortunately,  we can fix the Gemfile to specify by specifying the :require option.
+Fortunately,  we can fix the Gemfile to specify by specifying the :require option.
 
-[gist id=1054669 file=2-the-right-way.rb]
+{% gist 1054669 2-the-right-way.rb %}
 
 Now that I have my Gemfile properly loading &#8216;ruby-debug&#8217;, I can get rid of the require &#8220;ruby-debug&#8221; line in my env.rb file. Re-run the cucumber suite, and the debugger attaches correctly.

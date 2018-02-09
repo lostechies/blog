@@ -20,9 +20,9 @@ Writing unit tests with Mocha or Jasmine is generally pretty easy. Once you have
 
 ## Getting A Test Project Set Up
 
-Christopher Bennage has already blogged about [the basic set up that we put in to our project](http://dev.bennage.com/blog/2012/08/15/unit-testing-winjs/). The gist of it is that we have to manually add a linked file from our production app in to our test runner app, every time we need to write tests for that production file. We&#8217;ve also had to manually add the individual file reference as a <script> tag, along with a <script> tag for the tests for that file, in side of our &#8220;default.html&#8221; file. This tells the project to load and run the script and its associated tests. 
+Christopher Bennage has already blogged about [the basic set up that we put in to our project](http://dev.bennage.com/blog/2012/08/15/unit-testing-winjs/). The gist of it is that we have to manually add a linked file from our production app in to our test runner app, every time we need to write tests for that production file. We&#8217;ve also had to manually add the individual file reference as a <script> tag, along with a <script> tag for the tests for that file, in side of our &#8220;default.html&#8221; file. This tells the project to load and run the script and its associated tests. 
 
-The result of all this manual <script> tag maintenance was painful at best, and nightmarish most of the time. Here&#8217;s an incomplete screenshot of all the files that we had to manually add as <script> tags. Note that I said _incomplete_ screenshot&#8230;
+The result of all this manual <script> tag maintenance was painful at best, and nightmarish most of the time. Here&#8217;s an incomplete screenshot of all the files that we had to manually add as <script> tags. Note that I said _incomplete_ screenshot&#8230;
 
 <img title="Screen Shot 2012-08-21 at 8.54.35 AM.png" src="http://lostechies.com/derickbailey/files/2012/08/Screen-Shot-2012-08-21-at-8.54.35-AM.png" alt="Screen Shot 2012 08 21 at 8 54 35 AM" width="339" height="600" border="0" />
 
@@ -32,15 +32,15 @@ I got tired of this, as you can imagine, so I fixed it. Yesterday I introduced a
 
 <img title="Screen Shot 2012-08-21 at 8.59.33 AM.png" src="http://lostechies.com/derickbailey/files/2012/08/Screen-Shot-2012-08-21-at-8.59.33-AM.png" alt="Screen Shot 2012 08 21 at 8 59 33 AM" width="600" height="146" border="0" />
 
-That&#8217;s much better! And the best part is, I don&#8217;t have to touch this file again. I can add specs to my app, and link production files in to the test runner all day long, and I never need to change this file. 
+That&#8217;s much better! And the best part is, I don&#8217;t have to touch this file again. I can add specs to my app, and link production files in to the test runner all day long, and I never need to change this file. 
 
-The key to the reduction of <script> tags is that last file I included: specRunner.js. This file takes advantage of the WinRT/WinJS runtime environment to examine the local file system that the code is running from, use a few very simple conventions along with a bit of configuration to find the files it needs, and dynamically generate the needed  <script> tags for me, inserting them in to the DOM.
+The key to the reduction of <script> tags is that last file I included: specRunner.js. This file takes advantage of the WinRT/WinJS runtime environment to examine the local file system that the code is running from, use a few very simple conventions along with a bit of configuration to find the files it needs, and dynamically generate the needed  <script> tags for me, inserting them in to the DOM.
 
 ## Configuring The SpecRunner
 
 In the &#8220;default.js&#8221; page control, I have this code:
 
-[gist file=default.js id=3415884]
+{% gist 3415884 default.js %}
 
 Here you can see the few bits of configuration that I&#8217;m passing in &#8211; the folder that contains the source files, the spec files, and a helpers folder. This helpers folder is used to load up any helper scripts &#8211; extra libraries, common functions, and anything else you need that isn&#8217;t directly a test. Just drop a .js file in this folder and it will be included in the test runner.
 
@@ -50,7 +50,7 @@ I&#8217;ve also included an &#8220;error&#8221; event that gets dispatched from 
 
 My implementation of the spec runner is fairly simple, but it does do quite a bit. The [heavy use of WinJS promises](http://lostechies.com/derickbailey/2012/07/19/want-to-build-win8winjs-apps-you-need-to-understand-promises/) necessitates a lot of callback functions which I like to organize in to a series of steps to perform.
 
-[gist file=specRunner.js id=3415884]
+{% gist 3415884 specRunner.js %}
 
 You can the high level list of steps in the &#8220;run&#8221; method, with each of those primary steps being a breakdown of other steps to takes. I&#8217;ve also hard coded my version of the spec runner to configure and run Mocha tests. It would not be difficult to change this to run Jasmine tests, or to abstract this a little bit more and make the test runner configurable with callback functions or other means.
 

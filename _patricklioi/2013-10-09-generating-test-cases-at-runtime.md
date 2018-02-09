@@ -16,18 +16,18 @@ Before that, we saw how a convention could instead cause parameterized test meth
 
 Today, we&#8217;ll see an example of parameterized tests which are called multiple times, using values _generated_ at runtime. Consider a test class with two test methods and some static Person-generator methods:
 
-[gist id=6894225]
+{% gist 6894225 %}
 
 Without a custom convention, Fixie fails to invoke the parameterized test:
 
-[gist id=6894235]
+{% gist 6894235 %}
 
 Let&#8217;s define a custom convention which considers single-argument test methods. For a test method that takes in some type T, it will find all the static methods returning IEnumerable<T>, call them all, and pass in the many T objects into the test method one at a time:
 
-[gist id=6894324]
+{% gist 6894324 %}
 
 Now, we see that our two test methods produce 5 individual test cases.
 
-[gist id=6894333]
+{% gist 6894333 %}
 
 > Oh dear. **Can you spot the bug?** It&#8217;s possible to write test methods that never get invoked. In our next episode, we&#8217;ll cover the bug as well as an improvement in Fixie that will prevent such subtle surprises while simplifying parameterized test conventions.

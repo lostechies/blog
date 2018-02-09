@@ -13,7 +13,7 @@ categories:
   - JavaScript
   - Marionette
 ---
-A question was asked on Stack Overflow recently, and I provided an answer that I think is worth re-blogging here (while cleaning up the text / grammar). My answer goes in to a little bit of the idea behind a garbage collected language and gets in to some of the basics of how JavaScript knows when to clean up your &#8220;garbage&#8221; &#8211; that is, your objects that are no longer used. What I&#8217;m presenting here is an oversimplification of how JavaScript manages memory. However, these basic ideas should prove useful to people who want to do a better job of managing memory usage in JavaScript.
+A question was asked on Stack Overflow recently, and I provided an answer that I think is worth re-blogging here (while cleaning up the text / grammar). My answer goes in to a little bit of the idea behind a garbage collected language and gets in to some of the basics of how JavaScript knows when to clean up your &#8220;garbage&#8221; &#8211; that is, your objects that are no longer used. What I&#8217;m presenting here is an oversimplification of how JavaScript manages memory. However, these basic ideas should prove useful to people who want to do a better job of managing memory usage in JavaScript.
 
 ## [What does Backbone.js do with models that are not used anymore?](http://stackoverflow.com/questions/9758346/what-does-backbone-js-do-with-models-that-are-not-used-anymore/9760641#9760641)
 
@@ -23,7 +23,7 @@ JavaScript is a [garbage collected](http://en.wikipedia.org/wiki/Garbage_collect
 
 ## Variable References And Cleanup In JavaScript
 
-When you create a variable, you can either scope that variable to a local function or as a global variable (with some additional tricks and patterns that I show in [my JavaScript Scope screencast](http://www.watchmecode.net/javascript-scope)).
+When you create a variable, you can either scope that variable to a local function or as a global variable (with some additional tricks and patterns that I show in [my JavaScript Scope screencast](http://www.watchmecode.net/javascript-scope)).
 
 Global variables are not cleaned up by the garbage collector during the life of the page. You can leave a page open for days or weeks or infinitely, and any variable that was scoped to the JavaScript runtime global object will stick around the whole time. Globals are cleaned up is when you refresh the page, leave the HTML page behind entirely (such as navigating to a different page and force the browser to load the new page from the server, doing a complete server refresh) or closing the browser or browser tab.
 
@@ -34,7 +34,7 @@ There are a few exceptions to this:
   * Returned values from functions
   * Closures
   * Object attributes and methods
-  * Callback functions and DOM events
+  * Callback functions and DOM events
 
 Ok, calling these &#8220;exceptions&#8221; is stretching it a bit. These types of references still fall under the same rules, but some additional tricks are used by the JavaScript run time to hold on to the references longer than you might expect.
 
@@ -72,7 +72,7 @@ For example: events. An even handler / callback method works by having a referen
 
 Additionally, my [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) framework that sits on top of Backbone does a lot of cleanup work for you. I provide access to a Region object and various types of views that automatically clean up DOM references, child-view references, event handler references, etc.
 
-Other than being aware of how events work in terms of references, just follow the standard rules for manage memory in JavaScript and you&#8217;ll be fine. If you are loading data in to a Backbone collection full of User objects you want that collection to be cleaned up so it&#8217;s not using anymore memory, you must remove all references to the collection and the individual objects in it.  Once you remove all references, things will be cleaned up. This is just the standard JavaScript garbage collection rule.
+Other than being aware of how events work in terms of references, just follow the standard rules for manage memory in JavaScript and you&#8217;ll be fine. If you are loading data in to a Backbone collection full of User objects you want that collection to be cleaned up so it&#8217;s not using anymore memory, you must remove all references to the collection and the individual objects in it.  Once you remove all references, things will be cleaned up. This is just the standard JavaScript garbage collection rule.
 
 ## There&#8217;s More To It&#8230;
 
@@ -93,4 +93,4 @@ Also, be sure to check out my [WatchMeCode screencast: JavaScript Zombies](http:
 
 [<img src="http://lostechies.com/derickbailey/files/2014/02/NewImage3.png" alt="NewImage" width="300" height="225" border="0" />](http://www.watchmecode.net/javascript-zombies)
 
- 
+ 

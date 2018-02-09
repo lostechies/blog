@@ -18,13 +18,13 @@ When writing node applications, there are a few concepts that are important to u
 
 If you&#8217;ve done anything or read anything with node.js, I&#8217;m sure you are aware that it is built on an event-driven, asynchronous model. It&#8217;s one of the first things you have to come to grips with if you are building anything substantial. Because node.js applications are single threaded, it&#8217;s very important that you keep to the asynchronous model. When you do, your apps will be amazingly fast and responsive. If you don&#8217;t, you&#8217;re application will slow to a crawl. Let&#8217;s take the simplest web server example:
 
-[gist id=4155095 file=webserver.js]
+{% gist 4155095 file=webserver.js %}
 
 This code is running on a single thread, waiting for a web request. When a web request, comes in you want to pass the work off to an asynchronous callback handler, freeing the main thread to respond to more requests. If you block the main event loop, then no more requests will processed until it completes.
 
 It can take a while to get used to this model, especially coming from a blocking or multi-threaded paradigm, which uses a different approach for concurrency. The first time I ran into this was building the Austin code camp site. To save the results from the form, I abstracted the work into a separate function. on the request handler, I called the save function, then returned the response.
 
-[gist id=4155095 file=no-continuation.js]
+{% gist 4155095 file=no-continuation.js %}
 
 But I forgot that the work to save the data, was done asynchronously, so my output log looked like this:
 
@@ -32,7 +32,7 @@ calling save returning response saving the data
 
 Because the work to save the data was done asynchronously, I sent the response was sent before the data was actually saved. (Keep in mind, this is not always a bad thing, like saving a log statement, but not waiting to see if it completes or not.) What I needed to do was use a continuation model, and pass in a callback that completes the html request, when the request to save the data completes, or sends back an error.
 
-[gist id=4155095 file=save-with-continuation.js]
+{% gist 4155095 file=save-with-continuation.js %}
 
 &nbsp;
 

@@ -12,15 +12,15 @@ categories:
 ---
 While I was running the Object-Oriented JavaScript discussion / demo at Pablo&#8217;s Fiesta this weekend, Jimmy Bogard asked me to try something fun. I had a small constructor function defined with a couple of methods defined directly in it.
 
-[gist id=1257742 file=1-stuff.js]
+{% gist 1257742 1-stuff.js %}
 
 I also had an object literal with no methods defined, and was showing something (I don&#8217;t remember what, at the moment). Jimmy asked me to call &#8216;apply&#8217; on the constructor function and pass my object literal into it.
 
-[gist id=1257742 file=2-apply.js]
+{% gist 1257742 2-apply.js %}
 
 Then he asked me to call one of the methods from the function constructor on my object literal instance.
 
-[gist id=1257742 file=3-whatever.js]
+{% gist 1257742 3-whatever.js %}
 
 I expected this to fail, because I didn&#8217;t think the method would be around on my object literal. I was wrong, of course! [Here&#8217;s that code running in a live JSFiddle](http://jsfiddle.net/derickbailey/Brp4S/4/) (click the &#8216;result&#8217; tab if you&#8217;re seeing the embedded version in this post).
 

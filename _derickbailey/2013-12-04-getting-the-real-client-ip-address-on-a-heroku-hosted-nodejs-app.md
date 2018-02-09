@@ -14,7 +14,7 @@ categories:
   - Podcast
   - SignalLeaf
 ---
-I was building a new report for [SignalLeaf](http://signalleaf.com) last weekend, to get the RSS Subscriber count for a given podcast. Along the way, I was doing some research in to the best way to track that information. It turned out to be mostly simple: track the IP address for every machine that gets the RSS feed for a given podcast, along with the user-agent for each (and a few other bits of info). Once you take out the known list of bots and crawlers, you can use a &#8220;distinct&#8221; combination of IP and user-agent to get a good idea of how many subscribers a podcast has. 
+I was building a new report for [SignalLeaf](http://signalleaf.com) last weekend, to get the RSS Subscriber count for a given podcast. Along the way, I was doing some research in to the best way to track that information. It turned out to be mostly simple: track the IP address for every machine that gets the RSS feed for a given podcast, along with the user-agent for each (and a few other bits of info). Once you take out the known list of bots and crawlers, you can use a &#8220;distinct&#8221; combination of IP and user-agent to get a good idea of how many subscribers a podcast has. 
 
 I was rocking the code, getting data tracked and analyzed, and I got the first version of the report published. So naturally, I went out to [my own podcast](http://blog.signalleaf.com/blog/categories/podcast/) that I have set up and started refreshing the RSS feed from my browser and from curl commands. I wanted to see what would happen in the staging and production environments, on Heroku.
 
@@ -28,7 +28,7 @@ Now this wasn&#8217;t happening on my local machine&#8230; I was properly counti
 
 By adding a console.log on the IP address that I was tracking, I found out that **I was getting a new IP address for every refresh, all within the 10.##.###.### IP Address range**. I know this is a private IP range, used internally on networks, so this didn&#8217;t make sense to me at all.
 
-A few quick searches later, and I found some info that told me how **Heroku uses an internal routing system to forward the original request** to any of the actual machines running your process. The IP address that your process actually receives is not the original requesting IP address, but the internal router or proxy or whatever it is. 
+A few quick searches later, and I found some info that told me how **Heroku uses an internal routing system to forward the original request** to any of the actual machines running your process. The IP address that your process actually receives is not the original requesting IP address, but the internal router or proxy or whatever it is. 
 
 ## Getting The Real IP Address
 
@@ -36,7 +36,7 @@ Fortunately, there is a way to get the real IP Address for a client that is conn
 
 So in my app, I added this code:
 
-[gist id=7789509 file=real-ip.js]
+{% gist 7789509 real-ip.js %}
 
 And now I have the real IP address to track RSS activity and produce the right report.
 

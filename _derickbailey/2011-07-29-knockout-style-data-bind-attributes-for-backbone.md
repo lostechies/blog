@@ -29,7 +29,7 @@ We all know that Backbone.ModelBinding will handle the binding between the form 
 
 Here&#8217;s what that code looks like (using an [event aggregator](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/) in this case):
 
-[gist id=1114226 file=2-rerender.js]
+{% gist 1114226 2-rerender.js %}
 
 Not bad &#8211; pretty standard backbone code, really. My medication view re-renders itself when the model has been saved. Except I don&#8217;t think we should have to re-render the entire view just to update a few fields on the form.
 
@@ -37,7 +37,7 @@ Not bad &#8211; pretty standard backbone code, really. My medication view re-ren
 
 Let&#8217;s try this again with my new data bind convention in place.
 
-[gist id=1114226 file=3-databind.js]
+{% gist 1114226 3-databind.js %}
 
 from 27 lines of code down to 13? Now that&#8217;s more like it!
 
@@ -45,13 +45,13 @@ But more important than the number of lines of code, you&#8217;ll notice that th
 
 So, then&#8230; how do we get this magic to work? First off, we need to build the data-bind convention:
 
-[gist id=1114226 file=1-DataBindConvention.js]
+{% gist 1114226 1-DataBindConvention.js %}
 
 Drop this code into your project, somewhere. Be sure it is executed after the Backbone.ModelBinding.js file has been loaded so that the very last line can correctly attach the new DataBindConvention to the convention list (also [checkout the readme on the github repo](https://github.com/derickbailey/backbone.modelbinding#readme) for more information on this convention&#8217;s structure).
 
 Once we have that in place, we just need to add some data-bind attributes to our html. Here&#8217;s an approximation of what the html for the above medication view looks like:
 
-[gist id=1114226 file=4-databind.html]
+{% gist 1114226 4-databind.html %}
 
 The key here is the &#8216;data-bind&#8217; attribute that I&#8217;ve added to the divs that are displaying the model&#8217;s data. The data-bind convention that we set up looks for this attribute and then parses the information in it to set up the databinding. The first word of the attribute&#8217;s value tells our convention how to modify the element. The second word tells the convention which model attribute to use for the element&#8217;s value. In this case, we&#8217;re setting the text attribute of the divs to the model attribute that represents the data we want: &#8216;trade_name&#8217; (the name of the drug), &#8216;dosage&#8217; and &#8216;route&#8217;.
 

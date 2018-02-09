@@ -20,9 +20,9 @@ I received an email from [Mark Muskardin](http://fromthought2web.com/), today, a
 
 ## 1) How did you ramp up on Backbone?
 
-Mostly trial and error, honestly. I would try something to see if it worked or not and dig into the Backbone source code to find out why it didn&#8217;t in most cases. I also spent a lot of time looking at the example backbone code I could find in blog posts, in the documentation, etc.
+Mostly trial and error, honestly. I would try something to see if it worked or not and dig into the Backbone source code to find out why it didn&#8217;t in most cases. I also spent a lot of time looking at the example backbone code I could find in blog posts, in the documentation, etc.
 
-In the end, though, it was really the throw-away applications I built that had the most impact for me. I would spend a few hours a night thinking about another way to approach a specific scenario in backbone, and try it out. In the process of doing this and exploring the different aspects of backbone, I learned a lot about how it works and how i like to work with it. (FWIW: I think this pretty well describe my learning style)
+In the end, though, it was really the throw-away applications I built that had the most impact for me. I would spend a few hours a night thinking about another way to approach a specific scenario in backbone, and try it out. In the process of doing this and exploring the different aspects of backbone, I learned a lot about how it works and how i like to work with it. (FWIW: I think this pretty well describe my learning style)
 
 I also have a strong background in building windows applications with a model-view-presenter structure, in a composite application style. Backbone fits easily into my prior experience in this realm, so a lot of what i have been trying out and learning is stuff that i knew how to do previously, just putting it in to play in a different language and runtime. I think this gave me a pretty good advantage in terms of &#8220;things to try&#8221; in my throw-away apps.
 
@@ -51,7 +51,7 @@ For integration tests with the rest of my system, I use Cucumber. Most of the te
 
 For unit testing (which I&#8217;ve been doing more of, recently) I use Jasmine and the Jasmine-jQuery plugin. [My previous blog post](http://lostechies.com/derickbailey/2011/09/06/test-driving-backbone-views-with-jquery-templates-the-jasmine-gem-and-jasmine-jquery/) addresses this, specifically to get my views under test with my view templates in place. (I&#8217;m considering writing a small series and/or e-book on testing backbone, though this is also covered in my screencast, so i may not be able to write an entire e-book on it any time soon.)
 
-## 4) I saw that your created a Backbone plugin.  Does Backbone have a similar plugin/gem ecosystem that jQuery/Rails has?  How can I get started?
+## 4) I saw that your created a Backbone plugin.  Does Backbone have a similar plugin/gem ecosystem that jQuery/Rails has?  How can I get started?
 
 While it&#8217;s not as extensive as jquery or rails, there is a growing backbone plugin ecosystem. There&#8217;s also no automatic installation or package management like gems (or npm for node.js) or anything like that. Mostly, people just [list their plugin in the backbone wiki](https://github.com/documentcloud/backbone/wiki/Extensions,-Plugins,-Resources), talk about it on their blog and on the backbone mailing list, too.
 

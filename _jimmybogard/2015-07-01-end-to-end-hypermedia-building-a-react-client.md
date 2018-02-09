@@ -21,7 +21,7 @@ As a shortcut, I&#8217;m just going to use [ReactJS.Net](http://reactjs.net/) to
 
 I&#8217;m going to create just a blank JSX file for all my React components for this page, and slim down my Index view to the basics:
 
-[gist id=f0ddf024486a4015cdfe]
+{% gist f0ddf024486a4015cdfe %}
 
 All of the div placeholders are removed except one, for content. I pull in the React library and my custom React components. The ReactJS.Net package takes my JSX file and transpiles it into Javascript (as well as builds the needed files for in-browser debugging). Finally, I render my base React component, passing in the root URL for kicking off the initial request for instructors, and the DOM element in which to render the React component into.
 
@@ -41,7 +41,7 @@ Looking at this, I see three individual tables populated with collection+json da
 
 First up is our overall component that contains our three tables of collection+json data. Since I have an understanding of what&#8217;s getting returned on the server side, I&#8217;m going to make an assumption that I&#8217;m building out three tables, and I can navigate links to drill down to more. Additionally, this component will be responsible for making the initial AJAX call and keeping the overall state. State is important in React, and I&#8217;ve decided to keep the parent component responsible for the resource state rather than each table. My InstructorInfo component is:
 
-[gist id=dfdb9e12f4f0a3c7b61a]
+{% gist dfdb9e12f4f0a3c7b61a %}
 
 I&#8217;m using ES6 here, which makes building React components a bit nicer to work with. I first declare my React component, extending from React.Component. Next, in my constructor, I set up the initial state, a object with empty values for the instructors/courses/students state. Finally, I set up the binding for a callback function to bind to the React component as opposed to the function itself.
 
@@ -51,7 +51,7 @@ The _handleSelect function is the callback of the clicked link way down on one o
 
 Finally, the render function just has a div with my three CollectionJsonTable components, binding up the data and select functions. Let&#8217;s look at that component next:
 
-[gist id=ac1bd5c4bce0531efea5]
+{% gist ac1bd5c4bce0531efea5 %}
 
 This one is not quite as interesting. It only has the render method, and the first part is just to manage either no data or empty data. Since my data can conditionally have links, I found it easier to inform child components whether or not links exist (through the lodash code), rather than every component having to re-figure this out.
 
@@ -59,21 +59,21 @@ To build up each row, I map the collection+json items to CollectionJsonTableRow 
 
 The final rendered component is a table with a CollectionJsonTableHeader and the rows. Let&#8217;s look at that header next:
 
-[gist id=bb43fd18f3b019dfec48]
+{% gist bb43fd18f3b019dfec48 %}
 
 This component also only has a render method. I map the data items from the first item in the collection, producing header cells based on the prompt from the collection+json data. If the collection contains links, I&#8217;ll add an empty header cell on the end. Finally, I render the header with the header cells in a row.
 
 With the header done, I can circle back to the CollectionJsonTableRow:
 
-[gist id=393ceeb70d578370c3b0]
+{% gist 393ceeb70d578370c3b0 %}
 
 The row&#8217;s responsibility is just to build up the collection of cells, plus the optional CollectionJsonTableLinkCell. As before, I have to pass down the callback for the link clicks. Similar to the header cells, I fill in the data value (instead of the prompt). Next up is our link cell:
 
-[gist id=24d117702374c24f6f34]
+{% gist 24d117702374c24f6f34 %}
 
 This one isn&#8217;t so interesting, it just loops through the links, building out a CollectionJsonTableLink component, filling in the link object, key, and callback. Finally, our CollectionJsonTableLink component:
 
-[gist id=d3275a4dae2f329a0972]
+{% gist d3275a4dae2f329a0972 %}
 
 The link clicks are the most interesting part here. I didn&#8217;t want my link itself to have the behavior of what to do on click, so I call my &#8220;onSelect&#8221; prop in the click event from my link. The \_handleClick method calls the onSelect method, passing in the href/rel from the collection+json link object. In my render method, I just output a normal anchor tag, with the rel and prompt from the link object, and the onClick event bound to the \_handleClick method. Finally, I indicate that the onSelect prop is required, so that I don&#8217;t have to check for its existence when the link is clicked.
 

@@ -14,27 +14,27 @@ In the last post, I looked at [auto-property enhancements](https://lostechies.co
 
 Expression-bodied function members can work for both methods and properties. If you have a method with one statement, and that statement can be represented as an expression:
 
-[gist id=1df2e298424798419728]
+{% gist 1df2e298424798419728 %}
 
 Or a getter-only properties/indexers with a body that can be represented as an expression:
 
-[gist id=4dd3be187aef431dbb8d]
+{% gist 4dd3be187aef431dbb8d %}
 
 You can collapse those down into something that looks like a cross between a member declaration and a lambda expression:
 
-[gist id=79b3dbb57b437be77760]
+{% gist 79b3dbb57b437be77760 %}
 
 This seems to work really well when the expression can fit neatly on one line. In my refactorings, I did have places where it didn’t look so hot:
 
-[gist id=7ab545628028a17462c4]
+{% gist 7ab545628028a17462c4 %}
 
 After:
 
-[gist id=e911187be9ef8294d4a3]
+{% gist e911187be9ef8294d4a3 %}
 
 If the original expression looked better on multiple lines formatted out, the new expression-bodied way will look a bit weirder as you don’t have that initial curly brace. Refactoring tools try to put everything on the one line, making it pretty difficult to understand what’s going on. However, some code I have refactored down very nicely:
 
-[gist id=eab1a15e07e60af30b40]
+{% gist eab1a15e07e60af30b40 %}
 
 It was a bit of work to go through the entire codebase, so I wouldn’t recommend that approach for actual production apps. However, it’s worth it if you’re already looking at some code and want to clean it up.
 

@@ -17,7 +17,7 @@ Most other languages make it easy to call the &#8220;super&#8221; function when 
 
 ## The Super Pattern
 
-The &#8220;super-method&#8221; pattern is where you call the parent type&#8217;s method from your own method. For example, overriding the `toJSON` method of a model:
+The &#8220;super-method&#8221; pattern is where you call the parent type&#8217;s method from your own method. For example, overriding the `toJSON` method of a model:
 
 <div class="highlight">
   <pre><span class="kd">var</span> <span class="nx">MyModel</span> <span class="o">=</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">Model</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
@@ -35,8 +35,8 @@ The &#8220;super-method&#8221; pattern is where you call the parent type&#8217;s
 <span class="p">});</span></pre>
 </div>
 
-This will call the `toJSON` method of the type from which the new type was extended. It&#8217;s a little more code than other languages, but it still gets the job done.
+This will call the `toJSON` method of the type from which the new type was extended. It&#8217;s a little more code than other languages, but it still gets the job done.
 
-> There are a lot of different ways to get to and call the methods of a prototype object. If you&#8217;d like to learn more, check out my triple pack of screencasts covering [Scope, Context and Objects & Prototypes](http://www.watchmecode.net/javascript-fundamentals).
+> There are a lot of different ways to get to and call the methods of a prototype object. If you&#8217;d like to learn more, check out my triple pack of screencasts covering [Scope, Context and Objects & Prototypes](http://www.watchmecode.net/javascript-fundamentals).
 > 
 > Also be sure to check out my [Building Backbone Plugins e-book](http://backboneplugins.com), from which this post was taken.

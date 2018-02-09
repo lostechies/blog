@@ -21,15 +21,15 @@ Something bothers me about seeing strings inside square brackets. It has always 
 
 Given a configuration file:
 
-[gist id=5001941 file=app.config]
+{% gist 5001941 file=app.config %}
 
 Formo can be used to:
 
-[gist id=5001941 file=Formo.cs]
+{% gist 5001941 file=Formo.cs %}
 
 As well as:
 
-[gist id=5001941 file=FormoCast.cs]
+{% gist 5001941 file=FormoCast.cs %}
 
 [Formo](https://github.com/ChrisMissal/Formo) is lightweight, free to use, and has no dependencies. Use it now with NuGet:
 

@@ -23,9 +23,9 @@ Everyone that has responded so far, is wrong in some way. I&#8217;m wrong in som
 
 ## Ploeh Is Right, For The Wrong Reasons
 
-I think Mark is right in that we should test most of our &#8220;trivial&#8221; code (if not all of it). I think he&#8217;s very very wrong is saying that we should unit test all of it &#8211; especially with the examples that he showed of unit testing a C# auto-property for a date/time field.
+I think Mark is right in that we should test most of our &#8220;trivial&#8221; code (if not all of it). I think he&#8217;s very very wrong is saying that we should unit test all of it &#8211; especially with the examples that he showed of unit testing a C# auto-property for a date/time field.
 
-Mark is right because this field must add some value to the system. If it doesn&#8217;t add some value, it shouldn&#8217;t be there. If it does add some value, we should guarantee the value that it adds. 
+Mark is right because this field must add some value to the system. If it doesn&#8217;t add some value, it shouldn&#8217;t be there. If it does add some value, we should guarantee the value that it adds. 
 
 ## Jimmy Bogard Got It Right
 
@@ -41,7 +41,7 @@ Jimmy wrote a post that I think was unrelated, but happens to [fit perfectly in 
 
 Ultimately, it depends is the only reasonable answer. But let&#8217;s take the example of a date/time auto-property that Mark used in his example, for our purposes and discussion.
 
-The value that a date/time property adds may not be in the business logic that uses it. It may not have anything to do with handling of the date/time in some creative way to make sure other things happen at a certain time. It might be as simple as an invoice date, or perhaps a purchase order # on an invoice. Both of these fields are trivial, but both add value to the idea of an invoice. I wouldn&#8217;t unit test these fields if they are only used for display purposes, though. Instead, I would focus the test on the place that the field provides value &#8211; the end to end solution.
+The value that a date/time property adds may not be in the business logic that uses it. It may not have anything to do with handling of the date/time in some creative way to make sure other things happen at a certain time. It might be as simple as an invoice date, or perhaps a purchase order # on an invoice. Both of these fields are trivial, but both add value to the idea of an invoice. I wouldn&#8217;t unit test these fields if they are only used for display purposes, though. Instead, I would focus the test on the place that the field provides value &#8211; the end to end solution.
 
 ## Mark Rendle Got Part Of It Right, Too
 
@@ -51,14 +51,14 @@ This leads to the real point in adding value in tests.
 
 ## Functional Tests, Not Unit Tests
 
-The value that trivial fields used for display purposes adds, is found in the display of the information. In this case the use of an Invoice Date and Purchase Order Number on the invoice that is sent to the person that needs to pay it  provides value to both the person sending the invoice and the person receiving the invoice &#8211; so test that. Test the display of the information because that&#8217;s where the value is found. Write a functional test that runs your invoice generating process and use a simple UI test to ensure the date shows up. This is where a test provides value for trivial code in this case &#8211; functional tests, not unit tests.
+The value that trivial fields used for display purposes adds, is found in the display of the information. In this case the use of an Invoice Date and Purchase Order Number on the invoice that is sent to the person that needs to pay it  provides value to both the person sending the invoice and the person receiving the invoice &#8211; so test that. Test the display of the information because that&#8217;s where the value is found. Write a functional test that runs your invoice generating process and use a simple UI test to ensure the date shows up. This is where a test provides value for trivial code in this case &#8211; functional tests, not unit tests.
 
-A unit test around a C# auto-property is a bad idea because it only tests the compiler and runtime as others have pointed out. But a functional test that proves &#8220;When I supply a Purchase Order Number, Then the invoice should display the Purchase Order Number&#8221; is a valuable, functional, end to end test. After all, If I were a customer of a company and I sent them a PO# for an invoice, I would want that PO# to show up on my invoice. If it didn&#8217;t show up, I&#8217;d be a little &#8220;[YOU ONLY HAD ONE JOB TO DO!](http://hadonejob.com/)&#8221; upset. If I send you a PO# because I need it on my invoice, you better send the invoice back with the PO# or you&#8217;re not getting paid &#8211; at least, you are decreasing the chances of getting paid on time.
+A unit test around a C# auto-property is a bad idea because it only tests the compiler and runtime as others have pointed out. But a functional test that proves &#8220;When I supply a Purchase Order Number, Then the invoice should display the Purchase Order Number&#8221; is a valuable, functional, end to end test. After all, If I were a customer of a company and I sent them a PO# for an invoice, I would want that PO# to show up on my invoice. If it didn&#8217;t show up, I&#8217;d be a little &#8220;[YOU ONLY HAD ONE JOB TO DO!](http://hadonejob.com/)&#8221; upset. If I send you a PO# because I need it on my invoice, you better send the invoice back with the PO# or you&#8217;re not getting paid &#8211; at least, you are decreasing the chances of getting paid on time.
 
 ## Value In Trivial Code
 
 There&#8217;s no value in testing trivial code? My &#8220;BS&#8221; alarms are ringing. You want to write unit tests for auto-properties in C#? My &#8220;BS&#8221; alarms are still ringing loud and clear!
 
-My example of using a functional test to prove the value of a PO# is only an example, and not meant to be the ultimate answer or solution. You need to take the time to understand where the value for your trivial code really is. Once you do that, you&#8217;ll understand how to properly scope your tests to prove the value of that trivial code. 
+My example of using a functional test to prove the value of a PO# is only an example, and not meant to be the ultimate answer or solution. You need to take the time to understand where the value for your trivial code really is. Once you do that, you&#8217;ll understand how to properly scope your tests to prove the value of that trivial code. 
 
 If you can articulate the value of that auto-property when you&#8217;re talking to a coworker, you can write a correctly scoped test to prove the value. If you can&#8217;t provide a description of the value of that trivial code, though… it probably doesn&#8217;t need to be there.

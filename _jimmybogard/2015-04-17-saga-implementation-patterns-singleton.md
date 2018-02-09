@@ -21,11 +21,11 @@ Regardless of why you&#8217;d want only one saga entity around, with a singleton
 
 I didn&#8217;t really like the first option, since it requires whomever starts to the saga to provide some bogus correlation ID, and never ever change that ID. I don&#8217;t like things that I could potentially screw up, so I prefer the second option. First, we create our saga and saga entity:
 
-[gist id=d66d4c8c63f3dcfbc831]
+{% gist d66d4c8c63f3dcfbc831 %}
 
 Our saga entity has a property &#8220;HasStarted&#8221; that&#8217;s just used to track that we&#8217;ve already started. Our process in this case is a periodic timeout and we don&#8217;t want two sets of timeouts going. We leave the message/saga correlation piece empty, as we&#8217;re going to force NServiceBus to only ever create one saga:
 
-[gist id=c8e7e3272b2090238397]
+{% gist c8e7e3272b2090238397 %}
 
 With our custom saga finder we only ever return the one saga entity from persistent storage, or nothing. This combined with our logic for not kicking off any first-time logic in our StartSingletonSaga handler ensures we only ever do the first-time logic once.
 

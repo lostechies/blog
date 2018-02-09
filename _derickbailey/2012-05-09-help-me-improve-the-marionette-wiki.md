@@ -19,9 +19,9 @@ And I need your help to answer these questions and improve the documentation and
 
 In addition to the technical documentation in the project&#8217;s readme, I&#8217;ve started up the wiki on the github project page. I&#8217;ve begun with two simple pages: an overview on the different view types, and page to let Marionette users show of their projects and websites that are using it.
 
-Help me and the rest of the community of Marionette users improve the documentation for this project by providing examples, best practices, answers to frequently asked questions, and more. 
+Help me and the rest of the community of Marionette users improve the documentation for this project by providing examples, best practices, answers to frequently asked questions, and more. 
 
-Head over to the [wiki](https://github.com/derickbailey/backbone.marionette/wiki) and start helping! 
+Head over to the [wiki](https://github.com/derickbailey/backbone.marionette/wiki) and start helping! 
 
 ### **<https://github.com/derickbailey/backbone.marionette/wiki>**
 
@@ -39,6 +39,6 @@ I realize that some of these are items that I&#8217;ve blogged about here. One o
 
 ## I Need Your Help. Yes. YOU.
 
-I know I&#8217;m asking a lot &#8211; but I believe the community of Marionette users is up to it. It only takes a few minutes of time to improve one page or create a new one with some very basic information. Then another person can come along and make another improvement. Then another, and another. 
+I know I&#8217;m asking a lot &#8211; but I believe the community of Marionette users is up to it. It only takes a few minutes of time to improve one page or create a new one with some very basic information. Then another person can come along and make another improvement. Then another, and another. 
 
 Lastly: don&#8217;t think &#8220;oh, someone else will do it&#8221;. They won&#8217;t. Believe me. The distribution of responsibility is the single largest reason that people won&#8217;t take responsibility or put effort in to something. Everyone assumes that someone else will do it, and no one actually does it.

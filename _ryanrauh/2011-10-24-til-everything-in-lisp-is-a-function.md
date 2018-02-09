@@ -18,7 +18,7 @@ I&#8217;m current reading [Structure and Interpretation of Computer Programs](ht
 
 I find Lisp to be a fascinating language and it actually makes a lot more sense to me than Haskell does. Going through the exercises we came across this really interesting piece of code.
 
-[gist id=&#8221;1309414&#8243; file=&#8221;a\_plus\_abs_b.ss&#8221;]
+{% gist 1309414 a_plus_abs_b.ss %}
 
 Ok so what&#8217;s going on here?
 
@@ -31,7 +31,7 @@ Ok so what&#8217;s going on here?
 
 I think it is really cool that symbols like + and &#8211; are just functions, therefore you can return them from an if statement. Here is how this might look in javascript.
 
-[gist id=&#8221;1309414&#8243; file=&#8221;a\_plus\_abs_b.js&#8221;]
+{% gist 1309414 a_plus_abs_b.js %}
 
 Arguably not as cool as the Lisp example but it helped me understand it better.
 
@@ -39,7 +39,7 @@ Arguably not as cool as the Lisp example but it helped me understand it better.
 
 The point is go out and [learn you a Haskell](http://learnyouahaskell.com) (_or any functional language other than javascript_ ). It&#8217;s for a greater good. I had never thought of + and &#8211; as just functions and now I&#8217;m kind of pissed that other languages don&#8217;t let you exposed them as such. Or give me a choice like Haskell does. 
 
-[gist id=&#8221;1309414&#8243; file=&#8221;a\_plus\_abs_b.hs&#8221;]
+{% gist 1309414 a_plus_abs_b.hs %}
 
 Herp Derp,
 

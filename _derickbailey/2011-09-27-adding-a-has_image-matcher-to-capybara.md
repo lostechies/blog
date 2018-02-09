@@ -13,15 +13,15 @@ categories:
   - RSpec
   - Test Automation
 ---
-I&#8217;m rather shocked that Capybara doesn&#8217;t have a &#8216;has\_image?&#8217; matcher built in to it. But after search around google for a while, the only thing I found was a bunch of StackOverflow answers that all say to use &#8216;has\_xpath?&#8217; to find the image. How painful is that?! So, here&#8217;s my implementation of a &#8216;has_image?&#8217; matcher.
+I&#8217;m rather shocked that Capybara doesn&#8217;t have a &#8216;has\_image?&#8217; matcher built in to it. But after search around google for a while, the only thing I found was a bunch of StackOverflow answers that all say to use &#8216;has\_xpath?&#8217; to find the image. How painful is that?! So, here&#8217;s my implementation of a &#8216;has_image?&#8217; matcher.
 
 Drop this into &#8216;/features/support/has_image.rb&#8217;
 
-[gist id=1246299 file=1-has_image.rb]
+{% gist 1246299 1-has_image.rb %}
 
 Then you can run code like this in your cucumber steps, and it will look for the image based on the &#8216;src&#8217; attribute, and assuming a &#8216;/images/&#8217; path for your images.
 
-[gist id=1246299 file=2-use.rb]
+{% gist 1246299 2-use.rb %}
 
 Note that I&#8217;m using the magic rspec matchers to go from &#8220;.should have\_image&#8221; to the &#8220;.has\_image?&#8221; method that I just added.
 

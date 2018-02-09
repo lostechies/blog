@@ -18,19 +18,19 @@ At the end of the last post, we had a working test class and a convention which 
 
 If we add a third test method, though, one whose incoming T type doesn&#8217;t happen to match any input-generating static methods, something weird happens:
 
-[gist id=6994379]
+{% gist 6994379 %}
 
-[gist id=6994403]
+{% gist 6994403 %}
 
 That&#8217;s terrible! Our new test doesn&#8217;t pass, _and it doesn&#8217;t even fail_. A test runner&#8217;s prime directive is to provide reliable pass/fail results. Anything that is a test should have a result, and this new method is most certainly a test according to the convention&#8217;s discovery rules:
 
-[gist id=6994427]
+{% gist 6994427 %}
 
 ## The Diagnosis
 
 Over my last few posts, we&#8217;ve dealt with Fixie&#8217;s parameterized tests hook: a Func<MethodInfo, IEnumerable<object[]>>. When you want to define the meaning of a parameterized test method, you must yield an object[] once for every time you want the test method to be called. Until now, I&#8217;ve been assuming that the convention author&#8217;s Func will always yield at least once. We even saw an attempt to do so in last week&#8217;s convention:
 
-[gist id=6994443]
+{% gist 6994443 %}
 
 When a test method had no parameters at all, it would explicitly return a single empty object[], meaning &#8220;Call the test method once with no args.&#8221; FindInputs(&#8230;), on the other hand, could still yield zero object[], and thus zero requests to call the method. Here&#8217;s a bug that causes silent failures, and the worst failure is the one that keeps on happening without anyone knowing. We often hear the advice to &#8220;fail fast&#8221;, but there&#8217;s an implicit &#8220;&#8230;and fail as loudly as possible&#8221; in there, too.
 
@@ -40,8 +40,8 @@ In order to fail loudly, Fixie needed to [treat test methods with _unsatisfied_ 
 
 Our convention from last time gets simpler, now that we don&#8217;t have a lurking edge case to care about, and the output now correctly complains about the new test method:
 
-[gist id=6994516]
+{% gist 6994516 %}
 
-[gist id=6994541]
+{% gist 6994541 %}
 
 The fix is available in [Fixie 0.0.1.101](http://www.nuget.org/packages/Fixie/0.0.1.101).

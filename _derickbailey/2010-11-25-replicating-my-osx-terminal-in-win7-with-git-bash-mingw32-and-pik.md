@@ -19,7 +19,7 @@ After getting my [OSX Terminal prompt](http://www.lostechies.com/blogs/derickbai
 
 Note that all of the major components are available, with a few minor exceptions on the details.
 
- 
+ 
 
 ## The Pieces Of The Prompt
 
@@ -37,7 +37,7 @@ The third section, in red, shows the [Pik](https://github.com/vertiginous/pik) r
 
 Finally, I drop to a new line before putting &#8220;$ &#8221; &#8211; yes, with a space &#8211; as my prompt. This keeps the prompt at the same place on the screen at all times.
 
- 
+ 
 
 ## The .bashrc Code For This
 

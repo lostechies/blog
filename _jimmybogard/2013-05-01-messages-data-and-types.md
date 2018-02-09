@@ -23,7 +23,7 @@ Instead, we often see REST and other messaging clients, out of convenience, buil
 
 However, **messages aren’t types**. But what about sharing something like this?
 
-[gist id=5495362]
+{% gist 5495362 %}
 
 That’s still not terrible, because underneath the covers our message is still just XML or JSON. We use this type as a description or blueprint of our message, because it’s simpler to describe our message in C# terms instead of a looser type like XML or JSON, which are more difficult to describe and use in C#. I’m ignoring dynamic types in .NET – those to me are a bit of a hack in this case. In WCF, proxy classes get generated on the client side, so we’re still not taking an assembly dependency. This isn’t available in REST or other messaging technologies, leaving clients reliant on documentation to “Get it right” – assuming that they don’t make mistakes translating raw XML or JSON into code building raw XML or JSON on the client side.
 

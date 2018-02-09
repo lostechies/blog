@@ -14,21 +14,21 @@ Not being [much of a fan of the Repository pattern](http://lostechies.com/jimmyb
 
 Let’s look at something like our original controller action we were trying to test:
 
-[gist id=3755895]
+{% gist 3755895 %}
 
 This is a fairly complicated query, and one worth testing. The question then comes back to “what should I test”? Is my goal to write a unit test for the controller action, or an integration test for the query? Both? Let’s try both, and see what happens.
 
 In order for us to isolate the controller action from the query, we need to create some sort of seam. Whether I go with a query object or repository, I’m looking at faking the results of the query. Let’s go with a repository just for familiarity sake, though the query path will be largely the same:
 
-[gist id=4025056]
+{% gist 4025056 %}
 
 I’ve extracted the query part and moved it to a specific class. Whether it’s a repository or query again is irrelevant, as I now have a seam to introduce a fake query result through the constructor:
 
-[gist id=4025074]
+{% gist 4025074 %}
 
 Let’s write a test for this:
 
-[gist id=4025111]
+{% gist 4025111 %}
 
 Is there any value in this test? I don’t think so. It’s heavily coupled to the inner workings of the method, and in the end, doesn’t really prove anything.
 

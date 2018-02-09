@@ -15,7 +15,7 @@ redirect_from: "/blogs/derickbailey/archive/2011/02/04/hiding-sensitive-informat
 ---
 I&#8217;ve been back in C# land for the last few weeks writing a small Winforms application that runs from a USB thumb drive.
 
- 
+ 
 
 ## Need To Hide Some Data?
 
@@ -30,7 +30,7 @@ We thought about several different options to handle our needs:
 
 Given the simple needs of the situation, I found it was easiest to build a custom Dictionary class that base64 encodes all of the keys and values, and is able to read / write itself to a binary serialized file. It&#8217;s a simple chunk of code and it provides a small amount of information hiding that suits our needs just fine. If you do need a little more security, you could easily replace the base64 encode/decode with some type of encrypt/decrypt.
 
- 
+ 
 
 ## A Base64Dictionary With Binary Serialization
 
@@ -45,51 +45,51 @@ The class is inheriting from a Dictionary<string, string> and I&#8217;m only ove
 </div>
 
 <div class="line">
-      <span class="k">get</span>
+      <span class="k">get</span>
 </div>
 
 <div class="line">
-      <span class="p">{</span>
+      <span class="p">{</span>
 </div>
 
 <div class="line">
-          <span class="n">var</span> <span class="n">encoded_key</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToBase64String</span><span class="p">(</span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">key</span><span class="p">));</span>
+          <span class="n">var</span> <span class="n">encoded_key</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToBase64String</span><span class="p">(</span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">key</span><span class="p">));</span>
 </div>
 
 <div class="line">
-          <span class="n">var</span> <span class="n">encoded_value</span> <span class="p">=</span> <span class="k">base</span><span class="p">[</span><span class="n">encoded_key</span><span class="p">];</span>
+          <span class="n">var</span> <span class="n">encoded_value</span> <span class="p">=</span> <span class="k">base</span><span class="p">[</span><span class="n">encoded_key</span><span class="p">];</span>
 </div>
 
 <div class="line">
-          <span class="k">return</span> <span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">Convert</span><span class="p">.</span><span class="n">FromBase64String</span><span class="p">(</span><span class="n">encoded_value</span><span class="p">));</span>
+          <span class="k">return</span> <span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">Convert</span><span class="p">.</span><span class="n">FromBase64String</span><span class="p">(</span><span class="n">encoded_value</span><span class="p">));</span>
 </div>
 
 <div class="line">
-      <span class="p">}</span>
+      <span class="p">}</span>
 </div>
 
 <div class="line">
-      <span class="k">set</span> 
+      <span class="k">set</span> 
 </div>
 
 <div class="line">
-      <span class="p">{</span> 
+      <span class="p">{</span> 
 </div>
 
 <div class="line">
-          <span class="n">var</span> <span class="n">encoded_key</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToBase64String</span><span class="p">(</span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">key</span><span class="p">));</span>
+          <span class="n">var</span> <span class="n">encoded_key</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToBase64String</span><span class="p">(</span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">key</span><span class="p">));</span>
 </div>
 
 <div class="line">
-          <span class="n">var</span> <span class="n">encoded_value</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToBase64String</span><span class="p">(</span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="k">value</span><span class="p">));</span>
+          <span class="n">var</span> <span class="n">encoded_value</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToBase64String</span><span class="p">(</span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="k">value</span><span class="p">));</span>
 </div>
 
 <div class="line">
-          <span class="k">base</span><span class="p">[</span><span class="n">encoded_key</span><span class="p">]</span> <span class="p">=</span> <span class="n">encoded_value</span><span class="p">;</span>
+          <span class="k">base</span><span class="p">[</span><span class="n">encoded_key</span><span class="p">]</span> <span class="p">=</span> <span class="n">encoded_value</span><span class="p">;</span>
 </div>
 
 <div class="line">
-      <span class="p">}</span>
+      <span class="p">}</span>
 </div>
 
 <div class="line">
@@ -113,23 +113,23 @@ The class is inheriting from a Dictionary<string, string> and I&#8217;m only ove
 </div>
 
 <div class="line">
-      <span class="n">IFormatter</span> <span class="n">formatter</span> <span class="p">=</span> <span class="k">new</span> <span class="n">BinaryFormatter</span><span class="p">();</span>
+      <span class="n">IFormatter</span> <span class="n">formatter</span> <span class="p">=</span> <span class="k">new</span> <span class="n">BinaryFormatter</span><span class="p">();</span>
 </div>
 
 <div class="line">
-      <span class="k">using</span> <span class="p">(</span><span class="n">Stream</span> <span class="n">stream</span> <span class="p">=</span> <span class="k">new</span> <span class="n">FileStream</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="n">FileMode</span><span class="p">.</span><span class="n">Create</span><span class="p">,</span> <span class="n">FileAccess</span><span class="p">.</span><span class="n">Write</span><span class="p">,</span> <span class="n">FileShare</span><span class="p">.</span><span class="n">None</span><span class="p">))</span>
+      <span class="k">using</span> <span class="p">(</span><span class="n">Stream</span> <span class="n">stream</span> <span class="p">=</span> <span class="k">new</span> <span class="n">FileStream</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="n">FileMode</span><span class="p">.</span><span class="n">Create</span><span class="p">,</span> <span class="n">FileAccess</span><span class="p">.</span><span class="n">Write</span><span class="p">,</span> <span class="n">FileShare</span><span class="p">.</span><span class="n">None</span><span class="p">))</span>
 </div>
 
 <div class="line">
-      <span class="p">{</span>
+      <span class="p">{</span>
 </div>
 
 <div class="line">
-          <span class="n">formatter</span><span class="p">.</span><span class="n">Serialize</span><span class="p">(</span><span class="n">stream</span><span class="p">,</span> <span class="k">this</span><span class="p">);</span>
+          <span class="n">formatter</span><span class="p">.</span><span class="n">Serialize</span><span class="p">(</span><span class="n">stream</span><span class="p">,</span> <span class="k">this</span><span class="p">);</span>
 </div>
 
 <div class="line">
-      <span class="p">}</span>
+      <span class="p">}</span>
 </div>
 
 <div class="line">
@@ -137,7 +137,7 @@ The class is inheriting from a Dictionary<string, string> and I&#8217;m only ove
 </div>
 
 <div class="line">
-          
+          
 </div>
 
 <div class="line">
@@ -149,31 +149,31 @@ The class is inheriting from a Dictionary<string, string> and I&#8217;m only ove
 </div>
 
 <div class="line">
-      <span class="n">Base64Dictionary</span> <span class="n">obj</span><span class="p">;</span>
+      <span class="n">Base64Dictionary</span> <span class="n">obj</span><span class="p">;</span>
 </div>
 
 <div class="line">
-      <span class="n">IFormatter</span> <span class="n">formatter</span> <span class="p">=</span> <span class="k">new</span> <span class="n">BinaryFormatter</span><span class="p">();</span>
+      <span class="n">IFormatter</span> <span class="n">formatter</span> <span class="p">=</span> <span class="k">new</span> <span class="n">BinaryFormatter</span><span class="p">();</span>
 </div>
 
 <div class="line">
-      <span class="k">using</span> <span class="p">(</span><span class="n">Stream</span> <span class="n">stream</span> <span class="p">=</span> <span class="k">new</span> <span class="n">FileStream</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="n">FileMode</span><span class="p">.</span><span class="n">Open</span><span class="p">,</span> <span class="n">FileAccess</span><span class="p">.</span><span class="n">Read</span><span class="p">,</span> <span class="n">FileShare</span><span class="p">.</span><span class="n">Read</span><span class="p">))</span>
+      <span class="k">using</span> <span class="p">(</span><span class="n">Stream</span> <span class="n">stream</span> <span class="p">=</span> <span class="k">new</span> <span class="n">FileStream</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="n">FileMode</span><span class="p">.</span><span class="n">Open</span><span class="p">,</span> <span class="n">FileAccess</span><span class="p">.</span><span class="n">Read</span><span class="p">,</span> <span class="n">FileShare</span><span class="p">.</span><span class="n">Read</span><span class="p">))</span>
 </div>
 
 <div class="line">
-      <span class="p">{</span>
+      <span class="p">{</span>
 </div>
 
 <div class="line">
-          <span class="n">obj</span> <span class="p">=</span> <span class="p">(</span><span class="n">Base64Dictionary</span><span class="p">)</span> <span class="n">formatter</span><span class="p">.</span><span class="n">Deserialize</span><span class="p">(</span><span class="n">stream</span><span class="p">);</span>
+          <span class="n">obj</span> <span class="p">=</span> <span class="p">(</span><span class="n">Base64Dictionary</span><span class="p">)</span> <span class="n">formatter</span><span class="p">.</span><span class="n">Deserialize</span><span class="p">(</span><span class="n">stream</span><span class="p">);</span>
 </div>
 
 <div class="line">
-      <span class="p">}</span>
+      <span class="p">}</span>
 </div>
 
 <div class="line">
-      <span class="k">return</span> <span class="n">obj</span><span class="p">;</span>
+      <span class="k">return</span> <span class="n">obj</span><span class="p">;</span>
 </div>
 
 <div class="line">
@@ -183,12 +183,12 @@ The class is inheriting from a Dictionary<string, string> and I&#8217;m only ove
 
 
 <p>
-  Note that the ReadFrom(file) method is a static method. This lets you call Base64Dictionary.ReadFrom(file) directly and not have to instantiate a Base64Dictionary object first. The only other detail is to include the [Serializable] attribute and a deserialization constructor. After that, you can start writing and reading binary serialized files that hide the data in them a little.
+  Note that the ReadFrom(file) method is a static method. This lets you call Base64Dictionary.ReadFrom(file) directly and not have to instantiate a Base64Dictionary object first. The only other detail is to include the [Serializable] attribute and a deserialization constructor. After that, you can start writing and reading binary serialized files that hide the data in them a little.
 </p>
 
 
 <p>
-   
+   
 </p>
 
 

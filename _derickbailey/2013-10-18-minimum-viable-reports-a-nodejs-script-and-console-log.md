@@ -18,11 +18,11 @@ I&#8217;ve spent around 2 months building [SignalLeaf](http://signalleaf.com), s
 
 ## Minimum Viable Report
 
-The first thing I want to know is how many customer accounts and podcasts I have in [SignalLeaf](http://signalleaf.com). This will give me some idea of how well I&#8217;m doing w/ marketing effort, feature advertisement, pricing, etc. It&#8217;s not going to give me much, but it&#8217;s a start and it at least feeds my vanity metic of having customers. Rather than spend a lot of time building out an administrative back-end for my app, though, I decided to just hack together a quick script that gives me the information I need. I really just wanted to see without having to go through MongoDB&#8217;s command line tools directly. 
+The first thing I want to know is how many customer accounts and podcasts I have in [SignalLeaf](http://signalleaf.com). This will give me some idea of how well I&#8217;m doing w/ marketing effort, feature advertisement, pricing, etc. It&#8217;s not going to give me much, but it&#8217;s a start and it at least feeds my vanity metic of having customers. Rather than spend a lot of time building out an administrative back-end for my app, though, I decided to just hack together a quick script that gives me the information I need. I really just wanted to see without having to go through MongoDB&#8217;s command line tools directly. 
 
 So I built this little script:
 
-[gist id=7050627 file=customers.js]
+{% gist 7050627 customers.js %}
 
 And that&#8217;s it. It&#8217;s just an import of my system&#8217;s basic modules, a database connection, a query to get some information and then aggregating that information in to a simple console.log output. To run my report, I just run &#8220;node customers.js&#8221; and it will connect to my local database. If I want to run it against production, I only need to set &#8220;NODE_ENV=production&#8221; prior to running the script and BAM! I have a report of my production app:
 
@@ -34,6 +34,6 @@ And that&#8217;s it. It&#8217;s just an import of my system&#8217;s basic module
 
 One of the things that I like the most about this, is being able to hack together any script I want and get information I want, quickly. I don&#8217;t have to worry about designing a proper report format. I don&#8217;t have to worry about creating a bunch of HTML, route handlers, and other things involved in getting a real report setup on the site. I can hack a script, iterate, fix it, run it as needed and move on.
 
-Of course, this type of reporting doesn&#8217;t scale to more than just administrative people with direct access to the code and database &#8211; which is really just me, anyways. But it does get me down the path of being able to see the information I need, when I need it, and moving on to the next feature that my customers need. 
+Of course, this type of reporting doesn&#8217;t scale to more than just administrative people with direct access to the code and database &#8211; which is really just me, anyways. But it does get me down the path of being able to see the information I need, when I need it, and moving on to the next feature that my customers need. 
 
 From here, I&#8217;ll be able to tweak the core of the reports to get the information I really do need. Then once I have some of the basics done and ready to roll, I&#8217;ll be able to work on the UI side of things and already have the data available.

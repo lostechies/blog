@@ -21,7 +21,7 @@ tags:
 
 In our company we work a lot with AWS and since we automate everything we use the AWS CLI. To make the usage of the CLI as easy and frictionless as possible we use Docker. Here is the `Dockerfile` to create a container having the AWS CLI installed
 
-[gist id=e4015d5e8dbc27f12c229efebf0617f2]
+{% gist e4015d5e8dbc27f12c229efebf0617f2 %}
 
 Note that we need to provide the three environment variables `AWS_DEFAULT_REGION`, `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` set in the container such as that the CLI can automatically authenticate with AWS.
 
@@ -61,7 +61,7 @@ to get a list of all ECS clusters in your account.
 
 To simplify my life I define an alias in my `bash` profile (file `~/.bash_profile`) for the above command. Let&#8217;s call it `awscli`.
 
-[gist id=42610d1a9ad3c9d6f74fff95ddf3790e]
+{% gist 42610d1a9ad3c9d6f74fff95ddf3790e %}
 
 Once I have done that and sourced the profile I can now use the CLI e.g. like this
 

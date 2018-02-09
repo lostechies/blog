@@ -32,7 +32,7 @@ But first, the index of posts in the order I think you should read them:
   7. Joey Beninghove&#8217;s [Vlad, RVM and Bundler sittin&#8217; in a tree](http://joeybeninghove.com/2010/09/17/vlad-rvm-and-bundler-sitting-in-a-tree/)
   8. &#8230; this one
 
- 
+ 
 
 
 
@@ -42,7 +42,7 @@ I had written half of this information as another blog post at the start of this
 
 I&#8217;ll try not to repeat too much of what Joey has said already. I&#8217;m deploying a thor application that needs to be run from a cron job, instead of a web app, as well. There are some specific things I needed to do to get this work correctly, regarding thor and cron. I also want to talk about some of the general vlad and deployment related topics.
 
- 
+ 
 
 ### Release Folders And Symlinks For Fast App Version Switching
 
@@ -54,7 +54,7 @@ To keep everything organized, you typically need a project home on the server &#
 
 Even though my app is not actually a web app, I still want to take advantage of this setup. If I happen to deploy any changes while the app is running &#8211; and that&#8217;s very likely, since I will be running the app on a very frequent schedule &#8211; then I won&#8217;t interrupt it with file changes that could possibly break the current execution. The already in-memory app will continue to run to completion and the next time it&#8217;s queued up, the symlink will have changed to point to the new version and the new version will be run.
 
- 
+ 
 
 <span style="font-size: 14px;font-weight: bold">Vlad-Git And Vlad Configuration For A Specific Environment</span>
 
@@ -66,11 +66,11 @@ Here&#8217;s an example of our vlad configuration, housed in our &#8216;deploy.r
 
 <pre>set :application, "app_name"<br />set :repository, "git@github.com:username/repositoryname.git"<br />set :domain, "dev.example.com"<br />set :deploy_to, "/home/app_staging_account/app_name"</pre>
 
- 
+ 
 
 Vlad and Vlad-Git know how to read these configuration settings and use them to do the deploy. We have multiple copies of this settings file, too &#8211; one for each environment that we are deploying to. This lets us change the configuration to point to the correct server and folder locations, as well as any other changes we might want to make for vlad&#8217;s configuration. Each of the configuration files for the environments is housed in a ./config/environmentname folder and the proper configuration is included via the rake task that we call to do the deploy.
 
- 
+ 
 
 ### Organizing Vlad Tasks And Rake Tasks
 
@@ -91,7 +91,7 @@ namespace :vlad do
   end
 end</pre>
 
- 
+ 
 
 Note the use of the :environment task argument and the args variable in the code block definition. This let&#8217;s us call the deploy task with an environment specified. I&#8217;ve also defaulted the argument to &#8220;staging&#8221; so that we can run the task without an environment specified and it will deploy to staging.
 
@@ -138,13 +138,13 @@ def goto_app_root
     "#{init_rvm_cmd} && #{trust_rvm} && cd #{release_path}"
 end</pre>
 
- 
+ 
 
 Most of this is just re-posting what Joey already showed and explained in his post. At a high level, though, the :deploy task will ssh into the server, update the source code from github, run bundler against the code that was pulled down, copy the environment specific schedule.rb (which I&#8217;ll explain next), clear any old cron jobs using the whenever gem, and then create the cron jobs specified in the schedule.rb file using the whenever gem again.
 
 (I&#8217;m sure there are ways that we can improve this file, too. If you have any suggestions, let me know. 🙂
 
- 
+ 
 
 ### Handling Whenever / Cron On The Remote Machine
 
@@ -162,11 +162,11 @@ end</span><span style="line-height: 0px">﻿</span></pre>
 
 <div>
   <p>
-     
+     
   </p>
   
   <p>
-    (Notice that I&#8217;m also setting the output for the log files as discussed in my post on <a href="http://lostechies.com/derickbailey/2011/04/27/the-whenever-gem-making-cron-easy/">using the whenever gem</a>.  And yes, I am running this app every minute in my staging environment. We are doing a lot of testing right now, and I want to have this process kick off on a very regular basis so that I don&#8217;t have to sit around for too long and wait for it. In the future, I&#8217;m likely going to reduce this to once every 30 minutes to an hour. )
+    (Notice that I&#8217;m also setting the output for the log files as discussed in my post on <a href="http://lostechies.com/derickbailey/2011/04/27/the-whenever-gem-making-cron-easy/">using the whenever gem</a>.  And yes, I am running this app every minute in my staging environment. We are doing a lot of testing right now, and I want to have this process kick off on a very regular basis so that I don&#8217;t have to sit around for too long and wait for it. In the future, I&#8217;m likely going to reduce this to once every 30 minutes to an hour. )
   </p>
   
   <p>
@@ -174,7 +174,7 @@ end</span><span style="line-height: 0px">﻿</span></pre>
   </p>
   
   <p>
-     
+     
   </p>
   
   <h3>
@@ -182,11 +182,11 @@ end</span><span style="line-height: 0px">﻿</span></pre>
   </h3>
   
   <p>
-    I realize that there are a lot of moving parts in this series of blog posts. This is a part of the *nix culture and philosophy, though; to use many small tools that each accomplish one thing very well, and to orchestrate them into something much more than the individual pieces. Thor is a great command line processing tool and is likely one of the most under-rated additions to the rails community. Mongoid is a tremendous document mapper that proved to be simple to setup and use outside of rails. Whenever make it easy to work with cron jobs &#8211; even on a remote server through ssh. And Vlad makes the deployment process for nearly any server-based application simple to automate.
+    I realize that there are a lot of moving parts in this series of blog posts. This is a part of the *nix culture and philosophy, though; to use many small tools that each accomplish one thing very well, and to orchestrate them into something much more than the individual pieces. Thor is a great command line processing tool and is likely one of the most under-rated additions to the rails community. Mongoid is a tremendous document mapper that proved to be simple to setup and use outside of rails. Whenever make it easy to work with cron jobs &#8211; even on a remote server through ssh. And Vlad makes the deployment process for nearly any server-based application simple to automate.
   </p>
   
   <p>
-     
+     
   </p>
   
   <h3>
@@ -194,6 +194,6 @@ end</span><span style="line-height: 0px">﻿</span></pre>
   </h3>
   
   <p>
-    I do believe it was worth the time and effort to build the app the way I did. I am not building just another script to automate some redundant task. Rather, I am building a full-fledged ruby application; one that has models and business logic, configuration and deployment environments, and happens to not be a web application running rails or sinatra. I hope that by the time you have read through this entire series of posts, that you will have the confidence and knowledge that you need to try your hand at writing a ruby app other than rails or sinatra, too.
+    I do believe it was worth the time and effort to build the app the way I did. I am not building just another script to automate some redundant task. Rather, I am building a full-fledged ruby application; one that has models and business logic, configuration and deployment environments, and happens to not be a web application running rails or sinatra. I hope that by the time you have read through this entire series of posts, that you will have the confidence and knowledge that you need to try your hand at writing a ruby app other than rails or sinatra, too.
   </p>
 </div>

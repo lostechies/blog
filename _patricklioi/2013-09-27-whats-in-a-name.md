@@ -18,13 +18,13 @@ I tried and failed to implement this feature a few times, but the actual solutio
 
 Before implementing parameterized tests, a basic convention might look like the following:
 
-[gist id=6722405]
+{% gist 6722405 %}
 
 The `Classes` and `Cases` properties held lists of conditions. `Classes` collected conditions describing test classes, and `Cases` collected conditions describing test cases. Armed with these descriptions, Fixie could search through your test assembly for things to execute.
 
 The `Cases` property was defined like so:
 
-[gist id=6722433]
+{% gist 6722433 %}
 
 Each method was a test case: a single thing that could pass or fail. The naming was weird, though. Why not `public CaseFilter Cases` or `public MethodFilter Methods`? The mismatch in naming should have jumped out at me, and maybe it did, but I downplayed it as &#8220;accurate today&#8221; and let it be. That poor naming, however, muddied the terms &#8220;test method&#8221; and &#8220;test case&#8221; in my head, and the terminology mix-up spread all over.
 
@@ -40,7 +40,7 @@ Each time that I failed to implement this feature, I started in the wrong place.
 
 The thing that finally got me moving in the right direction was to rename the darn Convention &#8220;Cases&#8221; property to &#8220;Methods&#8221;. Naming it what it _was_ finally made the next culprit stand out on the screen:
 
-[gist id=6722302]
+{% gist 6722302 %}
 
 The .Select(&#8230;) call here finally stood out as fishy. With the old naming, it was natural that each of the methods found by the _Cases_ property should new up a Case object. With the new naming, I realized that _here_ was a place to decide _how many_ Cases needed to be created for each method found by the _Methods_ property.
 

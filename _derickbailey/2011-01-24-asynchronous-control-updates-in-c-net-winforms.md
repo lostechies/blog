@@ -20,21 +20,21 @@ Every .NET WinForms project I&#8217;ve written, since .NET 2.0, has included som
 > 
 > <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas">{</pre>
 > 
-> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas"><span style="color: #0034ff">  public</span> <span style="color: #0034ff">static</span> <span style="color: #0034ff">void</span> Do&lt;TControl&gt;(<span style="color: #0034ff">this</span> TControl control, <span style="color: #31a2bd">Action</span>&lt;TControl&gt; action)</pre>
+> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas"><span style="color: #0034ff">  public</span> <span style="color: #0034ff">static</span> <span style="color: #0034ff">void</span> Do&lt;TControl&gt;(<span style="color: #0034ff">this</span> TControl control, <span style="color: #31a2bd">Action</span>&lt;TControl&gt; action)</pre>
 > 
-> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas"><span style="color: #0034ff">    where</span> TControl: <span style="color: #31a2bd">Control</span></pre>
+> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas"><span style="color: #0034ff">    where</span> TControl: <span style="color: #31a2bd">Control</span></pre>
 > 
-> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas">  {</pre>
+> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas">  {</pre>
 > 
-> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas"><span style="color: #0034ff">    if</span> (control.InvokeRequired)</pre>
+> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas"><span style="color: #0034ff">    if</span> (control.InvokeRequired)</pre>
 > 
-> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas">      control.Invoke(action, control);</pre>
+> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas">      control.Invoke(action, control);</pre>
 > 
-> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas"><span style="color: #0034ff">    else</span></pre>
+> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas"><span style="color: #0034ff">    else</span></pre>
 > 
-> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas">      action(control);</pre>
+> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas">      action(control);</pre>
 > 
-> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas">  }</pre>
+> <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas">  }</pre>
 > 
 > <pre style="margin: 0.0px 0.0px 0.0px 0.0px;font: 9.5px Consolas">}</pre>
 

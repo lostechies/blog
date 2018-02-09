@@ -45,13 +45,13 @@ Let&#8217;s assume our engineers work on a project using [Angular](https://angul
 
 Our `Dockerfile` would/could look like this
 
-[gist id=7a8b1dec9fdf4b1addeda011d1a38e34]
+{% gist 7a8b1dec9fdf4b1addeda011d1a38e34 %}
 
 Note how I first copy ONLY the `requirements.txt` file into the container (image) and run `pip install` and then copy the remaining project files into the container. This is to leverage the fact that a Docker image is built from layers and that if a layer hasn&#8217;t changed it will be reused when re-building the image. Since `pip install` takes a while and since we change the source code much more frequently than the content of the `requirements.txt` the re-build of the image will be much much faster. `pip install` ONLY has to occurr whenever we add a new dependency, which happens rarely compared to other code changes.
 
 And the `docker-compose.debug.yml` file could look similar to this
 
-[gist id=86a5f8e9ba5e6fd0b1d94a38a0345687]
+{% gist 86a5f8e9ba5e6fd0b1d94a38a0345687 %}
 
 Note how I mount the current directory as a volume inside the container running our application. This allows us to do **edit and continue** style of development. As the engineer changes a code file in her editor the file is automatically updated inside the container too. As a consequence the Django (web-) server will automatically restart and she can immediately see the result of her change. There is no need to rebuild the Docker image and run a new container. Of course this volume mounting is only desired during development &#8211; in production (or any other environment) we would never do this.
 

@@ -18,16 +18,16 @@ A question was [asked on twitter](https://twitter.com/#!/rbazinet/status/8372416
 
 Here&#8217;s [one of the answers](https://twitter.com/#!/derickbailey/status/83724882654924802) that I sent to rob, in the form of a gist:
 
-[gist id=1041780 file=use\_partial\_as_template.html.erb]
+{% gist 1041780 use_partial_as_template.html.erb %}
 
 I&#8217;m using this solution in my current rails app and it&#8217;s a very elegant way to use an existing partial as a jQuery template. The only issue you have to solve, then, is how to get the &#8220;${value}&#8221; syntax populated into the rendered template fields. That, too, is simple.
 
 Given this partial:
 
-[gist id=1041780 file=_partial.html.erb]
+{% gist 1041780 _partial.html.erb %}
 
 I need to turn &#8220;<%= model.value %>&#8221; into &#8220;${value}&#8221; so that the jQuery template will populate the data. To do that, we provide an @template_model instance of our model, populated with the &#8220;${value}&#8221; values, from our controller.
 
-[gist id=1041780 file=some_controller.rb]
+{% gist 1041780 some_controller.rb %}
 
 Easy-peasy. Our partial renders with the output of &#8220;this is a partial. ${value}&#8221; and when the jQuery template does its magic, it produces &#8220;this is a partial. this is some data&#8221; as the final result. From here, you can use jQueryUI&#8217;s dialog to open the rendered template as a dialog.

@@ -32,7 +32,7 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         Let’s first install the K version manager (KVM). With the following command we get the KVM setup
         
-        [gist id=5075ae759ef4392a8126]
+        {% gist 5075ae759ef4392a8126 %}
         
         Note that as a prerequisite we need to have [Mono](http://www.mono-project.com/) 3.4.1 or later installed as described in [this](http://lostechies.com/gabrielschenker/2014/12/29/creating-an-ubuntu-developer-vm-on-hyper-v/) post.
         
@@ -60,7 +60,7 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         If we try to run <font color="#000000" face="Courier New">kpm restore </font>now directly as described [here](https://github.com/aspnet/home#running-the-samples) then we get loads of errors. The reason is that the .NET Framework on Windows uses the Windows Certificates store to check whether to accept an SSL certificate from a remote site. In Mono, there is no Windows Certificate store, it has its own store. By default, it is empty and we need to manage the entries ourselves. We can do this using the following script
         
-        [gist id=ef91e2443c92a6a2bd5e]
+        {% gist ef91e2443c92a6a2bd5e %}
         
         Having added all those certificates to the store we can now download/restore all nuget packages required by our sample app
         
@@ -78,7 +78,7 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         Running the Web samples is a bit more tricky. First of all we need kestrel, a development web server for ASP.NET vNext. At the time of writing there is an open issue with running Kestrel on Linux. Kestrel relies on libuv. To install a compatible version of libuv use the following script (that I found [here](http://carolynvanslyck.com/blog/2014/09/dotnet-vnext-impressions/))
         
-        [gist id=2f0d4706a92446fcf266]
+        {% gist 2f0d4706a92446fcf266 %}
         
         After all this we should be able to get our MVC and Web samples going. Navigate to the corresponding sample folder and restore the nuget packages
         
@@ -104,7 +104,7 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         Now let’s add a simple REST API to the HelloMVC sample app. Add a file **TodoController.cs** to the Controllers directory and add the following code
         
-        [gist id=63161f462b022fe3e8bc]
+        {% gist 63161f462b022fe3e8bc %}
         
         save and restart kestrel. In the browser navigate to <http://localhost:5004/api/todo> and you should see this
         

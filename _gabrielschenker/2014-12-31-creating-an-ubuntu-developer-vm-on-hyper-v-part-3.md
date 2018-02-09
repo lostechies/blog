@@ -51,11 +51,11 @@ Now we are ready to install and use software that depends on Java…
 
 Elastic search is very easy to install and run. It is highly scalable and has a nice REST API over which all access happens. We start by downloading and installing the public signing key
 
-[gist id=ee99641384663efbbc6b]
+{% gist ee99641384663efbbc6b %}
 
 Enable the repository
 
-[gist id=b51ed290d1f1cbdfb670]
+{% gist b51ed290d1f1cbdfb670 %}
 
 We run apt-get update and the repository is ready to use
 

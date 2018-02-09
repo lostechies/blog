@@ -21,4 +21,4 @@ This took care of removing every single remote that I had in my &#8216;git remot
 
 But my bash-scripting-fu is terrible, so I couldn&#8217;t figure out how to not destroy all of them. I tried adding an if statement in there to check if it&#8217;s not &#8220;origin&#8221;, but couldn&#8217;t get it to work. Anyone got some better bash-chops than me, and can point out how to do this?
 
- 
+ 

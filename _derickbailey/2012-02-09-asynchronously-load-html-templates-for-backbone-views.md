@@ -20,7 +20,7 @@ categories:
 
 In the end, having done asynchronous fetching of individual templates on a few productions apps, it&#8217;s a really bad idea. The network latency and multiple requests that are made back to the server destroy any sense of speed or responsiveness that an app may have had, and the additional code that was necessary to do this added more layers of complexity and performance problems.
 
- 
+ 
 
 &#8212;
 
@@ -50,7 +50,7 @@ The benefit of keeping these semantics, though, is that you can swap out a synch
 
 We can keep this very simple, to begin with, using jQuery&#8217;s AJAX calls to load the template with a callback to do the actual rendering after the template is loaded.
 
-[gist id=1752642 file=1.js]
+{% gist 1752642 1.js %}
 
 In this example, we&#8217;re assuming that the view has a \`template\` attribute. This attribute represents the file that will be loaded from the server, and that file contain the actual template to be used.
 
@@ -70,7 +70,7 @@ Now that we have a template loading asynchronously, it would be nice to only loa
 
 To do this, we&#8217;ll need a little more than just some code in the render method. We want to re-use templates that we&#8217;ve already loaded, which means we can&#8217;t just store the template on the view instance. We need to store it in a place where any view instance can grab a copy of the template if it exists, or have an asynchronous call back to the server done to get the template when needed.
 
-[gist id=1752642 file=2.js]
+{% gist 1752642 2.js %}
 
 The template manager object has one primary method that we call: \`get\`. This method takes in a template name to be loaded and a callback method that is executed when the template is found. By using a callback method instead of returning a value directly, we can ensure both synchronous and asynchronous calls will work correctly.
 
@@ -78,19 +78,19 @@ When you call \`get\`, it will check a hash / object literal to see if the templ
 
 We can now update our view to use the template manager:
 
-[gist id=1752642 file=3.js]
+{% gist 1752642 3.js %}
 
 This isn&#8217;t much of a change from the view&#8217;s perspective. It&#8217;s better encapsulated, though, and a little easier to read. The real work is now being done in the TemplateManager object and we can change how it behaves as needed without having to update our views.
 
 ## Beyond Simple Caching
 
-There&#8217;s one remaining problem that this code has. If you have multiple instances of a view requesting the same template at roughly the same time, multiple AJAX calls will be made &#8211; one for each instance of the view. The net result is a slowdown in the application&#8217;s performance from too many network calls, and also a visual oddity where the views will appear one at a time as the AJAX calls finish. This can be a pretty big drag on performance and UI responsiveness.
+There&#8217;s one remaining problem that this code has. If you have multiple instances of a view requesting the same template at roughly the same time, multiple AJAX calls will be made &#8211; one for each instance of the view. The net result is a slowdown in the application&#8217;s performance from too many network calls, and also a visual oddity where the views will appear one at a time as the AJAX calls finish. This can be a pretty big drag on performance and UI responsiveness.
 
-Thanks to some previous digging in to jQuery&#8217;s deferred and some help from Steve Flitcroft ([@red_square](https://twitter.com/#!/red_square)), I was able to solve this problem fairly easily. I put [the following code](https://github.com/derickbailey/bbclonemail/blob/master/public/javascripts/bbclonemail.views.js#L28-52) in to my BBCloneMail app, which uses my [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) plugin. It&#8217;s not directly implemented in Marionette&#8217;s \`TemplateManager\` but most of what you need is already there. There&#8217;s only a few additional lines of code that you need to make this work.
+Thanks to some previous digging in to jQuery&#8217;s deferred and some help from Steve Flitcroft ([@red_square](https://twitter.com/#!/red_square)), I was able to solve this problem fairly easily. I put [the following code](https://github.com/derickbailey/bbclonemail/blob/master/public/javascripts/bbclonemail.views.js#L28-52) in to my BBCloneMail app, which uses my [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) plugin. It&#8217;s not directly implemented in Marionette&#8217;s \`TemplateManager\` but most of what you need is already there. There&#8217;s only a few additional lines of code that you need to make this work.
 
-[gist id=1752642 file=5.js]
+{% gist 1752642 5.js %}
 
-The basic idea is that I&#8217;m using a jQuery deferred / promise to fire the callback method from the loadTemplate parameters. To prevent multiple requests for the same template heading back to the server, I&#8217;m caching the promises by the template id. When a call to loadTemplate is made through the template manager, I check to see if I have a promise for that template already. If I do, I register the loadTemplate&#8217;s callback parameter with the promise. If I don&#8217;t, I create the promise and then store it by the template&#8217;s Id. Either way, I register the callback with the promise which [guarantees it will be executed](http://lostechies.com/derickbailey/2012/02/07/rewriting-my-guaranteed-callbacks-code-with-jquery-deferred/). Once the template is returned from the server and the promise is fulfilled (resolved), all of the callbacks are fired off with the template data and everything renders correctly.
+The basic idea is that I&#8217;m using a jQuery deferred / promise to fire the callback method from the loadTemplate parameters. To prevent multiple requests for the same template heading back to the server, I&#8217;m caching the promises by the template id. When a call to loadTemplate is made through the template manager, I check to see if I have a promise for that template already. If I do, I register the loadTemplate&#8217;s callback parameter with the promise. If I don&#8217;t, I create the promise and then store it by the template&#8217;s Id. Either way, I register the callback with the promise which [guarantees it will be executed](http://lostechies.com/derickbailey/2012/02/07/rewriting-my-guaranteed-callbacks-code-with-jquery-deferred/). Once the template is returned from the server and the promise is fulfilled (resolved), all of the callbacks are fired off with the template data and everything renders correctly.
 
 Note, though, that this code is not 100% safe. If you call the template manager from code that is already asynchronous, you can end up with a race condition where multiple promises are created and multiple calls to get the template are done. You&#8217;ll still get all of your views rendered just fine, but this will eliminate the benefit of using a promise to reduce network calls. Calling this code synchronously, though, won&#8217;t cause this race condition and the templates will only load once before they are cached and re-used.
 

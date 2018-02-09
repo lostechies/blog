@@ -20,19 +20,19 @@ In my case, I&#8217;d like to build a basic navigable details screen. Show a tab
 
 First, I&#8217;ll need to have some understanding of what the server response looks like. I know I&#8217;ll have a list of instructors, then a list of courses, then a list of students attending those courses. Each of these will be a table, but I want a place to put that table on the screen. For this, I&#8217;ll create divs with IDs that match the RELs of the links in my collection+json response:
 
-[gist id=36c9065e52be149007a4]
+{% gist 36c9065e52be149007a4 %}
 
 When the page loads, I want to kick off the rendering with an initial request:
 
-[gist id=7d6fa3b55e17c95a35a6]
+{% gist 7d6fa3b55e17c95a35a6 %}
 
 Nothing much going on here, I just call a method &#8220;fetchCollection&#8221;. I pass in the initial URL to hit, and the ID of DIV. The fetchCollection method:
 
-[gist id=564b85f43197b8bf1ad1]
+{% gist 564b85f43197b8bf1ad1 %}
 
 Will make a call to the API, return the result and render the result to the target DIV via the &#8220;renderCollectionJsonTable&#8221; method:
 
-[gist id=6646f29e1b4140cb55b9]
+{% gist 6646f29e1b4140cb55b9 %}
 
 This method is&#8230;quite involved. We&#8217;re trying to render a table, including the header and links. To render the header, I loop through the collection+json data elements and pluck off the prompt for the header text. If the data elements have links, then I render an extra column at the end.
 

@@ -26,7 +26,7 @@ Now you could write your own web sockets implementation. But I don&#8217;t recom
   * [SignalR](http://signalr.net/): A long-polling, web sockets, AJAX adaptive system for .NET. It&#8217;s Socket.IO for .NET.
   * [Pusher](http://pusher.com/): A third-party web sockets server. This is great for hosted sites (like Heroku) and for high scalability, fast. I learned how to use web sockets and converted a very chatty app from AJAX calls to PusherApp in less than an hour, a few years ago. There are libraries for PusherApp in [many different development languages](http://pusher.com/docs/rest_libraries), like Ruby, .NET, Python, etc. I&#8217;ve only used the Ruby library, but it was dirt simple. They also have an article on working with [Backbone and Pusher](http://blog.pusher.com/2011/6/21/backbone-js-now-realtime-with-pusher/).
 
-And yes, I realize that there are more libraries than just these. I&#8217;ve only used these, so they are the ones I&#8217;m mentioning. And I love all three of these web socket libraries. If I was forced to pick a favorite, it would be Socket.IO but only because I love working with NodeJS. But I do have an affinity for Pusher, since it&#8217;s the place that got me started with Websockets.
+And yes, I realize that there are more libraries than just these. I&#8217;ve only used these, so they are the ones I&#8217;m mentioning. And I love all three of these web socket libraries. If I was forced to pick a favorite, it would be Socket.IO but only because I love working with NodeJS. But I do have an affinity for Pusher, since it&#8217;s the place that got me started with Websockets.
 
 All three of these libraries are easy to use, and can easily be adapted to this example, though. Don&#8217;t feel like you&#8217;re going to make a wrong choice either. After all, the purpose of this article is to show you how the choice you&#8217;ve made doesn&#8217;t matter that much.
 
@@ -44,7 +44,7 @@ There are two basic things that you&#8217;ll need to build a socket adapter in t
 
 Here&#8217;s the trick to decoupling the application code from the web sockets library: all of the events that the web socket publishes will be forwarded to the event aggregator, and your application will only pay attention to the event aggregator. For example:
 
-[gist id=2405897 file=1.js]
+{% gist 2405897 1.js %}
 
 In this case we&#8217;re listening for an event called &#8220;someData&#8221; on the socket library. When that event fires, we&#8217;re just forwarding the event in to our application&#8217;s event aggregator. Our application listens for the necessary events from it&#8217;s event aggregator, and does it&#8217;s thing.
 

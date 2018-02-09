@@ -29,13 +29,13 @@ The solution is to tell the screenreader to ignore the one-word version, and to 
 
 Here&#8217;s the markup:
   
-[gist id=4115738]
+{% gist 4115738 %}
 
 Inside the anchor tab, there is a span with the attribute &#8220;aria-hidden=true&#8221; wrapping the version for text-consuming users. The aria-hidden attribute tells the screenreader to skip the contents of that span, so it is not read out loud. The three-word version that follows _is_ read by the screenreader, and to avoid showing this version in the text, it is given a CSS class that sets its position far off the viewable frame.
 
 Here&#8217;s the CSS definition of the offscreen class:
   
-[gist id=4115638]
+{% gist 4115638 %}
 
 Why use the positioning trick instead of &#8220;display:none&#8221; or &#8220;visibility:hidden&#8221;? Many screenreaders will not read content that is hidden via display or visibility, but will read content that is inline but &#8220;appears&#8221; to be off the page.
 

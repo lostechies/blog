@@ -45,7 +45,7 @@ Make sure you have ready my post about creating and configuring a Ubuntu VM on H
                 
                 Create a new project folder and navigate to it. Let’s call this folder **recipes**. In my case I create it in my ~/dev folder
                 
-                [gist id=9e7477f06d289ae8bb27]
+                {% gist 9e7477f06d289ae8bb27 %}
                 
                 Let’s initialize a (local) git repository for this project
                 
@@ -53,7 +53,7 @@ Make sure you have ready my post about creating and configuring a Ubuntu VM on H
                 
                 and create a **.gitignore** file containing the following entries (we might add other entries as we need them)
                 
-                [gist id=824f8bd7ae843da888f9]
+                {% gist 824f8bd7ae843da888f9 %}
                 
                 Next we init npm and bower
                 
@@ -95,15 +95,15 @@ Make sure you have ready my post about creating and configuring a Ubuntu VM on H
                 
                 Since we are dealing with recipes in our sample application let’s define a REST API which allows us to either retrieve a list of recipes or a single recipe. First we define 2 data transfer objects (DTOs) **NameId** and **RecipeDto** in the Models folder
                 
-                [gist id=1156b736827a7f088f7a]
+                {% gist 1156b736827a7f088f7a %}
                 
                 and
                 
-                [gist id=b02d6468797630c5374b]
+                {% gist b02d6468797630c5374b %}
                 
                 In the controllers folder we add a **RecipesController** to our MVC project containing the following code
                 
-                [gist id=f69d7d8baca141c02d99]<font face="courier new"></font>
+                {% gist f69d7d8baca141c02d99 %}<font face="courier new"></font>
                 
                 The two overloads of the Get methods just return some pre-canned recipes.
                 
@@ -125,13 +125,13 @@ Make sure you have ready my post about creating and configuring a Ubuntu VM on H
                 
                 Let’s implement the method for the create command. First we define the **CreateRecipeCommand** class in the Models folder
                 
-                [gist id=ecf9a3ad0b4fb148ac8c]
+                {% gist ecf9a3ad0b4fb148ac8c %}
                 
                 The least amount of information we need to provide to create a new recipe is the name of the new recipe, the category to which we want to associate the recipe and the unique user name of the person wanting to create this new draft recipe.
                 
                 Then we add the following method to the RecipesController class
                 
-                [gist id=591b5eccafac3f224a25]
+                {% gist 591b5eccafac3f224a25 %}
                 
                 and we can then test it by e.g. using the Postman plug-in for Chrome
                 
@@ -149,45 +149,45 @@ Make sure you have ready my post about creating and configuring a Ubuntu VM on H
                 
                 For convenience our application service has a **When** method for each command it is supposed to handle. Thus we will have a multitude of When methods on this service, each one with a single parameter. We also need to make sure that we do not use the DTOs that are exposed to the outside world (e.g. the CreateRecipeCommand, etc.) in the domain. We want to stay as much decoupled as possible. Thus we first define a DTO that we will use internally
                 
-                [gist id=f8d3cfbdbe5af4477402]
+                {% gist f8d3cfbdbe5af4477402 %}
                 
                 now we define a helper class with an extension method to map the external DTO to the internal one
                 
-                [gist id=f4c666ca19cbfdc3b7d9]
+                {% gist f4c666ca19cbfdc3b7d9 %}
                 
                 We have now what we need to define the Recipe application service
                 
-                [gist id=d23a51ca7610d5f635b2]
+                {% gist d23a51ca7610d5f635b2 %}
                 
                 Now, the application service will get a new instance of a Recipe aggregate from somewhere. For this we will use a repository represented by the interface IRepository that will be injected into the application service. The application service also needs to create a new unique id for the new aggregate. For this we use another service represented by the interface IUniqueKeyGenerator which will also be injected into the service. The code then looks like this
                 
-                [gist id=d68c1a233b9e5fb52735]
+                {% gist d68c1a233b9e5fb52735 %}
                 
                 We have of course not yet defined the interfaces IRepository, IUniqueKeyGenerator, IAggregate and also we have not yet defined the recipe aggregate. Here they are
                 
-                [gist id=b6896635d9912c32375f]
+                {% gist b6896635d9912c32375f %}
                 
-                [gist id=50974ca1ef425b261a3d]
+                {% gist 50974ca1ef425b261a3d %}
                 
-                [gist id=af62fa8b4299b8b334f5]
+                {% gist af62fa8b4299b8b334f5 %}
                 
-                [gist id=644f610a331fb4b08c29]
+                {% gist 644f610a331fb4b08c29 %}
                 
                 Ok, now we can actually use this service in the RecipeController. Note that we also inject the RecipeApplicationService into the controller.
                 
-                [gist id=637e6d2ba8a29f1fa970]
+                {% gist 637e6d2ba8a29f1fa970 %}
                 
                 Now we need to implement the unique key generator service. For this sample we keep it simple and just use a dictionary to store the last given key per entity type in memory. In a productive system we will have to persist the values to be resilient to server crashes or reboot.
                 
-                [gist id=f79ae618b5444c31b0eb]
+                {% gist f79ae618b5444c31b0eb %}
                 
                 Next in turn is the repository. We will use GetEventStore (GES) as our event store. But for the moment we just implement a fake repository that just uses a dictionary as an in-memory store. Later we will change the implementation and access GES
                 
-                [gist id=9a87bc3d5dbb281ab758]
+                {% gist 9a87bc3d5dbb281ab758 %}
                 
                 There is only one thing missing now until we can have a test run. We need to wire up the dependencies. For this we configure an IoC container, either the default container provided with ASP.NET vNext or a third party one like AutoFac. In this sample we use the default container. We just have to modify the Startup class and add the three lines which define our services (lines 5-7)
                 
-                [gist id=8b7038b77a76afc3077c]
+                {% gist 8b7038b77a76afc3077c %}
                 
                 We can now compile what we have so far (kpm build) and run (k kestrel).
                 

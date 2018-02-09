@@ -12,7 +12,7 @@ categories:
   - JavaScript
   - Principles and Patterns
 ---
-Proxies and Decorators are both [design patterns in software development](http://en.wikipedia.org/wiki/Software_design_pattern) &#8211; recipes that provide common solution to common problems. I largely group Proxies and Decorators in to the same category and use them interchangeably because the implementation between them is 99% the same in most language &#8211; especially in JavaScript. The important distinction between them &#8211; as with any design pattern &#8211; is the intent of the pattern.
+Proxies and Decorators are both [design patterns in software development](http://en.wikipedia.org/wiki/Software_design_pattern) &#8211; recipes that provide common solution to common problems. I largely group Proxies and Decorators in to the same category and use them interchangeably because the implementation between them is 99% the same in most language &#8211; especially in JavaScript. The important distinction between them &#8211; as with any design pattern &#8211; is the intent of the pattern.
 
 ## Proxies
 
@@ -36,17 +36,17 @@ If the lines between these two patterns are getting a bit blurry in your mind &#
 
 In raw JavaScript, proxies and decorators can both be facilitated with the same code, such as this:
 
-[gist id=2136035 file=1.js]
+{% gist 2136035 1.js %}
 
 This is actually the implementation of the [Underscorejs \`wrap\` method](http://documentcloud.github.com/underscore/docs/underscore.html#section-59). It&#8217;s a very handy little tool that lets us easily implement both proxies and decorators.
 
 The difference, again, comes back to the intent of the usage. If I&#8217;m intending this to be used as a proxy, I may simply forward the call on to another function:
 
-[gist id=2136035 file=2.js]
+{% gist 2136035 2.js %}
 
 If I&#8217;m intending this to be a decorator, I may want to call the original function while providing some additional logic that manipulates the original function&#8217;s response:
 
-[gist id=2136035 file=3.js]
+{% gist 2136035 3.js %}
 
 The implementation of both of these patterns is largely the same in this example, but the intent is different which is what determines the specific pattern that I&#8217;m using.
 
@@ -56,7 +56,7 @@ One of the great things about JavaScript is our ability to build Frankenstein mo
 
 The ability to mash objects together and replace parts as needed means we can greatly simplify proxies in JavaScript. In fact, if we are intending to wholesale replace a function with another function that simply proxies out to another service, we can get rid of the boilerplate &#8216;wrap&#8217; method entirely and jump straight to method replacement:
 
-[gist id=2136035 file=4.js]
+{% gist 2136035 4.js %}
 
 instant proxy: just replace the original function with yours.
 

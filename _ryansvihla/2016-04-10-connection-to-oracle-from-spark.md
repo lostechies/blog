@@ -25,7 +25,7 @@ tags:
   This issue manifests itself when you have numbers in your schema with no precision or scale and attempt to read. They added the following dialect here
 </p>
 
-[gist id=2a4c1225cb64a02d173342bfc2ba8c58]
+{% gist 2a4c1225cb64a02d173342bfc2ba8c58 %}
 
 <p id="537e">
   This fixes the issue for 1.4.2, 1.5.3 and 1.6.0 (and DataStax Enterprise 4.8.3). However recently there is another issue.
@@ -39,7 +39,7 @@ tags:
   And this lead me to t<a href="http://stackoverflow.com/questions/31287182/writing-to-oracle-database-using-apache-spark-1-4-0" rel="nofollow" data-href="http://stackoverflow.com/questions/31287182/writing-to-oracle-database-using-apache-spark-1-4-0">his SO issue</a>. Unfortunately, one of the answers has a fix they claim only works for 1.5.x however, I had no issue porting it to 1.4.1. The solution in Java looked something like the following, which is just a Scala port of the SO answer above ( This is not under warranty and it may destroy your server, but this should allow you to write to Oracle.)
 </p>
 
-[gist id=c9b8c5b17fa002ba01aba38838ffa30b]
+{% gist c9b8c5b17fa002ba01aba38838ffa30b %}
 
 <p id="3c04">
   In the future keep an eye out for more official support in <a href="https://issues.apache.org/jira/browse/SPARK-12941" rel="nofollow" data-href="https://issues.apache.org/jira/browse/SPARK-12941">SPARK-12941</a> and then you can ever forget the hacky workaround above.

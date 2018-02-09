@@ -59,7 +59,7 @@ Cool! That was easy enough, we might say &#8230; so what? Well it is actually qu
 
 Let&#8217;s say we have a Python-Flask project that we want to build. You can find the code [here](https://github.com/gnschenker/builder). The `Dockerfile` looks like this
 
-[gist id=2e23dd3c822b9967ac823d50230919c8]
+{% gist 2e23dd3c822b9967ac823d50230919c8 %}
 
 From the root of the project execute this command
 
@@ -77,7 +77,7 @@ So, what&#8217;s inside our `builder.sh` file? To start with we just add the `do
 
 And then we can modify the above Docker command to look like this
 
-[gist id=87d1789566b6b25e37c6753f79dce2a4]
+{% gist 87d1789566b6b25e37c6753f79dce2a4 %}
 
 This will give us the very same result as before, but now we have the possibility to extend the `builder.sh` file without changing anything in the `docker run` command.
 
@@ -85,7 +85,7 @@ This will give us the very same result as before, but now we have the possibilit
 
 The first thing we normally want to do is to run some tests against our built artifact. This normally means to run an instance of the built container image and execute a special (test-) script in the container instead of the actual starting command.
 
-[gist id=89bd762dab22359ffa974917f397fc5c]
+{% gist 89bd762dab22359ffa974917f397fc5c %}
 
 You might have noticed that I started to use variables in my script. This makes the whole thing more flexible as we will see further down.
 
@@ -93,15 +93,15 @@ You might have noticed that I started to use variables in my script. This makes 
 
 Once we have successfully built and tested our artifact we are ready to push it to the repository. In this case I will use Docker hub. But before we can push an image we have to tag it. Let&#8217;s add the following snippet to our `builder.sh` script
 
-[gist id=ad36ae10a0cabec04e837e9603d6457f]
+{% gist ad36ae10a0cabec04e837e9603d6457f %}
 
 Before we can push the images to the Docker Hub we need to authenticate/login. We can do that directly on our host using `docker login` and providing `username` and `password`. Docker will then store our credentials in `$HOME/.docker.config.json`. To use these credentials in the container we can map the folder `$HOME/.docker` to `/root/.docker` since inside the container we&#8217;re executing as root. Thus our modified `docker run` command will look like this
 
-[gist id=a93742e5b27346bdb2df15f8e67155ba]
+{% gist a93742e5b27346bdb2df15f8e67155ba %}
 
 Finally after having taken care of the credentials we can push the images to the repository by adding this snippet to the `builder.sh` script
 
-[gist id=a7d405e2c759cfb879a91be825a2bf54]
+{% gist a7d405e2c759cfb879a91be825a2bf54 %}
 
 and we&#8217;re done.
 
@@ -109,11 +109,11 @@ and we&#8217;re done.
 
 Wouldn&#8217;t it be nice if we could reuse this pattern for all our projects? Sure, we can do that. First we build our own builder image that will already contain the necessary builder script and add environment variables to the container that can be modified when running the container. The `Dockerfile` for our builder looks like this
 
-[gist id=74e0be35bfa9cd5cab0c9ac1451330bd]
+{% gist 74e0be35bfa9cd5cab0c9ac1451330bd %}
 
 and the `builder.sh` looks like this
 
-[gist id=529ff0770493356d51b3e89ee109612d]
+{% gist 529ff0770493356d51b3e89ee109612d %}
 
 We can now build this image
 
@@ -121,17 +121,17 @@ We can now build this image
 
 To be able to not only use this image locally but also on the CI server we can tag and push the builder image to Docker Hub. In my case this would be achieved with the following commands
 
-[gist id=95161b0c6715955411a998ef6a81ee3c]
+{% gist 95161b0c6715955411a998ef6a81ee3c %}
 
 Once this is done we can create add a file `run.sh` to our Python project which contains the overly long `docker run` command to build, test and push our artifact
 
-[gist id=211be82b52ee22b83818c374391df6d6]
+{% gist 211be82b52ee22b83818c374391df6d6 %}
 
 Note how I pass values for the 3 environment variables `ACCOUNT`, `IMAGE` and `TAG` to the container. They will be used by the `builder.sh` script.
 
 Once we have done this we can now use the exact same method to build, test and push the artifact on our CI server as we do on our developer machine. In your build process on the CI server just define a task which executes the above Docker run command. The only little change I would suggest is to use the variables of your CI server, e.g. the **build number** to define the tag for the image. For e.g. Bamboo this could look like this
 
-[gist id=c3ed01fe7c659674522c4ac6728493db]
+{% gist c3ed01fe7c659674522c4ac6728493db %}
 
 # Summary
 

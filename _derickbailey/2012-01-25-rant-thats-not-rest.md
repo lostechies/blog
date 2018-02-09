@@ -22,7 +22,7 @@ Frankly, I&#8217;m tired of this pedantic, obnoxious response. The same people t
 
 <img title="ThatsNotREST.jpg" src="http://lostechies.com/derickbailey/files/2012/01/ThatsNotREST.jpg" border="0" alt="ThatsNotREST" width="500" height="503" />
 
-Here&#8217;s the deal. If everyone does it wrong, then write a blog post or a book or a screencast or something that tells the world how to do it right. Until you can point people to what REST actually is, stop telling everyone that no one does REST right.
+Here&#8217;s the deal. If everyone does it wrong, then write a blog post or a book or a screencast or something that tells the world how to do it right. Until you can point people to what REST actually is, stop telling everyone that no one does REST right.
 
 ## My Journey Into Being Wrong
 
@@ -40,7 +40,7 @@ If anyone else has any resources for how I can learn non-REST, RESTful best prac
 
 (end of rant)
 
- 
+ 
 
 <span style="font-size: 18px; font-weight: bold;">… Updates</span>
 
@@ -62,7 +62,7 @@ The most consistent advice I&#8217;m seeing so far, is to start with the books I
 
 <http://www.amazon.com/REST-Design-Rulebook-Mark-Masse/dp/1449310508>
 
-The #rest channel on <http://freenode.net/> IRC
+The #rest channel on <http://freenode.net/> IRC
 
 [http://www.ics.uci.edu/~fielding/pubs/dissertation/rest\_arch\_style.htm](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 

@@ -20,13 +20,13 @@ Before this feature, Fixie could already report to the console, TestDriven.NET, 
 
 A typical command for running Fixie as part of your build script is to specify a test assembly and optional custom name/value pairs of the form &#8220;`--name value --othername othervalue...`&#8220;:
 
-[gist id=8743518]
+{% gist 8743518 %}
 
 This command will write results to the console in a format that is meant for human consumption. It also makes the given key/value pair available to your conventions. Fixie doesn&#8217;t know or care what a category is, but it will gladly hand that information to your convention.
 
 To produce an NUnit- or xUnit-style XML report, you need to include one of the Fixie-specific reporting arguments:
 
-[gist id=8743536]
+{% gist 8743536 %}
 
 > It looks like the xUnit file format can only describe a single test assembly, while the NUnit file format supports any number of assemblies.
 

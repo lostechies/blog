@@ -24,7 +24,7 @@ First and foremost an aggregate has a life cycle. An aggregate which is in its s
 
 Let&#8217;s look at a sample, our usual loan application that I have so far used in all my previous posts. The user who wants to apply for a new personal loan triggers the creation of a new loan application aggregate by starting a new loan application. The corresponding command that is sent to the domain for processing is called **StartLoanApplication**. To help me keep things simple and consistent I once again use a convention similar to the one that I introduced in the previous post about the aggregate. The convention says that the public methods of the application service always are called When and they have exactly one parameter which happens to be the command that is sent for processing to the domain. Thus we start our code like this
 
-[gist id=6c0795eb7fed4edf37c9]
+{% gist 6c0795eb7fed4edf37c9 %}
 
 As you can see we have called our application service **LoanApplicationService** to make it clear what aggregate this service services. I have added a method When to the class which handles the command **StartLoanApplication**. As pointed out in the comments in the above code snippet the body of this method should do 5 things.
 
@@ -36,27 +36,27 @@ As you can see we have called our application service **LoanApplicationService**
 
 If we have now a subsequent command like e.g. **SetFinacialInfos** that has to be applied to our aggregate then we extend our code like this
 
-[gist id=1e95b9c80d285b55489a]
+{% gist 1e95b9c80d285b55489a %}
 
 Evidently here we have a void method since there is no need to pass anything back to the caller. The implementation of the method looks fairly similar to the previous one except for the fact that we do not have to generate a new ID nor to return it to the caller. The remaining part is similar. Just to make it clear let&#8217;s handle the SubmitLoanApplication command.
 
-[gist id=10478ea6e9341797ab52]
+{% gist 10478ea6e9341797ab52 %}
 
 Having this recurring pattern we can refactor our service a bit and introduce a helper method that is called by all the When methods. This helper method, let&#8217;s call it Act is responsible to re-hydrate the aggregate, apply the correct action to the aggregate and then persist the modified aggregate using the repository. The implementation of this method looks like this
 
-[gist id=4f7acc3ff86572ada994]
+{% gist 4f7acc3ff86572ada994 %}
 
 As we can see the method expects the ID of the aggregate we are dealing with to be passed as a first parameter. The second argument is an action<T> where T is the type of the aggregate and in this case the LoanApplicationAggregate. Then the method uses the repository and the passed id to re-hydrate the aggregate. It then applies the action to the aggregate and finally uses the repository again to save the modified aggregate. This is simple right? And indeed it is. It always and always again positively surprises me how simple and elegant code is and looks who is based on sound (architectural) patterns!
 
 Now we can refactor our service and it will look like this
 
-[gist id=c41b7ee2d439d31dc7aa]
+{% gist c41b7ee2d439d31dc7aa %}
 
 All of a sudden our code looks clean and nearly trivial. We can see that each command except the one that triggers the creation of a new aggregate, need to carry with it the ID of the aggregate. This is how we identify which target each command is addressing. In each When method then we need to just define which is the specific action that needs to be applied to the aggregate or formulated differently which method of the aggregate we need to call and how the parameters of the method call are mapped from the command.
 
 Handling yet another command becomes very easy and straight forward as we can see when we handle the AcceptOffer command which is triggered when the user accepts one of the offers the system has made to her. We just add yet another When method with a call to the Act helper method.
 
-[gist id=06d96b32734a82cf6b34]
+{% gist 06d96b32734a82cf6b34 %}
 
 That&#8217;s all what we have to say about persistance of an aggregate.
 
@@ -64,17 +64,17 @@ That&#8217;s all what we have to say about persistance of an aggregate.
 
 As stated earlier, the aggregate is self centric, a POCO object and doesn&#8217;t care about the where about. Sometimes an aggregate needs some service to help it do its business. This may be a service used to make some complicated calculations or similar. The aggregate does not care where this helper service comes from it just expects it to be there when needed. The way we implement our aggregates we cannot use constructor injection on the aggregate to get hold of external dependencies. Thus we inject the service in the appropriate method where it is needed by the aggregate. Let&#8217;s assume that the aggregate has a method Approve and in the body of this method the aggregate needs to execute some complex financial calculations. We can then define the method signature on the aggregate as follows
 
-[gist id=7bd8264ff33c1f22cdd1]
+{% gist 7bd8264ff33c1f22cdd1 %}
 
 Now the application service is responsible to provide the service to the aggregate. The application service can use constructor dependency injection to get hold of the service and then pass it to the aggregate when appropriate. Thus we have this
 
-[gist id=e54b272f46ddf5d4af16]
+{% gist e54b272f46ddf5d4af16 %}
 
 ## Orchestration
 
 In a more specific and maybe exotic example the application service can also orchestrate the collaboration of two or more aggregates. Let&#8217;s for a moment imagine that in our domain of applications for personal loans we have a customer aggregate and lets also assume that when a user starts a new loan application the command is actually handled by the customer aggregate which represents this user. We can then have code similar to this one in a **CustomerApplicationService**:
 
-[gist id=06a139e9db9e8b68add1]
+{% gist 06a139e9db9e8b68add1 %}
 
 In this scenario the customer aggregate is responsible to build up a new instance of the loan application aggregate. It uses a factory service to do this. The application service is responsible to re-hydrate the customer aggregate from storage, apply the action, provide the external dependencies to the customer aggregate (factory) and finally persist the new loan application aggregate to storage.
 

@@ -34,7 +34,7 @@ I found myself writing a very ugly helper method in my rails ApplicationHelper m
     render :partial =&gt; "#{key}/program/dashboard", :locals =&gt; { :dashboard =&gt; dashboard_instance }
   end</pre>
 
- 
+ 
 
 This chunk of code uses some conventions to include a stylesheet and a partial view in the view that calls it, and it also instantiates a class that the partial uses to populate itself with data. &#8230; But I don&#8217;t like this code living inside of a helper method. It&#8217;s very specific to one part of my app, not the app in general. It&#8217;s also a little large and ugly and could use some cleaning up, splitting into separate methods, etc&#8230; all of which I&#8217;m reluctant to do in a helper method, because the helper module would start to get really ugly really quickly.
 
@@ -70,7 +70,7 @@ My answer to this was to move the code into a class on it&#8217;s own, codifying
   end
 end</pre>
 
- 
+ 
 
 I like this solution because it encapsulates a specific set of functionality for a specific part of the app better than a helper method does. It keeps my code cleaner, over-all, and keeps me from bleeding a bunch of abstractions that most of my app don&#8217;t need via helper methods.
 
@@ -78,8 +78,8 @@ I know there are things I can do to clean up the ProgramDashboard class. What I&
 
 Let me know what you think. Do you do things like this? Is there something better that I can do? Is this something that works in &#8216;the right circumstances&#8217; and I just happened to stumble across a scenario that supports it? I&#8217;m interested in all feedback on this.
 
- 
+ 
 
- 
+ 
 
- 
+ 

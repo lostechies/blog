@@ -19,31 +19,31 @@ Before getting to far in refactoring my controller, I want to spend a little bit
 
 First up is getting rid of data access abstractions. Since I’m using mostly NHibernate directly and not abstractions there, it shouldn’t be too bad. I have three main interfaces, first representing a transactional boundary:
 
-[gist id=7101620]
+{% gist 7101620 %}
 
 Not horrible, but the implementation is…strange. But there’s not really a big reason to have this abstraction. Transaction management should be taken care of through infrastructure, and not in your application layer. Transactions should be ambient, not imperatively managed in my controller. On top of that, NHibernate already includes transaction management and unit of work representation, through the ISession interface. Basically all we have above is an ISession wrapper with wonky internal semantics (I wrote the code, so I’m really talking to myself).
 
 Next, we have ISessionSource:
 
-[gist id=7101675]
+{% gist 7101675 %}
 
 To be perfectly honest, I don’t remember what I was thinking here. Dependency injection should take care of getting an ISession supplied to us. In the above interface, I don’t know if that method creates a new ISession or re-uses an existing one. Altogether, not a good spot to be in when you have to look at an implementation of an interface to understand behavior. Strike two.
 
 Finally, we have our repository interface:
 
-[gist id=7101728]
+{% gist 7101728 %}
 
 Again, not much value to this interface as an encapsulation. I still expose NHibernate out through the Query method (absolutely required if I want to do fetching etc.), and for some cases, I can’t even use this abstraction. NHibernate already provides an abstraction through ISession, so let’s just get rid of all these abstractions.
 
 Ideally, I’d just depend directly in ISession in my controller and use it without any abstractions before we go down the road of refactoring. Removing these layers is like excavating down to the bedrock before laying foundation for a building. I need to strip away the muck and mud to get at the base. I can modify my StructureMap registration code to allow me to depend directly on ISession and encapsulate lifecycle management inside the container:
 
-[gist id=7101788]
+{% gist 7101788 %}
 
 Now we don’t have to worry about error-prone lifecycle management code, locks and such. All that code can go away. Aren’t containers nice?
 
 Let’s go back to our controller to see how this changed it:
 
-[gist id=7102870]
+{% gist 7102870 %}
 
 From here, we have a much better target to start refactoring.
 

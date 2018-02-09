@@ -17,7 +17,7 @@ Hey dumpster-diving electronics hacking people!
 
 I wish I had the time to be a hardware mod&#8217;er / tinkerer / hacker &#8230; I&#8217;ve got enough old junk around my house to do it, but no time to spend on it. I know there are some of you out there, though, who love to do it and have the time. So, I thought I would spread the word about ThinkGeek&#8217;s latest idea:
 
-From <http://thinkgeek.com/blog/2011/03/take-these-broken-things.html>
+From <http://thinkgeek.com/blog/2011/03/take-these-broken-things.html>
 
 > **We have a problem.** And it&#8217;s growing at a rate proportional to our return pile.
 > 

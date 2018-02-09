@@ -30,15 +30,15 @@ First, we have to figure out what our validation HTML should look like, and how 
 
 Luckily, underneath the covers these Label etc. conventions are only categories of elements, and we can easily create a new category of conventions for our own purposes. The Label/Editor/Display properties are only convenience methods. In our base convention class, let’s create a new category of conventions via a similar property:
 
-[gist id=b0bed78e02d02ec59390]
+{% gist b0bed78e02d02ec59390 %}
 
 This will allow us to append additional conventions to a Validator category of element requests. With a custom builder, we can create a default version of our validator span (without any validation messages):
 
-[gist id=7cbd62af8271a9dca3bf]
+{% gist 7cbd62af8271a9dca3bf %}
 
 And add it to our default conventions:
 
-[gist id=2147b2a257fdd5c01787]
+{% gist 2147b2a257fdd5c01787 %}
 
 The last part is actually generating the HTML. We need to do two things &#8211;
 
@@ -47,13 +47,13 @@ The last part is actually generating the HTML. We need to do two things &#8211;
 
 The first part is actually fairly straightforward – ha ha just kidding, it’s awful. Getting validation messages out of ASP.NET MVC isn’t easy, but the source is available so we can just copy what’s there.
 
-[gist id=f0a45e58e1f691c3ca1e]
+{% gist f0a45e58e1f691c3ca1e %}
 
 Ignore what’s going on in the first section – I just grabbed it from the MVC source. The interesting part is at the bottom, where I grab a tag generator factory, create a tag generator, and build an HtmlTag using the Validator category for the given ElementRequest. This is what our Label/Editor/Display methods do underneath the covers, so I’m just emulating their logic. It’s a bit clunkier than I want, but I’ll amend that later.
 
 Finally, after building the base validator tag, we set the inner text to the error message we determined earlier. We only use the first error message – too many and it becomes difficult to read. The validation summary can still be used for multiple errors. Our view is now:
 
-[gist id=4577dbf5c0b6f5af5ae9]
+{% gist 4577dbf5c0b6f5af5ae9 %}
 
 Since we know that every validation message will need that “text-danger” class applied, applying it once to our conventions means that we’ll never have to copy-paste that portion around ever again. And much easier to develop against than the MVC templates, which quite honestly, are quite difficult to develop against.
 

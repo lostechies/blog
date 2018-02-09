@@ -23,7 +23,7 @@ Isolating the database can be pretty difficult to do, but I’ve settled on a ge
 
 I’m going to use my tool [Respawn](https://github.com/jbogard/respawn) to [build a reliable starting point in my tests](http://lostechies.com/jimmybogard/2015/02/19/reliable-database-tests-with-respawn/), and integrate it into my tests. In my last post, I walked through creating a common fixture in which my tests use to build internal state. I’m going to extend that fixture to also include my Respawn project:
 
-[gist id=80ff30ea0ccb464021d2]
+{% gist 80ff30ea0ccb464021d2 %}
 
 Since my SlowTestFixture is used in both styles of organization (fixture per test class/test method), my database will either get reset before my test class is constructed, or before each test method. My tests start with a clean slate, and I never have to worry about my tests failing because of inconsistent state again. The one downside I have is that my tests can’t be run in parallel at this point, but that’s a small price to pay.
 

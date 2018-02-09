@@ -46,15 +46,15 @@ In a production environment we want to run at least 2 instances of Consul master
 
 <span style="line-height: 21.8182px;">On Linux it is advisable to run Consul (master or agent) as a Docker container. On Windows this option is not yet available and we have to run Consul agent as a Windows service. </span>First we have to startup an instance of Consul master. We can do this on our Linux VM that was created by the [Docker Toolbox](https://www.docker.com/docker-toolbox). We&#8217;re using the [gliderlabs/consul](https://hub.docker.com/r/gliderlabs/consul/) image from [Docker hub](https://hub.docker.com).
 
-[gist id=7cde655f27dc8754b434]
+{% gist 7cde655f27dc8754b434 %}
 
 Once the master is up and running we can test it and access it&#8217;s API. To e.g. see what nodes are in the current Consul cluster we can use this command
 
-[gist id=e4963abc90896ccfa295]
+{% gist e4963abc90896ccfa295 %}
 
 and we should see an answer similar to this
 
-[gist id=d8bb90ce7cf61420139d]
+{% gist d8bb90ce7cf61420139d %}
 
 # What&#8217;s next?
 

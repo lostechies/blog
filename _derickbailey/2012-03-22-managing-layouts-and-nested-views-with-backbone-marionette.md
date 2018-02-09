@@ -23,11 +23,11 @@ The answer that I found is something that several Marionette users had suggested
 
 The core of Layout is an ItemView + Regions. In fact, that&#8217;s exactly what the Layout is… it extends from Marionette&#8217;s ItemView and it adds the ability to specify a set of regions that will be instantiated with the Layout.
 
-[gist id=2131050 file=1.js]
+{% gist 2131050 1.js %}
 
 When you create a new instance of MyLayout, you&#8217;ll get access to &#8220;myRegion&#8221; and &#8220;anotherRegion&#8221; immediately. They won&#8217;t really be able to do anything until you call the layout&#8217;s &#8220;render&#8221; method, though. Once the layout has been rendered, you can call the &#8220;show&#8221; method on the regions to show whatever content you want in the region.
 
-[gist id=2131050 file=2.js]
+{% gist 2131050 2.js %}
 
 ## Nested Views And Layouts
 
@@ -45,11 +45,11 @@ A Layout has a visual representation. It renders a template and it can handle DO
 
 I&#8217;ve updated my [BBCloneMail](https://github.com/derickbailey/bbclonemail) application to use a Layout, specifically to show what it can do. The new version of this example app renders the entire page as one Layout object, and includes the app switching drop down list as part of the layout. Now when you switch between Mail and Contacts in the app, it&#8217;s the Layout for the over-all app that handles this.
 
-[gist id=2131050 file=3.js]
+{% gist 2131050 3.js %}
 
 There is one small oddity in this, though. Since I&#8217;m lazy-loading templates from the server &#8211; including the layout template &#8211; the call to start Backbone.history has to be delayed until after the layout is rendered. If I don&#8217;t put this delay in place, then the mail and categories won&#8217;t show up after they are rendered. To fix this issue, I moved the \`Backbone.history.start()\` in to the BBCloneMail.Layout file and took advantage of the view &#8220;render&#8221; method returning a jQuery deferred object.
 
-[gist id=2131050 file=4.js]
+{% gist 2131050 4.js %}
 
 When this deferred object is &#8220;done&#8221;, I know it&#8217;s been rendered. That means I can start the history object and kick off my routers, which in term render the mail and categories on to the screen.
 

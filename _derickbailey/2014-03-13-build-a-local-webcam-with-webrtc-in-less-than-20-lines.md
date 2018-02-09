@@ -18,7 +18,7 @@ categories:
 
 Just how awesome is it? You can build a web page that shows your webcam and hooks up your microphone in 20 lines of JavaScript&#8230; and that includes feature detection with an error message for browsers that don&#8217;t support it!
 
-[gist id=9493718 file=webcam.js]
+{% gist 9493718 webcam.js %}
 
 The gist of it is this:
 
@@ -26,11 +26,11 @@ The first few line sets the options to ignore audio and get video. The next 3 li
 
 You&#8217;ll need a couple lines of HTML and to make it look nice, a bit of CSS, too.
 
-[gist id=9493718 file=webcam.html]
+{% gist 9493718 webcam.html %}
 
-[gist id=9493718 file=webcam.css]
+{% gist 9493718 webcam.css %}
 
-Note the use of the &#8220;autoplay&#8221; setting in the <video> element. Without this, you&#8217;ll just get a freeze frame from the video. The CSS just makes the video element huge, which is fun.  
+Note the use of the &#8220;autoplay&#8221; setting in the <video> element. Without this, you&#8217;ll just get a freeze frame from the video. The CSS just makes the video element huge, which is fun.  
 
 ## How Well Does It Work?
 

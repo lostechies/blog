@@ -24,7 +24,7 @@ Anyways that tools comes into our project via nuget, but I have to call that too
 
 Here&#8217;s the source code for that cmd file.
 
-[gist id=&#8221;2400567&#8243; file=&#8221;bottles.cmd&#8221;]
+{% gist 2400567 bottles.cmd %}
 
 Pretty simple, it runs a for loop looking for any files named BottleRunner.exe and sets a variable. Then it checks if that variable was found and does a GOTO \*gasp\* delegating arguments to the exe.
 
@@ -32,7 +32,7 @@ That&#8217;s all well and good but I want to run bottles from bash, cause I&#821
 
 So I came up with this piece of awesome.
 
-[gist id=&#8221;2400567&#8243; file=&#8221;bottles&#8221;]
+{% gist 2400567 bottles %}
 
  `find source/packages -type d | sort -r | grep "Bottles\.Tools" | sed -n 1p | xargs grep -rl "BottleRunner\.exe" | sed -n 1p` 
 

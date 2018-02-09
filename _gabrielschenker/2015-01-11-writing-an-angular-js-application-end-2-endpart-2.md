@@ -27,19 +27,19 @@ The code accompanying this series of posts can be found [here](https://github.co
 
 In the [previous](http://lostechies.com/gabrielschenker/2015/01/05/creating-an-angular-application-end-2-end-part-1/) post we have defined the interface of the repository that we are using in our application. Just as a reminder it looks like this
 
-[gist id=b6896635d9912c32375f]
+{% gist b6896635d9912c32375f %}
 
 Let’s now write an implementation for GES v3.0.1. First we need to add the client library for .NET which is available as [Nuget package](https://www.nuget.org/packages/EventStore.Client) to our solution. Later on we will also need the [Newtonsoft.JSON](https://www.nuget.org/packages/Newtonsoft.Json) library in our code. Thus we need to modify the project.json file and add the following lines to the dependencies collection
 
-[gist id=858e1728ccf0905e4641]
+{% gist 858e1728ccf0905e4641 %}
 
 All access to GES happens via a GES connection object. We will inject this connection into our repository. We will also inject an aggregate factory into the repository. The repository will use this aggregate factory to create new instances of aggregates. Thus we start with the following code
 
-[gist id=258cce644c170a7c9968]
+{% gist 258cce644c170a7c9968 %}
 
 Next we are going to implement the Get method
 
-[gist id=77ef18af45ecb62018fd]
+{% gist 77ef18af45ecb62018fd %}
 
 In this method we essentially read all event events of a stream representing the particular aggregate instance that we want to re-hydrate. On line 6 we determine the stream name from the type of the requested aggregate and the given id. Thus if the requested aggregate type is **RecipeAggregate** and the id is equal to say 11 then the stream name will be **RecipeAggregate-11**. We need to read all events of the given stream to be able to reconstruct the current state of the requested aggregate. Thus we loop and read events in batches of 200 until there are no more left. Then, on line 15 we use the aggregate factory to create a new instance and pass it the collection of events. Finally we return the aggregate to the caller.
 
@@ -49,11 +49,11 @@ With each read operation we get a slice of the stream. The events of this slice 
 
 The helper method GetStreamName used on line 6 looks like this
 
-[gist id=2e6fede0146322983a70]
+{% gist 2e6fede0146322983a70 %}
 
 Now we also need to implement the Save method. This is the code we’ll be using
 
-[gist id=3bab95b8326c6f7346ba]
+{% gist 3bab95b8326c6f7346ba %}
 
 On line 4 we ask the aggregate if there are any uncommitted events it has for use to save. If there are none then we bail out immediately. Otherwise we determine the stream name to which we want to append the given events. The stream name is constructed from the type name of the aggregate to save and the id of the aggregate instance. We use optimistic concurrency and thus have to calculate what the version of the aggregate was when we originally loaded it. This is done on lines 7 and 8. GES will throw an exception if the stored aggregate has a different version than the one we expect.
 
@@ -65,7 +65,7 @@ On line 16 we synchronously append the events&nbsp; to the stream. Finally, on l
 
 The two extension methods used to wrap and unwrap our domain events are defined as follows
 
-[gist id=76a548856710992fc540]
+{% gist 76a548856710992fc540 %}
 
 We use the [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json) library (added previously to our solution) to serialize and de-serialize the events. 
 
@@ -73,11 +73,11 @@ This is all we need to have a fully functional repository for GetEventStore.
 
 In the Get method of the repository we used the aggregate factory to create a new instance of the requested type of aggregate. This results in the following interface
 
-[gist id=4a00d9fa3f760ba15a49]
+{% gist 4a00d9fa3f760ba15a49 %}
 
 Let’s implement this interface. We will have this code
 
-[gist id=abbdcaa208fe41f71935]
+{% gist abbdcaa208fe41f71935 %}
 
 Here we use the generic parameter T to determine the type of the requested aggregate. We use this information to decide what we have to construct. We then pass the collection of events to the constructor of the aggregate. The aggregate will then re-hydrate its own state from the given collection of events.
 
@@ -87,15 +87,15 @@ If during the development of our application we define any other type of aggrega
 
 Given the code we used to implement in the GES repository we can deduce how the final version of the interface IAggregate has to look like. Lines 4, 7, 8 and 17 of the Save method define all the members we need
 
-[gist id=a881d0805507753b3212]
+{% gist a881d0805507753b3212 %}
 
 Every aggregate needs to implement this interface. To not have repetitive code all over it makes sense to implement an aggregate base class. Here is the code 
 
-[gist id=e71e3804aa13e22e5cc5]
+{% gist e71e3804aa13e22e5cc5 %}
 
 The RedirectToWhen class used on line 37 whose implementation is shown below I originally stole from [Rinat Abdullin](http://abdullin.com/) and his of Lokad CQRS library. It is used to dispatch a given event to a matching When method that has the correct event as its (single) parameter. We will see how it is working when we show the implementation of the RecipeAggregate.
 
-[gist id=772125173ad230c37815]
+{% gist 772125173ad230c37815 %}
 
 Please note the Apply method. This method will be used by the concrete aggregates to apply an event. This method adds the event to a uncommitted events collection, increases the version by one and then dispatches the event to an (optional) When method (implemented in the concrete aggregate).
 
@@ -103,17 +103,17 @@ Please note the Apply method. This method will be used by the concrete aggregate
 
 Now that we have implemented all the infrastructure we need let’s turn to the application specific (business) logic and implement the recipe aggregate. From the [previous post](http://lostechies.com/gabrielschenker/2015/01/05/creating-an-angular-application-end-2-end-part-1/) we already know that the aggregate needs a create method. The aggregate will inherit from the base aggregate and thus we need to do some adjustments there too. All in all we will start with the following code
 
-[gist id=a505bb57c6fb0bd64a9a]
+{% gist a505bb57c6fb0bd64a9a %}
 
 Now, what is the aggregate supposed to do when the Create method is called? When using event sourcing as the/an architectural pattern then an aggregate is supposed to emit an event as a result of a command in the case the command can be handled and does not violate any invariants or business rules. The event which makes sense in this context is called RecipeCreated and contains all the necessary information to inform consumers about what happened (and not more). Consequently we add the following code to the Create method
 
-[gist id=e87b90bc49ff4a554368]
+{% gist e87b90bc49ff4a554368 %}
 
 On line 3 we create the event using the information we have and use the Apply method defined in the base class to further process the event. Amongst other things the Apply method will store the event in the un-committed events collection where it can then be retrieved by the repository during the save operation.
 
 Now in the Apply method of the aggregate base class we use the RedirectToWhen class to dispatch events to the appropriate When method. In our case we implement the correct When method in the recipe aggregate as follows
 
-[gist id=f41c5fb3012d973ec9aa]
+{% gist f41c5fb3012d973ec9aa %}
 
 The only thing we do is storing the id in the state of the event
 
@@ -121,7 +121,7 @@ The only thing we do is storing the id in the state of the event
 
 One thing that remains is to update the recipe application service where we call the Create method of the aggregate and also pass the id as a first parameter
 
-[gist id=e3c5fa2e176267cd6e90]
+{% gist e3c5fa2e176267cd6e90 %}
 
 That’s it folks. What we have to do now is to wire up everything and test it.
 
@@ -129,7 +129,7 @@ That’s it folks. What we have to do now is to wire up everything and test it.
 
 First we need to wire up all components and initialize a connection to our GES. Open the Startup class and make sure your code look like this
 
-[gist id=3c334f0109e8935d17c6]
+{% gist 3c334f0109e8935d17c6 %}
 
 Note how we define and open a connection on lines 7 through 9. On line 11 we construct our GES repository which then on line 18 we register as an instance with our IoC container.
 

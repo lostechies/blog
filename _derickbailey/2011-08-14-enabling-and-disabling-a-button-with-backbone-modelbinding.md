@@ -19,13 +19,13 @@ This is a follow-up post to [my previous post on how to enable and disable a but
 
 The Backbone.ModelBinding plugin allows you to bind a model&#8217;s properties to various attributes of an html element through the use of a data-bind attribute in your html element (see the readme for more detail). One of the things you can do with this is set the element to be disabled based on the value of a model&#8217;s property:
 
-[gist id=1145196 file=1-disable.html]
+{% gist 1145196 1-disable.html %}
 
 This works well. It allows you to enable and disable the save button based on the model&#8217;s \`invalid\` property. When the model is invalid, it disables the button and when it&#8217;s valid, it enables the button.
 
-The negative semantics for button enabling and disabling are important. There are times when you will want to enable a button if the model is invalid, for example. In general, though, I don&#8217;t like using the negative form of valid to enable and disable a save button. It gets confusing to talk about \`invalid\` in the code, in my opinion. So I added the ability to specify \`enabled\` in a data-bind attribute, which lets me use an \`isValid\` property on my model:
+The negative semantics for button enabling and disabling are important. There are times when you will want to enable a button if the model is invalid, for example. In general, though, I don&#8217;t like using the negative form of valid to enable and disable a save button. It gets confusing to talk about \`invalid\` in the code, in my opinion. So I added the ability to specify \`enabled\` in a data-bind attribute, which lets me use an \`isValid\` property on my model:
 
-[gist id=1145196 file=2-enable.html]
+{% gist 1145196 2-enable.html %}
 
 Again, when my model is valid, the save button is enabled and when the model is not valid, the save button is disabled. The difference is the semantics of the model&#8217;s property and the way the data-bind attribute reads. For my money, the positive semantics for enabling and disabling a save button are easier to read and understand.
 
@@ -35,4 +35,4 @@ Again, when my model is valid, the save button is enabled and when the model is 
 
 
 
- 
+ 

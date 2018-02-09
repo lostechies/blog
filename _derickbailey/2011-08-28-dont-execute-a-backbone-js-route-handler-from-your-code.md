@@ -22,7 +22,7 @@ I was working on a sample Backbone.js application and I ran into a scenario that
       * the item is highlighted
       * the application routes to the item&#8217;s view url
 
-This sounds like a fairly trivial list of requirements, right? I thought so, too, until I started got down into the weeds of the implementation. For the sake of this blog post, let&#8217;s say the application is a … blog. The list of items is a list of blog posts, and clicking on a blog post will highlight the post title in the list, and then display the contents of the post, etc.
+This sounds like a fairly trivial list of requirements, right? I thought so, too, until I started got down into the weeds of the implementation. For the sake of this blog post, let&#8217;s say the application is a … blog. The list of items is a list of blog posts, and clicking on a blog post will highlight the post title in the list, and then display the contents of the post, etc.
 
 ### A Quick Note On Event-Driven Architecture
 
@@ -34,7 +34,7 @@ To facilitate this philosophy, I use a lot of events in my application design &#
 
 In the first implementation of my requirements, I implemented the links to the blog posts not as hash fragment <a href> links directly, but as events handled by a view, which tell the model it was &#8220;selected&#8221;, triggering a &#8220;post:selected&#8221; application event which is handled by a method that called router.navigate. At a high level, here&#8217;s what that code looks like (I&#8217;ve left out a lot of detail from this code, to only show the important parts).
 
-[gist id=1177645 file=1-firstimpl.js]
+{% gist 1177645 1-firstimpl.js %}
 
 From what I&#8217;ve seen, this code is an example of how a lot of people are using a router to navigate directly to a url fragment instead of having an <a href> link that points directly to the hash fragment. Sure, I&#8217;m adding a few layers of indirection with my events in order to support the philosophy I want, but the end result is the same: click a link that is handled by a backbone view and (eventually) the router is triggered, to navigate to the right place.
 
@@ -42,7 +42,7 @@ From what I&#8217;ve seen, this code is an example of how a lot of people are us
 
 Honestly, there are a lot of problems with this code and with the idea of having a view call router.navigate in order to fire off the route&#8217;s handler method and display something (even if the router is called through a few layers of indirection). I could talk about coupling, encapsulation and other issues. However, there&#8217;s one very important functional problem, from the user&#8217;s perspective, that I want to focus on.
 
-When the user clicks a post in the list, the click causes the model to become selected (line 35) which highlights the item in the list (line 22, 25-30). It also causes the router to navigate to a url hash fragment that will display the post by retrieving it from the list of posts and displaying it (line 4, 12, 55, 44). However, when a user navigates directly to the post url hash fragment by pasting it into the browser&#8217;s location, clicking a link from somewhere else on the web, or otherwise heading directly to it, the &#8220;selected&#8221; code is never fired.
+When the user clicks a post in the list, the click causes the model to become selected (line 35) which highlights the item in the list (line 22, 25-30). It also causes the router to navigate to a url hash fragment that will display the post by retrieving it from the list of posts and displaying it (line 4, 12, 55, 44). However, when a user navigates directly to the post url hash fragment by pasting it into the browser&#8217;s location, clicking a link from somewhere else on the web, or otherwise heading directly to it, the &#8220;selected&#8221; code is never fired.
 
 You might think that it would be easy to fix this, like I thought. You can just add &#8220;post.select()&#8221; to line 46 (right after &#8220;var post = …&#8221; in the &#8220;showPost&#8221; method of the router) and everything will work, right? This will cause the model to be selected which will highlight the post in the list of posts. I did this at first, and I thought it was working. But there&#8217;s another set of problems that arise because of this.
 
@@ -58,15 +58,15 @@ A good design and implementation, in my mind, would avoid these types of problem
 
 The documentation for backbone describes the second argument for the router.navigate method as a way to trigger or not trigger the route&#8217;s handler method. In the past (and very recently) I&#8217;ve been really frustrated by the default of this second argument being &#8220;false&#8221;. That is, if you do not pass a second parameter to router.navigate, the url hash fragment and browser history will be modified but the route&#8217;s handler method will not be called. If you want the handler method to be called, you must pass true as the second parameter.
 
-Why?! When would you ever want to call router.navigate and not have it call the route&#8217;s handler method?! And then it hit me like a brick wall that had been standing there the whole time, only I wasn&#8217;t paying attention and didn&#8217;t see it until I had already smacked into it: most of the problems that I was having were caused by the eventual call to the router.navigate, passing true as the second argument.
+Why?! When would you ever want to call router.navigate and not have it call the route&#8217;s handler method?! And then it hit me like a brick wall that had been standing there the whole time, only I wasn&#8217;t paying attention and didn&#8217;t see it until I had already smacked into it: most of the problems that I was having were caused by the eventual call to the router.navigate, passing true as the second argument.
 
 ### A Better Implementation
 
-I decided to try out a different implementation, then. Rather then have my application eventually call the router.navigate in order to fire the route&#8217;s handler method, I would instead have my application respond to the change in state in order to show the selected post. Then I could call router.navigate without the second parameter. This would update the url&#8217;s hash fragment and browser history, but it wouldn&#8217;t fire the route handler and I would avoid a lot of the problems that I was currently working around. I also need to allow the router to still work when a user gets a link from somewhere else, or types the url w/ hash fragment directly into their browser, etc. If I was going to facilitate both of these scenarios, then I would need a common chunk of code that could be called from either entry point.
+I decided to try out a different implementation, then. Rather then have my application eventually call the router.navigate in order to fire the route&#8217;s handler method, I would instead have my application respond to the change in state in order to show the selected post. Then I could call router.navigate without the second parameter. This would update the url&#8217;s hash fragment and browser history, but it wouldn&#8217;t fire the route handler and I would avoid a lot of the problems that I was currently working around. I also need to allow the router to still work when a user gets a link from somewhere else, or types the url w/ hash fragment directly into their browser, etc. If I was going to facilitate both of these scenarios, then I would need a common chunk of code that could be called from either entry point.
 
 Armed with this idea, I came up with a new implementation that looked more like this:
 
-[gist id=1177645 file=2-betterimpl.js]
+{% gist 1177645 2-betterimpl.js %}
 
 Notice that there are very few changes in this implementation. We&#8217;ve introduced a BlogController object &#8211; which, by the way, does not extend any backbone class because it does not need to &#8211; that removes the logic to display a post from the router (good encapsulation / single responsibility, etc). We&#8217;re no longer passing true as a second argument to the router.navigate function, in our handler for the &#8220;post:selected&#8221; event. And, the show post route&#8217;s handler method is not directly calling any view logic. Instead, the router is simply setting the state of the post by calling the post.select() method. From there, the standard logic to respond to the application&#8217;s state change kicks in, and the post is displayed.
 
@@ -80,4 +80,4 @@ Sure, you will need to call router.navigate to set the url fragment to an approp
 
 <span style="font-size: 14px; font-weight: bold;">Don&#8217;t Fire Route Handler Methods From Within Your App</span>
 
-In all but the smallest of sample applications and special cases where there simply is no alternative that could cause the app to function correctly, I say the default value of &#8220;false&#8221; is the correct value for the second argument of router.navigate. By removing the &#8220;true&#8221; argument from the call to router.navigate, I was forced to find a different way to enable my application&#8217;s functionality. In this case, the introduction of a &#8220;controller&#8221; object (which has been greatly simplified for this blog post) allowed me to keep my code well encapsulated and provide a single logic path for the selection and display of a post.
+In all but the smallest of sample applications and special cases where there simply is no alternative that could cause the app to function correctly, I say the default value of &#8220;false&#8221; is the correct value for the second argument of router.navigate. By removing the &#8220;true&#8221; argument from the call to router.navigate, I was forced to find a different way to enable my application&#8217;s functionality. In this case, the introduction of a &#8220;controller&#8221; object (which has been greatly simplified for this blog post) allowed me to keep my code well encapsulated and provide a single logic path for the selection and display of a post.

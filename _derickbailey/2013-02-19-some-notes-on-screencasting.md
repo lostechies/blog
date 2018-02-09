@@ -13,7 +13,7 @@ categories:
   - Screencast
   - Tools and Vendors
 ---
-I put together some notes for my team, on building some screencasts. I thought they came out fairly well, so I wanted to share with the rest of the world.  Note that these are my opinions based on the work that I&#8217;ve done with [WatchMeCode](http://www.watchmecode.net/), [PragProg](http://pragprog.com/screencasts/v-dback/hands-on-backbone-js), [Tekpub](http://tekpub.com/) and now with [Kendo UI](http://www.kendoui.com/). I know there are 1,000 ways to do any / all of this, and I would love to hear your thoughts on what you do and how you get things done as well. I&#8217;m always looking for ways to improve what I do.
+I put together some notes for my team, on building some screencasts. I thought they came out fairly well, so I wanted to share with the rest of the world.  Note that these are my opinions based on the work that I&#8217;ve done with [WatchMeCode](http://www.watchmecode.net/), [PragProg](http://pragprog.com/screencasts/v-dback/hands-on-backbone-js), [Tekpub](http://tekpub.com/) and now with [Kendo UI](http://www.kendoui.com/). I know there are 1,000 ways to do any / all of this, and I would love to hear your thoughts on what you do and how you get things done as well. I&#8217;m always looking for ways to improve what I do.
 
 ## Getting Started
 
@@ -150,11 +150,11 @@ I work on a Mac these days, so I have more specific info about this than I do wi
 </div>
 
 <div>
-   
+   
 </div>
 
 <div>
-  For advanced animations and awesome stuff, use <a href="http://www.apple.com/finalcutpro/motion/">Motion 5</a>. 
+  For advanced animations and awesome stuff, use <a href="http://www.apple.com/finalcutpro/motion/">Motion 5</a>. 
 </div>
 
 **Screenflow settings:**
@@ -171,7 +171,7 @@ Use Camtasia … is there anything else? Not sure about anything else here&#8230
 
 Like most things in software development, iteration is the key to success. Learn to iterate your script for both audio and video. This usually means writing one of them first, while thinking about the other. Then writing the other while editing the first to adjust for the things you forgot about.
 
-Organize your scripts as if you were writing blog posts &#8211; short sections with a beginning, middle, and end in each section. Be sure the entire episode also has a beginning, middle and end, as well. 
+Organize your scripts as if you were writing blog posts &#8211; short sections with a beginning, middle, and end in each section. Be sure the entire episode also has a beginning, middle and end, as well. 
 
 When writing the audio script details, write as if you are speaking &#8211; because you are. Don&#8217;t write for written publications. Write for a an audience that is listening to you do a presentation at a user group. Write in your speaking voice.
 

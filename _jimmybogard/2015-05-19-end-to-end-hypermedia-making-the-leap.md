@@ -24,7 +24,7 @@ If your client is deployed at the same time as your server, lives in the same so
 
 Hypermedia is great at decoupling client from server, allowing the client to adjust according to the server. In most apps I build, I happily couple client to server, taking advantage of the metadata I find on the server to build highly intelligent clients:
 
-[gist id=01d088ea56ee763f0d52]
+{% gist 01d088ea56ee763f0d52 %}
 
 In this case, my client is the browser, but my view is intelligently built up so that labels, text inputs, drop downs, checkboxes, date pickers and so on are created using metadata from a variety of sources. I can even employ this mechanism in SPAs, where my templates are [pre-rendered using server metadata](https://lostechies.com/jimmybogard/2014/08/14/conventional-html-in-asp-net-mvc-client-side-templates/ "Conventional HTML in ASP.NET MVC: Client-side templates").
 

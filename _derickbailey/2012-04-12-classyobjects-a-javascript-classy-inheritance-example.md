@@ -24,7 +24,7 @@ Before I go any further, I want you to know that I do not endorse this type of i
 
 There&#8217;s a small example in the Readme for the project, which illustrates the use of the framework:
 
-[gist id=2351847 file=1.js]
+{% gist 2351847 1.js %}
 
 In this example, I&#8217;m using the \`define\` method to create a new &#8220;class&#8221; (re: constructor function), using \`extend\` to inherit from that object and create yet another &#8220;class&#8221; (re: constructor function), and then use those objects to do some work &#8211; including the ability to call the \`super\` object of the one that I&#8217;ve extended in to.
 
@@ -62,7 +62,7 @@ Ok, enough of the nebulous rhetoric… there are a few real problems that I see 
 
 ### Implying A Class Definition
 
-This is probably the worst of the problems that I&#8217;ve mentioned &#8211; at least in my opinion. I consistently run in to questions on StackOverflow where the person asking the question is looking at something like Backbone, assuming that they have a class definition because of the way it looks, and winding up with problems that are directly caused by not understanding object literal syntax. Now I&#8217;m not blaming Backbone or saying that these developers should know better. Doing either of those would get us nowhere. The point of using this as an example is to show that a class-like inheritance structure in JavaScript can be very deceiving.
+This is probably the worst of the problems that I&#8217;ve mentioned &#8211; at least in my opinion. I consistently run in to questions on StackOverflow where the person asking the question is looking at something like Backbone, assuming that they have a class definition because of the way it looks, and winding up with problems that are directly caused by not understanding object literal syntax. Now I&#8217;m not blaming Backbone or saying that these developers should know better. Doing either of those would get us nowhere. The point of using this as an example is to show that a class-like inheritance structure in JavaScript can be very deceiving.
 
 When a developer brings years of experience with a language like Java, C#, C++ or other class-based systems, class-y JavaScript frameworks can be very deceptive. They look so much like class definitions that it&#8217;s easy to fall in to the trap of thinking that they are classes. Of course, there are no classes, so [we are really looking at object literals](http://lostechies.com/derickbailey/2011/11/09/backbone-js-object-literals-views-events-jquery-and-el/).
 
@@ -72,13 +72,13 @@ When a JavaScript object has a method called on it, that method might not exist 
 
 Look at it this way: when you have a standard prototypal inheritance chain going on, you have at most the number of objects that you are directly working with:
 
-[gist id=2351847 file=2.js]
+{% gist 2351847 2.js %}
 
 In this example, there are two objects that we defined and used: MyObject and InheritingObject. InheritingObject&#8217;s prototype is MyObject, directly. Any change we make to MyObject will be directly reflected in InheritingObject.
 
 Now look at the the &#8220;inherits&#8221; function from the ClassyObjects framework, and a very simple usage of it:
 
-[gist id=2351847 file=3.js]
+{% gist 2351847 3.js %}
 
 In the example usage, it might look like we are only dealing with two objects. But the truth is we are dealing with no less than 5 objects: MyObject, ConstructorFunction, ConstructorFunction.prototype, the &#8220;definition&#8221; object literal, and finally the object instance that we create from the resulting &#8220;class-y&#8221; object.
 
@@ -92,7 +92,7 @@ When we call &#8220;inherits&#8221; to create a new constructor function (&#8220
 
 Both Backbone and ClassyObjects have a problem with context, directly caused by the way JavaScript respects the context of the called function. If you have a setup like this:
 
-[gist id=2351847 file=4.js]
+{% gist 2351847 4.js %}
 
 You&#8217;re going to end up with an infinite loop and a stack overflow problem. The problem is caused the use of &#8220;this.super&#8221;. In the call to &#8220;bar.baz&#8221;, the context of the call is set to the &#8220;bar&#8221; object. But the &#8220;baz&#8221; function doesn&#8217;t exist on &#8220;bar&#8221;, so it looks at &#8220;foo&#8221; for the function. Now the method definition for &#8220;foo.baz&#8221; calls &#8220;this.super.baz()&#8221;, which looks like it should call &#8220;root.baz&#8221;, right? After all, the &#8220;super&#8221;-class of &#8220;foo&#8221; is &#8220;root&#8221;. But since the function execution context has been set to &#8220;bar&#8221;, &#8220;this&#8221; still refers to &#8220;bar&#8221;. Therefore, &#8220;this.super.baz&#8221; will effectively call &#8220;bar.baz&#8221; &#8211; which is the original call that we made to start this whole thing off, thus resulting in an infinite loop.
 

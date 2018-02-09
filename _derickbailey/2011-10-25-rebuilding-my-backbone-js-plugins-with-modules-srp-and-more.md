@@ -18,7 +18,7 @@ In the last few weeks, I&#8217;ve rebuilt and refactored a large amount of JavaS
 
 ## A Big Ball Of Mud
 
-Both of these plugins started out with great intentions, and good code. I was diving heavily into object oriented JavaScript with the help of the [Javascript Patterns book](http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752) (high recommended reading) and also solving several problems that I was running into with my Backbone.js apps. As most big balls of mud do, both of the code bases started out small and clean. Over time, I added features and functionality. New and exciting ideas popped up and were introduced… all without regard for the structure and design of the code. I was hacking away, test-first mind you, and introducing more and more complexity to both of these projects, slowly turning a shiny pebble into a ball of mud. Eventually, I began to see feature requests and bug reports that I couldn&#8217;t solve easily.
+Both of these plugins started out with great intentions, and good code. I was diving heavily into object oriented JavaScript with the help of the [Javascript Patterns book](http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752) (high recommended reading) and also solving several problems that I was running into with my Backbone.js apps. As most big balls of mud do, both of the code bases started out small and clean. Over time, I added features and functionality. New and exciting ideas popped up and were introduced… all without regard for the structure and design of the code. I was hacking away, test-first mind you, and introducing more and more complexity to both of these projects, slowly turning a shiny pebble into a ball of mud. Eventually, I began to see feature requests and bug reports that I couldn&#8217;t solve easily.
 
 ## Filtering The Mud
 
@@ -57,7 +57,7 @@ Suddenly the code starts to make more sense. The difference pieces of the puzzle
 
 The end result of this refactoring can be summarized with the high level Memento class: the driver of all the workflow in this plugin:
 
-[gist id=1314027 file=1.js]
+{% gist 1314027 1.js %}
 
 It&#8217;s easy to see what&#8217;s happening here. You don&#8217;t need to pick apart the guts of implementation in order to understand the high level process because this is the high level process. If you want to know the detail, you can dive down into it when you need to instead of being forced to wade through it constantly.
 
@@ -67,13 +67,13 @@ Probably the single largest mistake I made when building the modelbinding plugin
 
 Object literals are easy to build in JavaScript. Just set a bunch of key-value pairs, using a semi-colon, between opening and closing curly braces:
 
-[gist id=1314027 file=2.js]
+{% gist 1314027 2.js %}
 
 You can add any amount of functionality that you want to an object literal, with the exception of not being able to create &#8220;private&#8221; variables (and I put &#8220;private&#8221; in quotes because it&#8217;s only private by the use of closures, not by a syntactical keyword called &#8220;private&#8221;). In order to create &#8220;private&#8221; variables, you have to enclose the object literal in another function to build the closure around the variable.
 
-[gist id=1314027 file=3.js]
+{% gist 1314027 3.js %}
 
-This is often called the &#8220;revealing module&#8221; pattern (or something along those lines, I think) as it allows you to reveal an API that you want without having to expose all of the internals of your module. Object literals and modules have their usefulness, mind you. I use them frequently and recommend you read up on them. But like any other tool we have, these can be used and abused, and my modelbinding plugin was beating these patterns into the ground.
+This is often called the &#8220;revealing module&#8221; pattern (or something along those lines, I think) as it allows you to reveal an API that you want without having to expose all of the internals of your module. Object literals and modules have their usefulness, mind you. I use them frequently and recommend you read up on them. But like any other tool we have, these can be used and abused, and my modelbinding plugin was beating these patterns into the ground.
 
 It all came to a head when I got the bug report saying my code was no unbinding the DOM element events. After digging into this, I realized that because I was using object literals everywhere, I had no way of storing the configuration data I needed for any given Backbone view and model. Without this configuration, there was no way for me to know which HTML elements had which DOM events firing for which models. I was stuck with event bindings that I couldn&#8217;t remove, without resorting to jQuery calls that would remove _all_ bindings (not what I wanted).
 
@@ -91,11 +91,11 @@ Fortunately, I found a very simple solution in the dynamic nature of Javascript:
 
 Since the configuration of a given ModelBinder instance was for a specific View instance, it makes sense for these two items to be stored together &#8211; to use the View instance as a way to store and retrieve the ModelBinder. At first, I was going to use another object to store the View: ModelBinder as a key/value pair. But then I realized that I didn&#8217;t need to do this, either. Since the View itself is passed into both the \`bind\` and \`unbind\` functions, I can store the ModelBinder directly on the view.
 
-[gist id=1314027 id=4.js]
+{% gist 1314027 id=4.js %}
 
 Then, when I call \`unbind\` and pass in the view, I only need to check for the existence of a \`modelBinder\` attribute on the view. If it exists, I can assume that it&#8217;s my ModelBinder class with all of the configuration for that view, and have it do all of the unbinding for me.
 
-[gist id=1314027 id=5.js]
+{% gist 1314027 id=5.js %}
 
 Much cleaner, easier to understand, and it takes advantage of JavaScript&#8217;s dynamic nature, allowing me to use the objects I already have to store the configuration that I need.
 

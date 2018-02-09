@@ -18,7 +18,7 @@ I&#8217;ve been asking this question in various forms, via twitter, for a few da
 
 Rather than continue to ask bits and pieces of my questions via twitter, I want to try and get my thoughts out in something coherent&#8230; to explain the context of what I&#8217;m building and hopefully find some solid advice on how to handle this situation (and the many similar situations that I need to handle).
 
- 
+ 
 
 ### The Context
 
@@ -28,7 +28,7 @@ The medications selected in the treatment plan are not immediately applied to th
 
 Since our system deals with medical data for patients, we have to be HIPAA compliant (HIPAA is the &#8220;Health Insurance Portability and Accountability Act&#8221; in the United States). This compliance requires us to keep audit trails for who is reviewing and modifying patient information (among other things). This means that every time a medication is changed for a patient, we have to log who is making the change, when they are making it, and what it&#8217;s changing to.
 
- 
+ 
 
 ### The Idea
 
@@ -44,7 +44,7 @@ I know very little about the pub/sub and messaging options in ruby, though. So I
 
 So&#8230; what are the pub / sub options that I&#8217;ve found, so far?
 
- 
+ 
 
 ### The Problem
 
@@ -66,7 +66,7 @@ I don&#8217;t want my handling of the &#8220;MedicationsModified&#8221; even to 
 
 I also don&#8217;t necessarily need my solution to be asynchronous or out of process. I just need it to be a simple pub/sub message handler &#8211; in or out of process. Though, as Jak pointed out in our conversations, a web server is already an asynchronous / out of process system (with the UI being the browser on the other end of the internet), so I&#8217;m not really opposed to an out of process solution. It just needs to be simple.
 
- 
+ 
 
 ### The Questions
 
@@ -78,8 +78,8 @@ It&#8217;s obvious that my brain is still wired for the .NET and Winforms paradi
 
 Any and all suggestions, gems to look at, links to blog posts, articles and presentations, are greatly appreciated.
 
- 
+ 
 
 ### Use My Existing Rails Models
 
-One constraint that I haven&#8217;t mentioned yet&#8230; I want to use my existing rails models in the message handlers, so that I don&#8217;t have to duplicate them in whatever the solution ends up being. Tools like DelayedJob do this for me, and I can even make it work with EventMachine (but I&#8217;m not sure of the ramifications of loading up config/environment.rb in my EventMachine server).  I wanted to mention this so that you can keep it in mind when suggesting solutions and answers to my questions.
+One constraint that I haven&#8217;t mentioned yet&#8230; I want to use my existing rails models in the message handlers, so that I don&#8217;t have to duplicate them in whatever the solution ends up being. Tools like DelayedJob do this for me, and I can even make it work with EventMachine (but I&#8217;m not sure of the ramifications of loading up config/environment.rb in my EventMachine server).  I wanted to mention this so that you can keep it in mind when suggesting solutions and answers to my questions.

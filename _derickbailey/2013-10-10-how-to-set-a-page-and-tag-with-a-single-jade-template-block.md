@@ -14,16 +14,16 @@ Yesterday, I accidentally figured out that you can use a [Jade template](http://
 
 ## Setup The Blocks
 
-In your layout.jade file, add a `block title` to your `<title>` tag, and also in the body of your document where you want the page title to be displayed.
+In your layout.jade file, add a `block title` to your `<title>` tag, and also in the body of your document where you want the page title to be displayed.
 
-[gist id=6918552 file=layout.jade]
+{% gist 6918552 layout.jade %}
 
-Notice the extra info that I included in the `<title>` tag. You can put whatever you want prior to, inside of, and after the `block title`  The resulting `<title>` tag will contain all of the content that you specify, including the content within the block, by default. This gives you a default page title for any page that forgets to include a `block title`.
+Notice the extra info that I included in the `<title>` tag. You can put whatever you want prior to, inside of, and after the `block title`  The resulting `<title>` tag will contain all of the content that you specify, including the content within the block, by default. This gives you a default page title for any page that forgets to include a `block title`.
 
 ## Set The Title In A Page
 
-Once you have the layout set up, you can specify a `block title` in any content page that extends from the layout.
+Once you have the layout set up, you can specify a `block title` in any content page that extends from the layout.
 
-[gist id=6918552 file=somePage.jade]
+{% gist 6918552 somePage.jade %}
 
-When you do this, the result is a page that has both the `<title>` tag and the page&#8217;s `<h1>` title set to the same content.
+When you do this, the result is a page that has both the `<title>` tag and the page&#8217;s `<h1>` title set to the same content.

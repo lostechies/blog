@@ -34,7 +34,7 @@ Not very exciting, and similar to many other pipelines I’ve seen (in fact, I b
 
 The script for me then looks pretty straightfoward:
 
-[gist id=d0fbae2a5d21b1398192f8d4ebb87285]
+{% gist d0fbae2a5d21b1398192f8d4ebb87285 %}
 
 Cleaning is just removing an artifacts folder, where I put completed packages. Initialization is installing required PowerShell modules and running a “dotnet restore” on the root solution.
 
@@ -44,7 +44,7 @@ As part of my builds, I include the incremental build number in my packages. Bec
 
 In my project.json file, I’ve set the version up so that the version from the build gets substituted at package time. But my project.json file determines the major/minor/revision:
 
-[gist id=5820fb7329965cf29db33c7646f24ab5]
+{% gist 5820fb7329965cf29db33c7646f24ab5 %}
 
 This build script is used not just locally, but on the server as well. That way I can ensure I’m running the exact same build process reproducibly in both places.
 
@@ -63,7 +63,7 @@ I still have pre-release packages, but these are a bit more thought-out than I h
 
 Finally, because I’m using AppVeyor, my entire build configuration lives in an “appveyor.yml” file that lives with my source control. Here’s MediatR’s:
 
-[gist id=ef076407b55ab71cd1016e60c4a81d89]
+{% gist ef076407b55ab71cd1016e60c4a81d89 %}
 
 First, the build version I set to be just the build number. Because my project.json file drives the package/assembly version, I don’t need anything more complicated here. I also don’t want any other branches built, just master and pull requests. This makes sure that I can still create branches/PRs inside the same repository without having to be forced to use a second repository.
 

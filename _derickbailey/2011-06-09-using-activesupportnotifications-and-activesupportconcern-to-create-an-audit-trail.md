@@ -15,7 +15,7 @@ categories:
 ---
 In my previous post, I outlined a scenario that needs to be audited for HIPAA compliance &#8211; a patient with a list of medications. Every time a medication is added, updated or deleted, an audit record has to be created to tell us who made the change, what the change was, and what patient it was for. I also outlined my desire to use an event aggregator pattern or other pub/sub pattern on the backend of my system to facilitate this and other functionality. After some discussion via that blog post and twitter, I came across ActiveSupport::Notifications. I also remembered seeing a tweet from DHH talking about the use of ActiveSupport::Concerns. The combination of these two things makes for a very nice audit system&#8230; though I do still have a few issues to work out regarding specific data I need in the audit record.
 
- 
+ 
 
 ## Auditing With ActiveSupport::Notifications
 
@@ -51,7 +51,7 @@ class Medication
 end
 </pre>
 
- 
+ 
 
 Then I need to set up a subscriber for the :audited event and have it create the audit record. Here&#8217;s the code for the Audit class and the subscriber that does the work.
 
@@ -86,11 +86,11 @@ ActiveSupport.Notifications.subscribe(/audit) do |*args|
 end
 </pre>
 
- 
+ 
 
 This is a fairly simple setup. Whenever my medication class is saved, the audit subscriber will create an audit record with all of the data that I need. From here, I can add auditing for updated, deletes, and other callbacks on the model.
 
- 
+ 
 
 ### Simplifying Audits With ActiveSupport::Concern
 
@@ -121,7 +121,7 @@ module Audited
 end
 </pre>
 
- 
+ 
 
 This module sets up the after_save callback for me, allowing me to remove that from my Medication model which keeps the model cleaner. It then sets up the audit method which does the call into the ActiveSupport::Notifications, as well.
 
@@ -135,25 +135,25 @@ class Medication
   embedded_in :patient
 end</pre>
 
- 
+ 
 
 ### A Few Remaining Problems
 
 Unfortunately this solution isn&#8217;t quite as perfect as I had hoped. There are a few remaining problems and ugly things that I haven&#8217;t figured out how to clean up, for my specific scenario. I do think that the idea is good, in general, but I obviously need to do a little more work.
 
- 
+ 
 
 #### Access To The Current User via Thread.current[:user]
 
-I know this is ugly, but I don&#8217;t know of any other way for my audit code to get access to the current_user &#8230; the user that is currently making the request to update the patient&#8217;s medication list. I&#8217;ve read through several [blog posts](http://rails-bestpractices.com/posts/47-fetch-current-user-in-models) and stack overflow questions, and this seems to be the &#8220;best&#8221; (meaning, least ugly and horrible) way that I could find. If anyone could point me in a better direction, I would really appreciate it.
+I know this is ugly, but I don&#8217;t know of any other way for my audit code to get access to the current_user &#8230; the user that is currently making the request to update the patient&#8217;s medication list. I&#8217;ve read through several [blog posts](http://rails-bestpractices.com/posts/47-fetch-current-user-in-models) and stack overflow questions, and this seems to be the &#8220;best&#8221; (meaning, least ugly and horrible) way that I could find. If anyone could point me in a better direction, I would really appreciate it.
 
- 
+ 
 
 #### Access To The Current Patient
 
 You&#8217;ll notice in the Concern version of the auditing, that there is a distinct lack of code to provide the patient to the audit trail. Since I moved this code into the concern, I don&#8217;t have knowledge of how to get the patient from the class that the concern is included in. I have no guarantee that there is a .patient method on the class, to get the current patient that the user is working with. The best solution I could come up with for this, is to use a session variable to set the patient when we load the patient the first time, and read that session variable from within the concern. Again, I think this is ugly, but I don&#8217;t know what else to do. Any suggestions you might have for this is also appreciated.
 
- 
+ 
 
 ### Are Notifications Overkill, In This Scenario?
 

@@ -18,6 +18,6 @@ By now you know that I&#8217;m a fan of pub-sub / event aggregators, whether it&
 
 [**WinJS.Application.addEventListener**](http://msdn.microsoft.com/en-us/library/windows/apps/br229799.aspx) &#8211; handle an event that was sent
 
-[gist id=3186090 file=1.js]
+{% gist 3186090 1.js %}
 
 Of course this is only an application level event aggregator. If I want to use localized / sub-application / module event aggregators, I need to find another way to make that happen. I [have some leads on this](http://msdn.microsoft.com/en-us/library/windows/apps/br211693.aspx), but haven&#8217;t had a chance to work on them yet. I have hope, though, and this is yet another reason that I really like working on WinJS apps.

@@ -26,7 +26,7 @@ In organizations that mandate stored procedures . The only really valid case bei
 
 No worries! You still don’t need to do crazy IDataReader/SqlCommand jockeying. Both NHibernate and micro-ORMs easily support stored procedures for executing SELECTs and INSERT/UPDATE/DELETEs. Micro ORMs provide a thinner layer to work with, so I typically use those. Here’s an example of using PetaPoco:
 
-[gist id=3176033]
+{% gist 3176033 %}
 
 Compare with ADO.NET, you’d have to create a SqlCommand, execute a data reader, loop through the results…well, you get the idea.
 

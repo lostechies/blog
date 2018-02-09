@@ -15,7 +15,7 @@ redirect_from: "/blogs/chrismissal/archive/2009/06/01/anti-patterns-and-worst-pr
 ---
 [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 0px 0px 0px 10px;border-right-width: 0px" alt="tools" src="//lostechies.com/chrismissal/files/2011/03/tools_thumb_53296EBA.jpg" width="244" align="right" border="0" height="184" />](//lostechies.com/chrismissal/files/2011/03/tools_486986B4.jpg) If you ever start typing &ldquo;Utils&rdquo; or &ldquo;Utility&rdquo; stop and think a bit; if you need some help, ask a fellow developer a question of what this code actually does. This anti-pattern is caused either by lack of domain knowledge, or laziness, sometimes both. The problem isn&rsquo;t with the functions that these Utils are performing, but what they&rsquo;re called and how they&rsquo;re grouped together. Most often, I see the following types of functions inside a Utils class.
 
-[gist id=2917597 file=Utils.cs]
+{% gist 2917597 file=Utils.cs %}
 
 [](http://11011.net/software/vspaste)[](http://11011.net/software/vspaste)
 
@@ -27,7 +27,7 @@ There&rsquo;s really no reason that this type of functionality belongs in a Util
 
 Maybe you have some more specific functionality for which you can&rsquo;t seem to find a place. You&rsquo;re taking in some data and spitting out something a bit different. Rather than coding it right inline the objects that need it, you decided to place it somewhere it can be re-used (Good! Following DRY: Don&rsquo;t Repeat Yourself), inside the Utils class.
 
-[gist id=2917597 file=MoreUtils.cs]
+{% gist 2917597 file=MoreUtils.cs %}
 
 [](http://11011.net/software/vspaste)[](http://11011.net/software/vspaste)[](http://11011.net/software/vspaste)
 

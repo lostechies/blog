@@ -16,7 +16,7 @@ In [Listen Up!](http://lostechies.com/patricklioi/2013/10/21/listen-up/), we cov
 
 The first improvement was simple. TeamCity wants to display the time each test takes to run, and the messages we output to TeamCity therefore contain a duration value in milliseconds. This was the first time I needed to know the duration of a test, so I had to implement the timing functionality first. The main test execution loop gained a Stopwatch for each test case:
 
-[gist id=7089303]
+{% gist 7089303 %}
 
 The collected duration, a TimeSpan, is one of the things passed along to the Listener interface upon each test completion. TeamCityListener, for instance, receives that TimeSpan and outputs the duration in the units expected by TeamCity.
 
@@ -28,7 +28,7 @@ TeamCity, and potentially any other test reporting tool, wants to be handed the 
 
 As I started to work my way through the console-capture feature, I realized that a related bug was in play. Consider a test method that redirects the standard output stream:
 
-[gist id=7089325]
+{% gist 7089325 %}
 
 Fixie starts up a test run, outputting results to the console as it goes, either via ConsoleListener or TeamCityListener. It reaches this evil test, outputs &#8220;All is well.&#8221;, and then the developer sees _nothing else_. All subsequent attempts by Fixie to write anything to the console, such as other tests&#8217; failures, fall into the blackHole StringWriter instead of the real console.
 
@@ -40,8 +40,8 @@ Thankfully, implementing the console output capture feature fixes this bug at th
 
 The RedirectedConsole class below allows you to temporarily redirect all console output to a StringWriter for the duration of a `using` block:
 
-[gist id=7089334]
+{% gist 7089334 %}
 
 We wrap the execution of _each_ test in a RedirectedConsole for two reaons. First, we need to obtain the string equivalent of anything the test wrote to the console. Second, we need to ensure that we redirect console output back to the right place at the end of each test, so that our EvilTest can no longer interfere with other tests. Fixie captures the output of each test, but can still confidently write output of its own without fear of it falling into a black hole:
 
-[gist id=7089345]
+{% gist 7089345 %}

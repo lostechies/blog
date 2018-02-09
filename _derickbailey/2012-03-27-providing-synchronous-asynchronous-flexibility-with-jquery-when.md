@@ -22,7 +22,7 @@ The core of the $.when syntax is the when/then statement. It&#8217;s a simple lo
 
 For example, you&#8217;ll find code similar to this in my [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) project:
 
-[gist id=2131284 file=1.js]
+{% gist 2131284 1.js %}
 
 In this example, I&#8217;m waiting for a template to be retrieved before rendering my view. After the template has been retrieved, I&#8217;m using that template to do the rendering. The code reads fairly well, in my opinion: When the template has been retrieved, render the view.
 
@@ -38,6 +38,6 @@ If you can sift through all of the documentation and really wrap your head aroun
 
 > If a single argument is passed to jQuery.when and it is not a Deferred, it will be treated as a resolved Deferred and any doneCallbacks attached will be executed immediately.
 
-What this is really saying is that if you call $.when with a deferred/promise, then jQuery will wait until that promise has been fulfilled &#8211; resolved &#8211; before executing the &#8216;then&#8217; portion of your code. At the same time, if you pass in an object that is not a jQuery deferred/promise, jQuery will immediately call the &#8220;then&#8221; callback in your code. This means that a call to $.when/then directly supports both synchronous and asynchronous processing.
+What this is really saying is that if you call $.when with a deferred/promise, then jQuery will wait until that promise has been fulfilled &#8211; resolved &#8211; before executing the &#8216;then&#8217; portion of your code. At the same time, if you pass in an object that is not a jQuery deferred/promise, jQuery will immediately call the &#8220;then&#8221; callback in your code. This means that a call to $.when/then directly supports both synchronous and asynchronous processing.
 
 You can see this evidenced in Backbone.Marionette, once again. The default implementations of the template loading and rendering for the various views are all synchronous. I&#8217;ve added extensive support for asynchronous template loading and rendering, though, using a combination of Deferred objects and $.when/then calls. The above code sample runs no matter the sync/async nature of the template loading and rendering, though.

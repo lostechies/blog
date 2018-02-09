@@ -32,7 +32,7 @@ Somewhere on the screen we also display a **Shopping Cart** button which if clic
 
 The view where the user can browse the product catalog is a good sample to discuss queries. In this specific context we have a query that we can call e.g. **SearchProducts**. This name gives us the context and if chosen wisely there is no guessing what exactly the meaning or goal of the query is. Of course we also need to provide additional data to the back-end where the search will happen. First of all we know that the user can select a product category on the screen. This will probably give us a unique CategoryID (or CategoryCode). This CategoryID will be part of the payload of the query. The user can also enter a free form text in the search text box. Let&#8217;s call this the QueryText. Consequently our query object that we send from the UI to the back-end will look like this
 
-[gist id=3cba675b1849167d2a32]
+{% gist 3cba675b1849167d2a32 %}
 
 which is a JSON formatted object that we e.g. send to an end-point of a REST-ful API. Let&#8217;s just assume it is a POST request to &#8230;/api/Products/Search
 
@@ -40,7 +40,7 @@ which is a JSON formatted object that we e.g. send to an end-point of a REST-ful
 
 On the back-end we consequently have a query object like this
 
-[gist id=a3d711093db0df05075a]
+{% gist a3d711093db0df05075a %}
 
 Since this is a query we do not funnel this request through our domain model but rather go straight to the data store to retrieve the data and return it as a collection of data transfer objects (DTOs).
 
@@ -64,15 +64,15 @@ The above query is formulated using the Lucene [query syntax](https://lucene.apa
 
 Once the list of products that the user was searching for is displayed on the screen she can select certain products and add them to her shopping cart by clicking of the respective **Add** button next to the individual product(s). Each time the user clicks an Add button a command is sent to the back-end. To make things unambiguous we call this command **AddProductToCart**. Once again it is very important to select a meaningful name that immediately reveals what&#8217;s going on and that can be understood by domain experts that are have no IT background. The payload of the command will be the unique **ProductID**. We need nothing more since by definition we add **one** instance of the product to the shopping cart. Furthermore the shopping cart is identified by the **session ID** that the user has associated (remember, up to now the user is still anonymous to the application). But the session ID will be provided to us by the (Web) infrastructure and thus doesn&#8217;t need to be included in the command. So we have a POST request to e.g. the endpoint &#8230;/api/ShoppingCart/AddProduct and this is the body
 
-[gist id=6d95e159a01430a1077f]
+{% gist 6d95e159a01430a1077f %}
 
 and on the server we have the following corresponding command object
 
-[gist id=c94e9940215896018cff]
+{% gist c94e9940215896018cff %}
 
 This command will now be handled by our domain. If we&#8217;re using DDD then we might have e.g. a **ShoppingCart** aggregate which will handle this command. It is important to note that a command always has exactly one target, not zero and not more than one but exactly one. So the code will look like this
 
-[gist id=f539848c6767bf8220bb]
+{% gist f539848c6767bf8220bb %}
 
 Note that the method **AddProduct** does not return anything. The method either succeeds or fails, that are the only possible outcomes. Usually I just throw an exception in the aggregate if the aggregate cannot execute the command due to maybe a violation of a business rule.
 
@@ -82,7 +82,7 @@ If the command succeeds then we can just return a status code 200 (=OK) to the U
 
 In a similar manner we can treat the two possible commands that the user can trigger on the shopping cart view &#8211; adjust the number of items of a certain product and remove product from shopping cart. Here is the corresponding code snippet
 
-[gist id=d5a122a68cab468d570e]
+{% gist d5a122a68cab468d570e %}
 
 Again, the corresponding methods do not return any data and can either succeed (highly likely) or fail (a true exception). If the respective operation/command succeeds we also return a status code 200 (=OK) to the UI and the UI can update the visual display of the shopping cart.
 

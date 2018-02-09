@@ -17,11 +17,11 @@ Going through and reviewing the [Contoso University codebase](http://www.asp.net
 
 A Course can have many Instructors, and a Person (Instructor) can have many Courses. The EF code-first mapping for this relationship looks like:
 
-[gist id=9506231]
+{% gist 9506231 %}
 
 The NHibernate mapping would look similar, with a .[ManyToMany](http://nhforge.org/doc/nh/en/index.html#collections-ofvalues)() mapping on one or both sides of the relationship. From the Course and Person entities, I treat the one-to-many direction as a normal collection:
 
-[gist id=9506329]
+{% gist 9506329 %}
 
 From each direction, we don’t ever interact with the [junction table](http://en.wikipedia.org/wiki/Junction_table), we just follow a relationship from each direction as if it were a one-to-many. There are a few reasons why I don’t like this sort of modeling. Many-to-many relationships are normal in databases, but in my entity model I don’t like treating these relationships as if the junction table doesn’t exist. Some of the reasons include:
 
@@ -32,15 +32,15 @@ From each direction, we don’t ever interact with the [junction table](http://e
 
 For these reasons, I instead always start with my junction tables modeled explicitly:
 
-[gist id=9506628]
+{% gist 9506628 %}
 
 From each side of the relationship, I can decide (or not) to model each direction of this relationship:
 
-[gist id=9506687]
+{% gist 9506687 %}
 
 Many times, I’ll even avoid creating the collection properties on my entities, to force myself to decide whether or not I’m constraining my selection or if I really need to grab the entities on the other side. I can now build queries like this:
 
-[gist id=9506800]
+{% gist 9506800 %}
 
 I can skip going through other side of the many-to-many relationship altogether, and start straight from the junction table and go from there. It’s obvious to the developer, and often times the ORM itself has an easier time constructing sensible queries.
 

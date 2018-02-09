@@ -22,11 +22,11 @@ For a more detailed description of the process refer to the official MongoDB doc
 
 First off we have to import the MongoDB public GPG key
 
-[gist id=28b866656bf62cca7dc0]
+{% gist 28b866656bf62cca7dc0 %}
 
 Then, similar as we did for Mono in the [previous](http://lostechies.com/gabrielschenker/2014/12/29/creating-an-ubuntu-developer-vm-on-hyper-v/) post we have to create a file list for MonogDB
 
-[gist id=17ec2c075230c5f239bc]
+{% gist 17ec2c075230c5f239bc %}
 
 Now do not forget to reload the local package database (like I did, which caused me to scratch my head on the subsequent error “E: Unable to locate package mongodb-org”…)
 

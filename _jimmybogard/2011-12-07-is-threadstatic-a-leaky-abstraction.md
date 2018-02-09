@@ -13,7 +13,7 @@ categories:
 ---
 Reading Ayende’s post on [integrating Rhino Service Bus and RavenDB](http://ayende.com/blog/143361/rhino-service-bus-amp-ravendb-integration), one thing that caught my eye was the use of the [ThreadStatic attribute](http://msdn.microsoft.com/en-us/library/system.threadstaticattribute.aspx) to control the lifecycle of a private field:
 
-[gist]https://gist.github.com/1443003[/gist] 
+{% gist 1443003 %}
 
 One of the things that really bothers me about an implementation like this is that intimate knowledge of the threading model of Rhino Service Bus is required to properly implement an IMessageModule implementation properly. The CurrentSession property is static, yet the IDocumentStore member is an instance field. Why does an implementer of a message module need to be concerned about lifecycle of its dependencies?
 
@@ -21,11 +21,11 @@ I don’t really think it should – lifecycle of a dependency should at most be
 
 Instead, I’d much rather see something like [FubuMVC](http://mvc.fubu-project.org/) behaviors. Here’s one with NHibernate to have a session always part of a request there:
 
-[gist]https://gist.github.com/1443059[/gist] 
+{% gist 1443059 %}
 
 Note that the behavior doesn’t care about the lifecycle of itself. That’s completely managed by the FubuMVC infrastructure, it’s completely unimportant to the implementor. Then when it comes time to actually _create_ a session, it looks like:
 
-[gist]https://gist.github.com/1443065[/gist]
+{% gist 1443065 %}
 
 In the code above, the behavior chain sets a contextual dependency on the IFubuRequest, which, through the magic of child and nested containers, ensures that subsequent behaviors in the execution pipeline have the correct injected ISession from NHibernate. Nowhere in this code do you see any sort of lifecycle management.
 

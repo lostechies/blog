@@ -30,23 +30,23 @@ Due to the fact that I changed my job and am now with [Clear Measure](http://www
 
 We want to start with a very simple read model. Our read model should consist of a collection of all recipes. Each recipe is represented by the following view
 
-[gist id=1f8daf8589b13e305bf9]
+{% gist 1f8daf8589b13e305bf9 %}
 
 For the moment we just want to store the id, name, category and status of the recipe as well as the name of the user who authored the recipe. We now want to define an observer class that listens to incoming recipe events and uses them to create a read model. For each type of event that the observer handles we implement a When method which has the specific event as (single) parameter. If we have the two events **RecipeCreated** and **RecipeSubmitted** then the class (without implementation) looks like this
 
-[gist id=2bc2ee4956bd107558ff]
+{% gist 2bc2ee4956bd107558ff %}
 
 To write the data to the underlying data store (MongoDB in this case) the observer uses a writer which implements this interface
 
-[gist id=097604e46a0c03e9b275]
+{% gist 097604e46a0c03e9b275 %}
 
 The interface has only two members, one to add a new item to the underlying data collection and the other to update an existing item in the collection. The writer is injected to the observer through the constructor
 
-[gist id=d6290e58a45a0569bf3e]
+{% gist d6290e58a45a0569bf3e %}
 
 We can now implement the code needed to add a new recipe when handling the **RecipeCreated** event and to update an existing recipe when handling the **RecipeSubmitted** event using the injected writer
 
-[gist id=20108fbf099ca4988d40]
+{% gist 20108fbf099ca4988d40 %}
 
 If we are creating our read model this way the code is really simple to implement a new or extend an existing observer. In my company we use this approach a lot and it makes our lives quite easy. In this particular case if we add another recipe related event that the observer needs to handle we just need to add another When method to the class that handles the new event. Most probably this event will be used to update the existing recipe and thus we’ll use the Update method of the writer.
 
@@ -58,7 +58,7 @@ Save the file and in a terminal run <span style="font-family: 'courier new';">kp
 
 Here is the code for our MongoDB projection writer
 
-[gist id=f013ac20287c4b7c1c52]
+{% gist f013ac20287c4b7c1c52 %}
 
 To access MongoDB we need a connection string. If MongoDB is installed locally we can use “mongodb://localhost”. In this case we inject the connection string to use via constructor injection.
 
@@ -68,7 +68,7 @@ The Update method is only slightly more complicated. Since this is an update we 
 
 That’s all we need for the moment. We can now try to test this code. For this we can e.g. implement a simple Test controller that when called creates a new instance of the MongoDB projection writer and uses it to add an item to the read model and also update this item thereafter. The code we use looks like this
 
-[gist id=1825e0a6465f224991e0]
+{% gist 1825e0a6465f224991e0 %}
 
 On line 15 we create a new instance of the MongoDB projection writer passing in the connection string for our locally installed MongoDB server. On line 17 we first create a new recipe and on line 25 we try to update the just created recipe.
 

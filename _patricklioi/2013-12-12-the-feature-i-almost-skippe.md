@@ -16,7 +16,7 @@ First, skipped tests are like support beams for technical debt. You know there&#
 
 Second, if you _really_ wanted to skip tests in Fixie, you could already effectively do that with a modified convention, like so:
 
-[gist id=7930603]
+{% gist 7930603 %}
 
 > In other words, &#8220;a method is a test method if it isn&#8217;t marked as skipped.&#8221;
 
@@ -24,11 +24,11 @@ I don&#8217;t like skipped tests, and I basically had poor-man&#8217;s skipped t
 
 My conclusion was to let Fixie know what it means for a test to be skipped, so that it can count them and warn the user like other test frameworks, but to deliberately not include any way to mark tests as skipped in the DefaultConvention. Out of the box, tests can&#8217;t get skipped. **If you want skips, you&#8217;re going to have to ask for them.** We can change the earlier poor-man&#8217;s skipping convention so that you can alert the user to their pending disaster:
 
-[gist id=7930617]
+{% gist 7930617 %}
 
 Since the hook is a Func<Case, bool>, you can include custom logic aside from the mere presence of an attribute or naming convention. One way to mitigate the risk of skipping tests is to place an expiration date on them:
 
-[gist id=7930624]
+{% gist 7930624 %}
 
 You might define a skip attribute that will skip a test until a specific GitHub issue gets closed, for instance (though that one might be a tad overkill, checking GitHub on every test run). Fixie only cares whether or not you want a given test to be skipped, and sets it aside for counting and reporting.
 

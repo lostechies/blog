@@ -24,10 +24,10 @@ Just for fun, I decided to create a quick video that shows the evolution of my W
 
 The setup to create the video was simple.
 
-I use [LiveReload](http://livereload.com/) when I&#8217;m building my websites. This little tool will tell my browser to refresh the page when any of the files for the site change. It will also stream in JavaScript and CSS changes silently. And, I&#8217;m using Git to manage my source code.
+I use [LiveReload](http://livereload.com/) when I&#8217;m building my websites. This little tool will tell my browser to refresh the page when any of the files for the site change. It will also stream in JavaScript and CSS changes silently. And, I&#8217;m using Git to manage my source code.
 
 I started at the head of the repository &#8211; the most recent version. I hit record in ScreenFlow and recorded everything on my screen &#8211; including a terminal window that you don&#8217;t see in this video. Then every few seconds, I ran this command in my terminal window:
 
 git checkout HEAD^
 
-This forced the repository to move backward one commit at a time. Every time this checkout happened, LiveReload saw the file system changes and told the browser to update itself. Once I had everything recorded, I added the &#8220;Evolution of …&#8221; section to the end, cropped the video down to the size you see now, and exported it. Then I opened the exported video in iMovie, reversed it, and exported that to YouTube. The result is what you see, above.
+This forced the repository to move backward one commit at a time. Every time this checkout happened, LiveReload saw the file system changes and told the browser to update itself. Once I had everything recorded, I added the &#8220;Evolution of …&#8221; section to the end, cropped the video down to the size you see now, and exported it. Then I opened the exported video in iMovie, reversed it, and exported that to YouTube. The result is what you see, above.

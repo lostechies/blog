@@ -19,7 +19,7 @@ Then I got tired of the same 10 commands to generated new Docco docs for BBClone
 
 The end result is 23 lines of rake tasks (including spaces and task definitions) to automate the updating of my project&#8217;s Docco documentation, push repository commits up to Github and then deploy to Heroku:
 
-[gist id=1522004 file=rakefile.rb]
+{% gist 1522004 rakefile.rb %}
 
 The only complexity in this is the process to update the Doco docs for the project. These commands ensure that the docs are built from the branch I&#8217;m currently on (which is always \`master\` for this project), but are only committed to the \`gh-pages\` branch, for the Github &#8220;Pages&#8221; feature. It also pushes the changes up to Github for me.
 

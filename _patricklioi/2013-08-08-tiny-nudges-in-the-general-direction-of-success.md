@@ -37,7 +37,7 @@ I mitigated the combinatorial explosion by recognizing that if I covered _some_ 
 
 My test classes work with a nested hypothetical end user test class, containing a passing test and a failing test of its own:
 
-[gist id=6180921]
+{% gist 6180921 %}
 
 The WhereAmI() helper method simply writes the member to the console. The constructor writes &#8220;.ctor&#8221;, the Pass() method writes &#8220;Pass&#8221;, etc. From the outside, I can force any of these members to deliberately throw some generic exception, in order to prove what happens when end users&#8217; test classes throw exceptions at any step.
 
@@ -49,15 +49,15 @@ Finally, I had [meaningful coverage of the test class lifecycle](https://github.
 
 Yesterday&#8217;s mess resulted from the desire to rethrow the InnerException within a TargetInvocationException:
 
-[gist id=6170654]
+{% gist 6170654 %}
 
 Alas, rethrowing like this destroys the stack trace we want to report to the user, so I had done this:
 
-[gist id=6170663]
+{% gist 6170663 %}
 
 Returning the ExceptionList to the caller started the complexity virus I described yesterday. The real fix is to wrap-and-rethrow within an exception type devoted to this purpose, [PreservedException](https://github.com/plioi/fixie/blob/d3cc2fd1e2092bbcdc464d172a8ca5344a175ec9/src/Fixie/PreservedException.cs):
 
-[gist id=6180835]
+{% gist 6180835 %}
 
 When I later catch exceptions, I do have to take care to unwrap the OriginalException before reporting to the user. Why not just let the TargetInvocationException throw to that same catch block? If my end-of-the-line catch block sees a TargetInvocationException, I don&#8217;t _know today and forevermore_ that it came from _this_ call to MethodInfo.Invoke(). If I catch a PreservedException, though, I _know_ that it is mine and that I should unwrap it.
 

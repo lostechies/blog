@@ -37,29 +37,29 @@ Having spent so much time building [SignalLeaf](http://signalleaf.com) as well a
 
 [**DNSimple**](https://dnsimple.com/r/0a606a71c39045)
 
-Every SaaS, website, blog, etc. needs DNS &#8211; it&#8217;s how you get your name set up so the world can find you. I spent near 20 years with one particular company that has turned in to a spam-house of shady business practices in the last 5 or so years. Enter DNSimple &#8211; the most awesome DNS service ever, with no spammy garbage. I love the way DNSimple has various one-click service configurations. Things like Google Apps, Heroku, Github Pages, Amazon AWS, and so many more services are no longer a pain to configure. One click and you&#8217;re done. I highly recommend DNSimple for your DNS needs, and I&#8217;m migrating all of my domain names over here. 
+Every SaaS, website, blog, etc. needs DNS &#8211; it&#8217;s how you get your name set up so the world can find you. I spent near 20 years with one particular company that has turned in to a spam-house of shady business practices in the last 5 or so years. Enter DNSimple &#8211; the most awesome DNS service ever, with no spammy garbage. I love the way DNSimple has various one-click service configurations. Things like Google Apps, Heroku, Github Pages, Amazon AWS, and so many more services are no longer a pain to configure. One click and you&#8217;re done. I highly recommend DNSimple for your DNS needs, and I&#8217;m migrating all of my domain names over here. 
 
-**[Heroku](http://heroku.com) **
+**[Heroku](http://heroku.com) **
 
 Heroku is my web server / platform of choice for most apps. What started as a simple way to deploy Ruby on Rails apps with git, has turned in to an easy way to deploy a lot of different web frameworks and service types. I deploy ruby apps and nodejs apps to Heroku quite regularly, and I&#8217;ve been using Heroku for around 4 years, I think. It hasn&#8217;t let me down yet. I know there are alternatives such as [Azure](http://www.windowsazure.com) and I do need to check it out some time, but at this point, I don&#8217;t have a good reason to switch from Heroku.
 
-**[GitHub](http://github.com) / Github Pages**
+**[GitHub](http://github.com) / Github Pages**
 
 GitHub is the defacto-standard in distributed source control and issue management for open source projects. I host all of my private repositories here for all of my business and personal things, as well. I love working with a distribute source control system and using GitHub as an online repository makes me feel all warm and fuzzy, not having to set up and host my own source control services and create backup services for it, etc.
 
-In addition to awesome source control, I&#8217;ve built many-a-blog on top of Github&#8217;s Pages feature, including AlbacoreBuild.net and Blog.SignalLeaf.com. If you&#8217;re a paying customer, you can&#8217;t beat adding a static website built with Jekyll / Octopress, for no extra charge. Once again, DNSimple comes to the rescue here when configuring the DNS/URL for the site, too. 
+In addition to awesome source control, I&#8217;ve built many-a-blog on top of Github&#8217;s Pages feature, including AlbacoreBuild.net and Blog.SignalLeaf.com. If you&#8217;re a paying customer, you can&#8217;t beat adding a static website built with Jekyll / Octopress, for no extra charge. Once again, DNSimple comes to the rescue here when configuring the DNS/URL for the site, too. 
 
 [**Amazon AWS**](http://aws.amazon.com/)
 
-Amazon offers far more services than I could list, at this point. If you haven&#8217;t checked in to AWS, you need to. Chances are, they offer something that you need. For my current projects, I&#8217;m using S3 (Simple Storage Services) to host podcast audio files on SignalLeaf. The ability to store file securely, and have them distributed via Amazon&#8217;s infrastructure ensure SignalLeaf is never the bottleneck for downloads. Even better, I&#8217;ll be able to silently switch downloads over to use Amazon CloudFront when I need to get a CDN in place for the files. Having a cloud service like AWS available makes it a no-brainer to get a lot services up and running quickly, and many of the *aaS services that I rely on are hosted via AWS. 
+Amazon offers far more services than I could list, at this point. If you haven&#8217;t checked in to AWS, you need to. Chances are, they offer something that you need. For my current projects, I&#8217;m using S3 (Simple Storage Services) to host podcast audio files on SignalLeaf. The ability to store file securely, and have them distributed via Amazon&#8217;s infrastructure ensure SignalLeaf is never the bottleneck for downloads. Even better, I&#8217;ll be able to silently switch downloads over to use Amazon CloudFront when I need to get a CDN in place for the files. Having a cloud service like AWS available makes it a no-brainer to get a lot services up and running quickly, and many of the *aaS services that I rely on are hosted via AWS. 
 
 [**Google Apps**](http://apps.google.com)
 
-Love them or hate them, Google provides some great services when you get in to the ones that let you pay. I use Google Apps to host all my email for all of my domain names, and do a few other related things. Once again, DNSimple makes this a one-click configuration. 
+Love them or hate them, Google provides some great services when you get in to the ones that let you pay. I use Google Apps to host all my email for all of my domain names, and do a few other related things. Once again, DNSimple makes this a one-click configuration. 
 
 [**MongoLab**](https://mongolab.com)
 
-MongoLab provides hosted MongoDB database services. This is what I&#8217;m using for SignalLeaf. It was easy to set up via Heroku AddOns, but once I did that I realized that it would have been just as easy to create my own account directly through MongoLab.com. If you&#8217;re using MongoDB and need a host, this is a good choice. 
+MongoLab provides hosted MongoDB database services. This is what I&#8217;m using for SignalLeaf. It was easy to set up via Heroku AddOns, but once I did that I realized that it would have been just as easy to create my own account directly through MongoLab.com. If you&#8217;re using MongoDB and need a host, this is a good choice. 
 
 [**Telerik Everlive**](http://telerik.com/everlive)
 
@@ -77,7 +77,7 @@ There&#8217;s a high likelihood that you&#8217;re not in the business of designi
 
 In my case, I need to deliver a series of analytics reports to my SignalLeaf customers &#8211; things like RSS Subscriber count, downloads and listens for podcast episodes, etc. Keen.io fits this need perfectly for me. I ship off event data to Keen.io, and use their API to run analytics and get data back that I can display to the podcasters using SignalLeaf.
 
-When it comes to understanding which parts of your application are being used and how often, though, Telerik Analytics is pretty darn amazing. While Keen.io and Telerik Analytics do have a very similar overview in capturing event data and reporting analytics, Telerik&#8217;s setup is meant to be a back-end admin feature. A the time of writing this, it doesn&#8217;t provide report data that you can show to your users through an API. Instead, it is focused on capturing usage information for your apps so that you can decide which features need to go, which need to stay, which need to be modified or streamlined, etc. 
+When it comes to understanding which parts of your application are being used and how often, though, Telerik Analytics is pretty darn amazing. While Keen.io and Telerik Analytics do have a very similar overview in capturing event data and reporting analytics, Telerik&#8217;s setup is meant to be a back-end admin feature. A the time of writing this, it doesn&#8217;t provide report data that you can show to your users through an API. Instead, it is focused on capturing usage information for your apps so that you can decide which features need to go, which need to stay, which need to be modified or streamlined, etc. 
 
 [**CloudAMQP**](http://www.cloudamqp.com/)
 
@@ -105,7 +105,7 @@ If you want to self-publish an ebook, you won&#8217;t do better than Leanpub. I 
 
 [**Disqus**](http://disqus.com/)
 
-My go-to for comments on any blog or website that I run, including this one! Drop me a line below and see just how easy it is to work within the Disqus comment system. 
+My go-to for comments on any blog or website that I run, including this one! Drop me a line below and see just how easy it is to work within the Disqus comment system. 
 
 ## But Wait! There&#8217;s More!
 

@@ -19,9 +19,9 @@ I&#8217;ve been writing some [Jasmine](http://pivotal.github.com/jasmine/) specs
 
 In the process of writing up specs for the image navigation, I found myself repeating a few lines of code in each of them to check the index of the currently selected image.
 
-[gist id=1191641 file=1-no-custom-matcher.js]
+{% gist 1191641 1-no-custom-matcher.js %}
 
-Lines 7, 8 and 9 of this gist show what I was doing to check the index of the selected image against what I expected. This code works and it got me through my first set of tests. I quickly got tired of writing the same lines of code for every test while only varying the actual and expected indexes, though.
+Lines 7, 8 and 9 of this gist show what I was doing to check the index of the selected image against what I expected. This code works and it got me through my first set of tests. I quickly got tired of writing the same lines of code for every test while only varying the actual and expected indexes, though.
 
 In addition to the duplicated code, a failing test (when the index was not what I expected) would produce an error message like &#8220;Expected 0 to 1&#8221;. This is not terribly informative&#8230; what do &#8220;0&#8221; and &#8220;1&#8221; mean? If I wasn&#8217;t in the code already working with it, I&#8217;d have to go examine the failing code to be able to answer that.
 
@@ -29,7 +29,7 @@ In addition to the duplicated code, a failing test (when the index was not what 
 
 To reduce the code duplication and provide a better error message, I decided to write a custom jasmine matcher. The end result allowed me to have spec code that looks like this:
 
-[gist id=1191641 file=2-with-custom-matcher.js]
+{% gist 1191641 2-with-custom-matcher.js %}
 
 Line 7 of this gist shows the new matcher in action.
 
@@ -43,7 +43,7 @@ Lastly, the error message that I receive when a test fails has been customized t
 
 The basic implementation of my &#8216;toHaveSelectedImageAt&#8217; matcher uses the same code that I originally had in my specs.
 
-[gist id=1191641 file=3-toHaveSelectedImageAt.js]
+{% gist 1191641 3-toHaveSelectedImageAt.js %}
 
 In addition to the index checking code, I&#8217;m modifying a few properties of the matcher object to provide better context and information for the error messages.
 

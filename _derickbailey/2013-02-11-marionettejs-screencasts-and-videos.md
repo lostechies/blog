@@ -20,7 +20,7 @@ There&#8217;s been a lot of movement with [MarionetteJS](http://marionettejs.com
 
 Brian Mann has been hard at work over the last few months, producing a comprehensive set of screencasts that cover just about everything you need to know, to build large-scale [Backbone](http://backbonejs.org/) applications on top of [Ruby on Rails](http://rubyonrails.org/), using [CoffeeScript](http://coffeescript.org/).
 
-I&#8217;ve been reviewing and providing feedback on these since he started, and I&#8217;m very excited about seeing this series finally released! This is by far the most complete resource on building Backbone and Marionette applications, at this point. I highly recommend checking out the free episodes and purchasing the screencast bundle to get all of the MarionetteJS awesomeness.  
+I&#8217;ve been reviewing and providing feedback on these since he started, and I&#8217;m very excited about seeing this series finally released! This is by far the most complete resource on building Backbone and Marionette applications, at this point. I highly recommend checking out the free episodes and purchasing the screencast bundle to get all of the MarionetteJS awesomeness.  
 
 **<http://BackboneRails.com>**
 
@@ -30,7 +30,7 @@ Even if you&#8217;re not using Ruby on Rails, these screencasts are well worth t
 
 ## Tekpub
 
-Rob Conery released the final episode of his &#8220;[Playing With Backbone](http://tekpub.com/products/backbone)&#8221; screencast series. Episode #10 takes the existing &#8220;Congo&#8221; app that Rob built throughout the series, and migrates it from his custom Backbone views over to [MarionetteJS](http://marionettejs.com/), with my help. Better still, Rob has made this episode free for everyone to view!
+Rob Conery released the final episode of his &#8220;[Playing With Backbone](http://tekpub.com/products/backbone)&#8221; screencast series. Episode #10 takes the existing &#8220;Congo&#8221; app that Rob built throughout the series, and migrates it from his custom Backbone views over to [MarionetteJS](http://marionettejs.com/), with my help. Better still, Rob has made this episode free for everyone to view!
 
 You have three options for viewing it:
 
@@ -38,7 +38,7 @@ You have three options for viewing it:
   2. [Log in to your Tekpub account](http://tekpub.com/view/backbone/10)
   3. [Go directly to Vimeo](http://vimeo.com/59431658)
 
-I&#8217;m particularly excited about this content as it shows one of the most powerful features of Marionette: the ability to bring it in to your existing Backbone app, one piece at a time. This has been a goal of Marionette since the beginning, keeping the core Backbone philosophy of providing many building blocks that you can use as you see fit &#8211; and I think we pulled it off quite successfully. 
+I&#8217;m particularly excited about this content as it shows one of the most powerful features of Marionette: the ability to bring it in to your existing Backbone app, one piece at a time. This has been a goal of Marionette since the beginning, keeping the core Backbone philosophy of providing many building blocks that you can use as you see fit &#8211; and I think we pulled it off quite successfully. 
 
 ## Tuts+
 
@@ -48,7 +48,7 @@ The majority of this series is paid, but there are a few free ones including the
 
 ## Atlanta JavaScript Meetup
 
-Brian Mann (the same from [BackboneRails.com](http://www.backbonerails.com/)) did a dual-header JavaScript meetup with Pamela Fox back in October of 2012. Pamela talks a about the lessons learned in using Backbone on projects with her team, and Brian then introduces Marionette and shows a little bit about what it can do for your Backbone apps. 
+Brian Mann (the same from [BackboneRails.com](http://www.backbonerails.com/)) did a dual-header JavaScript meetup with Pamela Fox back in October of 2012. Pamela talks a about the lessons learned in using Backbone on projects with her team, and Brian then introduces Marionette and shows a little bit about what it can do for your Backbone apps. 
 
 <http://youtu.be/HDZqmGwROG0>
 

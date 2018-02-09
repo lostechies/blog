@@ -16,13 +16,13 @@ However, not everything needs to be up and running in integration tests. I often
 
 This poses a challenge – I want to have a configured container in my tests, but provide test-specific behaviors. I want any custom configuration/stubs to go away after my test is done, and have each test start with a blank slate. So you could do something like this:
 
-[gist id=2112066]
+{% gist 2112066 %}
 
 However, each time a test runs, the container is re-initialized. But in our production apps, we initialize the container just once, so why not just initialize once in our tests? The trick is that we need to reset the container to a known state before each test.
 
 The solution here is to use the concept of nested/child containers. In a nested container, its configuration is cloned but isolated from the parent container. We want our tests to use this nested container instead:
 
-[gist id=2112149]
+{% gist 2112149 %}
 
 Folks using the container need to go through this base GetInstance method, and not go straight to the container. For injecting dummy/stub instances, the Inject method configures just that nested container, and leaves the root container untouched.
 

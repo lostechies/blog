@@ -23,11 +23,11 @@ This doesn&#8217;t work well with the way I wrote my tests. I use helper methods
 
 Here&#8217;s the gist of my hack to work around it. Add this code to a .js file in \`spec/javascript/helpers/\`
 
-[gist id=1288292 file=1.js]
+{% gist 1288292 1.js %}
 
 Then you can call \`addFixture\` in your \`beforeEach\` method. Be sure to call \`clearMyFixtures\` in an \`afterEach\` block as well.
 
-[gist id=1288292 file=2.js]
+{% gist 1288292 2.js %}
 
 The \`beforeEach\` method keeps a running tally of all the fixtures that you want to add, in a simple array. Every time you call this method it appends the new fixture to the existing list, joins them all together and calls the real setFixture method. This works around the limitation of how setFixtures will wipe out your existing fixtures.
 

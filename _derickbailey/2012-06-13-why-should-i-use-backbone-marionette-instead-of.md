@@ -19,7 +19,7 @@ categories:
 ---
 There&#8217;s [a question on StackOverflow](http://stackoverflow.com/questions/10847852/what-are-the-real-world-strengths-and-weaknesses-of-the-many-frameworks-based-on) from someone that wants to know what the real differences are between the various Backbone-based application frameworks. While I can&#8217;t really answer the question in terms of what the differences are, I can provide more insight in to why Marionette exists and what it provides that some of the other frameworks may not.
 
-Once again, I&#8217;m re-posting my answer on my blog because I think the answer is worthwhile and I want to share it. 
+Once again, I&#8217;m re-posting my answer on my blog because I think the answer is worthwhile and I want to share it. 
 
 ## Backbone&#8217;s Many Application Frameworks
 
@@ -84,7 +84,7 @@ Modularization of code is tremendously important. Creating small, well encapsula
 
 Marionette provides modularization directly through it&#8217;s \`module\` definitions. But I also recognize that some people like RequireJS and want to use that. So I provide both a standard build and a RequireJS compatible build.
 
-[gist id=2924369 file=1.js]
+{% gist 2924369 1.js %}
 
 (No blog post available for this, yet)
 
@@ -98,7 +98,7 @@ To that end, the majority of the pieces that I have built in to Marionette are b
 
 For example, nearly every Backbone application needs to dynamically show a Backbone view in a particular place on the screen. The apps also need to handle closing old views and cleaning up memory when a new one is put in place. This is where Marionette&#8217;s \`Region\` comes in to play. A region handles the boilerplate code of taking a view, calling render on it, and stuffing the result in to the DOM for you. Then will close that view and clean it up for you, provided your view has a &#8220;close&#8221; method on it.
 
-[gist id=2924369 file=2.js]
+{% gist 2924369 2.js %}
 
 But you&#8217;re not required to use Marionette&#8217;s views in order to use a region. The only requirement is that you are extending from Backbone.View at some point in the object&#8217;s prototype chain. If you choose to provide a \`close\` method, a \`onShow\` method, or others, Marionette&#8217;s Region will call it for you at the right time.
 
@@ -134,7 +134,7 @@ I provide rendering based on inline \`<script>\` tags for templates, using Under
 
 With v0.9 of Marionette, it gets even easier. For example, if you want to replace the use of inline template script blocks with pre-compiled templates, you only have to replace one method on the Renderer:
 
-[gist id=2924369 file=3.js]
+{% gist 2924369 3.js %}
 
 and now the entire application will use pre-compiled templates that you attach to your view&#8217;s \`template\` attribute.
 
@@ -146,7 +146,7 @@ I&#8217;m a fan of &#8220;convention over configuration&#8221; in certain contex
 
 The avoidance of &#8220;convention over configuration&#8221; is done with purpose and intent, in Marionette.
 
-I&#8217;ve built enough JavaScript plugins, frameworks, add-ons and applications to know the pain of trying to get conventions to work in a meaningful and fast way. It can be done with speed, but usually at the cost of being able to change it. To that end, I take a &#8220;code as configuration&#8221; approach to Marionette. I don&#8217;t provide a lot of &#8220;configuration&#8221; APIs where you can provide an object literal with static values that change a swath of behaviors. Instead, I document the methods that each object has &#8211; both through annotated source code and through the actual API documentation &#8211; with the intent of telling you how to change Marionette to work the way you want.
+I&#8217;ve built enough JavaScript plugins, frameworks, add-ons and applications to know the pain of trying to get conventions to work in a meaningful and fast way. It can be done with speed, but usually at the cost of being able to change it. To that end, I take a &#8220;code as configuration&#8221; approach to Marionette. I don&#8217;t provide a lot of &#8220;configuration&#8221; APIs where you can provide an object literal with static values that change a swath of behaviors. Instead, I document the methods that each object has &#8211; both through annotated source code and through the actual API documentation &#8211; with the intent of telling you how to change Marionette to work the way you want.
 
 By providing a clean and clear API for the Marionette objects, I create a situation where replacing the behavior of a specific object or Marionette as a whole is relatively simple and very flexible. I sacrifice the &#8220;simple&#8221; configuration API calls for the flexibility of providing your own code to make things work in the way that you want.
 

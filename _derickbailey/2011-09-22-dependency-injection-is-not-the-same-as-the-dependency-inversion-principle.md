@@ -12,7 +12,7 @@ categories:
   - Principles and Patterns
   - Ruby
 ---
-A long time ago, when I first started blogging with LosTechies, I wrote up a few posts on [Dependency Inversion](http://lostechies.com/derickbailey/2008/10/20/dependency-inversion-abstraction-does-not-mean-interface/) and Dependency Injection, and [how I finally started to understand what Dependency Injection was all about](http://lostechies.com/derickbailey/2008/10/08/di-and-ioc-creating-and-working-with-a-cloud-of-objects/). At the time, I thought DI was DI was DI &#8211; whether you called it &#8220;injection&#8221; or &#8220;inversion&#8221;.
+A long time ago, when I first started blogging with LosTechies, I wrote up a few posts on [Dependency Inversion](http://lostechies.com/derickbailey/2008/10/20/dependency-inversion-abstraction-does-not-mean-interface/) and Dependency Injection, and [how I finally started to understand what Dependency Injection was all about](http://lostechies.com/derickbailey/2008/10/08/di-and-ioc-creating-and-working-with-a-cloud-of-objects/). At the time, I thought DI was DI was DI &#8211; whether you called it &#8220;injection&#8221; or &#8220;inversion&#8221;.
 
 ## Injection != Inversion
 
@@ -29,7 +29,7 @@ Fast forward to today, though, and I continue to see other people making the sam
 The Dependency Inversion Principle has two parts:
 
   * High-level modules should not depend on low-level modules. Both should depend on abstractions.
-  * Abstractions should not depend upon details. Details should depend upon abstractions.
+  * Abstractions should not depend upon details. Details should depend upon abstractions.
 
 Think back to the last time you wanted to turn on a lamp to help light an area of a room. Did you have to cut a hole in the wall, dig around for electrical wires, strip them bare, and solder the lamp directly into the wiring of the house? Of course not (at least, I hope not!) The electrical outlet provides a standard interface for such an occasion. No one, in most of the industrialized world, would expect to solder a lamp directly into the electrical wiring of the building. Additionally, no one expects to only be able to plug in a lamp, to an outlet. We expect to plug in lamps, computers, televisions, vacuums and other devices. The standard, 120 volt, 60 hertz power outlet has become a ubiquitous part of society in the United States.
 
@@ -50,7 +50,7 @@ Consider a set of classes that need to be instantiated into the correct hierarch
 <img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/09/NewImage.png" border="0" alt="NewImage" width="387" height="167" />  
 **Figure 14:** Policy coupled to detail.
 
-This creates the necessary hierarchy but couples the classes together, directly. You would not be able to use Foo without bringing Bar along with it. If you want to decouple these classes, you can easily introduce an interface for Foo to depend on and Bar to implement. Figure 15 illustrates a simple IBar interface that you can create from the public API of the Bar class.
+This creates the necessary hierarchy but couples the classes together, directly. You would not be able to use Foo without bringing Bar along with it. If you want to decouple these classes, you can easily introduce an interface for Foo to depend on and Bar to implement. Figure 15 illustrates a simple IBar interface that you can create from the public API of the Bar class.
 
 <img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/09/NewImage1.png" border="0" alt="NewImage" width="446" height="306" />
 
@@ -66,7 +66,7 @@ The Dependency Inversion Principle says that Detail should be dependent on Polic
 
 <img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/09/NewImage2.png" border="0" alt="NewImage" width="388" height="303" />
 
-**Figure 16:** Policy owns the abstraction. Detail depends on policy.
+**Figure 16:** Policy owns the abstraction. Detail depends on policy.
 
 If Foo owns the IBar abstraction, you can place these two constructs in a package that is independent of Bar. You can put them into their own namespace, their own assembly, etc. This can greatly increase the illustration of what class or module is dependent on the other. If you see that AssemblyA contains Foo and IBar, and AssemblyB provides the implementation of IBar, it is easier to see that the detail of Bar is dependent on the policy defined by Foo.
 
@@ -80,7 +80,7 @@ The first thing you want to do is decouple the logic of getting the log message,
 
 With all of this in mind, you decide to create an object called ProcessingService. After a few minutes of moving code around to try and consolidate the process, you realize that you don’t want the processing service to be coupled directly to the database reader or file reader services. With an additional moment of thinking, you recognize a pattern between the two: the “GetMessageBody” method. Using this method as the basis, you create a new interfaced called IMessageInfoRetriever and have both the database reader and file reader services implement that.
 
-[gist id=1234829 file=listing.cs]
+{% gist 1234829 listing.cs %}
 
 This interface allows you to provide any implementation you need to the processing service. You then set your eyes on the email service, which is currently directly coupled to the processing service. A simple IEmailService interface solves that, though. Figure 17 shows the resulting structure.
 

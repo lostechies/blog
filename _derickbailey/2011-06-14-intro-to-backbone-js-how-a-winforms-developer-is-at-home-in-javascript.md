@@ -19,7 +19,7 @@ Today, I was introduced to Backbone.js and I almost immediately fell in love wit
 
 [<img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/06/NewImage.png" border="0" alt="NewImage" width="385" height="126" />](http://documentcloud.github.com/backbone/#)
 
- 
+ 
 
 ### MV* In Winforms
 
@@ -29,7 +29,7 @@ I&#8217;ve implemented apps with MVP and MVVM, including variations of these lik
 
 I&#8217;ve become very comfortable with these patterns and I know how to make them work well in a very organized manner, keeping the code clean and easy to understand.
 
- 
+ 
 
 ### Hack-And-Slash Javascript
 
@@ -39,17 +39,17 @@ Even with the wonderful things that jquery has done for javascript in the last f
 
 Even after spending the weekend learning more about object-oriented javascript, the result of my efforts were little more than procedural-callback-laden hacks in the guise of an object, hidden behind a namespace. But, I was learning and I continued on. The good news about my effort to learn more OOJS this weekend was that it made what I was about to see, much easier to understand.
 
- 
+ 
 
 ### Enter Backbone.js: MV* In Javascript
 
 I&#8217;m not going to get into a discussion about whether Backbone is MVC, MVP, MVVM, MV-YourMinisculeDifferenceNamedHere or whatever&#8230; backbone is an MV* implementation in javascript, plain and simple.
 
-After spending the afternoon working with Joey and using backbone, I finally feel like I&#8217;m writing good, organized, easy to understand javascript. So far, I&#8217;ve used Models, Collections and Views with backbone. It also supports controllers, but I haven&#8217;t yet played with them. I&#8217;m sure there&#8217;s some great use for them but I&#8217;ll get to them later.
+After spending the afternoon working with Joey and using backbone, I finally feel like I&#8217;m writing good, organized, easy to understand javascript. So far, I&#8217;ve used Models, Collections and Views with backbone. It also supports controllers, but I haven&#8217;t yet played with them. I&#8217;m sure there&#8217;s some great use for them but I&#8217;ll get to them later.
 
-Now, I&#8217;m not going to try and lull you into a sense of security and say that if you&#8217;ve ever written a line of MV\* patterns in .NET Winforms apps, you&#8217;ll get off the ground running with Backbone in no time. There is still a significant learning curve &#8211; or, at least there was for me &#8211; because you have to know the core of object oriented javascript to really understand what Backbone is doing. However, if you are familiar with object oriented javascript and MV\* implementations in Winforms applications, you should have no trouble seeing the same patterns of usage and implementation emerging in your Backbone code. For now, I&#8217;ll assume you know enough about javascript and jump right into some very simple Backbone examples.
+Now, I&#8217;m not going to try and lull you into a sense of security and say that if you&#8217;ve ever written a line of MV\* patterns in .NET Winforms apps, you&#8217;ll get off the ground running with Backbone in no time. There is still a significant learning curve &#8211; or, at least there was for me &#8211; because you have to know the core of object oriented javascript to really understand what Backbone is doing. However, if you are familiar with object oriented javascript and MV\* implementations in Winforms applications, you should have no trouble seeing the same patterns of usage and implementation emerging in your Backbone code. For now, I&#8217;ll assume you know enough about javascript and jump right into some very simple Backbone examples.
 
- 
+ 
 
 ### Models: More Than JSON
 
@@ -59,9 +59,9 @@ Backbone models to the rescue!
 
 Here&#8217;s an example of how you can build a model in Backbone and listen to an event to know when a field has been changed:
 
-[gist id=1026406 file=1-ModelWithChangedEvents.js]
+{% gist 1026406 1-ModelWithChangedEvents.js %}
 
- 
+ 
 
 The result of running this example is that you&#8217;ll have an alert box:
 
@@ -71,13 +71,13 @@ You&#8217;ll notice in the code that there&#8217;s a few obvious JSON documents 
 
 There&#8217;s an easy way to get a JSON document out of this model, though, in case you want to get back to something a little more simple:
 
-[gist id=1026406 file=2-ModelToJSON.js]
+{% gist 1026406 2-ModelToJSON.js %}
 
- 
+ 
 
 There are a lot of things you can do with models, in Backbone. This little example doesn&#8217;t really show much, though, because a model in isolation is less useful than one used in the page somewhere.
 
- 
+ 
 
 ### Views: No, Not The One That You Rendered From Your MVC Back-end
 
@@ -85,9 +85,9 @@ Remember, Backbone is a complete MV* setup in your javascript, and it supports t
 
 Here&#8217;s the super-simple html that you may see for a login form:
 
-[gist id=1026406 file=3-SimpleLoginForm.html]
+{% gist 1026406 3-SimpleLoginForm.html %}
 
- 
+ 
 
 This produces an amazing UI, of course:
 
@@ -95,9 +95,9 @@ This produces an amazing UI, of course:
 
 You could turn this simple form into a Backbone view and have that view process the login request with an AJAX/JSON request back to the server. To keep things simple, though, I&#8217;ll just show an alert with the data that you populate into the form fields:
 
-[gist id=1026406 file=4-LoginView.js]
+{% gist 1026406 4-LoginView.js %}
 
- 
+ 
 
 Run this, enter a username of &#8220;qwer&#8221; and a password of &#8220;asdf&#8221;, then click the Login button and you&#8217;ll see this:
 
@@ -121,13 +121,13 @@ Once all of the work is done to bind the input boxes to the model, the login fun
 
 Lastly, setting &#8220;window.LoginView&#8221; on the last line is a way to keep the view object alive. For a brief and insightful discussion on what &#8220;window&#8221; does, see [this question that I asked on StackOverflow](http://stackoverflow.com/questions/6349232/whats-the-difference-between-a-global-var-and-a-window-variable-in-javascript/) earlier today.
 
- 
+ 
 
 ### The Complete Working Example
 
-If you&#8217;re interesting in seeing the entire example that I showed here, [head over to the gist](https://gist.github.com/1026406) and look at the last file. It&#8217;s everything &#8211; the html and javascript &#8211; all in one.  You&#8217;ll just need to download the right versions of [Backbone](http://documentcloud.github.com/backbone/#), [JQuery](http://jquery.com/), [JSon2](https://github.com/douglascrockford/JSON-js), and [Underscore](http://documentcloud.github.com/underscore/).
+If you&#8217;re interesting in seeing the entire example that I showed here, [head over to the gist](https://gist.github.com/1026406) and look at the last file. It&#8217;s everything &#8211; the html and javascript &#8211; all in one.  You&#8217;ll just need to download the right versions of [Backbone](http://documentcloud.github.com/backbone/#), [JQuery](http://jquery.com/), [JSon2](https://github.com/douglascrockford/JSON-js), and [Underscore](http://documentcloud.github.com/underscore/).
 
- 
+ 
 
 ### Finding My Comfort Zone With Javascript
 

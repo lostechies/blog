@@ -25,7 +25,7 @@ A lot of people look at [the simple to-do list example](http://documentcloud.git
 
 I built my first app with an AppView and it looked something like this (though honestly, it looked much much worse than this):
 
-[gist id=1182708 file=1-appview.js]
+{% gist 1182708 1-appview.js %}
 
 Sure, this was worked for my simple app &#8211; it got things started up and running when i called \`new AppView()\`. It&#8217;s even better than putting all of that code right out in the middle of nowhere-land, where it would all become part of the global object. I was proud of myself for not pollution the global object! … but code like this shouldn&#8217;t exist in a view.
 
@@ -45,10 +45,10 @@ This is the crux of what I&#8217;m trying to get at, really. When you recognize 
 
 The next time you see a need for an application object that you can kick-start the app with, build your own object to do exactly that:
 
-[gist id=1182708 file=2-app.js]
+{% gist 1182708 2-app.js %}
 
 And when you want to take advantage of backbone&#8217;s events, just use backbone&#8217;s events:
 
-[gist id=1182708 file=3-events.js]
+{% gist 1182708 3-events.js %}
 
 You&#8217;ll find your code is much more understandable, less prone to strange behavioral bugs, and generally much cleaner and easier to work with if you remember that you can use all of javascript and not just the constructs that backbone gives you.

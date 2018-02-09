@@ -24,11 +24,11 @@ I looked at the major containers out there:
                     
                     The scenario is this: I have an interface, IMediator, in which I can send a single request/response or a notification to multiple recipients:
                     
-                    [gist id=c03310137a1ac12066bd]
+                    {% gist c03310137a1ac12066bd %}
                     
                     I then created a base set of requests/responses/notifications:
                     
-                    [gist id=030206ce62f2f781e549]
+                    {% gist 030206ce62f2f781e549 %}
                     
                     I was interested in looking at a few things with regards to container support for generics:
                     
@@ -37,7 +37,7 @@ I looked at the major containers out there:
                               * Setup for generic variance (registering handlers for base INotification/creating request pipelines)</ul> 
                             My handlers are pretty straightforward, they just output to console:
                             
-                            [gist id=208f6e81e88e00762218]
+                            {% gist 208f6e81e88e00762218 %}
                             
                             I should see a total of seven messages output from the result of the run. Let’s see how the different containers stack up!
                             
@@ -45,7 +45,7 @@ I looked at the major containers out there:
                             
                             Autofac has been around for quite a bit, and has extensive support for generics and variance. The configuration for Autofac is:
                             
-                            [gist id=b16452bb17ef191de724]
+                            {% gist b16452bb17ef191de724 %}
                             
                             Autofac does require us to explicitly add a registration source for recognizing contravariant interfaces (covariant is a lot rarer, so I’m ignoring that for now). With minimal configuration, Autofac scored perfectly and output all the messages.
                             
@@ -59,7 +59,7 @@ I looked at the major containers out there:
                             
                             Ninject has also been around for quite a while, and also has extensive support for generics. The configuration for Ninject looks like:
                             
-                            [gist id=dd79512fea06325d3a35]
+                            {% gist dd79512fea06325d3a35 %}
                             
                             Ninject was able to display all the messages, and the configuration looks very similar to Autofac. However, that “ContravariantBindingResolver” is _not_ built in to Ninject and is something you’ll have to spelunk Stack Overflow to figure out. It’s somewhat possible when you have one generic parameter, but for multiple it gets a lot harder. I won’t embed the gist as it’s quite ugly, but you can find the [full resolver here](https://gist.github.com/jbogard/ee8084b79d4f9faf2eb3).
                             
@@ -73,7 +73,7 @@ I looked at the major containers out there:
                             
                             Simple Injector is a bit of an upstart <strike>from the same folks behind NancyFx</strike> someone not related to NancyFx at all yet has a very similar Twitter handle, and it focuses really on the simple, straightforward scenarios. This is the first container that requires a bit more to hook up:
                             
-                            [gist id=62dad483920bdab0bd54]
+                            {% gist 62dad483920bdab0bd54 %}
                             
                             <strike>While multiple open generics is supported, contravariance is not. In fact, to hook up contravariance requires quite a few hoops to jump through to set it up. It’s documented, but I wouldn’t call it “out of the box” because you have to </strike>[<strike>build your own wrapper around the handlers to manually figure out the handlers to call</strike>](http://simpleinjector.readthedocs.org/en/latest/advanced.html#covariance-contravariance). UPDATE: as of 2.7, contravariance \*is\* supported out-of-the-box. Configuration is the same as it is above, the variance now “just works”.
                             
@@ -87,7 +87,7 @@ I looked at the major containers out there:
                             
                             This is the most established container in this list, and one I’ve used the most personally. StructureMap is a little bit different in that it applies conventions during scanning assemblies to determine how to wire requests for types up. Here’s the StructureMap configuration:
                             
-                            [gist id=c137cb796b789c8b5000]
+                            {% gist c137cb796b789c8b5000 %}
                             
                             I do have to manually wire up the open generics in this case.
                             
@@ -101,7 +101,7 @@ I looked at the major containers out there:
                             
                             And now for the most annoying container I had to deal with. Unity doesn’t like one type registered with two implementations, so you have to do extra work to even be able to run the application with multiple handlers for a message. My Unity configuration is:
                             
-                            [gist id=7bb2d009ba89113956ec]
+                            {% gist 7bb2d009ba89113956ec %}
                             
                             Yikes. Unity handles the very simple case of open generics, but that’s about it.
                             
@@ -115,7 +115,7 @@ I looked at the major containers out there:
                             
                             The last container in this completely unnecessarily long list is Windsor. Windsor was a bit funny, it required a lot more configuration than others, but it was configuration that was built in and very wordy. My Windsor configuration is:
                             
-                            [gist id=8d29407d255b6e6a93bf]
+                            {% gist 8d29407d255b6e6a93bf %}
                             
                             Similar to Ninject, the simple scenarios are built-in, but the more complex need a bit of Stack Overflow spelunking. The “[ContravariantFilter](https://gist.github.com/jbogard/801c1d4f9c938b3982a9)” is very similar to the Ninject implementation, with the same limitations as well.
                             

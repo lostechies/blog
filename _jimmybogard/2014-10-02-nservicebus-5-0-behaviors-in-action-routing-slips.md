@@ -22,15 +22,15 @@ In converting the route supervisor in my routing slips implementation, I greatly
 
 To first create my behavior, I need to create an implementation of an IBehavior interface with the context I’m interested in:
 
-[gist id=05205abad861b9e4321c]
+{% gist 05205abad861b9e4321c %}
 
 Next, I need to fill in the behavior of my invocation. I need to detect if the current request has a routing slip, and if so, perform the operation of routing to the next step. I’ve already built a component to manage this logic, so I just need to add it as a dependency:
 
-[gist id=a838e828e9935f1d8e6f]
+{% gist a838e828e9935f1d8e6f %}
 
 Then in my Invoke call:
 
-[gist id=969941f77e88c51e9e0a]
+{% gist 969941f77e88c51e9e0a %}
 
 I first pull out the routing slip from the headers. But this time, I can just use the context to do so, NServiceBus manages everything related to the context of handling a message in that object.
 
@@ -44,16 +44,16 @@ With my behavior created, I now need to register my step.
 
 Since I have now a pipeline of behavior, I need to tell NServiceBus when to invoke my behavior. I do so by first creating a class that represents the information on how to register this step:
 
-[gist id=5a4610cd1b9d62855785]
+{% gist 5a4610cd1b9d62855785 %}
 
 I tell NServiceBus to insert this step before a well-known step, of loading handlers. I (actually Andreas) picked this point in the pipeline because in doing so, I can modify the services injected into my step. This last piece is configuring and turning on my behavior:
 
-[gist id=1f8b39333ddf4b7af57a]
+{% gist 1f8b39333ddf4b7af57a %}
 
 I register the Router component, and next the current routing slip. The routing slip instance is pulled from the current context’s routing slip – what I inserted into the context in the previous step.
 
 Finally, I register the route supervisor into the pipeline. With the current routing slip registered as a component, I can allow handlers to access the routing slip and add attachment for subsequent steps:
 
-[gist id=5c70856930ff92679068]
+{% gist 5c70856930ff92679068 %}
 
 With the new pipeline behaviors in place, I was able to remove quite a few hacks to get routing slips to work. Building and registering this new behavior was simple and straightforward, a testament to the design benefits of a behavior pipeline.

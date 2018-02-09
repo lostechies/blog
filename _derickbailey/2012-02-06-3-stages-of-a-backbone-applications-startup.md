@@ -15,7 +15,7 @@ categories:
 ---
 Most Backbone application examples that you find on the web are very small and very simple. They tend to use a very simple idea of an application &#8220;init&#8221; method to start up a router and have the router kick off the real application code. I find this path to be very constraining, though. For the most basic of applications it works perfectly fine, but when you get in to anything of any real size and complexity, it becomes difficult to work with.
 
-My Backbone.Marionette add-on helps to alleviate this problem by introducing the idea of application initializer callbacks. I&#8217;ve talked about these before, and I use them quite extensively in my applications. It really helps to keep my code clean and separated. And I recently realized that there&#8217;s an unintended benefit to using initializers like this: explicitly identifying the different stages of starting an application.
+My Backbone.Marionette add-on helps to alleviate this problem by introducing the idea of application initializer callbacks. I&#8217;ve talked about these before, and I use them quite extensively in my applications. It really helps to keep my code clean and separated. AndI recently realized that there&#8217;s an unintended benefit to using initializers like this: explicitly identifying the different stages of starting an application.
 
 ## The 3 Stages
 
@@ -25,11 +25,11 @@ The three stages that I have identified in my own applications are (in order):
   2. The Application&#8217;s Initialization
   3. A Contextual Start (optional)
 
-Honestly, I could break this down in to a significantly larger number of stages if I really wanted to get fine-grained and detailed. More specifically, it&#8217;s the 2nd stage that can be broken down in to pre-initialization, initialization, and post-initialization. But I think as a general place to start, identifying 3 primary stages for an application&#8217;s startup is a good idea. It gives us a better understanding of what code should go where, helps us keep our code clean, improves re-usability and flexibility, and will likely help us scale our apps as well.
+Honestly, I could break this down in to a significantly larger number of stages if I really wanted to get fine-grained and detailed. More specifically, it&#8217;s the 2nd stage that can be broken down in to pre-initialization, initialization, and post-initialization. ButI think as a general place to start, identifying 3 primary stages for an application&#8217;s startup is a good idea. It gives us a better understanding of what code should go where, helps us keep our code clean, improves re-usability and flexibility, and will likely help us scale our apps as well.
 
 <span style="font-size: 18px; font-weight: bold;">Stage 1: The Application&#8217;s Foundation</span>
 
-Consider this to be the stage where the browser is simply grabbing all of the specified resources from the server and running through the first pass of parsing the HTML, laying out what the static HTML has provided, styling it with the basic CSS definitions, displaying any images and text from the static HTML, and parsing the JavaScript files so it can get ready to run them. I&#8217;ve never seen an HTML application that didn&#8217;t have this stage in it, because without it, your browser doesn&#8217;t have anything to do or show.
+Consider this to be the stage where the browser is simply grabbing all of the specified resources from the server and running through the first pass of parsing the HTML, laying out what the static HTML has provided, styling it with the basic CSS definitions, displaying any images and text from the static HTML, and parsing the JavaScript files so it can get ready to run them.I&#8217;ve never seen an HTML application that didn&#8217;t have this stage in it, because without it, your browser doesn&#8217;t have anything to do or show.
 
 This is the one step the everyone does, and does well.
 
@@ -37,9 +37,9 @@ This is the one step the everyone does, and does well.
 
 Every application has an initialization stage. Some are more elaborate than others. At times you can get away with the over-simplified &#8220;app&#8221; object with an &#8220;init&#8221; method on it, like many of the sample apps and boilerplate codes will suggest:
 
-[gist id=1731648 file=1.js]
+{% gist 1731648 1.js %}
 
-But when you get in to an application of any significant size and complexity, the single &#8220;init&#8221; method becomes a junk drawer where you tend to throw code because you haven&#8217;t yet identified where it should belong. Using a series of small initializer functions for each area of your application will help to alleviate this problem, as I&#8217;ve mentioned before. But the real question is:
+But when you get in to an application of any significant size and complexity, the single &#8220;init&#8221; method becomes a junk drawer where you tend to throw code because you haven&#8217;t yet identified where it should belong. Using a series of small initializer functions for each area of your application will help to alleviate this problem, as I&#8217;ve mentioned before. But the real question is:
 
 What goes in the initializers?
 
@@ -55,7 +55,7 @@ I call this stage optional because not every application has a contextual kick o
 
 When a Backbone application uses a router to respond to url pushState or hash fragment changes, though, it does have a contextual starting point. Each route that a user is allowed to bookmark or copy as a direct link will provide the context that our application needs to use, to get the user back to where they want to be. Even if a Backbone app has a router and contextual start, though, it may not be used. If there user hits the root of the application, there may not be any additional code to run for the empty (&#8220;&#8221;) route. When the user hits a route, though, that route must server up the context and application state that the user expects to see.
 
-The problem that I see in most routed Backbone applications, though, is that they bundle the application initialization with the contextual start. That is, people tend to use the router and it&#8217;s callback methods as the sole place to get the application initialized _and_ get the user back to the context of the route that they requested. For trivial applications, this may be fine. The initialization code may be so small that it doesn&#8217;t really matter if it&#8217;s crammed in to the router. But for any real application with any amount of complexity, this is a bad idea. It couples two very distinct parts of the application startup very tightly, and it can lead to bloated and unmaintainable routers with limited entry points in to the application.
+The problem that I see in most routed Backbone applications, though, is that they bundle the application initialization with the contextual start. That is, people tend to use the router and it&#8217;s callback methods as the sole place to get the application initialized _and_ get the user back to the context of the route that they requested.For trivial applications, this may be fine. The initialization code may be so small that it doesn&#8217;t really matter if it&#8217;s crammed in to the router. But for any real application with any amount of complexity, this is a bad idea. It couples two very distinct parts of the application startup very tightly, and it can lead to bloated and unmaintainable routers with limited entry points in to the application.
 
 So… what goes in the contextual start, other than just saying route callbacks?
 
@@ -63,7 +63,7 @@ Your route callbacks should be as simple as possible. They shouldn&#8217;t initi
 
 In an image gallery application, a user may hit a bookmark that points to a specific image. For example, &#8220;#images/4&#8221;. The route callback that executes should load the requested image and display it on the screen:
 
-[gist id=1731648 file=2.js]
+{% gist 1731648 2.js %}
 
 In a multi-room chat application, a user may hit a bookmark that should take them directly in to a specific chat room. For example, &#8220;#backbone&#8221;. The route callback that executes should take this room name and call the code that is necessary to enter the chat room.
 
@@ -71,7 +71,7 @@ Chances are this is a fairly involved set of code. You&#8217;ll need to load the
 
 This is a lot of code to run, and it&#8217;s fare more code than should be allowed in a route callback method. It should, then, be encapsulated in an object that is responsible for registering the user as having entered that chat room. This object is then called from the router:
 
-[gist id=1731648 file=3.js]
+{% gist 1731648 3.js %}
 
 Furthermore, there&#8217;s a high likelihood that the user will be able to enter chat rooms using some interaction on the web page. They may click on a chat room name in their favorite&#8217;s list, or they may type in a command like &#8220;/join #backbone&#8221; in to the chat application&#8217;s command area. For any of the the multiple ways to enter a chatroom, the code that is executed should be the same. Having the route callback be as simple and stupid as possible will promote code re-use and allow these three options to be easily implemented. If you only need to call &#8220;ChatApp.enterRoom(&#8216;someRoom&#8217;)&#8221; to enter any room that the user specifies, providing options for how the user enters a room becomes trivial.
 
@@ -81,10 +81,10 @@ There are many different ways of stringing these different stages together. Ther
 
 For me, I&#8217;m accomplishing stages 2 and 3 with my Backbone.Marionette add-on. It provides a very clean way to create initializers:
 
-[gist id=1731648 file=4.js]
+{% gist 1731648 4.js %}
 
 At the time of this writing, though, I don&#8217;t have an explicit &#8220;startup&#8221; callback mechanism in place. I have a &#8220;start&#8221; method on my Marionette.Application object. But right now this really only fires up the initializer callbacks. So, I&#8217;m currently using the &#8220;initialize:after&#8221; event to run my start code. I see this as a problem, though &#8211; not of a technical nature, but of a semantic nature. And yes, semantics are important.
 
-[gist id=1731648 file=5.js]
+{% gist 1731648 5.js %}
 
 I&#8217;m not sure what the new implementation will look like, but it may end up being a &#8220;startup&#8221; callback method, similar to the initializer methods. The startup callback (or callbacks?) would execute after all of the initialization is done. This will provide a cleaner separation between the two concerns of initialization vs startup. I&#8217;ll have to see where this leads me, though, as right now, the majority of what I do for a contextual start is simply call &#8220;Backbone.history.start()&#8221;, as I showed in the above example.

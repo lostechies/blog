@@ -24,6 +24,6 @@ I pushed out a new repository, [Contoso University Core](https://github.com/jbog
 
 It uses all of the latest packages I’ve built out for the OSS I use, developed for ASP.NET Core applications. Here’s the Startup, for example:
 
-[gist id=afc1a608bcba6108166a9982deddc8e6]
+{% gist afc1a608bcba6108166a9982deddc8e6 %}
 
 Still missing are unit/integration tests, that’s next. Enjoy!

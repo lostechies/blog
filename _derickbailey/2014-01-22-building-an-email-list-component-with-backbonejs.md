@@ -18,7 +18,7 @@ categories:
   - Model-View-Presenter
   - Modules
 ---
-In my post about [re-launching myself in to the independent life](http://lostechies.com/derickbailey/2014/01/20/2013-was-an-amazing-year-2014-will-be-a-rebirth/), I talked a little bit about restarting my effort to complete [my Building Backbone Plugins eBook](http://backboneplugins.com). I&#8217;ve already started down the path, reviewing existing chapters and beginning to fill in some of the missing pieces. My goal is to have the book content complete by the end of January, and have it edited well enough to call it done by the end of February. 
+In my post about [re-launching myself in to the independent life](http://lostechies.com/derickbailey/2014/01/20/2013-was-an-amazing-year-2014-will-be-a-rebirth/), I talked a little bit about restarting my effort to complete [my Building Backbone Plugins eBook](http://backboneplugins.com). I&#8217;ve already started down the path, reviewing existing chapters and beginning to fill in some of the missing pieces. My goal is to have the book content complete by the end of January, and have it edited well enough to call it done by the end of February. 
 
 As part of my effort to get things done, I&#8217;m re-examining the flow of content and chapters. And I have to say coming back to this book after many months away is an eye opener in this regard. I immediately noticed several chapters out of place and an entire section of content that didn&#8217;t make sense in the flow of information. I&#8217;ve already taken steps to correct this and have reorganized several chapters and removed Part 5 of the book, absorbing the chapters into other parts. In the middle of all this, I also decided that one of the chapters from Part 5 does not need to be in the book at all &#8211; the chapter on building an email list component. Rather than toss the entire work in to the trash, though, I wanted to share this chapter with everyone. There&#8217;s a chance that it may find its way in to another book at another time, but that is yet to be determined.
 
@@ -30,7 +30,7 @@ Components are a combination of visual portions of the application and the logic
 
 > **Web Components:**
 > 
-> ****For more information on Web Components, see [this work-in-progress document from the W3C](http://www.w3.org/TR/2013/WD-components-intro-20130606/) and [the Polymer project](http://www.polymer-project.org/). AngularJS is also a current framework that builds on the ideas of component based architecture and can be found at [AngularJS.org](http://angularjs.org).
+> ****For more information on Web Components, see [this work-in-progress document from the W3C](http://www.w3.org/TR/2013/WD-components-intro-20130606/) and [the Polymer project](http://www.polymer-project.org/). AngularJS is also a current framework that builds on the ideas of component based architecture and can be found at [AngularJS.org](http://angularjs.org).
 
 ## Email Apps And Components
 
@@ -40,7 +40,7 @@ The classic example of Gmail illustrates all of these basic components, and many
 
 <img src="http://lostechies.com/derickbailey/files/2014/01/gmail-components.png" alt="Gmail components" width="600" height="496" border="0" />
 
-The primary email screen shows a list of categories or labels to the left, a list of email to the right, a search screen at the top, filters, chat sessions, and much more. Each of these areas of functionality can be broken down in to separate components that can then be orchestrated to created a more functional system. This orchestration happens through an API that each of the components exposes, with a higher level workflow (as discussed in the previous chapter) controlling all of the individual components.
+The primary email screen shows a list of categories or labels to the left, a list of email to the right, a search screen at the top, filters, chat sessions, and much more. Each of these areas of functionality can be broken down in to separate components that can then be orchestrated to created a more functional system. This orchestration happens through an API that each of the components exposes, with a higher level workflow (as discussed in the previous chapter) controlling all of the individual components.
 
 ## Building An Email List Component {#buildinganemaillistcomponent}
 
@@ -56,23 +56,23 @@ In [the book](http://backboneplugins.com), there is an entire chapter dedicated 
 
 For the sake of this blog post, then, a Component base will be defined with this simple variable assignment:
 
-[gist id=8560125 file=1.js]
+{% gist 8560125 1.js %}
 
 ## Defining The Component, Top Down {#definingthecomponenttopdown}
 
 Start by extending from the Component type, and add an initialize method that looks for a `mailList` attribute on the options. Assume this is a Backbone.Collection instance, representing the email that should be displayed.
 
-[gist id=8560125 file=2.js]
+{% gist 8560125 2.js %}
 
 Next, you’ll need a view to display the list of email. Since the data is in a Backbone.Collection, you can use the CollectionView and ItemView from the first part of this book to do that. Just define a template for the items, and create view definitions appropriately.
 
-[gist id=8560125 file=3.html]
+{% gist 8560125 3.html %}
 
-[gist id=8560125 file=4.js]
+{% gist 8560125 4.js %}
 
 Now within the Component, add a `show` method that takes the views, renders them, and shows them in the region that the Component is referencing.
 
-[gist id=8560125 file=5.js]
+{% gist 8560125 5.js %}
 
 And there you have it &#8211; a very basic component with which to show the list of email. Although, this is a rather simple example, it illustrates the basics of creating a component.
 
@@ -84,16 +84,16 @@ For it to expose this method appropriately, though, it will need to know when a 
 
 Take the `MultiPickCollection` from Chapter 9, and set it up inside of the component.
 
-[gist id=8560125 file=6.js]
+{% gist 8560125 6.js %}
 
 The `MailListView` can assume it is using a pickable collection with pickable model instances in the item view, as well.
 
-[gist id=8560125 file=7.js]
+{% gist 8560125 7.js %}
 
 Now the MailListComponent can listen to the “picked” event on the MultiPickCollection and when it sees an item picked, it can forward that event out through the component instance. This creates an API that another object can use to coordinate behavior with other parts of the app.
 
-[gist id=8560125 file=8.js]
+{% gist 8560125 8.js %}
 
 ## Want To Know More? {#lessonslearned}
 
-If you&#8217;re interested in the abstractions and ideas behind all of this code, you&#8217;ll want to check out the rest of [my Building Backbone Plugins eBook](http://backboneplugins.com). The entire book is focused on helping you understand how to get rid of the boilerplate code that often finds its way in to your Backbone applications. 
+If you&#8217;re interested in the abstractions and ideas behind all of this code, you&#8217;ll want to check out the rest of [my Building Backbone Plugins eBook](http://backboneplugins.com). The entire book is focused on helping you understand how to get rid of the boilerplate code that often finds its way in to your Backbone applications. 

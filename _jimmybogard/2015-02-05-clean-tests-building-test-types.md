@@ -57,7 +57,7 @@ First, let’s look at the simple kinds of tests – ones where the test is comp
 
 For TestClass Per Class, my Fixie convention is:
 
-[gist id=8cfed210e19d0ea43e1c]
+{% gist 8cfed210e19d0ea43e1c %}
 
 First, I need to tell Fixie what to look for in terms of test classes. I could have gone a lot of routes here like existing test frameworks “Things with a class attribute” or “Things with methods that have an attribute” or a base class or a namespace. To keep things simple, I look for classes named “Tests”. Next, because I want to target a workflow where AAA is in a single method, I make sure that this class has only no-arg constructors.
 
@@ -69,7 +69,7 @@ For now, I’ll leave the AutoFixture configuration alone, but we’ll soon be l
 
 With this in place, my test becomes:
 
-[gist id=f8d6758024567e169baa]
+{% gist f8d6758024567e169baa %}
 
 So far so good! Now let’s look at our Testcase Class per Fixture example.
 
@@ -79,7 +79,7 @@ When we want to have a single arrange/act, but multiple assertions, our test lif
 
 Our Fixie configuration changes slightly:
 
-[gist id=b4e14a990b5d2ec8888c]
+{% gist b4e14a990b5d2ec8888c %}
 
 With Fixie, I can create as many configurations as I like for different kinds of tests. Fixie layers them on each other, and I can customize styles appropriately. If I’m migrating from an existing testing platform, I could even configure Fixie to run the existing attribute-based tests!
 
@@ -91,7 +91,7 @@ Finally, I configure test execution to create a single instance per class, using
 
 A test that uses this convention becomes:
 
-[gist id=372a7caaa45a28ea777a]
+{% gist 372a7caaa45a28ea777a %}
 
 The constructor is invoked by AutoFixture, filling in the parameters as needed. The Act, inside the constructor, is executed once. Finally, I make individual assertions on the result of the Act.
 

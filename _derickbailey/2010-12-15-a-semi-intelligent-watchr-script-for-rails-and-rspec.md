@@ -23,15 +23,15 @@ Here&#8217;s what I came up with as a starting point:</p>
 
 Run it via &#8220;watchr rspec.watchr&#8221; from the command line / terminal. The first thing it does is run all specs in the /spec folder &#8211; a quick sanity check or smoke test to make sure everything is working before you start on new specs or code changes.
 
- 
+ 
 
 ## What It Does
 
-When you save any file in the /app folder &#8211; whether it&#8217;s a model, a controller, sass file, or anything else anywhere under that folder, it will try to find the corresponding \_spec file in the /spec folder. For example, if you save /app/models/user.rb it will try to find the /spec/models/user\_spec.rb specs, and run them.
+When you save any file in the /app folder &#8211; whether it&#8217;s a model, a controller, sass file, or anything else anywhere under that folder, it will try to find the corresponding \_spec file in the /spec folder. For example, if you save /app/models/user.rb it will try to find the /spec/models/user\_spec.rb specs, and run them.
 
 > Running Specs: /spec/models/user_spec.rb
 
-Followed by the usual RSpec output. If the spec file that it is looking for is not found, it tells you which file was saved and what _spec.rb file it was expecting to find.
+Followed by the usual RSpec output. If the spec file that it is looking for is not found, it tells you which file was saved and what _spec.rb file it was expecting to find.
 
 > Specs Not Found For:   
 > /app/controllers/my_controller.rb
@@ -49,7 +49,7 @@ then the script will attempt to run specs at
 
 And lastly, whenever you save a file in the /spec folder directly, it runs that file.
 
- 
+ 
 
 ## It will Probably Do More, In The Future
 

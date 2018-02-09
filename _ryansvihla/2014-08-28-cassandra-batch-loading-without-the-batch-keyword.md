@@ -22,11 +22,11 @@ Batches in Cassandra are often mistaken as a performance optimization. They can 
 
 A good example of an unlogged batch follows and assumes a partition key of date. The following batch is effectively one insert because all inserts are sharing the same partition key. Assuming a partition key of date the above batch will only resolve to one write internally, no matter how many there are as long as they have the same date value. This is therefore the primary use case of an unlogged batch:
 
-[gist id=8702d333918b8daa5c4edd3d45910098]
+{% gist 8702d333918b8daa5c4edd3d45910098 %}
 
 A common anti pattern I see is:
 
-[gist id=a84a6c1979138f335015340627ec5791]
+{% gist a84a6c1979138f335015340627ec5791 %}
 
 Unlogged batches require the coordinator to do all the work of managing these inserts, and will make a single node do more work. Worse if the partition keys are owned by other nodes then the coordinator node has an extra network hop to manage as well. The data is not delivered in the most efficient path.
 
@@ -34,11 +34,11 @@ Unlogged batches require the coordinator to do all the work of managing these in
 
 A good example of a logged batch looks something like:
 
-[gist id=10f9ed1a1ae51191a555feff7b09b5af]
+{% gist 10f9ed1a1ae51191a555feff7b09b5af %}
 
 This is keeps tables in sync, but at the cost of performance. A common anti pattern I see is:
 
-[gist id=9ab65bd99ac855a14e0182c2a5bcf6e1]
+{% gist 9ab65bd99ac855a14e0182c2a5bcf6e1 %}
 
 This ends up being expensive for the following reasons. Logged batches add a fair amount of work to the coordinator. However it has an important role in maintaining consistency between tables. When a batch is sent out to a coordinator node, two other nodes are sent batch logs, so that if that coordinator fails then the batch will be retried by both nodes.
 

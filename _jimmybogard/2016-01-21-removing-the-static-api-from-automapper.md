@@ -16,27 +16,27 @@ Well, I’ve seen the problems with static and I’ve regretted it ever since. W
 
 This is a huge shift in AutoMapper, not so much the API, but forcing everything to be static. Here’s the before:
 
-[gist id=e50774659800b0869852]
+{% gist e50774659800b0869852 %}
 
 Or if you’re doing things the Right Way™ you used Initialize:
 
-[gist id=63cd3a1119e469fb61e5]
+{% gist 63cd3a1119e469fb61e5 %}
 
 There are a number of issues with this approach, most of which just result from having a static API. The static API was just a wrapper around instances, but the main API was all static.
 
 With 4.2, you’ll be able to, and encouraged, to do this:
 
-[gist id=64eb628063a1ac636091]
+{% gist 64eb628063a1ac636091 %}
 
 The IMapper interface is a lot lighter, and the underlying type is now just concerned with executing maps, removing a lot of the threading problems I was having before.
 
 I’m keeping the existing functionality and API there, just all obsoleted. The one difficult piece will be the LINQ extensions, since those as extensions methods are inherently static. You’d have to do something like this:
 
-[gist id=da1f3bd632249103fffd]
+{% gist da1f3bd632249103fffd %}
 
 It’s not exactly ideal, so I’m playing with doing something like this:
 
-[gist id=a60ba6a0230d962c3a7c]
+{% gist a60ba6a0230d962c3a7c %}
 
 Expressions can’t depend on any runtime values, and can be more or less explicitly tied to the configuration.
 

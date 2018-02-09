@@ -20,7 +20,7 @@ The model of macbook pro that I have only has one mini display port. To accompli
 
 Given the year and a half that I&#8217;ve had this setup, I thought I would take a moment to break down what works, what doesn&#8217;t work, and ultimately why I don&#8217;t think this is a good solution.
 
- 
+ 
 
 ## The Good
 
@@ -38,19 +38,19 @@ They work well and I have zero crashes with them anymore (though the early beta 
 
 Although I wouldn&#8217;t play video games on it, I often stream youtube or netflix video to this monitor via my browser. It works just fine as long as I don&#8217;t have any other CPU intensive apps open and running at the time&#8230; which leads me to &#8230;
 
- 
+ 
 
 ## The Bad
 
 **It&#8217;s a USB Device, Not A Hardware Video Card**
 
-The displaylink driver uses your system&#8217;s CPU to power the monitor. Granted, it is a very efficient driver and it only uses a fraction of the CPU to maintain the monitor&#8217;s state, when there are no UI updates occuring. When any UI updates are occurring on that monitor, though, the CPU usage jumps up pretty quickly. The device I bought has a night little glowing light on it that flickers whenever the monitor is receiving updates. Generally, it stays solid while I&#8217;m just reading a website, except when scrolling or moving the mouse. However, when you try to play any video or flash, or anything else video intensive, the CPU usage will spike and the system fans will come up to speed pretty quickly. It&#8217;s very CPU intensive to play video through this device. All of that CPU power is sucked away from the rest of your system and your running apps, too.
+The displaylink driver uses your system&#8217;s CPU to power the monitor. Granted, it is a very efficient driver and it only uses a fraction of the CPU to maintain the monitor&#8217;s state, when there are no UI updates occuring. When any UI updates are occurring on that monitor, though, the CPU usage jumps up pretty quickly. The device I bought has a night little glowing light on it that flickers whenever the monitor is receiving updates. Generally, it stays solid while I&#8217;m just reading a website, except when scrolling or moving the mouse. However, when you try to play any video or flash, or anything else video intensive, the CPU usage will spike and the system fans will come up to speed pretty quickly. It&#8217;s very CPU intensive to play video through this device. All of that CPU power is sucked away from the rest of your system and your running apps, too.
 
 **It&#8217;s Fairly Expensive**
 
 I paid $90 for the usb device and $250 for the monitor. That&#8217;s an extra $340 total, to get this setup, not including any adapter cables I had to buy, etc. My middle monitor and right hand monitor are the same. At $250 each + the $90 for the device, I could have spent the $590 on a much larger monitor that did not take up my CPU power and used a tool like [SizeUp](http://irradiatedsoftware.com/sizeup/) to manage the space that I have with only 2 monitors instead of 3.
 
- 
+ 
 
 ## **The Ugly**
 
@@ -58,7 +58,7 @@ It&#8217;s not all rainbows and unicorns. Every now and then the unicorn farts a
 
 **Some Apps Hate The Displaylink Driver**
 
-Especially Appl&#8217;s built-in OSX apps&#8230; for example, I can&#8217;t press cmd-shft-4 to take a screen shot of anything on that monitor. It just doesn&#8217;t work&#8230; at all&#8230; ever. I have to move whatever I&#8217;m doing onto my middle monitor to get the screen shot. Sure, apps like Skitch and cl.ly work fine on that monitor, but there&#8217;s obviously something a little funky going on  if apple&#8217;s built in software doesn&#8217;t work.
+Especially Appl&#8217;s built-in OSX apps&#8230; for example, I can&#8217;t press cmd-shft-4 to take a screen shot of anything on that monitor. It just doesn&#8217;t work&#8230; at all&#8230; ever. I have to move whatever I&#8217;m doing onto my middle monitor to get the screen shot. Sure, apps like Skitch and cl.ly work fine on that monitor, but there&#8217;s obviously something a little funky going on  if apple&#8217;s built in software doesn&#8217;t work.
 
 **Some Apps Crash Because Of It**
 
@@ -70,16 +70,16 @@ It SUUUUUUUUuuuuuuuuuckks&#8230;
 
 And by the way: it&#8217;s not just the EVGA device that does this. All of the usb adapters that I&#8217;ve tried have this problem. And yes, it is due to the displaylink drivers. When I unplug the displaylink adapter and run with only 1 external monitor out of the mini displayport, I never have any issues with Sparrow or any other apps.
 
- 
+ 
 
 **NOTE:** I want to point out that the sparrow support team has put in more than a fair amount of effort to try and help me resolve the issues. I still love Sparrow and really want to use it&#8230; which brings me to &#8230;
 
- 
+ 
 
 ## **Conclusion: It&#8217;s Just Not Worth It, Yet**
 
 Given the advantages of having three monitors, the high CPU usage, the additional cost and the OSX-killing nature of the displaylink + sparrow combination, I cannot recommend this setup to anyone.
 
-If you are seriously considering a 3rd monitor for your macbook pro&#8230; STOP. Stay away from the USB adapaters. **Don&#8217;t bother with it until we start seeing legitimate video card/enclosures for the new thunderbolt port on the latest generation macbook pros.** Spend your money on a larger, better, single external monitor with much more real-estate in terms of pixels and size, and then use SizeUp to manage the space on that window.
+If you are seriously considering a 3rd monitor for your macbook pro&#8230; STOP. Stay away from the USB adapaters. **Don&#8217;t bother with it until we start seeing legitimate video card/enclosures for the new thunderbolt port on the latest generation macbook pros.** Spend your money on a larger, better, single external monitor with much more real-estate in terms of pixels and size, and then use SizeUp to manage the space on that window.
 
 Now I need to figure out what I&#8217;m going to do with all of these left-over usb video adapters and 2x 24&#8243; 1080P monitors, while I try to save up to buy a 30&#8243; monitor to replace them both&#8230;

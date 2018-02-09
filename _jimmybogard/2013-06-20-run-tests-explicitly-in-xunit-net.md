@@ -16,10 +16,10 @@ NUnit also has the concept of an Ignore attribute, which skips a test. xUnit doe
 
 The most consistent way I’ve found to do so is to skip the tests only when a debugger is not attached. I can’t do things like when the process is launched by a certain host or in a certain folder – that’s too brittle. Luckily, xUnit is easily extensible in this way, so we can create a Fact attribute that only works if a debugger is attached:
 
-[gist id=5822765]
+{% gist 5822765 %}
 
 Inside my test that I only want to run explicitly from an attached debugger, I replace the Fact attribute with one I created above. In my case, I’m wiping a database conditionally:
 
-[gist id=5822782]
+{% gist 5822782 %}
 
 If I run this test through the IDE, it gets skipped. If I run it through the automated build, it gets skipped. If I run the test with an attached debugger, it does run. Not exactly the behavior we had with NUnit, but close enough!

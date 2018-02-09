@@ -101,7 +101,7 @@ tags:
   </p>
   
   <p>
-    [gist id=a005e83ba01f1d2ea5107280da166317]
+    {% gist a005e83ba01f1d2ea5107280da166317 %}
   </p>
   
   <h4 id="a449">
@@ -148,7 +148,7 @@ tags:
   </p>
   
   <p>
-    [gist id=20c24423c17c7fb0b8d3dfdd2f6f0047]
+    {% gist 20c24423c17c7fb0b8d3dfdd2f6f0047 %}
   </p>
   
   <h4 id="d981">
@@ -204,7 +204,7 @@ tags:
   </p>
   
   <p>
-    [gist id=cb09e4162e552199e17f3c7caee607c6]
+    {% gist cb09e4162e552199e17f3c7caee607c6 %}
   </p>
   
   <h4 id="d47a">
@@ -216,7 +216,7 @@ tags:
   </p>
   
   <p>
-    [gist id=4821f86b6d9d248b550a5d7539e739ac]
+    {% gist 4821f86b6d9d248b550a5d7539e739ac %}
   </p>
 </div>
 

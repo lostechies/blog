@@ -15,7 +15,7 @@ categories:
 ---
 My current Ruby on Rails app defaults to every page and controller action in the system requiring authentication. If you&#8217;re not logged in, you don&#8217;t get to do anything other than see the login page. Once you are logged in, you have to be authorized to do anything. It&#8217;s a fairly tight security setup because we&#8217;re dealing with medical data and patient health care information&#8230; HIPAA and all that jazz&#8230;
 
- 
+ 
 
 ### Security: Devise And CanCan
 
@@ -31,7 +31,7 @@ To do the authorization, we&#8217;re using [CanCan](https://github.com/ryanb/can
 
 CanCan is smart enough to look at the controller name and figure out the resource to authorize against. You can also specify the class to authorize explicitly, etc&#8230; but that&#8217;s another blog post.
 
- 
+ 
 
 ### I Need A Publicly Available API To Return A JSON Document
 
@@ -46,13 +46,13 @@ Here&#8217;s the basic rules that I need to have in place:
 
 To allow this api to work, I would either have to provide a way for the caller to authenticate / authorize each request for each request, use a separate controller that didn&#8217;t require the authentication / authorization, or find a way around the security for this one method.
 
- 
+ 
 
 ### The Easy Way&#8230; :except filters
 
 Fortunately, i found an easy way to use the same controller and search method to handle all of my needs. Here&#8217;s what the controller previously looked like:
 
- 
+ 
 
 <pre>class InsuranceCompaniesController &lt; ApplicationController
   authorize_resource
@@ -70,11 +70,11 @@ class ApplicationController &lt; ActionController::Base
   before_filter :authenticate_account!
 end</pre>
 
- 
+ 
 
 To meet my needs in this case, I need to put some :except filters into the authorize\_resource and authenticate\_account! calls. Easy enough&#8230; and, copying the :authenticate_account! filter into the InsuranceCompaniesController also overrides the behavior of the base class, meaning I don&#8217;t have to write a bunch of funky code in the base controller to know when / when not to modify the rule. Here&#8217;s what my controller looks like, now:
 
- 
+ 
 
 <pre>class InsuranceCompaniesController &lt; ApplicationController
   authorize_resource :except =&gt; :search
@@ -93,7 +93,7 @@ To meet my needs in this case, I need to put some :except filters into the autho
   end<br />
 end</pre>
 
- 
+ 
 
 The big changes here, are the :except filters being applied to both the authorize\_resource and before\_filter calls. This tells cancan and devise to ignore the search action. Then in the search action itself, when I&#8217;m responding to json format, I just format the results and send them on their way. However, when I&#8217;m responding to the html format, I add the authentication and authorization calls explicitly.
 

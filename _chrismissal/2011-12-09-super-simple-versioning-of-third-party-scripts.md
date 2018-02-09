@@ -25,7 +25,7 @@ The code is (generically) as follows:
 
 _(you have to run &#8216;git init&#8217; and commit your first version, but from then on&#8230;)_
 
-[gist id=1450416]
+{% gist 1450416 %}
 
 The moral of this <del>story</del> blog post is that there&#8217;s probably already a good way to do something that I just haven&#8217;t figured out yet. It&#8217;s super common, but can be tough to consider at times. This is why we pair when coding, ask for advice on code design and generally shouldn&#8217;t work in a &#8220;silo&#8221;. Just some food for thought!
 

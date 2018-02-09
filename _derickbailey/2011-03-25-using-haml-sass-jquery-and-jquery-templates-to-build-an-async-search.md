@@ -46,7 +46,7 @@ In my previous post, I talked about setting up an API that let&#8217;s me [searc
             ${phone}
 </pre>
 
- 
+ 
 
 ### JQuery
 
@@ -75,7 +75,7 @@ In my previous post, I talked about setting up an API that let&#8217;s me [searc
 
 I know this code is ugly. Like I said&#8230; javascript n00b. I haven&#8217;t done serious JS work in many many years&#8230; but it gets the job done. When I click the search button, it finds the text in the search box and builds up the appropriate API url. Then it makes a call to the url with the .getJSON method and provides a callback function. The callback clears any existing search results and then iterates over each of the returned companies allowing me to do something interesting with the company.
 
- 
+ 
 
 ### JQuery-Templates
 
@@ -108,7 +108,7 @@ Let&#8217;s go back to the setupSearchButton() javascript function and add the J
 
 I&#8217;ve only added three lines of code, here. The template_text line, in the middle of the code, reads the HTML contents of the search results template. The next line creates a template using the JQuery-Templates plugin. Then in the callback method of the getJSON call, I am appending the contents of the template, populated with the data for each company, into the search results.
 
- 
+ 
 
 ### SASS
 
@@ -150,7 +150,7 @@ Here&#8217;s the SASS layout that I am currently using:
 
 (Note that I&#8217;m using the Blueprint css mixins with this SASS code).
 
- 
+ 
 
 ### The End Result
 

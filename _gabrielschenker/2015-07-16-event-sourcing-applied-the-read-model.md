@@ -28,7 +28,7 @@ Projections can be created synchronously as the events are published by the aggr
 
 I like to implement all my observers as POCO classes using the convention that I add a method called **When** for each event that I want to handle. The When method returns **void** and has always only **one parameter**, the event I want to handle. Thus if I have an observer called LoanApplicationObserver and two events **LoanApplicationStarted** and **LoanApplicationSubmitted** that I want to handle then my code looks like this
 
-[gist id=e93a0ed6d0337cdd8067]
+{% gist e93a0ed6d0337cdd8067 %}
 
 For each additional event we want to handle we just define yet another When method. This is straight forward, isn&#8217;t it. But it is important to notice that using such kind of conventions makes defining observers very simple and allows us to build a simple infrastructure around it which will use these observers.
 
@@ -36,11 +36,11 @@ No when thinking about what we really want to do here then we come to the conclu
 
 We now define an interface **IProjectionWriter<T>** for our writer. It looks like this
 
-[gist id=54104b01a5d2bffdb51d]
+{% gist 54104b01a5d2bffdb51d %}
 
 So let&#8217;s inject a writer service into our observer which implements this interface where T corresponds to the type of the view we want to generate. In our case this would thus be LoanApplicationView. Our code now looks like this
 
-[gist id=3b0b61aecc25a9f1e9f7]
+{% gist 3b0b61aecc25a9f1e9f7 %}
 
 Note how in the When method where we handle the very first event of the life cycle of a loan application (the LoanApplicationStarted event) we use the add method of the writer to add a new instance of type LoanApplicationView. We use the payload of the event to fill out details of the view. Also note how we use another convention here, the convention that we always call the primary key of the view **Id**.
 
@@ -50,7 +50,7 @@ It is very important to realize that up to now we have no indication about what 
 
 Just to familiarize ourselves let&#8217;s handle another event. This time it is the PhoneNumberAdded event. The code snippet we need to add to the observer looks like this
 
-[gist id=0faf3560526f314845b7]
+{% gist 0faf3560526f314845b7 %}
 
 again we have used the update method since this particular event never starts the life cycle of a loan application. It only ever occurs when the loan application has previously been started.
 
@@ -58,7 +58,7 @@ It is important that we realize that each When method only updates a small part 
 
 Next we need to define a registry where we can register all observers that we implement. The infrastructure code that we will discuss in my next post will use this registry to wire up everything. The code for the registry looks like this
 
-[gist id=f505ca62ee1330522310]
+{% gist f505ca62ee1330522310 %}
 
 The class instantiates each observer using a factory and returns it to the caller.
 

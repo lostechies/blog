@@ -30,7 +30,7 @@ After getting it assembled and calibrated, I started hacking away at some [Johnn
 
 If you&#8217;d like to know more about building Arduino projects, including some of the awesome things you can do with the &#8220;Board of Education&#8221; from Parallax, all from the comfort of JavaScript, let me know. I&#8217;m putting together an outline of projects and information for an upcoming book, titled &#8220;[**Arduino: Hardware For JavaScripters**](https://leanpub.com/arduino-for-javascripters)&#8220;.
 
-Of course you can get all the information you need from other sources, at this point. Just follow the links from the this post. 
+Of course you can get all the information you need from other sources, at this point. Just follow the links from the this post. 
 
 In this book, I&#8217;ll cover not only how to control the bot, but also some pro-tips on configuration and assembly of the hardware &#8211; some things you&#8217;ll want to keep in mind so that it&#8217;s easier to calibrate the servo motors, for example. And like most projects in the book, I&#8217;ll cover this material with both JavaScript and Arduino C.
 
