@@ -1,14 +1,6 @@
 ---
 layout: null
 ---
-function createNode(element) {
-  return document.createElement(element);
-}
-
-function append(parent, el) {
-  return parent.appendChild(el);
-}
-
 function loadRecentPosts(elementId) {
   const hostElement = document.getElementById(elementId);
 
@@ -26,7 +18,7 @@ function loadRecentPosts(elementId) {
           let li = createNode('li'),
             anchor = createNode('a'),
             span = createNode('span');
-          if(post.link.startsWith("{{site.baseurl}}")) {
+          if(post.link.startsWith("{{site.url}}")) {
             anchor.href=post.link;
           } else {
             var collection = collections.find(function(col) {

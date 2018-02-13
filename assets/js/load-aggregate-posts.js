@@ -32,7 +32,7 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
 
           box.classList.add("box");
 
-          if(!post.link.startsWith("{{site.baseurl}}")) {
+          if(!post.link.startsWith("{{site.url}}")) {
             external.style.color = "blue";
             external.style.position = "relative";
             external.style.float = "right";
@@ -54,7 +54,7 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
           });
 
           titleHeading.classList.add("post-title");
-          if(post.link.startsWith("{{site.baseurl}}")) {
+          if(post.link.startsWith("{{site.url}}")) {
             titleLink.href=post.link;
           } else {
 

@@ -46,7 +46,7 @@ function loadPost(id) {
 
       //box.classList.add("box");
 
-      if(!post.link.startsWith("{{site.baseurl}}")) {
+      if(!post.link.startsWith("{{site.url}}")) {
         external.style.color = "blue";
         external.style.position = "relative";
         external.style.float = "right";
@@ -80,12 +80,3 @@ function loadPost(id) {
       append(postDiv, box);
     });
 }
-
-function createNode(element) {
-  return document.createElement(element);
-}
-
-function append(parent, el) {
-  return parent.appendChild(el);
-}
-

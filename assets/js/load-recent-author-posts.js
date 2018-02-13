@@ -12,14 +12,6 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-function createNode(element) {
-  return document.createElement(element);
-}
-
-function append(parent, el) {
-  return parent.appendChild(el);
-}
-
 function loadRecentAuthorPosts(elementId, container) {
   const hostElement = document.getElementById(elementId);
 
