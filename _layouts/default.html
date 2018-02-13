@@ -62,27 +62,8 @@
 <script src="{{ site.baseurl }}/assets/js/search.js"></script>
 <script src="{{ site.baseurl }}/assets/js/load-authors.js"></script>
 <script src="{{ site.baseurl }}/assets/js/load-recent-posts.js"></script>
+<script src="{{ site.baseurl }}/assets/js/collections.js"></script>
 <script>
-  var collections = [
-    {% assign filtered_collections = ''|split:''%}
-    {% assign unfiltered_collections = site.collections %}
-    {% for c in unfiltered_collections %}
-    {% if c.label != "posts" %}
-    {% assign filtered_collections = filtered_collections|push:c%}
-    {% endif %}
-    {% endfor %}
-    {% for collection in filtered_collections %}
-    {% assign label = collection.label %}
-    {
-	"url": "{{site.baseurl}}/{{label}}",
-	"name": "{{collection.author}}",
-	"postPrefix": "{{collection.post-prefix}}",
-        "feed": "{{collection.feed}}"
-    } {% if forloop.last %}{% else %},{% endif %}
-    {% endfor %}
-  ];
-
-
 loadAuthors("authors");
 loadRecentPosts("recentPosts");
 </script>

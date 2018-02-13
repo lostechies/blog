@@ -23,6 +23,7 @@ feed: "http://feeds.feedburner.com/LosTechies"
 twitter_username: lostechies
 github_username:  lostechies
 #permalink: /:collection/:year/:month/:day/:title/
+rss2json_api_key: "y7nvgt8q8ivaexb0ijpuwyt1hxsfklqaqwwen3rp"
 
 # Only supported by > Jekyll 3.7.0
 #collections_dir: posts
@@ -128,6 +129,7 @@ collections:
     author: "Jason Meridth"
     output: true
     permalink: /:collection/:year/:month/:day/:title/
+    post-identifier: "blog.jasonmeridth.com"
     feed: "https://blog.jasonmeridth.com/feed.xml"
   jimmybogard:
     active: true
@@ -137,7 +139,7 @@ collections:
     disqus:
       short_name: "jimmybogardblog"
       active: true
-    post-prefix: "https://jimmybogard.com"
+    post-identifier: "(jimmybogard.com)|(GrabBagOfT)"
     feed: "http://feeds.feedburner.com/GrabBagOfT"
   joeocampo:
     active: false

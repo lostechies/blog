@@ -17,13 +17,11 @@ function loadRecentPosts(elementId) {
     var feed = "http://feed.informer.com/digests/ZWDBOR7GBI/feeder.rss";
     var recentFeed = feed;
 
-    feednami.load(feed,function(result){
-      if(result.error) {
-        //console.log(result.error);
-      } else {
+    getFeed(feed)
+    .then(function(result) {
         hostElement.innerHTML = null;
 
-        let posts = result.feed.entries.slice(0, 10);
+        let posts = result.items.slice(0, 10);
         posts.map(function(post) {
           let li = createNode('li'),
             anchor = createNode('a'),
@@ -32,9 +30,10 @@ function loadRecentPosts(elementId) {
             anchor.href=post.link;
           } else {
             var collection = collections.find(function(col) {
-                return col.postPrefix && post.link.startsWith(col.postPrefix);
+              var re = new RegExp(col.postIdentifier, 'g');
+              return col.postIdentifier && post.link.match(re);
             });
-            
+
             if(collection) {
               recentFeed = collection.feed;
             }
@@ -48,7 +47,6 @@ function loadRecentPosts(elementId) {
           append(anchor, span);
           append(hostElement, li);
         });
-      }
     });
   }
 }

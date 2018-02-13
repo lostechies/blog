@@ -20,16 +20,18 @@ function loadPost(id) {
     url = feed;
   }
 
-  feednami.load(url,function(result){
-    if(result.error) {
-      console.log(result.error);
-    } else {
-
-      let posts = result.feed.entries;
+  getFeed(url)
+    .then(function(result) {
+      let posts = result.items;
       var guid = getParameterByName('guid');
 
       var post = posts.find(function(post) {
         return post.guid === guid;
+      });
+
+      var collection = collections.find(function(col) {
+        var re = new RegExp(col.postIdentifier, 'g');
+        return col.postIdentifier && post.link.match(re);
       });
 
       let box = createNode('div');
@@ -68,34 +70,16 @@ function loadPost(id) {
       append(titleHeading, titleLink);
       append(box, titleHeading);
 
-      metadata.innerHTML = `<span class="post-meta">getAuthor(post) -  ${new Date(post.date).toLocaleString()} <a style="color:grey" href=${post.link}></a></span><hr/>`;
+      metadata.innerHTML = `<span class="post-meta">${post.author || collection.name} -  ${new Date(post.pubDate).toLocaleString()} <a style="color:grey" href=${post.link}></a></span><hr/>`;
       append(box, metadata);
 
       summary.classList.add("post-text");
-      summary.innerHTML = getContent(post); 
+      summary.innerHTML = post.content; 
       append(box, summary);
       postDiv.innerHTML = null;
       append(postDiv, box);
-    }
-  });
+    });
 }
-
-function getContent(post) {
-  var content = null;
-
-  if(post["content:encoded"] && post["content:encoded"]["#"]) {
-    return post["content:encoded"]["#"];
-  }else if(post["atom:content"] && post["atom:content"]["#"]) {
-    return post["atom:content"]["#"];
-  }
-
-  return `${post.summary} <a href=${post.link}>Continue Reading ...</a>`;
-}
-
-function getAuthor(post) {
-  return post.author || post.source.title;
-}
-
 
 function createNode(element) {
   return document.createElement(element);

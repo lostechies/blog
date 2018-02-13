@@ -6,19 +6,17 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
   const hostElement = document.getElementById(elementId);
 
   if(hostElement) {
-    
+
     if(!feed) {
       feed = "http://feed.informer.com/digests/ZWDBOR7GBI/feeder.rss";
     }
 
 
-    feednami.load(feed,function(result){
-      if(result.error) {
-        //console.log(result.error);
-      } else {
+    getFeed(feed)
+      .then(function(result) {
         hostElement.innerHTML = null;
 
-        let posts = result.feed.entries;
+        let posts = result.items;
         posts.map(function(post) {
           let box = createNode('div');
           let external = createNode('div');
@@ -27,7 +25,7 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
           let titleHeading = createNode('h1');
           let titleLink = createNode('a');
           let titleText = createNode('span');
-          let summary = createNode('span');
+          let content = createNode('span');
           let metadata = createNode('span');
 
           var recentFeed = null;
@@ -50,15 +48,15 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
             append(box, external);
           }
 
+          collection = collections.find(function(col) {
+            var re = new RegExp(col.postIdentifier, 'g');
+            return col.postIdentifier && post.link.match(re);
+          });
+
           titleHeading.classList.add("post-title");
           if(post.link.startsWith("{{site.baseurl}}")) {
             titleLink.href=post.link;
           } else {
-            if(!collection) {
-              collection = collections.find(function(col) {
-                return col.postPrefix && post.link.startsWith(col.postPrefix);
-              });
-            }
 
             if(collection) {
               recentFeed = collection.feed;
@@ -79,20 +77,20 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
           append(titleHeading, titleLink);
           append(box, titleHeading);
 
-          metadata.innerHTML = `<span class="post-meta">${post.source.title} -  ${new Date(post.date).toLocaleString()} <a style="color:grey" href=${post.link}></a></span><hr/>`;
+          metadata.innerHTML = `<span class="post-meta">${post.author || collection.name} -  ${new Date(post.pubDate).toLocaleString()} <a style="color:grey" href=${post.link}></a></span><hr/>`;
           append(box, metadata);
 
-          summary.classList.add("post-text");
-          if(loadFullText && post["content:encoded"] && post["content:encoded"]["#"]) {
-            summary.innerHTML = `${post["content:encoded"]["#"]}`;
+          if(loadFullText) {
+            content.innerHTML = post.content;
           }else {
-            summary.innerHTML = `${post.summary} <a href=${post.link}>Continue Reading ...</a>`;
+            let postSummary = post.content.replace(/<(?:.|\n)*?>/gm, '').split(/\s+/).slice(0, 40).join(' ').trim();
+            content.innerHTML = `${postSummary} ... <a href=${postUrl}>Continue reading →</a>`;
           }
-          append(box, summary);
+          content.classList.add("post-text");
+          append(box, content);
 
           append(hostElement, box);
         });
-      }
-    });
+      });
   }
 }

@@ -34,16 +34,14 @@ function loadRecentAuthorPosts(elementId, container) {
   if(recentFeed) {
     collectionFeed = recentFeed;
   }
-  
+
   if(collectionFeed) {
 
-    feednami.load(collectionFeed,function(result){
-      if(result.error) {
-        //console.log(result.error);
-      } else {
+    getFeed(collectionFeed)
+      .then(function(result) {
         hostElement.innerHTML = null;
 
-        let posts = result.feed.entries.slice(0, 10);
+        let posts = result.items.slice(0, 10);
         posts.map(function(post) {
           let li = createNode('li'),
             anchor = createNode('a'),
@@ -59,8 +57,7 @@ function loadRecentAuthorPosts(elementId, container) {
           append(anchor, span);
           append(hostElement, li);
         });
-      }
-    });
+      });
 
   } else {
     if(typeof page_collection !== 'undefined' && hostElement) {
