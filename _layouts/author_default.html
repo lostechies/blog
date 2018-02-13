@@ -119,7 +119,7 @@
 <script src="{{ site.baseurl }}/assets/js/nav.js"></script>
 <script src="{{ site.baseurl }}/assets/js/search.js"></script>
 <script src="{{ site.baseurl }}/assets/js/load-authors.js"></script>
-{% if page.syndicated == true %}
+{% if page.aggregated == true %}
 <script src="{{ site.baseurl }}/assets/js/load-aggregate-posts.js"></script>
 {% endif %}
 <script src="{{ site.baseurl }}/assets/js/load-recent-posts.js"></script>
@@ -134,7 +134,7 @@
     return col.label === "{{col.label}}";
   });
 
-{% if page.syndicated == true %}
+{% if page.aggregated == true %}
   loadAggregatePosts("posts", collectionFeed, true, collection);
 {% endif %}
   loadAuthors("authors");
