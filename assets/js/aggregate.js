@@ -76,7 +76,7 @@ function loadPost(id) {
       summary.classList.add("post-text");
       summary.innerHTML = post.content; 
       append(box, summary);
-      postDiv.innerHTML = null;
+      postDiv.innerHTML = "";
       append(postDiv, box);
     });
 }

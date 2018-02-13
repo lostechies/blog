@@ -31,7 +31,7 @@ function loadRecentAuthorPosts(elementId, container) {
 
     getFeed(collectionFeed)
       .then(function(result) {
-        hostElement.innerHTML = null;
+        hostElement.innerHTML = "";
 
         let posts = result.items.slice(0, 10);
         posts.map(function(post) {
@@ -55,7 +55,7 @@ function loadRecentAuthorPosts(elementId, container) {
     if(typeof page_collection !== 'undefined' && hostElement) {
 
       fetch("{{site.baseurl}}/" + page_collection + "/data/recentPosts.json")
-        .then((resp) => resp.json())
+        .then(function(resp) { return resp.json(); })
         .then(function(data) {
           let posts = data.posts;
           posts.map(function(post) {

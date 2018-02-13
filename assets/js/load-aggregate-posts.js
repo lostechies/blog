@@ -14,7 +14,7 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
 
     getFeed(feed)
       .then(function(result) {
-        hostElement.innerHTML = null;
+        hostElement.innerHTML = "";
 
         let posts = result.items;
         posts.map(function(post) {

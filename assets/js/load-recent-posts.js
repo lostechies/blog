@@ -11,7 +11,7 @@ function loadRecentPosts(elementId) {
 
     getFeed(feed)
     .then(function(result) {
-        hostElement.innerHTML = null;
+        hostElement.innerHTML = "";
 
         let posts = result.items.slice(0, 10);
         posts.map(function(post) {

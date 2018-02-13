@@ -16,7 +16,7 @@ function loadAuthors(elementId) {
 
   if(authorsElement) {
     fetch("{{site.baseurl}}/data/authors.json")
-      .then((resp) => resp.json())
+      .then(function(resp) { return resp.json(); })
       .then(function(data) {
         let authors = data.authors;
         return authors.map(function(author) {
