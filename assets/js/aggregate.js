@@ -70,7 +70,7 @@ function loadPost(id) {
       append(titleHeading, titleLink);
       append(box, titleHeading);
 
-      metadata.innerHTML = `<span class="post-meta">${post.author || collection.name} -  ${new Date(post.pubDate).toLocaleString()} <a style="color:grey" href=${post.link}></a></span><hr/>`;
+      metadata.innerHTML = `<span class="post-meta">${post.author || collection.name} -  ${new Date(post.pubDate.replace(/-/g, "/")).toLocaleString()} <a style="color:grey" href=${post.link}></a></span><hr/>`;
       append(box, metadata);
 
       summary.classList.add("post-text");
