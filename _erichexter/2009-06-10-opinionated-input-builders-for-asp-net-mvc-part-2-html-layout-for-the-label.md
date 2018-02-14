@@ -28,11 +28,11 @@ In part two of this series I will cover the different components of the Input as
 
 Given the following form layout I will explain each feature of the input builder framework.
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image_thumb2" src="http://lostechies.com/erichexter/files/2011/03/image_thumb2_7DCD6C39.png" width="644" height="346" />](http://lostechies.com/erichexter/files/2011/03/image5_5EF6F85B.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image_thumb2" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb2_7DCD6C39.png" width="644" height="346" />](http://lostechies.com/content/erichexter/uploads/2011/03/image5_5EF6F85B.png) 
 
 ## the Label
 
-<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="inputbuilder-label" src="http://lostechies.com/erichexter/files/2011/03/inputbuilder-label_43DE294D.png" width="561" height="309" />
+<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="inputbuilder-label" src="http://lostechies.com/content/erichexter/uploads/2011/03/inputbuilder-label_43DE294D.png" width="561" height="309" />
 
 The text highlighted in red are labels that come from the Model type. The label is created from the PropertyInfo object that represents the respective properties of the mode.
 
@@ -40,11 +40,11 @@ The text highlighted in red are labels that come from the Model type. The label 
   2. The label is the Property Name that is split on the pascal case property name. 
   3. The label is specified by using the Label Attribute applied to the property. 
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="inputbuilder-label-model" src="http://lostechies.com/erichexter/files/2011/03/inputbuilder-label-model_554E8A25.png" width="626" height="453" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="inputbuilder-label-model" src="http://lostechies.com/content/erichexter/uploads/2011/03/inputbuilder-label-model_554E8A25.png" width="626" height="453" />
 
 The html for the label is created in a Content control of the Field.Master Master Page. That control is highlighted in red.
 
-<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="inputbuilder-label-masterpage" src="http://lostechies.com/erichexter/files/2011/03/inputbuilder-label-masterpage_46A3DE40.png" width="803" height="394" />
+<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="inputbuilder-label-masterpage" src="http://lostechies.com/content/erichexter/uploads/2011/03/inputbuilder-label-masterpage_46A3DE40.png" width="803" height="394" />
 
 That explains how the labels are rendered to the html for the builder.&#160; There will be more posts in this series to explain the other conventions followed by the Input Builders.
 

@@ -26,7 +26,7 @@ I’ll show an example using StructureMap. The first thing I do is add a NuGet d
 
 This will also bring in the CommonServiceLocator dependency and some files to shim with Web API:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2015/01/image_thumb14.png" width="310" height="135" />](http://lostechies.com/jimmybogard/files/2015/01/image14.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2015/01/image_thumb14.png" width="310" height="135" />](http://lostechies.com/content/jimmybogard/uploads/2015/01/image14.png)
 
 I have the basic building blocks for what I need in order to have a Web API project using StructureMap. The next piece is to configure the DefaultRegistry to include handlers in scanning:
 

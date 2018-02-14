@@ -36,7 +36,7 @@ If anyone has any corrections and additional thoughts or notes, I&#8217;d love t
 
 I&#8217;ve represented everything as a function &#8211; even the simple values of 1 through 4. And every function returns a function, except for the simple values, which return a function that returns the actual value.
 
-<img title="FunctionAllTheThings.jpg" src="http://lostechies.com/derickbailey/files/2012/01/FunctionAllTheThings.jpg" border="0" alt="FunctionAllTheThings" width="400" height="300" />
+<img title="FunctionAllTheThings.jpg" src="http://lostechies.com/content/derickbailey/uploads/2012/01/FunctionAllTheThings.jpg" border="0" alt="FunctionAllTheThings" width="400" height="300" />
 
 In the process of returning functions from functions, I&#8217;m representing the state of the application as a series of functions.
 

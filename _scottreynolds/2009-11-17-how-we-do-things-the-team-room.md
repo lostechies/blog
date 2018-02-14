@@ -24,7 +24,7 @@ When we first started growing our team, we were scattered about. A few of us had
 What we came up with is &#8220;pods&#8221; of 3 desks each, with about 1&#8242; mesh dividers above the desk surface. This gave everyone their own desk, and their own little area, but they were still together, and everyone could see and freely talk to everyone else.
 
 <div style="text-align:center">
-  <img src="http://lostechies.com/scottreynolds/files/2011/03/IMG_0562.JPG" alt="IMG_0562.JPG" border="0" width="400" height="300" />
+  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/IMG_0562.JPG" alt="IMG_0562.JPG" border="0" width="400" height="300" />
 </div>
 
 Steve Harman once asked on twitter if private desks were anti-productive, and I answered that I didn&#8217;t think so when used appropriately. I know a lot of team rooms just do the flat table thing and everyone sits shoulder to shoulder at all times. That&#8217;s fine, I guess, and great for pairing, but people do need a place of their own. Someplace they can check email and their bank account without everyone looking over their shoulder. Someplace where they can put their knick-knacks. People like desk drawers to store things in. It&#8217;s psychology 101. People need a little space. At least the people on my team do.
@@ -36,7 +36,7 @@ So we compromised, and people got private desks that were put together in such a
 We outfitted the team room with plenty of whiteboard action:
 
 <div style="text-align:center">
-  <img src="http://lostechies.com/scottreynolds/files/2011/03/IMG_0563.JPG" alt="IMG_0563.JPG" border="0" width="400" height="300" />
+  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/IMG_0563.JPG" alt="IMG_0563.JPG" border="0" width="400" height="300" />
 </div>
 
 It&#8217;s important to have a lot of areas where people can collaborate and try out ideas. In addition to the team room we also have a &#8220;conference room&#8221; for just us that is separate, has a whiteboard and a nice projector, where people can gather and do design and planning sessions.
@@ -44,7 +44,7 @@ It&#8217;s important to have a lot of areas where people can collaborate and try
 Since the desks aren&#8217;t really conducive to long-term pair programming, we set up a pairing station at the end of the team room, and we turned the extra office into what we call &#8220;pairing jail&#8221;. Pairing jail has two pairing stations and another whiteboard, plus all the equipment we need to test our hardware integrations (microscope, camera, barcode scanners, etc). 
 
 <div style="text-align:center">
-  <img src="http://lostechies.com/scottreynolds/files/2011/03/IMG_0561.JPG" alt="IMG_0561.JPG" border="0" width="400" height="300" />
+  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/IMG_0561.JPG" alt="IMG_0561.JPG" border="0" width="400" height="300" />
 </div>
 
 Each pairing station has a 24&#8243; monitor, extra keyboards and mice, and is a nice flat surface people can work on.

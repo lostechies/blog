@@ -17,7 +17,7 @@ redirect_from: "/blogs/derickbailey/archive/2009/06/25/how-to-highly-complex-que
 ---
 I have the following object model:
 
-&#160; <img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="508" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_38648237.png" width="512" border="0" /></p> 
+&#160; <img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="508" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_38648237.png" width="512" border="0" /></p> 
 
 An Office belongs to one Office Group. An Office also belongs to one Office Region. There is no relationship between Office Group and Office Region. They are two separate groupings for various reasons. A Counselor belongs to one Office. A Veteran is assigned to one Office.
 

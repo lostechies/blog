@@ -84,7 +84,7 @@ margin: 0em;
 
 Make sure that you compile your project specifically for the platform for which you create the Installer that is either x86 or 64bit. In my case I want to target x86.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_073D1DEB.png" width="514" height="246" />](http://lostechies.com/gabrielschenker/files/2011/03/image_00F6475D.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_073D1DEB.png" width="514" height="246" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_00F6475D.png) 
 
 The reason for this is given in the section below.
 

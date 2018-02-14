@@ -179,7 +179,7 @@ One way to characterize the problem above is to notice that the method containin
 
 Consider the simple class diagram below.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="328" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb.png" width="644" border="0" />](http://lostechies.com/gabrielschenker/files/2011/03/image_2.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="328" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb.png" width="644" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_2.png) 
 
 Here we have an _EncryptionService_ class which uses an abstract &#8220;Reader&#8221; class (identified by an interface _IReader_) and an abstract &#8220;Writer&#8221; class (identified by an interface _IWriter_). Note that the abstraction in this case is not achieved through inheritance but through the use of interfaces. We have separated the interface from the implementation.
 

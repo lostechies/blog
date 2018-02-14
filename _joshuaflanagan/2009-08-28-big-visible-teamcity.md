@@ -16,11 +16,11 @@ redirect_from: "/blogs/joshuaflanagan/archive/2009/08/28/big-visible-teamcity.as
 
 On individual build configuration pages, there is an option to “enable status widget”. This makes the build status publicly available on your TeamCity server at http://<buildserver>/externalStatus.html. This is what it looks like when we expose the status of our two builds:
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/joshuaflanagan/files/2011/03/image_thumb_5E1B5714.png" width="644" height="498" />](http://lostechies.com/joshuaflanagan/files/2011/03/image_1F29D679.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/image_thumb_5E1B5714.png" width="644" height="498" />](http://lostechies.com/content/joshuaflanagan/uploads/2011/03/image_1F29D679.png) 
 
 Now, we can put that up on a big monitor for everyone to see, but I don’t think it “radiates” any information – you still need to purposefully read it. However, through the power of <a href="http://www.greasespot.net/" target="_blank">GreaseMonkey</a> and <a href="http://jquery.com/" target="_blank">jQuery</a>, we were able to modify that page to look like this:
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/joshuaflanagan/files/2011/03/image_thumb_6008A61D.png" width="644" height="497" />](http://lostechies.com/joshuaflanagan/files/2011/03/image_21172582.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/image_thumb_6008A61D.png" width="644" height="497" />](http://lostechies.com/content/joshuaflanagan/uploads/2011/03/image_21172582.png) 
 
 Now, it is immediately clear to anyone in the room when one of our builds has a problem. The script also refreshes the page automatically every 15 seconds, which the default externalStatus.html page does not do.
 

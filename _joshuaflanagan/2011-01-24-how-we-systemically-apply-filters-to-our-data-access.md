@@ -91,7 +91,7 @@ Extra vacation days request</pre>
 
 What&#8217;s extra nice is that the filtering happens at the database. The <a href="https://github.com/DarthFubuMVC/fubumvc/blob/3344dee1bfb5ccfa14cee5092bb283484bbbcd20/src/FubuFastPack/Querying/IDataSourceFilter.cs" target="_blank"><code>IDataSourceFilter&lt;T&gt;</code></a> used in RestrictedQuery is implemented as a wrapper around NHibernate&#8217;s Criteria API. A quick look at <a href="http://www.nhprof.com/" target="_blank">NHibernate Profiler</a> shows the two calls to the database:
 
-[<img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;padding-top: 0px" border="0" alt="restricted_query_nhprof" src="http://lostechies.com/joshuaflanagan/files/2011/03/restricted_query_nhprof_thumb_3DED833A.png" width="644" height="129" />](http://lostechies.com/joshuaflanagan/files/2011/03/restricted_query_nhprof_1EAADC67.png)
+[<img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;padding-top: 0px" border="0" alt="restricted_query_nhprof" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/restricted_query_nhprof_thumb_3DED833A.png" width="644" height="129" />](http://lostechies.com/content/joshuaflanagan/uploads/2011/03/restricted_query_nhprof_1EAADC67.png)
 
 Summary
 

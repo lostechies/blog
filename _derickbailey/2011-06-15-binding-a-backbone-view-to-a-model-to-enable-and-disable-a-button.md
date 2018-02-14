@@ -27,7 +27,7 @@ Here&#8217;s the form HTML and layout:
 
  
 
-<img title="Screen shot 2011-06-15 at 1.13.39 PM.png" src="http://lostechies.com/derickbailey/files/2011/06/Screen-shot-2011-06-15-at-1.13.39-PM.png" border="0" alt="Screen shot 2011 06 15 at 1 13 39 PM" width="216" height="82" />
+<img title="Screen shot 2011-06-15 at 1.13.39 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-1.13.39-PM.png" border="0" alt="Screen shot 2011 06 15 at 1 13 39 PM" width="216" height="82" />
 
  
 
@@ -65,11 +65,11 @@ Honestly, this part confused me. I thought the context of &#8220;this&#8221; in 
 
 Now that our model has a validated event and our view is binding to it, we can enter a username and password to enable the login button:
 
-<img title="Screen shot 2011-06-15 at 2.02.32 PM.png" src="http://lostechies.com/derickbailey/files/2011/06/Screen-shot-2011-06-15-at-2.02.32-PM.png" border="0" alt="Screen shot 2011 06 15 at 2 02 32 PM" width="221" height="81" />
+<img title="Screen shot 2011-06-15 at 2.02.32 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-2.02.32-PM.png" border="0" alt="Screen shot 2011 06 15 at 2 02 32 PM" width="221" height="81" />
 
 and when we click on the login button, we get a pop up message telling us the username and password:
 
-<img title="Screen shot 2011-06-15 at 2.03.24 PM.png" src="http://lostechies.com/derickbailey/files/2011/06/Screen-shot-2011-06-15-at-2.03.24-PM.png" border="0" alt="Screen shot 2011 06 15 at 2 03 24 PM" width="525" height="264" />
+<img title="Screen shot 2011-06-15 at 2.03.24 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-2.03.24-PM.png" border="0" alt="Screen shot 2011 06 15 at 2 03 24 PM" width="525" height="264" />
 
 If you&#8217;re interested in seeing all of the code for this example, [head over to the gist and grab the last 2 files](https://gist.github.com/1027710). One is a javascript file and the other is the html file, with all of this running.
 

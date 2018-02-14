@@ -39,4 +39,4 @@ So that joe has something to play with, I&#8217;ve attached a script file called
   
 
 
-<IMG height="448" src="http://lostechies.com/joshualockwood/files/2011/03ReflectionesquebehaviorinJavaScript_13309/clip_image002[2][2].jpg" width="450" />
+<IMG height="448" src="http://lostechies.com/content/joshualockwood/uploads/2011/03ReflectionesquebehaviorinJavaScript_13309/clip_image002[2][2].jpg" width="450" />

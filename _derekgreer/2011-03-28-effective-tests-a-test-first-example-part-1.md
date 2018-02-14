@@ -165,7 +165,7 @@ To help facilitate these goals, Test-Driven Development prescribes a set of step
                 
                 &nbsp;
                 
-                [<img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;float: none;border-top-width: 0px;border-bottom-width: 0px;margin-left: auto;border-left-width: 0px;margin-right: auto;padding-top: 0px" border="0" alt="TestFirstExampleProjectNew" src="http://lostechies.com/derekgreer/files/2011/03/TestFirstExampleProjectNew_thumb1.png" width="560" height="388" />](http://lostechies.com/derekgreer/files/2011/03/TestFirstExampleProjectNew1.png)
+                [<img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;float: none;border-top-width: 0px;border-bottom-width: 0px;margin-left: auto;border-left-width: 0px;margin-right: auto;padding-top: 0px" border="0" alt="TestFirstExampleProjectNew" src="http://lostechies.com/content/derekgreer/uploads/2011/03/TestFirstExampleProjectNew_thumb1.png" width="560" height="388" />](http://lostechies.com/content/derekgreer/uploads/2011/03/TestFirstExampleProjectNew1.png)
                 
                 &nbsp;
                 
@@ -1180,7 +1180,7 @@ c:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\MSTest.exe /category:'
                             </p>
                             
                             <p>
-                              <a href="http://lostechies.com/derekgreer/files/2011/03/tic-tac-toe.png"><img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;float: none;border-top-width: 0px;border-bottom-width: 0px;margin-left: auto;border-left-width: 0px;margin-right: auto;padding-top: 0px" border="0" alt="tic-tac-toe" src="http://lostechies.com/derekgreer/files/2011/03/tic-tac-toe_thumb.png" width="485" height="474" /></a>
+                              <a href="http://lostechies.com/content/derekgreer/uploads/2011/03/tic-tac-toe.png"><img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;float: none;border-top-width: 0px;border-bottom-width: 0px;margin-left: auto;border-left-width: 0px;margin-right: auto;padding-top: 0px" border="0" alt="tic-tac-toe" src="http://lostechies.com/content/derekgreer/uploads/2011/03/tic-tac-toe_thumb.png" width="485" height="474" /></a>
                             </p>
                             
                             <p>

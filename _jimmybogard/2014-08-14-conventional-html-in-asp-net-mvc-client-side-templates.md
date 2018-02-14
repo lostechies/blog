@@ -60,7 +60,7 @@ I’ve done all three, and each have their benefits and drawbacks. Most teams I 
 
 What I’d like to do is have the power of my original server-side Razor templates, with the strongly-typed views and intelligent expression-based helpers, but instead of complete HTML templates, have these be Angular views or Ember templates:
 
-[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/jimmybogard/files/2014/08/image_thumb.png" alt="image" width="346" height="293" border="0" />](http://lostechies.com/jimmybogard/files/2014/08/image.png)
+[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/content/jimmybogard/uploads/2014/08/image_thumb.png" alt="image" width="346" height="293" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2014/08/image.png)
 
 When we deliver our templates to the client as part of our SPA, we’ll serve up a special version of them, one that’s been parsed by our Razor engine. Normally, the Razor engine performs two tasks:
 

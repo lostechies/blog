@@ -26,7 +26,7 @@ Back in December of 2009 I had a post on using various [messaging patterns withi
 
 ### The [Request / Reply](http://www.enterpriseintegrationpatterns.com/RequestReply.html) Pattern
 
-[<img style="border-bottom: 0px;border-left: 0px;margin: 0px 10px 0px 0px;border-top: 0px;border-right: 0px" border="0" alt="image" align="left" src="http://lostechies.com/derickbailey/files/2011/03/image_451AE86F.png" width="81" height="49" />](http://www.enterpriseintegrationpatterns.com/RequestReply.html) When two applications communicate via [_Messaging_](http://www.enterpriseintegrationpatterns.com/Messaging.html), the communication is one-way. The applications may want a two-way conversation.
+[<img style="border-bottom: 0px;border-left: 0px;margin: 0px 10px 0px 0px;border-top: 0px;border-right: 0px" border="0" alt="image" align="left" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_451AE86F.png" width="81" height="49" />](http://www.enterpriseintegrationpatterns.com/RequestReply.html) When two applications communicate via [_Messaging_](http://www.enterpriseintegrationpatterns.com/Messaging.html), the communication is one-way. The applications may want a two-way conversation.
 
 **When an application sends a message, how can it get a response from the receiver? **Send a pair of _Request-Reply_ messages, each on its own channel.****
 

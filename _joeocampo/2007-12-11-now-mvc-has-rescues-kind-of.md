@@ -130,7 +130,7 @@ The OnError is called when ever there is an Exception within an Action.&nbsp; Al
 
 Finally it Renders the rescue view in the Rescue folder.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="152" alt="image" src="http://lostechies.com/joeocampo/files/2011/03NowMVChasrescuesKindOf_13519/image_thumb.png" width="169" border="0" />](http://lostechies.com/joeocampo/files/2011/03NowMVChasrescuesKindOf_13519/image_2.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="152" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03NowMVChasrescuesKindOf_13519/image_thumb.png" width="169" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03NowMVChasrescuesKindOf_13519/image_2.png) 
 
 That&#8217;s it!
 
@@ -161,7 +161,7 @@ When I type in the following url: http://localhost:52634/Home/**Error</a>**</p>
 
 It immediately redirects me to the Rescue page HelpMe.aspx
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="199" alt="image" src="http://lostechies.com/joeocampo/files/2011/03NowMVChasrescuesKindOf_13519/image_thumb_1.png" width="496" border="0" />](http://lostechies.com/joeocampo/files/2011/03NowMVChasrescuesKindOf_13519/image_4.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="199" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03NowMVChasrescuesKindOf_13519/image_thumb_1.png" width="496" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03NowMVChasrescuesKindOf_13519/image_4.png) 
 
 I don&#8217;t think this code is near production ready but it serves as a quick representation on how quickly and easily you can extend the MVC framework.
 

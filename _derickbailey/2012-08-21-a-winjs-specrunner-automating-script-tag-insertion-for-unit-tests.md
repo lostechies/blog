@@ -24,13 +24,13 @@ Christopher Bennage has already blogged about [the basic set up that we put in t
 
 The result of all this manual <script> tag maintenance was painful at best, and nightmarish most of the time. Here&#8217;s an incomplete screenshot of all the files that we had to manually add as <script> tags. Note that I said _incomplete_ screenshot&#8230;
 
-<img title="Screen Shot 2012-08-21 at 8.54.35 AM.png" src="http://lostechies.com/derickbailey/files/2012/08/Screen-Shot-2012-08-21-at-8.54.35-AM.png" alt="Screen Shot 2012 08 21 at 8 54 35 AM" width="339" height="600" border="0" />
+<img title="Screen Shot 2012-08-21 at 8.54.35 AM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/08/Screen-Shot-2012-08-21-at-8.54.35-AM.png" alt="Screen Shot 2012 08 21 at 8 54 35 AM" width="339" height="600" border="0" />
 
 ## Reducing The Script Tag Nightmare
 
 I got tired of this, as you can imagine, so I fixed it. Yesterday I introduced a bit of code that allowed me to reduce the number of <script> tags from what you see in the screenshot above, down to this:
 
-<img title="Screen Shot 2012-08-21 at 8.59.33 AM.png" src="http://lostechies.com/derickbailey/files/2012/08/Screen-Shot-2012-08-21-at-8.59.33-AM.png" alt="Screen Shot 2012 08 21 at 8 59 33 AM" width="600" height="146" border="0" />
+<img title="Screen Shot 2012-08-21 at 8.59.33 AM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/08/Screen-Shot-2012-08-21-at-8.59.33-AM.png" alt="Screen Shot 2012 08 21 at 8 59 33 AM" width="600" height="146" border="0" />
 
 That&#8217;s much better! And the best part is, I don&#8217;t have to touch this file again. I can add specs to my app, and link production files in to the test runner all day long, and I never need to change this file. 
 

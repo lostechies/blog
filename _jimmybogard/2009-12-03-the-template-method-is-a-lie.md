@@ -12,7 +12,7 @@ categories:
   - OO
 redirect_from: "/blogs/jimmy_bogard/archive/2009/12/02/the-template-method-is-a-lie.aspx/"
 ---
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_2C7FA22D.png" width="304" height="349" />](http://lostechies.com/jimmybogard/files/2011/03/image_4F23E0A8.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2C7FA22D.png" width="304" height="349" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_4F23E0A8.png) 
 
 In my recent adventures with [controller-less actions](http://www.lostechies.com/blogs/chad_myers/archive/2009/06/18/going-controller-less-in-mvc-the-way-fowler-meant-it.aspx), and trying to solve the issue of the crazy CRUDController mess I had put myself (and our team/project) into.&#160; While some gravitate towards the Singleton pattern to abuse after they learn the [GoF patterns](http://www.hillside.net/patterns/DPBook/DPBook.html), that wasn’t the case for me.&#160; Instead, I fell in love with the [Template Pattern](http://www.dofactory.com/Patterns/PatternTemplate.aspx).&#160; But there’s a problem with the Template pattern as the golden hammer for every incidence of duplication we find in our application.&#160; The Template Method favors _inheritance over composition_.
 

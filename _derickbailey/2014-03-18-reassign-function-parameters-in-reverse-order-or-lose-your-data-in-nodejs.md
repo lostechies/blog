@@ -23,7 +23,7 @@ There isn&#8217;t anything terribly special here. Check the number of arguments.
 
 Can you guess what the output is, based on the code above?
 
-<img style="margin-left: auto;margin-right: auto" src="http://lostechies.com/derickbailey/files/2014/03/NewImage7.png" alt="NewImage" width="217" height="182" border="0" />
+<img style="margin-left: auto;margin-right: auto" src="http://lostechies.com/content/derickbailey/uploads/2014/03/NewImage7.png" alt="NewImage" width="217" height="182" border="0" />
 
 #WAT
 
@@ -49,7 +49,7 @@ In order to work around this, you have to reassign the parameters in reverse ord
 
 And now the results are what I expected:
 
-<img style="margin-left: auto;margin-right: auto" src="http://lostechies.com/derickbailey/files/2014/03/NewImage8.png" alt="NewImage" width="209" height="172" border="0" />
+<img style="margin-left: auto;margin-right: auto" src="http://lostechies.com/content/derickbailey/uploads/2014/03/NewImage8.png" alt="NewImage" width="209" height="172" border="0" />
 
 ## By-Val Params
 

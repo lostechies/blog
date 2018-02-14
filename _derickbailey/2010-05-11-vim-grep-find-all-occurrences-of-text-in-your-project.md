@@ -38,7 +38,7 @@ There are a lot of great tips and tricks on that wikia page. You’ll want to re
 
 The working directory in vim can be considered the ‘project root’ in that all file / folder based commands work relative to the working directory. This makes a global find in all files of a project easy since I always start up vim in the working folder that I want. For example, using [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658) I can see that I am in the root of my albacore project as the working directory:
 
-&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_065EE523.png" width="634" height="460" />
+&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_065EE523.png" width="634" height="460" />
 
 To search within the albacore ‘project’ folder and find all instances of ‘path\_to\_command’, I used vimgrep like this:
 
@@ -46,11 +46,11 @@ To search within the albacore ‘project’ folder and find all instances of ‘
 
 This told vim to grep for ‘path\_to\_command’ and return every result on every line, in any .rb file, recursively, starting at the project folder. Run the :cw command after the grep is done, and the list of files and locations will show up:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_524A45CF.png" width="634" height="267" />](http://lostechies.com/derickbailey/files/2011/03/image_1A7801AC.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_524A45CF.png" width="634" height="267" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_1A7801AC.png) 
 
 You can navigate the list with standard vim navigation (h,j,k,l, etc). Hit <enter> on the item you want and the top window split will jump to the file/line/column:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_1C18A7B3.png" width="634" height="266" />](http://lostechies.com/derickbailey/files/2011/03/image_1EA1D971.png) </p> </p> 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_1C18A7B3.png" width="634" height="266" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_1EA1D971.png) </p> </p> 
 
 &#160;
 

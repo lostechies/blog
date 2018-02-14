@@ -73,7 +73,7 @@ I now want to do some more, unrelated work, so I:
 
 At this point, here’s my tree:
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_7F37A3CC.png" width="394" height="109" />](http://lostechies.com/jimmybogard/files/2011/03/image_7B9988EF.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_7F37A3CC.png" width="394" height="109" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_7B9988EF.png) 
 
 As we can see here, I have my master bookmark marking where I diverged my bookmarks.&#160; This now more or less matches what I see in Git, with the exception of that “default” branch.
 
@@ -103,7 +103,7 @@ This basically fast-foward merges the master bookmark to SomeTopic, by…deletin
 
 Anyway, this is now the state of things:
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_2C4C909B.png" width="393" height="84" />](http://lostechies.com/jimmybogard/files/2011/03/image_5AA61648.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2C4C909B.png" width="393" height="84" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_5AA61648.png) 
 
 And now I want to push “master” up.&#160; But this will be interesting, I don’t want “SomeOtherTopic” to go out.&#160; So, I use:
 
@@ -116,7 +116,7 @@ Now only the “master” piece got pushed up.&#160; Let’s say we now want to 
 
 This makes our local repository tree now:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_648B07B3.png" width="439" height="105" />](http://lostechies.com/jimmybogard/files/2011/03/image_12E48D61.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_648B07B3.png" width="439" height="105" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_12E48D61.png) 
 
 Exactly what we wanted! The “master” bookmark got moved up, past “SomeOtherTopic”.&#160; Now, we just need to rebase SomeOtherTopic onto master:
 
@@ -124,7 +124,7 @@ Exactly what we wanted! The “master” bookmark got moved up, past “SomeOthe
 
 This means I’m replaying the SomeOtherTopic on top of master, resulting in the following tree:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_7CAE720E.png" width="492" height="105" />](http://lostechies.com/jimmybogard/files/2011/03/image_120C2777.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_7CAE720E.png" width="492" height="105" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_120C2777.png) 
 
 Looking good!&#160; I now just follow the FF-merge-master-to-branch routine:
 

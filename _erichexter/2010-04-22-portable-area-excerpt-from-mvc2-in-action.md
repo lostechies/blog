@@ -34,13 +34,13 @@ This is where the MvcContrib project developed the idea of a portable area. By b
 
 A portable area is a class library project with controllers and views. It has all the trappings of an ASP.NET MVC 2 project: controllers, folders for views and the views themselves. To extract the AccountController we&#8217;ll simply move those related files from the default template to a new class library project. The overall structure of the project is the same, but it&#8217;s not a web project, as shown in figure 22.1.
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="clip_image002" src="http://lostechies.com/erichexter/files/2011/03/clip_image002_thumb_65BF8B33.jpg" width="395" height="484" />](http://lostechies.com/erichexter/files/2011/03/clip_image002_148543D6.jpg)</a>
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="clip_image002" src="http://lostechies.com/content/erichexter/uploads/2011/03/clip_image002_thumb_65BF8B33.jpg" width="395" height="484" />](http://lostechies.com/content/erichexter/uploads/2011/03/clip_image002_148543D6.jpg)</a>
 
 Figure 22.1 A portable area class library project
 
 Developers familiar with the ASP.NET MVC 2 default template will recognize most of the files in the portable area shown in figure 22.1. For the most part, it&#8217;s exactly the same and in the same structure. The views, however, are not content files like in ASP.NET MVC 2 projects; they are embedded resources. To make a view an embedded resource, highlight it in Solution Explorer and press the F4 key, or right-click it and select Properties from the context menu. The properties window (shown in figure 22.2) will appear.
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="clip_image004" src="http://lostechies.com/erichexter/files/2011/03/clip_image004_thumb_640EBF5F.jpg" width="644" height="296" />](http://lostechies.com/erichexter/files/2011/03/clip_image004_0BB53B8A.jpg)
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="clip_image004" src="http://lostechies.com/content/erichexter/uploads/2011/03/clip_image004_thumb_640EBF5F.jpg" width="644" height="296" />](http://lostechies.com/content/erichexter/uploads/2011/03/clip_image004_0BB53B8A.jpg)
 
 Figure 22.2 Visual Studio&#8217;s file properties window
 

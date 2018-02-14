@@ -16,7 +16,7 @@ NServiceBus sagas, itself an implementation of the [Process Manager pattern](htt
 
 The first kind would be the Observer pattern. As an Observer, this saga responds to events to coordinate an activity:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/03/image_thumb.png" width="539" height="275" />](http://lostechies.com/jimmybogard/files/2013/03/image.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb.png" width="539" height="275" />](http://lostechies.com/content/jimmybogard/uploads/2013/03/image.png)
 
 There are a few characteristics of the observer:
 
@@ -27,7 +27,7 @@ Since the Saga does not control message ordering and these messages are events, 
 
 Another interesting characteristic of an Observer saga is that typically, its purpose is to coordinate some activity after it has received all service events. It begins to look something like this:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/03/image_thumb1.png" width="491" height="278" />](http://lostechies.com/jimmybogard/files/2013/03/image1.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb1.png" width="491" height="278" />](http://lostechies.com/content/jimmybogard/uploads/2013/03/image1.png)
 
 This is similar to the [Scatter/Gather pattern](http://www.eaipatterns.com/BroadcastAggregate.html), but not quite. The saga itself often needs to keep track of which messages are received. Upon receiving a message, it will note that the message has been received, and check to see if all relevant messages have been received before proceeding onwards.
 
@@ -49,7 +49,7 @@ Order preparation in McDonald’s (and many other fast food chains) is not a lin
 
 And so on. Each station is its own independent worker, with its own independent queue of work. A typical order looks something like this:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/03/image_thumb2.png" width="731" height="491" />](http://lostechies.com/jimmybogard/files/2013/03/image2.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb2.png" width="731" height="491" />](http://lostechies.com/content/jimmybogard/uploads/2013/03/image2.png)
 
 The order starts off with a customer placing an order (1). If the order is accepted (they have money), then an event is broadcasted to all relevant food preparation stations (2). Each station has a computer screen above it, representing a queue of work to be done.
 

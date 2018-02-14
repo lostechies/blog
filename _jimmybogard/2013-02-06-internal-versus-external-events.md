@@ -23,7 +23,7 @@ Internally, since we own the place, we can make changes to messages at typically
 
 Instead, we need to build gateways as to prove an anti-corruption layer (from the Domain-Driven Design terminology) to broker our internal events to external ones:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/02/image_thumb.png" width="567" height="307" />](http://lostechies.com/jimmybogard/files/2013/02/image.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/02/image_thumb.png" width="567" height="307" />](http://lostechies.com/content/jimmybogard/uploads/2013/02/image.png)
 
 The messages flowing from internal publisher to the gateways may even look exactly the same, but we can’t treat them as _being_ the same. In order to preserve our own internal autonomy and shield ourselves from the constraints of the outside world, we need to maintain separation between our internal and external messages.
 

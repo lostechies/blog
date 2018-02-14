@@ -27,7 +27,7 @@ A good leader leads best by pointing the team in the right direction and getting
 
 I’m reminded of this “[Mantovational](http://artofmanliness.com/2009/07/05/motivational-posters-george-s-patton-edition/)” poster by one of my favorite blogs: [Art of Manliness](http://artofmanliness.com).&#160; It focuses on various motivational quotes by (in this instance) [George S. Patton](http://en.wikipedia.org/wiki/George_S._Patton):
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="pattondelegation" src="http://lostechies.com/chadmyers/files/2011/03/pattondelegation_thumb_45EB69E7.jpg" width="750" height="600" />](http://lostechies.com/chadmyers/files/2011/03/pattondelegation_0EF18BAE.jpg) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="pattondelegation" src="http://lostechies.com/content/chadmyers/uploads/2011/03/pattondelegation_thumb_45EB69E7.jpg" width="750" height="600" />](http://lostechies.com/content/chadmyers/uploads/2011/03/pattondelegation_0EF18BAE.jpg) 
 
 &#160;
 

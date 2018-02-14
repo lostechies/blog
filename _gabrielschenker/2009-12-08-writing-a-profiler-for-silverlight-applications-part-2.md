@@ -24,7 +24,7 @@ In [part one](http://www.lostechies.com/blogs/gabrielschenker/archive/2009/11/26
 
 Instrumenting an assembly is one thing but the other important thing is to collect meaningful data. Profiling is all about how the application behaves during run time and how the various operations perform.
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;margin-left: 0px;border-left-width: 0px;margin-right: 0px" border="0" alt="image" align="left" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_3EB6234A.png" width="228" height="244" />](http://lostechies.com/gabrielschenker/files/2011/03/image_665C9F74.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;margin-left: 0px;border-left-width: 0px;margin-right: 0px" border="0" alt="image" align="left" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_3EB6234A.png" width="228" height="244" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_665C9F74.png) 
 
 Each application has a well defined single entry point which is called by the assembly loader upon start of the application. Starting from this entry point or start method other methods are called which in turn call again other methods. In the end we have a tree of calls. Thus our data structure must also be a tree structure.
 

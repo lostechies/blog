@@ -23,11 +23,11 @@ Let’s look at searching and downloading the Mercurial client. When I google �
 
 From there, I want to download Mercurial. Both websites offer very clear ways of doing so. The Mercurial site:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/02/image_thumb.png" width="644" height="231" />](http://lostechies.com/jimmybogard/files/2012/02/image.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/02/image_thumb.png" width="644" height="231" />](http://lostechies.com/content/jimmybogard/uploads/2012/02/image.png)
 
 And the Tortoise Hg site:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/02/image_thumb1.png" width="644" height="371" />](http://lostechies.com/jimmybogard/files/2012/02/image1.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/02/image_thumb1.png" width="644" height="371" />](http://lostechies.com/content/jimmybogard/uploads/2012/02/image1.png)
 
 Two very large “download buttons”. These buttons are interesting in that:
 
@@ -49,11 +49,11 @@ Two very large “download buttons”. These buttons are interesting in that:
                         
                         When searching for Git downloads, you’re primarily directed to one of two sites – [the official Git site](http://git-scm.com/), or the [official Git tools site for Windows](http://code.google.com/p/msysgit/), hosted on Google Code (and also GitHub, curiously enough). The Git site is clean enough:
                         
-                        [<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/02/image_thumb2.png" width="644" height="375" />](http://lostechies.com/jimmybogard/files/2012/02/image2.png)
+                        [<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/02/image_thumb2.png" width="644" height="375" />](http://lostechies.com/content/jimmybogard/uploads/2012/02/image2.png)
                         
                         Except I have 3 download links instead of one. Not a big deal most of the time, but already choices are presented to the end user over the Mercurial site. Clicking on the Windows link takes me to this page:
                         
-                        [<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/02/image_thumb3.png" width="644" height="283" />](http://lostechies.com/jimmybogard/files/2012/02/image3.png)
+                        [<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/02/image_thumb3.png" width="644" height="283" />](http://lostechies.com/content/jimmybogard/uploads/2012/02/image3.png)
                         
                         Instead of linking me directly to the installer file to download immediately, I’m directed to the downloads page of the Google Code site, where I am presented with yet even more options. There is nothing in this screen that screams “THIS IS THE INSTALLER YOU WANT IGNORE THE OTHERS”. As someone new to Git, how do I know which to choose? Probably the first one, and most people would choose the first one, but **presenting choices here is pointless and confusing**.
                         

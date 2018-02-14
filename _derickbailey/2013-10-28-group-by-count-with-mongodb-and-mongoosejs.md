@@ -49,4 +49,4 @@ And it worked!
 
 Each entry for a given episode ID was given a value of &#8220;1&#8221; which was added to all of the other entries, creating a group-by count result in MongoDB! And I now I have a fancy little report that shows me totals per episode, along with the total traffic for episode deliveries:
 
-<img src="http://lostechies.com/derickbailey/files/2013/10/Screen-Shot-2013-10-28-at-5.09.59-PM.png" alt="Screen Shot 2013 10 28 at 5 09 59 PM" width="600" height="436" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2013/10/Screen-Shot-2013-10-28-at-5.09.59-PM.png" alt="Screen Shot 2013 10 28 at 5 09 59 PM" width="600" height="436" border="0" />

@@ -20,7 +20,7 @@ A few months ago, I posted <a href="http://www.derickbailey.com/2008/08/29/WhatI
 
 Consider a set of classes that need to be instantiated into the correct hierarchy so that we can get the functionality needed. It&#8217;s really easy to have the highest level class &#8211; the one that we really want to call method on &#8211; instantiate the class for next level down, and have that class instantiate it&#8217;s next level down, and so-on, like this: 
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="123" alt="image" src="http://lostechies.com/derickbailey/files/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_thumb_1.png" width="258" border="0" />](http://lostechies.com/derickbailey/files/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_12.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="123" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_thumb_1.png" width="258" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_12.png) 
 
 This creates the necessary hierarchy, but breaks the core object oriented principle of loose coupling. We would not be able to use ThisClass without bringing ThatClass along with it, and we would not be able to use ThatClass without bringing AnotherClass along with it.
 
@@ -28,15 +28,15 @@ By introducing a better abstraction for each class and putting Dependency Invers
 
 For starters, let&#8217;s introduce an interface for ThisClass to depend on and an interface for ThatClass to depend on.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="193" alt="Adding Dependent Interfaces" src="http://lostechies.com/derickbailey/files/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_thumb.png" width="260" border="0" />](http://lostechies.com/derickbailey/files/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_5.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="193" alt="Adding Dependent Interfaces" src="http://lostechies.com/content/derickbailey/uploads/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_thumb.png" width="260" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_5.png) 
 
 Now that we have an interface that both of these classes can depend on, instead of the explicit implementation of the child object, we need to have the expected child object implement the interface in question. For example, we expect ThatClass to be used by ThisClass, so we will want ThatClass to implement the IDoSomething interface. By the same notion, we want AnotherClass to implement the IWhatever interface. This will allow us to provide AnotherClass as the dependency implementation for ThatClass. Our object model now looks like this:
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="243" alt="Implementing Dependency Interfaces" src="http://lostechies.com/derickbailey/files/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_thumb_2.png" width="260" border="0" />](http://lostechies.com/derickbailey/files/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_7.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="243" alt="Implementing Dependency Interfaces" src="http://lostechies.com/content/derickbailey/uploads/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_thumb_2.png" width="260" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_7.png) 
 
 What we have now is not just a set of classes that all depend on each other, but a &#8220;cloud&#8221; of objects with dependencies and interface implementations that will let us build the hierarchy we need, when we need it. 
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="216" alt="The Cloud Of Objects" src="http://lostechies.com/derickbailey/files/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_thumb_3.png" width="260" border="0" />](http://lostechies.com/derickbailey/files/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_9.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="216" alt="The Cloud Of Objects" src="http://lostechies.com/content/derickbailey/uploads/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_thumb_3.png" width="260" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_9.png) 
 
 The real beauty of this is that we no longer have to care about the implementation specifics of IDoSomething from ThisClass. ThisClass can focus entirely on doing it&#8217;s duty and calling into IDoSomething when it needs to. And, by passing in the dependency as an abstraction, we&#8217;re able to replace the dependency implementation at any time &#8211; runtime, unit test time, etc. This also makes our system much easier to learn and understand, and most importantly &#8211; easier to change. 
 
@@ -50,7 +50,7 @@ Now that we have our cloud of implementations and abstractions in place, we will
                       * Once we have ThatClass instantiated, we can pass it into ThisClass&#8217;s constructor</ul> 
                     We end up with a hierarchy of objects that is instantiated in reverse order, like this:
                     
-                    [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="243" alt="Reconstructing The Hierarchy Of Depdencies" src="http://lostechies.com/derickbailey/files/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_thumb_4.png" width="260" border="0" />](http://lostechies.com/derickbailey/files/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_11.png) 
+                    [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="243" alt="Reconstructing The Hierarchy Of Depdencies" src="http://lostechies.com/content/derickbailey/uploads/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_thumb_4.png" width="260" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03DependencyInversionAndTheCloudOfObjects_8D80/image_11.png) 
                     
                     We have now successfully inverted our system&#8217;s construction &#8211; each implementation detail is created and passed into the the object that depends on it, re-creating our hierarchy from the bottom up. In the end, we have an instance of ThisClass that we can call into, with the same basic hierarchy of classes that we started with. The real difference is that now we can change this hierarchy at any time without worrying about breaking the functionality of the system.
                     

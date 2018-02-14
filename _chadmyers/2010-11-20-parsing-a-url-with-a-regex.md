@@ -28,4 +28,4 @@ It if takes off, I’m happy to move the repo home to a neutral account and turn
 
 I’ve set up a test suite for it based on John’s test cases and some of my own. If you clone the source and open start.html, you should see something like this:
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="urlregex" src="http://lostechies.com/chadmyers/files/2011/03/urlregex_thumb_600BADC1.png" width="675" height="657" />](http://lostechies.com/chadmyers/files/2011/03/urlregex_1A6723A3.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="urlregex" src="http://lostechies.com/content/chadmyers/uploads/2011/03/urlregex_thumb_600BADC1.png" width="675" height="657" />](http://lostechies.com/content/chadmyers/uploads/2011/03/urlregex_1A6723A3.png)

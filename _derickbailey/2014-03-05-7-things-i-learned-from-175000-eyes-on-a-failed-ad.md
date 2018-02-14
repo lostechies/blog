@@ -16,7 +16,7 @@ Through an interesting turn of events, I was given an opportunity to place an ad
 
 I spent several hours crafting the ad image, getting feedback, redesigning it and using my existing marketing material as the basis for the ad. After tweaking it to what I thought was perfection, this is the ad I ran with:
 
-[<img style="margin-left: auto;margin-right: auto" src="http://lostechies.com/derickbailey/files/2014/03/backboneplugins-ad.jpeg" alt="Backboneplugins ad" width="450" height="350" border="0" />](http://backboneplugins.com)
+[<img style="margin-left: auto;margin-right: auto" src="http://lostechies.com/content/derickbailey/uploads/2014/03/backboneplugins-ad.jpeg" alt="Backboneplugins ad" width="450" height="350" border="0" />](http://backboneplugins.com)
 
 ## The Numbers
 

@@ -31,7 +31,7 @@ I believe that we should extend the already proven design methodology of Test Dr
                     
                     You know&nbsp;they say a picture is worth a thousand words.&nbsp; So&nbsp;I would like introduce you&nbsp;to the navigational map of the Model Driven Design. 
                     
-                    [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="165" src="http://lostechies.com/joeocampo/files/2011/03ADiscussiononDomainDrivenDesign_13318/clip_image00241.jpg" width="240" border="0" />](http://lostechies.com/joeocampo/files/2011/03ADiscussiononDomainDrivenDesign_13318/clip_image00242.jpg) 
+                    [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="165" src="http://lostechies.com/content/joeocampo/uploads/2011/03ADiscussiononDomainDrivenDesign_13318/clip_image00241.jpg" width="240" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03ADiscussiononDomainDrivenDesign_13318/clip_image00242.jpg) 
                     
                     Model Driven Design is broken down into the following artifacts: 
                     

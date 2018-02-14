@@ -21,7 +21,7 @@ Instead of something every 5 seconds, we wanted to do “Every second Tuesday”
 
 We started gravitating towards an architecture where our “jobs” were really just NServiceBus handlers initiated by messages. This gave us all the durability, logging, retry etc etc that WTS doesn’t have. Plus, it was more efficient for us to just keep the job processes in memory, instead of processes waking up to do something then going to sleep. In our new architecture, we created a job initiator and a series of job executors:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/08/image_thumb.png" width="216" height="240" />](http://lostechies.com/jimmybogard/files/2012/08/image.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/08/image_thumb.png" width="216" height="240" />](http://lostechies.com/content/jimmybogard/uploads/2012/08/image.png)
 
 We then used [Quartz.NET](http://quartznet.sourceforge.net/) as a 100% C#-based job scheduler for initiating jobs. Both of these boxes are NServiceBus hosts, but the Job Initiator is a send-only endpoint. The job runners are really just NServiceBus hosts with handlers to execute the jobs. Job runners are decoupled from the schedule they run, and the job initiator is decoupled from what work actually happens as part of a job.
 

@@ -13,4 +13,4 @@ If you are Twitterhaulic like <a href="http://twitter.com/chadmyers" target="_bl
 
 Twhirl brings together tons of functionality leveraging the twitter API to the max.&nbsp; I assume that since it is uses the Adobe Air framework that it should run equally impressive on a Mac as well.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="1164" alt="Twhirl" src="http://lostechies.com/joeocampo/files/2011/03TwhirlisamustforTwitter_142EA/Capture_thumb.jpg" width="397" border="0" />](http://lostechies.com/joeocampo/files/2011/03TwhirlisamustforTwitter_142EA/Capture.jpg)
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="1164" alt="Twhirl" src="http://lostechies.com/content/joeocampo/uploads/2011/03TwhirlisamustforTwitter_142EA/Capture_thumb.jpg" width="397" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03TwhirlisamustforTwitter_142EA/Capture.jpg)

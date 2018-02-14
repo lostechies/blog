@@ -29,7 +29,7 @@ That’s still not terrible, because underneath the covers our message is still 
 
 So what typically happens **in a homogenous environment** is that data contract assemblies are shared:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/05/image_thumb.png" width="355" height="243" />](http://lostechies.com/jimmybogard/files/2013/05/image.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/05/image_thumb.png" width="355" height="243" />](http://lostechies.com/content/jimmybogard/uploads/2013/05/image.png)
 
 Both client and server share a contracts assembly, and use the contracts assembly as a description for how to construct and consume the raw messages.
 

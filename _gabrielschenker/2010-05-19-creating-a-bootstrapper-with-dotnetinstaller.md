@@ -299,10 +299,10 @@ this command as a result creates an exe called **Setup.exe** whose icon is **ACM
 
 When the bootstrapper detects that the .NET framework isn’t installed on the target system the user is asked to first download and install .NET.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_7B3F8E10.png" width="470" height="283" />](http://lostechies.com/gabrielschenker/files/2011/03/image_69CF2D38.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_7B3F8E10.png" width="470" height="283" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_69CF2D38.png) 
 
 ### Windows 2008 Server
 
 Windows 2008 Server does not allow for an explicit installation of the .NET framework (3.5.1 SP1 in our case). During installation of the framework an error dialog appears telling the user to install the .NET framework by adding a role to the server. The setup is then aborted.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_532CDEF1.png" width="468" height="353" />](http://lostechies.com/gabrielschenker/files/2011/03/image_5AB84E5E.png)
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_532CDEF1.png" width="468" height="353" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_5AB84E5E.png)

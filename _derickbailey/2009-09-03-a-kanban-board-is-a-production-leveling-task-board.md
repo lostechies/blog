@@ -21,7 +21,7 @@ What we tend to call a Kanban Board in software development is a close relative 
 
 **Figure 1** represents a very generic three step process that receives input from an upstream supplier and delivers to a downstream customer. This generic form of a Kanban board is very typical for a simple system. 
 
-     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image5" src="http://lostechies.com/derickbailey/files/2011/03/image5_1D01F681.png" width="651" height="261" />  
+     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image5" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image5_1D01F681.png" width="651" height="261" />  
 **Figure 1.** A Kanban Board. Also-Known-As HeijunkaBox++
 
 Some of the key differences between a sprint board in Scrum or a task board in XP, and a Kanban board are the following:

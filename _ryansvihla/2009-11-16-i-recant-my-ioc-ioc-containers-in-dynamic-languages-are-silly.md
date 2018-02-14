@@ -94,7 +94,7 @@ or resolve different arguments or keys using a service locator approach in later
 >                       
 >                       <blockquote>
 >                         <p>
->                           <a href="http://lostechies.com/ryansvihla/files/2011/03/Screenshot20091116at4.20.56PM_0C117192.png"><img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="Screen shot 2009-11-16 at 4.20.56 PM" src="http://lostechies.com/ryansvihla/files/2011/03/Screenshot20091116at4.20.56PM_thumb_49A1600C.png" width="625" height="530" /></a>
+>                           <a href="http://lostechies.com/content/ryansvihla/uploads/2011/03/Screenshot20091116at4.20.56PM_0C117192.png"><img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="Screen shot 2009-11-16 at 4.20.56 PM" src="http://lostechies.com/content/ryansvihla/uploads/2011/03/Screenshot20091116at4.20.56PM_thumb_49A1600C.png" width="625" height="530" /></a>
 >                         </p>
 >                         
 >                         <p>

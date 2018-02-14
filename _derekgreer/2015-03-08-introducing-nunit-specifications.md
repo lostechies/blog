@@ -20,7 +20,7 @@ To facilitate a context/specification-style API, I created a base class which ma
 
 The following is an example NUnit test written using the ContextSpecification based class from NUnit.Specifications using the [Should](https://github.com/erichexter/Should) assertion library:
 
-[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image01" src="http://lostechies.com/derekgreer/files/2015/03/image01_thumb.png" width="574" height="379" />](http://lostechies.com/derekgreer/files/2015/03/image01.png){.thickbox}
+[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image01" src="http://lostechies.com/content/derekgreer/uploads/2015/03/image01_thumb.png" width="574" height="379" />](http://lostechies.com/content/derekgreer/uploads/2015/03/image01.png){.thickbox}
 
 One nice benefit of building on top of NUnit is the wide-spread tool support available.&nbsp; Here is the test as seen through various test runners:
 

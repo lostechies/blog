@@ -33,13 +33,13 @@ This is a series of posts to describe our approach to slowly migrate a Silverlig
             
             Let’s add a new HTML file to our sample and call it **step4.html**. We start with the usual setup which includes defining header and body and referencing the css and JavaScript files. We will also add a new JavaScript file called **step4.js** to our sample. Thus we have
             
-            [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2013/12/image_thumb37.png" width="509" height="365" />](http://lostechies.com/gabrielschenker/files/2013/12/image39.png)
+            [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb37.png" width="509" height="365" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image39.png)
             
             I have added the **ng-app** directive to the <font face="Courier New">body</font> tag referencing an application called **step4App**. I have also added a <font face="Courier New">div</font> marking a region of the view which will be managed by the controller **FriendsCtrl**.
             
             The content of the JavaScript file looks like this
             
-            [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2013/12/image_thumb38.png" width="499" height="153" />](http://lostechies.com/gabrielschenker/files/2013/12/image40.png)&nbsp;
+            [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb38.png" width="499" height="153" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image40.png)&nbsp;
             
             First we define our Angular app called **step4App**, then we define a **FriendsCtrl** controller. Currently the controller is just an empty hull but we will soon enrich it with functionality.
             
@@ -47,11 +47,11 @@ This is a series of posts to describe our approach to slowly migrate a Silverlig
             
             Now lets add a button to the view that when clicked loads a list of friends from the server using the $http service. Thus add this to&nbsp; the div
             
-            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;margin: 0px 0px 24px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2013/12/image_thumb39.png" width="603" height="53" />](http://lostechies.com/gabrielschenker/files/2013/12/image41.png)
+            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;margin: 0px 0px 24px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb39.png" width="603" height="53" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image41.png)
             
             and then define the function wired to the button click event in the controller
             
-            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2013/12/image_thumb40.png" width="610" height="212" />](http://lostechies.com/gabrielschenker/files/2013/12/image42.png)
+            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb40.png" width="610" height="212" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image42.png)
             
             Ok, I agree, this is quite a bit of new stuff here. Let’s discuss each piece in turn. First of all we inject the **$scope** and the **$http** service into our **FriendsCtrl** controller. The **$scope** we have already discussed in previous posts and the **$http** service we will discuss in detail in this post. Suffice to say for now that we need the **$http** service to communicate with the server.
             
@@ -65,19 +65,19 @@ This is a series of posts to describe our approach to slowly migrate a Silverlig
             
             With this promise returned by the **$http.get** function we can register two callback functions that are executed once the call has either succeeded or failed. In our case I register this function for the success case
             
-            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2013/12/image_thumb41.png" width="580" height="100" />](http://lostechies.com/gabrielschenker/files/2013/12/image43.png)
+            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb41.png" width="580" height="100" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image43.png)
             
             In the above function I just take the data that comes from the server and which is encoded as JSON and assign it to the **friends** variable on the **$scope**. We will see shortly what we can do with the **$scope.friends** model in the view.
             
             I also register this function for the case that the call fails (errors)
             
-            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2013/12/image_thumb42.png" width="482" height="89" />](http://lostechies.com/gabrielschenker/files/2013/12/image44.png)
+            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb42.png" width="482" height="89" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image44.png)
             
             The above function just alerts the user that something terrible has happened.
             
             If I use Chrome and open the developers tools (Shift-Ctrl-J) I can analyze how the answer of my HTTP GET request looks like
             
-            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2013/12/image_thumb43.png" width="583" height="181" />](http://lostechies.com/gabrielschenker/files/2013/12/image45.png)
+            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb43.png" width="583" height="181" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image45.png)
             
             As you can see, the data is indeed JSON encoded and we get an array of objects each having a **FirstName** and **LastName** property.
             
@@ -85,15 +85,15 @@ This is a series of posts to describe our approach to slowly migrate a Silverlig
             
             Now that we can retrieve data from a (web) server we want to display it in our view. As we have seen above, our $http call returns an array of (friend) objects. Lets display this list as an unordered list. Angular offers us a very powerful directive called **ng-repeat** that we can use whenever we have to deal with list type data. Let’s use this new directive. Immediately after the button we add the following snippet
             
-            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2013/12/image_thumb44.png" width="573" height="130" />](http://lostechies.com/gabrielschenker/files/2013/12/image46.png)
+            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb44.png" width="573" height="130" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image46.png)
             
             As I said, we display our friends model as an unordered list. We use the **ng-repeat** directive to create as many list items (<font face="Courier New"><li></font> tags) as we have items in the friends collection. The expression <font face="Courier New">“friend in friends”</font> can be compared with a **foreach** loop in C#. We use the mustache syntax described in my first post to display the full name of the friends. If we run the application the result looks like this
             
-            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2013/12/image_thumb45.png" width="203" height="144" />](http://lostechies.com/gabrielschenker/files/2013/12/image47.png)
+            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb45.png" width="203" height="144" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image47.png)
             
             If we’d rather display the list of friends as a table then we can do so
             
-            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2013/12/image_thumb46.png" width="506" height="272" />](http://lostechies.com/gabrielschenker/files/2013/12/image48.png)
+            [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb46.png" width="506" height="272" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image48.png)
             
             again we have used the **ng-repeat** directive to create as many table rows as there are items in the **friends** collection.
             

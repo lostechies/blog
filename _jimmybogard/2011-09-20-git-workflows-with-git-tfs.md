@@ -81,7 +81,7 @@ git branch -d TopicBranch</pre>
                                 
                                 Working off of master also introduces weird parallel lines of work that make it difficult to understand what the heck is going on:
                                 
-                                [<img style="background-image: none; border-right-width: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/09/image_thumb6.png" width="40" height="244" />](http://lostechies.com/jimmybogard/files/2011/09/image6.png)
+                                [<img style="background-image: none; border-right-width: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/09/image_thumb6.png" width="40" height="244" />](http://lostechies.com/content/jimmybogard/uploads/2011/09/image6.png)
                                 
                                 Not a fan.
                                 

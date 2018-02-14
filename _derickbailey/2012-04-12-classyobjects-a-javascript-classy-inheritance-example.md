@@ -46,7 +46,7 @@ From my [Objects & Prototypes](http://www.watchmecode.net/javascript-objects) sc
 
 > &#8220;_More than just the remaining bugs [in the ClassyObjects framework], though, wether or not a class-y framework is a good idea to begin with is a subject of intense debate._
 > 
-> _<img title="JSObjects-ClassyObjects.029.png" src="http://lostechies.com/derickbailey/files/2012/04/JSObjects-ClassyObjects.029.png" border="0" alt="JSObjects ClassyObjects 029" width="400" height="225" />_
+> _<img title="JSObjects-ClassyObjects.029.png" src="http://lostechies.com/content/derickbailey/uploads/2012/04/JSObjects-ClassyObjects.029.png" border="0" alt="JSObjects ClassyObjects 029" width="400" height="225" />_
 > 
 > _A class-y framework like this is powerful, indeed, and there are times when it can come in handy. [Backbone](http://backbonejs.org) is a good example, again. Jeremy Ashkenas &#8211; the creator of Backbone &#8211; recognized the need to provide a simple inheritance mechanism for the objects in Backbone so he provided one. But at the same time, he didn&#8217;t split the inheritance framework out in to it&#8217;s own library. I remember reading a comment at one point where he said he didn&#8217;t want to impose that style or it&#8217;s limitations on anyone outside of Backbone._ 
 > 

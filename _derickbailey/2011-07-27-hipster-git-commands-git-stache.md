@@ -18,12 +18,12 @@ Well&#8230; thanks to [a tweet by Jimmy Bogard](https://twitter.com/#!/jbogard/s
 ## git stache
 
 <p style="font-size: 10px;">
-  <img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/07/NewImage1.png" border="0" alt="NewImage" width="400" height="291" /><br />(image from <a href="http://die-hipster-die.blogspot.com/2010/01/hipster-mustache-brigade.html">http://die-hipster-die.blogspot.com/2010/01/hipster-mustache-brigade.html</a>)
+  <img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/07/NewImage1.png" border="0" alt="NewImage" width="400" height="291" /><br />(image from <a href="http://die-hipster-die.blogspot.com/2010/01/hipster-mustache-brigade.html">http://die-hipster-die.blogspot.com/2010/01/hipster-mustache-brigade.html</a>)
 </p>
 
 Here&#8217;s what it looks like when you run git stache:
 
-<img title="Screen Shot 2011-07-27 at 1.28.39 PM.png" src="http://lostechies.com/derickbailey/files/2011/07/Screen-Shot-2011-07-27-at-1.28.39-PM.png" border="0" alt="Screen Shot 2011 07 27 at 1 28 39 PM" width="600" height="112" />
+<img title="Screen Shot 2011-07-27 at 1.28.39 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/07/Screen-Shot-2011-07-27-at-1.28.39-PM.png" border="0" alt="Screen Shot 2011 07 27 at 1 28 39 PM" width="600" height="112" />
 
 and here&#8217;s how to make it work:
 

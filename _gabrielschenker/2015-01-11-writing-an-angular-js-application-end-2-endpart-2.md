@@ -139,13 +139,13 @@ We can now compile our solution (kpm build) and run the development server (k ke
 
 This will start GES on the IP address 127.0.0.1 (loopback) listening to incoming IP requests on port 1113 and on incoming HTTP requests on port 2113. You can make sure that GES is up an running by opening a browser window and navigating to <font face="courier new">localhost:1113/web/index.html</font>. Use the login credentials admin/changeit to authenticate yourself. If that works we can now test the application using our Postman REST client on Chrome. On Linux kestrel listens on port 5004. Thus we have
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2015/01/image_thumb6.png" width="734" height="473" />](http://lostechies.com/gabrielschenker/files/2015/01/image6.png) 
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2015/01/image_thumb6.png" width="734" height="473" />](http://lostechies.com/content/gabrielschenker/uploads/2015/01/image6.png) 
 
 In this case I try to create a new recipe with name=”Spaghetti Napoli”, etc. The response from the server is 1 which is the ID of the newly created recipe. If you add another recipe the answer should be 2 and so on.
 
 No back in the GES client navigate to the Stream Browser tab and you should find a stream called RecipeAggregate-1 in the list. Select this stream and the GES client will show the list of events found in this stream. You can click on the JSON hyperlink of any event to see its details. You should get something like this
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2015/01/image_thumb7.png" width="856" height="556" />](http://lostechies.com/gabrielschenker/files/2015/01/image7.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2015/01/image_thumb7.png" width="856" height="556" />](http://lostechies.com/content/gabrielschenker/uploads/2015/01/image7.png)
 
 Great, that’s it. All works fine…
 

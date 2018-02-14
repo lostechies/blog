@@ -22,11 +22,11 @@ No, there is no need to save (the current state of) the aggregate; saving the ev
 
 We can extend the diagram that I first presented in my [last post](http://lostechies.com/gabrielschenker/2012/06/12/how-we-got-rid-of-the-database/)&nbsp; as follows
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 0px 24px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb9.png" width="610" height="454" />](http://lostechies.com/gabrielschenker/files/2012/06/image9.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 0px 24px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb9.png" width="610" height="454" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image9.png)
 
 If we now look at just the events of one single task instance we would have something like this
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb10.png" width="495" height="497" />](http://lostechies.com/gabrielschenker/files/2012/06/image10.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb10.png" width="495" height="497" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image10.png)
 
 If we create a new task aggregate and apply all the n events that we find in the event store then the result is a task aggregate that has been completed.
 
@@ -60,13 +60,13 @@ Disadvantages
 
 If we are using protbuf-net library, which is available as a nuget package, to serialize our events then we can use the standard DataContractAttribute and DataMemberAttribute to decorate our events
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb11.png" width="761" height="261" />](http://lostechies.com/gabrielschenker/files/2012/06/image11.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb11.png" width="761" height="261" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image11.png)
 
 Note that the _order_ of the properties and there _data type_ is important but not their name.
 
 Assuming we have our event serialized and it is available as an array of bytes we can use the following code to append it to an existing file
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 0px 24px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb12.png" width="623" height="780" />](http://lostechies.com/gabrielschenker/files/2012/06/image12.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 0px 24px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb12.png" width="623" height="780" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image12.png)
 
 The code is a simplified version of the productive code we use in our application. What is missing is the code that&nbsp; also stores the length of the data buffer to append as well as its version. Whilst incomplete the above code snippet nevertheless shows that there is no magic needed and certainly no expensive database required to save (serialized) events to the file system.
 

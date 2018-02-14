@@ -25,7 +25,7 @@ The Visitor pattern encapsulates common behavior within a single class which is 
 
 &#160;
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="VisitorClassDiagram" src="http://lostechies.com/derekgreer/files/2011/03/VisitorClassDiagram_093E7956.png" />](http://lostechies.com/derekgreer/files/2011/03/VisitorClassDiagram_thumb_74BBBA88.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="VisitorClassDiagram" src="http://lostechies.com/content/derekgreer/uploads/2011/03/VisitorClassDiagram_093E7956.png" />](http://lostechies.com/content/derekgreer/uploads/2011/03/VisitorClassDiagram_thumb_74BBBA88.png) 
 
 &#160;
 

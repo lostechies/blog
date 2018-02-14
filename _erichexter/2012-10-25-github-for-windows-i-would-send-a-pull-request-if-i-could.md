@@ -19,15 +19,15 @@ It took a horrible installation experience and turned it into a pleasant surpris
 
 Now, that I am done with the [Github](https://github.com/) fanboy act. I find that there is one area of friction for me when using GH4W. I am constantly using it to locate a repository. I usually don’t remember where the folders are on my disk drive as I switch between my many machines. Then I click on the Tools menu and then open in explorer, then I click on one of my batch files. I have one to open Visual Studio, one to force a deployment in my preferred cloud system, and a todo command that opens up [trello](https://trello.com/) in a browser. I don’t need bother with synchronizing bookmarks or urls because I keep the important information for each project in the repositories. Because I follow this convention, it seems like with a simple change to the GH4W client, I could reduce two mouse clicks and a bunch of wait time, Windows Explorer starting up, and then locating my batch files. I know I could just keep a console window open.. but why, I am already using GH4W, which is primarily a point and click app, so context switching to the command line at this points is kind of a pain. Once I am in visual studio I use the nuget package manager console to run powershell, I don’t need a separate window.
 
-_[<img class="alignnone size-medium wp-image-159" title="image1" src="http://lostechies.com/erichexter/files/2012/10/image1-300x183.png" alt="" width="300" height="183" />](http://lostechies.com/erichexter/files/2012/10/image1.png)
+_[<img class="alignnone size-medium wp-image-159" title="image1" src="http://lostechies.com/content/erichexter/uploads/2012/10/image1-300x183.png" alt="" width="300" height="183" />](http://lostechies.com/content/erichexter/uploads/2012/10/image1.png)
   
 Above are the batch files I typically have in the root of my source control. It would be simple to enumerate these and add them to the tools context window of the repository. Here is a little mock up of what it could look like._
 
-[<img class="alignnone size-full wp-image-160" title="image2" src="http://lostechies.com/erichexter/files/2012/10/image2.png" alt="" width="556" height="225" />](http://lostechies.com/erichexter/files/2012/10/image2.png)
+[<img class="alignnone size-full wp-image-160" title="image2" src="http://lostechies.com/content/erichexter/uploads/2012/10/image2.png" alt="" width="556" height="225" />](http://lostechies.com/content/erichexter/uploads/2012/10/image2.png)
   
 _The existing context menu._
 
-[<img class="alignnone size-full wp-image-161" title="image3" src="http://lostechies.com/erichexter/files/2012/10/image3.png" alt="" width="804" height="293" />](http://lostechies.com/erichexter/files/2012/10/image3.png)
+[<img class="alignnone size-full wp-image-161" title="image3" src="http://lostechies.com/content/erichexter/uploads/2012/10/image3.png" alt="" width="804" height="293" />](http://lostechies.com/content/erichexter/uploads/2012/10/image3.png)
 
 _The context menu with additional commands located in the root of my repository._
 

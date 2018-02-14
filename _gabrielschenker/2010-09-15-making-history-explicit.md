@@ -27,7 +27,7 @@ To show the concept I chose the sample of a Zoo whose management wants to keep t
 
 The current state (i.e. the cage) is important whenever the Zoo management wants to make an inventory (or census) of all cages and animals. On the other hand the history records (i.e. cage history entities) are important whenever the management wants to do retrospective reporting and/or billing. 
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_1C8E9EAA.png" width="601" height="360" />](http://lostechies.com/gabrielschenker/files/2011/03/image_5D30EB19.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_1C8E9EAA.png" width="601" height="360" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_5D30EB19.png) 
 
 As we can see in the above image a cage is of a certain cage type and is located at a specific location. The cage has many other properties which I do not show here to keep the sample as simple as possible. Now a cage is installed at some location but this location may change over time (imagine a fish tank that is move from floor A of building 1 to floor B. In such a situation a history record has to be generated.
 

@@ -16,7 +16,7 @@ In the previous post on saga implementation patterns, we looked at the [Observer
 
 Instead of merely observing events from other entities, we can have our saga perform an active role in the process. The saga controls the flow directly, issuing commands to specific workers, waiting for replies, and moves on to the next step. It works well for processes that need to happen in a certain order:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/03/image_thumb3.png" width="465" height="354" />](http://lostechies.com/jimmybogard/files/2013/03/image3.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb3.png" width="465" height="354" />](http://lostechies.com/content/jimmybogard/uploads/2013/03/image3.png)
 
 Our saga has a specific order, and many times, steps later in the saga need information from previous steps. In order to enforce an order, we need to take control of the process. We can’t ship before we bill, and we can’t bill before we procure, etc.
 
@@ -28,7 +28,7 @@ The key here is that our Controller saga directs with commands, and our Observer
 
 While our McDonald’s example featured many steps that could execute in parallel, with no real interaction or dependencies, our local sandwich shop of Which Wich is completely the opposite. In this shop, the entire process is a single pipeline:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/03/image_thumb4.png" width="607" height="257" />](http://lostechies.com/jimmybogard/files/2013/03/image4.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb4.png" width="607" height="257" />](http://lostechies.com/content/jimmybogard/uploads/2013/03/image4.png)
 
 Our customer begins the process by placing an order. At Which Wich, this is done in a rather ingenious manner. The customer picks a paper bag labeled with a main ingredient. On the bag are lists of toppings alongside little bubbles. The customer uses markers to color in the bubbles indicating what toppings they want on their sandwich. Finally, the customer puts their name on the bag so that when their order is completed, the person delivering the sandwich knows whom to deliver to.
 

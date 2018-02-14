@@ -34,13 +34,13 @@ Then developers can walk by the “code line” as tell if you missed a spot or 
 
 Here is a screen shot of a class file from an awesome OSS project! 
 
-[<img src="http://lostechies.com/joeocampo/files/2011/03Hangingyourcodeouttodry_E640/Good_File_thumb.jpg" style="border: 0px none" alt="Good_File" border="0" height="383" width="644" />](http://lostechies.com/joeocampo/files/2011/03Hangingyourcodeouttodry_E640/Good_File_2.jpg) 
+[<img src="http://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Good_File_thumb.jpg" style="border: 0px none" alt="Good_File" border="0" height="383" width="644" />](http://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Good_File_2.jpg) 
 
 As you can see nice, if you just performed a cursory glance of this code hanging on a line you wouldn’t be too concerned about your teams code. 
 
 Now check this out! 
 
-[<img src="http://lostechies.com/joeocampo/files/2011/03Hangingyourcodeouttodry_E640/Bad_Need_Refactoring_thumb.jpg" style="border: 0px none" alt="Bad_Need_Refactoring" border="0" height="367" width="644" />](http://lostechies.com/joeocampo/files/2011/03Hangingyourcodeouttodry_E640/Bad_Need_Refactoring_2.jpg) 
+[<img src="http://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Bad_Need_Refactoring_thumb.jpg" style="border: 0px none" alt="Bad_Need_Refactoring" border="0" height="367" width="644" />](http://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Bad_Need_Refactoring_2.jpg) 
 
 Yes this 30 page monster is ONE class!!! 
 

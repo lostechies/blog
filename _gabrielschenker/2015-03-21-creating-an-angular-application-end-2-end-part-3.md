@@ -74,11 +74,11 @@ On line 15 we create a new instance of the MongoDB projection writer passing in 
 
 We can now compile our code (kpm build) and if ok run the webserver (k kestrel). We also need to make sure MongoDB runs (see [here](http://lostechies.com/gabrielschenker/2014/12/31/creating-an-ubuntu-developer-vm-on-hyper-v-part-2/) for more details). We can then use the Postman plugin for Chrome to send a post request to the test controller just implemented above. Create a POST request to the URI [http://localhost:5004/api/test/test](http://localhost:5004/api/test/test "http://localhost:5004/api/test/test"). We should see the following in the terminal
 
-[<img style="border-width: 0px;" src="http://lostechies.com/gabrielschenker/files/2015/03/image_thumb.png" alt="image" width="468" height="129" border="0" />](http://lostechies.com/gabrielschenker/files/2015/03/image.png)
+[<img style="border-width: 0px;" src="http://lostechies.com/content/gabrielschenker/uploads/2015/03/image_thumb.png" alt="image" width="468" height="129" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2015/03/image.png)
 
 And if we use e.g. [Robomongo](http://robomongo.org/) to access MongoDB and analyze the outcome we should see this
 
-[<img style="border-width: 0px;" src="http://lostechies.com/gabrielschenker/files/2015/03/image_thumb1.png" alt="image" width="804" height="417" border="0" />](http://lostechies.com/gabrielschenker/files/2015/03/image1.png)
+[<img style="border-width: 0px;" src="http://lostechies.com/content/gabrielschenker/uploads/2015/03/image_thumb1.png" alt="image" width="804" height="417" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2015/03/image1.png)
 
 Clearly our code has created a new collection **RecipeView** in a database Recipes and we also see that in this collection there is the expected recipe with all its properties.
 

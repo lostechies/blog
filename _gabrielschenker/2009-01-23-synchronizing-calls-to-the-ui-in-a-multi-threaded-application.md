@@ -12,7 +12,7 @@ categories:
   - multi threading
 redirect_from: "/blogs/gabrielschenker/archive/2009/01/23/synchronizing-calls-to-the-ui-in-a-multi-threaded-application.aspx/"
 ---
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="200" alt="synchronize" src="http://lostechies.com/gabrielschenker/files/2011/03/synchronize_thumb.jpg" width="244" align="right" border="0" />](http://lostechies.com/gabrielschenker/files/2011/03/synchronize_2.jpg) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="200" alt="synchronize" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/synchronize_thumb.jpg" width="244" align="right" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/synchronize_2.jpg) 
 
 ## Introduction
 
@@ -46,7 +46,7 @@ How many times have you seen code like the one below in a multi threaded WinForm
 
 This code fragment checks whether it is running in the UI thread or not. If it is not running in the UI thread the call has to be synchronized with the UI thread by calling the **BeginInvoke()** method of the underlying control.
 
-I confess that not too many years ago &#8211; maybe 3 or so &#8211; I was guilty of having implemented similar code as well. [<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="98" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb.png" width="152" align="left" border="0" />](http://lostechies.com/gabrielschenker/files/2011/03/image_2.png)Then I got sick of all this repetitive code. **Don&#8217;t repeat yourself** (DRY) has always been one of my primary goals during my career as a developer. This was the time when I discovered that there is such a thing called **SynchronizationContext** in the .NET framework. I was then able to implement an event broker which handled all the synchronization for me and my UI code was freed from the burden of synchronization.
+I confess that not too many years ago &#8211; maybe 3 or so &#8211; I was guilty of having implemented similar code as well. [<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="98" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb.png" width="152" align="left" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_2.png)Then I got sick of all this repetitive code. **Don&#8217;t repeat yourself** (DRY) has always been one of my primary goals during my career as a developer. This was the time when I discovered that there is such a thing called **SynchronizationContext** in the .NET framework. I was then able to implement an event broker which handled all the synchronization for me and my UI code was freed from the burden of synchronization.
 
 Lately a friend of mine came to me with the same kind of code I showed just above. He complained that such code **sucks**. I told him &#8220;You are right man! Been there&#8230;&#8221;
 
@@ -56,7 +56,7 @@ So let&#8217;s find a solution for this problem. I want to free up the UI code f
 
 ### Working with events
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="98" alt="event" src="http://lostechies.com/gabrielschenker/files/2011/03/event_thumb.jpg" width="244" align="right" border="0" />](http://lostechies.com/gabrielschenker/files/2011/03/event_2.jpg) Imagine having a stock quote service that periodically returns you the current quote for a given symbol. The quote service runs in a background thread and notifies the UI thread via an event. Let me first show an implementation where the burden of thread synchronization has to be taken by the consumer of the quote service.
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="98" alt="event" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/event_thumb.jpg" width="244" align="right" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/event_2.jpg) Imagine having a stock quote service that periodically returns you the current quote for a given symbol. The quote service runs in a background thread and notifies the UI thread via an event. Let me first show an implementation where the burden of thread synchronization has to be taken by the consumer of the quote service.
 
 &nbsp;
 
@@ -264,7 +264,7 @@ Here the consumer is a form (in a WinForms application). When the user clicks on
 
 ### Working by registering lambda expressions
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="167" alt="register" src="http://lostechies.com/gabrielschenker/files/2011/03/register_thumb.jpg" width="244" align="left" border="0" />](http://lostechies.com/gabrielschenker/files/2011/03/register_2.jpg) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="167" alt="register" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/register_thumb.jpg" width="244" align="left" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/register_2.jpg) 
 
 &nbsp;
 
@@ -408,7 +408,7 @@ Well that&#8217;s it, or is it? No! That cannot be the final solution&#8230; Our
 
 ### Working with a message broker or message bus
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="163" alt="bulb" src="http://lostechies.com/gabrielschenker/files/2011/03/bulb_thumb.jpg" width="244" align="left" border="0" />](http://lostechies.com/gabrielschenker/files/2011/03/bulb_2.jpg) Let&#8217;s lean back for a moment and reflect on what really happens. What we are really doing is to exchange messages between (service-) providers and consumers. So what if we could just introduce a man in the middle which does the dirty task of synchronization for us? Any provider just posts its messages to this man in the middle (let us call it message broker for now). And any consumer registers with the broker for specific types of messages. The broker then just receives messages and distributes them to all registered consumers. Before distributing a message it synchronizes the threads.
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="163" alt="bulb" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/bulb_thumb.jpg" width="244" align="left" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/bulb_2.jpg) Let&#8217;s lean back for a moment and reflect on what really happens. What we are really doing is to exchange messages between (service-) providers and consumers. So what if we could just introduce a man in the middle which does the dirty task of synchronization for us? Any provider just posts its messages to this man in the middle (let us call it message broker for now). And any consumer registers with the broker for specific types of messages. The broker then just receives messages and distributes them to all registered consumers. Before distributing a message it synchronizes the threads.
 
 The code below shows a (very simplistic) implementation of such a message broker. A provider can use the **Send<T>(&#8230;)** method to post a message and a consumer can register itself by using the **Register<T>(&#8230;)** method. Here T represents the message type.
 

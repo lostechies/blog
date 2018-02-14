@@ -15,7 +15,7 @@ redirect_from: "/blogs/derickbailey/archive/2010/11/25/replicating-my-osx-termin
 ---
 After getting my [OSX Terminal prompt](http://www.lostechies.com/blogs/derickbailey/archive/2010/11/24/my-osx-terminal-prompt-reposted-from-tumblr.aspx) all set up and loving it, I decided I wanted to have the same basic prompt in my Win7 virtual machine when I use a [Git Bash (MinGW32) shell w/ MSysGit](http://code.google.com/p/msysgit/). Here&#8217;s what I came up with:
 
-<img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2010-11-25-at-10.56.27-AM.png" border="0" alt="Screen shot 2010-11-25 at 10.56.27 AM.png" width="600" height="298" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2010-11-25-at-10.56.27-AM.png" border="0" alt="Screen shot 2010-11-25 at 10.56.27 AM.png" width="600" height="298" />
 
 Note that all of the major components are available, with a few minor exceptions on the details.
 

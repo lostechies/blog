@@ -12,7 +12,7 @@ categories:
   - Community
 redirect_from: "/blogs/hex/archive/2010/03/18/redgate-is-a-platinum-sponsor-of-austin-code-camp-2010.aspx/"
 ---
-**[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="RG-simpletools-onwhite_320x100" src="http://lostechies.com/erichexter/files/2011/03/RGsimpletoolsonwhite_320x100_37955639.jpg" width="240" height="75" />](http://www.red-gate.com/products/ants_memory_profiler/index.htm?utm_source=ug&utm_medium=uglogo&utm_content=austin&utm_campaign=antsmemoryprofiler)&#160;**
+**[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="RG-simpletools-onwhite_320x100" src="http://lostechies.com/content/erichexter/uploads/2011/03/RGsimpletoolsonwhite_320x100_37955639.jpg" width="240" height="75" />](http://www.red-gate.com/products/ants_memory_profiler/index.htm?utm_source=ug&utm_medium=uglogo&utm_content=austin&utm_campaign=antsmemoryprofiler)&#160;**
 
 ****
 

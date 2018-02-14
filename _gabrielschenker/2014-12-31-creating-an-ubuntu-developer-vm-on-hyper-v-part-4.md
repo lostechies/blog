@@ -72,7 +72,7 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         which gives us
         
-        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb10.png" width="619" height="119" />](http://lostechies.com/gabrielschenker/files/2014/12/image10.png)
+        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb10.png" width="619" height="119" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image10.png)
         
         ## Running the Web samples
         
@@ -90,15 +90,15 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         which now should give this
         
-        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb11.png" width="611" height="153" />](http://lostechies.com/gabrielschenker/files/2014/12/image11.png)
+        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb11.png" width="611" height="153" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image11.png)
         
         with your browser navigate to localhost:5004 and enjoy 🙂
         
-        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb12.png" width="611" height="470" />](http://lostechies.com/gabrielschenker/files/2014/12/image12.png)&nbsp;
+        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb12.png" width="611" height="470" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image12.png)&nbsp;
         
         We can stop Kestrel by pressing CTRL-z
         
-        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb13.png" width="610" height="143" />](http://lostechies.com/gabrielschenker/files/2014/12/image13.png)
+        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb13.png" width="610" height="143" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image13.png)
         
         ## Defining a REST API
         
@@ -108,7 +108,7 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         save and restart kestrel. In the browser navigate to <http://localhost:5004/api/todo> and you should see this
         
-        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb14.png" width="614" height="386" />](http://lostechies.com/gabrielschenker/files/2014/12/image14.png) </p> 
+        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb14.png" width="614" height="386" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image14.png) </p> 
         
         Well, well, that’s a good start…!
         

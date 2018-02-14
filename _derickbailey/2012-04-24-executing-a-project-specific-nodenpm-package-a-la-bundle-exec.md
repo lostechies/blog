@@ -17,7 +17,7 @@ It&#8217;s no secret that I love NodeJS, though I really haven&#8217;t blogged a
 
 If I run &#8220;npm install express&#8221; from within a folder, the &#8220;express&#8221; package will be installed in to my ./node_modules folder.
 
-<img title="Screen Shot 2012-04-17 at 6.28.41 PM.png" src="http://lostechies.com/derickbailey/files/2012/04/Screen-Shot-2012-04-17-at-6.28.41-PM.png" alt="Screen Shot 2012 04 17 at 6 28 41 PM" width="600" height="222" border="0" />
+<img title="Screen Shot 2012-04-17 at 6.28.41 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/04/Screen-Shot-2012-04-17-at-6.28.41-PM.png" alt="Screen Shot 2012 04 17 at 6 28 41 PM" width="600" height="222" border="0" />
 
 But I can&#8217;t say &#8220;express foo&#8221; on the command line at this point, to run express. And I can&#8217;t say &#8220;npm express foo&#8221; or &#8220;npm exec express foo&#8221; or anything like that. This ability is sadly missing from NPM. There are a few ways to get around this, though.
 
@@ -25,7 +25,7 @@ But I can&#8217;t say &#8220;express foo&#8221; on the command line at this poin
 
 When you install a Node module with the \`-g\` option, it installs in to the global module list. Global modules can have their bin files run from the command line just like any other command. So if you install the &#8220;express&#8221; module, for example, with the global flag then you&#8217;ll be able to say &#8220;express foo&#8221; from the command line and watch it build a fresh new project for you in the &#8220;foo&#8221; folder.
 
-<img title="Screen Shot 2012-04-17 at 6.30.23 PM.png" src="http://lostechies.com/derickbailey/files/2012/04/Screen-Shot-2012-04-17-at-6.30.23-PM.png" alt="Screen Shot 2012 04 17 at 6 30 23 PM" width="456" height="600" border="0" />
+<img title="Screen Shot 2012-04-17 at 6.30.23 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/04/Screen-Shot-2012-04-17-at-6.30.23-PM.png" alt="Screen Shot 2012 04 17 at 6 30 23 PM" width="456" height="600" border="0" />
 
 This is nice for packages that you want to have available for any application you&#8217;re building. I use global packages a lot because some of the tools that you can find in node packages are quite useful, even outside the context of a node project. But not every package should be installed in the global package repository for your computer.
 
@@ -33,7 +33,7 @@ This is nice for packages that you want to have available for any application yo
 
 You can also run bin files from node modules by using the relative path of ./node_modules/.bin/ to find the command.
 
-<img title="Screen Shot 2012-04-17 at 6.32.44 PM.png" src="http://lostechies.com/derickbailey/files/2012/04/Screen-Shot-2012-04-17-at-6.32.44-PM.png" alt="Screen Shot 2012 04 17 at 6 32 44 PM" width="442" height="125" border="0" />
+<img title="Screen Shot 2012-04-17 at 6.32.44 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/04/Screen-Shot-2012-04-17-at-6.32.44-PM.png" alt="Screen Shot 2012 04 17 at 6 32 44 PM" width="442" height="125" border="0" />
 
 This is a bit tedious, though it is functional. I&#8217;ve build a few simple command / shell scripts to execute some of my installed modules this way, for some of my projects. That makes it a bit easier overall, but you have to set up a shell script for each package you want.
 
@@ -49,7 +49,7 @@ Just &#8220;chmod +x npm_exec&#8221; to make this file executable, and away we g
 
 Now I can run any arbitrary package binary I want. I could even put this little shell script in my /usr/local/bin folder and it would be available for all of my node projects, anywhere on my box.
 
-<img title="Screen Shot 2012-04-17 at 6.35.03 PM.png" src="http://lostechies.com/derickbailey/files/2012/04/Screen-Shot-2012-04-17-at-6.35.03-PM.png" alt="Screen Shot 2012 04 17 at 6 35 03 PM" width="332" height="124" border="0" />
+<img title="Screen Shot 2012-04-17 at 6.35.03 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/04/Screen-Shot-2012-04-17-at-6.35.03-PM.png" alt="Screen Shot 2012 04 17 at 6 35 03 PM" width="332" height="124" border="0" />
 
 This is a nice little solution, even if it&#8217;s a work around for something that should be built in to npm.
 
@@ -69,7 +69,7 @@ You can do more with &#8220;scripts&#8221;, too. You can add your own named scri
 
 But you can&#8217;t just &#8220;npm foo&#8221;. The &#8220;start&#8221; script is recognized by npm explicitly. For other non-standard script names, you have to use the &#8220;run-script&#8221; command from node: npm run-script foo
 
-<img title="Screen Shot 2012-04-17 at 6.38.18 PM.png" src="http://lostechies.com/derickbailey/files/2012/04/Screen-Shot-2012-04-17-at-6.38.18-PM.png" alt="Screen Shot 2012 04 17 at 6 38 18 PM" width="505" height="195" border="0" />
+<img title="Screen Shot 2012-04-17 at 6.38.18 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/04/Screen-Shot-2012-04-17-at-6.38.18-PM.png" alt="Screen Shot 2012 04 17 at 6 38 18 PM" width="505" height="195" border="0" />
 
 The other thing that this does for us, is give us direct access to all of the bin files that our node packages have installed. So within a &#8220;script&#8221; configuration, we can call any arbitrary package&#8217;s bin file.
 
@@ -79,11 +79,11 @@ For example, if I want to use the node-supervisor package to restart my app when
 
 This will install the &#8220;supervisor&#8221; package for development only, and set up the &#8220;start&#8221; script to run &#8220;supervisor app&#8221;. Now from the command line, I can&#8217;t run &#8220;supervisor app&#8221; directly:
 
-<img title="Screen Shot 2012-04-17 at 6.40.56 PM.png" src="http://lostechies.com/derickbailey/files/2012/04/Screen-Shot-2012-04-17-at-6.40.56-PM.png" alt="Screen Shot 2012 04 17 at 6 40 56 PM" width="448" height="60" border="0" />
+<img title="Screen Shot 2012-04-17 at 6.40.56 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/04/Screen-Shot-2012-04-17-at-6.40.56-PM.png" alt="Screen Shot 2012 04 17 at 6 40 56 PM" width="448" height="60" border="0" />
 
 But I can run &#8220;node start&#8221; and node will pick up the ./node_modules/.bin/ folder for me, allowing supervisor to be executed:
 
-<img title="Screen Shot 2012-04-17 at 6.41.49 PM.png" src="http://lostechies.com/derickbailey/files/2012/04/Screen-Shot-2012-04-17-at-6.41.49-PM.png" alt="Screen Shot 2012 04 17 at 6 41 49 PM" width="542" height="495" border="0" />
+<img title="Screen Shot 2012-04-17 at 6.41.49 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/04/Screen-Shot-2012-04-17-at-6.41.49-PM.png" alt="Screen Shot 2012 04 17 at 6 41 49 PM" width="542" height="495" border="0" />
 
 This works well for recurring / repetitive tasks within a project. But if you want ad-hoc package commands, you&#8217;re going to be in for a little more work and will likely have to fall back to one of the other solutions I&#8217;ve mentioned.
 

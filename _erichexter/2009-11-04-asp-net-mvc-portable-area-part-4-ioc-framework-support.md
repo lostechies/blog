@@ -25,7 +25,7 @@ Using an Inversion of Control Container is a common scenario that would be neede
 
 &nbsp;
 
-[<img style="border-width: 0px;" src="http://lostechies.com/erichexter/files/2011/03/image_thumb_2CCFB735.png" alt="image" width="644" height="179" border="0" />](http://lostechies.com/erichexter/files/2011/03/image_600BF09E.png)
+[<img style="border-width: 0px;" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_2CCFB735.png" alt="image" width="644" height="179" border="0" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_600BF09E.png)
 
 &nbsp;
 

@@ -22,15 +22,15 @@ I’ve played with Balsamiq in the past, but never for an actual project. In les
 
 **The “Org Chart” Main Form**
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="231" alt="Org Chart View" src="http://lostechies.com/derickbailey/files/2011/03/OrgChartView_thumb_5376DC0D.png" width="244" border="0" />](http://lostechies.com/derickbailey/files/2011/03/OrgChartView_3BBFA4A7.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="231" alt="Org Chart View" src="http://lostechies.com/content/derickbailey/uploads/2011/03/OrgChartView_thumb_5376DC0D.png" width="244" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/OrgChartView_3BBFA4A7.png) 
 
 **The “Add New Employee – Info” Form**
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="130" alt="New Employee - Info" src="http://lostechies.com/derickbailey/files/2011/03/NewEmployeeInfo_thumb_43879749.png" width="244" border="0" />](http://lostechies.com/derickbailey/files/2011/03/NewEmployeeInfo_647B09F0.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="130" alt="New Employee - Info" src="http://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeInfo_thumb_43879749.png" width="244" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeInfo_647B09F0.png) 
 
 **The “Add New Employee – Manager” Form**
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="103" alt="New Employee - Manager" src="http://lostechies.com/derickbailey/files/2011/03/NewEmployeeManager_thumb_21BBBEB8.png" width="244" border="0" />](http://lostechies.com/derickbailey/files/2011/03/NewEmployeeManager_709C8417.png) </p> 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="103" alt="New Employee - Manager" src="http://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeManager_thumb_21BBBEB8.png" width="244" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeManager_709C8417.png) </p> 
 
 The general workflow between these screens should be fairly intuitive. You can select an employee from the treeview, in the main form, and see their details. You can also click the “Add New Employee” button to go through the wizard-style process of adding a new employee’s information and selecting their manager.
 

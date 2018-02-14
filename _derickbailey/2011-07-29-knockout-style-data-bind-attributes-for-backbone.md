@@ -23,7 +23,7 @@ And with the ability to plug your own model binding conventions into Backbone.Mo
 
 Let&#8217;s take a look at the example I keep using for this plugin, again:
 
-<img title="Screen Shot 2011-07-29 at 12.44.29 PM.png" src="http://lostechies.com/derickbailey/files/2011/07/Screen-Shot-2011-07-29-at-12.44.29-PM.png" border="0" alt="Screen Shot 2011 07 29 at 12 44 29 PM" width="600" height="393" />
+<img title="Screen Shot 2011-07-29 at 12.44.29 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/07/Screen-Shot-2011-07-29-at-12.44.29-PM.png" border="0" alt="Screen Shot 2011 07 29 at 12 44 29 PM" width="600" height="393" />
 
 We all know that Backbone.ModelBinding will handle the binding between the form inputs and the model that is bound to the add/edit view. However, the big box that represents our medication in the &#8220;Current Medications&#8221; list was not updated automatically. In order to get this to update, we had to re-render the view with the updated model.
 
@@ -57,7 +57,7 @@ The key here is the &#8216;data-bind&#8217; attribute that I&#8217;ve added to t
 
 Now when we update our form by typing into the text boxes and then causing the text box to lose focus (so that the &#8216;change&#8217; event can fire), our medication view updates instantly!
 
-<img title="Screen Shot 2011-07-29 at 12.47.43 PM.png" src="http://lostechies.com/derickbailey/files/2011/07/Screen-Shot-2011-07-29-at-12.47.43-PM.png" border="0" alt="Screen Shot 2011 07 29 at 12 47 43 PM" width="600" height="393" />
+<img title="Screen Shot 2011-07-29 at 12.47.43 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/07/Screen-Shot-2011-07-29-at-12.47.43-PM.png" border="0" alt="Screen Shot 2011 07 29 at 12 47 43 PM" width="600" height="393" />
 
 As I tabbed out of the &#8220;Trade name&#8221; field and into the &#8220;Dosage&#8221; field, the medication view updated and showed the change in the medication&#8217;s name!
 

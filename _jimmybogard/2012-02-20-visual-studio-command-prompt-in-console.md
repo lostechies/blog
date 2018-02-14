@@ -16,7 +16,7 @@ I’m a big fan of [Console](http://sourceforge.net/projects/console/) – it’
 
 That might not be the same on your system, but it’s easy to find it out. Just find the shortcut for the Visual Studio Command Prompt in your Start menu (or whatever it’s called in Windows 7), and go to “Properties”. Copy the “Target” value:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/02/image_thumb4.png" width="390" height="537" />](http://lostechies.com/jimmybogard/files/2012/02/image4.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/02/image_thumb4.png" width="390" height="537" />](http://lostechies.com/content/jimmybogard/uploads/2012/02/image4.png)
 
 And set this as the “Shell” value in Console.
 

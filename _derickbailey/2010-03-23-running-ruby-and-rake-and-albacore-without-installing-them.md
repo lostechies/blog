@@ -26,13 +26,13 @@ Since the ruby runtime itself is xcopy deployable, this means that every ruby sc
 
 After downloading the ruby runtime (I recommend v1.8.7 at this point), unpack it into your project folder. You should see three folders that represent all of the ruby needs for your system.
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_55D249F2.png" width="458" height="180" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_55D249F2.png" width="458" height="180" />
 
 And that it’s! you’re done! You can now run ruby from the “bin” folder that you just unpacked. Any .rb script file that you want to run can now be run by calling the “ruby” command from this folder.
 
 To verify your ruby runtime, open a command prompt in this folder and you should be able to check the ruby version like this:
 
-&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_152FFD83.png" width="697" height="171" />
+&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_152FFD83.png" width="697" height="171" />
 
 Here, you can see that I’m running v1.8.7, with the patch level and release date, etc. 
 
@@ -42,11 +42,11 @@ Here, you can see that I’m running v1.8.7, with the patch level and release da
 
 The RubyGems system is quite amazing in both it’s simplicity and it’s functionality. It allows you to install pre-packaged scripts and binaries that provide a wealth of new functionality and capabilities for your ruby installation. To install a gem, just run “gems install <gemname>” from the same command prompt that you have open. For example, you can install Albacore like this:
 
-&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_6D898158.png" width="697" height="395" />
+&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_6D898158.png" width="697" height="395" />
 
 You can see that running “gem install albacore” brought more than just albacore down to the computer. Albacore has provided a list of required gems that it needs to run and the gem system has automatically downloaded and installed them for you. But the best part about this is that albacore and all of it’s dependencies were installed into the ruby folder structure that we executed the gem system from.
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_1EA8BBF9.png" width="681" height="413" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_1EA8BBF9.png" width="681" height="413" />
 
 You can see the entire folder structure for the ruby runtime is set up to be a self contained sandbox. This gives us a lot of flexibility in how we setup and configure specific versions of the ruby runtime, allowing multiple copies of the same version on the same machine even (as I’m writing this, I have 2 distinct copies of ruby 1.8.7 on my machine, plus IronRuby and Ruby 1.8.6).
 
@@ -58,7 +58,7 @@ Let’s use a little bit of magic internet time now and fast forward to the poin
 
 If you want to make it easy for people to run your rakefile without having to remember to type in the “rubybin” path, you can create a simple batch file like this:
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_52DCE53F.png" width="464" height="291" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_52DCE53F.png" width="464" height="291" />
 
 The Rake system was installed with albacore, as one of the dependencies. Running “rubybinrake” from the project’s root folder will tell it Rake to execute the “rakefile.rb” script. Adding a “build.cmd” batch file will make this a no-brainer for the entire team. 
 

@@ -78,7 +78,7 @@ UpdateVersion modifies a private field but does not return a value. Compile that
 
 The UpdateVersion method is called, not expecting a return value. Build and run the ConsoleMessager.
 
-[<img src="http://lostechies.com/sharoncichelli/files/2011/08/RunWithVersion1-300x67.png" alt="The ConsoleMessager calls the MessageOutputter for its message." title="RunWithVersion1" width="300" height="67" class="alignnone size-medium wp-image-53" srcset="/content/sharoncichelli/uploads/2011/08/RunWithVersion1-300x67.png 300w, /content/sharoncichelli/uploads/2011/08/RunWithVersion1-768x172.png 768w, /content/sharoncichelli/uploads/2011/08/RunWithVersion1.png 843w" sizes="(max-width: 300px) 100vw, 300px" />](/content/sharoncichelli/uploads/2011/08/RunWithVersion1.png)
+[<img src="http://lostechies.com/content/sharoncichelli/uploads/2011/08/RunWithVersion1-300x67.png" alt="The ConsoleMessager calls the MessageOutputter for its message." title="RunWithVersion1" width="300" height="67" class="alignnone size-medium wp-image-53" srcset="/content/sharoncichelli/uploads/2011/08/RunWithVersion1-300x67.png 300w, /content/sharoncichelli/uploads/2011/08/RunWithVersion1-768x172.png 768w, /content/sharoncichelli/uploads/2011/08/RunWithVersion1.png 843w" sizes="(max-width: 300px) 100vw, 300px" />](/content/sharoncichelli/uploads/2011/08/RunWithVersion1.png)
 
 Return to the MessageOutputter solution and modify the UpdateVersion method to return the message after it modifies it.
 
@@ -108,11 +108,11 @@ Now UpdateVersion returns a string. Build the solution and copy its new dll back
   Unhandled Exception: System.MissingMethodException: Method not found: &#8216;Void MessageOutputter.Outputter.UpdateVersion(System.String)&#8217; at ConsoleMessager.Program.Main(String[] args)
 </div>
 
-[<img src="http://lostechies.com/sharoncichelli/files/2011/08/ErrorWithVersion2-300x81.png" alt="MissingMethodException" title="ErrorWithVersion2" width="300" height="81" class="alignnone size-medium wp-image-52" />](/content/sharoncichelli/uploads/2011/08/ErrorWithVersion2.png)
+[<img src="http://lostechies.com/content/sharoncichelli/uploads/2011/08/ErrorWithVersion2-300x81.png" alt="MissingMethodException" title="ErrorWithVersion2" width="300" height="81" class="alignnone size-medium wp-image-52" />](/content/sharoncichelli/uploads/2011/08/ErrorWithVersion2.png)
 
 The MissingMethodException indicates that ConsoleMessager, when looking within the MessageOutputter library, could not find an UpdateVersion method that returns void. Reopen the ConsoleMessager solution. Before you even build, IntelliSense will tell you that UpdateVersion returns a string now. Build ConsoleMessager and run it again, to see that it works successfully.
 
-[<img src="http://lostechies.com/sharoncichelli/files/2011/08/RunWithVersion2-300x60.png" alt="After rebuilding, ConsoleMessager successfully calls the new MessageOutputter." title="RunWithVersion2" width="300" height="60" class="alignnone size-medium wp-image-54" srcset="/content/sharoncichelli/uploads/2011/08/RunWithVersion2-300x60.png 300w, /content/sharoncichelli/uploads/2011/08/RunWithVersion2-768x154.png 768w, /content/sharoncichelli/uploads/2011/08/RunWithVersion2.png 843w" sizes="(max-width: 300px) 100vw, 300px" />](/content/sharoncichelli/uploads/2011/08/RunWithVersion2.png)
+[<img src="http://lostechies.com/content/sharoncichelli/uploads/2011/08/RunWithVersion2-300x60.png" alt="After rebuilding, ConsoleMessager successfully calls the new MessageOutputter." title="RunWithVersion2" width="300" height="60" class="alignnone size-medium wp-image-54" srcset="/content/sharoncichelli/uploads/2011/08/RunWithVersion2-300x60.png 300w, /content/sharoncichelli/uploads/2011/08/RunWithVersion2-768x154.png 768w, /content/sharoncichelli/uploads/2011/08/RunWithVersion2.png 843w" sizes="(max-width: 300px) 100vw, 300px" />](/content/sharoncichelli/uploads/2011/08/RunWithVersion2.png)
 
 ## Wiser now
 

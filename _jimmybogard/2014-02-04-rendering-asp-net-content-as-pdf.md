@@ -20,11 +20,11 @@ To make it super simple to output PDF from any page, I’d like to just use a qu
 
 We want to have this:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2014/02/image_thumb.png" width="530" height="480" />](http://lostechies.com/jimmybogard/files/2014/02/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb.png" width="530" height="480" />](http://lostechies.com/content/jimmybogard/uploads/2014/02/image.png)
 
 Look like this:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2014/02/image_thumb1.png" width="530" height="480" />](http://lostechies.com/jimmybogard/files/2014/02/image1.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb1.png" width="530" height="480" />](http://lostechies.com/content/jimmybogard/uploads/2014/02/image1.png)
 
 The print media version, but output as PDF.
 
@@ -34,7 +34,7 @@ The print media version, but output as PDF.
 
 At the very heart of ASP.NET, we have our HTTP module pipeline. What we’d like to do is handle a request, let ASP.NET MVC handle it, and then modify it as the request goes out the door using a response filter:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2014/02/image_thumb2.png" width="446" height="203" />](http://lostechies.com/jimmybogard/files/2014/02/image2.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb2.png" width="446" height="203" />](http://lostechies.com/content/jimmybogard/uploads/2014/02/image2.png)
 
 We’ll attach our filter at the beginning of the request, wait for the normal MVC HTTP Handler to execute, and modify the stream as it gets writing to the Response stream. Here’s our PDF module:
 
@@ -62,7 +62,7 @@ Finally, when ASP.NET closes my filter stream, I invoke the converter, outputtin
 
 The PDF converter has a ton of options, and even is able to allow Javascript to execute in the page. I opt to disable URLs, as it’s a bit strange to click links inside a PDF document for internal business applications, where these documents are often just saved and shared around. With this in place, I can just modify the URL of any page in my site to have a PDF version, matching the styling of the CSS print media:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2014/02/image_thumb3.png" width="530" height="480" />](http://lostechies.com/jimmybogard/files/2014/02/image3.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb3.png" width="530" height="480" />](http://lostechies.com/content/jimmybogard/uploads/2014/02/image3.png)
 
 I love that I can still use MVC, HTML, Razor and CSS to generate my PDFs, and I’m able to use all modern CSS3 whether or not the user’s browser actually supports it. With Chrome tools, I can tweak the print version of my site until it looks great, then just modify the URL to verify the PDF version.
 

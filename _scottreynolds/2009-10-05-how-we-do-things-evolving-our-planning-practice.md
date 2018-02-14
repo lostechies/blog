@@ -44,7 +44,7 @@ When we continue to go through the motions of this huge up-front planning effort
 We came to realize that there was a lot of waste associated with a lot of up-front detailed planning.
 
 <div style="text-align:center">
-  <img src="http://lostechies.com/scottreynolds/files/2011/03/inventory2.jpg" alt="inventory2.jpg" border="0" width="396" height="309" />
+  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/inventory2.jpg" alt="inventory2.jpg" border="0" width="396" height="309" />
 </div>
 
 The first waste is inventory. Carrying excess inventory is one of the [seven primary wastes](http://en.wikipedia.org/wiki/Muda_%28Japanese_term%29) in lean manufacturing, and in our case, defined work that is not yet in progress is inventory.
@@ -76,7 +76,7 @@ We needed a compromise that served our needs and the organization&#8217;s.
 For us, planning is now broken up into three distinct parts: immediate, near-term, and long-term.
 
 <div style="text-align:center">
-  <img src="http://lostechies.com/scottreynolds/files/2011/03/planningtimeline.jpg" alt="planningtimeline.jpg" border="0" width="523" height="272" />
+  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/planningtimeline.jpg" alt="planningtimeline.jpg" border="0" width="523" height="272" />
 </div></p> 
 
 In the next part of this series I will talk about the mechanics of each segment, and how it fits together to form the whole.

@@ -15,11 +15,11 @@ One of the things I&#8217;ve missed since we integrated container support is the
 
 Behold the minimum amount of code necessary to create a service bus:
 
-<img src="http://lostechies.com/chrispatterson/files/2011/03/Picture-4.png" alt="Picture 4.png" border="0" width="620" height="213" />
+<img src="http://lostechies.com/content/chrispatterson/uploads/2011/03/Picture-4.png" alt="Picture 4.png" border="0" width="620" height="213" />
 
 That&#8217;s it. In fact, you can easily mock out the container with some nifty Rhino.Mocks usage:
 
-<img src="http://lostechies.com/chrispatterson/files/2011/03/Picture-5.png" alt="Picture 5.png" border="0" width="619" height="172" />
+<img src="http://lostechies.com/content/chrispatterson/uploads/2011/03/Picture-5.png" alt="Picture 5.png" border="0" width="619" height="172" />
 
 I&#8217;m starting to convert the tests to use the mocked container approach to reduce the runtime of the tests. But so far the HeavyLoad, Starbucks and WinFormSample samples have been verified to work with the new model. The Windsor facility is also using the new model (Dru is going to update the other two tomorrow).
 

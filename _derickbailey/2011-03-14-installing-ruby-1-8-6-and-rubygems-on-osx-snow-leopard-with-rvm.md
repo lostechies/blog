@@ -14,7 +14,7 @@ redirect_from: "/blogs/derickbailey/archive/2011/03/14/installing-ruby-1-8-6-and
 ---
 [RubyGems no longer supports Ruby v1.8.6](http://blog.segment7.net/2010/04/23/ruby-1-8-6-policy), so when I tried to install 1.8.6 on my Macbook, via [RVM](http://rvm.beginrescueend.com/), I ran into this nice little error message:
 
-<img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-03-14-at-8.49.58-AM.png" border="0" alt="Screen shot 2011 03 14 at 8 49 58 AM" width="600" height="233" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-03-14-at-8.49.58-AM.png" border="0" alt="Screen shot 2011 03 14 at 8 49 58 AM" width="600" height="233" />
 
 The interesting bit is that ruby itself installed. It&#8217;s only RubyGems that didn&#8217;t install correctly. Parts of rubygems were installed, and I could run the &#8220;gem&#8221; command, but I would get errors with any ruby code that needed rubygems to be around.
 

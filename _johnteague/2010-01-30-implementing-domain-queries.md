@@ -449,7 +449,7 @@ My current Repository interface looks something like this:
 
 
 <p>
-  <a href="http://lostechies.com/johnteague/files/2011/03/domain_query_sql_3794BB00.png"><img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="domain_query_sql" src="http://lostechies.com/johnteague/files/2011/03/domain_query_sql_thumb_0BE681B5.png" width="761" height="296" /></a>
+  <a href="http://lostechies.com/content/johnteague/uploads/2011/03/domain_query_sql_3794BB00.png"><img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="domain_query_sql" src="http://lostechies.com/content/johnteague/uploads/2011/03/domain_query_sql_thumb_0BE681B5.png" width="761" height="296" /></a>
 </p>
 
 

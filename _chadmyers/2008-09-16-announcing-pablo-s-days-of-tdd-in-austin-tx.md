@@ -71,7 +71,7 @@ In no particular order (we thank all of our sponsors equally!)
 
 ## Microsoft
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="40" alt="image" src="http://lostechies.com/chadmyers/files/2011/03AnnouncingPablosDaysofTDD_1190C/image_thumb.png" width="240" border="0" />](http://lostechies.com/chadmyers/files/2011/03AnnouncingPablosDaysofTDD_1190C/image_2.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="40" alt="image" src="http://lostechies.com/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/image_thumb.png" width="240" border="0" />](http://lostechies.com/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/image_2.png) 
 
 Microsoft is graciously providing the facilities and the free software for giveaways, logistical support, as well as advice, suggestions, and guidance.
 
@@ -79,7 +79,7 @@ Microsoft is graciously providing the facilities and the free software for givea
 
 ## The Rand Group, LLC
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="93" alt="randgrp" src="http://lostechies.com/chadmyers/files/2011/03AnnouncingPablosDaysofTDD_1190C/randgrp_thumb.png" width="170" border="0" />](http://lostechies.com/chadmyers/files/2011/03AnnouncingPablosDaysofTDD_1190C/randgrp_2.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="93" alt="randgrp" src="http://lostechies.com/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/randgrp_thumb.png" width="170" border="0" />](http://lostechies.com/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/randgrp_2.png) 
 
 The Rand Group, LLC will be providing dinner during the Friday night festivities.
 
@@ -87,7 +87,7 @@ The Rand Group, LLC will be providing dinner during the Friday night festivities
 
 ## Shiftwise
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="141" alt="Shiftwise_Full_Color" src="http://lostechies.com/chadmyers/files/2011/03AnnouncingPablosDaysofTDD_1190C/Shiftwise_Full_Color_thumb.jpg" width="240" border="0" />](http://lostechies.com/chadmyers/files/2011/03AnnouncingPablosDaysofTDD_1190C/Shiftwise_Full_Color_2.jpg) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="141" alt="Shiftwise_Full_Color" src="http://lostechies.com/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/Shiftwise_Full_Color_thumb.jpg" width="240" border="0" />](http://lostechies.com/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/Shiftwise_Full_Color_2.jpg) 
 
 Shiftwise will be providing breakfast and beverages on Saturday morning and has provided some additional support and assistance in getting this event off the ground.
 
@@ -95,7 +95,7 @@ Shiftwise will be providing breakfast and beverages on Saturday morning and has 
 
 ## TekSystems
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="126" alt="clip_image001" src="http://lostechies.com/chadmyers/files/2011/03AnnouncingPablosDaysofTDD_1190C/clip_image001_thumb.jpg" width="240" border="0" />](http://lostechies.com/chadmyers/files/2011/03AnnouncingPablosDaysofTDD_1190C/clip_image001_2.jpg)
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="126" alt="clip_image001" src="http://lostechies.com/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/clip_image001_thumb.jpg" width="240" border="0" />](http://lostechies.com/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/clip_image001_2.jpg)
 
 TekSystems will be providing lunch and beverages on Saturday and possibly a few other things.
 
@@ -111,7 +111,7 @@ JetBrains will be donating 4 ReSharper licenses to be given away at the event.
 
 ## TOPAZ Technologies, Inc.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="57" alt="image" src="http://lostechies.com/chadmyers/files/2011/03AnnouncingPablosDaysofTDD_1190C/image_thumb_4.png" width="244" border="0" />](http://lostechies.com/chadmyers/files/2011/03AnnouncingPablosDaysofTDD_1190C/image_10.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="57" alt="image" src="http://lostechies.com/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/image_thumb_4.png" width="244" border="0" />](http://lostechies.com/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/image_10.png) 
 
 TOPAZ Technologies is donating resources and material for the labs.
 

@@ -282,7 +282,7 @@ Earlier today, [I showed how to create a custom Rake task from the base TaskLib]
                   </p>
                   
                   <p>
-                    <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_0ABDF510.png" width="387" height="179" />
+                    <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_0ABDF510.png" width="387" height="179" />
                   </p>
                   
                   <p>

@@ -34,7 +34,7 @@ In [one of my previous posts](http://lostechies.com/derickbailey/2011/07/19/refe
 
 Here is the screen shot from the previous post, showing a list of medications with an add/edit form above that.
 
-<img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/07/NewImage.png" border="0" alt="NewImage" width="600" height="498" />
+<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/07/NewImage.png" border="0" alt="NewImage" width="600" height="498" />
 
 There are 7 input fields and one select box on this form. To code to bind these fields to my model previously looked like this:
 

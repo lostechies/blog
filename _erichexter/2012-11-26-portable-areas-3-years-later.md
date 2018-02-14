@@ -33,7 +33,7 @@ The MessageBus in MvcContrib was good when MVC2 first came out but since then ot
 
 &nbsp;
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/10/image_thumb4.png" alt="image" width="520" height="402" border="0" />](http://lostechies.com/erichexter/files/2012/10/image7.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/10/image_thumb4.png" alt="image" width="520" height="402" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/10/image7.png)
 
 Here is an updated diagram of how a Portable Area works with an application.
 

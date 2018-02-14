@@ -32,7 +32,7 @@ Agile project terms differ from process to process but they have the same basic 
 
 A basic project looks like this: 
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="383" alt="image" src="http://lostechies.com/joeocampo/files/2011/03GreatDaneGoldenRetrieverChihuahuaDevelop_9D2/image_thumb.png" width="640" border="0" />](http://lostechies.com/joeocampo/files/2011/03GreatDaneGoldenRetrieverChihuahuaDevelop_9D2/image.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="383" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03GreatDaneGoldenRetrieverChihuahuaDevelop_9D2/image_thumb.png" width="640" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03GreatDaneGoldenRetrieverChihuahuaDevelop_9D2/image.png) 
 
 As you can see there is a basic inception phase that the project team uses to estimate the duration and cost of the project.&nbsp; The product owner gives a high level scope of what the application will accomplish.&nbsp; From this high level overview a vision statement is created by the entire team.&nbsp; During this phase the product owner outlines the high level features of how the application will function.&nbsp; Try to not confuse this with a work&nbsp;break down structure exercise it is similar but doesn&#8217;t go into that level of detail.&nbsp; So lets say the team came up with the following list of features. 
 
@@ -65,7 +65,7 @@ As you can see there is a basic inception phase that the project team uses to es
                                                 
                                                 A typical release&nbsp;might look like this.
                                                 
-                                                [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="407" alt="image" src="http://lostechies.com/joeocampo/files/2011/03GreatDaneGoldenRetrieverChihuahuaDevelop_9D2/image_thumb_2.png" width="640" border="0" />](http://lostechies.com/joeocampo/files/2011/03GreatDaneGoldenRetrieverChihuahuaDevelop_9D2/image_2.png) 
+                                                [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="407" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03GreatDaneGoldenRetrieverChihuahuaDevelop_9D2/image_thumb_2.png" width="640" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03GreatDaneGoldenRetrieverChihuahuaDevelop_9D2/image_2.png) 
                                                 
                                                 So you have the following phases in a release:
                                                 

@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/08/25/why-hg-branches-are-broke
 ---
 In one picture:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_2EB351FC.png" width="407" height="125" />](http://lostechies.com/jimmybogard/files/2011/03/image_214D3EF6.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2EB351FC.png" width="407" height="125" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_214D3EF6.png) 
 
 In Hg, branches are metadata included in each changeset.&#160; In the operation above, I created a branch, but that only marked the current directory with a branch name.&#160; The branch won’t actually show up unless I make a commit.&#160; In fact, if I checkout to another revision, it’s as if the “hg branch” command never happened.&#160; When I list the branches, you won’t see this new branch name.&#160; The name in the PS window just comes from the PowerShell-Hg extension being smart.
 

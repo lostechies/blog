@@ -47,12 +47,12 @@ You know that it’s not reasonable for a class to have zero dependencies-to hav
 
 Consider a set of classes that need to be instantiated into the correct hierarchy so that you can get the functionality needed. It’s easy to have the highest level class-the one that you want to call-instantiate the class at the next level down, and have that class instantiate its next level down, and so-on. Figure 14 represents a standard object graph where the higher-level object-the policy-is dependent on and coupled directly to the lower-level object-the detail.
 
-<img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/09/NewImage.png" border="0" alt="NewImage" width="387" height="167" />  
+<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/NewImage.png" border="0" alt="NewImage" width="387" height="167" />  
 **Figure 14:** Policy coupled to detail.
 
 This creates the necessary hierarchy but couples the classes together, directly. You would not be able to use Foo without bringing Bar along with it. If you want to decouple these classes, you can easily introduce an interface for Foo to depend on and Bar to implement. Figure 15 illustrates a simple IBar interface that you can create from the public API of the Bar class.
 
-<img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/09/NewImage1.png" border="0" alt="NewImage" width="446" height="306" />
+<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/NewImage1.png" border="0" alt="NewImage" width="446" height="306" />
 
 **Figure 15:** Decoupling with abstraction.
 
@@ -64,7 +64,7 @@ If you want to invert the dependency structure and have the Detail become depend
 
 The Dependency Inversion Principle says that Detail should be dependent on Policy. This means that you should have the Policy define and own the abstraction that the detail implements. In the Foo->IBar->Bar scenario, you need to treat IBar as part of Foo and not just a wrapper around Bar. Nothing may have changed structurally, but the perspective of ownership has shifted, as illustrated by Figure 16.
 
-<img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/09/NewImage2.png" border="0" alt="NewImage" width="388" height="303" />
+<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/NewImage2.png" border="0" alt="NewImage" width="388" height="303" />
 
 **Figure 16:** Policy owns the abstraction. Detail depends on policy.
 
@@ -84,7 +84,7 @@ With all of this in mind, you decide to create an object called ProcessingServic
 
 This interface allows you to provide any implementation you need to the processing service. You then set your eyes on the email service, which is currently directly coupled to the processing service. A simple IEmailService interface solves that, though. Figure 17 shows the resulting structure.
 
-<img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/09/NewImage3.png" border="0" alt="NewImage" width="460" height="320" />
+<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/NewImage3.png" border="0" alt="NewImage" width="460" height="320" />
 
 **Figure 17:** Inverting the dependencies of the processing service and file reader service.
 

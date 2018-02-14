@@ -23,7 +23,7 @@ One of the questions that I&#8217;ve often asked about a kanban board is how any
 
 To facilitate the visualization of the difference between work in progress and work that is ready to be pulled to the next column, we can use the concept of a pipeline and split our existing queues into a WIP and Done step. For example, we want developers to pull work from the Analysis queue into the Development pipeline. We can show which cards are ready to move by splitting Analysis into sub-columns of WIP and Done.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="184" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb.png" width="201" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_2.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="184" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb.png" width="201" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_2.png) 
 
 When an Analyst is ready for work, they would pull from the Backlog into the Analysis / WIP column. When the analysis work is done and the card is ready to go into development, the card would be moved into the Analysis / Done column. Since we are wanting to maintain the concept of a queue for the overall Analysis column, we have create the WIP and Done subdivisions as a pipeline (noted by the dashed line). This allows us to keep our order point (3) and limit (5) in place for Analysis, and know what work is ready to be pulled into Development.
 
@@ -37,7 +37,7 @@ The Delivery column may not need a pipeline, either. If the delivery process is 
 
 With all of this in mind, we can apply our WIP and Done pipeline to the Analysis and Customer Acceptance columns.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="384" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_4.png" width="777" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_10.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="384" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_4.png" width="777" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_10.png) 
 
 ### Alternative Visualizations
 

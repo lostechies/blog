@@ -12,15 +12,15 @@ categories:
 ---
 Another baffling feature of the new Gawker sites re-design is that it appears that they’ve broken the browser’s Back button. Starting at <http://gizmodo.com>, I’ll click a link for an article:
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/04/image_thumb.png" width="1015" height="535" />](http://lostechies.com/jimmybogard/files/2011/04/image.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/04/image_thumb.png" width="1015" height="535" />](http://lostechies.com/content/jimmybogard/uploads/2011/04/image.png)
 
 That brings up the Web 3.0 Frames magic and replaces the left frame of the screen:
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/04/image_thumb1.png" width="1059" height="602" />](http://lostechies.com/jimmybogard/files/2011/04/image1.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/04/image_thumb1.png" width="1059" height="602" />](http://lostechies.com/content/jimmybogard/uploads/2011/04/image1.png)
 
 Note the fun “[hash-bang](http://isolani.co.uk/blog/javascript/BreakingTheWebWithHashBangs)” URLs in the address bar. When I click the “Back” button or navigate using the browser’s Back command, the address bar changes but nothing else does:
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/04/image_thumb2.png" width="1039" height="577" />](http://lostechies.com/jimmybogard/files/2011/04/image2.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/04/image_thumb2.png" width="1039" height="577" />](http://lostechies.com/content/jimmybogard/uploads/2011/04/image2.png)
 
 The title bar and main content stays the same, but the address bar goes back to the home page. Nothing else happens, I don’t get back to the original screen I was on. I suppose I’m intended to use only the in-document navigation?
 

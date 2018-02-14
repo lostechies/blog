@@ -136,7 +136,7 @@ Next, let’s establish a scenario were the bottom right corner should always be
 
 &nbsp;
 
-[<img style="border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" border="0" alt="tic-tac-toe-game-win" src="http://lostechies.com/derekgreer/files/2011/04/tic-tac-toe-game-win_thumb.png" width="221" height="183" />](http://lostechies.com/derekgreer/files/2011/04/tic-tac-toe-game-win.png)
+[<img style="border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" border="0" alt="tic-tac-toe-game-win" src="http://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-win_thumb.png" width="221" height="183" />](http://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-win.png)
 
 &nbsp;
 
@@ -1093,7 +1093,7 @@ Everything should now compile. Let’s run our tests:
         </p>
         
         <p>
-          <a href="http://lostechies.com/derekgreer/files/2011/04/tic-tac-toe-game-block.png"><img style="border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" border="0" alt="tic-tac-toe-game-block" src="http://lostechies.com/derekgreer/files/2011/04/tic-tac-toe-game-block_thumb.png" width="222" height="184" /></a>
+          <a href="http://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-block.png"><img style="border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" border="0" alt="tic-tac-toe-game-block" src="http://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-block_thumb.png" width="222" height="184" /></a>
         </p>
         
         <p>

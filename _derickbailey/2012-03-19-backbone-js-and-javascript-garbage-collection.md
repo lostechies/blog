@@ -91,6 +91,6 @@ There&#8217;s more to it, still. If you&#8217;re interested in getting all the d
 
 Also, be sure to check out my [WatchMeCode screencast: JavaScript Zombies](http://www.watchmecode.net/javascript-zombies) &#8211; in this episode, I cover some of the most common and basic ways in which memory leaks happen in JavaScript, and show how to overcome these problems.
 
-[<img src="http://lostechies.com/derickbailey/files/2014/02/NewImage3.png" alt="NewImage" width="300" height="225" border="0" />](http://www.watchmecode.net/javascript-zombies)
+[<img src="http://lostechies.com/content/derickbailey/uploads/2014/02/NewImage3.png" alt="NewImage" width="300" height="225" border="0" />](http://www.watchmecode.net/javascript-zombies)
 
  

@@ -13,7 +13,7 @@ categories:
 ---
 **If there&#8217;s one thing every screencaster needs, it&#8217;s high speed, high capacity storage for raw materials.** I just finished up my 15th episode of [WatchMeCode](http://watchmecode.net) (and have recorded probably another 15 or 20 episodes other than those) &#8211; here&#8217;s the progress bar copying my raw materials over to my [Western Digital Thunderbolt Storage](http://www.amazon.com/gp/product/B00F0JXDCS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00F0JXDCS&linkCode=as2&tag=signalleaf-20) device.
 
-<img src="http://lostechies.com/derickbailey/files/2014/02/NewImage1.png" alt="NewImage" width="513" height="204" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2014/02/NewImage1.png" alt="NewImage" width="513" height="204" border="0" />
 
 Yes, **that&#8217;s 52 GIGS of raw materia**l! And yes, **it transferred in less than 5 minutes**! Seriously, I&#8217;ve edited screencasts directly on this thunderbolt drive before, it&#8217;s that fast&#8230; well, it&#8217;s fast enough. I don&#8217;t really recommend doing that when you have access to an SSD, like my Macbook Pro Retina has&#8230; but I have done it, and it does work. Instead, I leave the raw materials for the episode that I&#8217;m currently editing on my internal SSD. Once I&#8217;m done, I transfer it over to the storage device for &#8211; you guessed it &#8211; storage! I also put virtual machines that I don&#8217;t currently need on this device, as well as photos and other things that just need storage.
 

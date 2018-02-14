@@ -45,7 +45,7 @@ We’ll get into how we do this soon, but this rule has a lot of implications:
   * The choice of what View to show can be decided strictly on the shape of your ViewModel
   * Re-used pieces in a View (through Partials) can be decided through re-using ViewModel types
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="153" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_6C664A18.png" width="425" border="0" />](http://lostechies.com/jimmybogard/files/2011/03/image_05CE4D53.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="153" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_6C664A18.png" width="425" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_05CE4D53.png) 
 
 On the first point, we never pass an Domain Model entity straight into the view.&#160; Most of the time, we only show a slice of information from a single entity.&#160; And many other times, the same snippet is shown in many places.
 
@@ -67,7 +67,7 @@ When we introduced AutoMapper into our MVC pipeline, we had a real problem.&#160
 
 So more moving parts, a dependency across _all_ controllers?&#160; No, mapping in our Controller action just won’t do.&#160; Instead, we’ll use an Action Filter to do the work for us:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="209" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_1D1951C4.png" width="744" border="0" />](http://lostechies.com/jimmybogard/files/2011/03/image_2510F426.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="209" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_1D1951C4.png" width="744" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_2510F426.png) 
 
 A request comes in, handled by an Action.&#160; The Action does its thing, ultimately deciding how to respond to the request.&#160; In many cases, this means rendering a view (ViewResult).&#160; From there, our Action Filter comes into play.&#160; On our Action method, we decorate it with an AutoMap attribute to configure the source/destination type pair to be mapped:
 

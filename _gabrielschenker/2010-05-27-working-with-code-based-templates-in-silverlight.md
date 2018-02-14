@@ -24,7 +24,7 @@ Please refer to [this](http://www.lostechies.com/blogs/gabrielschenker/archive/2
 
 Provide a check box column header whose click action can be bound to an action on the view model.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_49443D59.png" width="192" height="185" />](http://lostechies.com/gabrielschenker/files/2011/03/image_779DC306.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_49443D59.png" width="192" height="185" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_779DC306.png) 
 
 Sounds easy isn’t it? Just define a column header template and… err…
 

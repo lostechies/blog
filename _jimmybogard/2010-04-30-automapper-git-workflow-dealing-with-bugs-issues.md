@@ -22,7 +22,7 @@ And since work on each thing is very asynchronous in nature, I want to match my 
 
 I prefer git extensions over gitk and git log –graph.&#160; Gitk is a bit of a pain to deal with, and git log attempts to use all the ASCII powers of the interwebs to display a graph of commits.&#160; For example, here’s the current AutoMapper commit graph (locally):
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_07F34054.png" width="644" height="407" />](http://lostechies.com/jimmybogard/files/2011/03/image_68B09980.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_07F34054.png" width="644" height="407" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_68B09980.png) 
 
 Note anything?&#160; A clean, linear history.&#160; I absolutely detest bizarre, convoluted histories, where I see a tangled web of commits.&#160; I have a few different workflows, but all start with a basic rule:
 
@@ -42,7 +42,7 @@ So first things first: An issue comes in, so I create a branch:
 
 This builds the following picture in my local repo:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_6DB2D72F.png" width="482" height="63" />](http://lostechies.com/jimmybogard/files/2011/03/image_1C0C5CDD.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_6DB2D72F.png" width="482" height="63" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_1C0C5CDD.png) 
 
 Remember, a branch is really just a lightweight, named pointer to a commit.&#160; The “git checkout –b” means to create a branch and checkout that branch immediately.&#160; “git checkout” is analogous to the “svn switch” command, except git branches are MUCH simpler than SVN branches.
 
@@ -54,11 +54,11 @@ Next, I make some commit locally to that branch, and usually do something like:
 
 This now produces the following picture:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_2D108AC0.png" width="481" height="66" />](http://lostechies.com/jimmybogard/files/2011/03/image_0D61B0F8.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2D108AC0.png" width="481" height="66" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_0D61B0F8.png) 
 
 At this point, I usually go two routes.&#160; If I can fix the actual issue, then I’ll want to integrate my changes back to the master branch.&#160; If I can’t reproduce it, need more information or whatever, I’ll just leave it alone.&#160; The really cool thing is that **it doesn’t matter.**&#160; At any time, I can checkout master, start a new branch and continue on.&#160; Let’s see what it looks like if there are additional changes that happen on the master branch:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_056A0E96.png" width="452" height="104" />](http://lostechies.com/jimmybogard/files/2011/03/image_7AACB740.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_056A0E96.png" width="452" height="104" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_7AACB740.png) 
 
 We now see that master is basically ahead of SomeIssue.&#160; I might have other branches hanging around as well.
 
@@ -68,7 +68,7 @@ So let’s suppose I want to integrate the SomeIssue branch back to master.&#160
 
 This results in the following history now:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_00875ADA.png" width="463" height="103" />](http://lostechies.com/jimmybogard/files/2011/03/image_6C020B5B.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_00875ADA.png" width="463" height="103" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_6C020B5B.png) 
 
 Rebase is different than merge in that it re-applies commits from one branch to another.&#160; What I’ve done here is basically re-play the commits from the SomeIssue branch onto the master branch, so that there is a clean, linear history.
 
@@ -80,7 +80,7 @@ With that done, I’ll do the normal local build.&#160; Finally, I’ll checkout
 
 And now my history looks like this:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_71DCAEF4.png" width="478" height="83" />](http://lostechies.com/jimmybogard/files/2011/03/image_203634A2.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_71DCAEF4.png" width="478" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_203634A2.png) 
 
 Now that my branch is “done”, I’ll delete that branch:
 
@@ -88,7 +88,7 @@ Now that my branch is “done”, I’ll delete that branch:
 
 And my history now shows SomeIssue is gone:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_2A1B260D.png" width="487" height="83" />](http://lostechies.com/jimmybogard/files/2011/03/image_71707BFF.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2A1B260D.png" width="487" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_71707BFF.png) 
 
 Because a branch is merely a lightweight pointer to a commit, it’s really no big deal to delete a branch, as the creation and deletion of branches does NOT affect the commits in any way.
 

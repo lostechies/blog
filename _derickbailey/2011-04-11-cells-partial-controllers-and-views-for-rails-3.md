@@ -17,7 +17,7 @@ I&#8217;ve got a sort-of meta-application that I&#8217;m building in Rails 3 for
 
 Here&#8217;s the mock up of what this looks like:
 
-<img src="http://lostechies.com/derickbailey/files/2011/04/Patient-Profile-For-Programs-Scrubbed.png" border="0" alt="Patient Profile For Programs  Scrubbed" width="600" height="450" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2011/04/Patient-Profile-For-Programs-Scrubbed.png" border="0" alt="Patient Profile For Programs  Scrubbed" width="600" height="450" />
 
 Each program has the potential for a very complicated and customized set of actions and workflows within it, all driven through the program dashboard on the patient&#8217;s profile.
 
@@ -114,7 +114,7 @@ Then in the display.html.haml view, I set up the various layout elements that I 
 
 Once I had that in place, I was able to view the patient profile, invite the patient to the program, and have the program&#8217;s cell displayed as I needed:
 
-<img src="http://lostechies.com/derickbailey/files/2011/04/Screen-shot-2011-04-11-at-7.16.56-PM.png" border="0" alt="Screen shot 2011 04 11 at 7 16 56 PM" width="600" height="458" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2011/04/Screen-shot-2011-04-11-at-7.16.56-PM.png" border="0" alt="Screen shot 2011 04 11 at 7 16 56 PM" width="600" height="458" />
 
 Note that the bottom section of this screen shot is the actual cell, in place.
 

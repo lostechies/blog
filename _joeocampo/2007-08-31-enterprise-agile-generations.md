@@ -598,7 +598,7 @@ redirect_from: "/blogs/joe_ocampo/archive/2007/08/30/enterprise-agile-generation
 </p>
 
 <p class="MsoNormal">
-  <span><a href="http://lostechies.com/joeocampo/files/2011/03EnterpriseAgileGenerations_D62/clip_image002_1.gif"><img height="122" alt="clip_image002" src="http://lostechies.com/joeocampo/files/2011/03EnterpriseAgileGenerations_D62/clip_image002_thumb.gif" width="240" /></a></span>
+  <span><a href="http://lostechies.com/content/joeocampo/uploads/2011/03EnterpriseAgileGenerations_D62/clip_image002_1.gif"><img height="122" alt="clip_image002" src="http://lostechies.com/content/joeocampo/uploads/2011/03EnterpriseAgileGenerations_D62/clip_image002_thumb.gif" width="240" /></a></span>
 </p>
 
 <p class="MsoNormal">

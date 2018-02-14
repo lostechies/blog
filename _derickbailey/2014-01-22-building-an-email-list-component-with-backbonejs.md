@@ -38,7 +38,7 @@ A typical email app has several distinct areas of the application’s screen. Th
 
 The classic example of Gmail illustrates all of these basic components, and many more.
 
-<img src="http://lostechies.com/derickbailey/files/2014/01/gmail-components.png" alt="Gmail components" width="600" height="496" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/gmail-components.png" alt="Gmail components" width="600" height="496" border="0" />
 
 The primary email screen shows a list of categories or labels to the left, a list of email to the right, a search screen at the top, filters, chat sessions, and much more. Each of these areas of functionality can be broken down in to separate components that can then be orchestrated to created a more functional system. This orchestration happens through an API that each of the components exposes, with a higher level workflow (as discussed in the previous chapter) controlling all of the individual components.
 

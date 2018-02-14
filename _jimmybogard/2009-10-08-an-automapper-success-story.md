@@ -136,6 +136,6 @@ I got a cool message on the [AutoMapper mailing list](http://groups.google.com/g
 
 Howard also shared a neat little diagram of his architecture:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_312FA5FF.png" width="478" height="484" />](http://lostechies.com/jimmybogard/files/2011/03/image_18A008AF.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_312FA5FF.png" width="478" height="484" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_18A008AF.png) 
 
 This is one of the greatest feelings from doing OSS – that something you created basically just for yourself can also help out other folks out there trying to deliver value for their customers.&#160; Thanks for all the feedback everyone, as well as kudos to the S#arp Architecture team for building such a great framework for MVC.

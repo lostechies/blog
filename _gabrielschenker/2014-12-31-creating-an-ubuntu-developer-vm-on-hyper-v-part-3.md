@@ -43,7 +43,7 @@ Finally we can check out which version we run
 
 and should get something like this
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb6.png" width="598" height="158" />](http://lostechies.com/gabrielschenker/files/2014/12/image6.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb6.png" width="598" height="158" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image6.png)
 
 Now we are ready to install and use software that depends on Java…
 
@@ -75,7 +75,7 @@ To start Elasticsearch use this command
 
 You should see something like this
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb7.png" width="733" height="122" />](http://lostechies.com/gabrielschenker/files/2014/12/image7.png) 
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb7.png" width="733" height="122" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image7.png) 
 
 Similarly to stop Elasticsearch use
 
@@ -95,8 +95,8 @@ By default Elasticsearch listens at port 9200. We can use this simple command to
 
 If all works well we should see this
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb8.png" width="637" height="341" />](http://lostechies.com/gabrielschenker/files/2014/12/image8.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb8.png" width="637" height="341" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image8.png)
 
 When playing around with a REST API I also like to use the Postman – REST Client for Chrome. We can install this extension from [here](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en). Using the exact same URI as with curl we have this
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb9.png" width="586" height="388" />](http://lostechies.com/gabrielschenker/files/2014/12/image9.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb9.png" width="586" height="388" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image9.png)

@@ -17,8 +17,8 @@ There attention to detail was astonishing.&nbsp; They managed to wrap everything
 
 Here are some images if their work.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="484" alt="IMG00022" src="http://lostechies.com/joeocampo/files/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00022_thumb.jpg" width="644" border="0" />](http://lostechies.com/joeocampo/files/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00022_2.jpg) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="484" alt="IMG00022" src="http://lostechies.com/content/joeocampo/uploads/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00022_thumb.jpg" width="644" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00022_2.jpg) 
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="484" alt="IMG00023" src="http://lostechies.com/joeocampo/files/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00023_thumb.jpg" width="644" border="0" />](http://lostechies.com/joeocampo/files/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00023_2.jpg) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="484" alt="IMG00023" src="http://lostechies.com/content/joeocampo/uploads/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00023_thumb.jpg" width="644" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00023_2.jpg) 
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="484" alt="IMG00024" src="http://lostechies.com/joeocampo/files/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00024_thumb.jpg" width="644" border="0" />](http://lostechies.com/joeocampo/files/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00024_2.jpg)
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="484" alt="IMG00024" src="http://lostechies.com/content/joeocampo/uploads/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00024_thumb.jpg" width="644" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03Somepeoplehavetoomuchtime_FBE0/IMG00024_2.jpg)

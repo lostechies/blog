@@ -21,7 +21,7 @@ Hello World! I’m happy to announce the first Los Techies compiled, Pablo endor
 
 This tremendous volume of information is a conglomeration of blog posts and other information produced by the LosTechies crew, and includes over 80 pages of information on how to work with the principles in question. From page 1 of the E-Book:
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="221" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_352F4694.png" width="564" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_3FB01AB4.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="221" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_352F4694.png" width="564" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_3FB01AB4.png) 
 
 So what are you waiting for? Go download the greatest compilation of SOLID information ever produced by Los Techies bloggers!
 

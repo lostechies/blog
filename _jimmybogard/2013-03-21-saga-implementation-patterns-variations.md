@@ -23,7 +23,7 @@ Of course, these aren’t the _only_ ways our saga could behave. We could have a
 
 Looking back on our McDonald’s example, we could improve our situation a little bit. We could have a situation where we want a command to start a saga, then have the saga itself publish a message. It would then wait for events to come back (ignoring order):
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/03/image_thumb5.png" width="403" height="310" />](http://lostechies.com/jimmybogard/files/2013/03/image5.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb5.png" width="403" height="310" />](http://lostechies.com/content/jimmybogard/uploads/2013/03/image5.png)
 
 The advantage here is that we only have one entry point to our saga. We don’t have to worry about our saga potentially getting started by any number of messages that were pushed out.
 
@@ -35,7 +35,7 @@ There’s also nothing stopping our downstream processes from spawning off addit
 
 Another role our saga can play is one that doesn’t make decisions, but instead merely reports status:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/03/image_thumb6.png" width="444" height="444" />](http://lostechies.com/jimmybogard/files/2013/03/image6.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb6.png" width="444" height="444" />](http://lostechies.com/content/jimmybogard/uploads/2013/03/image6.png)
 
 This is a situation where a saga might never actually complete, and goes on forever. Its role is to communicate status of a longer-running process in the back-end, not for coordination purposes, but for reporting purposes.
 

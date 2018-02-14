@@ -259,7 +259,7 @@ On the other hand Fluent NHibernate uses what is called **static reflection** to
             
             and as shown in the following image &#8211; **intellisense** is fully supported &#8211; which is a huge benefit
             
-            [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="247" alt="intellisense" src="http://lostechies.com/gabrielschenker/files/2011/03/intellisense_thumb.png" width="644" border="0" />](http://lostechies.com/gabrielschenker/files/2011/03/intellisense_2.png) 
+            [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="247" alt="intellisense" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/intellisense_thumb.png" width="644" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/intellisense_2.png) 
             
             ## Summary
             

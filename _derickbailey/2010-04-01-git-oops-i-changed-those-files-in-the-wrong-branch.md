@@ -15,7 +15,7 @@ redirect_from: "/blogs/derickbailey/archive/2010/04/01/git-oops-i-changed-those-
 ---
 I do this a lot… I’ll be assigned some work, start into it and get part way down the path, am ready for a commit and I realize that I’ve been changing code in the wrong branch of my local git repository. For example:
 
-&#160; <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_5CDF6673.png" width="997" height="314" />
+&#160; <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_5CDF6673.png" width="997" height="314" />
 
 … but I didn’t want those changes on the master branch… I wanted them on some other branch, such as “mybranch” or “existingbranch”.
 
@@ -39,7 +39,7 @@ To move these changes to a new branch, run this command where “mybranch” is 
       </p>
       
       <p>
-        <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_67308AD3.png" width="997" height="394" />
+        <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_67308AD3.png" width="997" height="394" />
       </p>
       
       <p>
@@ -66,5 +66,5 @@ To move these changes to a new branch, run this command where “mybranch” is 
             </p>
             
             <p>
-              <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_665824E9.png" width="997" height="394" />
+              <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_665824E9.png" width="997" height="394" />
             </p>

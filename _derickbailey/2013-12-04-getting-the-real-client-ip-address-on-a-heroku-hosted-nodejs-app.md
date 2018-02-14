@@ -20,7 +20,7 @@ I was rocking the code, getting data tracked and analyzed, and I got the first v
 
 **To my horror, I found my RSS subscriber count increasing by 1 every time I refreshed the feed!**
 
-<img src="http://lostechies.com/derickbailey/files/2013/12/Screen-Shot-2013-12-04-at-9.27.15-AM.png" alt="Screen Shot 2013 12 04 at 9 27 15 AM" width="344" height="187" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2013/12/Screen-Shot-2013-12-04-at-9.27.15-AM.png" alt="Screen Shot 2013 12 04 at 9 27 15 AM" width="344" height="187" border="0" />
 
 ## Digging In To The Issue
 
@@ -44,10 +44,10 @@ And now I have the real IP address to track RSS activity and produce the right r
 
 Of course, my RSS subscriber history has a large bump in the first day, from all my errant subscriber counts:
 
-<img src="http://lostechies.com/derickbailey/files/2013/12/Screen-Shot-2013-12-04-at-9.27.54-AM.png" alt="Screen Shot 2013 12 04 at 9 27 54 AM" width="462" height="297" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2013/12/Screen-Shot-2013-12-04-at-9.27.54-AM.png" alt="Screen Shot 2013 12 04 at 9 27 54 AM" width="462" height="297" border="0" />
 
 But the good news is that most people aren&#8217;t going to sit there, refreshing their RSS feed every few seconds, dozens of times. So no one else really had the problem of an extra bump in subscribers that first day. And as you can see, my count is now leveled out where it should be.
 
-<img src="http://lostechies.com/derickbailey/files/2013/12/Screen-Shot-2013-12-04-at-9.34.27-AM.png" alt="Screen Shot 2013 12 04 at 9 34 27 AM" width="326" height="178" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2013/12/Screen-Shot-2013-12-04-at-9.34.27-AM.png" alt="Screen Shot 2013 12 04 at 9 34 27 AM" width="326" height="178" border="0" />
 
 Hopefully I&#8217;ll be able to bump that number back up &#8230; legitimately &#8230; as I produce more episodes, though. 🙂

@@ -26,7 +26,7 @@ So I built this little script:
 
 And that&#8217;s it. It&#8217;s just an import of my system&#8217;s basic modules, a database connection, a query to get some information and then aggregating that information in to a simple console.log output. To run my report, I just run &#8220;node customers.js&#8221; and it will connect to my local database. If I want to run it against production, I only need to set &#8220;NODE_ENV=production&#8221; prior to running the script and BAM! I have a report of my production app:
 
-<img src="http://lostechies.com/derickbailey/files/2013/10/Screen-Shot-2013-10-18-at-8.24.11-PM.png" alt="Screen Shot 2013 10 18 at 8 24 11 PM" width="600" height="159" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2013/10/Screen-Shot-2013-10-18-at-8.24.11-PM.png" alt="Screen Shot 2013 10 18 at 8 24 11 PM" width="600" height="159" border="0" />
 
 (Yes, I know this is a meagerly pathetic # of accounts and podcasts. But that&#8217;s not the point.)
 

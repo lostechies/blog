@@ -200,7 +200,7 @@ margin: 0em;
 
 and the output generated is
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_779D6967.png" width="291" height="215" />](http://lostechies.com/gabrielschenker/files/2011/03/image_5F0DCC17.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_779D6967.png" width="291" height="215" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_5F0DCC17.png) 
 
 We can immediately see that everything is listed as expected except for the constructor. How can I get hold on the constructor? It turns out that the type definition does have a constructors collection which provides me exactly the information needed
 
@@ -363,7 +363,7 @@ margin: 0em;
 
 This anonymous function is discovered and output as follows
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_5DC93338.png" width="286" height="57" />](http://lostechies.com/gabrielschenker/files/2011/03/image_251E892B.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_5DC93338.png" width="286" height="57" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_251E892B.png) 
 
 The first part of the name <PublicVoidFunction> is taken from the method that contains the anonymous function definition.
 

@@ -13,7 +13,7 @@ redirect_from: "/blogs/joe_ocampo/archive/2007/03/08/our-teams-development-lab.a
 ---
 I have been asked by several friends, how our team development lab is arranged. I have explained it several times but they don&#8217;t believe me. So without further adieu, our Development Lab. 
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="213" src="http://lostechies.com/joeocampo/files/2011/03OurTeamsDevelopmentLab_EA6C/image%7B0%7D.png" width="240" border="0" />](http://lostechies.com/joeocampo/files/2011/03OurTeamsDevelopmentLab_EA6C/image%7B0%7D[1].png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="213" src="http://lostechies.com/content/joeocampo/uploads/2011/03OurTeamsDevelopmentLab_EA6C/image%7B0%7D.png" width="240" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03OurTeamsDevelopmentLab_EA6C/image%7B0%7D[1].png) 
 
 <img src="http://blog.agilejoe.com/content/binary/Lab%20006.jpg" border="0" />
 

@@ -89,7 +89,7 @@ Later, these ideas were  refined into a practice known as _Test Driven Developm
 
 ## Behavior-Driven Development
 
-[<img style="padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" src="http://lostechies.com/derekgreer/files/2011/03/TestDrivenDevelopment_thumb_107D31DD.png" border="0" alt="Test Driven Development" width="494" height="330" />](http://lostechies.com/derekgreer/files/2011/03/TestDrivenDevelopment_155FE599.png)
+[<img style="padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" src="http://lostechies.com/content/derekgreer/uploads/2011/03/TestDrivenDevelopment_thumb_107D31DD.png" border="0" alt="Test Driven Development" width="494" height="330" />](http://lostechies.com/content/derekgreer/uploads/2011/03/TestDrivenDevelopment_155FE599.png)
 
 While the practice of Test-Driven Development utilized unit tests primarily for driving application design, its outgrowth from traditional unit testing practices were still evident in its style,  language, and supporting frameworks. This presented an obstacle for some in understanding and communicating the concepts behind the practice.
 

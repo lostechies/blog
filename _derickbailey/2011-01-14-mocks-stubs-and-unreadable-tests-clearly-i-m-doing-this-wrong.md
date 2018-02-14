@@ -19,7 +19,7 @@ redirect_from: "/blogs/derickbailey/archive/2011/01/13/mocks-stubs-and-unreadabl
 ---
 I tweeted this a few minutes ago:
 
-[<img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-01-13-at-9.18.38-PM.png" border="0" alt="Screen shot 2011-01-13 at 9.18.38 PM.png" width="526" height="221" />](http://twitter.com/#!/derickbailey/status/25752002038333440)
+[<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-13-at-9.18.38-PM.png" border="0" alt="Screen shot 2011-01-13 at 9.18.38 PM.png" width="526" height="221" />](http://twitter.com/#!/derickbailey/status/25752002038333440)
 
 This is in reference to a horrible test that I wrote today. It&#8217;s got 2 assertions and more than 20 lines of context to set up the mocks that I needed, to isolate things and prove what I wanted to prove.</p> 
 

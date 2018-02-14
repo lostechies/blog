@@ -22,7 +22,7 @@ Let’s say we have a controller action (taken from the [Contoso University Enti
 
 This doesn’t look so bad at first glance, but what isn’t so obvious here is that this involves four round trips to the database, one for each set of data, plus some wonky lazy loading I couldn’t figure out:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2014/03/image_thumb.png" width="512" height="204" />](http://lostechies.com/jimmybogard/files/2014/03/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/03/image_thumb.png" width="512" height="204" />](http://lostechies.com/content/jimmybogard/uploads/2014/03/image.png)
 
 We _could_ alter the original query to eagerly fetch with left outer joins those other two items, but that could seriously increase the amount of data we have returned. Since I’m only interested one instructor/course at a time here, I don’t really want to pull back _all_ courses and enrollees.
 
@@ -52,7 +52,7 @@ We’re still issuing three different queries to the server, how can we get them
 
 Which results in all 3 queries getting sent at once to the server in one call:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2014/03/image_thumb1.png" width="491" height="275" />](http://lostechies.com/jimmybogard/files/2014/03/image1.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/03/image_thumb1.png" width="491" height="275" />](http://lostechies.com/content/jimmybogard/uploads/2014/03/image1.png)
 
 One other modification I made is I ensured that all projection occurred within the controller action, by calling “ToList” on all the IQueryable/FutureQuery objects. I’d rather not have the view be able to modify the query or otherwise introduce any potential problems.
 

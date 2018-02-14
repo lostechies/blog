@@ -21,7 +21,7 @@ Given that bugs do not live for more than one business day, it is not necessary 
 
 With these constraints in mind, my favorite bug tracking system is a [5&#215;8” orange sticky note](http://www.officemax.com/office-supplies/post-it-notes-flags/post-it-super-sticky-notes/product-ARS23443):
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="23443p_01[1]" src="http://lostechies.com/jimmybogard/files/2011/03/23443p_011_thumb_1FD9E30E.jpg" width="401" height="357" />](http://lostechies.com/jimmybogard/files/2011/03/23443p_011_1C3BC831.jpg) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="23443p_01[1]" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/23443p_011_thumb_1FD9E30E.jpg" width="401" height="357" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/23443p_011_1C3BC831.jpg) 
 
 On this giant sticky note, the person that finds the bug writes:
 

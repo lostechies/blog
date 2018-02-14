@@ -17,11 +17,11 @@ redirect_from: "/blogs/hex/archive/2008/07/21/running-your-build-source-code-fro
 
 As a test I wanted to run a build from a drive in ram rather than on a physical disk drive using the old Dos style Ram disk. For a trivial build that includes compilation, Asp.net compilation, database updates, unit test, and integration tests. I saw the build time decrease by 41%. That is pretty good. 
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="420" alt="buildFromRamDisk" src="http://lostechies.com/erichexter/files/2011/03Runningyoursourcecodefromaramdisk_ACBC/buildFromRamDisk_thumb.jpg" width="687" border="0" />](http://lostechies.com/erichexter/files/2011/03Runningyoursourcecodefromaramdisk_ACBC/buildFromRamDisk_2.jpg) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="420" alt="buildFromRamDisk" src="http://lostechies.com/content/erichexter/uploads/2011/03Runningyoursourcecodefromaramdisk_ACBC/buildFromRamDisk_thumb.jpg" width="687" border="0" />](http://lostechies.com/content/erichexter/uploads/2011/03Runningyoursourcecodefromaramdisk_ACBC/buildFromRamDisk_2.jpg) 
 
 Running MvcContrib build using this same method return the following results, a decrease in build time from 37 to 28.7 seconds.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="461" alt="RamDiskCompileMvcContrib" src="http://lostechies.com/erichexter/files/2011/03Runningyoursourcecodefromaramdisk_ACBC/RamDiskCompileMvcContrib_thumb.jpg" width="690" border="0" />](http://lostechies.com/erichexter/files/2011/03Runningyoursourcecodefromaramdisk_ACBC/RamDiskCompileMvcContrib_2.jpg) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="461" alt="RamDiskCompileMvcContrib" src="http://lostechies.com/content/erichexter/uploads/2011/03Runningyoursourcecodefromaramdisk_ACBC/RamDiskCompileMvcContrib_thumb.jpg" width="690" border="0" />](http://lostechies.com/content/erichexter/uploads/2011/03Runningyoursourcecodefromaramdisk_ACBC/RamDiskCompileMvcContrib_2.jpg) 
 
 I am running this from an XP virtual machine with the ram disk that is available for free from here:&#160; <http://www.mydigitallife.info/2007/05/27/free-ramdisk-for-windows-vista-xp-2000-and-2003-server/>
 

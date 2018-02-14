@@ -17,11 +17,11 @@ However, merging has always been the linchpin in the branching story. Branching 
 
 An interesting approach, but I have a couple of other approaches that, in the long run, have a much better, brighter upside:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="git-logo" border="0" alt="git-logo" src="http://lostechies.com/jimmybogard/files/2011/07/git-logo.png" width="101" height="192" />](http://git-scm.com/)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="git-logo" border="0" alt="git-logo" src="http://lostechies.com/content/jimmybogard/uploads/2011/07/git-logo.png" width="101" height="192" />](http://git-scm.com/)
 
 or
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="logo-droplets-150" border="0" alt="logo-droplets-150" src="http://lostechies.com/jimmybogard/files/2011/07/logo-droplets-150.png" width="154" height="184" />](http://mercurial.selenic.com/)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="logo-droplets-150" border="0" alt="logo-droplets-150" src="http://lostechies.com/content/jimmybogard/uploads/2011/07/logo-droplets-150.png" width="154" height="184" />](http://mercurial.selenic.com/)
 
 And [migrate your SVN repository into Git](http://progit.org/book/ch8-2.html) or [migrate into Hg](http://mercurial.selenic.com/wiki/ConvertExtension#Converting_from_Subversion).
 

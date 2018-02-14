@@ -70,7 +70,7 @@ That&#8217;s it. My model will now validate any arbitrary input for a date field
 
 For my actual application, here&#8217;s what that looks like:
 
-<img title="Screen shot 2011-06-13 at 3.35.18 PM.png" src="http://lostechies.com/derickbailey/files/2011/06/Screen-shot-2011-06-13-at-3.35.18-PM.png" border="0" alt="Screen shot 2011 06 13 at 3 35 18 PM" width="600" height="303" />
+<img title="Screen shot 2011-06-13 at 3.35.18 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-13-at-3.35.18-PM.png" border="0" alt="Screen shot 2011 06 13 at 3 35 18 PM" width="600" height="303" />
 
 Notice the &#8216;Start Date&#8217; field on the right hand side. When I fill in this field with something invalid and click save, I get the error message stating that it&#8217;s not valid and needs to be in a correct format. The value is also retained on the form so that the person can see what they did wrong.
 

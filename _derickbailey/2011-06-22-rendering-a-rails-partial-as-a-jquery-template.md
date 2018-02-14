@@ -14,7 +14,7 @@ categories:
 ---
 A question was [asked on twitter](https://twitter.com/#!/rbazinet/status/83724169665183745):
 
-[<img title="Screen shot 2011-06-22 at 10.52.47 PM.png" src="http://lostechies.com/derickbailey/files/2011/06/Screen-shot-2011-06-22-at-10.52.47-PM.png" border="0" alt="Screen shot 2011 06 22 at 10 52 47 PM" width="514" height="142" />](https://twitter.com/#!/rbazinet/status/83724169665183745)
+[<img title="Screen shot 2011-06-22 at 10.52.47 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-22-at-10.52.47-PM.png" border="0" alt="Screen shot 2011 06 22 at 10 52 47 PM" width="514" height="142" />](https://twitter.com/#!/rbazinet/status/83724169665183745)
 
 Here&#8217;s [one of the answers](https://twitter.com/#!/derickbailey/status/83724882654924802) that I sent to rob, in the form of a gist:
 

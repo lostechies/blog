@@ -45,7 +45,7 @@ If you are new to WIX I absolutely recommend to read [this](http://www.tramontan
 
 If you ever want to analyze the .msi package created by WIX there is a tool called **ORCA** available in the Microsoft Windows SDK. With this tool any detail of such a package can be analyzed in details, e.g. the components included, the icon used or the install execution sequence.
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_6DF956D2.png" width="644" height="424" />](http://lostechies.com/gabrielschenker/files/2011/03/image_4C0120D9.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_6DF956D2.png" width="644" height="424" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_4C0120D9.png) 
 
 Let’s now have a look at various elements of a setup project in WIX.</p> 
 
@@ -533,7 +533,7 @@ Starting from line 20 we define the components that shall be included in our set
 
 On line 27 and following we define the list of features this setup package provides. This list is visible to the user during the setup and he can enable or disable certain features. Normally during a setup the user is presented with 3 choices
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_511F9623.png" width="497" height="364" />](http://lostechies.com/gabrielschenker/files/2011/03/image_6BCC323C.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_511F9623.png" width="497" height="364" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_6BCC323C.png) 
 
 The **Level** attribute of a feature determines whether a feature is included in the typical or only in the complete setup. In our sample Level=’1’ means that the feature is included in the typical setup whilst Level=’1000’ means it is not included.
 

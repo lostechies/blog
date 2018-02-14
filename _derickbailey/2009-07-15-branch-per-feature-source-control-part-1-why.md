@@ -26,11 +26,11 @@ Several years ago, I started using source control systems to store all of my cod
 
 The way that my team worked, at the time, was based on the industry standard of “Branches”, “Tags”, “Trunk” for the high level organization. I’m honestly not sure if the industry standard is to have everyone working on the trunk, but that is what we standardized on. All live software development processes were done on the trunk, no matter the size of the team. This meant that there were multiple commits from multiple people, multiple times per day, all on the trunk.
 
- <img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="57" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_1339C246.png" width="764" border="0" />
+ <img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="57" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_1339C246.png" width="764" border="0" />
 
 This worked fine for a very long time. Especially when we looked back at having no source control. The easy to use svn applications made life good, and no one seemed to mind that everyone was committing to the trunk all the time. It really didn’t matter what feature a person was working on, because we tended to work in horizontal layers of the application. This meant that there would be, in any given period of time, multiple commits from multiple features (represented by “F#” in the following diagram).
 
-<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="88" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_4BE46C53.png" width="764" border="0" />&#160;
+<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="88" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_4BE46C53.png" width="764" border="0" />&#160;
 
 ### The Problems With The Status Quo
 
@@ -60,7 +60,7 @@ Once again, we continued to work this way, assuming that there was nothing we co
 
 After struggling through these issues for a while, we started looking at the branching capabilities in subversion. I was wary of this at first, having had horrible experiences with it in visual source safe. After some trial and error, reading, and more trails, we finally figured out how to correctly branch and merge in subversion. 
 
- <img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="122" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_2B5D2CA1.png" width="779" border="0" />
+ <img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="122" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_2B5D2CA1.png" width="779" border="0" />
 
 At that time, we decided that when we knew were going to have breaking changes, we would make those changes on a branch. This would allow everyone to continue working on the trunk, while the breaking changes were finished up on the branch. Once those changes were made, we would merge the changes back into the trunk and everyone would continue forward on the trunk, doing their small, regular commits for their work.
 

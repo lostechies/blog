@@ -38,7 +38,7 @@ DynamicMethod works by compiling IL into a strongly-typed delegate.&#160; You co
 
 Notice that I’ll have to handle unboxing here, the value passed in could be anything, a reference or a value type.&#160; That also means that boxing happens when calling this method.&#160; But, boxing is just a way of life in a world where I have to deal with types and methods at runtime.&#160; To get a template, I viewed this compiled method in Reflector:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_41CE5D64.png" width="588" height="222" />](http://lostechies.com/jimmybogard/files/2011/03/image_1B6C7A19.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_41CE5D64.png" width="588" height="222" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_1B6C7A19.png) 
 
 I don’t really know what all of these IL codes mean (any of them, actually), but I can make a meaningful guess at them.&#160; I can see the casting and unboxing, as well as calling the setter method.&#160; Now that I have a template for my method, I can create a more generalized version for my needs.
 

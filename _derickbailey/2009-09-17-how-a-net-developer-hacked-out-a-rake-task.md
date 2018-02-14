@@ -416,7 +416,7 @@ Whether or not you think using standard ruby objects in a standard rake â€˜taskâ
                                           </p>
                                           
                                           <p>
-                                            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_686300B0.png" width="365" height="157" />
+                                            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_686300B0.png" width="365" height="157" />
                                           </p>
                                           
                                           <p>
@@ -560,7 +560,7 @@ Whether or not you think using standard ruby objects in a standard rake â€˜taskâ
                                                       </p>
                                                       
                                                       <p>
-                                                        <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_67F6CDBB.png" width="385" height="169" />
+                                                        <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_67F6CDBB.png" width="385" height="169" />
                                                       </p>
                                                       
                                                       <p>
@@ -895,7 +895,7 @@ Whether or not you think using standard ruby objects in a standard rake â€˜taskâ
                                                                         </p>
                                                                         
                                                                         <p>
-                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_678A9AC6.png" width="424" height="169" />
+                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_678A9AC6.png" width="424" height="169" />
                                                                         </p>
                                                                         
                                                                         <p>

@@ -19,7 +19,7 @@ A couple of people emailed me and asked me what the story cards looked like on o
 
 These templates are word documents that have been formatted to fit on a 4&#215;6 index card.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="259" alt="StoryCard" src="http://lostechies.com/joeocampo/files/2011/03UserStoryTemplates_136D0/StoryCard_thumb.jpg" width="412" border="0" />](http://lostechies.com/joeocampo/files/2011/03UserStoryTemplates_136D0/StoryCard.jpg) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="259" alt="StoryCard" src="http://lostechies.com/content/joeocampo/uploads/2011/03UserStoryTemplates_136D0/StoryCard_thumb.jpg" width="412" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03UserStoryTemplates_136D0/StoryCard.jpg) 
 
 As you can see the story card has several sections:
 

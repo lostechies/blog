@@ -30,7 +30,7 @@ It turns out that Google’s [protocol buffer](http://en.wikipedia.org/wiki/Prot
 
 Let’s define an interface that provides what we need
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb42.png" width="625" height="135" />](http://lostechies.com/gabrielschenker/files/2012/06/image42.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb42.png" width="625" height="135" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image42.png)
 
 We have a method **SerializeEvent** which accepts an event and returns the serialized event as array of bytes. Of course we then need the counterpart, which does the opposite. The method **DeserializeEvent** accepts an array of bytes and returns the deserialized event.
 
@@ -38,13 +38,13 @@ Now please note that the **SerializeEvent** method accepts any event that implem
 
 Lets first define a helper class **Formatter** which contains a contract name of an event and a delegate to serialize and another to deserialize this event
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb43.png" width="865" height="350" />](http://lostechies.com/gabrielschenker/files/2012/06/image43.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb43.png" width="865" height="350" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image43.png)
 
 As you can see, the serializer delegate takes an object and serializes it into a stream. The deserializer delegate takes a stream (containing the serialized event) and deserializes its content and returns it as object.
 
 We want to create an instance of **Formatter** for each event that we have in our system. To get all events we can use code similar to this
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb44.png" width="864" height="347" />](http://lostechies.com/gabrielschenker/files/2012/06/image44.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb44.png" width="864" height="347" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image44.png)
 
 The result will be our know event types. Note that line 18 will be evident in a minute.
 
@@ -53,27 +53,27 @@ The **Formatter** class introduced above is hosted by the **EventSerializer** cl
   * one that gives a formatter instance provided the event type and
   * the other gives the event type provided its (contract-) name
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb45.png" width="1057" height="611" />](http://lostechies.com/gabrielschenker/files/2012/06/image45.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb45.png" width="1057" height="611" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image45.png)
 
 We use the **RuntimeTypeModel** class of the p[rotobuf-net](http://nuget.org/packages/protobuf-net) library to get a formatter (the instance that serializes/deserializes the event to an array of bytes). We also use an extension method **GetContractName** to get the contract name of the event type. It is defined as follows
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb46.png" width="727" height="158" />](http://lostechies.com/gabrielschenker/files/2012/06/image46.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb46.png" width="727" height="158" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image46.png)
 
 In the above method we take the namespace of the event from the [**DataContract**] attribute with which we have to decorate each event in order to make it serializable using the protocol buffer format (see our [NewTaskScheduled](https://github.com/gnschenker/cqrs-introduction/blob/04a08ca289dcdcf41d7182662219c6fcbc620653/CqrsIntroduction/NewTaskScheduled.cs) event).
 
 With all this preparation the actual serialization of the event is quite easy
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb47.png" width="850" height="345" />](http://lostechies.com/gabrielschenker/files/2012/06/image47.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb47.png" width="850" height="345" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image47.png)
 
 The method Serialize shown above takes an event **instance** and its **type** and serializes it into the given destination stream.
 
 The deserialization is a two step process. First we have the contract name of the event and want to get the corresponding (event-) type
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb48.png" width="538" height="105" />](http://lostechies.com/gabrielschenker/files/2012/06/image48.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb48.png" width="538" height="105" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image48.png)
 
 Having this type we can deserialize the event
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb49.png" width="810" height="344" />](http://lostechies.com/gabrielschenker/files/2012/06/image49.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb49.png" width="810" height="344" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image49.png)
 
 The above method gets the stream from which it reads the serialized content of the event as well as the event type. The method returns the deserialized event (as object).
 
@@ -83,11 +83,11 @@ Ok, then we can now discuss the implementation of the **IEventStreamer** interfa
 
 First of all the EventStreamer class uses our EventSerializer
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb50.png" width="601" height="208" />](http://lostechies.com/gabrielschenker/files/2012/06/image50.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb50.png" width="601" height="208" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image50.png)
 
 Let’s now show the SerializeEvent method and then discuss the various parts of it.
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb51.png" width="1095" height="673" />](http://lostechies.com/gabrielschenker/files/2012/06/image51.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb51.png" width="1095" height="673" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image51.png)
 
 The method consists of 3 parts
 
@@ -97,7 +97,7 @@ The method consists of 3 parts
 
 The **DeserializeEvent** method has to do the exact opposite of the above method. Let’s have a look at it
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb52.png" width="981" height="497" />](http://lostechies.com/gabrielschenker/files/2012/06/image52.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb52.png" width="981" height="497" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image52.png)
 
 On line 50 we create a memory stream around the buffer containing the serialized data. Then we have again our 3 steps
 
@@ -107,13 +107,13 @@ On line 50 we create a memory stream around the buffer containing the serialized
 
 To be complete I also have to show the **MessageContract** and the **MessageHeaderContract** classes. the **MessageContract** class contains information about the event (i.e. the event).
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb53.png" width="975" height="376" />](http://lostechies.com/gabrielschenker/files/2012/06/image53.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb53.png" width="975" height="376" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image53.png)
 
 We specifically need the contract name and the size of the event when it is serialized (the content length). Since the message contract is serialized by using protocol buffer we have decorated it with [**DataMember**] attributes.
 
 The **MessageHeaderContract** contains information about the **MessageContract**, namely the length of the message contract when it is serialized. It also contains logic to write and read itself to a stream. We do not need protocol buffer here since it is trivial and of fixed length (just an **long** &#8211; which is 8 bytes long).
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb54.png" width="748" height="515" />](http://lostechies.com/gabrielschenker/files/2012/06/image54.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb54.png" width="748" height="515" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image54.png)
 
 With this we have the basis to be able to store events in the event store and subsequently read them back from the event store when needed. Let’s now look at the event store in detail.
 
@@ -129,13 +129,13 @@ Let’s start and create a class that allows us to append an array of bytes (the
 
 Note that for write operations the file is opened in a mode that allows a single writer but many concurrent readers (line 16).
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb55.png" width="1071" height="572" />](http://lostechies.com/gabrielschenker/files/2012/06/image55.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb55.png" width="1071" height="572" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image55.png)
 
 We use a helper class <font face="Courier New">TapeStreamSerializer</font> to do the actual write operation. Note that in this first draft we always write version = 1 to the file, no matter how many events we already have stored before.
 
 Lets now look into the <font face="Courier New">TapeStreamSerializer</font> class. The <font face="Courier New">WriteRecord</font> method uses a binary serializer to write the record into a memory stream. We also use the <font face="Courier New">SHA1Managed</font> class of the .NET framework to calculate the hash code of the serialized event.
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb56.png" width="1034" height="523" />](http://lostechies.com/gabrielschenker/files/2012/06/image56.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb56.png" width="1034" height="523" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image56.png)
 
 On line 22 to 24 we create a header containing the length of the serialized event (the **data** array) and write it into the memory stream. Then on line 26 we write the actual data array into the memory stream and on lines 27 to 31 we add a footer section to the stream. The footer contains once again the length of the data array, the version of the event and the hash code computed from the data array.
 
@@ -143,35 +143,35 @@ Once we have everything written to the memory stream we append this data to the 
 
 The above method uses two simple helper methods to write a 64bit integer (lines 23, 28 and 29) and a hash code (line 30) into the memory stream.
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb57.png" width="851" height="325" />](http://lostechies.com/gabrielschenker/files/2012/06/image57.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb57.png" width="851" height="325" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image57.png)
 
 # Reading events from the event store
 
 We now want a way to read all existing events of a given aggregate from the event store. For this purpose we implement the <font face="Courier New">ReadRecords</font> method in our <font face="Courier New">FileTapeStream</font> class.
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb58.png" width="852" height="370" />](http://lostechies.com/gabrielschenker/files/2012/06/image58.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb58.png" width="852" height="370" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image58.png)
 
 On line 42 we make sure we arrived at the end of the file and no more records can be retrieved. On line 45 we again use the helper class <font face="Courier New">TapeStreamSerializer</font> to do the actual reading of a single event record from the file.
 
 The above method returns an array of <font face="Courier New">TapeRecord</font> items. A <font face="Courier New">TapeRecord</font> item contains the serialized event as well as its version
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb59.png" width="558" height="273" />](http://lostechies.com/gabrielschenker/files/2012/06/image59.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb59.png" width="558" height="273" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image59.png)
 
 Let’s now look into the <font face="Courier New">ReadRecord</font> method of the helper class. We basically have to revert the write operation we described earlier. First we try to locate/read and validate the header information (line 72-74). The header has a fixed length, thus we know exactly how many bytes to read. Then we read the data (lines 76 and 77). We know how many bytes we need to read since the data length was stored in the header. Finally we read and verify the footer which is also of fixed length (line 79-92). Specifically we make sure that the stored hash code corresponds to the ad-hoc calculated hash code of the data array (line 83-91).
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb60.png" width="919" height="641" />](http://lostechies.com/gabrielschenker/files/2012/06/image60.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb60.png" width="919" height="641" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image60.png)
 
 We use the following helper method to read a 64bit integer
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb61.png" width="570" height="177" />](http://lostechies.com/gabrielschenker/files/2012/06/image61.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb61.png" width="570" height="177" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image61.png)
 
 and this one to read the hash code
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb62.png" width="821" height="184" />](http://lostechies.com/gabrielschenker/files/2012/06/image62.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb62.png" width="821" height="184" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image62.png)
 
 and finally this one to read and verify a specific signature like e.g. ‘header start’ or ‘footer end’.
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2012/06/image_thumb63.png" width="923" height="349" />](http://lostechies.com/gabrielschenker/files/2012/06/image63.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2012/06/image_thumb63.png" width="923" height="349" />](http://lostechies.com/content/gabrielschenker/uploads/2012/06/image63.png)
 
 # Summary
 

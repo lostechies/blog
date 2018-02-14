@@ -13,6 +13,6 @@ Today I received an email about the [JetBrains Seeder Program](http://www.jetbra
 
 Can you help me understand, what JetBrains is trying to tell me?
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="405" alt="jetbrains_subliminal_messages" src="http://lostechies.com/mokhan/files/2011/03bfe6d434014c_C01A/jetbrains_subliminal_messages_thumb.png" width="644" border="0" />](http://lostechies.com/mokhan/files/2011/03bfe6d434014c_C01A/jetbrains_subliminal_messages_2.png)&#160;
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="405" alt="jetbrains_subliminal_messages" src="http://lostechies.com/content/mokhan/uploads/2011/03bfe6d434014c_C01A/jetbrains_subliminal_messages_thumb.png" width="644" border="0" />](http://lostechies.com/content/mokhan/uploads/2011/03bfe6d434014c_C01A/jetbrains_subliminal_messages_2.png)&#160;
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="405" alt="horning" src="http://lostechies.com/mokhan/files/2011/03bfe6d434014c_C01A/horning_thumb.png" width="644" border="0" />](http://lostechies.com/mokhan/files/2011/03bfe6d434014c_C01A/horning_2.png)
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="405" alt="horning" src="http://lostechies.com/content/mokhan/uploads/2011/03bfe6d434014c_C01A/horning_thumb.png" width="644" border="0" />](http://lostechies.com/content/mokhan/uploads/2011/03bfe6d434014c_C01A/horning_2.png)

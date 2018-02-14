@@ -27,13 +27,13 @@ We’ve tried to combat this problem by having lots of logging and diagnostics w
 
 Once you have your FubuMVC-based application up and running and you can successfully browse to your routes/actions, you should try hitting the FubuMVC diagnostics portal.&#160; First, make sure that you have enabled diagnostics in your Global.asax (if you’re using the FubuStructureMapApplication) by setting EnableDiagnostics = true, or (if you have your own FubuRegistry-derived class), passing true to IncludeDiagnostics(bool).&#160; Next, navigate your browser to http://<yourserver>/<yourapp>/_fubu.&#160; You should see the portal home screen, like this:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="fubu_diags_home" src="http://lostechies.com/chadmyers/files/2011/03/fubu_diags_home_thumb_17C2A247.png" width="674" height="207" />](http://lostechies.com/chadmyers/files/2011/03/fubu_diags_home_0BC0B213.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="fubu_diags_home" src="http://lostechies.com/content/chadmyers/uploads/2011/03/fubu_diags_home_thumb_17C2A247.png" width="674" height="207" />](http://lostechies.com/content/chadmyers/uploads/2011/03/fubu_diags_home_0BC0B213.png) 
 
 ### Chains
 
 “Chains” means “Behavior Chains”.&#160; FubuMVC executes routes by using a sort of chain-of-command pattern (not exactly chain-of-command, but it’s similar).&#160; Many “behavior nodes” or “behaviors” are chained together and each get an opportunity to service part or all of the request.&#160; Some examples of behaviors are “Invoke the action”, “Render a WebForm view”, “Log the request”, “Render output model as JSON”, etc.&#160; Behaviors get associated with chains conventionally through your configuration.&#160; To view all the chains that are available, click on the “Chains” link. At which point you’ll see a screen something like this (from the FubuMVC HelloWorld sample application):
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="fubu_diags_chains" src="http://lostechies.com/chadmyers/files/2011/03/fubu_diags_chains_thumb_0E49E3D1.png" width="906" height="281" />](http://lostechies.com/chadmyers/files/2011/03/fubu_diags_chains_343F9427.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="fubu_diags_chains" src="http://lostechies.com/content/chadmyers/uploads/2011/03/fubu_diags_chains_thumb_0E49E3D1.png" width="906" height="281" />](http://lostechies.com/content/chadmyers/uploads/2011/03/fubu_diags_chains_343F9427.png) 
 
 &#160;
 
@@ -43,7 +43,7 @@ You should also note (as an aside), that there is a special “(default)” rout
 
 When you click on a chain (I clicked on “(default)”) you’ll see a screen with more detail including the behaviors (“Nodes”) and a short log (I’ll explain this in a second):
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="fubu_diags_chain_nodes" src="http://lostechies.com/chadmyers/files/2011/03/fubu_diags_chain_nodes_thumb_3BAB79A1.png" width="902" height="731" />](http://lostechies.com/chadmyers/files/2011/03/fubu_diags_chain_nodes_08030D43.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="fubu_diags_chain_nodes" src="http://lostechies.com/content/chadmyers/uploads/2011/03/fubu_diags_chain_nodes_thumb_3BAB79A1.png" width="902" height="731" />](http://lostechies.com/content/chadmyers/uploads/2011/03/fubu_diags_chain_nodes_08030D43.png) 
 
 #### Chain – Nodes
 

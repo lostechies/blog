@@ -13,11 +13,11 @@ redirect_from: "/blogs/jimmy_bogard/archive/2011/01/31/three-simple-mercurial-ru
 ---
 The following is highly opinionated, but it matches most closely to what typical Git workflows are.&#160; The nice thing about Hg is that its tools can hide the complexity of working with distributed version control systems (DVCS).&#160; That’s also a drawback, because if you don’t know what’s actually going on behind the scenes with your commits, you can get into some rather strange situations and complicated commit graphs:
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_4EE6AA60.png" width="281" height="271" />](http://lostechies.com/jimmybogard/files/2011/03/image_2884C715.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_4EE6AA60.png" width="281" height="271" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_2884C715.png)
 
 This is actually a relatively sane portion of the MVCContrib project.&#160; Now, dealing with public repositories with forks is a little bit different than internal team repositories, but the rules are quite similar.&#160; Here’s a picture from a team-based project, working on one line of development:
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_14F76774.png" width="65" height="204" />](http://lostechies.com/jimmybogard/files/2011/03/image_60570B38.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_14F76774.png" width="65" height="204" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_60570B38.png)
 
 Uh…what?&#160; There’s only supposed to be one “line” of development, one truth of the current version, but can anyone look at this picture and have any idea what’s going on?&#160; I sure can’t.
 

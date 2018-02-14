@@ -16,7 +16,7 @@ redirect_from: "/blogs/derickbailey/archive/2010/06/08/git-d-oh-i-meant-to-creat
 ---
 Yesterday I ran into a situation with git where I was working away on some code, finished what I was doing and committed the changes. Immediately after making the commit, I realized that I was still sitting in my master branch instead and had made the commits there instead of on a topic branch like I meant to. 
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_468DFE69.png" width="261" height="63" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_468DFE69.png" width="261" height="63" />
 
 If I were using subversion, at this point I would create a branch from the head of where I committed and then revert the original commits. The subversion history would show that I made the mistake and anyone that pulled changes from the original location would get the commits applied and then rolled back. 
 
@@ -51,7 +51,7 @@ The first thing you want to do is snap off a new branch, just like you would in 
             </p>
             
             <p>
-              <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_514B55BE.png" width="361" height="102" />
+              <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_514B55BE.png" width="361" height="102" />
             </p>
             
             <p>
@@ -75,7 +75,7 @@ The first thing you want to do is snap off a new branch, just like you would in 
                 </p>
                 
                 <p>
-                  <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_65D0A53C.png" width="451" height="67" />
+                  <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_65D0A53C.png" width="451" height="67" />
                 </p>
                 
                 <p>
@@ -83,7 +83,7 @@ The first thing you want to do is snap off a new branch, just like you would in 
                 </p>
                 
                 <p>
-                  <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_4C68A202.png" width="257" height="73" />
+                  <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_4C68A202.png" width="257" height="73" />
                 </p>
                 
                 <p>

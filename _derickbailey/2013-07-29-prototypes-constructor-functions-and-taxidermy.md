@@ -39,7 +39,7 @@ Visualize this through code, again:
 </pre>
 </div>
 
-<img src="http://lostechies.com/derickbailey/files/2013/07/prototype_constructor-replacement.png" alt="Prototype constructor replacement" width="600" height="93" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2013/07/prototype_constructor-replacement.png" alt="Prototype constructor replacement" width="600" height="93" border="0" />
 
 The `prototype.constructor` is no longer pointing to `MyObject`, so the original `MyObject` &#8220;constructor function&#8221; is not being applied to the new object instance.
 

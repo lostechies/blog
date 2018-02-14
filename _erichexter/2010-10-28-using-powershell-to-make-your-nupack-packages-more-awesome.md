@@ -32,16 +32,16 @@ The problem I had to sovle was that our framework requires a consuming project t
 
 ### Before
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="before" src="http://lostechies.com/erichexter/files/2011/03/image_thumb_1E5C2837.png" width="638" height="484" />](http://lostechies.com/erichexter/files/2011/03/image_7F85B458.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="before" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_1E5C2837.png" width="638" height="484" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_7F85B458.png) 
 
 ### After
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Untitled1" src="http://lostechies.com/erichexter/files/2011/03/Untitled1_thumb_074DA6FB.png" width="644" height="475" />](http://lostechies.com/erichexter/files/2011/03/Untitled1_6157F6A4.png) </p> 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Untitled1" src="http://lostechies.com/content/erichexter/uploads/2011/03/Untitled1_thumb_074DA6FB.png" width="644" height="475" />](http://lostechies.com/content/erichexter/uploads/2011/03/Untitled1_6157F6A4.png) </p> 
 
 So, the differences are subtle but make the difference between everything working and nothing working.
 
 To make these changes programmatically, I used the DTE object model.&#160; Here’s the code.
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_thumb_3A3D3762.png" width="644" height="460" />](http://lostechies.com/erichexter/files/2011/03/image_0D284A94.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_3A3D3762.png" width="644" height="460" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_0D284A94.png) 
 
 The COM object model is a little scary but there is descent documentation on the MSDN website for navigating it.&#160; The single biggest win NuPack brings to the table for developing this kind of code is the Package Console. You can interactively type commands and inspect the object model.&#160; So to develop this code, I simply typed it into the console one line at a time and verified what I wanted to see happen. Once that works, I moved it into the install.ps1 script. Doing the development interactively is much easier than making code changes, rebuilding your package, then trying the install out.&#160; That is just too much friction to deal with. So, go experiment with the Package Management console. A good powershell command to start with is get-variable, this will let you inspect the objects that NuPack puts into the console and see what type of information you can access using the DTE object model.

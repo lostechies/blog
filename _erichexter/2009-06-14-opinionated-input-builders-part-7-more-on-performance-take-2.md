@@ -34,7 +34,7 @@ After doing what all good developers should do on the weekend… which is enjoy 
 
 One of the features of the Builders that I like is the ability to deliver all of the partial views from a separate assembly that would make this library and approach feel more like a component with a single package for all of its files than a Hodge-podge of files you need to copy into your project.&#160; That approach came at a cost.&#160; My own implementation of the VirtualPathProvider proved to be disastrous on performance.&#160; Below is the same performance test running against my sample page with the partial views and master pages copied into the local project and removing my implementation of the VirtualPathProvider.
 
-<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_6B57133F.png" width="1028" height="182" />
+<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_6B57133F.png" width="1028" height="182" />
 
 With this small 5 second change the Maximum Requests/Second went from **442** to **1,027** .&#160; The Average Requests/Second went from **351** to **908**. Not bad huh?&#160; So after a single change to the code base and removing my custom code for pulling partial views from the embedded resources,&#160; I was able to get a huge performance increase.&#160; 
 

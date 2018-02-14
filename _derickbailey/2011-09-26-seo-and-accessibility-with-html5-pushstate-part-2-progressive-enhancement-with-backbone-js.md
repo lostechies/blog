@@ -34,7 +34,7 @@ When i instantiate the view after the page loads, I&#8217;m providing the existi
 
 Clicking the &#8220;Say My Name&#8221; button with JavaScript enabled will cause an alert box.
 
-<img title="Screen Shot 2011-09-26 at 3.56.12 PM.png" src="http://lostechies.com/derickbailey/files/2011/09/Screen-Shot-2011-09-26-at-3.56.12-PM.png" border="0" alt="Screen Shot 2011 09 26 at 3 56 12 PM" width="479" height="238" />
+<img title="Screen Shot 2011-09-26 at 3.56.12 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/Screen-Shot-2011-09-26-at-3.56.12-PM.png" border="0" alt="Screen Shot 2011 09 26 at 3 56 12 PM" width="479" height="238" />
 
 Without javascript, it would post back to the server and the server could render the name to an html element somewhere.
 
@@ -52,7 +52,7 @@ In this example, the \`UserListView\` will loop through all of the \`<li>\` tags
 
 Then after we initialize everything and attach it to the HTML, we grab the first item in the collection and change the name. The list is then updated through the use of the event binding:
 
-<img title="Screen Shot 2011-09-26 at 4.19.00 PM.png" src="http://lostechies.com/derickbailey/files/2011/09/Screen-Shot-2011-09-26-at-4.19.00-PM.png" border="0" alt="Screen Shot 2011 09 26 at 4 19 00 PM" width="144" height="95" />
+<img title="Screen Shot 2011-09-26 at 4.19.00 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/Screen-Shot-2011-09-26-at-4.19.00-PM.png" border="0" alt="Screen Shot 2011 09 26 at 4 19 00 PM" width="144" height="95" />
 
 With this pattern of implementation in place, it should be fairly easy to see how we can progressively enhance our server-generated HTML with JavaScript frameworks like Backbone.js. However, there&#8217;s one more issue to cover still &#8211; what happens when we need to render the same HTML from the server side as well as from the client side?
 

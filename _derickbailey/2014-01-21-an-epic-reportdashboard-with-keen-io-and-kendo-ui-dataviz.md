@@ -29,7 +29,7 @@ A while back, I wrote a post on the idea of a [minimum viable report](http://los
 
 I wanted to produce some beautiful reports for the podcasters that are hosted with SignalLeaf&#8230; something that looks like this:
 
-<img src="http://lostechies.com/derickbailey/files/2014/01/Screen-Shot-2014-01-20-at-4.49.37-PM.png" alt="Screen Shot 2014 01 20 at 4 49 37 PM" width="600" height="217" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/Screen-Shot-2014-01-20-at-4.49.37-PM.png" alt="Screen Shot 2014 01 20 at 4 49 37 PM" width="600" height="217" border="0" />
 
 When I first set things up, I **took the quick and easy route of storing data for my reports directly in my MongoDB.** I knew this wouldn&#8217;t get me very far, but it got me started. I was able to put together some uber-simple reports for episode downloads. But it stopped there, and stagnated quickly. Eventually, I started looking at what it would take to build the aggregate reports, to run the math and to the queries out of MongoDB. And as you can guess, I wound up tossing my hands in the air and ignoring analytics and reports for a long time. **MongoDB is an awesome document store&#8230; but it&#8217;s terrible for analytics and reporting**. Then along came a recommendation from someone, to check out Keen.io. So I Did. And I immediately saw that this was the solution to my problems for storing data and generating the numbers for the reports that I want. 
 

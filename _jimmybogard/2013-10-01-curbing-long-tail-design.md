@@ -17,11 +17,11 @@ But it doesn’t have to be this way. Often times, the reasons the codebase lost
 
 Instead of having one design, the codebase has many competing designs. Whenever a developer adds a new feature, they have to hunt for the last “good” feature. Design follows a long road:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/10/image_thumb.png" width="640" height="93" />](http://lostechies.com/jimmybogard/files/2013/10/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/10/image_thumb.png" width="640" height="93" />](http://lostechies.com/content/jimmybogard/uploads/2013/10/image.png)
 
 We start out with the first few features as V1.0 of the design and architecture. As we learn more, we augment our design to V1.1. Many more features are added with this design, until we make another breakthrough in the design with V1.2. One developer read something cool on a blog, augmented the design in one spot, and now we have V1.2.1. It continues along this path until we have a long tail design:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/10/image_thumb1.png" width="480" height="289" />](http://lostechies.com/jimmybogard/files/2013/10/image1.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/10/image_thumb1.png" width="480" height="289" />](http://lostechies.com/content/jimmybogard/uploads/2013/10/image1.png)
 
 A new developer coming to this team has no chance! There are many problems with evolving a system this way.
 

@@ -42,7 +42,7 @@ Once this has finished successfully MongoDB should already be running and we can
 
 There we should find a line similar to the one in the image below
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb3.png" width="609" height="103" />](http://lostechies.com/gabrielschenker/files/2014/12/image3.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb3.png" width="609" height="103" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image3.png)
 
 If MongoDB for some reason is not running we can start it like this
 
@@ -50,7 +50,7 @@ If MongoDB for some reason is not running we can start it like this
 
 To test MongoDB open a new terminal (CTRL-ALT-T) and enter <font face="courier new">mongo</font>. To show a list of all databases on this MongoDB instance type <font face="courier new">show dbs</font>.
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb4.png" width="315" height="182" />](http://lostechies.com/gabrielschenker/files/2014/12/image4.png) 
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb4.png" width="315" height="182" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image4.png) 
 
 This confirms that MongoDB is up and running.
 
@@ -71,4 +71,4 @@ This will start GES using loopback (127.0.0.1) as the IP-address and listening a
 
 <font face="Ge">Open a browser and navigate to <a href="2113/web/index.html">localhost:2113/web/index.html</a> to verify that GES is working as expected. The (default) login credentials are admin/changeit. Once you’re logged in you should see something like this</font>
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb5.png" width="609" height="357" />](http://lostechies.com/gabrielschenker/files/2014/12/image5.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb5.png" width="609" height="357" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image5.png)

@@ -14,7 +14,7 @@ categories:
   - Tools
 redirect_from: "/blogs/joe_ocampo/archive/2007/11/14/when-passion-becomes-dogma-is-it-elitism.aspx/"
 ---
-From Wikipedia[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="205" alt="elitism" src="http://lostechies.com/joeocampo/files/2011/03Whenpassionbecomesdogmaisitelitism_149BC/elitism_thumb.jpg" width="244" align="right" border="0" />](http://lostechies.com/joeocampo/files/2011/03Whenpassionbecomesdogmaisitelitism_149BC/elitism_2.jpg) 
+From Wikipedia[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="205" alt="elitism" src="http://lostechies.com/content/joeocampo/uploads/2011/03Whenpassionbecomesdogmaisitelitism_149BC/elitism_thumb.jpg" width="244" align="right" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03Whenpassionbecomesdogmaisitelitism_149BC/elitism_2.jpg) 
 
 > **Passion** is the emotion of feeling very strongly about a subject. 
 > 

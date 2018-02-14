@@ -55,7 +55,7 @@ _Cat sez:_
 There is no substitute for a certain amount of domain expertise being resident in the team room. Your domain experts are experts only in their domain. They may know the workings of a histology laboratory inside and out, but if you ask them to design a system to support that lab, they&#8217;ll come back with something that looks an awful lot like excel and post-it notes.
 
 <div style="text-align:center">
-  <img src="http://lostechies.com/scottreynolds/files/2011/03/postits.png" alt="postits.png" border="0" width="604" height="453" /><br /> <em>Yes&#8230;this is a workaround someone had for something our system didn&#8217;t do. It&#8217;s been fixed 😉</em>
+  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/postits.png" alt="postits.png" border="0" width="604" height="453" /><br /> <em>Yes&#8230;this is a workaround someone had for something our system didn&#8217;t do. It&#8217;s been fixed 😉</em>
 </div>
 
 Lean has a concept of the [gemba attitude](http://en.wikipedia.org/wiki/Gemba) and [genchi genbutsu](http://en.wikipedia.org/wiki/Genchi_Genbutsu), essentially, being in the place where the action happens. Developers and business analysts have to work with the domain experts, in the place where the work happens, and observe the true workflows in place before hoping to design a system to support them. You cannot get this information from sit down meetings and emails with domain experts. You must go and see for yourself, or you will miss things.

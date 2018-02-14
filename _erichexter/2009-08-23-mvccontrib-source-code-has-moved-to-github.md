@@ -22,7 +22,7 @@ We recently moved the MvcContrib projects source code over to GitHub.&#160; We a
 
 Here are the sections of the tutorial
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_thumb_4C1BA483.png" width="1028" height="363" />](http://lostechies.com/erichexter/files/2011/03/image_0D2A23E8.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_4C1BA483.png" width="1028" height="363" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_0D2A23E8.png) 
 
 &#160;
 
@@ -30,7 +30,7 @@ Continuous Integration is running on the Codebetter TeamCity server.&#160; Codeb
 
 The build server is located here [http://teamcity.codebetter.com/project.html?projectId=project10](http://teamcity.codebetter.com/project.html?projectId=project10 "http://teamcity.codebetter.com/project.html?projectId=project10") 
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_thumb_5A96A0A8.png" width="1028" height="452" />](http://lostechies.com/erichexter/files/2011/03/image_4A6AD8AF.png) </p> 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_5A96A0A8.png" width="1028" height="452" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_4A6AD8AF.png) </p> 
 
 &#160;
 

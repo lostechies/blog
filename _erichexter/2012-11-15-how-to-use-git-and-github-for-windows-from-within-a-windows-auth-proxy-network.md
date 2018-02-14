@@ -18,7 +18,7 @@ While git is a nice distributed version control system (dvcs), it was not writte
 
 In order to make git access repositories on the internet through a windows auth proxy server we need to add a local proxy and configure git to use the local proxy.&nbsp; This local proxy takes care of all the authentication so that git just works with the proxy and the proxy relays the data through the tightly controlled corporate proxy server.&nbsp; Lets look at a diagram of how this works.
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb14.png" width="658" height="301" />](http://lostechies.com/erichexter/files/2012/11/image14.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb14.png" width="658" height="301" />](http://lostechies.com/content/erichexter/uploads/2012/11/image14.png)
 
 The light blue box represents your machine/workstation; the red box is the corporate network; the green box represents the internet. Since git cannot send ntlm credentials to the proxy, the network traffic just dies at the proxy.&nbsp; With the local ntlmmapps proxy, git can communicate to it without having to send the username and password, and the ntlmmapps proxy adds that information so the corporate ntml proxy gets it’s credentials and passes the network traffic through to github.com. 
 

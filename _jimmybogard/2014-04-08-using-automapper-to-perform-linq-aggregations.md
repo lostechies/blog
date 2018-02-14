@@ -20,7 +20,7 @@ Let’s start small, what if in our model of courses and instructors, we wanted 
 
 But at runtime this will result in another SELECT for each row to count the items:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2014/04/image_thumb.png" width="527" height="155" />](http://lostechies.com/jimmybogard/files/2014/04/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/04/image_thumb.png" width="527" height="155" />](http://lostechies.com/content/jimmybogard/uploads/2014/04/image.png)
 
 We could eager fetch those rows ahead of time, but this is also less efficient than just performing a SQL correlated subquery to calculate that SUM. With AutoMapper, we can just declare this property on our ViewModel class:
 

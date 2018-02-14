@@ -21,7 +21,7 @@ If you&#8217;re using HTML templates with a JavaScript application, you need to 
 
 If you didn&#8217;t know this already, DOM selection is expensive. So expensive, in fact, that it should be avoided whenever possible. Of course avoiding it entirely is not likely as we need DOM selection to handle events, update the UI, and more. There&#8217;s a huge performance impact on having to constantly select a <script> tag from the DOM when you need a template, though. See [this JSPerf that I wrote](http://jsperf.com/dom-select-vs-cache) which illustrates the difference.
 
-<img title="Screen Shot 2012-03-28 at 9.35.57 PM.png" src="http://lostechies.com/derickbailey/files/2012/03/Screen-Shot-2012-03-28-at-9.35.57-PM.png" border="0" alt="Screen Shot 2012 03 28 at 9 35 57 PM" width="600" height="337" />
+<img title="Screen Shot 2012-03-28 at 9.35.57 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/03/Screen-Shot-2012-03-28-at-9.35.57-PM.png" border="0" alt="Screen Shot 2012 03 28 at 9 35 57 PM" width="600" height="337" />
 
 If you&#8217;re storing templates in a script tag, don&#8217;t access that DOM element more than once. After all, you&#8217;re not expecting the contents of the template to change. Only the data that is rendered in to the template changes.
 
@@ -35,7 +35,7 @@ The easiest way of storing a template is to use the DOM selector as a key, and t
 
 One of the commenters in the thread of discussion liked the test I put together but thought it could be done better, still. He updated it to show [cached vs non-cached and pre-compiled vs non-pre-compiled templates](http://jsperf.com/dom-select-vs-cache/2).
 
-<img title="Screen Shot 2012-03-28 at 10.02.37 PM.png" src="http://lostechies.com/derickbailey/files/2012/03/Screen-Shot-2012-03-28-at-10.02.37-PM.png" border="0" alt="Screen Shot 2012 03 28 at 10 02 37 PM" width="600" height="306" />
+<img title="Screen Shot 2012-03-28 at 10.02.37 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/03/Screen-Shot-2012-03-28-at-10.02.37-PM.png" border="0" alt="Screen Shot 2012 03 28 at 10 02 37 PM" width="600" height="306" />
 
 Clearly, pre-compiling your templates is important. So let&#8217;s update our TemplateCache to pre-compile the templates for us (assuming we&#8217;re using underscore.js):
 

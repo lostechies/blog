@@ -41,7 +41,7 @@ Looking at the types of the model you can see that the Enum partial will render 
 
 This is an example of using the Chained Method override instead of using an attribute based approach.
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_60530D1B.png" width="875" height="295" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_60530D1B.png" width="875" height="295" />
 
 This convention of utilizing the partial views allows the separation of concerns (SoC) of the markup from the conventions which determine which partial to render.
 

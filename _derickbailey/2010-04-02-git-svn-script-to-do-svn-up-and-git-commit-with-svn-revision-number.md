@@ -17,11 +17,11 @@ I’ve been using [Git+SVN](http://www.lostechies.com/blogs/derickbailey/archive
 
 Since I run in a bash shell most of the time (the Git Bash shell… MingW32), I decided to take advantage of the bash commands like grep and piping, etc, to get the svn info that I wanted into my commit message. I wanted to get the svn revision number. This can be obtained by running “svn info”:
 
-&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_498959AF.png" width="997" height="314" />
+&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_498959AF.png" width="997" height="314" />
 
 the “Revision: 30165” line is what I’m looking, so a simple command like “svn info | grep Revision” should do the trick:
 
-&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_2CA034DA.png" width="997" height="154" />
+&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_2CA034DA.png" width="997" height="154" />
 
 Then, with a little help from [Tim Ottinger](http://twitter.com/tottinge/statuses/11480532867), I got the command line i needed to insert this info into my git commit message: git commit –m “$(svn info | grep “Revision”*)”
 
@@ -51,5 +51,5 @@ The resulting batch file has these commands in it:
       </p>
       
       <p>
-        <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_27BD811E.png" width="997" height="307" />
+        <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_27BD811E.png" width="997" height="307" />
       </p>

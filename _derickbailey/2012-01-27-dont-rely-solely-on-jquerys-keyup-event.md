@@ -22,7 +22,7 @@ To &#8220;fix&#8221; the problem, I switched my code from a &#8220;change&#8221;
 
 Most (if not all) browsers have an auto-fill feature, these days. I use it in Chrome a lot. It saves me a few seconds here and there and generally makes it easier for me to fill in the same repetitious information across websites.
 
-<img title="Screen Shot 2012-01-27 at 7.53.37 AM.png" src="http://lostechies.com/derickbailey/files/2012/01/Screen-Shot-2012-01-27-at-7.53.37-AM.png" border="0" alt="Screen Shot 2012 01 27 at 7 53 37 AM" width="423" height="361" />
+<img title="Screen Shot 2012-01-27 at 7.53.37 AM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/01/Screen-Shot-2012-01-27-at-7.53.37-AM.png" border="0" alt="Screen Shot 2012 01 27 at 7 53 37 AM" width="423" height="361" />
 
 But there&#8217;s a problem with auto-fill. It doesn&#8217;t fire the &#8220;keyup&#8221; event. It fires the &#8220;change&#8221; event for the things it fills in, but not &#8220;keyup&#8221;. This resulted in the data being truncated when it populated my Backbone model.
 

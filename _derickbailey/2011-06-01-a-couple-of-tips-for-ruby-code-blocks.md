@@ -77,7 +77,7 @@ I need to go back and re-read the [Metaprogramming Ruby](http://pragprog.com/tit
 
 This is one that [Hugo Bonacci](https://twitter.com/#!/hugoware) mentioned on twitter a few days ago. He had an issue related to code blocks vs hashes:
 
-<img title="Screen shot 2011-06-01 at 1.55.03 PM.png" src="http://lostechies.com/derickbailey/files/2011/06/Screen-shot-2011-06-01-at-1.55.03-PM.png" border="0" alt="Screen shot 2011 06 01 at 1 55 03 PM" width="372" height="421" />
+<img title="Screen shot 2011-06-01 at 1.55.03 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-01-at-1.55.03-PM.png" border="0" alt="Screen shot 2011 06 01 at 1 55 03 PM" width="372" height="421" />
 
 The reason why this happens had never occurred to me before, but I have run into this problem in the same way he did on many occasions: code blocks and hashes can both use the { } curly brace to denote their beginning and end.
 

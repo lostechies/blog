@@ -21,7 +21,7 @@ Typically a crash on a deployment is one of two things:
 
 I checked the DEBUG conditional code config, which does things like point to the test/production API endpoints. That looked OK, so what else was different? 
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="Screen Shot 2014-11-11 at 9.20.41 AM" src="http://lostechies.com/jimmybogard/files/2014/11/Screen-Shot-2014-11-11-at-9.20.41-AM_thumb.png" width="511" height="375" />](http://lostechies.com/jimmybogard/files/2014/11/Screen-Shot-2014-11-11-at-9.20.41-AM.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="Screen Shot 2014-11-11 at 9.20.41 AM" src="http://lostechies.com/content/jimmybogard/uploads/2014/11/Screen-Shot-2014-11-11-at-9.20.41-AM_thumb.png" width="511" height="375" />](http://lostechies.com/content/jimmybogard/uploads/2014/11/Screen-Shot-2014-11-11-at-9.20.41-AM.png)
 
 That was my debug version of the app, where no assemblies were linked. In the Release mode, only SDK assemblies were linked. For many cases, this works, as the compiler can figure out exactly what methods/fields etc. are being referenced.
 

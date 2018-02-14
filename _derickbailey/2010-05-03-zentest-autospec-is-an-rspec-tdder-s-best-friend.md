@@ -30,11 +30,11 @@ But NO MORE! With ZenTest installed, I can use the autospec feature of Rspec and
 
 For example… when I write out my tests for the xunit task from gVim
 
-<a href="http://lostechies.com/derickbailey/files/2011/03/image_2764383A.png" target="_blank"><img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_7EE55625.png" width="444" height="285" /></a>
+<a href="http://lostechies.com/content/derickbailey/uploads/2011/03/image_2764383A.png" target="_blank"><img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_7EE55625.png" width="444" height="285" /></a>
 
 autospec picks up on the changes to the tests and re-runs just the xunit tests:
 
-&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_04BFF9BF.png" width="444" height="343" /></p> 
+&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_04BFF9BF.png" width="444" height="343" /></p> 
 
 &#160;
 
@@ -42,7 +42,7 @@ autospec picks up on the changes to the tests and re-runs just the xunit tests:
 
 Installation is easy. You only need rspec and ZenTest (note the capital Z and T in ZenTest when installing the gem)
 
-&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_2AB5AA15.png" width="721" height="411" />
+&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_2AB5AA15.png" width="721" height="411" />
 
 Now you, too, can enjoy the awesomeness that is automatic test runs without having to go through a CI server. 🙂
 

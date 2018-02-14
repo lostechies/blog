@@ -789,7 +789,7 @@ This is all you need to install the preview version:
                                                                         </p>
                                                                         
                                                                         <p>
-                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_397B074E.png" width="908" height="149" />
+                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_397B074E.png" width="908" height="149" />
                                                                         </p>
                                                                         
                                                                         <p>
@@ -797,7 +797,7 @@ This is all you need to install the preview version:
                                                                         </p>
                                                                         
                                                                         <p>
-                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_58BDAE21.png" width="905" height="146" />
+                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_58BDAE21.png" width="905" height="146" />
                                                                         </p>
                                                                         
                                                                         <p>

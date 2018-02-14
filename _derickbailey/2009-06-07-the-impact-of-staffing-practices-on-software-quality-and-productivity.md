@@ -20,7 +20,7 @@ Companies tend to staff various teams with an experience level of employees that
 <table style="float: left" cellspacing="0" cellpadding="5" border="0">
   <tr>
     <td valign="top" align="center">
-      <a href="http://lostechies.com/derickbailey/files/2011/03/clip_image002_65719362.gif"><img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="187" alt="clip_image002" src="http://lostechies.com/derickbailey/files/2011/03/clip_image002_thumb_0BD376AE.gif" width="204" border="0" /></a> <br /><font size="1"><b>Figure 1.</b> Junior-Heavy Hierarchy</font>
+      <a href="http://lostechies.com/content/derickbailey/uploads/2011/03/clip_image002_65719362.gif"><img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="187" alt="clip_image002" src="http://lostechies.com/content/derickbailey/uploads/2011/03/clip_image002_thumb_0BD376AE.gif" width="204" border="0" /></a> <br /><font size="1"><b>Figure 1.</b> Junior-Heavy Hierarchy</font>
     </td>
   </tr>
 </table>
@@ -54,7 +54,7 @@ In Figure 2, there are two cycles of increasing momentum at play, which ultimate
 <table style="float: left" cellspacing="0" cellpadding="5" border="0">
   <tr>
     <td valign="top" align="center">
-      <a href="http://lostechies.com/derickbailey/files/2011/03/clip_image004_21D69694.jpg"><font size="1"><a href="http://lostechies.com/derickbailey/files/2011/03/clip_image004_47CC46EA.jpg"><img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="363" alt="clip_image004" src="http://lostechies.com/derickbailey/files/2011/03/clip_image004_thumb_1E3BC763.jpg" width="429" border="0" /></a></font></a><font size="1"> <br /><b>Figure 2. </b>Increasing Cycles of Lowered Productivity</font>
+      <a href="http://lostechies.com/content/derickbailey/uploads/2011/03/clip_image004_21D69694.jpg"><font size="1"><a href="http://lostechies.com/content/derickbailey/uploads/2011/03/clip_image004_47CC46EA.jpg"><img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="363" alt="clip_image004" src="http://lostechies.com/content/derickbailey/uploads/2011/03/clip_image004_thumb_1E3BC763.jpg" width="429" border="0" /></a></font></a><font size="1"> <br /><b>Figure 2. </b>Increasing Cycles of Lowered Productivity</font>
     </td>
   </tr>
 </table>
@@ -70,7 +70,7 @@ The second cycle depicted shows how the lowered productivity of the team will le
 <table style="float: left" cellspacing="0" cellpadding="5" border="0">
   <tr>
     <td valign="top" align="center">
-      <a href="http://lostechies.com/derickbailey/files/2011/03/clip_image006_0152A28E.jpg"><img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="77" alt="clip_image006" src="http://lostechies.com/derickbailey/files/2011/03/clip_image006_thumb_0EB8B594.jpg" width="240" border="0" /></a> <br /><font size="1"><b>Figure 3.</b> Senior Heavy Structure</font>
+      <a href="http://lostechies.com/content/derickbailey/uploads/2011/03/clip_image006_0152A28E.jpg"><img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="77" alt="clip_image006" src="http://lostechies.com/content/derickbailey/uploads/2011/03/clip_image006_thumb_0EB8B594.jpg" width="240" border="0" /></a> <br /><font size="1"><b>Figure 3.</b> Senior Heavy Structure</font>
     </td>
   </tr>
 </table>

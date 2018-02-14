@@ -83,7 +83,7 @@ Make sure you have ready my post about creating and configuring a Ubuntu VM on H
                 
                 and use e.g. Chrome to navigate to <http://localhost:5004> to test our sample application
                 
-                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2015/01/image_thumb.png" width="759" height="556" />](http://lostechies.com/gabrielschenker/files/2015/01/image.png) 
+                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2015/01/image_thumb.png" width="759" height="556" />](http://lostechies.com/content/gabrielschenker/uploads/2015/01/image.png) 
                 
                 To stop kestrel simply press ENTER (and then CTRL-C) in the terminal where you started it.
                 
@@ -109,7 +109,7 @@ Make sure you have ready my post about creating and configuring a Ubuntu VM on H
                 
                 Save the files and compile. Then we navigate to the URI <http://localhost:5004/api/recipes> and <http://localhost:5004/api/recipes/1> respectively and for the former should see something like this
                 
-                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2015/01/image_thumb1.png" width="471" height="367" />](http://lostechies.com/gabrielschenker/files/2015/01/image1.png) 
+                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2015/01/image_thumb1.png" width="471" height="367" />](http://lostechies.com/content/gabrielschenker/uploads/2015/01/image1.png) 
                 
                 Ok, apparently the reading part works fine. Now let’s tackle the writing part. 
                 
@@ -135,11 +135,11 @@ Make sure you have ready my post about creating and configuring a Ubuntu VM on H
                 
                 and we can then test it by e.g. using the Postman plug-in for Chrome
                 
-                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2015/01/image_thumb2.png" width="738" height="469" />](http://lostechies.com/gabrielschenker/files/2015/01/image2.png) 
+                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2015/01/image_thumb2.png" width="738" height="469" />](http://lostechies.com/content/gabrielschenker/uploads/2015/01/image2.png) 
                 
                 and in the console we should also get a feedback that the method has indeed been called
                 
-                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2015/01/image_thumb3.png" width="469" height="82" />](http://lostechies.com/gabrielschenker/files/2015/01/image3.png) 
+                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2015/01/image_thumb3.png" width="469" height="82" />](http://lostechies.com/content/gabrielschenker/uploads/2015/01/image3.png) 
                 
                 ## The domain
                 
@@ -193,11 +193,11 @@ Make sure you have ready my post about creating and configuring a Ubuntu VM on H
                 
                 And now we are ready to try what we have implemented so far. Let’s return to our Postman client and try to send the same command again that we have used earlier when we tested the controller.
                 
-                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2015/01/image_thumb4.png" width="492" height="376" />](http://lostechies.com/gabrielschenker/files/2015/01/image4.png) 
+                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2015/01/image_thumb4.png" width="492" height="376" />](http://lostechies.com/content/gabrielschenker/uploads/2015/01/image4.png) 
                 
                 In the console we should see a feedback, something like this
                 
-                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2015/01/image_thumb5.png" width="469" height="159" />](http://lostechies.com/gabrielschenker/files/2015/01/image5.png) </p> 
+                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2015/01/image_thumb5.png" width="469" height="159" />](http://lostechies.com/content/gabrielschenker/uploads/2015/01/image5.png) </p> 
                 
                 This is really cool! So, now the only piece missing until we have the write part of our server ready is the GES repository.
                 

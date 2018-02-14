@@ -36,7 +36,7 @@ Then, a few year ago, Google released some documents that describe [a way for Ja
 
 For example, Twitter uses hashbangs for it&#8217;s user pages:
 
-<img title="Screen Shot 2011-09-26 at 12.19.25 PM.png" src="http://lostechies.com/derickbailey/files/2011/09/Screen-Shot-2011-09-26-at-12.19.25-PM.png" border="0" alt="Screen Shot 2011 09 26 at 12 19 25 PM" width="552" height="259" />
+<img title="Screen Shot 2011-09-26 at 12.19.25 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/Screen-Shot-2011-09-26-at-12.19.25-PM.png" border="0" alt="Screen Shot 2011 09 26 at 12 19 25 PM" width="552" height="259" />
 
 This helped things along, but presented a new problem as a three-headed monster.
 

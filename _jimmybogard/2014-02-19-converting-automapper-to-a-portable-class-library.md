@@ -12,7 +12,7 @@ categories:
 ---
 In the early days of AutoMapper, I got requests to support AutoMapper in other platforms (mainly Silverlight). I didn’t have any experience in those other platforms, but I thought it would be easy. It was not. I wound up with a picture like this:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2014/02/image_thumb4.png" width="188" height="244" />](http://lostechies.com/jimmybogard/files/2014/02/image4.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb4.png" width="188" height="244" />](http://lostechies.com/content/jimmybogard/uploads/2014/02/image4.png)
 
 A separate project per platform, and using tricks like “Add as Link” to have multiple projects share the same source file. The problem with this approach is I have to remember to add files across all projects, and some features aren’t available in some platforms. I resorted to compiler directives, and ultimately, dropped support for the other platforms because it slowed me down.
 

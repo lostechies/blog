@@ -37,7 +37,7 @@ If you dig these and want more the best way to stay get notified is the RSS feed
 
 &#160;
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_thumb_14B35C8F.png" width="644" height="453" />](http://lostechies.com/erichexter/files/2011/03/image_679E6FC0.png)&#160;
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_14B35C8F.png" width="644" height="453" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_679E6FC0.png)&#160;
 
 &#160;
 

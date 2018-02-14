@@ -27,6 +27,6 @@ Note that I&#8217;m using the magic rspec matchers to go from &#8220;.should hav
 
 Also note that I made use of the &#8216;contains&#8217; xpath function in my matcher. This is because Rails likes to put gibberish at the end of image paths, to enable caching, etc:
 
-<img title="Screen Shot 2011-09-27 at 4.27.14 PM.png" src="http://lostechies.com/derickbailey/files/2011/09/Screen-Shot-2011-09-27-at-4.27.14-PM.png" border="0" alt="Screen Shot 2011 09 27 at 4 27 14 PM" width="477" height="45" />
+<img title="Screen Shot 2011-09-27 at 4.27.14 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/Screen-Shot-2011-09-27-at-4.27.14-PM.png" border="0" alt="Screen Shot 2011 09 27 at 4 27 14 PM" width="477" height="45" />
 
 The &#8216;contains&#8217; function lets you specify the actual image name without having to worry about the junk at the end of the src attribute.

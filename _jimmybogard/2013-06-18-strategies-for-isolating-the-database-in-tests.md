@@ -20,15 +20,15 @@ Easier said than done, but luckily there are quite a few options for us here.
 
 One mistake I see a lot of teams make is not properly isolating databases for each developer. I’ll often see a single shared dev database instance per team:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/06/image_thumb2.png" width="275" height="227" />](http://lostechies.com/jimmybogard/files/2013/06/image2.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/06/image_thumb2.png" width="275" height="227" />](http://lostechies.com/content/jimmybogard/uploads/2013/06/image2.png)
 
 This makes testing and development frustrating for both involved, as not only do I have shared state on my own machine, but other people could be changing data out from under me. Not a good spot to be in! We can go another step further and have a local dev database per developer:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/06/image_thumb3.png" width="365" height="166" />](http://lostechies.com/jimmybogard/files/2013/06/image3.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/06/image_thumb3.png" width="365" height="166" />](http://lostechies.com/content/jimmybogard/uploads/2013/06/image3.png)
 
 Now each developer can safely make changes (you ARE doing database migrations, right?) to their local database without worrying about other developers interfering. But we want to go one step further and have a separate local dev versus test database:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/06/image_thumb4.png" width="367" height="166" />](http://lostechies.com/jimmybogard/files/2013/06/image4.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/06/image_thumb4.png" width="367" height="166" />](http://lostechies.com/content/jimmybogard/uploads/2013/06/image4.png)
 
 Our Dev database goes through schema migrations, but is never “wiped clean”. Its data remains around so that during development we don’t have to start with a blank database. Additionally, if development requires a lot of data in our dev database, we can still keep that around for normal development.
 
@@ -42,7 +42,7 @@ One of the easiest ways to roll back changes made during a test is to…roll bac
 
 Because databases (depending on our isolation level) include changes we’ve made inside a transaction with subsequent reads, our tests can still query for updates made. And then at the end of the test, our changes go away.
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2013/06/image_thumb5.png" width="571" height="203" />](http://lostechies.com/jimmybogard/files/2013/06/image5.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/06/image_thumb5.png" width="571" height="203" />](http://lostechies.com/content/jimmybogard/uploads/2013/06/image5.png)
 
 In our test, we can use setup/teardown or before/after test extensions to open an ambient transaction and roll it back afterwards. Our underlying data connections/ORM needs to be aware of ambient transactions for this to work properly, however. xUnit.net includes a simple extension to do so, with the AutoRollback attribute on our tests.
 

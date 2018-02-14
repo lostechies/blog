@@ -32,11 +32,11 @@ If the gem&#8217;s source is hosted in a git repository, you can specify the loc
 
 What did work for me was the gem unpack command. This command unpacks the gem file into a folder, without going through the dependency resolution process of a gem install. Here&#8217;s a screen shot of how I unpacked the gem into my app&#8217;s vendor folder:
 
-<img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-02-23-at-8.53.41-PM.png" border="0" alt="Screen shot 2011 02 23 at 8 53 41 PM" width="600" height="73" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-02-23-at-8.53.41-PM.png" border="0" alt="Screen shot 2011 02 23 at 8 53 41 PM" width="600" height="73" />
 
 The end result is that my vendor/vitalkey-notamock-1.0.1 folder now contains all of the code from the gem:
 
-<img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-02-23-at-8.57.19-PM.png" border="0" alt="Screen shot 2011 02 23 at 8 57 19 PM" width="600" height="275" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-02-23-at-8.57.19-PM.png" border="0" alt="Screen shot 2011 02 23 at 8 57 19 PM" width="600" height="275" />
 
  
 
@@ -44,7 +44,7 @@ The end result is that my vendor/vitalkey-notamock-1.0.1 folder now contains all
 
 Once the gem has been unpacked into the folder, the Gemfile in the app needs to be updated to point bundler to this folder for this gem. According to the [gemfile documentation](http://gembundler.com/man/gemfile.5.html), this is done with the :path option. Here&#8217;s the gem line in my Gemfile, loading my custom gem:
 
-<img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-02-23-at-8.59.18-PM.png" border="0" alt="Screen shot 2011 02 23 at 8 59 18 PM" width="446" height="71" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-02-23-at-8.59.18-PM.png" border="0" alt="Screen shot 2011 02 23 at 8 59 18 PM" width="446" height="71" />
 
 Note that if you don&#8217;t specify the version number (the 2nd parameter) then you have to provide a .gemspec file in the folder that you set here. There&#8217;s a few different ways to get the gemspec file, but since we know what version we are dealing with, it&#8217;s easier to specify the version here.
 

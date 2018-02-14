@@ -33,7 +33,7 @@ I decided to use a few rails and gem folder conventions to organize my code. Spe
 
 Here&#8217;s the basic file and folder structure that I ended up with. Note that I only have a &#8220;staging&#8221; folder in my config environments at the moment. This is because the staging environment is the only one that has this app deployed to it, at the moment. I&#8217;ll create the other environment config folders as I need them.
 
-<img src="http://lostechies.com/derickbailey/files/2011/04/Screen-shot-2011-04-27-at-2.46.30-PM.png" border="0" alt="Screen shot 2011 04 27 at 2 46 30 PM" width="243" height="460" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2011/04/Screen-shot-2011-04-27-at-2.46.30-PM.png" border="0" alt="Screen shot 2011 04 27 at 2 46 30 PM" width="243" height="460" />
 
  
 

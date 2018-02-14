@@ -145,6 +145,6 @@ Note that we are setting the clickContext to nil for this send notification. If 
 
 Run the app from Xcode and when the first notification pops up, click on it. You will then see a second notification that should look like this:
 
-<img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-01-23-at-10.36.10-AM.png" border="0" alt="Screen shot 2011-01-23 at 10.36.10 AM.png" width="327" height="83" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-23-at-10.36.10-AM.png" border="0" alt="Screen shot 2011-01-23 at 10.36.10 AM.png" width="327" height="83" />
 
  

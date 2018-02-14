@@ -19,7 +19,7 @@ In my previous post on [Composite JavaScript Apps](http://lostechies.com/derickb
 
 My simple item management application started out with nothing more than these three regions on the screen:
 
-<img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/12/NewImage.png" border="0" alt="NewImage" width="574" height="536" />
+<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/12/NewImage.png" border="0" alt="NewImage" width="574" height="536" />
 
 Once this was in place, though, a new requirement came along… a complex search with search results. To implement this, I needed to modify the application&#8217;s interface to swap the grid and add/edit form out and put in a search results screen instead. The idea is that when the user does a search, the main content area will show the search results. The user can then go back to the location management aspect of the app whenever they need to. After a bit of searching, I found a high level pattern that made this easy, and also realized that I had previously implemented the core of this pattern without knowing it.
 

@@ -17,7 +17,7 @@ It&#8217;s important to know how your &#8220;working&#8221; software is being re
 
 Enter the Customer(field) Perception Model:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="309" alt="image" src="http://lostechies.com/joeocampo/files/2011/03CustomerPerceptionModelKnowthycustomer_49D/image_thumb.png" width="420" border="0" />](http://lostechies.com/joeocampo/files/2011/03CustomerPerceptionModelKnowthycustomer_49D/image_2.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="309" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03CustomerPerceptionModelKnowthycustomer_49D/image_thumb.png" width="420" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03CustomerPerceptionModelKnowthycustomer_49D/image_2.png) 
 
 As you can see this is a very complex model that involves several frequencies and an algorithm that will make your head explode.&nbsp; 
 

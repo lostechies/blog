@@ -156,6 +156,6 @@ Here&#8217;s the SASS layout that I am currently using:
 
 Put it all together and we get a nice little search box that populates the contents of the search results without doing a refresh of the page:
 
- <img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-03-24-at-9.37.52-PM.png" border="0" alt="Screen shot 2011 03 24 at 9 37 52 PM" width="300" height="367" /><img src="http://lostechies.com/derickbailey/files/2011/03/Screen-shot-2011-03-24-at-9.38.09-PM.png" border="0" alt="Screen shot 2011 03 24 at 9 38 09 PM" width="301" height="365" />
+ <img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-03-24-at-9.37.52-PM.png" border="0" alt="Screen shot 2011 03 24 at 9 37 52 PM" width="300" height="367" /><img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-03-24-at-9.38.09-PM.png" border="0" alt="Screen shot 2011 03 24 at 9 38 09 PM" width="301" height="365" />
 
 While I am using Rails 3, HAML and SASS for my specific app, there&#8217;s no reason not to do some fun stuff like this with your specific web dev stack. All you need is some JQuery, JQuery-Templates, and JSON on the back-end.

@@ -35,7 +35,7 @@ _[Part 4 – Front End Code Review](http://lostechies.com/erichexter/2012/11/12/
 
 &nbsp;
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb1.png" alt="image" width="563" height="403" border="0" />](http://lostechies.com/erichexter/files/2012/11/image1.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb1.png" alt="image" width="563" height="403" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image1.png)
 
 &nbsp;
 

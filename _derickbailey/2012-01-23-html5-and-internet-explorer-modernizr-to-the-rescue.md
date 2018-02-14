@@ -17,11 +17,11 @@ My wife wanted to see my [WatchMeCode](http://www.watchmecode.net) website so sh
 
 She pulled it up on her work laptop, which was equipped with… IE8! … and it looked like this:
 
-<img title="Screen Shot 2012-01-22 at 8.01.29 PM.png" src="http://lostechies.com/derickbailey/files/2012/01/Screen-Shot-2012-01-22-at-8.01.29-PM.png" border="0" alt="Screen Shot 2012 01 22 at 8 01 29 PM" width="600" height="477" />
+<img title="Screen Shot 2012-01-22 at 8.01.29 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/01/Screen-Shot-2012-01-22-at-8.01.29-PM.png" border="0" alt="Screen Shot 2012 01 22 at 8 01 29 PM" width="600" height="477" />
 
 Of course that&#8217;s not at all what I expected the site to look like. I expected it to look more like this:
 
-<img title="Screen Shot 2012-01-22 at 8.06.43 PM.png" src="http://lostechies.com/derickbailey/files/2012/01/Screen-Shot-2012-01-22-at-8.06.43-PM.png" border="0" alt="Screen Shot 2012 01 22 at 8 06 43 PM" width="600" height="540" />
+<img title="Screen Shot 2012-01-22 at 8.06.43 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/01/Screen-Shot-2012-01-22-at-8.06.43-PM.png" border="0" alt="Screen Shot 2012 01 22 at 8 06 43 PM" width="600" height="540" />
 
 This site is one of the first I&#8217;ve built using the modern HTML5 tags like <header>, <section>, <article>, and <footer>. I know IE doesn&#8217;t like tags that it doesn&#8217;t recognize and IE8 or below certainly don&#8217;t recognize HTML5 tags.
 
@@ -33,7 +33,7 @@ It turns out I had the Modernizr script at the very bottom of the HTML <body> ta
 
 Push the Modernizr script up to the top of the <head> and everything works. Of course, I&#8217;m using some CSS3 so it&#8217;s not perfect, but it&#8217;s certainly nice in comparison to the broken version:
 
-<img title="Screen Shot 2012-01-22 at 8.03.45 PM.png" src="http://lostechies.com/derickbailey/files/2012/01/Screen-Shot-2012-01-22-at-8.03.45-PM.png" border="0" alt="Screen Shot 2012 01 22 at 8 03 45 PM" width="600" height="479" />
+<img title="Screen Shot 2012-01-22 at 8.03.45 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/01/Screen-Shot-2012-01-22-at-8.03.45-PM.png" border="0" alt="Screen Shot 2012 01 22 at 8 03 45 PM" width="600" height="479" />
 
 Now the interesting bit is that I don&#8217;t really need IE support in my website. I only get 3.6% of my traffic from IE users &#8211; I really don&#8217;t expect people that are interested in the guts of JavaScript to be IE users after all. But with a fix as simple as this, it&#8217;s not a big deal to go ahead and add minimal support just to keep the site
 

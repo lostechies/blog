@@ -23,7 +23,7 @@ In another post, the day after my post on Cells, I wrote about [changing a helpe
 
 As a refresher, here is a mock up of the page with the program dashboard, in question.
 
-<img src="http://lostechies.com/derickbailey/files/2011/04/NewImage.png" border="0" alt="NewImage" width="600" height="450" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2011/04/NewImage.png" border="0" alt="NewImage" width="600" height="450" />
 
 The bottom section of this screen is the dashboard for the program. It is related to a patient because a patient participates in a program. However, I wanted to make sure I was keeping the logic and data for the program dashboard encapsulated. I don&#8217;t want to have a bunch of code in my patient profile controller or view (the host for the program dashboard) when it was not used directly by the patient profile. It really belongs to the program dashboard.
 

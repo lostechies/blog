@@ -26,7 +26,7 @@ While I was testing out my VirtualPathProvider implementation in the Opinionated
 
 The first part of this graph (the green line) shows the requests / second that I can get through my MVC view when using two ViewEngines, the default view engine to handle all requests to the /Views/{controller} and /Views{Shared} . The second view engine Handles all requests to my virtual path /Views/InputBuilders/ .&#160; At the 7:50 mark I changed the flag and recompiled the application.&#160; You see a small dip while the application restarts with the new code in place.&#160; Now the application uses a single view engine that handles all the views for the default locations and my extra virtual path.
 
-<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_3EB3F6FC.png" width="1028" height="480" />&#160;
+<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_3EB3F6FC.png" width="1028" height="480" />&#160;
 
 &#160;
 
@@ -34,7 +34,7 @@ Here is the part of my codebase that shows the difference between adding my View
 
 &#160;
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_4898E867.png" width="1028" height="388" /></p> 
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_4898E867.png" width="1028" height="388" /></p> 
 
 The source code for the project I am testing is located here: <http://code.google.com/p/erichexter/downloads/detail?name=InputBuildersV4.zip&can=2&q=#makechanges> incase you wish to try this out yourself.&#160; The assumptions and environment settings are the same as they were in my previous post ( <http://www.lostechies.com/blogs/hex/archive/2009/06/13/opinionated-input-builders-part-6-performance-of-the-builders.aspx> ).
 

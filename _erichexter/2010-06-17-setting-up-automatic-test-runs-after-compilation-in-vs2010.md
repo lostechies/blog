@@ -21,4 +21,4 @@ So after a successful build the tests are run. Using this method you can automat
 
 You can get the code from [CodePaste](http://codepaste.net/os62tt)
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_thumb_42897E20.png" width="1028" height="488" />](http://lostechies.com/erichexter/files/2011/03/image_637CF0C7.png)
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_42897E20.png" width="1028" height="488" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_637CF0C7.png)

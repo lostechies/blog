@@ -24,7 +24,7 @@ The CompositeView combines both the ItemView and the CollectionView in to one co
 
 The basic idea behind this pattern is most easily understood as a tree structure where every &#8220;leaf&#8221; &#8211; or end point &#8211; may also a &#8220;branch&#8221; &#8211; or collection of leaves and branches. We&#8217;re all familiar with this, whether or not we realize it:
 
-<img title="Screen Shot 2012-03-23 at 4.41.06 PM.png" src="http://lostechies.com/derickbailey/files/2012/03/Screen-Shot-2012-03-23-at-4.41.06-PM.png" alt="Screen Shot 2012 03 23 at 4 41 06 PM" width="344" height="459" border="0" />
+<img title="Screen Shot 2012-03-23 at 4.41.06 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/03/Screen-Shot-2012-03-23-at-4.41.06-PM.png" alt="Screen Shot 2012 03 23 at 4 41 06 PM" width="344" height="459" border="0" />
 
 The basic folder structure of your computer is a composite structure. Every folder is itself a leaf and a branch. That is, a folder can be the end of the line with nothing further, or it can be a container for other leaves and branches (files and folders).
 

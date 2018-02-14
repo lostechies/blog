@@ -36,4 +36,4 @@ With that being said the source code is located here: There is only V1 up there 
 
 > The solution is structured into two projects.&#160; The InputBuilder project is what I would see providing as a dll in the future.&#160; The web project is a MVC web application that shows how to use the InputBuilders as well as override markup for the builders. 
 
-<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_11ABA974.png" width="240" height="474" />
+<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_11ABA974.png" width="240" height="474" />

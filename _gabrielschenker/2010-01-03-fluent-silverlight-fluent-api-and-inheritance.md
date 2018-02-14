@@ -26,7 +26,7 @@ In my [last post](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/0
 
 Our objects that we use in our applications are often inherited from some base class as in the following simple example.
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_2F5B7C7C.png" width="433" height="367" />](http://lostechies.com/gabrielschenker/files/2011/03/image_4FE2BC2E.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_2F5B7C7C.png" width="433" height="367" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_4FE2BC2E.png) 
 
 Here we have an abstract Person base class from which the Employee class inherits. We might have another class e.g. Customer that also inherits from Person. If we now want to implement a fluent API for the construction of Employee- and/or Customer objects then it makes sense that our fluent API is also hierarchically organized. We might want to build a parallel hierarchy of PersonExpression, EmployeeExpression and CustomerExpression where the latter two inherit from the first expression.
 

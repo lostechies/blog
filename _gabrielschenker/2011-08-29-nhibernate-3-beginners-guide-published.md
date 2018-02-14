@@ -13,7 +13,7 @@ categories:
   - NHibernate
   - tutorial
 ---
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/gabrielschenker/files/2011/08/image_thumb.png" border="0" alt="image" width="198" height="244" align="left" />](http://lostechies.com/gabrielschenker/files/2011/08/image.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/08/image_thumb.png" border="0" alt="image" width="198" height="244" align="left" />](http://lostechies.com/content/gabrielschenker/uploads/2011/08/image.png)
 
 I am very pleased to announce that my book [NHibernate 3 Beginners Guide](http://www.packtpub.com/nhibernate-3-beginners-guide/book) has finally been published. It is a wonderful feeling to finally have a book in my hands that cost me a couple of months of intense work. But I think the result is well worth it.
 

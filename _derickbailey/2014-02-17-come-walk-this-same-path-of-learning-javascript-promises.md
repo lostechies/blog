@@ -33,7 +33,7 @@ Having learned quite a bit about promises and spent a significant amount of time
 
 The other is a paid screencast on my WatchMeCode screencast series &#8211; [Episode 13: Promises From The Ground Up](http://www.watchmecode.net/promises-ground-up).
 
-[<img src="http://lostechies.com/derickbailey/files/2014/02/NewImage.png" alt="NewImage" width="300" height="225" border="0" />](http://www.watchmecode.net/promises-ground-up)
+[<img src="http://lostechies.com/content/derickbailey/uploads/2014/02/NewImage.png" alt="NewImage" width="300" height="225" border="0" />](http://www.watchmecode.net/promises-ground-up)
 
 This screencast takes you roughly through the same journey that I had when I first needed a promise. It shows some very basic, async code (facilitated with `setTimeout` in this case) and then walks through a very minimal (incomplete) promise implementation.
 

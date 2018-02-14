@@ -26,7 +26,7 @@ To create a more complete kanban board, we need more than just a three step pipe
 
 For a more complete software development pipeline, let&#8217;s use the following columns: Backlog, Analysis, Development, Documentation, Testing, Customer Acceptance, and Delivery. We can put together a pipeline diagram that follows these steps.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="192" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_7.png" width="777" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_16.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="192" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_7.png" width="777" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_16.png) 
 
 Now, let&#8217;s assume that we have the following team (ignoring project managers, customer representatives, etc, for now): 6 developers, 2 business analysts, 3 test automation engineers, and 3 technical writers. Given this team, we would not be able to make a feature flow through this pipeline. We would have developers sitting around, waiting for work from the analysts. And, our documentation writers and test lab people would probably be pulling his hair out from boredom then pulling their hair out from too much work, in an unbreakable cycle. 
 
@@ -36,7 +36,7 @@ Fortunately, we can account for the team makeup and the potential bottlenecks by
 
 In most software development efforts, it&#8217;s unreasonable to expect an entire team to work on only one feature at a time. Most development managers want to maximize the throughput of development by working on tasks in parallel. Given this desire, we&#8217;ll divide up our developers into three teams of two developers each. This development team division should allow three features to be developed at the same time. Since we want to work on three features at a time, we will need three pipelines for work. 
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="352" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_3.png" width="777" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_9.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="352" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_3.png" width="777" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_9.png) 
 
 These three pipelines constitute our first limit &#8211; we can have a maximum of three features in development at any given time. This limit is noted by putting a "3" in the upper right hand corner of the development column header, as shown above.
 
@@ -48,15 +48,15 @@ If all three development teams happen to finish at the same time and need more w
 
 For an order point we&#8217;ll introduce the number into the upper left hand corner of a column header, and we&#8217;ll continue using the upper right hand corner to specify our limits. 
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="67" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb.png" width="137" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_20.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="67" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb.png" width="137" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_20.png) 
 
 Since we are now dealing with potentially more work in analysis than development, it seems we would have to increase our pipelines to five. This is not desirable, though, since we only have three development teams. What we will do, instead, is restructure the pipeline and turn the analysis column into a queue. 
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="352" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_2.png" width="777" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_6.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="352" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_2.png" width="777" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_6.png) 
 
 Since Analysis is now a queue, there does not seems to be a need for Backlog to be a step in a pipeline, either. The backlog is simply the list of features that the customer is expecting to be done next. Therefore, we will also turn the backlog into a queue &#8211; this time, with a priority (top of the board is highest priority) allowing the customer to tell us which specific feature should be worked on next. We will also want to keep the backlog column limited, to prevent the team from having too much information to think about. Since we only have two analysts on our team, it seems appropriate to keep at least two features in the backlog column at all times. With this in mind, we can safely set a backlog order point of two and limit of five (enough to keep the analysis column full).
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="352" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_9.png" width="777" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_22.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="352" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_9.png" width="777" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_22.png) 
 
 The changing of Backlog into a queue has no made our Development column the first step in our actual pipeline.
 
@@ -64,13 +64,13 @@ The changing of Backlog into a queue has no made our Development column the firs
 
 The next few column &#8211; Documentation and Testing &#8211; both have an easy amount of team members to deal with. There are three technical writers on our team, and three testing personnel. This distribution lets us keep the pipeline in tact between Development, Documentation and Testing, allowing us to set the same limit as Development (three). 
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="67" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_5.png" width="345" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_12.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="67" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_5.png" width="345" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_12.png) 
 
 With all three of these columns having the same limits, and with each column being properly staffed so that three pipelines could run at the same time, it makes sense to combine the team members from these three columns into a single <a href="http://en.wikipedia.org/wiki/Workcell" target="_blank">workcell</a>. If we consider all four team members (2 developers, 1 tech writer, 1 tester) as a team and allow them to work together as a team, we can aggregate the limits of the columns in the pipeline. We can also create a consolidated name for this pipeline &#8211; work in progress.
 
 This consolidation can be shown by creating a parent / child header with the limit shown in the parent. We will also use a dashed lines between the columns of the pipelines. The combination of these two details will show us that we are dealing with a pipeline, and how many pipelines are allowed to flow, simultaneously.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="384" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_6.png" width="777" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_14.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="384" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_6.png" width="777" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_14.png) 
 
 By aggregating the pipeline limits, we allow the workcell for a given feature to focus exclusively on that feature. The development staff, technical writers, and test lab personnel will all be working on the same feature, allowing them to more easily share information between themselves. This will prevent the team members from having to switch back and forth between subjects, reducing cognitive load and allowing for greater quality to be attained in the individual feature.
 
@@ -84,7 +84,7 @@ Let&#8217;s say that our customer wants to do Customer Acceptance testing once a
 
 With Customer Acceptance and Delivery specified, our completed kanban board would look like this:
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="384" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_thumb_8.png" width="777" border="0" />](http://lostechies.com/derickbailey/files/2011/03/image_18.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="384" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_8.png" width="777" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_18.png) 
 
 ### Put It In Action &#8211; A Kanban Process Is Never Truly "Complete"
 

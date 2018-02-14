@@ -22,7 +22,7 @@ In all of these situations, the user is dealing with more than one agent/service
 
 In the human examples, coffee shop for example, the barista and the cashier, we have an interaction with the cashier/customer, and an interaction with the cashier/barista:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/06/image_thumb.png" width="387" height="211" />](http://lostechies.com/jimmybogard/files/2012/06/image.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/06/image_thumb.png" width="387" height="211" />](http://lostechies.com/content/jimmybogard/uploads/2012/06/image.png)
 
 Transactionally, I have one transaction between the cashier and customer (place the order) and one transaction between the barista and the cashier (make the order).
 
@@ -36,7 +36,7 @@ Translating the above to a UI, making the order is behind the scenes, but paying
 
 Users are smart. For interactions that they expect to be fire-and-forget (like the ecommerce example), we can shape our interactions to more closely mold what is actually happening, and the user will not complain. For example, in Amazon, **placing an order is synchronous, but _fulfilling_ your order is not**. How do they accomplish this in the UI?
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/06/image_thumb1.png" width="331" height="80" />](http://lostechies.com/jimmybogard/files/2012/06/image1.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/06/image_thumb1.png" width="331" height="80" />](http://lostechies.com/content/jimmybogard/uploads/2012/06/image1.png)
 
 On the confirmation page after submitting an order (which is most definitely synchronous), it’s clear that what we are submitting is an _order request_. An order request to be fulfilled later. If things go wrong, we’ll have other means to fix the order through offline means, but we’ve already set the user expectation through simple statuses that “this is behind the counter stuff”.
 
@@ -48,7 +48,7 @@ What about a single, event-sourced application?
 
 In many event-sourced applications I see, the interaction is something like:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/06/image_thumb2.png" width="444" height="83" />](http://lostechies.com/jimmybogard/files/2012/06/image2.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/06/image_thumb2.png" width="444" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2012/06/image2.png)
 
 This can work well if the user already expects the submission to be a “request” that may or may not fail. We might up the probability of it succeeding by pre-validating. But if no one else is using my aggregate, why might the command fail in the back end? It probably shouldn’t but now we’ve just put a wacky interaction on top of the user where it’s not needed.
 

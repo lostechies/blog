@@ -136,7 +136,7 @@ When merging or rebasing we might run into merge conflicts that cannot automatic
 >               </p>
 >               
 >               <p>
->                 <a href="http://lostechies.com/gabrielschenker/files/2011/03/image_0ED5DF98.png"><img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2011/03/image_thumb_40614D2D.png" width="608" height="100" /></a>
+>                 <a href="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_0ED5DF98.png"><img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_40614D2D.png" width="608" height="100" /></a>
 >               </p>
 >               
 >               <p>

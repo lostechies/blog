@@ -55,7 +55,7 @@ RabbitMQ provides four types of exchanges: Direct, Fanout, Topic, and Headers.
 
 The Direct exchange type routes messages with a routing key equal to the routing key declared by the binding queue.&nbsp; The following illustrates how the direct exchange type works: 
 
-&nbsp; [<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="DirectExchange" border="0" alt="DirectExchange" src="http://lostechies.com/derekgreer/files/2012/03/DirectExchange_thumb1.png" width="600" height="219" />](http://lostechies.com/derekgreer/files/2012/03/DirectExchange1.png) 
+&nbsp; [<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="DirectExchange" border="0" alt="DirectExchange" src="http://lostechies.com/content/derekgreer/uploads/2012/03/DirectExchange_thumb1.png" width="600" height="219" />](http://lostechies.com/content/derekgreer/uploads/2012/03/DirectExchange1.png) 
 
 &nbsp; 
 
@@ -67,7 +67,7 @@ The Fanout exchange type routes messages to all bound queues indiscriminately.&n
 
 &nbsp; 
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="FanoutExchange" border="0" alt="FanoutExchange" src="http://lostechies.com/derekgreer/files/2012/03/FanoutExchange_thumb2.png" width="600" height="220" />](http://lostechies.com/derekgreer/files/2012/03/FanoutExchange2.png) 
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="FanoutExchange" border="0" alt="FanoutExchange" src="http://lostechies.com/content/derekgreer/uploads/2012/03/FanoutExchange_thumb2.png" width="600" height="220" />](http://lostechies.com/content/derekgreer/uploads/2012/03/FanoutExchange2.png) 
 
 &nbsp; 
 
@@ -79,7 +79,7 @@ The Topic exchange type routes messages to queues whose routing key matches all,
 
 &nbsp; 
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="TopicExchange" border="0" alt="TopicExchange" src="http://lostechies.com/derekgreer/files/2012/03/TopicExchange_thumb2.png" width="600" height="220" />](http://lostechies.com/derekgreer/files/2012/03/TopicExchange2.png) 
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="TopicExchange" border="0" alt="TopicExchange" src="http://lostechies.com/content/derekgreer/uploads/2012/03/TopicExchange_thumb2.png" width="600" height="220" />](http://lostechies.com/content/derekgreer/uploads/2012/03/TopicExchange2.png) 
 
 &nbsp; 
 
@@ -91,7 +91,7 @@ The Headers exchange type routes messages based upon a matching of message heade
 
 &nbsp; 
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="HeadersExchange" border="0" alt="HeadersExchange" src="http://lostechies.com/derekgreer/files/2012/03/HeadersExchange_thumb2.png" width="600" height="220" />](http://lostechies.com/derekgreer/files/2012/03/HeadersExchange2.png) 
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="HeadersExchange" border="0" alt="HeadersExchange" src="http://lostechies.com/content/derekgreer/uploads/2012/03/HeadersExchange_thumb2.png" width="600" height="220" />](http://lostechies.com/content/derekgreer/uploads/2012/03/HeadersExchange2.png) 
 
 &nbsp; 
 

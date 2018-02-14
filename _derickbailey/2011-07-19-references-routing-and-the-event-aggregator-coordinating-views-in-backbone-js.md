@@ -18,7 +18,7 @@ I recently found myself needing to facilitate communication between two backbone
 
 Here&#8217;s what the screen looks like after I click on the edit icon (the pencil):
 
-<img title="Screen shot 2011-07-19 at 9.02.38 AM.png" src="http://lostechies.com/derickbailey/files/2011/07/Screen-shot-2011-07-19-at-9.02.38-AM.png" border="0" alt="Screen shot 2011 07 19 at 9 02 38 AM" width="600" height="498" />
+<img title="Screen shot 2011-07-19 at 9.02.38 AM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/07/Screen-shot-2011-07-19-at-9.02.38-AM.png" border="0" alt="Screen shot 2011 07 19 at 9 02 38 AM" width="600" height="498" />
 
 ## <span style="font-weight: normal; font-size: medium;">There are a number of ways to make this work &#8211; the most basic of which is to have the views reference each other so that they can either call methods on each other or raise events.</span>
 

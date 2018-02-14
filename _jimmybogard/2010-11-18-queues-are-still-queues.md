@@ -24,11 +24,11 @@ We first introduced queuing into our system by translating incoming files FTP’
 
 As we started using messaging more and more, we utilized events and commands to separate our system concerns into separate contexts.&#160; However, we left things as these two queues.&#160;&#160; We had one process that needed its messages processed rather immediately (within 1-2 minutes):
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_25DA0B18.png" width="292" height="509" />](http://lostechies.com/jimmybogard/files/2011/03/image_1873F812.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_25DA0B18.png" width="292" height="509" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_1873F812.png)
 
 The FooSomething command needed to be processed fairly quickly, but because they weren’t triggered very often (2-3 per minute), it wasn’t a problem.&#160; Until we introduced a process that ran once a day, but dumped 10s of thousands of other commands on the same queue:
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_2FBEFC83.png" width="292" height="509" />](http://lostechies.com/jimmybogard/files/2011/03/image_1E4E9BAB.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2FBEFC83.png" width="292" height="509" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_1E4E9BAB.png)
 
 So if FooSomething needs to be processed within 1-2 minutes, and the other messages are in its way, its SLA gets trashed.&#160; In the Starbucks example, it’s as if we have two types of customers – preferred and normal.&#160; Preferred customers need to get their coffee within 30 seconds, but we’ve limited the number of preferred customers so that if we have normal staffing levels, everything should work fine.
 
@@ -38,7 +38,7 @@ It turns out we just designed our queues wrong.&#160; Instead of focusing on wha
 
 If we separated our queues and workers based on SLA, we would instead have a picture like:
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_4A8B228F.png" width="597" height="509" />](http://lostechies.com/jimmybogard/files/2011/03/image_0F37BCD1.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_4A8B228F.png" width="597" height="509" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_0F37BCD1.png)
 
 The SLA for the FooQueue is 1-2 minutes, while the BarQueue is much higher, around 2 hours or so.&#160; If we split our queues based on the SLA for the messages in the queue, we can now appropriately assign resources to each listener (NServiceBus host).&#160; But forcing everyone to go through one single line inadvertently allows the volume of different messages to affect the throughput of _my_ message.
 

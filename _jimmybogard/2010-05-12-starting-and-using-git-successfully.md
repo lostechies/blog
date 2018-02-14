@@ -49,7 +49,7 @@ The biggest hurdle for me personally learning Git was the difference between Git
 
 Whenever I use a DVCS, Git or Hg, I keep a repository viewer up at ALL times, because I want to know exactly where I am, where I’ve been and where I want to go.&#160; Here’s the StructureMap timeline:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_04E5F2AE.png" width="642" height="484" />](http://lostechies.com/jimmybogard/files/2011/03/image_675417AE.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_04E5F2AE.png" width="642" height="484" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_675417AE.png) 
 
 This timeline’s not that interesting looking, mostly because I don’t have any local branches AND the StructureMap folks know how to keep a clean timeline.&#160; More on that in a second.
 

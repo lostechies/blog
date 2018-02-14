@@ -50,11 +50,11 @@ This code gives you all the features you need to completely replace a switch sta
 
 Being able to swap out a switch statement with a registry object is great. But what if you want to know why the registry was built the way it was? What if you need more cowbell?
 
-<img src="http://lostechies.com/derickbailey/files/2014/01/NewImage7.png" alt="NewImage" width="374" height="281" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage7.png" alt="NewImage" width="374" height="281" border="0" />
 
  Well, don&#8217;t worry! I&#8217;ve got you covered. I built a screencast that covers the registry pattern in more detail, outlining how JavaScript gives us the ability to use simple object literals to store key/value pairs, showing some of the problems that this can cause, and then walking through the construction of the registry object that I used in this presentation. I also walk through some uses of the registry object that we create, including building your own event system by composing the registry in to an Events object. 
 
-[<img src="http://lostechies.com/derickbailey/files/2014/01/NewImage8.png" alt="NewImage" width="300" height="225" border="0" />](http://www.watchmecode.net/registry-pattern)
+[<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage8.png" alt="NewImage" width="300" height="225" border="0" />](http://www.watchmecode.net/registry-pattern)
 
  If you&#8217;re looking for info on how to build a registry, and why you would want to build it the way that I&#8217;ve shown, then checkout [WatchMeCode Episode 14: The Registry Pattern](http://www.watchmecode.net/registry-pattern).
 

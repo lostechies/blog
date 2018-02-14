@@ -14,17 +14,17 @@ CQRS as a concept is relatively easy to grasp, as it’s really just two objects
 
 In a typical N-Tier architecture, commands and queries are served by the same persistent records. When you do this, barring any kind of back-end replication, users see changes to what they’re modifying immediately. Often, the workflow presented is something like:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/08/image_thumb2.png" width="594" height="83" />](http://lostechies.com/jimmybogard/files/2012/08/image2.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/08/image_thumb2.png" width="594" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2012/08/image2.png)
 
 When moving to CQRS, the “View” side of things is in a separate store than the “Form” side of things. I elaborated [earlier on UI designs when you chose eventual consistency](http://lostechies.com/jimmybogard/2012/06/26/eventual-consistency-cqrs-and-interaction-design/), but there is a choice beforehand. In cases where we’re introducing CQRS, it can be fairly difficult to wrest the above synchronicity away from users and try to replace every screen with:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/08/image_thumb3.png" width="444" height="83" />](http://lostechies.com/jimmybogard/files/2012/08/image3.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/08/image_thumb3.png" width="444" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2012/08/image3.png)
 
 This works when the user actually expects some sort of “background” work to happen, or that we present this to the user in a meaningful way.
 
 But when doing CQRS, eventual consistency is an orthogonal choice. They are two completely separate concerns. Going back to our new CQRS design:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/08/image_thumb4.png" width="454" height="237" />](http://lostechies.com/jimmybogard/files/2012/08/image4.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/08/image_thumb4.png" width="454" height="237" />](http://lostechies.com/content/jimmybogard/uploads/2012/08/image4.png)
 
 We have many choices here on what should be synchronous, and what should not. It can all be synchronous, all be async, it’s just a separate decision.
 

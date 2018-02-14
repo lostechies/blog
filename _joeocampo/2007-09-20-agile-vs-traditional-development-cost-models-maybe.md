@@ -29,11 +29,11 @@ It is important to note that we are not talking about maintenance cycles just th
 
 Here is graph depicting the resource cost of a traditional model over the course of a year.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" alt="image" src="http://lostechies.com/joeocampo/files/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_thumb.png" border="0" height="264" width="617" />](http://lostechies.com/joeocampo/files/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_thumb.png" border="0" height="264" width="617" />](http://lostechies.com/content/joeocampo/uploads/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image.png) 
 
 Not surprising this is what a traditional cost model looks like for a waterfall project but I wanted to add another dimension based on a value stream vs technical debt.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" alt="image" src="http://lostechies.com/joeocampo/files/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_thumb_1.png" border="0" height="375" width="622" />](http://lostechies.com/joeocampo/files/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_1.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_thumb_1.png" border="0" height="375" width="622" />](http://lostechies.com/content/joeocampo/uploads/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_1.png) 
 
 You can easily see how the cost of change is higher towards the end of the project due to incurring technical debt.&nbsp; In a traditional methodology technical dept is not addressed head on, it is merely prioritized in a defect log.&nbsp; I think all of us at one point in our careers have launched a product into production with a couple of hundred known defects.
 
@@ -49,19 +49,19 @@ One other very important attribute is that the &#8220;Value Stream&#8221; of the
 
 Now come the Agile models.&nbsp; This first set of graphs is based on a evolving Agile team that practices an iterative development methodology&nbsp; but only introduces code into production at the completion of a project.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" alt="image" src="http://lostechies.com/joeocampo/files/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_thumb_2.png" border="0" height="310" width="731" />](http://lostechies.com/joeocampo/files/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_2.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_thumb_2.png" border="0" height="310" width="731" />](http://lostechies.com/content/joeocampo/uploads/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_2.png) 
 
 As you can see the cost of requirements, development and testing are fixed.&nbsp; This is due in part to the time boxing effect of Agile&#8217;s Planning, Development and Testing into smaller releases throughout the duration of the project.&nbsp; To some this may seem to be a horribly ineffective use of resources but for me it makes things more predictable.&nbsp; You will also notice that their isn&#8217;t a design cost.&nbsp; Theoretically their is it is just absorbed within the development and planning stages.
 
 Lets look at the overall cost of this type of Agile Development.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" alt="image" src="http://lostechies.com/joeocampo/files/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_thumb_3.png" border="0" height="414" width="688" />](http://lostechies.com/joeocampo/files/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_3.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_thumb_3.png" border="0" height="414" width="688" />](http://lostechies.com/content/joeocampo/uploads/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_3.png) 
 
 As you can see the project cost are almost doubled in comparison to the traditional model.&nbsp; However the value stream is substantially more, due in part to the constant feedback from the product owner and the embracement of change principles.&nbsp; The technical debt is a fraction of the traditional model due in part to quality being introduced from the onset through the development team TDD practices and the testing teams automated testing.
 
 But lets look at a mature Agile Team that introduces working code into production at the end of every release!
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" alt="image" src="http://lostechies.com/joeocampo/files/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_thumb_4.png" border="0" height="443" width="738" />](http://lostechies.com/joeocampo/files/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_4.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_thumb_4.png" border="0" height="443" width="738" />](http://lostechies.com/content/joeocampo/uploads/2011/03Agilevs.TraditionalDevelopmentCost.Maybe_F542/image_4.png) 
 
 The value stream is substantially higher due in part to introducing working code into production early on in the project, about every other month!
 

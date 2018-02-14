@@ -29,7 +29,7 @@ Often times, you’ll see some sort of process that needs to notify someone that
 
 This is all fine and dandy, but the problem comes when something like this is executed inside a transaction. We expect that if the SomeServiceCall method is wrapped in a transaction, that the database save should roll back. But what about that email? It often won’t fail until the transaction commits, which is AFTER the email is sent:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/11/image_thumb.png" width="575" height="321" />](http://lostechies.com/jimmybogard/files/2011/11/image.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/11/image_thumb.png" width="575" height="321" />](http://lostechies.com/content/jimmybogard/uploads/2011/11/image.png)
 
 In the picture above, we can see that the transaction only involves the database, but we can’t un-send our email.
 
@@ -49,11 +49,11 @@ What we need to do here is decouple the actual sending of an email with the mess
 
 We’re using the NServiceBus bus to send a message that we want to send an email. The nice thing about this picture is that the sending of that NServiceBus message now participates in the transaction:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/11/image_thumb1.png" width="575" height="324" />](http://lostechies.com/jimmybogard/files/2011/11/image1.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/11/image_thumb1.png" width="575" height="324" />](http://lostechies.com/content/jimmybogard/uploads/2011/11/image1.png)
 
 In the case of failure, that message never makes it over to my NServiceBus host. If it does succeed:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/11/image_thumb2.png" width="575" height="335" />](http://lostechies.com/jimmybogard/files/2011/11/image2.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/11/image_thumb2.png" width="575" height="335" />](http://lostechies.com/content/jimmybogard/uploads/2011/11/image2.png)
 
 Then my message is delivered to the SMTP NServiceBus host, which will then interact with the SMTP server.
 

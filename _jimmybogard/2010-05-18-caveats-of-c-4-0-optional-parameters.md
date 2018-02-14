@@ -83,7 +83,7 @@ result.ViewData.Model.ShouldEqual(viewModel);</pre>
 
 I call the Index action method, which includes an optional argument.&#160; If we open the compiled code from here, we see that the optional parameter value is baked in to the call site:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_2561E477.png" width="742" height="61" />](http://lostechies.com/jimmybogard/files/2011/03/image_784CF7A8.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2561E477.png" width="742" height="61" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_784CF7A8.png) 
 
 So what does this mean for us?&#160; If we change the value of the optional argument from 0 to 1, we have to recompile all calling code for the calling code to get the updated value!
 

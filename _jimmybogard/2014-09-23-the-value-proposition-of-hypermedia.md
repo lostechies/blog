@@ -28,7 +28,7 @@ For the vast majority of Web APIs, hypermedia is not only inappropriate, but com
 
 In a typical web application, client (HTML + JavaScript + CSS) are developed and deployed at the same time as the server (HTTP endpoints). Because of this acceptable coupling, the client can “know” all the ways to navigate relationships, manipulate state and so on. There’s no downside to this coupling, since the entire app is built and deployed together, and the same application that serves the HTTP endpoints also serves up the client:
 
-[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/jimmybogard/files/2014/09/image_thumb.png" alt="image" width="244" height="219" border="0" />](http://lostechies.com/jimmybogard/files/2014/09/image.png)
+[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/content/jimmybogard/uploads/2014/09/image_thumb.png" alt="image" width="244" height="219" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2014/09/image.png)
 
 For clients whose logic and behavior are served by the same endpoint as the original server, there’s little to no value in hypermedia. In fact, it adds a lot of work, both in the server API, where your messages now need to be self-descriptive, and in the client, where you need to build behavior around interpreting self-descriptive messages.
 
@@ -42,15 +42,15 @@ That works well in cases where you can define your API very well, and commit to 
 
 No, hypermedia shines in cases where the API is built for immediate human interaction, and clients are built and served completely decoupled from the server. A couple of cases could be:
 
-[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/jimmybogard/files/2014/09/image_thumb1.png" alt="image" width="244" height="225" border="0" />](http://lostechies.com/jimmybogard/files/2014/09/image1.png)
+[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/content/jimmybogard/uploads/2014/09/image_thumb1.png" alt="image" width="244" height="225" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2014/09/image1.png)
 
 Deployment to an app store can take days to weeks, and even then you’re not guaranteed to have all your clients at the same app version:
 
-[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/jimmybogard/files/2014/09/image_thumb2.png" alt="image" width="244" height="235" border="0" />](http://lostechies.com/jimmybogard/files/2014/09/image2.png)
+[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/content/jimmybogard/uploads/2014/09/image_thumb2.png" alt="image" width="244" height="235" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2014/09/image2.png)
 
 Or perhaps it’s the actual API server that’s deployed to your customers, and you consume _their_ APIs at different versions:
 
-[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/jimmybogard/files/2014/09/image_thumb3.png" alt="image" width="244" height="226" border="0" />](http://lostechies.com/jimmybogard/files/2014/09/image3.png)
+[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/content/jimmybogard/uploads/2014/09/image_thumb3.png" alt="image" width="244" height="226" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2014/09/image3.png)
 
 These are the cases where hypermedia shines. But to do so, you need to build generic components on the client app to interpret self-describing messages. Consider [Collection+JSON](http://amundsen.com/media-types/collection/format/):
 

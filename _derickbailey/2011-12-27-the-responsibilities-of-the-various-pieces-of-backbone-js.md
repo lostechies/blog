@@ -35,7 +35,7 @@ On a related not: A route is the tokenized representation of our application&#82
 
 As our application progresses, it moves through various states. Some of those states can be represented by simple tokens. For example, viewing an email in GMail can be represented with a token like this:
 
-<img title="Screen Shot 2011-12-23 at 2.24.45 PM.png" src="http://lostechies.com/derickbailey/files/2011/12/Screen-Shot-2011-12-23-at-2.24.45-PM.png" border="0" alt="Screen Shot 2011 12 23 at 2 24 45 PM" width="175" height="30" />
+<img title="Screen Shot 2011-12-23 at 2.24.45 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/12/Screen-Shot-2011-12-23-at-2.24.45-PM.png" border="0" alt="Screen Shot 2011 12 23 at 2 24 45 PM" width="175" height="30" />
 
 This token is a bookmark-able state that the application transitioned into. When I hit refresh on my browser window, GMail will display the same email message to me that I saw when I clicked on the mail item originally.
 

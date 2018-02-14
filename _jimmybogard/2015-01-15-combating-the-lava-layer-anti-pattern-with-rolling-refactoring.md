@@ -27,7 +27,7 @@ And on and on – none of which add any value, but it’s not a long-lived codeb
 
 That’s a pointless change, but I’ve seen others, especially in places where design is evolving rapidly. Places where the refactorings really do add value. I called the result [long-tail design](http://lostechies.com/jimmybogard/2013/10/01/curbing-long-tail-design/), where we have a long tail of different versions of an idea or design in a system, and each successive version occurs less and less:
 
-![](http://lostechies.com/jimmybogard/files/2013/10/image1.png)
+![](http://lostechies.com/content/jimmybogard/uploads/2013/10/image1.png)
 
 Long-tail and lava-layer design destroy productivity in long-running projects. But how can we combat it?
 
@@ -35,27 +35,27 @@ Long-tail and lava-layer design destroy productivity in long-running projects. B
 
 In practice, what this means is we don’t move on to the next iteration of a concept until we’ve completely refactored all existing instances. It starts like this:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2015/01/image_thumb6.png" width="219" height="83" />](http://lostechies.com/jimmybogard/files/2015/01/image6.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2015/01/image_thumb6.png" width="219" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2015/01/image6.png)
 
 A set of functionality we don’t like all exists in one version of the design. We don’t like it, and want to make a change. We start by carving out a slice to test out a new version of the design:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2015/01/image_thumb7.png" width="219" height="83" />](http://lostechies.com/jimmybogard/files/2015/01/image7.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2015/01/image_thumb7.png" width="219" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2015/01/image7.png)
 
 We poke at our concept, get input, refine it in this one slice. When we think we’re on to something, we apply it to a couple more places:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2015/01/image_thumb8.png" width="220" height="83" />](http://lostechies.com/jimmybogard/files/2015/01/image8.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2015/01/image_thumb8.png" width="220" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2015/01/image8.png)
 
 It’s at this point where we can start to make a decision: is our design better than the existing design? If not, we need to roll back our changes. Not leave it in, not comment it out, but roll it all the way back. We can always do our work in a branch to preserve our work, but we need to make a commitment one way or the other. If we do commit, our path forward is to refactor V1 out of existence:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2015/01/image_thumb9.png" width="219" height="83" />](http://lostechies.com/jimmybogard/files/2015/01/image9.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2015/01/image_thumb9.png" width="219" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2015/01/image9.png)
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2015/01/image_thumb10.png" width="219" height="83" />](http://lostechies.com/jimmybogard/files/2015/01/image10.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2015/01/image_thumb10.png" width="219" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2015/01/image10.png)
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2015/01/image_thumb11.png" width="219" height="83" />](http://lostechies.com/jimmybogard/files/2015/01/image11.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2015/01/image_thumb11.png" width="219" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2015/01/image11.png)
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2015/01/image_thumb12.png" width="228" height="83" />](http://lostechies.com/jimmybogard/files/2015/01/image12.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2015/01/image_thumb12.png" width="228" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2015/01/image12.png)
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2015/01/image_thumb13.png" width="219" height="83" />](http://lostechies.com/jimmybogard/files/2015/01/image13.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2015/01/image_thumb13.png" width="219" height="83" />](http://lostechies.com/content/jimmybogard/uploads/2015/01/image13.png)
 
 We never start V3 of our concept until we’ve completely eradicated V1 – and that’s the law of 2. At most two versions of our design can be in our application at any one time.
 
@@ -63,7 +63,7 @@ We’re not discouraging refactoring or iterative/evolutionary design, but putti
 
 In practice, our successive designs become better than they could have been in our long-tail/lava-layer approach. The more examples we have of our idea, the stronger our case becomes that our idea _is_ better. We wind up having a rolling refactoring result:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="output_yWnRTm" src="http://lostechies.com/jimmybogard/files/2015/01/output_yWnRTm_thumb.gif" width="240" height="91" />](http://lostechies.com/jimmybogard/files/2015/01/output_yWnRTm.gif)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="output_yWnRTm" src="http://lostechies.com/content/jimmybogard/uploads/2015/01/output_yWnRTm_thumb.gif" width="240" height="91" />](http://lostechies.com/content/jimmybogard/uploads/2015/01/output_yWnRTm.gif)
 
 A rolling refactoring is the only way to have a truly evolutionary design; our original neanderthal needs to die out before moving on to the next iteration.
 

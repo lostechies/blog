@@ -35,7 +35,7 @@ With the VMs I want to achieve the following goals
                 
                 First we need to enable Hyper-V on the host machine. For this open the **Control Panel** and select **Programs and Features**. Select **Turn Windows features on or off**. Check Hyper-V (if not already selected)
                 
-                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;margin-left: 0px;border-top-width: 0px;margin-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb1.png" width="244" height="150" />](http://lostechies.com/gabrielschenker/files/2014/12/image1.png)
+                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;margin-left: 0px;border-top-width: 0px;margin-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb1.png" width="244" height="150" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image1.png)
                 
                 After Hyper-V has been installed and enabled you might need to reboot your machine.
                 
@@ -49,7 +49,7 @@ With the VMs I want to achieve the following goals
                 
                 Using the Hype-V Manager create a new VM. A wizard will guide you through the process. Make sure you select **Generation 1** as the generation of the VM when asked. I assigned 4 GB of Startup Memory to my VM and I leave the **Use Dynamic Memory for this virtual machine** checkbox unchecked. When configuring the network select the new virtual network switch that you created before. Then I leave the default selection for the virtual hard disk (create new, 127 GB). Under **Installation Options** select **Install an operating system from a bootable CD/DVD-ROM** and select **Image file (.iso)**. Browse for the Ubuntu ISO image that you just downloaded.
                 
-                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/12/image_thumb2.png" width="601" height="356" />](http://lostechies.com/gabrielschenker/files/2014/12/image2.png) </p> </p> </p> </p> 
+                [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb2.png" width="601" height="356" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image2.png) </p> </p> </p> </p> 
                 
                 Double check all the selections you’ve made and then hit **Finish** to start the creation of the VM. Note, this will not yet start the installation of Ubuntu.
                 

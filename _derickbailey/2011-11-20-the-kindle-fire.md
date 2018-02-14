@@ -18,7 +18,7 @@ The gist of it is:
 
 … in spite of the small problems that it has.
 
-<img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2011/11/NewImage.png" border="0" alt="NewImage" width="450" height="600" />
+<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/11/NewImage.png" border="0" alt="NewImage" width="450" height="600" />
 
 Now for the long-winded version&#8230;
 

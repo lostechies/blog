@@ -18,7 +18,7 @@ In the [last post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/08/
 
 Since option #2 didn’t really cause me much extra overhead, I went for that one.&#160; To upgrade, I first needed to create a remote branch on github:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_27123F22.png" width="287" height="186" />](http://lostechies.com/jimmybogard/files/2011/03/image_7586D18C.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_27123F22.png" width="287" height="186" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_7586D18C.png) 
 
 Creating a remote branch in git is a little esoteric, as for the most part, git _wants_ to be local.&#160; To create this remote branch, I just ran:
 
@@ -30,7 +30,7 @@ More than a little esoteric, but whatever.&#160; To then start using this remote
 
 And now my local repository has both remote branches being tracked:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_1B104EEE.png" width="507" height="116" />](http://lostechies.com/jimmybogard/files/2011/03/image_6D8F2F2A.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_1B104EEE.png" width="507" height="116" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_6D8F2F2A.png) 
 
 With both branches going, I now set about upgrading the AutoMapper to .NET 4.
 
@@ -40,7 +40,7 @@ With both branches going, I now set about upgrading the AutoMapper to .NET 4.
 
 Upgrading the AutoMapper code to VS 2010 and .NET 4 was easy enough.&#160; I just opened the VS 2008 solution in VS 2010, and the upgrade wizard properly upgraded everything.&#160; Upgrading the solution files does not change the target framework, so I still needed to modify all of the project files to target .NET 4:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_3DF1109E.png" width="494" height="235" />](http://lostechies.com/jimmybogard/files/2011/03/image_05B29986.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_3DF1109E.png" width="494" height="235" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_05B29986.png) 
 
 That was easy enough, and all tests immediately passed.&#160; I decided to leave the Silverlight 3.0 projects out of the equation, I still need a better way to support multiple runtimes easily.&#160; Some of the app.config files were automatically modified, but there were really no problems upgrading the actual projects to .NET 4.
 
@@ -80,7 +80,7 @@ ilmerge.exe /targetplatform:"v4,$framework_dir"
 
 Once all that was done, I created a second build on the TeamCity CodeBetter build server:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_58BD36AA.png" width="500" height="213" />](http://lostechies.com/jimmybogard/files/2011/03/image_325B535F.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_58BD36AA.png" width="500" height="213" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_325B535F.png) 
 
 That’s pretty much it.&#160; It was a little hairy upgrading the build, but that’s only because of the tools I use.&#160; If I didn’t have Stack Overflow, it would have been much more difficult 🙂
 

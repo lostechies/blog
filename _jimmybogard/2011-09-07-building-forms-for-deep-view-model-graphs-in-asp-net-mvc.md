@@ -72,15 +72,15 @@ And our partial is just the extracted view code, except now built against the Pr
 
 However, the resultant HTML no longer matches up the model members correctly. Although the screen _looks_ right:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/09/image_thumb.png" width="514" height="484" />](http://lostechies.com/jimmybogard/files/2011/09/image.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/09/image_thumb.png" width="514" height="484" />](http://lostechies.com/content/jimmybogard/uploads/2011/09/image.png)
 
 When we look at the actual HTML, something’s not right any more:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/09/image_thumb1.png" width="468" height="67" />](http://lostechies.com/jimmybogard/files/2011/09/image1.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/09/image_thumb1.png" width="468" height="67" />](http://lostechies.com/content/jimmybogard/uploads/2011/09/image1.png)
 
 Instead of our member name having the correct parent member in its name as “Price.Currency”, we only see “Currency”. Sure enough, when we get to our POST action, the Price member is null as model binding could not line things up any more:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/09/image_thumb2.png" width="354" height="66" />](http://lostechies.com/jimmybogard/files/2011/09/image2.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/09/image_thumb2.png" width="354" height="66" />](http://lostechies.com/content/jimmybogard/uploads/2011/09/image2.png)
 
 Not exactly what we want to do here!
 
@@ -94,7 +94,7 @@ We do have a better option, with the MVC 2 feature of templated helpers. Templat
 
 [Templated helpers](http://bradwilson.typepad.com/blog/2009/10/aspnet-mvc-2-templates-part-1-introduction.html) are different than partials in that special contextual information from the parent is passed down to the child as long as we’re using the Html.EditorXyz() HtmlHelper methods. To convert our view to use templated helpers, let’s just build an editor template for each view model type we have:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/09/image_thumb3.png" width="231" height="97" />](http://lostechies.com/jimmybogard/files/2011/09/image3.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/09/image_thumb3.png" width="231" height="97" />](http://lostechies.com/content/jimmybogard/uploads/2011/09/image3.png)
 
 These are just normal partials in Razor, with the exception that they’re placed in the special EditorTemplates folder. In our ProductEditModel partial, we just move what we had in our Edit view over:
 
@@ -136,11 +136,11 @@ ASP.NET MVC will look at the type of the model to see if an editor template exis
 
 Looking at the resultant HTML, we can confirm that everything looks good there:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/09/image_thumb4.png" width="549" height="67" />](http://lostechies.com/jimmybogard/files/2011/09/image4.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/09/image_thumb4.png" width="549" height="67" />](http://lostechies.com/content/jimmybogard/uploads/2011/09/image4.png)
 
 The input element’s name now has the correct parent property name in its value. Debugging into the POST action confirms that the model binding now works correctly:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/09/image_thumb5.png" width="472" height="100" />](http://lostechies.com/jimmybogard/files/2011/09/image5.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/09/image_thumb5.png" width="472" height="100" />](http://lostechies.com/content/jimmybogard/uploads/2011/09/image5.png)
 
 With the templates helpers of ASP.NET MVC 2, we can now build nested models in our views and still take advantage of features like partials. The only caveat is that we need to make sure we build our views using templates helpers and the Html.EditorXyz methods. Otherwise, our views are minimally impacted.
 

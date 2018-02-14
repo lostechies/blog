@@ -97,11 +97,11 @@ Experienced TDD&nbsp;practitioners, particularly those that have been involved i
                         
                         So what have we achieved here?&nbsp; We have taken an existing TDD unit test and transformed it into a more meaningful representation of intent and behavior by applying the Given, When, Then constructs of BDD.&nbsp; No existing frameworks were harmed in the production of this unit test.&nbsp; Just simply a&nbsp;state of mind&nbsp;change.&nbsp; This verboseness and readability have tremendous implications as the test runner displays the following output. 
                         
-                        [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="105" alt="image" src="http://lostechies.com/joeocampo/files/2011/03AttemptingtoDemystifyBehaviorDrivenDevel_A6FE/image_thumb.png" width="520" border="0" />](http://lostechies.com/joeocampo/files/2011/03AttemptingtoDemystifyBehaviorDrivenDevel_A6FE/image.png)&nbsp;
+                        [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="105" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03AttemptingtoDemystifyBehaviorDrivenDevel_A6FE/image_thumb.png" width="520" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03AttemptingtoDemystifyBehaviorDrivenDevel_A6FE/image.png)&nbsp;
                         
                         Here is the same result set grouped by category.
                         
-                        [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="78" alt="BDDRunnerOutputCatagory" src="http://lostechies.com/joeocampo/files/2011/03AttemptingtoDemystifyBehaviorDrivenDevel_A6FE/BDDRunnerOutputCatagory_thumb.png" width="508" border="0" />](http://lostechies.com/joeocampo/files/2011/03AttemptingtoDemystifyBehaviorDrivenDevel_A6FE/BDDRunnerOutputCatagory.png) 
+                        [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="78" alt="BDDRunnerOutputCatagory" src="http://lostechies.com/content/joeocampo/uploads/2011/03AttemptingtoDemystifyBehaviorDrivenDevel_A6FE/BDDRunnerOutputCatagory_thumb.png" width="508" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03AttemptingtoDemystifyBehaviorDrivenDevel_A6FE/BDDRunnerOutputCatagory.png) 
                         
                         This is nice, I get to ask you a couple of questions.
                         

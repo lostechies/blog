@@ -39,7 +39,7 @@ Let’s start with the MVC viewmodel and show it is maps to the screenshot of th
   
 The viewmodel is nice and simple, to collections of objects that will be used to generate a list of push buttons and a list of toggle buttons. Below you can see the mapping of the collections to each column in the page.
 
-[<img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb5.png" alt="image" width="244" height="131" border="0" />](http://lostechies.com/erichexter/files/2012/11/image5.png)
+[<img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb5.png" alt="image" width="244" height="131" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image5.png)
 
 This shows how the ViewModel maps to the User Interface
 
@@ -67,19 +67,19 @@ This view has three vectors we can discuss here.
 
 3. KnockoutJS client side templating to create the toggle buttons and support synchronization across browsers
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb6.png" alt="image" width="679" height="339" border="0" />](http://lostechies.com/erichexter/files/2012/11/image6.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb6.png" alt="image" width="679" height="339" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image6.png)
 
 jQuery Mobile specific code underlined
 
 In the figure above, the jQuery Mobile css classes have been underlined. These classes are used with the html tags by jQuery Mobile framework to make style the form and elements to match the screen shot. The jQuery mobile uses a combination of class values and some html5 **data-** attributes, that are specific to the jQuery Mobile framework. In this view the only additional attribute we need for the jQuery Mobile is the **data-role**.
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb7.png" alt="image" width="675" height="334" border="0" />](http://lostechies.com/erichexter/files/2012/11/image7.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb7.png" alt="image" width="675" height="334" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image7.png)
 
 ASP.Net MVC Razor syntax highlighted underlined
 
 This code shows that a razor foreach loop is used to generate the html for the Scene buttons. This code is used to create the buttons server side, because the buttons do not need to be synchronized across the browsers. So writing this code using server side generation is the simplest way to create this portion of the page.
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb8.png" alt="image" width="726" height="368" border="0" />](http://lostechies.com/erichexter/files/2012/11/image8.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb8.png" alt="image" width="726" height="368" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image8.png)
 
 KnockoutJS specific markup is underlined
 
@@ -87,29 +87,29 @@ KnockoutJS uses more of the **data-** attributes to implement its databinding. F
 
 We made it through the markup of the page, that is the first half of what is needed in the browser. Now let us look at the javascript to wire this page together.
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb9.png" alt="image" width="714" height="678" border="0" />](http://lostechies.com/erichexter/files/2012/11/image9.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb9.png" alt="image" width="714" height="678" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image9.png)
 
 Razor markup used to render the javascript underlined
 
 There is a little trick I used here to make the initial page load as fast as possible. I included the model serialized as JSON in the javascript code. See the underlined code in the figure above. Doing this eliminated an additional network call back to the webserver to load this data the first time the page loads. This will make the initial webpage load much faster, especially on mobile phones were the network connection is slower. This entire set of javascript is rendered in the Layout page’s Scripts section, using the @section construct.
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb10.png" alt="image" width="697" height="662" border="0" />](http://lostechies.com/erichexter/files/2012/11/image10.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb10.png" alt="image" width="697" height="662" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image10.png)
 
 The KnockoutJS specific code is underlined
 
 The Knockout specific code is underlined, in addition to the standard knockoutJS library, I also used the mapping plugin. The Mapping plugin is like AutoMapper for knockout viewmodels. It makes it a single method to convert a viewmodel with a collection of child items into the correct Observable equivalents. This mapping plugin easily saved 20-30 lines of repetitive mapping code. The mapping plugin is available from nuget or a download from the KnockoutJS site. The next line after the mapping of the view model is the standard applyBindings command which initializes KnockoutJS and then in turn lets it look at the markup and data- attributes on the page to dynamically render the client side templates. The other important to note items are underlined. In Knockout the viewmodel properties need to be set using a method of the same name, this allows the two way databinding to update the html when you change the value of the javascript in memory objects. This functionality is the magic sauce which makes the multi browser synchronization so easy to implement in a few lines of code. It also keeps the javascript code pretty clean, because in the SignalR handlers I just need to update my javascript viewmodel and I do not need to embed code to update the html document object model.
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb11.png" alt="image" width="711" height="676" border="0" />](http://lostechies.com/erichexter/files/2012/11/image11.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb11.png" alt="image" width="711" height="676" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image11.png)
 
 The jQuery Mobile constructs are underlined.
 
 The jQuery Mobile specific code is underlined, the most important aspect to note, is that the .slider() plugin was manually called by javascript after the knockout applyBindings. This is important because the plugin need to be initialized after knockout created the elements in the DOM. Other areas to look at are the change and click handlers that are applied to the select and button inputs. Finally the .slider(‘refresh’) is called to update the toggle buttons after knockout refreshes the DOM when the screens are synchronized.
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb12.png" alt="image" width="724" height="691" border="0" />](http://lostechies.com/erichexter/files/2012/11/image12.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb12.png" alt="image" width="724" height="691" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image12.png)
 
 The SignalR constructs are underlined in the figure above. The initial call creates an instance of the hub, this is the javascript proxy that manages the connections to the server. The next two underlined pieces of code represent the event handler for messages which are published from the server side signalR events. The last line of the script turns on the signalR hub to connect and start receiving message from the server.
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb13.png" alt="image" width="715" height="682" border="0" />](http://lostechies.com/erichexter/files/2012/11/image13.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb13.png" alt="image" width="715" height="682" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image13.png)
 
 In the handlers for the toggle button and the push buttons, the hub is called and this is where we send the address of the x10 device and the scene to execute on the agents. We use the jQuery data function to pull a piece of application state data that is unique to each button. This is stored in the data-x10 element in the markup. Using signalR here makes the code clean because we just publish the message to the server and we do not need to handle a response as part of this method. We handle the response in the event handler we hook up in the hub.broadcastDeviceState message. The anonymous function takes two values, there are defined in the server side portion of the signalR code (I will show that in the next post). We setup a handler for the broadcastHeartbeat message as well. Similar to the previous function.
 

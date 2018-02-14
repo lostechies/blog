@@ -21,17 +21,17 @@ But now it is working again, and there was much rejoicing in the team room this 
 
 Here is a picture of our newest build light setup:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="184" alt="DCFN0004" src="http://lostechies.com/stevedonie/files/2011/03/DCFN0004_thumb.jpg" width="244" border="0" />](http://lostechies.com/stevedonie/files/2011/03/DCFN0004.jpg) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="184" alt="DCFN0004" src="http://lostechies.com/content/stevedonie/uploads/2011/03/DCFN0004_thumb.jpg" width="244" border="0" />](http://lostechies.com/content/stevedonie/uploads/2011/03/DCFN0004.jpg) 
 
 Yes, the build is broken! We&#8217;re creating a new smoke test at the moment, and fighting with Maven configuration. We&#8217;re also going to neaten up the cords Real Soon Now. 
 
 Here are the three X10 modules on the wall. Pretty ugly. Might be a weekend project to mount the modules inside the light fixture, so we can just have a single cord coming out. 
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="184" alt="Pic 036" src="http://lostechies.com/stevedonie/files/2011/03/Pic-036_thumb.jpg" width="244" border="0" />](http://lostechies.com/stevedonie/files/2011/03/Pic-036_2.jpg)&nbsp;&nbsp;&nbsp; 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="184" alt="Pic 036" src="http://lostechies.com/content/stevedonie/uploads/2011/03/Pic-036_thumb.jpg" width="244" border="0" />](http://lostechies.com/content/stevedonie/uploads/2011/03/Pic-036_2.jpg)&nbsp;&nbsp;&nbsp; 
 
 Finally, here is a pic of the team room &#8211; we have a long rectangular room, and mounted the lights on the short wall that is off the left edge of this photo.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="184" alt="DCFN0003" src="http://lostechies.com/stevedonie/files/2011/03/DCFN0003_thumb.jpg" width="244" border="0" />](http://lostechies.com/stevedonie/files/2011/03/DCFN0003.jpg) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="184" alt="DCFN0003" src="http://lostechies.com/content/stevedonie/uploads/2011/03/DCFN0003_thumb.jpg" width="244" border="0" />](http://lostechies.com/content/stevedonie/uploads/2011/03/DCFN0003.jpg) 
 
 Next thing for me will be a much simpler patch to CCTray to support three lights in X10. Currently it only supports &#8216;green&#8217; and &#8216;red&#8217;. I want to make it so that the yellow light also comes on while a build is in progress. So the color scheme would be:
 

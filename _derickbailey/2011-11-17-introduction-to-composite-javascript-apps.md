@@ -21,7 +21,7 @@ As our applications get larger and larger, it&#8217;s important to decouple the 
 
 As an example of functional areas, here&#8217;s a wireframe of something similar to what I&#8217;m currently working on:
 
-<img title="mockup.png" src="http://lostechies.com/derickbailey/files/2011/11/mockup.png" border="0" alt="Mockup" width="574" height="536" />
+<img title="mockup.png" src="http://lostechies.com/content/derickbailey/uploads/2011/11/mockup.png" border="0" alt="Mockup" width="574" height="536" />
 
 The application shown here is a very simple item management app. On the left, you have a tree with a hierarchy of items. On the top right, you have a grid view to show the child items of the item that was selected in the tree. On the bottom right, you have an add/edit form.
 

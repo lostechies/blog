@@ -22,9 +22,9 @@ The focus of Telerik&#8217;s Analytics services is more of a back-end thing. You
 
 If you have a web app deployed and want to know whether or not you need to support mobile devices, for example, you have a few choices in making this decision. You could look at over-all market trends and analyze your specific target audience. This would give you a generalized idea of whether your specific market needs mobile device support. Or, you could implement Telerik&#8217;s Analytics service to gather information about your actual user base. You&#8217;ll be able to see what devices are being used, and which features those devices are using the most. This approach of measurement on your product, rather than guessing based on broad reports and generalizations, will help you understand what your product needs to focus on. You&#8217;ll be able to make decisions based on actual data, instead of conjecture.
 
-<img src="http://lostechies.com/derickbailey/files/2014/01/NewImage2.png" alt="NewImage" width="600" height="413" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage2.png" alt="NewImage" width="600" height="413" border="0" />
 
-<img src="http://lostechies.com/derickbailey/files/2014/01/NewImage3.png" alt="NewImage" width="600" height="413" border="0" /> 
+<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage3.png" alt="NewImage" width="600" height="413" border="0" /> 
 
 Of course there are a lot of other great reports that you&#8217;ll get out of Telerik&#8217;s Analytics, including performance analysis of your app and much more. The one thing you can&#8217;t do with Telerik is get this information from an API. You can&#8217;t call in to the Telerik Analytics site with an API key to get the data out and show it on your website. This isn&#8217;t what this service does. It gathers the info, aggregates and analyzes it, and shows you the reports through their website. Think of it like WebTrends or Google Analytics, but for any application on any platform &#8211; web, windows, iOS, Android, and so much more. 
 
@@ -36,15 +36,15 @@ The strength of Keen&#8217;s service is in custom data and analytics for custome
 
 With Keen&#8217;s workbench, it&#8217;s easy to design the analytics call that you want, and then use the output options to get the graph, the JavaScript code to generate the graph on your site, the HTTP query to return the JSON document, or the raw JSON from your query.
 
-<img src="http://lostechies.com/derickbailey/files/2014/01/NewImage4.png" alt="NewImage" width="600" height="425" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage4.png" alt="NewImage" width="600" height="425" border="0" />
 
  
 
-<img src="http://lostechies.com/derickbailey/files/2014/01/NewImage5.png" alt="NewImage" width="600" height="192" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage5.png" alt="NewImage" width="600" height="192" border="0" />
 
  
 
-<img src="http://lostechies.com/derickbailey/files/2014/01/NewImage6.png" alt="NewImage" width="600" height="210" border="0" />
+<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage6.png" alt="NewImage" width="600" height="210" border="0" />
 
  
 

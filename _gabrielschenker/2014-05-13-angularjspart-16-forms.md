@@ -33,7 +33,7 @@ Most importantly we have properties **$valid** and **$invalid** on the form whic
 
 Note that I have added the attribute **novalidate** to the form tag to suppress the normal HTML5 validation and rather rely on the validation through Angular. If we load the above page in our browser we can see that initially the form is invalid since both data entry fields are empty. 
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/05/image_thumb.png" width="261" height="207" />](http://lostechies.com/gabrielschenker/files/2014/05/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/05/image_thumb.png" width="261" height="207" />](http://lostechies.com/content/gabrielschenker/uploads/2014/05/image.png)
 
 As soon as we enter something in both fields the form becomes valid which is shown in the section where we display the form properties.
 
@@ -43,7 +43,7 @@ We cannot only determine whether the whole form is valid or not but also does An
 
 And this is how it should look like in the browser
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/05/image_thumb1.png" width="328" height="199" />](http://lostechies.com/gabrielschenker/files/2014/05/image1.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/05/image_thumb1.png" width="328" height="199" />](http://lostechies.com/content/gabrielschenker/uploads/2014/05/image1.png)
 
 We can now use what we just learned to conditionally display some error message next to each input element if it is invalid. For this we use the ng-hide attribute on a div tag which contains the error message. In the case of the userName input this would look like this
 
@@ -51,7 +51,7 @@ We can now use what we just learned to conditionally display some error message 
 
 And again in the browser we get something like this if we have a valid and an invalid input control
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/gabrielschenker/files/2014/05/image_thumb2.png" width="328" height="146" />](http://lostechies.com/gabrielschenker/files/2014/05/image2.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/05/image_thumb2.png" width="328" height="146" />](http://lostechies.com/content/gabrielschenker/uploads/2014/05/image2.png)
 
 We can of course also keep the login button disabled while the form is invalid by using the **ng-disabled** directive on the button
 

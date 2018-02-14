@@ -42,7 +42,7 @@ There’s nothing special about this. Follow your team’s standard practices fo
 
 Run a “git init” from the root folder of your subversion checkout but **DO NOT** add / commit to the git repository, yet! You need to complete steps 3 and 4 before doing that. This will create your .git repository. I’ve got a .git and a .svn folder sitting right next to each other in my svn trunk checkout, now.
 
-<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_7D91FC93.png" width="233" height="139" />&#160; 
+<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_7D91FC93.png" width="233" height="139" />&#160; 
 
 &#160;
 
@@ -54,7 +54,7 @@ Imagine having git make modifications to your .svn folder contents while you are
 
 To keep things clean and simple, add _.svn_ to your _.gitignore_ file.
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_363CA6A1.png" width="192" height="115" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_363CA6A1.png" width="192" height="115" />
 
 You should also take the time to add your standard .gitignore settings at this point. My list has grown a little, but the basics are [still the same as when I posted them, a while back](http://www.lostechies.com/blogs/derickbailey/archive/2009/05/18/a-net-c-developer-s-gitignore-file.aspx).
 
@@ -66,9 +66,9 @@ Subversion doesn’t need to know about your git repository, either. More specif
 
 Do yourself and your teammates a favor: tell subversion to ignore the _.git_ folder.
 
-<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_55EB8069.png" width="662" height="529" />&#160;
+<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_55EB8069.png" width="662" height="529" />&#160;
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_5C3256F7.png" width="227" height="150" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_5C3256F7.png" width="227" height="150" />
 
 &#160;
 

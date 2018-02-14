@@ -16,7 +16,7 @@ categories:
 ---
 [My previous post](http://lostechies.com/derickbailey/2013/04/27/slap-slides-proof-of-concept/) showed a working prototype for what I&#8217;m now calling SlideChop (huge thanks to [Eric Anderson](https://twitter.com/eric_anderson) for the name!) Since then, I&#8217;ve upgraded things a bit and now have a much more stable, much easier to use version. It no longer requires a NodeJS server, and now works on Mac, Linux and Windows. 
 
-![](http://lostechies.com/derickbailey/files/2013/04/NewImage.png)
+![](http://lostechies.com/content/derickbailey/uploads/2013/04/NewImage.png)
 
 ## Teensy 3.0
 
@@ -24,13 +24,13 @@ The secret is in the use of [a Teensy 3.0 for the controller](http://www.pjrc.co
 
 Here are a few images of the Teensy in the hardware setup for the SlideChop:
 
-<img title="IMAG1664.jpg" src="http://lostechies.com/derickbailey/files/2013/06/IMAG1664.jpg" alt="IMAG1664" width="600" height="338" border="0" /> 
+<img title="IMAG1664.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/06/IMAG1664.jpg" alt="IMAG1664" width="600" height="338" border="0" /> 
 
-<img title="IMAG1666.jpg" src="http://lostechies.com/derickbailey/files/2013/06/IMAG1666.jpg" alt="IMAG1666" width="600" height="338" border="0" />
+<img title="IMAG1666.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/06/IMAG1666.jpg" alt="IMAG1666" width="600" height="338" border="0" />
 
-<img title="IMAG1670.jpg" src="http://lostechies.com/derickbailey/files/2013/06/IMAG1670.jpg" alt="IMAG1670" width="600" height="338" border="0" />
+<img title="IMAG1670.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/06/IMAG1670.jpg" alt="IMAG1670" width="600" height="338" border="0" />
 
-<img title="IMAG1672.jpg" src="http://lostechies.com/derickbailey/files/2013/06/IMAG1672.jpg" alt="IMAG1672" width="338" height="600" border="0" />
+<img title="IMAG1672.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/06/IMAG1672.jpg" alt="IMAG1672" width="338" height="600" border="0" />
 
 If you want to build a hardware device that acts as a human input device, you really need to look at getting a Teensy. I highly recommend them. Do note that you&#8217;ll need to be comfortable with soldering if you want to use one, though. They don&#8217;t come with any header pins attached to them. Be sure to buy pins if you don&#8217;t have any on hand (and why don&#8217;t you? you always need header pins on hand.)
 
@@ -40,15 +40,15 @@ Once you have the hardware, you&#8217;ll want to write software for it. The easi
 
 Once you have it installed, you&#8217;ll get some extra menu items in the Arduino IDE. Select the &#8220;Teensy 3.0&#8221; from the Board type menu, and then select &#8220;Keyboard / Mouse / Joystick&#8221; from the &#8220;USB Type&#8221; menu.
 
-<img title="ArduinoToolsMenu.png" src="http://lostechies.com/derickbailey/files/2013/06/ArduinoToolsMenu.png" alt="ArduinoToolsMenu" width="600" height="441" border="0" />
+<img title="ArduinoToolsMenu.png" src="http://lostechies.com/content/derickbailey/uploads/2013/06/ArduinoToolsMenu.png" alt="ArduinoToolsMenu" width="600" height="441" border="0" />
 
  
 
- <img title="ArduinoBoardType.png" src="http://lostechies.com/derickbailey/files/2013/06/ArduinoBoardType.png" alt="ArduinoBoardType" width="600" height="208" border="0" />
+ <img title="ArduinoBoardType.png" src="http://lostechies.com/content/derickbailey/uploads/2013/06/ArduinoBoardType.png" alt="ArduinoBoardType" width="600" height="208" border="0" />
 
  
 
-<img title="ArduinoUSBType.png" src="http://lostechies.com/derickbailey/files/2013/06/ArduinoUSBType.png" alt="ArduinoUSBType" width="600" height="175" border="0" /> 
+<img title="ArduinoUSBType.png" src="http://lostechies.com/content/derickbailey/uploads/2013/06/ArduinoUSBType.png" alt="ArduinoUSBType" width="600" height="175" border="0" /> 
 
  
 
@@ -66,6 +66,6 @@ The veggie chopper itself is the cheapest one I could find at my local grocery s
 
 The veggie compartment has a hole drilled through it with a rubber grommet silicon&#8217;d in place to keep it there. I run the USB cable through this and connect the Teensy to my USB port on my laptop. The Teensy is immediately recognized as a generic human input device. It takes about 10 seconds for a new laptop to configure the driver for this, the first time you plug it in. Then you&#8217;re good to go! Start slapping that button to use it as a standard mouse click. Hold the button down for a second and it will right click, too.
 
-<img title="IMAG1673.jpg" src="http://lostechies.com/derickbailey/files/2013/06/IMAG1673.jpg" alt="IMAG1673" width="600" height="338" border="0" />
+<img title="IMAG1673.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/06/IMAG1673.jpg" alt="IMAG1673" width="600" height="338" border="0" />
 
 ## The Demo Video

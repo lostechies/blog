@@ -67,7 +67,7 @@ The first step will be to download and install Erlang for Windows.&nbsp; You can
 
 After downloading and completing the Erlang installation wizard, you should have a new ERLANG_HOME environment variable set.&nbsp; If not, you’ll want to set this now so RabbitMQ will be able to locate your installation of Erlang. 
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="ErlangEnv" border="0" alt="ErlangEnv" src="http://lostechies.com/derekgreer/files/2012/03/ErlangEnv_thumb.png" width="395" height="438" />](http://lostechies.com/derekgreer/files/2012/03/ErlangEnv.png) 
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="ErlangEnv" border="0" alt="ErlangEnv" src="http://lostechies.com/content/derekgreer/uploads/2012/03/ErlangEnv_thumb.png" width="395" height="438" />](http://lostechies.com/content/derekgreer/uploads/2012/03/ErlangEnv.png) 
 
 &nbsp; 
 
@@ -105,7 +105,7 @@ To verify management plugin is up and running, start your favorite browser and n
 
 &nbsp; 
 
-&nbsp;[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="RabbitManagement" border="0" alt="RabbitManagement" src="http://lostechies.com/derekgreer/files/2012/03/RabbitManagement_thumb.png" width="640" height="302" />](http://lostechies.com/derekgreer/files/2012/03/RabbitManagement.png)
+&nbsp;[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="RabbitManagement" border="0" alt="RabbitManagement" src="http://lostechies.com/content/derekgreer/uploads/2012/03/RabbitManagement_thumb.png" width="640" height="302" />](http://lostechies.com/content/derekgreer/uploads/2012/03/RabbitManagement.png)
 
 Note: The management plugin URL has been changed to <http://localhost:15672/> for versions 3.0 and higher.
 

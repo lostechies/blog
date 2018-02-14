@@ -26,7 +26,7 @@ There&#8217;s a number of different ways to setup an html page so that you can r
 
 The div starts it&#8217;s life with a fieldset and an unsorted list, but no data in it. When you load this in your browser, you don&#8217;t see anything very interesting or useful:
 
-<img title="Screen shot 2011-06-20 at 10.09.12 PM.png" src="http://lostechies.com/derickbailey/files/2011/06/Screen-shot-2011-06-20-at-10.09.12-PM.png" border="0" alt="Screen shot 2011 06 20 at 10 09 12 PM" width="539" height="62" />
+<img title="Screen shot 2011-06-20 at 10.09.12 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-20-at-10.09.12-PM.png" border="0" alt="Screen shot 2011 06 20 at 10 09 12 PM" width="539" height="62" />
 
 We need to populate this with some information about our users. To get things rolling, we can hard code a few users as json documents and stuff them into a user collection.
 
@@ -46,7 +46,7 @@ We&#8217;re passing the user list into the user list view with a json document, 
 
 The end result of this view rendering itself is a list of user names.
 
-<img title="Screen shot 2011-06-20 at 10.50.00 PM.png" src="http://lostechies.com/derickbailey/files/2011/06/Screen-shot-2011-06-20-at-10.50.00-PM.png" border="0" alt="Screen shot 2011 06 20 at 10 50 00 PM" width="539" height="111" />
+<img title="Screen shot 2011-06-20 at 10.50.00 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-20-at-10.50.00-PM.png" border="0" alt="Screen shot 2011 06 20 at 10 50 00 PM" width="539" height="111" />
 
  
 
@@ -84,7 +84,7 @@ Since javascript uses a prototype-based object inheritance system, we have to re
 
 Instantiate a UserEditView and pass a user model into it with a &#8216;{model: user1}&#8217; json document, and the end result is our user edit view along side our user list view.
 
-<img title="Screen shot 2011-06-20 at 11.22.50 PM.png" src="http://lostechies.com/derickbailey/files/2011/06/Screen-shot-2011-06-20-at-11.22.50-PM.png" border="0" alt="Screen shot 2011 06 20 at 11 22 50 PM" width="539" height="213" />
+<img title="Screen shot 2011-06-20 at 11.22.50 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-20-at-11.22.50-PM.png" border="0" alt="Screen shot 2011 06 20 at 11 22 50 PM" width="539" height="213" />
 
 Now the instance of the UserEditView has access to the &#8216;Save&#8217; and &#8216;Cancel&#8217; buttons, allowing you to bind jQuery &#8216;click&#8217; events or anything else that you need to do. Toss in a little bit of data-binding code, as well, and we would have a simple form to edit users. I&#8217;ll leave that for another blog post, though.
 

@@ -23,7 +23,7 @@ If you&#8217;ll be in the Copenhagen, Denmark area during the week of January 16
 
 About WarmCrocConf:
 
-> [<img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2012/11/NewImage.png" alt="NewImage" border="0" />](http://warmcrocconf.net/)
+> [<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2012/11/NewImage.png" alt="NewImage" border="0" />](http://warmcrocconf.net/)
 > 
 > The Warm Crocodile Conference is done by a small dedicated team inside of Microsoft as well as their beloved Crocodile, Claudia. Daniel Frost ([@danielovich](https://twitter.com/danielovich)), the mind behind the Warm Crocodile, is a proud community advocate & technologist preacher who works for Microsoft in Denmark. He has with the best and outstanding help from people like Henrik Westergaard & Martin Esmann and the Danish community built up over a decade worth of knowledge and know-how around developing software. We are all trying to lead software developers in the right direction and building conferences and communities around it, alongside the surronding technologies.
 

@@ -16,7 +16,7 @@ You can find [the annotated code for Backbone.Marionette here](http://derickbail
 
 Note that this only part of the documentation solution for a project, though. If you expect to annotate your source code and call your documentation done, you&#8217;re a scumbag oss coder:
 
-<img title="ScumbagCoder.jpg" src="http://lostechies.com/derickbailey/files/2011/12/ScumbagCoder.jpg" border="0" alt="ScumbagCoder" width="400" height="402" />
+<img title="ScumbagCoder.jpg" src="http://lostechies.com/content/derickbailey/uploads/2011/12/ScumbagCoder.jpg" border="0" alt="ScumbagCoder" width="400" height="402" />
 
 That being said… commenting your code is a great way to provide additional documentation. It will help people understand the code they are reading, and help them write better code using your library or framework.
 

@@ -22,13 +22,13 @@ Here&#8217;s a few ways to think about Git and it&#8217;s distributed nature.
 ## General pushing and pulling
 
 <p style="text-align:center">
-  <img src="http://lostechies.com/jamesgregory/files/2011/03.GitRemotes/remote-1.png" />
+  <img src="http://lostechies.com/content/jamesgregory/uploads/2011/03.GitRemotes/remote-1.png" />
 </p>
 
 Pushing your changes to a remote: `git push remote_name`
 
 <p style="text-align:center">
-  <img src="http://lostechies.com/jamesgregory/files/2011/03.GitRemotes/remote-2.png" />
+  <img src="http://lostechies.com/content/jamesgregory/uploads/2011/03.GitRemotes/remote-2.png" />
 </p>
 
 Pulling changes from a remote: `git pull remote_name`
@@ -47,7 +47,7 @@ That&#8217;s all there is to moving commits around in Git repositories. Any othe
 When you&#8217;re dealing directly with Github, on a personal project or as the project owner, your repositories will look like this:
 
 <p style="text-align:center">
-  <img src="http://lostechies.com/jamesgregory/files/2011/03.GitRemotes/remote-3.png" />
+  <img src="http://lostechies.com/content/jamesgregory/uploads/2011/03.GitRemotes/remote-3.png" />
 </p>
 
 To push and pull changes between your local and your github repositories, just issue the push and pull commands with the origin remote:
@@ -62,7 +62,7 @@ You can set the defaults for these commands too, so the origin isn&#8217;t even 
 As a project owner, you&#8217;ll sometimes have to deal with contributions from other people. Each contributor will have their own github repository, and they&#8217;ll issue you with a pull request.
 
 <p style="text-align:center">
-  <img src="http://lostechies.com/jamesgregory/files/2011/03.GitRemotes/remote-4.png" />
+  <img src="http://lostechies.com/content/jamesgregory/uploads/2011/03.GitRemotes/remote-4.png" />
 </p>
 
 There&#8217;s no direct link to push between these two repositories; they&#8217;re unmanned. To manage changes from contributors, you need to involve your local repository.
@@ -70,7 +70,7 @@ There&#8217;s no direct link to push between these two repositories; they&#8217;
 You can think of this as taking the shape of a V.
 
 <p style="text-align:center">
-  <img src="http://lostechies.com/jamesgregory/files/2011/03.GitRemotes/remote-5.png" />
+  <img src="http://lostechies.com/content/jamesgregory/uploads/2011/03.GitRemotes/remote-5.png" />
 </p>
 
 You need to register their github repository as a remote on your local, pull in their changes, merge them, and push them up to your github. This can be done as follows:
@@ -88,7 +88,7 @@ Do exactly as you would your own personal project. Local changes, pushed up to y
 Here&#8217;s how to imagine the whole process, think of it as an N shape.
 
 <p style="text-align:center">
-  <img src="http://lostechies.com/jamesgregory/files/2011/03.GitRemotes/remote-6.png" />
+  <img src="http://lostechies.com/content/jamesgregory/uploads/2011/03.GitRemotes/remote-6.png" />
 </p>
 
 On the left is the contributor, and the right is the project. Flow goes from bottom left, along the lines to the top right.

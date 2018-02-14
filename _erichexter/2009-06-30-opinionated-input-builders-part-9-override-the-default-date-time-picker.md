@@ -37,22 +37,22 @@ I received a comment from Scott Hanselman about how would a better date time pic
 
 The user interface I came up with is a combination of the Jquery UI datepicker and a set of dropdowns to select the time.&#160; I trimmed down the minute select box so that it only contains fifteen minute increments for this example.
 
-<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_393D72DF.png" width="616" height="174" />
+<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_393D72DF.png" width="616" height="174" />
 
 &#160;
 
 In order to implement this I added a call to the Partial( ) method and passed in the name of my opinion for how a datetime should be rendered.
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_69844795.png" width="1145" height="167" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_69844795.png" width="1145" height="167" />
 
 The next step was to add a partial control with the same name to my Shared view folder.&#160; This could have been placed in the Home folder if I only wanted to have this input available for that controller.
 
-&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_1D4C3DE7.png" width="245" height="357" />
+&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_1D4C3DE7.png" width="245" height="357" />
 
 The code for the Partial view looks like the following. The view page is strongly typed to a DateTime model property. Than comes some jquery to pull it all together. 
 
 I rendered a hidden field, this field will be used to databind when being posted back to my Save Action.&#160; The other elements I appended some fixed names so that I can wire up an event that updates the hidden field when any of the values of the dropdowns or the date pickker text box changes.&#160; I also write a dynamice method named after the input field in order to reduce the client side code.
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_75398EC7.png" width="1028" height="429" /></p> </p> </p> 
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_75398EC7.png" width="1028" height="429" /></p> </p> </p> 
 
 This is one approach to solve this problem,&#160; if you did not want to include this javascript and do the client side wire up of updating the hidden field this same work could be done in a Custom Model Binder that is wired up for DateTime objects that could look for fields with these names and than it could do the formatting.&#160; So there you go a few ways to tackle this problem.

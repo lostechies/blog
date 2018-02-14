@@ -19,11 +19,11 @@ First things first, make sure you have msysgit installed.&#160; You can find the
 
 After launching Console, we’ll need to add a new tab launcher by navigating to Edit->Settings:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_706E3275.png" width="215" height="235" />](http://lostechies.com/jimmybogard/files/2011/03/image_05CBE7DE.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_706E3275.png" width="215" height="235" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_05CBE7DE.png) 
 
 In the Settings window that pops up, click the “Tabs” section, then the “Add” button to add a new Tab:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_2F5FB311.png" width="537" height="550" />](http://lostechies.com/jimmybogard/files/2011/03/image_7001FF80.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2F5FB311.png" width="537" height="550" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_7001FF80.png) 
 
 This will bring up the settings for the new tab you created.&#160; In the configuration options in the “Main” tab below, I use the following settings (without quotes):
 
@@ -34,10 +34,10 @@ This will bring up the settings for the new tab you created.&#160; In the config
 
 I installed Git to the “C:Program Files (x86)Git” directory, so this might be different on your machine.&#160; The Icon setting is not necessary, but it’s nice to see the Git icon in a tab for differentiation.&#160; Click “OK” and you can now create a new Git tab:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_6E5133AC.png" width="244" height="159" />](http://lostechies.com/jimmybogard/files/2011/03/image_55C1965C.png) </p> </p> 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_6E5133AC.png" width="244" height="159" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_55C1965C.png) </p> </p> 
 
 You now have a git bash in a tabbed interface, letting you keep multiple git bashes/command prompts around at once in a nice tabbed interface:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2011/03/image_thumb_06749E08.png" width="396" height="172" />](http://lostechies.com/jimmybogard/files/2011/03/image_1BD25370.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_06749E08.png" width="396" height="172" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_1BD25370.png) 
 
 You can add tabs for other kinds of command prompts, such as the Visual Studio command prompt (with the correct PATH variables set) and so on.&#160; Next up is trying out [posh-git](http://www.lostechies.com/blogs/dahlbyk/archive/2010/03/27/posh-git-release-v0-1.aspx)…

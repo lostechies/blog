@@ -41,7 +41,7 @@ One of the most requested features in recent times has been the ability to add a
 
 WOOO! STICKERS!!! 😀
 
- [<img title="marionette-sticker-detail.jpg" src="http://lostechies.com/derickbailey/files/2013/03/marionette-sticker-detail.jpg" alt="Marionette sticker detail" width="400" height="400" border="0" />](http://www.devswag.com/products/marionette-stickers-4)
+ [<img title="marionette-sticker-detail.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/03/marionette-sticker-detail.jpg" alt="Marionette sticker detail" width="400" height="400" border="0" />](http://www.devswag.com/products/marionette-stickers-4)
 
 You can [order yours from DevSwag](http://www.devswag.com/products/marionette-stickers-4). They are providing order management and fulfillment for stickers, for Marionette and many other amazing open source projects.
 
@@ -59,7 +59,7 @@ There are still more than 50 tickets open in the Marionette repository, and a lo
 
 Yes, it&#8217;s the grammy-award speech time! Someone start the &#8220;wrap it up&#8221; timer&#8230;
 
-<img title="NewImage.png" src="http://lostechies.com/derickbailey/files/2013/03/NewImage.png" alt="NewImage" width="275" height="183" border="0" />
+<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2013/03/NewImage.png" alt="NewImage" width="275" height="183" border="0" />
 
 I owe an especially large thanks to Jarrod Overson, Matt Briggs, Brian Mann and Tony Abou-Assaleh. These guys have been a great core team to bounce ideas around with, to help out with issues, and provide needed support and feedback. And to Ruben Vreeken for all the work he puts in to the Google group, answering questions. 🙂
 

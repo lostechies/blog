@@ -28,7 +28,7 @@ Last week I attended (and presented at) the Lean Software & Systems Conference i
 
 Tuesday evening kicked off the week for me, with David Anderson holding a book launch party for his new Kanban book which is now [available on Amazon.com](http://www.amazon.com/Kanban-David-J-Anderson/dp/0984521402):
 
-[<img style="border-bottom: 0px;border-left: 0px;margin: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/derickbailey/files/2011/03/image_48712FC5.png" width="168" height="168" />](http://www.amazon.com/Kanban-David-J-Anderson/dp/0984521402) 
+[<img style="border-bottom: 0px;border-left: 0px;margin: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_48712FC5.png" width="168" height="168" />](http://www.amazon.com/Kanban-David-J-Anderson/dp/0984521402) 
 
 I had the pleasure of being one of the reviewers of the manuscript during the last year or so and was invited to the book launch party. It was a fun gathering of tremendously talented people with discussions ranging over a wide variety of subjects. The book itself is all about using a Kanban system to facilitate change management in a software development organization. It’s a great read and a very informative book. I’ll be putting together a full review of the final version one I finish it. 
 

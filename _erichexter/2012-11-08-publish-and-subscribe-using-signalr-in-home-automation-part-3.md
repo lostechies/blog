@@ -35,11 +35,11 @@ _[Part 4 – Front End Code Review](http://lostechies.com/erichexter/2012/11/12/
 
 _<span style="font-size: medium;">As the home owner, I want <strong>to turn on my light</strong> from my phone before I get home and walk in the door, so that I don’t trip over the dog.</span>_
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb2.png" alt="image" width="560" height="131" border="0" />](http://lostechies.com/erichexter/files/2012/11/image2.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb2.png" alt="image" width="560" height="131" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image2.png)
 
 _<span style="color: #666666;">This is what the storyboard looks like in for the application.</span>_
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb3.png" alt="image" width="580" height="223" border="0" />](http://lostechies.com/erichexter/files/2012/11/image3.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb3.png" alt="image" width="580" height="223" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image3.png)
 
 _<span style="color: #666666;">This is the user interface interaction which starts this event in the application.</span>_
 
@@ -47,7 +47,7 @@ _<span style="color: #666666;">This is the user interface interaction which star
 
 <span style="font-size: medium;">Above, I have outlined the story board in which, the user navigates to the application from their phone, and they then click on a button in the application. When they walk in the door, they are delighted by how far technology has come.</span>
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/erichexter/files/2012/11/image_thumb4.png" alt="image" width="551" height="648" border="0" />](http://lostechies.com/erichexter/files/2012/11/image4.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb4.png" alt="image" width="551" height="648" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image4.png)
 
 <span style="color: #666666; font-size: medium;"><em>Sequence diagram of the startup, page load, and light on interaction.</em></span>
 

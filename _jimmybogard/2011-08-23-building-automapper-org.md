@@ -52,7 +52,7 @@ Plus, since Heroku supports a ton of Rack applications, I can be assured that I 
 
 Here, I asked around Twitter and got some recommendations for [dnsimple](https://dnsimple.com/r/18ba7dd8f1a214). A fantastic choice! Signing up was easy, and they can very easily add support for 3rd party application hosting. It was literally one button to add Heroku DNS records:
 
-[<img style="display: inline; border: 0px;" title="image" src="http://lostechies.com/jimmybogard/files/2011/08/image_thumb.png" border="0" alt="image" width="644" height="84" />](http://lostechies.com/jimmybogard/files/2011/08/image.png)
+[<img style="display: inline; border: 0px;" title="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/08/image_thumb.png" border="0" alt="image" width="644" height="84" />](http://lostechies.com/content/jimmybogard/uploads/2011/08/image.png)
 
 Just silly. There’s a ton of other applications supported, like Google Apps, Blogger etc. Crazy easy to get started, and I didn’t really even compare costs, since I care more about how easy it is to manage than how little the spokesmodels’ bikinis are. (Not even going to link to the host that shall not be named!)
 

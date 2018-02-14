@@ -28,10 +28,10 @@ While I like this approach I would not stick to this as the only way to develop 
 
 Here is the form that is generated as well as the single line of view code that is used to create it.
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_11C72ED6.png" width="1028" height="664" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_11C72ED6.png" width="1028" height="664" />
 
 &#160;
 
 Just to show how trivial it was to implement this functionality here is the section of code that is called to loop over each property of the model.&#160; It would be pretty easy to modify this for your conventions to say add a Validation Summary to the top of the form.&#160; This code simply loops of the properties of the Model Type and then renders the partial needed for each of the properties type.&#160; Than a Submit Button is added and the form tag is closed.&#160; Pretty simple.
 
-<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/erichexter/files/2011/03/image_0B03FF86.png" width="1028" height="381" />
+<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_0B03FF86.png" width="1028" height="381" />

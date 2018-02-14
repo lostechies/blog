@@ -12,9 +12,9 @@ categories:
 ---
 So you want to contribute to a Git project on GitHub or CodePlex. The first thing you always do here is create a fork, which is easy enough:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/04/image_thumb.png" width="250" height="48" />](http://lostechies.com/jimmybogard/files/2012/04/image.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/04/image_thumb.png" width="250" height="48" />](http://lostechies.com/content/jimmybogard/uploads/2012/04/image.png)
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/04/image_thumb1.png" width="605" height="82" />](http://lostechies.com/jimmybogard/files/2012/04/image1.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/04/image_thumb1.png" width="605" height="82" />](http://lostechies.com/content/jimmybogard/uploads/2012/04/image1.png)
 
 After you create your fork, you’ll likely then clone that forked repository locally like:
 
@@ -24,7 +24,7 @@ That’ll create a remote called “origin” that points up to your fork (in th
 
 But we’re not quite done. We’ve created a fork, which is its own entire repository, separate from the original “central” repository:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/04/image_thumb2.png" width="464" height="484" />](http://lostechies.com/jimmybogard/files/2012/04/image2.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/04/image_thumb2.png" width="464" height="484" />](http://lostechies.com/content/jimmybogard/uploads/2012/04/image2.png)
 
 In this new distributed reality, we need to be able to work with those upstream repositories effectively.
 
@@ -38,7 +38,7 @@ git push origin MyFeature</pre>
 
 The reason we want to isolate our custom work from the master branch is that it makes it much, much easier to integrate and keep up to date with upstream changes. An example in GitHub is:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/jimmybogard/files/2012/04/image_thumb3.png" width="325" height="239" />](http://lostechies.com/jimmybogard/files/2012/04/image3.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/04/image_thumb3.png" width="325" height="239" />](http://lostechies.com/content/jimmybogard/uploads/2012/04/image3.png)
 
 I have two branches – the default “master” branch, and one that I’m going to isolate for a pull request. The nice thing about CodePlex and GitHub is that they both allow you to “add” changes in the form of commits to your pull request. By isolating potential pull requests into a separate, dedicated remote branch, we can ensure that we don’t paint ourselves into a corner where we want to pull in upstream changes or work on something else.
 

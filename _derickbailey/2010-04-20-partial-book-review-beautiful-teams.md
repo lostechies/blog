@@ -11,7 +11,7 @@ categories:
   - Books Reviews
 redirect_from: "/blogs/derickbailey/archive/2010/04/20/partial-book-review-beautiful-teams.aspx/"
 ---
-[<img style="border-bottom: 0px;border-left: 0px;margin: 0px 10px 5px 0px;border-top: 0px;border-right: 0px" border="0" alt="image" align="left" src="http://lostechies.com/derickbailey/files/2011/03/image_0F4CC0BD.png" width="180" height="236" />](http://oreilly.com/catalog/9780596518028/) 
+[<img style="border-bottom: 0px;border-left: 0px;margin: 0px 10px 5px 0px;border-top: 0px;border-right: 0px" border="0" alt="image" align="left" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_0F4CC0BD.png" width="180" height="236" />](http://oreilly.com/catalog/9780596518028/) 
 
 A long time ago I received a copy of the book [Beautiful Teams](http://oreilly.com/catalog/9780596518028/) for review – actually, it’s been over a year ago, now. I started reading the book immediately when I received it and got through 80 of the roughly 460 pages of very small type, in the book. At that point, I found myself unable to continue reading it. I should have continued on with it and I should have posted this review a long time ago. Instead, I continued to push it off and forget about it because I was honestly bored with the contents of the chapters that I had read. There were a few interesting stories for a few paragraphs in a few places, but overall, I felt that the book was doing nothing more than recounting the personal experiences of the individuals being interviewed. 
 

@@ -89,7 +89,7 @@ Now we can use our panel like so:
 
 and we&#8217;ll get something that looks like:
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="226" alt="image" src="http://lostechies.com/rayhouston/files/2011/03CreatingaSilverlightLayoutPanel_A7C9/image_thumb.png" width="244" border="0" />](http://lostechies.com/rayhouston/files/2011/03CreatingaSilverlightLayoutPanel_A7C9/image_2.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="226" alt="image" src="http://lostechies.com/content/rayhouston/uploads/2011/03CreatingaSilverlightLayoutPanel_A7C9/image_thumb.png" width="244" border="0" />](http://lostechies.com/content/rayhouston/uploads/2011/03CreatingaSilverlightLayoutPanel_A7C9/image_2.png) 
 
 You could extend this by added Dependency Properties to the panel so that you can customize how each child reacts in the layout. This is how the Grid works. It looks at the properties set on the child elements and figures out what row and column to place them in.
 

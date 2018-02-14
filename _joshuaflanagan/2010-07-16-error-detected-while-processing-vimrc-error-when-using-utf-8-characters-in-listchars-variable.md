@@ -19,7 +19,7 @@ I’ve been slowly adding more functionality to my vimrc file. Today I learned a
 
 For my “trail” setting (spaces at the end of a line), I picked the Middle Dot Unicode character · (U+00B7 or RightAlt+0183). When I saved (:w) and reloaded the new settings (:so ~_vimrc), the setting took effect with no problem. However, when I closed gVim and re-opened it, I was greeted with the error message “Invalid argument: listchars…”
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/joshuaflanagan/files/2011/03/image_thumb_7404C0AC.png" width="392" height="137" />](http://lostechies.com/joshuaflanagan/files/2011/03/image_09627615.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/image_thumb_7404C0AC.png" width="392" height="137" />](http://lostechies.com/content/joshuaflanagan/uploads/2011/03/image_09627615.png) 
 
 ### Solution
 
