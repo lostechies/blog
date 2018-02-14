@@ -76,7 +76,7 @@ There’s a little bit of rake-fu in the repo to make this nice and easy:
 
 This launches the runner in _interactive_ mode (read “development” mode) and provides simple “auto-test” functionality. That is, any file modifications trigger an automatic refresh of the browser.
 
-[<img style="background-image: none; margin: 0px auto 24px; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border: 0px;" title="start" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/02/start_thumb.png" border="0" alt="start" width="644" height="250" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/02/start.png)
+[<img style="background-image: none; margin: 0px auto 24px; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border: 0px;" title="start" src="/content/josharnold/uploads/2012/02/start_thumb.png" border="0" alt="start" width="644" height="250" />](/content/josharnold/uploads/2012/02/start.png)
 
 As Figure 1 shows, the start page displays all of the available specifications and then lets you drill down to execute them (like R# groups projects in your solution).
 

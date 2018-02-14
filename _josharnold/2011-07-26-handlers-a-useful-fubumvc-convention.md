@@ -33,7 +33,7 @@ Let me see if I can get point across nice and strong:
 
 First, I’ll give you an example of how I don’t like to do things:
 
-[<img style="background-image: none; margin: 0px auto 24px; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border-width: 0px;" title="No Bueno" src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/07/no-bueno_thumb.png" border="0" alt="No Bueno" width="234" height="142" />](http://clayvessel.org/clayvessel/wp-content/uploads/2011/07/no-bueno.png)
+[<img style="background-image: none; margin: 0px auto 24px; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border-width: 0px;" title="No Bueno" src="/content/josharnold/uploads/2011/07/no-bueno_thumb.png" border="0" alt="No Bueno" width="234" height="142" />](/content/josharnold/uploads/2011/07/no-bueno.png)
 
 I’m not sure where this comes from – though my suspicions tell me that they stem from the understanding of separation of concerns as they relate to MVC. The idea here is that you have your controller in one folder, models in another folder, and views in yet another folder. This way you can run around your solution trying to find your files.
 
@@ -62,7 +62,7 @@ As I mentioned, I don’t like separating files. So what do I like? Let’s use 
 
 Now let’s consider a new structure:
 
-[<img style="background-image: none; margin: 0px auto 24px; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border: 0px;" title="all-good" src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/07/all-good_thumb.png" border="0" alt="all-good" width="244" height="140" />](http://clayvessel.org/clayvessel/wp-content/uploads/2011/07/all-good.png)
+[<img style="background-image: none; margin: 0px auto 24px; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border: 0px;" title="all-good" src="/content/josharnold/uploads/2011/07/all-good_thumb.png" border="0" alt="all-good" width="244" height="140" />](/content/josharnold/uploads/2011/07/all-good.png)
 
 #### The HandlersUrlPolicy:
 

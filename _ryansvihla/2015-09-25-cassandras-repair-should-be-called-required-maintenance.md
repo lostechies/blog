@@ -51,7 +51,7 @@ tags:
   Another important aspect of repair is when you think about tombstones. Say I issue a delete to two nodes but it only succeeds on one. My data will look like so:
 </p>
 
-[<img class="alignnone size-full wp-image-263" title="tombstone_repair_after_gc_grace_seconds" src="http://clayvessel.org/clayvessel/wp-content/uploads/2015/09/tombstone_repair_after_gc_grace_seconds.png" alt="" width="477" height="495" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2015/09/tombstone_repair_after_gc_grace_seconds.png 477w, http://clayvessel.org/clayvessel/wp-content/uploads/2015/09/tombstone_repair_after_gc_grace_seconds-289x300.png 289w" sizes="(max-width: 477px) 100vw, 477px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2015/09/tombstone_repair_after_gc_grace_seconds.png)
+[<img class="alignnone size-full wp-image-263" title="tombstone_repair_after_gc_grace_seconds" src="/content/ryansvihla/uploads/2015/09/tombstone_repair_after_gc_grace_seconds.png" alt="" width="477" height="495" srcset="/content/ryansvihla/uploads/2015/09/tombstone_repair_after_gc_grace_seconds.png 477w, /content/ryansvihla/uploads/2015/09/tombstone_repair_after_gc_grace_seconds-289x300.png 289w" sizes="(max-width: 477px) 100vw, 477px" />](/content/ryansvihla/uploads/2015/09/tombstone_repair_after_gc_grace_seconds.png)
 
 <div>
   <div>
@@ -64,7 +64,7 @@ tags:
   </div>
   
   <p>
-    <a href="http://clayvessel.org/clayvessel/wp-content/uploads/2015/09/tombstone_repair_after_compaction.png"><img class="alignnone size-full wp-image-262" title="tombstone_repair_after_compaction" src="http://clayvessel.org/clayvessel/wp-content/uploads/2015/09/tombstone_repair_after_compaction.png" alt="" width="692" height="495" /></a>
+    <a href="/content/ryansvihla/uploads/2015/09/tombstone_repair_after_compaction.png"><img class="alignnone size-full wp-image-262" title="tombstone_repair_after_compaction" src="/content/ryansvihla/uploads/2015/09/tombstone_repair_after_compaction.png" alt="" width="692" height="495" /></a>
   </p>
 </div>
 
@@ -74,7 +74,7 @@ tags:
 
 <div>
   <div>
-     <a href="http://clayvessel.org/clayvessel/wp-content/uploads/2015/09/tombstone_repair.png"><img class="alignnone size-full wp-image-261" title="tombstone_repair" src="http://clayvessel.org/clayvessel/wp-content/uploads/2015/09/tombstone_repair.png" alt="" width="692" height="288" /></a>
+     <a href="/content/ryansvihla/uploads/2015/09/tombstone_repair.png"><img class="alignnone size-full wp-image-261" title="tombstone_repair" src="/content/ryansvihla/uploads/2015/09/tombstone_repair.png" alt="" width="692" height="288" /></a>
   </div>
 </div>
 

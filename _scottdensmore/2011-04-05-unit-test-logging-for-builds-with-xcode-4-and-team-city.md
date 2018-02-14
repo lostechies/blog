@@ -48,32 +48,32 @@ I created a project called OCUnitLogger and give it a good description.
 _Setup a Build Configuration_   
 I created one called Bowling with a description.
 
-<img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/Project-Setup.png" border="0" alt="Project Setup" width="600" height="255" />
+<img src="/content/scottdensmore/uploads/2011/04/Project-Setup.png" border="0" alt="Project Setup" width="600" height="255" />
 
 _Setup the General Settings_   
 I left all the defaults on this one.
 
-<img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/General-Settings.png" border="0" alt="General Settings" width="600" height="365" />
+<img src="/content/scottdensmore/uploads/2011/04/General-Settings.png" border="0" alt="General Settings" width="600" height="365" />
 
 _Setup the Version Control Settings   
 _ I left the defaults on most of these
 
-<img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/Version-Control-Settings.png" border="0" alt="Version Control Settings" width="600" height="324" />
+<img src="/content/scottdensmore/uploads/2011/04/Version-Control-Settings.png" border="0" alt="Version Control Settings" width="600" height="324" />
 
 _Setup a VCS Root_   
 I set this to use git and check out anonymously using the default polling policy.
 
-<img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/VCS-Root.png" border="0" alt="VCS Root" width="600" height="492" />
+<img src="/content/scottdensmore/uploads/2011/04/VCS-Root.png" border="0" alt="VCS Root" width="600" height="492" />
 
 _Setup a Build Step_   
 This build step is probably the most important part. Building the project is quite easy. You setup the build to build from the command line using xcodebuild. (You can see usage for xcodebuild using xcodebuild -usage.) I have setup this project to just build all targets for this project. Also, I setup the reporting for my tests as JUnit and where it can find the xml file (more on this later).
 
-<img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/Build-Step.png" border="0" alt="Build Step" width="600" height="392" />
+<img src="/content/scottdensmore/uploads/2011/04/Build-Step.png" border="0" alt="Build Step" width="600" height="392" />
 
 _Setup a Build Trigger_   
 We want the build to trigger every time a checkin occurs so we set that up.
 
- <img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/Build-Trigger.png" border="0" alt="Build Trigger" width="527" height="532" />**The Logger**
+ <img src="/content/scottdensmore/uploads/2011/04/Build-Trigger.png" border="0" alt="Build Trigger" width="527" height="532" />**The Logger**
 
 OCUnit works using the NSNotificationCenter. By creating a new object to listen for the events, we can create an xml document that mimics JUnit output.
 
@@ -103,13 +103,13 @@ The output goes to a file called ocunit.xml. You can change this in the OCUnitTo
 
 It is pretty easy to use. Drag the Logger folder into your project for your unit testing bundle and build. You will also need to add the libxml2.2.7.3 (or the latest) library to your link phase and then add /usr/include/libxml2 to the header search path.
 
- <img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/libxml2.png" border="0" alt="Libxml2" width="399" height="111" /><img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/libxml2-Headers.png" border="0" alt="Libxml2 Headers" width="577" height="120" />
+ <img src="/content/scottdensmore/uploads/2011/04/libxml2.png" border="0" alt="Libxml2" width="399" height="111" /><img src="/content/scottdensmore/uploads/2011/04/libxml2-Headers.png" border="0" alt="Libxml2 Headers" width="577" height="120" />
 
 **The Bowling Project**
 
 **<span style="font-weight: normal">The bowling project is a Coca Framework project created with Unit Tests. It is pretty standard stuff. The only thing I did was add the logger to the project and this is what I get from TeamCity:</span>**
 
-<img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/Tests.png" border="0" alt="Tests" width="600" height="261" />
+<img src="/content/scottdensmore/uploads/2011/04/Tests.png" border="0" alt="Tests" width="600" height="261" />
 
 **Conclusion**
 

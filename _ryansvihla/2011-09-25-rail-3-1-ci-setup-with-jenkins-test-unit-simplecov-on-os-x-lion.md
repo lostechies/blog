@@ -34,13 +34,13 @@ sudo launchctl load -w /Library/LaunchDaemons/org.jenkins-ci.plist</pre>
 
 You&#8217;re plist file should end up like this.
 
-<img title="file_to_edit.png" src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/09/file_to_edit.png" border="0" alt="File to edit" width="600" height="355" />
+<img title="file_to_edit.png" src="/content/ryansvihla/uploads/2011/09/file_to_edit.png" border="0" alt="File to edit" width="600" height="355" />
 
 ## RVM issues
 
 Now my next issue was despite what I&#8217;d read elsewhere I was unable to get Jenkins to use the default ruby provided by RVM. So I just pasted the commands that I would run anyway in the &#8220;Execute Shell&#8221; build step.
 
-<img title="rvm_workaround.png" src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/09/rvm_workaround.png" border="0" alt="Rvm workaround" width="600" height="161" />
+<img title="rvm_workaround.png" src="/content/ryansvihla/uploads/2011/09/rvm_workaround.png" border="0" alt="Rvm workaround" width="600" height="161" />
 
 ## Getting Jenkins to see tests
 
@@ -55,7 +55,7 @@ end</pre>
 
 Running &#8220;rake ci:setup:testunit test&#8221; should give you a bunch of xml files in tests/reports. Now we need to tell Jenkins where to find those reports so add a post build action to pick them up as junit reports.
 
-<img title="post_build_actions.png" src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/09/post_build_actions.png" border="0" alt="Post build actions" width="600" height="82" />
+<img title="post_build_actions.png" src="/content/ryansvihla/uploads/2011/09/post_build_actions.png" border="0" alt="Post build actions" width="600" height="82" />
 
 ## Rcov reports
 

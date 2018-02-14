@@ -52,7 +52,7 @@ Because video files are so enormous they are almost always compressed.  The com
 </p>
 
 <p dir="ltr">
-  <a href="http://clayvessel.org/clayvessel/wp-content/uploads/2013/11/codecscontainers.png"><img class="alignnone size-full wp-image-53" title="Video Codecs Containers" src="http://clayvessel.org/clayvessel/wp-content/uploads/2013/11/codecscontainers.png" alt="" width="400" height="440" /></a>
+  <a href="/content/bradcarleton/uploads/2013/11/codecscontainers.png"><img class="alignnone size-full wp-image-53" title="Video Codecs Containers" src="/content/bradcarleton/uploads/2013/11/codecscontainers.png" alt="" width="400" height="440" /></a>
 </p>
 
 <p dir="ltr">
@@ -69,7 +69,7 @@ Also earlier this year, Amazon released <a title="AWS Elastic Transcoder" href="
 
 The Elastic Transcoder retrieves and processes videos to and from Amazon S3.  The architecture looks like this:
 
-[<img class="alignnone size-full wp-image-54" title="AWS S3 Elastic Transcoder" src="http://clayvessel.org/clayvessel/wp-content/uploads/2013/11/aws-arch.png" alt="" width="580" height="327" />](http://clayvessel.org/clayvessel/wp-content/uploads/2013/11/aws-arch.png)
+[<img class="alignnone size-full wp-image-54" title="AWS S3 Elastic Transcoder" src="/content/bradcarleton/uploads/2013/11/aws-arch.png" alt="" width="580" height="327" />](/content/bradcarleton/uploads/2013/11/aws-arch.png)
 
 Node.js is a great platform to build a standalone video processing server that manages resources between S3 and Elastic Transcoder.  Node&#8217;s streaming capabilities and non-blocking nature make it a perfect fit for chunking video files to S3 and managing video transcoding.
 

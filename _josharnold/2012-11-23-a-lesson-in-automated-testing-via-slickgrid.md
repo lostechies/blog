@@ -33,7 +33,7 @@ In our last project, my team spent a significant portion of our development effo
 
 My point is that if your team requires infrastructure for testing that does not exist, don’t be afraid to invest the time to create it. Believe it or not, there are areas of automated testing that have not yet been explored.
 
-> ** Of course, the benefit to YOU is that this infrastructure is available to you via our Serenity project <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/wlEmoticon-winkingsmile.png" alt="Winking smile" />
+> ** Of course, the benefit to YOU is that this infrastructure is available to you via our Serenity project <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="/content/josharnold/uploads/2012/11/wlEmoticon-winkingsmile.png" alt="Winking smile" />
 
 ### The principle in action
 

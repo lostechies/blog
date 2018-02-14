@@ -36,7 +36,7 @@ Also, WordPress has made some very bizarre design decisions around absolute URLs
 
 The only thing that can fix bad technology is good technology, so I came up with a solution that involved using Amazon S3 and Node.js/Phantom.js to build a rock solid, high performance frontend for super cheap.
 
-[<img class="alignnone size-full wp-image-105" title="wordpress" src="http://clayvessel.org/clayvessel/wp-content/uploads/2014/01/wordpress.png" alt="wordpress" width="598" height="442" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2014/01/wordpress.png 598w, http://clayvessel.org/clayvessel/wp-content/uploads/2014/01/wordpress-300x222.png 300w" sizes="(max-width: 598px) 100vw, 598px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2014/01/wordpress.png)
+[<img class="alignnone size-full wp-image-105" title="wordpress" src="/content/bradcarleton/uploads/2014/01/wordpress.png" alt="wordpress" width="598" height="442" srcset="/content/bradcarleton/uploads/2014/01/wordpress.png 598w, /content/bradcarleton/uploads/2014/01/wordpress-300x222.png 300w" sizes="(max-width: 598px) 100vw, 598px" />](/content/bradcarleton/uploads/2014/01/wordpress.png)
 
 By using Phantom.js and Node.js, I was able to crawl the entire site, and pull every single resource from wordpress and the pipe it over to S3 for Static Web Hosting.
 
@@ -55,7 +55,7 @@ So now, my production environment on Amazon S3 has these wonderful qualities:
 
 If you go to the <a title="TechPines" href="http://techpines.com" target="_blank">new site</a>, and open up a javascript console, you should see this:
 
-[<img class="alignnone size-full wp-image-110" title="techpines-console-with-marks" src="http://clayvessel.org/clayvessel/wp-content/uploads/2014/01/techpines-console-with-marks.png" alt="" width="598" height="337" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2014/01/techpines-console-with-marks.png 598w, http://clayvessel.org/clayvessel/wp-content/uploads/2014/01/techpines-console-with-marks-300x169.png 300w" sizes="(max-width: 598px) 100vw, 598px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2014/01/techpines-console-with-marks.png)
+[<img class="alignnone size-full wp-image-110" title="techpines-console-with-marks" src="/content/bradcarleton/uploads/2014/01/techpines-console-with-marks.png" alt="" width="598" height="337" srcset="/content/bradcarleton/uploads/2014/01/techpines-console-with-marks.png 598w, /content/bradcarleton/uploads/2014/01/techpines-console-with-marks-300x169.png 300w" sizes="(max-width: 598px) 100vw, 598px" />](/content/bradcarleton/uploads/2014/01/techpines-console-with-marks.png)
 
 Notice, it&#8217;s all the familiar URLs from wordpress, **/wp-content** and **/wp-content/themes**, but all coming from Amazon&#8217;s rock solid S3 service.
 

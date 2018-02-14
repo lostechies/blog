@@ -35,7 +35,7 @@ When building a FubuMVC application, you may be familiar with the baseline diagn
 
 Now let&#8217;s go ahead and install the FubuMVC.Diagnostics package. If we go to the same route, we&#8217;ll see something that looks more like this:
 
-[<img class="alignnone size-full wp-image-115" title="adv-diag-dashboard" src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/09/adv-diag-dashboard.png" alt="" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2011/09/adv-diag-dashboard.png 787w, http://clayvessel.org/clayvessel/wp-content/uploads/2011/09/adv-diag-dashboard-300x171.png 300w, http://clayvessel.org/clayvessel/wp-content/uploads/2011/09/adv-diag-dashboard-768x437.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2011/09/adv-diag-dashboard.png)
+[<img class="alignnone size-full wp-image-115" title="adv-diag-dashboard" src="/content/josharnold/uploads/2011/09/adv-diag-dashboard.png" alt="" srcset="/content/josharnold/uploads/2011/09/adv-diag-dashboard.png 787w, /content/josharnold/uploads/2011/09/adv-diag-dashboard-300x171.png 300w, /content/josharnold/uploads/2011/09/adv-diag-dashboard-768x437.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" />](/content/josharnold/uploads/2011/09/adv-diag-dashboard.png)
 
 The advanced diagnostics package adds more functionality, more styles, and a little more class to the baseline diagnostics. It replaces the existing functionality and can be used with any FubuMVC application.
 

@@ -31,11 +31,11 @@ I have strong feelings about this, but I haven&#8217;t yet fully figured out why
   <figure class='gallery-item'> 
   
   <div class='gallery-icon landscape'>
-    <a href='http://clayvessel.org/clayvessel/wp-content/uploads/2012/07/museum.jpg'><img width="150" height="150" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/07/museum-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2012/07/museum-150x150.jpg 150w, http://clayvessel.org/clayvessel/wp-content/uploads/2012/07/museum-100x100.jpg 100w" sizes="100vw" /></a>
+    <a href='/content/chrismissal/uploads/2012/07/museum.jpg'><img width="150" height="150" src="/content/chrismissal/uploads/2012/07/museum-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/content/chrismissal/uploads/2012/07/museum-150x150.jpg 150w, /content/chrismissal/uploads/2012/07/museum-100x100.jpg 100w" sizes="100vw" /></a>
   </div></figure><figure class='gallery-item'> 
   
   <div class='gallery-icon landscape'>
-    <a href='http://clayvessel.org/clayvessel/wp-content/uploads/2012/07/hoarders.jpg'><img width="150" height="150" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/07/hoarders-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2012/07/hoarders-150x150.jpg 150w, http://clayvessel.org/clayvessel/wp-content/uploads/2012/07/hoarders-100x100.jpg 100w" sizes="100vw" /></a>
+    <a href='/content/chrismissal/uploads/2012/07/hoarders.jpg'><img width="150" height="150" src="/content/chrismissal/uploads/2012/07/hoarders-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/content/chrismissal/uploads/2012/07/hoarders-150x150.jpg 150w, /content/chrismissal/uploads/2012/07/hoarders-100x100.jpg 100w" sizes="100vw" /></a>
   </div></figure>
 </div>
 

@@ -25,4 +25,4 @@ tags:
   </div>
 </div>
 
-[<img class="alignnone size-full wp-image-127" title="git-bad-time" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/04/git-bad-time.jpg" alt="" width="480" height="360" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/04/git-bad-time.jpg)
+[<img class="alignnone size-full wp-image-127" title="git-bad-time" src="/content/chrismissal/uploads/2012/04/git-bad-time.jpg" alt="" width="480" height="360" />](/content/chrismissal/uploads/2012/04/git-bad-time.jpg)

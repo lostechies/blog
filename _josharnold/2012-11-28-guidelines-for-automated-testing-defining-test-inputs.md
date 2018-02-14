@@ -191,7 +191,7 @@ A well-defined acceptance test should look like this (it should look familiar):
 
 Using StoryTeller for my examples, here’s what a test looks like (a condensed snippet from my current project):
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border: 0px;" title="storyteller-test" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/storyteller-test_thumb.png" alt="storyteller-test" width="585" height="449" border="0" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/storyteller-test.png)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border: 0px;" title="storyteller-test" src="/content/josharnold/uploads/2012/11/storyteller-test_thumb.png" alt="storyteller-test" width="585" height="449" border="0" />](/content/josharnold/uploads/2012/11/storyteller-test.png)
 
 ### Wrapping it up
 

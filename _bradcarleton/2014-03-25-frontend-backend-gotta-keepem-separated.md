@@ -29,7 +29,7 @@ In most cases, your typical frontend and backend developer are very different. Â
 
 Or to put it another way. Â Your frontend developer is probably an uber-hipster who would keel over and die without his mac and latte, while your backend developer is probably more like one of Richard Stallman&#8217;s original neckbeard disciples.
 
-[<img class="alignnone size-full wp-image-204" title="frontend-backend-developers" src="http://clayvessel.org/clayvessel/wp-content/uploads/2014/03/frontend-backend-developers2.png" alt="" width="598" height="266" />](http://clayvessel.org/clayvessel/wp-content/uploads/2014/03/frontend-backend-developers2.png)
+[<img class="alignnone size-full wp-image-204" title="frontend-backend-developers" src="/content/bradcarleton/uploads/2014/03/frontend-backend-developers2.png" alt="" width="598" height="266" />](/content/bradcarleton/uploads/2014/03/frontend-backend-developers2.png)
 
 ## A better architecture
 

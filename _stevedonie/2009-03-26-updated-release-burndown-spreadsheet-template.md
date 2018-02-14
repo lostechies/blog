@@ -16,7 +16,7 @@ redirect_from: "/blogs/stevedonie/archive/2009/03/26/updated-release-burndown-sp
 ---
 I mentioned this release burndown template in one of my earlier posts, but I have updated it quite a bit since then, so I am re-posting the link, along with some instructions.
 
-[Release Backlog Template](http://clayvessel.org/clayvessel/wp-content/uploads/2011/05/Release-Backlog-Template.zip)
+[Release Backlog Template](/content/stevedonie/uploads/2011/05/Release-Backlog-Template.zip)
 
 Here are the instructions &#8211; which are also in the spreadsheet itself.
 

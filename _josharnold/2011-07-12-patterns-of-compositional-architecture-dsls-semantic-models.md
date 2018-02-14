@@ -48,7 +48,7 @@ Let’s create a way of modeling these:
 
 Let&#8217;s take a second here to discuss the StringifierDef. We’re using this class to specify one of two things that are mutually exclusive: either a type is specified or the value is. Sure, we could create a better data structure for this but let’s keep it simple for this example.
 
-> Why would you want to want to specify the type instead of just supply the value? Leave the answer in the comments <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/07/wlEmoticon-winkingsmile.png" alt="Winking smile" />
+> Why would you want to want to specify the type instead of just supply the value? Leave the answer in the comments <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="/content/josharnold/uploads/2011/07/wlEmoticon-winkingsmile.png" alt="Winking smile" />
 
 The runtime class that we’re most concerned with in this example is the Stringifier – the consumer of all IStringifier implementations. The configuration of these implementations is not the concern of the Stringifier as it explicitly states by defining them as a dependency.
 

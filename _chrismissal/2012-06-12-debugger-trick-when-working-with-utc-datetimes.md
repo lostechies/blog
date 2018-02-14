@@ -21,6 +21,6 @@ If I have a DateTime property that is set to UTC, I&#8217;m not great at doing t
 
 {% gist 2915408 %}
 
-[<img class="alignnone size-full wp-image-184" title="Screen shot of modified debug text" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/local-time-debugger.png" alt="" width="474" height="99" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/local-time-debugger.png 474w, http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/local-time-debugger-300x63.png 300w" sizes="(max-width: 474px) 100vw, 474px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/local-time-debugger.png)
+[<img class="alignnone size-full wp-image-184" title="Screen shot of modified debug text" src="/content/chrismissal/uploads/2012/06/local-time-debugger.png" alt="" width="474" height="99" srcset="/content/chrismissal/uploads/2012/06/local-time-debugger.png 474w, /content/chrismissal/uploads/2012/06/local-time-debugger-300x63.png 300w" sizes="(max-width: 474px) 100vw, 474px" />](/content/chrismissal/uploads/2012/06/local-time-debugger.png)
 
 Oh how I enjoy how helpful System.Diagnostics can be.

@@ -17,7 +17,7 @@ The messy one, at any rate.
 
 Looking at a team&#8217;s git repository, I see the following evidence of somebody having a bad day:
   
-[<img src="http://clayvessel.org/clayvessel/wp-content/uploads/2015/02/bad-commits.png" alt="Git log with three fix-bad-merge commits in a row" title="flailing git commits" class="alignnone size-full wp-image-390" width="300" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2015/02/bad-commits.png 517w, http://clayvessel.org/clayvessel/wp-content/uploads/2015/02/bad-commits-300x74.png 300w" sizes="(max-width: 517px) 100vw, 517px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2015/02/bad-commits.png)
+[<img src="/content/sharoncichelli/uploads/2015/02/bad-commits.png" alt="Git log with three fix-bad-merge commits in a row" title="flailing git commits" class="alignnone size-full wp-image-390" width="300" srcset="/content/sharoncichelli/uploads/2015/02/bad-commits.png 517w, /content/sharoncichelli/uploads/2015/02/bad-commits-300x74.png 300w" sizes="(max-width: 517px) 100vw, 517px" />](/content/sharoncichelli/uploads/2015/02/bad-commits.png)
 
 Those are three commits, in rapid succession, from the same developer, trying to mash files into a compiling state. But why can _I_ see those commits? They should have been squashed or amended to neaten them up before being pushed to the remote repo for me to pull.
 
@@ -25,7 +25,7 @@ This presented an opportunity for coaching, but it&#8217;s also a good reminder:
 
 This beastie. Don&#8217;t check it.
   
-[<img src="http://clayvessel.org/clayvessel/wp-content/uploads/2015/02/naughty-setting.png" alt="SourceTree commit dialog offers a checkbox to push automatically; uncheck it." title="turn off automatic push" class="alignnone size-full wp-image-391" width="500" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2015/02/naughty-setting.png 995w, http://clayvessel.org/clayvessel/wp-content/uploads/2015/02/naughty-setting-300x97.png 300w, http://clayvessel.org/clayvessel/wp-content/uploads/2015/02/naughty-setting-768x249.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2015/02/naughty-setting.png)
+[<img src="/content/sharoncichelli/uploads/2015/02/naughty-setting.png" alt="SourceTree commit dialog offers a checkbox to push automatically; uncheck it." title="turn off automatic push" class="alignnone size-full wp-image-391" width="500" />](/content/sharoncichelli/uploads/2015/02/naughty-setting.png)
 
 Instead, when you need to fix a mistake, use one of the following options before pushing to the remote repo.
 

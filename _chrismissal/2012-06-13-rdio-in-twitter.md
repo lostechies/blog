@@ -19,7 +19,7 @@ Maybe it&#8217;s old news, but I can&#8217;t find anything. I recently posted a 
 
 ## Rdio in Twitter
 
-[<img class="alignnone size-full wp-image-242" title="Rdio in Twitter" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/rdio-in-twitter1.png" alt="" width="526" height="380" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/rdio-in-twitter1.png 526w, http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/rdio-in-twitter1-300x217.png 300w" sizes="(max-width: 526px) 100vw, 526px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/06/rdio-in-twitter1.png)
+[<img class="alignnone size-full wp-image-242" title="Rdio in Twitter" src="/content/chrismissal/uploads/2012/06/rdio-in-twitter1.png" alt="" width="526" height="380" srcset="/content/chrismissal/uploads/2012/06/rdio-in-twitter1.png 526w, /content/chrismissal/uploads/2012/06/rdio-in-twitter1-300x217.png 300w" sizes="(max-width: 526px) 100vw, 526px" />](/content/chrismissal/uploads/2012/06/rdio-in-twitter1.png)
 
 I&#8217;m a user and fan of Rdio, so I think this is cool.
 

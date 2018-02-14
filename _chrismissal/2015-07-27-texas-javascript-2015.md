@@ -16,7 +16,7 @@ tags:
   - javascript
   - txjs
 ---
-[<img src="http://clayvessel.org/clayvessel/wp-content/uploads/2015/07/txjs-sign.jpg" alt="via @jaffathecake" title="Texas JavaScript 2015" width="599" height="318" class="alignleft size-full wp-image-486" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2015/07/txjs-sign.jpg 599w, http://clayvessel.org/clayvessel/wp-content/uploads/2015/07/txjs-sign-300x159.jpg 300w" sizes="(max-width: 599px) 100vw, 599px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2015/07/txjs-sign.jpg)Last week I was lucky enough to have a great JavaScript conference in my backyard. Another edition of [Texas JavaScript (TXJS)](https://2015.texasjavascript.com) was held in downtown Austin on Friday, July 24th.
+[<img src="/content/chrismissal/uploads/2015/07/txjs-sign.jpg" alt="via @jaffathecake" title="Texas JavaScript 2015" width="599" height="318" class="alignleft size-full wp-image-486" srcset="/content/chrismissal/uploads/2015/07/txjs-sign.jpg 599w, /content/chrismissal/uploads/2015/07/txjs-sign-300x159.jpg 300w" sizes="(max-width: 599px) 100vw, 599px" />](/content/chrismissal/uploads/2015/07/txjs-sign.jpg)Last week I was lucky enough to have a great JavaScript conference in my backyard. Another edition of [Texas JavaScript (TXJS)](https://2015.texasjavascript.com) was held in downtown Austin on Friday, July 24th.
 
 I wanted to share some thoughts and notes from the talks.
 

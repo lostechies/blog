@@ -47,7 +47,7 @@ If you’re unfamiliar with StoryTeller, then this will serve as a crash course.
 
 Turn your attention to line 35. This method allows us to create a test in StoryTeller like this:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border-width: 0px;" title="system-state" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/system-state_thumb.png" alt="system-state" width="244" height="103" border="0" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/system-state.png)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border-width: 0px;" title="system-state" src="/content/josharnold/uploads/2012/11/system-state_thumb.png" alt="system-state" width="244" height="103" border="0" />](/content/josharnold/uploads/2012/11/system-state.png)
 
 ### Example 1: Verify that the Subscription Plans are displayed
 
@@ -59,7 +59,7 @@ One of the examples from my last post presented a test with the following steps:
 
 Using our SystemStateFixture, let’s go ahead and define the state:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border-width: 0px;" title="system-state-def" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/system-state-def_thumb.png" alt="system-state-def" width="244" height="204" border="0" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/system-state-def.png)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border-width: 0px;" title="system-state-def" src="/content/josharnold/uploads/2012/11/system-state-def_thumb.png" alt="system-state-def" width="244" height="204" border="0" />](/content/josharnold/uploads/2012/11/system-state-def.png)
 
 **RegistrationFixture**
 
@@ -73,7 +73,7 @@ We’re reusing the html conventions from our FubuMVC application by retrieving 
 
 Using our VerifySubscriptionPlans grammar, we can then define the following step:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border-width: 0px;" title="verify-plans" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/verify-plans_thumb.png" alt="verify-plans" width="244" height="213" border="0" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/verify-plans.png)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border-width: 0px;" title="verify-plans" src="/content/josharnold/uploads/2012/11/verify-plans_thumb.png" alt="verify-plans" width="244" height="213" border="0" />](/content/josharnold/uploads/2012/11/verify-plans.png)
 
 ### Example 2: After registering for an account, a confirmation email should be received
 
@@ -91,11 +91,11 @@ We start the server and the configure an instance of EmailSettings inside of our
 
 Let’s define our system state:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border: 0px;" title="stub-email" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/stub-email_thumb.png" alt="stub-email" width="244" height="187" border="0" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/stub-email.png)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border: 0px;" title="stub-email" src="/content/josharnold/uploads/2012/11/stub-email_thumb.png" alt="stub-email" width="244" height="187" border="0" />](/content/josharnold/uploads/2012/11/stub-email.png)
 
 And now we’ll use our VerifyEmail grammar:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border: 0px;" title="confirm-email" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/confirm-email_thumb.png" alt="confirm-email" width="244" height="129" border="0" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/11/confirm-email.png)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 0px 24px; display: inline; padding-right: 0px; border: 0px;" title="confirm-email" src="/content/josharnold/uploads/2012/11/confirm-email_thumb.png" alt="confirm-email" width="244" height="129" border="0" />](/content/josharnold/uploads/2012/11/confirm-email.png)
 
 ### Wrapping Up
 

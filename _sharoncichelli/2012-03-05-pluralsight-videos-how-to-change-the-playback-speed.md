@@ -14,6 +14,6 @@ Once I discovered the secret of how to adjust the playback speed of [PluralSight
 
 Step 1: **Use Internet Explorer.** (You can see why I wasn&#8217;t going to stumble upon this answer without help.)
 
-[<img src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/03/PluralSightWindowsMediaPlayer.png" alt="Use Windows Media Player" title="PluralSightWindowsMediaPlayer" width="386" height="371" class="alignright size-full wp-image-84" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/03/PluralSightWindowsMediaPlayer.png) Step 2: On a course&#8217;s Table of Contents page, **select &#8220;Use Windows Media Player&#8221;** (instead of the Silverlight player). The bottom-left of the Windows Media Player offers a slider to adjust playback speed. 
+[<img src="/content/sharoncichelli/uploads/2012/03/PluralSightWindowsMediaPlayer.png" alt="Use Windows Media Player" title="PluralSightWindowsMediaPlayer" width="386" height="371" class="alignright size-full wp-image-84" />](/content/sharoncichelli/uploads/2012/03/PluralSightWindowsMediaPlayer.png) Step 2: On a course&#8217;s Table of Contents page, **select &#8220;Use Windows Media Player&#8221;** (instead of the Silverlight player). The bottom-left of the Windows Media Player offers a slider to adjust playback speed. 
 
 Listening to an hour of content in 38 minutes makes me feel like a Time Lord. Learning&#8230; faster! Enjoy.

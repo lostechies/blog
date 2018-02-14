@@ -53,7 +53,7 @@ I&#8217;m still curious to see a visualization of the data. I decide to spend a 
 > <a href="http://www.highcharts.com/" target="_blank">Highcharts JS</a> &#8211; amazing javascript library for generating slick client-side charts. A ton of options (including the very helpful <a href="http://www.highcharts.com/demo/spline-irregular-time" target="_blank">datetime x-axis</a>), well-documented, and free for non-commercial use. I didn&#8217;t have a &#8220;go-to&#8221; option for client-side charting, so I had to do a quick survey of what was available. This is the first one I tried, and it left me with absolutely no reason to look at others.
 
 After a couple hours (mostly to learn Highcharts), I have my chart and a potential answer (leave before 7:45, or after 9):  
-[<img style="background-image: none; border-right-width: 0px; margin: 0px 0px 24px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="traveltime_chart" border="0" alt="traveltime_chart" src="http://clayvessel.org/clayvessel/wp-content/uploads/2012/01/traveltime_chart_thumb.png" width="571" height="349" />](http://clayvessel.org/clayvessel/wp-content/uploads/2012/01/traveltime_chart.png)
+[<img style="background-image: none; border-right-width: 0px; margin: 0px 0px 24px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="traveltime_chart" border="0" alt="traveltime_chart" src="/content/joshuaflanagan/uploads/2012/01/traveltime_chart_thumb.png" width="571" height="349" />](/content/joshuaflanagan/uploads/2012/01/traveltime_chart.png)
 
 ## Conclusion
 

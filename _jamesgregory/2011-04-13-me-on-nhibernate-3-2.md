@@ -28,7 +28,7 @@ There was no way Fluent NHibernate would be merged in to NHibernate Core, before
 Few people recognise that an API—especially a Fluent Interface—is a user interface and should be designed like anything else the user interacts with. And we all know how good developers are at designing interfaces.
 
 <p style="text-align:center">
-  <a href="http://twitter.com/#!/jagregory/status/58117568505987072" title="Still can't decide about FNH. Got some fun ideas, but seems kinda pointless if they'll just get ripped into NH in the next version."><img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/tweet1.png" /></a>
+  <a href="http://twitter.com/#!/jagregory/status/58117568505987072" title="Still can't decide about FNH. Got some fun ideas, but seems kinda pointless if they'll just get ripped into NH in the next version."><img src="/content/jamesgregory/uploads/2011/04/tweet1.png" /></a>
 </p>
 
 My thoughts now lie in whether there&#8217;s the need for me to continue devoting my time to a project which has been made somewhat redundant. By devoting, I mean contributing my weekends or evenings and everything in between.
@@ -36,7 +36,7 @@ My thoughts now lie in whether there&#8217;s the need for me to continue devotin
 People have approached me and said &#8220;but FNH is so much better!&#8221;—and yes it is—but it used to be 100% better than vanilla NHibernate, while now it&#8217;s only say 25% better. I could justify the time needed to create a framework that would drastically improve peoples development experience, but can I justify the time for one which&#8217;ll marginally improve their experience? That&#8217;s a harder sell to the fiancée.
 
 <p style="text-align:center">
-  <a href="http://twitter.com/#!/jagregory/status/58117849293656065" title="Can always be more agile and ahead of the curve, but I'd rather dedicate the effort to something that is valuable."><img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/tweet2.png" /></a>
+  <a href="http://twitter.com/#!/jagregory/status/58117849293656065" title="Can always be more agile and ahead of the curve, but I'd rather dedicate the effort to something that is valuable."><img src="/content/jamesgregory/uploads/2011/04/tweet2.png" /></a>
 </p>
 
 Fluent NHibernate is smaller and more flexible than NHibernate, it&#8217;s also more opinionated. I can easily keep ahead with innovative ideas and try experimental things out that NHibernate can&#8217;t; however, what&#8217;s to stop NHibernate 3.3 or 3.4 from implementing those ideas? Nothing, of course, and nor should there be.
@@ -63,5 +63,5 @@ And that&#8217;s all I&#8217;m saying on the matter. Too frequent have these clo
 I leave you with this thought:
 
 <p style="text-align:center">
-  <a href="" title="As much as I love OSS, I can't help but think that my time could've been spent doing something to get me closer to my millions. You know?"><img src="http://clayvessel.org/clayvessel/wp-content/uploads/2011/04/tweet3.png" /></a>
+  <a href="" title="As much as I love OSS, I can't help but think that my time could've been spent doing something to get me closer to my millions. You know?"><img src="/content/jamesgregory/uploads/2011/04/tweet3.png" /></a>
 </p>

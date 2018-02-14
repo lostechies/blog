@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Clear Measure Workshops
 ---
-[<img class="alignnone size-full wp-image-37" title="clear-measure-workshops" src="http://clayvessel.org/clayvessel/wp-content/uploads/2015/04/clear-measure-workshops.png" alt="" width="600" height="362" srcset="http://clayvessel.org/clayvessel/wp-content/uploads/2015/04/clear-measure-workshops.png 600w, http://clayvessel.org/clayvessel/wp-content/uploads/2015/04/clear-measure-workshops-300x181.png 300w" sizes="(max-width: 600px) 100vw, 600px" />](http://clayvessel.org/clayvessel/wp-content/uploads/2015/04/clear-measure-workshops.png)
+[<img class="alignnone size-full wp-image-37" title="clear-measure-workshops" src="/content/andrewsiemer/uploads/2015/04/clear-measure-workshops.png" alt="" width="600" height="362" srcset="/content/andrewsiemer/uploads/2015/04/clear-measure-workshops.png 600w, /content/andrewsiemer/uploads/2015/04/clear-measure-workshops-300x181.png 300w" sizes="(max-width: 600px) 100vw, 600px" />](/content/andrewsiemer/uploads/2015/04/clear-measure-workshops.png)
 
 This weekend we had our first [Clear Measure Workshop](http://www.meetup.com/Clear-Measure-Workshops/) on CQRS.  I will save you my retrospective on the event as [Gabriel Schenker](https://lostechies.com/gabrielschenker/2015/04/25/cqrs-workshop-retrospective/) already posted his thoughts on that.  Instead I will point you to our next event by [Justin Self](https://twitter.com/thejustinself) and [Jeffrey Palermo](https://twitter.com/jeffreypalermo) on [Domain Driven Design](http://www.meetup.com/Clear-Measure-Workshops/events/221920364/) which will be held on May 30th (every last Saturday of the month).
 
