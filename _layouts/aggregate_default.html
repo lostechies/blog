@@ -43,17 +43,7 @@
           </div>
 
           <div class="nav-right nav-menu" id='nav-menu'>
-            <a href="{{ site.baseurl }}/{{page.collection}}/archive" class="nav-item">Archive</a>
-            <a href="{{ site.baseurl }}/{{page.collection}}/tags" class="nav-item">Tags</a>
-            {% capture about_url %}{{site.baseurl}}/about{% endcapture %}
-
-            {% for file in site[page.collection] %}
-            {% if file.path contains "/about." %}
-            {% capture about_url %}{{site.baseurl}}/{{page.collection}}/about{% endcapture %}
-            {% endif %}
-            {% endfor %}
-
-            <a href="{{ about_url }}" class="nav-item">About</a>
+            <a href="{{ site.baseurl }}/about" class="nav-item">About</a>
 
             <a href="{{ site.feed }}" class="nav-item"><img src="{{ site.baseurl }}/assets/images/rss.png"/></a>
           </div>
