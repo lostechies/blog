@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #baseurl: "/blog" # the subpath of your site, e.g. /blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lostechies.com" # the base hostname & protocol for your site, e.g. http://example.com
+identifier: "https*://lostechies.com" # regex to identify local site posts
 feed: "http://feeds.feedburner.com/LosTechies"
 twitter_username: lostechies
 github_username:  lostechies

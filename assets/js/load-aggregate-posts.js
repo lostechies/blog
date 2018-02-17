@@ -26,12 +26,19 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
         var titleText = createNode('span');
         var content = createNode('span');
         var metadata = createNode('span');
+        var postIsLocal = true;
 
         var recentFeed = null;
 
         box.classList.add("box");
 
-        if (!post.link.startsWith("{{site.url}}")) {
+        {% if jekyll.environment == "development" %}var isDevelopment = 1;{% endif %}
+        var siteRegEx = new RegExp('{{site.identifier}}');
+        if (!post.link.match(siteRegEx)) {
+         postIsLocal = false;
+        }
+
+        if (!postIsLocal) {
           external.style.color = "blue";
           external.style.position = "relative";
           external.style.float = "right";
@@ -52,13 +59,13 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
             var re = new RegExp(col.postIdentifier, 'g');
             return col.postIdentifier && post.link.match(re);
           } else {
-            var re = new RegExp('^{{site.url}}/' + col.label + ".*", 'g');
-            return post.link.match(re);
+            var regex = new RegExp('{{site.identifier}}/' + col.label);
+            return post.link.match(regex);
           }
         });
 
         titleHeading.classList.add("post-title");
-        if (post.link.startsWith("{{site.url}}")) {
+        if (postIsLocal) {
           titleLink.href = post.link;
         } else {
 
