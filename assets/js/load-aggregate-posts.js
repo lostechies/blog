@@ -27,6 +27,7 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
         var content = createNode('span');
         var metadata = createNode('span');
         var postIsLocal = true;
+        var postUrl = post.link;
 
         var recentFeed = null;
 
@@ -73,7 +74,7 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
             recentFeed = collection.feed;
           }
 
-          var postUrl = "{{site.baseurl}}/external?guid=" + post.guid + "&feed=" + feed;
+          postUrl = "{{site.baseurl}}/external?guid=" + post.guid + "&feed=" + feed;
 
           if (recentFeed) {
             postUrl = postUrl + "&recentFeed=" + recentFeed;
