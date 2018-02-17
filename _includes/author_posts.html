@@ -6,15 +6,16 @@
   {% endif %}
   {% endfor %}
 
+    {% assign col = site.collections | where: 'label', page.collection | first %}
     {% assign posts = author_posts | sort: 'date' | reverse %}
     {% for post in posts limit: 10  %}
     <div class="box">
       <h1 class="post-title">
         <a style="color:#4a4a4a;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h1>
-      <span class="post-meta">{{ post.date | date: "%-d %B, %Y. It was a %A." }} <a style="color:grey" href="{{ site.baseurl }}{{ post.url }}"></a></span><hr/>
+      <span class="post-meta">{{col.author}} - {{ post.date | date: "%-d %B, %Y. It was a %A." }} <a style="color:grey" href="{{ site.baseurl }}{{ post.url }}"></a></span><hr/>
 
-      <span class="post-text">{{ post.content }}</span>
+      <span class="post-text">{{ post.content | markdownify }}</span>
     </div>
 
     {% endfor %}
