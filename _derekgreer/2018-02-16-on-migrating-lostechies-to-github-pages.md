@@ -1,6 +1,6 @@
 ---
 title: 'On Migrating Los Techies to Github Pages'
-date: 2018-02-16T08:00:00+00:00
+date: 2018-02-16T20:00:00+00:00
 author: Derek Greer
 layout: post
 tags: [jekyll,migration]
