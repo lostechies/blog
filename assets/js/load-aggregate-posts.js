@@ -48,8 +48,13 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
         }
 
         collection = collections.find(function (col) {
-          var re = new RegExp(col.postIdentifier, 'g');
-          return col.postIdentifier && post.link.match(re);
+          if(col.postIdentifier) {
+            var re = new RegExp(col.postIdentifier, 'g');
+            return col.postIdentifier && post.link.match(re);
+          } else {
+            var re = new RegExp('^{{site.url}}/' + col.label + ".*", 'g');
+            return post.link.match(re);
+          }
         });
 
         titleHeading.classList.add("post-title");
