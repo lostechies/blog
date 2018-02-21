@@ -22,7 +22,7 @@ Our initial conversations in the second project were somewhat colored by our fir
 
 In the new version of the app, the entire focus of the system revolves around “cases”. I know, crazy that an app built for the day-to-day functions of a prosecution agency focuses centrally on a case:
 
-[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/jimmybogard/files/2016/06/image_thumb1.png" width="640" height="296" />](https://lostechies.com/jimmybogard/files/2016/06/image1.png)
+[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2016/06/image_thumb1.png" width="640" height="296" />](https://lostechies.com/content/jimmybogard/uploads/2016/06/image1.png)
 
 Once we settled on the core domain, the possibilities then greatly opened up for modeling around that concept. Because the first app only tangentially dealt with cases (there wasn’t even a “Case” in the original model), it was more or less an impedance mismatch for its users in the prosecution agency. It was a bit humbling to hear the feedback from the prosecutors about the first project.
 
@@ -36,7 +36,7 @@ This makes a lot of sense – the state has legal reporting requirements and the
 
 In the first system, roles were baked in to the system, causing a lot of confusion for counties where one person wore many different hats. In the new system, permissions were hard-coded against tasks, but not roles:
 
-[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/jimmybogard/files/2016/06/image_thumb2.png" width="640" height="289" />](https://lostechies.com/jimmybogard/files/2016/06/image2.png)
+[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2016/06/image_thumb2.png" width="640" height="289" />](https://lostechies.com/content/jimmybogard/uploads/2016/06/image2.png)
 
 The Permission here is an enum, and we tied permissions to tasks like “Approve Case” and “Add Evidence” and “Submit Disposition” etc. Those were directly tied to actions in our application, and you couldn’t add new permissions without modifying the code.
 
@@ -54,7 +54,7 @@ This meant we couldn’t do things like implement a workflow internal to a case 
 
 In this case, we needed to build consensus for a model that didn’t really exist in each county in isolation. If we focused on a single county, we could have baked the rules about how a case is managed into their individual system. But since we were building a system across counties, we needed to build a model that satisfied all agencies:
 
-[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/jimmybogard/files/2016/06/image_thumb3.png" width="640" height="373" />](https://lostechies.com/jimmybogard/files/2016/06/image3.png)
+[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2016/06/image_thumb3.png" width="640" height="373" />](https://lostechies.com/content/jimmybogard/uploads/2016/06/image3.png)
 
 In this model, we explicitly built a configurable workflow, with states and transitions and security roles around who could perform those transitions. While no individual county had this model, it was the meta-model we found while looking across all counties.
 
@@ -66,11 +66,11 @@ In the new app, I performed an experiment. I would only add tools, patterns, and
 
 The funny thing is, I never did. We left out those patterns, and we never found a need to put them back in. Instead, we drove our usage around CQRS and the mediator pattern (something I’ve used for years but finally extracted our internal usage into [MediatR](https://github.com/jbogard/MediatR). Instead, our controllers were pretty uniform in their appearance:
 
-[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/jimmybogard/files/2016/06/image_thumb4.png" width="640" height="475" />](https://lostechies.com/jimmybogard/files/2016/06/image4.png)
+[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2016/06/image_thumb4.png" width="640" height="475" />](https://lostechies.com/content/jimmybogard/uploads/2016/06/image4.png)
 
 And the handlers themselves (as I’ve blogged about many times) were tightly focused on a single action, with no need to abstract anything:
 
-[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/jimmybogard/files/2016/06/image_thumb5.png" width="574" height="480" />](https://lostechies.com/jimmybogard/files/2016/06/image5.png)
+[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2016/06/image_thumb5.png" width="574" height="480" />](https://lostechies.com/content/jimmybogard/uploads/2016/06/image5.png)
 
 I’ve extended this to other areas of development too, like front-end development. It’s actually kinda crazy how far you can get without jQuery these days, if you just use lodash and the DOM.
 
@@ -84,7 +84,7 @@ This was also the section of the book skipped the most, around anti-corruption l
 
 We’ve quite a bit of experience in this area it turns out, so it was really just a matter of deciding for each 3rd party what kind of integration would work best.
 
-[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/jimmybogard/files/2016/06/image_thumb6.png" width="640" height="294" />](https://lostechies.com/jimmybogard/files/2016/06/image6.png)
+[<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2016/06/image_thumb6.png" width="640" height="294" />](https://lostechies.com/content/jimmybogard/uploaads/2016/06/image6.png)
 
 For some 3rd parties, we could create an entirely separate app with no integration. Some needed a special app that performed the translation and anti-corruption layer, and some needed an entirely separately deployed app that communicated to our system via hypermedia-rich REST APIs.
 

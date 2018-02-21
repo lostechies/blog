@@ -27,7 +27,7 @@ In production environments, I deal with a single unit of work per request, wheth
 
 The kicker is that I often need to deal with ORMs, and barring that, some sort of unit of work mechanism even if it&#8217;s a PetaPoco DB object. When I set up state, I want nothing shared between that setup part and the Execute step of my test:
 
-[<img class="alignnone  wp-image-1091" title="Picture1" src="https://lostechies.com/jimmybogard/files/2015/04/Picture1.png" alt="" width="384" height="191" />](https://lostechies.com/jimmybogard/files/2015/04/Picture1.png)
+[<img class="alignnone  wp-image-1091" title="Picture1" src="https://lostechies.com/content/jimmybogard/uploads/2015/04/Picture1.png" alt="" width="384" height="191" />](https://lostechies.com/content/jimmybogard/uploads/2015/04/Picture1.png)
 
 Each of these steps is isolated from the other. With my apps, the Execute step is easy to put inside an isolated unit of work since I&#8217;m using [MediatR](https://github.com/jbogard/mediatr), so I&#8217;ll just need to worry about Setup and Verify.
 

@@ -67,7 +67,7 @@ Basically, the code duplicated either accesses a DbContext or other ORM thing, o
 
 I’m not a fan of this approach – it gets quite confusing. Instead, I want MediatR to serve as the outermost window into the actual domain-specific behavior in my application:
 
-[<img class="alignnone size-full wp-image-1255" src="https://lostechies.com/jimmybogard/files/2016/12/image.png" alt="" width="324" height="237" />](https://lostechies.com/jimmybogard/files/2016/12/image.png)
+[<img class="alignnone size-full wp-image-1255" src="https://lostechies.com/content/jimmybogard/uploads/2016/12/image.png" alt="" width="324" height="237" />](https://lostechies.com/content/jimmybogard/uploads/2016/12/image.png)
 
 Excluding sub-handlers or delegating handlers, where should my logic go? Several options are now available to me:
 

@@ -26,7 +26,7 @@ So where does this leave us when building APIs?
 
 In APIs that serve the client according to their needs, the resource often includes details from many different data sources, combined together to build a representation to the end user. A REST API builds all this together:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/jimmybogard/files/2016/05/image_thumb.png" width="642" height="251" />](https://lostechies.com/jimmybogard/files/2016/05/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2016/05/image_thumb.png" width="642" height="251" />](https://lostechies.com/content/jimmybogard/uploads/2016/05/image.png)
 
 In hypermedia APIs I build, the resource state combines multiple entities together from one or more data sources into the state of the resource. This plus links, forms a queries makes a “resource”, though it’s still a bit more abstract than that. Finally I build out the representation, perhaps JSON API, HAL, Siren etc.
 

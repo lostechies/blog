@@ -22,7 +22,7 @@ We put all the personas on giant post-it notes on the wall. There was a problem.
 
 So we color coded them and divided them up based on lines of communication, reporting, agency, whatever made sense
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/jimmybogard/files/2016/06/image_thumb.png" width="640" height="277" />](https://lostechies.com/jimmybogard/files/2016/06/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2016/06/image_thumb.png" width="640" height="277" />](https://lostechies.com/content/jimmybogard/uploads/2016/06/image.png)
 
 Well, it turned out that those colors (just faked above) were perfect borders for bounded contexts. Also, it turns out that 72 personas for a single application is way, way too many.
 

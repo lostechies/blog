@@ -79,7 +79,7 @@ The link clicks are the most interesting part here. I didn&#8217;t want my link 
 
 With all these components, I&#8217;ve got a working example:
 
-[<img class="alignnone  wp-image-1137" title="react" src="https://lostechies.com/jimmybogard/files/2015/07/react.gif" alt="" width="622" height="517" />](https://lostechies.com/jimmybogard/files/2015/07/react.gif)
+[<img class="alignnone  wp-image-1137" title="react" src="https://lostechies.com/content/jimmybogard/uploads/2015/07/react.gif" alt="" width="622" height="517" />](https://lostechies.com/content/jimmybogard/uploads/2015/07/react.gif)
 
 I found working with hypermedia and React to be a far nicer experience than just raw jQuery. I could reason about individual components at the same level as the hypermedia controls, matching what I was building much more effectively to the resource representation returned. I still have to have some sort of knowledge of how I&#8217;m going to navigate the links and what to do, but that logic is all encapsulated in my topmost component.
 

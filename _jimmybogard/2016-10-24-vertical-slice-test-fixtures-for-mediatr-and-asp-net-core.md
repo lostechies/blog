@@ -18,7 +18,7 @@ One of the nicest side effects of using MediatR is that my controllers become qu
 
 Unit testing this controller is a tad pointless – I’d only do it if the controller actions were doing something interesting. With [MediatR](https://github.com/jbogard/mediatr) combined with CQRS, my application is modeled as a series of requests and responses, where my requests either represent a command or a query. In an actual HTTP request, I wrap my request in a transaction using an action filter, so the request looks something like:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/jimmybogard/files/2016/10/image_thumb.png" width="379" height="364" />](https://lostechies.com/jimmybogard/files/2016/10/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2016/10/image_thumb.png" width="379" height="364" />](https://lostechies.com/content/jimmybogard/uploads/2016/10/image.png)
 
 The bulk of the work happens in my handler, of course. Now, in my projects, we have a fairly strict rule that all handlers need a test. But what kind of test should it be? At the very least, we want a test that executes our handlers as they would be used in a normal application. Since my handlers don’t have any real knowledge of the UI, they’re simple DTO-in, DTO-out handlers, I don’t need to worry about UI dependencies like controllers, filters and whatnot.
 
@@ -26,7 +26,7 @@ I do, however, want to build a test that goes just under the UI layer to execute
 
 I need to make sure that my test properly matches “real world” usage of my system, which means that I’ll execute a series of transactions, one for the setup/execute/verify steps of my test:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/jimmybogard/files/2016/10/image_thumb1.png" width="409" height="205" />](https://lostechies.com/jimmybogard/files/2016/10/image1.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2016/10/image_thumb1.png" width="409" height="205" />](https://lostechies.com/content/jimmybogard/uploads/2016/10/image1.png)
 
 The final piece is allowing my test to easily run these kinds of tests over and over again. To do so, I’ll combine a few tools at my disposal to ensure my tests run in a repeatable and predictable fashion.
 
