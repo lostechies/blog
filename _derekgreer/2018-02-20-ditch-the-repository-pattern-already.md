@@ -135,8 +135,8 @@ Unit of Work implementations</a>.
 I don't want to make more of the semantic coupling argument
 against repositories than it's worth, but observing little places where
 <a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">my abstractions were leaking</a>,
-combined with the pebble in my shoe of developers who I felt
-were far better than me were saying I shouldn't use them lead me to begin
+combined with the pebble in my shoe from developers who I felt
+were far better than me which were saying I shouldn't use them lead me to begin
 rethinking things.
 
 ## More Effective Testing Strategies
