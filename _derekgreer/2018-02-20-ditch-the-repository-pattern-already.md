@@ -111,18 +111,17 @@ types.
 ## The Catalyst
 
 For the longest time, I resisted using Entity Framework.  I had become fairly
-proficient at using NHibernate and I just saw it as plain stupid to use a
-framework that was years behind NHibernate in features and maturity, especially
-when it had such a steep learning curve.  A combination of things happened,
-though.  A lot of the NHibernate supporters (like many within the Alt.Net
-crowd) moved on to other platforms like Ruby and Node; anything with
-Microsoft's name on it eventually seems to gain market share whether it's
-better or not; and Entity Framework eventually did seem to mostly catch up with
-NHibernate in features, and surpassed it in some areas. So, eventually I found
-it impossible to avoid using Entity Framework which led to me trying to apply
+proficient at using NHibernate, the early versions of Entity Framework were years behind in features and
+maturity, it didn't support Domain-driven Design well, and there was a fairly steep learning curve
+with little payoff.  A combination of things happened, however, that began to make it harder to ignore.
+First, a lot of the NHibernate supporters (like many within the Alt.Net
+crowd) moved on to other platforms like Ruby and Node.  Second, despite it lacking many features,
+.Net developers began flocking to the framework in droves due to it's backing and promotion by Microsoft.
+So, eventually I found it impossible to avoid which led to me trying to apply
 the same patterns I'd used before with this newer-to-me framework.
 
-To be honest, everything mostly worked, especially for the really simple stuff. 
+To be honest, once I adapted my repository implementation to Entity Framework
+everything mostly just worked, especially for the really simple stuff.
 Eventually, though, I began to see little ways I had to modify my abstraction
 to accommodate differences in how Entity Framework did things from how
 NHibernate did things.  What I discovered was that, while my repositories
@@ -132,7 +131,7 @@ framework.  I wish I had kept some sort of record every time I ran into
 something, as the only real thing I can recall now were motivations with
 certain design approaches to expose the SaveChanges method for
 <a href="https://lostechies.com/derekgreer/2015/11/01/survey-of-entity-framework-unit-of-work-patterns/">
-Unit of Work implementations</a>
+Unit of Work implementations</a>.
 I don't want to make more of the semantic coupling argument
 against repositories than it's worth, but observing little places where
 <a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">my abstractions were leaking</a>,
