@@ -17,6 +17,7 @@ function loadPost(id) {
   var postDiv = document.getElementById(id);
   var url = "http://feed.informer.com/digests/ZWDBOR7GBI/feeder.rss";
   var feed = getParameterByName('feed');
+  var authorName;
 
   if (feed) {
     url = feed;
@@ -71,7 +72,9 @@ function loadPost(id) {
     append(titleHeading, titleLink);
     append(box, titleHeading);
 
-    metadata.innerHTML = "<span class=\"post-meta\">" + (post.author || collection.name) + " -  " + new Date(post.pubDate.replace(/-/g, "/")).toLocaleString() + " <a style=\"color:grey\" href=" + post.link + "></a></span><hr/>";
+    authorName = collection && collection.name || post.author;
+
+    metadata.innerHTML = "<span class=\"post-meta\">" + authorName + " -  " + new Date(post.pubDate.replace(/-/g, "/")).toLocaleString() + " <a style=\"color:grey\" href=" + post.link + "></a></span><hr/>";
     append(box, metadata);
 
     summary.classList.add("post-text");

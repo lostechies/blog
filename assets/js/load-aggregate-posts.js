@@ -5,6 +5,7 @@ layout: null
 
 function loadAggregatePosts(elementId, feed, loadFullText, collection) {
   var hostElement = document.getElementById(elementId);
+  var authorName;
 
   if (hostElement) {
 
@@ -89,7 +90,9 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
         append(titleHeading, titleLink);
         append(box, titleHeading);
 
-        metadata.innerHTML = "<span class=\"post-meta\">" + (post.author || collection.name) + " -  " + new Date(post.pubDate.replace(/-/g, "/")).toLocaleString() + " <a style=\"color:grey\" href=" + post.link + "></a></span><hr/>";
+        authorName = collection && collection.name || post.author;
+
+        metadata.innerHTML = "<span class=\"post-meta\">" + authorName + " -  " + new Date(post.pubDate.replace(/-/g, "/")).toLocaleString() + " <a style=\"color:grey\" href=" + post.link + "></a></span><hr/>";
         append(box, metadata);
 
         if (loadFullText) {
