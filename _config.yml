@@ -143,6 +143,13 @@ collections:
       active: true
     post-identifier: "(jimmybogard.com)|(GrabBagOfT)"
     feed: "http://feeds.feedburner.com/GrabBagOfT"
+  derikwhittaker:
+    active: true
+    author: "Derik Whittaker"
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+    post-identifier: "derikwhittaker.blog"
+    feed: "https://derikwhittaker.blog/feed/"
   joeocampo:
     active: false
     author: "Joe Ocampo"
