@@ -32,8 +32,8 @@ Once I have my handler written and my test passes, then the real fun begins, the
 
 At this point, I start with just my handler and the code smells it exhibits. [Code smells](https://martinfowler.com/bliki/CodeSmell.html) as a reminder are indication that the code COULD exhibit a problem and MIGHT need refactoring, but is worth a decision to refactor (or not). Typically, I won’t hit duplication code smells at this point, it’ll be just standard code smells like:
 
-  * Large Class
-  * Long Method
+ * Large Class
+ * Long Method
 
 Those are pretty straightforward refactorings, you can use:
 
