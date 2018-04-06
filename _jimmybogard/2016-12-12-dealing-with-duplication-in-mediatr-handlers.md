@@ -13,10 +13,10 @@ categories:
 ---
 We’ve been using MediatR (or some manifestation of it) for a number of years now, and one issue that comes up frequently is “how do I deal with duplication”. In a traditional DDD n-tier architecture, you had:
 
-  * Controller
-  * Service
-  * Repository
-  * Domain
+* Controller
+* Service
+* Repository
+* Domain
 
 It was rather easy to share logic in a service class for business logic, or a repository for data logic (queries, etc.) When it comes to building apps using CQRS and MediatR, we remove these layer types (Service and Repository) in favor of request/response pairs that line up 1-to-1 with distinct external requests. It’s a variation of the [Ports and Adapters](http://alistair.cockburn.us/Hexagonal+architecture) pattern from Hexagonal Architecture.
 
