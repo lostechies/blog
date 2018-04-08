@@ -1,0 +1,10 @@
+./.git/
+./tmp/
+./log/
+./.gitignore
+./Dockerfile*
+./docker-compose*yml
+./.circle/
+./build
+./coverage-html
+./docs/_site
