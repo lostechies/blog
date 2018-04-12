@@ -1,2 +1,5 @@
 .jekyll-metadata
 _site
+.ruby-version
+.ruby-gemset
+.sass-cache/*
