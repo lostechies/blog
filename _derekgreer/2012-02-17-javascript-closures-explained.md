@@ -64,12 +64,14 @@ When a JavaScript function is executed, a construct referred to as an _Execution
 
 There are three primary components prescribed for the Execution Context:
 
+
   * The LexicalEnvironment
     
   * The VariableEnvironment
         
   * The ThisBinding 
-        
+
+
 Only the LexicalEnvironment and VariableEnvironment components are relevant to the topic of closures, so I’ll exclude discussion of the ThisBinding.&nbsp; (For information about how the ThisBinding is used, see sections 10.4.1.1, 10.4.2, and 10.4.3 of the [ECMAScript Lanauage Specification](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf).)
         
 ### LexicalEnvironment
