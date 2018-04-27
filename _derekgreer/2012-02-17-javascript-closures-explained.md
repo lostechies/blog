@@ -64,55 +64,55 @@ When a JavaScript function is executed, a construct referred to as an _Execution
 
 There are three primary components prescribed for the Execution Context:
 
-  1. The LexicalEnvironment
+  * The LexicalEnvironment
     
-      * The VariableEnvironment
+  * The VariableEnvironment
         
-          * The ThisBinding</ol> </ol> 
+  * The ThisBinding 
         
-        Only the LexicalEnvironment and VariableEnvironment components are relevant to the topic of closures, so I’ll exclude discussion of the ThisBinding.&nbsp; (For information about how the ThisBinding is used, see sections 10.4.1.1, 10.4.2, and 10.4.3 of the [ECMAScript Lanauage Specification](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf).)
+Only the LexicalEnvironment and VariableEnvironment components are relevant to the topic of closures, so I’ll exclude discussion of the ThisBinding.&nbsp; (For information about how the ThisBinding is used, see sections 10.4.1.1, 10.4.2, and 10.4.3 of the [ECMAScript Lanauage Specification](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf).)
         
-        ### LexicalEnvironment
+### LexicalEnvironment
         
-        The _LexicalEnvironment_ is used to resolve identifier references made by code associated with the execution context.&nbsp; Conceptually, we can think of the LexicalEnvironment as an object containing the variables and formal parameters declared within the code associated by the current Execution Context.
+The _LexicalEnvironment_ is used to resolve identifier references made by code associated with the execution context.&nbsp; Conceptually, we can think of the LexicalEnvironment as an object containing the variables and formal parameters declared within the code associated by the current Execution Context.
         
-        A LexicalEnvironement itself is comprised of two components: An _Environment Record_, which is used to store identifier bindings for the Execution Context, and an _outer_ reference which points to a LexicalEnvironment of the declaring Execution Context (which is null in the case of the Global Execution Context’s LexicalEnvironment outer reference).&nbsp; This forms a chain of LexicalEnvironments, each maintaining a reference to the outer scope’s environment:
+A LexicalEnvironement itself is comprised of two components: An _Environment Record_, which is used to store identifier bindings for the Execution Context, and an _outer_ reference which points to a LexicalEnvironment of the declaring Execution Context (which is null in the case of the Global Execution Context’s LexicalEnvironment outer reference).&nbsp; This forms a chain of LexicalEnvironments, each maintaining a reference to the outer scope’s environment:
         
-        &nbsp;
+&nbsp;
         
-        <p align="center">
-          <a href="http://lostechies.com/content/derekgreer/uploads/2012/02/LexicalEnvironmentChain.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="LexicalEnvironmentChain" border="0" alt="LexicalEnvironmentChain" src="http://lostechies.com/content/derekgreer/uploads/2012/02/LexicalEnvironmentChain_thumb.png" width="322" height="483" /></a>
-        </p>
+<p align="center">
+<a href="http://lostechies.com/content/derekgreer/uploads/2012/02/LexicalEnvironmentChain.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="LexicalEnvironmentChain" border="0" alt="LexicalEnvironmentChain" src="http://lostechies.com/content/derekgreer/uploads/2012/02/LexicalEnvironmentChain_thumb.png" width="322" height="483" /></a>
+</p>
         
-        &nbsp;
+&nbsp;
         
-        ### VariableEnvironment
+### VariableEnvironment
         
-        The _VariableEnvironment_ is used to record the bindings created by&nbsp; variables and function declarations within an execution context.&nbsp; Upon reading that description, you may be thinking: “_but I thought the LexicalEnvironment held the bindings for the current execution context_”.&nbsp; Technically, the VariableEnvironment contains the bindings of the variables and function declarations defined within an Execution Context and the LexicalEnvironment is used to resolve the bindings within the Execution Context.&nbsp; Confused?&nbsp; The answer to this seemingly incongruous approach is that, in most cases, the LexicalEnvironment and VariableEnvironment are references to the same entity.
+The _VariableEnvironment_ is used to record the bindings created by&nbsp; variables and function declarations within an execution context.&nbsp; Upon reading that description, you may be thinking: “_but I thought the LexicalEnvironment held the bindings for the current execution context_”.&nbsp; Technically, the VariableEnvironment contains the bindings of the variables and function declarations defined within an Execution Context and the LexicalEnvironment is used to resolve the bindings within the Execution Context.&nbsp; Confused?&nbsp; The answer to this seemingly incongruous approach is that, in most cases, the LexicalEnvironment and VariableEnvironment are references to the same entity.
         
-        The LexicalEnvironment and VariableEnvironment components are actually references to a LexicalEnvironment type.&nbsp; When the JavaScript interpreter enters the code for a function, a new LexicalEnvironment instance is created and is assigned to both the LexicalEnvironment and VariableEnvironment references.&nbsp; The variables and function declarations are then recorded to the VariableEnvironment reference.&nbsp; When the LexicalEnvironment is used to resolve an identifier, any bindings created through the VariableEnvironment reference are available for resolution.
+The LexicalEnvironment and VariableEnvironment components are actually references to a LexicalEnvironment type.&nbsp; When the JavaScript interpreter enters the code for a function, a new LexicalEnvironment instance is created and is assigned to both the LexicalEnvironment and VariableEnvironment references.&nbsp; The variables and function declarations are then recorded to the VariableEnvironment reference.&nbsp; When the LexicalEnvironment is used to resolve an identifier, any bindings created through the VariableEnvironment reference are available for resolution.
         
-        ### Identifier Resolution
+### Identifier Resolution
         
-        As previously discussed, LexicalEnvironments have an outer reference which, except for the Global Execution Context’s LexicalEnvironment, points to a LexicalEnvironment record of the declaring Execution Context (i.e. a function block’s “parent” scope).&nbsp; Functions contain an internal scope property (denoted as [[Scope]] by the ECMAScript specification) which is assigned a LexicalEnvironment from the declaring context.&nbsp; In the case of function expressions (e.g. var doStuff = function() { …}), the [[Scope]] property is assigned to the declaring context’s LexicalEnvironment.&nbsp; In the case of function declarations (e.g. function doStuff() { … }), the [[Scope]] property is assigned to the declaring context’s VariableEnvironment.&nbsp; We’ll discuss the reasons for this disparity shortly, but for now let’s just focus on the fact that the function has a [[Scope]] which points to the environment in which is was created.&nbsp; This is our pairing of a function with its referencing environment, which is to say, this is our closure.&nbsp; 
+As previously discussed, LexicalEnvironments have an outer reference which, except for the Global Execution Context’s LexicalEnvironment, points to a LexicalEnvironment record of the declaring Execution Context (i.e. a function block’s “parent” scope).&nbsp; Functions contain an internal scope property (denoted as [[Scope]] by the ECMAScript specification) which is assigned a LexicalEnvironment from the declaring context.&nbsp; In the case of function expressions (e.g. var doStuff = function() { …}), the [[Scope]] property is assigned to the declaring context’s LexicalEnvironment.&nbsp; In the case of function declarations (e.g. function doStuff() { … }), the [[Scope]] property is assigned to the declaring context’s VariableEnvironment.&nbsp; We’ll discuss the reasons for this disparity shortly, but for now let’s just focus on the fact that the function has a [[Scope]] which points to the environment in which is was created.&nbsp; This is our pairing of a function with its referencing environment, which is to say, this is our closure.&nbsp; 
         
-        If we recall our previous conceptualization of a function paired with its environment, the JavaScript version of this conceptualization would look a little like this:
+If we recall our previous conceptualization of a function paired with its environment, the JavaScript version of this conceptualization would look a little like this:
         
-        &nbsp;
+&nbsp;
         
-        <p align="center">
-          <a href="http://lostechies.com/content/derekgreer/uploads/2012/02/closure3.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="closure3" border="0" alt="closure3" src="http://lostechies.com/content/derekgreer/uploads/2012/02/closure3_thumb.png" width="546" height="377" /></a>
-        </p>
+<p align="center">
+<a href="http://lostechies.com/content/derekgreer/uploads/2012/02/closure3.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="closure3" border="0" alt="closure3" src="http://lostechies.com/content/derekgreer/uploads/2012/02/closure3_thumb.png" width="546" height="377" /></a>
+</p>
         
-        When resolving an identifier, the current LexicalEnvironment is passed to an abstract operation named _GetIdentiferReference_ which checks the current LexicalEnvironment’s Environment Record for the requested identifier and if not found calls itself recursively with the LexicalEnvironment’s outer reference.&nbsp; Each link of the chain is checked until the top of the chain is reached (the LexicalEnvironment of the Global Context) in which case the binding is resolved or a reference of undefined is returned.
+When resolving an identifier, the current LexicalEnvironment is passed to an abstract operation named _GetIdentiferReference_ which checks the current LexicalEnvironment’s Environment Record for the requested identifier and if not found calls itself recursively with the LexicalEnvironment’s outer reference.&nbsp; Each link of the chain is checked until the top of the chain is reached (the LexicalEnvironment of the Global Context) in which case the binding is resolved or a reference of undefined is returned.
         
-        ### A Distinction Without a Difference … Usually
+### A Distinction Without a Difference … Usually
         
-        As mentioned, the LexicalEnvironment and the VariableEnvironement references point to the same LexicalEnvironment instance in most cases.&nbsp; The reason for maintaining these as separate references is to support the _with_ statement.
+As mentioned, the LexicalEnvironment and the VariableEnvironement references point to the same LexicalEnvironment instance in most cases.&nbsp; The reason for maintaining these as separate references is to support the _with_ statement.
         
-        The _with_ statement facilitates block scope by using a supplied object as the Environment Record for a newly created LexicalEnvironment.&nbsp; Consider the following example:
+The _with_ statement facilitates block scope by using a supplied object as the Environment Record for a newly created LexicalEnvironment.&nbsp; Consider the following example:
         
-        <pre class="prettyprint">var x = {
+<pre class="prettyprint">var x = {
     a: 1
 };
 
@@ -126,12 +126,12 @@ var doSomething = function() {
 doSomething(); // 1
 </pre>
         
-        &nbsp;
+&nbsp;
         
-        In this code, while the doSomething function assigns the variable a the value of 2, the console.log function logs the value of 1 instead of 2.&nbsp; What is happening here is that, for the enclosing block of code, the with statement is inserting a new LexicalEnvironment at the front of the chain with an Environment Record set to the object x.&nbsp; When the code within the with statement executes, the first LexicalEnvironment to be checked will be the one created by the with statement whose Environment Record contains a binding of x with the value of 1.&nbsp; Once the with statement exits, the LexicalEnvironment of the current Execution Context is restored to its previous state.
+In this code, while the doSomething function assigns the variable a the value of 2, the console.log function logs the value of 1 instead of 2.&nbsp; What is happening here is that, for the enclosing block of code, the with statement is inserting a new LexicalEnvironment at the front of the chain with an Environment Record set to the object x.&nbsp; When the code within the with statement executes, the first LexicalEnvironment to be checked will be the one created by the with statement whose Environment Record contains a binding of x with the value of 1.&nbsp; Once the with statement exits, the LexicalEnvironment of the current Execution Context is restored to its previous state.
         
-        According to the ECMAScript specification, function expressions may be declared within a with statement, but not function declarations (though most implementations allow it with varied behavior).&nbsp; Since function expressions may be declared, their declaration should form a closure based upon the declaring environment’s LexicalEnvironment because it is the LexicalEnvironement which might be changed by a with statement.&nbsp; This is the reason why Execution Contexts are prescribed&nbsp; two different LexicalEnvironment references and why function declarations and function expressions differ in which reference their [[Scope]] property is assigned upon function creation.
+According to the ECMAScript specification, function expressions may be declared within a with statement, but not function declarations (though most implementations allow it with varied behavior).&nbsp; Since function expressions may be declared, their declaration should form a closure based upon the declaring environment’s LexicalEnvironment because it is the LexicalEnvironement which might be changed by a with statement.&nbsp; This is the reason why Execution Contexts are prescribed&nbsp; two different LexicalEnvironment references and why function declarations and function expressions differ in which reference their [[Scope]] property is assigned upon function creation.
         
-        ## Conclusion
+## Conclusion
         
-        This concludes our exploration of closures in JavaScript.&nbsp; While understanding the ECMAScript Language Specification in detail certainly isn’t necessary to have a working knowledge of closures, I find taking a peek under the covers now and again helps to broaden one’s understanding about a language and its concepts.
+This concludes our exploration of closures in JavaScript.&nbsp; While understanding the ECMAScript Language Specification in detail certainly isn’t necessary to have a working knowledge of closures, I find taking a peek under the covers now and again helps to broaden one’s understanding about a language and its concepts.
