@@ -1,6 +1,6 @@
 ---
 title: 'Lessons from a year of Golang'
-date: 2018-05–07T13:16:00+00:00
+date: 2018-05-07T13:16:00+00:00
 author: Ryan Svihla
 layout: post
 categories:
