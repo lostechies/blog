@@ -86,11 +86,12 @@ Avoid C dependencies at all costs.
 
 Go error handling is not exception base but return based, and it’s got a lot of common idioms around it:
 
-`myValue, err := doThing()
-`  	if err != nil {
+```
+	myValue, err := doThing()
+	if err != nil {
 		return -1, fmt.Errorf(“unable to doThing %v”, err)
   	}
-`
+```
 
 Needless to say this can get very wordy when dealing with deeply nested exceptions or when you’re interacting a lot with external systems.  It is definitely a mind shift if you’re used to the throwing exceptions wherever and have one single place to catch all exceptions where they’re handled appropriately.
 
