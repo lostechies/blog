@@ -11,7 +11,7 @@ categories:
   - DependencyInjection
 redirect_from: "/blogs/jimmy_bogard/archive/2010/09/21/moving-containers-beyond-testability.aspx/"
 ---
-In Derick Bailey’s [two](http://www.lostechies.com/blogs/derickbailey/archive/2010/09/10/design-and-testability.aspx) [recent](http://www.lostechies.com/blogs/derickbailey/archive/2010/09/14/a-few-thoughts-on-ioc-an-idea-for-a-different-type-of-container-and-a-lot-of-questions.aspx) posts on containers, I found a lot of déjà vu in his sentiments.&#160; In fact, it’s quite similar to the issues that I was running into a while back, trying to [move beyond top-down design](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/05/19/beyond-top-down-design.aspx).
+In Derick Bailey’s [two](https://lostechies.com/blogs/derickbailey/archive/2010/09/10/design-and-testability.aspx) [recent](https://lostechies.com/blogs/derickbailey/archive/2010/09/14/a-few-thoughts-on-ioc-an-idea-for-a-different-type-of-container-and-a-lot-of-questions.aspx) posts on containers, I found a lot of déjà vu in his sentiments.&#160; In fact, it’s quite similar to the issues that I was running into a while back, trying to [move beyond top-down design](https://lostechies.com/blogs/jimmy_bogard/archive/2009/05/19/beyond-top-down-design.aspx).
 
 I had become a little disenchanted with my container usage.&#160; I created top-level classes, abstracted dependencies in the form of interfaces, and then filled in implementations.&#160; It works well for test-driven development, as an interface in C# is still the easiest way to provide the shape of what’s needed, before it’s actually implemented.&#160; Classes with virtual members work, but it’s more kludgy and introduces extra steps in the process.
 

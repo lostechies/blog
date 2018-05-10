@@ -16,7 +16,7 @@ tags:
 ---
 I’ve been getting quite a few questions about jQuery.continuations after my last round of posts and the lightning round I gave at ADNUG last month. I have this horrible habit of pretending that I’m a lot more articulate than I really am. Obviously my last few posts didn’t do this library any justice.
 
-I think [Jimmy](http://lostechies.com/jimmybogard/) put it the best when he said: “Yeah, I read your posts but there just wasn’t a whole lot of code”. So this time I’m going to write a post that’s mostly code and see if it helps.
+I think [Jimmy](https://lostechies.com/jimmybogard/) put it the best when he said: “Yeah, I read your posts but there just wasn’t a whole lot of code”. So this time I’m going to write a post that’s mostly code and see if it helps.
 
 ## Show me something concrete
 

@@ -12,7 +12,7 @@ categories:
   - DependencyInjection
 redirect_from: "/blogs/jimmy_bogard/archive/2010/05/03/dependency-injection-in-asp-net-mvc-filters.aspx/"
 ---
-So far, we’ve looked at extending the advantages of dependency injection to our [controllers](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/04/26/dependency-injection-in-asp-net-mvc-controllers.aspx) and [its various services](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/04/28/dependency-injection-in-asp-net-mvc-contextual-controller-injection.aspx).&#160; We started with a basic controller factory that merely instantiates controllers to one that takes advantage of the modern container feature of nested/child containers to provide contextual, scoped injection of services.&#160; With a child container, we can do things like scope a unit of work to a request, without needing to resort to an IHttpModule (and funky service location issues).
+So far, we’ve looked at extending the advantages of dependency injection to our [controllers](https://lostechies.com/blogs/jimmy_bogard/archive/2010/04/26/dependency-injection-in-asp-net-mvc-controllers.aspx) and [its various services](https://lostechies.com/blogs/jimmy_bogard/archive/2010/04/28/dependency-injection-in-asp-net-mvc-contextual-controller-injection.aspx).&#160; We started with a basic controller factory that merely instantiates controllers to one that takes advantage of the modern container feature of nested/child containers to provide contextual, scoped injection of services.&#160; With a child container, we can do things like scope a unit of work to a request, without needing to resort to an IHttpModule (and funky service location issues).
 
 Having the nested container in place gives us a nice entry point for additional services that the base controller class builds up, including filters.&#160; Right after controllers, filters are one of the earliest extension points of ASP.NET MVC that we run into where we want to start injecting dependencies.
 
@@ -29,7 +29,7 @@ However, we quickly run into a bit of a problem.&#160; Out of the box, filters i
 
 [](http://11011.net/software/vspaste)
 
-We’ll quickly find that our code using the attribute won’t compile.&#160; You then begin to see some rather heinous use of [poor man’s dependency injection](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/07/03/how-not-to-do-dependency-injection-in-nerddinner.aspx) to fill the dependencies.&#160; But we can do better, we can keep our dependencies inverted, without resorting to various flavors of service location or, even worse, poor man’s DI.
+We’ll quickly find that our code using the attribute won’t compile.&#160; You then begin to see some rather heinous use of [poor man’s dependency injection](https://lostechies.com/blogs/jimmy_bogard/archive/2009/07/03/how-not-to-do-dependency-injection-in-nerddinner.aspx) to fill the dependencies.&#160; But we can do better, we can keep our dependencies inverted, without resorting to various flavors of service location or, even worse, poor man’s DI.
 
 ### Building Up Filters
 

@@ -14,7 +14,7 @@ categories:
   - JavaScript
   - Refactoring
 ---
-In the last few weeks, I&#8217;ve rebuilt and refactored a large amount of JavaScript code in both my [Backbone.ModelBinding](http://github.com/derickbailey/backbone.modelbinding) and [Backbone.Memento](http://github.com/derickbailey/backbone.memento) plugins. In the process, I re-learned several object oriented design principles and how they apply to JavaScript. I also brushed up on some of my JavaScript patterns and learned a little about writing good, functional unit tests. While I can&#8217;t write about everything that I did and why in one blog post, I wanted to at least share the highlights.
+In the last few weeks, I&#8217;ve rebuilt and refactored a large amount of JavaScript code in both my [Backbone.ModelBinding](https://github.com/derickbailey/backbone.modelbinding) and [Backbone.Memento](https://github.com/derickbailey/backbone.memento) plugins. In the process, I re-learned several object oriented design principles and how they apply to JavaScript. I also brushed up on some of my JavaScript patterns and learned a little about writing good, functional unit tests. While I can&#8217;t write about everything that I did and why in one blog post, I wanted to at least share the highlights.
 
 ## A Big Ball Of Mud
 

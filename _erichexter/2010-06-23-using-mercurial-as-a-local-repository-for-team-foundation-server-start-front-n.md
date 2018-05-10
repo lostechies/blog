@@ -60,15 +60,15 @@ Rinse and Repeat.
 
 Show sample of pull.ps1
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_0CDD3F24.png" width="644" height="228" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_5FC85255.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_0CDD3F24.png" width="644" height="228" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_5FC85255.png) 
 
 Show sample of push.ps1
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_55477E35.png" width="1028" height="233" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_729CD5FF.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_55477E35.png" width="1028" height="233" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_729CD5FF.png) 
 
 This shows the results of running a pull command.&#160; By using the Rebase command needless merge commits just go away. You see the +1 heads text below, that suggests a merge is needed, and it normally is.&#160; By scripting the rebase command I essentially eliminate the need for the merge, except for when a true merge conflict exists.
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_3EC4B9E1.png" width="644" height="186" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_60909272.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_3EC4B9E1.png" width="644" height="186" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_60909272.png) 
 
 &#160;
 

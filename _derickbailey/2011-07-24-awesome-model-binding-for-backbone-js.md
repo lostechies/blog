@@ -30,11 +30,11 @@ Head over to the link to check out the detail on how to get started, what prereq
 
 ## An Example
 
-In [one of my previous posts](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/), I talked about a form that uses backbone to manage the add/edit process for patient medications. Since I already had this code in my head and there was a fair amount of backbone view code to manage all of the model binding between the form elements and model, I decided that this would be the first place I use my new plugin &#8211; this is what drove out the initial requirements and implementation.
+In [one of my previous posts](https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/), I talked about a form that uses backbone to manage the add/edit process for patient medications. Since I already had this code in my head and there was a fair amount of backbone view code to manage all of the model binding between the form elements and model, I decided that this would be the first place I use my new plugin &#8211; this is what drove out the initial requirements and implementation.
 
 Here is the screen shot from the previous post, showing a list of medications with an add/edit form above that.
 
-<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/07/NewImage.png" border="0" alt="NewImage" width="600" height="498" />
+<img title="NewImage.png" src="https://lostechies.com/content/derickbailey/uploads/2011/07/NewImage.png" border="0" alt="NewImage" width="600" height="498" />
 
 There are 7 input fields and one select box on this form. To code to bind these fields to my model previously looked like this:
 

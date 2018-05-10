@@ -17,7 +17,7 @@ categories:
 ---
 Today, I was introduced to Backbone.js and I almost immediately fell in love with it. It&#8217;s powerful. It&#8217;s elegant. But most of all, it&#8217;s a set of design and interaction patterns that I have a lot of experience using.
 
-[<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/NewImage.png" border="0" alt="NewImage" width="385" height="126" />](http://documentcloud.github.com/backbone/#)
+[<img title="NewImage.png" src="https://lostechies.com/content/derickbailey/uploads/2011/06/NewImage.png" border="0" alt="NewImage" width="385" height="126" />](http://documentcloud.github.com/backbone/#)
 
  
 
@@ -65,7 +65,7 @@ Here&#8217;s an example of how you can build a model in Backbone and listen to a
 
 The result of running this example is that you&#8217;ll have an alert box:
 
-<img title="Screen shot 2011-06-14 at 10.36.07 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-14-at-10.36.07-PM.png" border="0" alt="Screen shot 2011 06 14 at 10 36 07 PM" width="426" height="160" />
+<img title="Screen shot 2011-06-14 at 10.36.07 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-14-at-10.36.07-PM.png" border="0" alt="Screen shot 2011 06 14 at 10 36 07 PM" width="426" height="160" />
 
 You&#8217;ll notice in the code that there&#8217;s a few obvious JSON documents (easy to see w/ the { } brackets) but that the model we&#8217;ve defined doesn&#8217;t use the standard JSON object notation to get and set attributes. Rather, you have to call the .get and .set methods to get and set attributes. I&#8217;m not 100% sure of why this is, but I&#8217;m assuming it is to facilitate all of the other functionality (like events) that the backbone models support. This takes a bit of getting used to, but I think I can see why it&#8217;s necessary.
 
@@ -91,7 +91,7 @@ Here&#8217;s the super-simple html that you may see for a login form:
 
 This produces an amazing UI, of course:
 
-<img title="Screen shot 2011-06-14 at 10.59.58 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-14-at-10.59.58-PM.png" border="0" alt="Screen shot 2011 06 14 at 10 59 58 PM" width="213" height="81" />
+<img title="Screen shot 2011-06-14 at 10.59.58 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-14-at-10.59.58-PM.png" border="0" alt="Screen shot 2011 06 14 at 10 59 58 PM" width="213" height="81" />
 
 You could turn this simple form into a Backbone view and have that view process the login request with an AJAX/JSON request back to the server. To keep things simple, though, I&#8217;ll just show an alert with the data that you populate into the form fields:
 
@@ -101,7 +101,7 @@ You could turn this simple form into a Backbone view and have that view process 
 
 Run this, enter a username of &#8220;qwer&#8221; and a password of &#8220;asdf&#8221;, then click the Login button and you&#8217;ll see this:
 
-<img title="Screen shot 2011-06-14 at 11.36.12 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-14-at-11.36.12-PM.png" border="0" alt="Screen shot 2011 06 14 at 11 36 12 PM" width="512" height="244" />
+<img title="Screen shot 2011-06-14 at 11.36.12 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-14-at-11.36.12-PM.png" border="0" alt="Screen shot 2011 06 14 at 11 36 12 PM" width="512" height="244" />
 
 I&#8217;am mixing both Backbone and JQuery into this example. I find JQuery a little easier to deal with in some cases, and I also wanted to show that it&#8217;s entirely possible to mix the two together. Many of the examples that you&#8217;ll find online also mix the two together &#8217;cause frankly, JQuery is awesome. It solves a different set of problems than Backbone does, as well, so why not mix them together?
 

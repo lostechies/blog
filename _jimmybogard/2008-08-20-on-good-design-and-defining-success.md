@@ -15,8 +15,8 @@ redirect_from: "/blogs/jimmy_bogard/archive/2008/08/19/on-good-design-and-defini
 This is for the most part a reaction to conversations on design:
 
   * [Testability in .Net](http://theruntime.com/blogs/jacob/archive/2008/08/15/testability-in-.net.aspx)
-  * [Design and Testability](http://www.lostechies.com/blogs/chad_myers/archive/2008/08/16/design-and-testability.aspx)
-  * [Good Design is not Subjective](http://www.lostechies.com/blogs/chad_myers/archive/2008/08/18/good-design-is-not-subjective.aspx)
+  * [Design and Testability](https://lostechies.com/blogs/chad_myers/archive/2008/08/16/design-and-testability.aspx)
+  * [Good Design is not Subjective](https://lostechies.com/blogs/chad_myers/archive/2008/08/18/good-design-is-not-subjective.aspx)
 
 Believe it or not, I largely agree with all of these posts.&nbsp; The conversation originally started around TypeMock (and [IoC before that](http://jeffreypalermo.com/blog/inversion-of-control-is-not-about-testability/)).
 

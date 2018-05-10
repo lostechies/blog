@@ -43,7 +43,7 @@ tags:
   </ul>
 </div>
 
-This is the sixth installment to the series: RabbitMQ for Windows. In the [last installment](http://lostechies.com/derekgreer/2012/04/02/rabbitmq-for-windows-direct-exchanges/), we walked through creating a direct exchange example and introduced the push API. In this installment, we’ll walk through a fanout exchange example.
+This is the sixth installment to the series: RabbitMQ for Windows. In the [last installment](https://lostechies.com/derekgreer/2012/04/02/rabbitmq-for-windows-direct-exchanges/), we walked through creating a direct exchange example and introduced the push API. In this installment, we’ll walk through a fanout exchange example.
 
 As discussed earlier in the series, the fanout exchange type is useful for facilitating the [publish-subscribe](http://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) pattern. When we publish a message to a fanout exchange, the message is delivered indiscriminately to all bound queues. With the Direct, Topic, and Headers exchange types, a criteria is used by a routing algorithm taking the form of a routing key or a collection of message headers depending on the exchange type in question. A routing key or a collection of message headers may also be specified with the fanout exchange which will be delivered as part of the message’s metadata, but they will not be used as a filter in determining which queue receives a published message.
 

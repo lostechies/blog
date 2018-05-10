@@ -18,7 +18,7 @@ There’s been a lot of fun things happening with [Albacore](http://albacorebuil
 
 ### The Discussion Group
 
-First, there was the [Google Groups announcement](http://www.lostechies.com/blogs/derickbailey/archive/2009/11/24/albacore-come-join-the-discussion.aspx) to coordinate the community. It’s taken off fairly well with our first call for help, and an answer from [Steve](http://stevenharman.com/).
+First, there was the [Google Groups announcement](https://lostechies.com/blogs/derickbailey/archive/2009/11/24/albacore-come-join-the-discussion.aspx) to coordinate the community. It’s taken off fairly well with our first call for help, and an answer from [Steve](http://stevenharman.com/).
 
 > #### **[Albacore Dev](http://groups.google.com/group/albacoredev)**
 
@@ -46,6 +46,6 @@ Don’t forget about the new tag line! I’m quite proud of this one… it’s k
 
 And last, but certainly not least for the weekend, is the new Albacore logo that incorporates the tag line. I managed to pull out my rusty old design skills and put together this little gem with the help of [InkScape](http://www.inkscape.org).</p> 
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_177E2E59.png" width="469" height="159" />](http://albacorebuild.net)
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_177E2E59.png" width="469" height="159" />](http://albacorebuild.net)
 
 As you can see, it’s been a busy holiday weekend for the Albacore crew. I’m hoping that this is just the beginning of a good community building effort, and a lot of support and contributions for the project.

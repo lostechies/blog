@@ -22,7 +22,7 @@ of the equivalent functionality, and instead informed me the IDE would be my hel
 Not content with their answers I burrowed into Spring, Guice and PicoContainer docs and found "classpath scanning" which is roughly   
 equivalent to "autowire" in .NET. Below is an example of this in Spring 3:
 
-MyStuff.java (my main class note his has 2 dependencies which you can view on my <a href="http://github.com/rssvihla/SpringDemo/tree/master/src/org/foo" target="_blank">github repo</a>)
+MyStuff.java (my main class note his has 2 dependencies which you can view on my <a href="https://github.com/rssvihla/SpringDemo/tree/master/src/org/foo" target="_blank">github repo</a>)
 
 <div style="padding-bottom: 0px;margin: 0px;padding-left: 0px;padding-right: 0px;float: none;padding-top: 0px" class="wlWriterEditableSmartContent">
   <div style="font-family:consolas,lucida console,courier,monospace">

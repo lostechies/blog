@@ -27,7 +27,7 @@ Those of you who have been doing web development for a long time will really app
 
 And that&#8217;s it.&nbsp; All table rows are now formatted.&nbsp; Here is the output.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="42" alt="image" src="http://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_thumb_1.png" width="462" border="0" />](http://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_4.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="42" alt="image" src="https://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_thumb_1.png" width="462" border="0" />](https://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_4.png) 
 
 What is happening here is the <font face="Courier New">$.ready(function(){})</font> statement is the jQuery replacement for window.onload.&nbsp; It fires as soon as the DOM is ready to be acted upon, whereas the window.onload does not fire until the entire page is loaded &#8212; including images.
 
@@ -65,7 +65,7 @@ While this does the same as the first statement, I can keep working with my orig
 
 Here are the results
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="117" alt="image" src="http://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_thumb_2.png" width="408" border="0" />](http://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_6.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="117" alt="image" src="https://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_thumb_2.png" width="408" border="0" />](https://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_6.png) 
 
 ### A slightly Different Outcome with find() method
 
@@ -80,7 +80,7 @@ When writing these demos the first time, I accidentally used the **<font face="C
 
 I got this result:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="125" alt="image" src="http://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_thumb_6.png" width="397" border="0" />](http://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_14.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="125" alt="image" src="https://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_thumb_6.png" width="397" border="0" />](https://lostechies.com/content/johnteague/uploads/2011/03jQueryDemos_82A0/image_14.png) 
 
 Now my colums are alternating.&nbsp; Just something to keep in the back of your head when you need it 🙂
 

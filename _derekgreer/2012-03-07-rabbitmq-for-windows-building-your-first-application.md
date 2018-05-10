@@ -43,7 +43,7 @@ tags:
   </ul>
 </div>
 
-This is the second installment to the RabbitMQ for Windows series.&nbsp; In our <a href="http://lostechies.com/derekgreer/2012/03/05/rabbitmq-for-windows-introduction/" target="_blank">first installment</a>, we walked through getting RabbitMQ installed on a Microsoft Windows machine. In this installment, we’ll discuss a few high-level concepts and walk through creating our first RabbitMQ application.
+This is the second installment to the RabbitMQ for Windows series.&nbsp; In our <a href="https://lostechies.com/derekgreer/2012/03/05/rabbitmq-for-windows-introduction/" target="_blank">first installment</a>, we walked through getting RabbitMQ installed on a Microsoft Windows machine. In this installment, we’ll discuss a few high-level concepts and walk through creating our first RabbitMQ application.
 
 ## Basic Concepts
 
@@ -57,7 +57,7 @@ The following diagram depicts these concepts:
 
 &nbsp;
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="ProducerQueueConsumer" border="0" alt="ProducerQueueConsumer" src="http://lostechies.com/content/derekgreer/uploads/2012/03/ProducerQueueConsumer_thumb.png" width="419" height="227" />](http://lostechies.com/content/derekgreer/uploads/2012/03/ProducerQueueConsumer.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="ProducerQueueConsumer" border="0" alt="ProducerQueueConsumer" src="https://lostechies.com/content/derekgreer/uploads/2012/03/ProducerQueueConsumer_thumb.png" width="419" height="227" />](https://lostechies.com/content/derekgreer/uploads/2012/03/ProducerQueueConsumer.png)
 
 &nbsp;
 

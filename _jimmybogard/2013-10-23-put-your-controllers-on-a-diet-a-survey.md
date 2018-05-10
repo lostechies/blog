@@ -14,8 +14,8 @@ categories:
 ---
 Previous posts in this series:
 
-  * [Redux](http://lostechies.com/jimmybogard/2013/10/10/put-your-controllers-on-a-diet-redux/)
-  * [Defactoring](http://lostechies.com/jimmybogard/2013/10/22/put-your-controllers-on-a-diet-defactoring/)
+  * [Redux](https://lostechies.com/jimmybogard/2013/10/10/put-your-controllers-on-a-diet-redux/)
+  * [Defactoring](https://lostechies.com/jimmybogard/2013/10/22/put-your-controllers-on-a-diet-defactoring/)
 
 In the last post, I removed all the abstractions and layers from my application in order to provide a better view on what my next steps should be. This is like climbing to the top of a mountain or climbing a tree, you have to move to a higher elevation to increase your purview. I’m not interested in just this one controller, but all my controllers. I want to build a consistent architecture across my system, as every new controller/action shouldn’t require a new decision on how it should be built.
 

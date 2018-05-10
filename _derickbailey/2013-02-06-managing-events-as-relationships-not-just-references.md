@@ -61,7 +61,7 @@ When we use a method reference (that is, a function attached to another object) 
 </pre>
 </div>
 
-In this case, the Subject is only directly handed a reference to the `someHandler` function. This function does not bring along a reference to `anotherObject,` but the someHandler function does not get cleaned up when the &#8220;anotherObject&#8221; goes out of scope. &#8220;myObject&#8221; has a reference to it, so it can&#8217;t be cleaned up. And this, as we know, is one of the most common causes of [zombie objects in JavaScript apps](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/). There are simple ways to solve this, though. We just need to remove the observer reference from the Subject when we&#8217;re done:
+In this case, the Subject is only directly handed a reference to the `someHandler` function. This function does not bring along a reference to `anotherObject,` but the someHandler function does not get cleaned up when the &#8220;anotherObject&#8221; goes out of scope. &#8220;myObject&#8221; has a reference to it, so it can&#8217;t be cleaned up. And this, as we know, is one of the most common causes of [zombie objects in JavaScript apps](https://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/). There are simple ways to solve this, though. We just need to remove the observer reference from the Subject when we&#8217;re done:
 
 <div class="highlight">
   <pre><span class="nx">myObject</span><span class="p">.</span><span class="nx">off</span><span class="p">(</span><span class="s2">"some:event"</span><span class="p">,</span> <span class="nx">anotherObject</span><span class="p">.</span><span class="nx">someHandler</span><span class="p">);</span>
@@ -191,7 +191,7 @@ This little detail alone is worth it&#8217;s 100x its weight in the extra few ch
 
 It&#8217;s tempting for me to say something like &#8220;stop using .on and .off&#8221; at this point, but that would be a bad idea. I think it would be safe to say that within the context of a Backbone.View, but there are other scenarios where this doesn&#8217;t make sense.
 
-In my post about [modeling explicit workflow in JavaScript apps before](http://lostechies.com/derickbailey/2012/05/10/modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps/), I talk about using a higher level object to coordinate the workflow of an application. This is a scenario where it might not make sense to use `.listenTo` and `.stopListening`.
+In my post about [modeling explicit workflow in JavaScript apps before](https://lostechies.com/derickbailey/2012/05/10/modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps/), I talk about using a higher level object to coordinate the workflow of an application. This is a scenario where it might not make sense to use `.listenTo` and `.stopListening`.
 
 <div class="highlight">
   <pre><span class="nx">MyApp</span><span class="p">.</span><span class="nx">someWorkflow</span> <span class="o">=</span> <span class="p">{</span>

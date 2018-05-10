@@ -13,13 +13,13 @@ categories:
   - JavaScript
   - Marionette
 ---
-In my previous post on [Composite JavaScript Apps](http://lostechies.com/derickbailey/2011/11/17/introduction-to-composite-javascript-apps/), I introduced a few of the high level design ideas and implementation details that I have been using in an application that I&#8217;m building. Since then, the requirements for that app have grown significantly and I&#8217;ve made more progress toward a better composite application design.
+In my previous post on [Composite JavaScript Apps](https://lostechies.com/derickbailey/2011/11/17/introduction-to-composite-javascript-apps/), I introduced a few of the high level design ideas and implementation details that I have been using in an application that I&#8217;m building. Since then, the requirements for that app have grown significantly and I&#8217;ve made more progress toward a better composite application design.
 
 ## Content Swapping
 
 My simple item management application started out with nothing more than these three regions on the screen:
 
-<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/12/NewImage.png" border="0" alt="NewImage" width="574" height="536" />
+<img title="NewImage.png" src="https://lostechies.com/content/derickbailey/uploads/2011/12/NewImage.png" border="0" alt="NewImage" width="574" height="536" />
 
 Once this was in place, though, a new requirement came along… a complex search with search results. To implement this, I needed to modify the application&#8217;s interface to swap the grid and add/edit form out and put in a search results screen instead. The idea is that when the user does a search, the main content area will show the search results. The user can then go back to the location management aspect of the app whenever they need to. After a bit of searching, I found a high level pattern that made this easy, and also realized that I had previously implemented the core of this pattern without knowing it.
 
@@ -44,7 +44,7 @@ What I came up with as an initial pass at handling these needs, is the following
 
 {% gist 1468250 regionmanager.js %}
 
-Does that look familiar? It certainly does to me. I&#8217;ve written this same code dozens of times and blogged about it in my [Zombies! RUN!](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/) post. So, it turns out that I&#8217;ve been using what I&#8217;m now calling a &#8220;region manager&#8221; for a while &#8211; I just didn&#8217;t realize it, previously. Oh, happy day! I&#8217;m just formalizing a concept I had introduced somewhere else, instead of having to create something new and unknown. 🙂
+Does that look familiar? It certainly does to me. I&#8217;ve written this same code dozens of times and blogged about it in my [Zombies! RUN!](https://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/) post. So, it turns out that I&#8217;ve been using what I&#8217;m now calling a &#8220;region manager&#8221; for a while &#8211; I just didn&#8217;t realize it, previously. Oh, happy day! I&#8217;m just formalizing a concept I had introduced somewhere else, instead of having to create something new and unknown. 🙂
 
 ## Using The Region Manager
 

@@ -17,7 +17,7 @@ In this post I’m going to try and demonstrate the flexibility that <a href="ht
 
 I’ve built a very simple application that will help me illustrate the process. The application allows the user to make a list of movies they want to see.
 
-[<img style="border-width: 0px;" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/mymovies_thumb_5645EFC7.png" border="0" alt="mymovies" width="484" height="354" />](http://lostechies.com/content/joshuaflanagan/uploads/2011/03/mymovies_5CD96F57.png)
+[<img style="border-width: 0px;" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/mymovies_thumb_5645EFC7.png" border="0" alt="mymovies" width="484" height="354" />](https://lostechies.com/content/joshuaflanagan/uploads/2011/03/mymovies_5CD96F57.png)
 
 There are three actions that the application handles:
 
@@ -63,15 +63,15 @@ There are three actions that the application handles:
   </tr>
 </table>
 
-I built three different implementations of the same application. All of the code is available in the <a href="http://github.com/DarthFubuMVC/fubumvc-examples/tree/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions" target="_blank">src/Actions</a> folder of the <a href="http://github.com/DarthFubuMVC/fubumvc-examples" target="_blank">fubumvc-examples</a> repository.
+I built three different implementations of the same application. All of the code is available in the <a href="https://github.com/DarthFubuMVC/fubumvc-examples/tree/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions" target="_blank">src/Actions</a> folder of the <a href="https://github.com/DarthFubuMVC/fubumvc-examples" target="_blank">fubumvc-examples</a> repository.
 
 ## Controller/Action
 
-The first version of the application (<a href="http://github.com/DarthFubuMVC/fubumvc-examples/tree/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/ControllerActionStyle" target="_blank">ControllerActionStyle</a>) uses the familiar “controller/action” approach, where multiple actions are defined on a single controller. The first part of the route identifies the controller class, and the second part is the name of a method to call on that class. This convention is fairly easy to declare, since FubuMVC already does a lot of it by default.
+The first version of the application (<a href="https://github.com/DarthFubuMVC/fubumvc-examples/tree/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/ControllerActionStyle" target="_blank">ControllerActionStyle</a>) uses the familiar “controller/action” approach, where multiple actions are defined on a single controller. The first part of the route identifies the controller class, and the second part is the name of a method to call on that class. This convention is fairly easy to declare, since FubuMVC already does a lot of it by default.
 
 > Sidebar: Your conventions are declared by defining a class that derives from FubuRegistry and then passing it to a FubuBootstrapper (like FubuStructureMapBootstrapper) at application startup. FubuRegistry exposes a DSL for you to use to describe things like: how to identify methods that should be treated as actions, what the routes for those actions should be, how to decide the output for those actions, and if the output is rendered from a view, which view should it use.
 
-The relevant parts in our <a href="http://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/ControllerActionStyle/SimpleWebsite/SimpleWebsiteFubuRegistry.cs" target="_blank">registry</a> are:
+The relevant parts in our <a href="https://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/ControllerActionStyle/SimpleWebsite/SimpleWebsiteFubuRegistry.cs" target="_blank">registry</a> are:
 
 <div class="wlWriterEditableSmartContent" style="margin: 0px; float: none; padding: 0px;">
   <pre class="brush: csharp; gutter:false; wrap-lines:false; tab-size:2;">Actions.IncludeTypesNamed(x =&gt; x.EndsWith("Controller"));
@@ -81,7 +81,7 @@ Routes.IgnoreControllerNamespaceEntirely();</pre>
 
 This tells FubuMVC to look at all available types whose name ends with the word “Controller”. By default, all public methods (with, at most, 1 input parameter) are treated as actions, so nothing further needs to be specified. It also tells FubuMVC to ignore the namespace on controller classes when building routes. By default, routes are defined as parts/of/namespace/classname/methodname (and the “controller” suffix of the classname is removed by default). By stating we want to ignore the namespace, our routes will look like classname/methodname.
 
-Following this convention, I built a <a href="http://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/ControllerActionStyle/SimpleWebsite/Controllers/MoviesController.cs" target="_blank">MoviesController</a> class which contains methods for List(), Add(), and Remove().
+Following this convention, I built a <a href="https://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/ControllerActionStyle/SimpleWebsite/Controllers/MoviesController.cs" target="_blank">MoviesController</a> class which contains methods for List(), Add(), and Remove().
 
 &nbsp;
 
@@ -115,7 +115,7 @@ To verify that everything is configured correctly, I open my browser to http://l
 
 ## Controller-less Actions
 
-The second version of the application (<a href="http://github.com/DarthFubuMVC/fubumvc-examples/tree/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/HandlerStyle" target="_blank">HandlerStyle</a>) defines each action within its own handler class. This is sometimes referred to as the “controller-less action” approach. I started with the code from the ControllerActionStyle and pulled all of the actions out of MoviesController into their own classes ListHandler, AddHandler, and RemoveHandler in a Movies subfolder. They all have a single public method named “Execute” which does all of the work for that action. You might think that with such a drastic change in how actions are organized that I would need to write a lot of code to wire everything up again. But since I’m still following a convention, I just need to describe it to FubuMVC in my <a href="http://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/HandlerStyle/SimpleWebsite/SimpleWebsiteFubuRegistry.cs" target="_blank">registry</a>:
+The second version of the application (<a href="https://github.com/DarthFubuMVC/fubumvc-examples/tree/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/HandlerStyle" target="_blank">HandlerStyle</a>) defines each action within its own handler class. This is sometimes referred to as the “controller-less action” approach. I started with the code from the ControllerActionStyle and pulled all of the actions out of MoviesController into their own classes ListHandler, AddHandler, and RemoveHandler in a Movies subfolder. They all have a single public method named “Execute” which does all of the work for that action. You might think that with such a drastic change in how actions are organized that I would need to write a lot of code to wire everything up again. But since I’m still following a convention, I just need to describe it to FubuMVC in my <a href="https://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/HandlerStyle/SimpleWebsite/SimpleWebsiteFubuRegistry.cs" target="_blank">registry</a>:
 
 <div class="wlWriterEditableSmartContent" style="margin: 0px; float: none; padding: 0px;">
   <pre class="brush: csharp; gutter:false; wrap-lines:false; tab-size:2;">Actions
@@ -125,7 +125,7 @@ The second version of the application (<a href="http://github.com/DarthFubuMVC/f
 Routes.UrlPolicy&lt;HandlerUrlPolicy&gt;();</pre>
 </div>
 
-This states that actions are located by looking for public methods named “Execute” on types in the Handlers namespace whose name ends with “Handler”. Since my routes no longer follow the usual classname/methodname pattern, I defined a custom URL policy in <a href="http://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/HandlerStyle/SimpleWebsite/Handlers/HandlerUrlPolicy.cs" target="_blank">HandlerUrlPolicy</a>:
+This states that actions are located by looking for public methods named “Execute” on types in the Handlers namespace whose name ends with “Handler”. Since my routes no longer follow the usual classname/methodname pattern, I defined a custom URL policy in <a href="https://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/HandlerStyle/SimpleWebsite/Handlers/HandlerUrlPolicy.cs" target="_blank">HandlerUrlPolicy</a>:
 
 <div class="wlWriterEditableSmartContent" style="margin: 0px; float: none; padding: 0px;">
   <pre class="brush: csharp; gutter:false; wrap-lines:false; tab-size:2;">public class HandlerUrlPolicy : IUrlPolicy {
@@ -158,7 +158,7 @@ We build the first part of the route by taking the namespace of our action types
 
 ## REST-like
 
-The final version of the application (<a href="http://github.com/DarthFubuMVC/fubumvc-examples/tree/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/EndPointStyle" target="_blank">EndPointStyle</a>) defines each action in a REST_ish_ manner (I’m not brave enough to claim REST_ful_). It is similar to the HandlerStyle approach in that each route is handled by a single class, but instead of a single “Execute” method, there is a method for each HTTP method (GET, POST, etc) that is valid for the endpoint. Once again, the convention is defined in our <a href="http://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/EndPointStyle/SimpleWebsite/SimpleWebsiteFubuRegistry.cs" target="_blank">registry</a>:
+The final version of the application (<a href="https://github.com/DarthFubuMVC/fubumvc-examples/tree/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/EndPointStyle" target="_blank">EndPointStyle</a>) defines each action in a REST_ish_ manner (I’m not brave enough to claim REST_ful_). It is similar to the HandlerStyle approach in that each route is handled by a single class, but instead of a single “Execute” method, there is a method for each HTTP method (GET, POST, etc) that is valid for the endpoint. Once again, the convention is defined in our <a href="https://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/EndPointStyle/SimpleWebsite/SimpleWebsiteFubuRegistry.cs" target="_blank">registry</a>:
 
 <div class="wlWriterEditableSmartContent" style="margin: 0px; float: none; padding: 0px;">
   <pre class="brush: csharp; gutter:false; wrap-lines:false; tab-size:2;">var httpVerbs = new HashSet&lt;string&gt;(StringComparer.InvariantCultureIgnoreCase)
@@ -173,9 +173,9 @@ httpVerbs.Each(verb =&gt; Routes.ConstrainToHttpMethod(action =&gt; action.Metho
 Routes.UrlPolicy&lt;EndPointUrlPolicy&gt;();</pre>
 </div>
 
-Actions are located by searching all types with the “Endpoint” suffix in the Endpoint namespace for methods named after an HTTP method. Routes are constructed in a custom URL policy (<a href="http://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/EndPointStyle/SimpleWebsite/EndPoints/EndPointUrlPolicy.cs" target="_blank">EndPointUrlPolicy</a>) that has the same logic we used in the HandlerStyle example (namespace/classnamewithoutsuffix). In line 24, I add a policy that constrains the acceptable HTTP method for a route based on the name of the class method that handles it (ex: the Get() method should only respond to HTTP GETs). This enables us to tie the same route pattern to multiple actions, based on how the request is made.
+Actions are located by searching all types with the “Endpoint” suffix in the Endpoint namespace for methods named after an HTTP method. Routes are constructed in a custom URL policy (<a href="https://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/EndPointStyle/SimpleWebsite/EndPoints/EndPointUrlPolicy.cs" target="_blank">EndPointUrlPolicy</a>) that has the same logic we used in the HandlerStyle example (namespace/classnamewithoutsuffix). In line 24, I add a policy that constrains the acceptable HTTP method for a route based on the name of the class method that handles it (ex: the Get() method should only respond to HTTP GETs). This enables us to tie the same route pattern to multiple actions, based on how the request is made.
 
-To demonstrate this functionality, I added a new feature to the sample application: the ability to sort your movies in your order of preference, and have the system remember that order. When the movies are sorted (using the very cool <a href="http://www.jqueryui.com/demos/sortable/" target="_blank">jQuery sortable</a>), a message is posted to movies/list endpoint with the new order. The Post() method on the <a href="http://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/EndPointStyle/SimpleWebsite/EndPoints/Movies/ListEndpoint.cs" target="_blank">ListEndpoint</a> is invoked to save the order in the repository, as opposed to the Get() method on ListEndpoint which displays the current list of movies.
+To demonstrate this functionality, I added a new feature to the sample application: the ability to sort your movies in your order of preference, and have the system remember that order. When the movies are sorted (using the very cool <a href="http://www.jqueryui.com/demos/sortable/" target="_blank">jQuery sortable</a>), a message is posted to movies/list endpoint with the new order. The Post() method on the <a href="https://github.com/DarthFubuMVC/fubumvc-examples/blob/db3770dfe028e09f10a0867a33b361130f590b0d/src/Actions/EndPointStyle/SimpleWebsite/EndPoints/Movies/ListEndpoint.cs" target="_blank">ListEndpoint</a> is invoked to save the order in the repository, as opposed to the Get() method on ListEndpoint which displays the current list of movies.
 
 <div class="wlWriterEditableSmartContent" style="margin: 0px; float: none; padding: 0px;">
   <pre class="brush: csharp; gutter:false; wrap-lines:false; tab-size:2;">public class ListEndpoint

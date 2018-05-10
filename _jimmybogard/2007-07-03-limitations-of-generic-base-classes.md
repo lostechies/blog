@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/07/03/limitations-of-generic-ba
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/07/limitations-of-generic-base-classes.html)._
 
-I thought I had created something fairly useful with a [generic Value Object](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/06/25/generic-value-object-equality.aspx) in a previous post.&nbsp; Generic base classes are nice, and there are [several](http://msdn2.microsoft.com/en-us/library/ms132397.aspx) [recommended](http://msdn2.microsoft.com/en-us/library/ms132438.aspx) [base classes](http://msdn2.microsoft.com/en-us/library/ms132474.aspx) for creating collections classes.&nbsp; Whenever I try to make an interesting API with a generic base class, limitations and faulty assumptions always reduce the usefulness of that base class.&nbsp; Let&#8217;s first start with a couple of classes that we&#8217;d like to include in a generic API:
+I thought I had created something fairly useful with a [generic Value Object](https://lostechies.com/blogs/jimmy_bogard/archive/2007/06/25/generic-value-object-equality.aspx) in a previous post.&nbsp; Generic base classes are nice, and there are [several](http://msdn2.microsoft.com/en-us/library/ms132397.aspx) [recommended](http://msdn2.microsoft.com/en-us/library/ms132438.aspx) [base classes](http://msdn2.microsoft.com/en-us/library/ms132474.aspx) for creating collections classes.&nbsp; Whenever I try to make an interesting API with a generic base class, limitations and faulty assumptions always reduce the usefulness of that base class.&nbsp; Let&#8217;s first start with a couple of classes that we&#8217;d like to include in a generic API:
 
 <div class="CodeFormatContainer">
   <pre><span class="kwrd">public</span> <span class="kwrd">class</span> Address<br />
@@ -230,7 +230,7 @@ ExpandedAddressCollection addressList = <span class="kwrd">new</span> ExpandedAd
 </pre>
                                 </div>
                                 
-                                Now, derived types will implement IEquatable<DerivedType>, as I showed in my [post on value types](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/06/25/generic-value-object-equality.aspx).&nbsp; Unfortunately, subtypes will only implement the correct IEquatable<T> for the first derived class:
+                                Now, derived types will implement IEquatable<DerivedType>, as I showed in my [post on value types](https://lostechies.com/blogs/jimmy_bogard/archive/2007/06/25/generic-value-object-equality.aspx).&nbsp; Unfortunately, subtypes will only implement the correct IEquatable<T> for the first derived class:
                                 
                                 <div class="CodeFormatContainer">
                                   <pre><span class="kwrd">public</span> <span class="kwrd">class</span> Address : ValueObject&lt;Address&gt;<br />

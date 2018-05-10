@@ -71,7 +71,7 @@ tags:
   </ul>
 </div>
 
-In the [last](http://lostechies.com/derekgreer/2011/07/19/effective-tests-avoiding-context-obscurity/) installment of our series, we discussed the topic of Context Obscurity along with strategies for avoiding the creation of obscure tests. As the final topic of this series, we’ll take an introductory look at the practice of writing Automated Acceptance Tests.
+In the [last](https://lostechies.com/derekgreer/2011/07/19/effective-tests-avoiding-context-obscurity/) installment of our series, we discussed the topic of Context Obscurity along with strategies for avoiding the creation of obscure tests. As the final topic of this series, we’ll take an introductory look at the practice of writing Automated Acceptance Tests.
 
 ## Acceptance Tests
 
@@ -89,7 +89,7 @@ The relationship of A-TDD to TDD can be expressed as two concentric processes wh
 
 &nbsp;
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto; padding-top: 0px" title="ATDD" border="0" alt="ATDD" src="http://lostechies.com/content/derekgreer/uploads/2011/09/ATDD_thumb.png" width="406" height="406" />](http://lostechies.com/content/derekgreer/uploads/2011/09/ATDD.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto; padding-top: 0px" title="ATDD" border="0" alt="ATDD" src="https://lostechies.com/content/derekgreer/uploads/2011/09/ATDD_thumb.png" width="406" height="406" />](https://lostechies.com/content/derekgreer/uploads/2011/09/ATDD.png)
 
 &nbsp;
 
@@ -97,7 +97,7 @@ When following the A-TDD methodology, one or more acceptance tests are written t
 
 &nbsp;
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; margin-left: auto; border-top: 0px; margin-right: auto; border-right: 0px; padding-top: 0px" title="TDD-Process" border="0" alt="TDD-Process" src="http://lostechies.com/content/derekgreer/uploads/2011/09/TDD-Process_thumb1.png" width="423" height="435" />](http://lostechies.com/content/derekgreer/uploads/2011/09/TDD-Process1.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; margin-left: auto; border-top: 0px; margin-right: auto; border-right: 0px; padding-top: 0px" title="TDD-Process" border="0" alt="TDD-Process" src="https://lostechies.com/content/derekgreer/uploads/2011/09/TDD-Process_thumb1.png" width="423" height="435" />](https://lostechies.com/content/derekgreer/uploads/2011/09/TDD-Process1.png)
 
 &nbsp;
 

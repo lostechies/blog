@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - general
 ---
-I&#8217;m happy to announce that another member of the Fubu family of projects has been documented. The project of the day is: [FubuValidation](http://darthfubumvc.github.io/fubuvalidation/topics/). As usual, the docs go into far greater detail than I will here but I&#8217;ll provide some highlights.
+I&#8217;m happy to announce that another member of the Fubu family of projects has been documented. The project of the day is: [FubuValidation](https://darthfubumvc.github.io/fubuvalidation/topics/). As usual, the docs go into far greater detail than I will here but I&#8217;ll provide some highlights.
 
 **Overview**
 
@@ -28,4 +28,4 @@ On top of the extensibility, FubuValidation was designed with diagnostics in min
 
 **Read the docs**
 
-Enough from me. [Checkout the new documentation](http://darthfubumvc.github.io/fubuvalidation/topics/) and let us know what you think.
+Enough from me. [Checkout the new documentation](https://darthfubumvc.github.io/fubuvalidation/topics/) and let us know what you think.

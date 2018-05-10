@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/04/30/swallowing-exceptions-is-
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/swallowing-exceptions-is-hazardous-to.html)._
 
-In my [last entry](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/04/25/re-throwing-exceptions.aspx), I set some guidelines for re-throwing exceptions.&nbsp; The flip side from re-throwing exceptions is swallowing exceptions.&nbsp; In nearly all cases I can think of, swallowing exceptions is a Very Bad Idea &#8482;.&nbsp; So what am I talking about when I say &#8220;swallowing exceptions&#8221;?&nbsp; Check out the following code snippet:
+In my [last entry](https://lostechies.com/blogs/jimmy_bogard/archive/2007/04/25/re-throwing-exceptions.aspx), I set some guidelines for re-throwing exceptions.&nbsp; The flip side from re-throwing exceptions is swallowing exceptions.&nbsp; In nearly all cases I can think of, swallowing exceptions is a Very Bad Idea &#8482;.&nbsp; So what am I talking about when I say &#8220;swallowing exceptions&#8221;?&nbsp; Check out the following code snippet:
 
 <div class="CodeFormatContainer">
   <pre><span class="kwrd">public</span> <span class="kwrd">void</span> ProcessRequest()<br />

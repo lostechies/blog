@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - git
 ---
-Jimmy&#8217;s [post](http://lostechies.com/jimmybogard/2011/10/14/the-d-in-dvcs/ "The D in DVCS") is a nice reminder of the advantages of a **distributed** version control system. But having ramped up on Git primarily through [git-svn](http://solutionizing.net/2010/11/26/git-svn-aliases-git-up-and-git-dci/ "Better git-svn Through Aliases"), I thought it would be worth enumerating some of the advantages I&#8217;ve found just in my local workflow:
+Jimmy&#8217;s [post](https://lostechies.com/jimmybogard/2011/10/14/the-d-in-dvcs/ "The D in DVCS") is a nice reminder of the advantages of a **distributed** version control system. But having ramped up on Git primarily through [git-svn](http://solutionizing.net/2010/11/26/git-svn-aliases-git-up-and-git-dci/ "Better git-svn Through Aliases"), I thought it would be worth enumerating some of the advantages I&#8217;ve found just in my local workflow:
 
 ## 1. Local Branching
 

@@ -13,7 +13,7 @@ categories:
 tags:
   - presenting
 ---
-Creating code live on the fly makes a more compelling demo, but actually typing those curly braces and semi-colons can kill a presentation. As hard as it is [not to say &#8220;um&#8221;](http://lostechies.com/sharoncichelli/2012/03/20/how-not-to-say-um-when-presenting/), it&#8217;s nigh impossible to not make a million typos on stage.
+Creating code live on the fly makes a more compelling demo, but actually typing those curly braces and semi-colons can kill a presentation. As hard as it is [not to say &#8220;um&#8221;](https://lostechies.com/sharoncichelli/2012/03/20/how-not-to-say-um-when-presenting/), it&#8217;s nigh impossible to not make a million typos on stage.
 
 Code snippets, where you need to type only a short keyword to automatically insert a small piece of relevant code, are a great antidote. I learned this strategy from watching [Burke Holland](http://a.shinynew.me/) teach us about CoffeeScript. Most code editors and text editors support code snippets, and if yours doesn&#8217;t, you can use [AutoHotKey](http://www.autohotkey.com/) to define a set of hotstrings.
 

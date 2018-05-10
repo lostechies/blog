@@ -22,9 +22,9 @@ Continuing the theme of my most recent posts, I’ve decided to start a series o
 ### Table of Contents
 
   1. Rapid feedback cycle ([Jeremy covered this one](http://jeremydmiller.com/2012/10/11/test-with-the-finest-grai/))
-  2. [System state](http://lostechies.com/josharnold/2012/11/11/some-foundational-ideas-for-automated-testing/)
-  3. [Collapsing your application into a single process](http://lostechies.com/josharnold/2012/11/16/automated-testing-with-fubumvc-storyteller-and-serenity/)
-  4. [Defining test inputs](http://lostechies.com/josharnold/2012/11/28/guidelines-for-automated-testing-defining-test-inputs/)
+  2. [System state](https://lostechies.com/josharnold/2012/11/11/some-foundational-ideas-for-automated-testing/)
+  3. [Collapsing your application into a single process](https://lostechies.com/josharnold/2012/11/16/automated-testing-with-fubumvc-storyteller-and-serenity/)
+  4. [Defining test inputs](https://lostechies.com/josharnold/2012/11/28/guidelines-for-automated-testing-defining-test-inputs/)
   5. Standardizing your UI mechanics
   6. Separating test expression from screen drivers
   7. Modeling steps for reuse

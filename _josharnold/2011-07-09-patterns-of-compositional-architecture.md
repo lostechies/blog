@@ -19,7 +19,7 @@ tags:
 ---
 ## Introduction
 
-[Chad Myer](http://lostechies.com/chadmyers)’s most [recent series of posts](http://lostechies.com/chadmyers/category/cool-stuff-in-fubu) have inspired me to start writing. A lot. My most recent focus and passion has been concentrated on the [Fubu Family](https://github.com/DarthFubuMVC) of frameworks. After doing some reflecting, I’ve begun to discover a common barrier of entry for new users of these projects – a missing link, if you will.
+[Chad Myer](https://lostechies.com/chadmyers)’s most [recent series of posts](https://lostechies.com/chadmyers/category/cool-stuff-in-fubu) have inspired me to start writing. A lot. My most recent focus and passion has been concentrated on the [Fubu Family](https://github.com/DarthFubuMVC) of frameworks. After doing some reflecting, I’ve begun to discover a common barrier of entry for new users of these projects – a missing link, if you will.
 
 You see, there are patterns in play in the Fubu family that take advantage of static typing. These patterns promote highly compositional designs that make the most out of the language features found in C#. We’ve been focusing on documenting the capabilities of these frameworks but I believe that the missing link is the understanding of these patterns.
 
@@ -35,10 +35,10 @@ Each item will be presented with an overall description, a very basic example, a
 
 In an effort to close this gap, this series will cover the patterns that we employ and how they’ve benefited us and the frameworks:
 
-  1. [Policies – Compositional Strategies](http://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture-policies "Patterns of Compositional Architecture: Policies")
-  2. [Domain-Specific-Languages](http://lostechies.com/josharnold/2011/07/11/patterns-of-compositional-architecture-domain-specific-languages/ "Domain Specific Languages") 
-      1. [Semantic Models](http://lostechies.com/josharnold/2011/07/12/patterns-of-compositional-architecture-dsls-semantic-models/)
-      2. [Registries](http://lostechies.com/josharnold/2011/07/12/patterns-of-compositional-architecture-dsls-registries/)
-      3. [Conventions](http://lostechies.com/josharnold/2011/07/13/patterns-of-compositional-architecture-dsls-conventions/)
-      4. [Wrap Up](http://lostechies.com/josharnold/2011/07/23/patterns-of-compositional-architecture-dsls-wrap-up/)
+  1. [Policies – Compositional Strategies](https://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture-policies "Patterns of Compositional Architecture: Policies")
+  2. [Domain-Specific-Languages](https://lostechies.com/josharnold/2011/07/11/patterns-of-compositional-architecture-domain-specific-languages/ "Domain Specific Languages") 
+      1. [Semantic Models](https://lostechies.com/josharnold/2011/07/12/patterns-of-compositional-architecture-dsls-semantic-models/)
+      2. [Registries](https://lostechies.com/josharnold/2011/07/12/patterns-of-compositional-architecture-dsls-registries/)
+      3. [Conventions](https://lostechies.com/josharnold/2011/07/13/patterns-of-compositional-architecture-dsls-conventions/)
+      4. [Wrap Up](https://lostechies.com/josharnold/2011/07/23/patterns-of-compositional-architecture-dsls-wrap-up/)
   3. Chain of Responsibility

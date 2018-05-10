@@ -36,7 +36,7 @@ Ed – a software developer in the company’s product development division – 
 
 “You ok, Ed?”, asks Tom.
 
-“Yeah… sorry… it’s just this code”, replied Ed, as he turns back to his desk and taps on the monitor. “You remember those ‘git-r-done’ decisions we made [a few months ago](http://www.lostechies.com/blogs/derickbailey/archive/2010/03/22/swashbuckling-tentacles.aspx)?” asks Ed.
+“Yeah… sorry… it’s just this code”, replied Ed, as he turns back to his desk and taps on the monitor. “You remember those ‘git-r-done’ decisions we made [a few months ago](https://lostechies.com/blogs/derickbailey/archive/2010/03/22/swashbuckling-tentacles.aspx)?” asks Ed.
 
 “Yeah, of course. It wasn’t an easy choice, but I still think it was the right thing to do given the circumstances.”, replied Tom.
 

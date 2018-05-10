@@ -19,7 +19,7 @@ Now that .NET 3.5 is out with all its LINQ query operator goodness, I feel like 
   * Concatenations
   * Filtering
 
-As I mentioned in [my last post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/05/08/enhancing-mappers-with-linq.aspx), temporary list creation is a great pointer to find opportunities for losing the foreach statements.&nbsp; I keep the foreach statement when the readability and understandability of the code drops with the LINQ change, but otherwise, a lot less temporary objects are floating around.&nbsp; Personally, the jury is still out for me whether it&#8217;s clearer to return &#8220;IEnumerable<LineItem>&#8221; over &#8220;LineItem[]&#8221;, but the temporary array creation doesn&#8217;t seem to have much of a point.
+As I mentioned in [my last post](https://lostechies.com/blogs/jimmy_bogard/archive/2008/05/08/enhancing-mappers-with-linq.aspx), temporary list creation is a great pointer to find opportunities for losing the foreach statements.&nbsp; I keep the foreach statement when the readability and understandability of the code drops with the LINQ change, but otherwise, a lot less temporary objects are floating around.&nbsp; Personally, the jury is still out for me whether it&#8217;s clearer to return &#8220;IEnumerable<LineItem>&#8221; over &#8220;LineItem[]&#8221;, but the temporary array creation doesn&#8217;t seem to have much of a point.
 
 ### Transformations
 

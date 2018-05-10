@@ -11,7 +11,7 @@ categories:
   - EntityFramework
   - NHibernate
 ---
-Recently I blogged about [migrating to EF from NHibernate](http://lostechies.com/jimmybogard/2014/04/22/migrating-from-nhibernate-to-entity-framework/) and how easy it is to create [fully encapsulated models mapped to EF](http://lostechies.com/jimmybogard/2014/04/29/domain-modeling-with-entity-framework-scorecard/). In this particular project, migrating was relatively painless, as it was a fairly new schema and quite amenable to code-first mapping in EF. The migration was successful in that I didn’t have to undo it and there were relatively few changes that I had to make to the underlying model.
+Recently I blogged about [migrating to EF from NHibernate](https://lostechies.com/jimmybogard/2014/04/22/migrating-from-nhibernate-to-entity-framework/) and how easy it is to create [fully encapsulated models mapped to EF](https://lostechies.com/jimmybogard/2014/04/29/domain-modeling-with-entity-framework-scorecard/). In this particular project, migrating was relatively painless, as it was a fairly new schema and quite amenable to code-first mapping in EF. The migration was successful in that I didn’t have to undo it and there were relatively few changes that I had to make to the underlying model.
 
 However, there are still reasons why I’d stick to NHibernate, mainly around missing features that exist in NHibernate but don’t exist (yet) in Entity Framework. How important these features are varies from project to project, so while one project might be best using a micro-ORM, one might be best using NHibernate or EF. My punch list of missing features (so far):
 

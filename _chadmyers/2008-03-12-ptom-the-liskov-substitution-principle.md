@@ -16,7 +16,7 @@ redirect_from: "/blogs/chad_myers/archive/2008/03/11/ptom-the-liskov-substitutio
 ---
 # The Liskov Substitution Principle
 
-In my first (of hopefully more than one) post for [The Los Techies Pablo&#8217;s Topic of the Month &#8211; March: SOLID Principles](http://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx) effort, I&#8217;m going to talk about The Liskov Substitution Principle, as made popular by [Robert &#8216;Uncle Bob&#8217; Martin in The C++ Report](http://www.objectmentor.com/resources/articles/lsp.pdf).
+In my first (of hopefully more than one) post for [The Los Techies Pablo&#8217;s Topic of the Month &#8211; March: SOLID Principles](https://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx) effort, I&#8217;m going to talk about The Liskov Substitution Principle, as made popular by [Robert &#8216;Uncle Bob&#8217; Martin in The C++ Report](http://www.objectmentor.com/resources/articles/lsp.pdf).
 
 I&#8217;m going to try as much as possible not to repeat everything that Uncle Bob said in the afore-linked PDF as you can go read the important stuff there. I&#8217;m going to try to give some real examples and relate this to the .NET world.
 

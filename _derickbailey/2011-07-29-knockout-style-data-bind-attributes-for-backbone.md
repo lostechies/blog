@@ -13,7 +13,7 @@ categories:
   - JavaScript
   - Model-View-Controller
 ---
-Hot on the heels of [my Backbone.ModelBinding plugin release](http://lostechies.com/derickbailey/2011/07/24/awesome-model-binding-for-backbone-js/), I pushed a significant update out to [the github repository](https://github.com/derickbailey/backbone.modelbinding). Included in this release is the rest of the form input types, including radio button groups, select boxes, etc (be sure to read the documentation in the readme for a more complete list of Backbone.ModelBinding supports now). More importantly, though, in order to get the rest of the form element conventions built, I had to create a pluggable architecture for my plugin.
+Hot on the heels of [my Backbone.ModelBinding plugin release](https://lostechies.com/derickbailey/2011/07/24/awesome-model-binding-for-backbone-js/), I pushed a significant update out to [the github repository](https://github.com/derickbailey/backbone.modelbinding). Included in this release is the rest of the form input types, including radio button groups, select boxes, etc (be sure to read the documentation in the readme for a more complete list of Backbone.ModelBinding supports now). More importantly, though, in order to get the rest of the form element conventions built, I had to create a pluggable architecture for my plugin.
 
 That&#8217;s right, folks, my plugin allows plugins. 🙂
 
@@ -23,11 +23,11 @@ And with the ability to plug your own model binding conventions into Backbone.Mo
 
 Let&#8217;s take a look at the example I keep using for this plugin, again:
 
-<img title="Screen Shot 2011-07-29 at 12.44.29 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/07/Screen-Shot-2011-07-29-at-12.44.29-PM.png" border="0" alt="Screen Shot 2011 07 29 at 12 44 29 PM" width="600" height="393" />
+<img title="Screen Shot 2011-07-29 at 12.44.29 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/07/Screen-Shot-2011-07-29-at-12.44.29-PM.png" border="0" alt="Screen Shot 2011 07 29 at 12 44 29 PM" width="600" height="393" />
 
 We all know that Backbone.ModelBinding will handle the binding between the form inputs and the model that is bound to the add/edit view. However, the big box that represents our medication in the &#8220;Current Medications&#8221; list was not updated automatically. In order to get this to update, we had to re-render the view with the updated model.
 
-Here&#8217;s what that code looks like (using an [event aggregator](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/) in this case):
+Here&#8217;s what that code looks like (using an [event aggregator](https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/) in this case):
 
 {% gist 1114226 2-rerender.js %}
 
@@ -57,7 +57,7 @@ The key here is the &#8216;data-bind&#8217; attribute that I&#8217;ve added to t
 
 Now when we update our form by typing into the text boxes and then causing the text box to lose focus (so that the &#8216;change&#8217; event can fire), our medication view updates instantly!
 
-<img title="Screen Shot 2011-07-29 at 12.47.43 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/07/Screen-Shot-2011-07-29-at-12.47.43-PM.png" border="0" alt="Screen Shot 2011 07 29 at 12 47 43 PM" width="600" height="393" />
+<img title="Screen Shot 2011-07-29 at 12.47.43 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/07/Screen-Shot-2011-07-29-at-12.47.43-PM.png" border="0" alt="Screen Shot 2011 07 29 at 12 47 43 PM" width="600" height="393" />
 
 As I tabbed out of the &#8220;Trade name&#8221; field and into the &#8220;Dosage&#8221; field, the medication view updated and showed the change in the medication&#8217;s name!
 

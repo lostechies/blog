@@ -13,7 +13,7 @@ redirect_from: "/blogs/joe_ocampo/archive/2007/10/21/please-welcome-evan-hoff.as
 ---
 <humor>
 
-We wanted to bring a little southern hospitality to Los Techies but we couldn&#8217;t find anyone and settled for <a href="http://www.lostechies.com/blogs/evan_hoff/default.aspx" target="_blank">Evan Hoff</a>.&nbsp; j/k
+We wanted to bring a little southern hospitality to Los Techies but we couldn&#8217;t find anyone and settled for <a href="https://lostechies.com/blogs/evan_hoff/default.aspx" target="_blank">Evan Hoff</a>.&nbsp; j/k
 
 </humor>
 

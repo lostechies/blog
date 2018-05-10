@@ -15,7 +15,7 @@ categories:
   - Unit Testing
 redirect_from: "/blogs/derickbailey/archive/2010/04/05/red-for-the-right-reason-fail-by-assertion-not-by-anything-else.aspx/"
 ---
-[Thomas Weller](http://www.thomas-weller.de/) commented on my [Red/Green/Refactor For The Right Reasons](http://www.lostechies.com/blogs/derickbailey/archive/2010/03/25/red-green-refactor-for-the-right-reasons.aspx) post and asked me to explain why I don’t think a throwing a NotImplementedException is a good reason for a test to be red. It’s a good question, one that I questioned for a long time, and something that is worth talking about on it’s own rather than just replying in the original comment stream. To get things started, here is Thomas’ comment:
+[Thomas Weller](http://www.thomas-weller.de/) commented on my [Red/Green/Refactor For The Right Reasons](https://lostechies.com/blogs/derickbailey/archive/2010/03/25/red-green-refactor-for-the-right-reasons.aspx) post and asked me to explain why I don’t think a throwing a NotImplementedException is a good reason for a test to be red. It’s a good question, one that I questioned for a long time, and something that is worth talking about on it’s own rather than just replying in the original comment stream. To get things started, here is Thomas’ comment:
 
 > _Hi Derick,_
 > 

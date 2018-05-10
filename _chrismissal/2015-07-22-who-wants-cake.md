@@ -58,7 +58,7 @@ To me (and possibly because I write C# nearly every day) this is very readable a
 
 ## Tools
 
-There are [loads of tools](http://cakebuild.net/dsl) out of the box, but a couple more that I needed. I was able to get [Fixie](http://fixie.github.io) into the [v0.5.0 release](http://cakebuild.net/blog/2015/07/cake-v0-5-0-released), so that was nice. The other is [RoundhousE](http://projectroundhouse.org), which should be coming soon!
+There are [loads of tools](http://cakebuild.net/dsl) out of the box, but a couple more that I needed. I was able to get [Fixie](https://fixie.github.io) into the [v0.5.0 release](http://cakebuild.net/blog/2015/07/cake-v0-5-0-released), so that was nice. The other is [RoundhousE](http://projectroundhouse.org), which should be coming soon!
 
 ## Contributing
 

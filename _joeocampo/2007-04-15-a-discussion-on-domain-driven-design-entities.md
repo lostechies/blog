@@ -11,7 +11,7 @@ categories:
   - Domain Driven Design (DDD)
 redirect_from: "/blogs/joe_ocampo/archive/2007/04/14/a-discussion-on-domain-driven-design-entities.aspx/"
 ---
-My last post was intended to help better explain how the [ubiquitous language](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/04/02/a-discussion-on-domain-driven-design.aspx) forms the back bone of Domain Driven Design (DDD). I am hoping that this post helps to explain some of the more foundational artifacts of DDD, namely Entities.
+My last post was intended to help better explain how the [ubiquitous language](https://lostechies.com/blogs/joe_ocampo/archive/2007/04/02/a-discussion-on-domain-driven-design.aspx) forms the back bone of Domain Driven Design (DDD). I am hoping that this post helps to explain some of the more foundational artifacts of DDD, namely Entities.
 
 What is an entity? Is it a business object? Is it a class that has persistence? Is it a sentient being manifested in the form of a polymorphic construct that is based on a real world object? Ok well maybe the latter is definitely out of scope but as we see there are many possibilities of what an entity is. Hopefully I will help to shed some light on the subject. Either that or I will help to perpetuate the existing confusion. At least we go somewhere!
 
@@ -29,7 +29,7 @@ Let’s take a moment and look at the following sentence in more detail.
 
 Do you notice the word “dialog”? I can’t stress enough on the importance of this concept of dialog. It is the key word that will help in better understanding entities and other DDD concepts. So let’s get into some dialog.
 
-I would like to thank a fellow Los Techie [Joshua Lockwood](http://www.lostechies.com/blogs/joshua_lockwood) for inspiring me to come up with this scenario.
+I would like to thank a fellow Los Techie [Joshua Lockwood](https://lostechies.com/blogs/joshua_lockwood) for inspiring me to come up with this scenario.
 
 Consider your wallet? How do you know your wallet is yours? Don’t open it up yet. Does it have a certain look to it? Does it have obvious tear or scratch in a certain location? Does it have a distinct odor that only you can smell (if it does that pretty gross dude). The fact of the matter is you know it is your wallet.
 
@@ -57,6 +57,6 @@ Let’s recap what just happened:
 
 I am going to touch on value objects real quick just so you can understand the difference between entities and value objects. Let’s say my wallet contained 1 five dollar bill and 3 one dollar bills, resulting in a total of 8 dollars. Now we all know that all US currency have a unique ID assigned to them. Is that important to me? Do I really care where it was minted or what hands in went through. NO, I just care that it holds its value and it is in my wallet. So when I add money to the wallet it can add money to the pocket container and increment the value. This is the aggregate pattern that we will talk about on a later post. Back to the wallet, since I don’t care about the identity of the money in relation to the wallet, the money is a value object. I will never ask the wife repository for the one dollar bill with the serial number 1A66784GHII7888 to be placed in my wallet. Identity means nothing to me about the money, only its value! In fact let’s say that the wife repository needed a five dollar bill in exchange for 5 one dollar bills. When I ask for the wallet back in the morning it still contains eight dollars but in a slightly different state. (If this were an application I would hope the service would audit the change)
 
-[![](http://lostechies.com/content/joeocampo/uploads/2011/03/DomainDrivenDesignEntities_94AB/image0_thumb7.png)](http://lostechies.com/content/joeocampo/uploads/2011/03/DomainDrivenDesignEntities_94AB/image09.png)
+[![](https://lostechies.com/content/joeocampo/uploads/2011/03/DomainDrivenDesignEntities_94AB/image0_thumb7.png)](https://lostechies.com/content/joeocampo/uploads/2011/03/DomainDrivenDesignEntities_94AB/image09.png)
 
-I have to find a way to shorten these posts. I never intend for them to be this long but I tend to be rather long winded when I discuss these concepts. My next post with touch a little more on <a href="http://www.lostechies.com/blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx" target="_blank">Value Objects</a>.
+I have to find a way to shorten these posts. I never intend for them to be this long but I tend to be rather long winded when I discuss these concepts. My next post with touch a little more on <a href="https://lostechies.com/blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx" target="_blank">Value Objects</a>.

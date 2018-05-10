@@ -73,7 +73,7 @@ redirect_from: "/blogs/derekgreer/archive/2011/03/21/effective-tests-test-first.
   </ul>
 </div>
 
-In the [last](http://www.lostechies.com/blogs/derekgreer/archive/2011/03/14/effective-tests-a-unit-test-example.aspx) installment of our series, I presented a simple example of a traditional unit test.  In this article, we’ll discuss a completely different way to use unit tests: Test First Programming.
+In the [last](https://lostechies.com/blogs/derekgreer/archive/2011/03/14/effective-tests-a-unit-test-example.aspx) installment of our series, I presented a simple example of a traditional unit test.  In this article, we’ll discuss a completely different way to use unit tests: Test First Programming.
 
 ## Test-First Programming
 
@@ -89,7 +89,7 @@ Later, these ideas were  refined into a practice known as _Test Driven Developm
 
 ## Behavior-Driven Development
 
-[<img style="padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" src="http://lostechies.com/content/derekgreer/uploads/2011/03/TestDrivenDevelopment_thumb_107D31DD.png" border="0" alt="Test Driven Development" width="494" height="330" />](http://lostechies.com/content/derekgreer/uploads/2011/03/TestDrivenDevelopment_155FE599.png)
+[<img style="padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" src="https://lostechies.com/content/derekgreer/uploads/2011/03/TestDrivenDevelopment_thumb_107D31DD.png" border="0" alt="Test Driven Development" width="494" height="330" />](https://lostechies.com/content/derekgreer/uploads/2011/03/TestDrivenDevelopment_155FE599.png)
 
 While the practice of Test-Driven Development utilized unit tests primarily for driving application design, its outgrowth from traditional unit testing practices were still evident in its style,  language, and supporting frameworks. This presented an obstacle for some in understanding and communicating the concepts behind the practice.
 

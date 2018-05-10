@@ -18,11 +18,11 @@ tags:
   - fubumvc
   - Patterns
 ---
-> This is the third post in the [Patterns of Compositional Architecture series](http://lostechies.com/josharnold/tag/composition-patterns/) that I mentioned in my [introductory post](http://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture/).
+> This is the third post in the [Patterns of Compositional Architecture series](https://lostechies.com/josharnold/tag/composition-patterns/) that I mentioned in my [introductory post](https://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture/).
 
 ## Prerequisites
 
-Before reading this post, please read the [introductory post to Domain Specific Languages](http://lostechies.com/josharnold/2011/07/11/patterns-of-compositional-architecture-domain-specific-languages/).
+Before reading this post, please read the [introductory post to Domain Specific Languages](https://lostechies.com/josharnold/2011/07/11/patterns-of-compositional-architecture-domain-specific-languages/).
 
 ## The Pattern
 
@@ -38,7 +38,7 @@ This is a primitive example but it is an example nonetheless. Let’s say we’r
 
 
 
-We employ a [basic policy pattern here](http://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture-policies) used within the consumer of this interface. As you can guess, we’re interested in having multiple policies:
+We employ a [basic policy pattern here](https://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture-policies) used within the consumer of this interface. As you can guess, we’re interested in having multiple policies:
 
 
 

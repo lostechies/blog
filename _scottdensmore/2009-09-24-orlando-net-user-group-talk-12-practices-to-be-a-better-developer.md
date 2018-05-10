@@ -41,9 +41,9 @@ These are great places to pick up some of the key concepts:
 
 [Scott Hanselman &#8211; Reading To Be A Better Developer](http://www.hanselman.com/blog/ReadingToBeABetterDeveloperTheCoding4FunDevKit.aspx)[](http://www.hanselman.com/blog/ReadingToBeABetterDeveloperTheCoding4FunDevKit.aspx)
   
-[S.O.L.I.D. Month on LosTechies](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx)
+[S.O.L.I.D. Month on LosTechies](https://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx)
   
-[](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx)[31 Days of Refactoring](http://www.lostechies.com/blogs/sean_chambers/archive/2009/08/01/31-days-of-refactoring.aspx)
+[](https://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx)[31 Days of Refactoring](https://lostechies.com/blogs/sean_chambers/archive/2009/08/01/31-days-of-refactoring.aspx)
   
 [MSpec BDD Tool](http://codebetter.com/blogs/aaron.jensen/archive/2008/05/08/introducing-machine-specifications-or-mspec-for-short.aspx)
   

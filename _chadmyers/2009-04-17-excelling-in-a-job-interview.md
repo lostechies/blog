@@ -19,7 +19,7 @@ How to Nail an Interview:
 
 (for my English-as-a-second-language friends, ‘nail’ here means ‘to achieve great success’ – the text of the link is sincere, but the videos are most definitely sarcastic)
 
-&#160;<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin-left: 0px;margin-right: 0px;border-right-width: 0px" height="484" alt="Photograph copyright Ed Murray/The Star-Ledger" src="http://lostechies.com/content/chadmyers/uploads/2011/03/large_firehousefire_3.jpg" width="316" align="right" border="0" />
+&#160;<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin-left: 0px;margin-right: 0px;border-right-width: 0px" height="484" alt="Photograph copyright Ed Murray/The Star-Ledger" src="https://lostechies.com/content/chadmyers/uploads/2011/03/large_firehousefire_3.jpg" width="316" align="right" border="0" />
 
 Oh yeah, one other thing I’d like to mention while we’re on the subject of job interviews:&#160; If you’re applying for&#160; a professional job, be a professional.&#160; Professionals are good at what they do, but above all, they take everything in stride and seek solutions not add to problems.&#160; “It takes a gentleman to suffer ignorance and smile”, the saying goes. And so it takes a professional to suffer indignity with patience.&#160; No matter how bad that interview went, no matter how idiotic or asinine the interviewer may have been, do not, under _any circumstances_, send an email to the interviewer like this (sic. exactly preserved):
 

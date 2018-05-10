@@ -15,7 +15,7 @@ tags:
   - messaging
   - SOA
 ---
-[LEGO.com](http://www.lego.com/) impressed me with its ability to scale to handle a spike in traffic last Thursday. Seeing it through the lens of [Jimmy Bogard&#8217;s](http://lostechies.com/jimmybogard/) presentation &#8220;[Telephones and postcards: Our brave new world of messaging](http://vimeo.com/68327243),&#8221; I paid attention to what LEGO was doing to cope with our voracious demand for [DeLoreans](http://shop.lego.com/en-US/The-DeLorean-time-machine-21103).
+[LEGO.com](http://www.lego.com/) impressed me with its ability to scale to handle a spike in traffic last Thursday. Seeing it through the lens of [Jimmy Bogard&#8217;s](https://lostechies.com/jimmybogard/) presentation &#8220;[Telephones and postcards: Our brave new world of messaging](http://vimeo.com/68327243),&#8221; I paid attention to what LEGO was doing to cope with our voracious demand for [DeLoreans](http://shop.lego.com/en-US/The-DeLorean-time-machine-21103).
 
 The gist of Jimmy&#8217;s talk is that, when designing a messaging-based distributed system, look at real-world solutions for the same problem. _People_ can handle a full queue of orders for the fry cook; systems can follow the same patterns. His presentation gave me that brain-expandy-stretchy feeling when something obvious is being revealed in a non-obvious way that makes you look differently at problems and solutions. It&#8217;s a neat talk; check it out.
 

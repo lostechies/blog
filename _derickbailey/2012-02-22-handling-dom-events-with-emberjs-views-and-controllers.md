@@ -16,9 +16,9 @@ categories:
   - Model-View-Presenter
 ---
 {% raw %}
-Hot on the heels of [picking up Ember and starting to learn it](http://lostechies.com/derickbailey/2012/02/21/emberjs-initial-impressions-compared-to-backbone/), I think I&#8217;ve actually learned something useful! I certainly hope I have, at least. Otherwise, [I&#8217;m going to be in trouble soon](http://wekeroad.com/2012/02/21/alt-tekpub-a-transparent-learning-process/).
+Hot on the heels of [picking up Ember and starting to learn it](https://lostechies.com/derickbailey/2012/02/21/emberjs-initial-impressions-compared-to-backbone/), I think I&#8217;ve actually learned something useful! I certainly hope I have, at least. Otherwise, [I&#8217;m going to be in trouble soon](http://wekeroad.com/2012/02/21/alt-tekpub-a-transparent-learning-process/).
 
-In my EmberCloneMail app, I have an <ul> tag with <li> tags that represent the list of emails you can click on and view &#8211; and that&#8217;s precisely the problem I ran in to. How do I handle a DOM &#8220;click&#8221; on each of the <li> elements, and know which of the Email objects is the one being clicked? Of course I know [how to do this in Backbone](http://lostechies.com/derickbailey/2011/10/11/backbone-js-getting-the-model-for-a-clicked-element/) already and I expected it to be as easy in Ember. It is just as easy &#8211; it&#8217;s just different and presents some options not available in Backbone.
+In my EmberCloneMail app, I have an <ul> tag with <li> tags that represent the list of emails you can click on and view &#8211; and that&#8217;s precisely the problem I ran in to. How do I handle a DOM &#8220;click&#8221; on each of the <li> elements, and know which of the Email objects is the one being clicked? Of course I know [how to do this in Backbone](https://lostechies.com/derickbailey/2011/10/11/backbone-js-getting-the-model-for-a-clicked-element/) already and I expected it to be as easy in Ember. It is just as easy &#8211; it&#8217;s just different and presents some options not available in Backbone.
 
 ## The View And Template Setup
 

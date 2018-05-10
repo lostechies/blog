@@ -14,7 +14,7 @@ categories:
   - Tools
 redirect_from: "/blogs/joe_ocampo/archive/2007/10/30/model-driven-architecture.aspx/"
 ---
-I was really excited to read about Microsoft&#8217;s recent exploration into the <a href="http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/10/30/oslo-mda-soa.aspx?CommentPosted=true#commentmessage" target="_blank">MDA arena!</a>&nbsp; This is something I have been wanting for quite sometime but I am very hesitant to get too excited.&nbsp; Microsoft has a tendency to create bloat ware and this may kill the tool from being adopted (Think Rational Rose).
+I was really excited to read about Microsoft&#8217;s recent exploration into the <a href="https://lostechies.com/blogs/jimmy_bogard/archive/2007/10/30/oslo-mda-soa.aspx?CommentPosted=true#commentmessage" target="_blank">MDA arena!</a>&nbsp; This is something I have been wanting for quite sometime but I am very hesitant to get too excited.&nbsp; Microsoft has a tendency to create bloat ware and this may kill the tool from being adopted (Think Rational Rose).
 
 &nbsp;
 

@@ -19,7 +19,7 @@ redirect_from: "/blogs/derickbailey/archive/2009/12/22/understanding-the-applica
 ---
 ### 
 
-Earlier in the year, I posted a few times on the [Application Controller](http://www.lostechies.com/blogs/derickbailey/archive/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller.aspx) pattern that I was implementing, including some [workflow service](http://www.lostechies.com/blogs/derickbailey/archive/2009/05/19/result-lt-t-gt-directing-workflow-with-a-return-status-and-value.aspx) related posts, all leading up to the presentation on [decoupling workflow from forms](http://github.com/derickbailey/presentations-and-training/tree/master/Decoupling%20Workflow%20With%20App%20Controler/) that I gave at Austin Code Camp ‘09. I’ve been working with this style of architecture in my winforms apps since then, and have really grown to love it. And now with [my new job](http://www.lostechies.com/blogs/derickbailey/archive/2009/11/04/a-time-for-change.aspx) and my new team, I’ve recently had a chance to take the same patterns and port them over to the .net compact framework. The good news is that it took zero changes to the core architecture and code. The 2 things I had to do were re-write the form implementations in compact framework forms, and replace structuremap with a ninject version compiled for the compact framework. It was an easy port and the code is [available on github](http://github.com/derickbailey/appcontroller.cf), along with the [original winforms version](http://github.com/derickbailey/appcontroller).
+Earlier in the year, I posted a few times on the [Application Controller](https://lostechies.com/blogs/derickbailey/archive/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller.aspx) pattern that I was implementing, including some [workflow service](https://lostechies.com/blogs/derickbailey/archive/2009/05/19/result-lt-t-gt-directing-workflow-with-a-return-status-and-value.aspx) related posts, all leading up to the presentation on [decoupling workflow from forms](https://github.com/derickbailey/presentations-and-training/tree/master/Decoupling%20Workflow%20With%20App%20Controler/) that I gave at Austin Code Camp ‘09. I’ve been working with this style of architecture in my winforms apps since then, and have really grown to love it. And now with [my new job](https://lostechies.com/blogs/derickbailey/archive/2009/11/04/a-time-for-change.aspx) and my new team, I’ve recently had a chance to take the same patterns and port them over to the .net compact framework. The good news is that it took zero changes to the core architecture and code. The 2 things I had to do were re-write the form implementations in compact framework forms, and replace structuremap with a ninject version compiled for the compact framework. It was an easy port and the code is [available on github](https://github.com/derickbailey/appcontroller.cf), along with the [original winforms version](https://github.com/derickbailey/appcontroller).
 
 One thing I don’t think I did very well with my original posts, or in the presentation I gave, was explaining when you should use which parts of this architecture. There’s nothing terribly difficult about understanding when to use what, honestly, but it may not be so obvious to someone that is new to the patterns and implementation details that I’ve included in the sample applications. Before we get into the detail on when to use what, though, I want to discuss the underlying patterns that make up the App Controller. This will help to facilitate the discussion on when each part of the App Controller should be used.
 
@@ -29,7 +29,7 @@ One thing I don’t think I did very well with my original posts, or in the pres
 
 These patterns have been covered in depth, but I wanted to consolidate them here for ease of reference.
 
-### [Command Pattern](http://www.lostechies.com/blogs/derickbailey/archive/2008/11/19/ptom-command-and-conquer-your-ui-coupling-problems.aspx)
+### [Command Pattern](https://lostechies.com/blogs/derickbailey/archive/2008/11/19/ptom-command-and-conquer-your-ui-coupling-problems.aspx)
 
 > _Originally outlined by the infamous "Gang of Four", the_ [_Command_](http://en.wikipedia.org/wiki/Command_pattern) __[_Pattern_](http://www.dofactory.com/Patterns/PatternCommand.aspx) _is described as an object that represents an action &#8211; a command that will be executed._
 
@@ -185,8 +185,8 @@ Technically, a single UI form can have a work flow all on it’s own. How you sh
 
 Just in case you missed the links all the way back up at the top, here are the locations of the source code that I am referring to throughout this article.
 
-> **For standard WinForms applications:** [**http://github.com/derickbailey/appcontroller**](http://github.com/derickbailey/appcontroller) ****
+> **For standard WinForms applications:** [**https://github.com/derickbailey/appcontroller**](https://github.com/derickbailey/appcontroller) ****
 > 
-> **For Compact Framework applications:** [**http://github.com/derickbailey/appcontroller.cf**](http://github.com/derickbailey/appcontroller.cf) 
+> **For Compact Framework applications:** [**https://github.com/derickbailey/appcontroller.cf**](https://github.com/derickbailey/appcontroller.cf) 
 
 The only significant differences between these two solutions are the forms implementation (full windows vs compact framework) and structuremap is used in the winforms version while ninject is used in the compact frmaework version.

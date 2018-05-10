@@ -14,9 +14,9 @@ categories:
 ---
 Previous posts in this series:
 
-  * [Redux](http://lostechies.com/jimmybogard/2013/10/10/put-your-controllers-on-a-diet-redux/)
-  * [Defactoring](http://lostechies.com/jimmybogard/2013/10/22/put-your-controllers-on-a-diet-defactoring/)
-  * [A survey](http://lostechies.com/jimmybogard/2013/10/23/put-your-controllers-on-a-diet-a-survey/)
+  * [Redux](https://lostechies.com/jimmybogard/2013/10/10/put-your-controllers-on-a-diet-redux/)
+  * [Defactoring](https://lostechies.com/jimmybogard/2013/10/22/put-your-controllers-on-a-diet-defactoring/)
+  * [A survey](https://lostechies.com/jimmybogard/2013/10/23/put-your-controllers-on-a-diet-a-survey/)
 
 In the last post, we surveyed the field to determine the path forward. Looking at our controller (and others), our controllers aren’t _too_ messy, but they’re well on their way. On top of that, testing is going to start to get annoying if I have any more things going on.
 
@@ -86,7 +86,7 @@ However, something’s still a bit off. We have to take all these handlers as co
 
 ### Mediators and diminutive buses
 
-If we want to pull all our queries behind a common abstraction, we first need to make sure all of our query handlers “look the same”. With our introduction of a query object, they all have the basic form of “class with one public method, one input and one output”. For the lazy, this pattern is already abstracted into the [ShortBus](https://github.com/mhinze/ShortBus) project from [Matt Hinze](http://lostechies.com/matthinze/). I don’t feel lazy, so let’s just build this from scratch. We’ll first create an interface representing our queries:
+If we want to pull all our queries behind a common abstraction, we first need to make sure all of our query handlers “look the same”. With our introduction of a query object, they all have the basic form of “class with one public method, one input and one output”. For the lazy, this pattern is already abstracted into the [ShortBus](https://github.com/mhinze/ShortBus) project from [Matt Hinze](https://lostechies.com/matthinze/). I don’t feel lazy, so let’s just build this from scratch. We’ll first create an interface representing our queries:
 
 {% gist 7214493 %}
 

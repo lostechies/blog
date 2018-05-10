@@ -14,7 +14,7 @@ redirect_from: "/blogs/sharoncichelli/archive/2010/03/18/rhino-mocks-examples-wi
 ---
 Jon Kruger created an excellent [explanation of Rhino Mocks, using unit tests](http://jonkruger.com/blog/2010/03/12/how-to-use-rhino-mocks-documented-through-tests/) to demonstrate and illuminate the syntax and capabilities. (Found via [@gar3t](http://twitter.com/gar3t).) It needs one small correction, which I&#8217;d like to write about here so that I can link to and support Jon&#8217;s work, and because it gives the opportunity to clarify a subtle distinction between mocks and stubs and verified expectations.
 
-First, go check out [Jon&#8217;s code](http://github.com/JonKruger/RhinoMocksExamples/raw/master/src/RhinoMocksExamples/RhinoMocksExamples/RhinoMocksTests.cs), then come back here.
+First, go check out [Jon&#8217;s code](https://github.com/JonKruger/RhinoMocksExamples/raw/master/src/RhinoMocksExamples/RhinoMocksExamples/RhinoMocksTests.cs), then come back here.
 
 The problem lies in the following test. I can comment out the part that looks like it is satisfying the assertions, yet the test still passes&mdash;a false positive.
 

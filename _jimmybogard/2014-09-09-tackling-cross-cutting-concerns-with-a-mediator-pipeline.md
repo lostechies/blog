@@ -14,7 +14,7 @@ categories:
 ---
 > Originally [posted on the Skills Matter website](http://blog.skillsmatter.com/2014/08/29/one-model-in-one-model-out/)
 
-In most of the projects I’ve worked on in the last several years, I’ve put in place a mediator to manage the delivery of messages to handlers. I’ve covered the [motivation behind such a pattern in the past](http://lostechies.com/jimmybogard/2013/12/19/put-your-controllers-on-a-diet-posts-and-commands/), where it works well and where it doesn’t.
+In most of the projects I’ve worked on in the last several years, I’ve put in place a mediator to manage the delivery of messages to handlers. I’ve covered the [motivation behind such a pattern in the past](https://lostechies.com/jimmybogard/2013/12/19/put-your-controllers-on-a-diet-posts-and-commands/), where it works well and where it doesn’t.
 
 One of the advantages behind the [mediator pattern](http://en.wikipedia.org/wiki/Mediator_pattern) is that it allows the application code to define a pipeline of activities for requests, as opposed to embedding this pipeline in other frameworks such as Rails, node.js, ASP.NET Web API and so on. These frameworks have many other concerns going on besides the very simple “one model in, one model out” pattern that so greatly simplifies conceptualizing the system and realizing more powerful patterns.
 

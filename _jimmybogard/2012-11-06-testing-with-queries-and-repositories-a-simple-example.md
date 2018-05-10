@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Testing
 ---
-Not being [much of a fan of the Repository pattern](http://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/), or better yet, not a fan of applying it as a universal data access strategy, one question that comes up often is “but what about testing”? But the question should really be “what am I testing”?
+Not being [much of a fan of the Repository pattern](https://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/), or better yet, not a fan of applying it as a universal data access strategy, one question that comes up often is “but what about testing”? But the question should really be “what am I testing”?
 
 Let’s look at something like our original controller action we were trying to test:
 

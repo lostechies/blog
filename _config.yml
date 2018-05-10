@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lostechies.com" # the base hostname & protocol for your site, e.g. http://example.com
 identifier: "https*://lostechies.com" # regex to identify local site posts
-feed: "http://feeds.feedburner.com/LosTechies"
+feed: "https://feeds.feedburner.com/LosTechies"
 twitter_username: lostechies
 github_username:  lostechies
 #permalink: /:collection/:year/:month/:day/:title/
@@ -142,7 +142,7 @@ collections:
       short_name: "jimmybogardblog"
       active: true
     post-identifier: "(jimmybogard.com)|(GrabBagOfT)"
-    feed: "http://feeds.feedburner.com/GrabBagOfT"
+    feed: "https://feeds.feedburner.com/GrabBagOfT"
   derikwhittaker:
     active: true
     author: "Derik Whittaker"

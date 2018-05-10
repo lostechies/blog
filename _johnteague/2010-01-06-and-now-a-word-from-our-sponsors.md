@@ -28,6 +28,6 @@ Say what you want for MS, but they have been a great sponsor of community events
   * [The Lounge](http://theloungenet.com) provided advertising 
   * [Infragistics](http://infragistics.com) 
   * Avenida Software (Me) 
-  * Independent Software Fabrication ([Gregory Long](http://www.lostechies.com/blogs/thatotherguy/default.aspx) [Linkedin](http://www.linkedin.com/in/gregoryplong)) 
+  * Independent Software Fabrication ([Gregory Long](https://lostechies.com/blogs/thatotherguy/default.aspx) [Linkedin](http://www.linkedin.com/in/gregoryplong)) 
 
 The Conference is coming together really well.&#160; 75 people have registered.&#160; We are limiting space to 150, so if you are waiting to the last moment, you might want to speed that up.

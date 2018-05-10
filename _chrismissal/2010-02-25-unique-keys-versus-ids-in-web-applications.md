@@ -31,4 +31,4 @@ Use keys over (or in conjunction with) IDs. They’re nice, they’re good and y
 ### More Resources
 
   * Phil Haack recently posted a good solution to using keys (or slugs) in your MVC application. With [Phil’s friendly URLs](http://haacked.com/archive/2010/02/21/manipulating-action-method-parameters.aspx), you don’t have to sacrafice your precious integer IDs either. 
-  * Derick Bailey had posts last summer (2009) with some [thoughts on Database IDs](http://www.lostechies.com/blogs/derickbailey/archive/2009/07/14/database-id-int-vs-bigint-vs-guid.aspx) and [the storage implications](http://www.lostechies.com/blogs/derickbailey/archive/2009/07/15/storage-size-and-performance-implications-of-a-guid-pk.aspx). (_Good comments!_)
+  * Derick Bailey had posts last summer (2009) with some [thoughts on Database IDs](https://lostechies.com/blogs/derickbailey/archive/2009/07/14/database-id-int-vs-bigint-vs-guid.aspx) and [the storage implications](https://lostechies.com/blogs/derickbailey/archive/2009/07/15/storage-size-and-performance-implications-of-a-guid-pk.aspx). (_Good comments!_)

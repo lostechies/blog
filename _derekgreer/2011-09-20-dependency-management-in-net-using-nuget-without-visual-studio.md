@@ -12,7 +12,7 @@ categories:
 tags:
   - NuGet
 ---
-In my [last article](http://lostechies.com/derekgreer/2011/09/18/dependency-management-in-net/), I discussed some of my previous experiences with dependency management solutions and set forth some primary objectives I believe a dependency management tool should facilitate. In this article, I’ll show how I’m currently leveraging NuGet’s command line tool to help facilitate my dependency management goals.
+In my [last article](https://lostechies.com/derekgreer/2011/09/18/dependency-management-in-net/), I discussed some of my previous experiences with dependency management solutions and set forth some primary objectives I believe a dependency management tool should facilitate. In this article, I’ll show how I’m currently leveraging NuGet’s command line tool to help facilitate my dependency management goals.
 
 First, it should be noted that NuGet was designed primarily to help .Net developers more easily discover, add, update, and remove dependencies to externally managed packages from within Visual Studio. It was not designed to support build-time, application-level dependency management outside of Visual Studio. While NuGet wasn’t designed for this purpose, I believe it currently represents the best available option for accomplishing these goals. 
 

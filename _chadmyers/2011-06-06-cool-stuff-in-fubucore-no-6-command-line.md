@@ -13,7 +13,7 @@ categories:
   - fubucore
   - FubuMVC
 ---
-This is the sixth post of the FubuCore series mentioned in the [Introduction post](http://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
+This is the sixth post of the FubuCore series mentioned in the [Introduction post](https://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
 
 In the course of building the Fubu packaging infrastructure and later the deployment story, we had need for some command line apps to help automate some of the tedium of linking apps, poking some config files, etc.  Jeremy whipped up a nifty little [command-line helper framework](https://github.com/DarthFubuMVC/fubucore/tree/master/src/FubuCore/CommandLine) in FubuCore which impressed me as the beginning of a really sweet modular, convention-based, pluggable command-line facility.  If you’re building a big command-line app that lots of options, switches, flags, etc you might want to keep an eye on this. Or better yet, contribute! If you’re looking to be a Fubu contributor and are looking for a nice place to make a difference without biting off a big chunk of work, this might be a good place to start.
 

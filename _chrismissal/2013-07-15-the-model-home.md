@@ -13,7 +13,7 @@ categories:
   - development
   - DRY
 ---
-The other day I was having a discussion with my co-worker [Justin](http://www.justincpope.com/ "Justin Pope") and came up with an analogy I rather like. I was working on three similar, but slightly different features and first decided to build the foundation for all three of these. Not long in and Justin recommended that I should probably get one of them working (a vertical slice) and then building the other two should be a lot smoother because the patterns defined in the first will already be proven.[<img class="alignright size-medium wp-image-398" title="Bluth Model Home" src="http://lostechies.com/content/chrismissal/uploads/2013/07/2x09_Burning_Love-300x168.png" alt="" width="300" height="168" />](/content/chrismissal/uploads/2013/07/2x09_Burning_Love.png)
+The other day I was having a discussion with my co-worker [Justin](http://www.justincpope.com/ "Justin Pope") and came up with an analogy I rather like. I was working on three similar, but slightly different features and first decided to build the foundation for all three of these. Not long in and Justin recommended that I should probably get one of them working (a vertical slice) and then building the other two should be a lot smoother because the patterns defined in the first will already be proven.[<img class="alignright size-medium wp-image-398" title="Bluth Model Home" src="https://lostechies.com/content/chrismissal/uploads/2013/07/2x09_Burning_Love-300x168.png" alt="" width="300" height="168" />](/content/chrismissal/uploads/2013/07/2x09_Burning_Love.png)
 
 This makes sense and I have done this in the past. This time around though, a few ideas came to mind:
 

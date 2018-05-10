@@ -12,7 +12,7 @@ categories:
   - Community
 redirect_from: "/blogs/hex/archive/2010/03/15/discountasp-net-is-a-platinum-sponsor-of-austin-code-camp-2010.aspx/"
 ---
-_[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="dasplogo_tagline" src="http://lostechies.com/content/erichexter/uploads/2011/03/dasplogo_tagline_37E67135.jpg" width="240" height="140" />](http://bit.ly/drsr6H)_ 
+_[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="dasplogo_tagline" src="https://lostechies.com/content/erichexter/uploads/2011/03/dasplogo_tagline_37E67135.jpg" width="240" height="140" />](http://bit.ly/drsr6H)_ 
 
 _DiscountASP.NET_ delivers the best value in cutting edge, enterprise-class shared ASP.NET Hosting through continuous innovation. We offer One Hosting Plan and Add-ons in the US and UK.
 

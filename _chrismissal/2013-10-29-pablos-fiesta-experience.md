@@ -12,7 +12,7 @@ categories:
 ---
 # My Pablo&#8217;s Fiesta Experience
 
-In case you missed it, [Pablo&#8217;s Fiesta](http://lostechies.github.io/fiesta/) was this past weekend. As usual, it was great! In addition to meeting smart new people and seeing tons of old friends, I also learned a thing or two at Pablo&#8217;s Fiesta over the weekend:
+In case you missed it, [Pablo&#8217;s Fiesta](https://lostechies.github.io/fiesta/) was this past weekend. As usual, it was great! In addition to meeting smart new people and seeing tons of old friends, I also learned a thing or two at Pablo&#8217;s Fiesta over the weekend:
 
 ### The sessions I attended
 
@@ -29,4 +29,4 @@ In case you missed it, [Pablo&#8217;s Fiesta](http://lostechies.github.io/fiesta
   * [Bender](https://github.com/mikeobrien/Bender) – XML and JSON serialization/deserialization. For when you need something lightweight and fast.
   * [NuDoq](http://www.nudoq.org/) – Documentation pulled from NuGet packages!
   * [FubuTransportation](https://github.com/DarthFubuMVC/FubuTransportation) – Low friction Service Bus using the best of the Fubu world
-  * [Karma](http://karma-runner.github.io/0.10/index.html) – Spectacular Test Runner for JavaScript
+  * [Karma](https://karma-runner.github.io/0.10/index.html) – Spectacular Test Runner for JavaScript

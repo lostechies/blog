@@ -18,13 +18,13 @@ redirect_from: "/blogs/gabrielschenker/archive/2010/05/27/working-with-code-base
 
 In our **Silverlight** projects we are using the **[AgDataGrid](http://devexpress.com/Products/NET/Controls/Silverlight/Grid/)** of **DevExpress** to visualize data. I wrote some expressions that make it possible to use this data grid with **Fluent Silverlight**. During the writing of those expressions once again I hit some brick walls. In this post I want to show one specific solution to throw down such a wall and continue the journey…
 
-Please refer to [this](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx) post regarding more detail about Fluent Silverlight.
+Please refer to [this](https://lostechies.com/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx) post regarding more detail about Fluent Silverlight.
 
 ## Problem
 
 Provide a check box column header whose click action can be bound to an action on the view model.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_49443D59.png" width="192" height="185" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_779DC306.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_49443D59.png" width="192" height="185" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_779DC306.png) 
 
 Sounds easy isn’t it? Just define a column header template and… err…
 

@@ -18,7 +18,7 @@ redirect_from: "/blogs/derickbailey/archive/2009/05/13/fluentnhibernate-contrib-
 ---
 A few months ago, a coworker created a set of extension methods to turn [NHibernate](http://nhibernate.org)’s [Criteria API](https://www.hibernate.org/hib_docs/nhibernate/1.2/reference/en/html/querycriteria.html) into a more fluenty, strongly typed API. We’ve been using it in a production app for a few months, and I wanted to share it with the world. After talking about it with the other [Fluent NHibernate](http://fluentnhibernate.org) contributors, we decided that it was not a good time to introduce new APIs and features into FNH right now (especially considering that we just removed Repository and Linq from FNH).
 
-Thus, [FNH.Contrib](http://github.com/derickbailey/FNH.Contrib/tree/master) was born!
+Thus, [FNH.Contrib](https://github.com/derickbailey/FNH.Contrib/tree/master) was born!
 
 ### FluentNHibernate.Query
 
@@ -145,7 +145,7 @@ Right now the only project in FNH.Contrib is the fluent query API. The basic ide
             </p>
             
             <p>
-              I also plan to put in a complete <a href="http://www.lostechies.com/blogs/derickbailey/archive/2009/04/08/how-a-net-developer-learned-ruby-and-rake-to-build-net-apps-in-windows.aspx">Rake</a> based automated build, and hopefully get a full suite of unit tests wrapped around the code, moving forward.
+              I also plan to put in a complete <a href="https://lostechies.com/blogs/derickbailey/archive/2009/04/08/how-a-net-developer-learned-ruby-and-rake-to-build-net-apps-in-windows.aspx">Rake</a> based automated build, and hopefully get a full suite of unit tests wrapped around the code, moving forward.
             </p>
             
             <h3>
@@ -161,7 +161,7 @@ Right now the only project in FNH.Contrib is the fluent query API. The basic ide
             
             <blockquote>
               <p>
-                <a title="http://github.com/derickbailey/FNH.Contrib/tree/master" href="http://github.com/derickbailey/FNH.Contrib/tree/master"><strong>http://github.com/derickbailey/FNH.Contrib/tree/master</strong></a>
+                <a title="https://github.com/derickbailey/FNH.Contrib/tree/master" href="https://github.com/derickbailey/FNH.Contrib/tree/master"><strong>https://github.com/derickbailey/FNH.Contrib/tree/master</strong></a>
               </p>
             </blockquote>
             

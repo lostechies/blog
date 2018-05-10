@@ -11,7 +11,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/chris_patterson/archive/2007/12/30/what-i-do-is-what-i-do-is-what-you-do-or-what.aspx/"
 ---
-Since I got [tagged](http://lostechies.com/blogs/joe_ocampo/default.aspx) by [more than one](http://www.lostechies.com/blogs/sean_chambers/default.aspx) of my fellow Los Techies bloggers, I figured I better step up and throw down.
+Since I got [tagged](https://lostechies.com/blogs/joe_ocampo/default.aspx) by [more than one](https://lostechies.com/blogs/sean_chambers/default.aspx) of my fellow Los Techies bloggers, I figured I better step up and throw down.
 
 While my job history is available on my [LinkedIn profile](http://www.linkedin.com/in/chrispatterson), I&#8217;m going to focus on what I do today. The executive summary of the last 20 years spans from [Turbo Pascal](http://en.wikipedia.org/wiki/Turbo_Pascal) and [dBase III Plus](http://en.wikipedia.org/wiki/DBASE) to C# and SQL Server.
 

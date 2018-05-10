@@ -17,7 +17,7 @@ The meeting will be at&nbsp; Tuesday July 8th at 6:00pm at the <a href="http://m
 
 &nbsp;
 
-You can subscribe to this feed here <http://feeds.feedburner.com/EricHexter> 
+You can subscribe to this feed here <https://feeds.feedburner.com/EricHexter> 
 
 See you next week. 
 

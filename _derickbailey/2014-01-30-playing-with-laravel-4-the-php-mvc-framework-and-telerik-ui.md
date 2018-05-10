@@ -26,7 +26,7 @@ I&#8217;m a sucker for learning, honestly. I love trying out new toys, banging t
 
 My over-all impression of Laravel is that it is a well done, complete implementation of an MVC framework for a web server, in the vein of Ruby on Rails. It has that familiar structure of models, views and controllers for folders and objects. 
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage9.png" alt="NewImage" width="313" height="464" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2014/01/NewImage9.png" alt="NewImage" width="313" height="464" border="0" />
 
 You also have a router to configure, migrations to build, and lot of other common configuration and expected things inside of a modern MVC framework. It even looks like there is some sort of asset pipeline type of functionality. The `hello.blade.php` file, for example, gets parsed by the [Blade view engine](http://laravel.com/docs/templates). I&#8217;m not sure how far this functionality extends &#8211; I haven&#8217;t tried adding multiple steps via multiple . file extensions yet. But, I know that if you rename this file to just &#8220;hello.php&#8221; it won&#8217;t be parsed as a blade file. It will just be a standard PHP file.
 
@@ -48,11 +48,11 @@ After playing with Laravel for a bit, I decided to grab the Kendo UI PHP extensi
 
 I started by copying the Kendo UI PHP files in to a &#8220;lib&#8221; folder:
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage11.png" alt="NewImage" width="600" height="217" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2014/01/NewImage11.png" alt="NewImage" width="600" height="217" border="0" />
 
 I also set up the standard Kendo UI JavaScript and CSS files in the /public folder of the project, and added those references to my project layout.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage10.png" alt="NewImage" width="600" height="251" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2014/01/NewImage10.png" alt="NewImage" width="600" height="251" border="0" />
 
 You need the Kendo UI JavaScript and CSS to run any of this, because the PHP extensions don&#8217;t build the HTML output directly. They produce JavaScript that is used in your browser to configure and run your Kendo UI controls. You can learn a bit more about that in my [PHP demo videos for Kendo UI](http://www.telerik.com/videos/php-ui).
 
@@ -80,7 +80,7 @@ Having set all that up, getting a Kendo UI control in place was easy. To start w
 
 With that in place, reloading my view shows the DatePicker control as expected:
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage12.png" alt="NewImage" width="341" height="433" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2014/01/NewImage12.png" alt="NewImage" width="341" height="433" border="0" />
 
 Now to get some data in place.
 
@@ -92,7 +92,7 @@ I started with the Laravel quickstart guide of adding a User table and model, an
 
 The awesome thing to note here, is the use of `$users->toArray()`. The Kendo UI PHP wrappers are smart enough to take this array of objects and convert it in to a JSON document for you, in your HTML. When the page gets rendered, then, the browser has all the data it needs for the drop down list. The result is what you would expect, then. A nice drop down list with the data loaded from the `Users::allI()` call.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage13.png" alt="NewImage" width="225" height="274" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2014/01/NewImage13.png" alt="NewImage" width="225" height="274" border="0" />
 
 Of course this doesn&#8217;t cover loading data at runtime, using AJAX. But i&#8217;ll let [my videos on the PHP extensions](http://www.telerik.com/videos/php-ui) cover that for you.
 

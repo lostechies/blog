@@ -15,7 +15,7 @@ This past weekend Jacksonville Code Camp took place at University of North Flori
 
 I did one presentation on SOLID Principles. As noted&#160; here are some relevant urls to information about my talk:
 
-<http://github.com/schambers/solid-principles/tree/master>
+<https://github.com/schambers/solid-principles/tree/master>
 
 At that repository is the presentation and all of the sample code I used during the presentation for your reference.
 

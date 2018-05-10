@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 ---
-I&#8217;ve been developing a .NET test framework, [Fixie](https://github.com/plioi/fixie), over the last few months, documenting my progress each week on my old blog. The relevant posts are reachable via the [Fixie github page](http://plioi.github.io/fixie). For my inaugural Los Techies post, I thought I&#8217;d catch everyone up with the elevator pitch. The elevator is in a fairly tall building.
+I&#8217;ve been developing a .NET test framework, [Fixie](https://github.com/plioi/fixie), over the last few months, documenting my progress each week on my old blog. The relevant posts are reachable via the [Fixie github page](https://plioi.github.io/fixie). For my inaugural Los Techies post, I thought I&#8217;d catch everyone up with the elevator pitch. The elevator is in a fairly tall building.
 
 First, I found myself favoring xUnit over NUnit, mainly for the brevity that it gives you as a result of its simpler test class lifecycle. When you get one instance of a test class for each test method, concepts like construction, [SetUp], and [TestFixtureSetUp] collapse into simple construction. Trading away boilerplate in order to use built-in language constructs like constructors feels right.
 

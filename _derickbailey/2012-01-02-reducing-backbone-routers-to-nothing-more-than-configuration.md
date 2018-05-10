@@ -12,7 +12,7 @@ categories:
   - JavaScript
   - Marionette
 ---
-I received an email from someone who was looking through my [BBCloneMail](https://github.com/derickbailey/bbclonemail) and [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) source code. One of the comments they made talked about how my router callback methods were nothing more than pass-throughs, calling out to another object. (I think this is one of the points that Tim Branyen was making in [the comments of my previous post](http://lostechies.com/derickbailey/2011/12/27/the-responsibilities-of-the-various-pieces-of-backbone-js/), too).
+I received an email from someone who was looking through my [BBCloneMail](https://github.com/derickbailey/bbclonemail) and [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) source code. One of the comments they made talked about how my router callback methods were nothing more than pass-throughs, calling out to another object. (I think this is one of the points that Tim Branyen was making in [the comments of my previous post](https://lostechies.com/derickbailey/2011/12/27/the-responsibilities-of-the-various-pieces-of-backbone-js/), too).
 
 Here&#8217;s an example of the code that the email was referring to:
 

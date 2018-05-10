@@ -24,9 +24,9 @@ My team is coming out of the “infrastructure buildup” phase enough for me to
 In this series of posts, I’m going to cover a few topics:
 
   1. The AjaxContinuation (this post)
-  2. [Clientside Continuations](http://lostechies.com/josharnold/2012/01/06/our-ajax-conventionsclientside-continuations/)
-  3. [Request Correlation](http://lostechies.com/josharnold/2012/01/07/our-ajax-conventionsrequest-correlation/)
-  4. [Validation](http://lostechies.com/josharnold/2012/01/08/our-ajax-conventionsvalidation/)
+  2. [Clientside Continuations](https://lostechies.com/josharnold/2012/01/06/our-ajax-conventionsclientside-continuations/)
+  3. [Request Correlation](https://lostechies.com/josharnold/2012/01/07/our-ajax-conventionsrequest-correlation/)
+  4. [Validation](https://lostechies.com/josharnold/2012/01/08/our-ajax-conventionsvalidation/)
 
 ## The Ajax Continuation
 

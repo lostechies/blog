@@ -21,13 +21,13 @@ categories:
 ---
 _using signalR aspnetmvc knockoutjs javascript jquerymobile x10_
 
-_[Part 1 – Synchronizing webpages across devices with SignalR](http://lostechies.com/erichexter/2012/10/30/synchronizing-webpages-across-devices-home-automation/)_
+_[Part 1 – Synchronizing webpages across devices with SignalR](https://lostechies.com/erichexter/2012/10/30/synchronizing-webpages-across-devices-home-automation/)_
   
-_[Part 2 – Architecture for a SignalR Synchronized Webpage Application](http://lostechies.com/erichexter/2012/11/05/architecture-for-a-signalr-synchronized-webpage-application-part-2/)_
+_[Part 2 – Architecture for a SignalR Synchronized Webpage Application](https://lostechies.com/erichexter/2012/11/05/architecture-for-a-signalr-synchronized-webpage-application-part-2/)_
   
-_[Part 3 – Publish Subscribe using SignalR](http://lostechies.com/erichexter/2012/11/08/publish-and-subscribe-using-signalr-in-home-automation-part-3/)_
+_[Part 3 – Publish Subscribe using SignalR](https://lostechies.com/erichexter/2012/11/08/publish-and-subscribe-using-signalr-in-home-automation-part-3/)_
   
-_[Part 4 – Front End Code Review](http://lostechies.com/erichexter/2012/11/12/code-review-of-a-publishsubscribe-architecture-using-signalr-in-home-automation-part-4/)_
+_[Part 4 – Front End Code Review](https://lostechies.com/erichexter/2012/11/12/code-review-of-a-publishsubscribe-architecture-using-signalr-in-home-automation-part-4/)_
 
 <span style="font-size: medium;">I previously covered the overview and architecture for a home automation application using signalR, knockoutJS, and asp.net mvc in previous posts. In this post I will dive into the sequence diagram of how a ui interaction, to turn on a light bulb sends messages through the application.</span>
 
@@ -35,11 +35,11 @@ _[Part 4 – Front End Code Review](http://lostechies.com/erichexter/2012/11/12/
 
 _<span style="font-size: medium;">As the home owner, I want <strong>to turn on my light</strong> from my phone before I get home and walk in the door, so that I don’t trip over the dog.</span>_
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb2.png" alt="image" width="560" height="131" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image2.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb2.png" alt="image" width="560" height="131" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image2.png)
 
 _<span style="color: #666666;">This is what the storyboard looks like in for the application.</span>_
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb3.png" alt="image" width="580" height="223" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image3.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb3.png" alt="image" width="580" height="223" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image3.png)
 
 _<span style="color: #666666;">This is the user interface interaction which starts this event in the application.</span>_
 
@@ -47,7 +47,7 @@ _<span style="color: #666666;">This is the user interface interaction which star
 
 <span style="font-size: medium;">Above, I have outlined the story board in which, the user navigates to the application from their phone, and they then click on a button in the application. When they walk in the door, they are delighted by how far technology has come.</span>
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb4.png" alt="image" width="551" height="648" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image4.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb4.png" alt="image" width="551" height="648" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image4.png)
 
 <span style="color: #666666; font-size: medium;"><em>Sequence diagram of the startup, page load, and light on interaction.</em></span>
 
@@ -65,4 +65,4 @@ _<span style="color: #666666;">This is the user interface interaction which star
 
 Follow me on RSS and Twitter
   
-<a href="https://twitter.com/ehexter" style="float:left;valign:top" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ehexter</a><a style="float:left" href="http://feeds.feedburner.com/EricHexter" title="Subscribe to my feed" rel="alternate" type="application/rss+xml"><img src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" style="border:0;padding-right:10px" /></a>
+<a href="https://twitter.com/ehexter" style="float:left;valign:top" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ehexter</a><a style="float:left" href="https://feeds.feedburner.com/EricHexter" title="Subscribe to my feed" rel="alternate" type="application/rss+xml"><img src="https://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" style="border:0;padding-right:10px" /></a>

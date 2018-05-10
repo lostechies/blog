@@ -13,7 +13,7 @@ categories:
   - JavaScript
   - WinJS
 ---
-In a previous post, I showed a very brief intro to using [an application level event aggregator in WinJS](http://lostechies.com/derickbailey/2012/07/26/a-quick-note-on-pub-sub-event-aggregators-in-winjswinrt/). At the end of that post, I hinted at an option I was looking in to for creating localized event aggregators &#8211; basically, objects that can be observed. It turns out the path I was heading down was right, and it&#8217;s super simple to implement an evented object in WinJS.
+In a previous post, I showed a very brief intro to using [an application level event aggregator in WinJS](https://lostechies.com/derickbailey/2012/07/26/a-quick-note-on-pub-sub-event-aggregators-in-winjswinrt/). At the end of that post, I hinted at an option I was looking in to for creating localized event aggregators &#8211; basically, objects that can be observed. It turns out the path I was heading down was right, and it&#8217;s super simple to implement an evented object in WinJS.
 
 ## A Brief Detour: WinJS &#8220;Class&#8221;
 
@@ -23,7 +23,7 @@ Before I show you how to create an evented object in WinJS, you need to know how
 
 There are two other methods on the [WinJS.Class](http://msdn.microsoft.com/en-us/library/windows/apps/br229776.aspx) object, which are also useful but not important to this blog post.
 
-Personally, I think it&#8217;s very unfortunate that they chose to use the word &#8220;class&#8221; for this. It will be misleading and cause problems for developers that come from other languages, because people will expect the result to be a class. And while JavaScript functions can be used to create new object instances, thus behaving like a class a little, they are not classes. (For more of my thoughts, read [this post on class-y frameworks](http://lostechies.com/derickbailey/2012/04/12/classyobjects-a-javascript-classy-inheritance-example/))
+Personally, I think it&#8217;s very unfortunate that they chose to use the word &#8220;class&#8221; for this. It will be misleading and cause problems for developers that come from other languages, because people will expect the result to be a class. And while JavaScript functions can be used to create new object instances, thus behaving like a class a little, they are not classes. (For more of my thoughts, read [this post on class-y frameworks](https://lostechies.com/derickbailey/2012/04/12/classyobjects-a-javascript-classy-inheritance-example/))
 
 But moving on…
 
@@ -61,6 +61,6 @@ One last tip with event aggregators and evented objects: **You are responsible f
 
 Fortunately the solution to this is easy: **remove your event bindings when you&#8217;re done with them**.
 
-I&#8217;ve written about this a lot [in context of Backbone](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/) and in [JavaScript in general](http://lostechies.com/derickbailey/2012/03/19/backbone-js-and-javascript-garbage-collection/). The same rules apply to WinJS as well. In fact, I&#8217;ve had this notion in the back of my mind already, that I need to create an EventBinder object for WinJS the same way [I did for Backbone.Marionette](https://github.com/derickbailey/backbone.marionette/blob/master/docs/marionette.eventbinder.md), as a core part of my own application&#8217;s memory management. We&#8217;ll see if I ever get a chance to do this, but I think it is something that needs to be done.
+I&#8217;ve written about this a lot [in context of Backbone](https://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/) and in [JavaScript in general](https://lostechies.com/derickbailey/2012/03/19/backbone-js-and-javascript-garbage-collection/). The same rules apply to WinJS as well. In fact, I&#8217;ve had this notion in the back of my mind already, that I need to create an EventBinder object for WinJS the same way [I did for Backbone.Marionette](https://github.com/derickbailey/backbone.marionette/blob/master/docs/marionette.eventbinder.md), as a core part of my own application&#8217;s memory management. We&#8217;ll see if I ever get a chance to do this, but I think it is something that needs to be done.
 
 Just remember: it&#8217;s your responsibility as a developer to understand that this is the nature of the observer pattern and references. And just because you&#8217;re running a managed / garbage collected language, doesn&#8217;t mean you can&#8217;t create memory leaks and zombies.

@@ -71,7 +71,7 @@ tags:
   </ul>
 </div>
 
-In the [last](http://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/) installment of the Effective Tests series, the topic of Custom Assertions was presented as a strategy for helping to clarify the intent of our tests. This time we’ll take a look at another test pattern for improving the communication of our tests in addition to reducing test code duplication and the need to add test-specific code to our production types.
+In the [last](https://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/) installment of the Effective Tests series, the topic of Custom Assertions was presented as a strategy for helping to clarify the intent of our tests. This time we’ll take a look at another test pattern for improving the communication of our tests in addition to reducing test code duplication and the need to add test-specific code to our production types.
 
 ## Expected Objects
 
@@ -232,7 +232,7 @@ The implementation strategy in listing 3 offers a subtle shift in perspective, b
 
 This is not to say that discrete assertions are always wrong. The level of detail modeled by an application’s specifications should be based upon the needs of the business. Consider the test runner output for both implementations:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="ExpectedObjectContrast" border="0" alt="ExpectedObjectContrast" src="http://lostechies.com/content/derekgreer/uploads/2011/06/ExpectedObjectContrast_thumb.png" width="668" height="278" />](http://lostechies.com/content/derekgreer/uploads/2011/06/ExpectedObjectContrast.png) 
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="ExpectedObjectContrast" border="0" alt="ExpectedObjectContrast" src="https://lostechies.com/content/derekgreer/uploads/2011/06/ExpectedObjectContrast_thumb.png" width="668" height="278" />](https://lostechies.com/content/derekgreer/uploads/2011/06/ExpectedObjectContrast.png) 
 
 <font size="1"><b>Figure 1</b> </font>
 
@@ -240,7 +240,7 @@ Examining the results of executing both specifications in figure 1, we see that 
 
 ## Explicit Feedback
 
-While the Expected Object implementation shown in listing 2 may be an adequate approach in some cases, it does have the shortcoming of not providing explicit feedback of how the two objects differ. To address this, we can implement our Expected Object as a [Custom Assertion](http://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/). Instead of asserting on the return value of comparing the expected object to an object returned from our system, we can design the Expected Object to throw an exception detailing what state differed between the two objects. The following listing demonstrates this approach: 
+While the Expected Object implementation shown in listing 2 may be an adequate approach in some cases, it does have the shortcoming of not providing explicit feedback of how the two objects differ. To address this, we can implement our Expected Object as a [Custom Assertion](https://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/). Instead of asserting on the return value of comparing the expected object to an object returned from our system, we can design the Expected Object to throw an exception detailing what state differed between the two objects. The following listing demonstrates this approach: 
 
 <pre class="prettyprint">class ExpectedOrderReceipt : OrderReceipt
 {
@@ -347,7 +347,7 @@ public class when_an_order_is_placed : WithSubject&lt;OrderService&gt;
 
 Running the specification produces the following output:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="ExpectedObjectExplicitFeedback" border="0" alt="ExpectedObjectExplicitFeedback" src="http://lostechies.com/content/derekgreer/uploads/2011/06/ExpectedObjectExplicitFeedback_thumb.png" width="639" height="91" />](http://lostechies.com/content/derekgreer/uploads/2011/06/ExpectedObjectExplicitFeedback.png)   
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="ExpectedObjectExplicitFeedback" border="0" alt="ExpectedObjectExplicitFeedback" src="https://lostechies.com/content/derekgreer/uploads/2011/06/ExpectedObjectExplicitFeedback_thumb.png" width="639" height="91" />](https://lostechies.com/content/derekgreer/uploads/2011/06/ExpectedObjectExplicitFeedback.png)   
 **<font size="1">Figure 2</font>** 
 
 ## Conclusion

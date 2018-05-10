@@ -25,17 +25,17 @@ So at the Alt.Net conference in Seattle I proposed a session to talk about Unit 
 
 The first line in this example shows a line that is from my special assertion code.&#160; I do not want that to show up when a user runs a unit test with my assertion.
 
-&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_78309898.png" width="1134" height="95" />
+&#160; <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_78309898.png" width="1134" height="95" />
 
 Here is my little assertion helper example.&#160; Since I just created a standard exception I got the default behavior.</p> 
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_1E927BE4.png" width="1028" height="226" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_1E927BE4.png" width="1028" height="226" />
 
 &#160;
 
 The way to fix this is to throw a special exception which knows how to remove specific frames out of the call stack.&#160; This code was adapted from the xUnit source code and is working quite well in the MvcContrib Test Helper Library
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_3D68EFC2.png" width="1028" height="571" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_3D68EFC2.png" width="1028" height="571" />
 
 With some simple string manipulation of removing lines that contain the namespace of my exception it is really easy to reuse this exception in an Unit Test framework Agnostic helper library.
 
@@ -43,7 +43,7 @@ With some simple string manipulation of removing lines that contain the namespac
 
 Here is the result of an assertion that failed using this assertion.&#160; As you can see the test runner does not show lines that my assertion framework contain the call stack stops at the last line in my unit test code.&#160; Which is exactly what we want.&#160; That way there is no question as to where the developer using this needs to look to get information about the test failure.
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_4192C787.png" width="1207" height="232" /></p> 
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_4192C787.png" width="1207" height="232" /></p> 
 
 This code is located in the MvcContrib TestHelper library located at <http://MvcContrib.org> in case you want to dig deeper into the code.&#160; I hope this helps others as it really took some time to get to this approach.. It seemed totally obvious to the developers of the unit test frameworks but for us mere mortals it took a little extra digging to really understand how the Unit Test runners work.&#160; 
 

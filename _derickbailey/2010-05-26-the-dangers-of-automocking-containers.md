@@ -17,7 +17,7 @@ categories:
   - Quality
 redirect_from: "/blogs/derickbailey/archive/2010/05/26/the-dangers-of-automocking-containers.aspx/"
 ---
-[Louis Salin](http://www.lostechies.com/blogs/louissalin/default.aspx) commented on my original post about the [Ninject.RhinoMocks automocking container](http://www.lostechies.com/blogs/derickbailey/archive/2010/05/21/ninject-rhinomocks-auto-mocking-container-for-net-3-5-and-compact-framework-3-5.aspx), and brought up a very good point. Here is his comment, reproduced in full:
+[Louis Salin](https://lostechies.com/blogs/louissalin/default.aspx) commented on my original post about the [Ninject.RhinoMocks automocking container](https://lostechies.com/blogs/derickbailey/archive/2010/05/21/ninject-rhinomocks-auto-mocking-container-for-net-3-5-and-compact-framework-3-5.aspx), and brought up a very good point. Here is his comment, reproduced in full:
 
 > _I&#8217;ve heard (or read&#8230;) that automocking is equivalent to taking weight loss pills while still eating cheesburgers for breakfast. Okay, I just made that up!_
 > 

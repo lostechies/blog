@@ -50,7 +50,7 @@ First, the avocation of a Ubiquitous Language is first and foremost to facilitat
 &nbsp; 
 
 <p align="center">
-  <a href="http://lostechies.com/content/derekgreer/uploads/2011/12/cargo_cult_3.jpg"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto; padding-top: 0px" title="cargo_cult_3" border="0" alt="cargo_cult_3" src="http://lostechies.com/content/derekgreer/uploads/2011/12/cargo_cult_3_thumb.jpg" width="500" height="256" /></a>&nbsp; <strong>Other people doing it wrong</strong>&nbsp;&nbsp;
+  <a href="https://lostechies.com/content/derekgreer/uploads/2011/12/cargo_cult_3.jpg"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto; padding-top: 0px" title="cargo_cult_3" border="0" alt="cargo_cult_3" src="https://lostechies.com/content/derekgreer/uploads/2011/12/cargo_cult_3_thumb.jpg" width="500" height="256" /></a>&nbsp; <strong>Other people doing it wrong</strong>&nbsp;&nbsp;
 </p>
 
 Second, the fractured language Evans is referring to is the use of technical jargon to describe business concepts, not whether the concepts are expressed in abbreviated form or not.&nbsp; Expansion of business acronyms within the code doesn’t necessarily constitute a departure from the Ubiquitous Language. 

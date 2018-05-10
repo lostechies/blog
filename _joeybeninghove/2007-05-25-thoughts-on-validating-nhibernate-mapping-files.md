@@ -10,7 +10,7 @@ categories:
   - Tools
 redirect_from: "/blogs/joeydotnet/archive/2007/05/24/thoughts-on-validating-nhibernate-mapping-files.aspx/"
 ---
-[Ben](http://flux88.com/) brought up a good (pain) point in his comment on [my last post](http://www.lostechies.com/blogs/joeydotnet/archive/2007/05/17/unit-testing-nhibernate-dals-what-are-you-really-testing.aspx)&nbsp;that can definitely occur when doing integration testing using NHibernate.&nbsp; Invalid mapping files can cause the ISessionFactory to break upon creation, often leaving you to check the logs to see what&#8217;s going on.&nbsp; But there are a few things you can do to help prevent this, or at least, make it easier to figure out what&#8217;s wrong.
+[Ben](http://flux88.com/) brought up a good (pain) point in his comment on [my last post](https://lostechies.com/blogs/joeydotnet/archive/2007/05/17/unit-testing-nhibernate-dals-what-are-you-really-testing.aspx)&nbsp;that can definitely occur when doing integration testing using NHibernate.&nbsp; Invalid mapping files can cause the ISessionFactory to break upon creation, often leaving you to check the logs to see what&#8217;s going on.&nbsp; But there are a few things you can do to help prevent this, or at least, make it easier to figure out what&#8217;s wrong.
 
 #### XML Intellisense Is Your Friend
 

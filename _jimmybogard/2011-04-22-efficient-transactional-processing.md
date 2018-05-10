@@ -31,7 +31,7 @@ However, if we need to ACT upon that information, we ALWAYS project into some so
 Bus.Send(subscriptions);
 </pre>
 
-That Project.To is just the [autoprojection to a DTO](http://lostechies.com/jimmybogard/2011/02/09/autoprojecting-linq-queries/) done at the SQL level. The object returned is a message that only includes the identifier, to be sent off for processing by message handlers (in my case, on the NServiceBus bus using MSMQ messages to 1 to N concurrent handlers).
+That Project.To is just the [autoprojection to a DTO](https://lostechies.com/jimmybogard/2011/02/09/autoprojecting-linq-queries/) done at the SQL level. The object returned is a message that only includes the identifier, to be sent off for processing by message handlers (in my case, on the NServiceBus bus using MSMQ messages to 1 to N concurrent handlers).
 
 In each handler, I’ll load up the aggregate root entity by its identifier, using whatever specific fetching strategy I need for that ONE entity and that ONE operation. I can then scale processing as much as I need to, and **decouple myself from the synchronous, serial processing the “foreach” loop saddles me to.**
 

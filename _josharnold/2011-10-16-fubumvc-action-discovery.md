@@ -32,7 +32,7 @@ The magic of the discovery happens through one very simple interface:
 
 Like most things used in our semantic model construction, we use this interface internally and expose a DSL for convenience. In this case, we do so via the Actions property on the FubuRegistry.
 
-I was going to spend the time to write up about this piece, but [Chad Myers](http://lostechies.com/chadmyers/) already did: [Cool stuff in FubuMVC No. 2: Action Conventions](http://lostechies.com/chadmyers/2011/10/07/cool-stuff-in-fubumvc-no-2-action-conventions/)
+I was going to spend the time to write up about this piece, but [Chad Myers](https://lostechies.com/chadmyers/) already did: [Cool stuff in FubuMVC No. 2: Action Conventions](https://lostechies.com/chadmyers/2011/10/07/cool-stuff-in-fubumvc-no-2-action-conventions/)
 
 The only thing I want to add is that you can register your own IActionSource implementations via the FindWith method (e.g., Actions.FindWith<MyActionSource>()).
 

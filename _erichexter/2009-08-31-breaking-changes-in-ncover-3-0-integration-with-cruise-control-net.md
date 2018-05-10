@@ -24,13 +24,13 @@ There were some changes to the [nCover](http://ncover.com) xml reports for code 
 
 You can view the statistics through this link on the project page inside the CCNet Web dashboard.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_62C9CFA7.png" width="665" height="403" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_2E95A661.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_62C9CFA7.png" width="665" height="403" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_2E95A661.png) 
 
 &#160;
 
 The coverage is not being collected with the new version of ncover…
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_08BF7FFE.png" width="535" height="556" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_2946BFB0.png)
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_08BF7FFE.png" width="535" height="556" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_2946BFB0.png)
 
 &#160;
 
@@ -53,4 +53,4 @@ The old xml node for selecting the coverage was a **firstMatch** element, that m
 
 Once the data is collected it falls into place and shows up in the trend chart….&#160; 
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_72F597A0.png" width="815" height="453" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_5A65FA50.png)
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_72F597A0.png" width="815" height="453" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_5A65FA50.png)

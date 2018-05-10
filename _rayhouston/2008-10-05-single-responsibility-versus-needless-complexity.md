@@ -9,7 +9,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/rhouston/archive/2008/10/05/single-responsibility-versus-needless-complexity.aspx/"
 ---
-At [Pablo&#8217;s Day of TDD](http://www.lostechies.com/blogs/chad_myers/archive/2008/09/15/announcing-pablo-s-days-of-tdd-in-austin-tx.aspx), we were discussing the [Single-Responsibility Principle (SRP)](http://www.lostechies.com/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx) while working through one of the labs and a question came up about a piece of code. The code in question looked something like the following (warning: this is over simplified code to show a point):
+At [Pablo&#8217;s Day of TDD](https://lostechies.com/blogs/chad_myers/archive/2008/09/15/announcing-pablo-s-days-of-tdd-in-austin-tx.aspx), we were discussing the [Single-Responsibility Principle (SRP)](https://lostechies.com/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx) while working through one of the labs and a question came up about a piece of code. The code in question looked something like the following (warning: this is over simplified code to show a point):
 
 <div>
   <pre style="padding-right: 0px;padding-left: 0px;font-size: 8pt;padding-bottom: 0px;margin: 0em;overflow: visible;width: 100%;color: black;border-top-style: none;line-height: 12pt;padding-top: 0px;font-family: consolas, 'Courier New', courier, monospace;border-right-style: none;border-left-style: none;background-color: #f4f4f4;border-bottom-style: none"><span style="color: #0000ff">public</span> <span style="color: #0000ff">bool</span> Login(<span style="color: #0000ff">string</span> username, <span style="color: #0000ff">string</span> password)

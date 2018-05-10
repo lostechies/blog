@@ -14,7 +14,7 @@ categories:
   - Risk Management
   - Security
 ---
-<del>I know a lot of people give credit to the idea of &#8220;<a href="http://lostechies.com/chadmyers/2008/03/16/time-to-login-screen-and-the-absolute-basic-requirements-for-good-software/">time to login</a>&#8220;. Personally, I don&#8217;t think that&#8217;s the right way to look at starting an app.</del> (**Note:** As Joshua Flanagan pointed out in the comments below, I completely mis-represented the post I linked to. Sorry about that. The rest of this post is still valid, though.)
+<del>I know a lot of people give credit to the idea of &#8220;<a href="https://lostechies.com/chadmyers/2008/03/16/time-to-login-screen-and-the-absolute-basic-requirements-for-good-software/">time to login</a>&#8220;. Personally, I don&#8217;t think that&#8217;s the right way to look at starting an app.</del> (**Note:** As Joshua Flanagan pointed out in the comments below, I completely mis-represented the post I linked to. Sorry about that. The rest of this post is still valid, though.)
 
 Let&#8217;s say you are hired to build a time-punch machine, for clocking in and out of work. Do you immediately go and build a secure room with a buzz-in door and hire an armed guard to make sure only actual employees can get to the time-punch machine? Or do you build the time-punch machine and once it&#8217;s ready, figure out how the company wants to secure it? Chances are, it&#8217;s enough to just have a card wall where people keep their cards. You grab your card and punch-in or punch-out. You don&#8217;t grab other&#8217;s cards. It&#8217;s the honor system and it works. (yes, that was an extreme and probably ridiculous example, but it gets the point across)
 

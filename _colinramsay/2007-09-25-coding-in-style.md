@@ -59,7 +59,7 @@ When I open a class file, I&#8217;ve usually got a purpose in mind, and seeing r
   
 
 
-As with most Visual Studio operations, Resharper is there to help. In this case, JetBrains provided a great new feature for R#3 &#8211; the Type Members Layout options. By supplying an XML layout, you can tell R# to reorganise your code into a specific order within specific regions. I&#8217;ve [uploaded my current Layout XML](http://www.lostechies.com/blogs/colin_ramsay/rs.txt){.}, which will reorganise your code in my style &#8211; fields, properties, constructors then methods &#8211; all within their own region. If only JetBrains could come up with something to enforce naming conventions and other coding styles!
+As with most Visual Studio operations, Resharper is there to help. In this case, JetBrains provided a great new feature for R#3 &#8211; the Type Members Layout options. By supplying an XML layout, you can tell R# to reorganise your code into a specific order within specific regions. I&#8217;ve [uploaded my current Layout XML](https://lostechies.com/blogs/colin_ramsay/rs.txt){.}, which will reorganise your code in my style &#8211; fields, properties, constructors then methods &#8211; all within their own region. If only JetBrains could come up with something to enforce naming conventions and other coding styles!
 
 
   

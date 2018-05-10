@@ -12,10 +12,10 @@ categories:
 ---
 Other posts in this series:
 
-  * [A Primer](http://lostechies.com/jimmybogard/2015/01/29/clean-tests-a-primer/)
-  * [Building Test Types](http://lostechies.com/jimmybogard/2015/02/05/clean-tests-building-test-types/)
-  * [Isolating Internal State](http://lostechies.com/jimmybogard/2015/02/17/clean-tests-isolating-internal-state/)
-  * [Isolating the Database](http://lostechies.com/jimmybogard/2015/03/02/clean-tests-isolating-the-database/)
+  * [A Primer](https://lostechies.com/jimmybogard/2015/01/29/clean-tests-a-primer/)
+  * [Building Test Types](https://lostechies.com/jimmybogard/2015/02/05/clean-tests-building-test-types/)
+  * [Isolating Internal State](https://lostechies.com/jimmybogard/2015/02/17/clean-tests-isolating-internal-state/)
+  * [Isolating the Database](https://lostechies.com/jimmybogard/2015/03/02/clean-tests-isolating-the-database/)
   * [Isolation with Fakes](https://lostechies.com/jimmybogard/2015/03/24/clean-tests-isolation-with-fakes/)
   * [Database Persistence](https://lostechies.com/jimmybogard/2015/04/07/clean-tests-database-peristence)
 
@@ -23,7 +23,7 @@ So far in this series, I’ve walked through different modes of isolation – fr
 
 There are some edge cases in which there are dependencies that I can’t control – web services, message queues and so on. For these difficult to isolate dependencies, fakes are acceptable. We’re using AutoFixture to supply our mocks, and child containers to isolate any modifications. It should be fairly straightforward then to forward mocks in our container.
 
-As far as mocking frameworks go, I try to **pick the mocking framework with the simplest interface and the least amount of features**. More features is more headache, as mocking frameworks go. For me, that would be [FakeItEasy](http://fakeiteasy.github.io/).
+As far as mocking frameworks go, I try to **pick the mocking framework with the simplest interface and the least amount of features**. More features is more headache, as mocking frameworks go. For me, that would be [FakeItEasy](https://fakeiteasy.github.io/).
 
 First, let’s look at a simple scenario of creating a mock and modifying our container.
 

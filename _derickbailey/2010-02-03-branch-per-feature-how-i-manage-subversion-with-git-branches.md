@@ -28,7 +28,7 @@ I want to let you know up-front, though, that managing git + svn in the manner I
 
 ## Setting Up Git+SVN
 
-Getting setup to run git + svn is very straightforward. There are only a few things you need to do. I am assuming that you are already familiar with both git and subversion, though. If you’re not, there are some great tutorials out there on the inter-webs (I’m particularly fond of Jason’s [Git For Windows Developers series](http://www.lostechies.com/blogs/jason_meridth/archive/2009/06/01/git-for-windows-developers-git-series-part-1.aspx). He did a great job with that series.)
+Getting setup to run git + svn is very straightforward. There are only a few things you need to do. I am assuming that you are already familiar with both git and subversion, though. If you’re not, there are some great tutorials out there on the inter-webs (I’m particularly fond of Jason’s [Git For Windows Developers series](https://lostechies.com/blogs/jason_meridth/archive/2009/06/01/git-for-windows-developers-git-series-part-1.aspx). He did a great job with that series.)
 
 &#160;
 
@@ -42,7 +42,7 @@ There’s nothing special about this. Follow your team’s standard practices fo
 
 Run a “git init” from the root folder of your subversion checkout but **DO NOT** add / commit to the git repository, yet! You need to complete steps 3 and 4 before doing that. This will create your .git repository. I’ve got a .git and a .svn folder sitting right next to each other in my svn trunk checkout, now.
 
-<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_7D91FC93.png" width="233" height="139" />&#160; 
+<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_7D91FC93.png" width="233" height="139" />&#160; 
 
 &#160;
 
@@ -54,9 +54,9 @@ Imagine having git make modifications to your .svn folder contents while you are
 
 To keep things clean and simple, add _.svn_ to your _.gitignore_ file.
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_363CA6A1.png" width="192" height="115" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_363CA6A1.png" width="192" height="115" />
 
-You should also take the time to add your standard .gitignore settings at this point. My list has grown a little, but the basics are [still the same as when I posted them, a while back](http://www.lostechies.com/blogs/derickbailey/archive/2009/05/18/a-net-c-developer-s-gitignore-file.aspx).
+You should also take the time to add your standard .gitignore settings at this point. My list has grown a little, but the basics are [still the same as when I posted them, a while back](https://lostechies.com/blogs/derickbailey/archive/2009/05/18/a-net-c-developer-s-gitignore-file.aspx).
 
 &#160;
 
@@ -66,9 +66,9 @@ Subversion doesn’t need to know about your git repository, either. More specif
 
 Do yourself and your teammates a favor: tell subversion to ignore the _.git_ folder.
 
-<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_55EB8069.png" width="662" height="529" />&#160;
+<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_55EB8069.png" width="662" height="529" />&#160;
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_5C3256F7.png" width="227" height="150" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_5C3256F7.png" width="227" height="150" />
 
 &#160;
 
@@ -94,7 +94,7 @@ This is likely the most important rule in managing the interaction between git a
 
 ### Just Another Git Repository
 
-If the git ‘master’ branch is always a stable subversion checkout, then it follows that all work is done in a git branch (other than the master branch). With this in mind, we can fall back on the already known patterns of [managing feature branches](http://www.lostechies.com/blogs/derickbailey/archive/2009/07/21/branch-per-feature-source-control-part-2-how-theory.aspx) and managing a local git repository.
+If the git ‘master’ branch is always a stable subversion checkout, then it follows that all work is done in a git branch (other than the master branch). With this in mind, we can fall back on the already known patterns of [managing feature branches](https://lostechies.com/blogs/derickbailey/archive/2009/07/21/branch-per-feature-source-control-part-2-how-theory.aspx) and managing a local git repository.
 
 After getting your git+svn setup, branch off the master in git and start working. Other than the one rule about the master branch, you are managing a git repository like any other git repository. Branch, merge, rebase and do whatever else that you want to do with your local git repository. This is where the real flexibility of this process comes into play, honestly. You don’t have to worry about subversion very much because you are not dealing with subversion right now. 
 

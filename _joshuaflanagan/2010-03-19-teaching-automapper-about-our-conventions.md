@@ -70,7 +70,7 @@ The sample is abbreviated because showing all of the entities, and all of the Vi
 
 The benefit of establishing conventions in your code is that different parts of the system can rely on those conventions, so you get a lot of functionality that just works the way you would expect. Since we consistently name our DTOs the same way, and we consistently name properties on the DTO the same way, we should be able to rely on the fact that these will always be populated the same way.
 
-With a couple patches to AutoMapper (now available in the <a href="http://github.com/jbogard/automapper" target="_blank">latest source</a>), I was able to build some extension methods that allowed me to express our conventions. The previous (which had to be edited for length) code can now be rewritten as:
+With a couple patches to AutoMapper (now available in the <a href="https://github.com/jbogard/automapper" target="_blank">latest source</a>), I was able to build some extension methods that allowed me to express our conventions. The previous (which had to be edited for length) code can now be rewritten as:
 
 <div style="padding-bottom: 0px;margin: 0px;padding-left: 0px;padding-right: 0px;float: none;padding-top: 0px" class="wlWriterEditableSmartContent">
   <pre>Mapper.Initialize(cfg =&gt;

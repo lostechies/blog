@@ -12,7 +12,7 @@ categories:
   - EntityFramework
   - NHibernate
 ---
-In the last post I showed how [AutoMapper and its LINQ projection can prevent SELECT N+1 problems](http://lostechies.com/jimmybogard/2014/04/03/using-automapper-to-prevent-select-n1-problems/) and other lazy loading problems. That was pretty cool, but wait, there’s more! What about complex aggregation? LINQ can support all sorts of interesting queries, that when done in memory, could result in really inefficient code.
+In the last post I showed how [AutoMapper and its LINQ projection can prevent SELECT N+1 problems](https://lostechies.com/jimmybogard/2014/04/03/using-automapper-to-prevent-select-n1-problems/) and other lazy loading problems. That was pretty cool, but wait, there’s more! What about complex aggregation? LINQ can support all sorts of interesting queries, that when done in memory, could result in really inefficient code.
 
 Let’s start small, what if in our model of courses and instructors, we wanted to display the number of courses an instructor teaches and the number of students in a class. This is easy to do in the view:
 
@@ -20,7 +20,7 @@ Let’s start small, what if in our model of courses and instructors, we wanted 
 
 But at runtime this will result in another SELECT for each row to count the items:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/04/image_thumb.png" width="527" height="155" />](http://lostechies.com/content/jimmybogard/uploads/2014/04/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/04/image_thumb.png" width="527" height="155" />](https://lostechies.com/content/jimmybogard/uploads/2014/04/image.png)
 
 We could eager fetch those rows ahead of time, but this is also less efficient than just performing a SQL correlated subquery to calculate that SUM. With AutoMapper, we can just declare this property on our ViewModel class:
 

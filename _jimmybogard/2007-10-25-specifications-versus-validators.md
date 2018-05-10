@@ -12,7 +12,7 @@ categories:
   - Patterns
 redirect_from: "/blogs/jimmy_bogard/archive/2007/10/25/specifications-versus-validators.aspx/"
 ---
-[Joe](http://www.lostechies.com/blogs/joe_ocampo/) posed a great question on my recent [entity validation post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/10/24/entity-validation-with-visitors-and-extension-methods.aspx):
+[Joe](https://lostechies.com/blogs/joe_ocampo/) posed a great question on my recent [entity validation post](https://lostechies.com/blogs/jimmy_bogard/archive/2007/10/24/entity-validation-with-visitors-and-extension-methods.aspx):
 
 > I question the term Validator in relation to DDD. &nbsp;Since the operation of the Validator seems to be a simple predicate based on business rule shouldn&#8217;t the term Specification [Evans Pg227] be used instead?
 

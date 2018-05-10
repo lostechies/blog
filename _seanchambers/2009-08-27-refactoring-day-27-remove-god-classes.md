@@ -11,7 +11,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/sean_chambers/archive/2009/08/27/refactoring-day-27-remove-god-classes.aspx/"
 ---
-Often with legacy code bases I will often come across classes that are clear <a href="http://www.lostechies.com/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx" target="_blank">SRP</a> violations. Often these classes will be suffixed with either “Utils” or “Manager”. Sometimes they don’t have this indication and are just classes with multiple grouped pieces of functionality. Another good indicator of a God class is methods grouped together with using statements or comments into seperate roles that this one class is performing.
+Often with legacy code bases I will often come across classes that are clear <a href="https://lostechies.com/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx" target="_blank">SRP</a> violations. Often these classes will be suffixed with either “Utils” or “Manager”. Sometimes they don’t have this indication and are just classes with multiple grouped pieces of functionality. Another good indicator of a God class is methods grouped together with using statements or comments into seperate roles that this one class is performing.
 
 Over time, these classes become a dumping ground for a method that someone doesn’t have time/want to put in the proper class. The refactoring for situations like these is to break apart the methods into distinct classes that are responsible for specific roles.
 

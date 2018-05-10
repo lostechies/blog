@@ -15,7 +15,7 @@ tags:
   - javascript objects
   - jquery
 ---
-Welcome to my journey of  [extending objects in JavaScript frameworks](http://lostechies.com/chrismissal/2012/09/27/extending-objects-with-javascript/ "Using various frameworks to extend JavaScript objects"); let&#8217;s explore jQuery! Extending an object in jQuery is simple, there are just a few rules you need to understand. Extension works from left to right and you&#8217;re allowed to pass as many objects to the function as you want. Whatever is passed to the $.extend argument last wins.
+Welcome to my journey of  [extending objects in JavaScript frameworks](https://lostechies.com/chrismissal/2012/09/27/extending-objects-with-javascript/ "Using various frameworks to extend JavaScript objects"); let&#8217;s explore jQuery! Extending an object in jQuery is simple, there are just a few rules you need to understand. Extension works from left to right and you&#8217;re allowed to pass as many objects to the function as you want. Whatever is passed to the $.extend argument last wins.
 
 **<span style="text-decoration: underline;">For instance:</span>**
 

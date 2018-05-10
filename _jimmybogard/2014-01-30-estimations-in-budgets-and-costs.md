@@ -14,7 +14,7 @@ It’s been many years since I’ve estimated feature effort in meaningless meas
 
 Ultimately, our currency is time. Looking at the iron triangle, where we see “schedule”, the only true constant is time:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/01/image_thumb.png" width="534" height="335" />](http://lostechies.com/content/jimmybogard/uploads/2014/01/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/01/image_thumb.png" width="534" height="335" />](https://lostechies.com/content/jimmybogard/uploads/2014/01/image.png)
 
 I’ve seen budgets change, I’ve seen scope added and removed, but I’ve rarely seen a deadline extended. And unless a we’re traveling a significant percentage of the speed of light, we can’t really stretch our time.
 
@@ -28,7 +28,7 @@ Instead of thinking in terms of estimates, I want to deal in costs. How much is 
 
 When looking at personal finance, we generally deal in budgets. There’s a certain amount of income per month, and a certain amount of dollars we want to allocate to certain areas:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/01/image_thumb1.png" width="416" height="372" />](http://lostechies.com/content/jimmybogard/uploads/2014/01/image1.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/01/image_thumb1.png" width="416" height="372" />](https://lostechies.com/content/jimmybogard/uploads/2014/01/image1.png)
 
 We know we cannot exceed our total spend (there’s no credit in software development), but what we can play with is the relative amounts within each area. Software estimation works the same way. There are different areas of concern (reporting, administration, etc.) that can be given a certain amount of budget (time) within a certain scope of release. This budget can be made of either time or dollars, but those are effectively equivalent if we average salaries in our team.
 

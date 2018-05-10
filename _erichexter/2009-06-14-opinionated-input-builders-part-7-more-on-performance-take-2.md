@@ -26,7 +26,7 @@ redirect_from: "/blogs/hex/archive/2009/06/14/opinionated-input-builders-part-7-
   * <a href="/blogs/hex/archive/2009/06/10/opinionated-input-builders-for-asp-net-mvc-part-3-the-source-code.aspx" target="_blank">Part 3 – the Source Code</a> 
   * <a href="/blogs/hex/archive/2009/06/10/opinionated-input-builders-for-asp-net-mvc-part-3-the-partial-view-inputs.aspx" target="_blank">Part 4 – the Partial View</a> 
   * <a href="/blogs/hex/archive/2009/06/10/opinionated-input-builders-for-asp-net-mvc-part-5-the-required-input.aspx" target="_blank">Part 5 – the Required Field Indicator</a>&#160; 
-  * <a href="http://www.lostechies.com/blogs/hex/archive/2009/06/13/opinionated-input-builders-part-6-performance-of-the-builders.aspx" target="_blank">Part 6 – the Performance</a> 
+  * <a href="https://lostechies.com/blogs/hex/archive/2009/06/13/opinionated-input-builders-part-6-performance-of-the-builders.aspx" target="_blank">Part 6 – the Performance</a> 
   * Part 7 – the Performance Take 2
 After doing what all good developers should do on the weekend… which is enjoy life and spend some time with my family, I thought I would take another stab at the Input Builder performance and see what else I could learn about the implementation.&#160; That being said this is what I came up with.&#160; 
 
@@ -34,7 +34,7 @@ After doing what all good developers should do on the weekend… which is enjoy 
 
 One of the features of the Builders that I like is the ability to deliver all of the partial views from a separate assembly that would make this library and approach feel more like a component with a single package for all of its files than a Hodge-podge of files you need to copy into your project.&#160; That approach came at a cost.&#160; My own implementation of the VirtualPathProvider proved to be disastrous on performance.&#160; Below is the same performance test running against my sample page with the partial views and master pages copied into the local project and removing my implementation of the VirtualPathProvider.
 
-<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_6B57133F.png" width="1028" height="182" />
+<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_6B57133F.png" width="1028" height="182" />
 
 With this small 5 second change the Maximum Requests/Second went from **442** to **1,027** .&#160; The Average Requests/Second went from **351** to **908**. Not bad huh?&#160; So after a single change to the code base and removing my custom code for pulling partial views from the embedded resources,&#160; I was able to get a huge performance increase.&#160; 
 

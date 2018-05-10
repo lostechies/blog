@@ -14,7 +14,7 @@ redirect_from: "/blogs/chad_myers/archive/2008/06/24/hosting-an-entire-asp-net-m
 ---
 We&#8217;ve been playing around a lot with the ASP.NET MVC Preview 3 at Dovetail and trying to find various ways to test at various levels.  One of the levels we were toying with was doing an end-to-end test including URL routing, controller action, and view result rendering.  Unfortunately it&#8217;s still pretty complicated due to a lot of coupling in the bowels of the routing, controller invocation, and view rendering pieces but we were able to get an in-process host for fast-feedback testing without the need to fire up a browser or consult IIS.
 
-The code and a few other things related this post can be found here: [http://www.lostechies.com/blogs/chad_myers/MVCRequestTesting.zip](http://lostechies.com/content/chadmyers/uploads/2011/03/Hostinga.NETMVCrequestfortestingpurposes_11DB3/MVCRequestTesting.zip "http://www.lostechies.com/blogs/chad_myers/MVCRequestTesting.zip")
+The code and a few other things related this post can be found here: [https://lostechies.com/blogs/chad_myers/MVCRequestTesting.zip](https://lostechies.com/content/chadmyers/uploads/2011/03/Hostinga.NETMVCrequestfortestingpurposes_11DB3/MVCRequestTesting.zip "https://lostechies.com/blogs/chad_myers/MVCRequestTesting.zip")
 
 ## Hosting the ASP.NET Runtime
 
@@ -26,7 +26,7 @@ In order to process the first request, I found I had to do a number of things to
 
 Here&#8217;s a cheesy visualization that will hopefully illustrate things a little better:
 
-![](http://lostechies.com/content/chadmyers/uploads/2011/03/Hostinga.NETMVCrequestfortestingpurposes_11DB3/mvc_request_test_2.png)
+![](https://lostechies.com/content/chadmyers/uploads/2011/03/Hostinga.NETMVCrequestfortestingpurposes_11DB3/mvc_request_test_2.png)
 
 ## Creating An Application Host and Initializing ASP.NET
 
@@ -216,6 +216,6 @@ Finally, I used TestDriven.NET to run the test (or you can use R#&#8217;s UnitRu
 
 <div class="csharpcode">
   <p>
-    <span style="font-family: 'Trebuchet MS';">The code and a few other things related this post can be found here: </span><a title="http://www.lostechies.com/blogs/chad_myers/MVCRequestTesting.zip" href="http://www.lostechies.com/blogs/chad_myers/MVCRequestTesting.zip"><span style="font-family: 'Trebuchet MS';">http://www.lostechies.com/blogs/chad_myers/MVCRequestTesting.zip</span></a>
+    <span style="font-family: 'Trebuchet MS';">The code and a few other things related this post can be found here: </span><a title="https://lostechies.com/blogs/chad_myers/MVCRequestTesting.zip" href="https://lostechies.com/blogs/chad_myers/MVCRequestTesting.zip"><span style="font-family: 'Trebuchet MS';">https://lostechies.com/blogs/chad_myers/MVCRequestTesting.zip</span></a>
   </p>
 </div>

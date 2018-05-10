@@ -30,7 +30,7 @@ Now, let me try to answer this question(s). First of all let’s try to clarify 
         
         In this scenario we should keep things as simple as possible. We want to define only one model of the domain at hand and we want to use this model for data manipulation as well as for query operations. In this case I would recommend to use lazy loading of NHibernate (or any other ORM). All entities of the model are interconnected through relations. As a simple sample lets take the blog sample.
         
-        [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/09/image_thumb.png" width="475" height="418" />](http://lostechies.com/content/gabrielschenker/uploads/2011/09/image.png)
+        [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/09/image_thumb.png" width="475" height="418" />](https://lostechies.com/content/gabrielschenker/uploads/2011/09/image.png)
         
         ### Commands – that is writing data
         

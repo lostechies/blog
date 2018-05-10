@@ -16,7 +16,7 @@ categories:
 ---
 # Introduction
 
-This is a series of posts to describe our approach to slowly migrate a Silverlight based client of a huge and complex LOB&nbsp; to an HTML5/CSS3/JavaScript based client. These posts report on the lessons learnt and are meant to be used as a reference for our development teams. The first part of this series can be found [here](http://lostechies.com/gabrielschenker/2013/12/05/angularjspart-1/).
+This is a series of posts to describe our approach to slowly migrate a Silverlight based client of a huge and complex LOB&nbsp; to an HTML5/CSS3/JavaScript based client. These posts report on the lessons learnt and are meant to be used as a reference for our development teams. The first part of this series can be found [here](https://lostechies.com/gabrielschenker/2013/12/05/angularjspart-1/).
 
 To my own surprise I already got a lot of interesting feedback to my first introductory post in the series. Instead of replying directly to the individual comments I prefer to write a specific blog post and reason a bit about my motivation.
 

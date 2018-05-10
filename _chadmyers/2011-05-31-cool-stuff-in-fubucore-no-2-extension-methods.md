@@ -13,7 +13,7 @@ categories:
   - fubucore
   - FubuMVC
 ---
-This is the second post of the FubuCore series mentioned in the [Introduction post](http://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
+This is the second post of the FubuCore series mentioned in the [Introduction post](https://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
 
 This post covers the various and plentiful extension methods contained in the [FubuCore project](https://github.com/darthfubumvc/fubucore). We have built up these extensions methods over the last 3-4 years in anger. Some of them may be a little sloppy and not up to your liking or taste level, but all of them are used heavily and have been running in multiple production systems for quite a while (some of them over 2 years). We find most of them to be invaluable and use them every day. I hope you find some value in them as well.
 
@@ -53,7 +53,7 @@ With Fubu authorization, you can hide pieces of information in the view if the c
 
 Various overloads ([Source](https://github.com/DarthFubuMVC/fubucore/blob/master/src/FubuCore/DictionaryExtensions.cs))
 
-If you do manage to find yourself using a Dictionary instead of a [Cache](http://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-no-1-cache/), you can get around some of the pain of having to do the “ContainsKeys” checks by using the Get extension methods. A lot of times you want to get a value from a dictionary but don’t want to do all the “[ContainsKey](http://msdn.microsoft.com/en-us/library/kw5aaea4.aspx)” checking or messing with the “out” variable in the “[TryGetValue](http://msdn.microsoft.com/en-us/library/bb347013.aspx)” method.
+If you do manage to find yourself using a Dictionary instead of a [Cache](https://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-no-1-cache/), you can get around some of the pain of having to do the “ContainsKeys” checks by using the Get extension methods. A lot of times you want to get a value from a dictionary but don’t want to do all the “[ContainsKey](http://msdn.microsoft.com/en-us/library/kw5aaea4.aspx)” checking or messing with the “out” variable in the “[TryGetValue](http://msdn.microsoft.com/en-us/library/bb347013.aspx)” method.
 
 Let’s say you want to get the value of a key from a dictionary which may not be there. And if it’s _not_ there, then return a default value (let’s say, empty string).
 

@@ -22,13 +22,13 @@ I found a class named &#8220;RestfulActionResolver&#8221;, the name alone peek m
 
 What appeared next shocked me:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="234" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03BDDSurpriseRUsageScenarios_1527/image_thumb.png" width="644" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03BDDSurpriseRUsageScenarios_1527/image_2.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="234" alt="image" src="https://lostechies.com/content/joeocampo/uploads/2011/03BDDSurpriseRUsageScenarios_1527/image_thumb.png" width="644" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03BDDSurpriseRUsageScenarios_1527/image_2.png) 
 
 &nbsp;
 
 The top of the report read like a normal test suite no surprise there but then I quickly noticed the bottom two entries!
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="38" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03BDDSurpriseRUsageScenarios_1527/image_thumb_1.png" width="644" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03BDDSurpriseRUsageScenarios_1527/image_4.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="38" alt="image" src="https://lostechies.com/content/joeocampo/uploads/2011/03BDDSurpriseRUsageScenarios_1527/image_thumb_1.png" width="644" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03BDDSurpriseRUsageScenarios_1527/image_4.png) 
 
 Two things shocked me!
 

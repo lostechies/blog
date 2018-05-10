@@ -15,7 +15,7 @@ redirect_from: "/blogs/derickbailey/archive/2010/06/09/git-oops-i-forgot-to-add-
 ---
 I do this pretty regularly… working away, adding files, finish something up and commit. Only after I commit do I realize that I forgot to add the new files to git. 
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_7D3FA709.png" width="702" height="547" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_7D3FA709.png" width="702" height="547" />
 
 This always frustrated me with subversion because it meant I would have to make yet another commit and put in some silly commit message like “forgot to add these files to the previous commit” and I would often repeat the same commit message as the previous commit along with the note about forgotten files. Anyone that needed to merge my changes anywhere would have to some how know that they need to read the commit messages and figure out that this second commit was supposed to be part of the first commit, so they have to bring it along for the merge.
 
@@ -41,7 +41,7 @@ With git, you can solve this problem easily without having to create another com
       </p>
       
       <p>
-        <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_4277FE33.png" width="702" height="108" />
+        <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_4277FE33.png" width="702" height="108" />
       </p>
     </p>
     
@@ -50,7 +50,7 @@ With git, you can solve this problem easily without having to create another com
     </p>
     
     <p>
-      <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_420BCB3E.png" width="667" height="571" />
+      <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_420BCB3E.png" width="667" height="571" />
     </p>
     
     <p>

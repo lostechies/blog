@@ -29,7 +29,7 @@ Today, the twitterverse that I follow reminded me of the Monty Python “Bring o
 
 The “I’m not dead yet" victim, today, is IronRuby as the majority of the .NET developers I am following on twitter are quick to declare “[ironruby is dead](https://twitter.com/#search?q=ironruby%20is%20dead)”. 
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_759FAF57.png" width="567" height="868" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_759FAF57.png" width="567" height="868" />
 
 &#160;
 

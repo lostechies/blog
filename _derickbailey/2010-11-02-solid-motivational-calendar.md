@@ -12,7 +12,7 @@ categories:
   - Product Reviews
 redirect_from: "/blogs/derickbailey/archive/2010/11/02/solid-motivational-calendar.aspx/"
 ---
-The LosTechies crew and I were never able to get a calendar or t-shirts or anything else made for the [SOLID Motivational Posters](http://www.lostechies.com/blogs/derickbailey/archive/2009/02/11/solid-development-principles-in-motivational-pictures.aspx) that I put together a long time ago. But [Steve Smith](http://stevesmithblog.com/) ([@ardalis](http://twitter.com/ardalis)) and the [NimblePros](http://nimblepros.com) crew stepped up and put together a calendar of motivational posters, including many other principles:
+The LosTechies crew and I were never able to get a calendar or t-shirts or anything else made for the [SOLID Motivational Posters](https://lostechies.com/blogs/derickbailey/archive/2009/02/11/solid-development-principles-in-motivational-pictures.aspx) that I put together a long time ago. But [Steve Smith](http://stevesmithblog.com/) ([@ardalis](http://twitter.com/ardalis)) and the [NimblePros](http://nimblepros.com) crew stepped up and put together a calendar of motivational posters, including many other principles:
 
 [**<font size="5">The Software Craftsmanship 2011 Motivational Calendar</font>**](http://nimblepros.com/products/software-craftsmanship-2011-calendar.aspx)
 

@@ -80,7 +80,7 @@ we can now start defining our tests. Let&#8217;s first start with a simple unit 
 
 {% gist 7f8ed2b96ddfcc7fa0ae868f0786be2a %}
 
-I am not going to discuss the syntax of a Jasmine test here. Please consult the excellent documentation [here](http://jasmine.github.io/) if you are not familiar with Jasmine. Once we have defined a test we can now execute the following command in our terminal
+I am not going to discuss the syntax of a Jasmine test here. Please consult the excellent documentation [here](https://jasmine.github.io/) if you are not familiar with Jasmine. Once we have defined a test we can now execute the following command in our terminal
 
 `npm test`
 

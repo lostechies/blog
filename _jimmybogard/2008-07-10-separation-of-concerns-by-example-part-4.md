@@ -15,10 +15,10 @@ redirect_from: "/blogs/jimmy_bogard/archive/2008/07/10/separation-of-concerns-by
 ---
 In the last part, we finally broke out the caching and data access concerns from our original class.&nbsp; The series so far includes:
 
-  * [Separation of Concerns &#8211; how not to do it](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx)
-  * [Separation of Concerns by example: Part 1](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/19/separation-of-concerns-by-example-part-1.aspx) &#8211; Refactoring away from static class
-  * [Separation of Concerns by example: Part 2](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/24/separation-of-concerns-by-example-part-2.aspx) &#8211; Specialized interface for Cache
-  * [Separation of Concerns by example: Part 3](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/26/separation-of-concerns-by-example-part-3.aspx) &#8211; Creating the repository
+  * [Separation of Concerns &#8211; how not to do it](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx)
+  * [Separation of Concerns by example: Part 1](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/19/separation-of-concerns-by-example-part-1.aspx) &#8211; Refactoring away from static class
+  * [Separation of Concerns by example: Part 2](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/24/separation-of-concerns-by-example-part-2.aspx) &#8211; Specialized interface for Cache
+  * [Separation of Concerns by example: Part 3](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/26/separation-of-concerns-by-example-part-3.aspx) &#8211; Creating the repository
 
 Things are looking up, we&#8217;ve broken out the dependencies into distinct concerns, including caching, data access and finding/paging.&nbsp; Unfortunately, our high-volume site has run into some intermittent issues.&nbsp; Every now and then, especially during peak hours, the application experiences NullReferenceExceptions, coming from our new and (hopefully) improved CustomerFinder.
 

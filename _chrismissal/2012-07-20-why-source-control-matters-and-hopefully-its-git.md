@@ -18,7 +18,7 @@ tags:
   - dvcs
   - Git
 ---
-I had an interesting and fun discussion last week with my fellow [Headspring](http://www.headspring.com) employees. I&#8217;m a big advocate of using [git](http://lostechies.com/chrismissal/category/git/) and I&#8217;m also the type of person that likes clean code and clean commits. Combining these two things and **my own personal opinions**, this means I:
+I had an interesting and fun discussion last week with my fellow [Headspring](http://www.headspring.com) employees. I&#8217;m a big advocate of using [git](https://lostechies.com/chrismissal/category/git/) and I&#8217;m also the type of person that likes clean code and clean commits. Combining these two things and **my own personal opinions**, this means I:
 
   * Don&#8217;t commit commented code (actual code commented out, not notes or todos in comments)
   * Don&#8217;t commit nonsense like whitespace at the end of lines or extra line breaks for no reason. My IDEs and text editors show whitespace! This is actually important when looking for logical changes to a file over time. I don&#8217;t want to sift through garbage.

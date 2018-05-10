@@ -17,7 +17,7 @@ categories:
 ---
 # Introduction
 
-In the previous two posts ([here](http://lostechies.com/gabrielschenker/2014/12/29/creating-an-ubuntu-developer-vm-on-hyper-v/) and [here](http://lostechies.com/gabrielschenker/2014/12/30/creating-an-ubuntu-developer-vm-on-hyper-v-part-2/)) I first prepared a new Ubuntu 14.x VM running hosted in Hyper-V on Windows 8.1 Enterprise. Then I installed all the necessary tools and libraries to start developing Web applications using Angular JS on the client and .NET (Mono) or Node JS on the backend. In the second post I described how we can install and run [MongoDB](http://www.mongodb.org/) and [GetEventStore](http://geteventstore.com/) on our VM. In this third part I want to install and run Elastic Search. The software of my company relies heavily on [Lucene](http://lucene.apache.org/) which is a low level framework for full text indexing. In the past we have build our own high level framework on top of Lucene (we use the .NET version of it). On the long run apart from being complex, this is a maintenance burden. Thus we decided to give [Elastic Search](http://www.elasticsearch.org/) a try.
+In the previous two posts ([here](https://lostechies.com/gabrielschenker/2014/12/29/creating-an-ubuntu-developer-vm-on-hyper-v/) and [here](https://lostechies.com/gabrielschenker/2014/12/30/creating-an-ubuntu-developer-vm-on-hyper-v-part-2/)) I first prepared a new Ubuntu 14.x VM running hosted in Hyper-V on Windows 8.1 Enterprise. Then I installed all the necessary tools and libraries to start developing Web applications using Angular JS on the client and .NET (Mono) or Node JS on the backend. In the second post I described how we can install and run [MongoDB](http://www.mongodb.org/) and [GetEventStore](http://geteventstore.com/) on our VM. In this third part I want to install and run Elastic Search. The software of my company relies heavily on [Lucene](http://lucene.apache.org/) which is a low level framework for full text indexing. In the past we have build our own high level framework on top of Lucene (we use the .NET version of it). On the long run apart from being complex, this is a maintenance burden. Thus we decided to give [Elastic Search](http://www.elasticsearch.org/) a try.
 
 # Installing Java 8
 
@@ -43,7 +43,7 @@ Finally we can check out which version we run
 
 and should get something like this
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb6.png" width="598" height="158" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image6.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb6.png" width="598" height="158" />](https://lostechies.com/content/gabrielschenker/uploads/2014/12/image6.png)
 
 Now we are ready to install and use software that depends on Java…
 
@@ -75,7 +75,7 @@ To start Elasticsearch use this command
 
 You should see something like this
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb7.png" width="733" height="122" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image7.png) 
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb7.png" width="733" height="122" />](https://lostechies.com/content/gabrielschenker/uploads/2014/12/image7.png) 
 
 Similarly to stop Elasticsearch use
 
@@ -95,8 +95,8 @@ By default Elasticsearch listens at port 9200. We can use this simple command to
 
 If all works well we should see this
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb8.png" width="637" height="341" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image8.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb8.png" width="637" height="341" />](https://lostechies.com/content/gabrielschenker/uploads/2014/12/image8.png)
 
 When playing around with a REST API I also like to use the Postman – REST Client for Chrome. We can install this extension from [here](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en). Using the exact same URI as with curl we have this
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb9.png" width="586" height="388" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image9.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb9.png" width="586" height="388" />](https://lostechies.com/content/gabrielschenker/uploads/2014/12/image9.png)

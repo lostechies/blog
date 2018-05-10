@@ -15,7 +15,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/06/06/team-foundation-build-par
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/team-foundation-build-part-4-values.html)._
 
-In the last post of this series, I discussed [how to create a build definition](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/05/24/team-foundation-build-part-3-creating.aspx). Before I start discussing extending and customizing Team Foundation Build, I think it&#8217;s important to discuss some values, principles, and practices regarding automated builds and continuous integration. To establish some context, I suggest reading the [original Martin Fowler article on CI](http://www.martinfowler.com/articles/continuousIntegration.html) (Continuous Integration).
+In the last post of this series, I discussed [how to create a build definition](https://lostechies.com/blogs/jimmy_bogard/archive/2007/05/24/team-foundation-build-part-3-creating.aspx). Before I start discussing extending and customizing Team Foundation Build, I think it&#8217;s important to discuss some values, principles, and practices regarding automated builds and continuous integration. To establish some context, I suggest reading the [original Martin Fowler article on CI](http://www.martinfowler.com/articles/continuousIntegration.html) (Continuous Integration).
 
 When looking at extending a build, it&#8217;s difficult to see which direction to go without having a target or destination in mind. The idea behind having values and principles is to create a shared target that the team tries to hit. I&#8217;m paraphrasing Kent Beck and Martin Fowler quite a bit, so apologies in advance if these ideas are old news to you.
 

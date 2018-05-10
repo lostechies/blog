@@ -117,7 +117,7 @@ This creates a nice little recursion that allows a user to flip back and forth b
       <!--CRLF--></div> </div> 
       
       <p>
-        For those that are unfamiliar with my <a href="http://www.lostechies.com/blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx">application controller</a>, you can read more about that and the associated <a href="http://www.lostechies.com/blogs/derickbailey/archive/2010/04/15/adding-request-reply-to-the-application-controller.aspx">RequestReply</a> method in previous posts.
+        For those that are unfamiliar with my <a href="https://lostechies.com/blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx">application controller</a>, you can read more about that and the associated <a href="https://lostechies.com/blogs/derickbailey/archive/2010/04/15/adding-request-reply-to-the-application-controller.aspx">RequestReply</a> method in previous posts.
       </p>
       
       <p>

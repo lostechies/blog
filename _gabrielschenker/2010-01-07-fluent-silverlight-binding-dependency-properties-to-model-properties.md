@@ -14,9 +14,9 @@ categories:
   - Silverlight
 redirect_from: "/blogs/gabrielschenker/archive/2010/01/07/fluent-silverlight-binding-dependency-properties-to-model-properties.aspx/"
 ---
-Please view the [table of content](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx) of this series for reference.
+Please view the [table of content](https://lostechies.com/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx) of this series for reference.
 
-In my previous posts ([here](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/01/02/fluent-silverlight-implementing-a-fluent-api.aspx) and [here](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/01/03/fluent-silverlight-fluent-api-and-inheritance.aspx)) I discussed how one can build a fluent API for the definition of objects. In the context of Fluent Silverlight these objects are Silverlight controls. With the aid of the expressions we want to define and instantiate controls. But we also want to show some data in the controls like text box, text block, combo box, etc. The data that we want to display is defined in what we call “view model”. We want to use data binding to achieve this goal.
+In my previous posts ([here](https://lostechies.com/blogs/gabrielschenker/archive/2010/01/02/fluent-silverlight-implementing-a-fluent-api.aspx) and [here](https://lostechies.com/blogs/gabrielschenker/archive/2010/01/03/fluent-silverlight-fluent-api-and-inheritance.aspx)) I discussed how one can build a fluent API for the definition of objects. In the context of Fluent Silverlight these objects are Silverlight controls. With the aid of the expressions we want to define and instantiate controls. But we also want to show some data in the controls like text box, text block, combo box, etc. The data that we want to display is defined in what we call “view model”. We want to use data binding to achieve this goal.
 
 Silverlight defines the necessary infrastructure for data binding that we want to use. To bind a dependency property of a control (e.g. the TextProperty of a text box) to a property of the data context of the view in which the textbox is defined we use the following code
 

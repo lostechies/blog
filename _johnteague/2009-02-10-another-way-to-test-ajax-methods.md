@@ -12,7 +12,7 @@ categories:
 redirect_from: "/blogs/johnteague/archive/2009/02/10/another-way-to-test-ajax-methods.aspx/"
 ---
 {% raw %}
-A while ago, [Chad](http://chadmyers.lostechies.com) posted about how to [test Ajax methods with QUnit](http://www.lostechies.com/blogs/chad_myers/archive/2008/12/22/asynchronous-javascript-testing-with-qunit.aspx).&#160; I’m also testing Ajax calls, but taking a different approach I thought I would share.
+A while ago, [Chad](http://chadmyers.lostechies.com) posted about how to [test Ajax methods with QUnit](https://lostechies.com/blogs/chad_myers/archive/2008/12/22/asynchronous-javascript-testing-with-qunit.aspx).&#160; I’m also testing Ajax calls, but taking a different approach I thought I would share.
 
 Chad’s approach was to put a timer in the test and waiting a while before performing the assertion.&#160; Another way is to hook into JQuery global ajax events, like the ajaxComplete event.&#160; Here’s some sample code that makes a call to the Flickr API via jsonp.
 

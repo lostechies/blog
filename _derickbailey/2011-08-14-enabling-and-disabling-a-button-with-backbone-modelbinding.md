@@ -13,7 +13,7 @@ categories:
   - JavaScript
   - Semantics
 ---
-This is a follow-up post to [my previous post on how to enable and disable a button with backbone](http://lostechies.com/derickbailey/2011/06/15/binding-a-backbone-view-to-a-model-to-enable-and-disable-a-button/). I showed a working solution in that version, but there are a few things about it that I don&#8217;t like. [After some discussion about this same scenario on the backbone mailing group](https://groups.google.com/forum/#!topic/backbonejs/d07E5pAxm1w), I decided I wanted to tackle it a different way &#8211; using my [Backbone.ModelBinding](http://github.com/derickbailey/backbone.modelbinding) plugin.
+This is a follow-up post to [my previous post on how to enable and disable a button with backbone](https://lostechies.com/derickbailey/2011/06/15/binding-a-backbone-view-to-a-model-to-enable-and-disable-a-button/). I showed a working solution in that version, but there are a few things about it that I don&#8217;t like. [After some discussion about this same scenario on the backbone mailing group](https://groups.google.com/forum/#!topic/backbonejs/d07E5pAxm1w), I decided I wanted to tackle it a different way &#8211; using my [Backbone.ModelBinding](https://github.com/derickbailey/backbone.modelbinding) plugin.
 
 ## How It Works
 

@@ -14,13 +14,13 @@ redirect_from: "/blogs/chad_myers/archive/2008/03/31/pablo-s-topic-of-the-month-
 ---
 # Pablo&#8217;s Topic of the Month &#8211; April: Advanced Language Patterns for Visual Basic
 
-Following on the coat tails of [last months&#8217; Pablo&#8217;s Topic of the Month &#8211; March: Leveraging XML for Computationally Expensive Operations](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx), I&#8217;d like to announce the new PTOM for April:&nbsp; Advanced Language patterns (for Visual Basic).
+Following on the coat tails of [last months&#8217; Pablo&#8217;s Topic of the Month &#8211; March: Leveraging XML for Computationally Expensive Operations](https://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx), I&#8217;d like to announce the new PTOM for April:&nbsp; Advanced Language patterns (for Visual Basic).
 
 We (the Los Techies crew) have been discussing this month&#8217;s topic vigorously for the past few weeks and we&#8217;re really excited to announce the highlights of this month&#8217;s topic.&nbsp; Over the next few days and weeks we&#8217;ll be doing an article storm (the new &#8216;weblog&#8217; people call it &#8216;blogging&#8217;, but that will probably never catch on) on the subject of advanced language patterns in Visual Basic.&nbsp; With the recent SP6 release of Visual Basic last summer (1998), several new and exciting features have opened up new possibilities with this exciting, robust (and enterprise Hah! Take that C++ know nothings!) language.&nbsp; We plan on going pretty deep on these subjects, so please stay tuned and we welcome all your feedback and comments (except those from the the C++ guys &#8212; don&#8217;t bother, they&#8217;ll be summarily deleted without ceremony because we don&#8217;t need to free pointers. SNAP!).
 
 If you haven&#8217;t already, please consider subscribing to the Los Techies Main Feed so that you can see the various post from the other Los Techies bloggers.
 
-The main feed is here:&nbsp; <http://feeds.feedburner.com/lostechies> 
+The main feed is here:&nbsp; <https://feeds.feedburner.com/lostechies> 
 
 # Advanced Topics for Visual Basic
 

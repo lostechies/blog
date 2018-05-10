@@ -13,7 +13,7 @@ categories:
   - Workflow
 redirect_from: "/blogs/derickbailey/archive/2009/09/01/wip-queues-done-vs-ready.aspx/"
 ---
-I’ve used two types of queues in my Kanban systems, in the last year – but I didn’t realize it until a recent conversation at the [Lean Software Austin](http://leansoftwareaustin.org) meeting in August. As recently as the [Conversation on Adopting Kanban](http://www.lostechies.com/blogs/derickbailey/archive/2009/08/19/a-conversation-on-adopting-kanban.aspx), I talked about how it didn’t really matter if you called a queue a “done” queue vs a “ready” queue. At the LSA meeting, though, [Scott](http://blog.scottbellware.com/) pointed out a key difference between these two types of queues based on the language of the queue name.
+I’ve used two types of queues in my Kanban systems, in the last year – but I didn’t realize it until a recent conversation at the [Lean Software Austin](http://leansoftwareaustin.org) meeting in August. As recently as the [Conversation on Adopting Kanban](https://lostechies.com/blogs/derickbailey/archive/2009/08/19/a-conversation-on-adopting-kanban.aspx), I talked about how it didn’t really matter if you called a queue a “done” queue vs a “ready” queue. At the LSA meeting, though, [Scott](http://blog.scottbellware.com/) pointed out a key difference between these two types of queues based on the language of the queue name.
 
 &#160;
 
@@ -25,10 +25,10 @@ A Done queue is likely to have a limit that is based on the capacity of the step
 
 There are some variations for modeling the Done queue, visually. For example, the models in **Figure 1** and **Figure 2** two appear to be fairly common.I’m sure there are other visual models as well.
 
-     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_07ADEC28.png" width="173" height="179" />  
+     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_07ADEC28.png" width="173" height="179" />  
 **Figure 1.** Modeling WIP & Done, Left & Right
 
-     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_725036BF.png" width="173" height="179" />  
+     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_725036BF.png" width="173" height="179" />  
 **Figure 2.** Modeling WIP & Done, Top & Bottom
 
 &#160;
@@ -39,17 +39,17 @@ This queue says that a WIP item has completed a step, and is ready to be process
 
 We can easily model this queue type in a manner that looks like that of the Done queue, but reversing the order in which the Queue and WIP appear. Once again, I’m sure there are a number of other ways to model this.</p> 
 
-&#160;     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_58E83385.png" width="173" height="179" />  
+&#160;     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_58E83385.png" width="173" height="179" />  
 **Figure 3.** Modeling Ready & WIP, Left & Right
 
-     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_3F80304B.png" width="173" height="179" />  
+     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_3F80304B.png" width="173" height="179" />  
 **Figure 4.** Modeling Ready & WIP, Top & Bottom</p> </p> 
 
 If a Ready queue is attached to a specific step, it is likely to have a limit based on the capacity of the one step that it precedes. However, not all Ready queues are attached to steps. This may prevent the queue’s limit from being based on the capacity of the next step and cause it to be more arbitrary, based on some other grouping or sizing of the work being pushed into it. 
 
 In the example of the backlog as a ready queue, the queue would not be attached to the first step in the process. Rather, it is the holding tank for work that needs to be processed through the system. If we are breaking a user story or MMF down into tasks, then there may not be a hard and fast rule of whether or not you need to limit the WIP in the backlog. Much of the decision of whether or not to limit the backlog’s WIP will come from the context of what constitutes deliverable value – the ability to deliver working software to the customer, providing some value to them. In this scenario, a Ready queue may look more like **Figure 5**.
 
-<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_5DE7A2E9.png" width="261" height="179" />&#160;   
+<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_5DE7A2E9.png" width="261" height="179" />&#160;   
 **Figure 5**. A Ready Queue Not Attached To A Specific Step
 
 &#160;
@@ -60,12 +60,12 @@ Although I have not modeled a process like this, yet, it seems natural that a st
 
 Such a circumstance may exist if we are moving from one step to another in a linear fashion, and then immediately following that step with a non-linear progression. 
 
-     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_26182D11.png" width="429" height="237" />  
+     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_26182D11.png" width="429" height="237" />  
 **Figure 6.** A Non-Linear Workflow
 
 In this case, we may want to model a Ready queue in front of Step 2 and a Done queue behind Step 2. Doing this may give us indication that there is a non-linear workflow in our process, via a linear Kanban board (note that I’ve not bothered with queues for Step 1, 3 or 4, as they are not important in this discussion).
 
-     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_3EA7CA61.png" width="519" height="179" />  
+     <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_3EA7CA61.png" width="519" height="179" />  
 **Figure 7.** Modeling Non-Linear Flow With Ready & Done Queues
 
 &#160;</p> 

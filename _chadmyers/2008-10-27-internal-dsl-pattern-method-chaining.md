@@ -13,7 +13,7 @@ categories:
   - DSL
 redirect_from: "/blogs/chad_myers/archive/2008/10/26/internal-dsl-pattern-method-chaining.aspx/"
 ---
-This is a portion of a larger set of posts on the [subject of Internal DSLs](http://www.lostechies.com/blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx). 
+This is a portion of a larger set of posts on the [subject of Internal DSLs](https://lostechies.com/blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx). 
 
 Method Chaining is a pattern explained by Martin Fowler as part of his DSL book work in progress. Fowler’s take on [Method Chaining](http://martinfowler.com/dslwip/MethodChaining.html) is useful to more fully understand this post (and probably realize some of this post’s flaws).
 
@@ -31,7 +31,7 @@ Depending on what type of DSL you’re building, method chaining takes different
 
 ### Model-based, Generative Example
 
-In this circumstance, method chaining would involve acting upon the [semantic model](http://www.lostechies.com/blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx#semanticmodel) instead of returning new instances of a value object as in the case of DateTime.
+In this circumstance, method chaining would involve acting upon the [semantic model](https://lostechies.com/blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx#semanticmodel) instead of returning new instances of a value object as in the case of DateTime.
 
 For this example, imagine that we’re building an internal DSL to build up various HTML elements. In this case, we’re building the portion that deals with input type=text elements (textboxes) and we want to make it a password textbox instead (type=password). Our host class is of type TextBoxExpression and we’re defining the PasswordMode() method.
 
@@ -105,4 +105,4 @@ One of the benefits of method chaining is to keep up the flow of the DSL and all
 
 ## Other Topics
 
-The use of method chaining is often tightly related to the [Expression Builder](http://www.lostechies.com/blogs/chad_myers/archive/2008/10/26/internal-dsl-pattern-expression-builder.aspx) pattern such that any discussion of one is incomplete without discussion of the other.&#160; There are several other complex topics around method chaining (such as progressive interfaces, depth navigation, etc).&#160; Method chaining is a relatively simple subject. When used during the process of building a DSL, however, it can lead to complex situations requiring complex solutions. In my experience, these problems are most commonly encountered in conjunction with the Expression Builder pattern, and not often without.&#160; Therefore, I believe these other, more complex subjects are best covered under the topic of [Expression Builder](http://www.lostechies.com/blogs/chad_myers/archive/2008/10/26/internal-dsl-pattern-expression-builder.aspx).
+The use of method chaining is often tightly related to the [Expression Builder](https://lostechies.com/blogs/chad_myers/archive/2008/10/26/internal-dsl-pattern-expression-builder.aspx) pattern such that any discussion of one is incomplete without discussion of the other.&#160; There are several other complex topics around method chaining (such as progressive interfaces, depth navigation, etc).&#160; Method chaining is a relatively simple subject. When used during the process of building a DSL, however, it can lead to complex situations requiring complex solutions. In my experience, these problems are most commonly encountered in conjunction with the Expression Builder pattern, and not often without.&#160; Therefore, I believe these other, more complex subjects are best covered under the topic of [Expression Builder](https://lostechies.com/blogs/chad_myers/archive/2008/10/26/internal-dsl-pattern-expression-builder.aspx).

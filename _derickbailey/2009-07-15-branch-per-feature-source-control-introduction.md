@@ -41,13 +41,13 @@ As I began writing up the initial post on Branch-Per-Feature, I recognized the s
 
 The following is the outline of posts that I am planning for this series.
 
-  1. [Branch-Per-Feature Source Control: Why](http://www.lostechies.com/blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-part-1-why.aspx) 
-  2. [Branch-Per-Feature Source Control: How (Theory)](http://www.lostechies.com/blogs/derickbailey/archive/2009/07/21/branch-per-feature-source-control-part-2-how-theory.aspx) 
-  3. [Branch-Per-Feature Source Control: How I Manage Subversion With Git Branches](http://www.lostechies.com/blogs/derickbailey/archive/2010/02/03/branch-per-feature-how-i-manage-subversion-with-git-branches.aspx) 
+  1. [Branch-Per-Feature Source Control: Why](https://lostechies.com/blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-part-1-why.aspx) 
+  2. [Branch-Per-Feature Source Control: How (Theory)](https://lostechies.com/blogs/derickbailey/archive/2009/07/21/branch-per-feature-source-control-part-2-how-theory.aspx) 
+  3. [Branch-Per-Feature Source Control: How I Manage Subversion With Git Branches](https://lostechies.com/blogs/derickbailey/archive/2010/02/03/branch-per-feature-how-i-manage-subversion-with-git-branches.aspx) 
   4. Branching Strategies: 
-      1. [When To Branch And Merge](http://www.lostechies.com/blogs/derickbailey/archive/2010/02/24/branching-strategies-when-to-branch-and-merge.aspx) 
-      2. [The Cost Of Branching And Merging](http://www.lostechies.com/blogs/derickbailey/archive/2010/02/24/branching-strategies-the-cost-of-branching-and-merging.aspx) 
-      3. [Handling Dependencies Between Branches](http://www.lostechies.com/blogs/derickbailey/archive/2010/04/06/branching-strategies-handling-dependencies-between-branches.aspx)
+      1. [When To Branch And Merge](https://lostechies.com/blogs/derickbailey/archive/2010/02/24/branching-strategies-when-to-branch-and-merge.aspx) 
+      2. [The Cost Of Branching And Merging](https://lostechies.com/blogs/derickbailey/archive/2010/02/24/branching-strategies-the-cost-of-branching-and-merging.aspx) 
+      3. [Handling Dependencies Between Branches](https://lostechies.com/blogs/derickbailey/archive/2010/04/06/branching-strategies-handling-dependencies-between-branches.aspx)
       4. Database Considerations 
       5. Continuous Integration Per Branch 
 

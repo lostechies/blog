@@ -191,4 +191,4 @@ args[1].Item2.ShouldEqual(batch2.TotalWeight);</pre>
 
 Additionally, because I don’t have to guess at the number of arguments made, the Tuple returned is linked to the number of arguments to the stubbed method.&#160; This provides a much stronger link between the arguments I capture and the method being stubbed.
 
-From here, it’s trivial to extend this approach to as many arguments as I need.&#160; And as long as I stick to CQS, and my methods either do something or answer a question, these are the only mocking requirements I’ll need.&#160; As always, you can find this example on my [github](http://github.com/jbogard/blogexamples).
+From here, it’s trivial to extend this approach to as many arguments as I need.&#160; And as long as I stick to CQS, and my methods either do something or answer a question, these are the only mocking requirements I’ll need.&#160; As always, you can find this example on my [github](https://github.com/jbogard/blogexamples).

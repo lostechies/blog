@@ -14,7 +14,7 @@ categories:
   - Ruby
 redirect_from: "/blogs/derickbailey/archive/2009/10/04/albacore-breaking-changes-in-location-of-executables.aspx/"
 ---
-I was working on cleaning up [Albacore](http://github.com/derickbailey/Albacore) this weekend, and I noted that both the NCoverConsole and MSBuild tasks in Albacore both require the location of the .exe, to execute. The MSBuild task defaults itself to the .NET 3.5 SP1 folder, if none is specified, but the NCoverConsole task requires the path to be specified. With both of these requiring a path to the .exe file, it made sense to consolidate the functionality of storing the location and executing the command in a module. This would help to ensure consistency across all the tasks that need to execute something on the command line. 
+I was working on cleaning up [Albacore](https://github.com/derickbailey/Albacore) this weekend, and I noted that both the NCoverConsole and MSBuild tasks in Albacore both require the location of the .exe, to execute. The MSBuild task defaults itself to the .NET 3.5 SP1 folder, if none is specified, but the NCoverConsole task requires the path to be specified. With both of these requiring a path to the .exe file, it made sense to consolidate the functionality of storing the location and executing the command in a module. This would help to ensure consistency across all the tasks that need to execute something on the command line. 
 
 &#160;
 
@@ -189,5 +189,5 @@ MSBuildTask:
             </h3>
             
             <p>
-              I always welcome feedback, especially with this project being in such an early stage and with so few tasks available, so far. If you liked the optional MSBuildTask initializer parameter, if you think path_to_exe is a better name, or if you have any other questions, comments, or suggestions, please drop me a line. The easiest way to do that is over on the <a href="http://github.com/derickbailey/Albacore/issues">Albacore Issues list</a>, or through ‘Contact’ link in the sidebar of this page.
+              I always welcome feedback, especially with this project being in such an early stage and with so few tasks available, so far. If you liked the optional MSBuildTask initializer parameter, if you think path_to_exe is a better name, or if you have any other questions, comments, or suggestions, please drop me a line. The easiest way to do that is over on the <a href="https://github.com/derickbailey/Albacore/issues">Albacore Issues list</a>, or through ‘Contact’ link in the sidebar of this page.
             </p>

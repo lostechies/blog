@@ -13,13 +13,13 @@ categories:
   - fubucore
   - FubuMVC
 ---
-This is the ninth post of the FubuCore series mentioned in the [Introduction post](http://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
+This is the ninth post of the FubuCore series mentioned in the [Introduction post](https://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
 
 It’s a funny title, but it captures the point perfectly.&nbsp; What do you do when you have something (a domain entity or model object of some kind, or maybe a value type, etc) that you need to convert to a string?&nbsp; “Duh, ToString()!” you might say, and that’s how we started. But in our app we quickly ran into situations where one “ToString()” method wasn’t enough. We needed context. In this context, it should look like this and in that context, it should look like that.&nbsp; So then we had ToString() methods that took arguments. Soon we needed to have services that could do things like figure out the correct time zone for the current user when display date/time values.&nbsp; It got out of hand.&nbsp; We needed to be able to string-ify anything in any way we needed to in the current context, possibly using services from the container. Stringifier and IDisplayFormatter were born.
 
 ## Why?
 
-I started writing a whole mini-post on the circuitous route we took to finally arrive at centralizing and conventionalizing our display formatting, but it got too long.&nbsp; So I moved it to it’s own post: [Convention over lots of code](http://lostechies.com/chadmyers/2011/06/10/convention-over-lots-of-code/). You might want to read that before continuing, but if you already understand the “Why”, please proceed.
+I started writing a whole mini-post on the circuitous route we took to finally arrive at centralizing and conventionalizing our display formatting, but it got too long.&nbsp; So I moved it to it’s own post: [Convention over lots of code](https://lostechies.com/chadmyers/2011/06/10/convention-over-lots-of-code/). You might want to read that before continuing, but if you already understand the “Why”, please proceed.
 
 ## How
 
@@ -72,7 +72,7 @@ Let’s break that code sample down:
       * Second, new up a DisplayConversionRegistry to help you register your conventions with Stringifier (you don’t have to do this, but it makes it easier unless you want to write your own API for doing convention registration). 
           * Then we explain our conventions to the registry. In this case, I’m using a silly example of grabbing the text of the “Description” attribute hanging off the property. I chose to do it this way to show you your conventions can do more than just grab the value of the property. They can work with the type metadata and not just the value itself. A quick aside: When you here us Fubu guys going on and on about making the most of static typing while we’re using a statically typed language, this is the kind of stuff we’re talking about. 
               * Next we have the registry dump all its conventions into Stringifier. This would normally be done during app start-up/config time. 
-                  * New up a DisplayFormatter and satisfy its dependencies. Also use ReflectionHelper to get a [static reflection reference](http://lostechies.com/chadmyers/2011/06/01/cool-stuff-in-fubucore-no-3-static-reflection/) to the property. Normally HtmlTags does this for you in a web app situation. I would recommend if you’re using a web app to use HtmlTags, otherwise, make sure to bake IDisplayFormatter into whatever framework you’re using. 
+                  * New up a DisplayFormatter and satisfy its dependencies. Also use ReflectionHelper to get a [static reflection reference](https://lostechies.com/chadmyers/2011/06/01/cool-stuff-in-fubucore-no-3-static-reflection/) to the property. Normally HtmlTags does this for you in a web app situation. I would recommend if you’re using a web app to use HtmlTags, otherwise, make sure to bake IDisplayFormatter into whatever framework you’re using. 
                       * Perform the actual conversion. You’ll notice what I did her. I print out the simple ToString() value, and then I print out what DisplayFormatter did.</ol> 
                     Here are the console output results:
                     

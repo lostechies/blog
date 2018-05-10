@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2009/06/18/the-filter-viewdata-anti-
 ---
 In just about every website you go to these days, its layout follows a very similar pattern:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="362" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_55425A8C.png" width="521" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_5A250E48.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="362" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_55425A8C.png" width="521" border="0" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_5A250E48.png) 
 
 You have some static resource logo, a large main section with information that our controller action supplies.&#160; But we also have some other stuff, those green sections.&#160; Things like breadcrumbs, shopping carts, login widgets, smart menus and so on.&#160; It’s all still data driven, but its information has absolutely _nothing_ to do with what’s going on in my main section.&#160; This is some of the first kinds of duplication we see in MVC applications – common, data-driven sections across many pages in our application.
 
@@ -63,7 +63,7 @@ In our original view, if we dissected each piece, we had a main section and othe
 
 RenderAction works like a mini-request, exercising the MvcHandler, but re-using the existing HttpContext.&#160; It simulates a request, but writes out to the exact same response stream, at the exact right place:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="267" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_3780CFCD.png" width="721" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_267CA1EA.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="267" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_3780CFCD.png" width="721" border="0" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_267CA1EA.png) 
 
 Our view doesn’t look much different, it looks like a cross between a Url.Action call and RenderPartial:
 

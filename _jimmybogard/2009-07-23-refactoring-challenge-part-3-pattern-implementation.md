@@ -11,7 +11,7 @@ categories:
   - Refactoring
 redirect_from: "/blogs/jimmy_bogard/archive/2009/07/22/refactoring-challenge-part-3-pattern-implementation.aspx/"
 ---
-In the [previous part](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/07/08/refactoring-challenge-part-2-preparation.aspx) to the refactoring challenge, I needed to structure the original implementation to a point where I could start applying other refactorings.&#160; Whenever I start to see a bunch of “if” statements or a big switch statement, this is a pretty strong smell that I need to reduce conditional complexity by moving towards some specific patterns.&#160; The big one I’m looking for is a combination of Strategy and Specification, mashed together in some sort of pipeline.&#160; The idea is to allow each strategy be responsible for both the decision to do work, and the work itself.&#160; You wind up with an interface something like:
+In the [previous part](https://lostechies.com/blogs/jimmy_bogard/archive/2009/07/08/refactoring-challenge-part-2-preparation.aspx) to the refactoring challenge, I needed to structure the original implementation to a point where I could start applying other refactorings.&#160; Whenever I start to see a bunch of “if” statements or a big switch statement, this is a pretty strong smell that I need to reduce conditional complexity by moving towards some specific patterns.&#160; The big one I’m looking for is a combination of Strategy and Specification, mashed together in some sort of pipeline.&#160; The idea is to allow each strategy be responsible for both the decision to do work, and the work itself.&#160; You wind up with an interface something like:
 
 <pre><span style="color: blue">public interface </span><span style="color: #2b91af">IStrategySpec
 </span>{
@@ -21,7 +21,7 @@ In the [previous part](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009
 
 [](http://11011.net/software/vspaste)
 
-If this looks familiar, I blogged a while back on [how we do model binding](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/03/17/a-better-model-binder.aspx) in our MVC applications.&#160; It’s the same pattern:
+If this looks familiar, I blogged a while back on [how we do model binding](https://lostechies.com/blogs/jimmy_bogard/archive/2009/03/17/a-better-model-binder.aspx) in our MVC applications.&#160; It’s the same pattern:
 
 <pre><span style="color: blue">public interface </span><span style="color: #2b91af">IFilteredModelBinder
 </span>{

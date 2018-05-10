@@ -14,11 +14,11 @@ An internal app I’ve been working with for a while needed to use OAuth2 (speci
 
 A basic flow for using OAuth with Google APIs would look like this:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/11/image_thumb.png" width="364" height="377" />](http://lostechies.com/content/jimmybogard/uploads/2014/11/image.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/11/image_thumb.png" width="364" height="377" />](https://lostechies.com/content/jimmybogard/uploads/2014/11/image.png)
 
 But for our purposes, we have a mobile application that connects to _our_ APIs, but we simply want to piggyback on top of Google for authentication. So our flow looks more like:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/11/image_thumb1.png" width="405" height="333" />](http://lostechies.com/content/jimmybogard/uploads/2014/11/image1.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/11/image_thumb1.png" width="405" height="333" />](https://lostechies.com/content/jimmybogard/uploads/2014/11/image1.png)
 
 This all works great straight out of the box, very nicely. One problem however – the token returned by the Google servers is only valid for a short period of time – 30 minutes or so. You \*could\* ignore this problem in the API we built, and not validate that part of the JWT. However, we don’t want to do that. Because we’re now going over the interwebs with our API calls, and potentially over insecure networks like coffee shop wi-fi, we want a solid verification of the JWT token:
 
@@ -30,7 +30,7 @@ This all works great straight out of the box, very nicely. One problem however �
 
 This becomes a bit of a problem – the token expires very soon, and it’s annoying to log in every time you use the app. The Xamarin.Auth component supports storing the token on the device, so that you can authenticate easily across app restarts. However, out-of-the-box, Xamarin.Auth doesn’t support the concept of [refresh tokens](https://developers.google.com/accounts/docs/OAuth2WebServer#refresh):
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/11/image_thumb2.png" width="428" height="428" />](http://lostechies.com/content/jimmybogard/uploads/2014/11/image2.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/11/image_thumb2.png" width="428" height="428" />](https://lostechies.com/content/jimmybogard/uploads/2014/11/image2.png)
 
 Since the refresh token is stored on the device, we just need to ask Google for another refresh token once the current token has expired. To get Xamarin.Auth to request a refresh token, we need to do a couple of things: first, override the GetInitialUrlAsync method to request a refresh token as part of getting an auth token:
 

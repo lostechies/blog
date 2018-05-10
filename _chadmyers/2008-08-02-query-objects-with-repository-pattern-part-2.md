@@ -11,7 +11,7 @@ categories:
   - LINQ
 redirect_from: "/blogs/chad_myers/archive/2008/08/02/query-objects-with-repository-pattern-part-2.aspx/"
 ---
-As promised in [my previous post](http://www.lostechies.com/blogs/chad_myers/archive/2008/08/01/query-objects-with-the-repository-pattern.aspx), I’m going to make our query object a little more flexible and dynamic.
+As promised in [my previous post](https://lostechies.com/blogs/chad_myers/archive/2008/08/01/query-objects-with-the-repository-pattern.aspx), I’m going to make our query object a little more flexible and dynamic.
 
 First, this is what I really want to be able to do something like this:
 

@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2008/04/08/dear-software-tool-vendor
 ---
 Dear software tool vendors,
 
-Reading [Chad&#8217;s ReSharper love letter](http://lostechies.com/blogs/chad_myers/archive/2008/04/07/dear-jetbrains-re-resharper-4-eap-nightlies.aspx) reminded me we need to talk.
+Reading [Chad&#8217;s ReSharper love letter](https://lostechies.com/blogs/chad_myers/archive/2008/04/07/dear-jetbrains-re-resharper-4-eap-nightlies.aspx) reminded me we need to talk.
 
 **I&#8217;m breaking up with you.**
 

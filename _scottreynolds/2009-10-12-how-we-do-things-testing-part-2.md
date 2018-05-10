@@ -19,7 +19,7 @@ redirect_from: "/blogs/scottcreynolds/archive/2009/10/11/how-we-do-things-testin
 ---
 _This content comes solely from my experience, study, and a lot of trial and error (mostly error). I make no claims stating that which works for me will work for you. As with all things, your mileage may vary, and you will need to apply all knowledge through the filter of your context in order to strain out the good parts for you. Also, feel free to call BS on anything I say. I write this as much for me to learn as for you._
 
-_This is part 5 of the [How We Do Things](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx) series._
+_This is part 5 of the [How We Do Things](https://lostechies.com/blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx) series._
 
 In the last installment I talked about our the evolution of our TDD/BDD Practice. In this one, I will talk more specifically about the tools we use, where we apply TDD, and other testing practices we employ.
 
@@ -27,7 +27,7 @@ _n.b. I&#8217;ll use &#8220;specification&#8221; interchangeably with &#8220;tes
 
 ### .Net Testing
 
-In our .net applications we employ TDD/BDD with a combination of [NUnit](http://www.nunit.org/index.php), [TestDriven.net](http://testdriven.net/), [ReSharper](http://www.jetbrains.com/resharper/index.html), and a sprinkling of extension methods and abstract base classes inspired by [Scott Bellware&#8217;s](http://blog.scottbellware.com/) [SpecUnit.net](http://code.google.com/p/specunit-net/) project (now defunct, if you are looking for a more full context/specification framework, check out the excellent [Machine.Specifications (MSpec)](http://github.com/machine/machine.specifications) from [Aaron Jensen](http://codebetter.com/blogs/aaron.jensen/default.aspx)).
+In our .net applications we employ TDD/BDD with a combination of [NUnit](http://www.nunit.org/index.php), [TestDriven.net](http://testdriven.net/), [ReSharper](http://www.jetbrains.com/resharper/index.html), and a sprinkling of extension methods and abstract base classes inspired by [Scott Bellware&#8217;s](http://blog.scottbellware.com/) [SpecUnit.net](http://code.google.com/p/specunit-net/) project (now defunct, if you are looking for a more full context/specification framework, check out the excellent [Machine.Specifications (MSpec)](https://github.com/machine/machine.specifications) from [Aaron Jensen](http://codebetter.com/blogs/aaron.jensen/default.aspx)).
 
 Our standard abstract base class for a specification looks a bit like this:
 

@@ -19,7 +19,7 @@ We got this from a DELETE query without a where clause.&#160; Thinking it might 
 
 For a while, it looked like DELETE was broken.&#160; But looking closer, we saw something interesting about this specific query.&#160; It was only one table in our system that would get this message, and it was our root User table.&#160; It’s nothing exciting, looks something like this:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_74453717.png" width="206" height="138" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_54965D4F.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_74453717.png" width="206" height="138" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_54965D4F.png) 
 
 But the more interesting piece came from a requirement that every entity keep track of:
 
@@ -30,7 +30,7 @@ But the more interesting piece came from a requirement that every entity keep tr
 
 It didn’t matter about history, just who updated it last and when.&#160; We used this information on a little widget on each of our entity view screens (for those entities that had a simple view screen).&#160; But the issue came in how we modeled this relationship: directly on each entity.&#160; Supposing we had a product entity, the resulting DB schema would be:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_659A8B32.png" width="504" height="180" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_7AF8409A.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_659A8B32.png" width="504" height="180" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_7AF8409A.png) 
 
 We show things like the user’s full name and so on in this widget, so we thought that linking back to the original user table would work best.&#160; It’s fairly trivial to do this in NHibernate (without resorting to things like triggers).&#160; However, that’s two foreign key constraints _per entity_.&#160; One limitation of SQL Server we learned the hard way however is that:
 

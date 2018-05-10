@@ -41,11 +41,11 @@ And here&#8217;s the html to run this:
 
 Before you continue on to the next images, try to imagine what you&#8217;re going to see when you run this code in your browser. Load the page and watch the first two alert boxes go by, then type some text into the input box and tab or click out of it to see the third alert box. Here&#8217;s the results, in order:
 
-<img title="Screen shot 2011-06-15 at 9.17.36 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.17.36-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 17 36 PM" width="459" height="193" />
+<img title="Screen shot 2011-06-15 at 9.17.36 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.17.36-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 17 36 PM" width="459" height="193" />
 
-<img title="Screen shot 2011-06-15 at 9.17.49 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.17.49-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 17 49 PM" width="503" height="208" />
+<img title="Screen shot 2011-06-15 at 9.17.49 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.17.49-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 17 49 PM" width="503" height="208" />
 
- <span style="white-space: pre;"></span><img title="Screen shot 2011-06-15 at 9.18.11 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.18.11-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 18 11 PM" width="507" height="218" />
+ <span style="white-space: pre;"></span><img title="Screen shot 2011-06-15 at 9.18.11 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.18.11-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 18 11 PM" width="507" height="218" />
 
 What did you expect to see in each of the alert boxes? What did you actually see? Personally, I expected all three text boxes to show me &#8220;foo&#8221;&#8230; or maybe the first one should have shown &#8220;foo&#8221;&#8230; but only 1 of the three did &#8211; the second call directly to &#8220;someView.showIt();&#8221; ?! So, what&#8217;s going on here? Why is this not behaving the way that you would expect? The answer is in the scope of &#8220;this&#8221;.
 
@@ -71,11 +71,11 @@ The Backbone documentation has a brief discussion on [Binding &#8220;this&#8221;
 
 Line 2 was added to the initialize method of our view, to bind the view as the context in which showIt is executed. This gives us the view as &#8220;this&#8221; in the showIt method, and our problems are magically solved! Now when we execute the script again, we get the following results:
 
-<img title="Screen shot 2011-06-15 at 9.42.01 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.42.01-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 42 01 PM" width="466" height="192" />
+<img title="Screen shot 2011-06-15 at 9.42.01 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.42.01-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 42 01 PM" width="466" height="192" />
 
-<img title="Screen shot 2011-06-15 at 9.42.14 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.42.14-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 42 14 PM" width="514" height="210" />
+<img title="Screen shot 2011-06-15 at 9.42.14 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.42.14-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 42 14 PM" width="514" height="210" />
 
-<img title="Screen shot 2011-06-15 at 9.42.32 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.42.32-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 42 32 PM" width="480" height="218" />
+<img title="Screen shot 2011-06-15 at 9.42.32 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/06/Screen-shot-2011-06-15-at-9.42.32-PM.png" border="0" alt="Screen shot 2011 06 15 at 9 42 32 PM" width="480" height="218" />
 
 These results finally make sense!
 

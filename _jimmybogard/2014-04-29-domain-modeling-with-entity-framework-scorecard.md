@@ -12,7 +12,7 @@ categories:
   - EntityFramework
   - NHibernate
 ---
-A long, long time ago I had a series on [strengthening your domain](http://lostechies.com/jimmybogard/2010/02/04/strengthening-your-domain-a-primer/), highlighting how simple refactoring tools and code smells can help guide your models to push behavior down into your core domain model/business objects/whatever. All the techniques highlighted are things I did on every project, persisting using NHibernate. But what about Entity Framework? How can it handle a fully encapsulated domain model?
+A long, long time ago I had a series on [strengthening your domain](https://lostechies.com/jimmybogard/2010/02/04/strengthening-your-domain-a-primer/), highlighting how simple refactoring tools and code smells can help guide your models to push behavior down into your core domain model/business objects/whatever. All the techniques highlighted are things I did on every project, persisting using NHibernate. But what about Entity Framework? How can it handle a fully encapsulated domain model?
 
 In some cases well, in others not. Let’s look at some of the techniques used and see how EF can handle them, and how it differs from NHibernate.
 
@@ -74,7 +74,7 @@ Let’s say that instead of a string to represent an Email, you wanted to create
 
 For querying/persisting purposes, I use that “Value” property. If I need the version with the behavior, I use the property without the “Value” suffix.
 
-Until custom primitive type persisters are supported in EF, the workarounds will have to do. In the meantime, I’m starting to use regular enum’s instead of [enumeration classes](http://lostechies.com/jimmybogard/2008/08/12/enumeration-classes/) until it’s proven that the enum needs associated behavior, like you can do with this persistable strategy pattern:
+Until custom primitive type persisters are supported in EF, the workarounds will have to do. In the meantime, I’m starting to use regular enum’s instead of [enumeration classes](https://lostechies.com/jimmybogard/2008/08/12/enumeration-classes/) until it’s proven that the enum needs associated behavior, like you can do with this persistable strategy pattern:
 
 {% gist cf90481798f8aef96ae8 %}
 

@@ -26,7 +26,7 @@ We want to automatically re-open any issue that is closed via a commit message, 
 
 #### Programmatically re-open an issue
 
-Thankfully, GitHub exposes a well-documented API at <http://develop.github.com/>. Re-opening an issue is just a matter of crafting the correct URL and passing credentials along with the request. The GitHub docs do mention a couple existing Ruby libraries for accessing their API, but for such a simple scenario it was just as easy to write my own (with a little help from <a href="http://railstips.org/blog/archives/2008/07/29/it-s-an-httparty-and-everyone-is-invited/" target="_blank">HTTParty</a>). The relevant parts (or <a href="http://github.com/joshuaflanagan/ghpong/blob/master/github.rb" target="_blank">view the full class</a>):
+Thankfully, GitHub exposes a well-documented API at <http://develop.github.com/>. Re-opening an issue is just a matter of crafting the correct URL and passing credentials along with the request. The GitHub docs do mention a couple existing Ruby libraries for accessing their API, but for such a simple scenario it was just as easy to write my own (with a little help from <a href="http://railstips.org/blog/archives/2008/07/29/it-s-an-httparty-and-everyone-is-invited/" target="_blank">HTTParty</a>). The relevant parts (or <a href="https://github.com/joshuaflanagan/ghpong/blob/master/github.rb" target="_blank">view the full class</a>):
 
 <div style="padding-bottom: 0px;margin: 0px;padding-left: 0px;padding-right: 0px;float: none;padding-top: 0px" class="wlWriterEditableSmartContent">
   <pre>class GitHub
@@ -61,9 +61,9 @@ github.reopen_issue 3</pre>
 
 Since we want to re-open issues closed via a commit message, we need a way to keep an eye out for these commits. Again, GitHub makes integration easy by exposing <a href="http://help.github.com/post-receive-hooks/" target="_blank">Post-Recieve Hooks</a>. Within your repository Admin control panel you can specify any number of services you want notified of each push, including any arbitrary URL.
 
-I just needed a simple endpoint that GitHub could call so that I could invoke my API wrapper to re-open any closed issues. This is the perfect scenario for a <a href="http://www.sinatrarb.com/" target="_blank">Sinatra</a> application. In fact, GitHub uses Sinatra for all of their &ldquo;built-in&rdquo; service hooks, and since the <a href="http://github.com/github/github-services" target="_blank">code is freely available</a>, we have plenty of examples to learn from.
+I just needed a simple endpoint that GitHub could call so that I could invoke my API wrapper to re-open any closed issues. This is the perfect scenario for a <a href="http://www.sinatrarb.com/" target="_blank">Sinatra</a> application. In fact, GitHub uses Sinatra for all of their &ldquo;built-in&rdquo; service hooks, and since the <a href="https://github.com/github/github-services" target="_blank">code is freely available</a>, we have plenty of examples to learn from.
 
-My Sinatra route to re-open issues closed by commits (<a href="http://github.com/joshuaflanagan/ghpong/blob/master/app.rb" target="_blank">view the full app</a>):
+My Sinatra route to re-open issues closed by commits (<a href="https://github.com/joshuaflanagan/ghpong/blob/master/app.rb" target="_blank">view the full app</a>):
 
 <div style="padding-bottom: 0px;margin: 0px;padding-left: 0px;padding-right: 0px;float: none;padding-top: 0px" class="wlWriterEditableSmartContent">
   <pre>post '/reopen/:token' do
@@ -76,7 +76,7 @@ end</pre>
 
 This defines a route that will respond to any HTTP POST to /reopen/_sometoken_, where _sometoken_ is a secret I&rsquo;ve hardcoded in my environment. If you were to deploy this code, you would configure your own secret token and use it in your calls (this could easily be made much more robust and support multiple users with their own tokens, but I don&rsquo;t need it yet). _respond\_to\_commits_ is a simple helper method that parses the posted data and calls the supplied block for every commit included in the git push. GitHub.closed\_issue parses commit messages looking for patterns like &ldquo;closes gh-3&rdquo;. If it finds the pattern, it returns the issue number, otherwise, nil. We then call the reopen\_issue API wrapper if an issue was found.
 
-I also wanted to add the &ldquo;Verify&rdquo; label to any issue that was re-opened. This was simply a matter of creating an additionaly which calls my GitHub.label_issue API for any issue closed via a commit message. See the <a href="http://github.com/joshuaflanagan/ghpong/blob/master/app.rb" target="_blank">app.rb</a> and <a href="http://github.com/joshuaflanagan/ghpong/blob/master/github.rb" target="_blank">github.rb</a> for details.
+I also wanted to add the &ldquo;Verify&rdquo; label to any issue that was re-opened. This was simply a matter of creating an additionaly which calls my GitHub.label_issue API for any issue closed via a commit message. See the <a href="https://github.com/joshuaflanagan/ghpong/blob/master/app.rb" target="_blank">app.rb</a> and <a href="https://github.com/joshuaflanagan/ghpong/blob/master/github.rb" target="_blank">github.rb</a> for details.
 
 ### Deploy
 
@@ -103,9 +103,9 @@ The final step is to tell GitHub about the endpoint.
   3. In Post-Recieve URLS, specify: <http://myapp.heroku.com/reopen/sometoken> 
   4. Click &ldquo;Add another post-recieve URL&rdquo; and specify: <http://myapp.heroku.com/lable/closed/Verify/sometoken> 
 
-If you think it would be useful, feel free to fork the code <http://github.com/joshuaflanagan/ghpong> and deploy
+If you think it would be useful, feel free to fork the code <https://github.com/joshuaflanagan/ghpong> and deploy
 
 ### Summary
 
-That was really too easy. If any of this was new to you, I strongly encourage you to experiment with <http://develop.github.com>, <a href="http://www.sinatrarb.com/intro" target="_blank">Sinatra</a>, and <a href="http://heroku.com/" target="_blank">Heroku</a>. If you want the functionality described in this article, just grab the code from <http://github.com/joshuaflanagan/ghpong> and deploy it. Send me a pull request if you add anything cool.
+That was really too easy. If any of this was new to you, I strongly encourage you to experiment with <http://develop.github.com>, <a href="http://www.sinatrarb.com/intro" target="_blank">Sinatra</a>, and <a href="http://heroku.com/" target="_blank">Heroku</a>. If you want the functionality described in this article, just grab the code from <https://github.com/joshuaflanagan/ghpong> and deploy it. Send me a pull request if you add anything cool.
 {% endraw %}

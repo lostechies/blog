@@ -25,7 +25,7 @@ The Visitor pattern encapsulates common behavior within a single class which is 
 
 &#160;
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="VisitorClassDiagram" src="http://lostechies.com/content/derekgreer/uploads/2011/03/VisitorClassDiagram_093E7956.png" />](http://lostechies.com/content/derekgreer/uploads/2011/03/VisitorClassDiagram_thumb_74BBBA88.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="VisitorClassDiagram" src="https://lostechies.com/content/derekgreer/uploads/2011/03/VisitorClassDiagram_093E7956.png" />](https://lostechies.com/content/derekgreer/uploads/2011/03/VisitorClassDiagram_thumb_74BBBA88.png) 
 
 &#160;
 
@@ -49,7 +49,7 @@ Each visitor defines methods specific to each type of element within the object 
       </p>
       
       <p>
-        This approach stems from the fact that many programming languages don&#8217;t support dynamic binding for method overloads.&#160; That is to say, the method invoked on an object is determined at compile time based upon the reference type of the method parameters, not at run-time based upon the type of the referenced object.&#160; When implementing the Visitor pattern in such cases, if an object structure were to pass in each element referenced through a common interface then only a Visitor method defined specifically for that interface type could be invoked.&#160; To overcome this limitation, a technique known as <a href="http://www.lostechies.com/blogs/derekgreer/archive/2010/04/18/double-dispatch-is-a-code-smell.aspx" target="_blank">Double Dispatch</a> is used to ensure that the correct Visitor method is statically dispatched.
+        This approach stems from the fact that many programming languages don&#8217;t support dynamic binding for method overloads.&#160; That is to say, the method invoked on an object is determined at compile time based upon the reference type of the method parameters, not at run-time based upon the type of the referenced object.&#160; When implementing the Visitor pattern in such cases, if an object structure were to pass in each element referenced through a common interface then only a Visitor method defined specifically for that interface type could be invoked.&#160; To overcome this limitation, a technique known as <a href="https://lostechies.com/blogs/derekgreer/archive/2010/04/18/double-dispatch-is-a-code-smell.aspx" target="_blank">Double Dispatch</a> is used to ensure that the correct Visitor method is statically dispatched.
       </p>
       
       <p>

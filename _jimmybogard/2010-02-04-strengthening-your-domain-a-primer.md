@@ -13,15 +13,15 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain
 ---
 Posts in this series:
 
-  * [A primer](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx)
-  * [Aggregate Construction](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx)
-  * [Encapsulated Collections](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx)
-  * [Encapsulated Operations](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/24/strengthening-your-domain-encapsulating-operations.aspx)
-  * [Double Dispatch Pattern](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/30/strengthening-your-domain-the-double-dispatch-pattern.aspx)
-  * [Avoiding Setters](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/31/strengthening-your-domain-avoiding-setters.aspx)
-  * [Domain Events](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/04/08/strengthening-your-domain-domain-events.aspx)
+  * [A primer](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx)
+  * [Aggregate Construction](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx)
+  * [Encapsulated Collections](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx)
+  * [Encapsulated Operations](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/24/strengthening-your-domain-encapsulating-operations.aspx)
+  * [Double Dispatch Pattern](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/30/strengthening-your-domain-the-double-dispatch-pattern.aspx)
+  * [Avoiding Setters](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/31/strengthening-your-domain-avoiding-setters.aspx)
+  * [Domain Events](https://lostechies.com/blogs/jimmy_bogard/archive/2010/04/08/strengthening-your-domain-domain-events.aspx)
 
-Recently, I talked some about the idea of an intentionally anemic domain model, under the name of “[Persistence Model](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/12/03/persistence-model-and-domain-anemia.aspx)”.&#160; While a Persistence Model is great for a large percentage of projects, you may eventually want to move more behavior into the domain.&#160; That doesn’t mean a bevy of domain services doing the actual work, however.&#160; A strong domain means that our objects become more behavioral, and less as solely data-holders.
+Recently, I talked some about the idea of an intentionally anemic domain model, under the name of “[Persistence Model](https://lostechies.com/blogs/jimmy_bogard/archive/2009/12/03/persistence-model-and-domain-anemia.aspx)”.&#160; While a Persistence Model is great for a large percentage of projects, you may eventually want to move more behavior into the domain.&#160; That doesn’t mean a bevy of domain services doing the actual work, however.&#160; A strong domain means that our objects become more behavioral, and less as solely data-holders.
 
 But before we get into some of the patterns, what are some of the goals we want to achieve with a stronger domain?&#160; And how do we get there, what should we be looking for?
 

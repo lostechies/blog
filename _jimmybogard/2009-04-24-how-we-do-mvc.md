@@ -25,10 +25,10 @@ I’ll elaborate on many of these concepts in future posts, but for now, in no p
 
 I can’t stress enough that last point.&#160; If you have a string referring to a member on a type, **use expressions!**&#160; String-based reflections leads to subtle runtime errors, where refactoring screws up your views and controllers.
 
-  * [Smart model binding](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/03/17/a-better-model-binder.aspx).&#160; Our model binders can bind:
+  * [Smart model binding](https://lostechies.com/blogs/jimmy_bogard/archive/2009/03/17/a-better-model-binder.aspx).&#160; Our model binders can bind:
   * Entities
   * Forms
-  * [Enumeration classes](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/08/12/enumeration-classes.aspx)
+  * [Enumeration classes](https://lostechies.com/blogs/jimmy_bogard/archive/2008/08/12/enumeration-classes.aspx)
 
   * Validation on your EditModel.&#160; We use Castle Validators on our EditModel to do the rote “OMG this is totally not a number type lol” validation, range validation, required field validation, and so on.&#160; Our validation occurs inside our model binder, **before our action method gets called**.&#160; This isn’t done in any filter or anything like that.&#160; We had to jump through a few hoops to merge the two concepts, as you have to match up Castle’s error summary with MVC’s concept of Model State, as well as taking care of nested levels of access (that Customer.Name example).
   * AutoMapper to go from Domain –> ViewModel and Domain –> EditModel.&#160; This is again because the view and controller put constraints on our model that we didn’t want in our domain.&#160; AutoMapper flattened our domain into very discrete ViewModel objects, containing only the data for our view, and only in the shape we want.

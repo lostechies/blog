@@ -16,7 +16,7 @@ I have been having an ongoing discussion lately concerning matrix management sty
 
 If you look at the traditional &#8220;Iron Triangle&#8221;, resources are estimated, in that change is expected in the resource allocation depending upon task and assignment. 
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="377" alt="clip_image002" src="http://lostechies.com/content/joeocampo/uploads/2011/03MatrixResourceManagementandAgile_E1B7/clip_image002_thumb.png" width="640" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03MatrixResourceManagementandAgile_E1B7/clip_image002_2.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="377" alt="clip_image002" src="https://lostechies.com/content/joeocampo/uploads/2011/03MatrixResourceManagementandAgile_E1B7/clip_image002_thumb.png" width="640" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03MatrixResourceManagementandAgile_E1B7/clip_image002_2.png) 
 
 In Agile resources are fixed throughout the duration of the project and features are variable. 
 

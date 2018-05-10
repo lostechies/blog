@@ -12,10 +12,10 @@ categories:
 ---
 Posts in this series:
 
-  * [A Primer](http://lostechies.com/jimmybogard/2015/01/29/clean-tests-a-primer/ "Clean Tests: A Primer")
-  * [Building Test Types](http://lostechies.com/jimmybogard/2015/02/05/clean-tests-building-test-types/ "Clean Tests: Building Test Types")
-  * [Isolating Internal State](http://lostechies.com/jimmybogard/2015/02/17/clean-tests-isolating-internal-state/)
-  * [Isolating the Database](http://lostechies.com/jimmybogard/2015/03/02/clean-tests-isolating-the-database/)
+  * [A Primer](https://lostechies.com/jimmybogard/2015/01/29/clean-tests-a-primer/ "Clean Tests: A Primer")
+  * [Building Test Types](https://lostechies.com/jimmybogard/2015/02/05/clean-tests-building-test-types/ "Clean Tests: Building Test Types")
+  * [Isolating Internal State](https://lostechies.com/jimmybogard/2015/02/17/clean-tests-isolating-internal-state/)
+  * [Isolating the Database](https://lostechies.com/jimmybogard/2015/03/02/clean-tests-isolating-the-database/)
   * [Isolation with Fakes
   
 ](https://lostechies.com/jimmybogard/2015/03/24/clean-tests-isolation-with-fakes/) 
@@ -27,7 +27,7 @@ One advantage I see in working with codebases for many years is that certain tru
 
 Unfortunately, this has meant that for most of the projects I’ve worked with, I’ve had to fight against testing frameworks more than work with them. Convoluted test hierarchies, insufficient extensibility, breaking changes and pipelines are some of the problems I’ve had to deal with over the years.
 
-That is, until an enterprising coworker [Patrick Lioi](http://lostechies.com/patricklioi/) started authoring a testing framework that (inadvertently) addressed all of my concerns and frustrations with testing frameworks.
+That is, until an enterprising coworker [Patrick Lioi](https://lostechies.com/patricklioi/) started authoring a testing framework that (inadvertently) addressed all of my concerns and frustrations with testing frameworks.
 
 In short, I wanted a testing framework that:
 
@@ -39,7 +39,7 @@ In short, I wanted a testing framework that:
 
 Testing frameworks are opinionated, but normally not in a good way. I wanted to work with a testing framework whose opinions were that it should be up to _you_ to decide what good tests are. Because what I’ve found is that testing frameworks don’t keep up with my opinions, nor are they flexible in the vectors in which my opinions change.
 
-That’s why for every project I’ve been on in the last 18 months or so, I’ve used [Fixie](http://fixie.github.io) as my test framework of choice. I want tests as clean as this:
+That’s why for every project I’ve been on in the last 18 months or so, I’ve used [Fixie](https://fixie.github.io) as my test framework of choice. I want tests as clean as this:
 
 {% gist 027879256ea4d99cb23e %}
 

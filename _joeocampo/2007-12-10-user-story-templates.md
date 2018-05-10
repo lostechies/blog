@@ -13,13 +13,13 @@ categories:
   - Tools
 redirect_from: "/blogs/joe_ocampo/archive/2007/12/09/user-story-templates.aspx/"
 ---
-A couple of people emailed me and asked me what the story cards looked like on our <a href="http://www.lostechies.com/blogs/joe_ocampo/archive/2007/12/08/information-radiators-make-life-visible.aspx" target="_blank">information radiator</a>.
+A couple of people emailed me and asked me what the story cards looked like on our <a href="https://lostechies.com/blogs/joe_ocampo/archive/2007/12/08/information-radiators-make-life-visible.aspx" target="_blank">information radiator</a>.
 
 > It is important to note that these story cards are only drafted after extensive modeling and feedback sessions during our modeling week.&nbsp; We don&#8217;t use them in the traditional XP fashion and caution should be taken when implementing as this may deter from fluid communication if used improperly.
 
 These templates are word documents that have been formatted to fit on a 4&#215;6 index card.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="259" alt="StoryCard" src="http://lostechies.com/content/joeocampo/uploads/2011/03UserStoryTemplates_136D0/StoryCard_thumb.jpg" width="412" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03UserStoryTemplates_136D0/StoryCard.jpg) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="259" alt="StoryCard" src="https://lostechies.com/content/joeocampo/uploads/2011/03UserStoryTemplates_136D0/StoryCard_thumb.jpg" width="412" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03UserStoryTemplates_136D0/StoryCard.jpg) 
 
 As you can see the story card has several sections:
 

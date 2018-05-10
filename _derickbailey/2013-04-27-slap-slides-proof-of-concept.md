@@ -15,7 +15,7 @@ categories:
 ---
 A few weeks ago I half-jokingly tweeted about my desire to turn a SlapChop in to a presentation controller
 
-<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2013/04/NewImage.png" alt="NewImage" width="320" height="320" border="0" />
+<img title="NewImage.png" src="https://lostechies.com/content/derickbailey/uploads/2013/04/NewImage.png" alt="NewImage" width="320" height="320" border="0" />
 
 … like I said … &#8220;half-jokingly&#8221;
 
@@ -33,18 +33,18 @@ I have the primary circuitry soldered on to a component board, and some holes cu
 
 Here&#8217;s a series of pictures that show the components and assembly… making code skinny, one slap at a time 😀
 
-<img title="IMAG1507.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1507.jpg" alt="IMAG1507" width="338" height="600" border="0" />
+<img title="IMAG1507.jpg" src="https://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1507.jpg" alt="IMAG1507" width="338" height="600" border="0" />
 
-<img title="IMAG1509.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1509.jpg" alt="IMAG1509" width="600" height="338" border="0" />
+<img title="IMAG1509.jpg" src="https://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1509.jpg" alt="IMAG1509" width="600" height="338" border="0" />
 
-<img title="IMAG1510.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1510.jpg" alt="IMAG1510" width="600" height="338" border="0" />
+<img title="IMAG1510.jpg" src="https://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1510.jpg" alt="IMAG1510" width="600" height="338" border="0" />
 
-<img title="IMAG1511.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1511.jpg" alt="IMAG1511" width="600" height="338" border="0" />
+<img title="IMAG1511.jpg" src="https://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1511.jpg" alt="IMAG1511" width="600" height="338" border="0" />
 
-<img title="IMAG1512.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1512.jpg" alt="IMAG1512" width="600" height="338" border="0" />
+<img title="IMAG1512.jpg" src="https://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1512.jpg" alt="IMAG1512" width="600" height="338" border="0" />
 
-<img title="IMAG1514.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1514.jpg" alt="IMAG1514" width="600" height="338" border="0" />
+<img title="IMAG1514.jpg" src="https://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1514.jpg" alt="IMAG1514" width="600" height="338" border="0" />
 
-<img title="IMAG1515.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1515.jpg" alt="IMAG1515" width="600" height="338" border="0" />
+<img title="IMAG1515.jpg" src="https://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1515.jpg" alt="IMAG1515" width="600" height="338" border="0" />
 
-<img title="IMAG1476.jpg" src="http://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1476.jpg" alt="IMAG1476" width="600" height="338" border="0" />
+<img title="IMAG1476.jpg" src="https://lostechies.com/content/derickbailey/uploads/2013/04/IMAG1476.jpg" alt="IMAG1476" width="600" height="338" border="0" />

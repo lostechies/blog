@@ -9,7 +9,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/rhouston/archive/2011/02/04/thoughts_2D00_on_2D00_hiring_2D00_developers.aspx/"
 ---
-Gabriel posted this [rant](http://www.lostechies.com/blogs/gabrielschenker/archive/2011/01/18/ranting-about-the-quality-of-developers.aspx) regarding his frustration with trying to find the right developer talent for positions that we were trying fill. At the time, I was the final decision maker regarding these interview candidates, so I thought I would offer my perspective.
+Gabriel posted this [rant](https://lostechies.com/blogs/gabrielschenker/archive/2011/01/18/ranting-about-the-quality-of-developers.aspx) regarding his frustration with trying to find the right developer talent for positions that we were trying fill. At the time, I was the final decision maker regarding these interview candidates, so I thought I would offer my perspective.
 
 First of all, let me say that we did find the types of individuals we wanted. It just took time and work. We made offers to a couple of individuals who turned us down for counter offers. I would imagine we also passed on some developers who could have been really good. This would be because either we did a poor job of asking the right questions and learning about the candidate or the candidate did a poor job of selling us that they are the right person for the job. Regardless, if they did not make an impression, they did not get an offer. It’s too expensive to give a person an opportunity and have them turn out to be the wrong person which causes the team’s productivity to suffer.
 

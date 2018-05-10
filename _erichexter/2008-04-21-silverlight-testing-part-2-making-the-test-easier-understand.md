@@ -54,7 +54,7 @@ In this code you will see the UiTestHelper class which hides more of the magic E
   
 
 
-**_Subscribe to this feed:_** <http://feeds.feedburner.com/erichexter> 
+**_Subscribe to this feed:_** <https://feeds.feedburner.com/erichexter> 
 
 
   

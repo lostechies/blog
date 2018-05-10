@@ -15,7 +15,7 @@ categories:
 ---
 A long time ago, in a galaxy far, far away… 
 
-It was almost a year ago that [I announced a book](http://lostechies.com/derickbailey/2012/07/06/im-wring-a-book-on-building-backbone-plugins/) on building Backbone.js plugins. Since then… nothing. Well I finally got tired of sitting on it and over the weekend I made a bunch of edits, cleaned up a lot and released the first 6 chapters of the book via Leanpub!
+It was almost a year ago that [I announced a book](https://lostechies.com/derickbailey/2012/07/06/im-wring-a-book-on-building-backbone-plugins/) on building Backbone.js plugins. Since then… nothing. Well I finally got tired of sitting on it and over the weekend I made a bunch of edits, cleaned up a lot and released the first 6 chapters of the book via Leanpub!
 
 <https://leanpub.com/building-backbone-plugins>
 
@@ -23,7 +23,7 @@ It was almost a year ago that [I announced a book](http://lostechies.com/derickb
 
 ## On Buidling Backbone Plugins
 
-I&#8217;ve built more than a handful of Backbone related tools, plugins and add-ons in my time working with it. From nearly the beginning of my exploration and use of Backbone, in fact, I&#8217;ve been looking for and developing better methods of handling common tasks and solving the same problems. This has led me to create plugins and frameworks such as <a href="http://github.com/derickbailey/backbone.marionette" target="_self">MarionetteJS</a> (Backbone.Marionette), <a href="http://github.com/derickbailey/backbone.picky" target="_self">Backbone.Picky</a>, <a href="http://github.com/derickbailey/backbone.modelbinding" target="_self">Backbone.ModelBinding</a> and many more &#8211; some published on my Github account, many unpublished and created for a specific client application.
+I&#8217;ve built more than a handful of Backbone related tools, plugins and add-ons in my time working with it. From nearly the beginning of my exploration and use of Backbone, in fact, I&#8217;ve been looking for and developing better methods of handling common tasks and solving the same problems. This has led me to create plugins and frameworks such as <a href="https://github.com/derickbailey/backbone.marionette" target="_self">MarionetteJS</a> (Backbone.Marionette), <a href="https://github.com/derickbailey/backbone.picky" target="_self">Backbone.Picky</a>, <a href="https://github.com/derickbailey/backbone.modelbinding" target="_self">Backbone.ModelBinding</a> and many more &#8211; some published on my Github account, many unpublished and created for a specific client application.
 
 In all of the plugins and add-ons that I&#8217;ve built, there have been lessons learned. The continued success of frameworks like MarionetteJS provide many useful insights in to how to properly create view layers and additional object types that support the creation of large Backbone application. Equally as valuable, though, failures such as Backbone.Modelbinding provide insight in to the patterns and practices that should be avoided when creating add-ons. Or, at least, they illustrate some of the scenarios and circumstances in which these patterns and practices fall apart.
 

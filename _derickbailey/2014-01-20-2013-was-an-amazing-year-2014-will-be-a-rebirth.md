@@ -26,7 +26,7 @@ Something I heard recently seems appropriate right about now:
 
 **In 2010, I stumbled my way in to a job that would change my life forever.** A friend and former coworker handed me a contract to work with him in a Ruby on Rails app. I fell over myself with delight and plopped down in to an idea that would provide me with **2 years of happiness, struggle, destroying my bank accounts and rebuilding them**. The independent life had finally found me, and I began to grow in ways that I never expected or intended, as a developer and entrepreneur. It was in this time that I jumped in to the light of the Backbone scene, screencasting and more. It was a great time for me and my career, setting seeds that are still growing today!
 
-**Then in January of 2013, I left a 2 year life of independence for my dream job** &#8211; a job I had thought about and wanted for many years at this point. [I joined Telerik](http://lostechies.com/derickbailey/2012/11/26/moving-forward-kendoui/) as a developer advocate for [Kendo UI](http://www.kendoui.com/) and other related and cross-platform tools (i.e. web and mobile web dev stuff).
+**Then in January of 2013, I left a 2 year life of independence for my dream job** &#8211; a job I had thought about and wanted for many years at this point. [I joined Telerik](https://lostechies.com/derickbailey/2012/11/26/moving-forward-kendoui/) as a developer advocate for [Kendo UI](http://www.kendoui.com/) and other related and cross-platform tools (i.e. web and mobile web dev stuff).
 
 **2013 was truly one of the most amazing years of work for me**, with Telerik and Kendo UI. I was able to live my dream of being a developer advocate, of getting paid to blog, write articles, build sample projects and help other people be awesome at their job. I was also part of helping one amazing company with a tremendously exciting and diverse set of products and services. **I&#8217;ve seen new services released, new products made available and helped to shape new features and capabilities across several different products and services.** I&#8217;ve flown halfway around the world, multiple times, marking the first time in my life that I&#8217;ve had a passport and have been outside of the U.S. I&#8217;ve met more amazing people than I thought possible, **spoken as some outstanding conferences and user groups, and worked with a team that is unparalleled in talent and motivation**. 
 
@@ -50,7 +50,7 @@ Like so many others that are doing amazing things, **I&#8217;m starting things o
 
 2013 saw the vast majority of my screencasts produced for Telerik, and rightfully so. 2014, though, will see me rebuild momentum for [WatchMeCode](http://watchmecode.net) starting with [Episode 14: The Registry Pattern](http://www.watchmecode.net/registry-pattern). My goal is to release a minimum of 18 screencasts this year. That&#8217;s 1 a month for 6 months, and 2 a month after that. If you want to stay up to date with my screencasts and get discounts on episodes (as well as other things that I&#8217;m working on), sign up for my mailing list below this post. 
 
-[<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/registry-pattern.png" alt="Registry pattern" width="300" height="225" border="0" />](http://watchmecode.net/registry-pattern)
+[<img src="https://lostechies.com/content/derickbailey/uploads/2014/01/registry-pattern.png" alt="Registry pattern" width="300" height="225" border="0" />](http://watchmecode.net/registry-pattern)
 
 **For eBooks**
 
@@ -58,7 +58,7 @@ I&#8217;m finally going to finish [my Building Backbone Plugins eBook](http://ba
 
 There are two additional books that I&#8217;ll be writing in 2014, as well. The first of which is [my intro guide to podcasting](http://blog.signalleaf.com/how-to-podcast), for [SignalLeaf](http://signalleaf.com). I&#8217;ve already started it, and I don&#8217;t have an exact date in mind to finish it. I will be continuing to work on i throughout the year, though. The second book will be another technical / code book, either covering MarionetteJS or Arduino + JavaScript. I am not sure, yet. The plan for this one (which ever it will be) is to do it in the second half of 2014. 
 
-[<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage.png" alt="NewImage" width="250" border="0" />](http://backboneplugins.com)[ <img src="http://lostechies.com/content/derickbailey/uploads/2014/01/NewImage1.png" alt="NewImage" width="250" border="0" />](http://blog.signalleaf.com/how-to-podcast)
+[<img src="https://lostechies.com/content/derickbailey/uploads/2014/01/NewImage.png" alt="NewImage" width="250" border="0" />](http://backboneplugins.com)[ <img src="https://lostechies.com/content/derickbailey/uploads/2014/01/NewImage1.png" alt="NewImage" width="250" border="0" />](http://blog.signalleaf.com/how-to-podcast)
 
 **For SignalLeaf**
 
@@ -66,7 +66,7 @@ There are two additional books that I&#8217;ll be writing in 2014, as well. The 
 
 If you&#8217;re looking for a podcast audio host, [check out SignalLeaf](http://signalleaf.com). I&#8217;m not the fanciest in town (yet), but I&#8217;m certainly providing the most personal service of any host out there. I stay in contact with every one of the podcasts that I host, at this point, to ensure they are getting everything they need to get their episodes posted. 
 
-[<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/signalleaf-hosting-ad.png" alt="Signalleaf hosting ad" width="290" height="120" border="0" />](http://signalleaf.com)
+[<img src="https://lostechies.com/content/derickbailey/uploads/2014/01/signalleaf-hosting-ad.png" alt="Signalleaf hosting ad" width="290" height="120" border="0" />](http://signalleaf.com)
 
 **For Consulting**
 

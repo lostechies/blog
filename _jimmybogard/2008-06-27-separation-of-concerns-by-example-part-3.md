@@ -15,9 +15,9 @@ redirect_from: "/blogs/jimmy_bogard/archive/2008/06/26/separation-of-concerns-by
 ---
 We made quite a bit of progress separating out the concerns in Part 2, but there are still some issues with our current design.&nbsp; Other parts in this series include:
 
-  * [Separation of Concerns &#8211; how not to do it](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx)
-  * [Separation of Concerns by example: Part 1](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/19/separation-of-concerns-by-example-part-1.aspx) &#8211; Refactoring away from static class
-  * [Separation of Concerns by example: Part 2](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/24/separation-of-concerns-by-example-part-2.aspx) &#8211; Specialized interface for Cache
+  * [Separation of Concerns &#8211; how not to do it](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx)
+  * [Separation of Concerns by example: Part 1](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/19/separation-of-concerns-by-example-part-1.aspx) &#8211; Refactoring away from static class
+  * [Separation of Concerns by example: Part 2](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/24/separation-of-concerns-by-example-part-2.aspx) &#8211; Specialized interface for Cache
 
 To review, here&#8217;s our CustomerFinder so far, after refactoring away from the static class and creating the specialized ICustomCache interface:
 

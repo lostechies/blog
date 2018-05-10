@@ -83,4 +83,4 @@ Yesterday we looked at the pull up refactoring to move a method to a base class 
   </div>
 </div>
 
-_<font size="1">This is part of the 31 Days of Refactoring series. For a full list of Refactorings please see the <a href="http://www.lostechies.com/blogs/sean_chambers/archive/2009/07/31/31-days-of-refactoring.aspx" target="_blank">original introductory post</a>.</font>_
+_<font size="1">This is part of the 31 Days of Refactoring series. For a full list of Refactorings please see the <a href="https://lostechies.com/blogs/sean_chambers/archive/2009/07/31/31-days-of-refactoring.aspx" target="_blank">original introductory post</a>.</font>_

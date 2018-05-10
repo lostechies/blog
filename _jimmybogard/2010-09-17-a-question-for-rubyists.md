@@ -12,7 +12,7 @@ categories:
   - Rails
 redirect_from: "/blogs/jimmy_bogard/archive/2010/09/17/a-question-for-rubyists.aspx/"
 ---
-I was checking out [this post from Derick Bailey](http://www.lostechies.com/blogs/derickbailey/archive/2010/09/10/design-and-testability.aspx) today, and something struck me rather odd.&#160; Not the “DI only enables testability” argument, but the ruby code:
+I was checking out [this post from Derick Bailey](https://lostechies.com/blogs/derickbailey/archive/2010/09/10/design-and-testability.aspx) today, and something struck me rather odd.&#160; Not the “DI only enables testability” argument, but the ruby code:
 
 <pre>class Foo<br />&#160;&#160;&#160; def bar<br />&#160;&#160;&#160;&#160; baz = Baz.new<br />&#160;&#160;&#160;&#160; baz.do_something<br />&#160;&#160; end
 end</pre>

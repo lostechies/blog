@@ -24,7 +24,7 @@ Here are a few other reactions that I agree with, that hit my RSS reader today:
   * <a href="http://weblogs.asp.net/fbouma/archive/2008/05/19/why-use-the-entity-framework-yeah-why-exactly.aspx" target="_blank">Why use the Entity Framework? Yeah, why exactly?</a> 
       * <a href="http://codebetter.com/blogs/jeremy.miller/archive/2008/05/19/what-dan-simmons-forgot-to-tell-you-about-the-entity-framework.aspx" target="_blank">Reaction from Jeremy Miller</a> 
           * <a href="http://devlicio.us/blogs/rob_eisenberg/archive/2008/05/18/why-ef.aspx" target="_blank">Why EF?</a> 
-              * <a href="http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/05/19/more-entity-framework-thoughts.aspx" target="_blank">More Entity Framework Thoughts</a> 
+              * <a href="https://lostechies.com/blogs/jimmy_bogard/archive/2008/05/19/more-entity-framework-thoughts.aspx" target="_blank">More Entity Framework Thoughts</a> 
                   * <a href="http://codebetter.com/blogs/gregyoung/archive/2008/05/19/ef-long-term-plans.aspx" target="_blank">EF Long Term Plans</a> 
                       * <a href="http://codebetter.com/blogs/david_laribee/archive/2008/05/19/entity-framework-our-albatross.aspx" target="_blank">Entity Framework: Our Albatross</a> 
                           * [Rewriting the Entity Framework Source Control Support](http://www.ayende.com/Blog/archive/2008/05/19/Reviewing-the-Entity-Framework-Source-Control-Support.aspx) </ul> 

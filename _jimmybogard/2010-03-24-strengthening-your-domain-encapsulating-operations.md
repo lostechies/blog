@@ -13,9 +13,9 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/03/24/strengthening-your-domain
 ---
 Other posts in this series:
 
-  * [A primer](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx)
-  * [Aggregate Construction](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx)
-  * [Encapsulated Collections](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx)
+  * [A primer](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx)
+  * [Aggregate Construction](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx)
+  * [Encapsulated Collections](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx)
 
 In previous posts, we walked through the journey from an intentionally anemic domain model (one specifically designed with CRUD in mind), towards a design of a stronger domain model design.&#160; Many of the comments on twitter and in the posts noted that many of the design techniques are just plain good OO design.&#160; Yes!&#160; That’s the idea.&#160; If we have behavior in our system, it might not be in the right place.&#160; The DDD domain design techniques are in place to help move that behavior from services surrounding the domain back into the domain model where it belongs.
 
@@ -145,6 +145,6 @@ The public contour of the Fee object is simplified as well.&#160; We only expose
 
 ### Wrapping it up
 
-We again see that a consistent theme in DDD is good OO and attention to code smells.&#160; DDD helps us by giving us patterns and direction, towards placing more and more logic inside our domain.&#160; The difference between an intentionally anemic domain model (a [persistence model](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/12/03/persistence-model-and-domain-anemia.aspx)) and an anemic domain model is the presence of these code smells.&#160; If you don’t have a legion of supporting services propping up the state of your domain model, then there’s no problem.
+We again see that a consistent theme in DDD is good OO and attention to code smells.&#160; DDD helps us by giving us patterns and direction, towards placing more and more logic inside our domain.&#160; The difference between an intentionally anemic domain model (a [persistence model](https://lostechies.com/blogs/jimmy_bogard/archive/2009/12/03/persistence-model-and-domain-anemia.aspx)) and an anemic domain model is the presence of these code smells.&#160; If you don’t have a legion of supporting services propping up the state of your domain model, then there’s no problem.
 
 However, it’s these external domain services where we are likely to find the bulk of domain model smells.&#160; Through attention to the code smells and refactorings [Fowler laid out](http://www.amazon.com/exec/obidos/ASIN/0201485672), we can move towards the concepts of self-consistent aggregate roots with strongly-enforced boundaries.

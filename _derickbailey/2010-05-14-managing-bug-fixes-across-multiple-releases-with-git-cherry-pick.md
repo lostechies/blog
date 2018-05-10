@@ -29,7 +29,7 @@ There are scenarios where either is appropriate and scenarios where they are not
 
 In the scenario where I am maintaining multiple versions of the software, I tend to have multiple working branches – one per version. For example, in my current project I have the master branch and a branch called aws0135. This branch represents a previous version of the software and is actively being maintained.
 
-&#160; <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_10159169.png" width="357" height="355" />
+&#160; <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_10159169.png" width="357" height="355" />
 
 You can see in this screen shot that my master branch and my aws0135 branch are divergent. Because we are maintaining aws0135 ‘as-is’ in terms of functionality, and we are adding new functionality into master, we will not converge these two branches at any point in time. They will always be divergent. However, we still need to apply bug fixes to both branches in many cases.
 
@@ -60,7 +60,7 @@ This morning I was told there is a small issue in one of our forms: the backgrou
             <!--CRLF--></div> </div> 
             
             <p>
-              <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_6F8E51B6.png" width="669" height="268" />
+              <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_6F8E51B6.png" width="669" height="268" />
             </p>
             
             <p>
@@ -68,7 +68,7 @@ This morning I was told there is a small issue in one of our forms: the backgrou
             </p>
             
             <p>
-              <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_360B41BF.png" width="352" height="352" />
+              <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_360B41BF.png" width="352" height="352" />
             </p>
             
             <p>

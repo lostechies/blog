@@ -23,7 +23,7 @@ Some time ago I became absolutely obsessed with testing – automated testing to
 
 My development career has been a continuous mission to remove friction and avoid it at all costs. Rather than striving for quality in the realm of automated testing, I avoided the friction.
 
-_Until I learned how to do it [“the Fubu way”](http://lostechies.com/josharnold/2012/11/16/automated-testing-with-fubumvc-storyteller-and-serenity/)._
+_Until I learned how to do it [“the Fubu way”](https://lostechies.com/josharnold/2012/11/16/automated-testing-with-fubumvc-storyteller-and-serenity/)._
 
 As a result of some reflection over this last year, I’ve settled on one point that I feel is pivotal for frictionless testing.
 

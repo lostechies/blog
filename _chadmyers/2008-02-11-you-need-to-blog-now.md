@@ -22,7 +22,7 @@ Here&#8217;s a few blog ideas I&#8217;ve been kicking around and I&#8217;ll shar
 I&#8217;m even going to go so far an pull rank on you and go Catholic:&nbsp; If you have even the slightest knowledge of these things **_you have a professional obligation to share that knowledge with as many people as you can._** Yes, even if you&#8217;re wrong on parts. Yes, even if you&#8217;re not sure (just prefix with &#8216;not sure about this&#8217;).&nbsp; I&#8217;d rather have a bunch of 80% right posts out there that we can discuss and critique and further knowledge from than 0 0% right posts out there (which is a lot of what we have right now). 
 
   * **Guiding Principles 101**:&nbsp; Single Responsibility Principle, Dependency Inversion Principle, Liskov Substitution Principle, Framework Ignorance Principle, (and others I&#8217;m not thinking of right now &#8217;cause it&#8217;s late) 
-      * [Entry by Me](http://www.lostechies.com/blogs/chad_myers/archive/2008/02/12/guiding-principles-101.aspx)
+      * [Entry by Me](https://lostechies.com/blogs/chad_myers/archive/2008/02/12/guiding-principles-101.aspx)
       * **Dependency Injection 101**: Talk about c&#8217;tor injection, setter injection, when it&#8217;s good, when it&#8217;s bad. Talk about the need for interfaces and how they help with this. 
   
           * **Inversion of Control 101**:&nbsp; Talk about how to take DI to the next level and automate a lot of it (or push the burden elsewhere).&nbsp; Use StructureMap, Windsor, or roll your own super-simplistic one to show how things work and then add in one of the big frameworks. 

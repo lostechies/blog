@@ -15,7 +15,7 @@ categories:
 ---
 Although I&#8217;ve mentioned it in this blog already, and have been tweeting about it, we&#8217;ll call this the official announcement for my new Backbone.Marionette library.
 
-[Backbone.Marionette](http://github.com/derickbailey/backbone.marionette): Make your BackboneJS apps dance with a composite application structure!
+[Backbone.Marionette](https://github.com/derickbailey/backbone.marionette): Make your BackboneJS apps dance with a composite application structure!
 
 ## Why?
 
@@ -23,9 +23,9 @@ Over the last … however many months I&#8217;ve been using Backbone, I&#8217;ve
 
 To date, i have the following libraries for Backbone, with more ideas in my head based on the work I&#8217;m currently doing:
 
-  * [Backbone.ModelBinding](http://github.com/derickbailey/backbone.modelbinding)
-  * [Backbone.Memento](http://github.com/derickbailey/backbone.memento)
-  * **[Backbone.Marionette](http://github.com/derickbailey/backbone.marionette)**
+  * [Backbone.ModelBinding](https://github.com/derickbailey/backbone.modelbinding)
+  * [Backbone.Memento](https://github.com/derickbailey/backbone.memento)
+  * **[Backbone.Marionette](https://github.com/derickbailey/backbone.marionette)**
 
 My goal with these plugins is not to say &#8220;this is how you must work with Backbone&#8221;. Rather, I want to provide options and opinions for those that are running into the same problems that I&#8217;ve run into. When I find myself solving the same problem over and over again, I find myself wanting to extract the solution into a library. This lets me get on with my real application development instead of focusing on solving the same problem again.
 
@@ -61,11 +61,11 @@ You can optionally pass an object through the start method, as well. This object
 
 The trick is to keep your code organized and put your initializers next to the code that they initialize. Don&#8217;t just cram all of your initializers into a single file, recreating the same mess from my image gallery. Put your initializers near the code that they initialize. Keep them separate, keep it clean and decoupled. Add as many initializers as you need. Just remember that you have no guarantee of the order in which they run.
 
-For more info on the application object, see [the documentation](http://github.com/derickbailey/backbone.marionette).
+For more info on the application object, see [the documentation](https://github.com/derickbailey/backbone.marionette).
 
 ## How: Event Aggregation
 
-The \`Application\` object comes with an event aggregator built into it. You can call the \`.vent\` property of any Application instance and have full access to the Backbone Event system. I won&#8217;t go into any more detail about this right now, as you can [read up on the basics of how I use event aggregators in my previous blog post](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/).
+The \`Application\` object comes with an event aggregator built into it. You can call the \`.vent\` property of any Application instance and have full access to the Backbone Event system. I won&#8217;t go into any more detail about this right now, as you can [read up on the basics of how I use event aggregators in my previous blog post](https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/).
 
 Of course you can still build your own event aggregator with one line of code.
 
@@ -75,15 +75,15 @@ In fact, this is all I&#8217;m doing in the Application object. I just put it th
 
 ## How: View Management
 
-In one of my recent blog posts on composite JS apps I talked about [the use of a region manager](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/), and the code that I wrote in that post has been migrated into Backbone.Marionette as the \`RegionManager\` object.
+In one of my recent blog posts on composite JS apps I talked about [the use of a region manager](https://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/), and the code that I wrote in that post has been migrated into Backbone.Marionette as the \`RegionManager\` object.
 
-The [intent and purpose of a RegionManager](http://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/) is the same as I&#8217;ve previously talked about. The difference in Marionette is how you access a RegionManager. You have two options: use the \`addRegions\` method on your Application instance, or manually create a RegionManager object. The choice gives you flexibility, allowing you to use a RegionManager without using the rest of Marionette, if you want to.
+The [intent and purpose of a RegionManager](https://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/) is the same as I&#8217;ve previously talked about. The difference in Marionette is how you access a RegionManager. You have two options: use the \`addRegions\` method on your Application instance, or manually create a RegionManager object. The choice gives you flexibility, allowing you to use a RegionManager without using the rest of Marionette, if you want to.
 
 The \`addRegions\` method on the Application object accepts a single parameter of a JavaScript object literal. The keys for this object become the names of the regions, and the value of each key should be a jQuery selector that points to the HTML DOM element that your region manager will manage:
 
 {% gist 1486459 region.js %}
 
-You can also pass a RegionManager definition as a value. See [the documentation](http://github.com/derickbailey/backbone.marionette) for more info on this.
+You can also pass a RegionManager definition as a value. See [the documentation](https://github.com/derickbailey/backbone.marionette) for more info on this.
 
 Once the application is started, each of the keys that specified will be available on the application object instance. You can then call the \`show\` method on your region managers to show your Backbone views in that region.
 
@@ -91,7 +91,7 @@ Once the application is started, each of the keys that specified will be availab
 
 I&#8217;ve linked to the documentation several times, which is found on the Github repository that houses the code:
 
-<http://github.com/derickbailey/backbone.marionette>
+<https://github.com/derickbailey/backbone.marionette>
 
 I also have the annotated documentation that I&#8217;ve previously talked about, available at:
 
@@ -107,7 +107,7 @@ You can find BBCloneMail online at:
 
 The source code is here:
 
-<http://github.com/derickbailey/bbclonemail>
+<https://github.com/derickbailey/bbclonemail>
 
 And the annotated source as documentation is here:
 

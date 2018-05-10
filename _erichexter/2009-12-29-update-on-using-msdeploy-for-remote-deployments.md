@@ -14,7 +14,7 @@ categories:
   - MSDeploy
 redirect_from: "/blogs/hex/archive/2009/12/29/update-on-using-msdeploy-for-remote-deployments.aspx/"
 ---
-This is a follow up to the post [http://www.lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx](http://www.lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx "http://www.lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx")
+This is a follow up to the post [https://lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx](https://lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx "https://lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx")
 
 &#160;
 
@@ -26,7 +26,7 @@ Here is what this looks like in Nant ( oh.. that is some ugly xml)
 
 &#160;
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_11B8B3F2.png" width="1028" height="397" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_407E6C94.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_11B8B3F2.png" width="1028" height="397" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_407E6C94.png) 
 
 So what is happening here?
 

@@ -14,7 +14,7 @@ categories:
   - Spark
 redirect_from: "/blogs/chrismissal/archive/2010/01/28/reading-code-spark-s-once-attribute.aspx/"
 ---
-[<img style="border-right-width: 0px;margin: 0px 20px 0px 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Spark-320" align="left" src="http://lostechies.com/content/chrismissal/uploads/2011/03/Spark320_thumb_0CE3D06E.png" width="240" height="90" />](http://lostechies.com/content/chrismissal/uploads/2011/03/Spark320_58AFA727.png)For those who don’t know what Spark is… Spark is an open source view engine for <a href="http://castleproject.org/monorail/" rel="nofollow">Castle’s MonoRail Project</a> (version 2.0 just recently released!) and <a href="http://www.asp.net/mvc/" rel="nofollow">ASP.NET MVC</a>. The creator of Spark, [Louis DeJardin](http://whereslou.com/), came up with the project in a comment left on a Phil Haack blog post amidst people complaining about the “tag soup” in the default view engine.
+[<img style="border-right-width: 0px;margin: 0px 20px 0px 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Spark-320" align="left" src="https://lostechies.com/content/chrismissal/uploads/2011/03/Spark320_thumb_0CE3D06E.png" width="240" height="90" />](https://lostechies.com/content/chrismissal/uploads/2011/03/Spark320_58AFA727.png)For those who don’t know what Spark is… Spark is an open source view engine for <a href="http://castleproject.org/monorail/" rel="nofollow">Castle’s MonoRail Project</a> (version 2.0 just recently released!) and <a href="http://www.asp.net/mvc/" rel="nofollow">ASP.NET MVC</a>. The creator of Spark, [Louis DeJardin](http://whereslou.com/), came up with the project in a comment left on a Phil Haack blog post amidst people complaining about the “tag soup” in the default view engine.
 
 There’s a handy feature of Spark that allows you to specify a block of code that is only output one time to the overall view. This is especially nice when you have small partial files (similar to user controls if you prefer that term) that add some functionality that includes a JavaScript file. [The Spark ‘once’ attribute](http://sparkviewengine.com/documentation/expressions#Conditionalattributeonce) allows you to name an include that will only be rendered once per name.
 
@@ -64,7 +64,7 @@ There’s a handy feature of Spark that allows you to specify a block of code th
       </p>
       
       <p>
-        When the view is parsed, Spark uses the <a href="http://en.wikipedia.org/wiki/Visitor_pattern" rel="nofollow">Visitor Pattern</a> to handle each node that is contained within the view. Below is the implementation of IsSpecialAttribute by the class <a href="http://github.com/loudej/spark/blob/master/src/Spark/Compiler/NodeVisitors/OnceAttributeVisitor.cs#LID14">OnceAttributeVisitor</a>. The visitor pattern is implemented in Spark in that there are different kinds of nodes that inherit from “Node”. Some of these classes need to tell their consumers whether or not they are “special”. Spark visits all nodes with 11 different Visitors, we’ll be looking at the OnceAttributeVisitor.
+        When the view is parsed, Spark uses the <a href="http://en.wikipedia.org/wiki/Visitor_pattern" rel="nofollow">Visitor Pattern</a> to handle each node that is contained within the view. Below is the implementation of IsSpecialAttribute by the class <a href="https://github.com/loudej/spark/blob/master/src/Spark/Compiler/NodeVisitors/OnceAttributeVisitor.cs#LID14">OnceAttributeVisitor</a>. The visitor pattern is implemented in Spark in that there are different kinds of nodes that inherit from “Node”. Some of these classes need to tell their consumers whether or not they are “special”. Spark visits all nodes with 11 different Visitors, we’ll be looking at the OnceAttributeVisitor.
       </p>
       
       <div>
@@ -206,7 +206,7 @@ There’s a handy feature of Spark that allows you to specify a block of code th
                   <!--CRLF--></div> </div> 
                   
                   <p>
-                    When that code is compiled, it’s turned into a derived type of <a href="http://github.com/loudej/spark/blob/master/src/Spark/SparkViewBase.cs#L91">SparkViewBase</a>, which, implements the Once method. The element that contains the ‘once’ attribute is only rendered if the Once method below returns true.
+                    When that code is compiled, it’s turned into a derived type of <a href="https://github.com/loudej/spark/blob/master/src/Spark/SparkViewBase.cs#L91">SparkViewBase</a>, which, implements the Once method. The element that contains the ‘once’ attribute is only rendered if the Once method below returns true.
                   </p>
                   
                   <div>

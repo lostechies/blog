@@ -167,4 +167,4 @@ We want to change the CustomerManager, but it&#8217;s a presentation layer class
 
 We did these in a way such the existing behavior of CustomerManager remained unchanged, but its responsibilities were moved to the CustomerFinder service.
 
-Next time, we&#8217;ll look at the CustomerFinder to see how we can remove some of the static dependencies (I think I saw a [screencast somewhere](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/05/06/pablotv-eliminating-static-dependencies-screencast.aspx) on that one&#8230;)
+Next time, we&#8217;ll look at the CustomerFinder to see how we can remove some of the static dependencies (I think I saw a [screencast somewhere](https://lostechies.com/blogs/jimmy_bogard/archive/2008/05/06/pablotv-eliminating-static-dependencies-screencast.aspx) on that one&#8230;)

@@ -71,7 +71,7 @@ If I were writing some code in Ruby, I could easily test this:
       </p>
       
       <p>
-        There are a number of options for being able to test the behavior of the Foo class&rsquo;s .bar method. I could use the nature of Ruby&rsquo;s open-type system and just replace the initializer and do_something method on the Baz class; I could use <a href="http://rspec.info/documentation/mocks/">RSpec and it&rsquo;s built in mocking syntax</a>; I could use the <a href="http://github.com/derickbailey/not_a_mock">not-a-mock</a> gem (which is my preference) to stub the methods; etc.
+        There are a number of options for being able to test the behavior of the Foo class&rsquo;s .bar method. I could use the nature of Ruby&rsquo;s open-type system and just replace the initializer and do_something method on the Baz class; I could use <a href="http://rspec.info/documentation/mocks/">RSpec and it&rsquo;s built in mocking syntax</a>; I could use the <a href="https://github.com/derickbailey/not_a_mock">not-a-mock</a> gem (which is my preference) to stub the methods; etc.
       </p>
       
       <p>

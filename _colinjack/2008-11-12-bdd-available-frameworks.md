@@ -86,7 +86,7 @@ This project is very cool, not only does it allow you to create superb specifica
     
     
     <p>
-      However this seems a little pointless to me so I&#8217;ve dumped the idea.<br /><span style="font-weight: bold"><br />Summary</span><br />We decided to go with XUnit.net but we also plan to look at Ruby based solutions including RSpec and Cucumber. <a href="http://github.com/aslakhellesoy/cucumber/wikis">Cucumber</a> seems exciting as it lets you specify <a href="http://github.com/aslakhellesoy/cucumber/wikis/using-fit-tables-in-a-feature">table based specifications</a>, theoretically allowing us to get the advantages of a FIT style approach without having to use FIT (or <a href="http://blog.objectmentor.com/articles/2008/10/02/slim">SLIM</a>) itself.
+      However this seems a little pointless to me so I&#8217;ve dumped the idea.<br /><span style="font-weight: bold"><br />Summary</span><br />We decided to go with XUnit.net but we also plan to look at Ruby based solutions including RSpec and Cucumber. <a href="https://github.com/aslakhellesoy/cucumber/wikis">Cucumber</a> seems exciting as it lets you specify <a href="https://github.com/aslakhellesoy/cucumber/wikis/using-fit-tables-in-a-feature">table based specifications</a>, theoretically allowing us to get the advantages of a FIT style approach without having to use FIT (or <a href="http://blog.objectmentor.com/articles/2008/10/02/slim">SLIM</a>) itself.
     </p>
     
     

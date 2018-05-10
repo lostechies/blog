@@ -18,7 +18,7 @@ categories:
   - Unit Testing
 redirect_from: "/blogs/derickbailey/archive/2010/05/25/simplify-your-unit-tests-with-automocking-part-2-establishing-context.aspx/"
 ---
-Following my [helper methods in the base context specification](http://www.lostechies.com/blogs/derickbailey/archive/2010/05/24/simplify-your-unit-tests-with-auto-mocking-part-1-helper-methods.aspx) class that we use, I decided to simplify the entire process of setting the context in which the tests are running. Specifically, I wanted to get rid of the constant declaration and instantiation of the System Under Test (SUT) field – the class that is having it’s method called to ensure it behaves correctly.
+Following my [helper methods in the base context specification](https://lostechies.com/blogs/derickbailey/archive/2010/05/24/simplify-your-unit-tests-with-auto-mocking-part-1-helper-methods.aspx) class that we use, I decided to simplify the entire process of setting the context in which the tests are running. Specifically, I wanted to get rid of the constant declaration and instantiation of the System Under Test (SUT) field – the class that is having it’s method called to ensure it behaves correctly.
 
 &#160;
 
@@ -461,5 +461,5 @@ Instead of having to manually call out to the MockingKernel directly, to retriev
                             </h3>
                             
                             <p>
-                              I’m obviously very happy with what I’ve been able to do with the <a href="http://www.lostechies.com/blogs/derickbailey/archive/2010/05/21/ninject-rhinomocks-auto-mocking-container-for-net-3-5-and-compact-framework-3-5.aspx">Ninject.RhinoMocks automocking container</a>. However, there is a potential danger in using an auto mocking container. Stay tuned for tomorrow’s post to find out more about that danger and how you can help your team avoid it.
+                              I’m obviously very happy with what I’ve been able to do with the <a href="https://lostechies.com/blogs/derickbailey/archive/2010/05/21/ninject-rhinomocks-auto-mocking-container-for-net-3-5-and-compact-framework-3-5.aspx">Ninject.RhinoMocks automocking container</a>. However, there is a potential danger in using an auto mocking container. Stay tuned for tomorrow’s post to find out more about that danger and how you can help your team avoid it.
                             </p>

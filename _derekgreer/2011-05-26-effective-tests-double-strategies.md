@@ -71,7 +71,7 @@ tags:
   </ul>
 </div>
 
-In our [last](http://lostechies.com/derekgreer/2011/05/15/effective-tests-test-doubles/) installment, the topic of Test Doubles was introduced as a mechanism for verifying and/or controlling the interactions of a component with its collaborators. In this article, we&#8217;ll consider a few recommendations for using Test Doubles effectively.
+In our [last](https://lostechies.com/derekgreer/2011/05/15/effective-tests-test-doubles/) installment, the topic of Test Doubles was introduced as a mechanism for verifying and/or controlling the interactions of a component with its collaborators. In this article, we&#8217;ll consider a few recommendations for using Test Doubles effectively.
 
 ### &nbsp;
 

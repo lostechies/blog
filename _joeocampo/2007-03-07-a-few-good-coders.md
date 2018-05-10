@@ -17,7 +17,7 @@ This is a paraody based on a conversation, that one of my developers had with a 
   
 
 
-**<IMG src="http://www.lostechies.com/FewGoodCoders.jpg" border="0" />**
+**<IMG src="https://lostechies.com/FewGoodCoders.jpg" border="0" />**
 
 
   

@@ -13,7 +13,7 @@ tags:
   - csharp
   - Lisp
 ---
-As you may remember from my last [post](http://lostechies.com/ryanrauh/2011/10/24/til-everything-in-lisp-is-a-function/) I&#8217;m current reading [Structure and Interpretation of Computer Programs](https://docs.google.com/a/fitorbit.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BxVCLS4f8Sg5OGUwMmZlZjYtZWQ4Zi00ZThmLWFkMjYtNTIxZmY4ODhjNDdl&hl=en&authkey=CLnyyF4&pli=1) as part of a study group we started during Pablo&#8217;s Fiesta. 
+As you may remember from my last [post](https://lostechies.com/ryanrauh/2011/10/24/til-everything-in-lisp-is-a-function/) I&#8217;m current reading [Structure and Interpretation of Computer Programs](https://docs.google.com/a/fitorbit.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BxVCLS4f8Sg5OGUwMmZlZjYtZWQ4Zi00ZThmLWFkMjYtNTIxZmY4ODhjNDdl&hl=en&authkey=CLnyyF4&pli=1) as part of a study group we started during Pablo&#8217;s Fiesta. 
 
 I continue to find Lisp to be a fascinating language especially this really interesting piece of code.
 
@@ -26,7 +26,7 @@ Ok so what&#8217;s going on here?
   * else 
       * return &#8211;
 
-In my previous [post](http://lostechies.com/ryanrauh/2011/10/24/til-everything-in-lisp-is-a-function/) I demonstrated how you might implement this in javascript. Well I found it so interesting that I decided to find out if I could do it in C# as well. The following is my attempt at trying to return the + or &#8211; symbol from an if statement. 
+In my previous [post](https://lostechies.com/ryanrauh/2011/10/24/til-everything-in-lisp-is-a-function/) I demonstrated how you might implement this in javascript. Well I found it so interesting that I decided to find out if I could do it in C# as well. The following is my attempt at trying to return the + or &#8211; symbol from an if statement. 
 
 {% gist 1313071 symbol_from_if2.cs %}
 
@@ -42,7 +42,7 @@ Let&#8217;s up the silliness some more and make it an extension method just for 
 
 {% gist 1313071 extension_method2.cs %}
 
-I was having so much fun with this that I even roped some of my teammates in on it. Heres  [Chad Myers](http://lostechies.com/chadmyers/) solution. 
+I was having so much fun with this that I even roped some of my teammates in on it. Heres  [Chad Myers](https://lostechies.com/chadmyers/) solution. 
 
 {% gist 1313071 chads.cs %}
 

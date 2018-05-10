@@ -13,8 +13,8 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain
 ---
 Previous posts in this series:
 
-  * [A Primer](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx)
-  * [Aggregate Construction](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx)
+  * [A Primer](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx)
+  * [Aggregate Construction](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx)
 
 One of the common themes throughout the [DDD book](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) is that much of the nuts and bolts of structural domain-driven design is just plain good use of object-oriented programming.&#160; This is certainly true, but DDD adds some direction to OOP, along with roles, stereotypes and patterns.&#160; Much of the direction for building entities at the class level can, and should, come from test-driven development.&#160; TDD is a great tool for building OO systems, as we incrementally build our design with only the behavior that is needed to pass the test.&#160; Our big challenge then is to write good tests.
 

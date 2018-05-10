@@ -12,7 +12,7 @@ categories:
   - Expression Trees
 redirect_from: "/blogs/chad_myers/archive/2008/10/27/composing-statements-with-expression-trees-in-net-3-0.aspx/"
 ---
-I was preparing some examples for my upcoming [ALT.NET Workshop](http://www.lostechies.com/blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx) and thought that this might be of some interest to a few people.
+I was preparing some examples for my upcoming [ALT.NET Workshop](https://lostechies.com/blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx) and thought that this might be of some interest to a few people.
 
 Expression Trees’ primary raison d&#8217;être was to facilitate LINQ-y type stuff in the IQueryable implementations to support delayed execution and some other fun stuff.&#160;&#160; Expression Trees, however, go much father than that. They are essentially a window in to the middle of the compilation process in .NET.&#160; Imagine if you could hit PAUSE on the C# or VB compiler in mid-compile and take a snapshot of its internal state/model of the code before it does the final step of writing out the MSIL.&#160; What if you could not only capture it, but you could manipulate and add to it before finishing the compilation and executing it? That’s exactly what Expression Trees are for (well, it doesn’t work EXACTLY like that, but it’s pretty close, close enough for this blog post anyhow). 
 

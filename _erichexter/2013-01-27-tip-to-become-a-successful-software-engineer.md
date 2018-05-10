@@ -13,7 +13,7 @@ categories:
   - Protip
   - Software Engineering
 ---
-This post is a follow up to <a href="http://lostechies.com/derickbailey/2013/01/21/you-are-not-paid-to-write-software/" target="_blank">Derick’s great post</a>. I could not agree with his view point any more., but it struck a chord with me.  There is more to it. To actually call yourself a software engineer you need to take into account a few aspects of what an engineer should do.
+This post is a follow up to <a href="https://lostechies.com/derickbailey/2013/01/21/you-are-not-paid-to-write-software/" target="_blank">Derick’s great post</a>. I could not agree with his view point any more., but it struck a chord with me.  There is more to it. To actually call yourself a software engineer you need to take into account a few aspects of what an engineer should do.
 
 &nbsp;
 

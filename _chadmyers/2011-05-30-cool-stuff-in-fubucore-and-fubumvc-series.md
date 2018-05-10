@@ -26,15 +26,15 @@ You can find the repository here: <https://github.com/DarthFubuMVC/fubucore>
 
 Posts:
 
-  1. [The Cache<TKey, TValue> Class](http://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-no-1-cache)
-  2. [Extension Methods](http://lostechies.com/chadmyers/2011/05/31/cool-stuff-in-fubucore-no-2-extension-methods/)
-  3. [Static Reflection](http://lostechies.com/chadmyers/2011/06/01/cool-stuff-in-fubucore-no-3-static-reflection/)
-  4. [Dependency Analysis with Directed Graph](http://lostechies.com/chadmyers/2011/06/02/cool-stuff-in-fubucore-no-4-dependency-analysis-with-directed-graph/)
-  5. [Easy Configuration](http://lostechies.com/chadmyers/2011/06/03/cool-stuff-in-fubucore-no-5-easy-configuration/)
-  6. [Command-Line Binding and Usage Framework](http://lostechies.com/chadmyers/2011/06/06/cool-stuff-in-fubucore-no-6-command-line/)
-  7. [Model Binding](http://lostechies.com/chadmyers/2011/06/08/cool-stuff-in-fubucore-no-7-model-binding/) (and [follow-up post](http://lostechies.com/chadmyers/2011/06/10/a-quick-follow-up-on-model-binding-in-fubucore/) with more clarification)
-  8. [UrlContext](http://lostechies.com/chadmyers/2011/06/09/cool-stuff-in-fubucore-no-8-urlcontext/)
-  9. [Stringification](http://lostechies.com/chadmyers/2011/06/10/cool-stuff-in-fubucore-no-9-stringification/) (you may also want to read the [preface post](http://lostechies.com/chadmyers/2011/06/10/convention-over-lots-of-code/) which explains the context of this post)
+  1. [The Cache<TKey, TValue> Class](https://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-no-1-cache)
+  2. [Extension Methods](https://lostechies.com/chadmyers/2011/05/31/cool-stuff-in-fubucore-no-2-extension-methods/)
+  3. [Static Reflection](https://lostechies.com/chadmyers/2011/06/01/cool-stuff-in-fubucore-no-3-static-reflection/)
+  4. [Dependency Analysis with Directed Graph](https://lostechies.com/chadmyers/2011/06/02/cool-stuff-in-fubucore-no-4-dependency-analysis-with-directed-graph/)
+  5. [Easy Configuration](https://lostechies.com/chadmyers/2011/06/03/cool-stuff-in-fubucore-no-5-easy-configuration/)
+  6. [Command-Line Binding and Usage Framework](https://lostechies.com/chadmyers/2011/06/06/cool-stuff-in-fubucore-no-6-command-line/)
+  7. [Model Binding](https://lostechies.com/chadmyers/2011/06/08/cool-stuff-in-fubucore-no-7-model-binding/) (and [follow-up post](https://lostechies.com/chadmyers/2011/06/10/a-quick-follow-up-on-model-binding-in-fubucore/) with more clarification)
+  8. [UrlContext](https://lostechies.com/chadmyers/2011/06/09/cool-stuff-in-fubucore-no-8-urlcontext/)
+  9. [Stringification](https://lostechies.com/chadmyers/2011/06/10/cool-stuff-in-fubucore-no-9-stringification/) (you may also want to read the [preface post](https://lostechies.com/chadmyers/2011/06/10/convention-over-lots-of-code/) which explains the context of this post)
 
 ## FubuMVC
 
@@ -42,7 +42,7 @@ This series is all about the Front Controller MVC framework we built for our usa
 
 Posts:
 
-  1. [Behaviors](http://lostechies.com/chadmyers/2011/06/23/cool-stuff-in-fubumvc-no-1-behaviors/)
-  2. [Action Conventions](http://lostechies.com/chadmyers/2011/10/07/cool-stuff-in-fubumvc-no-2-action-conventions/ "Action Conventions")
+  1. [Behaviors](https://lostechies.com/chadmyers/2011/06/23/cool-stuff-in-fubumvc-no-1-behaviors/)
+  2. [Action Conventions](https://lostechies.com/chadmyers/2011/10/07/cool-stuff-in-fubumvc-no-2-action-conventions/ "Action Conventions")
 
 You can find the repository here:  <https://github.com/DarthFubuMVC/fubumvc>

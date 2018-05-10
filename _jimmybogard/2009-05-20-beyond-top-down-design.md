@@ -13,9 +13,9 @@ redirect_from: "/blogs/jimmy_bogard/archive/2009/05/19/beyond-top-down-design.as
 ---
 Here at Los Techies, we talk a lot about SOLID principles and design.&#160; Two of the principles that have always resonated with me are the Single Responsibility Principle and the Dependency Inversion Principle.&#160; With the two together, the need for some kind of inversion of control almost becomes required.&#160; When I first started using the DIP, I didn’t really feel the pain of locating dependencies, I always provided some no-argument constructor or the various construction patterns to get my dependencies in play.
 
-The combination of test-driven development and SOLID led me towards a sort of default top-down design, as [Derick describes as a cloud of objects](http://www.lostechies.com/blogs/derickbailey/archive/2008/10/07/di-and-ioc-creating-and-working-with-a-cloud-of-objects.aspx).&#160; My objects take, for the vast majority, the following shape:
+The combination of test-driven development and SOLID led me towards a sort of default top-down design, as [Derick describes as a cloud of objects](https://lostechies.com/blogs/derickbailey/archive/2008/10/07/di-and-ioc-creating-and-working-with-a-cloud-of-objects.aspx).&#160; My objects take, for the vast majority, the following shape:
 
-![](http://www.lostechies.com/blogs/derickbailey/WindowsLiveWriter/DependencyInversionAndTheCloudOfObjects_8D80/image_thumb_4.png)
+![](https://lostechies.com/blogs/derickbailey/WindowsLiveWriter/DependencyInversionAndTheCloudOfObjects_8D80/image_thumb_4.png)
 
 This is great and all, but in some cases, the level of nesting would get completely out-of-hand.&#160; Small classes are great, but I had projects where the level of nesting hit double digits, making it quite difficult to figure out what was going on, and to understand the shape of the application.&#160; At that point, I couldn’t understand what actually happened for a given request by looking at the code, and all of this traced back to top-down design.
 

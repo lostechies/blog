@@ -13,7 +13,7 @@ tags:
   - fubu-webinars
   - fubumvc
 ---
-As mentioned in my [previous post](http://lostechies.com/josharnold/2011/08/03/upcoming-fubumvc-webinar-series/), I&#8217;m looking to schedule the first of the FubuMVC Webinar installment. After screwing up the scheduling, I&#8217;m going to go ahead and do this one twice.
+As mentioned in my [previous post](https://lostechies.com/josharnold/2011/08/03/upcoming-fubumvc-webinar-series/), I&#8217;m looking to schedule the first of the FubuMVC Webinar installment. After screwing up the scheduling, I&#8217;m going to go ahead and do this one twice.
 
 #### Friday, August 5th, 2011 @ 10:00AM CST:
 

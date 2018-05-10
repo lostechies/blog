@@ -14,11 +14,11 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/06/25/generic-value-object-equa
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/generic-value-object-equality.html)._
 
-I read a post from [Oren](http://www.ayende.com/Blog/Default.aspx) the other day&nbsp;where he [posted some code](http://www.ayende.com/Blog/archive/2007/06/05/Generic-Entity-Equality.aspx) for a generic [Entity](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/04/14/a-discussion-on-domain-driven-design-entities.aspx) base type that implemented the correct equality logic.&nbsp; I realized that I&#8217;ve needed a generic base type for [Value Objects](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx) as well.
+I read a post from [Oren](http://www.ayende.com/Blog/Default.aspx) the other day&nbsp;where he [posted some code](http://www.ayende.com/Blog/archive/2007/06/05/Generic-Entity-Equality.aspx) for a generic [Entity](https://lostechies.com/blogs/joe_ocampo/archive/2007/04/14/a-discussion-on-domain-driven-design-entities.aspx) base type that implemented the correct equality logic.&nbsp; I realized that I&#8217;ve needed a generic base type for [Value Objects](https://lostechies.com/blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx) as well.
 
 ### Value Object Requirements
 
-In the [Domain Driven Design](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) space, a [Value Object](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx):
+In the [Domain Driven Design](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) space, a [Value Object](https://lostechies.com/blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx):
 
   * Has no concept of an identity 
       * Two different instances of a Value Object with the same values are considered equal

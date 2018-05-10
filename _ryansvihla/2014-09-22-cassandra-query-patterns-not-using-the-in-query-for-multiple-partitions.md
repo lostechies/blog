@@ -85,7 +85,7 @@ The “in” keyword has it’s place such as when querying INSIDE of a partitio
 
 ## A note about distributed thinking
 
-This and my [‘no batch’ blog post](http://lostechies.com/ryansvihla/2014/08/28/cassandra-batch-loading-without-the-batch-keyword/) really drive a bigger discussion about distributed thinking. Most things that don’t really work as well in a distributed database as people think they should, bulk loading via batch, in queries, and ‘rollbacks’ are left over vestiges from a single machine thinking.
+This and my [‘no batch’ blog post](https://lostechies.com/ryansvihla/2014/08/28/cassandra-batch-loading-without-the-batch-keyword/) really drive a bigger discussion about distributed thinking. Most things that don’t really work as well in a distributed database as people think they should, bulk loading via batch, in queries, and ‘rollbacks’ are left over vestiges from a single machine thinking.
 
 This highly consistent single machine world is easy to reason about, but it doesn’t scale easily, and has single points of failure, and when you do make the tradeoffs needed to scale, you find features like “in” queries don’t scale unless they happen to be all be on the same machine (like Cassandra). You’ll find when you try and scale highly consistent single machine technologies via sharding you run into the same problem set as we have with distributed databases, only without appropriate tools.
 

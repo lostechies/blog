@@ -12,7 +12,7 @@ categories:
 ---
 Why? Because since at least Visual Studio 2005, the default for tabs/spaces has been:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/03/image_thumb.png" width="761" height="444" />](http://lostechies.com/content/jimmybogard/uploads/2012/03/image.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2012/03/image_thumb.png" width="761" height="444" />](https://lostechies.com/content/jimmybogard/uploads/2012/03/image.png)
 
 Insert spaces, not “Keep tabs”. If tabs were supposed to win, they would have won the default settings battle. If the default settings in Visual Studio aren’t “do tabs everywhere”, then you’re fighting some serious momentum against you.
 

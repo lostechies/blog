@@ -13,8 +13,8 @@ redirect_from: "/blogs/jimmy_bogard/archive/2008/06/24/separation-of-concerns-by
 ---
 Separation of concerns is one of the fundamental tenets of good object-oriented design.&nbsp; Anyone can throw a bunch of code in a method and call it a day, but that&#8217;s not the most maintainable approach.&nbsp; So far, we&#8217;ve looked at:
 
-  * [Separation of Concerns &#8211; how not to do it](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx) 
-      * [Separation of Concerns by example: Part 1](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/19/separation-of-concerns-by-example-part-1.aspx) &#8211; Refactoring away from static class</ul> 
+  * [Separation of Concerns &#8211; how not to do it](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx) 
+      * [Separation of Concerns by example: Part 1](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/19/separation-of-concerns-by-example-part-1.aspx) &#8211; Refactoring away from static class</ul> 
     In this part, I&#8217;d like to look at removing the dependency on HttpContext.&nbsp; Here&#8217;s what our classes look like thus far:
     
     <pre><span style="color: blue">public class </span><span style="color: #2b91af">CustomerManager

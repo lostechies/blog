@@ -72,6 +72,6 @@ Speaking of jobs, if you are looking for some short-term work, Joe is looking
   
 for a [few
   
-good developers](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/09/28/i-m-looking-for-a-few-good-developers-contract.aspx).
+good developers](https://lostechies.com/blogs/joe_ocampo/archive/2007/09/28/i-m-looking-for-a-few-good-developers-contract.aspx).
 
 &nbsp;

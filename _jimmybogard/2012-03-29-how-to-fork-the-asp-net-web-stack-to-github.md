@@ -22,7 +22,7 @@ Next, just create a dummy repository and make sure you can push/pull OK.
 ### Forking a CodePlex repository
 
   1. Create an aspnetwebstack repository on GitHub:  
-    [<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/03/image_thumb4.png" width="485" height="175" />](http://lostechies.com/content/jimmybogard/uploads/2012/03/image4.png)  
+    [<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2012/03/image_thumb4.png" width="485" height="175" />](https://lostechies.com/content/jimmybogard/uploads/2012/03/image4.png)  
     You can just call it “aspnetwebstack” to make things easy. 
       * Clone the CodePlex repository locally, using the Git bash or Posh-Git 
         <pre>git clone https://git01.codeplex.com/aspnetwebstack

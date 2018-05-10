@@ -63,7 +63,7 @@ The easiest event aggregator to show is that of [Backbone.js](http://backbonejs.
 </pre>
 </div>
 
-In this example, the first view is triggering an event when a DOM element is clicked. The event is triggered through Backbone&#8217;s built-in event aggregator &#8211; the `Backbone` object. Of course, [it&#8217;s trivial to create your own event aggregator in Backbone](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/), and there are some [key things that we need to keep in mind when using an event aggregator](http://lostechies.com/derickbailey/2012/04/03/revisiting-the-backbone-event-aggregator-lessons-learned/), to keep our code simple.
+In this example, the first view is triggering an event when a DOM element is clicked. The event is triggered through Backbone&#8217;s built-in event aggregator &#8211; the `Backbone` object. Of course, [it&#8217;s trivial to create your own event aggregator in Backbone](https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/), and there are some [key things that we need to keep in mind when using an event aggregator](https://lostechies.com/derickbailey/2012/04/03/revisiting-the-backbone-event-aggregator-lessons-learned/), to keep our code simple.
 
 ### jQuery&#8217;s Event Aggregator
 
@@ -90,7 +90,7 @@ Backbone doesn&#8217;t have the idea of a mediator built in to it like a lot of 
 
 `var mediator = {};`
 
-Yes, of course this is just an object literal in JavaScript. Once again, we&#8217;re talking about semantics here. The purpose of the mediator is to [control the workflow between objects](http://lostechies.com/derickbailey/2012/05/10/modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps/) and we really don&#8217;t need anything more than an object literal to do this.
+Yes, of course this is just an object literal in JavaScript. Once again, we&#8217;re talking about semantics here. The purpose of the mediator is to [control the workflow between objects](https://lostechies.com/derickbailey/2012/05/10/modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps/) and we really don&#8217;t need anything more than an object literal to do this.
 
 <div class="highlight">
   <pre><span class="kd">var</span> <span class="nx">orgChart</span> <span class="o">=</span> <span class="p">{</span>
@@ -153,13 +153,13 @@ When two objects have a direct relationship already &#8211; say, a parent view a
 
 jQuery&#8217;s [on](http://api.jquery.com/on/) method as an event aggregator is a great example of too many objects to listen to. If you have 10, 20 or 200 DOM elements that can trigger a &#8220;click&#8221; event, it might be a bad idea to set up a listener on all of them individually. This could quickly deteriorate performance of the application and user experience. Instead, using jQuery&#8217;s `on` method allows us to aggregate all of the events and reduce the overhead of 10, 20, or 200 event handlers down to 1.
 
-Indirect relationships are also a great time to use event aggregators. In Backbone applications, it is very common to have multiple view objects that need to communicate, but [have no direct relationship](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/). For example, a menu system might have a view that handles the menu item clicks. But we don&#8217;t want the menu to be direcly tied to the content views that show all of the details and information when a menu item is clicked. Having the content and menu coupled together would make the code very difficult to maintain, in the long run. Instead, we can use an event aggregator to trigger &#8220;menu:click:foo&#8221; events, and have a &#8220;foo&#8221; object handle the click event to show it&#8217;s content on the screen.
+Indirect relationships are also a great time to use event aggregators. In Backbone applications, it is very common to have multiple view objects that need to communicate, but [have no direct relationship](https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/). For example, a menu system might have a view that handles the menu item clicks. But we don&#8217;t want the menu to be direcly tied to the content views that show all of the details and information when a menu item is clicked. Having the content and menu coupled together would make the code very difficult to maintain, in the long run. Instead, we can use an event aggregator to trigger &#8220;menu:click:foo&#8221; events, and have a &#8220;foo&#8221; object handle the click event to show it&#8217;s content on the screen.
 
 ### Mediator Use
 
 A mediator is best applied when two or more objects have an indirect working relationship, and business logic or workflow needs to dictate the interactions and coordination of these objects.
 
-[A wizard interface is a good example of this](http://lostechies.com/derickbailey/2012/05/10/modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps/), as shown with the &#8220;orgChart&#8221; example, above. There are multiple views that facilitate the entire workflow of the wizard. Rather than tightly coupling the view together by having them reference each other directly, we can decouple them and more explicitly model the workflow between them by introducing a mediator.
+[A wizard interface is a good example of this](https://lostechies.com/derickbailey/2012/05/10/modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps/), as shown with the &#8220;orgChart&#8221; example, above. There are multiple views that facilitate the entire workflow of the wizard. Rather than tightly coupling the view together by having them reference each other directly, we can decouple them and more explicitly model the workflow between them by introducing a mediator.
 
 The mediator extracts the workflow from the implementation details and creates a more natural abstraction at a higher level, showing us at a much faster glance what that workflow is. We no longer have to dig in to the details of each view in the workflow, to see what the workflow actually is.
 
@@ -207,4 +207,4 @@ An event aggregator and a mediator have been combined to create a much more mean
 
 There is one overriding point to make in all of this discussion: semantics. Communicating intent and semantics through the use of named patterns is only viable and only valid when all parties in a communication medium understand the language in the same way.
 
-If I say &#8220;apple&#8221;, what am I talking about? Am I talking about a fruit? Or am I talking about a technology and consumer products company? As [Sharon Cichelli](http://lostechies.com/sharoncichelli/) says: &#8220;semantics will continue to be important, until we learn how to communicate in something other than language&#8221;.
+If I say &#8220;apple&#8221;, what am I talking about? Am I talking about a fruit? Or am I talking about a technology and consumer products company? As [Sharon Cichelli](https://lostechies.com/sharoncichelli/) says: &#8220;semantics will continue to be important, until we learn how to communicate in something other than language&#8221;.

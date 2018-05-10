@@ -54,5 +54,5 @@ On that note, I will be publishing the first post starting tomorrow that begins 
  31. [Refactoring Day 31 : Replace Conditional with Polymorphism](/blogs/sean_chambers/archive/2009/08/28/refactoring-day-31-replace-conditional-with-polymorphism.aspx)
 
 <div>
-  Final post with links to download samples:&nbsp;<a href="http://www.lostechies.com/blogs/sean_chambers/archive/2009/08/31/31-days-of-refactoring-series-complete.aspx">http://www.lostechies.com/blogs/sean_chambers/archive/2009/08/31/31-days-of-refactoring-series-complete.aspx</a>
+  Final post with links to download samples:&nbsp;<a href="https://lostechies.com/blogs/sean_chambers/archive/2009/08/31/31-days-of-refactoring-series-complete.aspx">https://lostechies.com/blogs/sean_chambers/archive/2009/08/31/31-days-of-refactoring-series-complete.aspx</a>
 </div>

@@ -13,7 +13,7 @@ categories:
   - fubucore
   - FubuMVC
 ---
-This is the first post of the FubuCore series mentioned in the [Introduction post](http://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
+This is the first post of the FubuCore series mentioned in the [Introduction post](https://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
 
 This post covers the [Cache<TKey, TValue>](https://github.com/DarthFubuMVC/fubucore/blob/master/src/FubuCore/Util/Cache.cs) class (tests can be found in the [CacheTester](https://github.com/DarthFubuMVC/fubucore/blob/master/src/FubuCore.Testing/Util/CacheTester.cs))
 

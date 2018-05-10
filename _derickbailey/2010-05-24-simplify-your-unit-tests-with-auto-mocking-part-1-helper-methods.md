@@ -18,7 +18,7 @@ categories:
   - Unit Testing
 redirect_from: "/blogs/derickbailey/archive/2010/05/24/simplify-your-unit-tests-with-auto-mocking-part-1-helper-methods.aspx/"
 ---
-After working on the [Ninject.RhinoMocks automocking container](http://www.lostechies.com/blogs/derickbailey/archive/2010/05/21/ninject-rhinomocks-auto-mocking-container-for-net-3-5-and-compact-framework-3-5.aspx), I started using it in my current project right away and it wasn’t long before I started simplifying the usage of it with helper methods in my base test class. 
+After working on the [Ninject.RhinoMocks automocking container](https://lostechies.com/blogs/derickbailey/archive/2010/05/21/ninject-rhinomocks-auto-mocking-container-for-net-3-5-and-compact-framework-3-5.aspx), I started using it in my current project right away and it wasn’t long before I started simplifying the usage of it with helper methods in my base test class. 
 
 &#160;
 

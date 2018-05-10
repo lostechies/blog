@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 ---
-I ended my last post, [Generating Test Cases at Runtime](http://lostechies.com/patricklioi/2013/10/09/generating-test-cases-at-runtime/), with a pop quiz: &#8220;Can you spot the bug? It’s possible to write test methods that never get invoked.&#8221; Today, let&#8217;s cover the bug as well as its fix.
+I ended my last post, [Generating Test Cases at Runtime](https://lostechies.com/patricklioi/2013/10/09/generating-test-cases-at-runtime/), with a pop quiz: &#8220;Can you spot the bug? It’s possible to write test methods that never get invoked.&#8221; Today, let&#8217;s cover the bug as well as its fix.
 
 ## Reproducing the Issue
 

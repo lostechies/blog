@@ -18,15 +18,15 @@ tags:
   - fubumvc
   - Patterns
 ---
-This is the fourth post in the [Patterns of Compositional Architecture series](http://lostechies.com/josharnold/tag/composition-patterns/) that I mentioned in my [introductory post](http://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture/).
+This is the fourth post in the [Patterns of Compositional Architecture series](https://lostechies.com/josharnold/tag/composition-patterns/) that I mentioned in my [introductory post](https://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture/).
 
 #### Prerequisites
 
 Before reading this post, please read the following posts:
 
-  * [Domain Specific Languages Introduction](http://lostechies.com/josharnold/2011/07/11/patterns-of-compositional-architecture-domain-specific-languages/)
-  * [Semantic Models](http://lostechies.com/josharnold/2011/07/12/patterns-of-compositional-architecture-dsls-semantic-models/)
-  * [Registries](http://lostechies.com/josharnold/2011/07/12/patterns-of-compositional-architecture-dsls-registries/)
+  * [Domain Specific Languages Introduction](https://lostechies.com/josharnold/2011/07/11/patterns-of-compositional-architecture-domain-specific-languages/)
+  * [Semantic Models](https://lostechies.com/josharnold/2011/07/12/patterns-of-compositional-architecture-dsls-semantic-models/)
+  * [Registries](https://lostechies.com/josharnold/2011/07/12/patterns-of-compositional-architecture-dsls-registries/)
 
 ## The Pattern
 

@@ -11,7 +11,7 @@ categories:
   - ASPNETMVC
 redirect_from: "/blogs/jimmy_bogard/archive/2008/05/28/mvc-storefront-challenge-kickoff.aspx/"
 ---
-Last week, I announced the [MVC Storefront Challenge](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/05/20/the-mvc-storefront-challenge.aspx), which is a response to some feedback [Rob Conery](http://blog.wekeroad.com/) was getting on his ongoing [MVC Storefront](http://blog.wekeroad.com/mvc-storefront/) series.&nbsp; Before I could get started, I needed to get the original project up and running on my own machine.
+Last week, I announced the [MVC Storefront Challenge](https://lostechies.com/blogs/jimmy_bogard/archive/2008/05/20/the-mvc-storefront-challenge.aspx), which is a response to some feedback [Rob Conery](http://blog.wekeroad.com/) was getting on his ongoing [MVC Storefront](http://blog.wekeroad.com/mvc-storefront/) series.&nbsp; Before I could get started, I needed to get the original project up and running on my own machine.
 
 I had to install Unity and restore the included database (I already had ASP.NET MVC installed), but everything is up and running.
 

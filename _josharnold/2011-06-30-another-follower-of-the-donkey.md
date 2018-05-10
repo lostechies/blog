@@ -14,4 +14,4 @@ tags:
 ---
 The guys at LosTechies have been kind enough to invite me to their list of authors/coders and I, of course, readily accepted it. Thanks guys!
 
-If you followed my previous blogs in the past (the ones without a Feedburner url), you&#8217;ll probably think that I don&#8217;t blog anymore. The new url is: <http://lostechies.com/josharnold/>
+If you followed my previous blogs in the past (the ones without a Feedburner url), you&#8217;ll probably think that I don&#8217;t blog anymore. The new url is: <https://lostechies.com/josharnold/>

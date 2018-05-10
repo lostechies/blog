@@ -9,7 +9,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/evan_hoff/archive/2008/01/09/the-monolith.aspx/"
 ---
-The Monolith is probably one of the most common ways people structure systems these days. <img style="margin: 25px" height="280" src="http://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/TheMonolith_117A4/sunset_boulder1_thumb3.jpg" width="400" align="right" />While this is probably a valid way to build a large majority of small systems, for others, it causes quite a bit of pain.&nbsp; I would imagine a large number of people don&#8217;t realize that it&#8217;s not the only way to build systems.
+The Monolith is probably one of the most common ways people structure systems these days. <img style="margin: 25px" height="280" src="https://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/TheMonolith_117A4/sunset_boulder1_thumb3.jpg" width="400" align="right" />While this is probably a valid way to build a large majority of small systems, for others, it causes quite a bit of pain.&nbsp; I would imagine a large number of people don&#8217;t realize that it&#8217;s not the only way to build systems.
 
 Your typical n-tier or client/server system is a monolith.
 

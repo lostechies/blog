@@ -15,7 +15,7 @@ categories:
 ---
 By [Brad Carleton](http://twitter.com/techpines)
 
-This is the third installment in a series on _Building Realtime HTML5 Apps_. Most of the thoughts and ideas from these articles stem from my experience building [bone.io](http://bone.io), a realtime javascript framework. The previous articles focused on [Websockets vs AJAX](http://lostechies.com/chrismissal/2013/08/06/browser-wars-websockets-vs-ajax/) and [Single Page Apps & Realtime](http://lostechies.com/chrismissal/2013/08/13/single-page-apps-realtime-a-love-story/). This article will focus primarily on understanding Realtime User Interface Design as opposed to MVC for browser-based applications.
+This is the third installment in a series on _Building Realtime HTML5 Apps_. Most of the thoughts and ideas from these articles stem from my experience building [bone.io](http://bone.io), a realtime javascript framework. The previous articles focused on [Websockets vs AJAX](https://lostechies.com/chrismissal/2013/08/06/browser-wars-websockets-vs-ajax/) and [Single Page Apps & Realtime](https://lostechies.com/chrismissal/2013/08/13/single-page-apps-realtime-a-love-story/). This article will focus primarily on understanding Realtime User Interface Design as opposed to MVC for browser-based applications.
 
 ## The Evolution of the Browser
 

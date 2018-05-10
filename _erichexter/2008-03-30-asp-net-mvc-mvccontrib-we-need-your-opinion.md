@@ -18,7 +18,7 @@ I started working with sandcastle to generate api documentation for the Asp.Net 
 
 
 _  
-**To Subscribe to this RSS feed use this url:**_ [_**http://feeds.feedburner.com/EricHexter**_](http://feeds.feedburner.com/EricHexter)
+**To Subscribe to this RSS feed use this url:**_ [_**https://feeds.feedburner.com/EricHexter**_](https://feeds.feedburner.com/EricHexter)
   
 
 

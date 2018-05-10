@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 ---
-The [Fixie test framework](http://fixie.github.io/) has been in production use for over a year now, and I&#8217;ve had a chance to work with it on a number of real world projects as well as a large project developed for training purposes. In the last few months, I&#8217;ve refined my recommended integration testing strategy in light of what I&#8217;ve learned. Today, we&#8217;ll see how to structure your tests so that they can adhere to a few driving principles:
+The [Fixie test framework](https://fixie.github.io/) has been in production use for over a year now, and I&#8217;ve had a chance to work with it on a number of real world projects as well as a large project developed for training purposes. In the last few months, I&#8217;ve refined my recommended integration testing strategy in light of what I&#8217;ve learned. Today, we&#8217;ll see how to structure your tests so that they can adhere to a few driving principles:
 
   * Matching production as closely as possible.
   * Helping our teammates fall into the pit of success.

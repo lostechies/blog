@@ -71,7 +71,7 @@ tags:
   </ul>
 </div>
 
-In [part 1](http://lostechies.com/derekgreer/2011/03/28/effective-tests-a-test-first-example-part-1/) of our Test-First example, I presented a Test-Driven Development primer before beginning our exercise.&nbsp; One of the techniques I’d like to discuss a little further before we continue is the TDD practice of using fake implementations as a strategy for getting a test to pass.&nbsp; 
+In [part 1](https://lostechies.com/derekgreer/2011/03/28/effective-tests-a-test-first-example-part-1/) of our Test-First example, I presented a Test-Driven Development primer before beginning our exercise.&nbsp; One of the techniques I’d like to discuss a little further before we continue is the TDD practice of using fake implementations as a strategy for getting a test to pass.&nbsp; 
 
 While not discounting the benefits of using the _Obvious Implementation_ first when a clear and fast implementation can be achieved, the recommendation to “_Fake It (Until You Make It)_” participates in several helpful strategies, each with their own unique benefits:
 

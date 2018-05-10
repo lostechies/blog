@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - EntityFramework
 ---
-The list of missing EF features is quite long, but several of the items in the list do have workarounds. For encapsulated domain models that enforce their own consistency boundary, [encapsulating a collection](http://lostechies.com/jimmybogard/2010/03/10/strengthening-your-domain-encapsulated-collections/) is quite important to ensure your domain model stays consistent. We might have an operation that needs to invoke some side effects as the result of adding or removing from the collection:
+The list of missing EF features is quite long, but several of the items in the list do have workarounds. For encapsulated domain models that enforce their own consistency boundary, [encapsulating a collection](https://lostechies.com/jimmybogard/2010/03/10/strengthening-your-domain-encapsulated-collections/) is quite important to ensure your domain model stays consistent. We might have an operation that needs to invoke some side effects as the result of adding or removing from the collection:
 
 {% gist 9d2b64c2052fb6360a45 %}
 

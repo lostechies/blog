@@ -18,4 +18,4 @@ It&#8217;s something ingrained in Windows developers, they hate the command-line
 
 Back onto Git. If you don&#8217;t like what Git does, then that&#8217;s fine, but don&#8217;t label yourself as Alt.Net or a continuous improver if this sounds like you: &#8220;I define myself by choosing the best tool for each situation, but there&#8217;s no way you&#8217;ll get me using the command-line.&#8221; Way to go, oh open-minded one. Try it, you might like it.
 
-The other techies have been posting some great [Git posts](http://www.lostechies.com/blogs/tags/git/default.aspx) which can help you get up to speed. I hope to contribute, with less bile, soon.
+The other techies have been posting some great [Git posts](https://lostechies.com/blogs/tags/git/default.aspx) which can help you get up to speed. I hope to contribute, with less bile, soon.

@@ -21,7 +21,7 @@ I ran across a great taxonomy earlier today based on the model of interaction be
 
 &nbsp;
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="280" src="http://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/TaxonomyofCooperationModels_9E2/interactionmodels_thumb[1].png" width="569" border="0" />](http://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/TaxonomyofCooperationModels_9E2/interactionmodels[3].png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="280" src="https://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/TaxonomyofCooperationModels_9E2/interactionmodels_thumb[1].png" width="569" border="0" />](https://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/TaxonomyofCooperationModels_9E2/interactionmodels[3].png) 
 
 For this particular taxonomy, the consumer is the consumer of some information and the provider is the provider of that information.&nbsp; Direct addressing means that the initiator calls the other party by address (directly).&nbsp; Indirect addressing is a function provided, typically, by some form of Middleware.
 

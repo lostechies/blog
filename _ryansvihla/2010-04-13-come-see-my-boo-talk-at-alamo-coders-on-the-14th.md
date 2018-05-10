@@ -25,6 +25,6 @@ I will be covering Boo basics, advanced features, and building a small domain sp
 
 **Resources:**
 
-slides and source code are at&nbsp;<http://github.com/rssvihla/Presentations/tree/master/boo-dsl-talk/>&nbsp;.sorry keynote for now when final touches are made will export to PDF.
+slides and source code are at&nbsp;<https://github.com/rssvihla/Presentations/tree/master/boo-dsl-talk/>&nbsp;.sorry keynote for now when final touches are made will export to PDF.
 
 video will be taken and placed on vimeo at&nbsp;<http://vimeo.com/alamocoders>&nbsp;.

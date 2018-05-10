@@ -14,7 +14,7 @@ redirect_from: "/blogs/gabrielschenker/archive/2010/06/18/git-and-our-friction-p
 ---
 ## Introduction
 
-A couple of days ago I posted an [article](http://lostechies.com/blogs/gabrielschenker/archive/2010/06/15/migrating-to-git.aspx) talking about our migration from SVN to Git. During our first handful of days working with Git our team found several friction points hindering our daily work flow and we all did some things really wrong. But com’on after all we are learning, right? 
+A couple of days ago I posted an [article](https://lostechies.com/blogs/gabrielschenker/archive/2010/06/15/migrating-to-git.aspx) talking about our migration from SVN to Git. During our first handful of days working with Git our team found several friction points hindering our daily work flow and we all did some things really wrong. But com’on after all we are learning, right? 
 
 In this post I want to share some of our findings.
 
@@ -136,7 +136,7 @@ When merging or rebasing we might run into merge conflicts that cannot automatic
 >               </p>
 >               
 >               <p>
->                 <a href="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_0ED5DF98.png"><img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_40614D2D.png" width="608" height="100" /></a>
+>                 <a href="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_0ED5DF98.png"><img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_40614D2D.png" width="608" height="100" /></a>
 >               </p>
 >               
 >               <p>

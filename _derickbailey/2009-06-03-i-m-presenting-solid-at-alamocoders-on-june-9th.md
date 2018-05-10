@@ -20,10 +20,10 @@ The [AlamoCoders](http://www.alamocoders.net/) site has been updated to show my 
 
 &#160;
 
-On Tuesday, June 9th, I’ll be giving my SOLID Presentation at AlamoCoders, down in San Antonio. I’m looking forward to the opportunity, and am hoping to see [Joe](http://agilejoe.lostechies.com), [Jason](http://jason.lostechies.com), [Ryan](http://www.lostechies.com/blogs/rssvihla/), etc in their native town! This is the same SOLID presentation that I did at Austin Code Camp last weekend. I’d like to give a huge thanks to all the AlamoCoders that I got to hang out with at ACC, for giving me this opportunity, too. 
+On Tuesday, June 9th, I’ll be giving my SOLID Presentation at AlamoCoders, down in San Antonio. I’m looking forward to the opportunity, and am hoping to see [Joe](http://agilejoe.lostechies.com), [Jason](http://jason.lostechies.com), [Ryan](https://lostechies.com/blogs/rssvihla/), etc in their native town! This is the same SOLID presentation that I did at Austin Code Camp last weekend. I’d like to give a huge thanks to all the AlamoCoders that I got to hang out with at ACC, for giving me this opportunity, too. 
 
 ### The Presentation Abstract
 
 Almost every professional software developer understands the academic definitions of Coupling, Cohesion, and Encapsulation. However, many of us do not understand how to actually achieve Low Coupling, High Cohesion, and strong Encapsulation, as prescribed. Fortunately, there are a set of stepping stones that we can use to reach these end goals, giving us a clear cut path to software that is easier to read, easier to understand, and easier to change. This presentation will define not only the three object oriented goals, but also the five S.O.L.I.D. principle that lead us there, while walking through a sample application.
 
-[<img height="303" alt="http://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg" src="http://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg" width="379" />](http://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg)
+[<img height="303" alt="https://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg" src="https://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg" width="379" />](https://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg)

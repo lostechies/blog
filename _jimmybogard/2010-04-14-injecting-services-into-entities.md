@@ -11,7 +11,7 @@ categories:
   - DomainDrivenDesign
 redirect_from: "/blogs/jimmy_bogard/archive/2010/04/14/injecting-services-into-entities.aspx/"
 ---
-One of the comments that came up from the [Strengthen your Domain](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx) series was the idea of injecting services into your entities, instead of using domain services, double dispatch or domain events.&#160; For quite a long time, this was not easily possible technically, but some of the more mature ORM frameworks [now support this scenario](http://nhforge.org/blogs/nhibernate/archive/2008/12/12/entities-behavior-injection.aspx).
+One of the comments that came up from the [Strengthen your Domain](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx) series was the idea of injecting services into your entities, instead of using domain services, double dispatch or domain events.&#160; For quite a long time, this was not easily possible technically, but some of the more mature ORM frameworks [now support this scenario](http://nhforge.org/blogs/nhibernate/archive/2008/12/12/entities-behavior-injection.aspx).
 
 It’s a question that gets routinely asked on various ORM and DDD mailing lists, “How do I inject services into my entities”?&#160; Even if it’s now technically possible, the answer is the same now as it was before: **you don’t.**
 

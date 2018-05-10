@@ -39,7 +39,7 @@ Notice the labels follow a pattern of &#8216;{number} &#8211; {title}&#8217;? Th
 
 ### It&#8217;s open source!
 
-That&#8217;s right! [Huboard](http://github.com/rauhryan/huboard) is open source hosted on [github](http://github.com/rauhryan/huboard)! And&#8230; Huboard uses huboard!
+That&#8217;s right! [Huboard](https://github.com/rauhryan/huboard) is open source hosted on [github](https://github.com/rauhryan/huboard)! And&#8230; Huboard uses huboard!
 
 <img style="max-width: 100%;" src="http://cl.ly/1k0j3l1V0D1j2O0W123j/Image%202012-01-13%20at%204.18.40%20PM.png" alt="Huboard" />
 
@@ -49,7 +49,7 @@ Huboard is in beta! (big surprise) Currently, it is open for everyone to use for
 
 <del>Huboard does not work in IE. Sorry we tried, we really did but we can&#8217;t figure out or debug the problems with IE. <em>We !@#$ing hate IE</em></del>
 
-Issues have to be opened and closed on [github.com](http://github.com), they are high on the backlog and coming soon! (in the mean time &#8216;gem install ghi&#8217; and bask in the awesome that is command line issue creation)
+Issues have to be opened and closed on [github.com](https://github.com), they are high on the backlog and coming soon! (in the mean time &#8216;gem install ghi&#8217; and bask in the awesome that is command line issue creation)
 
 ### Thats it!
 

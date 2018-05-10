@@ -29,4 +29,4 @@ One of the more challenging aspects of presenting an entry level BDD presentatio
   
 
 
-If you are interested I have uploaded the <A href="http://lostechies.com/files/folders/280/download.aspx" target="_blank">presentation</A> and the <A href="http://lostechies.com/files/folders/279/download.aspx" target="_blank">source</A> to the <A href="http://lostechies.com/" target="_blank">Los Techies</A> downloads <A href="http://lostechies.com/files/8/default.aspx" target="_blank">library</A>.
+If you are interested I have uploaded the <A href="https://lostechies.com/files/folders/280/download.aspx" target="_blank">presentation</A> and the <A href="https://lostechies.com/files/folders/279/download.aspx" target="_blank">source</A> to the <A href="https://lostechies.com/" target="_blank">Los Techies</A> downloads <A href="https://lostechies.com/files/8/default.aspx" target="_blank">library</A>.

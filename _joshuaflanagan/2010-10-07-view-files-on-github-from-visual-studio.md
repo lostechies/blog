@@ -15,6 +15,6 @@ My favorite way to view the history of a file in git is via the GitHub website. 
 
 My solution is a set of Visual Studio macros that let me jump directly to the commit history page (git log) or line-by-line history page (git blame) for the current file. The macros figure out your GitHub repository URL from your configured remotes, and then launch your default browser to the file’s page.
 
-The code and installation instructions are in my <a href="http://github.com/joshuaflanagan/gitmacros" target="_blank">gitmacros GitHub repository</a>.
+The code and installation instructions are in my <a href="https://github.com/joshuaflanagan/gitmacros" target="_blank">gitmacros GitHub repository</a>.
 
 Try them out and let me know what you think. Feedback and patches (pull requests) are welcome.

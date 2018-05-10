@@ -10,9 +10,9 @@ dsq_thread_id:
 categories:
   - Uncategorized
 ---
-Last time, we saw how Fixie can [integrate with AutoFixture](http://lostechies.com/patricklioi/2013/10/05/autofixie/). That was a situation in which parameterized tests were meant to be called once. They were parameterized because the _producer_ of the inputs was interesting while the _count_ was uninteresting.
+Last time, we saw how Fixie can [integrate with AutoFixture](https://lostechies.com/patricklioi/2013/10/05/autofixie/). That was a situation in which parameterized tests were meant to be called once. They were parameterized because the _producer_ of the inputs was interesting while the _count_ was uninteresting.
 
-Before that, we saw how a convention could instead cause parameterized test methods to be called _multiple_ times, [using attributes as a source of multiple inputs.](http://lostechies.com/patricklioi/2013/09/27/a-swiss-army-katana/) That example was a little stifling: you have to know at compile time how many scenarios you are testing, and you can only specify compile-time constants in attributes.
+Before that, we saw how a convention could instead cause parameterized test methods to be called _multiple_ times, [using attributes as a source of multiple inputs.](https://lostechies.com/patricklioi/2013/09/27/a-swiss-army-katana/) That example was a little stifling: you have to know at compile time how many scenarios you are testing, and you can only specify compile-time constants in attributes.
 
 Today, we&#8217;ll see an example of parameterized tests which are called multiple times, using values _generated_ at runtime. Consider a test class with two test methods and some static Person-generator methods:
 

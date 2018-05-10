@@ -17,7 +17,7 @@ categories:
   - Reporting
   - SignalLeaf
 ---
-In [my last post about reports](http://lostechies.com/derickbailey/2013/10/18/minimum-viable-reports-a-nodejs-script-and-console-log/), I showed a simple script that gave me a count of customers. I used a similar query in [SignalLeaf](http://signalleaf.com) to give me the count of listens / downloads for episodes, too. This gave me a very basic traffic report for how many episodes had been served up, total. But the raw [count](http://mongoosejs.com/docs/api.html#model_Model.count) feature of MongooseJS / MongoDB doesn&#8217;t give me any kind of detail. It literally just returns a count of the things that match the query parameters. What I really want to see is a list of episodes with a total # of plays for each episode.
+In [my last post about reports](https://lostechies.com/derickbailey/2013/10/18/minimum-viable-reports-a-nodejs-script-and-console-log/), I showed a simple script that gave me a count of customers. I used a similar query in [SignalLeaf](http://signalleaf.com) to give me the count of listens / downloads for episodes, too. This gave me a very basic traffic report for how many episodes had been served up, total. But the raw [count](http://mongoosejs.com/docs/api.html#model_Model.count) feature of MongooseJS / MongoDB doesn&#8217;t give me any kind of detail. It literally just returns a count of the things that match the query parameters. What I really want to see is a list of episodes with a total # of plays for each episode.
 
 ## Group-By
 
@@ -49,4 +49,4 @@ And it worked!
 
 Each entry for a given episode ID was given a value of &#8220;1&#8221; which was added to all of the other entries, creating a group-by count result in MongoDB! And I now I have a fancy little report that shows me totals per episode, along with the total traffic for episode deliveries:
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2013/10/Screen-Shot-2013-10-28-at-5.09.59-PM.png" alt="Screen Shot 2013 10 28 at 5 09 59 PM" width="600" height="436" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2013/10/Screen-Shot-2013-10-28-at-5.09.59-PM.png" alt="Screen Shot 2013 10 28 at 5 09 59 PM" width="600" height="436" border="0" />

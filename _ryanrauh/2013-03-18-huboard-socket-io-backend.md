@@ -20,7 +20,7 @@ Your favorite [open source](https://github.com/rauhryan/huboard) kanban board bu
 
 ## 1. Simple
 
-Nodejs (express + socket.io) was by far the easiest thing for me to get running on [heroku](https://devcenter.heroku.com/articles/using-socket-io-with-node-js-on-heroku). The [original version](http://lostechies.com/ryanrauh/2012/08/23/huboard-goes-realtime/) I published back in August was only about 26 lines of javascript.
+Nodejs (express + socket.io) was by far the easiest thing for me to get running on [heroku](https://devcenter.heroku.com/articles/using-socket-io-with-node-js-on-heroku). The [original version](https://lostechies.com/ryanrauh/2012/08/23/huboard-goes-realtime/) I published back in August was only about 26 lines of javascript.
 
 ## 2. Reliable
 
@@ -57,7 +57,7 @@ I did explore other options
 
 # Why did it take you so long to release it?
 
-Well the TL;DR; is that it wasn&#8217;t secure. It was largely experimental. Back when I published the [RealTime™](http://lostechies.com/ryanrauh/2012/08/23/huboard-goes-realtime/) support the socket.io server was only about 26 lines of [nodejs](http://nodejs.org). It had no security because I didn&#8217;t know how to set it up. So I secure it the best I could (with a simple correlation string) and called it a day. The code wasn&#8217;t published so hackers at least had a _harder_ time connecting to the socket than if the code was in the open. Security by obscurity (I know shame on me, I&#8217;m sorry).
+Well the TL;DR; is that it wasn&#8217;t secure. It was largely experimental. Back when I published the [RealTime™](https://lostechies.com/ryanrauh/2012/08/23/huboard-goes-realtime/) support the socket.io server was only about 26 lines of [nodejs](http://nodejs.org). It had no security because I didn&#8217;t know how to set it up. So I secure it the best I could (with a simple correlation string) and called it a day. The code wasn&#8217;t published so hackers at least had a _harder_ time connecting to the socket than if the code was in the open. Security by obscurity (I know shame on me, I&#8217;m sorry).
 
 # How are you going to make it secure?
 

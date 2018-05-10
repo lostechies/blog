@@ -19,8 +19,8 @@ I&#8217;ve only begun to tap into the power of bash scripting, but I had a need 
   2. Creates a directory for the app
   3. Creates an [.rvmrc](http://rvm.beginrescueend.com/workflow/rvmrc/) file under the new app directory to ensure the proper gemset is used whenever you switch to it 
       1. Note: This assumes you have [REE 1.8.7](http://www.rubyenterpriseedition.com/) installed under rvm (rvm install ree), which is the main ruby I&#8217;m still using for everything
-  4. Installs latest prerelease of [bundler](http://github.com/carlhuda/bundler)
-  5. Installs latest **[edge](http://github.com/rails/rails)** [version of rails 3](http://github.com/rails/rails)
+  4. Installs latest prerelease of [bundler](https://github.com/carlhuda/bundler)
+  5. Installs latest **[edge](https://github.com/rails/rails)** [version of rails 3](https://github.com/rails/rails)
 
 <div>
   Here&#8217;s the bash script:

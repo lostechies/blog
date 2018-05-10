@@ -14,13 +14,13 @@ categories:
   - Principles and Patterns
   - Underscore
 ---
-Mixins are generally easy in JavaScript, though they are semantically different than [what Ruby calls a Mixin](http://www.ruby-doc.org/docs/ProgrammingRuby/html/tut_modules.html) which are facilitated through inheritance behind the scenes. If you need a good place to start to understand how to build mixins with JavaScript, Chris Missal has been writing up a series on different ways of [extending objects in JavaScript](http://lostechies.com/chrismissal/2012/09/27/extending-objects-with-javascript/). I highly recommend reading his series. It&#8217;s full of great tips. 
+Mixins are generally easy in JavaScript, though they are semantically different than [what Ruby calls a Mixin](http://www.ruby-doc.org/docs/ProgrammingRuby/html/tut_modules.html) which are facilitated through inheritance behind the scenes. If you need a good place to start to understand how to build mixins with JavaScript, Chris Missal has been writing up a series on different ways of [extending objects in JavaScript](https://lostechies.com/chrismissal/2012/09/27/extending-objects-with-javascript/). I highly recommend reading his series. It&#8217;s full of great tips. 
 
 ## Object Extension Is A Poor Man&#8217;s Mixin
 
 I love the &#8220;extend&#8221; methods of [jQuery](http://api.jquery.com/jQuery.extend/) and [Underscore](http://underscorejs.org/#extend). I use them a lot. They&#8217;re powerful and simple and make it easy to transfer data and behavior from one object to another &#8211; the essence of a mixin. But in spite of my love of underscore.js and jQuery&#8217;s &#8220;extend&#8221; methods, there&#8217;s a problem with them in that they apply every attribute from one or more source objects to a target objects. 
 
-You can see the effect of this in [Chris&#8217; underscore example](http://lostechies.com/chrismissal/2012/10/05/extending-objects-in-underscore/):
+You can see the effect of this in [Chris&#8217; underscore example](https://lostechies.com/chrismissal/2012/10/05/extending-objects-in-underscore/):
 
 {% gist 3797198 %}
 

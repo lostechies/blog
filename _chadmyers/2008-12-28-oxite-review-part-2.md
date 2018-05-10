@@ -11,7 +11,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/chad_myers/archive/2008/12/28/oxite-review-part-2.aspx/"
 ---
-In [Part 1](http://www.lostechies.com/blogs/chad_myers/archive/2008/12/20/oxite-review.aspx), we covered some overall, general aspects of Oxite (as a sample application, as an OSS project, etc) as well as the lack of tests and the problematic domain and persistence strategy.
+In [Part 1](https://lostechies.com/blogs/chad_myers/archive/2008/12/20/oxite-review.aspx), we covered some overall, general aspects of Oxite (as a sample application, as an OSS project, etc) as well as the lack of tests and the problematic domain and persistence strategy.
 
 In this part, dig a little deeper and get into some particular aspects of the application design of the application outside of the domain model.&#160; In this part, I plan on covering:
 

@@ -18,7 +18,7 @@ redirect_from: "/blogs/sean_chambers/archive/2008/06/22/monorail-best-practices-
 
 
 <DIV>
-  <FONT face="Trebuchet MS" size="2"><A href="http://www.lostechies.com/blogs/sean_chambers/archive/2008/06/22/monorail-best-practices-series.aspx">Part 1. Helpers</A><BR />Part 2. UI Basics (Layouts, Views and Shared Views, View Components)<BR />Part 3. Using the new Routing Module<BR />Part 4. Authentication/Security</FONT>
+  <FONT face="Trebuchet MS" size="2"><A href="https://lostechies.com/blogs/sean_chambers/archive/2008/06/22/monorail-best-practices-series.aspx">Part 1. Helpers</A><BR />Part 2. UI Basics (Layouts, Views and Shared Views, View Components)<BR />Part 3. Using the new Routing Module<BR />Part 4. Authentication/Security</FONT>
 </DIV>
 
 

@@ -136,7 +136,7 @@ So what’s the ideal spot here?&#160; On the table?&#160; The table body?&#160;
 
 [](http://11011.net/software/vspaste)
 
-In practice, I’ll use a similar concept to the [Opinionated Input Builders Eric highlighted a while back](http://www.lostechies.com/blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-using-partials-part-i.aspx).&#160; Instead of input elements, I’ll solely render at the core, span tags.&#160; Here is the rendered HTML:
+In practice, I’ll use a similar concept to the [Opinionated Input Builders Eric highlighted a while back](https://lostechies.com/blogs/hex/archive/2009/06/09/opinionated-input-builders-for-asp-net-mvc-using-partials-part-i.aspx).&#160; Instead of input elements, I’ll solely render at the core, span tags.&#160; Here is the rendered HTML:
 
 <pre><span style="color: blue">&lt;</span><span style="color: #a31515">div </span><span style="color: red">id</span><span style="color: blue">="main"&gt;
     &lt;</span><span style="color: #a31515">h2</span><span style="color: blue">&gt;</span>Products<span style="color: blue">&lt;/</span><span style="color: #a31515">h2</span><span style="color: blue">&gt;

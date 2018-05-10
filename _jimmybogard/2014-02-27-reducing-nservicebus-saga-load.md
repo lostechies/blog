@@ -18,7 +18,7 @@ When presented with concurrency issues with [NServiceBus sagas](http://particula
     
     Suppose we had a process that received a batch of operations to perform, and needed to notify a third party when the batch of operations is done. It looks like we need something to keep track of what’s “done” or not, and something to perform the work. Keeping track of work to be done sounds like a good fit for a saga, so our first attempt might look something like this:
     
-    [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb5.png" width="447" height="324" />](http://lostechies.com/content/jimmybogard/uploads/2014/02/image5.png)
+    [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb5.png" width="447" height="324" />](https://lostechies.com/content/jimmybogard/uploads/2014/02/image5.png)
     
     Our process will be:
     
@@ -48,13 +48,13 @@ When presented with concurrency issues with [NServiceBus sagas](http://particula
                     
                     At this point, our saga starts to look like:
                     
-                    [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb6.png" width="517" height="433" />](http://lostechies.com/content/jimmybogard/uploads/2014/02/image6.png)
+                    [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb6.png" width="517" height="433" />](https://lostechies.com/content/jimmybogard/uploads/2014/02/image6.png)
                     
                     Our saga now only checks the sheet, which doesn’t block with a worker updating it. Our saga now only reads, not writes. In this picture, we still get notifications for every single worker, that still has to go in a single queue. We can modify our saga slightly by instead of getting notifications for every worker, we register a timeout message. Does the “batch done” message need to go out _immediately_ after the last worker is done? Or some time later? If, say, we only need to notify batch done, we can use timeouts instead, and simply poll every so often to check for done.
                     
                     With timeouts, we’re greatly reducing network traffic, and potentially, reducing the time between when workers are _actually_ done from when we _notify_ that we’re done. Suppose we have 100K items to send to our workers. That means we’ll have 100K “Work Done” messages needing to be processed by our saga. How long will it take that to process? Instead, a timeout message can just periodically check done-ness:
                     
-                    [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb7.png" width="530" height="433" />](http://lostechies.com/content/jimmybogard/uploads/2014/02/image7.png)
+                    [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb7.png" width="530" height="433" />](https://lostechies.com/content/jimmybogard/uploads/2014/02/image7.png)
                     
                     We can even relax our constraints, and allow dirty reads on checking the work. This is now possible since recording the work and checking the work are two different steps. We’ve also greatly reduced our network load, and provided predictability into our SLA for notifying on work done.
                     

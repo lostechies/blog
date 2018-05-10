@@ -12,7 +12,7 @@ categories:
   - QUnit
   - teamcity
 ---
-Almost three years ago, I wrote about <a href="http://lostechies.com/joshuaflanagan/2008/09/18/running-jquery-qunit-tests-under-continuous-integration/" target="_blank">Running jQuery QUnit tests under Continuous Integration</a>. As you can imagine, a lot has changed in three years. You would now have a lot of trouble following my post if you use the latest versions of WatiN and NUnit.
+Almost three years ago, I wrote about <a href="https://lostechies.com/joshuaflanagan/2008/09/18/running-jquery-qunit-tests-under-continuous-integration/" target="_blank">Running jQuery QUnit tests under Continuous Integration</a>. As you can imagine, a lot has changed in three years. You would now have a lot of trouble following my post if you use the latest versions of WatiN and NUnit.
 
 Fortunately, Robert Moore and Miguel Madero have already taken the code, fixed it to work with the latest libraries, and released it as <a href="https://github.com/robdmoore/NQUnit" target="_blank">NQUnit</a>. They&#8217;ve even packaged it up for easy consumption via Nuget:
 

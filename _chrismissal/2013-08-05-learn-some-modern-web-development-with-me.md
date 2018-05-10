@@ -13,7 +13,7 @@ categories:
 ---
 So I have this friend that is pretty dang smart and has a lot of good ideas. We were chatting the other day about some neat things we are working on and in the end I convinced Brad to blog about them. I haven&#8217;t been as &#8220;bloggy&#8221; lately so I thought the Los Techies audience could get some use out of Brad&#8217;s topics if he posted them as our guest blogger of the moment. I hope you enjoy his upcoming posts on Building Realtime HTML5 Apps!
 
-  * [Browser Wars: Websockets vs. AJAX](http://lostechies.com/chrismissal/2013/08/06/browser-wars-websockets-vs-ajax/) (August 8th, 2013)
+  * [Browser Wars: Websockets vs. AJAX](https://lostechies.com/chrismissal/2013/08/06/browser-wars-websockets-vs-ajax/) (August 8th, 2013)
 
 ### **About the author:** Brad
 

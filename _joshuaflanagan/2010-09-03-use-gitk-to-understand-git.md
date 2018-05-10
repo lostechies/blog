@@ -11,11 +11,11 @@ categories:
   - git
 redirect_from: "/blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git.aspx/"
 ---
-Moving from subversion to git can be a struggle, trying to understand what terms like checkout, commit, branch, remote, rebase all mean in the git world. I learned by experimenting in a demo repository, trying out various commands, and using gitk to visualize their impact. This post is broken up into two parts – after reading this, you may want to <a href="http://www.lostechies.com/blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git-merge-and-rebase.aspx" target="_blank">read the second part</a>.
+Moving from subversion to git can be a struggle, trying to understand what terms like checkout, commit, branch, remote, rebase all mean in the git world. I learned by experimenting in a demo repository, trying out various commands, and using gitk to visualize their impact. This post is broken up into two parts – after reading this, you may want to <a href="https://lostechies.com/blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git-merge-and-rebase.aspx" target="_blank">read the second part</a>.
 
 ### The gitk screen
 
-I created a simple repository on <a href="http://github.com/" target="_blank">github</a> to walk through some scenarios. I’ll start by creating a local copy of the repository:
+I created a simple repository on <a href="https://github.com/" target="_blank">github</a> to walk through some scenarios. I’ll start by creating a local copy of the repository:
 
 <pre>d:code&gt;git clone git@github.com:joshuaflanagan/gitk-demo.git
 Initialized empty Git repository in d:/code/gitk-demo/.git/
@@ -28,7 +28,7 @@ d:code&gt;cd gitk-demo
 
 d:codegitk-demo&gt;gitk --all</pre>
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="gitk overview" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_111430_57888BE7.png" width="740" height="616" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="gitk overview" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_111430_57888BE7.png" width="740" height="616" />
 
 There is a lot of information in this single screenshot:
 
@@ -48,7 +48,7 @@ There is a lot of information in this single screenshot:
 > 
 > When you first create a git repository, it starts with a single branch named “master”. There is nothing special about this branch, other than it is the default. You are free to create a new one, and delete master (although, I don’t see any reason to go against the default convention).
 > 
-> When you first clone a git repository, git will automatically create a remote for you named “origin”. A remote is just a name used to manage references (URLs) to other repositories. There is nothing special about the “origin” remote, other than it is created for you. You are free to create a new one and delete origin. In fact, if you are working with multiple remotes, I recommend you delete the origin remote and create a new one for the same repository, but using a more descriptive name. For example, when I work with the FubuMVC source code, in my local repository I have a remote named “darth” which refers to the main repository owned by <a href="http://github.com/DarthFubuMVC/fubumvc" target="_blank">DarthFubuMVC</a>, and a remote named “josh”, which refers to <a href="http://github.com/joshuaflanagan/fubumvc" target="_blank">my fork</a>. If I had kept the name “origin”, I would always have to remember which one I cloned from.
+> When you first clone a git repository, git will automatically create a remote for you named “origin”. A remote is just a name used to manage references (URLs) to other repositories. There is nothing special about the “origin” remote, other than it is created for you. You are free to create a new one and delete origin. In fact, if you are working with multiple remotes, I recommend you delete the origin remote and create a new one for the same repository, but using a more descriptive name. For example, when I work with the FubuMVC source code, in my local repository I have a remote named “darth” which refers to the main repository owned by <a href="https://github.com/DarthFubuMVC/fubumvc" target="_blank">DarthFubuMVC</a>, and a remote named “josh”, which refers to <a href="https://github.com/joshuaflanagan/fubumvc" target="_blank">my fork</a>. If I had kept the name “origin”, I would always have to remember which one I cloned from.
 
 ### Branching
 
@@ -58,7 +58,7 @@ What happens when I create a branch?
 
 Press CTRL-F5 in the gitk window to refresh the repository view
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="created branch" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_115938_213763D8.png" width="744" height="620" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="created branch" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_115938_213763D8.png" width="744" height="620" />
 
 We see the new branch marker for the issue123 branch points to the same commit as master and origina/master. It is important to note that the “master” is bold, indicating that is still the current branch. The bold branch label is equivalent to the asterisk in the command line output:
 
@@ -73,7 +73,7 @@ Switched to branch 'issue123'</pre>
 
 (We’re going to focus on information in the top pane from now on, so I’ll hide the bottom part of gitk)
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="changed branch" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_121554_54FF5A29.png" width="744" height="373" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="changed branch" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_121554_54FF5A29.png" width="744" height="373" />
 
 Note: For convenience, I could have created and switched to the new branch in a single command: git checkout –b issue123
 
@@ -85,7 +85,7 @@ When I refer to the “current branch”, I mean “the branch that will advance
 [issue123 f948bf8] My first commit
  1 files changed, 2 insertions(+), 1 deletions(-)</pre>
 
-<pre><img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Commit moves current branch pointer" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_123037_2639A187.png" width="744" height="373" /> </pre>
+<pre><img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Commit moves current branch pointer" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_123037_2639A187.png" width="744" height="373" /> </pre>
 
 The issue123 branch now points to my new commit. Neither the master nor origin/master branch pointers have moved.
 
@@ -95,13 +95,13 @@ As I continue to commit, the current branch pointer moves with me:
 [issue123 cac3c72] Added another fruit
  1 files changed, 1 insertions(+), 0 deletions(-)</pre>
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="More commits move current branch" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_131205_534E8E55.png" width="744" height="373" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="More commits move current branch" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_131205_534E8E55.png" width="744" height="373" />
 
 ### But I thought it was a branch
 
 Since I was working in a branch, I expected to see a tree stucture, with nodes turning off from the main “trunk”. Something like this:
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Expected branch visualization" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/expected_tree_2488D5B3.png" width="238" height="183" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Expected branch visualization" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/expected_tree_2488D5B3.png" width="238" height="183" />
 
 Instead, gitk shows all of the commits as a single straight line. When first using git, this was very confusing to me. My confusion stemmed from my misunderstanding of branches in git. Thinking about why gitk was showing all of the commits in a straight line finally brought the point home. In git, a branch is a label for a commit. The label moves to new commits as they are created. When you create a git branch, you are not changing anything in the structure of the repository or the source tree. You are just creating a new label.
 
@@ -114,7 +114,7 @@ To merge the changes from issue123 into master, I first checkout (switch to) the
 <pre>d:codegitk-demo&gt;git checkout master
 Switched to branch 'master'</pre>
 
-<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Back on master, preparing for merge" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_145555_5D337FC0.png" width="744" height="373" />&#160;
+<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Back on master, preparing for merge" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_145555_5D337FC0.png" width="744" height="373" />&#160;
 
 <pre>d:codegitk-demo&gt;git merge issue123
 Updating bf37c64..cac3c72
@@ -123,7 +123,7 @@ Updating bf37c64..cac3c72
  vegetables.txt |    3 ++-
  2 files changed, 3 insertions(+), 1 deletions(-)</pre></p> 
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="After fast forward merge" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_150024_2A63794C.png" width="744" height="373" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="After fast forward merge" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_150024_2A63794C.png" width="744" height="373" />
 
 A few things to notice:
 
@@ -138,13 +138,13 @@ The issue123 branch label is now redundant, since it points to the same commit a
 <pre>d:codegitk-demo&gt;git branch -d issue123
 Deleted branch issue123 (was cac3c72).</pre>
 
-<pre><img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="After branch deleted" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_151810_4286E3A7.png" width="744" height="373" /> </pre>
+<pre><img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="After branch deleted" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_151810_4286E3A7.png" width="744" height="373" /> </pre>
 
 ### Sharing with the world
 
 As noted above, everything we’ve done so far has been in our local copy of the repository. The “master” branch at the “origin” remote has not moved. If I look at the github page for the repo, I can confirm that none of my commits exist.
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Commit History on GitHub" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/CommitHistoryforjoshuaflanagansgitkdemoGitHubGoogleChrome_20100903_153022_thumb_12E8C51B.png" width="644" height="230" />](http://lostechies.com/content/joshuaflanagan/uploads/2011/03/CommitHistoryforjoshuaflanagansgitkdemoGitHubGoogleChrome_20100903_153022_5AAA4E02.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Commit History on GitHub" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/CommitHistoryforjoshuaflanagansgitkdemoGitHubGoogleChrome_20100903_153022_thumb_12E8C51B.png" width="644" height="230" />](https://lostechies.com/content/joshuaflanagan/uploads/2011/03/CommitHistoryforjoshuaflanagansgitkdemoGitHubGoogleChrome_20100903_153022_5AAA4E02.png) 
 
 To copy changes from my instance of the repository up to github’s servers, I need to push from my master branch to the “master” branch of my remote named “origin”.
 
@@ -157,14 +157,14 @@ Total 6 (delta 0), reused 0 (delta 0)
 To git@github.com:joshuaflanagan/gitk-demo.git
    bf37c64..cac3c72  master –&gt; master</pre>
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="After push" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_153640_thumb_3EB9190A.png" width="744" height="373" />](http://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_153640_2701E1A4.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="After push" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_153640_thumb_3EB9190A.png" width="744" height="373" />](https://lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_153640_2701E1A4.png) 
 
 Take note of the SHA1 ID of the latest commit, cac3c723…. Look back at the previous screenshots and notice that this identifier has not changed through all of the operations (merge, deleting the branch, etc). When we refresh the github page, we can see it has updated with all of the work I did locally. Notice the commit identifier on the web page matches up with the SHA1 ID we see locally. Also, there is no indication that any of the work was done on a separate branch – nobody ever needs to know. You are free to branch as much as you want locally without impacting a shared repository.
 
-<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Commit History on GitHub after push" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/CommitHistoryforjoshuaflanagansgitkdemoGitHubGoogleChrome_20100903_154322_4B46C626.png" width="644" height="341" />
+<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Commit History on GitHub after push" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/CommitHistoryforjoshuaflanagansgitkdemoGitHubGoogleChrome_20100903_154322_4B46C626.png" width="644" height="341" />
 
 &#160;
 
 ### To be continued
 
-[Continue to part 2](http://www.lostechies.com/blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git-merge-and-rebase.aspx) to see the difference between merge and rebase.
+[Continue to part 2](https://lostechies.com/blogs/joshuaflanagan/archive/2010/09/03/use-gitk-to-understand-git-merge-and-rebase.aspx) to see the difference between merge and rebase.

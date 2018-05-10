@@ -14,7 +14,7 @@ categories:
   - Principles and Patterns
 redirect_from: "/blogs/derickbailey/archive/2010/03/07/role-specific-interfaces-dip-and-isp-in-action.aspx/"
 ---
-I do most of my UI development – in ASP.NET WebForms and in WinForms – with a Model-View-Presenter setup. It helps me keep my application logic separate from my view implementations, makes it possible to unit test the presenters, etc. I also like to use custom controls – often with their own presenter &#8211; to help encapsulate UI related process and keep my UI implementations clean. The challenge with custom controls is getting them to converse to each other and getting the parent form to converse with the controls. My favorite way of solving this challenge is through simple [messaging patterns](http://www.lostechies.com/blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx). This gives you a lot of control and ensures your system is nice and decoupled. Of course, there is a cost/benefit tradeoff that needs to be considered. There may not need the indirection and potential complexities that come along with those solutions. The system in question may not need a messaging system, event aggregator, command pattern or whatever else. There are times when its easier and makes more sense to forego these patterns and have the presenters talk directly to each other. 
+I do most of my UI development – in ASP.NET WebForms and in WinForms – with a Model-View-Presenter setup. It helps me keep my application logic separate from my view implementations, makes it possible to unit test the presenters, etc. I also like to use custom controls – often with their own presenter &#8211; to help encapsulate UI related process and keep my UI implementations clean. The challenge with custom controls is getting them to converse to each other and getting the parent form to converse with the controls. My favorite way of solving this challenge is through simple [messaging patterns](https://lostechies.com/blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx). This gives you a lot of control and ensures your system is nice and decoupled. Of course, there is a cost/benefit tradeoff that needs to be considered. There may not need the indirection and potential complexities that come along with those solutions. The system in question may not need a messaging system, event aggregator, command pattern or whatever else. There are times when its easier and makes more sense to forego these patterns and have the presenters talk directly to each other. 
 
 &#160;
 
@@ -125,7 +125,7 @@ For example, the IProductCodeSelectionPresenter may have the following definitio
             </h3>
             
             <p>
-              The driving principle in making the decision to create the role specific interface is often the <a href="http://www.lostechies.com/blogs/rhouston/archive/2008/03/14/ptom-the-interface-segregation-principle.aspx">Interface Segregation Principle</a> (ISP). This principles says that we should not force a client – the code that is calling out to our interface – to know about methods and properties that it does not need.
+              The driving principle in making the decision to create the role specific interface is often the <a href="https://lostechies.com/blogs/rhouston/archive/2008/03/14/ptom-the-interface-segregation-principle.aspx">Interface Segregation Principle</a> (ISP). This principles says that we should not force a client – the code that is calling out to our interface – to know about methods and properties that it does not need.
             </p>
             
             <p>
@@ -141,7 +141,7 @@ For example, the IProductCodeSelectionPresenter may have the following definitio
             </h3>
             
             <p>
-              The <a href="http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/03/31/ptom-the-dependency-inversion-principle.aspx">Dependency Inversion Principle</a> (DIP) may also be at play in this scenario. DIP is not just about creating an abstraction and passing it into a constructor. That would only be dependency abstraction and dependency injection. Rather, DIP talks about abstraction ownership. In the case of a role specific interface, the owner of that interface is the code that depends on it – the client code that calls out to it.
+              The <a href="https://lostechies.com/blogs/jimmy_bogard/archive/2008/03/31/ptom-the-dependency-inversion-principle.aspx">Dependency Inversion Principle</a> (DIP) may also be at play in this scenario. DIP is not just about creating an abstraction and passing it into a constructor. That would only be dependency abstraction and dependency injection. Rather, DIP talks about abstraction ownership. In the case of a role specific interface, the owner of that interface is the code that depends on it – the client code that calls out to it.
             </p>
             
             <p>

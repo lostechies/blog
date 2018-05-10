@@ -20,7 +20,7 @@ With UI testing tools, this is no different.&#160; When we started out authoring
   * Maintainable
   * Valuable
 
-To achieve these goals, we needed to do exactly what we do when we write code using TDD, **design for testability**.&#160; I won’t go into everything we did, there’s already a [whole screencast on that](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/10/22/c4mvc-ui-testing-screencast-posted.aspx).&#160; However, Michael does bring up some key points:
+To achieve these goals, we needed to do exactly what we do when we write code using TDD, **design for testability**.&#160; I won’t go into everything we did, there’s already a [whole screencast on that](https://lostechies.com/blogs/jimmy_bogard/archive/2009/10/22/c4mvc-ui-testing-screencast-posted.aspx).&#160; However, Michael does bring up some key points:
 
   * UI tests should test the UI layer
   * Architect your system so that you can test all of your business logic separate from the UI layer

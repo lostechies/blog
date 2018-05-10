@@ -11,7 +11,7 @@ categories:
   - teamcity
 redirect_from: "/blogs/joshuaflanagan/archive/2009/01/06/raising-awareness-for-teamcity-tray-notifier-issue.aspx/"
 ---
-**<font color="#ff0000">UPDATE:</font>** JetBrains has released a solution to this issue, [I posted a follow up](http://www.lostechies.com/blogs/joshuaflanagan/archive/2009/01/15/solution-for-monitoring-multiple-teamcity-servers.aspx).
+**<font color="#ff0000">UPDATE:</font>** JetBrains has released a solution to this issue, [I posted a follow up](https://lostechies.com/blogs/joshuaflanagan/archive/2009/01/15/solution-for-monitoring-multiple-teamcity-servers.aspx).
 
 Rumor has it that a number of your favorite .NET open source applications (including <a href="http://structuremap.sourceforge.net/" target="_blank">StructureMap</a>) will soon have a publicly available continuous integration server. The server will be running TeamCity by JetBrains. I’m a TeamCity fan, and we’ve been using it at work for a while now. Which is the rub. You see, since TeamCity allows you to easily host many projects on a single server (while delegating the building out to separate build agents), JetBrains did not foresee why anyone would ever want to monitor more than one server. This will soon be a very real scenario for followers of many OSS projects. The current tray notifier tool can only connect to a single build server. There aren’t even any command-line parameters that would allow you to run multiple instances of the notifier simultaneously.
 

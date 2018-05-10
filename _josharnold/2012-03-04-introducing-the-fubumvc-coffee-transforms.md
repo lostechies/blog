@@ -39,6 +39,6 @@ Running your application with above asset configuration will “run”, but you�
 
 > Install-Package FubuMVC.Coffee
 
-This will install a zip file inside of a fubu-content directory at the root of your web application. [Thanks to the beauty of Bottles](http://lostechies.com/josharnold/2011/09/05/modularity-via-bottles/), this zip file will be exploded out and the CoffeeScript configuration will be invoked automatically.
+This will install a zip file inside of a fubu-content directory at the root of your web application. [Thanks to the beauty of Bottles](https://lostechies.com/josharnold/2011/09/05/modularity-via-bottles/), this zip file will be exploded out and the CoffeeScript configuration will be invoked automatically.
 
 Now running your application with above asset configuration will give you the transformed contents of example.coffee.

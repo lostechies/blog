@@ -12,7 +12,7 @@ categories:
   - MSpec
 redirect_from: "/blogs/jagregory/archive/2010/01/18/behaviours-in-mspec.aspx/"
 ---
-[MSpec](http://github.com/machine/machine.specifications) is awesome, I think it&#8217;s praised by myself and others enough for that particular point to not need any expansion; however, there is a particular feature I would like to highlight that hasn&#8217;t really got a lot of press: behaviours.
+[MSpec](https://github.com/machine/machine.specifications) is awesome, I think it&#8217;s praised by myself and others enough for that particular point to not need any expansion; however, there is a particular feature I would like to highlight that hasn&#8217;t really got a lot of press: behaviours.
 
 Behaviours define reusable specs that encapsulate a particular set of, you guessed it, behaviours; you&#8217;re then able to include these specs in any context that exhibits a particular behaviour.
 

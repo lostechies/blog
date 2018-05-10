@@ -72,7 +72,7 @@ tags:
   </ul>
 </div>
 
-The [last](http://lostechies.com/derekgreer/2011/03/21/effective-tests-test-first/) installment of our series introduced Test-First Programming and briefly discussed its refinements: Test-Driven Development and Behavior-Driven Development.&nbsp; This time, we’ll dive into a simple Test First example using the principles of Test-Driven Development along with some of the Behavior-Driven Development concepts introduced last time.
+The [last](https://lostechies.com/derekgreer/2011/03/21/effective-tests-test-first/) installment of our series introduced Test-First Programming and briefly discussed its refinements: Test-Driven Development and Behavior-Driven Development.&nbsp; This time, we’ll dive into a simple Test First example using the principles of Test-Driven Development along with some of the Behavior-Driven Development concepts introduced last time.
 
 Before beginning our example, we’ll take some time to discuss the goals and approach of Test-Driven Development in a little more detail to establish the methodology we’ll be following. 
 
@@ -165,7 +165,7 @@ To help facilitate these goals, Test-Driven Development prescribes a set of step
                 
                 &nbsp;
                 
-                [<img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;float: none;border-top-width: 0px;border-bottom-width: 0px;margin-left: auto;border-left-width: 0px;margin-right: auto;padding-top: 0px" border="0" alt="TestFirstExampleProjectNew" src="http://lostechies.com/content/derekgreer/uploads/2011/03/TestFirstExampleProjectNew_thumb1.png" width="560" height="388" />](http://lostechies.com/content/derekgreer/uploads/2011/03/TestFirstExampleProjectNew1.png)
+                [<img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;float: none;border-top-width: 0px;border-bottom-width: 0px;margin-left: auto;border-left-width: 0px;margin-right: auto;padding-top: 0px" border="0" alt="TestFirstExampleProjectNew" src="https://lostechies.com/content/derekgreer/uploads/2011/03/TestFirstExampleProjectNew_thumb1.png" width="560" height="388" />](https://lostechies.com/content/derekgreer/uploads/2011/03/TestFirstExampleProjectNew1.png)
                 
                 &nbsp;
                 
@@ -1180,7 +1180,7 @@ c:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\MSTest.exe /category:'
                             </p>
                             
                             <p>
-                              <a href="http://lostechies.com/content/derekgreer/uploads/2011/03/tic-tac-toe.png"><img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;float: none;border-top-width: 0px;border-bottom-width: 0px;margin-left: auto;border-left-width: 0px;margin-right: auto;padding-top: 0px" border="0" alt="tic-tac-toe" src="http://lostechies.com/content/derekgreer/uploads/2011/03/tic-tac-toe_thumb.png" width="485" height="474" /></a>
+                              <a href="https://lostechies.com/content/derekgreer/uploads/2011/03/tic-tac-toe.png"><img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;float: none;border-top-width: 0px;border-bottom-width: 0px;margin-left: auto;border-left-width: 0px;margin-right: auto;padding-top: 0px" border="0" alt="tic-tac-toe" src="https://lostechies.com/content/derekgreer/uploads/2011/03/tic-tac-toe_thumb.png" width="485" height="474" /></a>
                             </p>
                             
                             <p>

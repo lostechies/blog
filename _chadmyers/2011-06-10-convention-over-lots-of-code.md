@@ -22,7 +22,7 @@ Lots of people throw around the words “convention over configuration” and it
 
 Let me start by explaining a specific problem we had, how we solved it originally, the problems we ran into, and how IDisplayFormatter/Stringifier made things much easier and better.  Our app, like most, tracks a lot of dates and times with our entities.  We display these dates, times, and date/times often in our app. The trick is that we could have users in different time zones using the system. We need to display the dates and times in the user’s current time-zone.
 
-Both Josh and I have written about this particular problem before: Josh wrote “[Helpful DateTime extension methods for dealing with Time Zones](http://lostechies.com/joshuaflanagan/2011/02/04/helpful-datetime-extension-methods-for-dealing-with-time-zones/)” and I wrote “[How we do Internationalization](http://lostechies.com/chadmyers/2011/02/04/how-we-do-internationalization/)” (scroll down to the Date/Time part).
+Both Josh and I have written about this particular problem before: Josh wrote “[Helpful DateTime extension methods for dealing with Time Zones](https://lostechies.com/joshuaflanagan/2011/02/04/helpful-datetime-extension-methods-for-dealing-with-time-zones/)” and I wrote “[How we do Internationalization](https://lostechies.com/chadmyers/2011/02/04/how-we-do-internationalization/)” (scroll down to the Date/Time part).
 
 When we started, we had created a bunch of extension methods for dealing with the problem. Most of the time, we were displaying date/times in our views, so this worked somewhat well.  Eventually we started needing to display them in non-view code (for example, when we were setting DateTime values on a JSON response to an AJAX call).  Then the extension methods got a little more complicated.  Eventually the time zone problem became so complicated, we needed some services to be pulled out of StructureMap and the extension method thing kinda fell flat on its face.
 
@@ -30,7 +30,7 @@ And remember, these are \*just\* the DateTime properties. We had a host of other
 
 This became a maintenance nightmare replete with duplication/DRY-violations, one-off static location from the container, and all sorts of other general nastiness. We needed a single solution through which to pump all our data-that-needs-to-be-displayed and have it rendered to the client in a consistent, easy to maintain way. Naturally, the first thing that came to our mind was: “Conventions!”
 
-We ended up building Stringifier and IDisplayFormatter which allows us to have a central, conventional way of consistently displaying things.  It’s pluggable and allows us to customize it. You can [read about Stringifier/DisplayFormatter in my other post](http://lostechies.com/chadmyers/2011/06/10/cool-stuff-in-fubucore-no-9-stringification/).
+We ended up building Stringifier and IDisplayFormatter which allows us to have a central, conventional way of consistently displaying things.  It’s pluggable and allows us to customize it. You can [read about Stringifier/DisplayFormatter in my other post](https://lostechies.com/chadmyers/2011/06/10/cool-stuff-in-fubucore-no-9-stringification/).
 
 ## What conventions mean to us…
 
@@ -50,11 +50,11 @@ We’ve all written a lot of conventional programming, convention over configura
 
 **Joshua Flanagan**
 
-  * [FubuMVC &#8211; Define your actions your way](http://lostechies.com/joshuaflanagan/2010/01/18/fubumvc-define-your-actions-your-way/) (blog post)
-  * [Coding with Conventions](http://lostechies.com/joshuaflanagan/2011/02/23/code-samples-from-my-adnug-talk-coding-with-conventions/) (blog post about a local NUG talk, with code)
+  * [FubuMVC &#8211; Define your actions your way](https://lostechies.com/joshuaflanagan/2010/01/18/fubumvc-define-your-actions-your-way/) (blog post)
+  * [Coding with Conventions](https://lostechies.com/joshuaflanagan/2011/02/23/code-samples-from-my-adnug-talk-coding-with-conventions/) (blog post about a local NUG talk, with code)
 
 **Chad Myers**
 
-  * [Model-based Apps and Frameworks](http://lostechies.com/chadmyers/2010/05/29/model-based-apps-and-frameworks/) (blog post)
-  * [Convention Scanners in StructureMap](http://lostechies.com/chadmyers/2008/08/02/stucturemap-advanced-level-usage-scenarios-part-1-type-convention-scanners/) (blog post)
+  * [Model-based Apps and Frameworks](https://lostechies.com/chadmyers/2010/05/29/model-based-apps-and-frameworks/) (blog post)
+  * [Convention Scanners in StructureMap](https://lostechies.com/chadmyers/2008/08/02/stucturemap-advanced-level-usage-scenarios-part-1-type-convention-scanners/) (blog post)
   * [Houston Alt.NET ‘09 talk on FubuMVC with Jeremy Miller](http://houstonaltnet.pbworks.com/w/page/19525997/Fubu-MVC) (video)

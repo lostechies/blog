@@ -133,7 +133,7 @@ Every time a user asks for a new criteria to filter a product can we extend the 
 
 ## Solutions
 
-One of the easiest ways to implement OCP is utilize a <a href="http://en.wikipedia.org/wiki/Template_method_pattern" target="_blank">template</a> or <a href="http://en.wikipedia.org/wiki/Strategy_pattern" target="_blank">strategy</a> pattern. If we still allow the Product filter to perform its job of invoking the filtering process we can put the responsibility of how the filtering is accomplished in another class by mixing in a little <a href="http://www.lostechies.com/blogs/chad_myers/archive/2008/03/11/ptom-the-liskov-substitution-principle.aspx" target="_blank">LSP</a> to accomplish this.
+One of the easiest ways to implement OCP is utilize a <a href="http://en.wikipedia.org/wiki/Template_method_pattern" target="_blank">template</a> or <a href="http://en.wikipedia.org/wiki/Strategy_pattern" target="_blank">strategy</a> pattern. If we still allow the Product filter to perform its job of invoking the filtering process we can put the responsibility of how the filtering is accomplished in another class by mixing in a little <a href="https://lostechies.com/blogs/chad_myers/archive/2008/03/11/ptom-the-liskov-substitution-principle.aspx" target="_blank">LSP</a> to accomplish this.
 
 Here is the template for the ProductFilterSpecification
 

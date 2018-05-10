@@ -38,7 +38,7 @@ The &#8211;tags flag allows me to use lightweight tags, and the &#8211;long flag
 
 ### An example
 
-You can see a real world example in <a href="http://github.com/DarthFubuMVC/fubumvc/blob/4bdfd6be1280c700c9f57112eafe7be50ebd7474/rakefile.rb" target="_blank">FubuMVC build script</a>. It is a rake (ruby) script that uses the assemblyinfo task from <a href="http://albacorebuild.net/" target="_blank">Albacore</a> to generate a CommonAssemblyInfo.cs file at build time, which is referenced by all of the projects in the solution. The relevant section is:
+You can see a real world example in <a href="https://github.com/DarthFubuMVC/fubumvc/blob/4bdfd6be1280c700c9f57112eafe7be50ebd7474/rakefile.rb" target="_blank">FubuMVC build script</a>. It is a rake (ruby) script that uses the assemblyinfo task from <a href="http://albacorebuild.net/" target="_blank">Albacore</a> to generate a CommonAssemblyInfo.cs file at build time, which is referenced by all of the projects in the solution. The relevant section is:
 
 <div style="padding-bottom: 0px;margin: 0px;padding-left: 0px;padding-right: 0px;float: none;padding-top: 0px" class="wlWriterEditableSmartContent">
   <pre>desc "Update the version information for the build"

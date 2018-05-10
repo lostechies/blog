@@ -33,7 +33,7 @@ I told her we are going to create a new story based on this model but I want you
 
 I explained to her that the title of the story is the first piece of information that is needed.&nbsp; I showed her the intellisence that visual studio would lend to help her along. 
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="190" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image_thumb.png" width="848" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="190" alt="image" src="https://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image_thumb.png" width="848" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image.png) 
 
 After that we went ahead and created the remainder of the story using a <a href="http://www.martinfowler.com/bliki/FluentInterface.html" target="_blank">fluent interface</a>.&nbsp; I made certain not the expose all the fluent behaviors off the story class.&nbsp; I did this because I wanted to walk the user through the template.&nbsp; If I exposed all the behaviors at once they could mess up the fluidity of the interface. Such as: 
 
@@ -41,7 +41,7 @@ After that we went ahead and created the remainder of the story using a <a href=
 
 This doesn&#8217;t help the user, so after they press &#8220;.&#8221; on the story class the only methods that are exposed are: 
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="84" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image_thumb_1.png" width="690" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image_1.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="84" alt="image" src="https://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image_thumb_1.png" width="690" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image_1.png) 
 
 I did this by chaining together conjunction types that expose only the required methods at one given point in time.&nbsp; Works out quiet well since the editor enforces the type hierarchy at design time.&nbsp; Notice how similar it is to rbehave (lots of quotes). 
 
@@ -123,7 +123,7 @@ But the magic doesn&#8217;t stop there.&nbsp;&nbsp; You can use the generic type
 
 You will notice the Action<T> delegate type.&nbsp; This is wonderful as it allows the inferred &#8220;T&#8221; type to be passed to the delegate as well.&nbsp; You cannot break the signature, even if you try the editor (with ReSharper that is) will flag an error a follows:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="115" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image_thumb_2.png" width="575" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image_2.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="115" alt="image" src="https://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image_thumb_2.png" width="575" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03MoreBDDxBehaveMadness_14ABE/image_2.png) 
 
 Notice that the actionValue being passed in is an integer and in the delegate the developer accidentally thought it should be a string.&nbsp; This type checking at design time Forces the developer to implement the correct parameter types within their code.
 

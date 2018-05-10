@@ -78,7 +78,7 @@ Once the Kendo menu in configured, though, the view&#8217;s &#8220;el&#8221; has
 
 I have run in to a few scenarios where a jQuery plugin was entirely DOM-dependent &#8211; or at least, my usage of it was. This meant that I could not call the plugin&#8217;s method prior to the Backbone view&#8217;s &#8220;el&#8221; being added to the DOM.
 
-The &#8220;easy&#8221; solution to this is to have the view attach it&#8217;s &#8220;el&#8221; directly to the DOM in some fashion. But [as I&#8217;ve talked about before](http://lostechies.com/derickbailey/2011/11/09/backbone-js-object-literals-views-events-jquery-and-el/), this is a bad idea. Instead, it only takes a few extra lines of code &#8211; which can be easily extracted in to something reusable &#8211; to make this work.
+The &#8220;easy&#8221; solution to this is to have the view attach it&#8217;s &#8220;el&#8221; directly to the DOM in some fashion. But [as I&#8217;ve talked about before](https://lostechies.com/derickbailey/2011/11/09/backbone-js-object-literals-views-events-jquery-and-el/), this is a bad idea. Instead, it only takes a few extra lines of code &#8211; which can be easily extracted in to something reusable &#8211; to make this work.
 
 {% gist 1865366 4.js %}
 
@@ -92,7 +92,7 @@ The code that needs the view will instantiate it, call render and attach the res
 
 ## Extracting The onShow Method Call
 
-I&#8217;ve written this &#8220;onShow&#8221; method and the code to call it, a countless number of times. It became such a ubiquitous part of my code that I added it to my &#8220;RegionManager&#8221; in [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) (a region manager is [responsible for managing the rendering, display and closing of a view](http://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/), for a given region of the screen).
+I&#8217;ve written this &#8220;onShow&#8221; method and the code to call it, a countless number of times. It became such a ubiquitous part of my code that I added it to my &#8220;RegionManager&#8221; in [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) (a region manager is [responsible for managing the rendering, display and closing of a view](https://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/), for a given region of the screen).
 
 I&#8217;ve also found it to be very useful to have two additional methods that are called on my views: onClose and onRender. I specifically have onClose and onRender. onClose is called by the region manager when closing an existing view. onRender, though, is called by my base &#8220;ItemView&#8221; or &#8220;CollectionView&#8221; in Marionette, as I&#8217;ve extracted the core rendering in to these two objects but still want to provide a way for specific views to take advantage of DOM-independent plugins and UI controls.
 

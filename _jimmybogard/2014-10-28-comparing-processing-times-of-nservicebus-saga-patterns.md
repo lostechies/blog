@@ -14,9 +14,9 @@ A few weeks ago I gave a talk at [NSBCon NYC](https://skillsmatter.com/conferenc
 
 I compared three styles of performing a set of distributed work:
 
-  * [Observer-style saga](http://lostechies.com/jimmybogard/2013/03/11/saga-implementation-patterns-observer/)
-  * [Controller-style saga](http://lostechies.com/jimmybogard/2013/03/14/saga-implementation-patterns-controller/)
-  * [Routing slip](http://lostechies.com/jimmybogard/2013/04/26/saga-alternatives-routing-slips/)
+  * [Observer-style saga](https://lostechies.com/jimmybogard/2013/03/11/saga-implementation-patterns-observer/)
+  * [Controller-style saga](https://lostechies.com/jimmybogard/2013/03/14/saga-implementation-patterns-controller/)
+  * [Routing slip](https://lostechies.com/jimmybogard/2013/04/26/saga-alternatives-routing-slips/)
 
 And highlighted the performance differences between them all. Andreas from the Particular team mentioned that some work had been done to improve saga performance, so I wanted to revisit my assumptions to see if the performance numbers still hold.
 

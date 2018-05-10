@@ -13,7 +13,7 @@ categories:
   - DSL
 redirect_from: "/blogs/derickbailey/archive/2010/09/30/a-dsl-for-handling-zero-one-many.aspx/"
 ---
-All this talk about [refactoring to clean up code](http://www.lostechies.com/blogs/derickbailey/archive/2010/09/24/a-refactoring-explicit-modeling-and-reducing-duplication.aspx) and [monads to create pipelines](http://www.lostechies.com/blogs/derickbailey/archive/2010/09/29/monads-in-c-which-part-is-the-monad.aspx) has put me on a code composition kick… I wrote this code today:
+All this talk about [refactoring to clean up code](https://lostechies.com/blogs/derickbailey/archive/2010/09/24/a-refactoring-explicit-modeling-and-reducing-duplication.aspx) and [monads to create pipelines](https://lostechies.com/blogs/derickbailey/archive/2010/09/29/monads-in-c-which-part-is-the-monad.aspx) has put me on a code composition kick… I wrote this code today:
 
 <div>
   <div>

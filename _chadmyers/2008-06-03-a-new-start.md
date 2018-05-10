@@ -15,4 +15,4 @@ Today was my first day back with [Dovetail Software](http://www.dovetailsoftware
 
 I would be remiss if I didn&#8217;t put in the disclaimer that Jeremy and I are NOT to be confused with the 1960&#8217;s British invasion folk duo band: [Chad & Jeremy](http://en.wikipedia.org/wiki/Chad_and_Jeremy)
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="204" alt="chadjeremypic" src="http://lostechies.com/content/chadmyers/uploads/2011/03ANewStart_11AC5/chadjeremypic_3.jpg" width="204" border="0" />](http://www.sundazed.com/artists/chadjeremy.html)
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="204" alt="chadjeremypic" src="https://lostechies.com/content/chadmyers/uploads/2011/03ANewStart_11AC5/chadjeremypic_3.jpg" width="204" border="0" />](http://www.sundazed.com/artists/chadjeremy.html)

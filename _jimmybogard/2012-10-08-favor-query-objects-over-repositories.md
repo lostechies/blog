@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - DomainDrivenDesign
 ---
-So I’m over [Repositories](http://martinfowler.com/eaaCatalog/repository.html), and definitely over [abstracting your data layer](http://lostechies.com/jimmybogard/2012/09/20/limiting-your-abstractions/), but where does that leave us? I don’t think creating an abstraction over your ORM provides much value, nor do I think it is necessarily bad if you use your ORM directly in the UI tier. After all, it’s pretty hard to suggest that this:
+So I’m over [Repositories](http://martinfowler.com/eaaCatalog/repository.html), and definitely over [abstracting your data layer](https://lostechies.com/jimmybogard/2012/09/20/limiting-your-abstractions/), but where does that leave us? I don’t think creating an abstraction over your ORM provides much value, nor do I think it is necessarily bad if you use your ORM directly in the UI tier. After all, it’s pretty hard to suggest that this:
 
 {% gist 3755845 %}
 

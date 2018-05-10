@@ -37,7 +37,7 @@ For example&#8230;
 
 A lot of people organize JavaScript MV* application files in a folder structure like this (BackboneJS in this case):
 
-<img title="Screen Shot 2012-02-01 at 9.43.16 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/02/Screen-Shot-2012-02-01-at-9.43.16-PM.png" border="0" alt="Screen Shot 2012 02 01 at 9 43 16 PM" width="417" height="80" />
+<img title="Screen Shot 2012-02-01 at 9.43.16 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2012/02/Screen-Shot-2012-02-01-at-9.43.16-PM.png" border="0" alt="Screen Shot 2012 02 01 at 9 43 16 PM" width="417" height="80" />
 
 To the best of my knowledge, this folder structure is based on the &#8220;models&#8221;, &#8220;views&#8221; and &#8220;controllers&#8221; folder structure that was popularized by Ruby on Rails. Sure others may have had it first, but it was Rails that made it popular. Other MVC framework followed suit and demanded that you put your controller objects in the controllers folder, your model objects in your models folder, etc. But unless you&#8217;re Rails (or another framework that wants to be like Rails), this folder structure is stupid.
 
@@ -63,7 +63,7 @@ I prefer to organize my JavaScript files the way I used to organize my C# files 
 
 For example, my BBCloneMail application has the following folder structure for it&#8217;s JavaScript:
 
-<img title="Screen Shot 2012-02-01 at 9.47.12 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2012/02/Screen-Shot-2012-02-01-at-9.47.12-PM.png" border="0" alt="Screen Shot 2012 02 01 at 9 47 12 PM" width="418" height="112" />
+<img title="Screen Shot 2012-02-01 at 9.47.12 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2012/02/Screen-Shot-2012-02-01-at-9.47.12-PM.png" border="0" alt="Screen Shot 2012 02 01 at 9 47 12 PM" width="418" height="112" />
 
 Note that I&#8217;m still using the &#8220;javascripts&#8221; parent folder, but underneath of that I&#8217;m organizing by functional area of the application. In the root &#8220;javascripts&#8221; folder, are the primary application files &#8211; the ones that define the overall application bits. In the &#8220;mail&#8221; folder are all of the files that relate to the &#8220;mail&#8221; application. And, in the &#8220;contacts&#8221; folder are all of the files that relate to the &#8220;contacts&#8221; application.
 

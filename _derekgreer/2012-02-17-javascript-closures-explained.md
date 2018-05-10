@@ -46,7 +46,7 @@ The inner function is capable of resolving the greeting identifier due to a clos
 
 Conceptually, we can think of our closure as the marriage between a function and the environment in which it was declared within:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto; padding-top: 0px" title="closure2" border="0" alt="closure2" src="http://lostechies.com/content/derekgreer/uploads/2012/02/closure2_thumb.png" width="329" height="153" />](http://lostechies.com/content/derekgreer/uploads/2012/02/closure2.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto; padding-top: 0px" title="closure2" border="0" alt="closure2" src="https://lostechies.com/content/derekgreer/uploads/2012/02/closure2_thumb.png" width="329" height="153" />](https://lostechies.com/content/derekgreer/uploads/2012/02/closure2.png)
 
 &nbsp;
 
@@ -83,7 +83,7 @@ A LexicalEnvironement itself is comprised of two components: An _Environment Rec
 &nbsp;
         
 <p align="center">
-<a href="http://lostechies.com/content/derekgreer/uploads/2012/02/LexicalEnvironmentChain.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="LexicalEnvironmentChain" border="0" alt="LexicalEnvironmentChain" src="http://lostechies.com/content/derekgreer/uploads/2012/02/LexicalEnvironmentChain_thumb.png" width="322" height="483" /></a>
+<a href="https://lostechies.com/content/derekgreer/uploads/2012/02/LexicalEnvironmentChain.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="LexicalEnvironmentChain" border="0" alt="LexicalEnvironmentChain" src="https://lostechies.com/content/derekgreer/uploads/2012/02/LexicalEnvironmentChain_thumb.png" width="322" height="483" /></a>
 </p>
         
 &nbsp;
@@ -103,7 +103,7 @@ If we recall our previous conceptualization of a function paired with its enviro
 &nbsp;
         
 <p align="center">
-<a href="http://lostechies.com/content/derekgreer/uploads/2012/02/closure3.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="closure3" border="0" alt="closure3" src="http://lostechies.com/content/derekgreer/uploads/2012/02/closure3_thumb.png" width="546" height="377" /></a>
+<a href="https://lostechies.com/content/derekgreer/uploads/2012/02/closure3.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="closure3" border="0" alt="closure3" src="https://lostechies.com/content/derekgreer/uploads/2012/02/closure3_thumb.png" width="546" height="377" /></a>
 </p>
         
 When resolving an identifier, the current LexicalEnvironment is passed to an abstract operation named _GetIdentiferReference_ which checks the current LexicalEnvironment’s Environment Record for the requested identifier and if not found calls itself recursively with the LexicalEnvironment’s outer reference.&nbsp; Each link of the chain is checked until the top of the chain is reached (the LexicalEnvironment of the Global Context) in which case the binding is resolved or a reference of undefined is returned.

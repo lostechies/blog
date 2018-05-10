@@ -11,7 +11,7 @@ categories:
   - Humor
 redirect_from: "/blogs/joe_ocampo/archive/2008/02/03/consultant-frustration-coefficient.aspx/"
 ---
-Talking to <a href="http://www.lostechies.com/blogs/joeydotnet/default.aspx" target="_blank">Joey B</a> this evening about creating a tool that would measure how frustrated you may become with wanting to mentor a team on Agile development practices. I am calling this the Consultant Frustration Coefficient. 
+Talking to <a href="https://lostechies.com/blogs/joeydotnet/default.aspx" target="_blank">Joey B</a> this evening about creating a tool that would measure how frustrated you may become with wanting to mentor a team on Agile development practices. I am calling this the Consultant Frustration Coefficient. 
 
 What you would do is hand out a short questionnaire that would ask varying questions to assess the client’s value system and the staff’s literacy level as it relates to development pragmatic practices. 
 

@@ -17,12 +17,12 @@ categories:
   - Ruby
 redirect_from: "/blogs/derickbailey/archive/2009/09/23/albacore-a-suite-of-rake-build-tasks-for-net-solutions.aspx/"
 ---
-[<img style="border-right-width: 0px;margin: 0px 25px 0px 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Albacore Tuna - http://www.flickr.com/photos/djs1021/3906751541/" align="left" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_10AB210C.png" width="316" height="210" />](http://www.flickr.com/photos/djs1021/3906751541/) After my [previous post on building a “real” rake task](http://www.lostechies.com/blogs/derickbailey/archive/2009/09/17/how-a-net-developer-hacked-out-a-rake-task.aspx), I decided to dive in head first and learn how to get this stuff done. I chose to drive the tasks out via rspec, through a TDD process, and I created a couple of rake tasks that are proving to be quite useful to me: an msbuild task and an assembly info generate task. Yeah, I know that this has been done to death, at this point. During the trials and tribulations of me getting down and dirty with ruby, rake, gemspec, rspec, etc, I came across some libraries that already do exactly what I set out to do.
+[<img style="border-right-width: 0px;margin: 0px 25px 0px 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="Albacore Tuna - http://www.flickr.com/photos/djs1021/3906751541/" align="left" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_10AB210C.png" width="316" height="210" />](http://www.flickr.com/photos/djs1021/3906751541/) After my [previous post on building a “real” rake task](https://lostechies.com/blogs/derickbailey/archive/2009/09/17/how-a-net-developer-hacked-out-a-rake-task.aspx), I decided to dive in head first and learn how to get this stuff done. I chose to drive the tasks out via rspec, through a TDD process, and I created a couple of rake tasks that are proving to be quite useful to me: an msbuild task and an assembly info generate task. Yeah, I know that this has been done to death, at this point. During the trials and tribulations of me getting down and dirty with ruby, rake, gemspec, rspec, etc, I came across some libraries that already do exactly what I set out to do.
 
-  * Rubicant: [http://github.com/mendicantx/rubicant](http://github.com/mendicantx/rubicant "http://github.com/mendicantx/rubicant") 
-  * Rake-dotnet: [http://github.com/petemounce/rake-dotnet](http://github.com/petemounce/rake-dotnet "http://github.com/petemounce/rake-dotnet") 
-  * Rake-Me: [http://github.com/agross/rake-me](http://github.com/agross/rake-me "http://github.com/agross/rake-me")&#160;
-  * Raken: [http://github.com/stevenharman/raken](http://github.com/stevenharman/raken "http://github.com/stevenharman/raken") 
+  * Rubicant: [https://github.com/mendicantx/rubicant](https://github.com/mendicantx/rubicant "https://github.com/mendicantx/rubicant") 
+  * Rake-dotnet: [https://github.com/petemounce/rake-dotnet](https://github.com/petemounce/rake-dotnet "https://github.com/petemounce/rake-dotnet") 
+  * Rake-Me: [https://github.com/agross/rake-me](https://github.com/agross/rake-me "https://github.com/agross/rake-me")&#160;
+  * Raken: [https://github.com/stevenharman/raken](https://github.com/stevenharman/raken "https://github.com/stevenharman/raken") 
   * etc. etc. etc. 
 
 The point is, I know I am re-inventing the wheel. So, why did I decide to continue with my efforts, and actually produce Albacore? First and foremost, I did it so that I would have an excuse and good reason to really dive down deep into what it takes to produce a high quality, valuable toolset using ruby, rake, rspec, etc. I wanted to learn, and wanted to find out what I could and could not do easily with these tools. 
@@ -275,7 +275,7 @@ in your rakefile, and you can get started. Here is the example that I have inclu
     
     <blockquote>
       <p>
-        <a href="http://github.com/derickbailey/Albacore"><strong>http://github.com/derickbailey/Albacore</strong></a><strong> </strong>
+        <a href="https://github.com/derickbailey/Albacore"><strong>https://github.com/derickbailey/Albacore</strong></a><strong> </strong>
       </p>
     </blockquote>
     

@@ -27,11 +27,11 @@ So what is a branch? Nothing more than a pointer to a commit (with a name). Ther
 
 Given a stack of commits:
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure1.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure1.png)
 
 The branch references the newest commit. If you were to make another commit in this branch, the branch&#8217;s reference would be updated to point at the new commit.
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure2.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure2.png)
 
 The history is built up by recursing over the commits through each&#8217;s parent.
 
@@ -41,7 +41,7 @@ Now that you know what a branch is, this one is easy. `HEAD` is a reference to t
 
 Given these two branches:
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure3.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure3.png)
 
 If you had master checked out, `HEAD` would reference `e34fa33`, the exact same commit that the master branch itself references. If you had feature checked out, `HEAD` would reference `dde3e1`. With that in mind, as both `HEAD` and a branch is just a reference to a commit, it is sometimes said that `HEAD` points to the current branch you&#8217;re on; while this is not strictly true, in most circumstances it&#8217;s close enough.
 
@@ -51,11 +51,11 @@ A fast-forward is what Git does when you merge or rebase against a branch that i
 
 Given the following branch setup:
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure4.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure4.png)
 
 You&#8217;ve got both branches referencing the same commit. They&#8217;ve both got exactly the same history. Now commit something to feature.
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure5.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure5.png)
 
 The `master` branch is still referencing `7ddac6c`, while `feature` has advanced by two commits. The `feature` branch can now be considered ahead of `master`.
 
@@ -63,13 +63,13 @@ It&#8217;s now quite easy to see what&#8217;ll happen when Git does a fast-forwa
 
 Your repository history would now look like this:
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure6.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure6.png)
 
 ### When doesn&#8217;t a fast-forward happen?
 
 Fast-forwards don&#8217;t happen in situations where changes have been made in the original branch and the new branch.
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure7.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.1/Figure7.png)
 
 If you were to merge or rebase `feature` onto `master`, Git would be unable to do a fast-forward because the trees have both diverged. Considering Git commits are immutable, there&#8217;s no way for Git to get the commits from `feature` into `master` without changing their parent references.
 

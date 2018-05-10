@@ -21,7 +21,7 @@ Here’s another entry in my how-i-saved-a-few-hundred-keystrokes blog posts on 
 
 ### The Code That Needs To Change
 
-I’ve got a data access method that is mapping around 50 fields into an object from a data table. I’m in the process of changing the code from raw reads off the data table’s indexer with Convert.To… statements into a data reader with my [type safe data reader](http://www.lostechies.com/blogs/derickbailey/archive/2010/03/15/a-type-safe-idatareader-wrapper.aspx) being used. There are 9 lines of code that read and convert to an Int32 and around as many for DateTime, Decimal, String and a few others. 
+I’ve got a data access method that is mapping around 50 fields into an object from a data table. I’m in the process of changing the code from raw reads off the data table’s indexer with Convert.To… statements into a data reader with my [type safe data reader](https://lostechies.com/blogs/derickbailey/archive/2010/03/15/a-type-safe-idatareader-wrapper.aspx) being used. There are 9 lines of code that read and convert to an Int32 and around as many for DateTime, Decimal, String and a few others. 
 
 Here’s the Int32 portion of the code, to make it easier to see what’s going on:
 

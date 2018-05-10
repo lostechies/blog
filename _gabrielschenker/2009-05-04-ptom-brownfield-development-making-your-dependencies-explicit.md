@@ -35,7 +35,7 @@ As a developer this is probably the most common scenario that you encounter. Onl
 
 ## Legacy Code
 
-Legacy code in the context of this post is code that is either _not covered by tests_, _not developed by using_ [_TDD_](http://en.wikipedia.org/wiki/Test-driven_development) or simply _not respecting the_ [_S.O.L.I.D._](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx) _principles_. 
+Legacy code in the context of this post is code that is either _not covered by tests_, _not developed by using_ [_TDD_](http://en.wikipedia.org/wiki/Test-driven_development) or simply _not respecting the_ [_S.O.L.I.D._](https://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx) _principles_. 
 
 ## Strong coupling versus weak coupling
 

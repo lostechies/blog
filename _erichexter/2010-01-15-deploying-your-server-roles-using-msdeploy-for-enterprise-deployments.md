@@ -21,9 +21,9 @@ redirect_from: "/blogs/hex/archive/2010/01/15/deploying-your-server-roles-using-
 
 This is an update that builds upon the previous posts about how We do Deployments.
 
-  * Part 1: [Using MSDeploy to automate your Enterprise Application remote deployments.](http://www.lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx)
+  * Part 1: [Using MSDeploy to automate your Enterprise Application remote deployments.](https://lostechies.com/blogs/hex/archive/2009/11/06/using-msdeploy-to-automate-your-enterprise-application-remote-deployments.aspx)
 
-  * Part 2 [Update on using MSDeploy for remote deployments.](http://www.lostechies.com/blogs/hex/archive/2009/12/29/update-on-using-msdeploy-for-remote-deployments.aspx)
+  * Part 2 [Update on using MSDeploy for remote deployments.](https://lostechies.com/blogs/hex/archive/2009/12/29/update-on-using-msdeploy-for-remote-deployments.aspx)
 
 ## &#160;
 
@@ -52,7 +52,7 @@ So how does this change the previous examples?
 
 First I have a call to my deploy script for each Role, here is an example of setting this up in CruiseControl.Net
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_58C210B8.png" width="1204" height="277" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_071B9666.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_58C210B8.png" width="1204" height="277" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_071B9666.png) 
 
 The first call updates the webserver but includes the database server address so that the deployment will update the appropriate connection strings in the config files. This call runs the Web role.
 
@@ -62,13 +62,13 @@ The second call updates the database server, and runs the database role.
 
 The role is actually passed to the script through the deploy.cmdargs parameter. Since this is a string the role is just being passed through in the calls to MsDeploy. Notice my script to call msdeploy does not change, or reference an additional parameter.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_25F20A44.png" width="1204" height="291" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_0A4D7E4E.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_25F20A44.png" width="1204" height="291" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_0A4D7E4E.png) 
 
 Now my actual deployment script just needs to branch its install logic based on a parameter value of web or database.&#160; It is pretty simple.&#160; I will show a nant example, but I have already started to move these types of scripts to powershell.&#160; There are many reasons for that, but ultimately I think of powershell as being the default scripting language for the servers that we are using.&#160; Since the there are built in support for IIS and Sql Server in powershell it only makes sense to use this tool over other scripting tools.
 
 Here is my new build file for deploying roles.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_4F19A282.png" width="1204" height="842" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_36F63827.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_4F19A282.png" width="1204" height="842" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_36F63827.png) 
 
 &#160;</p> 
 

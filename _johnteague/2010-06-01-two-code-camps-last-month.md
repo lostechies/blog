@@ -31,4 +31,4 @@ The other session at the Austin Code Camp was an in depth look at OCP,patterns t
 
 ## Materials
 
-I posted the materials for the Austin Code Camp on the download section of the [google code site](http://code.google.com/p/austin-codecamp-2010/).&#160; I’m also (slowly) putting all of my presentation material at [GitHub](http://github.com/jcteague/presentations) as well.&#160; It doesn’t say this, yet, but all materials are Creative Commons Licensed.
+I posted the materials for the Austin Code Camp on the download section of the [google code site](http://code.google.com/p/austin-codecamp-2010/).&#160; I’m also (slowly) putting all of my presentation material at [GitHub](https://github.com/jcteague/presentations) as well.&#160; It doesn’t say this, yet, but all materials are Creative Commons Licensed.

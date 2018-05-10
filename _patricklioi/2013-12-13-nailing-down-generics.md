@@ -61,7 +61,7 @@ This time, thankfully, we get the same output as the original plain calls to Gen
 
 ## Generic Test Methods
 
-Let&#8217;s say you&#8217;re using the Fixie test framework and you have [defined an [Input] attribute with an associated Fixie Convention in order to have parameterized tests](http://lostechies.com/patricklioi/2013/09/27/a-swiss-army-katana/). If one of your test methods is generic, Fixie faces the same problem we faced above:
+Let&#8217;s say you&#8217;re using the Fixie test framework and you have [defined an [Input] attribute with an associated Fixie Convention in order to have parameterized tests](https://lostechies.com/patricklioi/2013/09/27/a-swiss-army-katana/). If one of your test methods is generic, Fixie faces the same problem we faced above:
 
 {% gist 7944867 %}
 

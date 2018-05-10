@@ -39,11 +39,11 @@ I added two properties for the button and label. I use custom Text Macros for do
 <table>
   <tr>
     <td>
-      <img src="http://lostechies.com/content/scottdensmore/uploads/2011/03/IBMTCActn.png" width="279" height="234" alt="IBMTCActn.png" />
+      <img src="https://lostechies.com/content/scottdensmore/uploads/2011/03/IBMTCActn.png" width="279" height="234" alt="IBMTCActn.png" />
     </td>
     
     <td>
-      <img src="http://lostechies.com/content/scottdensmore/uploads/2011/03/IBMTCOut.png" width="280" height="238" alt="IBMTCOut.png" />
+      <img src="https://lostechies.com/content/scottdensmore/uploads/2011/03/IBMTCOut.png" width="280" height="238" alt="IBMTCOut.png" />
     </td>
   </tr>
 </table>
@@ -74,17 +74,17 @@ Now for the fun part. Adding in the code for the actions. Unlike Cocoa on Snow L
 
 The addTarget:action message is what happens under the covers when you connect your action and event in Interface Builder. I set the text for the label using NSString stringWithFormat:. This is just like string.Format with printf arguments. All in all, not much code except for the release calls and not much difference in the hello world.
 
-[Get code here.](http://github.com/scottdensmore/Blog-Code/tree/master/MonoTouchCompare/)
+[Get code here.](https://github.com/scottdensmore/Blog-Code/tree/master/MonoTouchCompare/)
 
 ## RSS Reader
 
 I moved to a little harder sample. I am using the [RSS Reader tutorial](http://www.alexyork.net/blog/post/UINavigationController-with-MonoTouch-Building-a-simple-RSS-reader-Part-1.aspx). The first thing I needed to do is figure out the layout of the response from the rss. I use [HTTP Client](http://ditchnet.org/httpclient/) to view requests / response. In XCode I created a Navigation based application. I renamed a few files (RootViewController -> NewsArticleViewController) via the Rename r[efactoring support in XCode](http://developer.apple.com/mac/library/documentation/DeveloperTools/Conceptual/XcodeWorkspace/150-Code_Refactoring/refactoring.html#//apple_ref/doc/uid/TP40006920-CH265-SW1) (yes XCode has some refactoring and also takes snapshots of your code before it makes the changes). I also added the News Article model class and a parser for the rss feed. The Cocoa framework doesn&#8217;t have a built in XML Document, but instead uses SAX style NSXMLParser. I wanted to hide this and also do it in a background thread using an NSOperation. Here is what my project looks like:
 
-<img src="http://lostechies.com/content/scottdensmore/uploads/2011/03/GroupsandFiles.png" width="239" height="480" alt="GroupsandFiles.png" />
+<img src="https://lostechies.com/content/scottdensmore/uploads/2011/03/GroupsandFiles.png" width="239" height="480" alt="GroupsandFiles.png" />
 
 I will not bore you with the gory details of the code in the parser. I could have used some third party library code to make it easier, yet I decided to stick with what comes in the box. Check out the [touchcode](http://code.google.com/p/touchcode) project if you want something else. The key was to have it parse through the code and build up the models from the rss feed. Another difference is that I reference the DetailsViewController from the NewsArticleViewController. I dragged a UIViewController into the controller and set it&#8217;s class to DetailsViewController in the identity inspector and NIB name to DetailsViewController in the attributes inspector.
   
-<img src="http://lostechies.com/content/scottdensmore/uploads/2011/03/ViewController.png" width="385" height="369" alt="ViewController.png" />
+<img src="https://lostechies.com/content/scottdensmore/uploads/2011/03/ViewController.png" width="385" height="369" alt="ViewController.png" />
   
 I added an outlet in the NewsArticleViewController and hooked this up in Interface Builder. I added the title to the navigation controller and showed it so I could navigate back to the list. The UI needs a little love to spice it up. Given everything, not much more code than MonoTouch.
 

@@ -23,7 +23,7 @@ I just released the latest build in binary and source code format on CodePlex.
   
 
 
-  * _To Subscribe to this RSS feed use this url:_ [_http://feeds.feedburner.com/EricHexter_](http://feeds.feedburner.com/EricHexter)  
+  * _To Subscribe to this RSS feed use this url:_ [_https://feeds.feedburner.com/EricHexter_](https://feeds.feedburner.com/EricHexter)  
     
 
 

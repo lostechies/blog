@@ -47,7 +47,7 @@ This pipeline takes an array of pipeline steps.&nbsp; Given a pipeline request, 
 
 No where in this pipeline do we see which steps should be created.&nbsp; Some steps may require service location from StructureMap, while others may not have any dependencies.&nbsp; In any case, we want the construction of the pipeline steps for the pipeline to be external from the pipeline, as we can see it&#8217;s only concerned with executing steps.
 
-But _someone_ has to be concerned with which steps can be executed.&nbsp; For many of our dependencies, the [DefaultConventionScanner](http://www.lostechies.com/blogs/chad_myers/archive/2008/06/11/neat-tricks-with-structuremap.aspx) is all we need to construct our dependencies.&nbsp; With an array parameter, there is no way StructureMap could automatically figure out which dependencies to create, and which order.&nbsp; Instead, we can create a custom Registry to configure our dependency:
+But _someone_ has to be concerned with which steps can be executed.&nbsp; For many of our dependencies, the [DefaultConventionScanner](https://lostechies.com/blogs/chad_myers/archive/2008/06/11/neat-tricks-with-structuremap.aspx) is all we need to construct our dependencies.&nbsp; With an array parameter, there is no way StructureMap could automatically figure out which dependencies to create, and which order.&nbsp; Instead, we can create a custom Registry to configure our dependency:
 
 <pre><span style="color: blue">public class </span><span style="color: #2b91af">PipelineRegistry </span>: <span style="color: #2b91af">Registry
 </span>{

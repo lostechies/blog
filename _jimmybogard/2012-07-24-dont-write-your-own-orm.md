@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Architecture
 ---
-In my last post, I talked about various kinds of patterns of ORMs and [how to choose an ORM strategy](http://lostechies.com/jimmybogard/2012/07/20/choosing-an-orm-strategy/). From the comments and tweets I got, it seems like some folks still think that their only ORM choices are:
+In my last post, I talked about various kinds of patterns of ORMs and [how to choose an ORM strategy](https://lostechies.com/jimmybogard/2012/07/20/choosing-an-orm-strategy/). From the comments and tweets I got, it seems like some folks still think that their only ORM choices are:
 
   * NHibernate/EF
   * Roll your own

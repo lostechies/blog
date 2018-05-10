@@ -20,7 +20,7 @@ I know I haven’t been vocal about this online, but it’s something I’ve bee
 
 But then I got an email from Chris Hefley this morning, about some new features in [LeanKitKanban](http://leankitkanban.com/). When I logged in to check them out, I was surprised to see this happen when I tried to exceed a column limit:
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_0093C96B.png" width="646" height="450" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_0093C96B.png" width="646" height="450" />
 
 I can’t tell you how happy I was to see this! Finally, one of the tools vendors in this space is really starting to get it! For this, and a few other reasons that I don’t want to talk about yet, [LeanKitKanban](http://leankitkanban.com/) is now officially my favorite electronic Kanban / task board around. If you haven’t done so, I highly recommend that you check them out. 
 

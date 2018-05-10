@@ -11,7 +11,7 @@ categories:
   - ASPdotNET
 redirect_from: "/blogs/jimmy_bogard/archive/2008/05/21/working-with-the-web-model.aspx/"
 ---
-Lots of comments from my [recent post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/05/18/asp-net-officially-unmaintainable.aspx) on <strike>ASP.NET</strike> WebForms being officially unmaintainable noted that:
+Lots of comments from my [recent post](https://lostechies.com/blogs/jimmy_bogard/archive/2008/05/18/asp-net-officially-unmaintainable.aspx) on <strike>ASP.NET</strike> WebForms being officially unmaintainable noted that:
 
   * AJAX works with the ClientID property
   * I don&#8217;t care about HTML

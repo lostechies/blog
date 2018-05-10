@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/05/15/parsing-strings-with-the-
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/06/parsing-strings-with-tryparse-method.html)._
 
-I recently [posted](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/05/11/pop-quiz-on-ref-and-out-parameters-in-c.aspx) on the out and ref keywords in C#, and mentioned the only time I&#8217;d see the &#8220;out&#8221; keyword was in the [Tester-Doer](http://msdn2.microsoft.com/en-us/library/ms229009.aspx)&nbsp;pattern.&nbsp; Well, I was really looking for the [Try-Parse](http://blogs.msdn.com/kcwalina/archive/2005/03/16/396787.aspx) pattern (near the end of the post).&nbsp; The Try-Parse pattern is ideal for situations where exceptions might be thrown in common scenarios, like parsing strings for numeric or date-time data.
+I recently [posted](https://lostechies.com/blogs/jimmy_bogard/archive/2007/05/11/pop-quiz-on-ref-and-out-parameters-in-c.aspx) on the out and ref keywords in C#, and mentioned the only time I&#8217;d see the &#8220;out&#8221; keyword was in the [Tester-Doer](http://msdn2.microsoft.com/en-us/library/ms229009.aspx)&nbsp;pattern.&nbsp; Well, I was really looking for the [Try-Parse](http://blogs.msdn.com/kcwalina/archive/2005/03/16/396787.aspx) pattern (near the end of the post).&nbsp; The Try-Parse pattern is ideal for situations where exceptions might be thrown in common scenarios, like parsing strings for numeric or date-time data.
 
 ### A simple example
 

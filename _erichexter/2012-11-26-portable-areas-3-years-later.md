@@ -19,11 +19,11 @@ I have written a lot about Portable Areas in the past and thought it was a good 
 
 This is a multi post series on ASP.Net MVC Portable Areas
 
-  * [Part 1 – Introduction](http://lostechies.com/erichexter/2009/11/01/asp-net-mvc-portable-areas-via-mvccontrib/)
+  * [Part 1 – Introduction](https://lostechies.com/erichexter/2009/11/01/asp-net-mvc-portable-areas-via-mvccontrib/)
   * [Part 2 – Sample Portable Area](/blogs/hex/archive/2009/11/02/asp-net-mvc-portable-areas-part-2.aspx)
   * [Part 3 – Usage of a Portable Area](/blogs/hex/archive/2009/11/03/asp-net-mvc-portable-areas-part-3.aspx)
   * [Part 4 &#8211; IoC framework support](/blogs/hex/archive/2009/11/04/asp-net-mvc-portable-area-part-4-ioc-framework-support.aspx)
-  * [Part 5 &#8211; Update for 2012 / 3 Years Later](http://lostechies.com/erichexter/2012/11/26/portable-areas-3-years-later/)
+  * [Part 5 &#8211; Update for 2012 / 3 Years Later](https://lostechies.com/erichexter/2012/11/26/portable-areas-3-years-later/)
 
 A Portable Area is a set of reusable multi page functionality can be dropped into an application to provide rich functionality without having to custom build functionality that is literally the same in every application. This could be considered a plug-in or add-in type of functionality.  The **portable** ****portion of this approach is that the area can be distributed as a single assembly rather than an assembly and a host of other files, like views or other html assets that need to be managed and maintained over time.  By making a portable area totally self contained in a single assembly, this should allow for easier reuse and upgrades to the area.  The challenge for doing something like this has been how do you allow enough control over the User Interface by the application yet still allow the actual views to be packaged with the logic.
 
@@ -33,7 +33,7 @@ The MessageBus in MvcContrib was good when MVC2 first came out but since then ot
 
 &nbsp;
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/10/image_thumb4.png" alt="image" width="520" height="402" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/10/image7.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/10/image_thumb4.png" alt="image" width="520" height="402" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/10/image7.png)
 
 Here is an updated diagram of how a Portable Area works with an application.
 
@@ -41,4 +41,4 @@ Here is an updated diagram of how a Portable Area works with an application.
 
 Follow me on RSS and Twitter
   
-<a href="https://twitter.com/ehexter" data-show-count="false" data-size="large">Follow @ehexter</a><a title="Subscribe to my feed" type="application/rss+xml" href="http://feeds.feedburner.com/EricHexter" rel="alternate"><img src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" /></a>
+<a href="https://twitter.com/ehexter" data-show-count="false" data-size="large">Follow @ehexter</a><a title="Subscribe to my feed" type="application/rss+xml" href="https://feeds.feedburner.com/EricHexter" rel="alternate"><img src="https://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" /></a>

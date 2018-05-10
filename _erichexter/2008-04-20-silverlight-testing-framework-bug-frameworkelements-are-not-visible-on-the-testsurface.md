@@ -21,7 +21,7 @@ Working with the Silverlight testing framework the last three weeks has been int
 &nbsp;  
 After resorting to reflector on the test framework I found that the TestSurface is a Grid control.&nbsp; That got me to think that since my controls parent control is also a Grid control that maybe the nested grids are just having some sort of issue.&nbsp; I ended up solving the problem by Adding my controls to a Canvas control and adding the Canvas instance to the TestSurface.&nbsp; Code as follows&#8230;&#8230;
 
-_Subscribe to this feed:_ [_http://feeds.feedburner.com/erichexter_](http://feeds.feedburner.com/erichexter)_&nbsp;_ 
+_Subscribe to this feed:_ [_https://feeds.feedburner.com/erichexter_](https://feeds.feedburner.com/erichexter)_&nbsp;_ 
 
 [<img alt="si-testing-testsurfacebug" src="http://static.flickr.com/2183/2426484873_04cd4296a5.jpg" border="0" />](http://www.flickr.com/photos/45074821@N00/2426484873/ "si-testing-testsurfacebug")
 

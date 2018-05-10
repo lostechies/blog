@@ -11,7 +11,7 @@ redirect_from: "/blogs/evan_hoff/archive/2007/10/22/joining-los-techies.aspx/"
 ---
 So, for the curious, they have an initiation ritual at Los Techies.&nbsp; I&#8217;m going to spill the secret.&nbsp; 
 
-From <a href="http://www.lostechies.com/blogs/joe_ocampo/default.aspx" target="_blank">Joe&#8217;s</a> emal:
+From <a href="https://lostechies.com/blogs/joe_ocampo/default.aspx" target="_blank">Joe&#8217;s</a> emal:
 
 > You must sacrifice a live chicken on the next full moon and praise the  
 > computer gods for creating Assembler.&nbsp;&nbsp;After that you will have to tattoo  

@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Testing
 ---
-Creating reliable tests that exercise the database can be a tricky beast to tame. There are many [different sub-par strategies](http://lostechies.com/jimmybogard/2013/06/18/strategies-for-isolating-the-database-in-tests/) for doing so, and most of the documented methods talk about resetting the database at teardown, either using rolled back transactions or table truncation.
+Creating reliable tests that exercise the database can be a tricky beast to tame. There are many [different sub-par strategies](https://lostechies.com/jimmybogard/2013/06/18/strategies-for-isolating-the-database-in-tests/) for doing so, and most of the documented methods talk about resetting the database at teardown, either using rolled back transactions or table truncation.
 
 I’m not a fan of either of these methods – for truly reliable tests, the fixture must have a known starting point at the start of the test, not be relying on something to clean up after itself. When a test fails, I want to be able to examine the data during or after the test run.
 

@@ -75,7 +75,7 @@ This type of code is usually a little more high level and uses language that mor
 
 This type of code doesn’t necessarily have to deal at the higher level, but, in my experience, its benefit is more fully realized at this higher level as the language is less awkward to try to bend into the code.
 
-A (silly, probably non-compiling) example of this type of code, courtesy of [Scott Reynolds](http://www.lostechies.com/blogs/scottcreynolds/default.aspx) and [Steven Harman](http://stevenharman.net/blog/archive/2009/01/14/saving-the-world-via-tdd.aspx), would be:
+A (silly, probably non-compiling) example of this type of code, courtesy of [Scott Reynolds](https://lostechies.com/blogs/scottcreynolds/default.aspx) and [Steven Harman](http://stevenharman.net/blog/archive/2009/01/14/saving-the-world-via-tdd.aspx), would be:
 
 <div class="csharpcode-wrapper">
   <pre><span class="kwrd">public</span> <span class="kwrd">class</span> when_initializing_core_module

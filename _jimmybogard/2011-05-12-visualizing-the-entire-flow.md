@@ -10,9 +10,9 @@ dsq_thread_id:
 categories:
   - Agile
 ---
-In the large agile project I talked about in the [last post](http://lostechies.com/jimmybogard/2011/05/10/ditching-planning-poker/), one of the biggest improvements in our process was combining our story workflow across all teams. At the start of the project, we didn’t really know what our cumulative development process would be. The dev team had a fairly established regimen on how to develop features. Our workflow wound up looking like:
+In the large agile project I talked about in the [last post](https://lostechies.com/jimmybogard/2011/05/10/ditching-planning-poker/), one of the biggest improvements in our process was combining our story workflow across all teams. At the start of the project, we didn’t really know what our cumulative development process would be. The dev team had a fairly established regimen on how to develop features. Our workflow wound up looking like:
 
-[<img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/05/image_thumb.png" width="644" height="324" />](http://lostechies.com/content/jimmybogard/uploads/2011/05/image.png)
+[<img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;padding-top: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/05/image_thumb.png" width="644" height="324" />](https://lostechies.com/content/jimmybogard/uploads/2011/05/image.png)
 
 This workflow was on a whiteboard next to the dev team. The story boxes were large Post-It notes, but the actual stories we worked on were mini requirements documents (side note, the whole “card and a conversation” is just bunk, from my experience).
 
@@ -23,13 +23,13 @@ We established this workflow very early in the project, but there were two other
           * Acceptance</ol> 
         This project had many stakeholders and interested parties, so a lot of people needed input on the analysis and acceptance phases. Eventually, the acceptance and analysis teams settled on their own workflows. We found that a story card started on a workflow in the analysis team’s story wall:
         
-        [<img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/05/image_thumb1.png" width="644" height="182" />](http://lostechies.com/content/jimmybogard/uploads/2011/05/image1.png)
+        [<img style="border-right-width: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;padding-top: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/05/image_thumb1.png" width="644" height="182" />](https://lostechies.com/content/jimmybogard/uploads/2011/05/image1.png)
         
         Stories that were ready for development were the stories in our backlog. This was a scrum project, so contractually stories didn’t make it into our backlog until the dev team committed for these stories to be delivered in that sprint (more on this later).
         
         On the acceptance side, where multiple parties who all had a financial stake in the claim, each accepted the story. They had their own workflow as well:
         
-        [<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/05/image_thumb2.png" width="605" height="257" />](http://lostechies.com/content/jimmybogard/uploads/2011/05/image2.png)
+        [<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/05/image_thumb2.png" width="605" height="257" />](https://lostechies.com/content/jimmybogard/uploads/2011/05/image2.png)
         
         These separate workflows each took about 6 months to fully realize. But once they did, I had a bit of an epiphany (after reading [The Goal](http://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884270610) and chats with [John Heintz](http://gistlabs.com/john)). Each of these workflows was in the one large team room we had, but were physically located in each of the team’s pods of desks. The Analysis workflow was in the Analysis team’s area, and so on.
         

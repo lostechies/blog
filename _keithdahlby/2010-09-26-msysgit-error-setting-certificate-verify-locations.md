@@ -23,7 +23,7 @@ error: error setting certificate verify locations:
 
 fatal: HTTP request failed</pre>
 
-There were a number of suggestions in the comments on [GitHub&#8217;s Smart HTTP post](http://github.com/blog/642-smart-http-support "Smart HTTP Support - GitHub"), but they mostly seemed like hacks (most common: copy file from msysGit elsewhere, or turn off `http.sslverify`). A much easier fix is just to set `http.sslcainfo` to the absolute path of the `curl-ca-bundle.crt` file in your msysGit install&#8217;s `bin` folder:
+There were a number of suggestions in the comments on [GitHub&#8217;s Smart HTTP post](https://github.com/blog/642-smart-http-support "Smart HTTP Support - GitHub"), but they mostly seemed like hacks (most common: copy file from msysGit elsewhere, or turn off `http.sslverify`). A much easier fix is just to set `http.sslcainfo` to the absolute path of the `curl-ca-bundle.crt` file in your msysGit install&#8217;s `bin` folder:
 
 <pre>$ git config --global http.sslcainfo "/c/Program Files (x86)/Git/bin/curl-ca-bundle.crt"</pre>
 

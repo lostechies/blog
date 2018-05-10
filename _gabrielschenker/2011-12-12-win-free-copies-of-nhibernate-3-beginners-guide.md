@@ -17,7 +17,7 @@ Readers would be pleased to know that I have teamed up with Packt Publishing and
 
 ### Overview of Nhibernate 3 Beginner&#8217;s Guide
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 0px 24px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image002" border="0" alt="clip_image002" src="http://lostechies.com/content/gabrielschenker/uploads/2011/12/clip_image002_thumb.jpg" width="227" height="244" />](http://lostechies.com/content/gabrielschenker/uploads/2011/12/clip_image002.jpg) 
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 0px 24px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image002" border="0" alt="clip_image002" src="https://lostechies.com/content/gabrielschenker/uploads/2011/12/clip_image002_thumb.jpg" width="227" height="244" />](https://lostechies.com/content/gabrielschenker/uploads/2011/12/clip_image002.jpg) 
 
 · Clear, precise step-by-step directions to get you up and running quickly 
 

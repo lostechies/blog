@@ -26,7 +26,7 @@ When looking at NServiceBus sagas ([process managers](http://www.eaipatterns.com
         
         Deadlocks in sagas are pretty easy to run into if we start pumping up the concurrency on our sagas. Back in our McDonald’s example, we published a message out and waited for all of the stations to report back:
         
-        [<img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb7.png" width="471" height="407" />](http://lostechies.com/content/jimmybogard/uploads/2013/03/image7.png)
+        [<img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb7.png" width="471" height="407" />](https://lostechies.com/content/jimmybogard/uploads/2013/03/image7.png)
         
         In our restaurant, there’s only room for one person to examine a single tray at a time. When someone finishes a food item, they have to go look at all the trays. But what if someone is putting food on my tray? Do I push them out of the way?
         
@@ -56,7 +56,7 @@ When looking at NServiceBus sagas ([process managers](http://www.eaipatterns.com
             
             But every once in a while, we would get someone ordering food for a large group of people. We didn’t do catering, but we did sell breakfast tacos. Handling one or two at a time wasn’t a problem, but someone coming in and ordering 50 tacos – that’s a problem. Our process looked something like this:
             
-            [<img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb8.png" width="607" height="257" />](http://lostechies.com/content/jimmybogard/uploads/2013/03/image8.png)
+            [<img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2013/03/image_thumb8.png" width="607" height="257" />](https://lostechies.com/content/jimmybogard/uploads/2013/03/image8.png)
             
             The problem was, because there were only two of us, most messages flowed through exactly one channel. In NServiceBus Sagas, this is what happens as well – all messages for a saga are delivered to a single endpoint. We might have the situation like this:
             

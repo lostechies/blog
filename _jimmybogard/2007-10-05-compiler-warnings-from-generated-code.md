@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/10/05/compiler-warnings-from-ge
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/compiler-warnings-from-generated-code.html)._
 
-Although I believe strongly in [treating warnings as errors](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/10/04/treat-warnings-as-errors.aspx), on rare occasions I get compiler warnings from generated code.&nbsp; Examples of generated code include the designer code files for Windows and Web forms, XAML, etc.&nbsp; Warnings in those files are easily removed, as it&#8217;s almost always&nbsp;related to files coded by the programmer.
+Although I believe strongly in [treating warnings as errors](https://lostechies.com/blogs/jimmy_bogard/archive/2007/10/04/treat-warnings-as-errors.aspx), on rare occasions I get compiler warnings from generated code.&nbsp; Examples of generated code include the designer code files for Windows and Web forms, XAML, etc.&nbsp; Warnings in those files are easily removed, as it&#8217;s almost always&nbsp;related to files coded by the programmer.
 
 I recently hit a really strange compiler warning while using the [aspnet_compiler](http://msdn2.microsoft.com/en-us/library/ms229863(VS.80).aspx) tool, which compiles the ASPX, ASCX, and other content.&nbsp; Part of this process is to parse the ASPX and ASCX files and create C# files from those.&nbsp; However, I started getting very strange warnings from the precompilation:
 
@@ -27,7 +27,7 @@ Shadowing warnings aren&#8217;t new to me, but this one is especially strange si
 
 But how can I get rid of the other one?&nbsp; I tried all sorts of magic:
 
-  * Shadowing and exposing as virtual (the [subclass and override method](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/08/31/legacy-code-testing-techniques-subclass.aspx)) 
+  * Shadowing and exposing as virtual (the [subclass and override method](https://lostechies.com/blogs/jimmy_bogard/archive/2007/08/31/legacy-code-testing-techniques-subclass.aspx)) 
       * Shadowing and preventing overriding by using the new and sealed modifiers on that property</ul> 
     Nothing worked.&nbsp; No matter what, the Profile property would get created.&nbsp; What does that code file actually look like?&nbsp; Here&#8217;s the more interesting part:
     

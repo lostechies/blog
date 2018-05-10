@@ -11,7 +11,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/chad_myers/archive/2010/10/20/looking-for-a-c-developer.aspx/"
 ---
-Sorry for the string of job-seeking related posts recently.&#160;&#160; I figure you won’t mind since there’s a lot of people out of work now and helping people find work is a work of mercy <img style="border-bottom-style: none;border-right-style: none;border-top-style: none;border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smile" src="http://lostechies.com/content/chadmyers/uploads/2011/03/wlEmoticon-smile_0A049782.png" />
+Sorry for the string of job-seeking related posts recently.&#160;&#160; I figure you won’t mind since there’s a lot of people out of work now and helping people find work is a work of mercy <img style="border-bottom-style: none;border-right-style: none;border-top-style: none;border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smile" src="https://lostechies.com/content/chadmyers/uploads/2011/03/wlEmoticon-smile_0A049782.png" />
 
 At [Dovetail](http://www.dovetailsoftware.com), we’re looking for a good C developer who can help us out with an upgrade to C-based product we have.
 

@@ -22,7 +22,7 @@ So a couple of months ago, I took the plunge and built myself a stand up desk.
 
 I followed the [printable instructions](http://iamnotaprogrammer.com/Standesk_2200_Assembly_Instructions.pdf) fairly closely, with the exception of a slightly different choice of materials. Instead of a plain black Lack table, I went with a black-brown, that is more of an ebony color. Most of the furniture in our office is a very dark wood color, but not straight black. That bumped the price from 7.99 to 9.99 for two tables.
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="photo" border="0" alt="photo" src="http://lostechies.com/content/jimmybogard/uploads/2012/11/photo_thumb.jpg" width="364" height="484" />](http://lostechies.com/content/jimmybogard/uploads/2012/11/photo.jpg)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="photo" border="0" alt="photo" src="https://lostechies.com/content/jimmybogard/uploads/2012/11/photo_thumb.jpg" width="364" height="484" />](https://lostechies.com/content/jimmybogard/uploads/2012/11/photo.jpg)
 
 Above is the completed desk, which looks quite professional and not homemade. I used standard brackets and shelves from Ikea, and constructed the whole thing in a matter of an hour or so. The trickiest part was really figuring out how high to have the shelf, as I’m also fairly particular on the angle of my arms etc.
 

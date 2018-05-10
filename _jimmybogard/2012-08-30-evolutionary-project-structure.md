@@ -23,7 +23,7 @@ I’ve since moved completely away from this sort of project structure, mostly b
 
 Instead, I LOVE the project structure of [RaccoonBlog](https://github.com/ayende/RaccoonBlog/):
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/08/image_thumb5.png" width="215" height="411" />](http://lostechies.com/content/jimmybogard/uploads/2012/08/image5.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2012/08/image_thumb5.png" width="215" height="411" />](https://lostechies.com/content/jimmybogard/uploads/2012/08/image5.png)
 
 So what’s the project structure here? None!
 
@@ -37,7 +37,7 @@ One of the reasons why this works well is that **the underlying architecture (Ra
 
 So what does a typical action look like? Let’s look at the action displaying posts:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/08/image_thumb6.png" width="526" height="304" />](http://lostechies.com/content/jimmybogard/uploads/2012/08/image6.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2012/08/image_thumb6.png" width="526" height="304" />](https://lostechies.com/content/jimmybogard/uploads/2012/08/image6.png)
 
 \*gasp\* It’s data access directly in the controller! Where’s the repository? Who cares! This query is used in one and exactly one place, this one controller action. Any common query methods are abstracted into extension methods (the WhereIsPublicPost method).
 

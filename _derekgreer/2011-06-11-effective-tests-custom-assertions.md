@@ -71,7 +71,7 @@ tags:
   </ul>
 </div>
 
-In our [last installment](http://lostechies.com/derekgreer/2011/05/31/effective-tests-auto-mocking-containers/), we took a look at using Auto-mocking Containers as a way of reducing coupling and obscurity within our tests. This time, we’ll take a look at another technique which aids in preventing obscurity caused by complex assertions: Custom Assertions.
+In our [last installment](https://lostechies.com/derekgreer/2011/05/31/effective-tests-auto-mocking-containers/), we took a look at using Auto-mocking Containers as a way of reducing coupling and obscurity within our tests. This time, we’ll take a look at another technique which aids in preventing obscurity caused by complex assertions: Custom Assertions.
 
 ## Custom Assertions
 

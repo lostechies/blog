@@ -19,7 +19,7 @@ tags:
 
 ## Background
 
-One of the little known treasures of FubuMVC is its highly extensible route generation mechanism. The [default policy](http://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture-policies/#real-world) is great for most cases. But when it falls short, you get a chance to make use of this fantastic little gem: [IUrlPolicy](http://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture-policies/#urlpolicy).
+One of the little known treasures of FubuMVC is its highly extensible route generation mechanism. The [default policy](https://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture-policies/#real-world) is great for most cases. But when it falls short, you get a chance to make use of this fantastic little gem: [IUrlPolicy](https://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture-policies/#urlpolicy).
 
 So if the default policy (configured through the DSL) is great, where does it fall short? It’s not there’s anything wrong with using the DSL-based configuration for your routes. I just like to approach things a little differently.
 

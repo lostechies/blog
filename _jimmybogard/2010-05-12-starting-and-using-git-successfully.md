@@ -22,7 +22,7 @@ Some great resources for git include:
   * The [Pro Git book](http://progit.org/book/) (online or print)
   * [Git Ready](http://www.gitready.com/)
   * [TekPub Mastering Git series](http://tekpub.com/production/git)
-  * [Git for Windows Developers](http://www.lostechies.com/blogs/jason_meridth/archive/2009/06/01/git-for-windows-developers-git-series-part-1.aspx) <- Start here for installing Git on Windows
+  * [Git for Windows Developers](https://lostechies.com/blogs/jason_meridth/archive/2009/06/01/git-for-windows-developers-git-series-part-1.aspx) <- Start here for installing Git on Windows
   * [GitHub help](http://tekpub.com/production/git)
   * git help <command> (from Git bash)
 
@@ -30,7 +30,7 @@ Some great resources for git include:
 
 GitHub provides such a fantastic user experience, it’s the reason why many folks choose Git.&#160; In fact, it’s pretty hard to introduce anyone to Git without talking about GitHub.&#160; So head over there:
 
-<http://github.com/>
+<https://github.com/>
 
 And create an account.&#160; GitHub is all about collaboration, so their entire experience is centered around **you**, instead of projects.&#160; You can create a free account, fork an existing project, clone, and start fooling around with other folks’ projects, but on your own sandbox so you don’t have to worry about messing anything up.&#160; Lots of great OSS tools are already on GitHub, including:
 
@@ -41,7 +41,7 @@ And create an account.&#160; GitHub is all about collaboration, so their entire 
   * Fluent NHibernate
   * SubSonic
 
-And many more, just check out the [github page on the C# projects](http://github.com/languages/C%23).
+And many more, just check out the [github page on the C# projects](https://github.com/languages/C%23).
 
 ### Visualize the repository
 
@@ -49,7 +49,7 @@ The biggest hurdle for me personally learning Git was the difference between Git
 
 Whenever I use a DVCS, Git or Hg, I keep a repository viewer up at ALL times, because I want to know exactly where I am, where I’ve been and where I want to go.&#160; Here’s the StructureMap timeline:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_04E5F2AE.png" width="642" height="484" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_675417AE.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_04E5F2AE.png" width="642" height="484" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_675417AE.png) 
 
 This timeline’s not that interesting looking, mostly because I don’t have any local branches AND the StructureMap folks know how to keep a clean timeline.&#160; More on that in a second.
 

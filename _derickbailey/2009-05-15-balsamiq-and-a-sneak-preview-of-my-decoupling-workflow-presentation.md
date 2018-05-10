@@ -14,7 +14,7 @@ redirect_from: "/blogs/derickbailey/archive/2009/05/14/balsamiq-and-a-sneak-prev
 ---
 I know I’m late jumping on this bandwagon, but it’s better late than never, right? 🙂
 
-I decided to try out the [Balsamiq Mockups](http://www.balsamiq.com/) tool while working on my sample application for the ‘[Decoupling Workflow from Forms](http://www.lostechies.com/blogs/derickbailey/archive/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller.aspx)’ presentation that I’m planning (hoping! Go [vote for my session](http://www.adnug.org/AustinCodeCamp09/Proposal/List)!) to give at this year’s [Austin Code Camp](http://austincodecamp.com). The code for the presentation will revolve around a very simple “Org Chart” set of features, illustrating the principles and patterns of Application Controller, IoC containers, and others.
+I decided to try out the [Balsamiq Mockups](http://www.balsamiq.com/) tool while working on my sample application for the ‘[Decoupling Workflow from Forms](https://lostechies.com/blogs/derickbailey/archive/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller.aspx)’ presentation that I’m planning (hoping! Go [vote for my session](http://www.adnug.org/AustinCodeCamp09/Proposal/List)!) to give at this year’s [Austin Code Camp](http://austincodecamp.com). The code for the presentation will revolve around a very simple “Org Chart” set of features, illustrating the principles and patterns of Application Controller, IoC containers, and others.
 
 ### The Org Chart Screens
 
@@ -22,15 +22,15 @@ I’ve played with Balsamiq in the past, but never for an actual project. In les
 
 **The “Org Chart” Main Form**
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="231" alt="Org Chart View" src="http://lostechies.com/content/derickbailey/uploads/2011/03/OrgChartView_thumb_5376DC0D.png" width="244" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/OrgChartView_3BBFA4A7.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="231" alt="Org Chart View" src="https://lostechies.com/content/derickbailey/uploads/2011/03/OrgChartView_thumb_5376DC0D.png" width="244" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/OrgChartView_3BBFA4A7.png) 
 
 **The “Add New Employee – Info” Form**
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="130" alt="New Employee - Info" src="http://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeInfo_thumb_43879749.png" width="244" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeInfo_647B09F0.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="130" alt="New Employee - Info" src="https://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeInfo_thumb_43879749.png" width="244" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeInfo_647B09F0.png) 
 
 **The “Add New Employee – Manager” Form**
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="103" alt="New Employee - Manager" src="http://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeManager_thumb_21BBBEB8.png" width="244" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeManager_709C8417.png) </p> 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="103" alt="New Employee - Manager" src="https://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeManager_thumb_21BBBEB8.png" width="244" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeManager_709C8417.png) </p> 
 
 The general workflow between these screens should be fairly intuitive. You can select an employee from the treeview, in the main form, and see their details. You can also click the “Add New Employee” button to go through the wizard-style process of adding a new employee’s information and selecting their manager.
 

@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 ---
-My [last post](http://lostechies.com/joshuaflanagan/2011/06/23/tips-for-building-nuget-packages/) covered tips for people creating Nuget packages. This one is important for people consuming Nuget packages. 
+My [last post](https://lostechies.com/joshuaflanagan/2011/06/23/tips-for-building-nuget-packages/) covered tips for people creating Nuget packages. This one is important for people consuming Nuget packages. 
 
 Some Nuget packages include executables in their tools folder. It is very easy to use these tools within Visual Studio because Nuget makes them available in the path of the Package Manager Console. However, they are very difficult to use outside of Visual Studio, especially in a build script. The problem is the name of the folder containing the installed package includes the version number of the package. If you install NUnit 2.5.1, the nunit-console.exe will be in packages\NUnit.2.5.1\tools. However, if you later upgrade to NUnit.2.5.2, the path to nunit-console.exe will change to packages\NUnit.2.5.2\tools. You will need to change your build scripts every time you upgrade your version of NUnit. That is unacceptable.
 

@@ -22,6 +22,6 @@ Let me know what you think!
   * [MonoRail Quickly Screencast](http://screencast.lostechies.com/screencasts/joeyb/monorail%5Fquickly/index.html) 
   * [Baseline MonoRail Solution](http://code.google.com/p/joeydotnet/downloads/list) 
 
-(Thanks to my fellow [LosTechies](http://lostechies.com) crew for hosting the screencast for me.)
+(Thanks to my fellow [LosTechies](https://lostechies.com) crew for hosting the screencast for me.)
 
 Happy Coding!

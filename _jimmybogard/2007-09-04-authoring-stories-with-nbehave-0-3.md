@@ -14,7 +14,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/09/04/authoring-stories-with-nb
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/09/authoring-stories-with-nbehave-03.html)._
 
-As [Joe](http://www.lostechies.com/blogs/joe%5Focampo/) [already mentioned](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/09/03/behave-merges-with-nbehave.aspx), Behave# has merged with NBehave.&nbsp; The merged NBehave will still be hosted on [CodePlex](http://www.codeplex.com/), and the [old project site](http://www.codeplex.com/BehaveSharp) will redirect to the new [CodePlex NBehave site](http://www.codeplex.com/NBehave).&nbsp; With the announcement of the merge comes the first release of our merging efforts (0.3), which you can find [here](http://www.codeplex.com/NBehave/Release/ProjectReleases.aspx?ReleaseId=6849).
+As [Joe](https://lostechies.com/blogs/joe%5Focampo/) [already mentioned](https://lostechies.com/blogs/joe_ocampo/archive/2007/09/03/behave-merges-with-nbehave.aspx), Behave# has merged with NBehave.&nbsp; The merged NBehave will still be hosted on [CodePlex](http://www.codeplex.com/), and the [old project site](http://www.codeplex.com/BehaveSharp) will redirect to the new [CodePlex NBehave site](http://www.codeplex.com/NBehave).&nbsp; With the announcement of the merge comes the first release of our merging efforts (0.3), which you can find [here](http://www.codeplex.com/NBehave/Release/ProjectReleases.aspx?ReleaseId=6849).
 
 The new release added quite a few features over the previous release, including:
 

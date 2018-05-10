@@ -13,7 +13,7 @@ categories:
   - Ruby
 redirect_from: "/blogs/derickbailey/archive/2009/10/05/a-basic-yaml-config-module-for-ruby.aspx/"
 ---
-In the process of working with [Albacore](http://github.com/derickbailey/Albacore) and creating a task to wrap around SQL Server’s [SQLCmd.exe](http://msdn.microsoft.com/en-us/library/ms162773.aspx), I wanted to ensure that I could allow individual developers the ability to easily provide their own database server connection information, so that they can easily run database scripts against their local database server instance. To do this, I decided to have a little fun with [YAML](http://www.yaml.org/) and some [ruby metaprogramming](http://pragdave.blogs.pragprog.com/pragdave/2008/06/screencasting-r.html). 
+In the process of working with [Albacore](https://github.com/derickbailey/Albacore) and creating a task to wrap around SQL Server’s [SQLCmd.exe](http://msdn.microsoft.com/en-us/library/ms162773.aspx), I wanted to ensure that I could allow individual developers the ability to easily provide their own database server connection information, so that they can easily run database scripts against their local database server instance. To do this, I decided to have a little fun with [YAML](http://www.yaml.org/) and some [ruby metaprogramming](http://pragdave.blogs.pragprog.com/pragdave/2008/06/screencasting-r.html). 
 
 ### The YAMLConfigBase Mixin
 
@@ -209,7 +209,7 @@ The end result is a little YAMLConfig module that allows you to mixin the abilit
                   </p>
                   
                   <p>
-                    <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_6CE8D814.png" width="446" height="263" />
+                    <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_6CE8D814.png" width="446" height="263" />
                   </p>
                 </p>
                 

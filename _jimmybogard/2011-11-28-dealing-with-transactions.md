@@ -10,9 +10,9 @@ dsq_thread_id:
 categories:
   - Architecture
 ---
-In the [last post on NServiceBus](http://lostechies.com/jimmybogard/2011/11/22/stop-premature-email-sending-with-nservicebus/), I got quite a few comments that one way to fix the problem of dealing with non-transactional operations that must happen if some transaction succeeds is to simply move the non-transactional operation after the transactional one, so that I know that the transaction succeeds. If we delay the sending of an email until _after_ the transaction succeeds, our picture now looks like this:
+In the [last post on NServiceBus](https://lostechies.com/jimmybogard/2011/11/22/stop-premature-email-sending-with-nservicebus/), I got quite a few comments that one way to fix the problem of dealing with non-transactional operations that must happen if some transaction succeeds is to simply move the non-transactional operation after the transactional one, so that I know that the transaction succeeds. If we delay the sending of an email until _after_ the transaction succeeds, our picture now looks like this:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/11/image_thumb3.png" width="575" height="321" />](http://lostechies.com/content/jimmybogard/uploads/2011/11/image3.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/11/image_thumb3.png" width="575" height="321" />](https://lostechies.com/content/jimmybogard/uploads/2011/11/image3.png)
 
 The steps are slightly altered so that the Commit happens before Send. If step 2 fails, step 3 never happens. I see a couple of problems with this approach, namely in that it assumes:
 
@@ -23,7 +23,7 @@ If #1 is true, I have to wonder if #2 is also desirable. In most cases I run int
 
 I instead like the idea of a unit of work, or at the very least, a concept of [required infrastructure](http://ayende.com/blog/136193/the-required-infrastructure-frees-you-from-infrastructure-decisions) for transaction management. Regardless of the host environment I’m working with, WCF, WPF, ASP.NET, NServiceBus etc., my day to day development takes on a picture like this:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/11/image_thumb4.png" width="607" height="400" />](http://lostechies.com/content/jimmybogard/uploads/2011/11/image4.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/11/image_thumb4.png" width="607" height="400" />](https://lostechies.com/content/jimmybogard/uploads/2011/11/image4.png)
 
 Day to day, I’m living in the green section. I don’t want to “remember” to create transactions, deal with a pattern of saving, committing, rolling back etc. This should just be taken care of for me, through required infrastructure. One example is in Ayende’s example of the RavenController in MVC:
 

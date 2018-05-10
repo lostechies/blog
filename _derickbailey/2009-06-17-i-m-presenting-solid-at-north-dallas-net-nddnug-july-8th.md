@@ -17,14 +17,14 @@ On Wednesday, July 8th, I’m scheduled to give my SOLID presentation at [NDDNUG
 
 If anyone is interested in obtaining the slide deck and code for this presentation, I recently updated the .zip package in my media section, with the latest version of the slides.
 
-> **Download The Presentation Slides And Code Here:** [**http://www.lostechies.com/media/p/5415.aspx**](http://www.lostechies.com/media/p/5415.aspx "http://www.lostechies.com/media/p/5415.aspx")
+> **Download The Presentation Slides And Code Here:** [**https://lostechies.com/media/p/5415.aspx**](https://lostechies.com/media/p/5415.aspx "https://lostechies.com/media/p/5415.aspx")
 
 ### The Presentation Abstract
 
 Almost every professional software developer understands the academic definitions of Coupling, Cohesion, and Encapsulation. However, many of us do not understand how to actually achieve Low Coupling, High Cohesion, and strong Encapsulation, as prescribed. Fortunately, there are a set of stepping stones that we can use to reach these end goals, giving us a clear cut path to software that is easier to read, easier to understand, and easier to change. This presentation will define not only the three object oriented goals, but also the five S.O.L.I.D. principle that lead us there, while walking through a sample application.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="303" alt="http://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg" src="http://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg" width="379" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg)
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="303" alt="https://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg" src="https://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg" width="379" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/SOLID_6EC97F9C.jpg)
 
 ### 
 
-### [****](http://www.lostechies.com/media/p/5415.aspx "http://www.lostechies.com/media/p/5415.aspx")
+### [****](https://lostechies.com/media/p/5415.aspx "https://lostechies.com/media/p/5415.aspx")

@@ -14,7 +14,7 @@ tags:
   - arduino
   - pablosfiesta
 ---
-My favorite conference is coming up! (Shh, you&#8217;re all my favorites; now hush.) [Pablo&#8217;s Fiesta](http://lostechies.github.io/fiesta/) has the most engaging density of relevant content because _we_ make the content. You and me (and some other folks), on Friday evening, propose Saturday&#8217;s topics.
+My favorite conference is coming up! (Shh, you&#8217;re all my favorites; now hush.) [Pablo&#8217;s Fiesta](https://lostechies.github.io/fiesta/) has the most engaging density of relevant content because _we_ make the content. You and me (and some other folks), on Friday evening, propose Saturday&#8217;s topics.
 
 You don&#8217;t have to be an expert to convene a session. In fact, better than answers are **Interesting Questions**. Ever gone to a talk and been disappointed when the delivery didn&#8217;t line up with your expectations? How &#8217;bout instead: Call a session with an interesting question, facilitate a discussion amongst creative thinkers and boundary pushers, capture and publish some notes afterwards, and you get to have exactly the conference session you wanted to attend.
 
@@ -39,4 +39,4 @@ _Too much reverb._
 
 If you don&#8217;t yet have a project but are curious, this session is bound to get you bristling with ideas and inspiration. Please join us.
 
-[Sign up to attend Pablo&#8217;s Fiesta](http://lostechies.github.io/fiesta/), and then show up ready for MAD SCIENCE in October!
+[Sign up to attend Pablo&#8217;s Fiesta](https://lostechies.github.io/fiesta/), and then show up ready for MAD SCIENCE in October!

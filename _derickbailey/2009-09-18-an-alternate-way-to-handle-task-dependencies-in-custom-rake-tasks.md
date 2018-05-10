@@ -14,7 +14,7 @@ categories:
   - Ruby
 redirect_from: "/blogs/derickbailey/archive/2009/09/17/an-alternate-way-to-handle-task-dependencies-in-custom-rake-tasks.aspx/"
 ---
-Earlier today, [I showed how to create a custom Rake task from the base TaskLib](http://www.lostechies.com/blogs/derickbailey/archive/2009/09/17/how-a-net-developer-hacked-out-a-rake-task.aspx), so that we can use more than just simple “task :name” syntax for our rake tasks. In that example, I showed how to add explicit support for task dependencies by adding a second parameter to the initializer of our custom task:
+Earlier today, [I showed how to create a custom Rake task from the base TaskLib](https://lostechies.com/blogs/derickbailey/archive/2009/09/17/how-a-net-developer-hacked-out-a-rake-task.aspx), so that we can use more than just simple “task :name” syntax for our rake tasks. In that example, I showed how to add explicit support for task dependencies by adding a second parameter to the initializer of our custom task:
 
 <div>
   <div>
@@ -282,7 +282,7 @@ Earlier today, [I showed how to create a custom Rake task from the base TaskLib]
                   </p>
                   
                   <p>
-                    <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_0ABDF510.png" width="387" height="179" />
+                    <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_0ABDF510.png" width="387" height="179" />
                   </p>
                   
                   <p>

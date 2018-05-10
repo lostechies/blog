@@ -11,6 +11,6 @@ redirect_from: "/blogs/joe_ocampo/archive/2008/01/06/a-belated-welcome-chad-myer
 ---
 Sorry about this one Chad, I accidentally saved it to my draft folder.
 
-LosTechies happily welcomes <a href="http://www.lostechies.com/blogs/chad_myers/default.aspx" target="_blank">Chad Myers</a> to the crew!
+LosTechies happily welcomes <a href="https://lostechies.com/blogs/chad_myers/default.aspx" target="_blank">Chad Myers</a> to the crew!
 
 Now I have even more people to hang out with in Austin!

@@ -11,7 +11,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/chad_myers/archive/2008/10/26/internal-dsl-pattern-expression-builder.aspx/"
 ---
-This is a portion of a larger set of posts on the [subject of Internal DSLs](http://www.lostechies.com/blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx). 
+This is a portion of a larger set of posts on the [subject of Internal DSLs](https://lostechies.com/blogs/chad_myers/archive/2008/10/26/alt-net-workshops-internal-dsl-draft-outline-notes.aspx). 
 
 &#8211; Method chaining
 

@@ -28,7 +28,7 @@ I now have this entry in my .bashrc file:
 
 Having this allows me to put any of my apps&#8217; modules in to a ./lib folder, relative to the location from which I run the node executable. In other words, if my folder structure looks like this (from [SignalLeaf](http://signalleaf.com)):
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2014/02/NewImage2.png" alt="NewImage" width="100" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2014/02/NewImage2.png" alt="NewImage" width="100" border="0" />
 
 Then all of my commands to execute code need to be run from the `app/` folder. This ensures all of the modules I&#8217;ve built in to the `app/lib` folder will be found when I use simple require statements like this:
 

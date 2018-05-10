@@ -13,7 +13,7 @@ categories:
   - Powershell
 redirect_from: "/blogs/dahlbyk/archive/2010/08/28/posh-git-release-v0-2.aspx/"
 ---
-I just tagged the [v0.2 release](http://github.com/dahlbyk/posh-git/tree/v0.2 "posh-git v0.2 on GitHub") of [posh-git](http://github.com/dahlbyk/posh-git "posh-git on GitHub"), which you can [download here](http://github.com/dahlbyk/posh-git/downloads "posh-git Downloads"). This is the last release supporing msysgit 1.6.5 and 1.7.0. In this release&#8230;
+I just tagged the [v0.2 release](https://github.com/dahlbyk/posh-git/tree/v0.2 "posh-git v0.2 on GitHub") of [posh-git](https://github.com/dahlbyk/posh-git "posh-git on GitHub"), which you can [download here](https://github.com/dahlbyk/posh-git/downloads "posh-git Downloads"). This is the last release supporing msysgit 1.6.5 and 1.7.0. In this release&#8230;
 
 ### PowerShell Module
 

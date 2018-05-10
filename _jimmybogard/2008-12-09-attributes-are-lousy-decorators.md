@@ -15,7 +15,7 @@ Attributes allow developers to provide a mechanism to add metadata to types, ass
 
 But in ASP.NET MVC, this pattern is broken with the ActionFilterAttribute.&#160; Because a single controller can have many actions, it’s difficult to create a mechanism that executes code before or after any single action and not any other.&#160; Since attributes can be placed on both method and class declarations, this would seem like an ideal candidate to specify before/after behavior on a controller action.
 
-The problem is that attributes aren’t designed to have behavior, and are a lousy implementation of the [decorator pattern](http://www.dofactory.com/Patterns/PatternDecorator.aspx).&#160; It’s important to remember that developers have little to zero control over when attribute instances are created, which is why you [never want an exception to be thrown in an attribute constructor](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/11/22/beware-exceptions-in-attribute-constructors.aspx).
+The problem is that attributes aren’t designed to have behavior, and are a lousy implementation of the [decorator pattern](http://www.dofactory.com/Patterns/PatternDecorator.aspx).&#160; It’s important to remember that developers have little to zero control over when attribute instances are created, which is why you [never want an exception to be thrown in an attribute constructor](https://lostechies.com/blogs/jimmy_bogard/archive/2008/11/22/beware-exceptions-in-attribute-constructors.aspx).
 
 Since you don’t have control over the construction, and can’t provide an alternative construction method like an IoC container to do the instantiation, you wind up having to do things like this:
 

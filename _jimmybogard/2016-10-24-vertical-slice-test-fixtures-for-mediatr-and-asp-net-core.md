@@ -37,7 +37,7 @@ The baseline for my tests is known as a “fixture”, and what I’ll be buildi
   * Reset the database before each test using [Respawn](https://github.com/jbogard/respawn) to provide a known database starting state
   * Provide a fixture class that represents the known application starting state
 
-I’ll show how to do this with xUnit, but the [Fixie](http://fixie.github.io/) example is just as easy. First, I’ll need a known starting state for my fixture:
+I’ll show how to do this with xUnit, but the [Fixie](https://fixie.github.io/) example is just as easy. First, I’ll need a known starting state for my fixture:
 
 {% gist 73a565acdeeb91fb045ae318170b93ed %}
 

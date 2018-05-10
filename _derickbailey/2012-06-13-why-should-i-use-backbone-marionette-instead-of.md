@@ -63,8 +63,8 @@ The basic idea is to &#8220;compose&#8221; your application&#8217;s runtime expe
 
 I&#8217;ve written a little bit about this on my blog, introducing Marionette as a composite application architecture for Backbone:
 
-  * <http://lostechies.com/derickbailey/2011/11/17/introduction-to-composite-javascript-apps/>
-  * <http://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/>
+  * <https://lostechies.com/derickbailey/2011/11/17/introduction-to-composite-javascript-apps/>
+  * <https://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/>
 
 ## Message Queues / Patterns
 
@@ -74,9 +74,9 @@ This has directly translated itself in to how I look at Backbone application des
 
 I think about messages that I can send between my modules: command messages, event messages, and more. I also think about the server side communication as messages with these same patterns. Some of the patterns have made their way in to Marionette already, but some haven&#8217;t yet.
 
-  * <http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js>
-  * <http://lostechies.com/derickbailey/2012/04/03/revisiting-the-backbone-event-aggregator-lessons-learned/>
-  * <http://lostechies.com/derickbailey/2009/12/23/understanding-the-application-controller-through-object-messaging-patterns/> (WinForms code, but still applicable)
+  * <https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js>
+  * <https://lostechies.com/derickbailey/2012/04/03/revisiting-the-backbone-event-aggregator-lessons-learned/>
+  * <https://lostechies.com/derickbailey/2009/12/23/understanding-the-application-controller-through-object-messaging-patterns/> (WinForms code, but still applicable)
 
 ## Modularization
 
@@ -102,8 +102,8 @@ For example, nearly every Backbone application needs to dynamically show a Backb
 
 But you&#8217;re not required to use Marionette&#8217;s views in order to use a region. The only requirement is that you are extending from Backbone.View at some point in the object&#8217;s prototype chain. If you choose to provide a \`close\` method, a \`onShow\` method, or others, Marionette&#8217;s Region will call it for you at the right time.
 
-  * <http://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/>
-  * <http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/>
+  * <https://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/>
+  * <https://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/>
 
 ## No Server Lock-in
 

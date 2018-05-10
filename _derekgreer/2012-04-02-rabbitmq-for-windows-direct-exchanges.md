@@ -43,7 +43,7 @@ tags:
   </ul>
 </div>
 
-This is the fifth installment to the series: RabbitMQ for Windows.&nbsp; In the [last installment](http://lostechies.com/derekgreer/2012/03/28/rabbitmq-for-windows-exchange-types/), we took a look at the four exchange types provided by RabbitMQ: Direct, Fanout, Topic, and Headers.&nbsp; In this installment we’ll walk through an example which uses a direct exchange type directly and we’ll take a look at the push API. 
+This is the fifth installment to the series: RabbitMQ for Windows.&nbsp; In the [last installment](https://lostechies.com/derekgreer/2012/03/28/rabbitmq-for-windows-exchange-types/), we took a look at the four exchange types provided by RabbitMQ: Direct, Fanout, Topic, and Headers.&nbsp; In this installment we’ll walk through an example which uses a direct exchange type directly and we’ll take a look at the push API. 
 
 In the Hello World example from the second installment of the series, we used a direct exchange type implicitly by taking advantage of the automatic&nbsp; binding of queues to the default exchange using the queue name as the routing key.&nbsp; The example we’ll work through this time will be similar, but we’ll declare and bind to the exchange explicitly. 
 
@@ -188,7 +188,7 @@ To start pushing messages to our consumer, we call the channel’s BasicConsume(
 <pre class="prettyprint">channel.BasicConsume(“logs”, true, consumer); 
 </pre>
 
-Here, we specify the queue to consume messages from, a boolean flag instructing messages to be auto-acknowledged (see discussion in the Getting the Message section of [Hello World Review](http://lostechies.com/derekgreer/2012/03/18/rabbitmq-for-windows-hello-world-review/)), and the consumer to push the messages to.&nbsp;&nbsp; 
+Here, we specify the queue to consume messages from, a boolean flag instructing messages to be auto-acknowledged (see discussion in the Getting the Message section of [Hello World Review](https://lostechies.com/derekgreer/2012/03/18/rabbitmq-for-windows-hello-world-review/)), and the consumer to push the messages to.&nbsp;&nbsp; 
 
 Now, any messages placed on the queue will automatically be retrieved and placed in a local in-memory queue.&nbsp; To dequeue a message from the local queue, we call the Dequeue() method on the consumer’s Queue property: 
 

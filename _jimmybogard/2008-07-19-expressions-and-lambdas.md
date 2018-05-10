@@ -11,7 +11,7 @@ categories:
   - LINQ
 redirect_from: "/blogs/jimmy_bogard/archive/2008/07/18/expressions-and-lambdas.aspx/"
 ---
-Some conversation on a [recent post on Chad&#8217;s blog](http://www.lostechies.com/blogs/chad_myers/archive/2008/07/06/exploring-shadetree-features-part-1-static-reflection-with-reflectionhelper.aspx) brought up the confusion between Lambdas and Expressions.&nbsp; A while back, I went into the [various ways to create delegates](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/03/22/variations-on-a-func-y-theme.aspx) throughout the different versions of C#.&nbsp; Although I touched on it briefly, the slight variations in the different lambda types can lead to some unexpected compilation errors.
+Some conversation on a [recent post on Chad&#8217;s blog](https://lostechies.com/blogs/chad_myers/archive/2008/07/06/exploring-shadetree-features-part-1-static-reflection-with-reflectionhelper.aspx) brought up the confusion between Lambdas and Expressions.&nbsp; A while back, I went into the [various ways to create delegates](https://lostechies.com/blogs/jimmy_bogard/archive/2008/03/22/variations-on-a-func-y-theme.aspx) throughout the different versions of C#.&nbsp; Although I touched on it briefly, the slight variations in the different lambda types can lead to some unexpected compilation errors.
 
 C# 3.0 introduced two types of lambdas: Expression Lambdas and Statement Lambdas.&nbsp; The difference is easy to spot, here are two identically functioning lambdas:
 

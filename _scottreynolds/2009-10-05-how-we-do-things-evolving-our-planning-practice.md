@@ -15,7 +15,7 @@ redirect_from: "/blogs/scottcreynolds/archive/2009/10/05/how-we-do-things-evolvi
 ---
 _This content comes solely from my experience, study, and a lot of trial and error (mostly error). I make no claims stating that which works for me will work for you. As with all things, your mileage may vary, and you will need to apply all knowledge through the filter of your context in order to strain out the good parts for you. Also, feel free to call BS on anything I say. I write this as much for me to learn as for you._
 
-_This is part 2 of the [How We Do Things](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx) series._
+_This is part 2 of the [How We Do Things](https://lostechies.com/blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx) series._
 
 ### Introduction
 
@@ -44,7 +44,7 @@ When we continue to go through the motions of this huge up-front planning effort
 We came to realize that there was a lot of waste associated with a lot of up-front detailed planning.
 
 <div style="text-align:center">
-  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/inventory2.jpg" alt="inventory2.jpg" border="0" width="396" height="309" />
+  <img src="https://lostechies.com/content/scottreynolds/uploads/2011/03/inventory2.jpg" alt="inventory2.jpg" border="0" width="396" height="309" />
 </div>
 
 The first waste is inventory. Carrying excess inventory is one of the [seven primary wastes](http://en.wikipedia.org/wiki/Muda_%28Japanese_term%29) in lean manufacturing, and in our case, defined work that is not yet in progress is inventory.
@@ -76,7 +76,7 @@ We needed a compromise that served our needs and the organization&#8217;s.
 For us, planning is now broken up into three distinct parts: immediate, near-term, and long-term.
 
 <div style="text-align:center">
-  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/planningtimeline.jpg" alt="planningtimeline.jpg" border="0" width="523" height="272" />
+  <img src="https://lostechies.com/content/scottreynolds/uploads/2011/03/planningtimeline.jpg" alt="planningtimeline.jpg" border="0" width="523" height="272" />
 </div></p> 
 
 In the next part of this series I will talk about the mechanics of each segment, and how it fits together to form the whole.

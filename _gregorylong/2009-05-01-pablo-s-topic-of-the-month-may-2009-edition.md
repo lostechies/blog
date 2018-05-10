@@ -19,7 +19,7 @@ Have you ever read a blog post about TDD, Dependency Injection, or some other co
 
 If you haven&#8217;t already, please consider subscribing to the Los Techies Main Feed so that you can see the various post from all the Los Techies bloggers. 
 
-The main feed is here:&nbsp; [<span style="color: #3366cc">http://feeds.feedburner.com/lostechies</span>](http://feeds.feedburner.com/lostechies)
+The main feed is here:&nbsp; [<span style="color: #3366cc">https://feeds.feedburner.com/lostechies</span>](https://feeds.feedburner.com/lostechies)
 
 As the month progresses you can expect posts on:
 

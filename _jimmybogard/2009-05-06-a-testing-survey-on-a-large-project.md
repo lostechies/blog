@@ -11,7 +11,7 @@ categories:
   - Testing
 redirect_from: "/blogs/jimmy_bogard/archive/2009/05/05/a-testing-survey-on-a-large-project.aspx/"
 ---
-Awhile back, I found that a mature team [doesn’t celebrate test number milestones](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/04/09/a-sign-of-team-maturity.aspx) any more.&#160; I just threw out some numbers of our tests, which have grown since then:
+Awhile back, I found that a mature team [doesn’t celebrate test number milestones](https://lostechies.com/blogs/jimmy_bogard/archive/2009/04/09/a-sign-of-team-maturity.aspx) any more.&#160; I just threw out some numbers of our tests, which have grown since then:
 
   * 2591 unit tests
   * 681 integration tests

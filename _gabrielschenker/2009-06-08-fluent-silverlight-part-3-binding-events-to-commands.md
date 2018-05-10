@@ -23,7 +23,7 @@ In the last two posts I [introduced](http://gabrielschenker.lostechies.com/blogs
 
 To demonstrate the binding of commands to events triggered by user actions let’s take a simple use case which should be familiar to all of you dear readers. It is the famous login screen. Usually when logging into an application the user has to provide a user name and a password. She can then either abort the use case by clicking on the cancel button of try to login by clicking on the login button. In our case the login button should only be enabled if the user has entered a valid user name and password. On the other hand the user should always be able to abort the operation. Thus the cancel button has always to stay enabled. 
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="91" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_6ADF4BC4.png" width="317" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_0BD2BE6C.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="91" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_6ADF4BC4.png" width="317" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_0BD2BE6C.png) 
 
 ### The view
 

@@ -52,7 +52,7 @@ Whether or not you think using standard ruby objects in a standard rake ‘task�
       <!--CRLF--></div> </div> 
       
       <p>
-        That conversation with Scott and some other conversations around the idea of <a href="http://www.lostechies.com/blogs/derickbailey/archive/2009/04/08/how-a-net-developer-learned-ruby-and-rake-to-build-net-apps-in-windows.aspx">building .NET solutions with Rake</a> got me thinking about how we could build a much more ‘professional’, ‘real’ Rake task to call out to MSBuild. While I have not yet put this solution together, I have spent some time learning how to build tasks such as the RSpec ‘SpecTask’ shown above. Not surprisingly, it’s a very simple endeavor. I honestly don’t claim to understand exactly why everything in my hacked-together custom task is set up the way it is, but I have a pretty good idea of what’s going on, at this point. So, I wanted to share my newfound knowledge and hopefully inspire some of the .NET Rake building people out there to create something a little more ‘Rakeish’, rather than just using the default ‘task :whatever’ syntax and calling into an ‘MSBuild’ object.
+        That conversation with Scott and some other conversations around the idea of <a href="https://lostechies.com/blogs/derickbailey/archive/2009/04/08/how-a-net-developer-learned-ruby-and-rake-to-build-net-apps-in-windows.aspx">building .NET solutions with Rake</a> got me thinking about how we could build a much more ‘professional’, ‘real’ Rake task to call out to MSBuild. While I have not yet put this solution together, I have spent some time learning how to build tasks such as the RSpec ‘SpecTask’ shown above. Not surprisingly, it’s a very simple endeavor. I honestly don’t claim to understand exactly why everything in my hacked-together custom task is set up the way it is, but I have a pretty good idea of what’s going on, at this point. So, I wanted to share my newfound knowledge and hopefully inspire some of the .NET Rake building people out there to create something a little more ‘Rakeish’, rather than just using the default ‘task :whatever’ syntax and calling into an ‘MSBuild’ object.
       </p>
       
       <p>
@@ -416,7 +416,7 @@ Whether or not you think using standard ruby objects in a standard rake ‘task�
                                           </p>
                                           
                                           <p>
-                                            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_686300B0.png" width="365" height="157" />
+                                            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_686300B0.png" width="365" height="157" />
                                           </p>
                                           
                                           <p>
@@ -560,7 +560,7 @@ Whether or not you think using standard ruby objects in a standard rake ‘task�
                                                       </p>
                                                       
                                                       <p>
-                                                        <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_67F6CDBB.png" width="385" height="169" />
+                                                        <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_67F6CDBB.png" width="385" height="169" />
                                                       </p>
                                                       
                                                       <p>
@@ -895,7 +895,7 @@ Whether or not you think using standard ruby objects in a standard rake ‘task�
                                                                         </p>
                                                                         
                                                                         <p>
-                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_678A9AC6.png" width="424" height="169" />
+                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_678A9AC6.png" width="424" height="169" />
                                                                         </p>
                                                                         
                                                                         <p>

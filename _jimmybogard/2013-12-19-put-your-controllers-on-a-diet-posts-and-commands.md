@@ -14,10 +14,10 @@ categories:
 ---
 Previous posts in this series: 
 
-  * [Redux](http://lostechies.com/jimmybogard/2013/10/10/put-your-controllers-on-a-diet-redux/) 
-      * [Defactoring](http://lostechies.com/jimmybogard/2013/10/22/put-your-controllers-on-a-diet-defactoring/) 
-          * [A survey](http://lostechies.com/jimmybogard/2013/10/23/put-your-controllers-on-a-diet-a-survey/)
-          * [GETs and queries](http://lostechies.com/jimmybogard/2013/10/29/put-your-controllers-on-a-diet-gets-and-queries/)</ul> 
+  * [Redux](https://lostechies.com/jimmybogard/2013/10/10/put-your-controllers-on-a-diet-redux/) 
+      * [Defactoring](https://lostechies.com/jimmybogard/2013/10/22/put-your-controllers-on-a-diet-defactoring/) 
+          * [A survey](https://lostechies.com/jimmybogard/2013/10/23/put-your-controllers-on-a-diet-a-survey/)
+          * [GETs and queries](https://lostechies.com/jimmybogard/2013/10/29/put-your-controllers-on-a-diet-gets-and-queries/)</ul> 
         In the last post, we looked at encapsulating the interesting part of GET actions (taking request parameters and building a model) into individual encapsulated query objects and handlers. Not surprisingly, we’ll be using similar techniques on our POST side to handle form POSTs and actually…doing something with those results.
         
         There are a couple of things we need to deal with before we get to looking at going all the way to handlers. First, let’s review our POST action:

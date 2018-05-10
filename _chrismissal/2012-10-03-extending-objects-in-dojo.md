@@ -14,7 +14,7 @@ tags:
   - javascript
   - javascript objects
 ---
-Dojo works a bit differently than we saw with [jQuery](http://lostechies.com/chrismissal/2012/09/27/extending-objects-in-jquery/ "Extending Objects in jQuery") and [ExtJS](http://lostechies.com/chrismissal/2012/10/02/extending-objects-in-ext-js/ "Extending Objects in Ext JS"). They have the notion of _extend_ as well as _mixin_. These both behave differently, not only from each other, but from the previous jQuery.extend and Ext.apply. These methods in Dojo work right to left, different from our previous examples.
+Dojo works a bit differently than we saw with [jQuery](https://lostechies.com/chrismissal/2012/09/27/extending-objects-in-jquery/ "Extending Objects in jQuery") and [ExtJS](https://lostechies.com/chrismissal/2012/10/02/extending-objects-in-ext-js/ "Extending Objects in Ext JS"). They have the notion of _extend_ as well as _mixin_. These both behave differently, not only from each other, but from the previous jQuery.extend and Ext.apply. These methods in Dojo work right to left, different from our previous examples.
 
 Let&#8217;s discuss _mixin_, this is more like what we previously saw with previous libraries&#8217; methods:
 

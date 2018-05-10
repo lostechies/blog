@@ -15,7 +15,7 @@ categories:
   - Model-View-Presenter
 redirect_from: "/blogs/derickbailey/archive/2010/03/17/application-events-modeling-selection-vs-de-selection-as-separate-events.aspx/"
 ---
-I’m using my [Event Aggregator](http://www.lostechies.com/blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx) in my current project to manage communication between a custom control and it’s parent form. This is the same control I talked about in my [CQRS Performance Engineering](http://www.lostechies.com/blogs/derickbailey/archive/2010/03/08/cqrs-performance-engineering-read-vs-read-write-models.aspx) post. It has several drop down lists on it, and each one is progressively filled in based on the value selected in the previous one. 
+I’m using my [Event Aggregator](https://lostechies.com/blogs/derickbailey/archive/2009/12/22/understanding-the-application-controller-through-object-messaging-patterns.aspx) in my current project to manage communication between a custom control and it’s parent form. This is the same control I talked about in my [CQRS Performance Engineering](https://lostechies.com/blogs/derickbailey/archive/2010/03/08/cqrs-performance-engineering-read-vs-read-write-models.aspx) post. It has several drop down lists on it, and each one is progressively filled in based on the value selected in the previous one. 
 
 &#160;
 
@@ -23,7 +23,7 @@ I’m using my [Event Aggregator](http://www.lostechies.com/blogs/derickbailey/a
 
 When the user has selected an item from the final drop list (a “product code”), the presenter raises an event through the event aggregator, the parent form receives that event and it uses the information to display the selected item, etc.
 
-&#160;<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_3939FFDD.png" width="520" height="350" />
+&#160;<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_3939FFDD.png" width="520" height="350" />
 
 &#160;
 
@@ -31,7 +31,7 @@ When the user has selected an item from the final drop list (a “product code�
 
 On the flip side of this, if a user changes their selection on any of the previous drop down lists, the control needs to clear the current product code selection and notify the parent form that the selection has been cleared. 
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_143C3F64.png" width="547" height="350" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_143C3F64.png" width="547" height="350" />
 
 I’m currently handling the product code de-selection through the same event as the actual product code selection, but I’m passing a null value for the data inside of the event. The parent form checks for null and if it finds null, it knows to clear the currently selected product code and wait for a new one.
 

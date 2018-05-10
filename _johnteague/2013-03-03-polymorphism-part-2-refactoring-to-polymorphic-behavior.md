@@ -71,7 +71,7 @@ What is really happening is changing the behavior of our app based on some condi
 
 This has all of the same problems as the code above. As the application gets bigger, the chances of having similar branch statements are going to increase.&nbsp; Also as you roll out more premium services you’ll have to continually modify this code, which violates the Open-Closed Principle.&nbsp; There are other problems here too.&nbsp; The function to calculate service fee should not need to know the actual amounts of each service.&nbsp; That is information that needs to be encapsulated. 
 
-_A slight aside: enums are a very limited data structure.&nbsp; If you are not using an enum for what it really is, a labeled integer, you need a class to truly model the abstraction correctly.&nbsp; You can use_ [_Jimmy’s_](http://jimmybogard.lostechies.com) _awesome_ [_Enumeration class_](http://lostechies.com/jimmybogard/2008/08/12/enumeration-classes/) _to use classes to also us them as labels._ 
+_A slight aside: enums are a very limited data structure.&nbsp; If you are not using an enum for what it really is, a labeled integer, you need a class to truly model the abstraction correctly.&nbsp; You can use_ [_Jimmy’s_](http://jimmybogard.lostechies.com) _awesome_ [_Enumeration class_](https://lostechies.com/jimmybogard/2008/08/12/enumeration-classes/) _to use classes to also us them as labels._ 
 
 Let’s refactor this to use polymorphic behavior.&nbsp; What we need is abstraction that will allow us to contain the behavior necessary to calculate the fee for a service. 
 

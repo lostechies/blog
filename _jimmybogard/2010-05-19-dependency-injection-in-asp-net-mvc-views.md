@@ -14,10 +14,10 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/05/19/dependency-injection-in-a
 ---
 Other posts in this series:
 
-  * [Controllers](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/04/26/dependency-injection-in-asp-net-mvc-controllers.aspx)
-  * [Contextual controller injection](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/04/28/dependency-injection-in-asp-net-mvc-contextual-controller-injection.aspx)
-  * [Filters](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/05/03/dependency-injection-in-asp-net-mvc-filters.aspx)
-  * [Action Results](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/05/04/dependency-injection-in-asp-net-mvc-action-results.aspx)
+  * [Controllers](https://lostechies.com/blogs/jimmy_bogard/archive/2010/04/26/dependency-injection-in-asp-net-mvc-controllers.aspx)
+  * [Contextual controller injection](https://lostechies.com/blogs/jimmy_bogard/archive/2010/04/28/dependency-injection-in-asp-net-mvc-contextual-controller-injection.aspx)
+  * [Filters](https://lostechies.com/blogs/jimmy_bogard/archive/2010/05/03/dependency-injection-in-asp-net-mvc-filters.aspx)
+  * [Action Results](https://lostechies.com/blogs/jimmy_bogard/archive/2010/05/04/dependency-injection-in-asp-net-mvc-action-results.aspx)
 
 And now for a bit more controversial shift.&#160; While most folks doing DI in ASP.NET MVC see the benefit of the ability to provide injection around the controller-side of things (filters, action results, controllers etc.), I’ve also seen a lot of benefit from injection on the view side.&#160; But before delve into the _how_, let’s first look at the _why_.
 
@@ -350,4 +350,4 @@ So looking back, we were able to inject services into our controllers, filters, 
 
 You can find code for this example on my github:
 
-<http://github.com/jbogard/blogexamples>
+<https://github.com/jbogard/blogexamples>
