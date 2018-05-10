@@ -27,7 +27,7 @@ _n.b. I&#8217;ll use &#8220;specification&#8221; interchangeably with &#8220;tes
 
 ### .Net Testing
 
-In our .net applications we employ TDD/BDD with a combination of [NUnit](http://www.nunit.org/index.php), [TestDriven.net](http://testdriven.net/), [ReSharper](http://www.jetbrains.com/resharper/index.html), and a sprinkling of extension methods and abstract base classes inspired by [Scott Bellware&#8217;s](http://blog.scottbellware.com/) [SpecUnit.net](http://code.google.com/p/specunit-net/) project (now defunct, if you are looking for a more full context/specification framework, check out the excellent [Machine.Specifications (MSpec)](http://github.com/machine/machine.specifications) from [Aaron Jensen](http://codebetter.com/blogs/aaron.jensen/default.aspx)).
+In our .net applications we employ TDD/BDD with a combination of [NUnit](http://www.nunit.org/index.php), [TestDriven.net](http://testdriven.net/), [ReSharper](http://www.jetbrains.com/resharper/index.html), and a sprinkling of extension methods and abstract base classes inspired by [Scott Bellware&#8217;s](http://blog.scottbellware.com/) [SpecUnit.net](http://code.google.com/p/specunit-net/) project (now defunct, if you are looking for a more full context/specification framework, check out the excellent [Machine.Specifications (MSpec)](https://github.com/machine/machine.specifications) from [Aaron Jensen](http://codebetter.com/blogs/aaron.jensen/default.aspx)).
 
 Our standard abstract base class for a specification looks a bit like this:
 

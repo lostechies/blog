@@ -15,7 +15,7 @@ categories:
   - Ruby
 redirect_from: "/blogs/derickbailey/archive/2009/09/29/albacore-assemblyinfo-task-vs-nant-assembly-info-generator.aspx/"
 ---
-Here’s one of the reasons I like Rake and my custom Rake tasks that I’m building into [Albacore](http://github.com/derickbailey/Albacore), so much. 
+Here’s one of the reasons I like Rake and my custom Rake tasks that I’m building into [Albacore](https://github.com/derickbailey/Albacore), so much. 
 
 To generate some assembly information such as version, company name, copyright, etc., you need to do this with nant:
 

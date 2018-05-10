@@ -257,7 +257,7 @@ Nant was originally a copy of the Java Ant build tool but quickly took its own d
             </p>
             
             <p>
-              <strong>URL:</strong> <a title="http://github.com/JamesKovacs/psake" href="http://github.com/JamesKovacs/psake">http://github.com/JamesKovacs/psake</a>
+              <strong>URL:</strong> <a title="https://github.com/JamesKovacs/psake" href="https://github.com/JamesKovacs/psake">https://github.com/JamesKovacs/psake</a>
             </p>
             
             <p>
@@ -528,11 +528,11 @@ Nant was originally a copy of the Java Ant build tool but quickly took its own d
                               </p>
                               
                               <p>
-                                <strong>URL:</strong> <a title="http://code.google.com/p/boo-build-system/" href="http://code.google.com/p/boo-build-system/">http://code.google.com/p/boo-build-system/</a> and <a title="http://github.com/JeremySkinner/Phantom" href="http://github.com/JeremySkinner/Phantom">http://github.com/JeremySkinner/Phantom</a>&#160;
+                                <strong>URL:</strong> <a title="http://code.google.com/p/boo-build-system/" href="http://code.google.com/p/boo-build-system/">http://code.google.com/p/boo-build-system/</a> and <a title="https://github.com/JeremySkinner/Phantom" href="https://github.com/JeremySkinner/Phantom">https://github.com/JeremySkinner/Phantom</a>&#160;
                               </p>
                               
                               <p>
-                                … At this point, I’m not sure about the state of this project or it’s adoption in the real world. Does anyone know if it’s still alive and/or being used anywhere? You may be better off looking at the <a href="http://github.com/JeremySkinner/Phantom/">Phantom build system</a>, which is similar to Bake, but appears to be an active project.
+                                … At this point, I’m not sure about the state of this project or it’s adoption in the real world. Does anyone know if it’s still alive and/or being used anywhere? You may be better off looking at the <a href="https://github.com/JeremySkinner/Phantom/">Phantom build system</a>, which is similar to Bake, but appears to be an active project.
                               </p>
                               
                               <p>

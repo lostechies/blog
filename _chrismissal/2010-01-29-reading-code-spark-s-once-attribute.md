@@ -64,7 +64,7 @@ There’s a handy feature of Spark that allows you to specify a block of code th
       </p>
       
       <p>
-        When the view is parsed, Spark uses the <a href="http://en.wikipedia.org/wiki/Visitor_pattern" rel="nofollow">Visitor Pattern</a> to handle each node that is contained within the view. Below is the implementation of IsSpecialAttribute by the class <a href="http://github.com/loudej/spark/blob/master/src/Spark/Compiler/NodeVisitors/OnceAttributeVisitor.cs#LID14">OnceAttributeVisitor</a>. The visitor pattern is implemented in Spark in that there are different kinds of nodes that inherit from “Node”. Some of these classes need to tell their consumers whether or not they are “special”. Spark visits all nodes with 11 different Visitors, we’ll be looking at the OnceAttributeVisitor.
+        When the view is parsed, Spark uses the <a href="http://en.wikipedia.org/wiki/Visitor_pattern" rel="nofollow">Visitor Pattern</a> to handle each node that is contained within the view. Below is the implementation of IsSpecialAttribute by the class <a href="https://github.com/loudej/spark/blob/master/src/Spark/Compiler/NodeVisitors/OnceAttributeVisitor.cs#LID14">OnceAttributeVisitor</a>. The visitor pattern is implemented in Spark in that there are different kinds of nodes that inherit from “Node”. Some of these classes need to tell their consumers whether or not they are “special”. Spark visits all nodes with 11 different Visitors, we’ll be looking at the OnceAttributeVisitor.
       </p>
       
       <div>
@@ -206,7 +206,7 @@ There’s a handy feature of Spark that allows you to specify a block of code th
                   <!--CRLF--></div> </div> 
                   
                   <p>
-                    When that code is compiled, it’s turned into a derived type of <a href="http://github.com/loudej/spark/blob/master/src/Spark/SparkViewBase.cs#L91">SparkViewBase</a>, which, implements the Once method. The element that contains the ‘once’ attribute is only rendered if the Once method below returns true.
+                    When that code is compiled, it’s turned into a derived type of <a href="https://github.com/loudej/spark/blob/master/src/Spark/SparkViewBase.cs#L91">SparkViewBase</a>, which, implements the Once method. The element that contains the ‘once’ attribute is only rendered if the Once method below returns true.
                   </p>
                   
                   <div>

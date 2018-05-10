@@ -13,7 +13,7 @@ categories:
   - Visual Studio
 redirect_from: "/blogs/derickbailey/archive/2010/04/02/open-a-visual-studio-solution-from-a-command-prompt-or-batch-file.aspx/"
 ---
-I got this idea from the [MassTransit](http://github.com/phatboyg/MassTransit) source code… it’s a good idea because I’m an aspiring keyboard junkie and I’m tired of mouse clicking my way to my solution files. (Note: the MT “open.bat” file is significantly more complicated than what I need or what this post talks about. I got the _idea_, not the implementation, from MT.)
+I got this idea from the [MassTransit](https://github.com/phatboyg/MassTransit) source code… it’s a good idea because I’m an aspiring keyboard junkie and I’m tired of mouse clicking my way to my solution files. (Note: the MT “open.bat” file is significantly more complicated than what I need or what this post talks about. I got the _idea_, not the implementation, from MT.)
 
 I have 2 solutions in my source tree that I use on a very regular basis. They share a common root folder called “Source” and I run my local git repository from the sources folder which means I usually have a git bash window open in the source folder. I recently got tired of having to click around the folder structure to open the solution I want when I need it – especially when I am closing / reopening the solution whenever I pull the latest code down to my local machine (I HATE the Visual Studio “reload” dialog boxes. It’s faster and easier to close the solution and reload, IMO).
 

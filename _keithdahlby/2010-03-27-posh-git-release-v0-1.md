@@ -13,7 +13,7 @@ categories:
   - Powershell
 redirect_from: "/blogs/dahlbyk/archive/2010/03/27/posh-git-release-v0-1.aspx/"
 ---
-I&#8217;ve made a bit of progress on [posh-git](http://github.com/dahlbyk/posh-git "posh-git on GitHub") since my [last post](/blogs/dahlbyk/archive/2010/03/15/posh-git-a-powershell-environment-for-git.aspx " posh-git: A PowerShell Environment for Git") and figured now is as good a time as any to tag a [v0.1 release](http://github.com/dahlbyk/posh-git/tree/v0.1 "posh-git v0.1 on GitHub"), which you can [download here](http://github.com/dahlbyk/posh-git/downloads "posh-git Downloads"). In this release&#8230;
+I&#8217;ve made a bit of progress on [posh-git](https://github.com/dahlbyk/posh-git "posh-git on GitHub") since my [last post](/blogs/dahlbyk/archive/2010/03/15/posh-git-a-powershell-environment-for-git.aspx " posh-git: A PowerShell Environment for Git") and figured now is as good a time as any to tag a [v0.1 release](https://github.com/dahlbyk/posh-git/tree/v0.1 "posh-git v0.1 on GitHub"), which you can [download here](https://github.com/dahlbyk/posh-git/downloads "posh-git Downloads"). In this release&#8230;
 
 ### Git Branch in PowerShell Prompt  
 

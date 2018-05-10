@@ -40,4 +40,4 @@ Today I pushed out the [1.1 release of AutoMapper](http://automapper.codeplex.co
 
 Head over to the [AutoMapper project site](http://automapper.codeplex.com/) to download the latest version.
 
-The big change for 1.1 is that Silverlight 3.0 is now officially supported.&#160; I was able to support all of the features of regular AutoMapper, except for a few pieces that just don’t exist in Silverlight, such as IDataReader etc.&#160; Also, I moved the source to [GitHub](http://github.com/jbogard/AutoMapper) from Google Code, which has made my life much, much easier for dealing with new features, bugs, issues and releases.&#160; Enjoy!
+The big change for 1.1 is that Silverlight 3.0 is now officially supported.&#160; I was able to support all of the features of regular AutoMapper, except for a few pieces that just don’t exist in Silverlight, such as IDataReader etc.&#160; Also, I moved the source to [GitHub](https://github.com/jbogard/AutoMapper) from Google Code, which has made my life much, much easier for dealing with new features, bugs, issues and releases.&#160; Enjoy!

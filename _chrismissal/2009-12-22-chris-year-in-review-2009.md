@@ -15,7 +15,7 @@ redirect_from: "/blogs/chrismissal/archive/2009/12/21/chris-year-in-review-2009.
 ---
 Last year on this day, I wrote <a href="http://dumpsterdoggy.com/articles/?chris-year-in-review-2008" target="_blank">a review of 2008</a> and some goals for 2009. I had not yet started blogging for Los Techies yet, but that started at the beginning of the year. Looking back on those goals, I think I did fairly well:
 
-  * **Write a website application using Ruby on Rails** : I did not write a full blown application, but I did learn a good amount and wrote several small applications for demo purposes using <a href="http://github.com/sinatra/sinatra" rel="nofollow" target="_blank">Sinatra</a>. 
+  * **Write a website application using Ruby on Rails** : I did not write a full blown application, but I did learn a good amount and wrote several small applications for demo purposes using <a href="https://github.com/sinatra/sinatra" rel="nofollow" target="_blank">Sinatra</a>. 
   * **Blogs as Series of Posts** : I wrote one series of posts entitled “[Anti-Patterns and Worst Practices](/blogs/chrismissal/archive/2009/05/26/anti-patterns-and-worst-practices-you-re-doing-it-wrong.aspx)”. It seemed to go okay, there was a good conversation going in the comments of those posts and I learned a lot by writing them and reading the helpful comments people had to offer. 
   * **Give Presentations** : My goal was only one presentation, but I gave four separate hour or longer presentations in 2009. 
       * _Using jQuery to Create Rich Internet Applications_ : I gave this one twice, first in Cedar Rapids, IA and also in Cedar Falls, IA. 

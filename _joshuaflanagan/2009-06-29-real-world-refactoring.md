@@ -25,7 +25,7 @@ My discussion revolves around <a href="http://docu.jagregory.com/" target="_blan
 ///&lt;para&gt;Do not call more than once.&lt;/para&gt;&lt;/remarks&gt; </pre>
 </div>
 
-In Docu, the job of translating the XML contents of a single top-level tag into a semantic model is handled by the CommentParser. Let’s take a look at the <a href="http://github.com/jagregory/docu/blob/e5569e48aea80084f1f8c1abc0c77e9d26906e37/src/Docu.Console/Parsing/Comments/CommentParser.cs" target="_blank">original implementation</a>:
+In Docu, the job of translating the XML contents of a single top-level tag into a semantic model is handled by the CommentParser. Let’s take a look at the <a href="https://github.com/jagregory/docu/blob/e5569e48aea80084f1f8c1abc0c77e9d26906e37/src/Docu.Console/Parsing/Comments/CommentParser.cs" target="_blank">original implementation</a>:
 
 <div style="padding-bottom: 0px;margin: 0px;padding-left: 0px;padding-right: 0px;float: none;padding-top: 0px" class="wlWriterEditableSmartContent">
   <pre>public class CommentParser : ICommentParser
@@ -170,4 +170,4 @@ And now we simply:
 
 Notice that you didn’t have to touch CommentParser? We just gave it new functionality without having to change (and potentially destabilize) the code. That’s the open-closed principle in action. The increased cohesion of the node parsers makes them easier to understand and helps localize any future changes to their implementation. We also saw that the use of dependency injection and a composition tool (StructureMap in this case) made it painless for us to pull code apart into separate classes. The code was made easier to maintain by applying a few established object oriented design principles. Hopefully this example helped clarify the application of these principles. Your feedback is appreciated.
 
-For additional context, you can <a href="http://github.com/jagregory/docu/commit/41bf6458ed4297a355400b0ea2c465a1511122b0" target="_blank">view the commit</a> that contained the changes discussed above.
+For additional context, you can <a href="https://github.com/jagregory/docu/commit/41bf6458ed4297a355400b0ea2c465a1511122b0" target="_blank">view the commit</a> that contained the changes discussed above.

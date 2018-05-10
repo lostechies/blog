@@ -30,4 +30,4 @@ run Sinatra::Application</pre>
 
 A git push later and I was finished.&#160; Permanent 301 redirects to enforce canonical URLs from foo.com to [www.foo.com](http://www.foo.com).
 
-Of course, the [ForceDomain code](http://github.com/cwninja/rack-force_domain) is up on GitHub if you’re interested in peaking behind the covers.&#160; Naturally it’s like 6 lines of Ruby code, the rest being the Rack/Gems stuff.
+Of course, the [ForceDomain code](https://github.com/cwninja/rack-force_domain) is up on GitHub if you’re interested in peaking behind the covers.&#160; Naturally it’s like 6 lines of Ruby code, the rest being the Rack/Gems stuff.

@@ -74,7 +74,7 @@ Now for the fun part. Adding in the code for the actions. Unlike Cocoa on Snow L
 
 The addTarget:action message is what happens under the covers when you connect your action and event in Interface Builder. I set the text for the label using NSString stringWithFormat:. This is just like string.Format with printf arguments. All in all, not much code except for the release calls and not much difference in the hello world.
 
-[Get code here.](http://github.com/scottdensmore/Blog-Code/tree/master/MonoTouchCompare/)
+[Get code here.](https://github.com/scottdensmore/Blog-Code/tree/master/MonoTouchCompare/)
 
 ## RSS Reader
 

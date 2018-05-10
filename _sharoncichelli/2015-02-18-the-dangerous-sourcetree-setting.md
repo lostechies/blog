@@ -33,7 +33,7 @@ Instead, when you need to fix a mistake, use one of the following options before
   * If you&#8217;re using the [git gui](http://git-scm.com/docs/git-gui) tool that&#8217;s distributed with git, there are radio buttons above the commit message so that you can select &#8220;Amend Last Commit.&#8221;
   * From the command line, accomplish the equivalent rewrite with [`git commit --amend`](http://git-scm.com/docs/git-commit).
   * If you&#8217;re cleaning up a bigger mess, use [`git rebase -i`](http://git-scm.com/docs/git-rebase) to fix up any commits that haven&#8217;t been pushed.
-  * And my favorite, take a calm and measured stroll through this [choose-your-own-adventure-style guide to fixing commits in git](http://sethrobertson.github.io/GitFixUm/fixup.html).
+  * And my favorite, take a calm and measured stroll through this [choose-your-own-adventure-style guide to fixing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html).
 
 A common theme in all of these strategies is **don&#8217;t change commits you&#8217;ve pushed** somewhere other developers might be using. Which is why you want to uncheck that &#8220;automatically push&#8221; setting.
 

@@ -37,7 +37,7 @@ I’m (embarrassingly) still writing the presentation and code for this session.
   * [Decoupling Workflow And Forms With An Application Controller](http://www.lostechies.com/blogs/derickbailey/archive/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller.aspx)
   * [Balsamiq And A Sneak Preview Of My ‘Decoupling Workflow’ Presentation](http://www.lostechies.com/blogs/derickbailey/archive/2009/05/14/balsamiq-and-a-sneak-preview-of-my-decoupling-workflow-presentation.aspx)
 
-You can also keep up to date with the presentation as I’m creating it, [over at my Github account](http://github.com/derickbailey/presentations-and-training/tree/master).
+You can also keep up to date with the presentation as I’m creating it, [over at my Github account](https://github.com/derickbailey/presentations-and-training/tree/master).
 
 ### The Code Camp
 

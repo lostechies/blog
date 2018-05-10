@@ -12,7 +12,7 @@ categories:
   - posh-tf
   - Powershell
 ---
-As you may or may not know, I&#8217;ve been a fan of Git for a while now. I&#8217;ve [hacked](https://github.com/libgit2/libgit2sharp/commits/vNext?author=dahlbyk "Contributions to LibGit2Sharp") on an implementation of it, I&#8217;ve [presented](http://vimeo.com/43659036 "Git More Done @ NDC") on it, I&#8217;ve even built a [PowerShell environment](http://github.com/dahlbyk/posh-git "posh-git") for it that&#8217;s used by at least twelve people that aren&#8217;t related to me. Until a few months ago, I was content in my little Git bubble.
+As you may or may not know, I&#8217;ve been a fan of Git for a while now. I&#8217;ve [hacked](https://github.com/libgit2/libgit2sharp/commits/vNext?author=dahlbyk "Contributions to LibGit2Sharp") on an implementation of it, I&#8217;ve [presented](http://vimeo.com/43659036 "Git More Done @ NDC") on it, I&#8217;ve even built a [PowerShell environment](https://github.com/dahlbyk/posh-git "posh-git") for it that&#8217;s used by at least twelve people that aren&#8217;t related to me. Until a few months ago, I was content in my little Git bubble.
 
 But recently I&#8217;ve been working with a team that has broadened my horizons and imparted a valuable lesson to me: &#8220;there&#8217;s nothing Git can do that TFS can&#8217;t.&#8221; Now if you&#8217;ve been following me for a while, you know this has been patently untrue. Until today.
 

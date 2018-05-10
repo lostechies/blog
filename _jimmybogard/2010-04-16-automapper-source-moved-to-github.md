@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/04/15/automapper-source-moved-t
 ---
 After putting it through the paces, I’m ready to (finally) announce that the AutoMapper source code has moved to GitHub:
 
-<http://github.com/jbogard/AutoMapper>
+<https://github.com/jbogard/AutoMapper>
 
 I wanted to wait to “officially” move until I had moved the build over, added new features and processed a few pull requests.&#160; For dealing with OSS projects, I really can’t imagine using SVN again, as pull requests and git merges are so much easier than dealing with patch files.&#160; Additionally, the branching model of git made my life much, much easier to deal with support requests and bug reports.&#160; Git simply and easily supports all the workflows I need to provide a good experience to those using my project, from me adding new features to getting support questions answered quickly and easily.
 
@@ -23,7 +23,7 @@ So can do you contribute?&#160; First, check out Jason’s git for Windows devel
 
 Next, get over to github and create an account:
 
-<http://github.com/>
+<https://github.com/>
 
 Finally, you can check out a few great resources on how to use git and contribute on github:
 

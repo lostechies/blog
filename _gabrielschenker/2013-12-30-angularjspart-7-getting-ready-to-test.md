@@ -30,7 +30,7 @@ This is a series of posts about [AngularJS](http://angularjs.org/) and our exper
                     
                     Please note that I am using a laptop with Windows 8.1 as the operating system. But the following setup should also work without any modifications on Windows 7 & 8.
                     
-                    To run unit tests we are going to use [Karma](http://karma-runner.github.io/0.10/index.html) (previously named Testacular). Karma is a test runner created by the AngularJS team at Google. Similar to AngularJS itself it is open source. To write the tests we will use [Jasmine](http://jasmine.github.io/) which is a behavior driven JavaScript test framework or [DSL](http://en.wikipedia.org/wiki/Domain-specific_language).
+                    To run unit tests we are going to use [Karma](https://karma-runner.github.io/0.10/index.html) (previously named Testacular). Karma is a test runner created by the AngularJS team at Google. Similar to AngularJS itself it is open source. To write the tests we will use [Jasmine](https://jasmine.github.io/) which is a behavior driven JavaScript test framework or [DSL](http://en.wikipedia.org/wiki/Domain-specific_language).
                     
                     A prerequisite for Karma is node.js. Thus please install [node.js](http://nodejs.org/) on your computer
                     
@@ -81,7 +81,7 @@ This is a series of posts about [AngularJS](http://angularjs.org/) and our exper
                     
                     [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb103.png" width="470" height="118" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image105.png)
                     
-                    This is the controller we want to write a test against. Create a new directory **test** and add a file **sampleSpec.js** to this directory. This file will contain our tests that we write using Jasmine. Please refer to the Jasmine [documentation](http://pivotal.github.io/jasmine/) for details about the syntax.
+                    This is the controller we want to write a test against. Create a new directory **test** and add a file **sampleSpec.js** to this directory. This file will contain our tests that we write using Jasmine. Please refer to the Jasmine [documentation](https://pivotal.github.io/jasmine/) for details about the syntax.
                     
                     We want to write tests against the **SampleCtrl** controller, thus we write
                     

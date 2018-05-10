@@ -39,7 +39,7 @@ In short, I wanted a testing framework that:
 
 Testing frameworks are opinionated, but normally not in a good way. I wanted to work with a testing framework whose opinions were that it should be up to _you_ to decide what good tests are. Because what I’ve found is that testing frameworks don’t keep up with my opinions, nor are they flexible in the vectors in which my opinions change.
 
-That’s why for every project I’ve been on in the last 18 months or so, I’ve used [Fixie](http://fixie.github.io) as my test framework of choice. I want tests as clean as this:
+That’s why for every project I’ve been on in the last 18 months or so, I’ve used [Fixie](https://fixie.github.io) as my test framework of choice. I want tests as clean as this:
 
 {% gist 027879256ea4d99cb23e %}
 

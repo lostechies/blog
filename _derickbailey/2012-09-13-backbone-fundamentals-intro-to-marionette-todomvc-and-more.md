@@ -36,4 +36,4 @@ Twitter: [@marionettejs](http://twitter.com/marionettejs)
 
 Freenode IRC: #marionette
 
-Github organization: <http://github.com/marionettejs>
+Github organization: <https://github.com/marionettejs>

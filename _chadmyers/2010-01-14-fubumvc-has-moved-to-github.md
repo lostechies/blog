@@ -11,7 +11,7 @@ categories:
   - FubuMVC
 redirect_from: "/blogs/chad_myers/archive/2010/01/14/fubumvc-has-moved-to-github.aspx/"
 ---
-FYI, if you’re looking at FubuMVC, you should be advised that the new home for the FubuMVC source is now at [GitHub](http://github.com/darthfubumvc/fubumvc).
+FYI, if you’re looking at FubuMVC, you should be advised that the new home for the FubuMVC source is now at [GitHub](https://github.com/darthfubumvc/fubumvc).
 
 I have cleared the SVN /trunk and /branches/reboot repositories over at the old [GoogleCode site](http://code.google.com/p/fubumvc/).
 

@@ -98,7 +98,7 @@ Before I show the commands necessary, it&#8217;s important to understand that al
   
 the context of an SSH session. Thankfully, there was a nice feature of Vlad that was extracted out
   
-into its own gem known as [remote_task](http://github.com/seattlerb/rake-remote_task). &nbsp;This is a handy way to run Rake tasks in the context of remote
+into its own gem known as [remote_task](https://github.com/seattlerb/rake-remote_task). &nbsp;This is a handy way to run Rake tasks in the context of remote
   
 servers and is used heavily under the hood with Vlad. We&#8217;re also using it here for our custom Bundler
   

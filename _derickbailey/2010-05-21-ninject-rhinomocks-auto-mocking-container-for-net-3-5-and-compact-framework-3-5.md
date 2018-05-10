@@ -172,7 +172,7 @@ Here’s an example of what I’m talking about:
       </p>
       
       <p>
-        … what can I say… I’m lazy. I’d rather ignore the ceremony of declaring the variable, mocking it and passing it to my class. Let me get my class and ask for the mock if I need it. I’m not trying to do anything crazy or bad, or let myself get away with poor design problems. I’m just trying to reduce the amount of code that I have to write in my tests. Maybe it’s the ruby developer in me, lashing out against the ceremony of C# again… whatever it is, I want an auto-mocking container for <a href="http://github.com/ninject/ninject">ninject</a> and <a href="http://www.ayende.com/projects/rhino-mocks/downloads.aspx">rhino mocks</a>.
+        … what can I say… I’m lazy. I’d rather ignore the ceremony of declaring the variable, mocking it and passing it to my class. Let me get my class and ask for the mock if I need it. I’m not trying to do anything crazy or bad, or let myself get away with poor design problems. I’m just trying to reduce the amount of code that I have to write in my tests. Maybe it’s the ruby developer in me, lashing out against the ceremony of C# again… whatever it is, I want an auto-mocking container for <a href="https://github.com/ninject/ninject">ninject</a> and <a href="http://www.ayende.com/projects/rhino-mocks/downloads.aspx">rhino mocks</a>.
       </p>
       
       <p>
@@ -188,7 +188,7 @@ Here’s an example of what I’m talking about:
       </h3>
       
       <p>
-        After doing a bit of googling, I found <a href="http://stackoverflow.com/questions/1818302/auto-mock-container-rhino-mocks-and-ninject">a stack overflow question</a> with the basic code to get this running. I had a hard time getting that to work, though, so I scrapped it and started fresh from a copy of <a href="http://github.com/ninject/ninject.moq">ninject.moq</a>. A little while later, I have a basic working auto-mocking container for ninject and rhino mocks.
+        After doing a bit of googling, I found <a href="http://stackoverflow.com/questions/1818302/auto-mock-container-rhino-mocks-and-ninject">a stack overflow question</a> with the basic code to get this running. I had a hard time getting that to work, though, so I scrapped it and started fresh from a copy of <a href="https://github.com/ninject/ninject.moq">ninject.moq</a>. A little while later, I have a basic working auto-mocking container for ninject and rhino mocks.
       </p>
       
       <p>
@@ -361,7 +361,7 @@ Here’s an example of what I’m talking about:
                 .NET: v3.5, Full Framework
               </li>
               <li>
-                URL: <a title="http://github.com/derickbailey/ninject.rhinomocks" href="http://github.com/derickbailey/ninject.rhinomocks">http://github.com/derickbailey/ninject.rhinomocks</a>
+                URL: <a title="https://github.com/derickbailey/ninject.rhinomocks" href="https://github.com/derickbailey/ninject.rhinomocks">https://github.com/derickbailey/ninject.rhinomocks</a>
               </li>
               <li>
                 Ninject: v2.0.1
@@ -384,7 +384,7 @@ Here’s an example of what I’m talking about:
                 .NET: v3.5, Compact Framework
               </li>
               <li>
-                URL: <a href="http://github.com/derickbailey/ninject.rhinomocks.cf">http://github.com/derickbailey/ninject.rhinomocks.cf</a>
+                URL: <a href="https://github.com/derickbailey/ninject.rhinomocks.cf">https://github.com/derickbailey/ninject.rhinomocks.cf</a>
               </li>
               <li>
                 Ninject: v2.0.1, compiled for Compact Framework

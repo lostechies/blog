@@ -103,4 +103,4 @@ The MappingRulesEngine uses the Common Service Locator to find a type closing As
 
 &#160;
 
-That&#8217;s about it. You can get the source at <a href="http://github.com/derekgreer/ncommons" target="_blank">http://github.com/derekgreer/ncommons</a>.
+That&#8217;s about it. You can get the source at <a href="https://github.com/derekgreer/ncommons" target="_blank">https://github.com/derekgreer/ncommons</a>.

@@ -117,7 +117,7 @@ In the last few years, I’ve written a lot of code that looks like this:
       </p>
       
       <p>
-        Another example of this type of code can be found in my <a href="http://github.com/derickbailey/presentations-and-training/tree/master/SOLID%20Principles%20-%20Step%20By%20Step%20Code/">SOLID Principles presentation and sample code</a>. In the <a href="http://en.wikipedia.org/wiki/Open/closed_principle">Open Closed Principle</a>, I create the following code:
+        Another example of this type of code can be found in my <a href="https://github.com/derickbailey/presentations-and-training/tree/master/SOLID%20Principles%20-%20Step%20By%20Step%20Code/">SOLID Principles presentation and sample code</a>. In the <a href="http://en.wikipedia.org/wiki/Open/closed_principle">Open Closed Principle</a>, I create the following code:
       </p>
       
       <div>

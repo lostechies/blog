@@ -13,7 +13,7 @@ tags:
   - fubu
   - ripple
 ---
-I&#8217;m happy to announce that our ripple project is now publicly available and it&#8217;s sporting some [brand new documentation](http://darthfubumvc.github.io/ripple/ripple/). The docs go into greater detail than I&#8217;m going to write here but I&#8217;ll provide some highlights:
+I&#8217;m happy to announce that our ripple project is now publicly available and it&#8217;s sporting some [brand new documentation](https://darthfubumvc.github.io/ripple/ripple/). The docs go into greater detail than I&#8217;m going to write here but I&#8217;ll provide some highlights:
 
 **Overview:**
 
@@ -33,14 +33,14 @@ Ripple is 100% command line and has no ties into Visual Studio. The usages were 
 
 Keeping your packages up to date with versions can be a challenge when you have a lot of them. Ripple provides the ability to automatically generate version constraints for the dependencies in your nuspec files so that you never get out of sync.
 
-&#8230;[and lots more.](http://darthfubumvc.github.io/ripple/ripple/)
+&#8230;[and lots more.](https://darthfubumvc.github.io/ripple/ripple/)
 
 **Getting Started:**
 
 Ripple is published both as a Ruby Gem (ripple-cli) and as a NuGet package (Ripple) &#8212; which you can use with Chocolatey.
 
-You can read the &#8220;Edge&#8221; documentation here: [http://darthfubumvc.github.io/ripple
+You can read the &#8220;Edge&#8221; documentation here: [https://darthfubumvc.github.io/ripple
   
-](http://darthfubumvc.github.io/ripple) _
+](https://darthfubumvc.github.io/ripple) _
   
 Note:  The ripple docs are powered by our brand new &#8220;FubuDocs&#8221; tooling. Jeremy will likely be writing about that one soon. If he wasn&#8217;t planning on it&#8230;then I think I just volunteered him for it._

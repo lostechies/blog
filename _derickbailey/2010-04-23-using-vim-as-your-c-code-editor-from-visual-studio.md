@@ -16,7 +16,7 @@ categories:
   - Visual Studio
 redirect_from: "/blogs/derickbailey/archive/2010/04/23/using-vim-as-your-c-code-editor-from-visual-studio.aspx/"
 ---
-No, not through [ViEmu](http://www.viemu.com/) or [VsVim](http://github.com/jaredpar/VsVim)… I mean, actual honest to goodness [Vim](http://vim.org). 
+No, not through [ViEmu](http://www.viemu.com/) or [VsVim](https://github.com/jaredpar/VsVim)… I mean, actual honest to goodness [Vim](http://vim.org). 
 
 I’ve been working with Ruby for a not quite a year now (though, not much recently) and in that time I’ve tried a lot of editors and IDEs for ruby on Windows – including the Resharper-like RubyMine from JetBrains. RubyMine is a very powerful IDE with a lot of great refactoring tools built into it, etc. … but after all my experiments with the various ruby editors I find that the only thing I want is a good syntax highlighter and tree navigation. There are dozens of free editors out there that have this and a bunch of paid-for apps that also provide this in very convenient ways, including Vim with it’s many plugins.
 

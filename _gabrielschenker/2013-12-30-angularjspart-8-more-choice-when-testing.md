@@ -56,7 +56,7 @@ This is a series of posts about [AngularJS](http://angularjs.org/) and our exper
                         
                         Everything is ready to go. As soon as there are any tests available **testem** will run them on both connected browsers. We can use right and left key in the console to switch between the output for the two browsers.
                         
-                        Let’s write a very simple test using [Jasmine](http://pivotal.github.io/jasmine/). For this create a new file **testSpec.js** and add this code
+                        Let’s write a very simple test using [Jasmine](https://pivotal.github.io/jasmine/). For this create a new file **testSpec.js** and add this code
                         
                         [<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2013/12/image_thumb116.png" width="443" height="116" />](http://lostechies.com/content/gabrielschenker/uploads/2013/12/image118.png)
                         
@@ -100,4 +100,4 @@ This is a series of posts about [AngularJS](http://angularjs.org/) and our exper
                         
                         # Conclusion
                         
-                        In this post I have introduced [testem](https://github.com/airportyh/testem), another very powerful test runner besides [karma](http://karma-runner.github.io/0.10/index.html) for JavaScript tests. This runner is easy to install and straight forward to use. Now we have at least two ways how we can run our unit tests while developing our Angular SPA application, both of which are pretty much friction less.
+                        In this post I have introduced [testem](https://github.com/airportyh/testem), another very powerful test runner besides [karma](https://karma-runner.github.io/0.10/index.html) for JavaScript tests. This runner is easy to install and straight forward to use. Now we have at least two ways how we can run our unit tests while developing our Angular SPA application, both of which are pretty much friction less.

@@ -43,7 +43,7 @@ Every SaaS, website, blog, etc. needs DNS &#8211; it&#8217;s how you get your na
 
 Heroku is my web server / platform of choice for most apps. What started as a simple way to deploy Ruby on Rails apps with git, has turned in to an easy way to deploy a lot of different web frameworks and service types. I deploy ruby apps and nodejs apps to Heroku quite regularly, and I&#8217;ve been using Heroku for around 4 years, I think. It hasn&#8217;t let me down yet. I know there are alternatives such as [Azure](http://www.windowsazure.com) and I do need to check it out some time, but at this point, I don&#8217;t have a good reason to switch from Heroku.
 
-**[GitHub](http://github.com) / Github Pages**
+**[GitHub](https://github.com) / Github Pages**
 
 GitHub is the defacto-standard in distributed source control and issue management for open source projects. I host all of my private repositories here for all of my business and personal things, as well. I love working with a distribute source control system and using GitHub as an online repository makes me feel all warm and fuzzy, not having to set up and host my own source control services and create backup services for it, etc.
 

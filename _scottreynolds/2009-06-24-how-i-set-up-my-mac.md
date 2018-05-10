@@ -41,7 +41,7 @@ I don&#8217;t like to see my dock, so I make it small and auto-hide. I also remo
 
 #### GitHub Setup
 
-If you use [Github](http://github.com) regularly, then on a new machine you will need to generate your SSH key and set it up in GitHub. Follow the instructions on your account page.
+If you use [Github](https://github.com) regularly, then on a new machine you will need to generate your SSH key and set it up in GitHub. Follow the instructions on your account page.
 
 ## Step 2 &#8211; Critical Software
 
@@ -92,8 +92,8 @@ This puts rubygrms and wirble into irb, wirble providing you things like coloriz
 
 Being a big TextMate user, I install the following bundles right away: 
 
-  * [Cucumber](http://github.com/bmabey/cucumber-tmbundle/tree/master)
-  * [Webrat](http://github.com/bmabey/webrat-tmbundle/tree/master)
+  * [Cucumber](https://github.com/bmabey/cucumber-tmbundle/tree/master)
+  * [Webrat](https://github.com/bmabey/webrat-tmbundle/tree/master)
   * [Git](http://wiki.github.com/dchelimsky/rspec/textmate http://gitorious.org/git-tmbundle)
   * [Rspec]()
 

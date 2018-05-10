@@ -57,7 +57,7 @@ in a particular environment don&#8217;t affect anything else. This is a must hav
 with different Ruby versions, which I am not yet.
 
   * <http://rvm.beginrescueend.com>
-  * <http://github.com/wayneeseguin/rvm>
+  * <https://github.com/wayneeseguin/rvm>
   * <irc://irc.freenode.net/#rvm>
 
 ### Ruby 1.8.7 (for now)
@@ -106,7 +106,7 @@ you create a customized API documentation package for Ruby, Rails and popular ge
 browse online or even download.
 
   * <http://rubyonrails.org>
-  * <http://github.com/rails/rails>
+  * <https://github.com/rails/rails>
   * <http://railsdispatch.com>
   * <http://guides.rails.info>
   * <http://railsapi.com>
@@ -123,7 +123,7 @@ project. Not sure there is really much more I can say about it except you must t
 Your hands will thank you!
 
   * <http://haml-lang.com>
-  * <http://github.com/nex3/haml>
+  * <https://github.com/nex3/haml>
   * <irc://irc.freenode.net/#haml>
 
 ### Sass
@@ -136,7 +136,7 @@ all of its capabilities yet, I love the simplicity of the language. Hopefully I 
   
 further improve my stylesheets.
 
-  * <http://github.com/nex3/haml>
+  * <https://github.com/nex3/haml>
   * <irc://irc.freenode.net/#sass>
 
 ### Compass/Blueprint
@@ -150,7 +150,7 @@ go with the default of Blueprint and it&#8217;s been pretty good so far. The out
 fixes and typography make it really easy to get a decent looking site up and running fast.
 
   * <http://compass-style.org>
-  * <http://github.com/chriseppstein/compass>
+  * <https://github.com/chriseppstein/compass>
   * <http://www.blueprintcss.org>
   * <http://960.gs>
 
@@ -178,7 +178,7 @@ ActionView::Helpers::AssetTagHelper::reset_javascript_include_default
 </pre>
 
   * <http://jquery.com>
-  * <http://github.com/jquery/jquery>
+  * <https://github.com/jquery/jquery>
 
 ### MongoDB
 
@@ -205,7 +205,7 @@ Don&#8217;t have a collection named codemonkeys yet? No problem, just send off a
 create a new collection (aka table) for you. No migrations, no fuss. I hardly even notice the database is there sometimes.
 
   * <http://www.mongodb.org>
-  * <http://github.com/mongodb/mongo>
+  * <https://github.com/mongodb/mongo>
   * <irc://irc.freenode.net/#mongodb>
 
 ### Mongoid
@@ -235,7 +235,7 @@ Another interesting tidbit is that Mongoid is the brainchild of Durran Jordan, o
 to be amazed at the number of awesome OSS contributions that come out of the guys at Hashrocket.
 
   * <http://mongoid.org>
-  * <http://github.com/durran/mongoid>
+  * <https://github.com/durran/mongoid>
   * <http://vimeo.com/9864311> (Great talk by @modetojoy on MongoDB/Mongoid)
 
 ### Devise
@@ -259,7 +259,7 @@ validations and account lockout to name a few. There also a growing number of pl
 Facebook, LDAP and OpenID authentication.
 
   * <http://blog.plataformatec.com.br/tag/devise>
-  * <http://github.com/plataformatec/devise>
+  * <https://github.com/plataformatec/devise>
 
 ### CanCan
 
@@ -277,7 +277,7 @@ it&#8217;s role-based or custom or both, it&#8217;s pretty easy to write a few s
   
 check your authorization rules in your controllers and views with simple methods like can? and cannot?.
 
-  * <http://github.com/ryanb/cancan>
+  * <https://github.com/ryanb/cancan>
 
 ## To Be Continued&#8230;
 

@@ -516,5 +516,5 @@ To solve this problem and decouple the object from the dialog while still provid
                             </h3>
                             
                             <p>
-                              The <a href="http://github.com/derickbailey/appcontroller">appcontroller</a> and <a href="http://github.com/derickbailey/appcontroller.cf">appcontroller.cf</a> implementations over at github will be updated with this functionality, shortly. Feel free to take the source code directly from this blog post or grab it from there.
+                              The <a href="https://github.com/derickbailey/appcontroller">appcontroller</a> and <a href="https://github.com/derickbailey/appcontroller.cf">appcontroller.cf</a> implementations over at github will be updated with this functionality, shortly. Feel free to take the source code directly from this blog post or grab it from there.
                             </p>

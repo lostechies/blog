@@ -30,7 +30,7 @@ Some great resources for git include:
 
 GitHub provides such a fantastic user experience, it’s the reason why many folks choose Git.&#160; In fact, it’s pretty hard to introduce anyone to Git without talking about GitHub.&#160; So head over there:
 
-<http://github.com/>
+<https://github.com/>
 
 And create an account.&#160; GitHub is all about collaboration, so their entire experience is centered around **you**, instead of projects.&#160; You can create a free account, fork an existing project, clone, and start fooling around with other folks’ projects, but on your own sandbox so you don’t have to worry about messing anything up.&#160; Lots of great OSS tools are already on GitHub, including:
 
@@ -41,7 +41,7 @@ And create an account.&#160; GitHub is all about collaboration, so their entire 
   * Fluent NHibernate
   * SubSonic
 
-And many more, just check out the [github page on the C# projects](http://github.com/languages/C%23).
+And many more, just check out the [github page on the C# projects](https://github.com/languages/C%23).
 
 ### Visualize the repository
 

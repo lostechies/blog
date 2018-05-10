@@ -422,7 +422,7 @@ This is all you need to install the preview version:
                                                                 </h3>
                                                                 
                                                                 <p>
-                                                                  There’s a lot more that has happened than this list can show – many miniscule details to give Albacore a much more solid feel to it. For a complete list of what has changed, check out the <a href="http://github.com/derickbailey/Albacore/issues/closed#sort=updated">“v0.2.0” label on the Github Issues page</a> – specifically look at the “Closed” tags to see what has been done (though the list of closed issues will continue to grow, while the preview 1 release will not change. I may release another preview as progress is made).
+                                                                  There’s a lot more that has happened than this list can show – many miniscule details to give Albacore a much more solid feel to it. For a complete list of what has changed, check out the <a href="https://github.com/derickbailey/Albacore/issues/closed#sort=updated">“v0.2.0” label on the Github Issues page</a> – specifically look at the “Closed” tags to see what has been done (though the list of closed issues will continue to grow, while the preview 1 release will not change. I may release another preview as progress is made).
                                                                 </p>
                                                                 
                                                                 <p>

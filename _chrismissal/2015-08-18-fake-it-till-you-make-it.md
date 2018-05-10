@@ -19,7 +19,7 @@ tags:
 ---
 I&#8217;ve been studying build systems in .NET recently. I believe that automation is one of the most important pieces to any successful software project. Previously I wrote about [Cake](https://lostechies.com/chrismissal/2015/07/22/who-wants-cake/) and how I liked the ease of use as well as how nice it was to contribute to the project. I mentioned in the comments of that post that I would be blogging about FAKE as well, and this post is that.
 
-[FAKE](http://fsharp.github.io/FAKE/) isn&#8217;t anything new. In fact, it&#8217;s been around for well over 5 years. [Scott Hanselman](https://github.com/shanselman) had a [really good post](http://www.hanselman.com/blog/ExploringFAKEAnFBuildSystemForAllOfNET.aspx) about it back in March of last year. If you&#8217;ve been keeping up, this will be nothing new, but for the readers that haven&#8217;t been following the activity, I hope my thoughts about it will be helpful to you.
+[FAKE](https://fsharp.github.io/FAKE/) isn&#8217;t anything new. In fact, it&#8217;s been around for well over 5 years. [Scott Hanselman](https://github.com/shanselman) had a [really good post](http://www.hanselman.com/blog/ExploringFAKEAnFBuildSystemForAllOfNET.aspx) about it back in March of last year. If you&#8217;ve been keeping up, this will be nothing new, but for the readers that haven&#8217;t been following the activity, I hope my thoughts about it will be helpful to you.
 
 Last week I presented at [Headspring](http://www.headspring.com) on this same topic with [Patrick](https://twitter.com/loudandatwork). Patrick is a fan of FAKE and I won&#8217;t speak for him, but I&#8217;m fairly certain he agrees with me in that I&#8217;d like to see more people and teams using it. There were two objectives to the presentation:
 
@@ -60,7 +60,7 @@ I&#8217;m still no veteran when it comes to writing FAKE scripts, but I can hone
 
 ## A Sample Script
 
-Anyway, on with the sample code! This tiny little snippet comes directly from the [FAKE](http://fsharp.github.io/FAKE/) site, and I&#8217;ll leave it with you and let you browse on over there to check out more samples since that won&#8217;t get out of date as fast as this may.
+Anyway, on with the sample code! This tiny little snippet comes directly from the [FAKE](https://fsharp.github.io/FAKE/) site, and I&#8217;ll leave it with you and let you browse on over there to check out more samples since that won&#8217;t get out of date as fast as this may.
 
     #r "tools/FAKE/tools/FakeLib.dll" // include Fake lib
     open Fake

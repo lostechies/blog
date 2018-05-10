@@ -115,7 +115,7 @@ understand the moving parts here.
 </pre>
 
   * <http://www.capify.org/index.php/Capistrano>
-  * <http://github.com/capistrano/capistrano>
+  * <https://github.com/capistrano/capistrano>
   * <http://peepcode.com/products/capistrano-2>
 
 ### RSpec 2
@@ -180,7 +180,7 @@ Oh, one more note. I&#8217;m using RSpec **2**, which is still in the early stag
 actually running it straight from the master git repo. So, use at your own risk!
 
   * <http://rspec.info> &#8211; Only covers RSpec 1.x, but some useful info nonetheless
-  * <http://github.com/rspec>
+  * <https://github.com/rspec>
   * [Pure RSpec](http://video2010.scottishrubyconference.com/show_video/3/1) 
 
 ### Cucumber
@@ -238,7 +238,7 @@ I have another post written that gives a bit more of an overview of Cucumber wit
 soon.
 
   * <http://cukes.info>
-  * <http://github.com/aslakhellesoy/cucumber>
+  * <https://github.com/aslakhellesoy/cucumber>
   * <http://peepcode.com/products/cucumber>
 
 ### Steak
@@ -253,7 +253,7 @@ be spiking a bit more with this one as I think it might come in handy for some o
   
 Oh, and gotta love its logo! Beef! It&#8217;s what&#8217;s for&#8230;testing?
 
-  * <http://github.com/cavalle/steak>
+  * <https://github.com/cavalle/steak>
 
 ### factory_girl
 
@@ -298,7 +298,7 @@ You can use this factory in a variety of ways.
   Factory.build(:user, :first_name =&gt; "Lou", :last_name =&gt; "Costello")
 </pre>
 
-  * <http://github.com/thoughtbot/factory_girl>
+  * <https://github.com/thoughtbot/factory_girl>
 
 ### rstakeout
 

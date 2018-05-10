@@ -16,7 +16,7 @@ categories:
 Our application is a product used by many global companies and thus we support multiple languages like English, French, Spanish, German and more. The question is now, how does AngularJS help us to provide our product in all the necessary languages? It turns out that Angular itself does only have [limited support](http://docs.angularjs.org/guide/i18n) for globalization and localization (also called [internationalization and localization](http://en.wikipedia.org/wiki/Internationalization_and_localization)). But a quick research on the web quickly leads to the following three implementations helping with translating texts into different languages depending on the [locale](http://en.wikipedia.org/wiki/Locale) of the user. Here are the links
 
   * <http://angular-gettext.rocketeer.be/> 
-      * <http://pascalprecht.github.io/angular-translate/> 
+      * <https://pascalprecht.github.io/angular-translate/> 
           * <http://www.novanet.no/blog/hallstein-brotan/dates/2013/10/creating-multilingual-support-using-angularjs/></ul> 
         I am sure there exist other implementations out there but for our purposes the first approach which is based on the [Gettext](http://en.wikipedia.org/wiki/Gettext) format is the favorite one due to the fact that we do not have to use keywords as placeholders for texts but can just use plain English texts in code, and the rich ecosystem around it. Specifically of interest is the [Potedit](http://www.poedit.net/) application which provides a very user friendly way of translating texts.
         

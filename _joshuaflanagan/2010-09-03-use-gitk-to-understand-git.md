@@ -15,7 +15,7 @@ Moving from subversion to git can be a struggle, trying to understand what terms
 
 ### The gitk screen
 
-I created a simple repository on <a href="http://github.com/" target="_blank">github</a> to walk through some scenarios. I’ll start by creating a local copy of the repository:
+I created a simple repository on <a href="https://github.com/" target="_blank">github</a> to walk through some scenarios. I’ll start by creating a local copy of the repository:
 
 <pre>d:code&gt;git clone git@github.com:joshuaflanagan/gitk-demo.git
 Initialized empty Git repository in d:/code/gitk-demo/.git/
@@ -48,7 +48,7 @@ There is a lot of information in this single screenshot:
 > 
 > When you first create a git repository, it starts with a single branch named “master”. There is nothing special about this branch, other than it is the default. You are free to create a new one, and delete master (although, I don’t see any reason to go against the default convention).
 > 
-> When you first clone a git repository, git will automatically create a remote for you named “origin”. A remote is just a name used to manage references (URLs) to other repositories. There is nothing special about the “origin” remote, other than it is created for you. You are free to create a new one and delete origin. In fact, if you are working with multiple remotes, I recommend you delete the origin remote and create a new one for the same repository, but using a more descriptive name. For example, when I work with the FubuMVC source code, in my local repository I have a remote named “darth” which refers to the main repository owned by <a href="http://github.com/DarthFubuMVC/fubumvc" target="_blank">DarthFubuMVC</a>, and a remote named “josh”, which refers to <a href="http://github.com/joshuaflanagan/fubumvc" target="_blank">my fork</a>. If I had kept the name “origin”, I would always have to remember which one I cloned from.
+> When you first clone a git repository, git will automatically create a remote for you named “origin”. A remote is just a name used to manage references (URLs) to other repositories. There is nothing special about the “origin” remote, other than it is created for you. You are free to create a new one and delete origin. In fact, if you are working with multiple remotes, I recommend you delete the origin remote and create a new one for the same repository, but using a more descriptive name. For example, when I work with the FubuMVC source code, in my local repository I have a remote named “darth” which refers to the main repository owned by <a href="https://github.com/DarthFubuMVC/fubumvc" target="_blank">DarthFubuMVC</a>, and a remote named “josh”, which refers to <a href="https://github.com/joshuaflanagan/fubumvc" target="_blank">my fork</a>. If I had kept the name “origin”, I would always have to remember which one I cloned from.
 
 ### Branching
 

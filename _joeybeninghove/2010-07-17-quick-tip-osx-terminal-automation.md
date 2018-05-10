@@ -19,7 +19,7 @@ Some of this might be old hat for a lot of you, but maybe this will help at leas
 
 The top one I usually use for most filesystem and git operations. &nbsp;I also use this one to open other tabs for running things like **rails console** or a mongodb console if necessary.
 
-The bottom one I usually have [rstakeout](http://github.com/EdvardM/rstakeout "rstakeout")&nbsp;running in the background to run my specs or cucumber scenarios automatically. &nbsp;
+The bottom one I usually have [rstakeout](https://github.com/EdvardM/rstakeout "rstakeout")&nbsp;running in the background to run my specs or cucumber scenarios automatically. &nbsp;
 
 Then I keep a third terminal window open, tiled to the right at full height running **rails server** in one tab and **compass watch** in another tab.
 
@@ -57,6 +57,6 @@ As you can see, I can get my entire terminal environment up and running with a s
 
 ## Wrap Up
 
-In case you&#8217;re wondering which OSX terminal theme I&#8217;m using, it&#8217;s my own tweaked version of [IR_Black](http://blog.infinitered.com/entries/show/6 "IR_Black") which I really like. &nbsp;Also, if you want to try out my terminal settings directly, I&#8217;ve exported the terminal settings files and the window grouping and pushed them up to my [terminal repo on GitHub](http://github.com/joeybeninghove/terminal "terminal"). &nbsp;Also I&#8217;d LOVE to hear other tips on how you&#8217;re automating your development environments, specifically in OSX!
+In case you&#8217;re wondering which OSX terminal theme I&#8217;m using, it&#8217;s my own tweaked version of [IR_Black](http://blog.infinitered.com/entries/show/6 "IR_Black") which I really like. &nbsp;Also, if you want to try out my terminal settings directly, I&#8217;ve exported the terminal settings files and the window grouping and pushed them up to my [terminal repo on GitHub](https://github.com/joeybeninghove/terminal "terminal"). &nbsp;Also I&#8217;d LOVE to hear other tips on how you&#8217;re automating your development environments, specifically in OSX!
 
 Happy Automating!

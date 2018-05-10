@@ -548,7 +548,7 @@ This is all you need to install the preview version:
                                           <!--CRLF--></div> </div> 
                                           
                                           <p>
-                                            To see this example do it’s thing, take a look at my <a href="http://github.com/derickbailey/vimbacore">vimbacore project on github</a>. It’s my playground where I test out a lot of the new features and functionality of albacore, and I’ve included this (and a config example) in that project.
+                                            To see this example do it’s thing, take a look at my <a href="https://github.com/derickbailey/vimbacore">vimbacore project on github</a>. It’s my playground where I test out a lot of the new features and functionality of albacore, and I’ve included this (and a config example) in that project.
                                           </p>
                                           
                                           <p>
@@ -703,7 +703,7 @@ This is all you need to install the preview version:
                                                             </h3>
                                                             
                                                             <p>
-                                                              The Albacore.configure block also support plug-in capabilities. All you need to do is create a ruby module that includes “Albacore::Configuration” and your module will automatically become part of the Albacore.configure block. Here’s an example that doesn’t really do much (again, this example is in my <a href="http://github.com/derickbailey/vimbacore">vimbacore project</a>) but illustrates how simple it is:
+                                                              The Albacore.configure block also support plug-in capabilities. All you need to do is create a ruby module that includes “Albacore::Configuration” and your module will automatically become part of the Albacore.configure block. Here’s an example that doesn’t really do much (again, this example is in my <a href="https://github.com/derickbailey/vimbacore">vimbacore project</a>) but illustrates how simple it is:
                                                             </p>
                                                             
                                                             <div>

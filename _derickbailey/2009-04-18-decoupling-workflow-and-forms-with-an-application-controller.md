@@ -1034,5 +1034,5 @@ After working with various ideas for the last month, I finally have an example i
                                   </p>
                                   
                                   <p>
-                                    <a title="http://github.com/derickbailey/appcontroller/tree/master" href="http://github.com/derickbailey/appcontroller/tree/master"><strong><font size="4">http://github.com/derickbailey/appcontroller/tree/master</font></strong></a>
+                                    <a title="https://github.com/derickbailey/appcontroller/tree/master" href="https://github.com/derickbailey/appcontroller/tree/master"><strong><font size="4">https://github.com/derickbailey/appcontroller/tree/master</font></strong></a>
                                   </p>

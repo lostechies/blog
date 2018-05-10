@@ -594,7 +594,7 @@ and here’s the contents of the TestSuite html file:
           
           <blockquote>
             <p>
-              <strong>Download </strong><a href="http://github.com/derickbailey/MyFirstMVCSeleniumTest/tree/master"><strong>My First MVC Selenium Test</strong></a>
+              <strong>Download </strong><a href="https://github.com/derickbailey/MyFirstMVCSeleniumTest/tree/master"><strong>My First MVC Selenium Test</strong></a>
             </p>
           </blockquote>
           

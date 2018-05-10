@@ -48,7 +48,7 @@ Upgrading the build, however, was a completely different story.
 
 ### Upgrading the build
 
-Most of the build tools I used, including NUnit and psake, were still targeting .NET 3.5.&#160; To upgrade these, I first needed to download the latest [psake](http://github.com/JamesKovacs/psake) and include the following configuration in my build script:
+Most of the build tools I used, including NUnit and psake, were still targeting .NET 3.5.&#160; To upgrade these, I first needed to download the latest [psake](https://github.com/JamesKovacs/psake) and include the following configuration in my build script:
 
 $framework = &#8216;4.0&#8217;
 

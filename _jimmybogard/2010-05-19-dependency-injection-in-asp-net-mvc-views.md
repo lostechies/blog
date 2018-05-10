@@ -350,4 +350,4 @@ So looking back, we were able to inject services into our controllers, filters, 
 
 You can find code for this example on my github:
 
-<http://github.com/jbogard/blogexamples>
+<https://github.com/jbogard/blogexamples>

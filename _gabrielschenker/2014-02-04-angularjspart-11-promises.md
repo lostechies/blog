@@ -39,7 +39,7 @@ This is a series of posts about [AngularJS](http://angularjs.org/) and our exper
                                     
                                     Using callback functions to achieve asynchrony in code becomes just way too complicated when you have to compose multiple asynchronous calls and make decisions depending upon the outcome of this composition. While handling the normal case is still somewhat feasible it starts to become very ugly when you have to provide rock solid exception handling.
                                     
-                                    Comes the Promise to the rescue! According to [Promises/A+](http://promises-aplus.github.io/promises-spec/)
+                                    Comes the Promise to the rescue! According to [Promises/A+](https://promises-aplus.github.io/promises-spec/)
                                     
                                     > A _promise_ represents the eventual result of an asynchronous operation.
                                     
@@ -54,7 +54,7 @@ This is a series of posts about [AngularJS](http://angularjs.org/) and our exper
                                     There are some very good references available talking about JavaScript Promises in general or in the context of a specific library in particular.
                                     
                                       * [Promises/A proposal](http://wiki.commonjs.org/wiki/Promises/A) 
-                                          * [Promises/A+](http://promises-aplus.github.io/promises-spec/). 
+                                          * [Promises/A+](https://promises-aplus.github.io/promises-spec/). 
                                               * [Kristopher Kowal’s Q library](https://github.com/kriskowal/q)</ul> 
                                             to name just a few…
                                             

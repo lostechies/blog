@@ -1141,7 +1141,7 @@ Here’s what we have left:
     </p>
     
     <pre><div style="overflow:auto;background-color: #FFFFE0;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
-  // http://github/mygroup/tic-tac-toe/issues/1
+  // https://github/mygroup/tic-tac-toe/issues/1
      [TestClass]
      public class When_a_player_attempts_to_choose_positions_1_5_2_and_8
      {
@@ -1500,7 +1500,7 @@ Here’s what we have left:
       </p>
       
       <pre><div style="overflow:auto;background-color: #FFFFE0;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
-  // http://github/mygroup/tic-tac-toe/issues/2
+  // https://github/mygroup/tic-tac-toe/issues/2
      [TestClass]
      public class When_a_player_attempts_to_choose_positions_1_2_5_9
      {
@@ -1624,7 +1624,7 @@ Here’s what we have left:
         </p>
         
         <pre><div style="overflow:auto;background-color: #FFFFE0;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
-  // http://github/mygroup/tic-tac-toe/issues/3
+  // https://github/mygroup/tic-tac-toe/issues/3
       [TestClass]
       public class When_the_player_chooses_a_position_which_wins_the_game
       {
@@ -1845,7 +1845,7 @@ Here’s what we have left:
           </p>
           
           <pre><div style="overflow:auto;background-color: #FFFFE0;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
-  // http://github/mygroup/tic-tac-toe/issues/5
+  // https://github/mygroup/tic-tac-toe/issues/5
      [TestClass]
      public class When_a_player_attempts_to_choose_positions_4_7_8_6
      {
