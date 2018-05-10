@@ -68,7 +68,7 @@ You can&#8217;t really force garbage collection in JavaScript. Even if you could
 
 Backbone is JavaScript so it falls under the same rules. But there are some interesting uses of references in Backbone that you need to be aware of which will help you to know when you need to manually clean up some objects, though.
 
-For example: events. An even handler / callback method works by having a reference between the object that triggers the event and the callback that handles the event. This is one of the easiest places to cause memory leaks in a Backbone app and I discuss it in detail in [my Zombies! blog post](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/).
+For example: events. An even handler / callback method works by having a reference between the object that triggers the event and the callback that handles the event. This is one of the easiest places to cause memory leaks in a Backbone app and I discuss it in detail in [my Zombies! blog post](https://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/).
 
 Additionally, my [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) framework that sits on top of Backbone does a lot of cleanup work for you. I provide access to a Region object and various types of views that automatically clean up DOM references, child-view references, event handler references, etc.
 
@@ -91,6 +91,6 @@ There&#8217;s more to it, still. If you&#8217;re interested in getting all the d
 
 Also, be sure to check out my [WatchMeCode screencast: JavaScript Zombies](http://www.watchmecode.net/javascript-zombies) &#8211; in this episode, I cover some of the most common and basic ways in which memory leaks happen in JavaScript, and show how to overcome these problems.
 
-[<img src="http://lostechies.com/content/derickbailey/uploads/2014/02/NewImage3.png" alt="NewImage" width="300" height="225" border="0" />](http://www.watchmecode.net/javascript-zombies)
+[<img src="https://lostechies.com/content/derickbailey/uploads/2014/02/NewImage3.png" alt="NewImage" width="300" height="225" border="0" />](http://www.watchmecode.net/javascript-zombies)
 
  

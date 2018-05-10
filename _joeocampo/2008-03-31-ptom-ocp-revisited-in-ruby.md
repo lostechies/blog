@@ -14,7 +14,7 @@ redirect_from: "/blogs/joe_ocampo/archive/2008/03/30/ptom-ocp-revisited-in-ruby.
 ---
 I was playing with some <a title="Ruby" href="http://www.ruby-lang.org/en/" target="_blank">Ruby</a> code this weekend and thought I would show some <a href="http://www.objectmentor.com/resources/articles/ocp.pdf" target="_blank">OCP</a> with <a title="Ruby" href="http://www.ruby-lang.org/en/" target="_blank">Ruby</a>. 
 
-For more of an in-depth discussion on OCP please read <a href="http://www.lostechies.com/blogs/joe_ocampo/archive/2008/03/21/ptom-the-open-closed-principle.aspx" target="_blank">my previous post</a>. 
+For more of an in-depth discussion on OCP please read <a href="https://lostechies.com/blogs/joe_ocampo/archive/2008/03/21/ptom-the-open-closed-principle.aspx" target="_blank">my previous post</a>. 
 
 Now the first thing I want to point out is that dynamic languages are naturally by default open for extension. Since the types are dynamic, there are no fixed (static) types. The enables us to have awesome extensibility. It is the closure part of the equation that really scares me more than anything else. If you really aren’t careful when you are programming with dynamic languages you can quickly make a mess of things. This doesn’t take away from the power of a dynamic language you just have to exercise greater care that is all. 
 

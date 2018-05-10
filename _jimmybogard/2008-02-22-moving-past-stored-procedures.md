@@ -12,7 +12,7 @@ categories:
   - Rant
 redirect_from: "/blogs/jimmy_bogard/archive/2008/02/22/moving-past-stored-procedures.aspx/"
 ---
-On [Chad&#8217;s](http://www.lostechies.com/blogs/chad%5Fmyers/) recent [SQL-assembly comparison post](http://lostechies.com/blogs/chad_myers/archive/2008/02/21/sql-is-the-assembly-language-of-the-modern-world.aspx), a few interesting comments caught my eye proclaiming the glory of stored procedures.&nbsp; From tom (no link):
+On [Chad&#8217;s](https://lostechies.com/blogs/chad%5Fmyers/) recent [SQL-assembly comparison post](https://lostechies.com/blogs/chad_myers/archive/2008/02/21/sql-is-the-assembly-language-of-the-modern-world.aspx), a few interesting comments caught my eye proclaiming the glory of stored procedures.&nbsp; From tom (no link):
 
 > [Stored procedures] are not only useful for speed but also for ACID and to keep business logic in a central place. (Business logic in clients is an idea as good as storing logic in js on webpages IMHO).
 

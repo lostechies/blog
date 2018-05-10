@@ -47,9 +47,9 @@ Caveat emptor. To write this script, I picked up pieces of PowerShell and stuck 
 
 Start the Task Scheduler, select Create Task, create a daily trigger a little before bedtime, and set the action to run your PowerShell script.
 
-[<img src="http://lostechies.com/content/sharoncichelli/uploads/2012/11/sleepScheduledTask1-300x223.png" alt="Create Task in Windows Task Scheduler" width="300" height="223" class="aligncenter size-medium wp-image-145" />](/content/sharoncichelli/uploads/2012/11/sleepScheduledTask1.png)
+[<img src="https://lostechies.com/content/sharoncichelli/uploads/2012/11/sleepScheduledTask1-300x223.png" alt="Create Task in Windows Task Scheduler" width="300" height="223" class="aligncenter size-medium wp-image-145" />](/content/sharoncichelli/uploads/2012/11/sleepScheduledTask1.png)
 
-[<img src="http://lostechies.com/content/sharoncichelli/uploads/2012/11/sleepScheduledTaskAction-277x300.png" alt="Create new Action, set action type to Run a Program, enter PowerShell as the command" width="277" height="300" class="aligncenter size-medium wp-image-134" />](/content/sharoncichelli/uploads/2012/11/sleepScheduledTaskAction.png)
+[<img src="https://lostechies.com/content/sharoncichelli/uploads/2012/11/sleepScheduledTaskAction-277x300.png" alt="Create new Action, set action type to Run a Program, enter PowerShell as the command" width="277" height="300" class="aligncenter size-medium wp-image-134" />](/content/sharoncichelli/uploads/2012/11/sleepScheduledTaskAction.png)
 
 It&#8217;s currently set later than I&#8217;d ultimately like, but if I made too drastic a change all at once, I&#8217;d just flout myself and restart the computer. So this is a compromise, a deal I&#8217;m making with myself for now. Incremental improvements.
 

@@ -15,7 +15,7 @@ categories:
 ---
 I recently received a report of [SignalLeaf](http://signalleaf.com) being &#8220;blacklisted&#8221; by Chrome. After a bit of panic, and asking twitter to see if the site was having issues, I got confirmation that Android phones and other devices / browsers were getting a security warning about the SSL certificate I had installed on SignalLeaf.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2014/02/SSL-Cert-Issue-3.png" alt="SSL Cert Issue 3" width="337" height="600" border="0" /> <img src="http://lostechies.com/content/derickbailey/uploads/2014/02/SSL-Cert-Issue-1.png" alt="SSL Cert Issue 1" width="337" height="600" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2014/02/SSL-Cert-Issue-3.png" alt="SSL Cert Issue 3" width="337" height="600" border="0" /> <img src="https://lostechies.com/content/derickbailey/uploads/2014/02/SSL-Cert-Issue-1.png" alt="SSL Cert Issue 1" width="337" height="600" border="0" />
 
 This sent me in to a bit more of a panic, as I had no clue what was wrong or how to fix it. Time to start googling error messages and random combinations of words related to the services I&#8217;m using&#8230;
 

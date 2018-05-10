@@ -11,7 +11,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/sean_chambers/archive/2009/08/24/refactoring-day-24-remove-arrowhead-antipattern.aspx/"
 ---
-Today’s refactoring is based on the c2 wiki entry and can be <a href="http://c2.com/cgi/wiki?ArrowAntiPattern" target="_blank">found here</a>. Los Techies own Chris Missal also did a very informative post on the antipattern that you can <a href="http://www.lostechies.com/blogs/chrismissal/archive/2009/05/27/anti-patterns-and-worst-practices-the-arrowhead-anti-pattern.aspx" target="_blank">find here</a>.
+Today’s refactoring is based on the c2 wiki entry and can be <a href="http://c2.com/cgi/wiki?ArrowAntiPattern" target="_blank">found here</a>. Los Techies own Chris Missal also did a very informative post on the antipattern that you can <a href="https://lostechies.com/blogs/chrismissal/archive/2009/05/27/anti-patterns-and-worst-practices-the-arrowhead-anti-pattern.aspx" target="_blank">find here</a>.
 
 Simply put, the arrowhead antipattern is when you have nested conditionals so deep that they form an arrowhead of code. I see this very often in different code bases and it makes for high <a href="http://en.wikipedia.org/wiki/Cyclomatic_complexity" target="_blank">cyclomatic complexity</a> in code.
 

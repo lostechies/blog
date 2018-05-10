@@ -28,7 +28,7 @@ At this point, I’m still a complete n00b in terms of UI test automation with S
 
 Ok, that’s probably a Step 0… but I’ll go head and include it anyways. Head on over to [SeleniumHQ](http://seleniumhq.org/) and download the latest Selenium Core. At this time, I’m using v1.0.1. Once you have that package downloaded, you can unzip the contents into a folder that is accessible to your web server. You’ll end up with a folder structure that contains everything you need to get started, and have all of the built in selenium tests available for you to run. 
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_1F6CB2E8.png" width="592" height="318" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_1F6CB2E8.png" width="592" height="318" />
 
 You can open the index.html file in a browser and see all of the tests run. This isn’t terribly interesting to me, though, since it only shows the tests running and not how to work with them or write them.
 
@@ -42,7 +42,7 @@ I’m not going to touch any of the forms and database related stuff, though, so
 
 Once you’ve got the MVC project setup, you should be able to hit the home page of the app and see this:
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_7EE57335.png" width="730" height="275" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_7EE57335.png" width="730" height="275" />
 
 &#160;</p> 
 
@@ -54,7 +54,7 @@ I like to set up a separate project so that I don’t have to ship my UI test su
 
 The end result of having both projects in your visual studio solution should look something like this:
 
-&#160; <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_508BED88.png" width="283" height="331" />
+&#160; <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_508BED88.png" width="283" height="331" />
 
 Notice that the UITestSuite project is empty – no App_Data, no web.config, no nothing… we don’t need any of that because we’re dealing with plain HTML files, not an ASP.NET codebase. The reason I used an ASP.NET application here, was to make management of the files easier in Visual Studio.
 
@@ -66,7 +66,7 @@ Remember those 7 folders and 6 files that you unpacked at the root level of the 
 
 The result looks like this:
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_7E0D0D4B.png" width="285" height="350" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_7E0D0D4B.png" width="285" height="350" />
 
 &#160;
 
@@ -78,7 +78,7 @@ To start with, create a plain old HTML file called “TestSuite.html” in the r
 
 Here’s the screenshot of the project:
 
-&#160; <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_169CAA9C.png" width="285" height="369" />
+&#160; <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_169CAA9C.png" width="285" height="369" />
 
 and here’s the contents of the TestSuite html file:
 
@@ -198,7 +198,7 @@ and here’s the contents of the TestSuite html file:
       </p>
       
       <p>
-        <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_5D199AA4.png" width="257" height="108" />
+        <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_5D199AA4.png" width="257" height="108" />
       </p>
       
       <p>
@@ -529,7 +529,7 @@ and here’s the contents of the TestSuite html file:
           </p>
           
           <p>
-            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_67D6F1F9.png" width="664" height="32" />
+            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_67D6F1F9.png" width="664" height="32" />
           </p>
           
           <p>
@@ -541,15 +541,15 @@ and here’s the contents of the TestSuite html file:
           </p>
           
           <p>
-            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_35731E7A.png" width="811" height="726" />
+            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_35731E7A.png" width="811" height="726" />
           </p></p> 
           
           <p>
-            To run the test, click the “Play all” ( <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_26C87295.png" width="24" height="13" /> )button in the Selenium TestRunner section of the windows. You’ll see the bottom half of this page switch over to your MVC app, the page will change from the home page to the About us page, and the tests in the middle top of the screen should all turn green!
+            To run the test, click the “Play all” ( <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_26C87295.png" width="24" height="13" /> )button in the Selenium TestRunner section of the windows. You’ll see the bottom half of this page switch over to your MVC app, the page will change from the home page to the About us page, and the tests in the middle top of the screen should all turn green!
           </p>
           
           <p>
-            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_4D9688D5.png" width="813" height="729" />
+            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_4D9688D5.png" width="813" height="729" />
           </p>
           
           <p>
@@ -569,7 +569,7 @@ and here’s the contents of the TestSuite html file:
           </p>
           
           <p>
-            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_3AE18F1E.png" width="282" height="231" />
+            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_3AE18F1E.png" width="282" height="231" />
           </p>
           
           <p>
@@ -581,7 +581,7 @@ and here’s the contents of the TestSuite html file:
           </p>
           
           <p>
-            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_015E7F27.png" width="336" height="160" />
+            <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_015E7F27.png" width="336" height="160" />
           </p></p> 
           
           <h3>

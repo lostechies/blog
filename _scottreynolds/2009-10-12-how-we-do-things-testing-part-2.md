@@ -19,7 +19,7 @@ redirect_from: "/blogs/scottcreynolds/archive/2009/10/11/how-we-do-things-testin
 ---
 _This content comes solely from my experience, study, and a lot of trial and error (mostly error). I make no claims stating that which works for me will work for you. As with all things, your mileage may vary, and you will need to apply all knowledge through the filter of your context in order to strain out the good parts for you. Also, feel free to call BS on anything I say. I write this as much for me to learn as for you._
 
-_This is part 5 of the [How We Do Things](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx) series._
+_This is part 5 of the [How We Do Things](https://lostechies.com/blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx) series._
 
 In the last installment I talked about our the evolution of our TDD/BDD Practice. In this one, I will talk more specifically about the tools we use, where we apply TDD, and other testing practices we employ.
 

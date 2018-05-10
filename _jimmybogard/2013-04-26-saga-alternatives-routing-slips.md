@@ -15,7 +15,7 @@ In the last few posts on sagas, we looked at a variety of patterns of modeling l
 
 Back in our sandwich shop example, we had a picture of an interaction starting a process and moving down the line until completion:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/04/image_thumb.png" width="607" height="257" />](http://lostechies.com/content/jimmybogard/uploads/2013/04/image.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2013/04/image_thumb.png" width="607" height="257" />](https://lostechies.com/content/jimmybogard/uploads/2013/04/image.png)
 
 Not quite clear in this picture is that if we were to model this process as a saga, we’d have a central point in which all messages must flow to for decisions to be made on the next step. But is there really any decision to be made in the picture above? In a true saga, we have a sequence of steps and a set of compensating actions (in a very simplistic case). Many times, however, there’s no need to worry about compensations in case of failures. Nor does the order in which we do things change much.
 
@@ -25,7 +25,7 @@ The key differentiator is that there’s nothing really to coordinate – the pr
 
 In our sandwich model, we need to tweak our picture to represent the reality of what’s going on. Once I place my order, the sequence of steps to fulfill my order are known up front, based on simply examining my order. The only decision to be made is to inspect the order and write the steps down. My order then flows through the system based on the pre-defined steps:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/04/image_thumb1.png" width="607" height="242" />](http://lostechies.com/content/jimmybogard/uploads/2013/04/image1.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2013/04/image_thumb1.png" width="607" height="242" />](https://lostechies.com/content/jimmybogard/uploads/2013/04/image1.png)
 
 &nbsp;
 

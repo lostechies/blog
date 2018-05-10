@@ -15,7 +15,7 @@ categories:
 ---
 A long time ago, in a galaxy far, far away… 
 
-It was almost a year ago that [I announced a book](http://lostechies.com/derickbailey/2012/07/06/im-wring-a-book-on-building-backbone-plugins/) on building Backbone.js plugins. Since then… nothing. Well I finally got tired of sitting on it and over the weekend I made a bunch of edits, cleaned up a lot and released the first 6 chapters of the book via Leanpub!
+It was almost a year ago that [I announced a book](https://lostechies.com/derickbailey/2012/07/06/im-wring-a-book-on-building-backbone-plugins/) on building Backbone.js plugins. Since then… nothing. Well I finally got tired of sitting on it and over the weekend I made a bunch of edits, cleaned up a lot and released the first 6 chapters of the book via Leanpub!
 
 <https://leanpub.com/building-backbone-plugins>
 

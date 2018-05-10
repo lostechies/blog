@@ -19,6 +19,6 @@ After also speaking with fellow LosTechies, I am now going to work towards turni
 
 For reference here is the original introductory post with a listing of all 31 posts:
 
-<http://www.lostechies.com/blogs/sean_chambers/archive/2009/07/31/31-days-of-refactoring.aspx>
+<https://lostechies.com/blogs/sean_chambers/archive/2009/07/31/31-days-of-refactoring.aspx>
 
 I hope everyone enjoyed! Till next time. 😀

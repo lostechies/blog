@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/06/29/ad-hoc-mapping-with-nhibe
 ---
 In my recent adventures with massive bulk processing, there are some times when I want to pull bulk loaded tables from SQL, but don’t want to go through all the trouble of building a mapping in NHibernate.&#160; For example, one recent project had an intermediate processing table of something like:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2656431D.png" width="356" height="138" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_26C27612.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2656431D.png" width="356" height="138" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_26C27612.png) 
 
 This table is used in a bulk copy scenario, so it’s very string-based to ease the burden of bulk loading.&#160; Later, we’ll transactionally process this table to update our actual customer table.&#160; In the meantime, we want to use this data in a .NET application.&#160; We have a few options:
 

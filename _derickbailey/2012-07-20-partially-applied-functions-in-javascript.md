@@ -15,7 +15,7 @@ categories:
   - Underscore
   - WinJS
 ---
-I&#8217;m finding myself doing more and more [functional programming](http://en.wikipedia.org/wiki/Functional_programming) with JavaScript lately &#8211; especially in recent days with this WinJS project I&#8217;m working on, and [the heavy use of promises that it encourages](http://lostechies.com/derickbailey/2012/07/19/want-to-build-win8winjs-apps-you-need-to-understand-promises/). This feels a little odd to me, considering my current passion for building object-oriented JavaScript apps with Backbone. But at the same time, there&#8217;s something very natural about a functional style in JavaScript. There are a lot of fun things you can do with a functional style in JavaScript and I encourage you to explore it.
+I&#8217;m finding myself doing more and more [functional programming](http://en.wikipedia.org/wiki/Functional_programming) with JavaScript lately &#8211; especially in recent days with this WinJS project I&#8217;m working on, and [the heavy use of promises that it encourages](https://lostechies.com/derickbailey/2012/07/19/want-to-build-win8winjs-apps-you-need-to-understand-promises/). This feels a little odd to me, considering my current passion for building object-oriented JavaScript apps with Backbone. But at the same time, there&#8217;s something very natural about a functional style in JavaScript. There are a lot of fun things you can do with a functional style in JavaScript and I encourage you to explore it.
 
 ## Partial Function Application
 
@@ -63,4 +63,4 @@ In this version, the inline function has been removed and a local variable has b
 
 ## No, Really. An Actual Use Case For This?
 
-Ok, this is a pretty trivial example and can easily be argued as unnecessary. The original code wasn&#8217;t that bad and may be easier to understand for some people. But the end result of the chained &#8220;then&#8221; statements has a certain beauty and elegance that I love. It&#8217;s got a distinct functional style and flow that makes it very easy for me to read, as if [I&#8217;m looking at a sequence diagram for my code](http://lostechies.com/derickbailey/2012/05/10/modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps/) &#8211; and I can&#8217;t help but love that.
+Ok, this is a pretty trivial example and can easily be argued as unnecessary. The original code wasn&#8217;t that bad and may be easier to understand for some people. But the end result of the chained &#8220;then&#8221; statements has a certain beauty and elegance that I love. It&#8217;s got a distinct functional style and flow that makes it very easy for me to read, as if [I&#8217;m looking at a sequence diagram for my code](https://lostechies.com/derickbailey/2012/05/10/modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps/) &#8211; and I can&#8217;t help but love that.

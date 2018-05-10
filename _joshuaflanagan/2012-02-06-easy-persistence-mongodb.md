@@ -11,7 +11,7 @@ categories:
   - MongoDB
   - Ruby
 ---
-In my post &#8220;<a href="http://lostechies.com/joshuaflanagan/2012/01/31/great-time-to-be-a-developer/" target="_blank">Great time to be a developer</a>&#8220;, I listed <a href="http://www.mongodb.org/" target="_blank">MongoDB</a> as one of the tools that made my task (track travel times for a given route) easy. This post will show you how.
+In my post &#8220;<a href="https://lostechies.com/joshuaflanagan/2012/01/31/great-time-to-be-a-developer/" target="_blank">Great time to be a developer</a>&#8220;, I listed <a href="http://www.mongodb.org/" target="_blank">MongoDB</a> as one of the tools that made my task (track travel times for a given route) easy. This post will show you how.
 
 ## What do I need to store?
 

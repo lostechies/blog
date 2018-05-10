@@ -16,9 +16,9 @@ categories:
   - Silverlight
 redirect_from: "/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-static-reflection.aspx/"
 ---
-Please view the [table of content](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx) of this series for reference.
+Please view the [table of content](https://lostechies.com/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx) of this series for reference.
 
-In my [last post](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/01/07/fluent-silverlight-binding-dependency-properties-to-model-properties.aspx) about binding dependency properties of a Silverlight control to a view model I used LINQ expressions to define the binding. I have written in the [past](http://www.lostechies.com/blogs/gabrielschenker/archive/2009/02/03/dynamic-reflection-versus-static-reflection.aspx) about static reflection and the advantage of it versus dynamic reflection thus I do not want to repeat those arguments here. The main two reasons to use lambda expressions are
+In my [last post](https://lostechies.com/blogs/gabrielschenker/archive/2010/01/07/fluent-silverlight-binding-dependency-properties-to-model-properties.aspx) about binding dependency properties of a Silverlight control to a view model I used LINQ expressions to define the binding. I have written in the [past](https://lostechies.com/blogs/gabrielschenker/archive/2009/02/03/dynamic-reflection-versus-static-reflection.aspx) about static reflection and the advantage of it versus dynamic reflection thus I do not want to repeat those arguments here. The main two reasons to use lambda expressions are
 
   * the binding can be defined in a strongly typed manner 
   * the availability of meta information through the expression 

@@ -11,7 +11,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/joe_ocampo/archive/2007/07/17/come-and-get-it-los-techies-quot-pablo-quot-merchandise.aspx/"
 ---
-<img src="http://www.lostechies.com/sitefiles/1000/Pablo.png" align="left" />
+<img src="https://lostechies.com/sitefiles/1000/Pablo.png" align="left" />
 
 In an effort to raise money for our hosting and overall maintenance of Los Techies, we have opened up a <a href="https://www.cafepress.com/lostechies" target="_blank">CafePress</a> store featuring our very own &#8220;Pablo&#8221;! 
 

@@ -16,7 +16,7 @@ categories:
   - Principles and Patterns
 redirect_from: "/blogs/derickbailey/archive/2008/11/26/mapping-a-state-pattern-with-nhibernate.aspx/"
 ---
-In the comments of my previous post &#8211; <a href="http://www.lostechies.com/blogs/derickbailey/archive/2008/11/26/ptom-descriptive-state-enumeration.aspx" target="_blank">Descriptive State Enumeration</a> &#8211; Maxim Tihobrazov asked me to show how to map a state pattern with NHibernate; and I am more than happy to oblige!
+In the comments of my previous post &#8211; <a href="https://lostechies.com/blogs/derickbailey/archive/2008/11/26/ptom-descriptive-state-enumeration.aspx" target="_blank">Descriptive State Enumeration</a> &#8211; Maxim Tihobrazov asked me to show how to map a state pattern with NHibernate; and I am more than happy to oblige!
 
 ### NHibernate Mapping Options
 

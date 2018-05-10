@@ -31,12 +31,12 @@ If nothing is found, we ensure that all the cards are highlighted. If a card obj
   <tr>
     <td align="center" width="292">
       <p align="center">
-        <a href="http://lostechies.com/content/chrismissal/uploads/2011/03/all_cards_on_76CCBF81.png"><img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="34" alt="all_cards_on" src="http://lostechies.com/content/chrismissal/uploads/2011/03/all_cards_on_thumb_2B00E8C8.png" width="179" border="0" /></a>&#160; <br />The display when no numbers match the card type pattern.
+        <a href="https://lostechies.com/content/chrismissal/uploads/2011/03/all_cards_on_76CCBF81.png"><img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="34" alt="all_cards_on" src="https://lostechies.com/content/chrismissal/uploads/2011/03/all_cards_on_thumb_2B00E8C8.png" width="179" border="0" /></a>&#160; <br />The display when no numbers match the card type pattern.
       </p>
     </td>
     
     <td align="center" width="294">
-      <a href="http://lostechies.com/content/chrismissal/uploads/2011/03/visa_card_on_184BEF11.png"><img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="34" alt="visa_card_on" src="http://lostechies.com/content/chrismissal/uploads/2011/03/visa_card_on_thumb_6BC7E08C.png" width="179" border="0" /></a>&#160; <br />The display when a number matches the Visa card type pattern.
+      <a href="https://lostechies.com/content/chrismissal/uploads/2011/03/visa_card_on_184BEF11.png"><img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="34" alt="visa_card_on" src="https://lostechies.com/content/chrismissal/uploads/2011/03/visa_card_on_thumb_6BC7E08C.png" width="179" border="0" /></a>&#160; <br />The display when a number matches the Visa card type pattern.
     </td>
   </tr>
 </table>

@@ -37,7 +37,7 @@ For example, I encountered a lot of &#8220;variable declared but not used&#8221;
 </pre>
 </div>
 
-In this case, the specific warning is &#8220;The variable &#8216;ex&#8217; is declared but never used&#8221;.&nbsp; The problem is the variable &#8220;ex&#8221; is declared but never referenced in the &#8220;catch&#8221; block.&nbsp; The design flaw, at least one of them, is that exception handling is used for flow control.&nbsp; Any time you see try-catch block [swallow the exception](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/04/30/swallowing-exceptions-is-hazardous-to.aspx) and do something else, it&#8217;s a serious code smell.
+In this case, the specific warning is &#8220;The variable &#8216;ex&#8217; is declared but never used&#8221;.&nbsp; The problem is the variable &#8220;ex&#8221; is declared but never referenced in the &#8220;catch&#8221; block.&nbsp; The design flaw, at least one of them, is that exception handling is used for flow control.&nbsp; Any time you see try-catch block [swallow the exception](https://lostechies.com/blogs/jimmy_bogard/archive/2007/04/30/swallowing-exceptions-is-hazardous-to.aspx) and do something else, it&#8217;s a serious code smell.
 
 The problem about fixing the design issue is that **I&#8217;m dealing with legacy code, which has no tests**.&nbsp; Such design changes are foolish and even dangerous without proper automated tests in place.
 

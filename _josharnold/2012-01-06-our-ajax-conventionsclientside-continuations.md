@@ -15,14 +15,14 @@ tags:
   - fubumvc
   - jquery-continuations
 ---
-As I mentioned in [my previous post](http://lostechies.com/josharnold/2012/01/06/our-ajax-conventions-the-ajaxcontinuation/), I’m doing a write up of our AJAX conventions and how they’re paying off for us.
+As I mentioned in [my previous post](https://lostechies.com/josharnold/2012/01/06/our-ajax-conventions-the-ajaxcontinuation/), I’m doing a write up of our AJAX conventions and how they’re paying off for us.
 
 In this series of posts, I’m going to cover a few topics:
 
-  1. [The AjaxContinuation](http://lostechies.com/josharnold/2012/01/06/our-ajax-conventions-the-ajaxcontinuation/)
+  1. [The AjaxContinuation](https://lostechies.com/josharnold/2012/01/06/our-ajax-conventions-the-ajaxcontinuation/)
   2. Clientside Continuations (this post)
-  3. [Request Correlation](http://lostechies.com/josharnold/2012/01/07/our-ajax-conventionsrequest-correlation/)
-  4. [Validation](http://lostechies.com/josharnold/2012/01/08/our-ajax-conventionsvalidation/)
+  3. [Request Correlation](https://lostechies.com/josharnold/2012/01/07/our-ajax-conventionsrequest-correlation/)
+  4. [Validation](https://lostechies.com/josharnold/2012/01/08/our-ajax-conventionsvalidation/)
 
 ## $.continuations
 
@@ -44,7 +44,7 @@ Our convention is that unless you explicitly provide a success callback to any $
 
 ### Processing Continuations
 
-I’ve talked about [policies](http://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture-policies/) before and that’s exactly what we’re using to process the continuations. We have two functions: 1) matches(continuation) and 2) execute(continuation). Policies are registered via: $.continuations.applyPolicy() and we have several defaults.
+I’ve talked about [policies](https://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture-policies/) before and that’s exactly what we’re using to process the continuations. We have two functions: 1) matches(continuation) and 2) execute(continuation). Policies are registered via: $.continuations.applyPolicy() and we have several defaults.
 
 **refreshPolicy
   

@@ -134,7 +134,7 @@ And make our DinnerRepository expose its dependencies explicitly:
 
 Note that there are no no-arg constructors to be found!&#160; When StructureMap creates a DinnersController, it will look to resolve the IDinnerRepository dependency.&#160; That’s a DinnerRepository, which in turn needs the NerdDinnerDataContext.&#160; But that’s all hidden from us, we never need to wire up an entire graph, as we would if we stuck to the “new” operator.&#160; Just to make sure everything works, I can navigate to view upcoming dinners:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_34149D1D.png" width="644" height="437" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_411EA2FB.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_34149D1D.png" width="644" height="437" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_411EA2FB.png) 
 
 ## 
 

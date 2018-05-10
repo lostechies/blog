@@ -15,7 +15,7 @@ The old joke goes something like, “Oh Visual Studio?&#160; Yeah, that’s the 
 
 At this point, none of the whiz-bang toolbars and such are even visible, and my daily use looks something like this:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="434" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_3C45BFB0.png" width="644" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_3C756F70.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="434" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_3C45BFB0.png" width="644" border="0" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_3C756F70.png) 
 
 Notice anything missing?&#160; Zero toolbars or navigation helpers.&#160; Those are actually on another screen, out of the way so I can view the code, if I use them at all.&#160; Even with today’s large monitors, screen real estate should go to only the most important things.&#160; Since I’m writing code 99% of the time I’m in an IDE, my experience should be optimized for writing code.
 

@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/10/05/five-rules-for-writing-ef
 ---
 For about 3 years, I wrote absolutely horrible UI tests.&#160; These tests worked great for a while, but like most people that tried their hands at UI tests, found them to be utterly brittle and unmaintainable in the face of change.
 
-And, like most people, I would mark these tests explicit or ignored, until I ditched most or all of them.&#160; I’ve heard this story over and over again, from folks that wrote lots and lots of UI tests, only to see their investment go to waste as the time and effort to maintain these often-breaking tests far outweighs any benefit gained from full, end-to-end UI tests.&#160; I gave some presentations on [UI testing](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/10/22/c4mvc-ui-testing-screencast-posted.aspx), but two things I’d like to make absolutely clear:
+And, like most people, I would mark these tests explicit or ignored, until I ditched most or all of them.&#160; I’ve heard this story over and over again, from folks that wrote lots and lots of UI tests, only to see their investment go to waste as the time and effort to maintain these often-breaking tests far outweighs any benefit gained from full, end-to-end UI tests.&#160; I gave some presentations on [UI testing](https://lostechies.com/blogs/jimmy_bogard/archive/2009/10/22/c4mvc-ui-testing-screencast-posted.aspx), but two things I’d like to make absolutely clear:
 
   * Maintainable UI tests are absolutely possible
   * Automated UI tests are absolutely possible

@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2009/12/08/organizing-asp-net-mvc-so
 ---
 Recently, a question came up on Twitter around your favorite project structure/solution organizing for ASP.NET MVC projects.&#160; I’ve toyed around with quite a few different strategies for structuring projects, and I’m currently settled around one that gives me the most flexibility.&#160; It’s extremely simple:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_71130189.png" width="253" height="237" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_6B385DF0.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_71130189.png" width="253" height="237" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_6B385DF0.png) 
 
 That’s it, two projects.&#160; So what goes in each project?&#160; Let’s first look at the UI project.&#160; The UI project **contains only website content** and **contains no code**.&#160; And I mean _no code_.&#160; This includes:
 

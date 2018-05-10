@@ -15,7 +15,7 @@ categories:
 ---
 When writing a blog post or an article, the most horrifying thing in the world is the blank page. Where do I start? How do I make sure to capture interest to keep people reading? Should I talk about ??? or ??? and what about ??? &#8230; analysis paralysis, anyone?
 
-The same thing happens in software. Open visual studio, or vim, or whatever editor of your choice. Maybe create a project structure or have rails generate it for you. Then &#8230; CRAP?! WHERE DO I START?! What feature do I write first? (well, we know [what not to start with](http://lostechies.com/derickbailey/2011/05/17/dont-build-a-security-system-until-there-is-something-to-secure/), at least) What test do I write first? How do I know if I&#8217;m starting at the right place and delivering everything that I need, right away?!
+The same thing happens in software. Open visual studio, or vim, or whatever editor of your choice. Maybe create a project structure or have rails generate it for you. Then &#8230; CRAP?! WHERE DO I START?! What feature do I write first? (well, we know [what not to start with](https://lostechies.com/derickbailey/2011/05/17/dont-build-a-security-system-until-there-is-something-to-secure/), at least) What test do I write first? How do I know if I&#8217;m starting at the right place and delivering everything that I need, right away?!
 
 I&#8217;ve run into this more times than I can count, on both writing blog posts / articles and writing software.
 

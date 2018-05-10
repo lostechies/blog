@@ -26,7 +26,7 @@ Here is the sample.
 
 &#160;
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_344BD758.png" width="1028" height="337" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_1C949FF2.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_344BD758.png" width="1028" height="337" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_1C949FF2.png) 
 
 It is important to know that we have full code coverage over our application including integration tests, so that if something were to break as a result of loading this in a non deterministic order, we would know before we commit our changes to source control. 
 
@@ -36,6 +36,6 @@ It is important to know that we have full code coverage over our application inc
 
 Here is the code for the ForEach extension method, since I breezed over it.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_3875AF1D.png" width="1028" height="169" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_322ED88F.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_3875AF1D.png" width="1028" height="169" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_322ED88F.png) 
 
 This is a smaller post than I normally put together.. is this small of a post useful?

@@ -11,7 +11,7 @@ categories:
   - LINQ
 redirect_from: "/blogs/jimmy_bogard/archive/2009/10/15/more-missing-linq-operators.aspx/"
 ---
-Continuing an [old post on missing LINQ operators](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/07/some-improved-linq-operators.aspx), the wonders of extension methods allow us as developers to fill potential holes in LINQ operators.&#160; Whether it’s a Zip method (now included in .NET 4.0), or better methods for IComparer-based operators, I find myself adding more and more helpful LINQ operators, I wish were already in the framework.
+Continuing an [old post on missing LINQ operators](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/07/some-improved-linq-operators.aspx), the wonders of extension methods allow us as developers to fill potential holes in LINQ operators.&#160; Whether it’s a Zip method (now included in .NET 4.0), or better methods for IComparer-based operators, I find myself adding more and more helpful LINQ operators, I wish were already in the framework.
 
 ### Alternate
 

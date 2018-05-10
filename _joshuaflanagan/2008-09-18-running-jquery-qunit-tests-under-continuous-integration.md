@@ -17,7 +17,7 @@ redirect_from: "/blogs/joshuaflanagan/archive/2008/09/18/running-jquery-qunit-te
 
 ## Setup
 
-This post assumes you are already writing unit tests for your JavaScript code. If not, check out Chad&#8217;s post on <a href="http://www.lostechies.com/blogs/chad_myers/archive/2008/08/28/getting-started-with-jquery-qunit-for-client-side-javascript-testing.aspx" target="_blank">Getting Started with jQuery QUnit</a>. We use <a href="http://jquery.com/" target="_blank">jQuery</a> and QUnit at work, so my code examples are geared toward those frameworks. However, the approach should be very easy to adapt to your JavaScript framework of choice. 
+This post assumes you are already writing unit tests for your JavaScript code. If not, check out Chad&#8217;s post on <a href="https://lostechies.com/blogs/chad_myers/archive/2008/08/28/getting-started-with-jquery-qunit-for-client-side-javascript-testing.aspx" target="_blank">Getting Started with jQuery QUnit</a>. We use <a href="http://jquery.com/" target="_blank">jQuery</a> and QUnit at work, so my code examples are geared toward those frameworks. However, the approach should be very easy to adapt to your JavaScript framework of choice. 
 
 ## Overview
 

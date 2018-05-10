@@ -201,7 +201,7 @@ A coworker and I ran into this code in some of our WinForms in our Compact Frame
       </h3>
       
       <p>
-        The solution to this situation is fairly straightforward: <a href="http://www.lostechies.com/blogs/derickbailey/archive/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller.aspx">decouple the workflow</a> of <a href="http://www.lostechies.com/blogs/derickbailey/archive/2010/04/12/coupling-is-your-friend.aspx">your system from the forms in your system</a>. I’ve talked about this process a number of times on my blog and you can read all my posts on the <a href="http://www.lostechies.com/blogs/derickbailey/archive/tags/AppController/default.aspx">Application Controller</a> for information on how to go about doing this from a larger perspective.
+        The solution to this situation is fairly straightforward: <a href="https://lostechies.com/blogs/derickbailey/archive/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller.aspx">decouple the workflow</a> of <a href="https://lostechies.com/blogs/derickbailey/archive/2010/04/12/coupling-is-your-friend.aspx">your system from the forms in your system</a>. I’ve talked about this process a number of times on my blog and you can read all my posts on the <a href="https://lostechies.com/blogs/derickbailey/archive/tags/AppController/default.aspx">Application Controller</a> for information on how to go about doing this from a larger perspective.
       </p>
       
       <p>

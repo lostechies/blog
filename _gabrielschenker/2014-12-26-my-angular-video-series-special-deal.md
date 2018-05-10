@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 ---
-Packt Publishing, the publisher of my video series is offering a great 5$ deal until 6th of January 2015. You can watch [my video series](http://lostechies.com/gabrielschenker/2014/12/12/angular-js-my-video-series-is-ready/) and any other video for just 5 bucks! Go hurry…
+Packt Publishing, the publisher of my video series is offering a great 5$ deal until 6th of January 2015. You can watch [my video series](https://lostechies.com/gabrielschenker/2014/12/12/angular-js-my-video-series-is-ready/) and any other video for just 5 bucks! Go hurry…
 
 The main offer landing page is <https://www.packtpub.com/packt5dollar>
 

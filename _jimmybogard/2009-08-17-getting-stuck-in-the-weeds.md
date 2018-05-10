@@ -25,7 +25,7 @@ Well that’s disturbing.&#160; It all came about because they were trying to ma
 
 [](http://11011.net/software/vspaste)
 
-We’ll put aside the fact that value types should be immutable for now, but this was a scenario AutoMapper supported…until I started making the performance improvements of [using DynamicMethod](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/08/05/late-bound-invocations-with-dynamicmethod.aspx).&#160; But let’s review what I did, I wrapped the call to the real setter method with one that was loosely typed, giving me a method that would look something like this:
+We’ll put aside the fact that value types should be immutable for now, but this was a scenario AutoMapper supported…until I started making the performance improvements of [using DynamicMethod](https://lostechies.com/blogs/jimmy_bogard/archive/2009/08/05/late-bound-invocations-with-dynamicmethod.aspx).&#160; But let’s review what I did, I wrapped the call to the real setter method with one that was loosely typed, giving me a method that would look something like this:
 
 <pre><span style="color: blue">private void </span>DoIt(<span style="color: blue">object </span>source, <span style="color: blue">object </span>value)
 {

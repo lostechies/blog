@@ -114,7 +114,7 @@ The template:
 
 The variable options:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="192" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_671E1B82.png" width="392" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_2BCAB5C4.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="192" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_671E1B82.png" width="392" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/image_2BCAB5C4.png) 
 
 ### Live Template: “spec”
 
@@ -164,7 +164,7 @@ The template:
 
 The variable options:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="192" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_16DBC402.png" width="482" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_3B6D5186.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="192" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_16DBC402.png" width="482" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/image_3B6D5186.png) 
 
 ### Live Template: “obs”
 
@@ -190,10 +190,10 @@ The Template:
 
 The variable options:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="114" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_51C2F6CB.png" width="543" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_32141D03.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="114" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_51C2F6CB.png" width="543" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/image_32141D03.png) 
 
 ### Exported Template Package
 
 If you want to import these templates, I have an export of my BDD/SpecUnit templates from Resharper at the link below. These XML files can be directly imported into Resharper’s Live Templates and will have all of the above templates and options automatically set.
 
-<a href="http://www.lostechies.com/media/p/19944.aspx" target="_blank"><strong>You can download the template package (2 .xml files in a .zip file) here</strong></a>**.**
+<a href="https://lostechies.com/media/p/19944.aspx" target="_blank"><strong>You can download the template package (2 .xml files in a .zip file) here</strong></a>**.**

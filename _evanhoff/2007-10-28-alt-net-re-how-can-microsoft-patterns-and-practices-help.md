@@ -9,7 +9,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/evan_hoff/archive/2007/10/28/alt-net-re-how-can-microsoft-patterns-and-practices-help.aspx/"
 ---
-Please <a href="http://www.lostechies.com/blogs/evan_hoff/archive/2007/10/28/alt-net-how-can-microsoft-patterns-and-practices-help.aspx" target="_blank">read this</a> first&nbsp;
+Please <a href="https://lostechies.com/blogs/evan_hoff/archive/2007/10/28/alt-net-how-can-microsoft-patterns-and-practices-help.aspx" target="_blank">read this</a> first&nbsp;
 
 > \*\* I would challenge you to find a single page on P&P (or any other part of MSDN) that mentions any OO principle \*\*
 > 

@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/09/18/agile-cheat-sheet.aspx/"
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/09/agile-cheat-sheet.html)._
 
-I already have the [ReSharper cheat sheet](http://www.jetbrains.com/resharper/documentation/ReSharper30DefaultKeymap.pdf)&nbsp;and a&nbsp;[Smells to Refactorings quick reference](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/09/10/smells-to-refactorings-quick-reference.aspx).&nbsp; For those who have every cheat sheet taped to their walls,&nbsp;[Dave Laribee](http://laribee.com/blog/)&nbsp;created a nice Agile cheat sheet, that includes both the manifesto and the principles:
+I already have the [ReSharper cheat sheet](http://www.jetbrains.com/resharper/documentation/ReSharper30DefaultKeymap.pdf)&nbsp;and a&nbsp;[Smells to Refactorings quick reference](https://lostechies.com/blogs/jimmy_bogard/archive/2007/09/10/smells-to-refactorings-quick-reference.aspx).&nbsp; For those who have every cheat sheet taped to their walls,&nbsp;[Dave Laribee](http://laribee.com/blog/)&nbsp;created a nice Agile cheat sheet, that includes both the manifesto and the principles:
 
 [Agile cheat sheet](http://laribee.com/files/agile-cheat-sheet.pdf)
 

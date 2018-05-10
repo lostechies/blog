@@ -12,7 +12,7 @@ categories:
   - StructureMap
 redirect_from: "/blogs/chad_myers/archive/2009/07/14/just-say-no-to-poor-man-s-dependency-injection.aspx/"
 ---
-For background, Jimmy Bogard [originally posted](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/07/03/how-not-to-do-dependency-injection-in-nerddinner.aspx) about the ‘poor man’s dependency injection’ style used in NerdDinner. Not to single out NerdDinner, because there are lots of apps out there doing this. NerdDinner just happened to be the most recent and visible so it serves as a good whipping boy.
+For background, Jimmy Bogard [originally posted](https://lostechies.com/blogs/jimmy_bogard/archive/2009/07/03/how-not-to-do-dependency-injection-in-nerddinner.aspx) about the ‘poor man’s dependency injection’ style used in NerdDinner. Not to single out NerdDinner, because there are lots of apps out there doing this. NerdDinner just happened to be the most recent and visible so it serves as a good whipping boy.
 
 Tim Barcz respectfully countered with his post "[Why There’s Nothing Wrong With Dependency Injection in NerdDinner](http://devlicio.us/blogs/tim_barcz/archive/2009/07/12/why-there-s-nothing-wrong-with-dependency-injection-in-nerddinner.aspx).”
 

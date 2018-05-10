@@ -11,7 +11,7 @@ categories:
   - git
 redirect_from: "/blogs/jagregory/archive/2009/11/27/git-guts-merging-and-rebasing.aspx/"
 ---
-Here we go again, explaining the internals of Git with the intention of helping you understand what you&#8217;re doing day-to-day. Last time I covered [branches, HEAD, and fast-forwarding](http://www.lostechies.com/blogs/jagregory/archive/2009/11/25/git-s-guts-branches-head-and-fast-forwards.aspx). Today we&#8217;ll dive into the guts of merging and rebasing.
+Here we go again, explaining the internals of Git with the intention of helping you understand what you&#8217;re doing day-to-day. Last time I covered [branches, HEAD, and fast-forwarding](https://lostechies.com/blogs/jagregory/archive/2009/11/25/git-s-guts-branches-head-and-fast-forwards.aspx). Today we&#8217;ll dive into the guts of merging and rebasing.
 
 ### Merging branches
 
@@ -19,11 +19,11 @@ You&#8217;ve probably merged before. You do it when you want the changes from on
 
 Given the following commit structure, consisting of two branches created from the same commit, each with two commits after the branching occurred.
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure1.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure1.png)
 
 When these two branches are merged together, this is the structure that results:
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure2.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure2.png)
 
 The top-most commit, the red one, is a new commit made by the merge; the merge commit is what reminds Git that a merge occurred next time it&#8217;s showing the history. This commit is special, as it contains multiple parent&#8217;s in it&#8217;s meta-data; these multiple parent&#8217;s allow Git to follow the two trees of commits that constituted the branches that were merged.
 
@@ -33,11 +33,11 @@ When you merge two branches, it&#8217;s interesting to know that none of the com
 
 After a merge, if you were to view the history, you&#8217;d see it shown like the previous example, commits in chronological order; the feature branch commits are interspersed between the master commits.
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure2.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure2.png)
 
 Yet no commits have been altered in the merge, so how are the commits in a different order? Well, they&#8217;re not, Git&#8217;s just showing you it in the order you expect it to be in. Internally the structure is still as below:
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure3.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure3.png)
 
 The merge commit instructs Git to walk the two trees while building the history, and it just displays the results in chronological order. This makes more sense if you recall that Git commits don&#8217;t hold differences like other SCM systems, instead they each contain a snapshot of the complete repository; while in another SCM the ordering of commits is vital &#8212; otherwise the diffs wouldn&#8217;t build a valid file &#8212; Git is able to infer order without affecting the repository contents.
 
@@ -59,15 +59,15 @@ Git objects are immutable. To change an object after it&#8217;s been created is 
 
 I mentioned that merges don&#8217;t rewrite history, and that it&#8217;s a good thing. Now I&#8217;ll explain why. When you rewrite history, you do so by making changes to commits that ripple up the commit tree; when this happens, it can cause complications when others merge from you. Given a series of commits, like so:
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure4.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure4.png)
 
 You then share these commits with another user.
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure5.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure5.png)
 
 John now has Michael&#8217;s commits in his repository; however, Michael notices he&#8217;s made a typo in the first commit message, so he amends the commit message. The change in the message requires the commit be recreated. With that first commit recreated, the second commit now has an invalid parent reference, so that commit has to be recreated with the new reference; this recreation ripples it&#8217;s way up the tree, recreating each commit with a new parent. Michael has completely rewritten his tree&#8217;s history.
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure6.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure6.png)
 
 Notice all the commit hashes have changed in Michael&#8217;s repository, and John&#8217;s now don&#8217;t match. If Michael was then to make a new commit to his repository, and John tried to merge that change into his repository, Git would get very upset because the new commit would reference a commit that doesn&#8217;t exist in John&#8217;s repository.
 
@@ -81,11 +81,11 @@ When you rebase one branch onto another, Git undoes any changes you&#8217;ve mad
 
 You start with your diverged branches:
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure7.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure7.png)
 
 If you then rebase feature onto master, Git undoes the changes in master.
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure8.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure8.png)
 
 The history of both branches is now the same, master has been updated to reflect feature; the new commits that were made in master are now detached, floating in the repository without anything referencing them.
 
@@ -93,7 +93,7 @@ The next step is to replay the master commits onto the new structure. This is do
 
 After replaying the repository will look like this:
 
-![](http://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure9.png)
+![](https://lostechies.com/content/jamesgregory/uploads/2011/03.GitGuts.2/Figure9.png)
 
 The master branch commits are now on the top of the stack, after the commits from the feature branch.
 

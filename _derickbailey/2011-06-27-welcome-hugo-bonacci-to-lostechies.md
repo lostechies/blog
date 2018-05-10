@@ -18,4 +18,4 @@ For those of you who don&#8217;t know him, Hugo has been building his online rep
 
 It&#8217;s a big week for Hugo&#8230; not only is he joining LosTechies, but he&#8217;s also [starting his new job at Xamarin](http://hugoware.com/blog/joining-xamarin)! Yes, that [Xamarin](http://xamarin.com/). 🙂
 
-Everyone head over to [**Hugo&#8217;s new blog, here at LosTechies**](http://lostechies.com/hugobonacci/), send him a huge amount of congratulations for the new job and a big welcome to our little corner of the interwebs.
+Everyone head over to [**Hugo&#8217;s new blog, here at LosTechies**](https://lostechies.com/hugobonacci/), send him a huge amount of congratulations for the new job and a big welcome to our little corner of the interwebs.

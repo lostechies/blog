@@ -12,7 +12,7 @@ categories:
   - Ruby
 redirect_from: "/blogs/derickbailey/archive/2010/10/11/parsing-a-hash-tree-or-object-graph-using-the-maybe-monad-in-ruby.aspx/"
 ---
-I was playing around with [the maybe monad that I wrote in my last post](http://www.lostechies.com/blogs/derickbailey/archive/2010/10/09/the-maybe-monad-in-ruby.aspx), and it occurred to me that I might be able to parse out a object graph and grab a value from that graph with the monad. For example, look at this hash tree:
+I was playing around with [the maybe monad that I wrote in my last post](https://lostechies.com/blogs/derickbailey/archive/2010/10/09/the-maybe-monad-in-ruby.aspx), and it occurred to me that I might be able to parse out a object graph and grab a value from that graph with the monad. For example, look at this hash tree:
 
 <div>
   <div>

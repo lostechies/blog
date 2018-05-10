@@ -14,7 +14,7 @@ categories:
 redirect_from: "/blogs/derickbailey/archive/2010/10/09/the-maybe-monad-in-ruby.aspx/"
 ---
 {% raw %}
-Just for fun, I decided to see what a monad would look like in ruby. I chose to use the Maybe monad since that’s what I used in [my previous post on monads in C#](http://www.lostechies.com/blogs/derickbailey/archive/2010/09/29/monads-in-c-which-part-is-the-monad.aspx). Here’s what I came up with:
+Just for fun, I decided to see what a monad would look like in ruby. I chose to use the Maybe monad since that’s what I used in [my previous post on monads in C#](https://lostechies.com/blogs/derickbailey/archive/2010/09/29/monads-in-c-which-part-is-the-monad.aspx). Here’s what I came up with:
 
 <div>
   <div>

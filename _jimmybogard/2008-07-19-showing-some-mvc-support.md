@@ -11,7 +11,7 @@ categories:
   - ASPNETMVC
 redirect_from: "/blogs/jimmy_bogard/archive/2008/07/19/showing-some-mvc-support.aspx/"
 ---
-[Joey](http://www.lostechies.com/blogs/joeydotnet/default.aspx) was kind enough to create a shirt to support MVC:
+[Joey](https://lostechies.com/blogs/joeydotnet/default.aspx) was kind enough to create a shirt to support MVC:
 
 [CafePress shirt](http://www.cafepress.com/cp/customize/designer.aspx?clear=true&number=286179670)
 

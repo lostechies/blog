@@ -13,7 +13,7 @@ categories:
   - MongoDB
   - Ruby
 ---
-In my previous post on [writing a thor application](http://lostechies.com/derickbailey/2011/04/29/writing-a-thor-application/), I mentioned the use of mongo db and the [mongoid document mapper](http://mongoid.org/), and how I am using these tools outside the context of a rails application. As I mentioned in that post, it&#8217;s turned out to a fairly simple thing to do. I was surprised at how easy it was to get set up, configure and use, honestly.
+In my previous post on [writing a thor application](https://lostechies.com/derickbailey/2011/04/29/writing-a-thor-application/), I mentioned the use of mongo db and the [mongoid document mapper](http://mongoid.org/), and how I am using these tools outside the context of a rails application. As I mentioned in that post, it&#8217;s turned out to a fairly simple thing to do. I was surprised at how easy it was to get set up, configure and use, honestly.
 
  
 
@@ -46,7 +46,7 @@ end</pre>
 
  
 
-The options class comes from my post on [building a thor application](http://lostechies.com/derickbailey/2011/04/29/writing-a-thor-application/). This is the OpenStruct that I created out of the options hash that thor created for me. Also note that I&#8217;m never checking or defaulting the server and database values in this code, directly. I&#8217;m letting thor do that for my by using the :default => &#8220;value&#8221; option for the method_options in question.
+The options class comes from my post on [building a thor application](https://lostechies.com/derickbailey/2011/04/29/writing-a-thor-application/). This is the OpenStruct that I created out of the options hash that thor created for me. Also note that I&#8217;m never checking or defaulting the server and database values in this code, directly. I&#8217;m letting thor do that for my by using the :default => &#8220;value&#8221; option for the method_options in question.
 
 These few lines of code are all I needed to configure mongoid in my little app, in combination with the options that the thor script provides.
 

@@ -11,7 +11,7 @@ categories:
   - StructureMap
 redirect_from: "/blogs/jimmy_bogard/archive/2009/12/17/advanced-structuremap-connecting-implementations-to-open-generic-types.aspx/"
 ---
-One pattern we’re starting to see more and more is the idea of connecting messages to handlers.&#160; These messages might be domain command messages, [ActionResult messages](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/12/12/enabling-ioc-in-asp-net-actionresults-or-a-better-actionresult.aspx), and more.&#160; Beyond messaging implementations, we start to see a more basic pattern start to emerge.&#160; We have some interface describing a contract that happens to be generic:
+One pattern we’re starting to see more and more is the idea of connecting messages to handlers.&#160; These messages might be domain command messages, [ActionResult messages](https://lostechies.com/blogs/jimmy_bogard/archive/2009/12/12/enabling-ioc-in-asp-net-actionresults-or-a-better-actionresult.aspx), and more.&#160; Beyond messaging implementations, we start to see a more basic pattern start to emerge.&#160; We have some interface describing a contract that happens to be generic:
 
 <pre><span style="color: blue">public interface </span><span style="color: #2b91af">IFooService</span>&lt;T&gt;
 {

@@ -18,7 +18,7 @@ categories:
   - Model-View-Presenter
   - Modules
 ---
-In my post about [re-launching myself in to the independent life](http://lostechies.com/derickbailey/2014/01/20/2013-was-an-amazing-year-2014-will-be-a-rebirth/), I talked a little bit about restarting my effort to complete [my Building Backbone Plugins eBook](http://backboneplugins.com). I&#8217;ve already started down the path, reviewing existing chapters and beginning to fill in some of the missing pieces. My goal is to have the book content complete by the end of January, and have it edited well enough to call it done by the end of February. 
+In my post about [re-launching myself in to the independent life](https://lostechies.com/derickbailey/2014/01/20/2013-was-an-amazing-year-2014-will-be-a-rebirth/), I talked a little bit about restarting my effort to complete [my Building Backbone Plugins eBook](http://backboneplugins.com). I&#8217;ve already started down the path, reviewing existing chapters and beginning to fill in some of the missing pieces. My goal is to have the book content complete by the end of January, and have it edited well enough to call it done by the end of February. 
 
 As part of my effort to get things done, I&#8217;m re-examining the flow of content and chapters. And I have to say coming back to this book after many months away is an eye opener in this regard. I immediately noticed several chapters out of place and an entire section of content that didn&#8217;t make sense in the flow of information. I&#8217;ve already taken steps to correct this and have reorganized several chapters and removed Part 5 of the book, absorbing the chapters into other parts. In the middle of all this, I also decided that one of the chapters from Part 5 does not need to be in the book at all &#8211; the chapter on building an email list component. Rather than toss the entire work in to the trash, though, I wanted to share this chapter with everyone. There&#8217;s a chance that it may find its way in to another book at another time, but that is yet to be determined.
 
@@ -38,7 +38,7 @@ A typical email app has several distinct areas of the application’s screen. Th
 
 The classic example of Gmail illustrates all of these basic components, and many more.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2014/01/gmail-components.png" alt="Gmail components" width="600" height="496" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2014/01/gmail-components.png" alt="Gmail components" width="600" height="496" border="0" />
 
 The primary email screen shows a list of categories or labels to the left, a list of email to the right, a search screen at the top, filters, chat sessions, and much more. Each of these areas of functionality can be broken down in to separate components that can then be orchestrated to created a more functional system. This orchestration happens through an API that each of the components exposes, with a higher level workflow (as discussed in the previous chapter) controlling all of the individual components.
 

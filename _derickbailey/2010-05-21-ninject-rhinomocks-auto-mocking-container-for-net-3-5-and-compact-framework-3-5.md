@@ -176,7 +176,7 @@ Here’s an example of what I’m talking about:
       </p>
       
       <p>
-        Now I know there is a general sense of “NO!!!!!” in the alt.net crowd these days… but I don’t understand that. Just because you <em>can</em> abuse a tool, doesn’t mean you should or will. <a href="http://www.lostechies.com/blogs/derickbailey/archive/2010/02/03/branch-per-feature-how-i-manage-subversion-with-git-branches.aspx">I like wielding triple-edged swords with poison-tip spikes on the handle.</a> It give me power and flexibility to get things done… and yes, the occasional debilitating injury… but hey, a little pain just means I’m learning what not to do, right? 🙂
+        Now I know there is a general sense of “NO!!!!!” in the alt.net crowd these days… but I don’t understand that. Just because you <em>can</em> abuse a tool, doesn’t mean you should or will. <a href="https://lostechies.com/blogs/derickbailey/archive/2010/02/03/branch-per-feature-how-i-manage-subversion-with-git-branches.aspx">I like wielding triple-edged swords with poison-tip spikes on the handle.</a> It give me power and flexibility to get things done… and yes, the occasional debilitating injury… but hey, a little pain just means I’m learning what not to do, right? 🙂
       </p>
       
       <p>

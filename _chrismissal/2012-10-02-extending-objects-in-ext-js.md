@@ -14,7 +14,7 @@ tags:
   - javascript
   - javascript objects
 ---
-Last time we explored [JavaScript object extension](http://lostechies.com/chrismissal/2012/09/27/extending-objects-with-javascript/ "Extending Objects with JavaScript") we dove into the most popular JavaScript library in the known universe, [jQuery](http://lostechies.com/chrismissal/2012/09/27/extending-objects-in-jquery/ "Extending Objects in jQuery"). This time around we&#8217;ll be looking at Ext JS, a framework I&#8217;ve been using quite a bit lately. Ext JS relies on this capability all over the place. Especially when you want to create your own customizable components.
+Last time we explored [JavaScript object extension](https://lostechies.com/chrismissal/2012/09/27/extending-objects-with-javascript/ "Extending Objects with JavaScript") we dove into the most popular JavaScript library in the known universe, [jQuery](https://lostechies.com/chrismissal/2012/09/27/extending-objects-in-jquery/ "Extending Objects in jQuery"). This time around we&#8217;ll be looking at Ext JS, a framework I&#8217;ve been using quite a bit lately. Ext JS relies on this capability all over the place. Especially when you want to create your own customizable components.
 
 {% gist 3797195 file=extending-objects-in-ext-js-1.js %}
 

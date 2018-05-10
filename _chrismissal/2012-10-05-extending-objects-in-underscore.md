@@ -25,7 +25,7 @@ And the output:
 
 {% gist 3797198 file=extending-objects-in-underscore-2.js %}
 
-This is the exact same output as our [Ext JS example](http://lostechies.com/chrismissal/2012/10/02/extending-objects-in-ext-js/ "Extending Objects in Ext JS"). Since there&#8217;s nothing new, I can&#8217;t go on about too many differences, but I can, however, bring up another related function in Underscore, _defaults_.
+This is the exact same output as our [Ext JS example](https://lostechies.com/chrismissal/2012/10/02/extending-objects-in-ext-js/ "Extending Objects in Ext JS"). Since there&#8217;s nothing new, I can&#8217;t go on about too many differences, but I can, however, bring up another related function in Underscore, _defaults_.
 
 The _defaults_ method is interesting in that it works very similarly, but turns our familiar objects into something new that the others haven&#8217;t yet done.
 

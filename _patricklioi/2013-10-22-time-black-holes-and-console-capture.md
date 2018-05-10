@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 ---
-In [Listen Up!](http://lostechies.com/patricklioi/2013/10/21/listen-up/), we covered the implementation of Fixie/TeamCity integration, focusing on the main abstraction that feature introduced. Integrating with TeamCity forced me to improve the project in other ways, affecting more than just TeamCity: tracking the execution time of each test, addressing a console redirection bug, and capturing console output for report generation.
+In [Listen Up!](https://lostechies.com/patricklioi/2013/10/21/listen-up/), we covered the implementation of Fixie/TeamCity integration, focusing on the main abstraction that feature introduced. Integrating with TeamCity forced me to improve the project in other ways, affecting more than just TeamCity: tracking the execution time of each test, addressing a console redirection bug, and capturing console output for report generation.
 
 ## Test Timing
 

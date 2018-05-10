@@ -13,7 +13,7 @@ redirect_from: "/blogs/chad_myers/archive/2008/08/18/let-s-try-it-again-testabil
 ---
 </p> </p> 
 
-My [last try](http://www.lostechies.com/blogs/chad_myers/archive/2008/08/16/design-and-testability.aspx) wasn’t that successful, so I’ll try it again:
+My [last try](https://lostechies.com/blogs/chad_myers/archive/2008/08/16/design-and-testability.aspx) wasn’t that successful, so I’ll try it again:
 
 > (In-language based) Testability is the residue of a good design.*
 

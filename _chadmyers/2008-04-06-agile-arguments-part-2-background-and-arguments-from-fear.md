@@ -12,7 +12,7 @@ categories:
   - Agile Arguments
 redirect_from: "/blogs/chad_myers/archive/2008/04/06/agile-arguments-part-2-background-and-arguments-from-fear.aspx/"
 ---
-In this second part to [my ongoing Agile Arguments series](http://www.lostechies.com/blogs/chad_myers/archive/2008/04/03/agile-arguments-part-1-the-kickoff.aspx), I want to go into a little background and cover a little bit about (what I think) Agile is about and it&#8217;s purpose and values. I&#8217;d like to also talk a little bit about why I think this stuff is important enough to spend time arguing about. 
+In this second part to [my ongoing Agile Arguments series](https://lostechies.com/blogs/chad_myers/archive/2008/04/03/agile-arguments-part-1-the-kickoff.aspx), I want to go into a little background and cover a little bit about (what I think) Agile is about and it&#8217;s purpose and values. I&#8217;d like to also talk a little bit about why I think this stuff is important enough to spend time arguing about. 
 
 # A little background
 

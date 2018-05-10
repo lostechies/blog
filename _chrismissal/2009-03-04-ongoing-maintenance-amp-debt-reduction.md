@@ -16,7 +16,7 @@ I don’t like like analogies or metaphors most of the time, they’re weak logi
   * Star Trek isn’t real 
   * Even people who are aware of it, aren’t familiar with all the alien races in the shows 
 
-That’s my little rant on weak analogies. I’ll be using my own later, so call me a hypocrite, I’m fine with that. Better examples include “<a title="Professionalism and Thermodynamics" href="http://www.lostechies.com/blogs/derickbailey/archive/2008/12/04/professionalism-and-thermodynamics.aspx" target="_blank">Professionalism and Thermodynamics</a>” and even non-comparisons like “<a title="Paying Down Your Technical Debt" href="http://www.codinghorror.com/blog/archives/001230.html" target="_blank">Paying Down Your Technical Debt</a>”. Here’s my stab at an analogy that (still weak) is likely a bit more easily understood.
+That’s my little rant on weak analogies. I’ll be using my own later, so call me a hypocrite, I’m fine with that. Better examples include “<a title="Professionalism and Thermodynamics" href="https://lostechies.com/blogs/derickbailey/archive/2008/12/04/professionalism-and-thermodynamics.aspx" target="_blank">Professionalism and Thermodynamics</a>” and even non-comparisons like “<a title="Paying Down Your Technical Debt" href="http://www.codinghorror.com/blog/archives/001230.html" target="_blank">Paying Down Your Technical Debt</a>”. Here’s my stab at an analogy that (still weak) is likely a bit more easily understood.
 
 ### Keeping your surroundings tidy
 

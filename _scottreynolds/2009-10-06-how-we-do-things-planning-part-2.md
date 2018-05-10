@@ -15,14 +15,14 @@ redirect_from: "/blogs/scottcreynolds/archive/2009/10/06/how-we-do-things-planni
 ---
 _This content comes solely from my experience, study, and a lot of trial and error (mostly error). I make no claims stating that which works for me will work for you. As with all things, your mileage may vary, and you will need to apply all knowledge through the filter of your context in order to strain out the good parts for you. Also, feel free to call BS on anything I say. I write this as much for me to learn as for you._
 
-_This is part 3 of the [How We Do Things](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx) series._
+_This is part 3 of the [How We Do Things](https://lostechies.com/blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx) series._
 
 In the last post I talked about the various evolutions of planning the team has been through over the last few years. This post is about what we do now. Take a moment to read the last one to catch up on what the picture below is about.
 
 ### The Planning Space-Time Continuum
 
 <div style="text-align:center">
-  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/planningtimeline.jpg" alt="planningtimeline.jpg" border="0" width="523" height="272" />
+  <img src="https://lostechies.com/content/scottreynolds/uploads/2011/03/planningtimeline.jpg" alt="planningtimeline.jpg" border="0" width="523" height="272" />
 </div>
 
 The basic gist here is that as items move from right to left they become more well-known, more defined, and more likely to actually be worked on.
@@ -42,7 +42,7 @@ This planning is unscheduled and happens as needed. If we are running low on wor
 ### Near-Term Planning &#8211; The Rolling Wave
 
 <div style="text-align:center">
-  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/rollingwave.jpg" alt="rollingwave.jpg" border="0" width="375" height="250" />
+  <img src="https://lostechies.com/content/scottreynolds/uploads/2011/03/rollingwave.jpg" alt="rollingwave.jpg" border="0" width="375" height="250" />
 </div>
 
 The planning in the prior section is directly seeded by the planning done in this section. This is the next segment of the continuum to the right, and represents the picture of what we will probably be working on sometime in the next month.
@@ -64,7 +64,7 @@ The picture of the wave at any given time allows us to make decisions about what
 ### The Roadmap
 
 <div style="text-align:left;vertical-align:text-top">
-  <img src="http://lostechies.com/content/scottreynolds/uploads/2011/03/good_luck_sign.jpg" alt="good_luck_sign.jpg" border="0" width="180" height="250" style="float:left;padding: 3px" />The sections farthest to the right are our next quarter/next year roadmap. This is where we would understand longer-running strategic initiatives or targets that we will ideally get to if, and only if, <em>current conditions remain the same.</em> This includes items from both the corporate initiatives roadmap, and our internal project roadmap. This could be anything from &#8220;In Q4 we are likely going to introduce a new product line&#8221; to &#8220;we&#8217;d really like to replace our hand-rolled data access with NHibernate.&#8221; We put this stuff on the roadmap to serve as the mile markers for where we (the organization, not just the developers) want to take our software.
+  <img src="https://lostechies.com/content/scottreynolds/uploads/2011/03/good_luck_sign.jpg" alt="good_luck_sign.jpg" border="0" width="180" height="250" style="float:left;padding: 3px" />The sections farthest to the right are our next quarter/next year roadmap. This is where we would understand longer-running strategic initiatives or targets that we will ideally get to if, and only if, <em>current conditions remain the same.</em> This includes items from both the corporate initiatives roadmap, and our internal project roadmap. This could be anything from &#8220;In Q4 we are likely going to introduce a new product line&#8221; to &#8220;we&#8217;d really like to replace our hand-rolled data access with NHibernate.&#8221; We put this stuff on the roadmap to serve as the mile markers for where we (the organization, not just the developers) want to take our software.
 </div>
 
 Some items on the roadmap will very likely get implemented, and we may know it well in advance, but their priority or maybe external dependencies aren&#8217;t such that we could reliably be planning this work yet, so it goes out here to the right for the time being.

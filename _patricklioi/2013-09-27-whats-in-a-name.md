@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 ---
-In my last post, we saw how Fixie lets you define [conventions for parameterized tests](http://lostechies.com/patricklioi/2013/09/27/a-swiss-army-katana/). My goal was to provide a way for convention authors to tell Fixie what inputs should be passed into any given test method, allowing for potentially-many calls to a single test method. Each call can pass or fail independently.
+In my last post, we saw how Fixie lets you define [conventions for parameterized tests](https://lostechies.com/patricklioi/2013/09/27/a-swiss-army-katana/). My goal was to provide a way for convention authors to tell Fixie what inputs should be passed into any given test method, allowing for potentially-many calls to a single test method. Each call can pass or fail independently.
 
 I tried and failed to implement this feature a few times, but the actual solution was quite small. My difficulties can be traced back to a simple naming error I made early on. Today we&#8217;ll cover this stumbling block, and in my next few posts we&#8217;ll see the feature in action.
 

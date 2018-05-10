@@ -71,7 +71,7 @@ redirect_from: "/blogs/derekgreer/archive/2011/03/14/effective-tests-a-unit-test
   </ul>
 </div>
 
-In the [introduction](http://lostechies.com/derekgreer/2011/03/07/effective-tests-introduction/) to our series, I introduced some common types of automated tests: Unit Tests, Integration Tests, and Acceptance Tests.&nbsp; In this article, we’ll take a look at a traditional approach to unit testing and discuss a few practices surrounding good test communication.
+In the [introduction](https://lostechies.com/derekgreer/2011/03/07/effective-tests-introduction/) to our series, I introduced some common types of automated tests: Unit Tests, Integration Tests, and Acceptance Tests.&nbsp; In this article, we’ll take a look at a traditional approach to unit testing and discuss a few practices surrounding good test communication.
 
 ## First Things First
 

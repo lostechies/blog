@@ -11,7 +11,7 @@ categories:
   - HTML5
   - JavaScript
 ---
-This is the second in a series of articles on _Building Realtime HTML5 Apps_. In the first article, we looked at the difference between [Websockets and AJAX](http://lostechies.com/chrismissal/2013/08/06/browser-wars-websockets-vs-ajax/) as transport mechanisms for data. In this article, I wanted to explore why single page apps fit in so well with the new realtime paradigm.
+This is the second in a series of articles on _Building Realtime HTML5 Apps_. In the first article, we looked at the difference between [Websockets and AJAX](https://lostechies.com/chrismissal/2013/08/06/browser-wars-websockets-vs-ajax/) as transport mechanisms for data. In this article, I wanted to explore why single page apps fit in so well with the new realtime paradigm.
 
 ### What&#8217;s a Single Page App?
 

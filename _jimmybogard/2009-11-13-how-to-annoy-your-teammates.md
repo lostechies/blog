@@ -29,6 +29,6 @@ Since this was an _enormous_ refactoring, maybe affecting hundreds of files, you
 
 When you’re done, your co-workers will be greeted with one annoying merge, and another fun dialog that never seems to quite go away:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_3AC50861.png" width="451" height="242" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_74481858.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_3AC50861.png" width="451" height="242" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_74481858.png) 
 
 Just when you think you caught the last of the recovered files that had its line endings screwed up, another one pops up.&#160; They’ll hate you once because of the core change that affected so many files, making it quite annoying to merge back to trunk.&#160; But they’ll form that long-lasting, persistent hate because of this dialog box that keeps coming up.&#160; Yes, there is that little checkbox at the bottom, but who reads these things anyway?

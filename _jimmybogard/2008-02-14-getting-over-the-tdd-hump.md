@@ -11,7 +11,7 @@ categories:
   - TDD
 redirect_from: "/blogs/jimmy_bogard/archive/2008/02/13/getting-over-the-tdd-hump.aspx/"
 ---
-[Chad](http://lostechies.com/blogs/chad_myers/default.aspx) mentioned that the [first 2 hours of TDD are the hardest](http://lostechies.com/blogs/chad_myers/archive/2008/02/12/the-first-2-hours-of-tdd-are-the-most-painful.aspx).&nbsp; Without a good pair by your side, the pain can stretch well beyond a couple of hours.&nbsp; Maybe I had a rare experience, but my first experience with TDD was successful and had very few bumps.&nbsp; Looking back, I don&#8217;t know what exactly we did right, but maybe the whole story might put things in focus.
+[Chad](https://lostechies.com/blogs/chad_myers/default.aspx) mentioned that the [first 2 hours of TDD are the hardest](https://lostechies.com/blogs/chad_myers/archive/2008/02/12/the-first-2-hours-of-tdd-are-the-most-painful.aspx).&nbsp; Without a good pair by your side, the pain can stretch well beyond a couple of hours.&nbsp; Maybe I had a rare experience, but my first experience with TDD was successful and had very few bumps.&nbsp; Looking back, I don&#8217;t know what exactly we did right, but maybe the whole story might put things in focus.
 
 ### Step 1: Gettin&#8217; my learn on
 

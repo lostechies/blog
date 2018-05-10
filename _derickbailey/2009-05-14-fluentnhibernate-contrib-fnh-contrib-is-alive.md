@@ -145,7 +145,7 @@ Right now the only project in FNH.Contrib is the fluent query API. The basic ide
             </p>
             
             <p>
-              I also plan to put in a complete <a href="http://www.lostechies.com/blogs/derickbailey/archive/2009/04/08/how-a-net-developer-learned-ruby-and-rake-to-build-net-apps-in-windows.aspx">Rake</a> based automated build, and hopefully get a full suite of unit tests wrapped around the code, moving forward.
+              I also plan to put in a complete <a href="https://lostechies.com/blogs/derickbailey/archive/2009/04/08/how-a-net-developer-learned-ruby-and-rake-to-build-net-apps-in-windows.aspx">Rake</a> based automated build, and hopefully get a full suite of unit tests wrapped around the code, moving forward.
             </p>
             
             <h3>

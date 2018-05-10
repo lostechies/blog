@@ -27,7 +27,7 @@ To avoid further confusion, I&#8217;m striking through everything I said that is
 
 &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;
 
-I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-1-introducing-pushstate/) and talked about [using progressive enhancement with Backbone.js](http://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-2-progressive-enhancement-with-backbone-js/) to make it all work. What I haven&#8217;t talked about, though, is how I got my Backbone router to work properly after enabling PushState. I spent some long hours fighting with my router all because of a few very small decisions I originally made in my app. Hopefully these tips will help other avoid the same mistakes I made.
+I&#8217;ve already [introduced HTML5 PushState](https://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-1-introducing-pushstate/) and talked about [using progressive enhancement with Backbone.js](https://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-2-progressive-enhancement-with-backbone-js/) to make it all work. What I haven&#8217;t talked about, though, is how I got my Backbone router to work properly after enabling PushState. I spent some long hours fighting with my router all because of a few very small decisions I originally made in my app. Hopefully these tips will help other avoid the same mistakes I made.
 
 <strike>
 
@@ -105,7 +105,7 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
   </h3>
   
   <p>
-    If you don&#8217;t have a router, you won&#8217;t be able to call `router.navigate(&#8220;…&#8221;, true)` with that pesky &#8216;true&#8217; parameter. But, this shouldn&#8217;t be an issue, anyways, You should be <a href="http://lostechies.com/derickbailey/2011/08/28/dont-execute-a-backbone-js-route-handler-from-your-code/">building your apps in a stateful manner with state-based workflow</a> instead of <a href="http://lostechies.com/derickbailey/2011/08/03/stop-using-backbone-as-if-it-were-a-stateless-web-server/">using Backbone as if it were a stateless web server</a>. You&#8217;ll still want to call `history.navigate(&#8220;…&#8221;)` to update your browser&#8217;s URL. This is done in response to the application being put into a specific state, and not done to put the application into a specific state. Don&#8217;t pass the `true` parameter as the second argument to navigate, and you&#8217;ll be fine.
+    If you don&#8217;t have a router, you won&#8217;t be able to call `router.navigate(&#8220;…&#8221;, true)` with that pesky &#8216;true&#8217; parameter. But, this shouldn&#8217;t be an issue, anyways, You should be <a href="https://lostechies.com/derickbailey/2011/08/28/dont-execute-a-backbone-js-route-handler-from-your-code/">building your apps in a stateful manner with state-based workflow</a> instead of <a href="https://lostechies.com/derickbailey/2011/08/03/stop-using-backbone-as-if-it-were-a-stateless-web-server/">using Backbone as if it were a stateless web server</a>. You&#8217;ll still want to call `history.navigate(&#8220;…&#8221;)` to update your browser&#8217;s URL. This is done in response to the application being put into a specific state, and not done to put the application into a specific state. Don&#8217;t pass the `true` parameter as the second argument to navigate, and you&#8217;ll be fine.
   </p>
   
   <h2>
@@ -169,7 +169,7 @@ I&#8217;ve already [introduced HTML5 PushState](http://lostechies.com/derickbail
   </p>
   
   <p>
-    The browser URL updates when you click on a link, but the page does not have to do a full refresh from the server. Of course, if you decide to hit the refresh button on your browser, you&#8217;ll hit the full URL and <a href="http://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-1-introducing-pushstate/">the server will give you the page you expect</a>.
+    The browser URL updates when you click on a link, but the page does not have to do a full refresh from the server. Of course, if you decide to hit the refresh button on your browser, you&#8217;ll hit the full URL and <a href="https://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-1-introducing-pushstate/">the server will give you the page you expect</a>.
   </p>
   
   <p>

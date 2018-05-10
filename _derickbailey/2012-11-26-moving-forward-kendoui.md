@@ -15,7 +15,7 @@ categories:
   - KendoUI
   - Telerik
 ---
-Just over 2 years ago, [I left the corporate life for the independent life](http://lostechies.com/derickbailey/2010/11/01/becoming-an-independent-consultant/). At that time I didn&#8217;t have many opportunities for work in my area and moving in to independent consulting was basically dropped in my lap. I couldn&#8217;t say no and I&#8217;m glad I didn&#8217;t. it&#8217;s been some of the best (and worst) parts of my career so far. But I&#8217;ve always left open the possibility that the right company would come along and make me an offer that was too good to turn down. And… well &#8211; you get the idea.
+Just over 2 years ago, [I left the corporate life for the independent life](https://lostechies.com/derickbailey/2010/11/01/becoming-an-independent-consultant/). At that time I didn&#8217;t have many opportunities for work in my area and moving in to independent consulting was basically dropped in my lap. I couldn&#8217;t say no and I&#8217;m glad I didn&#8217;t. it&#8217;s been some of the best (and worst) parts of my career so far. But I&#8217;ve always left open the possibility that the right company would come along and make me an offer that was too good to turn down. And… well &#8211; you get the idea.
 
  
 

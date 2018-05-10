@@ -59,7 +59,7 @@ I’m not terribly interested in the initialization time at this point (though I
 
 Much like I assumed, the actual time spent doing reflection was a small, but sizable percentage of performing a mapping operation:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2CBCF037.png" width="322" height="318" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_4DB062DE.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_2CBCF037.png" width="322" height="318" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_4DB062DE.png) 
 
 Much of the time is spent making the decision of how to do the mapping.&#160; Because AutoMapper works by mapping based on source/destination type pairs, it has to decide what to do based on each pair.&#160; It turns out that the auto-mapped functionality of AutoMapper is only one of about a dozen different mapping algorithms to choose based on a source/destination type pair.&#160; Things like arrays, lists, dictionaries, enumerations, etc. all have their own mapping algorithm.
 
@@ -193,7 +193,7 @@ So time dropped precipitously after 10 revisions of tweaking and caching, and st
 
 At this point, actually reading and writing information is a tiny fraction of what AutoMapper needs to do:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_11A42129.png" width="427" height="340" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_0BC97D90.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_11A42129.png" width="427" height="340" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_0BC97D90.png) 
 
 Only about 2.6% of the mapping operation is actually performing the mapping, by ditching reflection.&#160; So not only has the entire mapping operation gotten faster, the reflection code is down to a point where it’s nowhere near the bottleneck.
 

@@ -13,7 +13,7 @@ categories:
   - fubucore
   - FubuMVC
 ---
-This is the fifth post of the FubuCore series mentioned in the [Introduction post](http://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
+This is the fifth post of the FubuCore series mentioned in the [Introduction post](https://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
 
 In the whole history of FubuMVC, we’ve developed and innovated a bunch of cool stuff. [Some of it](http://guides.fubumvc.com/advanced_behaviors.html) can be complicated but has a big payoff.&nbsp; But there are also a bunch of small, little cool things that make a big difference. One of those things was the [ISettingsProvider](https://github.com/DarthFubuMVC/fubucore/blob/master/src/FubuCore/Configuration/ISettingsProvider.cs).&nbsp; It was one of those ideas that we could’ve come up with a long time ago, before FubuMVC, but it had just never occurred to us.&nbsp; I wish I had this way back when, because it would’ve been invaluable to me on many projects.&nbsp; I can’t tell you how much stupid code I’ve written in my .NET career just to work around a lot of the System.Configuration nonsense. “Nonsense?” you say. Perhaps I should have said “mystery” as in, a mystery that needs to be [unraveled](http://www.codeproject.com/KB/dotnet/mysteriesofconfiguration.aspx), [decoded](http://www.codeproject.com/KB/dotnet/mysteriesofconfiguration2.aspx), and [cracked](http://www.codeproject.com/KB/dotnet/mysteriesofconfiguration3.aspx).&nbsp; I’m sure someone once had problems that this framework solved, but for most of us, we just need something less complicated than [this](http://msdn.microsoft.com/en-us/library/ff648130.aspx).
 

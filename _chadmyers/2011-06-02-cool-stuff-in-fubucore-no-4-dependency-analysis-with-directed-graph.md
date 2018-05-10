@@ -13,7 +13,7 @@ categories:
   - fubucore
   - FubuMVC
 ---
-This is the fourth post of the FubuCore series mentioned in the [Introduction post](http://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
+This is the fourth post of the FubuCore series mentioned in the [Introduction post](https://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
 
 There are several places in the Fubu-related projects (FubuMVC, Bottles packaging/deployment, etc) that we need to work out a dependency tree.&nbsp; This means, for a given node, we need to find out all the dependencies that node has and if there are any cycles in the dependency graph.&nbsp; I’m being vague. Let me be more concrete. 
 

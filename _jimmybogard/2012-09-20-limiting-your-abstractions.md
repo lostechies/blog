@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Architecture
 ---
-It’s been almost 3 years since I first wrote about [moving away from the Repository abstraction](http://lostechies.com/jimmybogard/2009/09/11/wither-the-repository/). Since then, I’ve gone more or less full-bore without any concept of a repository in the systems I’ve built. I haven’t removed existing repositories, but I’m just not finding any value in them as an abstraction.
+It’s been almost 3 years since I first wrote about [moving away from the Repository abstraction](https://lostechies.com/jimmybogard/2009/09/11/wither-the-repository/). Since then, I’ve gone more or less full-bore without any concept of a repository in the systems I’ve built. I haven’t removed existing repositories, but I’m just not finding any value in them as an abstraction.
 
 Repositories I see generally come in two flavors:
 

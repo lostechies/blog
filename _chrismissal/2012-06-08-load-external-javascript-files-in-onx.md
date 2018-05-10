@@ -18,7 +18,7 @@ tags:
   - mobile
   - 'on{x}'
 ---
-The other day I talked about the [things I was playing with in on{X}](http://lostechies.com/chrismissal/2012/06/07/hack-your-life-with-onx/). I like to use other frameworks or JavaScript libraries when I write my codez. Of course I&#8217;m going to want to do the same when writing rules in [on{X}](https://www.onx.ms/). This example shows how to load underscore.js for use in your on{X} rules.
+The other day I talked about the [things I was playing with in on{X}](https://lostechies.com/chrismissal/2012/06/07/hack-your-life-with-onx/). I like to use other frameworks or JavaScript libraries when I write my codez. Of course I&#8217;m going to want to do the same when writing rules in [on{X}](https://www.onx.ms/). This example shows how to load underscore.js for use in your on{X} rules.
 
 {% gist 2894063 %}
 

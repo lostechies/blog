@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - NServiceBus
 ---
-I’ve wrote in the past how [routing slips can provide a nice alternative to NServiceBus sagas](http://lostechies.com/jimmybogard/2013/04/26/saga-alternatives-routing-slips/), using a stateless, upfront approach. In NServiceBus 4.x, it was quite clunky to actually implement them. I had to plug in to two interfaces that didn’t really apply to routing slips, only because those were the important points in the pipeline to get the correct behavior.
+I’ve wrote in the past how [routing slips can provide a nice alternative to NServiceBus sagas](https://lostechies.com/jimmybogard/2013/04/26/saga-alternatives-routing-slips/), using a stateless, upfront approach. In NServiceBus 4.x, it was quite clunky to actually implement them. I had to plug in to two interfaces that didn’t really apply to routing slips, only because those were the important points in the pipeline to get the correct behavior.
 
 In NServiceBus 5, these behaviors are much easier to build, because of the new behavior pipeline features. Behaviors in NServiceBus are similar to HttpHandlers, or koa.js callbacks, in which form a series of nested wrappers around inner behaviors in a sort of Russian doll model. It’s an extremely popular model, and most modern web frameworks include some form of it (Web API filters, node, Fubu MVC behaviors, etc.)
 

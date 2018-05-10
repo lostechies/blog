@@ -12,7 +12,7 @@ categories:
   - JavaScript
   - User Experience
 ---
-[In my previous post, I introduced the idea of HTML5&#8217;s PushState](http://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-1-introducing-pushstate/) &#8211; a way to manage a browser&#8217;s URL without making a round trip to the server to retrieve the information at that URL. In this post, I&#8217;ll be taking this information and showing a few example on how we can implement PushState with our Backbone.js applications, providing support for both search engine optimization (SEO) and with only a little more work, accessibility for access via screen-readers and other assistive technologies.
+[In my previous post, I introduced the idea of HTML5&#8217;s PushState](https://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-1-introducing-pushstate/) &#8211; a way to manage a browser&#8217;s URL without making a round trip to the server to retrieve the information at that URL. In this post, I&#8217;ll be taking this information and showing a few example on how we can implement PushState with our Backbone.js applications, providing support for both search engine optimization (SEO) and with only a little more work, accessibility for access via screen-readers and other assistive technologies.
 
 ## Progressive Enhancement And PushState
 
@@ -34,7 +34,7 @@ When i instantiate the view after the page loads, I&#8217;m providing the existi
 
 Clicking the &#8220;Say My Name&#8221; button with JavaScript enabled will cause an alert box.
 
-<img title="Screen Shot 2011-09-26 at 3.56.12 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/Screen-Shot-2011-09-26-at-3.56.12-PM.png" border="0" alt="Screen Shot 2011 09 26 at 3 56 12 PM" width="479" height="238" />
+<img title="Screen Shot 2011-09-26 at 3.56.12 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/09/Screen-Shot-2011-09-26-at-3.56.12-PM.png" border="0" alt="Screen Shot 2011 09 26 at 3 56 12 PM" width="479" height="238" />
 
 Without javascript, it would post back to the server and the server could render the name to an html element somewhere.
 
@@ -52,7 +52,7 @@ In this example, the \`UserListView\` will loop through all of the \`<li>\` tags
 
 Then after we initialize everything and attach it to the HTML, we grab the first item in the collection and change the name. The list is then updated through the use of the event binding:
 
-<img title="Screen Shot 2011-09-26 at 4.19.00 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/Screen-Shot-2011-09-26-at-4.19.00-PM.png" border="0" alt="Screen Shot 2011 09 26 at 4 19 00 PM" width="144" height="95" />
+<img title="Screen Shot 2011-09-26 at 4.19.00 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/09/Screen-Shot-2011-09-26-at-4.19.00-PM.png" border="0" alt="Screen Shot 2011 09 26 at 4 19 00 PM" width="144" height="95" />
 
 With this pattern of implementation in place, it should be fairly easy to see how we can progressively enhance our server-generated HTML with JavaScript frameworks like Backbone.js. However, there&#8217;s one more issue to cover still &#8211; what happens when we need to render the same HTML from the server side as well as from the client side?
 
@@ -60,13 +60,13 @@ We don&#8217;t want to duplicate the HTML templates that our server uses, in our
 
 ## Server Side And Client Side HTML Templates
 
-Looking back at a few of my previous posts, we can see the beginnings of what we need to do, to handle this situation. In my post on [Rendering A Rails Partial As A jQuery Template](http://lostechies.com/derickbailey/2011/06/22/rendering-a-rails-partial-as-a-jquery-template/), I covered the subject of re-using an ERB template from a Rails application in the front-end JavaScript with jQuery Templates. In this post, I show how to use a Rails model and populate it with data that looks like the jQuery Template markers:
+Looking back at a few of my previous posts, we can see the beginnings of what we need to do, to handle this situation. In my post on [Rendering A Rails Partial As A jQuery Template](https://lostechies.com/derickbailey/2011/06/22/rendering-a-rails-partial-as-a-jquery-template/), I covered the subject of re-using an ERB template from a Rails application in the front-end JavaScript with jQuery Templates. In this post, I show how to use a Rails model and populate it with data that looks like the jQuery Template markers:
 
 {% gist 1041780 some_controller.rb %}
 
 You can see in this example that I&#8217;m populating a model&#8217;s \`value\` attribute with the data &#8220;${value}&#8221;. When this gets rendered into HTML via an ERB template, it will produce HTML that can be used with jQuery Templates.
 
-In addition to this double-rendering technique, you may want to provide some functional or unit testing around your Backbone.js application code. To handle this with Jasmine-BDD and again re-use the existing templates in the Jasmine fixtures, you can combine the double-rendering of templates with my post on [test-driving Backbone views with jQuery Templates](http://lostechies.com/derickbailey/2011/09/06/test-driving-backbone-views-with-jquery-templates-the-jasmine-gem-and-jasmine-jquery/).
+In addition to this double-rendering technique, you may want to provide some functional or unit testing around your Backbone.js application code. To handle this with Jasmine-BDD and again re-use the existing templates in the Jasmine fixtures, you can combine the double-rendering of templates with my post on [test-driving Backbone views with jQuery Templates](https://lostechies.com/derickbailey/2011/09/06/test-driving-backbone-views-with-jquery-templates-the-jasmine-gem-and-jasmine-jquery/).
 
 ## Backbone.js And HTML5 PushState
 
@@ -74,7 +74,7 @@ With all of this in place &#8211; server rendered HTML and progressive enhanceme
 
 {% gist 1243356 5-pushstate.js %}
 
-Using Backbone&#8217;s \`history\` requires a Router with at least one route, of course. While I haven&#8217;t shown how to use a router in this post, there are plenty of example of using routers out there on the web, including [my own blog posts on backbone.js](http://lostechies.com/derickbailey/category/backbone/) and [my training course](http://backbonetraining.net). Once a router is in place, though, and Backbone&#8217;s history is started, the browser will have it&#8217;s URL updated with full URLs instead of URL hash fragments.
+Using Backbone&#8217;s \`history\` requires a Router with at least one route, of course. While I haven&#8217;t shown how to use a router in this post, there are plenty of example of using routers out there on the web, including [my own blog posts on backbone.js](https://lostechies.com/derickbailey/category/backbone/) and [my training course](http://backbonetraining.net). Once a router is in place, though, and Backbone&#8217;s history is started, the browser will have it&#8217;s URL updated with full URLs instead of URL hash fragments.
 
 If we have set everything up correctly, a user will be able to hit the root of our application and Backbone will pick up and start the application from there. Then, once the user has progressed through the application and the browser&#8217;s URL has been updated appropriately, they can either bookmark the URL, copy & paste it or simply hit the refresh button in their browser. Doing this will cause the browser to make a request back to the server for the page that the browser was previously looking at. Once the page is rendered by the server and sent down to the browser, our JavaScript will kick in and enhance the functionality of the page, allowing the full experience of the page for those browsers that can support it.
 

@@ -46,7 +46,7 @@ From my [Objects & Prototypes](http://www.watchmecode.net/javascript-objects) sc
 
 > &#8220;_More than just the remaining bugs [in the ClassyObjects framework], though, wether or not a class-y framework is a good idea to begin with is a subject of intense debate._
 > 
-> _<img title="JSObjects-ClassyObjects.029.png" src="http://lostechies.com/content/derickbailey/uploads/2012/04/JSObjects-ClassyObjects.029.png" border="0" alt="JSObjects ClassyObjects 029" width="400" height="225" />_
+> _<img title="JSObjects-ClassyObjects.029.png" src="https://lostechies.com/content/derickbailey/uploads/2012/04/JSObjects-ClassyObjects.029.png" border="0" alt="JSObjects ClassyObjects 029" width="400" height="225" />_
 > 
 > _A class-y framework like this is powerful, indeed, and there are times when it can come in handy. [Backbone](http://backbonejs.org) is a good example, again. Jeremy Ashkenas &#8211; the creator of Backbone &#8211; recognized the need to provide a simple inheritance mechanism for the objects in Backbone so he provided one. But at the same time, he didn&#8217;t split the inheritance framework out in to it&#8217;s own library. I remember reading a comment at one point where he said he didn&#8217;t want to impose that style or it&#8217;s limitations on anyone outside of Backbone._ 
 > 
@@ -64,7 +64,7 @@ Ok, enough of the nebulous rhetoric… there are a few real problems that I see 
 
 This is probably the worst of the problems that I&#8217;ve mentioned &#8211; at least in my opinion. I consistently run in to questions on StackOverflow where the person asking the question is looking at something like Backbone, assuming that they have a class definition because of the way it looks, and winding up with problems that are directly caused by not understanding object literal syntax. Now I&#8217;m not blaming Backbone or saying that these developers should know better. Doing either of those would get us nowhere. The point of using this as an example is to show that a class-like inheritance structure in JavaScript can be very deceiving.
 
-When a developer brings years of experience with a language like Java, C#, C++ or other class-based systems, class-y JavaScript frameworks can be very deceptive. They look so much like class definitions that it&#8217;s easy to fall in to the trap of thinking that they are classes. Of course, there are no classes, so [we are really looking at object literals](http://lostechies.com/derickbailey/2011/11/09/backbone-js-object-literals-views-events-jquery-and-el/).
+When a developer brings years of experience with a language like Java, C#, C++ or other class-based systems, class-y JavaScript frameworks can be very deceptive. They look so much like class definitions that it&#8217;s easy to fall in to the trap of thinking that they are classes. Of course, there are no classes, so [we are really looking at object literals](https://lostechies.com/derickbailey/2011/11/09/backbone-js-object-literals-views-events-jquery-and-el/).
 
 ## Overhead Of Inheritance Layers
 

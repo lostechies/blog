@@ -40,7 +40,7 @@ Another way to do this, though, is to move the web sockets code away from the ap
 
 ## A SocketAdapter
 
-There are two basic things that you&#8217;ll need to build a socket adapter in the manner that I like. a web sockets setup and an [event aggregator](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/). Pick a web sockets library &#8211; any of them will do. For this example, I&#8217;ll be using Socket.IO. As for an event aggregator, I&#8217;ve got my default setup with [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) which provides one for us. Or you can pick any of a number of other pub/sub libraries for JavaScript.
+There are two basic things that you&#8217;ll need to build a socket adapter in the manner that I like. a web sockets setup and an [event aggregator](https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/). Pick a web sockets library &#8211; any of them will do. For this example, I&#8217;ll be using Socket.IO. As for an event aggregator, I&#8217;ve got my default setup with [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) which provides one for us. Or you can pick any of a number of other pub/sub libraries for JavaScript.
 
 Here&#8217;s the trick to decoupling the application code from the web sockets library: all of the events that the web socket publishes will be forwarded to the event aggregator, and your application will only pay attention to the event aggregator. For example:
 

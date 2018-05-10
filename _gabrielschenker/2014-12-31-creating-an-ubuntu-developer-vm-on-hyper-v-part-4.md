@@ -23,9 +23,9 @@ We have been in the past and still are to a certain extent a .NET shop. Thus it 
 
 Please make sure you have also read my previous posts about setting up a Ubuntu VM.
 
-  * [Creating an Ubuntu developer VM on Hyper-V](http://lostechies.com/gabrielschenker/2014/12/29/creating-an-ubuntu-developer-vm-on-hyper-v/)&nbsp; 
-      * [Creating an Ubuntu developer VM on Hyper-V – Part 2](http://lostechies.com/gabrielschenker/2014/12/30/creating-an-ubuntu-developer-vm-on-hyper-v-part-2/) 
-          * [Creating an Ubuntu developer VM on Hyper-V – Part 3](http://lostechies.com/gabrielschenker/2014/12/31/creating-an-ubuntu-developer-vm-on-hyper-v-part-3/)</ul> 
+  * [Creating an Ubuntu developer VM on Hyper-V](https://lostechies.com/gabrielschenker/2014/12/29/creating-an-ubuntu-developer-vm-on-hyper-v/)&nbsp; 
+      * [Creating an Ubuntu developer VM on Hyper-V – Part 2](https://lostechies.com/gabrielschenker/2014/12/30/creating-an-ubuntu-developer-vm-on-hyper-v-part-2/) 
+          * [Creating an Ubuntu developer VM on Hyper-V – Part 3](https://lostechies.com/gabrielschenker/2014/12/31/creating-an-ubuntu-developer-vm-on-hyper-v-part-3/)</ul> 
         # Installing ASP.NET vNext
         
         Please refer [here](https://github.com/aspnet/home) for more details. But please be aware that at the time of writing the documentation is somewhat incomplete to say the least.
@@ -34,7 +34,7 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         {% gist 5075ae759ef4392a8126 %}
         
-        Note that as a prerequisite we need to have [Mono](http://www.mono-project.com/) 3.4.1 or later installed as described in [this](http://lostechies.com/gabrielschenker/2014/12/29/creating-an-ubuntu-developer-vm-on-hyper-v/) post.
+        Note that as a prerequisite we need to have [Mono](http://www.mono-project.com/) 3.4.1 or later installed as described in [this](https://lostechies.com/gabrielschenker/2014/12/29/creating-an-ubuntu-developer-vm-on-hyper-v/) post.
         
         We can now install the latest version of KVM like this (at the time of this writing it is v 1.0.0-beta1)
         
@@ -72,7 +72,7 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         which gives us
         
-        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb10.png" width="619" height="119" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image10.png)
+        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb10.png" width="619" height="119" />](https://lostechies.com/content/gabrielschenker/uploads/2014/12/image10.png)
         
         ## Running the Web samples
         
@@ -90,15 +90,15 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         which now should give this
         
-        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb11.png" width="611" height="153" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image11.png)
+        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb11.png" width="611" height="153" />](https://lostechies.com/content/gabrielschenker/uploads/2014/12/image11.png)
         
         with your browser navigate to localhost:5004 and enjoy 🙂
         
-        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb12.png" width="611" height="470" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image12.png)&nbsp;
+        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb12.png" width="611" height="470" />](https://lostechies.com/content/gabrielschenker/uploads/2014/12/image12.png)&nbsp;
         
         We can stop Kestrel by pressing CTRL-z
         
-        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb13.png" width="610" height="143" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image13.png)
+        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb13.png" width="610" height="143" />](https://lostechies.com/content/gabrielschenker/uploads/2014/12/image13.png)
         
         ## Defining a REST API
         
@@ -108,7 +108,7 @@ Please make sure you have also read my previous posts about setting up a Ubuntu 
         
         save and restart kestrel. In the browser navigate to <http://localhost:5004/api/todo> and you should see this
         
-        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb14.png" width="614" height="386" />](http://lostechies.com/content/gabrielschenker/uploads/2014/12/image14.png) </p> 
+        [<img style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-top-width: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2014/12/image_thumb14.png" width="614" height="386" />](https://lostechies.com/content/gabrielschenker/uploads/2014/12/image14.png) </p> 
         
         Well, well, that’s a good start…!
         

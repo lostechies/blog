@@ -41,7 +41,7 @@ Having two different entry points in to this part of the app may not be a bad id
 
 **UPDATE:**
 
-FYI &#8211; I have an updated version of this code available in my [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) plugin, as Backbone.Marionette.Callbacks. It [reduces the code and complexity significantly](http://lostechies.com/derickbailey/2012/02/07/rewriting-my-guaranteed-callbacks-code-with-jquery-deferred/), and also eliminates the race condition issues that I mention below. Be sure to use that Callbacks object instead of the code I&#8217;ve listed here.
+FYI &#8211; I have an updated version of this code available in my [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) plugin, as Backbone.Marionette.Callbacks. It [reduces the code and complexity significantly](https://lostechies.com/derickbailey/2012/02/07/rewriting-my-guaranteed-callbacks-code-with-jquery-deferred/), and also eliminates the race condition issues that I mention below. Be sure to use that Callbacks object instead of the code I&#8217;ve listed here.
 
 **:END UPDATE**
 

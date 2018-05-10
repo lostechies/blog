@@ -71,7 +71,7 @@ tags:
   </ul>
 </div>
 
-In our <a href="http://lostechies.com/derekgreer/2011/05/12/effective-tests-a-test-first-example-part-6/" target="_blank">last</a> installment, we concluded our Test-First example which demonstrated the Test Driven Development process through the creation of a Tic-tac-toe component. When writing automated tests using either a Test-First or classic unit testing approach, it often becomes necessary to verify and/or exercise control over the interactions of a component with its collaborators. In this article, I&#8217;ll introduce a family of strategies for addressing these needs, known collectively as _Test Doubles_. The examples within this article will be presented using the Java programming language.
+In our <a href="https://lostechies.com/derekgreer/2011/05/12/effective-tests-a-test-first-example-part-6/" target="_blank">last</a> installment, we concluded our Test-First example which demonstrated the Test Driven Development process through the creation of a Tic-tac-toe component. When writing automated tests using either a Test-First or classic unit testing approach, it often becomes necessary to verify and/or exercise control over the interactions of a component with its collaborators. In this article, I&#8217;ll introduce a family of strategies for addressing these needs, known collectively as _Test Doubles_. The examples within this article will be presented using the Java programming language.
 
 ## Doubles
 

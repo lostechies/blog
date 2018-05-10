@@ -18,17 +18,17 @@ When a subscriber expresses intent for a subscription of a message type, it does
 
 Note that the assembly version is included in the subscription store. So here’s our picture right now:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/01/image_thumb.png" width="354" height="236" />](http://lostechies.com/content/jimmybogard/uploads/2013/01/image.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2013/01/image_thumb.png" width="354" height="236" />](https://lostechies.com/content/jimmybogard/uploads/2013/01/image.png)
 
 At some point in the future, Publisher bumps its version (for whatever reason) and its message assembly’s version is bumped as well. _However_, the subscriber hasn’t upgraded its message assembly (likely because nothing changed in the messages), and our picture is now this:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/01/image_thumb1.png" width="354" height="233" />](http://lostechies.com/content/jimmybogard/uploads/2013/01/image1.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2013/01/image_thumb1.png" width="354" height="233" />](https://lostechies.com/content/jimmybogard/uploads/2013/01/image1.png)
 
 What we’re finding is that the Publisher reads the subscription store and notices that it’s only publishing 2.0 of some event. But Subscriber is only subscribed to 1.0, so therefore, can’t fulfill the subscription. The Subscriber will receive no event message, nor will it receive any notification that its subscription was broken. A bit of a silent failure.
 
 I’ve tried a variety of scenarios to make sure that the Subscriber gets its published message, regardless of the version. It seems the only reliable way to ensure that Subscriber gets its subscribed message is to upgrade the Subscriber’s messages assembly to the latest version, _regardless_ if anything has actually changed in the type of the message:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/01/image_thumb2.png" width="354" height="236" />](http://lostechies.com/content/jimmybogard/uploads/2013/01/image2.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2013/01/image_thumb2.png" width="354" height="236" />](https://lostechies.com/content/jimmybogard/uploads/2013/01/image2.png)
 
 Once this common version is the same everything seems to work. I’ve tried “fooling” NServiceBus by fiddling with the subscription store’s version, but that had mixed results, and I couldn’t get it to reliably work.
 

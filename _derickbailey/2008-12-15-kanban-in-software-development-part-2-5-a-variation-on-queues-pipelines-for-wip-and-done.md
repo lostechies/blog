@@ -15,7 +15,7 @@ categories:
   - Management
 redirect_from: "/blogs/derickbailey/archive/2008/12/15/kanban-in-software-development-part-2-5-a-variation-on-queues-pipelines-for-wip-and-done.aspx/"
 ---
-In <a href="http://www.lostechies.com/blogs/derickbailey/archive/2008/12/08/kanban-in-software-development-part-2-completing-the-kanban-board-with-queues-order-points-and-limits.aspx" target="_blank">part 2 of my Kanban in Software Development</a> series, I talked about completing a kanban board with queues, order points and limits. We saw how to take a complete development pipeline and work with a team, its processes and its bottlenecks. In the end, we had a kanban board that could easily represent the processes of the fictional team that we outlined. 
+In <a href="https://lostechies.com/blogs/derickbailey/archive/2008/12/08/kanban-in-software-development-part-2-completing-the-kanban-board-with-queues-order-points-and-limits.aspx" target="_blank">part 2 of my Kanban in Software Development</a> series, I talked about completing a kanban board with queues, order points and limits. We saw how to take a complete development pipeline and work with a team, its processes and its bottlenecks. In the end, we had a kanban board that could easily represent the processes of the fictional team that we outlined. 
 
 One of the questions that I&#8217;ve often asked about a kanban board is how anyone would know when work in one column is done and ready to be pulled into the next column. For example &#8211; if a kanban card is sitting in the Analysis column, how does a developer know when that card is done so that they can pull it into Development and start coding it? I found the answer to this question when I was at the Kaizen Conference in October. <a href="http://blog.perfecting.me/" target="_blank">Jef Newsom</a> did <a href="http://kaizenconf.pbwiki.com/Driving+Toward+the+Goal:+Standard+Work+in+Software+Development" target="_blank">a workshop on kanban</a> and we ended up with this <a href="http://openscreens.com/articles/activity-modeling-for-kanban-pull-systems" target="_blank">same question, and a solution</a>.
 
@@ -23,7 +23,7 @@ One of the questions that I&#8217;ve often asked about a kanban board is how any
 
 To facilitate the visualization of the difference between work in progress and work that is ready to be pulled to the next column, we can use the concept of a pipeline and split our existing queues into a WIP and Done step. For example, we want developers to pull work from the Analysis queue into the Development pipeline. We can show which cards are ready to move by splitting Analysis into sub-columns of WIP and Done.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="184" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb.png" width="201" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_2.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="184" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb.png" width="201" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/image_2.png) 
 
 When an Analyst is ready for work, they would pull from the Backlog into the Analysis / WIP column. When the analysis work is done and the card is ready to go into development, the card would be moved into the Analysis / Done column. Since we are wanting to maintain the concept of a queue for the overall Analysis column, we have create the WIP and Done subdivisions as a pipeline (noted by the dashed line). This allows us to keep our order point (3) and limit (5) in place for Analysis, and know what work is ready to be pulled into Development.
 
@@ -37,7 +37,7 @@ The Delivery column may not need a pipeline, either. If the delivery process is 
 
 With all of this in mind, we can apply our WIP and Done pipeline to the Analysis and Customer Acceptance columns.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="384" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_4.png" width="777" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_10.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="384" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_4.png" width="777" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/image_10.png) 
 
 ### Alternative Visualizations
 

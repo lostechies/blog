@@ -12,15 +12,15 @@ categories:
 ---
 Other posts in this series:
 
-  * [A primer](http://lostechies.com/jimmybogard/2013/07/18/conventional-html-in-asp-net-mvc-a-primer/)
-  * [Building tags](http://lostechies.com/jimmybogard/2013/08/13/conventional-html-in-asp-net-mvc-building-tags/)
-  * [Adopting Fubu conventions](http://lostechies.com/jimmybogard/2014/07/11/conventional-html-in-asp-net-mvc-adopting-fubu-conventions/)
-  * [Baseline behavior](http://lostechies.com/jimmybogard/2014/07/17/conventional-html-in-asp-net-mvc-baseline-behavior/)
-  * [Replacing form helpers](http://lostechies.com/jimmybogard/2014/07/22/conventional-html-in-asp-net-mvc-replacing-form-helpers/)
-  * [Data-bound elements](http://lostechies.com/jimmybogard/2014/07/23/conventional-html-in-asp-net-mvc-data-bound-elements/)
-  * [Validators](http://lostechies.com/jimmybogard/2014/07/24/conventional-html-in-asp-net-mvc-validators/)
-  * [Building larger primitives](http://lostechies.com/jimmybogard/2014/07/25/conventional-html-in-asp-net-mvc-building-larger-primitives/)
-  * [Client-side templates](http://lostechies.com/jimmybogard/2014/08/14/conventional-html-in-asp-net-mvc-client-side-templates/)
+  * [A primer](https://lostechies.com/jimmybogard/2013/07/18/conventional-html-in-asp-net-mvc-a-primer/)
+  * [Building tags](https://lostechies.com/jimmybogard/2013/08/13/conventional-html-in-asp-net-mvc-building-tags/)
+  * [Adopting Fubu conventions](https://lostechies.com/jimmybogard/2014/07/11/conventional-html-in-asp-net-mvc-adopting-fubu-conventions/)
+  * [Baseline behavior](https://lostechies.com/jimmybogard/2014/07/17/conventional-html-in-asp-net-mvc-baseline-behavior/)
+  * [Replacing form helpers](https://lostechies.com/jimmybogard/2014/07/22/conventional-html-in-asp-net-mvc-replacing-form-helpers/)
+  * [Data-bound elements](https://lostechies.com/jimmybogard/2014/07/23/conventional-html-in-asp-net-mvc-data-bound-elements/)
+  * [Validators](https://lostechies.com/jimmybogard/2014/07/24/conventional-html-in-asp-net-mvc-validators/)
+  * [Building larger primitives](https://lostechies.com/jimmybogard/2014/07/25/conventional-html-in-asp-net-mvc-building-larger-primitives/)
+  * [Client-side templates](https://lostechies.com/jimmybogard/2014/08/14/conventional-html-in-asp-net-mvc-client-side-templates/)
 
 We’re now at the point where our form elements replace the existing templates in MVC, extend to the HTML5 form elements, but there’s still something missing. I skipped over the dreaded DropDownList, with its wonky SelectListItem objects.
 
@@ -78,7 +78,7 @@ What we wound up with is something like this:
 
 {% gist 17dd4dd4e0394fb1b235 %}
 
-We represent the list of items we want as a query, then execute the query through a mediator. From the results, we specify what should be the display/value selectors. Finally, we build our select tag as normal, using an HtmlTag instance directly. The [query/mediator](https://github.com/jbogard/mediatr) piece is the same as I described back in my [controllers on a diet series](http://lostechies.com/jimmybogard/2013/10/29/put-your-controllers-on-a-diet-gets-and-queries/), we’re just reusing the concept here. Our usage would look something like:
+We represent the list of items we want as a query, then execute the query through a mediator. From the results, we specify what should be the display/value selectors. Finally, we build our select tag as normal, using an HtmlTag instance directly. The [query/mediator](https://github.com/jbogard/mediatr) piece is the same as I described back in my [controllers on a diet series](https://lostechies.com/jimmybogard/2013/10/29/put-your-controllers-on-a-diet-gets-and-queries/), we’re just reusing the concept here. Our usage would look something like:
 
 {% gist 43a7bae28c0cb9d9ac31 %}
 

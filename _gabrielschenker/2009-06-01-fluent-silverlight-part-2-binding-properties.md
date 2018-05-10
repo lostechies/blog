@@ -15,7 +15,7 @@ redirect_from: "/blogs/gabrielschenker/archive/2009/06/02/fluent-silverlight-par
 ---
 ## Introduction
 
-After having introduced the new Fluent Silverlight framework in [part 1](http://www.lostechies.com/blogs/gabrielschenker/archive/2009/06/01/fluent-silverlight-part-1.aspx) it is now time to dig a little bit deeper and discuss some implementation details. This time I’ll have a look into the details how we bind a property of a Silverlight control to a view model property.
+After having introduced the new Fluent Silverlight framework in [part 1](https://lostechies.com/blogs/gabrielschenker/archive/2009/06/01/fluent-silverlight-part-1.aspx) it is now time to dig a little bit deeper and discuss some implementation details. This time I’ll have a look into the details how we bind a property of a Silverlight control to a view model property.
 
 As a reaction on our first post we have been asked why we prefer to define the binding in code rather than in XAML. We have different reasons for doing so. First of all we want to get rid of XAML as much as possible. Our application has a rather specific UI. The UI is hierarchical and highly dynamical. It’s not the type of UI one typically designs with tools like Microsoft Blend. Another reason is that XAML is not really wrist friendly and one defines the binding in XAML then one has to use a lot of “magic strings” and thus we have no compile time support regarding the correctness of the binding.
 
@@ -271,7 +271,7 @@ The above class will be heavily used by the rest of the framework.
 
 ### The TextBoxBinder class – or – how to bind a property
 
-Now that we have discussed the goals and paved the ground by defining the necessary utility or helper classes we finally want to define the logic needed to make this nice fluent interface possible that I showed above as well as in [part 1](http://www.lostechies.com/blogs/gabrielschenker/archive/2009/06/01/fluent-silverlight-part-1.aspx) of this article series.
+Now that we have discussed the goals and paved the ground by defining the necessary utility or helper classes we finally want to define the logic needed to make this nice fluent interface possible that I showed above as well as in [part 1](https://lostechies.com/blogs/gabrielschenker/archive/2009/06/01/fluent-silverlight-part-1.aspx) of this article series.
 
 <div>
   <div>

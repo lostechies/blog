@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
 ---
-A large-ish MVC project in which I led the architecture is hitting a milestone of 12 months in development (though released to production for some months now). It’s a similar project to the one where AutoMapper came from, but this time targeting a more focused domain, and subject of the [How We Do MVC](http://lostechies.com/jimmybogard/2013/07/17/how-we-do-mvc-4-years-later/) post.
+A large-ish MVC project in which I led the architecture is hitting a milestone of 12 months in development (though released to production for some months now). It’s a similar project to the one where AutoMapper came from, but this time targeting a more focused domain, and subject of the [How We Do MVC](https://lostechies.com/jimmybogard/2013/07/17/how-we-do-mvc-4-years-later/) post.
 
 Much of the patterns discussed come from a certain context, especially on optimizations I look at for accelerating delivery that don’t necessarily apply to other systems. Some comparison stats between these two projects:
 
@@ -39,4 +39,4 @@ All these “put XYZ” on a diet talks, preferring slices over layers, and in g
 
 In this project, we had no repositories. No layered project structure. No abstractions over dependencies. No vegetable-based architectures. The last 12 months had roughly 250 working days, which averages out to a new controller every 3.5 days and a little over 2 new controller actions every single day. That sort of pace can only come from a laser focus on highly cohesive code, where each new feature only added requisite classes for feature where pieces differed, and allowing conventions to fill in mundane details that we intended to be consistent site-wide.
 
-I’ve already covered our [designs in our controllers](http://lostechies.com/jimmybogard/2013/12/19/put-your-controllers-on-a-diet-posts-and-commands/), next, I’ll pick up the conventional HTML post that allowed us to create a highly streamlined process for building out our views (and how we extended this concept to client-side templates).
+I’ve already covered our [designs in our controllers](https://lostechies.com/jimmybogard/2013/12/19/put-your-controllers-on-a-diet-posts-and-commands/), next, I’ll pick up the conventional HTML post that allowed us to create a highly streamlined process for building out our views (and how we extended this concept to client-side templates).

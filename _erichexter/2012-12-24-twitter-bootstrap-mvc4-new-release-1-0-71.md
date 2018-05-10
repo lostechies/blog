@@ -19,9 +19,9 @@ tags:
 ---
 To learn more about the Package read these blog posts:
 
-  * <a href="http://lostechies.com/erichexter/2012/11/20/twitter-bootstrap-mvc4-the-template-nuget-package-for-asp-net-mvc4-projects/" target="_blank">Introduction</a>
-  * <a href="http://lostechies.com/erichexter/2012/12/24/twitter-bootstrap-mvc4-new-release-1-0-71/" target="_blank">Release 1.0.71</a>
-  * [Bootstrap MVC &#8211; Menu System](http://lostechies.com/erichexter/2012/12/31/using-mvc-navigation-routes-in-twitter-bootstrap-mvc4/)
+  * <a href="https://lostechies.com/erichexter/2012/11/20/twitter-bootstrap-mvc4-the-template-nuget-package-for-asp-net-mvc4-projects/" target="_blank">Introduction</a>
+  * <a href="https://lostechies.com/erichexter/2012/12/24/twitter-bootstrap-mvc4-new-release-1-0-71/" target="_blank">Release 1.0.71</a>
+  * [Bootstrap MVC &#8211; Menu System](https://lostechies.com/erichexter/2012/12/31/using-mvc-navigation-routes-in-twitter-bootstrap-mvc4/)
 
 Some interesting stats for the project. It has gotten a bunch of attention on the interwebs. The package has over 2,500 downloads, we have had 20 pull request(contributions) from github users. I am excited to see a number of active developers using the package from around the world. I would also like to thank the <a href="http://teamcity.codebetter.com/" target="_blank">Codebetter Teamcity</a> team for updating to the latest version of the build server, so I can add the build status icon directly to the readme page, which makes it easier for anyone using our trunk builds.
 
@@ -31,7 +31,7 @@ Here is the updated readme from the site [https://github.com/erichexter/twitter.
 
 This is the [nuget](http://nuget.org/) package for quickly adding [Twitter Bootstrap](http://twitter.github.com/bootstrap/) to an [ASP.Net MVC 4](http://www.asp.net/mvc) application.
 
-See the overview [blog post](http://lostechies.com/erichexter/2012/11/20/twitter-bootstrap-mvc4-the-template-nuget-package-for-asp-net-mvc4-projects/) for screen shots and features. This is a User Interface project that does not require a specific data access or architecture for you MVC applications. The author has some opinions but those are kept in another project that builds on top of this UI package.
+See the overview [blog post](https://lostechies.com/erichexter/2012/11/20/twitter-bootstrap-mvc4-the-template-nuget-package-for-asp-net-mvc4-projects/) for screen shots and features. This is a User Interface project that does not require a specific data access or architecture for you MVC applications. The author has some opinions but those are kept in another project that builds on top of this UI package.
 
 #### Features
 
@@ -60,4 +60,4 @@ To view a working sample, install the [twitter.bootstrap.mvc4.sample](http://nug
 
 **Build Status:** [![](https://a248.e.akamai.net/camo.github.com/6d1d23a6d36792411ed8dcc99c1b3c9379655690/687474703a2f2f7465616d636974792e636f64656265747465722e636f6d2f6170702f726573742f6275696c64732f6275696c64547970653a2869643a6274363736292f73746174757349636f6e)](http://teamcity.codebetter.com/viewType.html?buildTypeId=bt676&guest=1)
 
-Brought to you by [Eric Hexter](http://lostechies.com/erichexter/)
+Brought to you by [Eric Hexter](https://lostechies.com/erichexter/)

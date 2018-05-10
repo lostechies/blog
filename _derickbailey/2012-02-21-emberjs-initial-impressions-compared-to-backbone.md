@@ -62,7 +62,7 @@ Neither of these philosophies is right or wrong. They are simply different appro
 
 Ember easily fits within the philosophy and definition of &#8220;framework&#8221; and &#8220;MVC&#8221;. In fact, it looks like it&#8217;s closer to the old-school SmallTalk-80 MVC (at least, as I understand it [based on some articles](http://martinfowler.com/eaaDev/uiArchs.html)) than any other MV* framework that I&#8217;ve used.
 
-[Backbone can be used so that it fits within the MV* family, of course](http://addyosmani.com/blog/understanding-mvc-and-mvp-for-javascript-and-backbone-developers/). It certainly provides good structure and lets you work in that manner. But we already know that [Backbone is not a framework, and is not MVC](http://lostechies.com/derickbailey/2011/12/23/backbone-js-is-not-an-mvc-framework/).
+[Backbone can be used so that it fits within the MV* family, of course](http://addyosmani.com/blog/understanding-mvc-and-mvp-for-javascript-and-backbone-developers/). It certainly provides good structure and lets you work in that manner. But we already know that [Backbone is not a framework, and is not MVC](https://lostechies.com/derickbailey/2011/12/23/backbone-js-is-not-an-mvc-framework/).
 
 ## HTML Templates: Handlebars vs (Pick Something)
 

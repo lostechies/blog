@@ -28,7 +28,7 @@ In this example, I&#8217;m waiting for a template to be retrieved before renderi
 
 ## $.when.then: Async
 
-If I&#8217;m using [an asynchronous template loading mechanism](http://lostechies.com/derickbailey/2012/02/09/asynchronously-load-html-templates-for-backbone-views/) for my Backbone.Marionette views (like in my [BBCloneMail](https://github.com/derickbailey/bbclonemail) sample app), the above code only needs to have a jQuery deferred object returned from the call to &#8220;getTemplate&#8221; on the view. If a deferred / promise is returned, then the $.when/then call will be set up to execute the &#8216;then&#8217; callback after the template has completed loading. It&#8217;s a fairly simple thing to do, honestly. Just return a deferred / promise from &#8220;getTemplate&#8221; and the view rendering will correctly support asynchronous template loading.
+If I&#8217;m using [an asynchronous template loading mechanism](https://lostechies.com/derickbailey/2012/02/09/asynchronously-load-html-templates-for-backbone-views/) for my Backbone.Marionette views (like in my [BBCloneMail](https://github.com/derickbailey/bbclonemail) sample app), the above code only needs to have a jQuery deferred object returned from the call to &#8220;getTemplate&#8221; on the view. If a deferred / promise is returned, then the $.when/then call will be set up to execute the &#8216;then&#8217; callback after the template has completed loading. It&#8217;s a fairly simple thing to do, honestly. Just return a deferred / promise from &#8220;getTemplate&#8221; and the view rendering will correctly support asynchronous template loading.
 
 The real magic in this code, though, is that it supports both synchronous and asynchronous returns from the &#8220;getTemplate&#8221; method.
 

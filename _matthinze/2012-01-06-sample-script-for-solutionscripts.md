@@ -12,6 +12,6 @@ categories:
 tags:
   - solutionscripts
 ---
-Question came up.. what sort of scripts do you use with [SolutionScripts](http://lostechies.com/matthinze/2012/01/05/solutionscripts-little-scripts-for-the-nuget-console)?
+Question came up.. what sort of scripts do you use with [SolutionScripts](https://lostechies.com/matthinze/2012/01/05/solutionscripts-little-scripts-for-the-nuget-console)?
 
 [Here’s one](https://gist.github.com/1571601) that does the ASP.NET compile thing.  Stick it in your SolutionScripts directory and you can run aspcomp from the Nuget console.

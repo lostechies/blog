@@ -12,7 +12,7 @@ categories:
 ---
 Hey dumpster-diving electronics hacking people!
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/NewImage.png" border="0" alt="NewImage" width="550" height="367" />  
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/NewImage.png" border="0" alt="NewImage" width="550" height="367" />  
 (image borrowed from the ThinkGeek link, below)
 
 I wish I had the time to be a hardware mod&#8217;er / tinkerer / hacker &#8230; I&#8217;ve got enough old junk around my house to do it, but no time to spend on it. I know there are some of you out there, though, who love to do it and have the time. So, I thought I would spread the word about ThinkGeek&#8217;s latest idea:

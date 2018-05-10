@@ -12,9 +12,9 @@ categories:
 ---
 Another from the “wicked awesome” category of AutoMapper. Other blogs about AutoMapper and LINQ:
 
-  * [Efficient querying with LINQ, AutoMapper and Future queries](http://lostechies.com/jimmybogard/2014/03/11/efficient-querying-with-linq-automapper-and-future-queries/) 
-      * [Using AutoMapper to prevent SELECT N+1 problems](http://lostechies.com/jimmybogard/2014/04/03/using-automapper-to-prevent-select-n1-problems/) 
-          * [Using AutoMapper to perform LINQ aggregations](http://lostechies.com/jimmybogard/2014/04/08/using-automapper-to-perform-linq-aggregations/) </ul> 
+  * [Efficient querying with LINQ, AutoMapper and Future queries](https://lostechies.com/jimmybogard/2014/03/11/efficient-querying-with-linq-automapper-and-future-queries/) 
+      * [Using AutoMapper to prevent SELECT N+1 problems](https://lostechies.com/jimmybogard/2014/04/03/using-automapper-to-prevent-select-n1-problems/) 
+          * [Using AutoMapper to perform LINQ aggregations](https://lostechies.com/jimmybogard/2014/04/08/using-automapper-to-perform-linq-aggregations/) </ul> 
         One current limitation of ORM LINQ projections in general is that it can’t project computed properties:
         
         {% gist d5382766981c264f46b6 %}

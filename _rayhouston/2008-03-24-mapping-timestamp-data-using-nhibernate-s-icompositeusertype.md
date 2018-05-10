@@ -9,7 +9,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/rhouston/archive/2008/03/23/mapping-timestamp-data-using-nhibernate-s-icompositeusertype.aspx/"
 ---
-In my previous [post](http://www.lostechies.com/blogs/rhouston/archive/2008/03/23/mapping-strings-to-booleans-using-nhibernate-s-iusertype.aspx), I took some string data and mapped it directly to a boolean property on an entity. That was pretty simple, but I wanted to try it out on a little more complex object..
+In my previous [post](https://lostechies.com/blogs/rhouston/archive/2008/03/23/mapping-strings-to-booleans-using-nhibernate-s-iusertype.aspx), I took some string data and mapped it directly to a boolean property on an entity. That was pretty simple, but I wanted to try it out on a little more complex object..
 
 In our projects, most of the entities have a Timestamp property which is of type Timestamp:
 

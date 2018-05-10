@@ -13,7 +13,7 @@ categories:
   - fubucore
   - FubuMVC
 ---
-This is the eighth post of the FubuCore series mentioned in the [Introduction post](http://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
+This is the eighth post of the FubuCore series mentioned in the [Introduction post](https://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
 
 You might be thinking to yourself, “Why is he doing a whole blog post on one class?” That’s because this little puppy, UrlContext, has done more to make my life better and development fun that it deserves a special place on its own. I know, I know, “Man, he gets \*really\* excited about a C# class – a little _too_ excited.” But it’s worth it, trust me.
 

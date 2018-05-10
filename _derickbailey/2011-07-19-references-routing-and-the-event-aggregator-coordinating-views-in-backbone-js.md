@@ -18,7 +18,7 @@ I recently found myself needing to facilitate communication between two backbone
 
 Here&#8217;s what the screen looks like after I click on the edit icon (the pencil):
 
-<img title="Screen shot 2011-07-19 at 9.02.38 AM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/07/Screen-shot-2011-07-19-at-9.02.38-AM.png" border="0" alt="Screen shot 2011 07 19 at 9 02 38 AM" width="600" height="498" />
+<img title="Screen shot 2011-07-19 at 9.02.38 AM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/07/Screen-shot-2011-07-19-at-9.02.38-AM.png" border="0" alt="Screen shot 2011 07 19 at 9 02 38 AM" width="600" height="498" />
 
 ## <span style="font-weight: normal; font-size: medium;">There are a number of ways to make this work &#8211; the most basic of which is to have the views reference each other so that they can either call methods on each other or raise events.</span>
 
@@ -55,7 +55,7 @@ Digging back into my Winforms development days of the last 4 years, I decided to
   * [Martin Fowler: Event Aggregator](http://martinfowler.com/eaaDev/EventAggregator.html)
   * [Jeremy Miller: Braindump On The Event Aggregator](http://codebetter.com/jeremymiller/2009/07/22/braindump-on-the-event-aggregator-pattern/)
   * [Jeremy Miller: &#8220;Latching&#8221; an Event Aggregator Subscriber](http://codebetter.com/jeremymiller/2009/08/01/latching-an-event-aggregator-subscriber/)
-  * [Me: Understanding The Application Controller Through Object Messaging Patterns](http://lostechies.com/derickbailey/2009/12/23/understanding-the-application-controller-through-object-messaging-patterns/)
+  * [Me: Understanding The Application Controller Through Object Messaging Patterns](https://lostechies.com/derickbailey/2009/12/23/understanding-the-application-controller-through-object-messaging-patterns/)
   * [Me: An example App Controller Implementation (code via Github)](https://github.com/derickbailey/appcontroller)
 
 The gist of the event aggregator is that you have a central object that manages the raising of events and the subscribers for those events. In terms of messaging patterns, the event aggregator is an in-memory, object based publish-subscribe model. It allows you have to have disparate parts of your system react to the events of other parts of the system, without having them directly coupled. I use event aggregators in my winforms apps to communication between various parts of my views and and other parts of my apps that are already up and running and need to be notified of changes that have happened.
@@ -70,7 +70,7 @@ That&#8217;s it! No, really. That&#8217;s all I needed, because backbone already
 
 {% gist 1092444 5-event-aggregation.js %}
 
-When the edit icon is clicked, the the vent is triggered with an &#8220;editMedication&#8221; event, passing the model that needs to be edited directly to any subscribers. The add/edit view has subscribed to the &#8220;editMedication&#8221; event and receives the medication directly as a parameter. Note that I also used [the underscore.js bindAll method](http://lostechies.com/derickbailey/2011/06/15/solving-backbones-this-model-view-problem-with-underscore-js/) to ensure that the editMedication method is executed in the correct context. If you omit this line, the editMedication method will execute with &#8216;this&#8217; being the event aggregator, not the view.
+When the edit icon is clicked, the the vent is triggered with an &#8220;editMedication&#8221; event, passing the model that needs to be edited directly to any subscribers. The add/edit view has subscribed to the &#8220;editMedication&#8221; event and receives the medication directly as a parameter. Note that I also used [the underscore.js bindAll method](https://lostechies.com/derickbailey/2011/06/15/solving-backbones-this-model-view-problem-with-underscore-js/) to ensure that the editMedication method is executed in the correct context. If you omit this line, the editMedication method will execute with &#8216;this&#8217; being the event aggregator, not the view.
 
 Now that&#8217;s some code that I can really fall in love with! My application functions perfectly &#8211; I can click the edit icon and have the correct medication populated into the add/edit view, for editing. Yet my views know nothing about each other. I have completely decoupled them from each other. The only thing the views need to know about is the event aggregator object.
 

@@ -12,7 +12,7 @@ categories:
   - AutoMapper
 redirect_from: "/blogs/jimmy_bogard/archive/2009/06/29/how-we-do-mvc-view-models.aspx/"
 ---
-A while back, I went over a few of the patterns and opinions we’ve gravitated towards on our current large-ish ASP.NET MVC project, or, [how we do MVC](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/04/24/how-we-do-mvc.aspx).&#160; Many of these opinions were forged the hard way, by doing the wrong thing many times until we found the “right” opinion.&#160; Of course, many of these opinions are only really valid in the constraints of our project.&#160; While the domain of this project isn’t important, here are some key aspects to consider:
+A while back, I went over a few of the patterns and opinions we’ve gravitated towards on our current large-ish ASP.NET MVC project, or, [how we do MVC](https://lostechies.com/blogs/jimmy_bogard/archive/2009/04/24/how-we-do-mvc.aspx).&#160; Many of these opinions were forged the hard way, by doing the wrong thing many times until we found the “right” opinion.&#160; Of course, many of these opinions are only really valid in the constraints of our project.&#160; While the domain of this project isn’t important, here are some key aspects to consider:
 
   * AJAX is used very, very sparingly.&#160; Section 508 compliance is required
   * XHTML compliance is also required
@@ -45,7 +45,7 @@ We’ll get into how we do this soon, but this rule has a lot of implications:
   * The choice of what View to show can be decided strictly on the shape of your ViewModel
   * Re-used pieces in a View (through Partials) can be decided through re-using ViewModel types
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="153" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_6C664A18.png" width="425" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_05CE4D53.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="153" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_6C664A18.png" width="425" border="0" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_05CE4D53.png) 
 
 On the first point, we never pass an Domain Model entity straight into the view.&#160; Most of the time, we only show a slice of information from a single entity.&#160; And many other times, the same snippet is shown in many places.
 
@@ -67,7 +67,7 @@ When we introduced AutoMapper into our MVC pipeline, we had a real problem.&#160
 
 So more moving parts, a dependency across _all_ controllers?&#160; No, mapping in our Controller action just won’t do.&#160; Instead, we’ll use an Action Filter to do the work for us:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="209" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_1D1951C4.png" width="744" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_2510F426.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="209" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_1D1951C4.png" width="744" border="0" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_2510F426.png) 
 
 A request comes in, handled by an Action.&#160; The Action does its thing, ultimately deciding how to respond to the request.&#160; In many cases, this means rendering a view (ViewResult).&#160; From there, our Action Filter comes into play.&#160; On our Action method, we decorate it with an AutoMap attribute to configure the source/destination type pair to be mapped:
 
@@ -81,7 +81,7 @@ A request comes in, handled by an Action.&#160; The Action does its thing, ultim
 
 [](http://11011.net/software/vspaste)
 
-Very trivial, yes, but here we see that we still use the strongly-typed version of the View method, so that means that our model on the Action side, which I call the Presentation Model (feel free to pick a better name), is the strongly-typed ViewModel _for the moment_.&#160; The Presentation Model, which the Action creates, can be an entity, an aggregate root, or some other [custom aggregate component](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/02/04/ddd-aggregate-component-pattern-in-action.aspx) that we build up.
+Very trivial, yes, but here we see that we still use the strongly-typed version of the View method, so that means that our model on the Action side, which I call the Presentation Model (feel free to pick a better name), is the strongly-typed ViewModel _for the moment_.&#160; The Presentation Model, which the Action creates, can be an entity, an aggregate root, or some other [custom aggregate component](https://lostechies.com/blogs/jimmy_bogard/archive/2009/02/04/ddd-aggregate-component-pattern-in-action.aspx) that we build up.
 
 From there, we decorated our action with a filter that specified we need to map from Product to ShowProduct.&#160; Why do we have to specify the source type?&#160; Well, many ORMs, including NHibernate, rely on proxy types for things like lazy loading.&#160; Instead of relying on the runtime type, we’ll explicitly specify our source type directly.&#160; This also helps us later in testing, as we can whip through all of our controller actions using reflection, and test to make sure the source/destination type specified is actually configured.
 

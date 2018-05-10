@@ -21,7 +21,7 @@ Using Solution Factory inside of NuPack opens up a great new world of creating S
 
 The following code is a prototype of what you could use to make a MetaPackage for NuPack . (A meta package is a package that would not contain any assemblies or content to add to a project but would rather chain together a set of packages). In this scenario, using Visual Studio I can create a MVC project and using this script I automate setting up a test project with the latest versions of the testing tools that I like to work in.
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_323AC6DA.png" width="644" height="343" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_59E14304.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_323AC6DA.png" width="644" height="343" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_59E14304.png)
 
 &#160;
 
@@ -36,11 +36,11 @@ The commands that Solution Factory adds to the Package Management Console are:
 
 After running this code, you will see the following output in the console
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_296ABE8E.png" width="644" height="266" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_3C1FB845.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_296ABE8E.png" width="644" height="266" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_3C1FB845.png)
 
 You can see the console pretty much echoes the commands of my little PowerShell script.&#160; Lets look at the solution explorer to see what was added.
 
-[<img style="border-bottom: 0px;border-left: 0px;margin: 0px 10px 0px 0px;padding-left: 0px;padding-right: 0px;float: left;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" align="left" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_0EBE2275.png" width="244" height="484" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_1A53DFB4.png) The Test project was added and it follows the convention/ naming pattern that I like.&#160; You can see that the assembly references are pretty clean.&#160; This is pretty much the way I like it but with previous solutions like solution factory, I get the benefit of having the latest version of each of the libraries, thanks to NuPack.
+[<img style="border-bottom: 0px;border-left: 0px;margin: 0px 10px 0px 0px;padding-left: 0px;padding-right: 0px;float: left;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" align="left" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_0EBE2275.png" width="244" height="484" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_1A53DFB4.png) The Test project was added and it follows the convention/ naming pattern that I like.&#160; You can see that the assembly references are pretty clean.&#160; This is pretty much the way I like it but with previous solutions like solution factory, I get the benefit of having the latest version of each of the libraries, thanks to NuPack.
 
 &#160;
 

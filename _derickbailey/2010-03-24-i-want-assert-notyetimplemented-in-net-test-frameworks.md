@@ -24,7 +24,7 @@ redirect_from: "/blogs/derickbailey/archive/2010/03/24/i-want-assert-notyetimple
 ---
 One of my coworkers recently tweeted this:
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="Just wrote a bunch of failing unit tests that describe how a class should work. Leaving them as failing, so I know where to start tomorrow." src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_0207E919.png" width="266" height="87" />](http://twitter.com/RossCode/status/10963796437) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="Just wrote a bunch of failing unit tests that describe how a class should work. Leaving them as failing, so I know where to start tomorrow." src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_0207E919.png" width="266" height="87" />](http://twitter.com/RossCode/status/10963796437) 
 
 I do that a lot with c# and nunit. It helps me to figure out where I need to go, what tests are going to be organized where, etc. I certainly don’t expect my first pass at the tests to be the final layout, and I don’t try and get every last test laid out all at once. I just lay down the ones that I know of immediately. I also tend to add new test shells as I am working in the tests and implementation, as I think of scenarios. This gives me a good place to start and a overview of what the code should be doing at a point right in between the user story and the implementation. Leaving the tests failing (with a “throw NotImplementedException()” or an “Assert.Fail(“not yet implemented”)”) gives me the freedom to go about my business and focus in on what i should be doing next, without having to worry about keeping track of the things i will be doing in the future. It’s quite nice, really. I’ve been doing this for a while now, and it works for me.
 
@@ -86,7 +86,7 @@ If I were writing ruby and rspec tests, I wouldn’t have this problem. I could 
       </p>
       
       <p>
-        <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_1A978669.png" width="997" height="474" />
+        <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_1A978669.png" width="997" height="474" />
       </p>
       
       <p>

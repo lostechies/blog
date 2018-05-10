@@ -30,13 +30,13 @@ I&#8217;ve spent 5+ years building MV* family applications in thick-client / GUI
 
 Consider this picture of an MVC process flow ([from Wikipedia](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)):
 
-<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/12/NewImage1.png" alt="NewImage" width="350" height="160" border="0" />
+<img title="NewImage.png" src="https://lostechies.com/content/derickbailey/uploads/2011/12/NewImage1.png" alt="NewImage" width="350" height="160" border="0" />
 
 Here, the models contain data which is used to populate views. Actions that a user initiates are handled by the controller which processes the request and updates the models. The models are then fed back to the views and the cycle starts over. It&#8217;s cyclical in nature.
 
 And now consider this picture of an MVP process flow ([from LessThanDot.com](http://blogs.lessthandot.com/index.php/Architect/DesigningSoftware/model-view-presenter-looking-at-passive)):
 
-<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/12/NewImage2.png" alt="NewImage" width="267" height="219" border="0" />
+<img title="NewImage.png" src="https://lostechies.com/content/derickbailey/uploads/2011/12/NewImage2.png" alt="NewImage" width="267" height="219" border="0" />
 
 Notice the difference? Right &#8211; it&#8217;s not circular. That&#8217;s the big difference between MVC and plain-jane MVP (a.k.a. &#8220;[passive view](http://martinfowler.com/eaaDev/PassiveScreen.html)&#8220;). MVP does not work in a circular fashion the way MVC does. Instead, it relies on a presenter (the &#8220;P&#8221; in MVP) to be the coordinating brains of the operation. The presenter in an MVP app is responsible for taking the data from the models and stuffing it in to the views. Then when an action is taken on the view, the presenter intercepts it and coordinates the work with the other services, resulting in changes to models. The presenter then takes those model changes and pushes them back out to the view, and the elevator of moving data up and down the architectural stack begins again.
 

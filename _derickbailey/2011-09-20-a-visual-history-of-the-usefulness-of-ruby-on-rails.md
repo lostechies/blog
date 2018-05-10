@@ -18,7 +18,7 @@ So, in order to help myself and maybe a few others understand what I&#8217;m get
 
 ## Rails 1: A Great Start. A Lot Of Manual Work
 
-<img style="border: 0px initial initial;" title="3760098528_efbea17252.jpg" src="http://lostechies.com/content/derickbailey/uploads/2011/09/3760098528_efbea17252.jpg" border="0" alt="3760098528 efbea17252" width="500" height="334" />
+<img style="border: 0px initial initial;" title="3760098528_efbea17252.jpg" src="https://lostechies.com/content/derickbailey/uploads/2011/09/3760098528_efbea17252.jpg" border="0" alt="3760098528 efbea17252" width="500" height="334" />
 
 <p style="font-size: 10px;">
   (Photo from <a href="http://www.flickr.com/photos/tonythemisfit/3760098528/sizes/m/in/photostream/">http://www.flickr.com/photos/tonythemisfit/3760098528/sizes/m/in/photostream/</a>)
@@ -26,7 +26,7 @@ So, in order to help myself and maybe a few others understand what I&#8217;m get
 
 ## Rails 2: The Most Really Useful Engine
 
-<img title="6202_Thomas_&_Friends_Best_Friends_lg.jpg" src="http://lostechies.com/content/derickbailey/uploads/2011/09/6202_Thomas__Friends_Best_Friends_lg.jpg" border="0" alt="6202 Thomas Friends Best Friends lg" width="500" height="355" />
+<img title="6202_Thomas_&_Friends_Best_Friends_lg.jpg" src="https://lostechies.com/content/derickbailey/uploads/2011/09/6202_Thomas__Friends_Best_Friends_lg.jpg" border="0" alt="6202 Thomas Friends Best Friends lg" width="500" height="355" />
 
 <p style="font-size: 10px;">
   (<a href="http://www.thomasandfriends.com/usa/Thomas.mvc/Home">Thomas & Friends</a> &#8211; my kids&#8217; favorite tv show)
@@ -34,13 +34,13 @@ So, in order to help myself and maybe a few others understand what I&#8217;m get
 
 ## Rails 3: Which Rail Do You Want To Take?
 
-<img title="3126085212_487bbf0fa6.jpg" src="http://lostechies.com/content/derickbailey/uploads/2011/09/3126085212_487bbf0fa6.jpg" border="0" alt="3126085212 487bbf0fa6" width="500" height="375" />
+<img title="3126085212_487bbf0fa6.jpg" src="https://lostechies.com/content/derickbailey/uploads/2011/09/3126085212_487bbf0fa6.jpg" border="0" alt="3126085212 487bbf0fa6" width="500" height="375" />
 
 <span style="font-size: 10px;">(Photo from </span><a style="font-size: 10px;" href="http://www.flickr.com/photos/sonnycohen/3126085212/sizes/m/in/photostream/">http://www.flickr.com/photos/sonnycohen/3126085212/sizes/m/in/photostream/</a><span style="font-size: 10px;">)</span>
 
 ## Rails 3.1: Some Assembly Required?
 
-<img title="5512183307_b9788e211a.jpg" src="http://lostechies.com/content/derickbailey/uploads/2011/09/5512183307_b9788e211a.jpg" border="0" alt="5512183307 b9788e211a" width="500" height="272" />
+<img title="5512183307_b9788e211a.jpg" src="https://lostechies.com/content/derickbailey/uploads/2011/09/5512183307_b9788e211a.jpg" border="0" alt="5512183307 b9788e211a" width="500" height="272" />
 
 <p style="font-size: 10px;">
   (Photo from <a href="http://www.flickr.com/photos/steveinleighton/5512183307/sizes/m/in/photostream/">http://www.flickr.com/photos/steveinleighton/5512183307/sizes/m/in/photostream/</a>)

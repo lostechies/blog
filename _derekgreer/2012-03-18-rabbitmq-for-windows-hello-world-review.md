@@ -43,7 +43,7 @@ tags:
   </ul>
 </div>
 
-This is the third installment to the series: RabbitMQ for Windows.&nbsp; In the [last installment](http://lostechies.com/derekgreer/2012/03/07/rabbitmq-for-windows-building-your-first-application/), we discussed some basic messaging concepts and created our first RabbitMQ application.&nbsp; In this installment, we’ll be taking a closer look at our Hello World application to help round out our understanding of the basic concepts involved.
+This is the third installment to the series: RabbitMQ for Windows.&nbsp; In the [last installment](https://lostechies.com/derekgreer/2012/03/07/rabbitmq-for-windows-building-your-first-application/), we discussed some basic messaging concepts and created our first RabbitMQ application.&nbsp; In this installment, we’ll be taking a closer look at our Hello World application to help round out our understanding of the basic concepts involved.
 
 ## Hello World Review
 

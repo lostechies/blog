@@ -14,7 +14,7 @@ categories:
 ---
 I&#8217;ve been running a 3-monitor set up on a macbook pro for the last year and a half. Here&#8217;s a pic of what it looks like;
 
-<img title="NewImage.png" src="http://lostechies.com/content/derickbailey/uploads/2011/05/NewImage.png" border="0" alt="NewImage" width="600" height="448" />
+<img title="NewImage.png" src="https://lostechies.com/content/derickbailey/uploads/2011/05/NewImage.png" border="0" alt="NewImage" width="600" height="448" />
 
 The model of macbook pro that I have only has one mini display port. To accomplish this setup, the monitor on the far right uses a usb video adapter. I&#8217;ve tried a few different models and I settled on an [EVGA UV19+](http://www.amazon.com/EVGA-100-U2-UV19-TR-Supporting-2048x1152-Resolution/dp/B003L53C2E). This runs with drivers from [displaylink.com](http://displaylink.com/). Over-all it&#8217;s a functional solution and offers the advantage of having as many monitors as I need, as long as I keep buying more of the usb vga adapters to run them.
 

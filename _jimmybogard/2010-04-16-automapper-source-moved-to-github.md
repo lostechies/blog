@@ -19,7 +19,7 @@ I wanted to wait to “officially” move until I had moved the build over, adde
 
 So can do you contribute?&#160; First, check out Jason’s git for Windows developers post:
 
-<http://www.lostechies.com/blogs/jason_meridth/archive/2009/06/01/git-for-windows-developers-git-series-part-1.aspx>
+<https://lostechies.com/blogs/jason_meridth/archive/2009/06/01/git-for-windows-developers-git-series-part-1.aspx>
 
 Next, get over to github and create an account:
 

@@ -45,7 +45,7 @@ Our use of MSDeploy now boils down to two steps.&#160; Distribute and Execute.&#
 
 Calling MsDeploy from Nant
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_19E0E10C.png" width="1028" height="249" />](http://lostechies.com/content/erichexter/uploads/2011/03/image_4912CCA3.png)
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/erichexter/uploads/2011/03/image_thumb_19E0E10C.png" width="1028" height="249" />](https://lostechies.com/content/erichexter/uploads/2011/03/image_4912CCA3.png)
 
 The **dirPath**&#160; command tells MSDeploy to synchronize a directory from the source computer a target computer. This is a pretty easy command to understand.
 

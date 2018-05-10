@@ -16,7 +16,7 @@ I’ve been playing with some MVC-related stuff and one of the things I took a s
 
 I came up with this:
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="241" alt="no_code_behind" src="http://lostechies.com/content/chadmyers/uploads/2011/03/no_code_behind_thumb.png" width="526" border="0" />](http://lostechies.com/content/chadmyers/uploads/2011/03/no_code_behind_2.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="241" alt="no_code_behind" src="https://lostechies.com/content/chadmyers/uploads/2011/03/no_code_behind_thumb.png" width="526" border="0" />](https://lostechies.com/content/chadmyers/uploads/2011/03/no_code_behind_2.png) 
 
 ## &#160;
 

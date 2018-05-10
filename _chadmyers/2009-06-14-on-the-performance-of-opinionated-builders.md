@@ -11,7 +11,7 @@ categories:
   - Premature optimization
 redirect_from: "/blogs/chad_myers/archive/2009/06/14/on-the-performance-of-opinionated-builders.aspx/"
 ---
-I was reading [Eric Hexter’s](http://hex.lostechies.com) post titled “[Opinionated Input Builders Part 6: Performance of the Builders](http://www.lostechies.com/blogs/hex/archive/2009/06/13/opinionated-input-builders-part-6-performance-of-the-builders.aspx)” and I was going to leave a lengthy comment, but decided it would be better as its own blog post:
+I was reading [Eric Hexter’s](http://hex.lostechies.com) post titled “[Opinionated Input Builders Part 6: Performance of the Builders](https://lostechies.com/blogs/hex/archive/2009/06/13/opinionated-input-builders-part-6-performance-of-the-builders.aspx)” and I was going to leave a lengthy comment, but decided it would be better as its own blog post:
 
 > I’m going to assume that the data is all correct (or representative of reality). As another reader pointed out, this [poor performance] could simply be because debug=true is set in the web.config or some other non-obvious, but simple explanation. For this exercise, let’s assume that this performance is the correct reality.
 > 

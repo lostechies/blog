@@ -59,4 +59,4 @@ So there it is, rule #3:
 
 These are the rules we follow for Fubu work but I think they&#8217;re generally applicable to most projects. What about you? What process do you use?
 
-Major hat tip to [Josh Flanagan](http://lostechies.com/joshuaflanagan/), our resident master (not jack) of all trades and Git guru for establishing this process.
+Major hat tip to [Josh Flanagan](https://lostechies.com/joshuaflanagan/), our resident master (not jack) of all trades and Git guru for establishing this process.

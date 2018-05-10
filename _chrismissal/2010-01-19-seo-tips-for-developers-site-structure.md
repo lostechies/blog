@@ -16,7 +16,7 @@ Continuing in this series of tips for improving your search engine goodness, we�
 
 ### Easy to Read URLs
 
-This might be obvious to some, but maybe not others. URLs such as **http://www.lostechies.com/blogs.aspx?blog=52&post=12923** do not have any meaning at face value; I can’t figure out what is on that page unless I click. People don’t like these and the bots don’t either. Strive for URLs like **http://www.lostechies.com/blog/chris-missal/seo-tips-for-developers-site-structure** or something similar. Given some certain situations, these aren’t always easy to come by. However, if you’re designing a site from scratch, give this high priority!
+This might be obvious to some, but maybe not others. URLs such as **https://lostechies.com/blogs.aspx?blog=52&post=12923** do not have any meaning at face value; I can’t figure out what is on that page unless I click. People don’t like these and the bots don’t either. Strive for URLs like **https://lostechies.com/blog/chris-missal/seo-tips-for-developers-site-structure** or something similar. Given some certain situations, these aren’t always easy to come by. However, if you’re designing a site from scratch, give this high priority!
 
 ### Good Hyperlinks
 

@@ -17,7 +17,7 @@ tags:
 ---
 <div>
   <div>
-    I&#8217;m not going to sit back and let <a href="http://lostechies.com/ryanrauh/">Ryan</a> slip all the memes into Los Techies.
+    I&#8217;m not going to sit back and let <a href="https://lostechies.com/ryanrauh/">Ryan</a> slip all the memes into Los Techies.
   </div>
   
   <div>

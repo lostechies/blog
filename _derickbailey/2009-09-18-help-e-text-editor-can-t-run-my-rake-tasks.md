@@ -18,6 +18,6 @@ I’ve got Cygwin installed (am new to this… don’t really know much about it
 
 Whenever I try to run a rake task, though, I get this error:
 
- <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="c:Rubybinruby.exe: No such file or directory -- C:UsersderickbAppDataRoamingeInstalledBundlesRuby.tmbundleSupportRakeMaterake_mate.rb (LoadError) " src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_6E8E2ABE.png" width="700" height="544" />
+ <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="c:Rubybinruby.exe: No such file or directory -- C:UsersderickbAppDataRoamingeInstalledBundlesRuby.tmbundleSupportRakeMaterake_mate.rb (LoadError) " src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_6E8E2ABE.png" width="700" height="544" />
 
 I have checked for the file that it says it can’t find. The file does exist. Does anyone have any clue what this error means and how to fix it? My google searches on this have been returning nothing.

@@ -15,15 +15,15 @@ There are probably a few more terms I can throw in there, but over the past few 
 
 These days, the de facto standard for building MVC applications looks something like this for GETs:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/04/image_thumb4.png" width="644" height="101" />](http://lostechies.com/content/jimmybogard/uploads/2012/04/image4.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2012/04/image_thumb4.png" width="644" height="101" />](https://lostechies.com/content/jimmybogard/uploads/2012/04/image4.png)
 
 And for POSTs:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/04/image_thumb5.png" width="644" height="104" />](http://lostechies.com/content/jimmybogard/uploads/2012/04/image5.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2012/04/image_thumb5.png" width="644" height="104" />](https://lostechies.com/content/jimmybogard/uploads/2012/04/image5.png)
 
 We’re using the same ViewModel for both GET and POST, where in one case the ViewModel is used in the View to build a form, and in the other case, the exact same model is used on the POST side to model bind from HTTP variables into something we can reason with.
 
-The ViewModel usually isn’t the [persistence model](http://lostechies.com/jimmybogard/2009/12/03/persistence-model-and-domain-anemia/), as that the concerns of what your persistence layer needs often contradict what your presentation layer needs.
+The ViewModel usually isn’t the [persistence model](https://lostechies.com/jimmybogard/2009/12/03/persistence-model-and-domain-anemia/), as that the concerns of what your persistence layer needs often contradict what your presentation layer needs.
 
 In this model, we have many different pieces at play here:
 

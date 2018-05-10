@@ -18,13 +18,13 @@ categories:
 ---
 After your done with this post, explore the others in this series:
   
-_[Part 1 – Synchronizing webpages across devices with SignalR](http://lostechies.com/erichexter/2012/10/30/synchronizing-webpages-across-devices-home-automation/)_
+_[Part 1 – Synchronizing webpages across devices with SignalR](https://lostechies.com/erichexter/2012/10/30/synchronizing-webpages-across-devices-home-automation/)_
   
-_[Part 2 – Architecture for a SignalR Synchronized Webpage Application](http://lostechies.com/erichexter/2012/11/05/architecture-for-a-signalr-synchronized-webpage-application-part-2/)_
+_[Part 2 – Architecture for a SignalR Synchronized Webpage Application](https://lostechies.com/erichexter/2012/11/05/architecture-for-a-signalr-synchronized-webpage-application-part-2/)_
   
-_[Part 3 – Publish Subscribe using SignalR](http://lostechies.com/erichexter/2012/11/08/publish-and-subscribe-using-signalr-in-home-automation-part-3/)_
+_[Part 3 – Publish Subscribe using SignalR](https://lostechies.com/erichexter/2012/11/08/publish-and-subscribe-using-signalr-in-home-automation-part-3/)_
   
-_[Part 4 – Front End Code Review](http://lostechies.com/erichexter/2012/11/12/code-review-of-a-publishsubscribe-architecture-using-signalr-in-home-automation-part-4/)_
+_[Part 4 – Front End Code Review](https://lostechies.com/erichexter/2012/11/12/code-review-of-a-publishsubscribe-architecture-using-signalr-in-home-automation-part-4/)_
 
 I wrote a front end to my home automation system using a newer set of technologies.  The goal of my new interface is to make it really easy to control the lights in my house with a large number of devices.  The result is that I came up with a solution that allows me to use smart phones, tablets, and pcs.   Making a application that looks good on multiple devices was pretty easy, I used the jQuery Mobile libraries to implement a simple interface.  The challenging part of this solution is that when I have a tablet sitting in my kitchen that shows the current status of the devices, it quickly became outdated when I turned on a light using a different device, like my phone or my computer.  This was an interesting problem to solve.  While the solution is not instantaneous, it is eventually consistent, in terms of seconds.  Below is an example of showing three different browser windows that are running as if they were separate devices.  The video looks best if you view it in HD.
 

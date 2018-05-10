@@ -43,7 +43,7 @@ tags:
   </ul>
 </div>
 
-This is the seventh installment to the series: RabbitMQ for Windows.&nbsp; In the [last installment](http://lostechies.com/derekgreer/2012/05/16/rabbitmq-for-windows-fanout-exchanges/), we walked through creating a fanout exchange example.&nbsp; In this installment, we’ll be walking through a topic exchange example.
+This is the seventh installment to the series: RabbitMQ for Windows.&nbsp; In the [last installment](https://lostechies.com/derekgreer/2012/05/16/rabbitmq-for-windows-fanout-exchanges/), we walked through creating a fanout exchange example.&nbsp; In this installment, we’ll be walking through a topic exchange example.
 
 Topic exchanges are similar to direct exchanges in that they use a routing key to determine which queue a message should be delivered to, but they differ in that they provide the ability to match on portions of a routing key.&nbsp; When publishing to a topic exchange, a routing key consisting of multiple words separated by periods (e.g. “word1.word2.word3”) will be matched against a pattern supplied by the binding queue.&nbsp; Patterns may contain an asterisk (“*”) to match a word in a specific segment or a hash (“#”) to match zero or more words.&nbsp; As discussed earlier in the series, the topic exchange type can be useful for directing messages based on multiple categories or for routing messages originating from multiple sources.
 

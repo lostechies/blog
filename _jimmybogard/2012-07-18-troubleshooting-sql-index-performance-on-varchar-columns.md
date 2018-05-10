@@ -38,7 +38,7 @@ WHERE AccountId = N'9876543210987654'
 
 And wouldn’t you know it, the first query was fast and the second slow. But _why_ was the second one so slow? And why did this matter? Looking at the execution plans in SSMS:
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/07/image_thumb.png" width="905" height="507" />](http://lostechies.com/content/jimmybogard/uploads/2012/07/image.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2012/07/image_thumb.png" width="905" height="507" />](https://lostechies.com/content/jimmybogard/uploads/2012/07/image.png)
 
 So seemingly identical queries, but the execution plans are much, much different! The difference between the two queries is the first uses ANSI strings, while the second uses Unicode strings. The first results in [an index seek (very fast) while the second an index scan](http://blog.sqlauthority.com/2007/03/30/sql-server-index-seek-vs-index-scan-table-scan/) (absolutely horrible, sequential scanning). For each row, SQL Server would convert the index’s value to NVARCHAR, as seen in the index plan’s details around the predicate:
 

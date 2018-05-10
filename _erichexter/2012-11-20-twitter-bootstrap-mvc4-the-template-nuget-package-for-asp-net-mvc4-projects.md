@@ -19,9 +19,9 @@ categories:
 ---
 **UPDATE:** To learn more about the Package read these blog posts:
 
-  * <a href="http://lostechies.com/erichexter/2012/11/20/twitter-bootstrap-mvc4-the-template-nuget-package-for-asp-net-mvc4-projects/" target="_blank">Introduction</a>
-  * <a href="http://lostechies.com/erichexter/2012/12/24/twitter-bootstrap-mvc4-new-release-1-0-71/" target="_blank">Release 1.0.71</a>
-  * [Bootstrap MVC &#8211; Menu System](http://lostechies.com/erichexter/2012/12/31/using-mvc-navigation-routes-in-twitter-bootstrap-mvc4/)
+  * <a href="https://lostechies.com/erichexter/2012/11/20/twitter-bootstrap-mvc4-the-template-nuget-package-for-asp-net-mvc4-projects/" target="_blank">Introduction</a>
+  * <a href="https://lostechies.com/erichexter/2012/12/24/twitter-bootstrap-mvc4-new-release-1-0-71/" target="_blank">Release 1.0.71</a>
+  * [Bootstrap MVC &#8211; Menu System](https://lostechies.com/erichexter/2012/12/31/using-mvc-navigation-routes-in-twitter-bootstrap-mvc4/)
 
 [Bootstrap](http://twitter.github.com/bootstrap/) as described by the project website is:
 
@@ -31,7 +31,7 @@ It is open source and was written and supported by [Twitter](http://twtitter.com
 
 ## Twitter.Bootstrap.MVC4 Nuget
 
-Introducing the [Twitter.Bootstrap.MVC4](http://nuget.org/packages/twitter.bootstrap.mvc4) nuget package; It will save you time adding bootstrap to MVC4. It combines the existing Bootstrap package with MVC 4 and makes you more productive from step one. This is the work of a spike [Matt Hinze](http://lostechies.com/matthinze/) created, I then packaged it up to share it with the world.
+Introducing the [Twitter.Bootstrap.MVC4](http://nuget.org/packages/twitter.bootstrap.mvc4) nuget package; It will save you time adding bootstrap to MVC4. It combines the existing Bootstrap package with MVC 4 and makes you more productive from step one. This is the work of a spike [Matt Hinze](https://lostechies.com/matthinze/) created, I then packaged it up to share it with the world.
 
 ### Install twitter.bootstrap.mvc4 from nuget
 
@@ -57,7 +57,7 @@ Before digging into the details of how this is implemented in the code, here are
 
 &nbsp;
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb15.png" alt="image" width="678" height="181" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image15.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb15.png" alt="image" width="678" height="181" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image15.png)
 
 By adding two routes ( Home and My Account) the routes show up in the main navigation bar. Here is a [sample](https://gist.github.com/4128989) of how to create Navigation Routes.
 
@@ -67,19 +67,19 @@ Three razor views are placed in the Views/Shared folder; Index, Edit, and Detail
 
 ### **Index**
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb16.png" alt="image" width="666" height="197" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image16.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb16.png" alt="image" width="666" height="197" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image16.png)
 
 This is an example of the default Index page. Simply return a IEnumerable of your view model and a listing table will be automatically created. This page uses the default bootstrap table formatting and action button dropdown. The field headers are the Property names of the view model split into natural words, and the name of the view model is listed at the top of the page. Through some small conventions you can in crease the velocity of your back end admin screen development by only writing the controllers and models, the views come for free.
 
 ### Index – Action dropdown
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb17.png" alt="image" width="718" height="248" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image17.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb17.png" alt="image" width="718" height="248" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image17.png)
 
 The above screenshot shows the Action dropdown menu, which can be extended to add additional actions to very easily.
 
 ### **Details**
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb18.png" alt="image" width="307" height="385" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image18.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb18.png" alt="image" width="307" height="385" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image18.png)
 
 This is the default **Details** view. Just return a view model and this will be automatically generated.
 
@@ -87,7 +87,7 @@ This is the default **Details** view. Just return a view model and this will be 
 
 The default edit/create template integrates the [bootstrap forms](http://twitter.github.com/bootstrap/base-css.html#forms) styles using the recommended markup and styles.
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb19.png" alt="image" width="529" height="404" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image19.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb19.png" alt="image" width="529" height="404" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image19.png)
 
 &nbsp;
 
@@ -95,7 +95,7 @@ Above is the example of the default edit screen, that takes full advantage of MV
 
 ### Edit Validation
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb20.png" alt="image" width="539" height="365" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image20.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb20.png" alt="image" width="539" height="365" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image20.png)
 
 &nbsp;
 
@@ -107,11 +107,11 @@ The layout template has [bootstrap alerts](http://twitter.github.com/bootstrap/c
 
 &nbsp;
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb21.png" alt="image" width="731" height="255" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image21.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb21.png" alt="image" width="731" height="255" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image21.png)
 
 The above figure shows the Success alert displayed in green above the table.
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://lostechies.com/content/erichexter/uploads/2012/11/image_thumb22.png" alt="image" width="724" height="271" border="0" />](http://lostechies.com/content/erichexter/uploads/2012/11/image22.png)
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="https://lostechies.com/content/erichexter/uploads/2012/11/image_thumb22.png" alt="image" width="724" height="271" border="0" />](https://lostechies.com/content/erichexter/uploads/2012/11/image22.png)
 
 &nbsp;
 

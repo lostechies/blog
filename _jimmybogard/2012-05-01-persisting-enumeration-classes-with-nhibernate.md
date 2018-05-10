@@ -11,7 +11,7 @@ categories:
   - DomainDrivenDesign
   - NHibernate
 ---
-As part of my “[Crafting Wicked Domain Models](http://youtu.be/GubLNJL47K8)” talk, I walk through the concept of [enumeration classes](http://lostechies.com/jimmybogard/2008/08/12/enumeration-classes/), yanked from Java and on Jon Skeet’s [list of biggest C# mistakes](http://vimeo.com/17151234) (or missing features). In my talk, I leave out how to bridge the gap from your domain model to an ORM, simply because it’s just out of scope for that talk to address persistence concerns. Besides, the ORM I use these days to persist relational domain models (NHibernate) handles all the crazy cases an more, so I don’t feel like looking at anything else.
+As part of my “[Crafting Wicked Domain Models](http://youtu.be/GubLNJL47K8)” talk, I walk through the concept of [enumeration classes](https://lostechies.com/jimmybogard/2008/08/12/enumeration-classes/), yanked from Java and on Jon Skeet’s [list of biggest C# mistakes](http://vimeo.com/17151234) (or missing features). In my talk, I leave out how to bridge the gap from your domain model to an ORM, simply because it’s just out of scope for that talk to address persistence concerns. Besides, the ORM I use these days to persist relational domain models (NHibernate) handles all the crazy cases an more, so I don’t feel like looking at anything else.
 
 But what I leave out of a talk, I can certainly blog about! Suppose we have one of our enumeration classes (available [here on NuGet](http://nuget.org/packages/Enumeration)):
 

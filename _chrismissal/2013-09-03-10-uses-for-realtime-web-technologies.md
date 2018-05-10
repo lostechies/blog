@@ -15,9 +15,9 @@ By: [Brad Carleton](http://twitter.com/#!/techpines)
 
 So far, this series on _Building Realtime HTML5 Apps_ has been fairly abstract/technical, which is great for my inner nerd. But for this final article, I wanted to focus on real life uses for realtime web technologies. Hopefully, this will give you some interesting ideas for your next side-project or startup idea. Also, if you want to checkout the previous articles, here&#8217;s the list:
 
-  1. [Browser Wars: Websockets vs Ajax](http://lostechies.com/chrismissal/2013/08/06/browser-wars-websockets-vs-ajax/)
-  2. [Single Page Apps & Realtime, a Love Story](http://lostechies.com/chrismissal/2013/08/13/single-page-apps-realtime-a-love-story/)
-  3. [Realtime User Interface Design](http://lostechies.com/chrismissal/2013/08/20/realtime-user-interface-design/#comments).
+  1. [Browser Wars: Websockets vs Ajax](https://lostechies.com/chrismissal/2013/08/06/browser-wars-websockets-vs-ajax/)
+  2. [Single Page Apps & Realtime, a Love Story](https://lostechies.com/chrismissal/2013/08/13/single-page-apps-realtime-a-love-story/)
+  3. [Realtime User Interface Design](https://lostechies.com/chrismissal/2013/08/20/realtime-user-interface-design/#comments).
 
 On to the list of 10 uses for realtime web technologies:
 

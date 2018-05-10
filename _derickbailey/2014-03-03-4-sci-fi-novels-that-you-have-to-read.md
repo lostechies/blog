@@ -11,7 +11,7 @@ categories:
   - Books
   - Books Reviews
 ---
-A few months ago, I posted [a short list of sci-fi novels worth reading](http://lostechies.com/derickbailey/2013/11/27/a-short-list-of-sci-fi-novels-worth-reading/). It was a bit of an experiment for me to post that, since this is a technical blog. But the post seemed to be popular &#8211; I got a lot of great feedback on it. So here I am, with yet another list of books that you should read. This time around, I&#8217;ve got a classic cyberpunk novel and a trilogy from an independent author. **All 4 of these books are a must-read for any sci-fi fan**. 
+A few months ago, I posted [a short list of sci-fi novels worth reading](https://lostechies.com/derickbailey/2013/11/27/a-short-list-of-sci-fi-novels-worth-reading/). It was a bit of an experiment for me to post that, since this is a technical blog. But the post seemed to be popular &#8211; I got a lot of great feedback on it. So here I am, with yet another list of books that you should read. This time around, I&#8217;ve got a classic cyberpunk novel and a trilogy from an independent author. **All 4 of these books are a must-read for any sci-fi fan**. 
 
  
 

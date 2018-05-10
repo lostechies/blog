@@ -21,7 +21,7 @@ As our applications get larger and larger, it&#8217;s important to decouple the 
 
 As an example of functional areas, here&#8217;s a wireframe of something similar to what I&#8217;m currently working on:
 
-<img title="mockup.png" src="http://lostechies.com/content/derickbailey/uploads/2011/11/mockup.png" border="0" alt="Mockup" width="574" height="536" />
+<img title="mockup.png" src="https://lostechies.com/content/derickbailey/uploads/2011/11/mockup.png" border="0" alt="Mockup" width="574" height="536" />
 
 The application shown here is a very simple item management app. On the left, you have a tree with a hierarchy of items. On the top right, you have a grid view to show the child items of the item that was selected in the tree. On the bottom right, you have an add/edit form.
 
@@ -75,7 +75,7 @@ The application object keeps track of all the callbacks that were passed in to t
 
 Modules are great for organizing your code, but present a challenge when you realize that you need these modules to communicate with each other. Your code is now separated into different files, encapsulated in different modules, and generally unable to make direct calls in to your other modules and objects like you may be used to. Don&#8217;t worry, though. You&#8217;re only bumping in to the next steps of decoupling your applications correctly.
 
-There are many different ways that you can solve this problem, of course. One of my favorite ways is the use of an [event aggregato](http://martinfowler.com/eaaDev/EventAggregator.html)r. [I&#8217;ve blogged about the use of an event aggregator with Backbone already](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/). If you need an introduction to the idea, check out that post and some of my many other [Winforms / Application Controller](http://lostechies.com/derickbailey/category/appcontroller/) posts. The benefit of an event aggregator in this case, is that is gives you a simple, decoupled way to facilitate communication between your modules.
+There are many different ways that you can solve this problem, of course. One of my favorite ways is the use of an [event aggregato](http://martinfowler.com/eaaDev/EventAggregator.html)r. [I&#8217;ve blogged about the use of an event aggregator with Backbone already](https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/). If you need an introduction to the idea, check out that post and some of my many other [Winforms / Application Controller](https://lostechies.com/derickbailey/category/appcontroller/) posts. The benefit of an event aggregator in this case, is that is gives you a simple, decoupled way to facilitate communication between your modules.
 
 To get started,  you need to have a module or other object that is defined prior to any other modules being defined. This object needs to be passed in to each of the modules that you&#8217;re defining, so that these modules can have access to the event aggregator. In my app, I put the event aggregator directly on the top level application namespace, and then pass the namespace object into each of my modules:
 

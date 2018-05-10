@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Architecture
 ---
-DI containers, as complex as they might be, still provide quite a lot of value when it comes to defining and realizing the composition of your system. I use the variance features quite a bit, especially in my [MediatR project](https://github.com/jbogard/MediatR) and [composing a rich pipeline](http://lostechies.com/jimmybogard/2014/09/09/tackling-cross-cutting-concerns-with-a-mediator-pipeline/). A side note, one of the design goals of MediatR is not to take any dependency on a 3rd party DI container. I instead take a dependency on [Common Service Locator](https://commonservicelocator.codeplex.com/), which all major DI containers already have. As part of this exercise, I still wanted to provide examples of all major containers, and this led me to figure out which containers supported what.
+DI containers, as complex as they might be, still provide quite a lot of value when it comes to defining and realizing the composition of your system. I use the variance features quite a bit, especially in my [MediatR project](https://github.com/jbogard/MediatR) and [composing a rich pipeline](https://lostechies.com/jimmybogard/2014/09/09/tackling-cross-cutting-concerns-with-a-mediator-pipeline/). A side note, one of the design goals of MediatR is not to take any dependency on a 3rd party DI container. I instead take a dependency on [Common Service Locator](https://commonservicelocator.codeplex.com/), which all major DI containers already have. As part of this exercise, I still wanted to provide examples of all major containers, and this led me to figure out which containers supported what.
 
 I looked at the major containers out there:
 

@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
 ---
-A few years back, I put together a talk on [putting your controllers on a diet](http://www.viddler.com/v/b568679c) using&nbsp; variety of techniques and extension points inside MVC. Well, [a lot has changed in four years](http://lostechies.com/jimmybogard/2013/07/17/how-we-do-mvc-4-years-later/), and with the lessons learned from the drawbacks of some of my original approaches, putting your controllers on a diet needs some revisiting.
+A few years back, I put together a talk on [putting your controllers on a diet](http://www.viddler.com/v/b568679c) using&nbsp; variety of techniques and extension points inside MVC. Well, [a lot has changed in four years](https://lostechies.com/jimmybogard/2013/07/17/how-we-do-mvc-4-years-later/), and with the lessons learned from the drawbacks of some of my original approaches, putting your controllers on a diet needs some revisiting.
 
 The original goals of slim controller actions are still valid:
 

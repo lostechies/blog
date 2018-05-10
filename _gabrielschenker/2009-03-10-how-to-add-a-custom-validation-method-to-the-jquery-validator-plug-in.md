@@ -66,4 +66,4 @@ Finally I can use this custom validation method on any form element by assigning
 
 when applied we have the following outcome
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="94" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_1.png" width="346" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_4.png)
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="94" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_1.png" width="346" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_4.png)

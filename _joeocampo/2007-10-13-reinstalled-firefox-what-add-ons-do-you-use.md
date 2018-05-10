@@ -13,4 +13,4 @@ I recently had to reinstall Firefox and was wondering what (other than the add-o
 
 I personally use this as my standard add-on image.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="484" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03ReinstalledFirefoxPlugins_11866/image_thumb.png" width="366" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03ReinstalledFirefoxPlugins_11866/image_2.png)
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="484" alt="image" src="https://lostechies.com/content/joeocampo/uploads/2011/03ReinstalledFirefoxPlugins_11866/image_thumb.png" width="366" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03ReinstalledFirefoxPlugins_11866/image_2.png)

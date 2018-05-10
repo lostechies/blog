@@ -71,11 +71,11 @@ tags:
   </ul>
 </div>
 
-In [part 5](http://lostechies.com/derekgreer/2011/05/01/effective-tests-a-test-first-example-part-5/) of our Test-First example, we continued by addressing issues filed by the QA team. While I thought we had covered the reported defects pretty well, I wanted to do a little smoke testing against the full application to ensure we hadn’t missed anything. It’s probably good that I did, because I ended up finding one last case that didn’t met the original requirements.
+In [part 5](https://lostechies.com/derekgreer/2011/05/01/effective-tests-a-test-first-example-part-5/) of our Test-First example, we continued by addressing issues filed by the QA team. While I thought we had covered the reported defects pretty well, I wanted to do a little smoke testing against the full application to ensure we hadn’t missed anything. It’s probably good that I did, because I ended up finding one last case that didn’t met the original requirements.
 
 In the course of my testing, I discovered that there was an additional way for a player to beat the game by setting up multiple winning paths. Here’s the steps I took:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="tic-tac-toe-ms" border="0" alt="tic-tac-toe-ms" src="http://lostechies.com/content/derekgreer/uploads/2011/05/tic-tac-toe-ms_thumb2.png" width="605" height="110" />](http://lostechies.com/content/derekgreer/uploads/2011/05/tic-tac-toe-ms2.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="tic-tac-toe-ms" border="0" alt="tic-tac-toe-ms" src="https://lostechies.com/content/derekgreer/uploads/2011/05/tic-tac-toe-ms_thumb2.png" width="605" height="110" />](https://lostechies.com/content/derekgreer/uploads/2011/05/tic-tac-toe-ms2.png)
 
 In the depicted steps, my first move was to choose the right edge of the board. This happens to be a strategy the articles I consulted with advised against and for which no counter strategy was provided. By choosing a second position which avoided triggering the game&#8217;s existing defensive strategies, I was able to set up multiple winning paths by countering the next two choices by the game. The game should be able to counter this strategy by blocking at intersections, so let&#8217;s fix this one last issue.
 

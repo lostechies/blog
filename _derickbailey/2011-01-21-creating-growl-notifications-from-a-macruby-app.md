@@ -27,7 +27,7 @@ First, you need a Mac and you need to install the latest and greatest [Xcode](ht
 
 Go download the Growl SDK from the Growl website. Open the disk image, and in the Frameworks folder, copy both the &#8220;Growl.framework&#8221; and &#8220;Growl-WithInstaller.framework&#8221;. Paste these into /Library/Frameworks on your OSX drive. This will make them easier to find from within Xcode.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-10.34.42-PM.png" border="0" alt="Screen shot 2011-01-20 at 10.34.42 PM.png" width="600" height="207" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-10.34.42-PM.png" border="0" alt="Screen shot 2011-01-20 at 10.34.42 PM.png" width="600" height="207" />
 
  
 
@@ -35,17 +35,17 @@ Go download the Growl SDK from the Growl website. Open the disk image, and in th
 
 Open Xcode and your project, and locate Frameworks in the project tree view. Pick one of the framework groups (I chose &#8220;Other&#8221; for no apparent reason), right click and &#8220;Add Existing Framework&#8221;. If you got copied the growl frameworks into the right folder, they will show up in the list. Otherwise you&#8217;ll have to hunt for them with the &#8220;Add Other&#8221; button.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-10.36.07-PM.png" border="0" alt="Screen shot 2011-01-20 at 10.36.07 PM.png" width="535" height="310" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-10.36.07-PM.png" border="0" alt="Screen shot 2011-01-20 at 10.36.07 PM.png" width="535" height="310" />
 
 Your projet now references Growl, but it won&#8217;t be able to find it at run time. We have to tell the project to copy the framework to the output folder so it can be found at runtime. Find the Targets node in the project treeview, and find your app&#8217;s name. Expand that portion of the tree and you will see several build phase. If you have an empty &#8220;Copy Files&#8221; step, great! If not, you need to right click your app name and &#8220;Add&#8221; a &#8220;New Build Phase&#8221; to &#8220;Copy Files&#8221;. If the Copy Files phase doesn&#8217;t open an &#8220;Info&#8221; screen, double click on it to open it. In this screen, set the &#8220;Destination&#8221; to &#8220;Frameworks&#8221; and leave the &#8220;Path&#8221; blank.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-10.42.22-PM.png" border="0" alt="Screen shot 2011-01-20 at 10.42.22 PM.png" width="287" height="98" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-10.42.22-PM.png" border="0" alt="Screen shot 2011-01-20 at 10.42.22 PM.png" width="287" height="98" />
 
 Close this window.
 
 Now drag the Growl.framework from the &#8220;Frameworks/Other Frameworks&#8221; tree node, down into the &#8220;Copy Files&#8221; node that you just added. This will tell Xcode to copy the Growl.framework into your project&#8217;s output when it builds.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-10.46.59-PM.png" border="0" alt="Screen shot 2011-01-20 at 10.46.59 PM.png" width="270" height="368" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-10.46.59-PM.png" border="0" alt="Screen shot 2011-01-20 at 10.46.59 PM.png" width="270" height="368" />
 
  
 
@@ -123,7 +123,7 @@ I&#8217;ll let you read all of the documentation on the settings you can supply 
 
 Next, drag the .growlRegDict file from Resources down into &#8220;Targets/(project)/Copy Bundle Resources&#8221;.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-10.57.36-PM.png" border="0" alt="Screen shot 2011-01-20 at 10.57.36 PM.png" width="349" height="192" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-10.57.36-PM.png" border="0" alt="Screen shot 2011-01-20 at 10.57.36 PM.png" width="349" height="192" />
 
 This will copy the resource so that the Growl Application Bridge will be able to find it at runtime.
 
@@ -140,7 +140,7 @@ If you do not have an app delegate set up, you need to create one for two purpos
 
 Add a new ruby document to your project. I called it &#8220;ApplicationDelegate.rb&#8221; and placed it in the Classes folder of my project:
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-11.07.05-PM.png" border="0" alt="Screen shot 2011-01-20 at 11.07.05 PM.png" width="240" height="74" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-11.07.05-PM.png" border="0" alt="Screen shot 2011-01-20 at 11.07.05 PM.png" width="240" height="74" />
 
 In this file, define a ruby class called ApplicationDelegate (though the name doesn&#8217;t matter that much at this point) and put the following code in it:
 
@@ -164,15 +164,15 @@ In this file, define a ruby class called ApplicationDelegate (though the name do
 
 This code will tell Growl that your application is going to be sending notifications, once we have told the system that this class is an application delegate. To do that,open the Interface Builder by double clicking &#8220;MainMenu.xib&#8221; in the &#8220;Resources&#8221; folder of your project. Open the Library window by pressing &#8220;shift-cmd-L&#8221; (or however you want to get it open) and find an Object. Drag an Object over to your MainMenu.xib window, and drop it there. This adds an object that we can wire up to our UI.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-11.13.07-PM.png" border="0" alt="Screen shot 2011-01-20 at 11.13.07 PM.png" width="600" height="284" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-11.13.07-PM.png" border="0" alt="Screen shot 2011-01-20 at 11.13.07 PM.png" width="600" height="284" />
 
 Double click on the Object you just created to open the Info dialog. Set the &#8220;Class Identity&#8221; to your ApplicationController class.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-11.17.36-PM.png" border="0" alt="Screen shot 2011-01-20 at 11.17.36 PM.png" width="600" height="289" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-11.17.36-PM.png" border="0" alt="Screen shot 2011-01-20 at 11.17.36 PM.png" width="600" height="289" />
 
 Then hold down control on your keyboard and click-and-drag from &#8220;File&#8217;s Owner&#8221; down to the &#8220;Object&#8221; that you just added.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-11.18.49-PM.png" border="0" alt="Screen shot 2011-01-20 at 11.18.49 PM.png" width="433" height="332" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-11.18.49-PM.png" border="0" alt="Screen shot 2011-01-20 at 11.18.49 PM.png" width="433" height="332" />
 
 Let go of the mouse button and select &#8220;Delegate&#8221; from the resulting dialog. This will wire up your ApplicationDelegate so that the &#8220;awakeFromNib&#8221; method will fire when your app starts up, which will then register your app with Growl.
 
@@ -210,7 +210,7 @@ The first parameter is the title of the notification. The remaining parameters a
 
 Assuming my instructions are good, you should be able to run the app from Xcode and see a Growl notification!
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-11.31.58-PM.png" border="0" alt="Screen shot 2011-01-20 at 11.31.58 PM.png" width="309" height="105" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-20-at-11.31.58-PM.png" border="0" alt="Screen shot 2011-01-20 at 11.31.58 PM.png" width="309" height="105" />
 
 That wasn&#8217;t too bad, was it?
 
@@ -222,7 +222,7 @@ I&#8217;ve only just started learning MacRuby, XCode, Cocoa, Growl and all the t
 
 As a preview of what else I&#8217;ve learned, though, you can set up a callback from a Growl notification so that when you click on the notification a chunk of code in your app will be executed. This opens up nearly limitless possibilities of what you can do with a Growl notification &#8211; launch a web page, launch another app, move your app into a specific feature, and more!
 
-I&#8217;ll show you [how to set up the click callback delegate](http://www.lostechies.com/blogs/derickbailey/archive/2011/01/23/responding-to-growl-notification-clicks-and-timeouts-with-macruby.aspx) in my next post.
+I&#8217;ll show you [how to set up the click callback delegate](https://lostechies.com/blogs/derickbailey/archive/2011/01/23/responding-to-growl-notification-clicks-and-timeouts-with-macruby.aspx) in my next post.
 
  
 

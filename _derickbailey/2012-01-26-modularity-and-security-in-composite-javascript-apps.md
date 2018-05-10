@@ -14,7 +14,7 @@ categories:
   - Marionette
   - Security
 ---
-In one of my current apps for a client, I have [an activity based security system](http://lostechies.com/derickbailey/2011/05/24/dont-do-role-based-authorization-checks-do-activity-based-checks/) that determines what the user is allowed to do. The trick to this system is that all of the authorization checks happen on the server, but the functionality that is being secured runs on the client, in JavaScript.
+In one of my current apps for a client, I have [an activity based security system](https://lostechies.com/derickbailey/2011/05/24/dont-do-role-based-authorization-checks-do-activity-based-checks/) that determines what the user is allowed to do. The trick to this system is that all of the authorization checks happen on the server, but the functionality that is being secured runs on the client, in JavaScript.
 
 This is a bit of a problem. If I send all of the JavaScript that is uses to run any part of the system to the browser, then it&#8217;s possible that a clever user could enable it and do things they aren&#8217;t supposed to do. Of course, when they send a request back to the server, the server will verify they can do what they requested and block it… but the user should not be able to even try to do things they aren&#8217;t authorized to do, in the first place.
 
@@ -38,7 +38,7 @@ In this code, I&#8217;m checking to see if the current user is allowed to manage
 
 ## Self-Initializing Modules
 
-When a functional module is included after passing one of these checks, it needs a way to get itself spun up and started so that it can do it&#8217;s magic. It may need to render something on to the screen. It may need to register itself with the application&#8217;s [event aggregator](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/), or any of a number of other things. This is where my [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) add-on comes in to play for my Backbone apps.
+When a functional module is included after passing one of these checks, it needs a way to get itself spun up and started so that it can do it&#8217;s magic. It may need to render something on to the screen. It may need to register itself with the application&#8217;s [event aggregator](https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/), or any of a number of other things. This is where my [Backbone.Marionette](https://github.com/derickbailey/backbone.marionette) add-on comes in to play for my Backbone apps.
 
 Marionette has an explicit concept of an &#8220;initializer&#8221; tied to it&#8217;s Application objects. When you create an instance of an Application object, you can call &#8220;app.addInitializer&#8221; and pass a callback function. The callback function represents everything that your module needs to do, to get itself up and running. All of these initializer functions &#8211; no matter how many you add &#8211; get fired when you call &#8220;app.start()&#8221;.
 
@@ -54,7 +54,7 @@ A better example of what a module definition and initializer might look like, wo
 
 {% gist 1680805 3.js %}
 
-In this example, I&#8217;m using the simple JavaScript module pattern to encapsulate my search functionality. I&#8217;m also providing an initializer for the module that instantiates a search view and shows it to the user using a [region manager](http://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/).
+In this example, I&#8217;m using the simple JavaScript module pattern to encapsulate my search functionality. I&#8217;m also providing an initializer for the module that instantiates a search view and shows it to the user using a [region manager](https://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/).
 
 Each of these functional areas is basically a sub-application. Many sub-applications are used to compose a larger application and overall experience for the user. The composition of a larger application through various modules that are included / excluded based on some criteria are what really make this a composite application.
 

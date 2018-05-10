@@ -18,7 +18,7 @@ redirect_from: "/blogs/gabrielschenker/archive/2009/06/01/fluent-silverlight-par
 ---
 ## Introduction
 
-We (that is [Ray Houston](http://www.lostechies.com/blogs/rhouston) and myself) want to introduce a new framework we developed in the past few months. This framework provides a fluent interface to [Microsoft Silverlight](http://www.silverlight.net). As we have been able to leverage a lot of OSS software in the past we found that it is time to give something back to the community too. This was the birth of the OSS project we call **“Fluent Silverlight”**. The code is publicly available and is hosted by Google Code. It can be found [here](http://code.google.com/p/fluent-silverlight/).
+We (that is [Ray Houston](https://lostechies.com/blogs/rhouston) and myself) want to introduce a new framework we developed in the past few months. This framework provides a fluent interface to [Microsoft Silverlight](http://www.silverlight.net). As we have been able to leverage a lot of OSS software in the past we found that it is time to give something back to the community too. This was the birth of the OSS project we call **“Fluent Silverlight”**. The code is publicly available and is hosted by Google Code. It can be found [here](http://code.google.com/p/fluent-silverlight/).
 
 ## Motivation
 
@@ -93,7 +93,7 @@ in our framework we have reduced this to
   </div>
 </div>
 
-which we think is a significant improvement. The technique we use to make this possible is interception. Basically we wrap the view model with a proxy. This technique will be described in details in an upcoming post of [Ray](http://www.lostechies.com/blogs/rhouston).
+which we think is a significant improvement. The technique we use to make this possible is interception. Basically we wrap the view model with a proxy. This technique will be described in details in an upcoming post of [Ray](https://lostechies.com/blogs/rhouston).
 
 #### Commands
 

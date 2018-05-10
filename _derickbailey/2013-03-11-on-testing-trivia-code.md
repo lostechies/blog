@@ -29,7 +29,7 @@ Mark is right because this field must add some value to the system. If it doesn&
 
 ## Jimmy Bogard Got It Right
 
-Jimmy wrote a post that I think was unrelated, but happens to [fit perfectly in to the conversation](http://lostechies.com/jimmybogard/2013/03/06/when-should-you-test/). In that post he says:
+Jimmy wrote a post that I think was unrelated, but happens to [fit perfectly in to the conversation](https://lostechies.com/jimmybogard/2013/03/06/when-should-you-test/). In that post he says:
 
 > When should you test?
 > 

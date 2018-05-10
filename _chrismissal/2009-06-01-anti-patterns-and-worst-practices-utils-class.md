@@ -46,10 +46,10 @@ One of our guys was working on this bug and implemented a RequestSanitizer class
 
 I&rsquo;m not trying to tell anybody that they shouldn&rsquo;t use a Utils class, but rather that they should know that there&rsquo;s probably a better way. Since the problem I see with Utility classes is that they&rsquo;re usually just a collection of a whole bunch of stuff that doesn&rsquo;t really belong together, they probably exist for common reasons. There&rsquo;s a lot of functionality that people have to write that seems fitting in a Utility class. However, if you&rsquo;re writing this code, somebody else has probably already written it. You can more than likely take advantage of some open source libraries to fulfill this need.
 
-  * If you have some methods that take in one object to create another, why not consider [Jimmy Bogard&rsquo;s](http://lostechies.com/jimmybogard/) [AutoMapper](http://www.codeplex.com/AutoMapper).
+  * If you have some methods that take in one object to create another, why not consider [Jimmy Bogard&rsquo;s](https://lostechies.com/jimmybogard/) [AutoMapper](http://www.codeplex.com/AutoMapper).
   * Any of the log4__ libraries mentioned prior.
   * If you&rsquo;re using ASP.NET MVC, there&rsquo;s a lot of value in using [MvcContrib](http://www.codeplex.com/MVCContrib).
 
 Remember, ask yourself: _What does this code do?_
 
-[See more [Anti-Patterns and Worst Practices](http://lostechies.com/chrismissal/2009/05/26/anti-patterns-and-worst-practices-you-re-doing-it-wrong/)]
+[See more [Anti-Patterns and Worst Practices](https://lostechies.com/chrismissal/2009/05/26/anti-patterns-and-worst-practices-you-re-doing-it-wrong/)]

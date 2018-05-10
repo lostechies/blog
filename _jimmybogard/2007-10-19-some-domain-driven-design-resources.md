@@ -26,6 +26,6 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/10/19/some-domain-driven-design
                   * [domaindrivendesign.org](http://domaindrivendesign.org/) 
                       * [Steve Eichert&#8217;s DDD series](http://steve.emxsoftware.com/Domain+Driven+Design/) 
                           * [Scott&#8217;s posts on DDD](http://codebetter.com/blogs/scott.bellware/archive/tags/Domain-Driven+Design/default.aspx) 
-                              * [Joe&#8217;s discussions on DDD](http://www.lostechies.com/blogs/joe_ocampo/archive/tags/Domain+Driven+Design+_2800_DDD_2900_/default.aspx) 
+                              * [Joe&#8217;s discussions on DDD](https://lostechies.com/blogs/joe_ocampo/archive/tags/Domain+Driven+Design+_2800_DDD_2900_/default.aspx) 
                                   * Finally, [Google search on DDD](http://www.google.com/search?q=domain+driven+design)</ul> 
                                 Personally, I&#8217;d start with the InfoQ article, then flush out that with the rest of the books.&nbsp; For most other questions, the Yahoo group is a great resource as are plain old&nbsp;Google searches.

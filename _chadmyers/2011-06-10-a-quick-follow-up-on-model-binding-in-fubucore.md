@@ -13,7 +13,7 @@ categories:
   - fubucore
   - FubuMVC
 ---
-I wanted to make some quick follow-up points to my “[Cool stuff in FubuCore No. 7: Model Binding](http://lostechies.com/chadmyers/2011/06/08/cool-stuff-in-fubucore-no-7-model-binding)” post:
+I wanted to make some quick follow-up points to my “[Cool stuff in FubuCore No. 7: Model Binding](https://lostechies.com/chadmyers/2011/06/08/cool-stuff-in-fubucore-no-7-model-binding)” post:
 
 [Joshua Flanagan](http://joshuaflanagan.lostechies.com/) pointed out that I had an error in my description of how the ExpandEnvironmentVariablesAttribute works.&nbsp; I updated the post to correct the error, so you may want to check that out.
 

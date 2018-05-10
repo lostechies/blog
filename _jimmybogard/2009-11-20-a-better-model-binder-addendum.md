@@ -11,7 +11,7 @@ categories:
   - ASPNETMVC
 redirect_from: "/blogs/jimmy_bogard/archive/2009/11/19/a-better-model-binder-addendum.aspx/"
 ---
-A while back, I wrote about a [ModelBinder enhancement](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/03/17/a-better-model-binder.aspx) we use to do arbitrary filtering on types.&#160; The underlying matching algorithm only matches on one type, but we like to use layer supertypes for a lot of our domain objects, so we want to use a single model binder for every Entity or Enumeration type in our system.
+A while back, I wrote about a [ModelBinder enhancement](https://lostechies.com/blogs/jimmy_bogard/archive/2009/03/17/a-better-model-binder.aspx) we use to do arbitrary filtering on types.&#160; The underlying matching algorithm only matches on one type, but we like to use layer supertypes for a lot of our domain objects, so we want to use a single model binder for every Entity or Enumeration type in our system.
 
 However, I missed an important piece in our model binding story: ModelState.&#160; In the original implementation:
 
@@ -100,6 +100,6 @@ All object adds is the ValueProviderResult, providing a default null-object impl
 
 [](http://11011.net/software/vspaste)
 
-It’s pretty much like the original, except that piece that does the SetModelValue part.&#160; That fills in the necessary pieces for the input HtmlHelper methods to do their thing.&#160; Interestingly, this made another problem go away, around [ModelState.AddModelError](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/03/26/mvc-beta-to-rtw-upgrade-issue-addmodelerror-and-nullreferenceexceptions.aspx).&#160; It turns out I just missed a piece in the custom model binding code.
+It’s pretty much like the original, except that piece that does the SetModelValue part.&#160; That fills in the necessary pieces for the input HtmlHelper methods to do their thing.&#160; Interestingly, this made another problem go away, around [ModelState.AddModelError](https://lostechies.com/blogs/jimmy_bogard/archive/2009/03/26/mvc-beta-to-rtw-upgrade-issue-addmodelerror-and-nullreferenceexceptions.aspx).&#160; It turns out I just missed a piece in the custom model binding code.
 
 So just a note to custom model binder implementors – don’t forget to populate the appropriate ModelState values, especially if the results of the binding operation will be used in conjunction with the HtmlHelper extensions.

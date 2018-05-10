@@ -42,8 +42,8 @@ Average Posts per Month: **13 posts**&#160;
 I don’t have exact figures on these, but from what I can tell from Feedburner, Community Server stats, Technorati, etc it appears that this is mostly correct:
 
   1. [Using jQuery with ASP.NET MVC](http://www.chadmyers.com/Blog/archive/2007/12/13/using-jquery-with-asp.net-mvc.aspx) (December 2007) 
-  2. [Pablo’s Topic of the Month – March: SOLID Principles](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx) (March 2008 – NOTE: I don’t take credit for this, since this was ALL of Los Techies that did this) 
-  3. [Getting Started With jQuery for Client-Side Javascript Testing](http://www.lostechies.com/blogs/chad_myers/archive/2008/08/28/getting-started-with-jquery-qunit-for-client-side-javascript-testing.aspx) (August 2008) 
+  2. [Pablo’s Topic of the Month – March: SOLID Principles](https://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx) (March 2008 – NOTE: I don’t take credit for this, since this was ALL of Los Techies that did this) 
+  3. [Getting Started With jQuery for Client-Side Javascript Testing](https://lostechies.com/blogs/chad_myers/archive/2008/08/28/getting-started-with-jquery-qunit-for-client-side-javascript-testing.aspx) (August 2008) 
   4. [Testing ScottGu: Alternative View Engines with ASP.NET MVC (NVelocity)](http://www.chadmyers.com/Blog/archive/2007/11/28/testing-scottgu-alternate-view-engines-with-asp.net-mvc-nvelocity.aspx) (November 2007) 
   5. [Using script.aculo.us with ASP.NET MVC](http://www.chadmyers.com/blog/archive/2007/12/10/using-script.aculo.us-with-asp.net-mvc.aspx) (December 2007) 
 
@@ -52,15 +52,15 @@ I don’t have exact figures on these, but from what I can tell from Feedburner,
 I can’t seem to find a way to get Community Server to tell me this, so I’ll have to wing it, but I think this is mostly correct:
 
   1. [1 Common Mistake Involving Code Commenting](http://www.chadmyers.com/blog/archive/2007/11/18/1-common-mistake-involving-code-commenting.aspx) (59 comments) 
-  2. [Some Consulting Wisdom I Picked Up](http://www.lostechies.com/blogs/chad_myers/archive/2008/06/08/some-consulting-wisdom-i-picked-up.aspx) (45 comments) 
-  3. [SQL is the Assembly Language of the Modern World](http://www.lostechies.com/blogs/chad_myers/archive/2008/02/21/sql-is-the-assembly-language-of-the-modern-world.aspx) (36 comments) 
-  4. [Project Anti-Pattern: Many Projects in a Visual Studio Solution](http://www.lostechies.com/blogs/chad_myers/archive/2008/07/15/project-anti-pattern-many-projects-in-a-visual-studio-solution-file.aspx) (35 comments) 
-  5. [PTOM: The Liskov Substitution Principle](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/11/ptom-the-liskov-substitution-principle.aspx) (35 comments) 
+  2. [Some Consulting Wisdom I Picked Up](https://lostechies.com/blogs/chad_myers/archive/2008/06/08/some-consulting-wisdom-i-picked-up.aspx) (45 comments) 
+  3. [SQL is the Assembly Language of the Modern World](https://lostechies.com/blogs/chad_myers/archive/2008/02/21/sql-is-the-assembly-language-of-the-modern-world.aspx) (36 comments) 
+  4. [Project Anti-Pattern: Many Projects in a Visual Studio Solution](https://lostechies.com/blogs/chad_myers/archive/2008/07/15/project-anti-pattern-many-projects-in-a-visual-studio-solution-file.aspx) (35 comments) 
+  5. [PTOM: The Liskov Substitution Principle](https://lostechies.com/blogs/chad_myers/archive/2008/03/11/ptom-the-liskov-substitution-principle.aspx) (35 comments) 
 
 #### My Most Favorite Posts:
 
-  1. [Ancient wisdom is inescapable, especially with project management](http://www.lostechies.com/blogs/chad_myers/archive/2008/04/02/ancient-wisdom-is-inescapable-especially-with-project-management.aspx) 
-  2. [I don’t trust me](http://www.lostechies.com/blogs/chad_myers/archive/2008/01/26/i-don-t-trust-me.aspx) 
-  3. [Some Consulting Wisdom I Picked Up](http://www.lostechies.com/blogs/chad_myers/archive/2008/06/08/some-consulting-wisdom-i-picked-up.aspx) 
-  4. [Time-to-Login-Screen, and the absolute basic requirements for good software](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/16/time-to-login-screen-and-the-absolute-basic-requirements-for-good-software.aspx) 
+  1. [Ancient wisdom is inescapable, especially with project management](https://lostechies.com/blogs/chad_myers/archive/2008/04/02/ancient-wisdom-is-inescapable-especially-with-project-management.aspx) 
+  2. [I don’t trust me](https://lostechies.com/blogs/chad_myers/archive/2008/01/26/i-don-t-trust-me.aspx) 
+  3. [Some Consulting Wisdom I Picked Up](https://lostechies.com/blogs/chad_myers/archive/2008/06/08/some-consulting-wisdom-i-picked-up.aspx) 
+  4. [Time-to-Login-Screen, and the absolute basic requirements for good software](https://lostechies.com/blogs/chad_myers/archive/2008/03/16/time-to-login-screen-and-the-absolute-basic-requirements-for-good-software.aspx) 
   5. [1 Common Mistake Involving Code Commenting](http://www.chadmyers.com/blog/archive/2007/11/18/1-common-mistake-involving-code-commenting.aspx)

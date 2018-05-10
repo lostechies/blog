@@ -17,7 +17,7 @@ tags:
   - fubumvc
   - Patterns
 ---
-This is the first post in the Patterns of Compositional Architecture series that I mentioned in [my previous post](http://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture/).
+This is the first post in the Patterns of Compositional Architecture series that I mentioned in [my previous post](https://lostechies.com/josharnold/2011/07/09/patterns-of-compositional-architecture/).
 
 ## The Pattern
 

@@ -13,7 +13,7 @@ categories:
 ---
 Going through and reviewing the [Contoso University codebase](http://www.asp.net/mvc/tutorials/getting-started-with-ef-using-mvc), really to get caught up on EF 6 features, I found a relationship between two tables that resulted in a many-to-many mapping. We have these tables:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/03/image_thumb2.png" width="541" height="386" />](http://lostechies.com/content/jimmybogard/uploads/2014/03/image2.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/03/image_thumb2.png" width="541" height="386" />](https://lostechies.com/content/jimmybogard/uploads/2014/03/image2.png)
 
 A Course can have many Instructors, and a Person (Instructor) can have many Courses. The EF code-first mapping for this relationship looks like:
 

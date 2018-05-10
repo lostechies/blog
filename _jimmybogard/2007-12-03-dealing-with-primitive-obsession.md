@@ -29,7 +29,7 @@ Beyond what [Fowler](http://martinfowler.com/) [walks through](http://www.refact
 
 ### Creating the data object
 
-First I&#8217;ll need to create the data object by following the steps in [Fowler&#8217;s book](http://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Technology/dp/0201485672).&nbsp; I&#8217;ll make the ZipCode class a [DDD](http://domaindrivendesign.org/) [Value Object](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx), and this is what I end up with:
+First I&#8217;ll need to create the data object by following the steps in [Fowler&#8217;s book](http://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Technology/dp/0201485672).&nbsp; I&#8217;ll make the ZipCode class a [DDD](http://domaindrivendesign.org/) [Value Object](https://lostechies.com/blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx), and this is what I end up with:
 
 <div class="CodeFormatContainer">
   <pre><span class="kwrd">public</span> <span class="kwrd">class</span> Address

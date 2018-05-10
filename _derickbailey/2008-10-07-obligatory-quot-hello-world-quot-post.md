@@ -17,6 +17,6 @@ Some of you may know me from my previous blogging effort over at AvocadoSoftware
 
 A huge thanks to Joe, Chad, and everyone else over here at Los Techies for thinking that I have something valuable to say and add to the community!
 
-And per the &#8220;<a href="http://lostechies.com/blogs/evan_hoff/archive/2007/10/22/joining-los-techies.aspx" target="_blank">Los Techies N00B Ritual and Tattoo</a>&#8221; requirement. Here&#8217;s my &#8220;they&#8217;re both full of crap&#8221; tattoo. 🙂
+And per the &#8220;<a href="https://lostechies.com/blogs/evan_hoff/archive/2007/10/22/joining-los-techies.aspx" target="_blank">Los Techies N00B Ritual and Tattoo</a>&#8221; requirement. Here&#8217;s my &#8220;they&#8217;re both full of crap&#8221; tattoo. 🙂
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="239" alt="fullofcrap" src="http://lostechies.com/content/derickbailey/uploads/2011/03ObligatoryHelloWorldPost_D64A/fullofcrap_thumb.jpg" width="244" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03ObligatoryHelloWorldPost_D64A/fullofcrap_2.jpg)
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="239" alt="fullofcrap" src="https://lostechies.com/content/derickbailey/uploads/2011/03ObligatoryHelloWorldPost_D64A/fullofcrap_thumb.jpg" width="244" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03ObligatoryHelloWorldPost_D64A/fullofcrap_2.jpg)

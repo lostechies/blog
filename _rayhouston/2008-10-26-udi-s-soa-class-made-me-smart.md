@@ -9,7 +9,7 @@ categories:
   - SOA
 redirect_from: "/blogs/rhouston/archive/2008/10/26/udi-s-soa-class-made-me-smart.aspx/"
 ---
-[Chris](http://www.lostechies.com/blogs/chris_patterson) challenged me to write a post showing how smart I am after taking the class. 😉 While I know that &#8220;made me smart&#8221; is completely unbelievable, I did manage learn a great deal.
+[Chris](https://lostechies.com/blogs/chris_patterson) challenged me to write a post showing how smart I am after taking the class. 😉 While I know that &#8220;made me smart&#8221; is completely unbelievable, I did manage learn a great deal.
 
 I&#8217;m slow to getting around to this post, but little over a week ago I finished up [Udi Dahan&#8217;s](http://www.udidahan.com/) week long class called &#8220;Advanced Distributed Systems Design using SOA & DDD&#8221;. As [Aaron](http://codebetter.com/blogs/aaron.jensen/archive/2008/10/19/udi-dahan-s-soa-bootcamp.aspx) has already stated, it was awesome. The class was very well put together. The materials were clear and concise and Udi did a fantastic job presenting it. It was a good mixture of lecture, coding, and question and answer. I fully expected that I would be taking notes like crazy, but it was so well laid out that the only thing I wrote down the entire course was what I wanted for lunch. Udi provided us with all the lecture materials and everyone has access to all of the samples which are in the [nServiceBus](http://www.nservicebus.com/) trunk.
 

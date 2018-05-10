@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
 ---
-In my post on [ditching planning poker](http://lostechies.com/jimmybogard/2011/05/10/ditching-planning-poker/), I talked about the waste we uncovered with group estimations. In fact, we found the entire sprint planning meeting to be a large waste of time. In our spring planning meetings, our entire Whole Team convened to agree on the sprint deliverables, every week. The attendees included:
+In my post on [ditching planning poker](https://lostechies.com/jimmybogard/2011/05/10/ditching-planning-poker/), I talked about the waste we uncovered with group estimations. In fact, we found the entire sprint planning meeting to be a large waste of time. In our spring planning meetings, our entire Whole Team convened to agree on the sprint deliverables, every week. The attendees included:
 
   * Developers
   * Analysts
@@ -34,7 +34,7 @@ Since we placed points on tasks, you can imagine how silly it is to argue about 
 
 ### Group estimating stories
 
-When we estimated merely stories, and not adding up tasks, group estimation was still a waste. Developers, sitting around a table, arguing about how complex/large something is, when they could just be…actually delivering value. Instead, our team lead/tech lead/principal consultant [estimates the stories in hours](http://lostechies.com/jimmybogard/2011/05/17/estimation-in-consulting/), validating effort at the end of the process.
+When we estimated merely stories, and not adding up tasks, group estimation was still a waste. Developers, sitting around a table, arguing about how complex/large something is, when they could just be…actually delivering value. Instead, our team lead/tech lead/principal consultant [estimates the stories in hours](https://lostechies.com/jimmybogard/2011/05/17/estimation-in-consulting/), validating effort at the end of the process.
 
 When we looked at the cost of everyone sitting around, the only value we saw was in discussing the design of the story. But that was happening anyway when developers paired on a story, through whiteboarding, pair programming, or group discussions. Did everyone need to be involved? The finger tapping and bored looks of other developers said “no”.
 

@@ -12,7 +12,7 @@ categories:
   - Event sourcing
   - no-database
 ---
-This is the fourth episode of a series of posts about how we do CQRS and event sourcing. To my (positive) surprise the first three parts ([part 1](http://lostechies.com/gabrielschenker/2012/06/12/how-we-got-rid-of-the-database/), [part 2](http://lostechies.com/gabrielschenker/2012/06/13/how-we-got-rid-of-the-databasepart-2/), [part3](http://lostechies.com/gabrielschenker/2012/06/18/how-we-got-rid-of-the-databasepart-3/)) have caused quite some discussion amongst the readers. Since I constantly have discussions about the very same topics with my team members and external co-workers I decided to dedicate this fourth part to answer some of those topics.
+This is the fourth episode of a series of posts about how we do CQRS and event sourcing. To my (positive) surprise the first three parts ([part 1](https://lostechies.com/gabrielschenker/2012/06/12/how-we-got-rid-of-the-database/), [part 2](https://lostechies.com/gabrielschenker/2012/06/13/how-we-got-rid-of-the-databasepart-2/), [part3](https://lostechies.com/gabrielschenker/2012/06/18/how-we-got-rid-of-the-databasepart-3/)) have caused quite some discussion amongst the readers. Since I constantly have discussions about the very same topics with my team members and external co-workers I decided to dedicate this fourth part to answer some of those topics.
 
 # Eventual consistency
 

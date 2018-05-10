@@ -23,12 +23,12 @@ This final post in the somewhat-series of posts will cover the deployment topic 
 
 But first, the index of posts in the order I think you should read them:
 
-  1. [Getting Started With Thor](http://lostechies.com/derickbailey/2011/04/15/getting-started-with-thor/)
-  2. [Writing A Thor Application](http://lostechies.com/derickbailey/2011/04/29/writing-a-thor-application/)
-  3. [The Whenever Gem: Making Cron Easy](http://lostechies.com/derickbailey/2011/04/27/the-whenever-gem-making-cron-easy/)
-  4. [Cleaning Up Log Files On Linux, With Logrotate](http://lostechies.com/derickbailey/2011/04/28/cleaning-up-log-files-on-linux-with-logrotate/)
-  5. [Using Mongo And Mongoid Without Rails](http://lostechies.com/derickbailey/2011/05/02/using-mongo-and-mongoid-without-rails/)
-  6. [Solving Some SSH Issues For Deploying Rails Apps](http://lostechies.com/derickbailey/2011/04/07/solving-some-ssh-issues-for-deploying-rails-apps/)
+  1. [Getting Started With Thor](https://lostechies.com/derickbailey/2011/04/15/getting-started-with-thor/)
+  2. [Writing A Thor Application](https://lostechies.com/derickbailey/2011/04/29/writing-a-thor-application/)
+  3. [The Whenever Gem: Making Cron Easy](https://lostechies.com/derickbailey/2011/04/27/the-whenever-gem-making-cron-easy/)
+  4. [Cleaning Up Log Files On Linux, With Logrotate](https://lostechies.com/derickbailey/2011/04/28/cleaning-up-log-files-on-linux-with-logrotate/)
+  5. [Using Mongo And Mongoid Without Rails](https://lostechies.com/derickbailey/2011/05/02/using-mongo-and-mongoid-without-rails/)
+  6. [Solving Some SSH Issues For Deploying Rails Apps](https://lostechies.com/derickbailey/2011/04/07/solving-some-ssh-issues-for-deploying-rails-apps/)
   7. Joey Beninghove&#8217;s [Vlad, RVM and Bundler sittin&#8217; in a tree](http://joeybeninghove.com/2010/09/17/vlad-rvm-and-bundler-sitting-in-a-tree/)
   8. &#8230; this one
 
@@ -62,7 +62,7 @@ We&#8217;re using a privte Github repository to host the application, which make
 
 We also need to use vlad-git to support this setup. This little extension to Vlad tells it to use Git as the source control system instead of the default (which I think is Subversion, but am not 100% certain of that). It&#8217;s easy to use, too. You only need to call the &#8220;vlad:update&#8221; rake task after setting the repository location.
 
-Here&#8217;s an example of our vlad configuration, housed in our &#8216;deploy.rb&#8217; files for each environment folder that we have (you can see the folder structure in the [Writing A Thor Application](http://lostechies.com/derickbailey/2011/04/29/writing-a-thor-application/) blog post).
+Here&#8217;s an example of our vlad configuration, housed in our &#8216;deploy.rb&#8217; files for each environment folder that we have (you can see the folder structure in the [Writing A Thor Application](https://lostechies.com/derickbailey/2011/04/29/writing-a-thor-application/) blog post).
 
 <pre>set :application, "app_name"<br />set :repository, "git@github.com:username/repositoryname.git"<br />set :domain, "dev.example.com"<br />set :deploy_to, "/home/app_staging_account/app_name"</pre>
 
@@ -150,7 +150,7 @@ Most of this is just re-posting what Joey already showed and explained in his po
 
 This part of the process was a little tricky to get right. I went through several iterations of my whenever script before it worked. I need to have the whenever script called through ssh, on the remote machine. I also need it to set up a cron job that will call the correct version of the script &#8211; the one in the release folder that represents the current release.
 
-From my previous post on [writing a thor application](http://lostechies.com/derickbailey/2011/04/29/writing-a-thor-application/), I have a ./bioref executable script set up and I decided it would be easier for me to call this than to call the thor tool directly. I don&#8217;t really have any reasoning for saying that, but it&#8217;s what I decided and I stuck with it. To make sure that I am calling the correct ./bioref script, I needed to get the full path of the executable when the whenever script was called. This turned out to be easy with the \_\_FILE\_\_ macro and File.expand_path. Here&#8217;s what my final schedule.rb, from the ./config/staging/ folder looks like:
+From my previous post on [writing a thor application](https://lostechies.com/derickbailey/2011/04/29/writing-a-thor-application/), I have a ./bioref executable script set up and I decided it would be easier for me to call this than to call the thor tool directly. I don&#8217;t really have any reasoning for saying that, but it&#8217;s what I decided and I stuck with it. To make sure that I am calling the correct ./bioref script, I needed to get the full path of the executable when the whenever script was called. This turned out to be easy with the \_\_FILE\_\_ macro and File.expand_path. Here&#8217;s what my final schedule.rb, from the ./config/staging/ folder looks like:
 
 <pre><span style="line-height: 0px">dir = File.expand_path(File.dirname(__FILE__))
 
@@ -166,7 +166,7 @@ end</span><span style="line-height: 0px">﻿</span></pre>
   </p>
   
   <p>
-    (Notice that I&#8217;m also setting the output for the log files as discussed in my post on <a href="http://lostechies.com/derickbailey/2011/04/27/the-whenever-gem-making-cron-easy/">using the whenever gem</a>.  And yes, I am running this app every minute in my staging environment. We are doing a lot of testing right now, and I want to have this process kick off on a very regular basis so that I don&#8217;t have to sit around for too long and wait for it. In the future, I&#8217;m likely going to reduce this to once every 30 minutes to an hour. )
+    (Notice that I&#8217;m also setting the output for the log files as discussed in my post on <a href="https://lostechies.com/derickbailey/2011/04/27/the-whenever-gem-making-cron-easy/">using the whenever gem</a>.  And yes, I am running this app every minute in my staging environment. We are doing a lot of testing right now, and I want to have this process kick off on a very regular basis so that I don&#8217;t have to sit around for too long and wait for it. In the future, I&#8217;m likely going to reduce this to once every 30 minutes to an hour. )
   </p>
   
   <p>

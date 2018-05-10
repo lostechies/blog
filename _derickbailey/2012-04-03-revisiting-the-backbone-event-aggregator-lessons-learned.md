@@ -102,7 +102,7 @@ In the end, the event aggregator object does have to filter out the subscribers 
 
 ## Semantics: Separating Command Messages From Event Messages
 
-This is a topic that [I tried to explore already](http://lostechies.com/derickbailey/2011/11/18/is-there-an-idiomatic-command-pattern-implementation-for-javascript/), but I never found a good answer. I&#8217;m still looking for a good way to separate the idea of a command system from an event system in JavaScript. Both of these are message-based patterns, but I think the semantics of the message types is very important. I don&#8217;t want to see my command messages being passed around with the &#8220;on&#8221; / &#8220;off&#8221; / &#8220;trigger&#8221; method semantics. It doesn&#8217;t fit and it can get confusing which will lead to bugs in a system.
+This is a topic that [I tried to explore already](https://lostechies.com/derickbailey/2011/11/18/is-there-an-idiomatic-command-pattern-implementation-for-javascript/), but I never found a good answer. I&#8217;m still looking for a good way to separate the idea of a command system from an event system in JavaScript. Both of these are message-based patterns, but I think the semantics of the message types is very important. I don&#8217;t want to see my command messages being passed around with the &#8220;on&#8221; / &#8220;off&#8221; / &#8220;trigger&#8221; method semantics. It doesn&#8217;t fit and it can get confusing which will lead to bugs in a system.
 
 ## Client-Side Messaging Anti-Patterns
 

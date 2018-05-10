@@ -24,7 +24,7 @@ Let&#8217;s pretend we had an object-to-object mapping problem. Let&#8217;s say 
 
 Consider this simple model with the red lines representing the intended mapping from the model to the DTO:
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="486" alt="CustomerDTODiagram" src="http://lostechies.com/content/chadmyers/uploads/2011/03ExploringShadeTreeFeaturesPart1_9C98/CustomerDTODiagram_thumb.png" width="451" border="0" />](http://lostechies.com/content/chadmyers/uploads/2011/03ExploringShadeTreeFeaturesPart1_9C98/CustomerDTODiagram_2.png)&#160; 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="486" alt="CustomerDTODiagram" src="https://lostechies.com/content/chadmyers/uploads/2011/03ExploringShadeTreeFeaturesPart1_9C98/CustomerDTODiagram_thumb.png" width="451" border="0" />](https://lostechies.com/content/chadmyers/uploads/2011/03ExploringShadeTreeFeaturesPart1_9C98/CustomerDTODiagram_2.png)&#160; 
 
 In the past, we may have pulled out our Mighty Hammer of XML +1 for this problem and ended up with something like this:
 

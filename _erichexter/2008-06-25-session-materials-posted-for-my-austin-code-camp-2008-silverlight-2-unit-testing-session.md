@@ -21,7 +21,7 @@ I got some great feedback and look forward to being able to speak on the topic s
 
 &nbsp;
 
-I wanted to formally thank <a href="http://www.lostechies.com/blogs/johnteague/" target="_blank">John Teague</a> for all of his hard work organizing the code camp.&nbsp; With a new baby at home there was no way I could have organized   
+I wanted to formally thank <a href="https://lostechies.com/blogs/johnteague/" target="_blank">John Teague</a> for all of his hard work organizing the code camp.&nbsp; With a new baby at home there was no way I could have organized   
 it this year so I was happy to have John pull it together while I was able to focus on sponsorships and swag.&nbsp; I think it was a great event and I will have a retrospective   
 with John so that we can share all that we have learned about running a camp as well as how to successfully hand off the execution from one person to the next.   
 I think there is more value in being able to grow a community where we have more leaders who can execute these types of events and I believe we have some   

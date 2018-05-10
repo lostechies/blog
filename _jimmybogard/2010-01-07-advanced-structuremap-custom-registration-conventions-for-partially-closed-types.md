@@ -11,7 +11,7 @@ categories:
   - StructureMap
 redirect_from: "/blogs/jimmy_bogard/archive/2010/01/07/advanced-structuremap-custom-registration-conventions-for-partially-closed-types.aspx/"
 ---
-A while back, I highlighted an issue we ran into where I had basically [partially closed generic types](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/09/01/partially-closed-generic-types.aspx).&#160; A common pattern in message- and command-based architectures is the concept of a handler for a message:
+A while back, I highlighted an issue we ran into where I had basically [partially closed generic types](https://lostechies.com/blogs/jimmy_bogard/archive/2009/09/01/partially-closed-generic-types.aspx).&#160; A common pattern in message- and command-based architectures is the concept of a handler for a message:
 
 <pre><span style="color: blue">public interface </span><span style="color: #2b91af">IHandler</span>&lt;TEvent&gt;
 {
@@ -86,7 +86,7 @@ Now I only need to define a generic handler for this command:
 
 [](http://11011.net/software/vspaste)
 
-Up to this point, I’ve shown nothing new that I didn’t already have in that previous open generics post.&#160; The trick now is to hook up the right handler to the right message.&#160; In the [last StructureMap post](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/12/17/advanced-structuremap-connecting-implementations-to-open-generic-types.aspx), I showed how to hook up IHandler<T> to the concrete implementation.&#160; But in this case, I don’t have a concrete implementation.&#160; I will request an IHandler<DeleteEntityCommand<Customer>> or Order or whatever, and I need to wire up a new concrete type, DeleteEntityCommandHandler<Customer> (or Order or whatever).
+Up to this point, I’ve shown nothing new that I didn’t already have in that previous open generics post.&#160; The trick now is to hook up the right handler to the right message.&#160; In the [last StructureMap post](https://lostechies.com/blogs/jimmy_bogard/archive/2009/12/17/advanced-structuremap-connecting-implementations-to-open-generic-types.aspx), I showed how to hook up IHandler<T> to the concrete implementation.&#160; But in this case, I don’t have a concrete implementation.&#160; I will request an IHandler<DeleteEntityCommand<Customer>> or Order or whatever, and I need to wire up a new concrete type, DeleteEntityCommandHandler<Customer> (or Order or whatever).
 
 Because I have the issue where I don’t know the concrete type until it’s requested, I need to tell my IoC Container of choice (StructureMap) how to handle these requests.
 

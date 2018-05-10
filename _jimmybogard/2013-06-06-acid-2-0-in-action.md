@@ -11,7 +11,7 @@ categories:
   - Messaging
   - SOA
 ---
-One of the comments in my last post on [message idempotency](http://lostechies.com/jimmybogard/2013/06/03/un-reliability-in-messaging-idempotency-and-de-duplication/) asked about message ordering. This is part of a larger issue that I’ve run into recently around turning two-phase commits off.
+One of the comments in my last post on [message idempotency](https://lostechies.com/jimmybogard/2013/06/03/un-reliability-in-messaging-idempotency-and-de-duplication/) asked about message ordering. This is part of a larger issue that I’ve run into recently around turning two-phase commits off.
 
 When looking at mutating state through interactions, typically we take the approach of:
 

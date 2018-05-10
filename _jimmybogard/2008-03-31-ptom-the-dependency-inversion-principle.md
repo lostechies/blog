@@ -13,10 +13,10 @@ redirect_from: "/blogs/jimmy_bogard/archive/2008/03/31/ptom-the-dependency-inver
 ---
 The Dependency Inversion Principle, the last of the Uncle Bob &#8220;SOLID&#8221; object-oriented design principles, can be thought of the natural progression of the Liskov Substitution Principle, the Open Closed Principle and even the Single Responsibility Principle.&nbsp; This post is the latest in the set of SOLID posts:
 
-  * [PTOM: The Single Responsibility Principle](http://www.lostechies.com/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx) 
-      * [PTOM: The Open Closed Principle](http://www.lostechies.com/blogs/joe_ocampo/archive/2008/03/21/ptom-the-open-closed-principle.aspx) 
-          * [PTOM: The Liskov Substitution Principle](http://lostechies.com/blogs/chad_myers/archive/2008/03/11/ptom-the-liskov-substitution-principle.aspx) 
-              * [PTOM: The Interface Segregation Principle](http://www.lostechies.com/blogs/rhouston/archive/2008/03/14/ptom-the-interface-segregation-principle.aspx)</ul> 
+  * [PTOM: The Single Responsibility Principle](https://lostechies.com/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx) 
+      * [PTOM: The Open Closed Principle](https://lostechies.com/blogs/joe_ocampo/archive/2008/03/21/ptom-the-open-closed-principle.aspx) 
+          * [PTOM: The Liskov Substitution Principle](https://lostechies.com/blogs/chad_myers/archive/2008/03/11/ptom-the-liskov-substitution-principle.aspx) 
+              * [PTOM: The Interface Segregation Principle](https://lostechies.com/blogs/rhouston/archive/2008/03/14/ptom-the-interface-segregation-principle.aspx)</ul> 
             The Dependency Inversion Principle, or DIP, is often used interchangeably with [Dependency Injection and Inversion of Control](http://martinfowler.com/articles/injection.html).&nbsp; However, following DIP does not mean we must automatically use a IoC container like Spring.NET, Windsor or StructureMap.&nbsp; IoC containers are tools to assist in applications adhering to DIP, but we can follow DIP without using IoC containers.
             
             The Dependency Inversion Principle states:

@@ -71,7 +71,7 @@ tags:
   </ul>
 </div>
 
-In [part 2](http://lostechies.com/derekgreer/2011/04/04/effective-tests-a-test-first-example-part-2/) of our Test-First example, we continued the implementation of our Tic-tac-toe game using a Test-First approach. This time, we’ll finish out our requirements.
+In [part 2](https://lostechies.com/derekgreer/2011/04/04/effective-tests-a-test-first-example-part-2/) of our Test-First example, we continued the implementation of our Tic-tac-toe game using a Test-First approach. This time, we’ll finish out our requirements.
 
 Here’s where we left things:
 
@@ -136,7 +136,7 @@ Next, let’s establish a scenario were the bottom right corner should always be
 
 &nbsp;
 
-[<img style="border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" border="0" alt="tic-tac-toe-game-win" src="http://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-win_thumb.png" width="221" height="183" />](http://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-win.png)
+[<img style="border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" border="0" alt="tic-tac-toe-game-win" src="https://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-win_thumb.png" width="221" height="183" />](https://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-win.png)
 
 &nbsp;
 
@@ -1093,7 +1093,7 @@ Everything should now compile. Let’s run our tests:
         </p>
         
         <p>
-          <a href="http://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-block.png"><img style="border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" border="0" alt="tic-tac-toe-game-block" src="http://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-block_thumb.png" width="222" height="184" /></a>
+          <a href="https://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-block.png"><img style="border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" border="0" alt="tic-tac-toe-game-block" src="https://lostechies.com/content/derekgreer/uploads/2011/04/tic-tac-toe-game-block_thumb.png" width="222" height="184" /></a>
         </p>
         
         <p>

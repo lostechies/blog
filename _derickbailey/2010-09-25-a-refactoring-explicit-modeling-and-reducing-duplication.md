@@ -153,7 +153,7 @@ Here’s a mock-up of what the original code he showed me looked like:
       </h3>
       
       <p>
-        I’ve already talked about <a href="http://www.lostechies.com/blogs/derickbailey/archive/2010/03/17/application-events-modeling-selection-vs-de-selection-as-separate-events.aspx">explicitly modeling</a> in your code, so I <a href="http://www.lostechies.com/blogs/derickbailey/archive/2010/04/28/dry-violations-may-indicate-a-missed-modeling-opportunity.aspx">won’t repeat all of that</a>, here. You can go read those previous posts for my general opinion on the subject (which is to say, you should explicitly model your state instead of using nulls). In this particular instance, I suggested using a .Status on the Result class to indicate whether or not the step completed successfully or not.
+        I’ve already talked about <a href="https://lostechies.com/blogs/derickbailey/archive/2010/03/17/application-events-modeling-selection-vs-de-selection-as-separate-events.aspx">explicitly modeling</a> in your code, so I <a href="https://lostechies.com/blogs/derickbailey/archive/2010/04/28/dry-violations-may-indicate-a-missed-modeling-opportunity.aspx">won’t repeat all of that</a>, here. You can go read those previous posts for my general opinion on the subject (which is to say, you should explicitly model your state instead of using nulls). In this particular instance, I suggested using a .Status on the Result class to indicate whether or not the step completed successfully or not.
       </p>
       
       <div>
@@ -290,7 +290,7 @@ Here’s a mock-up of what the original code he showed me looked like:
             </h3>
             
             <p>
-              I’ve also talked about <a href="http://www.lostechies.com/blogs/derickbailey/archive/2010/03/05/how-ruby-taught-me-to-dry-up-my-code-with-lambda-blocks.aspx">the use of Delegates to help reduce code duplication</a> before. In this particular case, original code used the same if-then statement, with the exception of the value that was assigned to ‘result’. The first refactoring shows us that the if-then statement actually is the same one, over and over again. The only thing that we need to vary is the method that is executed to obtain the result. With .Net’s delegates – in particular, the Func<T> delegate &#8211; we can easily do that. However, there is a small gotcha to this. If we extracted the code into a method that takes a single Func<Result> as the parameter, then we don’t gain anything. We won’t actually reduce the duplication. In fact, this would only make the code worse:
+              I’ve also talked about <a href="https://lostechies.com/blogs/derickbailey/archive/2010/03/05/how-ruby-taught-me-to-dry-up-my-code-with-lambda-blocks.aspx">the use of Delegates to help reduce code duplication</a> before. In this particular case, original code used the same if-then statement, with the exception of the value that was assigned to ‘result’. The first refactoring shows us that the if-then statement actually is the same one, over and over again. The only thing that we need to vary is the method that is executed to obtain the result. With .Net’s delegates – in particular, the Func<T> delegate &#8211; we can easily do that. However, there is a small gotcha to this. If we extracted the code into a method that takes a single Func<Result> as the parameter, then we don’t gain anything. We won’t actually reduce the duplication. In fact, this would only make the code worse:
             </p>
             
             <div>

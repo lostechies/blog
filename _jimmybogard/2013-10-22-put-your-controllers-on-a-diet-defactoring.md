@@ -12,7 +12,7 @@ categories:
 ---
 Posts in this series:
 
-  * [Redux](http://lostechies.com/jimmybogard/2013/10/10/put-your-controllers-on-a-diet-redux/)
+  * [Redux](https://lostechies.com/jimmybogard/2013/10/10/put-your-controllers-on-a-diet-redux/)
   * Defactoring
 
 Before getting to far in refactoring my controller, I want to spend a little bit of time doing some [defactoring](http://c2.com/cgi/wiki?HowToDefactor), removing abstractions and such until I can see the entire amount of non-framework code in one spot. Defactoring is often an important first step in refactoring; you really need a big picture view of your code so that you don’t get sucked in to abstraction-itis.

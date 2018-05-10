@@ -31,12 +31,12 @@ I believe that we should extend the already proven design methodology of Test Dr
                     
                     You know&nbsp;they say a picture is worth a thousand words.&nbsp; So&nbsp;I would like introduce you&nbsp;to the navigational map of the Model Driven Design. 
                     
-                    [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="165" src="http://lostechies.com/content/joeocampo/uploads/2011/03ADiscussiononDomainDrivenDesign_13318/clip_image00241.jpg" width="240" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03ADiscussiononDomainDrivenDesign_13318/clip_image00242.jpg) 
+                    [<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="165" src="https://lostechies.com/content/joeocampo/uploads/2011/03ADiscussiononDomainDrivenDesign_13318/clip_image00241.jpg" width="240" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03ADiscussiononDomainDrivenDesign_13318/clip_image00242.jpg) 
                     
                     Model Driven Design is broken down into the following artifacts: 
                     
-                      * [Entities](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/04/14/a-discussion-on-domain-driven-design-entities.aspx) 
-                          * <a href="http://www.lostechies.com/blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx" target="_blank">Value Objects</a> 
+                      * [Entities](https://lostechies.com/blogs/joe_ocampo/archive/2007/04/14/a-discussion-on-domain-driven-design-entities.aspx) 
+                          * <a href="https://lostechies.com/blogs/joe_ocampo/archive/2007/04/23/a-discussion-on-domain-driven-design-value-objects.aspx" target="_blank">Value Objects</a> 
                               * Factories 
                                   * Services 
                                       * Aggregates 
@@ -60,4 +60,4 @@ I believe that we should extend the already proven design methodology of Test Dr
                                                 
                                                 Humans in general have a talent for understanding pictures and spoken words more than we do written text. I don’t know if this based on the fact that before written languages, knowledge was passed down from generation to generation based on spoken words (more like grunting) and drawings on wall. Perhaps our brains revert to time tested state of understanding when thought becomes unclear. That explains a majority of my code. But seriously let’s try something quickly to prove my point. Whatever you do, don’t think of a pink elephant! I mean don’t let that thought enter your head. If you are somewhat normal most of you found it impossible to keep such an IMAGE out of your head. The key was the term image. When we recall objects or ideas we tend to symbolize them in our brains with images. When we thought of the elephant we saw an animal with a long nose weighs 2 tons and has big floppy ears. I gave you the value of pink to contrast it even more than you normal train of thought. You didn’t recall the actual word letter for letter “P” “I” “N” “K” “E” “L” “E” “P” “H” “A” “N” “T”. If you did, what time is Judge Wapner coming on? 
                                                 
-                                                This is only the tip of the iceberg concerning the ubiquitous language and this post is a lot longer than I had intended it to be. More information will be elucidated on ubiquitous language in the next post on “[Entities](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/04/14/a-discussion-on-domain-driven-design-entities.aspx)” and that’s when we really start to have some fun.
+                                                This is only the tip of the iceberg concerning the ubiquitous language and this post is a lot longer than I had intended it to be. More information will be elucidated on ubiquitous language in the next post on “[Entities](https://lostechies.com/blogs/joe_ocampo/archive/2007/04/14/a-discussion-on-domain-driven-design-entities.aspx)” and that’s when we really start to have some fun.

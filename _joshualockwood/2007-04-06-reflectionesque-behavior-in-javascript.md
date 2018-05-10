@@ -35,8 +35,8 @@ What many may not know is that objects will behave as associative array whether 
   
 
 
-So that joe has something to play with, I&#8217;ve attached a script file called [reflectionesque.js (zipped)](http://www.lostechies.com/files/folders/examplesource/entry111.aspx) that illustrates some of this.&nbsp;&nbsp;I&#8217;ve also attached a screen shot that shows the output:
+So that joe has something to play with, I&#8217;ve attached a script file called [reflectionesque.js (zipped)](https://lostechies.com/files/folders/examplesource/entry111.aspx) that illustrates some of this.&nbsp;&nbsp;I&#8217;ve also attached a screen shot that shows the output:
   
 
 
-<IMG height="448" src="http://lostechies.com/content/joshualockwood/uploads/2011/03ReflectionesquebehaviorinJavaScript_13309/clip_image002[2][2].jpg" width="450" />
+<IMG height="448" src="https://lostechies.com/content/joshualockwood/uploads/2011/03ReflectionesquebehaviorinJavaScript_13309/clip_image002[2][2].jpg" width="450" />

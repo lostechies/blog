@@ -118,4 +118,4 @@ Check out [The Joy of Chemistry](http://www.amazon.com/The-Joy-Chemistry-Amazing
 
 Now, can anybody tell me what it means&mdash;_means_-means, not just the effects you observe&mdash;when a microcontroller pin is &#8220;floating&#8221;?
   
-**UPDATE:** Andy Philips [explains &#8220;float&#8221;](http://lostechies.com/sharoncichelli/2014/08/29/how-transistors-work/#comment-1573681038) in the comments.
+**UPDATE:** Andy Philips [explains &#8220;float&#8221;](https://lostechies.com/sharoncichelli/2014/08/29/how-transistors-work/#comment-1573681038) in the comments.

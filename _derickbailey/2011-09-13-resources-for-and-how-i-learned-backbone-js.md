@@ -49,7 +49,7 @@ Other than the screencasts and book, there&#8217;s a wealth of good backbone kno
 
 For integration tests with the rest of my system, I use Cucumber. Most of the testing I&#8217;ve done with Backbone has been through Cucumber since I already have that in my Rails application. I set the tests to use the Selenium driver and run them as part of my normal Cucumber suite.
 
-For unit testing (which I&#8217;ve been doing more of, recently) I use Jasmine and the Jasmine-jQuery plugin. [My previous blog post](http://lostechies.com/derickbailey/2011/09/06/test-driving-backbone-views-with-jquery-templates-the-jasmine-gem-and-jasmine-jquery/) addresses this, specifically to get my views under test with my view templates in place. (I&#8217;m considering writing a small series and/or e-book on testing backbone, though this is also covered in my screencast, so i may not be able to write an entire e-book on it any time soon.)
+For unit testing (which I&#8217;ve been doing more of, recently) I use Jasmine and the Jasmine-jQuery plugin. [My previous blog post](https://lostechies.com/derickbailey/2011/09/06/test-driving-backbone-views-with-jquery-templates-the-jasmine-gem-and-jasmine-jquery/) addresses this, specifically to get my views under test with my view templates in place. (I&#8217;m considering writing a small series and/or e-book on testing backbone, though this is also covered in my screencast, so i may not be able to write an entire e-book on it any time soon.)
 
 ## 4) I saw that your created a Backbone plugin.  Does Backbone have a similar plugin/gem ecosystem that jQuery/Rails has?  How can I get started?
 

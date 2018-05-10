@@ -33,14 +33,14 @@ I&#8217;m going to be calling on a couple of my teammates to do some guest posti
 
 Topics to be covered: (will serve as a table of contents)
 
-  * [Introduction to our team, and where we came from.](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/10/05/how-we-do-things-who-we-are-where-we-were-where-we-stand.aspx)
-  * [Evolving our Planning Practice](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/10/05/how-we-do-things-evolving-our-planning-practice.aspx)
-  * [How We Do Planning Today](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/10/06/how-we-do-things-planning-part-2.aspx)
-  * [Evolving TDD/BDD Practice](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/10/07/how-we-do-things-tdd-bdd.aspx)
-  * [Testing Part 2](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/10/11/how-we-do-things-testing-part-2.aspx)
-  * [Specification Part 1](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/11/12/how-we-do-things-evolving-our-specification-practice.aspx)
-  * [Specification Part 2 &#8211; Using Appropriate Tools](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/11/13/how-we-do-things-specification-using-the-right-tools.aspx)
-  * [Team Room](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/11/17/how-we-do-things-the-team-room.aspx)
+  * [Introduction to our team, and where we came from.](https://lostechies.com/blogs/scottcreynolds/archive/2009/10/05/how-we-do-things-who-we-are-where-we-were-where-we-stand.aspx)
+  * [Evolving our Planning Practice](https://lostechies.com/blogs/scottcreynolds/archive/2009/10/05/how-we-do-things-evolving-our-planning-practice.aspx)
+  * [How We Do Planning Today](https://lostechies.com/blogs/scottcreynolds/archive/2009/10/06/how-we-do-things-planning-part-2.aspx)
+  * [Evolving TDD/BDD Practice](https://lostechies.com/blogs/scottcreynolds/archive/2009/10/07/how-we-do-things-tdd-bdd.aspx)
+  * [Testing Part 2](https://lostechies.com/blogs/scottcreynolds/archive/2009/10/11/how-we-do-things-testing-part-2.aspx)
+  * [Specification Part 1](https://lostechies.com/blogs/scottcreynolds/archive/2009/11/12/how-we-do-things-evolving-our-specification-practice.aspx)
+  * [Specification Part 2 &#8211; Using Appropriate Tools](https://lostechies.com/blogs/scottcreynolds/archive/2009/11/13/how-we-do-things-specification-using-the-right-tools.aspx)
+  * [Team Room](https://lostechies.com/blogs/scottcreynolds/archive/2009/11/17/how-we-do-things-the-team-room.aspx)
   * Pair Programming
   * Communication, Retrospectives, and Solving Problems
   * Deciding what technology to use

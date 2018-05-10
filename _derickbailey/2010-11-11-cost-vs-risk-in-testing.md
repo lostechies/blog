@@ -18,7 +18,7 @@ redirect_from: "/blogs/derickbailey/archive/2010/11/11/cost-vs-risk-in-testing.a
 ---
 There was a bit of interesting discussion on twitter this morning, concerning the cost of test-first vs. risk. Here’s the visual version of what I’m saying:
 
-[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_780D2BFD.png" width="640" height="341" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_72328864.png)
+[<img style="border-bottom: 0px;border-left: 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_780D2BFD.png" width="640" height="341" />](https://lostechies.com/content/derickbailey/uploads/2011/03/image_72328864.png)
 
 The premise behind the value of test-first is that we will wash out (or reduce) the cost of a system over time by having a system that is easier to maintain, etc. I believe in the value of test-first development and I have seen the benefit that it creates when done right. I’ve also seen the downside of it when done poorly or in the wrong circumstances.&#160; Notice that I’m not putting any specific numbers on this chart. I left any specific numbers off the chart because the context of every application, every team, ever customer and everything else involved in a system is going to change the numbers and modify the curves. 
 

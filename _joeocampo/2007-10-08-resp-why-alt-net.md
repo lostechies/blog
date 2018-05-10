@@ -13,7 +13,7 @@ redirect_from: "/blogs/joe_ocampo/archive/2007/10/08/resp-why-alt-net.aspx/"
 ---
 </p> 
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="240" alt="perception_vase" src="http://lostechies.com/content/joeocampo/uploads/2011/03RespWhyALT.NET_D16E/perception_vase_thumb.gif" width="240" align="right" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03RespWhyALT.NET_D16E/perception_vase_2.gif) Perception!
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="240" alt="perception_vase" src="https://lostechies.com/content/joeocampo/uploads/2011/03RespWhyALT.NET_D16E/perception_vase_thumb.gif" width="240" align="right" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03RespWhyALT.NET_D16E/perception_vase_2.gif) Perception!
 
 I am sure all of us have heard that perception is 9/10th the rule. Unfortunately perception is what tainted the name Alt.Net.</p> 
 
@@ -23,7 +23,7 @@ I am sure all of us have heard that perception is 9/10th the rule. Unfortunately
 > 
 > </humor>
 
-I am not implying that this how you feel [Collin](http://www.lostechies.com/blogs/colin_ramsay/archive/2007/10/08/why-alt-net.aspx) just my perception 🙂 over the couple of post I have read over the last day or so.</p> 
+I am not implying that this how you feel [Collin](https://lostechies.com/blogs/colin_ramsay/archive/2007/10/08/why-alt-net.aspx) just my perception 🙂 over the couple of post I have read over the last day or so.</p> 
 
 > >You&#8217;d be bringing your ideas to a whole new audience instead of, and I realise this is a generalisation, preaching to the converted.
 

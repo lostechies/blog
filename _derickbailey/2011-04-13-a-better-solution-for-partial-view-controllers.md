@@ -13,17 +13,17 @@ categories:
   - Rails
   - Ruby
 ---
-A few days ago, I wrote about [using the Cells gem to create an encapsulated segment of my app](http://lostechies.com/derickbailey/2011/04/11/cells-partial-controllers-and-views-for-rails-3/), with view and controller, etc. Well, this didn&#8217;t work out so well after all. Aside form the initial problem of \`content_for\` not working, I ran into another set of issues where the controller and view for the cell wouldn&#8217;t play nice with CanCan &#8211; our authorization system of choice. Rather than go down the path of trying to make it work (which I tried, for an hour or so), I decided to take [the advice of Brian Hogan](https://twitter.com/#!/bphogan/status/57625998866399236) and change approaches.
+A few days ago, I wrote about [using the Cells gem to create an encapsulated segment of my app](https://lostechies.com/derickbailey/2011/04/11/cells-partial-controllers-and-views-for-rails-3/), with view and controller, etc. Well, this didn&#8217;t work out so well after all. Aside form the initial problem of \`content_for\` not working, I ran into another set of issues where the controller and view for the cell wouldn&#8217;t play nice with CanCan &#8211; our authorization system of choice. Rather than go down the path of trying to make it work (which I tried, for an hour or so), I decided to take [the advice of Brian Hogan](https://twitter.com/#!/bphogan/status/57625998866399236) and change approaches.
 
  
 
 ### A Helper Class And A Service Object
 
-In another post, the day after my post on Cells, I wrote about [changing a helper method into a helper class](http://lostechies.com/derickbailey/2011/04/12/cleaning-up-rails-helper-methods-with-a-helper-class-good-idea-bad-idea-or-meh/). This is the first part of the solution to my needs, with the new direction. My helper class uses several conventions to determine what partial to use, what css file to include, and what service object to pass to the partial.
+In another post, the day after my post on Cells, I wrote about [changing a helper method into a helper class](https://lostechies.com/derickbailey/2011/04/12/cleaning-up-rails-helper-methods-with-a-helper-class-good-idea-bad-idea-or-meh/). This is the first part of the solution to my needs, with the new direction. My helper class uses several conventions to determine what partial to use, what css file to include, and what service object to pass to the partial.
 
 As a refresher, here is a mock up of the page with the program dashboard, in question.
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/04/NewImage.png" border="0" alt="NewImage" width="600" height="450" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/04/NewImage.png" border="0" alt="NewImage" width="600" height="450" />
 
 The bottom section of this screen is the dashboard for the program. It is related to a patient because a patient participates in a program. However, I wanted to make sure I was keeping the logic and data for the program dashboard encapsulated. I don&#8217;t want to have a bunch of code in my patient profile controller or view (the host for the program dashboard) when it was not used directly by the patient profile. It really belongs to the program dashboard.
 

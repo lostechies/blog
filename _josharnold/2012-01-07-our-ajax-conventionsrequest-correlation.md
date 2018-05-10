@@ -15,14 +15,14 @@ tags:
   - fubumvc
   - jquery-continuations
 ---
-As I mentioned in [my previous posts](http://lostechies.com/josharnold/2012/01/06/our-ajax-conventions-the-ajaxcontinuation/), I’m doing a write up of our AJAX conventions and how they’re paying off for us.
+As I mentioned in [my previous posts](https://lostechies.com/josharnold/2012/01/06/our-ajax-conventions-the-ajaxcontinuation/), I’m doing a write up of our AJAX conventions and how they’re paying off for us.
 
 In this series of posts, I’m going to cover a few topics:
 
-  1. [The AjaxContinuation](http://lostechies.com/josharnold/2012/01/06/our-ajax-conventions-the-ajaxcontinuation/)
-  2. [Clientside Continuations](http://lostechies.com/josharnold/2012/01/06/our-ajax-conventionsclientside-continuations/)
+  1. [The AjaxContinuation](https://lostechies.com/josharnold/2012/01/06/our-ajax-conventions-the-ajaxcontinuation/)
+  2. [Clientside Continuations](https://lostechies.com/josharnold/2012/01/06/our-ajax-conventionsclientside-continuations/)
   3. Request Correlation (this post)
-  4. [Validation](http://lostechies.com/josharnold/2012/01/08/our-ajax-conventionsvalidation/)
+  4. [Validation](https://lostechies.com/josharnold/2012/01/08/our-ajax-conventionsvalidation/)
 
 ## Correlating your requests
 

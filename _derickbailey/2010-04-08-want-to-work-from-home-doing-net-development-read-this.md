@@ -25,7 +25,7 @@ Here are some of the highlights of the job, in my opinion… **note: this is my 
   * 100% work from home. you know you want to. 
   * Top-notch talented team, all with a passion for delivering high quality software and continuing to learn and improve 
   * Work with some of the latest and greatest tools, technologies and processes in the .NET space 
-  * You can [read about our communication tools and processes here](http://www.lostechies.com/blogs/joeydotnet/archive/2009/10/09/guest-post-suggestions-for-effective-team-communication-in-a-virtual-environment.aspx) 
+  * You can [read about our communication tools and processes here](https://lostechies.com/blogs/joeydotnet/archive/2009/10/09/guest-post-suggestions-for-effective-team-communication-in-a-virtual-environment.aspx) 
   * and did I mention 100% work from home? seriously… you know you want to. 
       * spend more time with the family 
       * wake up 1 minute before you start your work day and still be early 

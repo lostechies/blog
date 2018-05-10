@@ -13,7 +13,7 @@ categories:
 ---
 At Headspring, we’re fairly obstinate in our approach in evolving a system’s design and architecture over time. As a consulting company, we get to see a LOT of different codebases, and while it may be selection bias, we are generally presented with existing systems and codebases in advanced stages of decline and decay.
 
-It’s why we strive to counter what I consider [long-tail design](http://lostechies.com/jimmybogard/2013/10/01/curbing-long-tail-design/), where a team implements new designs for new features but never goes back to existing features. But terms like “design” and “architecture” are a bit nebulous, what kinds of changes are we talking about?
+It’s why we strive to counter what I consider [long-tail design](https://lostechies.com/jimmybogard/2013/10/01/curbing-long-tail-design/), where a team implements new designs for new features but never goes back to existing features. But terms like “design” and “architecture” are a bit nebulous, what kinds of changes are we talking about?
 
 A team I once visited has no less than four (!) different ORMs in a single solution:
 

@@ -17,7 +17,7 @@ In this post I’m going to try and demonstrate the flexibility that <a href="ht
 
 I’ve built a very simple application that will help me illustrate the process. The application allows the user to make a list of movies they want to see.
 
-[<img style="border-width: 0px;" src="http://lostechies.com/content/joshuaflanagan/uploads/2011/03/mymovies_thumb_5645EFC7.png" border="0" alt="mymovies" width="484" height="354" />](http://lostechies.com/content/joshuaflanagan/uploads/2011/03/mymovies_5CD96F57.png)
+[<img style="border-width: 0px;" src="https://lostechies.com/content/joshuaflanagan/uploads/2011/03/mymovies_thumb_5645EFC7.png" border="0" alt="mymovies" width="484" height="354" />](https://lostechies.com/content/joshuaflanagan/uploads/2011/03/mymovies_5CD96F57.png)
 
 There are three actions that the application handles:
 

@@ -72,7 +72,7 @@ tags:
   </ul>
 </div>
 
-In the [last installment](http://lostechies.com/derekgreer/2011/05/26/effective-tests-double-strategies/), I set forth some recommendations for using Test Doubles effectively. In this article, I’ll discuss a class of tools which can aid in reducing some of the coupling and obscurity that comes with the use of Test Doubles: Auto-mocking Containers.
+In the [last installment](https://lostechies.com/derekgreer/2011/05/26/effective-tests-double-strategies/), I set forth some recommendations for using Test Doubles effectively. In this article, I’ll discuss a class of tools which can aid in reducing some of the coupling and obscurity that comes with the use of Test Doubles: Auto-mocking Containers.
 
 ## Auto-mocking Containers
 

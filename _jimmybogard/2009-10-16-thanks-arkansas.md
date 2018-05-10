@@ -25,6 +25,6 @@ You can find the slides and code here:
 
 Thanks to all the guys in Arkansas for the great conversations, and I hope to see everyone soon!&#160; One parting shot from a trip to [Devil’s Den](http://www.arkansasstateparks.com/devilsden/):
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="DSC00219" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/DSC00219_thumb_259379D6.jpg" width="644" height="484" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/DSC00219_0B8F93E7.jpg) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="DSC00219" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/DSC00219_thumb_259379D6.jpg" width="644" height="484" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/DSC00219_0B8F93E7.jpg) 
 
 My jeans were soaked up to my knees from that hike…

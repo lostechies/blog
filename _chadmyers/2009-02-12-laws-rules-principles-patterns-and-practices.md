@@ -11,7 +11,7 @@ categories:
   - Principles
 redirect_from: "/blogs/chad_myers/archive/2009/02/11/laws-rules-principles-patterns-and-practices.aspx/"
 ---
-I speak and write a lot about principles, patterns, and practices.&#160; There has been a lot of hullabaloo lately about blind, rigid adherence to principles and how, apparently, this will result in some sort of catastrophe. Frankly, if we, as a profession, ever got the point where we were too rigidly following things like the [SOLID principles](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx), I think we’d be doing pretty good and that it would generally be a good problem to have (like having too much money or one extra piece of cake – a problem no doubt, but a good problem and one easily solved).
+I speak and write a lot about principles, patterns, and practices.&#160; There has been a lot of hullabaloo lately about blind, rigid adherence to principles and how, apparently, this will result in some sort of catastrophe. Frankly, if we, as a profession, ever got the point where we were too rigidly following things like the [SOLID principles](https://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx), I think we’d be doing pretty good and that it would generally be a good problem to have (like having too much money or one extra piece of cake – a problem no doubt, but a good problem and one easily solved).
 
 Amidst all the chest pounding and spitting, there appears to be some sort of confusion among the various words and definition. In a laughably futile attempt to try to inject some sort of rationalism and logic into the debate, I’d like to take a stab at defining what the following words mean, in the context of the practice of software design:&#160; Laws, Rules, Principles, Patterns, and Practices.
 
@@ -21,7 +21,7 @@ Think more of the scientific definition of “law” than the governmental/legal
 
 > 6a: a statement of an order or relation of phenomena that so far as is known is invariable under the given conditions.
 
-That’s a pretty good definition. To me, that means: Given X, if you do Y, the outcome will always be Z.&#160; That’s a bold statement, thus the gravity of the use of the word “Law” in the context of design (something that has a lot of subjectivity). It’s [not entirely subjective](http://www.lostechies.com/blogs/chad_myers/archive/2008/08/18/good-design-is-not-subjective.aspx), however, and so laws CAN apply.
+That’s a pretty good definition. To me, that means: Given X, if you do Y, the outcome will always be Z.&#160; That’s a bold statement, thus the gravity of the use of the word “Law” in the context of design (something that has a lot of subjectivity). It’s [not entirely subjective](https://lostechies.com/blogs/chad_myers/archive/2008/08/18/good-design-is-not-subjective.aspx), however, and so laws CAN apply.
 
 These are pretty rare in software design due the fact that it is still quite young and there is very little science involved (in order to prove anything).&#160; Thus we must fall back to what little experience, observation, and empiricism we have available to us.&#160; So far only one of these comes to mind (sorry, I’m drawing a big blank): [Law of Demeter](http://en.wikipedia.org/wiki/Law_of_Demeter).
 
@@ -38,7 +38,7 @@ Rules are a way of enforcing consistency within a team, project, or set of proje
 Some good examples of rules I might suggest you, together with your team members, place upon yourself are things like:
 
   * Personal hygiene: Learn it, live it, love it.
-  * Follow CI and all the other [minimal practices and requirements for good software](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/16/time-to-login-screen-and-the-absolute-basic-requirements-for-good-software.aspx)
+  * Follow CI and all the other [minimal practices and requirements for good software](https://lostechies.com/blogs/chad_myers/archive/2008/03/16/time-to-login-screen-and-the-absolute-basic-requirements-for-good-software.aspx)
   * Don’t commit into a broken build
   * Don’t commit spike code into the trunk 
   * Don’t use the words “stored procedure” around Jeremy

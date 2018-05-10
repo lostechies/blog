@@ -34,8 +34,8 @@ Ok so yesterday I was setting up a publicly accessible build server, that was no
 
 Fig 1-1
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/ryansvihla/uploads/2011/03/image_thumb_75016308.png" width="938" height="288" />](http://lostechies.com/content/ryansvihla/uploads/2011/03/image_4BF6C40C.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/ryansvihla/uploads/2011/03/image_thumb_75016308.png" width="938" height="288" />](https://lostechies.com/content/ryansvihla/uploads/2011/03/image_4BF6C40C.png) 
 
 fig 1-2
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/ryansvihla/uploads/2011/03/image_thumb_60127146.png" width="935" height="302" />](http://lostechies.com/content/ryansvihla/uploads/2011/03/image_76D1B8CF.png)
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/ryansvihla/uploads/2011/03/image_thumb_60127146.png" width="935" height="302" />](https://lostechies.com/content/ryansvihla/uploads/2011/03/image_76D1B8CF.png)

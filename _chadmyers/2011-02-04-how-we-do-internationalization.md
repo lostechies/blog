@@ -13,7 +13,7 @@ categories:
   - internationalization
 redirect_from: "/blogs/chad_myers/archive/2011/02/04/how-we-do-internationalization.aspx/"
 ---
-Reading Josh’s post on [helpful Date/Time/TimeZone handling methods](http://www.lostechies.com/blogs/joshuaflanagan/archive/2011/02/03/helpful-datetime-extension-methods-for-dealing-with-time-zones.aspx) inspired me to write about how we deal with the complexities of internationalization and localization in our app.
+Reading Josh’s post on [helpful Date/Time/TimeZone handling methods](https://lostechies.com/blogs/joshuaflanagan/archive/2011/02/03/helpful-datetime-extension-methods-for-dealing-with-time-zones.aspx) inspired me to write about how we deal with the complexities of internationalization and localization in our app.
 
 When we started, we set out some principles for our framework, application, and any related code:
 

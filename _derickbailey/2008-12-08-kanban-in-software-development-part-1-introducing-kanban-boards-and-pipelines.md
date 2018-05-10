@@ -21,15 +21,15 @@ In the world of <a href="http://en.wikipedia.org/wiki/Scrum_(development)" targe
 
 Visual management tools are very common in agile shops, and for good reason &#8211; they work very well. It should come as no surprise, then, that kanban software development also employs various visual management tools, including a kanban board. 
 
-On the surface, there isn&#8217;t much difference between an average task board and a kanban board. Each of these boards has various columns that represent the stages that a card needs to go through before it is considered done. The real difference in a kanban board, is not the board itself. The board is just a visual indicator, the same as any task board, and the intention is still to get the cards to the &#8220;done done&#8221; state &#8211; that is, delivered to the customer so that they can use the features from that card. The real difference is how the process is approached &#8211; by <a href="http://www.lostechies.com/blogs/derickbailey/archive/2008/11/20/kanban-pulling-value-from-the-supplier.aspx" target="_blank">pulling value through the system</a>. 
+On the surface, there isn&#8217;t much difference between an average task board and a kanban board. Each of these boards has various columns that represent the stages that a card needs to go through before it is considered done. The real difference in a kanban board, is not the board itself. The board is just a visual indicator, the same as any task board, and the intention is still to get the cards to the &#8220;done done&#8221; state &#8211; that is, delivered to the customer so that they can use the features from that card. The real difference is how the process is approached &#8211; by <a href="https://lostechies.com/blogs/derickbailey/archive/2008/11/20/kanban-pulling-value-from-the-supplier.aspx" target="_blank">pulling value through the system</a>. 
 
 ### Kanban Pipelines
 
 When dealing with a kanban process and visualizing it into a kanban board, the various steps that a card goes through is often called a pipeline. A single card starts at one end of the pipe and flows through to the other end. This flow is enabled via the pull system that happens at the end of the pipe.
 
-In the grocery store example from <a href="http://www.lostechies.com/blogs/derickbailey/archive/2008/11/20/kanban-pulling-value-from-the-supplier.aspx" target="_blank">my previous post on pulling value</a>, the pipeline would would likely include the store shelf, the store back room, the warehouse, the supplier and the product creator.
+In the grocery store example from <a href="https://lostechies.com/blogs/derickbailey/archive/2008/11/20/kanban-pulling-value-from-the-supplier.aspx" target="_blank">my previous post on pulling value</a>, the pipeline would would likely include the store shelf, the store back room, the warehouse, the supplier and the product creator.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="192" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_1.png" width="618" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_3.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="192" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_1.png" width="618" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/image_3.png) 
 
 ### A Simple Software Development Pipeline
 
@@ -37,17 +37,17 @@ A software development pipeline works the same way as the grocery store pipeline
 
 Consider the following three columns in a simple pipeline for software development: Analysis, Development and Testing. When a customer requests a given feature for a software product, they want to pull that feature out of testing so that they can start using it.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="192" alt="Customers Pull From Testing To Use A Feature" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_10.png" width="429" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_22.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="192" alt="Customers Pull From Testing To Use A Feature" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_10.png" width="429" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/image_22.png) 
 
 Once that feature has been moved out of Testing and the customer is ready to pull the next feature out, there isn&#8217;t anything to pull. At this point, the Testing people would then try to pull the next feature out of Development.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="192" alt="Testers Pull From Development To Test A Feature" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_13.png" width="361" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_28.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="192" alt="Testers Pull From Development To Test A Feature" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_13.png" width="361" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/image_28.png) 
 
 And the same pull happens from Analysis to Development. 
 
 In the end, we have created a <a href="http://www.poppendieck.com/pipeline.htm" target="_blank">pipeline</a> for how our development process works. The work that is done flows through that pipeline based on how often the customer wants to pull features out. As one feature exits the pipeline, another feature can be added into the pipeline. 
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="192" alt="Kanban Pipeline - Features Flow Through" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_12.png" width="497" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/image_26.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="192" alt="Kanban Pipeline - Features Flow Through" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_thumb_12.png" width="497" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/image_26.png) 
 
 The key to all of this is, again, pulling the features through the system. 
 

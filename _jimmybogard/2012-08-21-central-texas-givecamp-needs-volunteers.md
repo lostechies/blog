@@ -12,7 +12,7 @@ categories:
 ---
 Next month, a few of us at Headspring are putting on the [Central Texas GiveCamp](http://ctxgivecamp.org/). For the uninitiated, a [GiveCamp](http://givecamp.org/) is a weekend-long event where us as developers/coders/designers get together to put our skills to good use for non-profit organizations. It’s a fun weekend where we code for charity, building solutions that non-profits don’t have the time/budget/ability to build themselves.
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/08/image_thumb1.png" width="244" height="128" />](http://lostechies.com/content/jimmybogard/uploads/2012/08/image1.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2012/08/image_thumb1.png" width="244" height="128" />](https://lostechies.com/content/jimmybogard/uploads/2012/08/image1.png)
 
 We’ve got a good number of charities lined up that we’re excited to help, but what we need YOUR help on is to volunteer! Whether you’re a designer, DB admin, designer, or just an all-around nice person, head over to our [EventBrite](http://www.eventbrite.com/event/3870490742?ref=ebtn) page to register.
 

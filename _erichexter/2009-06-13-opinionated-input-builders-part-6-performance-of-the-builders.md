@@ -25,7 +25,7 @@ redirect_from: "/blogs/hex/archive/2009/06/13/opinionated-input-builders-part-6-
 
 **<font color="#ff0000">Update &#8211; 6/14/2009</font>** [Chad Myers blogged about the trade offs and the importance of productivity over premature optimizations](/blogs/chad_myers/archive/2009/06/14/on-the-performance-of-opinionated-builders.aspx).
 
-<font color="#ff0000"><strong>Update 6 /14/2009</strong>&#160;</font>– <a href="http://www.lostechies.com/blogs/hex/archive/2009/06/14/opinionated-input-builders-part-7-more-on-performance-take-2.aspx" target="_blank">Please see the second set of tests I ran for a large performance increase.</a>
+<font color="#ff0000"><strong>Update 6 /14/2009</strong>&#160;</font>– <a href="https://lostechies.com/blogs/hex/archive/2009/06/14/opinionated-input-builders-part-7-more-on-performance-take-2.aspx" target="_blank">Please see the second set of tests I ran for a large performance increase.</a>
 
 &#160;
 

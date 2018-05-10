@@ -13,7 +13,7 @@ redirect_from: "/blogs/scottcreynolds/archive/2009/10/05/how-we-do-things-who-we
 ---
 _This content comes solely from my experience, study, and a lot of trial and error (mostly error). I make no claims stating that which works for me will work for you. As with all things, your mileage may vary, and you will need to apply all knowledge through the filter of your context in order to strain out the good parts for you. Also, feel free to call BS on anything I say. I write this as much for me to learn as for you._
 
-_This is part 1 of the [How We Do Things](http://www.lostechies.com/blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx) series._
+_This is part 1 of the [How We Do Things](https://lostechies.com/blogs/scottcreynolds/archive/2009/10/04/how-we-do-things-preamble-and-contents.aspx) series._
 
 Allow me to introduce our team. We are an IT development shop in a rapidly growing corporate laboratory. Our company functions as a lab (your doctor takes a biopsy, sends it to us for diagnosis) and as a laboratory services company. We are a sales-driven medical organization with priorities split between medical and patient care concerns and sales and corporate priorities (with the ever-annoying regulatory concerns mixed in for good measure). In my 5+ years here our volume in case load alone has grown over 2,000%, and we have steadily (or maybe exponentially) increased our number of product lines and service offerings to our client physicians. I don&#8217;t take credit for all of this, but, our team has been an integral part in enabling this growth.
 

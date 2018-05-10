@@ -12,7 +12,7 @@ categories:
   - Logs
   - Philosophy of Software
 ---
-In [my previous post](http://lostechies.com/derickbailey/2011/04/27/the-whenever-gem-making-cron-easy/), I talked about the need to run a command on a schedule with cron. I also mentioned cron creating a bunch of email and how to redirect the output to log files with the whenever gem. After getting everything set up and running, sending data to the correct log files, I realized the need to keep my log files from filling up my drive space. A quick [question on twitter led me to the &#8220;logrotate&#8221; system in linux](https://twitter.com/#!/bphogan/status/62966908881862656). This little tool will rotate, compress, and clean out your log files based on many different configuration options.
+In [my previous post](https://lostechies.com/derickbailey/2011/04/27/the-whenever-gem-making-cron-easy/), I talked about the need to run a command on a schedule with cron. I also mentioned cron creating a bunch of email and how to redirect the output to log files with the whenever gem. After getting everything set up and running, sending data to the correct log files, I realized the need to keep my log files from filling up my drive space. A quick [question on twitter led me to the &#8220;logrotate&#8221; system in linux](https://twitter.com/#!/bphogan/status/62966908881862656). This little tool will rotate, compress, and clean out your log files based on many different configuration options.
 
  
 

@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/08/07/addressing-some-behave-co
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/08/addressing-some-behave-concerns.html)._
 
-So [Joe](http://www.lostechies.com/blogs/joe_ocampo/default.aspx) and I have received some [initial feedback](http://weblogs.asp.net/rosherove/archive/2007/08/04/behave-enables-behavior-driven-testing-raises-some-interesting-questions.aspx) for [Behave#](http://www.codeplex.com/BehaveSharp).&nbsp; Joe&#8217;s already given a great intro into how to use Behave# and addressed Roy&#8217;s specific questions.&nbsp; I thought I&#8217;d address some of the common&nbsp;issues regarding Behave#:
+So [Joe](https://lostechies.com/blogs/joe_ocampo/default.aspx) and I have received some [initial feedback](http://weblogs.asp.net/rosherove/archive/2007/08/04/behave-enables-behavior-driven-testing-raises-some-interesting-questions.aspx) for [Behave#](http://www.codeplex.com/BehaveSharp).&nbsp; Joe&#8217;s already given a great intro into how to use Behave# and addressed Roy&#8217;s specific questions.&nbsp; I thought I&#8217;d address some of the common&nbsp;issues regarding Behave#:
 
   * Using string matching 
       * Using anonymous delegates 

@@ -17,31 +17,31 @@ categories:
   
   <ul>
     <li>
-      <a href="http://lostechies.com/jimmybogard/2013/07/18/conventional-html-in-asp-net-mvc-a-primer/">A primer</a>
+      <a href="https://lostechies.com/jimmybogard/2013/07/18/conventional-html-in-asp-net-mvc-a-primer/">A primer</a>
     </li>
     <li>
-      <a href="http://lostechies.com/jimmybogard/2013/08/13/conventional-html-in-asp-net-mvc-building-tags/">Building tags</a>
+      <a href="https://lostechies.com/jimmybogard/2013/08/13/conventional-html-in-asp-net-mvc-building-tags/">Building tags</a>
     </li>
     <li>
-      <a href="http://lostechies.com/jimmybogard/2014/07/11/conventional-html-in-asp-net-mvc-adopting-fubu-conventions/">Adopting Fubu conventions</a>
+      <a href="https://lostechies.com/jimmybogard/2014/07/11/conventional-html-in-asp-net-mvc-adopting-fubu-conventions/">Adopting Fubu conventions</a>
     </li>
     <li>
-      <a href="http://lostechies.com/jimmybogard/2014/07/17/conventional-html-in-asp-net-mvc-baseline-behavior/">Baseline behavior</a>
+      <a href="https://lostechies.com/jimmybogard/2014/07/17/conventional-html-in-asp-net-mvc-baseline-behavior/">Baseline behavior</a>
     </li>
     <li>
-      <a href="http://lostechies.com/jimmybogard/2014/07/22/conventional-html-in-asp-net-mvc-replacing-form-helpers/">Replacing form helpers</a>
+      <a href="https://lostechies.com/jimmybogard/2014/07/22/conventional-html-in-asp-net-mvc-replacing-form-helpers/">Replacing form helpers</a>
     </li>
     <li>
-      <a href="http://lostechies.com/jimmybogard/2014/07/23/conventional-html-in-asp-net-mvc-data-bound-elements/">Data-bound elements</a>
+      <a href="https://lostechies.com/jimmybogard/2014/07/23/conventional-html-in-asp-net-mvc-data-bound-elements/">Data-bound elements</a>
     </li>
     <li>
-      <a href="http://lostechies.com/jimmybogard/2014/07/24/conventional-html-in-asp-net-mvc-validators/">Validators</a>
+      <a href="https://lostechies.com/jimmybogard/2014/07/24/conventional-html-in-asp-net-mvc-validators/">Validators</a>
     </li>
     <li>
-      <a href="http://lostechies.com/jimmybogard/2014/07/25/conventional-html-in-asp-net-mvc-building-larger-primitives/">Building larger primitives</a>
+      <a href="https://lostechies.com/jimmybogard/2014/07/25/conventional-html-in-asp-net-mvc-building-larger-primitives/">Building larger primitives</a>
     </li>
     <li>
-      <a href="http://lostechies.com/jimmybogard/2014/08/14/conventional-html-in-asp-net-mvc-client-side-templates/">Client-side templates</a>
+      <a href="https://lostechies.com/jimmybogard/2014/08/14/conventional-html-in-asp-net-mvc-client-side-templates/">Client-side templates</a>
     </li>
   </ul>
 </div>
@@ -60,7 +60,7 @@ I’ve done all three, and each have their benefits and drawbacks. Most teams I 
 
 What I’d like to do is have the power of my original server-side Razor templates, with the strongly-typed views and intelligent expression-based helpers, but instead of complete HTML templates, have these be Angular views or Ember templates:
 
-[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="http://lostechies.com/content/jimmybogard/uploads/2014/08/image_thumb.png" alt="image" width="346" height="293" border="0" />](http://lostechies.com/content/jimmybogard/uploads/2014/08/image.png)
+[<img style="padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" src="https://lostechies.com/content/jimmybogard/uploads/2014/08/image_thumb.png" alt="image" width="346" height="293" border="0" />](https://lostechies.com/content/jimmybogard/uploads/2014/08/image.png)
 
 When we deliver our templates to the client as part of our SPA, we’ll serve up a special version of them, one that’s been parsed by our Razor engine. Normally, the Razor engine performs two tasks:
 

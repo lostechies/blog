@@ -43,7 +43,7 @@ tags:
   </ul>
 </div>
 
-This is the eighth and final installment to the series: RabbitMQ for Windows.&nbsp; In the [last installment](http://lostechies.com/derekgreer/2012/05/18/rabbitmq-for-windows-topic-exchanges/), we walked through creating a topic exchange example.&nbsp; As the last installment, we’ll walk through a headers exchange example.
+This is the eighth and final installment to the series: RabbitMQ for Windows.&nbsp; In the [last installment](https://lostechies.com/derekgreer/2012/05/18/rabbitmq-for-windows-topic-exchanges/), we walked through creating a topic exchange example.&nbsp; As the last installment, we’ll walk through a headers exchange example.
 
 Headers exchanges examine the message headers to determine which queues a message should be routed to.&nbsp; As discussed earlier in this series, headers exchanges are similar to topic exchanges in that they allow you to specify multiple criteria, but offer a bit more flexibility in that the headers can be constructed using a wider range of data types ([1](#Footnote_1)).
 

@@ -15,13 +15,13 @@ _****_
 
 _**Why does visual studio make doing the right thing, so hard to do?**_
 
-[<img style="border-right: 0px;border-top: 0px;margin-left: 0px;border-left: 0px;margin-right: 0px;border-bottom: 0px" height="403" alt="easy_button" src="http://www.lostechies.com/blogs/hex/easy_button_thumb_0010E86F.jpg" width="536" border="0" />](http://www.lostechies.com/blogs/hex/easy_button_47D27156.jpg)
+[<img style="border-right: 0px;border-top: 0px;margin-left: 0px;border-left: 0px;margin-right: 0px;border-bottom: 0px" height="403" alt="easy_button" src="https://lostechies.com/blogs/hex/easy_button_thumb_0010E86F.jpg" width="536" border="0" />](https://lostechies.com/blogs/hex/easy_button_47D27156.jpg)
 
 **_The background_** 
 
 This last weekend during the Pablo&#8217;s Day of Test Driven Development workshop held in Austin, Tx I decided to solve a problem in visual studio that has bothered me for the last two years.&#160; In the process of following TDD using resharper I would normally create a test class.&#160; Than write a line that instantiates a class that has not been created yet.&#160; This would leave me with code that looks like this.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="188" alt="TestFirst" src="http://www.lostechies.com/blogs/hex/TestFirst_thumb_57FE394F.jpg" width="807" border="0" />](http://www.lostechies.com/blogs/hex/TestFirst_54601E72.jpg) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="188" alt="TestFirst" src="https://lostechies.com/blogs/hex/TestFirst_thumb_57FE394F.jpg" width="807" border="0" />](https://lostechies.com/blogs/hex/TestFirst_54601E72.jpg) 
 
 All of the classes and interfaces in red do not exist.&#160; Resharper is nice enough to highlight the non-existent definitions in red.&#160; The next step is to get this code to compile, which requires the classes to be created.&#160; Using the resharper quick fix menu, it is easy enough to generate the code for each of these types.&#160; This is where the problem starts.&#160; The resharper stubbed code is dropped into the end of the current file.&#160; Since I separate my UnitTest code from my production code using separate Visual Studio projects, I am now forced to move the type definitions into a separate project.&#160; The problem I have with moving the inline code into a new file in a different project is that this process takes a handful of steps, which although are very trivial, to complete.&#160; The process of cutting and pasting code into a new file gets in the way of what I want to do which is:&#160; 
 

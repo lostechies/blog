@@ -19,7 +19,7 @@ Setup: I’m running Windows 7 x64 with gVim installed. I have Visual Studio 200
 
 The installation wizard seemed nice. It let me select the plugins i wanted and my Vim directory.
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_1415F34F.png" width="513" height="399" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_1415F34F.png" width="513" height="399" />
 
 I did get an error while installing this, saying there was a problem installing the C# intellisense. Opening the “cserrors.log” file in the install folder (as the error message told me to do) revealed this message:
 
@@ -27,15 +27,15 @@ I did get an error while installing this, saying there was a problem installing 
 
 That’s an easy fix – just open a Visual Studio Command Prompt and you’ll have the tool available:
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_1E6717AF.png" width="677" height="342" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_1E6717AF.png" width="677" height="342" />
 
 then you can run the “reg.bat” file from the “intellisense” installation folder:
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_368A820A.png" width="677" height="342" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_368A820A.png" width="677" height="342" />
 
 After installing, I was getting strange errors from Vim, when pressing ctl-space to bring up the intellisense window:
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="error detected while processing function IN_ShowVISDialog. Library call failed for StartVISDialog()" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_03BA7B96.png" width="844" height="121" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="error detected while processing function IN_ShowVISDialog. Library call failed for StartVISDialog()" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_03BA7B96.png" width="844" height="121" />
 
 A bit of digging around on the vim intellisense website brought me to the [C# FAQ](http://insenvim.sourceforge.net/plugin/cs/csft.html) which says:
 

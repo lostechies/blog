@@ -65,7 +65,7 @@ qUnitTesting(<span class="kwrd">function</span>(config){
 
 If you save that HTML and open it in a browser, you should see something to the effect of:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="214" alt="image" src="http://lostechies.com/content/chadmyers/uploads/2011/03GettingStartedWithjQueryQUnitforClientSi_12D1D/image_thumb.png" width="244" border="0" />](http://lostechies.com/content/chadmyers/uploads/2011/03GettingStartedWithjQueryQUnitforClientSi_12D1D/image_2.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="214" alt="image" src="https://lostechies.com/content/chadmyers/uploads/2011/03GettingStartedWithjQueryQUnitforClientSi_12D1D/image_thumb.png" width="244" border="0" />](https://lostechies.com/content/chadmyers/uploads/2011/03GettingStartedWithjQueryQUnitforClientSi_12D1D/image_2.png) 
 
 ## Modules and Tests
 
@@ -108,7 +108,7 @@ test(<span class="str">"should show the element when show is called"</span>, <sp
 
 Which should yield two successes:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="382" alt="image" src="http://lostechies.com/content/chadmyers/uploads/2011/03GettingStartedWithjQueryQUnitforClientSi_12D1D/image_thumb_1.png" width="508" border="0" />](http://lostechies.com/content/chadmyers/uploads/2011/03GettingStartedWithjQueryQUnitforClientSi_12D1D/image_4.png) </p> </p> </p> </p> </p> </p> 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="382" alt="image" src="https://lostechies.com/content/chadmyers/uploads/2011/03GettingStartedWithjQueryQUnitforClientSi_12D1D/image_thumb_1.png" width="508" border="0" />](https://lostechies.com/content/chadmyers/uploads/2011/03GettingStartedWithjQueryQUnitforClientSi_12D1D/image_4.png) </p> </p> </p> </p> </p> </p> 
 
 # Where to go from here?
 

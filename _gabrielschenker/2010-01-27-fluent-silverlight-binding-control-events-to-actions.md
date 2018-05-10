@@ -13,7 +13,7 @@ categories:
   - Silverlight
 redirect_from: "/blogs/gabrielschenker/archive/2010/01/27/fluent-silverlight-binding-control-events-to-actions.aspx/"
 ---
-Please view the [table of content](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx) of this series for reference.
+Please view the [table of content](https://lostechies.com/blogs/gabrielschenker/archive/2010/01/08/fluent-silverlight-table-of-content.aspx) of this series for reference.
 
 ## Introduction
 
@@ -135,7 +135,7 @@ Most often the interested reader doesn’t go directly to the publish or is not 
 
 The book store organizes a meeting with the publisher (method **MeetWithPublisher**) and tells the publisher to produce a new book about fluent Silverlight. The store than registers itself with the publisher as a consumer&#160; of the **BookReady** event. Now whenever the book is ready the method **OnNewBookReady** is called by the publisher. In this method the store offers the book to its readers.
 
-That’s a lot of code just to achieve one goal… we want to offer the book to an interested reader whenever it is available from the publisher. Can’t we reduce the code? Yes we can by using anonymous delegates. For a detailed introduction into anonymous delegates and lambda expressions please refer to [this](http://www.lostechies.com/blogs/gabrielschenker/archive/2009/02/03/step-by-step-introduction-to-delegates-and-lambda-expressions.aspx) post.</p> 
+That’s a lot of code just to achieve one goal… we want to offer the book to an interested reader whenever it is available from the publisher. Can’t we reduce the code? Yes we can by using anonymous delegates. For a detailed introduction into anonymous delegates and lambda expressions please refer to [this](https://lostechies.com/blogs/gabrielschenker/archive/2009/02/03/step-by-step-introduction-to-delegates-and-lambda-expressions.aspx) post.</p> 
 
 <div>
   <div>

@@ -25,7 +25,7 @@ Let’s think of a basic story _“As a user I want to have a login screen so I 
   
 
 
-[<IMG height="307" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_thumb_1.png" width="364" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_1.png)
+[<IMG height="307" alt="image" src="https://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_thumb_1.png" width="364" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_1.png)
   
 
 
@@ -152,7 +152,7 @@ Tasks are **NEVER** dictated and assigned to developers. Agile perpetuates organ
   
 
 
-[<IMG height="127" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_thumb_2.png" width="357" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_2.png)
+[<IMG height="127" alt="image" src="https://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_thumb_2.png" width="357" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_2.png)
   
 
 
@@ -160,7 +160,7 @@ The team will figure out how to accomplish the stories on their own. They unders
   
 
 
-[<IMG height="175" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_thumb_3.png" width="194" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_3.png)
+[<IMG height="175" alt="image" src="https://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_thumb_3.png" width="194" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_3.png)
   
 
 
@@ -302,7 +302,7 @@ That’s great but my team likes to estimate at a more granular level. What they
   
                                                                             
                                                                             
-                                                                            [<IMG height="57" alt="image" src="http://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_thumb_4.png" width="374" border="0" />](http://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_4.png)
+                                                                            [<IMG height="57" alt="image" src="https://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_thumb_4.png" width="374" border="0" />](https://lostechies.com/content/joeocampo/uploads/2011/03ComplexityBasedProgramming_F85D/image_4.png)
   
                                                                             
                                                                             

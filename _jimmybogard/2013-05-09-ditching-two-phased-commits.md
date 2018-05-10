@@ -13,7 +13,7 @@ categories:
 ---
 I’ve had a love-hate relationship with [two-phased commits](https://en.wikipedia.org/wiki/Two-phase_commit_protocol) during my years with messaging. Even if [MSDTC](http://en.wikipedia.org/wiki/Microsoft_Distributed_Transaction_Coordinator) was free to set up, it doesn’t come free in terms of throughput. Most people run into 2PC in messaging because because queueing systems and databases are two different resources, and therefore don’t participate in the same transaction. Ideally, I’d have all three participants either succeed or fail together:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/05/image_thumb1.png" width="499" height="379" />](http://lostechies.com/content/jimmybogard/uploads/2013/05/image1.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2013/05/image_thumb1.png" width="499" height="379" />](https://lostechies.com/content/jimmybogard/uploads/2013/05/image1.png)
 
 Since the queues in this picture are different resources than the database, I need to involve a third party, or transaction manager, to coordinate transactions between these three resources.
 
@@ -21,7 +21,7 @@ DTC, when it works, works really well. It’s much, much easier to not care abou
 
 Most of the time, literature around avoiding 2PC is concerned about an entirely different situation, where I have two separate databases:
 
-[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2013/05/image_thumb2.png" width="459" height="347" />](http://lostechies.com/content/jimmybogard/uploads/2013/05/image2.png)
+[<img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2013/05/image_thumb2.png" width="459" height="347" />](https://lostechies.com/content/jimmybogard/uploads/2013/05/image2.png)
 
 We’re doing messaging, which means that it’s typically the consumer of the message that does something against other data stores. So even though we’re avoiding communicating with two databases, it’s still two resources, and thus a need to coordinate!
 

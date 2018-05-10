@@ -14,7 +14,7 @@ redirect_from: "/blogs/gabrielschenker/archive/2010/05/19/wix-and-custom-actions
 ---
 ## Introduction
 
-I write this blog-post mainly because I found it hard to get the necessary information about **how** to create custom actions for [WIX](http://wix.sourceforge.net/index.html). Documentation is sparse and/or incomplete as in many other OSS projects. In a [previous blog post](http://www.lostechies.com/blogs/gabrielschenker/archive/2009/06/26/walking-through-the-creation-of-a-complex-installer-package.aspx) I have described the basic steps to create an installer with WIX.
+I write this blog-post mainly because I found it hard to get the necessary information about **how** to create custom actions for [WIX](http://wix.sourceforge.net/index.html). Documentation is sparse and/or incomplete as in many other OSS projects. In a [previous blog post](https://lostechies.com/blogs/gabrielschenker/archive/2009/06/26/walking-through-the-creation-of-a-complex-installer-package.aspx) I have described the basic steps to create an installer with WIX.
 
 The WIX installer framework makes it relatively easy to create sophisticated installers but there might be some tasks your specific installer needs to execute during installation which are not at all or not easily possible with the aid of WIX. In such situations we can write so called custom actions. These custom actions can either be written in native code (e.g. C++) or in managed code. When writing the custom actions in managed code we have the full power of the whole .NET framework at our disposal.
 
@@ -84,7 +84,7 @@ margin: 0em;
 
 Make sure that you compile your project specifically for the platform for which you create the Installer that is either x86 or 64bit. In my case I want to target x86.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_073D1DEB.png" width="514" height="246" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_00F6475D.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_073D1DEB.png" width="514" height="246" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_00F6475D.png) 
 
 The reason for this is given in the section below.
 

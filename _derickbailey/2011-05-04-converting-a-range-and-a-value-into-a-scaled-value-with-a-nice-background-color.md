@@ -19,7 +19,7 @@ I&#8217;m working on a web app that receives HL7 formatted medical data through 
 
 It&#8217;s essentially supposed to look like the 1st and 2nd columns of this sample data file:
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/04/Screen-shot-2011-04-28-at-3.54.32-PM.png" border="0" alt="Screen shot 2011 04 28 at 3 54 32 PM" width="600" height="148" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/04/Screen-shot-2011-04-28-at-3.54.32-PM.png" border="0" alt="Screen shot 2011 04 28 at 3 54 32 PM" width="600" height="148" />
 
  
 
@@ -164,7 +164,7 @@ Our actual page design does not reflect the original image that I showed above, 
 
 The end result looks like this:
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/04/Screen-shot-2011-04-28-at-9.29.48-PM.png" border="0" alt="Screen shot 2011 04 28 at 9 29 48 PM" width="402" height="237" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/04/Screen-shot-2011-04-28-at-9.29.48-PM.png" border="0" alt="Screen shot 2011 04 28 at 9 29 48 PM" width="402" height="237" />
 
  
 

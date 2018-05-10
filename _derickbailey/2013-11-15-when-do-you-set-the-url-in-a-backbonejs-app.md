@@ -22,7 +22,7 @@ There are a lot of possibilities for an answer, here. Oscar already alluded to s
 
 ## My Reply (With A Bit Of Formatting)
 
-Any time you have multiple points of entry for the same behavior, you need to encapsulate that behavior&#8217;s kick-off in to a single thing&#8230; an object, a function, a single line of code&#8230; whatever that thing is, it needs to be the one thing that is called in order to produce the desired behavior and state of the application. This often means you have to do a lot of prep work to [get the application in to a state where that one thing can be called](http://lostechies.com/derickbailey/2012/02/06/3-stages-of-a-backbone-applications-startup/). But, once you&#8217;re there you just call that one thing and the application puts itself in to the expected state with the expected behavior.
+Any time you have multiple points of entry for the same behavior, you need to encapsulate that behavior&#8217;s kick-off in to a single thing&#8230; an object, a function, a single line of code&#8230; whatever that thing is, it needs to be the one thing that is called in order to produce the desired behavior and state of the application. This often means you have to do a lot of prep work to [get the application in to a state where that one thing can be called](https://lostechies.com/derickbailey/2012/02/06/3-stages-of-a-backbone-applications-startup/). But, once you&#8217;re there you just call that one thing and the application puts itself in to the expected state with the expected behavior.
 
 Here is a simple example:
 
@@ -40,10 +40,10 @@ In the end, the principle still applies: no matter how many entry points there a
 
 I&#8217;ve alluded to a lot of things in this reply, and a handful of assumptions about application architecture. There is a lot of information that you may want to read up on, some of which is free and some of which is not. But if you&#8217;re interested in seeing how this works out, in the end, it&#8217;s worth your time and money.
 
-  * <http://lostechies.com/derickbailey/2011/08/28/dont-execute-a-backbone-js-route-handler-from-your-code/> &#8211; a less-than-clear attempt at explaining my position on routers
+  * <https://lostechies.com/derickbailey/2011/08/28/dont-execute-a-backbone-js-route-handler-from-your-code/> &#8211; a less-than-clear attempt at explaining my position on routers
   * <http://www.kendoui.com/blogs/teamblog/posts/13-05-30/to-navigate-or-not-to-navigate-.aspx> &#8211; a much better explanation of my position on routers (specifics are about Kendo UI&#8217;s router, but it is very similar to Backbone&#8217;s, and the principles still apply)
-  * <http://lostechies.com/derickbailey/2012/02/06/3-stages-of-a-backbone-applications-startup/> &#8211; getting your app from nothing to the point where you can call a router and get the app in to a specific context / state
-  * <http://lostechies.com/derickbailey/2011/08/03/stop-using-backbone-as-if-it-were-a-stateless-web-server/> &#8211; general principles about building stateful applications, not stateless web servers with backbone
+  * <https://lostechies.com/derickbailey/2012/02/06/3-stages-of-a-backbone-applications-startup/> &#8211; getting your app from nothing to the point where you can call a router and get the app in to a specific context / state
+  * <https://lostechies.com/derickbailey/2011/08/03/stop-using-backbone-as-if-it-were-a-stateless-web-server/> &#8211; general principles about building stateful applications, not stateless web servers with backbone
   * <http://www.backbonerails.com/> &#8211; a screencast series on building scalable Backbone / Marionette apps. well worth the money, for the architecture discussions
   * <https://leanpub.com/marionette-gentle-introduction> &#8211; an e-book on useful patterns for getting started with Backbone + Marionette, including architectural guidelines
   * <https://leanpub.com/marionetteexpose> &#8211; an e-book that covers advanced design patterns with Backbone + Marionette

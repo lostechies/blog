@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 ---
-In [Fixie XML Reports](http://lostechies.com/patricklioi/2014/01/31/fixie-xml-reports/), I described a new [Fixie](https://github.com/plioi/fixie) feature that enables integration with build servers. When you need to output test results in the XML formats made popular by NUnit and xUnit, you can enable that extra output at the command line. This feature initially proved more difficult than expected, and all the trouble originated from trying to work within the confines of the wrong abstraction. As soon as we switched to the right abstraction, the implementation became simple.
+In [Fixie XML Reports](https://lostechies.com/patricklioi/2014/01/31/fixie-xml-reports/), I described a new [Fixie](https://github.com/plioi/fixie) feature that enables integration with build servers. When you need to output test results in the XML formats made popular by NUnit and xUnit, you can enable that extra output at the command line. This feature initially proved more difficult than expected, and all the trouble originated from trying to work within the confines of the wrong abstraction. As soon as we switched to the right abstraction, the implementation became simple.
 
 ## The Wrong Abstraction
 
@@ -33,7 +33,7 @@ The initial implementation gave nearly the results I wanted, but the implementat
 
 ## The Right Abstraction
 
-With help from [Sharon Cichelli](http://lostechies.com/sharoncichelli/) at a meeting of the [Polyglot Programmers of Austin](http://austin.polyglotprogrammers.org/), we realized the problems stemmed from using the wrong abstraction. We needed to acknowledge that we wanted to do tree-processing instead of leaf-event-listening. The fix was to have each assembly run return a tree of results to the console runner, so the console runner could build the One Complete Tree representing the entire run of N assemblies, and _then_ do a trivial traversal of that tree to spit out the corresponding XML. It turns out this is exactly what NUnit does to solve the same problem.
+With help from [Sharon Cichelli](https://lostechies.com/sharoncichelli/) at a meeting of the [Polyglot Programmers of Austin](http://austin.polyglotprogrammers.org/), we realized the problems stemmed from using the wrong abstraction. We needed to acknowledge that we wanted to do tree-processing instead of leaf-event-listening. The fix was to have each assembly run return a tree of results to the console runner, so the console runner could build the One Complete Tree representing the entire run of N assemblies, and _then_ do a trivial traversal of that tree to spit out the corresponding XML. It turns out this is exactly what NUnit does to solve the same problem.
 
 The resulting tree processing class (no longer a Listener), is [NUnitXmlReport](https://github.com/plioi/fixie/blob/d7c712a5286772dc3829a74080fbb1e969b45546/src/Fixie/Reports/NUnitXmlReport.cs). It is clean and straightforward: the shape of the code mimics the shape of the resulting XML document. It works no matter how many test projects your solution has. Supporting the [similar xUnit XML format](https://github.com/plioi/fixie/blob/d7c712a5286772dc3829a74080fbb1e969b45546/src/Fixie/Reports/XUnitXmlReport.cs) was likewise simple. No need to _infer_ the tree structure given only leaves; instead we simply turn one tree into another.
 

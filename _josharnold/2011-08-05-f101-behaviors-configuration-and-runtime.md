@@ -16,7 +16,7 @@ tags:
 ---
 > **Update:**
   
-> I have redone this webinar with some &#8220;lessons learned&#8221; and I think everyone will agree that the second pass was much more successful. I&#8217;ll leave this one up here for you to make fun of me but I strongly recommend that you watch the better one: <http://lostechies.com/josharnold/2011/08/19/f101-%E2%80%93-behaviors-configuration-and-runtime-2/>
+> I have redone this webinar with some &#8220;lessons learned&#8221; and I think everyone will agree that the second pass was much more successful. I&#8217;ll leave this one up here for you to make fun of me but I strongly recommend that you watch the better one: <https://lostechies.com/josharnold/2011/08/19/f101-%E2%80%93-behaviors-configuration-and-runtime-2/>
 
 Thanks to everyone who attended this morning&#8217;s webinar. Here are the slides and the first stab at the recording.
 

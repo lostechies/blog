@@ -19,7 +19,7 @@ now that I&#8217;m starting to find myself working in some pretty scary code bas
   
 again, [my
   
-fellow LosTechies dude](http://www.lostechies.com/blogs/joe_ocampo/default.aspx) suggested I start blogging about my experiences.&nbsp; 
+fellow LosTechies dude](https://lostechies.com/blogs/joe_ocampo/default.aspx) suggested I start blogging about my experiences.&nbsp; 
 
 And since I&#8217;ve already seen many, many things that make me say &#8220;huh?&#8221; and, at
   

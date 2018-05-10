@@ -16,7 +16,7 @@ redirect_from: "/blogs/gabrielschenker/archive/2010/09/21/analyzing-historical-d
 ---
 ## Introduction
 
-In my [last post](http://www.lostechies.com/blogs/gabrielschenker/archive/2010/09/15/making-history-explicit.aspx) I showed you how we make history an explicit domain concept. This time I want to show you how we use the history of the cages to generate bills. In our Zoo each cage has an associated per diem rate (dollars per day). This per diem rate reflects the cost associated with space occupied by the cage as well as the hosting of animals in the cage (feeding, cleaning, etc.)
+In my [last post](https://lostechies.com/blogs/gabrielschenker/archive/2010/09/15/making-history-explicit.aspx) I showed you how we make history an explicit domain concept. This time I want to show you how we use the history of the cages to generate bills. In our Zoo each cage has an associated per diem rate (dollars per day). This per diem rate reflects the cost associated with space occupied by the cage as well as the hosting of animals in the cage (feeding, cleaning, etc.)
 
 ## Calculate Time Intervals
 
@@ -64,7 +64,7 @@ In our history records we only have/store the creation date of each record. To c
       </p>
       
       <p>
-        <a href="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_7D067644.png"><img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_6ABDAF82.png" width="244" height="39" /></a>
+        <a href="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_7D067644.png"><img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_6ABDAF82.png" width="244" height="39" /></a>
       </p>
       
       <p>

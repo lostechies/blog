@@ -14,7 +14,7 @@ categories:
   - Usergroup
 redirect_from: "/blogs/hex/archive/2010/04/06/mvc-virtual-group-will-have-phil-haack-the-asp-net-mvc-program-manager-on-wed-4-7-12pm-cdt.aspx/"
 ---
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="c4mvc" src="http://lostechies.com/content/erichexter/uploads/2011/03/c4mvc_thumb_264CEA09.png" width="791" height="121" />](http://lostechies.com/content/erichexter/uploads/2011/03/c4mvc_2006137B.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="c4mvc" src="https://lostechies.com/content/erichexter/uploads/2011/03/c4mvc_thumb_264CEA09.png" width="791" height="121" />](https://lostechies.com/content/erichexter/uploads/2011/03/c4mvc_2006137B.png) 
 
 &#160;
 

@@ -13,11 +13,11 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/03/31/strengthening-your-domain
 ---
 Previous posts in this series:
 
-  * [A primer](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx)
-  * [Aggregate Construction](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx)
-  * [Encapsulated Collections](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx)
-  * [Encapsulated Operations](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/24/strengthening-your-domain-encapsulating-operations.aspx)
-  * [Double Dispatch Pattern](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/30/strengthening-your-domain-the-double-dispatch-pattern.aspx)
+  * [A primer](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx)
+  * [Aggregate Construction](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx)
+  * [Encapsulated Collections](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx)
+  * [Encapsulated Operations](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/24/strengthening-your-domain-encapsulating-operations.aspx)
+  * [Double Dispatch Pattern](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/30/strengthening-your-domain-the-double-dispatch-pattern.aspx)
 
 As we start to move our domain model from an anemic existence towards one with richer behavior, we start to see the aggregate root boundary become very well defined.&#160; **Instead of throwing a bunch of data at an entity, we start interacting with it**, issuing commands through closed, well-defined operations.&#160; The surface of our domain model becomes shaped by the actual operations available in our application, instead of exposing a dumb data object that lets anyone do anything, and consistency and validity are a pipe dream.
 

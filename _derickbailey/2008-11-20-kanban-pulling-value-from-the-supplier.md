@@ -14,7 +14,7 @@ categories:
   - Management
 redirect_from: "/blogs/derickbailey/archive/2008/11/20/kanban-pulling-value-from-the-supplier.aspx/"
 ---
-Before I start talking about how our team is going about our implementations of <a href="http://en.wikipedia.org/wiki/Lean_Systems" target="_blank">Lean</a> and Kanban, I wanted to start by outlining my current understanding of what kanban is. I&#8217;m hoping that this will set the ground work for the rest of my <a href="http://www.lostechies.com/blogs/derickbailey/archive/2008/11/19/adventures-in-lean.aspx" target="_blank">Adventures in Lean</a> series, and implementing <a href="http://leansoftwareengineering.com/ksse/scrum-ban/" target="_blank">Kanban in a Scrum shop</a>.
+Before I start talking about how our team is going about our implementations of <a href="http://en.wikipedia.org/wiki/Lean_Systems" target="_blank">Lean</a> and Kanban, I wanted to start by outlining my current understanding of what kanban is. I&#8217;m hoping that this will set the ground work for the rest of my <a href="https://lostechies.com/blogs/derickbailey/archive/2008/11/19/adventures-in-lean.aspx" target="_blank">Adventures in Lean</a> series, and implementing <a href="http://leansoftwareengineering.com/ksse/scrum-ban/" target="_blank">Kanban in a Scrum shop</a>.
 
 ### Groceries, On And Off The Shelf
 
@@ -57,4 +57,4 @@ Like order points, the kanbans that adorn grocery store shelves often have the s
 
 I&#8217;m not going to give away the farm just yet. Moving forward, though, I will be using the terms Kanban, Order Point, and Stock Limit (or just Limit). I wanted to get these core terms defined up front, so that they will make sense in the context of what is still to come.
 
-Stay tuned for the next entry in my <a href="http://www.lostechies.com/blogs/derickbailey/archive/2008/11/19/adventures-in-lean.aspx" target="_blank">Adventures In Lean</a>!
+Stay tuned for the next entry in my <a href="https://lostechies.com/blogs/derickbailey/archive/2008/11/19/adventures-in-lean.aspx" target="_blank">Adventures In Lean</a>!

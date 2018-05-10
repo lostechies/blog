@@ -105,7 +105,7 @@ This is more likely the largest issue, and is the most common thread of feedback
 
 This sparked a small response line in twitter:
 
-<img title="Screen Shot 2013-03-15 at 10.36.05 AM.png" src="http://lostechies.com/content/derickbailey/uploads/2013/03/Screen-Shot-2013-03-15-at-10.36.05-AM.png" alt="Screen Shot 2013 03 15 at 10 36 05 AM" width="519" height="559" border="0" />
+<img title="Screen Shot 2013-03-15 at 10.36.05 AM.png" src="https://lostechies.com/content/derickbailey/uploads/2013/03/Screen-Shot-2013-03-15-at-10.36.05-AM.png" alt="Screen Shot 2013 03 15 at 10 36 05 AM" width="519" height="559" border="0" />
 
 Even if it bums people out, it&#8217;s a much more exciting and entertaining abstract. I would go to this session.
 

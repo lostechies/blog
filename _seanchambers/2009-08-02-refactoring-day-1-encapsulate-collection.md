@@ -71,4 +71,4 @@ As you can see, we have encapsulated the collection as to not expose the Add/Rem
 
 &#160;
 
-_<font size="1">This is Day 1 of the 31 Days of Refactoring. For a full list of Refactorings please see the <a href="http://www.lostechies.com/blogs/sean_chambers/archive/2009/07/31/31-days-of-refactoring.aspx" target="_blank">original introductory post</a>.</font>_
+_<font size="1">This is Day 1 of the 31 Days of Refactoring. For a full list of Refactorings please see the <a href="https://lostechies.com/blogs/sean_chambers/archive/2009/07/31/31-days-of-refactoring.aspx" target="_blank">original introductory post</a>.</font>_

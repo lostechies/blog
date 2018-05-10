@@ -14,7 +14,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/05/23/team-foundation-build-par
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/05/img-border-0-so-now-that-we-have-some.html)._
 
-So now that we have some understanding of what the components of Team Build are from [Part 1](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/05/22/team-foundation-build-part-1.aspx), where should these components be installed? Luckily, there&#8217;s some [pretty good documentation](http://msdn2.microsoft.com/en-us/library/ms181710%28VS.80%29.aspx) on Team Foundation Server components and topologies on MSDN.
+So now that we have some understanding of what the components of Team Build are from [Part 1](https://lostechies.com/blogs/jimmy_bogard/archive/2007/05/22/team-foundation-build-part-1.aspx), where should these components be installed? Luckily, there&#8217;s some [pretty good documentation](http://msdn2.microsoft.com/en-us/library/ms181710%28VS.80%29.aspx) on Team Foundation Server components and topologies on MSDN.
 
 [<img style="cursor: pointer" src="http://bp0.blogger.com/_poAbnIVuAzE/RngCLyuzsbI/AAAAAAAAAA0/4SxO0APIyo0/s400/Team+Build.JPG" alt="" border="0" />](http://bp0.blogger.com/_poAbnIVuAzE/RngCLyuzsbI/AAAAAAAAAA0/4SxO0APIyo0/s1600-h/Team+Build.JPG)
 

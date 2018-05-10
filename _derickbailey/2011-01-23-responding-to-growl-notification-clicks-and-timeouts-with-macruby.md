@@ -15,7 +15,7 @@ categories:
   - Xcode
 redirect_from: "/blogs/derickbailey/archive/2011/01/23/responding-to-growl-notification-clicks-and-timeouts-with-macruby.aspx/"
 ---
-In my last post, I detailed the process of s[etting up a MacRuby app to send Growl notifications](http://www.lostechies.com/blogs/derickbailey/archive/2011/01/21/creating-growl-notifications-from-a-macruby-app.aspx). To get even more mileage out of Growl, though, it&#8217;s a good idea to response to various interactions with the notifications that you send. For example, you can have your application respond to your notice being clicked, or to the notice timing out and disappearing from the screen.
+In my last post, I detailed the process of s[etting up a MacRuby app to send Growl notifications](https://lostechies.com/blogs/derickbailey/archive/2011/01/21/creating-growl-notifications-from-a-macruby-app.aspx). To get even more mileage out of Growl, though, it&#8217;s a good idea to response to various interactions with the notifications that you send. For example, you can have your application respond to your notice being clicked, or to the notice timing out and disappearing from the screen.
 
 To get started, open the sample app that we created from the previous post.
 
@@ -145,6 +145,6 @@ Note that we are setting the clickContext to nil for this send notification. If 
 
 Run the app from Xcode and when the first notification pops up, click on it. You will then see a second notification that should look like this:
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-23-at-10.36.10-AM.png" border="0" alt="Screen shot 2011-01-23 at 10.36.10 AM.png" width="327" height="83" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-01-23-at-10.36.10-AM.png" border="0" alt="Screen shot 2011-01-23 at 10.36.10 AM.png" width="327" height="83" />
 
  

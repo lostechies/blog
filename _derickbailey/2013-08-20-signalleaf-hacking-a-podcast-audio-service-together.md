@@ -28,7 +28,7 @@ So I started hacking&#8230; and after a few hours of work, I had an Amazon S3 ac
 
 **The result: [SignalLeaf.com](http://signalleaf.com) **&#8211; an idea for hosting embedded podcast audio for your website. 
 
-[<img src="http://lostechies.com/content/derickbailey/uploads/2013/08/signalleaf_logo.png" alt="Signalleaf logo" width="380" height="125" border="0" />](http://signalleaf.com)
+[<img src="https://lostechies.com/content/derickbailey/uploads/2013/08/signalleaf_logo.png" alt="Signalleaf logo" width="380" height="125" border="0" />](http://signalleaf.com)
 
 The basic idea is this: You have the subject matter expertise, the talent, the network of people who will listen, and the perfect guest list for your podcast. You even have the chops to build the ultimate website for your idea. But what about hosting and streaming those audio files that you&#8217;ve meticulously edited?
 
@@ -38,7 +38,7 @@ Let me handle that for you. All you need to do is upload your audio file to Sign
 
 And your web page gets something like this, embedded in it. 
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2013/08/screenshot.png" alt="Screenshot" width="423" height="75" border="0" /> 
+<img src="https://lostechies.com/content/derickbailey/uploads/2013/08/screenshot.png" alt="Screenshot" width="423" height="75" border="0" /> 
 
  A complete audio player, with your podcast file streaming from the cloud.
 

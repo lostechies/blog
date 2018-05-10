@@ -15,7 +15,7 @@ This is my response to his recent post, <a href="http://keithelder.net/blog/arch
 
 Exhibit A:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="461" src="http://www.lostechies.com/blogs/evan_hoff/WindowsLiveWriter/AVeryPoorObjectModelIsReallyNoObjectMode_13513/objectmodel_thumb[1].png" width="640" border="0" />](http://www.lostechies.com/blogs/evan_hoff/WindowsLiveWriter/AVeryPoorObjectModelIsReallyNoObjectMode_13513/objectmodel[3].png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="461" src="https://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/AVeryPoorObjectModelIsReallyNoObjectMode_13513/objectmodel_thumb[1].png" width="640" border="0" />](https://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/AVeryPoorObjectModelIsReallyNoObjectMode_13513/objectmodel[3].png) 
 
 **This is a very, very poor object model.**&nbsp; It&#8217;s a very poor object model even if it perfectly represents the business requirements. I&#8217;m going to nickname this the &#8220;college freshman&#8221; object model, and we all know how useful college freshmen are in the real world (and just how much they have to learn before they become useful).&nbsp; In short, never do this&#8211;again, even if it perfectly represents your business problem (which it won&#8217;t).
 

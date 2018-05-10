@@ -68,7 +68,7 @@ Also, I expect some professional courtesy.&#160; Simply ending your cover letter
 
 I’m sorry, but if you don’t even know about some of the basic features of Word or (your favorite word processor), then you’re probably not going to be able to deal with the complexities of SQL Server or the .NET Framework either.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 0px 0px 0px 15px;border-right-width: 0px" height="684" alt="letter2" src="http://lostechies.com/content/chadmyers/uploads/2011/03/letter2_thumb.jpg" width="460" align="right" border="0" />](http://lostechies.com/content/chadmyers/uploads/2011/03/letter2_2.jpg) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 0px 0px 0px 15px;border-right-width: 0px" height="684" alt="letter2" src="https://lostechies.com/content/chadmyers/uploads/2011/03/letter2_thumb.jpg" width="460" align="right" border="0" />](https://lostechies.com/content/chadmyers/uploads/2011/03/letter2_2.jpg) 
 
 Your letter should look something like the image to the right.&#160; Tell me who you are, where you’re from, and what day you wrote this letter.&#160; Tell me who you think you’re writing it to.&#160;&#160; Tell me you’re talking to me (Dear so and so). Tell me what you want to say. Summarize what you just told me. Tell me your feelings in this letter (sincerely, cordially, hostile, livid, etc), and then sign your name or print it again electronically.&#160; Finally, if you have any attachments or anything else I should be aware of (resumes, list of references, associated review materials, etc) let me know that they are included or enclosed.
 

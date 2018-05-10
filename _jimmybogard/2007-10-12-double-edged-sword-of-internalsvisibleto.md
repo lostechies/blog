@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2007/10/12/double-edged-sword-of-int
 ---
 > _This post was originally published [here](http://grabbagoft.blogspot.com/2007/10/double-edged-sword-of.html)._
 
-I&#8217;ve had some conversations with both [Joe](http://www.lostechies.com/blogs/joe_ocampo/default.aspx) and [Elton](http://eltonomicon.blogspot.com/) lately about the [InternalsVisibleTo](http://msdn2.microsoft.com/en-us/library/system.runtime.compilerservices.internalsvisibletoattribute.aspx) attribute.&nbsp; From the documentation, the assembly-level InternalsVisibleTo attribute:
+I&#8217;ve had some conversations with both [Joe](https://lostechies.com/blogs/joe_ocampo/default.aspx) and [Elton](http://eltonomicon.blogspot.com/) lately about the [InternalsVisibleTo](http://msdn2.microsoft.com/en-us/library/system.runtime.compilerservices.internalsvisibletoattribute.aspx) attribute.&nbsp; From the documentation, the assembly-level InternalsVisibleTo attribute:
 
 > Specifies that all nonpublic types in an assembly are visible to another assembly.
 

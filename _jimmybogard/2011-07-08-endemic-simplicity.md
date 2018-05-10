@@ -14,7 +14,7 @@ I was setting up a new website for AutoMapper the other day, and needed to get b
 
 Someone on twitter pointed me at [dnsimple.com](https://dnsimple.com/), which made it dead-simple to both register a new domain and add services. Here’s a screenshot for what I had to do to enable Heroku records:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/07/image_thumb.png" width="644" height="290" />](http://lostechies.com/content/jimmybogard/uploads/2011/07/image.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/07/image_thumb.png" width="644" height="290" />](https://lostechies.com/content/jimmybogard/uploads/2011/07/image.png)
 
 See that “Add” button? That’s it, I click that button, and now my DNS host adds the appropriate records for hosting at [Heroku](http://www.heroku.com/). Wow, that was tough. I have a couple of other sites hosted with Heroku, and their DNS manipulation actually required me to fill out the textual DNS entries. In the above case, I have no idea what the entries are, but dnsimple takes care of it all. As you can see, Heroku is just one of many third-party application hosting providers supported.
 

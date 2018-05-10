@@ -115,7 +115,7 @@ This is all you need to install the preview version:
                   </h3>
                   
                   <p>
-                    In addition to the <a href="http://www.lostechies.com/blogs/derickbailey/archive/2010/06/01/albacore-feature-preview-building-c-code-with-csc-exe.aspx">CSC task that I’ve already mentioned on this blog</a>, there is also a new SpecflowReport task that let’s you run reports from <a href="http://www.specflow.org/">specflow</a>.
+                    In addition to the <a href="https://lostechies.com/blogs/derickbailey/archive/2010/06/01/albacore-feature-preview-building-c-code-with-csc-exe.aspx">CSC task that I’ve already mentioned on this blog</a>, there is also a new SpecflowReport task that let’s you run reports from <a href="http://www.specflow.org/">specflow</a>.
                   </p>
                   
                   <div>

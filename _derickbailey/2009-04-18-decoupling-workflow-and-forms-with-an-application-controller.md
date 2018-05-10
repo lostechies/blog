@@ -23,7 +23,7 @@ One of the big problems I’ve been trying to solve recently, is in my current W
 
 There are two parts of the solution that I’m trying to use now, that are relatively new to me.
 
-1) Use a good IoC container. I’m using [StructureMap](http://structuremap.sourceforge.net/Default.htm) at the moment. I’ve used Windsor in the past and don’t like some of the default conventions it has. StructureMap’s conventions fit very well with my personal style of development (at least in part because I’ve considered [Jeremy Miller](http://codebetter.com/blogs/jeremy.miller/) to be a mentor – via his blog, etc – for several years now). Although I have done IoC / DI / DIP before, I’ve not used a good IoC container in quite some time. I’ve primarily been using a [ServiceLocator](http://www.martinfowler.com/articles/injection.html#UsingAServiceLocator) and manual [Dependency Inversion](http://www.lostechies.com/blogs/derickbailey/archive/2008/10/07/di-and-ioc-creating-and-working-with-a-cloud-of-objects.aspx).
+1) Use a good IoC container. I’m using [StructureMap](http://structuremap.sourceforge.net/Default.htm) at the moment. I’ve used Windsor in the past and don’t like some of the default conventions it has. StructureMap’s conventions fit very well with my personal style of development (at least in part because I’ve considered [Jeremy Miller](http://codebetter.com/blogs/jeremy.miller/) to be a mentor – via his blog, etc – for several years now). Although I have done IoC / DI / DIP before, I’ve not used a good IoC container in quite some time. I’ve primarily been using a [ServiceLocator](http://www.martinfowler.com/articles/injection.html#UsingAServiceLocator) and manual [Dependency Inversion](https://lostechies.com/blogs/derickbailey/archive/2008/10/07/di-and-ioc-creating-and-working-with-a-cloud-of-objects.aspx).
 
 2) Set up an Application Controller to hide most of the coordination and infrastructure needs, including the IoC container, from the rest of the application. 
 
@@ -41,7 +41,7 @@ For the last month or two, I’ve been trying to [find as much information as po
 
 ### My Application Controller Implementation
 
-After working with various ideas for the last month, I finally have an example implementation that I’m happy with. The core of the sample is the Application Controller, of course. Surprisingly, it is a very simple implementation. The primary functionality that I ended up needing in my Application Controller, is the ability to execute an [ICommand<T>](http://www.lostechies.com/blogs/derickbailey/archive/2008/11/19/ptom-command-and-conquer-your-ui-coupling-problems.aspx) interface, and publish an event via an [EventAggregator](http://martinfowler.com/eaaDev/EventAggregator.html). Both the ICommand<T> and EventAggregator that I use, are heavily influenced by Jeremy Miller’s [Build Your Own CAB](http://codebetter.com/blogs/jeremy.miller/archive/2007/07/25/the-build-your-own-cab-series-table-of-contents.aspx) series.
+After working with various ideas for the last month, I finally have an example implementation that I’m happy with. The core of the sample is the Application Controller, of course. Surprisingly, it is a very simple implementation. The primary functionality that I ended up needing in my Application Controller, is the ability to execute an [ICommand<T>](https://lostechies.com/blogs/derickbailey/archive/2008/11/19/ptom-command-and-conquer-your-ui-coupling-problems.aspx) interface, and publish an event via an [EventAggregator](http://martinfowler.com/eaaDev/EventAggregator.html). Both the ICommand<T> and EventAggregator that I use, are heavily influenced by Jeremy Miller’s [Build Your Own CAB](http://codebetter.com/blogs/jeremy.miller/archive/2007/07/25/the-build-your-own-cab-series-table-of-contents.aspx) series.
 
 <div>
   <div>
@@ -1014,7 +1014,7 @@ After working with various ideas for the last month, I finally have an example i
                                   </p>
                                   
                                   <p>
-                                    The combination of a good IoC container (pick the one you like; it doesn’t have to be StructureMap), an Application Controller, and some good old Dependency Inversion and Interface Separation (with a healthy dose other <a href="http://www.lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx">SOLID principles</a>), can really help to decouple a system, very quickly.
+                                    The combination of a good IoC container (pick the one you like; it doesn’t have to be StructureMap), an Application Controller, and some good old Dependency Inversion and Interface Separation (with a healthy dose other <a href="https://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx">SOLID principles</a>), can really help to decouple a system, very quickly.
                                   </p>
                                   
                                   <p>

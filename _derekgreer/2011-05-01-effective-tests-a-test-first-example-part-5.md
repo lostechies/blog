@@ -71,7 +71,7 @@ tags:
   </ul>
 </div>
 
-In [part 4](http://lostechies.com/derekgreer/2011/04/24/effective-tests-a-test-first-example-part-4/) of our Test-First example, we continued by addressing issues filed by the UI team. To conclude our example, we’ll finish the remaining issues this time.
+In [part 4](https://lostechies.com/derekgreer/2011/04/24/effective-tests-a-test-first-example-part-4/) of our Test-First example, we continued by addressing issues filed by the UI team. To conclude our example, we’ll finish the remaining issues this time.
 
 Here’s what we have left:
 

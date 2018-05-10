@@ -52,7 +52,7 @@ The next way to test is for specific registries.&#160; Suppose we’ve defined s
 
 If we have some custom registration logic (very likely), then we can then test that registry _in isolation_ from the rest of our configuration.&#160; This is what I do when I’m doing lots of meta-programming to hook up open generic types of things, and in general building highly de-coupled, SOLID stuff 😉
 
-> _Side note: things like [ConnectImplementationsToTypesClosing()](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/12/17/advanced-structuremap-connecting-implementations-to-open-generic-types.aspx) should be **built in** to every IoC container registration.&#160; It’s one of the things I can point to on our current project and say, “that enabled some of our success”.&#160; If we had to register/build these things manually, we wouldn’t have tried to build the architecture we wound up doing, which let us scale our development very easily._
+> _Side note: things like [ConnectImplementationsToTypesClosing()](https://lostechies.com/blogs/jimmy_bogard/archive/2009/12/17/advanced-structuremap-connecting-implementations-to-open-generic-types.aspx) should be **built in** to every IoC container registration.&#160; It’s one of the things I can point to on our current project and say, “that enabled some of our success”.&#160; If we had to register/build these things manually, we wouldn’t have tried to build the architecture we wound up doing, which let us scale our development very easily._
 
 To test a single registry in isolation, you simply need a Container object:
 

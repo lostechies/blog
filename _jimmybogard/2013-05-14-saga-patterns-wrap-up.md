@@ -13,11 +13,11 @@ categories:
 ---
 Posts in this series:
 
-  * [Observer pattern](http://lostechies.com/jimmybogard/2013/03/11/saga-implementation-patterns-observer/)
-  * [Controller pattern](http://lostechies.com/jimmybogard/2013/03/14/saga-implementation-patterns-controller/)
-  * [Pattern variations](http://lostechies.com/jimmybogard/2013/03/21/saga-implementation-patterns-variations/)
-  * [Scaling sagas](http://lostechies.com/jimmybogard/2013/03/26/scaling-nservicebus-sagas/)
-  * [Routing slips](http://lostechies.com/jimmybogard/2013/04/26/saga-alternatives-routing-slips/)
+  * [Observer pattern](https://lostechies.com/jimmybogard/2013/03/11/saga-implementation-patterns-observer/)
+  * [Controller pattern](https://lostechies.com/jimmybogard/2013/03/14/saga-implementation-patterns-controller/)
+  * [Pattern variations](https://lostechies.com/jimmybogard/2013/03/21/saga-implementation-patterns-variations/)
+  * [Scaling sagas](https://lostechies.com/jimmybogard/2013/03/26/scaling-nservicebus-sagas/)
+  * [Routing slips](https://lostechies.com/jimmybogard/2013/04/26/saga-alternatives-routing-slips/)
 
 NServiceBus sagas are a simple yet flexible tool to achieve a variety of end goals. Whether it’s orchestration, choreography, business activity monitoring, or just other long-running business transaction variants, the uses of an NServiceBus saga are pretty much endless.
 

@@ -150,7 +150,7 @@ As this is a very small application with very simple process and no real busines
 
 
 <p>
-  (Note: For a description of the .Do() method shown here, see <a href="http://www.lostechies.com/blogs/derickbailey/archive/2011/01/24/asynchronous-control-updates-in-c-net-winforms.aspx">my post on async control updates</a>)
+  (Note: For a description of the .Do() method shown here, see <a href="https://lostechies.com/blogs/derickbailey/archive/2011/01/24/asynchronous-control-updates-in-c-net-winforms.aspx">my post on async control updates</a>)
 </p>
 
 

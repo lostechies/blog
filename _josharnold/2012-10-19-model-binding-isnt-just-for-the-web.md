@@ -57,4 +57,4 @@ Binding classes from data is a highly useful function. A binding subsystem that 
 
 For further reading on how FubuCore&#8217;s model binding works and what you can do with it, I highly recommend Chad&#8217;s post:
 
-  * <http://lostechies.com/chadmyers/2011/06/08/cool-stuff-in-fubucore-no-7-model-binding/>
+  * <https://lostechies.com/chadmyers/2011/06/08/cool-stuff-in-fubucore-no-7-model-binding/>

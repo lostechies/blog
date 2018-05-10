@@ -22,7 +22,7 @@ Our clients install our product on different environments. Some of them have 32b
 
 The simplest solution is to set the **Platform Target** to be **x86** on the project properties (build register). 
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_2EEC8568.png" width="520" height="276" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_56930192.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_2EEC8568.png" width="520" height="276" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_56930192.png) 
 
 This will cause the compiler to set the 32Bit flag in the CLR header of the corresponding assembly. Every time we run this application no matter on what type of OS it will execute as a 32bit process. But this solution although simple and straight forward was not a viable solution for us since – as mentioned above – we want to have one and only one version of our product. Thus all components of our package have to be compiled with **Platform Target** set to **Any CPU**.
 
@@ -32,7 +32,7 @@ If the application is running in the context of IIS then we can instruct IIS to 
 
 To run a web application in 32bit mode on an 64bit OS open the **IIS Manager** and navigate to the application pool that the application should run in. Select the application pool and select “**Advance Settings…”.** In the Advanced Settings dialog set the “Enable 32-Bit Applications” to true.
 
-[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_7BB04BFE.png" width="459" height="222" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_6A3FEB26.png) 
+[<img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_7BB04BFE.png" width="459" height="222" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_6A3FEB26.png) 
 
 ### Use corflags.exe to set the bitness
 

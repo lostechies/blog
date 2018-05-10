@@ -12,7 +12,7 @@ categories:
   - Database
 redirect_from: "/blogs/derickbailey/archive/2009/07/15/storage-size-and-performance-implications-of-a-guid-pk.aspx/"
 ---
-I sent the same [Guid vs. Int. vs BigInt](http://www.lostechies.com/blogs/derickbailey/archive/2009/07/14/database-id-int-vs-bigint-vs-guid.aspx) question to a group of coworkers yesterday. One of the responses I got was from a DBA, and I thought was worth repeating for the world to hear. Keep in mind that these represent the opinions and research of my coworker, not me. Whether I agree with him or not, is not the point of posting his response for the world to see.
+I sent the same [Guid vs. Int. vs BigInt](https://lostechies.com/blogs/derickbailey/archive/2009/07/14/database-id-int-vs-bigint-vs-guid.aspx) question to a group of coworkers yesterday. One of the responses I got was from a DBA, and I thought was worth repeating for the world to hear. Keep in mind that these represent the opinions and research of my coworker, not me. Whether I agree with him or not, is not the point of posting his response for the world to see.
 
 &#8212;&#8212;&#8212;
 

@@ -22,7 +22,7 @@ Here&#8217;s a short example of how you make Jasmine work with asynchronous Java
 
 {% gist 3389343 1.js %}
 
-This isn&#8217;t fun. That &#8220;runs&#8221; and &#8220;waitsFor&#8221; code gets repeated all over the place &#8211; every time you need to wait for something async to complete. By contrast, look at [my previous post on asynchronous testing with Mocha](http://lostechies.com/derickbailey/2012/08/17/asynchronous-unit-tests-with-mocha-promises-and-winjs/). That simple little &#8220;done&#8221; function in the beforeEach and it callbacks is so easy to work with. Just add the parameter to the callback, and call &#8220;done()&#8221; when the async code has completed.
+This isn&#8217;t fun. That &#8220;runs&#8221; and &#8220;waitsFor&#8221; code gets repeated all over the place &#8211; every time you need to wait for something async to complete. By contrast, look at [my previous post on asynchronous testing with Mocha](https://lostechies.com/derickbailey/2012/08/17/asynchronous-unit-tests-with-mocha-promises-and-winjs/). That simple little &#8220;done&#8221; function in the beforeEach and it callbacks is so easy to work with. Just add the parameter to the callback, and call &#8220;done()&#8221; when the async code has completed.
 
 I want Jasmine to work this way, too, because there are things I like about Jasmine vs Mocha and when I use Jasmine, I don&#8217;t want to be stuck with horrible async tests. Thus, [Jasmine.Async](https://github.com/derickbailey/jasmine.async) was born out of frustration and little bit of jealousy in how easy it is to do async tests with [Mocha](http://visionmedia.github.com/mocha/).
 

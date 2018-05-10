@@ -71,7 +71,7 @@ tags:
   </ul>
 </div>
 
-In [part 3](http://lostechies.com/derekgreer/2011/04/11/effective-tests-a-test-first-example-part-3/) of our Test-First example, we finished the initial implementation of our Tic-tac-toe component. After we finished, a team in charge of creating a host application was able to get everything integrated (though rumor has it that there was a bit of complaining) and the application made its way to the QA team for some acceptance testing. Surprisingly, there were several issues reported that got assigned to us. Here are the issues we’ve been assigned:
+In [part 3](https://lostechies.com/derekgreer/2011/04/11/effective-tests-a-test-first-example-part-3/) of our Test-First example, we finished the initial implementation of our Tic-tac-toe component. After we finished, a team in charge of creating a host application was able to get everything integrated (though rumor has it that there was a bit of complaining) and the application made its way to the QA team for some acceptance testing. Surprisingly, there were several issues reported that got assigned to us. Here are the issues we’ve been assigned:
 
 <table style="clear:both;border: 1px solid black;border-collapse: collapse;color: black;width=100%;">
   <tr style="border: 1px solid black;background-color:#DFDFDF">

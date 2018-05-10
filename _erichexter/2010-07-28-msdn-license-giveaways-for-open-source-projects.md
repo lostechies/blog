@@ -20,4 +20,4 @@ I am totally excited to support the folks over at Devlicio.us and their giveaway
 
 &#160;
 
-I want to thank <a href="http://www.lostechies.com/blogs/jimmy_bogard/default.aspx" target="_blank">Jimmy Bogard</a> and <a href="http://www.lostechies.com/blogs/dahlbyk/default.aspx" target="_blank">Keith Dahlby</a> from the Los Techies crew for donating some of their licenses too.
+I want to thank <a href="https://lostechies.com/blogs/jimmy_bogard/default.aspx" target="_blank">Jimmy Bogard</a> and <a href="https://lostechies.com/blogs/dahlbyk/default.aspx" target="_blank">Keith Dahlby</a> from the Los Techies crew for donating some of their licenses too.

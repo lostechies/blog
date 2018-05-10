@@ -12,7 +12,7 @@ categories:
 ---
 In the early days of AutoMapper, I got requests to support AutoMapper in other platforms (mainly Silverlight). I didn’t have any experience in those other platforms, but I thought it would be easy. It was not. I wound up with a picture like this:
 
-[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb4.png" width="188" height="244" />](http://lostechies.com/content/jimmybogard/uploads/2014/02/image4.png)
+[<img style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2014/02/image_thumb4.png" width="188" height="244" />](https://lostechies.com/content/jimmybogard/uploads/2014/02/image4.png)
 
 A separate project per platform, and using tricks like “Add as Link” to have multiple projects share the same source file. The problem with this approach is I have to remember to add files across all projects, and some features aren’t available in some platforms. I resorted to compiler directives, and ultimately, dropped support for the other platforms because it slowed me down.
 
@@ -100,7 +100,7 @@ Those that have used ELMAH or NHibernate might have run into this issue already.
 
 My Core project references Elmah, and my UI project references Core (but not Elmah). Nothing in Core actually _uses_ Elmah, but instead it’s the Web.config in the UI project that configures it. What you’ll find is that even though you’ve explicitly referenced Elmah in Core, because your assembly doesn’t actually link to that other assembly, MSBuild will not copy the Elmah assembly over to the UI project.
 
-For AutoMapper, this meant that because the platform-specific assemblies were never referenced by user code, and discovered dynamically at runtime, the possibility existed that MSBuild would not copy the assembly over to your ultimate application’s output folder. I detailed the problem [in a post a few months ago](http://lostechies.com/jimmybogard/2013/09/04/automapper-3-0-portable-class-libraries-and-platformnotsupportedexception/), along with a few solutions.
+For AutoMapper, this meant that because the platform-specific assemblies were never referenced by user code, and discovered dynamically at runtime, the possibility existed that MSBuild would not copy the assembly over to your ultimate application’s output folder. I detailed the problem [in a post a few months ago](https://lostechies.com/jimmybogard/2013/09/04/automapper-3-0-portable-class-libraries-and-platformnotsupportedexception/), along with a few solutions.
 
 It’s a stupid, annoying problem, but isn’t going away any time soon. My options were to:
 

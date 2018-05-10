@@ -12,7 +12,7 @@ categories:
   - JavaScript
   - Workflow
 ---
-In my previous blog post, I talked about [modeling an explicit workflow in JavaScript and Backbone application](http://lostechies.com/derickbailey/2012/05/10/modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps/). The last code sample I showed had the implementation of the workflow object itself, but omitted all of the details of the views that I was using.
+In my previous blog post, I talked about [modeling an explicit workflow in JavaScript and Backbone application](https://lostechies.com/derickbailey/2012/05/10/modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps/). The last code sample I showed had the implementation of the workflow object itself, but omitted all of the details of the views that I was using.
 
 Here&#8217;s the gist of that again:
 

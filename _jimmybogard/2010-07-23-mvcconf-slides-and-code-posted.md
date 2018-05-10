@@ -140,4 +140,4 @@ Into this:
 
 [](http://11011.net/software/vspaste)
 
-The recordings for the talks will be posted soon, so stay tuned to the mvcConf website for details.&#160; Thanks again to the organizers ([Eric Hexter](http://www.lostechies.com/blogs/hex/), [Javier Lozano](http://lozanotek.com/blog/), [Jon Galloway](http://weblogs.asp.net/jgalloway/), and some others I know I’m forgetting).&#160; The conference went more smoothly than a lot of non-virtual conferences I’ve been to, so hopefully we have another one soon (well, not TOO soon…)
+The recordings for the talks will be posted soon, so stay tuned to the mvcConf website for details.&#160; Thanks again to the organizers ([Eric Hexter](https://lostechies.com/blogs/hex/), [Javier Lozano](http://lozanotek.com/blog/), [Jon Galloway](http://weblogs.asp.net/jgalloway/), and some others I know I’m forgetting).&#160; The conference went more smoothly than a lot of non-virtual conferences I’ve been to, so hopefully we have another one soon (well, not TOO soon…)

@@ -40,7 +40,7 @@ The process I came up with to solve my deployment problem, is to have multiple g
 
 Here&#8217;s what the folder structure looks like:
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2014/02/NewImage5.png" alt="NewImage" width="300" height="230" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2014/02/NewImage5.png" alt="NewImage" width="300" height="230" border="0" />
 
 There are 4 folders in my &#8220;deploy&#8221; &#8211; 2 for production and 2 for staging. Each of these environments has 2 folders for deployment of the web site and media server. Each of these folders is a git repository. 
 
@@ -48,7 +48,7 @@ There are 4 folders in my &#8220;deploy&#8221; &#8211; 2 for production and 2 fo
 
 In my environment configuration I have a folder that contains procfiles for each of the Heroku apps. The procfile for staging vs production is the same, so these procfile copies are stored in the &#8220;shared&#8221; configuration folder:
 
-<img src="http://lostechies.com/content/derickbailey/uploads/2014/02/NewImage6.png" alt="NewImage" width="300" border="0" />
+<img src="https://lostechies.com/content/derickbailey/uploads/2014/02/NewImage6.png" alt="NewImage" width="300" border="0" />
 
 The media.procfile looks like this:
 

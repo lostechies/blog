@@ -15,7 +15,7 @@ categories:
   - PushState
   - SEO
 ---
-Last weekend, I gave a presentation on HTML5 PushState using PushState, at Pablo&#8217;s Fiesta (I know, I know… a presentation at an open spaces conf. ya. :P) and David Ohara was kind enough to record it and upload it to Vimeo. So, here it is… consider this part 3 of my [2 part](http://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-1-introducing-pushstate/) [series on pushstate](http://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-2-progressive-enhancement-with-backbone-js/).
+Last weekend, I gave a presentation on HTML5 PushState using PushState, at Pablo&#8217;s Fiesta (I know, I know… a presentation at an open spaces conf. ya. :P) and David Ohara was kind enough to record it and upload it to Vimeo. So, here it is… consider this part 3 of my [2 part](https://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-1-introducing-pushstate/) [series on pushstate](https://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-2-progressive-enhancement-with-backbone-js/).
 
 
 

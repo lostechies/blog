@@ -16,6 +16,6 @@ My coworkers really do love me. This was their Christmas present for me, complet
 
 I was told to use it only for good, not for evil.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="500" alt="Dericks Soapbox" src="http://lostechies.com/content/derickbailey/uploads/2011/03/DericksSoapbox_thumb_4359455E.jpg" width="381" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/DericksSoapbox_3BA92A9C.jpg) [<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="192" alt="Soap box closeup" src="http://lostechies.com/content/derickbailey/uploads/2011/03/Soapboxcloseup_thumb_291B6CEB.jpg" width="250" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/Soapboxcloseup_7316EDDD.jpg)
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="500" alt="Dericks Soapbox" src="https://lostechies.com/content/derickbailey/uploads/2011/03/DericksSoapbox_thumb_4359455E.jpg" width="381" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/DericksSoapbox_3BA92A9C.jpg) [<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="192" alt="Soap box closeup" src="https://lostechies.com/content/derickbailey/uploads/2011/03/Soapboxcloseup_thumb_291B6CEB.jpg" width="250" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/Soapboxcloseup_7316EDDD.jpg)
 
 And yes, that is me preaching from my soap box. 🙂

@@ -707,7 +707,7 @@ But before I compile the expression I want to use some of the (meta-) informatio
   </div>
 </div>
 
-In the above sample I want to dynamically construct a HTML snippet containing information extracted from the passed parameters. I expect the expression parameter to be of (sub-) type **MemberExpression**. I then use this member expression to extract the name of the member (the property name in our case) and the name of the containing type. These two names combined are used as the name of the HTML text box. This type of extracting meta information is also called [static reflection](http://www.lostechies.com/blogs/chad_myers/archive/2008/07/06/exploring-shadetree-features-part-1-static-reflection-with-reflectionhelper.aspx).
+In the above sample I want to dynamically construct a HTML snippet containing information extracted from the passed parameters. I expect the expression parameter to be of (sub-) type **MemberExpression**. I then use this member expression to extract the name of the member (the property name in our case) and the name of the containing type. These two names combined are used as the name of the HTML text box. This type of extracting meta information is also called [static reflection](https://lostechies.com/blogs/chad_myers/archive/2008/07/06/exploring-shadetree-features-part-1-static-reflection-with-reflectionhelper.aspx).
 
 I then compile the expression and use the result to determine the value of the expression. The following unit test shows how to use the above method
 
@@ -737,7 +737,7 @@ I then compile the expression and use the result to determine the value of the e
 
 As one can see the attribute **name** contains the correct value &#8216;ItemName&#8217; which is composed of the class name and the property name (deduced from the lambda expression _i => i.Name_). And also the value of the **value** attribute reflects the expected value.
 
-This is not the end! We could retrieve way more meta information from the expression tree if we want so. [This](http://www.lostechies.com/blogs/chad_myers/archive/2008/07/06/exploring-shadetree-features-part-1-static-reflection-with-reflectionhelper.aspx) post gives you a deeper insight how expression trees can be leveraged for e.g. HTML or JavaScript code generation.
+This is not the end! We could retrieve way more meta information from the expression tree if we want so. [This](https://lostechies.com/blogs/chad_myers/archive/2008/07/06/exploring-shadetree-features-part-1-static-reflection-with-reflectionhelper.aspx) post gives you a deeper insight how expression trees can be leveraged for e.g. HTML or JavaScript code generation.
 
 ## Summary
 

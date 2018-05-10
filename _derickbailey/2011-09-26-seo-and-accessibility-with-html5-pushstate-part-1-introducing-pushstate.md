@@ -36,7 +36,7 @@ Then, a few year ago, Google released some documents that describe [a way for Ja
 
 For example, Twitter uses hashbangs for it&#8217;s user pages:
 
-<img title="Screen Shot 2011-09-26 at 12.19.25 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/09/Screen-Shot-2011-09-26-at-12.19.25-PM.png" border="0" alt="Screen Shot 2011 09 26 at 12 19 25 PM" width="552" height="259" />
+<img title="Screen Shot 2011-09-26 at 12.19.25 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/09/Screen-Shot-2011-09-26-at-12.19.25-PM.png" border="0" alt="Screen Shot 2011 09 26 at 12 19 25 PM" width="552" height="259" />
 
 This helped things along, but presented a new problem as a three-headed monster.
 
@@ -74,4 +74,4 @@ PushState does not change the need for progressive enhancement. Rather, it bring
 
 ## Implementing PushState And Progressive Enhancement With Backbone.js
 
-[In the next part of this small series](http://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-2-progressive-enhancement-with-backbone-js/), I&#8217;ll walk through some of the implementation details of using PushState with a Backbone.js application. I&#8217;ll show how to enable PushState with Backbone&#8217;s routers and how to attach an already-rendered chunk of HTML to a Backbone view with a Backbone model in place. I&#8217;ll also look back at a few of my previous blog posts and bring them all together to help create HTML templates that can be rendered by a back-end server framework as well as a front-end JavaScript templating framework.
+[In the next part of this small series](https://lostechies.com/derickbailey/2011/09/26/seo-and-accessibility-with-html5-pushstate-part-2-progressive-enhancement-with-backbone-js/), I&#8217;ll walk through some of the implementation details of using PushState with a Backbone.js application. I&#8217;ll show how to enable PushState with Backbone&#8217;s routers and how to attach an already-rendered chunk of HTML to a Backbone view with a Backbone model in place. I&#8217;ll also look back at a few of my previous blog posts and bring them all together to help create HTML templates that can be rendered by a back-end server framework as well as a front-end JavaScript templating framework.

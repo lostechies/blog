@@ -27,4 +27,4 @@ The original intent of this paper was to facilitate the discussion of productivi
 
 You can download the PDF here: 
 
-> [**The Theory of Constraints: Productivity Metrics In Software Development**](http://www.lostechies.com/media/p/22618.aspx)
+> [**The Theory of Constraints: Productivity Metrics In Software Development**](https://lostechies.com/media/p/22618.aspx)

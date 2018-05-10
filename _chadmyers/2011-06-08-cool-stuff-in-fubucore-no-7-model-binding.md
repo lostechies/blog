@@ -13,9 +13,9 @@ categories:
   - fubucore
   - FubuMVC
 ---
-This is the seventh post of the FubuCore series mentioned in the [Introduction post](http://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
+This is the seventh post of the FubuCore series mentioned in the [Introduction post](https://lostechies.com/chadmyers/2011/05/30/cool-stuff-in-fubucore-and-fubumvc-series/).
 
-**\*UPDATE\*** – 10-JUN-2011 – I posted a [follow-up to this post](http://lostechies.com/chadmyers/2011/06/10/a-quick-follow-up-on-model-binding-in-fubucore/) which explains more clearly the distinctions between ValueConverter, IPropertyBinder, and IModelBinder.
+**\*UPDATE\*** – 10-JUN-2011 – I posted a [follow-up to this post](https://lostechies.com/chadmyers/2011/06/10/a-quick-follow-up-on-model-binding-in-fubucore/) which explains more clearly the distinctions between ValueConverter, IPropertyBinder, and IModelBinder.
 
 **\*UPDATE\*** – 10-JUN-2011 – [Joshua Flanagan](http://joshuaflanagan.lostechies.com) pointed out, in the comments, a mistake I made about the ExpandEnvironmentVariablesAttribute.&nbsp; I’ve corrected that now. Thanks Josh!
 
@@ -23,7 +23,7 @@ FubuCore’s model binding framework is perhaps the most substantial and compell
 
 I think I bit off more than I can chew with this post, however. Model binding in FubuCore/FubuMVC could easily fill a whole series by itself.&nbsp; For this post, I’m going to speak generally about Fubu’s model binding and where to get started.&nbsp; Delving into some of the deeper, cooler stuff will have to wait for other blog posts. [Jeremy](http://codebetter.com/jeremymiller/) has also said he’s planning on doing an in-depth post or two on the subject, so keep an eye out for that.
 
-The model binding stuff in FubuCore is general purpose. It’s not meant only for binding models in a web framework like FubuMVC.&nbsp; We use it for all sorts of things such as [binding our configuration settings to the appSettings file](http://lostechies.com/chadmyers/2011/06/03/cool-stuff-in-fubucore-no-5-easy-configuration/), [binding command-line arguments](http://lostechies.com/chadmyers/2011/06/06/cool-stuff-in-fubucore-no-6-command-line/) to POCO input models for command objects, some ETL stuff we do at Dovetail, and [our automated regression test fixtures](https://github.com/DarthFubuMVC/bottles/tree/master/src/Bottles.Storyteller) in [StoryTeller](https://github.com/storyteller/storyteller). You can use it for all sorts of other things, too. I daresay, with some work, you might even be able to get it to work in ASP.NET MVC, but I haven’t confirmed this.
+The model binding stuff in FubuCore is general purpose. It’s not meant only for binding models in a web framework like FubuMVC.&nbsp; We use it for all sorts of things such as [binding our configuration settings to the appSettings file](https://lostechies.com/chadmyers/2011/06/03/cool-stuff-in-fubucore-no-5-easy-configuration/), [binding command-line arguments](https://lostechies.com/chadmyers/2011/06/06/cool-stuff-in-fubucore-no-6-command-line/) to POCO input models for command objects, some ETL stuff we do at Dovetail, and [our automated regression test fixtures](https://github.com/DarthFubuMVC/bottles/tree/master/src/Bottles.Storyteller) in [StoryTeller](https://github.com/storyteller/storyteller). You can use it for all sorts of other things, too. I daresay, with some work, you might even be able to get it to work in ASP.NET MVC, but I haven’t confirmed this.
 
 ## ObjectConverter and ObjectResolver
 
@@ -91,7 +91,7 @@ There are a number of converters built into FubuCore for your convenience:
                                                 
                                                 Like the converters and property binders, all you have to do is register your IModelBinder implementations in StructureMap and the scanning will pick it up automatically.&nbsp; Note that the first one in wins, so order of registration _does matter._
                                                 
-                                                **\*UPDATE\*** – 10-JUN-2011 – I posted a [follow-up to this post](http://lostechies.com/chadmyers/2011/06/10/a-quick-follow-up-on-model-binding-in-fubucore/) which explains more clearly the distinctions between ValueConverter, IPropertyBinder, and IModelBinder.
+                                                **\*UPDATE\*** – 10-JUN-2011 – I posted a [follow-up to this post](https://lostechies.com/chadmyers/2011/06/10/a-quick-follow-up-on-model-binding-in-fubucore/) which explains more clearly the distinctions between ValueConverter, IPropertyBinder, and IModelBinder.
                                                 
                                                 ## Summary
                                                 

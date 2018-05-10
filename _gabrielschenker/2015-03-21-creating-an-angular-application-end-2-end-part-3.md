@@ -18,7 +18,7 @@ categories:
 ---
 # Introduction
 
-In the last two posts of this series which you can find [here](http://lostechies.com/gabrielschenker/2015/01/05/creating-an-angular-application-end-2-end-part-1/) and [here](http://lostechies.com/gabrielschenker/2015/01/11/writing-an-angular-js-application-end-2-endpart-2/) I started to implement the server side of a complete Angular JS application that uses CQRS and Event Sourcing as architectural patterns and stores the events created by the aggregates in the domain in [GetEventStore](https://geteventstore.com/). All this runs on my Ubuntu 14.10 Linux VM which is hosted in Hyper-V on my computer.
+In the last two posts of this series which you can find [here](https://lostechies.com/gabrielschenker/2015/01/05/creating-an-angular-application-end-2-end-part-1/) and [here](https://lostechies.com/gabrielschenker/2015/01/11/writing-an-angular-js-application-end-2-endpart-2/) I started to implement the server side of a complete Angular JS application that uses CQRS and Event Sourcing as architectural patterns and stores the events created by the aggregates in the domain in [GetEventStore](https://geteventstore.com/). All this runs on my Ubuntu 14.10 Linux VM which is hosted in Hyper-V on my computer.
 
 After we have successfully implemented the code that handles an incoming command, dispatches this command to the domain aggregate and stores the event(s) created by the aggregate in GetEventStore (GES), it is now time to start implementing the code necessary to build a read model from the events stored in GES. Our first read model will use MongoDB as the data store.
 
@@ -72,13 +72,13 @@ That’s all we need for the moment. We can now try to test this code. For this 
 
 On line 15 we create a new instance of the MongoDB projection writer passing in the connection string for our locally installed MongoDB server. On line 17 we first create a new recipe and on line 25 we try to update the just created recipe.
 
-We can now compile our code (kpm build) and if ok run the webserver (k kestrel). We also need to make sure MongoDB runs (see [here](http://lostechies.com/gabrielschenker/2014/12/31/creating-an-ubuntu-developer-vm-on-hyper-v-part-2/) for more details). We can then use the Postman plugin for Chrome to send a post request to the test controller just implemented above. Create a POST request to the URI [http://localhost:5004/api/test/test](http://localhost:5004/api/test/test "http://localhost:5004/api/test/test"). We should see the following in the terminal
+We can now compile our code (kpm build) and if ok run the webserver (k kestrel). We also need to make sure MongoDB runs (see [here](https://lostechies.com/gabrielschenker/2014/12/31/creating-an-ubuntu-developer-vm-on-hyper-v-part-2/) for more details). We can then use the Postman plugin for Chrome to send a post request to the test controller just implemented above. Create a POST request to the URI [http://localhost:5004/api/test/test](http://localhost:5004/api/test/test "http://localhost:5004/api/test/test"). We should see the following in the terminal
 
-[<img style="border-width: 0px;" src="http://lostechies.com/content/gabrielschenker/uploads/2015/03/image_thumb.png" alt="image" width="468" height="129" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2015/03/image.png)
+[<img style="border-width: 0px;" src="https://lostechies.com/content/gabrielschenker/uploads/2015/03/image_thumb.png" alt="image" width="468" height="129" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2015/03/image.png)
 
 And if we use e.g. [Robomongo](http://robomongo.org/) to access MongoDB and analyze the outcome we should see this
 
-[<img style="border-width: 0px;" src="http://lostechies.com/content/gabrielschenker/uploads/2015/03/image_thumb1.png" alt="image" width="804" height="417" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2015/03/image1.png)
+[<img style="border-width: 0px;" src="https://lostechies.com/content/gabrielschenker/uploads/2015/03/image_thumb1.png" alt="image" width="804" height="417" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2015/03/image1.png)
 
 Clearly our code has created a new collection **RecipeView** in a database Recipes and we also see that in this collection there is the expected recipe with all its properties.
 

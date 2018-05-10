@@ -14,7 +14,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2008/09/12/some-ioc-container-guidel
 So Derick Bailey asked me <strike>the other day</strike> a few weeks ago to describe how we use our IoC container.&nbsp; I wouldn&#8217;t call it &#8220;best practices&#8221;, though some of these tips came from the creator of our container of choice, StructureMap (Jeremy Miller).&nbsp; Although IoC containers are everywhere these days, you don&#8217;t see many instructions on where and how to use them.&nbsp; We&#8217;ve developed a consistent approach to using our favorite container of choice, StructureMap.&nbsp; The basic ideals behind our approach are:
 
   * Keep the framework at a distance
-  * Focus on the [dependency inversion principle](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/03/31/ptom-the-dependency-inversion-principle.aspx)
+  * Focus on the [dependency inversion principle](https://lostechies.com/blogs/jimmy_bogard/archive/2008/03/31/ptom-the-dependency-inversion-principle.aspx)
 
 ### Hiding the framework
 
@@ -26,7 +26,7 @@ Looking at StructureMap, hiding the framework means preferring the fluent config
 
 ### Minimize calls to the container
 
-Following the first rule, we shouldn&#8217;t have a lot of calls to our container to instantiate things.&nbsp; Ideally, we would like to reduce our interaction with the service locator (ObjectFactory in StructureMap) to one call to get an instance.&nbsp; We like to relegate the ObjectFactory calls to infrastructure-level code, such as the [IInstanceProvider for WCF](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/07/29/integrating-structuremap-with-wcf.aspx).
+Following the first rule, we shouldn&#8217;t have a lot of calls to our container to instantiate things.&nbsp; Ideally, we would like to reduce our interaction with the service locator (ObjectFactory in StructureMap) to one call to get an instance.&nbsp; We like to relegate the ObjectFactory calls to infrastructure-level code, such as the [IInstanceProvider for WCF](https://lostechies.com/blogs/jimmy_bogard/archive/2008/07/29/integrating-structuremap-with-wcf.aspx).
 
 Reducing calls to the container from our code also greatly eases the burden in our tests.&nbsp; It&#8217;s possible, but just annoying, to configure the container just for a unit test because our class calls directly into the container.&nbsp; When the ObjectFactory call resides in some infrastructure piece, our entire domain layer can be completely free of any knowledge of the container.&nbsp; While nice from a swappability perspective, its true value lies in a higher cohesion and greater separation of concerns.&nbsp; If I don&#8217;t have to worry about StructureMap calls when I need to change a class, I can focus more on its core purpose.
 

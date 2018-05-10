@@ -15,7 +15,7 @@ tags:
 <font color="red"></p> 
 
 <p>
-  [Update: This article refers to a tool which will no longer be maintained. Until such time as NuGet is updated to naively support these capabilities, consider using the plug-in described <a href="http://lostechies.com/derekgreer/2011/09/27/dependency-management-in-net-install2/">here</a>.]
+  [Update: This article refers to a tool which will no longer be maintained. Until such time as NuGet is updated to naively support these capabilities, consider using the plug-in described <a href="https://lostechies.com/derekgreer/2011/09/27/dependency-management-in-net-install2/">here</a>.]
 </p>
 
 <p>
@@ -23,7 +23,7 @@ tags:
 </p>
 
 <p>
-  In my <a href="http://lostechies.com/derekgreer/2011/09/20/dependency-management-in-net-using-nuget-without-visual-studio/">last article</a>, I demonstrated how my team is currently using NuGet.exe from our rake build to facilitate application-level, build-time retrieval of external dependencies.&nbsp; Since not everyone uses rake for their build process, I decided to create a simple tool that could be consumed by any build process.
+  In my <a href="https://lostechies.com/derekgreer/2011/09/20/dependency-management-in-net-using-nuget-without-visual-studio/">last article</a>, I demonstrated how my team is currently using NuGet.exe from our rake build to facilitate application-level, build-time retrieval of external dependencies.&nbsp; Since not everyone uses rake for their build process, I decided to create a simple tool that could be consumed by any build process.
 </p>
 
 <p>

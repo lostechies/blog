@@ -33,7 +33,7 @@ Then use the helper by providing the parameters it needs&#8230;
 <pre class="brush: csharp" >@tabs(
   new Tab { Text = "Google.com", Url = "http://google.com" },
   new Tab { Text = "Hugoware.net", Url = "http://hugoware.net" },
-  new Tab { Text = "LosTechies.com", Url = "http://lostechies.com" })</pre>
+  new Tab { Text = "LosTechies.com", Url = "https://lostechies.com" })</pre>
 
 This works pretty well for the most part but it is pretty limited in what it can do. Lets look at another approach.
 

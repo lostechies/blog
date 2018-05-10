@@ -16,7 +16,7 @@ redirect_from: "/blogs/gabrielschenker/archive/2009/01/21/real-swiss-don-t-need-
 ---
 ## Introduction
 
-> _You may ask yourself why I publish another article about the **single responsibility principle (SRP)**. We already had some very good post about this principle at Los Techies, e.g. [here](http://www.lostechies.com/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx), [here](http://www.lostechies.com/blogs/jason_meridth/archive/2008/03/29/ptom-single-responsibility-principle.aspx) and [here](http://www.lostechies.com/blogs/rhouston/archive/2008/10/05/single-responsibility-versus-needless-complexity.aspx) to mention just a few. Well, the reason is that I consider this principle **one of the most helpful ones to achieve higher quality of code and better design** when applied consistently. And I want to approach this topic from a different standpoint than is usually done by other authors&#8230;_
+> _You may ask yourself why I publish another article about the **single responsibility principle (SRP)**. We already had some very good post about this principle at Los Techies, e.g. [here](https://lostechies.com/blogs/sean_chambers/archive/2008/03/15/ptom-single-responsibility-principle.aspx), [here](https://lostechies.com/blogs/jason_meridth/archive/2008/03/29/ptom-single-responsibility-principle.aspx) and [here](https://lostechies.com/blogs/rhouston/archive/2008/10/05/single-responsibility-versus-needless-complexity.aspx) to mention just a few. Well, the reason is that I consider this principle **one of the most helpful ones to achieve higher quality of code and better design** when applied consistently. And I want to approach this topic from a different standpoint than is usually done by other authors&#8230;_
 
 What does **SRP** mean? The theoretical explanation (you might have read or hear many times already) is
 
@@ -42,11 +42,11 @@ But wait a moment. Swiss people are not descendants of the Romans&#8230;
 
 A real Swiss does not need to follow the **single responsibility principle**. That&#8217;s something for others but not for us. As a representative sample I want to present you one of our most successful products: the **Swiss army knife**.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="244" alt="swiss-knife" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/swiss-knife_thumb.jpg" width="244" align="left" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/swiss-knife_2.jpg) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="244" alt="swiss-knife" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/swiss-knife_thumb.jpg" width="244" align="left" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/swiss-knife_2.jpg) 
 
 One can clearly see that this product has not just one single responsibility. There are several responsibilities assembled in a single unit. We have 2 knifes, one can opener, one bottle opener, an awl and a corkscrew. This unit is very handy and fits well into the pocket of every **real** Swiss man.
 
-&nbsp; [<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="244" alt="cybertool_lite-lg" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/cybertool_lite-lg_thumb.jpg" width="244" align="right" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/cybertool_lite-lg_2.jpg)
+&nbsp; [<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="244" alt="cybertool_lite-lg" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/cybertool_lite-lg_thumb.jpg" width="244" align="right" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/cybertool_lite-lg_2.jpg)
 
 Some people prefer to even pack more functionality into this unit as you can see in this second picture at right.
 
@@ -58,7 +58,7 @@ Some people prefer to even pack more functionality into this unit as you can see
 
 &nbsp;
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="244" alt="giant" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/giant_thumb.jpg" width="244" align="left" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/giant_2.jpg)Well, this one is even better! But now I have to admit, that not every pocket is big enough for **this** tool. Thus only the **strongest** Swiss men get one.
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="244" alt="giant" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/giant_thumb.jpg" width="244" align="left" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/giant_2.jpg)Well, this one is even better! But now I have to admit, that not every pocket is big enough for **this** tool. Thus only the **strongest** Swiss men get one.
 
 &nbsp;
 
@@ -74,19 +74,19 @@ Some people prefer to even pack more functionality into this unit as you can see
 
 &nbsp;
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="244" alt="SWISS_ALPENFLAGE_HELMET" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/SWISS_ALPENFLAGE_HELMET_thumb.jpg" width="141" align="right" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/SWISS_ALPENFLAGE_HELMET.jpg)Another tool comes to my mind when remembering the time I passed in the Swiss army. Our helmet is also considered to be a multi purpose tool. We primarily use it to protect our heads from injuries but it has as well served me many times as a pillow. It is even considered as an anti-hand-grenade tool. We were told that if a hand grenade is thrown at us and we have no time or possibility to throw it away then we should just put our helmet over it and burden it with our body. To be honest, I&#8217;ve never tried it&#8230; 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="244" alt="SWISS_ALPENFLAGE_HELMET" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/SWISS_ALPENFLAGE_HELMET_thumb.jpg" width="141" align="right" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/SWISS_ALPENFLAGE_HELMET.jpg)Another tool comes to my mind when remembering the time I passed in the Swiss army. Our helmet is also considered to be a multi purpose tool. We primarily use it to protect our heads from injuries but it has as well served me many times as a pillow. It is even considered as an anti-hand-grenade tool. We were told that if a hand grenade is thrown at us and we have no time or possibility to throw it away then we should just put our helmet over it and burden it with our body. To be honest, I&#8217;ve never tried it&#8230; 
 
 &nbsp;
 
 &nbsp;
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="153" alt="CowWithBall" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/CowWithBall_thumb.jpg" width="244" align="left" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/CowWithBall_2.jpg)Hey, wait a moment. I can give you another sample where we clearly show to the rest of the world that the SRP is not for us. It&#8217;s our famous Swiss cows. They are not only good for providing us milk and eventually meet; no, they are also very good soccer players! Currently we have 3 of them in our national soccer team.
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="153" alt="CowWithBall" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/CowWithBall_thumb.jpg" width="244" align="left" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/CowWithBall_2.jpg)Hey, wait a moment. I can give you another sample where we clearly show to the rest of the world that the SRP is not for us. It&#8217;s our famous Swiss cows. They are not only good for providing us milk and eventually meet; no, they are also very good soccer players! Currently we have 3 of them in our national soccer team.
 
 &nbsp;
 
 &nbsp;
 
-&nbsp;[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="216" alt="Milka-Cow-25254" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/Milka-Cow-25254_thumb.jpg" width="244" align="left" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/Milka-Cow-25254_2.jpg) 
+&nbsp;[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="216" alt="Milka-Cow-25254" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/Milka-Cow-25254_thumb.jpg" width="244" align="left" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/Milka-Cow-25254_2.jpg) 
 
 Not to forget the famous Milka cow! Here a cow is used as an advertising medium. This is a very important responsibility by its own.
 
@@ -106,9 +106,9 @@ Imagine one of the items of a Swiss army knife gets bent. It would possibly rend
 
 Or imagine that I am really happy with my Swiss army knife but just one element does not totally fit my needs. I would like to replace just this element with another one which is better suited to my needs. I cannot do it! It&#8217;s just not possible without (negatively) affecting all the other elements of the knife.
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="163" alt="venezia-besteck_hq" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/venezia-besteck_hq_thumb.jpg" width="244" align="right" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/venezia-besteck_hq_2.jpg)Imagine having a nice dinner with your wife or husband in a first class restaurant. You certainly have had lots of knifes, forks and spoons. Each element serving for a single purpose. There are knifes to cut steaks or pizzas or knifes to eat fish and so on. Each item is optimized for it&#8217;s specific task. If one of these items gets broken or if it doesn&#8217;t fulfill it&#8217;s duty any more then it can be replaced without affecting the other items. 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="163" alt="venezia-besteck_hq" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/venezia-besteck_hq_thumb.jpg" width="244" align="right" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/venezia-besteck_hq_2.jpg)Imagine having a nice dinner with your wife or husband in a first class restaurant. You certainly have had lots of knifes, forks and spoons. Each element serving for a single purpose. There are knifes to cut steaks or pizzas or knifes to eat fish and so on. Each item is optimized for it&#8217;s specific task. If one of these items gets broken or if it doesn&#8217;t fulfill it&#8217;s duty any more then it can be replaced without affecting the other items. 
 
-&nbsp;[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="153" alt="190_gedeck_03" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/190_gedeck_03_thumb.gif" width="194" align="left" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/190_gedeck_03_2.gif)
+&nbsp;[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="153" alt="190_gedeck_03" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/190_gedeck_03_thumb.gif" width="194" align="left" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/190_gedeck_03_2.gif)
 
 The same can be said for the glasses and dishes. It doesn&#8217;t make sense to have only one single glass for all kinds of beverages. If you like wine then you know what I mean. Red wine&nbsp; tastes significantly better in bigger glasses than white wine.
 
@@ -236,7 +236,7 @@ Now let&#8217;s analyze which and how many responsibilities the above code has:
 
 One of the first concepts one can find is an implicit model. Since we are importing product data from an XML document it makes sense to introduce a **Product** entity as our model
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="291" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_1.png" width="644" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_4.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="291" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_1.png" width="644" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_4.png) 
 
 By carefully analyzing the above code snippet and the given XML document we can define the following model
 
@@ -262,7 +262,7 @@ By carefully analyzing the above code snippet and the given XML document we can 
 
 We also can recognize a distinct concern of loading a list of products from a data source. In this case the data source is a XML document
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="291" alt="image" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_2.png" width="644" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/image_6.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="291" alt="image" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_thumb_2.png" width="644" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/image_6.png) 
 
 Wouldn&#8217;t it make sense to have a specific component whose concern it is to load a list of products from a data source and just return a list of instances of type Product? Some thing like this:
 
@@ -818,7 +818,7 @@ The implementation of the (file-) loader is also very simple
 
 The image below shows the class diagram of the fully refactored sample. There are many components involved in this little sample. But each component is very simple and has just one single responsibility.
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="330" alt="Model" src="http://lostechies.com/content/gabrielschenker/uploads/2011/03/Model_thumb.png" width="644" border="0" />](http://lostechies.com/content/gabrielschenker/uploads/2011/03/Model_2.png)
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="330" alt="Model" src="https://lostechies.com/content/gabrielschenker/uploads/2011/03/Model_thumb.png" width="644" border="0" />](https://lostechies.com/content/gabrielschenker/uploads/2011/03/Model_2.png)
 
 ## The sample code
 

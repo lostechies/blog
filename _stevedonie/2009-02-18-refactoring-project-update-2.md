@@ -18,7 +18,7 @@ So, work on the refactoring project continues. We had a meeting with some of the
 
 So following up on my previous post regarding Hudson and CCTray, we now have all good builds!
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="218" alt="HudsonAllGood" src="http://lostechies.com/content/stevedonie/uploads/2011/03/HudsonAllGood_thumb.png" width="505" border="0" />](http://lostechies.com/content/stevedonie/uploads/2011/03/HudsonAllGood.png)
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="218" alt="HudsonAllGood" src="https://lostechies.com/content/stevedonie/uploads/2011/03/HudsonAllGood_thumb.png" width="505" border="0" />](https://lostechies.com/content/stevedonie/uploads/2011/03/HudsonAllGood.png)
 
 &nbsp;
 

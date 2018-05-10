@@ -29,7 +29,7 @@ However, the HOW for ActionResults usually winds up opening a huge can o’ worm
 
 We could go the route of filters, and perform property injection for the pieces needed in the ExecuteResult method.&#160; But property injection is mostly a hack, and should only be reserved in extreme cases.
 
-Instead, I’ll take a route similar to the “[Better Action Result](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/12/12/enabling-ioc-in-asp-net-actionresults-or-a-better-actionresult.aspx)” post, and clearly separate the WHAT of an action result from the HOW.&#160; The result solidifies the controller’s responsibility as a traffic controller, solely directing traffic.
+Instead, I’ll take a route similar to the “[Better Action Result](https://lostechies.com/blogs/jimmy_bogard/archive/2009/12/12/enabling-ioc-in-asp-net-actionresults-or-a-better-actionresult.aspx)” post, and clearly separate the WHAT of an action result from the HOW.&#160; The result solidifies the controller’s responsibility as a traffic controller, solely directing traffic.
 
 ### The WHAT: an action method result
 

@@ -12,7 +12,7 @@ categories:
   - TDD
 redirect_from: "/blogs/joeydotnet/archive/2007/10/25/monorail-controller-test-analysis-problem-and-resolution.aspx/"
 ---
-Last night, my fellow [LosTechies](http://lostechies.com/) geek [Jason](//www.lostechies.com/blogs/jason_meridth/default.aspx),&nbsp;wanted
+Last night, my fellow [LosTechies](https://lostechies.com/) geek [Jason](//www.lostechies.com/blogs/jason_meridth/default.aspx),&nbsp;wanted
   
 me to check out something&nbsp;he was trying to do in a MonoRail controller
   

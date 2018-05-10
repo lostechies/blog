@@ -12,7 +12,7 @@ categories:
   - JavaScript
   - JQuery
 ---
-A while back, I wrote about [asynchronous template loading](http://lostechies.com/derickbailey/2012/02/09/asynchronously-load-html-templates-for-backbone-views/) for Backbone applications. At the bottom of that post, I showed some code that I wrote which would limit the number of AJAX calls that are made to the server, to one per resource. That way we wouldn&#8217;t end up with multiple calls to the same template, wasting precious network time.
+A while back, I wrote about [asynchronous template loading](https://lostechies.com/derickbailey/2012/02/09/asynchronously-load-html-templates-for-backbone-views/) for Backbone applications. At the bottom of that post, I showed some code that I wrote which would limit the number of AJAX calls that are made to the server, to one per resource. That way we wouldn&#8217;t end up with multiple calls to the same template, wasting precious network time.
 
 {% gist 2131536 1.js %}
 

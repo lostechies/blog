@@ -11,7 +11,7 @@ categories:
   - Backbone
   - JavaScript
 ---
-In my last post on Backbone, I offered my opinion on why [I don&#8217;t look at Backbone as an MVC framework](http://lostechies.com/derickbailey/2011/12/23/backbone-js-is-not-an-mvc-framework/). I left off with a statement about forgetting the MV* family for a moment, and focusing on what&#8217;s really important: how the pieces of Backbone fit together to help us create better JavaScript application. What this really comes down is responsibility. What are each of the pieces of Backbone really responsible for?
+In my last post on Backbone, I offered my opinion on why [I don&#8217;t look at Backbone as an MVC framework](https://lostechies.com/derickbailey/2011/12/23/backbone-js-is-not-an-mvc-framework/). I left off with a statement about forgetting the MV* family for a moment, and focusing on what&#8217;s really important: how the pieces of Backbone fit together to help us create better JavaScript application. What this really comes down is responsibility. What are each of the pieces of Backbone really responsible for?
 
 ## Backbone.History
 
@@ -35,7 +35,7 @@ On a related not: A route is the tokenized representation of our application&#82
 
 As our application progresses, it moves through various states. Some of those states can be represented by simple tokens. For example, viewing an email in GMail can be represented with a token like this:
 
-<img title="Screen Shot 2011-12-23 at 2.24.45 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/12/Screen-Shot-2011-12-23-at-2.24.45-PM.png" border="0" alt="Screen Shot 2011 12 23 at 2 24 45 PM" width="175" height="30" />
+<img title="Screen Shot 2011-12-23 at 2.24.45 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/12/Screen-Shot-2011-12-23-at-2.24.45-PM.png" border="0" alt="Screen Shot 2011 12 23 at 2 24 45 PM" width="175" height="30" />
 
 This token is a bookmark-able state that the application transitioned into. When I hit refresh on my browser window, GMail will display the same email message to me that I saw when I clicked on the mail item originally.
 
@@ -97,7 +97,7 @@ Backbone.Events is the little powerhouse that facilitates nearly every aspect of
 
 {% gist 152209 events.js %}
 
-Events let us decouple the various pieces of our app while still providing a unified way for all of those pieces to communicate. Aside from being used in every other piece of Backbone, we can also use Backbone.Events in our own objects. One of my personal favorite ways to do this is through the use of an [event aggregator](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/) to decouple and facilitate communication between higher level application concerns.
+Events let us decouple the various pieces of our app while still providing a unified way for all of those pieces to communicate. Aside from being used in every other piece of Backbone, we can also use Backbone.Events in our own objects. One of my personal favorite ways to do this is through the use of an [event aggregator](https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/) to decouple and facilitate communication between higher level application concerns.
 
 {% gist 1522091 vent.js %}
 
@@ -105,4 +105,4 @@ Events let us decouple the various pieces of our app while still providing a uni
 
 Understanding what each of these pieces is responsible for will help guide our decisions in how we use them. Can I put this jQuery selector and DOM manipulation directly in my model? Sure, I can. Should I? Heh &#8211; no. A clear separation between DOM manipulation and data manipulation is important. Separating the other concerns of the application are equally as important, of course.
 
-Here&#8217;s the kicker, though. You&#8217;ll notice that none of what I&#8217;ve talked about in any of these responsibilities includes workflow, large scale structure, managing dependencies or any of a number of other subjects. There&#8217;s a lot that Backbone gives us, and it&#8217;s a great tool set to own. But beyond a specific set of tools that should be used to facilitate a specific set of responsibilities in our applications, you still need to know [how to write good JavaScript](http://www.watchmecode.net/). And you [still need to write your own code](http://lostechies.com/derickbailey/2011/08/30/dont-limit-your-backbone-apps-to-backbone-constructs/) to handle the rest of your applications&#8217; needs.
+Here&#8217;s the kicker, though. You&#8217;ll notice that none of what I&#8217;ve talked about in any of these responsibilities includes workflow, large scale structure, managing dependencies or any of a number of other subjects. There&#8217;s a lot that Backbone gives us, and it&#8217;s a great tool set to own. But beyond a specific set of tools that should be used to facilitate a specific set of responsibilities in our applications, you still need to know [how to write good JavaScript](http://www.watchmecode.net/). And you [still need to write your own code](https://lostechies.com/derickbailey/2011/08/30/dont-limit-your-backbone-apps-to-backbone-constructs/) to handle the rest of your applications&#8217; needs.

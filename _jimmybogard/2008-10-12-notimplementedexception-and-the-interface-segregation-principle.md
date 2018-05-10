@@ -12,7 +12,7 @@ categories:
   - Design
 redirect_from: "/blogs/jimmy_bogard/archive/2008/10/12/notimplementedexception-and-the-interface-segregation-principle.aspx/"
 ---
-This week, Derrick Bailey will be in town (Austin) to talk about the [SOLID principles](http://www.lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx).&#160; One of the hardest ones to talk about, and find examples for, is the [Interface Segregation Principle](http://www.lostechies.com/blogs/rhouston/archive/2008/03/14/ptom-the-interface-segregation-principle.aspx).&#160; The ISP states:
+This week, Derrick Bailey will be in town (Austin) to talk about the [SOLID principles](https://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx).&#160; One of the hardest ones to talk about, and find examples for, is the [Interface Segregation Principle](https://lostechies.com/blogs/rhouston/archive/2008/03/14/ptom-the-interface-segregation-principle.aspx).&#160; The ISP states:
 
 > _CLIENTS SHOULD NOT BE FORCED TO DEPEND UPON INTERFACES THAT THEY DO NOT USE_
 

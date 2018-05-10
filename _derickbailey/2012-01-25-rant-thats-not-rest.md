@@ -20,7 +20,7 @@ Except that it&#8217;s all wrong. Every last bit of it.
 
 Frankly, I&#8217;m tired of this pedantic, obnoxious response. The same people that continuously say &#8220;no one does it right&#8221; can&#8217;t seem to tell me why it&#8217;s wrong or point me to a resource that does do it right.
 
-<img title="ThatsNotREST.jpg" src="http://lostechies.com/content/derickbailey/uploads/2012/01/ThatsNotREST.jpg" border="0" alt="ThatsNotREST" width="500" height="503" />
+<img title="ThatsNotREST.jpg" src="https://lostechies.com/content/derickbailey/uploads/2012/01/ThatsNotREST.jpg" border="0" alt="ThatsNotREST" width="500" height="503" />
 
 Here&#8217;s the deal. If everyone does it wrong, then write a blog post or a book or a screencast or something that tells the world how to do it right. Until you can point people to what REST actually is, stop telling everyone that no one does REST right.
 

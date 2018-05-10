@@ -18,7 +18,7 @@ tags:
 ---
 ### Overview
 
-In [my previous post](http://lostechies.com/josharnold/2012/11/11/some-foundational-ideas-for-automated-testing/) I talked about some foundational ideas for automated testing. Rather than continuing on with conceptual points, let’s take a look at an example of how we do automated testing in the world of Fubu.
+In [my previous post](https://lostechies.com/josharnold/2012/11/11/some-foundational-ideas-for-automated-testing/) I talked about some foundational ideas for automated testing. Rather than continuing on with conceptual points, let’s take a look at an example of how we do automated testing in the world of Fubu.
 
 > Note:
   

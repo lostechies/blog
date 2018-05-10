@@ -12,11 +12,11 @@ categories:
   - Agile Teams
 redirect_from: "/blogs/joe_ocampo/archive/2008/03/27/hanging-your-code-out-to-dry.aspx/"
 ---
-I was speaking with <a href="http://www.lostechies.com/blogs/marcus_bratton/" target="_blank">Marcus Bratton</a> the other day about code reviews. We both agreed that they are very valuable but finding the time is probably the most difficult aspect of any code review. 
+I was speaking with <a href="https://lostechies.com/blogs/marcus_bratton/" target="_blank">Marcus Bratton</a> the other day about code reviews. We both agreed that they are very valuable but finding the time is probably the most difficult aspect of any code review. 
 
 Paired Programming helps to eliminate the need for code reviews but paired programming caries waste of its own when it comes to menial task that need to be accomplished such as HTML. 
 
-We practice an approach we coined “[Complexity Based Programming](http://www.lostechies.com/blogs/joe_ocampo/archive/2007/09/12/complexity-based-programming.aspx)”. The approach allows us to focus our pairing on highly sensitive areas of our code and leave the lower risk task to single individuals. A problem occurs with both approaches in that certain refactoring exercises have failed to be accomplished due to pressure from management or the project in general. So developers begin to cut corners and compromise the integrity of the code base resulting in technical debt. The issue is that the code base isn’t transparent enough that you could readily see this. 
+We practice an approach we coined “[Complexity Based Programming](https://lostechies.com/blogs/joe_ocampo/archive/2007/09/12/complexity-based-programming.aspx)”. The approach allows us to focus our pairing on highly sensitive areas of our code and leave the lower risk task to single individuals. A problem occurs with both approaches in that certain refactoring exercises have failed to be accomplished due to pressure from management or the project in general. So developers begin to cut corners and compromise the integrity of the code base resulting in technical debt. The issue is that the code base isn’t transparent enough that you could readily see this. 
 
 As Agilest we look to our <a href="http://martinfowler.com/articles/continuousIntegration.html" target="_blank">CI server’s</a> state to give us feedback on the health of our code base. We also use tools such as <a href="http://www.ncover.com/" target="_blank">NCover</a> to give us the test coverage state. But this doesn’t necessarily give us our health. It is the equivalent of looking at Lance Armstrong when he had cancer and saying, “This guy’s health is great, look at all the races he is winning.” Little did you know he had cancer growing in his body that is slowly threatening his life? 
 
@@ -34,13 +34,13 @@ Then developers can walk by the “code line” as tell if you missed a spot or 
 
 Here is a screen shot of a class file from an awesome OSS project! 
 
-[<img src="http://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Good_File_thumb.jpg" style="border: 0px none" alt="Good_File" border="0" height="383" width="644" />](http://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Good_File_2.jpg) 
+[<img src="https://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Good_File_thumb.jpg" style="border: 0px none" alt="Good_File" border="0" height="383" width="644" />](https://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Good_File_2.jpg) 
 
 As you can see nice, if you just performed a cursory glance of this code hanging on a line you wouldn’t be too concerned about your teams code. 
 
 Now check this out! 
 
-[<img src="http://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Bad_Need_Refactoring_thumb.jpg" style="border: 0px none" alt="Bad_Need_Refactoring" border="0" height="367" width="644" />](http://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Bad_Need_Refactoring_2.jpg) 
+[<img src="https://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Bad_Need_Refactoring_thumb.jpg" style="border: 0px none" alt="Bad_Need_Refactoring" border="0" height="367" width="644" />](https://lostechies.com/content/joeocampo/uploads/2011/03Hangingyourcodeouttodry_E640/Bad_Need_Refactoring_2.jpg) 
 
 Yes this 30 page monster is ONE class!!! 
 

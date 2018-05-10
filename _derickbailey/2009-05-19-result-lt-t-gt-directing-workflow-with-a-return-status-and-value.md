@@ -16,9 +16,9 @@ categories:
   - Workflow
 redirect_from: "/blogs/derickbailey/archive/2009/05/19/result-lt-t-gt-directing-workflow-with-a-return-status-and-value.aspx/"
 ---
-I often code user interfaces that have some sort of cancel button on them. For example, in my upcoming ‘[Decoupling Workflow](http://www.lostechies.com/blogs/derickbailey/archive/2009/05/18/i-m-presenting-at-austin-code-camp-2009.aspx)’ presentation, I have the following screen:
+I often code user interfaces that have some sort of cancel button on them. For example, in my upcoming ‘[Decoupling Workflow](https://lostechies.com/blogs/derickbailey/archive/2009/05/18/i-m-presenting-at-austin-code-camp-2009.aspx)’ presentation, I have the following screen:
 
-[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="257" alt="New Employee - Info" src="http://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeInfo_thumb_05BF8DF7.png" width="470" border="0" />](http://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeInfo_78597AF0.png) 
+[<img style="border-right: 0px;border-top: 0px;border-left: 0px;border-bottom: 0px" height="257" alt="New Employee - Info" src="https://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeInfo_thumb_05BF8DF7.png" width="470" border="0" />](https://lostechies.com/content/derickbailey/uploads/2011/03/NewEmployeeInfo_78597AF0.png) 
 
 Notice the nice cancel button on the form. The trick to this situation is that I need to have my workflow code understand whether or not I clicked Next or clicked Cancel. Depending on the button that was clicked, I need to do something different in the workflow.&#160; If I click cancel, throw away all of the data that was entered on the form. If I click next, though, I need to store all of the data and continue on to the next screen. 
 

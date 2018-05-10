@@ -18,7 +18,7 @@ categories:
   - Unittests
 redirect_from: "/blogs/hex/archive/2009/09/17/video-of-the-continuous-integration-workshop.aspx/"
 ---
-Early this week we&#160; ( [Jeffrey Palermo](http://jeffreypalermo.com) and I ) gave a [Continuous Integration Workshop](http://www.lostechies.com/blogs/hex/archive/2009/09/10/free-continuous-integration-workshop-in-austin-tuesday-sept-15th-1pm-5pm.aspx) in Austin.&#160; We were able to record the workshop and our company [Headspring Systems](http://Headspringsystems.com) made the recordings available on their website. There is just under 3 hours of video covering the following topics:
+Early this week we&#160; ( [Jeffrey Palermo](http://jeffreypalermo.com) and I ) gave a [Continuous Integration Workshop](https://lostechies.com/blogs/hex/archive/2009/09/10/free-continuous-integration-workshop-in-austin-tuesday-sept-15th-1pm-5pm.aspx) in Austin.&#160; We were able to record the workshop and our company [Headspring Systems](http://Headspringsystems.com) made the recordings available on their website. There is just under 3 hours of video covering the following topics:
 
   * reducing risks using CI 
   * automated builds 

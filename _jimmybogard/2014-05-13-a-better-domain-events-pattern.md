@@ -11,7 +11,7 @@ categories:
   - DomainDrivenDesign
   - EntityFramework
 ---
-[Domain events](http://www.udidahan.com/2009/06/14/domain-events-salvation/) are one of the final patterns needed to create a [fully encapsulated domain model](http://lostechies.com/jimmybogard/2010/02/04/strengthening-your-domain-a-primer/) – one that fully enforces a consistency boundary and invariants. The need for domain events comes from a desire to inject services into domain models. What we really want is to create an encapsulated domain model, but decouple ourselves from potential side effects and isolate those explicitly. The original example I gave looked something like this:
+[Domain events](http://www.udidahan.com/2009/06/14/domain-events-salvation/) are one of the final patterns needed to create a [fully encapsulated domain model](https://lostechies.com/jimmybogard/2010/02/04/strengthening-your-domain-a-primer/) – one that fully enforces a consistency boundary and invariants. The need for domain events comes from a desire to inject services into domain models. What we really want is to create an encapsulated domain model, but decouple ourselves from potential side effects and isolate those explicitly. The original example I gave looked something like this:
 
 {% gist 076e02e18d00eff723b4 %}
 

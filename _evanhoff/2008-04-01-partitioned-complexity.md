@@ -66,7 +66,7 @@ As you can see, we are dealing with an exponential problem.
 
 Here are the numbers when dealing with an application made of variables who can have 6 states:
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="323" src="http://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/PartitionedComplexity_DC2E/states_thumb1.png" width="291" border="0" />](http://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/PartitionedComplexity_DC2E/states3.png) 
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="323" src="https://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/PartitionedComplexity_DC2E/states_thumb1.png" width="291" border="0" />](https://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/PartitionedComplexity_DC2E/states3.png) 
 
 > 
 That&#8217;s quite a lot of states for a program with only 12 variables.

@@ -13,8 +13,8 @@ redirect_from: "/blogs/jimmy_bogard/archive/2009/07/08/refactoring-challenge-par
 ---
 Other posts in this series:
 
-  * [Refactoring challenge – cry for help](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/07/06/refactoring-challenge.aspx)
-  * [Part 1 – Examination](http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/07/07/refactoring-challenge-part-1-examination.aspx)
+  * [Refactoring challenge – cry for help](https://lostechies.com/blogs/jimmy_bogard/archive/2009/07/06/refactoring-challenge.aspx)
+  * [Part 1 – Examination](https://lostechies.com/blogs/jimmy_bogard/archive/2009/07/07/refactoring-challenge-part-1-examination.aspx)
 
 In the last part of this series, I took a closer look at the code smells found by commenters, which included:
 

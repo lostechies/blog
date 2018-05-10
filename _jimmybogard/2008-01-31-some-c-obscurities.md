@@ -62,7 +62,7 @@ i = 3;
 
 [](http://11011.net/software/vspaste)
 
-Note that I have no problems assigning int values to the Nullable<int> type, as the [appropriate cast operators](http://lostechies.com/blogs/jimmy_bogard/archive/2007/12/03/dealing-with-primitive-obsession.aspx) have been defined.&nbsp; Declaring a nullable type is fairly ugly using the full generic notation, so C# has a nice shortcut:
+Note that I have no problems assigning int values to the Nullable<int> type, as the [appropriate cast operators](https://lostechies.com/blogs/jimmy_bogard/archive/2007/12/03/dealing-with-primitive-obsession.aspx) have been defined.&nbsp; Declaring a nullable type is fairly ugly using the full generic notation, so C# has a nice shortcut:
 
 <pre><span style="color: blue">int</span>? i;
 i = <span style="color: blue">null</span>;

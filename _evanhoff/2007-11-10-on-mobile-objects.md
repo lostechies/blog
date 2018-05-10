@@ -26,7 +26,7 @@ It really depends on the scenario. In the &#8220;distributed object&#8221; conte
 In that particular style of design, you might create an object on the server, and get a proxy to it on the client. The client invokes methods which then actually run on the server. 
 
 The reason those styles of design are bad is that they tend to be very chatty with the traffic going across the network. You can imagine the amount of network traffic required when a property getter requires a roundtrip to the server. This ties directly into the Fallacies of Distributed Computing.   
-<http://www.lostechies.com/blogs/evan_hoff/archive/2007/10/24/the-8-fallacies-of-distributed-computing.aspx> 
+<https://lostechies.com/blogs/evan_hoff/archive/2007/10/24/the-8-fallacies-of-distributed-computing.aspx> 
 
 That style of design forgets that there is latency going across the network (among other things). 
 

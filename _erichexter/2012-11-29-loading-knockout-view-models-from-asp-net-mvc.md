@@ -14,7 +14,7 @@ categories:
   - JavaScript
   - knockoutJs
 ---
-This is a little deep dive that came out of a previous post on my [SignalR Series](http://lostechies.com/erichexter/2012/11/12/code-review-of-a-publishsubscribe-architecture-using-signalr-in-home-automation-part-4/).
+This is a little deep dive that came out of a previous post on my [SignalR Series](https://lostechies.com/erichexter/2012/11/12/code-review-of-a-publishsubscribe-architecture-using-signalr-in-home-automation-part-4/).
 
 &nbsp;
 

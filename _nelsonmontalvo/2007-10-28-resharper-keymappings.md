@@ -17,6 +17,6 @@ I&#8217;m afraid that I&#8217;m too used to ReSharper and none of the Visual Stu
 
 So I changed it back:
 
-[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="324" alt="image" src="http://www.lostechies.com/blogs/nelson_montalvo/WindowsLiveWriter/ReSharperKeymappings_3669/image_thumb.png" width="644" border="0" />](http://www.lostechies.com/blogs/nelson_montalvo/WindowsLiveWriter/ReSharperKeymappings_3669/image_2.png)
+[<img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" height="324" alt="image" src="https://lostechies.com/blogs/nelson_montalvo/WindowsLiveWriter/ReSharperKeymappings_3669/image_thumb.png" width="644" border="0" />](https://lostechies.com/blogs/nelson_montalvo/WindowsLiveWriter/ReSharperKeymappings_3669/image_2.png)
 
 As somebody on the team once said, Visual Studio is just a glorified form of Notepad without ReSharper. lol

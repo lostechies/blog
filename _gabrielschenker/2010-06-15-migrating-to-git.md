@@ -51,7 +51,7 @@ This seems to work for us.
 
 ## Workflow
 
-The workflow completely changes when migrating from SVN to Git. Based on various posts of [Jason Meridth](http://www.lostechies.com/blogs/jason_meridth/default.aspx) and also his [presentation](http://www.lostechies.com/blogs/jason_meridth/archive/2010/05/24/my-quot-git-branching-and-workflows-quot-presentation-at-austin-code-camp-2010.aspx) at Code Camp Austin 2010 as well as on the various posts of [Derrick Bailey](http://www.lostechies.com/blogs/derickbailey/default.aspx) we came up with the following workflow for our team.
+The workflow completely changes when migrating from SVN to Git. Based on various posts of [Jason Meridth](https://lostechies.com/blogs/jason_meridth/default.aspx) and also his [presentation](https://lostechies.com/blogs/jason_meridth/archive/2010/05/24/my-quot-git-branching-and-workflows-quot-presentation-at-austin-code-camp-2010.aspx) at Code Camp Austin 2010 as well as on the various posts of [Derrick Bailey](https://lostechies.com/blogs/derickbailey/default.aspx) we came up with the following workflow for our team.
 
   1. To start working with a git repository open a bash shell in the directory where you want to clone the repo to (in **Explorer** right click on the folder and select “Git Bash here”) 
     <font face="Courier New">git clone </font><font face="Courier New"><a href="http://yourname@servername:56789/git/projects/te6.git">http://yourname@servername:56789/git/projects/te6.git</a> targetdir</font> 

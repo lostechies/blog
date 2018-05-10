@@ -12,10 +12,10 @@ categories:
 ---
 Posts in this series:
 
-  * [A Primer](http://lostechies.com/jimmybogard/2015/01/29/clean-tests-a-primer/ "Clean Tests: A Primer")
-  * [Building Test Types](http://lostechies.com/jimmybogard/2015/02/05/clean-tests-building-test-types/ "Clean Tests: Building Test Types")
-  * [Isolating Internal State](http://lostechies.com/jimmybogard/2015/02/17/clean-tests-isolating-internal-state/)
-  * [Isolating the Database](http://lostechies.com/jimmybogard/2015/03/02/clean-tests-isolating-the-database/)
+  * [A Primer](https://lostechies.com/jimmybogard/2015/01/29/clean-tests-a-primer/ "Clean Tests: A Primer")
+  * [Building Test Types](https://lostechies.com/jimmybogard/2015/02/05/clean-tests-building-test-types/ "Clean Tests: Building Test Types")
+  * [Isolating Internal State](https://lostechies.com/jimmybogard/2015/02/17/clean-tests-isolating-internal-state/)
+  * [Isolating the Database](https://lostechies.com/jimmybogard/2015/03/02/clean-tests-isolating-the-database/)
   * [Isolation with Fakes](https://lostechies.com/jimmybogard/2015/03/24/clean-tests-isolation-with-fakes/)
   * [Database Persistence](https://lostechies.com/jimmybogard/2015/04/07/clean-tests-database-peristence)
 

@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Agile
 ---
-Some of our big early agile projects in consulting gave us quite a big perspective in what works well in estimation techniques in our consulting business, and what doesn’t. We already [ditched the group estimation techniques of planning poker](http://lostechies.com/jimmybogard/2011/05/10/ditching-planning-poker/), finding the time to be largely a waste and its only benefits (group design, etc.) to be better served with other, more targeted activities. But what we kept for a while was exposing our estimations of sizing to the customer.
+Some of our big early agile projects in consulting gave us quite a big perspective in what works well in estimation techniques in our consulting business, and what doesn’t. We already [ditched the group estimation techniques of planning poker](https://lostechies.com/jimmybogard/2011/05/10/ditching-planning-poker/), finding the time to be largely a waste and its only benefits (group design, etc.) to be better served with other, more targeted activities. But what we kept for a while was exposing our estimations of sizing to the customer.
 
 Regardless if we did sprints or not, we would show the customer the estimated cost of stories:
 

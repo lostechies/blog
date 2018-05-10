@@ -13,7 +13,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2008/06/03/failures-of-aimless-large
 ---
 At the recent Austin Code Camp, I heard a few stories after my Legacy Code talk about teams attacking their legacy code in prolonged refactoring binges that never seemed to end.&nbsp; Never ending, because no one had a good idea of what success looked like.
 
-Once technical debt has built up to a certain point, some folks opt to [declare bankruptcy](http://www.lostechies.com/blogs/jimmy_bogard/archive/2007/07/05/when-technical-debt-leads-to-bankruptcy.aspx) and start over.&nbsp; A place I came from recently did this fairly regularly, about once every two years.&nbsp; It wasn&#8217;t that a new technology would solve new business problems (although this was how IT sold the re-work), but the current codebase was completely unable to change at the rate the business needed.
+Once technical debt has built up to a certain point, some folks opt to [declare bankruptcy](https://lostechies.com/blogs/jimmy_bogard/archive/2007/07/05/when-technical-debt-leads-to-bankruptcy.aspx) and start over.&nbsp; A place I came from recently did this fairly regularly, about once every two years.&nbsp; It wasn&#8217;t that a new technology would solve new business problems (although this was how IT sold the re-work), but the current codebase was completely unable to change at the rate the business needed.
 
 ### 
 

@@ -16,7 +16,7 @@ redirect_from: "/blogs/derickbailey/archive/2009/02/15/proactive-vs-reactive-val
 ---
 **Update:** There’s a wealth of knowledge out there that I just haven’t been aware of until now. Thanks to the many commenters of this post, other posts, and other conversations for the links and info. Here is a list of items that I’m finding to be very helpful in understanding what is only a surface level “validation” problem:
 
-  * <a href="http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/02/15/validation-in-a-ddd-world.aspx" target="_blank">Validation in a DDD World</a> 
+  * <a href="https://lostechies.com/blogs/jimmy_bogard/archive/2009/02/15/validation-in-a-ddd-world.aspx" target="_blank">Validation in a DDD World</a> 
   * <a href="http://devlicious.com/blogs/billy_mccafferty/archive/2009/02/17/a-response-to-validation-in-a-ddd-world.aspx" target="_blank">A response to Validation in a DDD world</a> 
   * <a href="http://jonathan-oliver.blogspot.com/2009/02/ddd-entity-validation-and-commandquery.html" target="_blank">DDD: Entity Validation and Command/Query Separation</a> 
   * <a href="http://jonathan-oliver.blogspot.com/2009/02/ddd-cqs-and-bounded-contexts.html" target="_blank">DDD: CQS and Bounded Contexts</a> 
@@ -41,11 +41,11 @@ There’s a whole host of stuff out there linked from these articles and posts, 
 
 &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-
 
-This post started as a comment in Sean’s post on <a href="http://www.lostechies.com/blogs/seanbiefeld/archive/2009/02/14/entity-validation-ideation.aspx" target="_blank">Entity Validation Ideation</a> but quickly grew. I’m hesitant to post separately because I believe the conversation should continue along the lines of what he was originally saying. There’s just so much junk tossing around in my head, though, I didn’t think it would be appropriate to post a 50 page diatribe in a comment. 🙂
+This post started as a comment in Sean’s post on <a href="https://lostechies.com/blogs/seanbiefeld/archive/2009/02/14/entity-validation-ideation.aspx" target="_blank">Entity Validation Ideation</a> but quickly grew. I’m hesitant to post separately because I believe the conversation should continue along the lines of what he was originally saying. There’s just so much junk tossing around in my head, though, I didn’t think it would be appropriate to post a 50 page diatribe in a comment. 🙂
 
 &#160;
 
-A while back, I asked the question “<a href="http://www.lostechies.com/blogs/derickbailey/archive/2008/10/15/ddd-question-where-does-input-validation-belong.aspx" target="_blank">Where does required info validation belong for an entity?</a>” There were a lot of good answers to that question and my team and I took some very interesting directions based on those answers. However, I still haven’t had the ‘validation’ question completely answered in my mind. Fortunately, I’ve got the brains of my fellow Los Techies (and coworker in this case), to keep me from giving in to the entropy that wants to keep me mediocre.
+A while back, I asked the question “<a href="https://lostechies.com/blogs/derickbailey/archive/2008/10/15/ddd-question-where-does-input-validation-belong.aspx" target="_blank">Where does required info validation belong for an entity?</a>” There were a lot of good answers to that question and my team and I took some very interesting directions based on those answers. However, I still haven’t had the ‘validation’ question completely answered in my mind. Fortunately, I’ve got the brains of my fellow Los Techies (and coworker in this case), to keep me from giving in to the entropy that wants to keep me mediocre.
 
 I love the theory that Sean is talking about &#8211; especially when stated as &#8216;proactive&#8217; vs &#8216;reactive&#8217;. I&#8217;ve had a hard time with this in practice, though. In the last few weeks – days, really &#8211; it seems to me that we need to have both proactive and reactive validation in our applications. 
 

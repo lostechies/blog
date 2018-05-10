@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - ASPNETMVC
 ---
-So that [better model binder](http://lostechies.com/jimmybogard/2009/03/18/a-better-model-binder/) I built a couple of years ago to address conditional model binding in ASP.NET MVC 1-2 is obsolete with the release of ASP.NET MVC 3. Instead, the concept of a [model binder provider](http://bradwilson.typepad.com/blog/2010/10/service-location-pt9-model-binders.html) allows this same functionality, fairly easily. Back in my [Put Your Controllers on a Diet](http://www.viddler.com/explore/mvcconf/videos/1/) talk at MVCConf, I showed how we can get rid of all those pesky “GetEntityById” calls out of our controller actions. We wanted to turn this:
+So that [better model binder](https://lostechies.com/jimmybogard/2009/03/18/a-better-model-binder/) I built a couple of years ago to address conditional model binding in ASP.NET MVC 1-2 is obsolete with the release of ASP.NET MVC 3. Instead, the concept of a [model binder provider](http://bradwilson.typepad.com/blog/2010/10/service-location-pt9-model-binders.html) allows this same functionality, fairly easily. Back in my [Put Your Controllers on a Diet](http://www.viddler.com/explore/mvcconf/videos/1/) talk at MVCConf, I showed how we can get rid of all those pesky “GetEntityById” calls out of our controller actions. We wanted to turn this:
 
 <pre class="code"><span style="color: blue">public </span><span style="color: #2b91af">ActionResult </span>Show(<span style="color: #2b91af">Guid </span>id)
 {

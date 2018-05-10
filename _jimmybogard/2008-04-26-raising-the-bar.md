@@ -11,7 +11,7 @@ categories:
   - Misc
 redirect_from: "/blogs/jimmy_bogard/archive/2008/04/25/raising-the-bar.aspx/"
 ---
-[Continuous improvement](http://www.lostechies.com/blogs/chad_myers/archive/2008/04/23/two-random-thoughts.aspx) is absolutely essential for any serious software developer.&nbsp; Personally, my drive for constant improvement is not so much the next shiny developer toy (though this happens occasionally), but the idea that there is always some way to deliver value to the customer better and cheaper than what I&#8217;m doing now.
+[Continuous improvement](https://lostechies.com/blogs/chad_myers/archive/2008/04/23/two-random-thoughts.aspx) is absolutely essential for any serious software developer.&nbsp; Personally, my drive for constant improvement is not so much the next shiny developer toy (though this happens occasionally), but the idea that there is always some way to deliver value to the customer better and cheaper than what I&#8217;m doing now.
 
 Driving personal improvement can be a great example to teammates, but for an entire team (or even teams you don&#8217;t work with) to improve, you&#8217;ll have to expand your horizons.&nbsp; You&#8217;ll need to [maximize the value of your keystrokes](http://www.codinghorror.com/blog/archives/000854.html), so to speak.
 

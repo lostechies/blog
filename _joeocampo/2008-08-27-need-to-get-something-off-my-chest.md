@@ -41,7 +41,7 @@ The key concept here is community. If you have an idea that is similar to a proj
   
 
 
-Now the context of the issue. I came across a <A href="http://monstersgotmy.net/post/2008/08/07/Surviving-a-Zombie-Apocalypse-Behavior-Driven-Development-Part-I.aspx" target="_blank">post today on BDD</A>. Looks very similar to <A href="http://www.lostechies.com/blogs/joe_ocampo/archive/2007/07/15/more-bdd-xbehave-madness.aspx" target="_blank">this post</A> but instead of anonymous delegates it uses lambdas.&nbsp; Cool idea and one that we are planning on implementing, oh wait we have that already. hmmmm??
+Now the context of the issue. I came across a <A href="http://monstersgotmy.net/post/2008/08/07/Surviving-a-Zombie-Apocalypse-Behavior-Driven-Development-Part-I.aspx" target="_blank">post today on BDD</A>. Looks very similar to <A href="https://lostechies.com/blogs/joe_ocampo/archive/2007/07/15/more-bdd-xbehave-madness.aspx" target="_blank">this post</A> but instead of anonymous delegates it uses lambdas.&nbsp; Cool idea and one that we are planning on implementing, oh wait we have that already. hmmmm??
 
 
   

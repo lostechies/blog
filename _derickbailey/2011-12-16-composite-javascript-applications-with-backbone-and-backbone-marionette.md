@@ -65,7 +65,7 @@ For more info on the application object, see [the documentation](https://github.
 
 ## How: Event Aggregation
 
-The \`Application\` object comes with an event aggregator built into it. You can call the \`.vent\` property of any Application instance and have full access to the Backbone Event system. I won&#8217;t go into any more detail about this right now, as you can [read up on the basics of how I use event aggregators in my previous blog post](http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/).
+The \`Application\` object comes with an event aggregator built into it. You can call the \`.vent\` property of any Application instance and have full access to the Backbone Event system. I won&#8217;t go into any more detail about this right now, as you can [read up on the basics of how I use event aggregators in my previous blog post](https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/).
 
 Of course you can still build your own event aggregator with one line of code.
 
@@ -75,9 +75,9 @@ In fact, this is all I&#8217;m doing in the Application object. I just put it th
 
 ## How: View Management
 
-In one of my recent blog posts on composite JS apps I talked about [the use of a region manager](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/), and the code that I wrote in that post has been migrated into Backbone.Marionette as the \`RegionManager\` object.
+In one of my recent blog posts on composite JS apps I talked about [the use of a region manager](https://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/), and the code that I wrote in that post has been migrated into Backbone.Marionette as the \`RegionManager\` object.
 
-The [intent and purpose of a RegionManager](http://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/) is the same as I&#8217;ve previously talked about. The difference in Marionette is how you access a RegionManager. You have two options: use the \`addRegions\` method on your Application instance, or manually create a RegionManager object. The choice gives you flexibility, allowing you to use a RegionManager without using the rest of Marionette, if you want to.
+The [intent and purpose of a RegionManager](https://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/) is the same as I&#8217;ve previously talked about. The difference in Marionette is how you access a RegionManager. You have two options: use the \`addRegions\` method on your Application instance, or manually create a RegionManager object. The choice gives you flexibility, allowing you to use a RegionManager without using the rest of Marionette, if you want to.
 
 The \`addRegions\` method on the Application object accepts a single parameter of a JavaScript object literal. The keys for this object become the names of the regions, and the value of each key should be a jQuery selector that points to the HTML DOM element that your region manager will manage:
 

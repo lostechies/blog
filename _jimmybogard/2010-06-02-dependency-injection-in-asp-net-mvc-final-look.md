@@ -14,11 +14,11 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/06/01/dependency-injection-in-a
 ---
 Other posts in this series:
 
-  * [Controllers](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/04/26/dependency-injection-in-asp-net-mvc-controllers.aspx) 
-  * [Contextual controller injection](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/04/28/dependency-injection-in-asp-net-mvc-contextual-controller-injection.aspx) 
-  * [Filters](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/05/03/dependency-injection-in-asp-net-mvc-filters.aspx) 
-  * [Action Results](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/05/04/dependency-injection-in-asp-net-mvc-action-results.aspx) 
-  * [Views](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/05/19/dependency-injection-in-asp-net-mvc-views.aspx) 
+  * [Controllers](https://lostechies.com/blogs/jimmy_bogard/archive/2010/04/26/dependency-injection-in-asp-net-mvc-controllers.aspx) 
+  * [Contextual controller injection](https://lostechies.com/blogs/jimmy_bogard/archive/2010/04/28/dependency-injection-in-asp-net-mvc-contextual-controller-injection.aspx) 
+  * [Filters](https://lostechies.com/blogs/jimmy_bogard/archive/2010/05/03/dependency-injection-in-asp-net-mvc-filters.aspx) 
+  * [Action Results](https://lostechies.com/blogs/jimmy_bogard/archive/2010/05/04/dependency-injection-in-asp-net-mvc-action-results.aspx) 
+  * [Views](https://lostechies.com/blogs/jimmy_bogard/archive/2010/05/19/dependency-injection-in-asp-net-mvc-views.aspx) 
 
 In this series, we’ve looked on how we can go beyond the normal entry point for dependency injection in ASP.NET MVC (controllers), to achieve some very powerful results by extending DI to filters, action results and views.&#160; We also looked at using the modern IoC container feature of nested containers to provide injection of contextual items related to both the controller and the view.
 
@@ -39,7 +39,7 @@ Controller actions are testable because of the ActionResult concept.&#160; I can
 
 The difficulty comes in to play when it becomes harder to understand what is needed for the HOW versus the pieces describing the WHAT.&#160; From looking at this picture, can you tell me which is which?
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="ClassDiagram1" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/ClassDiagram1_thumb_58324789.png" width="455" height="277" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/ClassDiagram1_44192B00.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="ClassDiagram1" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/ClassDiagram1_thumb_58324789.png" width="455" height="277" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/ClassDiagram1_44192B00.png) 
 
 Offhand, I have no idea.&#160; The ViewName member I’m familiar with, but what about MasterName in the ViewResult class?&#160; Then you have a “FindView” method, which seems like a rather important method.&#160; The other pieces are all mutable, that is, read and write.&#160; Poring over the source code, none of these describe the WHAT, that’s just the ViewName and MasterName.&#160; Those are the pieces the ViewEngineCollection uses to find a view.
 
@@ -64,7 +64,7 @@ So why this dual behavior?
 
 Let’s see where the setter is used:
 
-[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_733AF0CA.png" width="876" height="380" />](http://lostechies.com/content/jimmybogard/uploads/2011/03/image_7055B1E4.png) 
+[<img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2011/03/image_thumb_733AF0CA.png" width="876" height="380" />](https://lostechies.com/content/jimmybogard/uploads/2011/03/image_7055B1E4.png) 
 
 **The setter is used only in tests**.&#160; All this extra code to expose a property, this null coalescing behavior for the static gateway (referenced in 7 other places), all just for testability.&#160; Testing is supposed to IMPROVE design, not make it more complicated and confusing!
 

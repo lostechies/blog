@@ -13,12 +13,12 @@ redirect_from: "/blogs/jimmy_bogard/archive/2010/04/08/strengthening-your-domain
 ---
 Previous posts in this series:
 
-  * [A primer](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx)
-  * [Aggregate Construction](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx)
-  * [Encapsulated Collections](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx)
-  * [Encapsulated Operations](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/24/strengthening-your-domain-encapsulating-operations.aspx)
-  * [Double Dispatch Pattern](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/30/strengthening-your-domain-the-double-dispatch-pattern.aspx)
-  * [Avoiding Setters](http://www.lostechies.com/blogs/jimmy_bogard/archive/2010/03/31/strengthening-your-domain-avoiding-setters.aspx)
+  * [A primer](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/03/strengthening-your-domain-a-primer.aspx)
+  * [Aggregate Construction](https://lostechies.com/blogs/jimmy_bogard/archive/2010/02/23/strengthening-your-domain-aggregate-construction.aspx)
+  * [Encapsulated Collections](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/10/strengthening-your-domain-encapsulated-collections.aspx)
+  * [Encapsulated Operations](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/24/strengthening-your-domain-encapsulating-operations.aspx)
+  * [Double Dispatch Pattern](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/30/strengthening-your-domain-the-double-dispatch-pattern.aspx)
+  * [Avoiding Setters](https://lostechies.com/blogs/jimmy_bogard/archive/2010/03/31/strengthening-your-domain-avoiding-setters.aspx)
 
 In the last post, we rounded out fully encapsulated domain models by encapsulating certain state information that requires certain restrictions in how that information can change.&#160; In our model of customers, fees and payments, we started recording fee balance on the Fee object.&#160; Once we did this, we started to lock down the public interface of our Fee and Payment objects, so that only operations supported and validated by our domain experts can be executed.&#160; The side benefit of this sort of design is that **our domain model now strongly reinforces the ubiquitous language**.
 

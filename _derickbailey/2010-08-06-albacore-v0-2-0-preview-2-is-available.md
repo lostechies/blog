@@ -12,7 +12,7 @@ categories:
   - Rake
 redirect_from: "/blogs/derickbailey/archive/2010/08/06/albacore-v0-2-0-preview-2-is-available.aspx/"
 ---
-I’ve pushed another preview release of [albacore](http://albacorebuild.net) up to [rubygems.org](http://rubygems.org/gems/albacore/versions/0.2.0.preview2). This release builds on the changes that I talked about in the [Preview 1 Notes](http://www.lostechies.com/blogs/derickbailey/archive/2010/07/14/albacore-v0-2-0-preview-1-is-available.aspx) and adds (what I think is) some great new capabilities for contributors and end-users, both.
+I’ve pushed another preview release of [albacore](http://albacorebuild.net) up to [rubygems.org](http://rubygems.org/gems/albacore/versions/0.2.0.preview2). This release builds on the changes that I talked about in the [Preview 1 Notes](https://lostechies.com/blogs/derickbailey/archive/2010/07/14/albacore-v0-2-0-preview-1-is-available.aspx) and adds (what I think is) some great new capabilities for contributors and end-users, both.
 
 &#160;
 
@@ -789,7 +789,7 @@ This is all you need to install the preview version:
                                                                         </p>
                                                                         
                                                                         <p>
-                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_397B074E.png" width="908" height="149" />
+                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_397B074E.png" width="908" height="149" />
                                                                         </p>
                                                                         
                                                                         <p>
@@ -797,7 +797,7 @@ This is all you need to install the preview version:
                                                                         </p>
                                                                         
                                                                         <p>
-                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_58BDAE21.png" width="905" height="146" />
+                                                                          <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_58BDAE21.png" width="905" height="146" />
                                                                         </p>
                                                                         
                                                                         <p>

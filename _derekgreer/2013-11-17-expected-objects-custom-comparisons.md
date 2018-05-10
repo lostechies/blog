@@ -13,7 +13,7 @@ tags:
   - Expected Object Pattern
   - Testing
 ---
-<a href="http://www.nuget.org/packages/ExpectedObjects/" target="_blank">ExpectedObjects</a> is a testing library I developed a few years ago to facilitate using the <a href="http://lostechies.com/derekgreer/2011/06/24/effective-tests-expected-objects/" target="_blank">Expected Objects pattern</a> within my specifications to avoid obscure tests.&nbsp; You can find the original introduction to the library <a href="http://lostechies.com/derekgreer/2011/06/28/introducing-the-expected-objects-library/" target="_blank">here</a>.
+<a href="http://www.nuget.org/packages/ExpectedObjects/" target="_blank">ExpectedObjects</a> is a testing library I developed a few years ago to facilitate using the <a href="https://lostechies.com/derekgreer/2011/06/24/effective-tests-expected-objects/" target="_blank">Expected Objects pattern</a> within my specifications to avoid obscure tests.&nbsp; You can find the original introduction to the library <a href="https://lostechies.com/derekgreer/2011/06/28/introducing-the-expected-objects-library/" target="_blank">here</a>.
 
 As of version 1.1.0, the ExpectedObjects library has been updated to include a feature called Custom Comparisons.&nbsp; The standard behavior of the library is to traverse a strategy chain (which is itself configurable) to determine which comparison strategy is to be used for each type of object encountered within the object graph.&nbsp; The Custom Comparisons feature allows you to override this behavior for specific properties.
 

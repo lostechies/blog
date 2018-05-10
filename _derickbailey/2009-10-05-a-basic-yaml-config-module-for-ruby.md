@@ -209,7 +209,7 @@ The end result is a little YAMLConfig module that allows you to mixin the abilit
                   </p>
                   
                   <p>
-                    <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_6CE8D814.png" width="446" height="263" />
+                    <img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_6CE8D814.png" width="446" height="263" />
                   </p>
                 </p>
                 

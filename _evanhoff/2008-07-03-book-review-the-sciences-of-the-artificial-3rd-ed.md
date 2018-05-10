@@ -9,7 +9,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/evan_hoff/archive/2008/07/03/book-review-the-sciences-of-the-artificial-3rd-ed.aspx/"
 ---
-<a href="http://www.amazon.com/Sciences-Artificial-Herbert-Simon/dp/0262691914" target="_blank"><img style="border-right: 0px;border-top: 0px;margin: 0px 15px 0px 0px;border-left: 0px;border-bottom: 0px" height="244" alt="simon" src="http://www.lostechies.com/blogs/evan_hoff/WindowsLiveWriter/BookReviewTheSciencesoftheArtificial3rdE_11551/simon_3.jpg" width="167" align="left" border="0" /></a> In a nutshell, this book blew me away!&nbsp; I&#8217;m giving it 6 stars (out of 5).
+<a href="http://www.amazon.com/Sciences-Artificial-Herbert-Simon/dp/0262691914" target="_blank"><img style="border-right: 0px;border-top: 0px;margin: 0px 15px 0px 0px;border-left: 0px;border-bottom: 0px" height="244" alt="simon" src="https://lostechies.com/blogs/evan_hoff/WindowsLiveWriter/BookReviewTheSciencesoftheArtificial3rdE_11551/simon_3.jpg" width="167" align="left" border="0" /></a> In a nutshell, this book blew me away!&nbsp; I&#8217;m giving it 6 stars (out of 5).
 
 After seeing this book referenced in another book I&#8217;m currently reading and also seeing it on the SEI&#8217;s <a href="http://www.sei.cmu.edu/architecture/essential_collection.html" target="_blank">Essential Collection</a>, I thought it would be a good idea to pick up a copy.&nbsp; The 3rd edition is the most recent printing (1996), but the original was published back in 1969.&nbsp; If you can find a book on technical topics that&#8217;s as old as this one, you know you&#8217;ve found a good one.
 

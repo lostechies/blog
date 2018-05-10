@@ -13,7 +13,7 @@ categories:
   - JQuery
   - SASS
 ---
-In my previous post, I talked about setting up an API that let&#8217;s me [search for insurance companies](http://lostechies.com/derickbailey/2011/03/24/providing-unauthenticated-api-access-to-an-authenticatedauthorized-controller-in-rails-3-with-devise-and-cancan/). My initial use of this is to create a search box on another page in the site and have JQuery call back to the API to retrieve the results, and display them so that the user can select the appropriate insurance company. To accomplish this, I used the following tools:
+In my previous post, I talked about setting up an API that let&#8217;s me [search for insurance companies](https://lostechies.com/derickbailey/2011/03/24/providing-unauthenticated-api-access-to-an-authenticatedauthorized-controller-in-rails-3-with-devise-and-cancan/). My initial use of this is to create a search box on another page in the site and have JQuery call back to the API to retrieve the results, and display them so that the user can select the appropriate insurance company. To accomplish this, I used the following tools:
 
 ### HAML
 
@@ -156,6 +156,6 @@ Here&#8217;s the SASS layout that I am currently using:
 
 Put it all together and we get a nice little search box that populates the contents of the search results without doing a refresh of the page:
 
- <img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-03-24-at-9.37.52-PM.png" border="0" alt="Screen shot 2011 03 24 at 9 37 52 PM" width="300" height="367" /><img src="http://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-03-24-at-9.38.09-PM.png" border="0" alt="Screen shot 2011 03 24 at 9 38 09 PM" width="301" height="365" />
+ <img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-03-24-at-9.37.52-PM.png" border="0" alt="Screen shot 2011 03 24 at 9 37 52 PM" width="300" height="367" /><img src="https://lostechies.com/content/derickbailey/uploads/2011/03/Screen-shot-2011-03-24-at-9.38.09-PM.png" border="0" alt="Screen shot 2011 03 24 at 9 38 09 PM" width="301" height="365" />
 
 While I am using Rails 3, HAML and SASS for my specific app, there&#8217;s no reason not to do some fun stuff like this with your specific web dev stack. All you need is some JQuery, JQuery-Templates, and JSON on the back-end.

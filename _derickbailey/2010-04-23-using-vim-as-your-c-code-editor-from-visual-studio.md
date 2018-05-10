@@ -30,11 +30,11 @@ I realize that I still want visual studio around for certain things, so I am not
 
 In Visual Studio 2008 (I’m currently doing Windows Mobile development, so I’m stuck with VS2008 for now) right click on a .cs file and selected Open With. You’ll get a nice dialog listing all the different options for .cs files. Click the Add button to add a new one.
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_5096F009.png" width="423" height="167" />
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_5096F009.png" width="423" height="167" />
 
 Browse to your gvim.exe location with the “…” button and select it. The Friendly name will be populated automatically. Then hit OK. You’ll end up with Vi Improved in your Open With dialog box. 
 
- <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="http://lostechies.com/content/derickbailey/uploads/2011/03/image_76F8D354.png" width="575" height="375" /></p> 
+ <img style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" border="0" alt="image" src="https://lostechies.com/content/derickbailey/uploads/2011/03/image_76F8D354.png" width="575" height="375" /></p> 
 
 Now if you’re really brave, set this as the default. 🙂 If you don’t want to set it as default (I don’t blame you… at least not until I’m more comfortable with this) you can just right click on a file and select Open With whenever you want to use Vim.
 

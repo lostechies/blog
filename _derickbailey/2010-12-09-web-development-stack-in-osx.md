@@ -32,7 +32,7 @@ Here&#8217;s what I&#8217;ve settled on, so far, creating an awesome development
 
 At the root of it all is the OSX Terminal. I&#8217;m using the standard Bash shell at this point, though a number of people have told me I need to try out ZSH. I&#8217;ll probably get around to that eventually. For now, though, Terminal handles my needs quite nicely.
 
-I&#8217;ve already talked about [my terminal prompt](http://www.lostechies.com/blogs/derickbailey/archive/2010/11/24/my-osx-terminal-prompt-reposted-from-tumblr.aspx). Joey has also talked about [setting up window groups to auto-start the various components of a project](http://www.lostechies.com/blogs/joeydotnet/archive/2010/07/16/quick-tip-osx-terminal-automation.aspx). It works out well &#8211; only requires one menu option to launch all of the core services of a project.
+I&#8217;ve already talked about [my terminal prompt](https://lostechies.com/blogs/derickbailey/archive/2010/11/24/my-osx-terminal-prompt-reposted-from-tumblr.aspx). Joey has also talked about [setting up window groups to auto-start the various components of a project](https://lostechies.com/blogs/joeydotnet/archive/2010/07/16/quick-tip-osx-terminal-automation.aspx). It works out well &#8211; only requires one menu option to launch all of the core services of a project.
 
  
 

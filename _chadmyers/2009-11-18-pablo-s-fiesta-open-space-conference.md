@@ -11,7 +11,7 @@ categories:
   - Fiesta
 redirect_from: "/blogs/chad_myers/archive/2009/11/18/pablo-s-fiesta-open-space-conference.aspx/"
 ---
-In case you didn’t see it on the main Los Techies feed, John Teague and fellow Los Techian [announced “Pablo’s Fiesta”](http://www.lostechies.com/blogs/johnteague/archive/2009/11/16/pablo-s-fiesta-open-space-conference-in-austin-tx.aspx), Los Techies’ first Open Space conference.
+In case you didn’t see it on the main Los Techies feed, John Teague and fellow Los Techian [announced “Pablo’s Fiesta”](https://lostechies.com/blogs/johnteague/archive/2009/11/16/pablo-s-fiesta-open-space-conference-in-austin-tx.aspx), Los Techies’ first Open Space conference.
 
 The sign-up page is here for more information: <http://fiesta.lostechies.com/>
 

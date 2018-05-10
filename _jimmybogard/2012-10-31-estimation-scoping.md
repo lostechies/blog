@@ -12,7 +12,7 @@ categories:
 ---
 Read any book about estimation and you’ll probably see a picture of this:
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lostechies.com/content/jimmybogard/uploads/2012/10/image_thumb.png" width="346" height="223" />](http://lostechies.com/content/jimmybogard/uploads/2012/10/image.png)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lostechies.com/content/jimmybogard/uploads/2012/10/image_thumb.png" width="346" height="223" />](https://lostechies.com/content/jimmybogard/uploads/2012/10/image.png)
 
 This is the cone of uncertainty, a measure of the accuracy of our estimation of effort as we get closer to finishing work. Very close to finishing, we have a very good idea of how much is left. As we move away from the time to completion, the variance of our estimates increases drastically.
 

@@ -143,7 +143,7 @@ I work on a Mac these days, so I have more specific info about this than I do wi
   * Use [Screenflow](http://www.telestream.net/screenflow/overview.htm) to record and edit video
   * Use [GarageBand](http://www.apple.com/ilife/garageband/) to record and edit audio
   * Splice the audio together with the video, inside of ScreenFlow, after editing the audio separately
-  * To resize your apps to the appropriate size, use a tool like [SizeUp](http://www.irradiatedsoftware.com/sizeup/) or applescript [like I talked about in another post](http://lostechies.com/derickbailey/2012/09/08/screencasting-tip-resize-your-app-to-720p-1280x720-in-osx/).
+  * To resize your apps to the appropriate size, use a tool like [SizeUp](http://www.irradiatedsoftware.com/sizeup/) or applescript [like I talked about in another post](https://lostechies.com/derickbailey/2012/09/08/screencasting-tip-resize-your-app-to-720p-1280x720-in-osx/).
 
 <div>
   You can also use Screeny if you need to save money. If you&#8217;re dirt-cheap/poor (how did you get a mac?) then you can use Quicktime and iMovie, but this is awful and painful.

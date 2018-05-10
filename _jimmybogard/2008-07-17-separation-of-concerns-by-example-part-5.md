@@ -18,11 +18,11 @@ With the dependencies broken out, we were able to push in fake versions through 
 
 Other parts in this series include:
 
-  * [Separation of Concerns &#8211; how not to do it](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx)
-  * [Separation of Concerns by example: Part 1](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/19/separation-of-concerns-by-example-part-1.aspx) &#8211; Refactoring away from static class
-  * [Separation of Concerns by example: Part 2](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/24/separation-of-concerns-by-example-part-2.aspx) &#8211; Specialized interface for Cache
-  * [Separation of Concerns by example: Part 3](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/26/separation-of-concerns-by-example-part-3.aspx) &#8211; Creating the repository
-  * [Separation of Concerns by example: Part 4](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/07/10/separation-of-concerns-by-example-part-4.aspx) &#8211; Fixing a bug with unit tests
+  * [Separation of Concerns &#8211; how not to do it](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx)
+  * [Separation of Concerns by example: Part 1](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/19/separation-of-concerns-by-example-part-1.aspx) &#8211; Refactoring away from static class
+  * [Separation of Concerns by example: Part 2](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/24/separation-of-concerns-by-example-part-2.aspx) &#8211; Specialized interface for Cache
+  * [Separation of Concerns by example: Part 3](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/26/separation-of-concerns-by-example-part-3.aspx) &#8211; Creating the repository
+  * [Separation of Concerns by example: Part 4](https://lostechies.com/blogs/jimmy_bogard/archive/2008/07/10/separation-of-concerns-by-example-part-4.aspx) &#8211; Fixing a bug with unit tests
 
 There&#8217;s still one last bothersome piece of our application, the construction of the CustomerFinder.&nbsp; We split out the dependencies quite nicely, and told the clients of the CustomerFinder exactly what is needed for the class to function:
 
@@ -195,7 +195,7 @@ Once we have the constructor business out of the way, a quick view at our web ap
 
 ### Wrapping it up
 
-We&#8217;ve come a long way since our [original example](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx).&nbsp; The original application had three &#8220;tiers&#8221;, split between an ASPX page, a static method, and LINQ to SQL.&nbsp; Only one of these classes was something we created, the CustomerManager.
+We&#8217;ve come a long way since our [original example](https://lostechies.com/blogs/jimmy_bogard/archive/2008/06/17/separation-of-concerns-how-not-to-do-it.aspx).&nbsp; The original application had three &#8220;tiers&#8221;, split between an ASPX page, a static method, and LINQ to SQL.&nbsp; Only one of these classes was something we created, the CustomerManager.
 
 But this class still had too many responsibilities, which would have given us trouble when we needed to change it.&nbsp; Now we have many more classes (4 vs. 1) and interfaces (3 vs. 0).&nbsp; For those who don&#8217;t like more classes, GET OVER IT.&nbsp; High cohesion and less coupling means smaller classes with fewer, tighter concerns.&nbsp; More classes with high cohesion is far easier to maintain, since the responsibilities of each class can be easily discerned.&nbsp; I&#8217;ve seen far too many one-method classes with thousands of lines in the one method to convince me that more classes is better.
 

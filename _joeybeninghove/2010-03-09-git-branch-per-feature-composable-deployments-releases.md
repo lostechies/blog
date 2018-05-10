@@ -25,7 +25,7 @@ Now that I&rsquo;m starting to use Git a lot more, I&rsquo;ve been thinking abou
 
 ****I&rsquo;ve been using Git for a couple weeks locally to manage local branches for my &ldquo;day job&rdquo;, where we still use subversion as our main VCS (for now&#8230;muwhahaha :)). But for my church site I decided to make the full move to use Git with Beanstalk [<http://beanstalkapp.com>], which is where I&rsquo;ve been doing my subversion hosting for a while now. Beanstalk just recently added Git support and so far it&rsquo;s working out great.
   
-One of the first things I noticed as I started using Git was how easy it is to branch and merge code. So I figured I&rsquo;d try out this whole Branch-Per-Feature [[http://www.lostechies.com/blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-introduction.aspx](/blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-introduction.aspx)] thing all the cool kids are talking about these days. Needless to say I&rsquo;m liking it a lot. 
+One of the first things I noticed as I started using Git was how easy it is to branch and merge code. So I figured I&rsquo;d try out this whole Branch-Per-Feature [[https://lostechies.com/blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-introduction.aspx](/blogs/derickbailey/archive/2009/07/15/branch-per-feature-source-control-introduction.aspx)] thing all the cool kids are talking about these days. Needless to say I&rsquo;m liking it a lot. 
 
 Ok, so getting to the point of this post, here is a peek at the branches I&rsquo;m managing right now: 
 

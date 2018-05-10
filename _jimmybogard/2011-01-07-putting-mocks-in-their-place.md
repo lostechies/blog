@@ -11,7 +11,7 @@ categories:
   - TDD
 redirect_from: "/blogs/jimmy_bogard/archive/2011/01/06/putting-mocks-in-their-place.aspx/"
 ---
-Awhile back, I talked about [3 simple rules for Rhino Mocks](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/10/05/three-simple-rhino-mocks-rules.aspx):
+Awhile back, I talked about [3 simple rules for Rhino Mocks](https://lostechies.com/blogs/jimmy_bogard/archive/2008/10/05/three-simple-rhino-mocks-rules.aspx):
 
   1. Use the static MockRepository.GenerateMock method.&#160; Don’t use an instance of a MockRepository, and don’t use the GenerateStub method. 
   2. If the mocked instance method returns a value, use the Stub method to set up a result for that value.&#160; This is an indirect input. 

@@ -15,7 +15,7 @@ redirect_from: "/blogs/jimmy_bogard/archive/2008/03/12/advanced-mocking-mocks-an
 
 Sometimes a Test Spy isn&#8217;t enough, as our test might have **indirect inputs** as well as indirect outputs.&nbsp; An indirect input is an input variable or value that a method uses that doesn&#8217;t appear in any object passed in to the method.
 
-In the [previous Test Spy example](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/03/06/advanced-mocking-anonymous-test-spy.aspx), our business partners requested that an email be sent out for each order processed.&nbsp; That was yesterday, and today, they have another request.&nbsp; Sometimes, orders are sufficiently large that they would like a sales agent to also be notified by email, so that they might follow up with that customer and try to wring some more sales out of the customer&#8217;s pockets.
+In the [previous Test Spy example](https://lostechies.com/blogs/jimmy_bogard/archive/2008/03/06/advanced-mocking-anonymous-test-spy.aspx), our business partners requested that an email be sent out for each order processed.&nbsp; That was yesterday, and today, they have another request.&nbsp; Sometimes, orders are sufficiently large that they would like a sales agent to also be notified by email, so that they might follow up with that customer and try to wring some more sales out of the customer&#8217;s pockets.
 
 Two conditions arise: the order maximum might change, and it might depend on the customer placing the order.&nbsp; After some more conversation, it turns out that the logic behind whether an Order should be emailed to a Sales Rep or not is fairly complex.
 

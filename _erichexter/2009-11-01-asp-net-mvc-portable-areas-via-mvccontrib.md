@@ -24,11 +24,11 @@ Follow me on RSS and Twitter
 
 This is a multi post series on ASP.Net MVC Portable Areas
 
-  * [Part 1 – Introduction](http://lostechies.com/erichexter/2009/11/01/asp-net-mvc-portable-areas-via-mvccontrib/)
+  * [Part 1 – Introduction](https://lostechies.com/erichexter/2009/11/01/asp-net-mvc-portable-areas-via-mvccontrib/)
   * [Part 2 – Sample Portable Area](/blogs/hex/archive/2009/11/02/asp-net-mvc-portable-areas-part-2.aspx)
   * [Part 3 – Usage of a Portable Area](/blogs/hex/archive/2009/11/03/asp-net-mvc-portable-areas-part-3.aspx)
   * [Part 4 &#8211; IoC framework support](/blogs/hex/archive/2009/11/04/asp-net-mvc-portable-area-part-4-ioc-framework-support.aspx)
-  * [Part 5 &#8211; Update for 2012 / 3 Years Later](http://lostechies.com/erichexter/2012/11/26/portable-areas-3-years-later/)
+  * [Part 5 &#8211; Update for 2012 / 3 Years Later](https://lostechies.com/erichexter/2012/11/26/portable-areas-3-years-later/)
 
 ## 
 

@@ -12,7 +12,7 @@ categories:
   - LiveMeeting
 redirect_from: "/blogs/chad_myers/archive/2008/11/21/alt-net-online-open-meeting.aspx/"
 ---
-As you may recall, last week I announced the [ALT.NET Online Open Meeting](http://www.lostechies.com/blogs/chad_myers/archive/2008/11/17/announcing-alt-net-online-open-meeting.aspx).&#160; We met last Wednesday night and had a pretty good chat about all sorts of topics.&#160; I think at one point we had 45 people attending!
+As you may recall, last week I announced the [ALT.NET Online Open Meeting](https://lostechies.com/blogs/chad_myers/archive/2008/11/17/announcing-alt-net-online-open-meeting.aspx).&#160; We met last Wednesday night and had a pretty good chat about all sorts of topics.&#160; I think at one point we had 45 people attending!
 
 The topic started with OpinionatedMVC, MVC in general, wandered around a little bit, and then finally settled into KanBan.
 

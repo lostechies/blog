@@ -57,7 +57,7 @@ end</pre>
 
 It gets worse when we look at what this does to the UI, too. The &#8220;if lipids&#8221; check at the end of the line causes the entire line of code to not produce anything if the lipids variable is nil.  By contract, the call into a hash to get a value may return nil but that nil return value will never cause the line of code to not be executed. When we look at the output of this type of code in our application, we can easily end up with something that looks like this:
 
-<img title="Screen shot 2011-05-25 at 2.07.50 PM.png" src="http://lostechies.com/content/derickbailey/uploads/2011/05/Screen-shot-2011-05-25-at-2.07.50-PM.png" border="0" alt="Screen shot 2011 05 25 at 2 07 50 PM" width="496" height="97" />
+<img title="Screen shot 2011-05-25 at 2.07.50 PM.png" src="https://lostechies.com/content/derickbailey/uploads/2011/05/Screen-shot-2011-05-25-at-2.07.50-PM.png" border="0" alt="Screen shot 2011 05 25 at 2 07 50 PM" width="496" height="97" />
 
 (In the off-chance that you actually know what &#8220;Apo E&#8221; is, please ignore the invalid value of &#8220;0&#8221;. This is just test data for my dev evironment.)
 

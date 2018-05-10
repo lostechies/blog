@@ -9,7 +9,7 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/rhouston/archive/2008/03/27/a-simple-closure-to-handle-try-catch-around-transactions.aspx/"
 ---
-_(Updated: I moved the begin transaction outside of the try as [Chad](http://www.lostechies.com/blogs/chad_myers/default.aspx) suggested in the comments.)_
+_(Updated: I moved the begin transaction outside of the try as [Chad](https://lostechies.com/blogs/chad_myers/default.aspx) suggested in the comments.)_
 
 If you&#8217;re like me, you&#8217;re lazy and hate putting try/catch around your transaction handling in your code. It has to be there, but it&#8217;s just a pain. You may have code that looks something like:
 
@@ -76,7 +76,7 @@ now you can use it with an anonymous method:
 </pre>
 </div>
 
-_Side note for [Jimmy](http://www.lostechies.com/blogs/jimmy_bogard/archive/2008/03/26/stop-creating-custom-delegate-types.aspx): You should be proud. I went back and switched out my custom delegate for Action. 😉_
+_Side note for [Jimmy](https://lostechies.com/blogs/jimmy_bogard/archive/2008/03/26/stop-creating-custom-delegate-types.aspx): You should be proud. I went back and switched out my custom delegate for Action. 😉_
 
 <div class="wlWriterSmartContent" style="padding-right: 0px;padding-left: 0px;padding-bottom: 0px;margin: 0px;padding-top: 0px">
   Technorati Tags: <a href="http://technorati.com/tags/.NET" rel="tag">.NET</a>,<a href="http://technorati.com/tags/Delegates" rel="tag">Delegates</a>

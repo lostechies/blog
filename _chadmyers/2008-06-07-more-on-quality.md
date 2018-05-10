@@ -14,7 +14,7 @@ categories:
   - Quality
 redirect_from: "/blogs/chad_myers/archive/2008/06/07/more-on-quality.aspx/"
 ---
-I started typing a comment to [John Teague&#8217;s](http://johnteague.lostechies.com) post about [Creating a Culture of Quality](http://www.lostechies.com/blogs/johnteague/archive/2008/06/06/creating-a-culture-of-quality.aspx#3581), but it got a little long so I decided to make it a post. If you would be so kind, please read John&#8217;s post first (linked in the last sentence) and then proceed with this post.
+I started typing a comment to [John Teague&#8217;s](http://johnteague.lostechies.com) post about [Creating a Culture of Quality](https://lostechies.com/blogs/johnteague/archive/2008/06/06/creating-a-culture-of-quality.aspx#3581), but it got a little long so I decided to make it a post. If you would be so kind, please read John&#8217;s post first (linked in the last sentence) and then proceed with this post.
 
 Here are some of my additional thoughts:
 

@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - Rant
 ---
-My dislike of Flash has [been](http://lostechies.com/jimmybogard/2008/01/10/stop-the-flash-insanity/) [well](http://lostechies.com/jimmybogard/2008/11/08/boycotting-flash/) [documented](http://lostechies.com/jimmybogard/2008/11/08/boycotting-flash/), so last month I thought I would try to see what the internet was like [without Flash installed](http://lostechies.com/jimmybogard/2011/12/06/a-grand-experiment/), whatsoever. I removed Flash completely from my system, including any Chrome plugin (Chrome has Flash built in).
+My dislike of Flash has [been](https://lostechies.com/jimmybogard/2008/01/10/stop-the-flash-insanity/) [well](https://lostechies.com/jimmybogard/2008/11/08/boycotting-flash/) [documented](https://lostechies.com/jimmybogard/2008/11/08/boycotting-flash/), so last month I thought I would try to see what the internet was like [without Flash installed](https://lostechies.com/jimmybogard/2011/12/06/a-grand-experiment/), whatsoever. I removed Flash completely from my system, including any Chrome plugin (Chrome has Flash built in).
 
 I’ve never tried to simply go without Flash. I’ve used FlashBlock and AdBlock to _block_ bad Flash, but for the most part, I couldn’t really tell what sites used Flash or not. I wanted to see how far I could go without Flash.
 

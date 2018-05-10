@@ -22,7 +22,7 @@ The Fraternity of the Donkey (or, in the future, the Universal Order of the Donk
 
 Many of us love the Central Texas region (specifically Austin and San Antonio) and we love [ADNUG](http://www.adnug.org/) and [Austin CodeCamp](http://www.adnug.org/AustinCodeCamp09/). We wish to see these things continue in the future, so we’re going to present as much as we can.&#160; 
 
-You can see here that there is quite [an illustrious list of available sessions](http://www.adnug.org/AustinCodeCamp09/Proposal/List).&#160; Eric Hexter has posted [the results of the voting](http://www.lostechies.com/blogs/hex/archive/2009/05/16/austin-code-camp-sessions-voting-results.aspx) and it looks like we’re going to have really good turnout.
+You can see here that there is quite [an illustrious list of available sessions](http://www.adnug.org/AustinCodeCamp09/Proposal/List).&#160; Eric Hexter has posted [the results of the voting](https://lostechies.com/blogs/hex/archive/2009/05/16/austin-code-camp-sessions-voting-results.aspx) and it looks like we’re going to have really good turnout.
 
 Check out what the Los Techies crew has in store for you at the end of May:
 
