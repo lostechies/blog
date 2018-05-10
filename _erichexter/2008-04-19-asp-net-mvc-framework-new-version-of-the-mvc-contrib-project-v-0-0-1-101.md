@@ -74,7 +74,7 @@ Here is what changed in the release:
                             
                             
   
-                            Keep up to date by subscribing to <http://feeds.feedburner.com/EricHexter>
+                            Keep up to date by subscribing to <https://feeds.feedburner.com/EricHexter>
                             
                             
   

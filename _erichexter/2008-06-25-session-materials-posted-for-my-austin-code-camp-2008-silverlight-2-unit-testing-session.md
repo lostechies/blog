@@ -31,4 +31,4 @@ There is some great material for all of the code camp sessions on our code camp 
 
 &nbsp;
 
-Subscribe to my feed here <http://feeds.feedburner.com/EricHexter>
+Subscribe to my feed here <https://feeds.feedburner.com/EricHexter>

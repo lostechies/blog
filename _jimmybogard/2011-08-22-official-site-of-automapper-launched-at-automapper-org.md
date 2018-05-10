@@ -10,7 +10,7 @@ dsq_thread_id:
 categories:
   - AutoMapper
 ---
-I’ve (finally) officially launched the official AutoMapper site at [AutoMapper.org](http://automapper.org/). It will be a central location for links to AutoMapper resources (mailing list, source, wiki, blog etc.) as well as a spot for [news and announcements](http://automapper.org/blog). I also have an [AutoMapper Blog RSS feed](http://feeds.feedburner.com/AutoMapperBlog) for the seven people that want to keep up-to-date with the latest AutoMapper news.
+I’ve (finally) officially launched the official AutoMapper site at [AutoMapper.org](http://automapper.org/). It will be a central location for links to AutoMapper resources (mailing list, source, wiki, blog etc.) as well as a spot for [news and announcements](http://automapper.org/blog). I also have an [AutoMapper Blog RSS feed](https://feeds.feedburner.com/AutoMapperBlog) for the seven people that want to keep up-to-date with the latest AutoMapper news.
 
 The site represents the absolute limit of my design abilities, so I probably should have [followed Hanselman’s advice](http://www.hanselman.com/blog/HireAndPayADesignerAndBeHappy.aspx) and hired a designer (oh well).
 
@@ -18,7 +18,7 @@ Check out the [announcement](http://automapper.org/blog/2011/08/22/automapper-si
 
 > It’s about time, I know, but I’ve finally launched the AutoMapper website at [AutoMapper.org](http://automapper.org/). It’s a single place to consolidate all things AutoMapper, where you’ll find links to source, the wiki, the latest drop, the mailing list, and a blog. 
 > 
-> I plan to use the blog as a way to publish AutoMapper news and announcements, whereas the wiki will be a spot for sample code etc. You can [subscribe to the AutoMapper blog](http://feeds.feedburner.com/AutoMapperBlog) to get updates and announcements. This will include things like roadmaps, release notes and so on. 
+> I plan to use the blog as a way to publish AutoMapper news and announcements, whereas the wiki will be a spot for sample code etc. You can [subscribe to the AutoMapper blog](https://feeds.feedburner.com/AutoMapperBlog) to get updates and announcements. This will include things like roadmaps, release notes and so on. 
 > 
 > This site was built using [Sinatra](http://www.sinatrarb.com/) and [Toto](http://cloudhead.io/toto), hosted on [Heroku](http://www.heroku.com/) with DNS provided by [dnsimple](https://dnsimple.com/). The source is also [hosted on GitHub](https://github.com/AutoMapper/AutoMapper.website) in case anyone wants to laugh at my amateur Ruby code. 
 > 

@@ -42,4 +42,4 @@ This little trick will simplify your code maintenance and also clean up your cli
 
 Follow me on RSS and Twitter
   
-<a class="twitter-follow-button" style="float: left; valign: top;" href="https://twitter.com/ehexter" data-show-count="false" data-size="large">Follow @ehexter</a><a style="float: left;" title="Subscribe to my feed" type="application/rss+xml" href="http://feeds.feedburner.com/EricHexter" rel="alternate"><img style="border: 0; padding-right: 10px;" src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" /></a>
+<a class="twitter-follow-button" style="float: left; valign: top;" href="https://twitter.com/ehexter" data-show-count="false" data-size="large">Follow @ehexter</a><a style="float: left;" title="Subscribe to my feed" type="application/rss+xml" href="https://feeds.feedburner.com/EricHexter" rel="alternate"><img style="border: 0; padding-right: 10px;" src="https://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" /></a>

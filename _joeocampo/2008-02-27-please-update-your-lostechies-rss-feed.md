@@ -13,6 +13,6 @@ redirect_from: "/blogs/joe_ocampo/archive/2008/02/26/please-update-your-lostechi
 ---
 We have recently updated our main feed to feedburner.&nbsp; Everyone please update your RSS readers to point too.
 
-[http://feeds.feedburner.com/lostechies](http://feeds.feedburner.com/lostechies "http://feeds.feedburner.com/lostechies")
+[https://feeds.feedburner.com/lostechies](https://feeds.feedburner.com/lostechies "https://feeds.feedburner.com/lostechies")
 
 Thank you, you may now continue with your regularly scheduled reading.

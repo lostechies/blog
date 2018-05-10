@@ -20,7 +20,7 @@ Over the next few days and weeks, the Los Techies crew will be writing a number 
 
 If you haven&#8217;t already, please consider subscribing to the Los Techies Main Feed so that you can see the various post from all the Los Techies bloggers. 
 
-The main feed is here:&nbsp; <http://feeds.feedburner.com/lostechies> 
+The main feed is here:&nbsp; <https://feeds.feedburner.com/lostechies> 
 
 # What is a Design Pattern?
 

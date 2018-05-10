@@ -71,4 +71,4 @@ I’m hoping to continue the professional writing efforts for various print and 
 
 ### Keeping Up With What’s Going On
 
-Well, that list of things I’m involved in a little more than I thought it was when I started this post. 🙂 If you’d like to keep up with what I’m doing on a closer-to-realtime basis, be sure to subscribe to the [LosTechies RSS](http://feeds.feedburner.com/lostechies) or my [personal RSS](http://feeds.feedburner.com/DerickBailey) (fed from my LosTechies blog posts), and [follow me on Twitter](http://twitter.com/derickbailey).
+Well, that list of things I’m involved in a little more than I thought it was when I started this post. 🙂 If you’d like to keep up with what I’m doing on a closer-to-realtime basis, be sure to subscribe to the [LosTechies RSS](https://feeds.feedburner.com/lostechies) or my [personal RSS](https://feeds.feedburner.com/DerickBailey) (fed from my LosTechies blog posts), and [follow me on Twitter](http://twitter.com/derickbailey).

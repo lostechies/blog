@@ -20,7 +20,7 @@ We (the Los Techies crew) have been discussing this month&#8217;s topic vigorous
 
 If you haven&#8217;t already, please consider subscribing to the Los Techies Main Feed so that you can see the various post from the other Los Techies bloggers.
 
-The main feed is here:&nbsp; <http://feeds.feedburner.com/lostechies> 
+The main feed is here:&nbsp; <https://feeds.feedburner.com/lostechies> 
 
 # Advanced Topics for Visual Basic
 

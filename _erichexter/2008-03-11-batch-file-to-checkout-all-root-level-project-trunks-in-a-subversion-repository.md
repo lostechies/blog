@@ -45,6 +45,6 @@ Batch file to pull checkout all of the trunks.
 
 &nbsp;
 
-**_Subscribe to this feed:_**&nbsp; [http://feeds.feedburner.com/EricHexter](http://feeds.feedburner.com/EricHexter "http://feeds.feedburner.com/EricHexter")
+**_Subscribe to this feed:_**&nbsp; [https://feeds.feedburner.com/EricHexter](https://feeds.feedburner.com/EricHexter "https://feeds.feedburner.com/EricHexter")
 
 This is pretty easy to modify, simple replace your bin location for subversion executable and update the svnroot to the path to your subversion repository and you are good to go.&nbsp; The one important gotcha here is that subversion is case sensitive.&nbsp; I ran into a problem where our repository has some of the trunks starting with a lowercase t and other starting with a uppercase t.&nbsp; In that case, I just added an additional line 4 with the uppercase Trunk.&nbsp; That batch file roles on without stopping if there is a mismatch in the case of trunk.

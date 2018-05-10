@@ -13,4 +13,4 @@ On the the freshly raw heals of our recent abduction of [Scott C. Reynolds](http
 
 Joshua is an active member in the .NET community and had his previous blog at [http://www.flimflan.com/blog/](http://www.flimflan.com/blog/ "http://www.flimflan.com/blog/") which you can check out (for as long as he keeps it running – there are some good posts there, too).</p> </p> </p> </p> </p> </p> 
 
-Keep an eye on [his blog](http://joshuaflanagan.lostechies.com) in the future.&#160; Of course, his posts will show up in the main [LT feed](http://feeds.feedburner.com/LosTechies).
+Keep an eye on [his blog](http://joshuaflanagan.lostechies.com) in the future.&#160; Of course, his posts will show up in the main [LT feed](https://feeds.feedburner.com/LosTechies).

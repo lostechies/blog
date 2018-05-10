@@ -41,4 +41,4 @@ Here is an updated diagram of how a Portable Area works with an application.
 
 Follow me on RSS and Twitter
   
-<a href="https://twitter.com/ehexter" data-show-count="false" data-size="large">Follow @ehexter</a><a title="Subscribe to my feed" type="application/rss+xml" href="http://feeds.feedburner.com/EricHexter" rel="alternate"><img src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" /></a>
+<a href="https://twitter.com/ehexter" data-show-count="false" data-size="large">Follow @ehexter</a><a title="Subscribe to my feed" type="application/rss+xml" href="https://feeds.feedburner.com/EricHexter" rel="alternate"><img src="https://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" /></a>

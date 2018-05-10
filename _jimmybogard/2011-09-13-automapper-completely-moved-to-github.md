@@ -23,7 +23,7 @@ categories:
 >           * All downloads have been replicated on the [GitHub downloads page](https://github.com/AutoMapper/AutoMapper/downloads)</ul> 
 >         Having all of the project-level information in one spot will make it easier to manage. I’m not going to delete the CodePlex site, but I will not monitor that site going forward.</blockquote> 
 >         
->         For more AutoMapper updates, subscribe to the [AutoMapper blog feed](http://feeds.feedburner.com/AutoMapperBlog). In creating the AutoMapper GitHub site, I created the [AutoMapper organization](https://github.com/AutoMapper) to host both the website code and AutoMapper source code. 
+>         For more AutoMapper updates, subscribe to the [AutoMapper blog feed](https://feeds.feedburner.com/AutoMapperBlog). In creating the AutoMapper GitHub site, I created the [AutoMapper organization](https://github.com/AutoMapper) to host both the website code and AutoMapper source code. 
 >         
 >         I don’t know if there would ever be a contrib project, but if there was, I’d put it there. 
 >         

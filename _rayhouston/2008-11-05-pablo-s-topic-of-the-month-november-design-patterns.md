@@ -18,7 +18,7 @@ redirect_from: "/blogs/rhouston/archive/2008/11/05/pablo-s-topic-of-the-month-no
 
 If you haven&#8217;t already, please consider subscribing to the Los Techies Main Feed so that you can see the various post from all the Los Techies bloggers. 
 
-The main feed is here:&nbsp; <http://feeds.feedburner.com/lostechies> 
+The main feed is here:&nbsp; <https://feeds.feedburner.com/lostechies> 
 
 ### What is a Design Pattern?
 

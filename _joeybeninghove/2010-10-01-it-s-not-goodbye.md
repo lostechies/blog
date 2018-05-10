@@ -18,7 +18,7 @@ Of course thanks to the twitters and the interwebs, this isn&#8217;t goodbye&#82
 I&#8217;m still putting some final touches on things, but if you&#8217;re interested in following me at my new home:
 
   * [joeybeninghove.com](http://joeybeninghove.com)
-  * [joeybeninghove.com &#8211; feed](http://feeds.feedburner.com/joeybeninghove)
+  * [joeybeninghove.com &#8211; feed](https://feeds.feedburner.com/joeybeninghove)
 
 <div>
   Thanks everyone!
