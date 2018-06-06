@@ -14,94 +14,102 @@
     font-style: normal;
 }
 
+blockquote {
+  background-color: whitesmoke;
+  border-left: 5px solid #dbdbdb;
+  padding: 1.25em 1.5em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .main-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
 }
 
 /* for mobile screens otherwise it messes up the nav*/
 #searchFieldNav {
-    width: 65%;
+  width: 65%;
 }
 
 h1.title > span {
-    font-family: "League Gothic", "Arial Narrow", Arial, sans-serif;
-    margin-bottom: 1.75rem;
-    font-size: 1.5em;
+  font-family: "League Gothic", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 1.75rem;
+  font-size: 1.5em;
 }
 
 .subtitle {
-    font-size: 0.80em;
-    margin-top: -1.0rem;
+  font-size: 0.80em;
+  margin-top: -1.0rem;
 }
 
 .post {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .nice-title {
-    font-size: larger;
-    font-weight: 400;
-    font-family: Roboto, sans-serif;
+  font-size: larger;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
 }
 
 .nice-text {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .card-content {
-    padding: 0 0 1em;
+  padding: 0 0 1em;
 }
 
 .fa-heart:hover {
-    color: red;
+  color: red;
 }
 
 .footer {
-    padding: 3rem 1.5rem 3rem;
+  padding: 3rem 1.5rem 3rem;
 }
 
 .post-title {
-    font-size: x-large;
-    font-family: Roboto, sans-serif;
+  font-size: x-large;
+  font-family: Roboto, sans-serif;
 }
 
 .post-meta {
-    font-family: "Open Sans", sans-serif;
-    font-size: small;
+  font-family: "Open Sans", sans-serif;
+  font-size: small;
 }
 
 .post-text {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .post-text > p {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 /* sorry God. Just once */
 .sidebar {
-    padding: 0 0.75rem 0.75rem 0.75rem !important;
+  padding: 0 0.75rem 0.75rem 0.75rem !important;
 }
 
 .box {
-    padding: 0.75rem;
-    margin-bottom: 0.75rem;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {
-    color: #57A3E8;
+  color: #57A3E8;
 }
 
 .prettyprint {
