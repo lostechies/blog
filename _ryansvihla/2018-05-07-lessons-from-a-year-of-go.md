@@ -12,12 +12,12 @@ This isn’t meant to evaluate if you should pick up Go or tell you what you sho
 
 ## Dependency management
 
-This is probably the feature most frequently talked about by newcomers to Go and with some justification, as dependency management been a rapidly shifting area that’s nothing like what experienced Java, C#, Ruby or Python developers are used to. 
+This is probably the feature most frequently talked about by newcomers to Go and with some justification, as dependency management in Go has been a rapidly shifting area that’s nothing like what experienced Java, C#, Ruby or Python developers are used to. 
 
-I’ll cut to the chase the default tool now is [Dep][1] all other tools I’ve used such as [Glide][2] or [Godep][3] they’re now deprecated in favor of Dep, and while Dep has advanced rapidly there are some problems you’ll eventually run into (or I did):
+Today, the default tool	is [Dep][1] all other tools I’ve used such as [Glide][2] or [Godep][3] are	deprecated in favor of Dep, and while Dep has advanced rapidly there are some problems you’ll eventually run into (or I did):
 
 1.  Dep hangs randomly and is slow, which is supposedly network traffic [but it happens to everyone I know with tons of bandwidth][4]. Regardless, I’d like an option to supply a timeout and report an error.
-2. Versions and transitive depency conflicts can be a real breaking issue in Go still. So without shading or it’s equivalent two package depending on different versions of a given package can break your build, there are a number or proposals to fix this but we’re not there yet.
+2. Versions and transitive depency conflicts can be a real breaking issue in Go. So without shading or it’s equivalent two package depending on different versions of a given package can break your build, there are a number or proposals to fix this but we’re not there yet.
 3. Dep has some goofy ways it resolves transitive dependencies and you may have to add explicit references to them in your Gopkg.toml file. You can see an example [here][5] under **Updating dependencies – golang/dep**.
 
 ### My advice
@@ -99,11 +99,11 @@ Needless to say this can get very wordy when dealing with deeply nested exceptio
 
 I’ll be honest I never totally made my peace with this. I had good training from experienced opensource contributors to major Go projects, read all the right blog posts, definitely felt like I’d heard enough from the community on why the current state of Go error handling was great in their opinions, but the lack of stack traces was a deal breaker for me.  
 
-On the positive side, I found Dave Cheney’s advice on error handling to be the most practical and he wrote [a package][8] containing a lot of that advice, we found it invaluable as it provided those stack traces we all missed but you had to remember to use it.
+On the positive side, I found Dave Cheney’s advice on error handling to be the most practical and he wrote [a package][8] containing a lot of that advice, I found it invaluable as it provided those stack traces I missed.
 
 ## Summary
 
-A lot of people really love Go and are very productive with it, I just was never one of those people and that’s ok. However, I think the advice in this post is reasonably sound and uncontroversial. So, if you find yourself needing to write some code it Go, give this guide a quick perusal and you’ll waste a lot less time than I did getting productive in developing applications in Go.
+A lot of people really love Go and are very productive with it, I just was never one of those people and that’s ok. However, I think the advice in this post is reasonably sound and uncontroversial. So, if you find yourself needing to write some code in Go, give this guide a quick perusal. Hope it helps.
 
 [1]:	https://github.com/golang/dep
 [2]:	https://github.com/Masterminds/glide
