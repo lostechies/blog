@@ -17,7 +17,7 @@ In my initial overview, I demonstrated creating a branch, making a couple commit
 
 To demonstrate, I&rsquo;ll rewind time and pretend we&rsquo;re back at the moment where we switched to master as we prepared to merge in the changes from the issue123 branch. The gitk visualization of the repository looked like:
 
- <img height="373" width="744" src="//lostechies.com/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_163536_57A177D6.png" alt="Just before merging issue123 into master" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
+ <img height="373" width="744" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_163536_57A177D6.png" alt="Just before merging issue123 into master" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
 
 Before I merge my changes into master, I want to make sure my master branch is in synch with the central repository on github (which I refer to using the remote &ldquo;origin&rdquo;). We can see in the screenshot that my master branch refers to the same commit as origin/master, but that&rsquo;s because I haven&rsquo;t communicated with origin in a long time. All of my previous operations were done locally. In order to get the latest state from the remote repository, I need to perform a fetch.
 
@@ -29,7 +29,7 @@ Unpacking objects: 100% (6/6), done.
 From github.com:joshuaflanagan/gitk-demo
    bf37c64..ec8d10f  master     -&gt; origin/master</pre>
 
- <img height="373" width="744" src="//lostechies.com/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_164139_7D97282C.png" alt="new changes from remote" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
+ <img height="373" width="744" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_164139_7D97282C.png" alt="new changes from remote" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
 
 I&rsquo;ve downloaded new commits to my local repository and moved the remote branch pointer, but I haven&rsquo;t changed anything in my local branches. If I were to look in my working folder, I would see that none of my files have changed. To get the latest changes to the master branch from Tony, I need to merge them into my master branch.
 
@@ -40,7 +40,7 @@ Fast-forward
  1 files changed, 3 insertions(+), 0 deletions(-)
  create mode 100644 dairy.txt</pre>
 
- <img height="373" width="744" src="//lostechies.com/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_172124_6E804952.png" alt="After merging in remote" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />x 
+ <img height="373" width="744" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_172124_6E804952.png" alt="After merging in remote" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />x 
 
 &nbsp;
 
@@ -58,7 +58,7 @@ Merge made by recursive.
  vegetables.txt |    3 ++-
  2 files changed, 3 insertions(+), 1 deletions(-)</pre>
 
- <img height="373" width="744" src="//lostechies.com/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_173947_6688A6F0.png" alt="After merge" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
+ <img height="373" width="744" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_173947_6688A6F0.png" alt="After merge" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
 
 Previously with our fast-forward merges, no new commits were created &ndash; git just moved branch pointers. In this case, since there is a new snapshot of the repository that never existed before (includes Tony&rsquo;s new changes, as well as my changes from issue123), a new commit is required. The commit is automatically created with an auto-generated commit message indicating it was a merge. The merge commit has multiple ancestors (indicated by the red line going to the &ldquo;Forgot the yogurt&rdquo; commit&rdquo; and the blue line going to the &ldquo;Added another fruit&rdquo; commit). We can safely delete the issue123 branch now, but unlike in the fast-forward example, when we push our changes to the central server, there will be evidence that the issue123 message existed (in the merge commit message, and the repository history shows the branched paths).
 
@@ -74,9 +74,9 @@ Total 8 (delta 0), reused 0 (delta 0)
 To git@github.com:joshuaflanagan/gitk-demo.git
    ec8d10f..5835415  master &ndash;&gt; master</pre>
 
- <img height="373" width="744" src="//lostechies.com/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_175152_257A278C.png" alt="After pushing merge to github" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
+ <img height="373" width="744" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_175152_257A278C.png" alt="After pushing merge to github" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
 
-<img height="399" width="644" src="//lostechies.com/joshuaflanagan/files/2011/03/CommitHistoryforjoshuaflanagansgitkdemoGitHubGoogleChrome_20100903_175300_795D2A9A.png" alt="Commit History after merge" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
+<img height="399" width="644" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/CommitHistoryforjoshuaflanagansgitkdemoGitHubGoogleChrome_20100903_175300_795D2A9A.png" alt="Commit History after merge" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
 
 ### Rebase
 
@@ -90,7 +90,7 @@ Note: There are some scenarios where you want to preserve the fact that work was
 
 You can use git rebase to avoid these issues. If you have commits that have never been shared with anyone else, you can have git re-write them with a different starting point. If we go back in time to the point right after we merged in Tony&rsquo;s changes, but before merging in issue123:
 
- <img height="373" width="744" src="//lostechies.com/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_180406_69DA18CB.png" alt="Before rebase" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
+ <img height="373" width="744" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_180406_69DA18CB.png" alt="Before rebase" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
 
 Currently, the issue123 commits branch off from the &ldquo;third commit&rdquo;. The rest of the world doesn&rsquo;t need to know that is where we started our work. We can re-write history so that it appears like we started our work from Tony&rsquo;s latest changes. We want the issue123 commits to branch off from master, the &ldquo;Forgot the yogurt&rdquo; commit.
 
@@ -102,7 +102,7 @@ First, rewinding head to replay your work on top of it...
 Applying: My first commit
 Applying: Added another fruit</pre>
 
- <img height="373" width="744" src="//lostechies.com/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_181059_5DD82897.png" alt="After rebase" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
+ <img height="373" width="744" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_181059_5DD82897.png" alt="After rebase" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
 
 After a rebase, the &ldquo;My first commit&rdquo; now directly follows the &ldquo;Forgot the yogurt&rdquo;&#8221; commit, making the issue123 branch a direct descendent of the master branch. This means we can now do a fast-forward merge to bring issue123&rsquo;s changes into master.
 
@@ -116,7 +116,7 @@ Fast-forward
  vegetables.txt |    3 ++-
  2 files changed, 3 insertions(+), 1 deletions(-)</pre>
 
- <img height="373" width="744" src="//lostechies.com/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_181548_07D826C0.png" alt="No merge commit required after rebase" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
+ <img height="373" width="744" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_181548_07D826C0.png" alt="No merge commit required after rebase" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
 
 When we delete the issue123 branch and push these changes to the remote repository on github, there is no longer any evidence that the issue123 branch ever existed. Anyone that pulls down the repository will see a completely linear history, making it easier to understand.
 
@@ -132,8 +132,8 @@ Total 6 (delta 1), reused 0 (delta 0)
 To git@github.com:joshuaflanagan/gitk-demo.git
    ec8d10f..b5a86d6  master &ndash;&gt; master</pre>
 
-[<img height="373" width="744" src="//lostechies.com/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_182029_thumb_7A256AB7.png" alt="Pushed to remote" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />](//lostechies.com/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_182029_74B6FA13.png) x 
+[<img height="373" width="744" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_182029_thumb_7A256AB7.png" alt="Pushed to remote" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />](//lostechies.com/content/joshuaflanagan/uploads/2011/03/gitkgitkdemo_20100903_182029_74B6FA13.png) x 
 
 &nbsp;
 
-<img height="336" width="644" src="//lostechies.com/joshuaflanagan/files/2011/03/CommitHistoryforjoshuaflanagansgitkdemoGitHubGoogleChrome_20100903_182214_5212BB98.png" alt="Commit History after rebase" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
+<img height="336" width="644" src="//lostechies.com/content/joshuaflanagan/uploads/2011/03/CommitHistoryforjoshuaflanagansgitkdemoGitHubGoogleChrome_20100903_182214_5212BB98.png" alt="Commit History after rebase" border="0" style="border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px" />
