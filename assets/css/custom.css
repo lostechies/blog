@@ -22,8 +22,14 @@ blockquote {
   margin-bottom: 25px;
 }
 
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+
 .main-container {
-  max-width: 900px;
+  max-width: 1280px;
   margin: 0 auto;
   padding-left: 2%;
   padding-right: 2%;
@@ -87,6 +93,7 @@ h1.title > span {
 
 .post-text {
   font-family: "Open Sans", sans-serif;
+  display: block;
 }
 
 .post-text > p {
@@ -159,4 +166,20 @@ blockquote {
 
 .tile {
   flex-basis: auto;
+}
+
+div.note {    
+  border: black 1px solid;
+  background: #fffef4;  /* a really pale yellow */
+  padding: 15px;
+}
+
+div.note > note-title {
+ text-align:center; 
+ font-weight: bold;
+}
+
+p {
+  margin-top:16px;
+  margin-bottom:16px;
 }
