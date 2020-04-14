@@ -227,7 +227,7 @@ The first step of our test method should be to determine how we want to verify t
 [TestMethod]
 public void it_should_put_their_choice_in_the_selected_position()
 {
-  <strong>Assert.AreEqual('X', game.GetPosition(1));</strong>
+  <code>Assert.AreEqual('X', game.GetPosition(1));</code>
 }
 ```
 
