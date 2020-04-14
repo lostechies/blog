@@ -28,7 +28,8 @@ The first approach to achieving a Unit of Work around a series of Entity Framewo
 
 Here’s an example:
 
-<pre class="prettyprint">public Customer CreateCustomer(CreateCustomerRequest request)
+```C#
+public Customer CreateCustomer(CreateCustomerRequest request)
 {
   Customer customer = null;
 
@@ -40,7 +41,7 @@ Here’s an example:
     return customer;
   }
 }
-</pre>
+```
 
 The benefit of this approach is that a transaction is created only when necessary and is kept alive only for the duration of the SaveChanges() call. Some drawbacks to this approach, however, are that it leads to opaque dependencies and adds a bit of repetitive infrastructure code to each of your applications services.
 
