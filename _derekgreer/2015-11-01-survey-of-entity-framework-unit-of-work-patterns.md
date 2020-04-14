@@ -287,8 +287,8 @@ A pattern I’m a bit embarrassed to admit has been characteristic of many proje
 There are a few different manifestations of this approach depending upon the particular framework and strategy you’re using, but here’s a pseudo-code example of how configuring this might look for Entity Framework with the Autofac DI container:
 
 ```csharp
-builder.RegisterType&lt;MyDbContext>()
-        .As&lt;DbContext>()
+builder.RegisterType<MyDbContext>()
+        .As<DbContext>()
         .InstancePerRequest()
         .OnActivating(x =>
         {
@@ -424,19 +424,19 @@ Here is a pseudo-code example of how configuring this might look for Entity Fram
 ```csharp
 // DI Registration
 builder.RegisterGenericDecorator(
-     typeof(TransactionRequestHandler&lt;,>), // the decorator instance
-     typeof(IRequestHandler&lt;,>), // the types to decorate
+     typeof(TransactionRequestHandler<,>), // the decorator instance
+     typeof(IRequestHandler<,>), // the types to decorate
     "requestHandler", // the name of the key to decorate
      null); // the name of the key to this decorator
 
 
 
-public class TransactionRequestHandler&lt;TRequest, TResponse> : IRequestHandler&lt;TRequest, TResponse> where TResponse : ApplicationResponse
+public class TransactionRequestHandler<TRequest, TResponse> : IRequestHandler<TRequest, TResponse> where TResponse : ApplicationResponse
 {
   readonly DbContext _context;
-  readonly IRequestHandler&lt;TRequest, TResponse> _decorated;
+  readonly IRequestHandler<TRequest, TResponse> _decorated;
 
-  public TransactionRequestHandler(IRequestHandler&lt;TRequest, TResponse> decorated, DbContext context)
+  public TransactionRequestHandler(IRequestHandler<TRequest, TResponse> decorated, DbContext context)
   {
     _decorated = decorated;
     _context = context;
@@ -466,7 +466,7 @@ public class TransactionRequestHandler&lt;TRequest, TResponse> : IRequestHandler
 }
 
 
-public class SomeRequestHandler : IRequestHandler&lt;SomeRequest, ApplicationResponse>
+public class SomeRequestHandler : IRequestHandler<SomeRequest, ApplicationResponse>
 {
   public ApplicationResponse Handle()
   {
