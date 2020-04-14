@@ -51,7 +51,8 @@ If you prefer to work directly with Entity Framework then this approach may be f
 
 Another approach is to use the System.Transactions.TransactionScope class provided by the .Net framework. When any of the Entity Framework operations are used which cause a connection to be opened (e.g. SaveChanges()), the connection will enlist in the ambient transaction defined by the TransactionScope class and close the transaction once the TransactionScope is successfully completed. Here’s an example of this approach:
 
-<pre class="prettyprint">public Customer CreateCustomer(CreateCustomerRequest request)
+```csharp
+public Customer CreateCustomer(CreateCustomerRequest request)
 {
   Customer customer = null;
 
@@ -68,7 +69,7 @@ Another approach is to use the System.Transactions.TransactionScope class provid
     return customer;
   }
 }
-</pre>
+```
 
 In general, I find using TransactionScope to be a good general-purpose solution for defining a Unit of Work around Entity Framework operations as it works with ADO.Net, all versions of Entity Framework, and other ORMs which provides the ability to use multiple libraries if needed. Additionally, it provides a foundation for building a more comprehensive Unit of Work pattern which would allow other types of operations to enlist in the Unit of Work.
 
@@ -80,7 +81,8 @@ While I find using the TransactionScope class to be a good general-purpose solut
 
 This approach involves creating an instance of DbTransaction and instructing the participating DbContext instance to use the existing transaction:
 
-<pre class="prettyprint">public Customer CreateCustomer(CreateCustomerRequest request)
+```csharp
+public Customer CreateCustomer(CreateCustomerRequest request)
 {
   Customer customer = null;
 
@@ -110,7 +112,7 @@ This approach involves creating an instance of DbTransaction and instructing the
       return customer;
     }
   }
-</pre>
+```
 
 As can be seen from the example, this approach adds quite a bit of infrastructure noise to your code. While not something I’d recommend standardizing upon, this approach provides another avenue for sharing transactions between Entity Framework and straight ADO.Net code which might prove useful in certain situations. In general, I wouldn’t recommend such an approach.
 
@@ -118,7 +120,8 @@ As can be seen from the example, this approach adds quite a bit of infrastructur
 
 The relative new-comer to the mix is the new transaction API introduced with Entity Framework 6. Here’s a basic example of it’s use:
 
-<pre class="prettyprint">public Customer CreateCustomer(CreateCustomerRequest request)
+```csharp
+public Customer CreateCustomer(CreateCustomerRequest request)
 {
   Customer customer = null;
 
@@ -143,7 +146,7 @@ The relative new-comer to the mix is the new transaction API introduced with Ent
 
   return customer;
 }
-</pre>
+```
 
 This is the approach recommended by Microsoft for achieving transactions with Entity Framework going forward. If you’re deploying applications with Entity Framework 6 and beyond, this will be your safest choice for Unit of Work implementations which only require database operation participation. Similar to a couple of the previous approaches we’ve already considered, the drawbacks of using this directly are that it creates opaque dependencies and adds repetitive infrastructure code to all of your application services. This is also a viable option, but I would recommend coupling this with other approaches we&#8217;ll look at later to improve the readability and maintainability of your application services.
 
@@ -151,7 +154,8 @@ This is the approach recommended by Microsoft for achieving transactions with En
 
 The first approach I encountered when researching how others were facilitating the Unit of Work pattern with Entity Framework was a strategy set forth by Microsoft’s guidance on the topic [here](http://www.asp.net/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application). This strategy involves creating a UnitOfWork class which encapsulates an instance of the DbContext and exposes each repository as a property. Clients of repositories take a dependency upon an instance of UnitOfWork and access each repository as needed through properties on the UnitOfWork instance. The UnitOfWork type exposes a SaveChanges() method to be used when all the changes made through the repositories are to be persisted to the database. Here is an example of this approach:
 
-<pre class="prettyprint">public interface IUnitOfWork
+```csharp
+public interface IUnitOfWork
 {
   ICustomerRepository CustomerRepository { get; }
   IOrderRepository OrderRepository { get; }
@@ -204,7 +208,7 @@ public class CustomerService : ICustomerService
     _unitOfWork.Save();
   }
 }
-</pre>
+```
 
 It isn’t hard to imagine how this approach was conceived given it closely mirrors the typical implementation of the DbContext instance you find in Entity Framework guidance where public instances of DbSet<T> are exposed for each aggregate root. Given this pattern is presented on the ASP.Net website and comes up as one of the first results when doing a search for “Entity Framework” and “Unit of Work”, I imagine this approach has gained some popularity among .Net developers. There are, however, a number of issues I have with this approach. 
 
@@ -222,7 +226,8 @@ For those inclined to make all dependencies transparent while maintaining an abs
 
 Here is an example:
 
-<pre class="prettyprint">public class CustomerService : ICustomerService
+```csharp
+public class CustomerService : ICustomerService
 {
   readonly IUnitOfWork _unitOfWork;
   readonly ICustomerRepository _customerRepository;
@@ -240,7 +245,7 @@ Here is an example:
     _unitOfWork.Save();
   }
 }
-</pre>
+```
 
 While this approach improves upon the opaque design of the Repository Manager, there are several issues I find with this approach as well.
 
@@ -254,7 +259,8 @@ While this approach corrects a few design issues I find with the Repository Mana
 
 The next strategy is basically a variation on the previous one. Rather than injecting a separate type whose sole purpose is to provide an indirect way to call the SaveChanges() method, some merely expose this through the Repository:
 
-<pre class="prettyprint">public class CustomerService : ICustomerService
+```csharp
+public class CustomerService : ICustomerService
 {
   readonly ICustomerRepository _customerRepository;
 
@@ -270,7 +276,7 @@ The next strategy is basically a variation on the previous one. Rather than inje
     _customerRepository.SaveChanges();
   }
 }
-</pre>
+```
 
 This approach shares many of the same issues with the previous one. While it reduces a bit of infrastructure noise, it’s still semantically coupled to Entity Framework’s approach and still lacks a defined Unit of Work boundary. Additionally, it lacks clarity as to what happens when you call the SaveChanges() method. Given the Repository pattern is intended to be a virtual collection of all the entities within your system of a given type, one might suppose a method named “SaveChanges” means that you are somehow persisting any changes made to the particular entities represented by the repository (setting aside the fact that doing so is really a subversion of the pattern&#8217;s purpose). On the contrary, it really means “save all the changes made to any entities tracked by the underlying DbContext”. I would also recommend avoiding this approach.
 
@@ -280,7 +286,8 @@ A pattern I’m a bit embarrassed to admit has been characteristic of many proje
 
 There are a few different manifestations of this approach depending upon the particular framework and strategy you’re using, but here’s a pseudo-code example of how configuring this might look for Entity Framework with the Autofac DI container:
 
-<pre class="prettyprint">builder.RegisterType&lt;MyDbContext>()
+```csharp
+builder.RegisterType&lt;MyDbContext>()
         .As&lt;DbContext>()
         .InstancePerRequest()
         .OnActivating(x =>
@@ -307,8 +314,7 @@ public class SomeService : ISomeService
     // do some work
   }
 }
-
-</pre>
+```
 
 While this approach eliminates the need for your services to be concerned with the Unit of Work infrastructure, the biggest issue with this is when an error happens to occur. When the application can’t successfully commit a transaction for whatever reason, the rollback occurs AFTER you’ve typically relinquished control of the request (e.g. You’ve already returned results from a controller). When this occurs, you may end up telling your customer that something happened when it actually didn’t and your client state may end up out of sync with the actual persisted state of the application.
 
@@ -318,7 +324,8 @@ While I used this strategy without incident for some time with NHibernate, I eve
 
 The next strategy involves instantiating a UnitOfWork implemented using either the .Net framework TransactionScope class or the transaction API introduced by Entity Framework 6 to define a transaction boundary within the application service. Here’s an example:
 
-<pre class="prettyprint">public class CustomerService : ICustomerService
+```csharp
+public class CustomerService : ICustomerService
 {
   readonly ICustomerRepository _customerRepository;
 
@@ -344,7 +351,7 @@ The next strategy involves instantiating a UnitOfWork implemented using either t
     }
   }
 }
-</pre>
+```
 
 Functionally, this is a viable approach to facilitating a Unit of Work boundary with Entity Framework. A few drawbacks, however, are that the dependency upon the Unit Of Work implementation is opaque and that it’s coupled to a specific implementation. While this isn’t a terrible approach, I would recommend other approaches discussed here which either surface any dependencies being taken on the Unit of Work infrastructure or invert the concerns of transaction management completely.
 
@@ -352,7 +359,8 @@ Functionally, this is a viable approach to facilitating a Unit of Work boundary 
 
 This strategy is similar to the one presented in the Instantiated Unit of Work example, but makes its dependence upon the Unit of Work infrastructure transparent and provides a point of abstraction which allows for an alternate implementation to be provided by the factory:
 
-<pre class="prettyprint">public class CustomerService : ICustomerService
+```csharp
+public class CustomerService : ICustomerService
 {
   readonly ICustomerRepository _customerRepository;
   readonly IUnitOfWorkFactory _unitOfWorkFactory;
@@ -380,7 +388,7 @@ This strategy is similar to the one presented in the Instantiated Unit of Work e
     }
   }
 }
-</pre>
+```
 
 While I personally prefer to invert such concerns, I consider this to be a sound approach.
 
@@ -390,7 +398,8 @@ As a side note, if you decide to use this approach, you might also consider util
 
 For those who prefer to invert the Unit of Work concerns as I do, the following approach provides an easy to implement solution for those using ASP.Net MVC and/or Web API. This technique involves creating a custom Action filter which can be used to control the boundary of a Unit of Work at the Controller action level. The particular implementation may vary, but here’s a general template:
 
-<pre class="prettyprint">public class UnitOfWorkFilter : ActionFilterAttribute
+```csharp
+public class UnitOfWorkFilter : ActionFilterAttribute
 {
   public override void OnActionExecuting(ActionExecutingContext filterContext)
   {
@@ -402,7 +411,7 @@ For those who prefer to invert the Unit of Work concerns as I do, the following 
     // commit/rollback transaction
   }
 }
-</pre>
+```
 
 The benefits of this approach are that it’s easy to implement and that it eliminates the need for introducing repetitive infrastructure code into your application services. This attribute can be registered with the global action filters, or for the more discriminant, only placed on actions resulting in state changes to the database. Overall, this would be my recommended approach for Web applications. It’s easy to implement, simple, and keeps your code clean.
 
@@ -412,7 +421,8 @@ A similar approach to the use of a custom ActionFilterAttribute is the creation 
 
 Here is a pseudo-code example of how configuring this might look for Entity Framework with the Autofac DI container which presumes that some form of command/command-handler pattern is being utilized (e.g. frameworks like [MediatR](https://github.com/jbogard/MediatR) , [ShortBus](https://github.com/mhinze/ShortBus), etc.):
 
-<pre class="prettyprint">// DI Registration
+```csharp
+// DI Registration
 builder.RegisterGenericDecorator(
      typeof(TransactionRequestHandler&lt;,>), // the decorator instance
      typeof(IRequestHandler&lt;,>), // the types to decorate
@@ -464,7 +474,7 @@ public class SomeRequestHandler : IRequestHandler&lt;SomeRequest, ApplicationRes
     return new SuccessResponse();
   }
 }
-</pre>
+```
 
 While this approach requires a bit of setup, it provides an alternate means of facilitating the Unit of Work pattern through a decorator which can be used by other consumers of the application layer aside from just ASP.Net (i.e. Windows services, CLI, etc.) It also provides the ability to move the Unit of Work boundary closer to the point of need for those who would rather provide any error handling prior to returning control to the application service client (e.g. the Controller actions) as well as giving more control over the types of operations decorated (e.g. IQueryHandler vs. ICommandHandler). For Web applications, I’d recommend trying the custom Action Filter approach first, as it’s easier to implement and doesn’t presume upon the design of your application layer, but this is certainly a good approach if it fits your needs.
 

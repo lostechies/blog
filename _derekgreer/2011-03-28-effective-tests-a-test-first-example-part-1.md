@@ -159,7 +159,7 @@ Our first step will be to create a new Visual Studio project. I’ll use the Tes
                 
 Next, let’s create a test class that reflects the context of our first requirement:
                 
-<pre class="prettyprint">
+```csharp
  using Microsoft.VisualStudio.TestTools.UnitTesting;
  namespace TestFirstExample
  {
@@ -168,11 +168,11 @@ Next, let’s create a test class that reflects the context of our first require
      {        
      }
  }
-</pre>
+```
                 
 Next, let’s create a method that expresses the first observable behavior for our context:
                 
-<pre class="prettyprint">
+```csharp
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace TestFirstExample
 {
@@ -185,11 +185,11 @@ namespace TestFirstExample
         }
     }
 }
-</pre>
+```
 
 Since we've chosen to follow a more Behavior-Driven Development approach to writing our tests, let’s take a second and reflect on how this reads. Thus far, we’ve used the same wording from our requirements, but the class and method identifiers seem a little difficult to read. Since we’re using code to represent sentences instead of entities and methods, let’s try changing our naming convention to use underscores for separating each word in our identifiers and see how it looks:
 
-<pre class="prettyprint">
+```csharp
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestFirstExample
@@ -204,7 +204,7 @@ namespace TestFirstExample
         }
     }
 }
-</pre>
+```
 
 In C#, this breaks with our normal naming conventions for class and method names, but this seems a little easier to read in my opinion.
 
@@ -223,19 +223,19 @@ In C#, this breaks with our normal naming conventions for class and method names
 
 The first step of our test method should be to determine how we want to verify that a player’s choice results in an X being placed in the selected position. To do this, we’ll need a way of evaluating the state of the game. One approach we could take would be to simply ask the game to tell us what value is in a given position. Since a Tic-tac-toe game is comprised of a grid with nine positions, we can refer to each position by number, numbering them from left to right, top to bottom. Let’s assume we can call a method named GetPosition():
 
-<pre class="prettyprint">
+```csharp
 [TestMethod]
 public void it_should_put_their_choice_in_the_selected_position()
 {
   <strong>Assert.AreEqual('X', game.GetPosition(1));</strong>
 }
-</pre>
+```
 
 <br />
 
 Next, we need to create the instance of our Game variable and determine how we’re going to inform it about our choice. A common rule of Tic-tac-toe is to let ‘X’ go first, so we can keep things simple if we adopt this rule. The only input needed in that case is the position, so let’s call a method named ChoosePosition() and pass an integer value of 1 to indicate the top-left position on the board:
 
-<pre class="prettyprint">
+```csharp
 [TestMethod]
 public void it_should_put_their_choice_in_the_selected_position()
 {
@@ -243,12 +243,11 @@ public void it_should_put_their_choice_in_the_selected_position()
     <strong>game.ChoosePosition(1);</strong>
     Assert.AreEqual('X', game.GetPosition(1));
 }
-
-</pre>
+```
 
 Of course, this won’t compile since our Game class doesn’t exist yet. Let’s create our class and methods now:
 
-<pre class="prettyprint">
+```csharp
 public class Game
 {
   public void ChoosePosition(int position)
@@ -261,7 +260,7 @@ public class Game
     throw new NotImplementedException();
   }
 }
-</pre>
+```
 
 
 Everything should be ready to compile. Let’s run our test and see what happens:
@@ -281,7 +280,7 @@ System.NotImplementedException: The method or operation is not implemented.
 
 As you probably expected, our test fails. Since we’re following the Red/Green/Refactor process, you might think we’re ready to work on getting the test to pass now. Not so fast! The purpose of writing a failing test isn’t failure, but <i>validation</i>. At this point, what we should be interested in is that the behavior of our code will be correctly validated once we write it. To help explain, let’s consider what would happen if we had mistakenly written the test as follows:
 
-<pre class="prettyprint">
+```csharp
 [TestClass]
 public class When_the_player_goes_first
 {
@@ -293,14 +292,14 @@ public class When_the_player_goes_first
       Assert.<strong>AreNotEqual</strong>('X', game.GetPosition(1));
     }
 }
+```
 <br />
-</pre>
 
 Here, we’ve changed Assert.AreEqual() to Assert.AreNotEqual(). How do you think this will change the outcome of the test? If you guessed it would not change the outcome then you’re correct. Our test didn’t fail because of our assert, but rather because an exception halted the test before it even got to the assertion. That doesn’t tell us anything about the validity of how we’ve written our test. Merely getting a test to fail doesn’t serve a useful purpose. Our test needs to <i>fail for the right reason</i>.
 
 In this case, we want our test to fail because the call to the GetPosition() method didn’t return an X. Let’s remove the calls which are causing exceptions to be thrown and change the GetPosition() method to return a value that forces the test to fail due to the assertion:
 
-<pre class="prettyprint">
+```csharp
 public class Game
 {
   public void ChoosePosition(int position)
@@ -312,7 +311,7 @@ public class Game
     <strong>return '\0';</strong>
   }
 }
-</pre>
+```
 
 Running our test again produces the following output:
 
@@ -330,7 +329,8 @@ Assert.AreEqual failed. Expected:&lt;X&gt;. Actual:&lt;\0&gt;.
 <br/>
 
 We now see that our test is failing due to the assertion properly validating the behavior of our class. Our next step is getting our test to pass quickly. Let's use the Fake It approach and simply return the expected value of ‘X’: 
-<pre class="prettyprint">
+
+```csharp
 public class Game
 {
   public void ChoosePosition(int position)
@@ -342,7 +342,7 @@ public class Game
     <strong>return 'X';</strong>
   }
 }
-</pre>
+```
 
 <div style="background:#3C0">
 &nbsp;
@@ -353,7 +353,7 @@ Our first test passes! Our next step is to eliminate any unnecessary generalizat
 
 To remove our duplication, let’s keep track of the player’s choice in a layout field which we can set when the ChoosePosition() method is called and then retrieve when the GetPosition() method is called:
 
-<pre class="prettyprint">
+```csharp
 public class Game
 {
   <strong>char _layout;</strong>
@@ -368,7 +368,7 @@ public class Game
     <strong>return _layout;</strong>
   }
 }
-</pre>
+```
 
 <div style="background:#3C0">
 &nbsp;
@@ -383,18 +383,18 @@ Another question some may be wondering is whether taking small steps is a rule w
 
 Let’s move on to our next requirement. We’ll start by creating a new test method:
 
-<pre class="prettyprint">
+```csharp
 [TestMethod]
 public void it_should_make_the_next_move()
 {
 }
-</pre>
+```
 
 <p>
 Again, our first step is to determine how we want to verify the behavior of the requirement. Since this test would be satisfied by the game choosing any position, we can verify the expected behavior occurred by checking all the positions. A clean way to do this is to create the range we want to check using Enumerable.Range() and then use LINQ’s Any() extension method to check each position for the character ‘O’. The Any() method returns true as soon as one of the enumerated elements is satisfied by the predicate:
 </p>
 
-<pre class="prettyprint">
+```csharp
 [TestMethod]
 public void it_should_make_the_next_move()
 {
@@ -402,11 +402,11 @@ public void it_should_make_the_next_move()
       .Any(position =&gt; game.GetPosition(position)
         .Equals('O')));
 }
-</pre>
+```
 
 Next, we need to establish the context for the test. To avoid duplication, let’s move the context setup from our first test into a setup method and modify our tests to use a class field:
 
-<pre class="prettyprint">
+```csharp
 [TestClass]
 public class When_the_player_goes_first
 {
@@ -433,7 +433,7 @@ public class When_the_player_goes_first
             .Equals('O')));
     }
 }
-</pre>
+```
 
 Now we’re ready to run our test. Since we’ve modified things, let’s run both the tests just to make sure we didn’t break the first one:
 
@@ -451,7 +451,7 @@ Assert.IsTrue failed.
 
 From the output, we see that we didn’t break our first test and our second test is failing for the right reason. Next, let’s make our new test pass. To do so, the GetPosition() method will need to return an ‘O’ for one of the nine times it’s called. Let’s use the Fake It approach again to get the test to pass quickly. We can change our _layout field to a two character array and hard-code the ChoosePosition() method to assign ‘O’ to the second position:
 
-<pre class="prettyprint">
+```csharp
 public class Game
 {
   char[] _layout = new <strong>char[2]</strong>;
@@ -467,7 +467,7 @@ public class Game
     return _layout[position - 1];
   }
 }
-</pre>
+```
 
 <div style="background:#3C0">
 &nbsp;
@@ -484,7 +484,7 @@ To introduce generalization in cases where duplication either doesn’t exist or
 To demonstrate, let’s create a second test which validates the behavior of our class in a slightly different way which the current implementation wouldn’t satisfy:
 </p>
 
-<pre class="prettyprint">
+```csharp
 [TestClass]
 public class When_the_player_selects_the_second_position
 {
@@ -496,7 +496,7 @@ public class When_the_player_selects_the_second_position
       Assert.AreEqual('X', game.GetPosition(2));
     }
 }
-</pre>
+```
 
 <div style="background:red">
 &nbsp;
@@ -512,7 +512,7 @@ Assert.AreEqual failed. Expected:&lt;X&gt;. Actual:&lt;O&gt;.
 
 Our test fails because the method is hard-coded to assign ‘O’ to the second position. In order to make this test pass, we’ll now need to change our code to a more general solution. To replace the hard-coded selection of the second position, we can use LINQ to locate the first unoccupied element of the array and use that position for our assignment:
 
-<pre class="prettyprint">
+```csharp
 public class Game
 {
   readonly char[] _layout = new char[2];
@@ -530,7 +530,7 @@ public class Game
     return _layout[position - 1];
   }
 }
-</pre>
+```
 
 <div style="background:#3C0">
 &nbsp;
@@ -541,7 +541,7 @@ Our new test now passes. Our next step would be to factor out any duplication we
 
 While the use of Triangulation provides a simple to understand and explicit driver for introducing a generalized solution, it’s use is a somewhat inelegant strategy. Once a generalized solution is introduced, intersecting tests become redundant from a specification perspective. They can be useful in cases when it isn’t clear why a generalized solution exists and you need to ensure the solution isn’t lost through a future refactoring, but the resulting extra tests lead to higher test maintenance costs and can lead to confusion when included in reports or used as documentation by other team members. When possible, prefer removing duplication over triangulation as a generalization strategy. If duplication isn’t present or is of a particularly difficult to spot nature and generalization won’t be addressed by a separate requirement then it may be beneficial to leave redundant tests. To help aid in clarifying the intent of the test, we can use a TestCategoryAttribute as follows:
 
-<pre class="prettyprint">
+```csharp
 [TestClass]
 public class When_the_player_selects_the_second_position
 {
@@ -553,7 +553,7 @@ public class When_the_player_selects_the_second_position
       Assert.AreEqual('X', game.GetPosition(2));
     }
 }
-</pre>
+```
 
 This helps to identify the reason for the test to other team members in a standard way and provides a mechanism for creating reports which don’t include the redundant test cases when desired. From the command line, our tests can be run without including the triangulation tests using the following:
 
@@ -565,16 +565,16 @@ c:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\MSTest.exe /category:'
 
 For frameworks which provide non-sealed attributes for identifying categories of tests, we can create our own strongly-typed attribute to minimize any additional syntax noise as shown in the following contrived example:
 
-<pre class="prettyprint">
-    public class TriangulationAttribute : SomeFrameworkCategoryAttribute
+```csharp
+public class TriangulationAttribute : SomeFrameworkCategoryAttribute
 {
   public MyAttribute() : base("Triangulation") { }   
 }  
-</pre>
+```
 
 While perhaps not easily discerned, we might have avoided the use of Triangulation in the above example had we considered our Any() extension method to have been hiding a form of duplication. When we used the Any() method to look for the first occurrence of a position with the value ‘O’, this was logically the same as if we had written the following:
 
-<pre class="prettyprint">
+```csharp
 [TestMethod]
 public void it_should_make_the_next_move()
 {
@@ -595,20 +595,20 @@ public void it_should_make_the_next_move()
   Assert.IsTrue(gamePositionFound);
 
 }
-</pre>
+```
 
 Breaking the logic down further, our for loop would have performed the following checks:
 
-<pre class="prettyprint">
+```csharp
 if(positions[0].Equals(‘O’)) { … }
 if(positions[1].Equals(‘O’)) { … }
-</pre>
+```
 
 Based on a more explicit expression of what our code was doing, it becomes easier to identify the duplication that was present.
 
 Moving on, our next requirement concerns how we’ll determine when the player has won the game. Let’s create a new test class along with it’s single observation:
 
-<pre class="prettyprint">
+```csharp
 [TestClass]
 public class When_the_player_gets_three_in_a_row
 {
@@ -618,11 +618,11 @@ public class When_the_player_gets_three_in_a_row
 
     }
 }
-</pre>
+```
 
 We know that we want to end up with a message that reflects that the player won, so let’s start with this as our assertion:
 
-<pre class="prettyprint">
+```csharp
 [TestClass]
 public class When_the_player_gets_three_in_a_row
 {
@@ -632,11 +632,11 @@ public class When_the_player_gets_three_in_a_row
       <strong>Assert.AreEqual("Player wins.", message);</strong>
     }
 }
-</pre>
+```
 
 Next, we need to determine where our message will come from. Let’s assume our ChoosePosition() method returns a message after the player makes a move. We’ll call the ChoosePosition() method three times and declare our Game instance:
 
-<pre class="prettyprint">
+```csharp
 [TestClass]
 public class When_the_player_gets_three_in_a_row
 {
@@ -650,11 +650,11 @@ public class When_the_player_gets_three_in_a_row
         Assert.AreEqual("Player wins!", message);            
     }
 }
-</pre>
+```
 
 To get this to compile, we need to change the ChoosePosition() method to return a string:
 
-<pre class="prettyprint">
+```csharp
 public <strong>string</strong> ChoosePosition(int position)
 {
   _layout[position - 1] = value;
@@ -664,7 +664,7 @@ public <strong>string</strong> ChoosePosition(int position)
 
   <strong>return string.Empty;</strong>
 }
-</pre>
+```
 
 We’re now ready to run our tests:
 
@@ -684,9 +684,9 @@ System.InvalidOperationException: Sequence contains no matching element
 
 It looks like our test isn’t failing for the right reason yet. The problem is that our array isn’t large enough for our new test scenario. Let’s go ahead and take the larger step of increasing the layout to accommodate the full 9 positions of the game board and run our test again:
 
-<pre class="prettyprint">
+```csharp
 readonly char[] _layout = <strong>new char[9]</strong>;
-</pre>
+```
 
 <div style="background:red">
 &nbsp;
@@ -702,7 +702,7 @@ Assert.AreEqual failed. Expected:&lt;Player wins!&gt;. Actual:&lt;&gt;.
 
 Now, let’s make it pass. We can just return the string “Player wins!” to get the test to pass quickly:
 
-<pre class="prettyprint">
+```csharp
 public class Game
 {
   readonly char[] _layout = new char[9];
@@ -722,15 +722,14 @@ public class Game
     return _layout[position - 1];
   }
 }
-</pre>
-&nbsp;
+```
 
 <div style="background:#3C0">&nbsp;</div>
 <br/>
 
 We now have the string "Player wins!" duplicated, so we’ll fix this by putting in some logic to test that the first three positions contain the value ‘X’:
 
-<pre class="prettyprint">
+```csharp
 public class Game
 {
   readonly char[] _layout = new char[9];
@@ -753,15 +752,14 @@ public class Game
     return _layout[position - 1];
   }
 }
-</pre>
-&nbsp;
+```
 
 <div style="background:#3C0">&nbsp;</div>
 <br/>
 
 We can now move on to our next requirement which concerns determining when the game wins. Here’s our test skeleton:
 
-<pre class="prettyprint">
+```csharp
 [TestClass]
 public class When_the_game_gets_three_in_a_row
 {
@@ -770,11 +768,11 @@ public class When_the_game_gets_three_in_a_row
     {            
     }
 }
-</pre>
+```
 
 Again, we’ll start by declaring our assertion and then fill in the context of the test. Since we know that the game chooses the first unoccupied space, we can leverage this by choosing positions which leave the first row open:
 
-<pre class="prettyprint">
+```csharp
 [TestClass]
 public class When_the_game_gets_three_in_a_row
 {
@@ -788,7 +786,7 @@ public class When_the_game_gets_three_in_a_row
       Assert.AreEqual("Game wins.", message);</strong>
     }
 }
-</pre>
+```
 
 <div style="background:red">&nbsp;</div>
 <br/>
@@ -802,7 +800,7 @@ Assert.AreEqual failed. Expected:&lt;Game wins.&gt;. Actual:&lt;&gt;.
 
 To get the test to pass, we can use similar logic as before to check that the layout starts with “OOO”:
 
-<pre class="prettyprint">
+```csharp
 public string ChoosePosition(int position)
 {
   _layout[position - 1] = 'X';
@@ -818,8 +816,7 @@ public string ChoosePosition(int position)
 
     return string.Empty;
 }
-</pre>
-&nbsp;
+```
 
 <div style="background:#3C0">&nbsp;</div>
 <br/>
@@ -849,8 +846,8 @@ _ _ X _ X _ X _ _
   Let’s start by creating a new array reflecting the winning patterns for ‘X’:
   </p>
 
-<pre class="prettyprint">
-  public class Game
+```csharp
+public class Game
 {
   readonly char[] _layout = new char[9];
 
@@ -881,11 +878,11 @@ _ _ X _ X _ X _ _
 
     return string.Empty;
   }
-</pre>
+```
 
 Next, we need to create a string representation of our current layout:
 
-<pre class="prettyprint">
+```csharp
     public string ChoosePosition(int position)
     {
       _layout[position - 1] = 'X';
@@ -903,11 +900,11 @@ Next, we need to create a string representation of our current layout:
 
       return string.Empty;
     }
-</pre>
+```
 
 Next, let’s replace the previous comparison checking if the layout starts with “XXX” with a loop that checks each winning pattern to the current layout:
 
-<pre class="prettyprint">
+```csharp
     public string ChoosePosition(int position)
     {
       _layout[position - 1] = 'X';
@@ -928,14 +925,14 @@ Next, let’s replace the previous comparison checking if the layout starts with
 
       return string.Empty;
     }
-</pre>
+```
 
 <div style="background:#3C0">&nbsp;</div>
 <br/>
 
 Everything is still working. Now, let’s make the same changes for the game comparison:
 
-<pre class="prettyprint">
+```csharp
     public class Game
     {
       readonly char[] _layout = new char[9];
@@ -993,14 +990,14 @@ Everything is still working. Now, let’s make the same changes for the game com
         return _layout[position - 1];
       }
     }
-</pre>
+```
 
 <div style="background:#3C0">&nbsp;</div>
 <br/>
 
 We’re still green. At this point we’ve actually introduced a little more duplication than we started with, but we’re making small steps that will eventually lead us to a solution. Next, let’s see if we can combine our two arrays to represent the winning position for both players. Since we’re using a regular expression, we can replace the characters with character sets like this:
 
-<pre class="prettyprint">
+```csharp
     readonly string[] _winningPatterns = new[]
     <strong>{
       "[XO][XO][XO]......",
@@ -1012,11 +1009,11 @@ We’re still green. At this point we’ve actually introduced a little more dup
         "[XO]...[XO]...[XO]",
         "..[XO].[XO].[XO]..",
     }</strong>;
-</pre>
+```
 
 We’ll then need to change the comparisons to use the new array. Since we only want to compare one side at a time, we’ll also need to filter out the characters we don’t want:
 
-<pre class="prettyprint">
+```csharp
     public string ChoosePosition(int position)
     {
       _layout[position - 1] = 'X';
@@ -1042,14 +1039,14 @@ We’ll then need to change the comparisons to use the new array. Since we only 
 
       return string.Empty;
     }
-</pre>
+```
 
 <div style="background:#3C0">&nbsp;</div>
 <br/>
 
 Now, let’s take care of the looping duplication by creating a method that will perform the comparison based on the given side we’re interested in:
 
-<pre class="prettyprint">
+```csharp
     bool WinningPlayerIs(char player)
     {
       var layout = new string(_layout);
@@ -1067,11 +1064,11 @@ Now, let’s take care of the looping duplication by creating a method that will
 
       return false;
     }
-</pre>
+```
 
 We can now replace our comparisons with a call to our new method:
 
-<pre class="prettyprint">
+```csharp
     public string ChoosePosition(int position)
     {
       _layout[position - 1] = 'X';
@@ -1087,14 +1084,14 @@ We can now replace our comparisons with a call to our new method:
 
           return string.Empty;
     }
-</pre>
+```
 
 <div style="background:#3C0">&nbsp;</div>
 <br/>
 
 Now, let’s clean up our new WinningPlayerIs() method. We’re duplicating the call to Replace() based upon which character we’re wanting the layout for, so instead of this let’s use LINQ to create an array with the character we want filtered out:
 
-<pre class="prettyprint">
+```csharp
     bool WinningPlayerIs(char player)
     {
       <strong>var layout = new string(_layout.ToList()
@@ -1109,14 +1106,14 @@ Now, let’s clean up our new WinningPlayerIs() method. We’re duplicating the 
 
       return false;
     }
-</pre>
+```
 
 <div style="background:#3C0">&nbsp;</div>
 <br/>
 
 That’s more concise, but it could stand to be more descriptive. Rather than adding a comment, let’s just wrap this in an intention-revealing method:
 
-<pre class="prettyprint">
+```csharp
     bool WinningPlayerIs(char player)
     {
       var layout = <strong>GetLayoutFor(player);</strong>
@@ -1136,35 +1133,35 @@ That’s more concise, but it could stand to be more descriptive. Rather than ad
         .Select(c =&gt; (c.Equals(player)) ? player : '\0')
         .ToArray());
   }</strong>
-</pre>
+```
 
 We can also eliminate declaring multiple exit points and simplify the comparison by using LINQ’s Any() extension method:
 
-<pre class="prettyprint">
+```csharp
     bool WinningPlayerIs(char player)
     {
       var layout = GetLayoutFor(player);
       return _winningPatterns.Any(pattern =&gt; Regex.IsMatch(layout, pattern));
     }
-</pre>
+```
 
 Let’s go ahead and in-line our call to GetLayoutFor(player):
 
-<pre class="prettyprint">
+```csharp
           bool WinningPlayerIs(char player)
           {
             <strong>return _winningPatterns
               .Any(pattern =&gt; Regex.IsMatch(GetLayoutFor(player), pattern));</strong>
           }
 
-</pre>
+```
 
 <div style="background:#3C0">&nbsp;</div>
 <br/>
 
 Here’s what we have so far:
 
-<pre class="prettyprint">
+``csharp
     public class Game
     {
       readonly char[] _layout = new char[9];
@@ -1215,7 +1212,6 @@ Here’s what we have so far:
         return _layout[position - 1];
       }
     }
-
-</pre>
+```
 
 We’ll leave things here for now and complete the rest of our requirements next time.
