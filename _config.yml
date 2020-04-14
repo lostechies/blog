@@ -270,6 +270,7 @@ collections:
 
 # Build settings
 markdown: kramdown
+highlighter: rogue
 theme: minima
 plugins:
   - jekyll-redirect-from
