@@ -28,7 +28,7 @@ The first approach to achieving a Unit of Work around a series of Entity Framewo
 
 Here’s an example:
 
-```C#
+```csharp
 public Customer CreateCustomer(CreateCustomerRequest request)
 {
   Customer customer = null;
