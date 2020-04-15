@@ -268,8 +268,6 @@ Everything should be ready to compile. Let’s run our test and see what happens
 <div style="background: red">
 &nbsp;
 </div>
-<br/>
-
 <div style="background-color: #FFFFF;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
 Test method TestFirstExample.When_the_player_goes_first
 .it_should_put_their_choice_in_the_selected_position threw exception: 
@@ -318,8 +316,6 @@ Running our test again produces the following output:
 <div style="background: red">
 &nbsp;
 </div>
-<br>
-
 <div style="background-color: #FFFFF;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
 When_the_player_goes_first
 Failed	it_should_put_their_choice_in_the_selected_position	
@@ -440,8 +436,6 @@ Now we’re ready to run our test. Since we’ve modified things, let’s run bo
 <div style="background: red">
 &nbsp;
 </div>
-<br/>
-
 <div style="background-color: #FFFFF;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
 When_the_player_goes_first
 Failed	it_should_make_the_next_move
