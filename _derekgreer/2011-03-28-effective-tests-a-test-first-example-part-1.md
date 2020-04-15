@@ -395,7 +395,7 @@ Again, our first step is to determine how we want to verify the behavior of the 
 public void it_should_make_the_next_move()
 {
   Assert.IsTrue(Enumerable.Range(1, 9)
-      .Any(position =&gt; game.GetPosition(position)
+      .Any(position => game.GetPosition(position)
         .Equals('O')));
 }
 ```
@@ -425,7 +425,7 @@ public class When_the_player_goes_first
     public void it_should_make_the_next_move()
     {
       Assert.IsTrue(Enumerable.Range(1, 9)
-          .Any(position =&gt; _game.GetPosition(position)
+          .Any(position => _game.GetPosition(position)
             .Equals('O')));
     }
 }
@@ -515,7 +515,7 @@ public class Game
   {
     _layout[position - 1] = 'X';
     int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-      .First(p =&gt; _layout[p].Equals('\0'));
+      .First(p => _layout[p].Equals('\0'));
     _layout[firstUnoccupied] = 'O';
   }
 
@@ -653,7 +653,7 @@ public string ChoosePosition(int position)
 {
   _layout[position - 1] = value;
   int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-    .First(p =&gt; _layout[p].Equals('\0'));
+    .First(p => _layout[p].Equals('\0'));
   _layout[firstUnoccupied] = 'O';
 
   return string.Empty;
@@ -705,7 +705,7 @@ public class Game
   {
     _layout[position - 1] = 'X';
     int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-      .First(p =&gt; _layout[p].Equals('\0'));
+      .First(p => _layout[p].Equals('\0'));
     _layout[firstUnoccupied] = 'O';
 
     return "Player wins!";
@@ -732,7 +732,7 @@ public class Game
   {
     _layout[position - 1] = 'X';
     int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-      .First(p =&gt; _layout[p].Equals('\0'));
+      .First(p => _layout[p].Equals('\0'));
     _layout[firstUnoccupied] = 'O';
 
     if (new string(_layout.ToArray()).StartsWith("XXX"))
@@ -799,7 +799,7 @@ public string ChoosePosition(int position)
 {
   _layout[position - 1] = 'X';
   int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-    .First(p =&gt; _layout[p].Equals('\0'));
+    .First(p => _layout[p].Equals('\0'));
   _layout[firstUnoccupied] = 'O';
 
   if (new string(_layout.ToArray()).StartsWith("XXX"))
@@ -861,7 +861,7 @@ public class Game
   {
     _layout[position - 1] = 'X';
     int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-      .First(p =&gt; _layout[p].Equals('\0'));
+      .First(p => _layout[p].Equals('\0'));
     _layout[firstUnoccupied] = 'O';
 
     if (new string(_layout.ToArray()).StartsWith("XXX"))
@@ -881,7 +881,7 @@ Next, we need to create a string representation of our current layout:
     {
       _layout[position - 1] = 'X';
       int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-        .First(p =&gt; _layout[p].Equals('\0'));
+        .First(p => _layout[p].Equals('\0'));
       _layout[firstUnoccupied] = 'O';
 
       var layoutAsString = new string(_layout);
@@ -903,7 +903,7 @@ Next, let’s replace the previous comparison checking if the layout starts with
     {
       _layout[position - 1] = 'X';
       int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-        .First(p =&gt; _layout[p].Equals('\0'));
+        .First(p => _layout[p].Equals('\0'));
       _layout[firstUnoccupied] = 'O';
 
       var layoutAsString = new string(_layout);
@@ -959,7 +959,7 @@ Everything is still working. Now, let’s make the same changes for the game com
       {
         _layout[position - 1] = 'X';
         int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-          .First(p =&gt; _layout[p].Equals('\0'));
+          .First(p => _layout[p].Equals('\0'));
         _layout[firstUnoccupied] = 'O';
 
         var layoutAsString = new string(_layout);
@@ -1012,7 +1012,7 @@ We’ll then need to change the comparisons to use the new array. Since we only 
     {
       _layout[position - 1] = 'X';
       int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-        .First(p =&gt; _layout[p].Equals('\0'));
+        .First(p => _layout[p].Equals('\0'));
       _layout[firstUnoccupied] = 'O';
 
       string layoutAsString = new string(_layout).Replace('O', '\0');
@@ -1067,7 +1067,7 @@ We can now replace our comparisons with a call to our new method:
     {
       _layout[position - 1] = 'X';
       int firstUnoccupied = Enumerable.Range(0, _layout.Length) 
-        .First(p =&gt; _layout[p].Equals('\0'));
+        .First(p => _layout[p].Equals('\0'));
       _layout[firstUnoccupied] = 'O';
 
       if (WinningPlayerIs('X'))
@@ -1089,7 +1089,7 @@ Now, let’s clean up our new WinningPlayerIs() method. We’re duplicating the 
     bool WinningPlayerIs(char player)
     {
       var layout = new string(_layout.ToList()
-          .Select(c =&gt; (c.Equals(player)) ? player : '\0')
+          .Select(c => (c.Equals(player)) ? player : '\0')
           .ToArray());
 
         foreach (string pattern in _winningPatterns)
@@ -1124,7 +1124,7 @@ That’s more concise, but it could stand to be more descriptive. Rather than ad
   string GetLayoutFor(char player)
   {
     return new string(_layout.ToList()
-        .Select(c =&gt; (c.Equals(player)) ? player : '\0')
+        .Select(c => (c.Equals(player)) ? player : '\0')
         .ToArray());
   }
 ```
@@ -1135,7 +1135,7 @@ We can also eliminate declaring multiple exit points and simplify the comparison
     bool WinningPlayerIs(char player)
     {
       var layout = GetLayoutFor(player);
-      return _winningPatterns.Any(pattern =&gt; Regex.IsMatch(layout, pattern));
+      return _winningPatterns.Any(pattern => Regex.IsMatch(layout, pattern));
     }
 ```
 
@@ -1145,7 +1145,7 @@ Let’s go ahead and in-line our call to GetLayoutFor(player):
           bool WinningPlayerIs(char player)
           {
             return _winningPatterns
-              .Any(pattern =&gt; Regex.IsMatch(GetLayoutFor(player), pattern));
+              .Any(pattern => Regex.IsMatch(GetLayoutFor(player), pattern));
           }
 
 ```
@@ -1176,7 +1176,7 @@ Here’s what we have so far:
       {
         _layout[position - 1] = 'X';
         int firstUnoccupied = Enumerable.Range(0, _layout.Length)
-          .First(p =&gt; _layout[p].Equals('\0'));
+          .First(p => _layout[p].Equals('\0'));
         _layout[firstUnoccupied] = 'O';
 
         if (WinningPlayerIs('X'))
@@ -1191,13 +1191,13 @@ Here’s what we have so far:
       bool WinningPlayerIs(char player)
       {
         return _winningPatterns
-          .Any(pattern =&gt; Regex.IsMatch(GetLayoutFor(player), pattern));
+          .Any(pattern => Regex.IsMatch(GetLayoutFor(player), pattern));
       }
 
       string GetLayoutFor(char player)
       {
         return new string(_layout.ToList()
-            .Select(c =&gt; (c.Equals(player)) ? player : '\0')
+            .Select(c => (c.Equals(player)) ? player : '\0')
             .ToArray());
       }
 
