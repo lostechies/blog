@@ -227,7 +227,7 @@ The first step of our test method should be to determine how we want to verify t
 [TestMethod]
 public void it_should_put_their_choice_in_the_selected_position()
 {
-  <code>Assert.AreEqual('X', game.GetPosition(1));</code>
+  Assert.AreEqual('X', game.GetPosition(1));  // +
 }
 ```
 
@@ -239,9 +239,9 @@ Next, we need to create the instance of our Game variable and determine how we�
 [TestMethod]
 public void it_should_put_their_choice_in_the_selected_position()
 {
-  <strong>var game = new Game();</strong>
-    <strong>game.ChoosePosition(1);</strong>
-    Assert.AreEqual('X', game.GetPosition(1));
+  var game = new Game();      // +
+  game.ChoosePosition(1);     // +
+  Assert.AreEqual('X', game.GetPosition(1));
 }
 ```
 
@@ -289,7 +289,7 @@ public class When_the_player_goes_first
     {
       var game = new Game();
       game.ChoosePosition(1);
-      Assert.<strong>AreNotEqual</strong>('X', game.GetPosition(1));
+      Assert.AreNotEqual('X', game.GetPosition(1));    // +
     }
 }
 ```
@@ -308,7 +308,7 @@ public class Game
 
   public char GetPosition(int position)
   {
-    <strong>return '\0';</strong>
+    return '\0';    // +
   }
 }
 ```
@@ -339,7 +339,7 @@ public class Game
 
   public char GetPosition(int position)
   {
-    <strong>return 'X';</strong>
+    return 'X';    // +
   }
 }
 ```
@@ -356,16 +356,16 @@ To remove our duplication, let’s keep track of the player’s choice in a layo
 ```csharp
 public class Game
 {
-  <strong>char _layout;</strong>
+  char _layout;       // +
 
-    public void ChoosePosition(int position)
-    {
-      <strong>_layout = 'X';</strong>
-    }
+  public void ChoosePosition(int position)
+  {
+    _layout = 'X';    // +
+  }
 
   public char GetPosition(int position)
   {
-    <strong>return _layout;</strong>
+    return _layout;  // +
   }
 }
 ```
@@ -410,26 +410,26 @@ Next, we need to establish the context for the test. To avoid duplication, let�
 [TestClass]
 public class When_the_player_goes_first
 {
-  <strong>Game _game;</strong>
+  Game _game;
 
-    <strong>[TestInitialize]
+    [TestInitialize]
     public void establish_context()
     {
       _game = new Game();
       _game.ChoosePosition(1);
-    }</strong>
+    }
 
   [TestMethod]
     public void it_should_put_their_choice_in_the_selected_position()
     {
-      Assert.AreEqual('X', <strong>_game</strong>.GetPosition(1));
+      Assert.AreEqual('X', _game.GetPosition(1));
     }
 
   [TestMethod]
     public void it_should_make_the_next_move()
     {
       Assert.IsTrue(Enumerable.Range(1, 9)
-          .Any(position =&gt; <strong>_game</strong>.GetPosition(position)
+          .Any(position =&gt; _game.GetPosition(position)
             .Equals('O')));
     }
 }
@@ -454,12 +454,12 @@ From the output, we see that we didn’t break our first test and our second tes
 ```csharp
 public class Game
 {
-  char[] _layout = new <strong>char[2]</strong>;
+  char[] _layout = new char[2];
 
   public void ChoosePosition(int position)
   {
     _layout[position - 1] = 'X';
-    <strong>_layout[1] = 'O';</strong>
+    _layout[1] = 'O';
   }
 
   public char GetPosition(int position)
@@ -545,7 +545,7 @@ While the use of Triangulation provides a simple to understand and explicit driv
 [TestClass]
 public class When_the_player_selects_the_second_position
 {
-  <strong>[TestCategory("Triangulation")]</strong> [TestMethod]
+  [TestCategory("Triangulation")] [TestMethod]
     public void it_should_put_their_choice_in_the_second_position()
     {
       var game = new Game();
@@ -629,7 +629,7 @@ public class When_the_player_gets_three_in_a_row
   [TestMethod]
     public void it_should_announce_the_player_as_the_winner()
     {
-      <strong>Assert.AreEqual("Player wins.", message);</strong>
+      Assert.AreEqual("Player wins.", message);
     }
 }
 ```
@@ -643,10 +643,10 @@ public class When_the_player_gets_three_in_a_row
   [TestMethod]
     public void it_should_announce_the_player_as_the_winner()
     {
-      <strong>Game game = new Game();
+      Game game = new Game();
       game.ChoosePosition(1);
       game.ChoosePosition(2);
-      string message = game.ChoosePosition(3);</strong>
+      string message = game.ChoosePosition(3);
         Assert.AreEqual("Player wins!", message);            
     }
 }
@@ -655,14 +655,14 @@ public class When_the_player_gets_three_in_a_row
 To get this to compile, we need to change the ChoosePosition() method to return a string:
 
 ```csharp
-public <strong>string</strong> ChoosePosition(int position)
+public string ChoosePosition(int position)
 {
   _layout[position - 1] = value;
   int firstUnoccupied = Enumerable.Range(0, _layout.Length)
     .First(p =&gt; _layout[p].Equals('\0'));
   _layout[firstUnoccupied] = 'O';
 
-  <strong>return string.Empty;</strong>
+  return string.Empty;
 }
 ```
 
@@ -685,7 +685,7 @@ System.InvalidOperationException: Sequence contains no matching element
 It looks like our test isn’t failing for the right reason yet. The problem is that our array isn’t large enough for our new test scenario. Let’s go ahead and take the larger step of increasing the layout to accommodate the full 9 positions of the game board and run our test again:
 
 ```csharp
-readonly char[] _layout = <strong>new char[9]</strong>;
+readonly char[] _layout = new char[9];
 ```
 
 <div style="background:red">
@@ -714,7 +714,7 @@ public class Game
       .First(p =&gt; _layout[p].Equals('\0'));
     _layout[firstUnoccupied] = 'O';
 
-    return <strong>"Player wins!"</strong>;
+    return "Player wins!";
   }
 
   public char GetPosition(int position)
@@ -741,10 +741,10 @@ public class Game
       .First(p =&gt; _layout[p].Equals('\0'));
     _layout[firstUnoccupied] = 'O';
 
-    <strong>if (new string(_layout.ToArray()).StartsWith("XXX"))
+    if (new string(_layout.ToArray()).StartsWith("XXX"))
       return "Player wins!";
 
-    return string.Empty;</strong>
+    return string.Empty;
   }
 
   public char GetPosition(int position)
@@ -779,11 +779,11 @@ public class When_the_game_gets_three_in_a_row
   [TestMethod]
     public void it_should_announce_the_game_as_the_winner()
     {
-      <strong>Game game = new Game();
+      Game game = new Game();
       game.ChoosePosition(4);
       game.ChoosePosition(6);
       string message = game.ChoosePosition(8);
-      Assert.AreEqual("Game wins.", message);</strong>
+      Assert.AreEqual("Game wins.", message);
     }
 }
 ```
@@ -811,8 +811,8 @@ public string ChoosePosition(int position)
   if (new string(_layout.ToArray()).StartsWith("XXX"))
     return "Player wins!";
 
-  <strong>if (new string(_layout.ToArray()).StartsWith("OOO"))
-    return "Game wins.";</strong>
+  if (new string(_layout.ToArray()).StartsWith("OOO"))
+    return "Game wins.";
 
     return string.Empty;
 }
@@ -851,7 +851,7 @@ public class Game
 {
   readonly char[] _layout = new char[9];
 
-  <strong>readonly string[] _winningXPatterns = new[]
+  readonly string[] _winningXPatterns = new[]
   {
     "XXX......",
       "...XXX...",
@@ -861,7 +861,7 @@ public class Game
       "..X..X..X",
       "X...X...X",
       "..X.X.X..",
-  };</strong>
+  };
 
   public string ChoosePosition(int position)
   {
@@ -890,7 +890,7 @@ Next, we need to create a string representation of our current layout:
         .First(p =&gt; _layout[p].Equals('\0'));
       _layout[firstUnoccupied] = 'O';
 
-      <strong>var layoutAsString = new string(_layout);</strong>
+      var layoutAsString = new string(_layout);
 
         if (new string(_layout.ToArray()).StartsWith("XXX"))
           return "Player wins!";
@@ -914,11 +914,11 @@ Next, let’s replace the previous comparison checking if the layout starts with
 
       var layoutAsString = new string(_layout);
 
-      <strong>foreach (string pattern in _winningXPatterns)
+      foreach (string pattern in _winningXPatterns)
       {
         if (Regex.IsMatch(layoutAsString, pattern))
           return "Player wins!";
-      }</strong>
+      }
 
       if (new string(_layout.ToArray()).StartsWith("OOO"))
         return "Game wins.";
@@ -949,7 +949,7 @@ Everything is still working. Now, let’s make the same changes for the game com
           "..X.X.X..",
       };
 
-      <strong>readonly string[] _winningOPatterns = new[]
+      readonly string[] _winningOPatterns = new[]
       {
         "OOO......",
           "...OOO...",
@@ -959,7 +959,7 @@ Everything is still working. Now, let’s make the same changes for the game com
           "..O..O..O",
           "O...O...O",
           "..O.O.O..",
-      };</strong>
+      };
 
       public string ChoosePosition(int position)
       {
@@ -976,11 +976,11 @@ Everything is still working. Now, let’s make the same changes for the game com
             return "Player wins!";
         }
 
-        <strong>foreach (string pattern in _winningOPatterns)
+        foreach (string pattern in _winningOPatterns)
         {
           if (Regex.IsMatch(layoutAsString, pattern))
             return "Game wins.";
-        }</strong>
+        }
 
         return string.Empty;
       }
@@ -999,7 +999,7 @@ We’re still green. At this point we’ve actually introduced a little more dup
 
 ```csharp
     readonly string[] _winningPatterns = new[]
-    <strong>{
+    {
       "[XO][XO][XO]......",
         "...[XO][XO][XO]...",
         "......[XO][XO][XO]",
@@ -1008,7 +1008,7 @@ We’re still green. At this point we’ve actually introduced a little more dup
         "..[XO]..[XO]..[XO]",
         "[XO]...[XO]...[XO]",
         "..[XO].[XO].[XO]..",
-    }</strong>;
+    };
 ```
 
 We’ll then need to change the comparisons to use the new array. Since we only want to compare one side at a time, we’ll also need to filter out the characters we don’t want:
@@ -1021,17 +1021,17 @@ We’ll then need to change the comparisons to use the new array. Since we only 
         .First(p =&gt; _layout[p].Equals('\0'));
       _layout[firstUnoccupied] = 'O';
 
-      string layoutAsString = new string(_layout)<strong>.Replace('O', '\0')</strong>;
+      string layoutAsString = new string(_layout).Replace('O', '\0');
 
-      foreach (string pattern in <strong>_winningPatterns</strong>)
+      foreach (string pattern in _winningPatterns)
       {
         if (Regex.IsMatch(layoutAsString, pattern))
           return "Player wins!";
       }
 
-      layoutAsString = new string(_layout)<strong>.Replace('X', '\0')</strong>;
+      layoutAsString = new string(_layout).Replace('X', '\0');
 
-      foreach (string pattern in <strong>_winningPatterns</strong>)
+      foreach (string pattern in _winningPatterns)
       {
         if (Regex.IsMatch(layoutAsString, pattern))
           return "Game wins.";
@@ -1076,11 +1076,11 @@ We can now replace our comparisons with a call to our new method:
         .First(p =&gt; _layout[p].Equals('\0'));
       _layout[firstUnoccupied] = 'O';
 
-      <strong>if (WinningPlayerIs('X'))
+      if (WinningPlayerIs('X'))
         return "Player wins!";
 
       if (WinningPlayerIs('O'))
-        return "Game wins.";</strong>
+        return "Game wins.";
 
           return string.Empty;
     }
@@ -1094,9 +1094,9 @@ Now, let’s clean up our new WinningPlayerIs() method. We’re duplicating the 
 ```csharp
     bool WinningPlayerIs(char player)
     {
-      <strong>var layout = new string(_layout.ToList()
+      var layout = new string(_layout.ToList()
           .Select(c =&gt; (c.Equals(player)) ? player : '\0')
-          .ToArray());</strong>
+          .ToArray());
 
         foreach (string pattern in _winningPatterns)
         {
@@ -1116,7 +1116,7 @@ That’s more concise, but it could stand to be more descriptive. Rather than ad
 ```csharp
     bool WinningPlayerIs(char player)
     {
-      var layout = <strong>GetLayoutFor(player);</strong>
+      var layout = GetLayoutFor(player);
 
         foreach (string pattern in _winningPatterns)
         {
@@ -1127,12 +1127,12 @@ That’s more concise, but it could stand to be more descriptive. Rather than ad
       return false;
     }
 
-  <strong>string GetLayoutFor(char player)
+  string GetLayoutFor(char player)
   {
     return new string(_layout.ToList()
         .Select(c =&gt; (c.Equals(player)) ? player : '\0')
         .ToArray());
-  }</strong>
+  }
 ```
 
 We can also eliminate declaring multiple exit points and simplify the comparison by using LINQ’s Any() extension method:
@@ -1150,8 +1150,8 @@ Let’s go ahead and in-line our call to GetLayoutFor(player):
 ```csharp
           bool WinningPlayerIs(char player)
           {
-            <strong>return _winningPatterns
-              .Any(pattern =&gt; Regex.IsMatch(GetLayoutFor(player), pattern));</strong>
+            return _winningPatterns
+              .Any(pattern =&gt; Regex.IsMatch(GetLayoutFor(player), pattern));
           }
 
 ```
@@ -1169,13 +1169,13 @@ Here’s what we have so far:
       readonly string[] _winningPatterns = new[]
       {
         "[XO][XO][XO]......",
-          "...[XO][XO][XO]...",
-          "......[XO][XO][XO]",
-          "[XO]..[XO]..[XO]..",
-          ".[XO]..[XO]..[XO].",
-          "..[XO]..[XO]..[XO]",
-          "[XO]...[XO]...[XO]",
-          "..[XO].[XO].[XO]..",
+        "...[XO][XO][XO]...",
+        "......[XO][XO][XO]",
+        "[XO]..[XO]..[XO]..",
+        ".[XO]..[XO]..[XO].",
+        "..[XO]..[XO]..[XO]",
+        "[XO]...[XO]...[XO]",
+        "..[XO].[XO].[XO]..",
       };
 
       public string ChoosePosition(int position)
