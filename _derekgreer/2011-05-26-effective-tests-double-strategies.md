@@ -77,55 +77,48 @@ In our [last](https://lostechies.com/derekgreer/2011/05/15/effective-tests-test-
 
 ## Recommendation 1: Clarify Intent
 
-Apart from guiding the software implementation process and guarding the application&#8217;s current behavior against regression, executable specifications (i.e. Automated Tests) serve as the system&#8217;s documentation. While well-named specifications can serve to describe what the system should do, we should take equal care in clarifying the intent of how the system&#8217;s behavior is verified.
+Apart from guiding the software implementation process and guarding the application&#8217;s current behavior against regression, executable specifications (i.e. Automated Tests) serve as the system's documentation. While well-named specifications can serve to describe what the system should do, we should take equal care in clarifying the intent of how the system's behavior is verified.
 
 When using test doubles, one simple practice that helps to clarify the verification strategies employed by the specification is to use intention-revealing names for test double instances. Consider the following example which uses the Rhino Mocks framework for creating a Test Stub:
 
-<pre class="prettyprint">public class when_a_user_views_the_product_detail
-	{
-		public const string ProductId = "1";
-		static ProductDetail _results;
-		static DisplayOrderDetailCommand _subject;
+```csharp
+public class when_a_user_views_the_product_detail
+{
+  public const string ProductId = "1";
+  static ProductDetail _results;
+  static DisplayOrderDetailCommand _subject;
 
-		Establish context = () =>
-			{
-				var productDetailRepositoryStub = MockRepository.GenerateStub&lt;IProductDetailRepository>();
-				productDetailRepositoryStub.Stub(x => x.GetProduct(Arg&lt;string>.Is.Anything))
-					.Return(new ProductDetail {NumberInStock = 42});
+  Establish context = () =>
+  {
+    var productDetailRepositoryStub = MockRepository.GenerateStub<IProductDetailRepository>();
+    productDetailRepositoryStub.Stub(x => x.GetProduct(Arg<string>.Is.Anything))
+      .Return(new ProductDetail {NumberInStock = 42});
 
-				_subject = new DisplayOrderDetailCommand(productDetailRepositoryStub);
-			};
+    _subject = new DisplayOrderDetailCommand(productDetailRepositoryStub);
+  };
 
-		Because of = () => _results = _subject.QueryProductDetails(ProductId);
+  Because of = () => _results = _subject.QueryProductDetails(ProductId);
 
-		It should_display_the_number_of_items_currently_in_stock = () => _results.NumberInStock.ShouldEqual(42);
-	}
-</pre>
-
-### &nbsp;
+  It should_display_the_number_of_items_currently_in_stock = () => _results.NumberInStock.ShouldEqual(42);
+}
+```
 
 In this example, a Test Stub is created for an IProductDetailRepository type which serves as a dependency for the System Under Test (i.e. the DisplayOrderDetailCommand type). By choosing to explicitly name the Test Double instance with a suffix of “Stub”, this specification communicates that the double serves only to provide indirect input to the System Under Test.
-
-### &nbsp;
 
 <div style="border-bottom: black 1px solid;border-left: black 1px solid;background: rgb(238, 238, 238);border-top: black 1px solid;border-right: black 1px solid">
   <div align="center">
     <strong>Note to Rhino Mock and Machine.Specification Users</strong>
   </div>
-  
-  <p>
-  </p>
-  
-  <p>
-    For Rhino Mock users, there are some additional hints in this example which help to indicate that the test double used by this specification is intended to serve as a Test Stub. This includes use of Rhino Mock&#8217;s GenerateStub<T>() method, the lack of “Record/Replay” artifacts from either the old or new mocking APIs and the absence of assertions on the generated test double. Additionally, those familiar with the Machines.Specifications framework (a.k.a. MSpec) would have an expectation of explicit and discrete observations if this were being used as a Mock or Test Spy. Nevertheless, we should strive to make the chosen verification strategy as discoverable as possible and not rely upon framework familiarity alone.
-  </p>
+ 
+ 
+For Rhino Mock users, there are some additional hints in this example which help to indicate that the test double used by this specification is intended to serve as a Test Stub.
+This includes use of Rhino Mock&#8217;s GenerateStub&lt;T>() method, the lack of “Record/Replay” artifacts from either the old or new mocking APIs and the absence of assertions on
+the generated test double. Additionally, those familiar with the Machines.Specifications framework (a.k.a. MSpec) would have an expectation of explicit and discrete observations
+if this were being used as a Mock or Test Spy. Nevertheless, we should strive to make the chosen verification strategy as discoverable as possible and not rely upon framework
+familiarity alone.
 </div>
 
-### &nbsp;
-
-While this test also indicates that the test double is being used as a Stub by its use of the Rhino Mock framework&#8217;s GenerateStub<T>() method, Rhino Mocks doesn&#8217;t provide intention-revealing method names for each type of test double and some mocking frameworks don&#8217;t distinguish between the creation of mocks and stubs at all. Using intention-revealing names is a consistent practice that can be adopted regardless of the framework being used.
-
-### &nbsp;
+While this test also indicates that the test double is being used as a Stub by its use of the Rhino Mock framework's GenerateStub&lt;T>() method, Rhino Mocks doesn't provide intention-revealing method names for each type of test double and some mocking frameworks don&#8217;t distinguish between the creation of mocks and stubs at all. Using intention-revealing names is a consistent practice that can be adopted regardless of the framework being used.
 
 ## Recommendation 2: Only Substitute Your Types
 
@@ -140,8 +133,6 @@ Second, we don&#8217;t control when or how the API of third-party libraries may 
 Third, we don&#8217;t always have a full understanding of the behavior of third-party libraries. Using test doubles for dependencies presumes that the doubles are going to mimic the behavior of the type they are substituting correctly (at least within the context of the specification). Substituting behavior which you don&#8217;t fully understand or control may lead to unreliable specifications. Once a specification passes, there should be no reason for it to ever fail unless you change the behavior of your own code. This can&#8217;t be guaranteed when substituting third-party libraries.
 
 While we shouldn&#8217;t substitute types from third-party libraries, we should verify that our systems work properly when using third-party libraries. This is achieved through integration and/or acceptance tests. With integration tests, we verify that our systems display the expected behavior when integrated with external systems. If our systems have been properly decoupled from the use of third-party libraries, only the Adaptors need to be tested. A system which has taken measures to remain decoupled from third-party libraries should have far fewer integration tests than those that test the native behavior of the application. With acceptance tests, we verify the behavior of the entire application from end to end which would exercise the system along with its external dependencies.
-
-### &nbsp;
 
 ## Recommendation 3: Don&#8217;t Substitute Concrete Types
 
@@ -159,8 +150,6 @@ The Interface Segregation Principle is set forth to address several issues that 
 
 So, one might ask, “What does this have to do with Test Doubles?” There is nothing particularly problematic about replacing concrete types from an implementation perspective. There&#8217;s certainly the issue in some languages of needing to take measures to ensure virtual dispatching can take place thereby allowing the behavior of a concrete type to be overridden, but where this actually becomes relevant to our discussion is in what our specifications are trying to tell us about our design. When you find yourself creating test doubles for concrete types, it&#8217;s as if your specifications are crying out: “Hey dummy, you have some coupling here!” By listening to the feedback provided by our specification, we can begin to spot code smells which may point to problems in our implementation.
 
-### &nbsp;
-
 ## Recommendation 4: Focus on Behavior
 
 When writing specifications, it can be easy to fall into the trap of over-specifying the components of the system. This occurs when we write specifications that not only verify the expected behavior of a system, but which also verify that the behavior is achieved using a specific implementation.
@@ -172,8 +161,6 @@ This leads us to a recommendation from the book _XUnit Test Patterns: Refactorin
 > Use the Front Door First
 
 By “front door”, the author means that we should strive to verify behavior using the public interface of our components when _possible_, and use interaction-based verification when _necessary_. For example, when the behavior of a component can be verified by checking return values from operations performed by the object or by checking the interactions which occurred with its dependencies, we should prefer checking the return values over checking its interactions. At times, verifying the behavior of an object requires that we examine how the object interacted with its collaborators. When this is necessary, we should strive to remain as loosely coupled as possible by only specifying the minimal interactions required to verify the expected behavior.
-
-### &nbsp;
 
 ## Conclusion
 
