@@ -81,11 +81,11 @@ While not discounting the benefits of using the _Obvious Implementation_ first w
 
 Faking it serves as one of the strategies for passing the test quickly. This has several benefits:
 
-One, it provides rapid feedback that your test will pass when the expected behavior is met. This can be thought of as a sort of counterpart to &#8220;failing for the right reason&#8221;.
+One, it provides rapid feedback that your test will pass when the expected behavior is met. This can be thought of as a sort of counterpart to "failing for the right reason".
 
 Second, it has psychological benefits for some, which can aid in stress reduction through taking small steps, receiving positive feedback, and providing momentum. 
 
-Third, it facilitates a &#8220;safety net&#8221; which can be used to provide rapid feedback if you go off course during a refactoring effort. 
+Third, it facilitates a &#8220;safety net" which can be used to provide rapid feedback if you go off course during a refactoring effort. 
 
 &nbsp;
 
@@ -93,7 +93,7 @@ Third, it facilitates a &#8220;safety net&#8221; which can be used to provide ra
 
 Faking it serves as one of the strategies for writing _maintainable_ software.
 
-Ultimately, we want software that works through the simplest means possible. The &#8220;Fake It&#8221; strategy, coupled with Refactoring (i.e. eliminating duplication) or Triangulation (writing more tests to prove the need for further generalization), leads to an additive approach to arriving at a solution that accommodates the needs of the specifications in a maintainable way.&nbsp; Faking It + Refactoring|Triangulation is a disciplined formula for achieving emergent design.
+Ultimately, we want software that works through the simplest means possible. The "Fake It" strategy, coupled with Refactoring (i.e. eliminating duplication) or Triangulation (writing more tests to prove the need for further generalization), leads to an additive approach to arriving at a solution that accommodates the needs of the specifications in a maintainable way. Faking It + Refactoring and/or Triangulation is a disciplined formula for achieving emergent design.
 
 &nbsp;
 
