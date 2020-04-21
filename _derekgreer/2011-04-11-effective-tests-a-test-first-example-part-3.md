@@ -159,7 +159,7 @@ public void it_should_try_to_get_three_in_a_row()
 }
 </pre>
 
-Next, let’s establish a scenario were the bottom right corner should always be the position we would expect the game to choose (as opposed to a scenario where the game might have multiple intelligent moves). The following illustrates a layout where the game has gone first and has already achieved two in a row:
+Next, let's establish a scenario were the bottom right corner should always be the position we would expect the game to choose (as opposed to a scenario where the game might have multiple intelligent moves). The following illustrates a layout where the game has gone first and has already achieved two in a row:
 
 &nbsp;
 
@@ -206,17 +206,17 @@ public class When_the_game_selects_a_position
   [TestMethod]
   public void it_should_select_the_position_recommended_by_the_advisor()
   {
-    <span class="highlight">IEnumerable&lt;int&gt; beforeLayout = (Enumerable.Range(1, 9)
-        .Where(position =&gt; game.GetPosition(position).Equals('X'))
-        .Select(position =&gt; position)).ToList();
+    <span class="highlight">IEnumerable&lt;int> beforeLayout = (Enumerable.Range(1, 9)</span>
+        <span class="highlight">.Where(position => game.GetPosition(position).Equals('X'))</span>
+        <span class="highlight">.Select(position => position)).ToList();</span>
 
-    // make move here
+    <span class="highlight">// make move here</span>
 
-    IEnumerable&lt;int&gt; afterLayout = (Enumerable.Range(1, 9)
-        .Where(position =&gt; game.GetPosition(position).Equals('X'))
-        .Select(position =&gt; position)).ToList();
+    <span class="highlight">IEnumerable&lt;int> afterLayout = (Enumerable.Range(1, 9)</span>
+        <span class="highlight">.Where(position => game.GetPosition(position).Equals('X'))</span>
+        <span class="highlight">.Select(position => position)).ToList();</span>
 
-    int selection = afterLayout.Except(beforeLayout).Single();</span>
+    <span class="highlight">int selection = afterLayout.Except(beforeLayout).Single();</span>
 
     Assert.AreEqual(9, selection);
   }
@@ -236,15 +236,15 @@ public class When_the_game_selects_a_position
     game.GoFirst();
     game.ChoosePosition(1);
 
-    IEnumerable&lt;int&gt; beforeLayout = (Enumerable.Range(1, 9)
-        .Where(position =&gt; game.GetPosition(position).Equals('X'))
-        .Select(position =&gt; position)).ToList();
+    IEnumerable&lt;int> beforeLayout = (Enumerable.Range(1, 9)
+        .Where(position => game.GetPosition(position).Equals('X'))
+        .Select(position => position)).ToList();
 
     <span class="highlight">game.ChoosePosition(8);</span>
 
-      IEnumerable&lt;int&gt; afterLayout = (Enumerable.Range(1, 9)
-          .Where(position =&gt; game.GetPosition(position).Equals('X'))
-          .Select(position =&gt; position)).ToList();
+      IEnumerable&lt;int> afterLayout = (Enumerable.Range(1, 9)
+          .Where(position => game.GetPosition(position).Equals('X'))
+          .Select(position => position)).ToList();
 
     int selection = afterLayout.Except(beforeLayout).Single();
 
@@ -264,15 +264,15 @@ public void it_should_select_the_position_recommended_by_the_advisor()
   game.GoFirst();
   game.ChoosePosition(1);
 
-  IEnumerable&lt;int&gt; beforeLayout = (Enumerable.Range(1, 9)
-      .Where(position =&gt; game.GetPosition(position).Equals('X'))
-      .Select(position =&gt; position)).ToList();
+  IEnumerable&lt;int> beforeLayout = (Enumerable.Range(1, 9)
+      .Where(position => game.GetPosition(position).Equals('X'))
+      .Select(position => position)).ToList();
 
   game.ChoosePosition(8);
 
-  IEnumerable&lt;int&gt; afterLayout = (Enumerable.Range(1, 9)
-      .Where(position =&gt; game.GetPosition(position).Equals('X'))
-      .Select(position =&gt; position)).ToList();
+  IEnumerable&lt;int> afterLayout = (Enumerable.Range(1, 9)
+      .Where(position => game.GetPosition(position).Equals('X'))
+      .Select(position => position)).ToList();
 
   int selection = afterLayout.Except(beforeLayout).Single();
 
@@ -324,7 +324,7 @@ Everything should now compile. Let’s run our tests:
   When_the_game_selects_a_position
   Failed	it_should_select_the_position_recommended_by_the_advisor
   Assert.AreEqual failed. 
-  Expected:&lt;9&gt;. Actual:&lt;2&gt;. 	...	
+  Expected:<9>. Actual:<2>. 	...	
 </div>
 
 <p>
@@ -336,15 +336,15 @@ public static class GameExtensions
 {
   public static int GetSelectionAfter(this Game game, Action action)
   {
-    IEnumerable&lt;int&gt; beforeLayout = (Enumerable.Range(1, 9)
-        .Where(position =&gt; game.GetPosition(position).Equals('X'))
-        .Select(position =&gt; position)).ToList();
+    IEnumerable&lt;int> beforeLayout = (Enumerable.Range(1, 9)
+        .Where(position => game.GetPosition(position).Equals('X'))
+        .Select(position => position)).ToList();
 
     action();
 
-    IEnumerable&lt;int&gt; afterLayout = (Enumerable.Range(1, 9)
-        .Where(position =&gt; game.GetPosition(position).Equals('X'))
-        .Select(position =&gt; position)).ToList();
+    IEnumerable&lt;int> afterLayout = (Enumerable.Range(1, 9)
+        .Where(position => game.GetPosition(position).Equals('X'))
+        .Select(position => position)).ToList();
 
     return afterLayout.Except(beforeLayout).Single();
   }
@@ -367,7 +367,7 @@ public class When_the_game_selects_a_position
     game.GoFirst();
     game.ChoosePosition(1);
 
-    <span class="highlight">int selection = game.GetSelectionAfter(() =&gt; game.ChoosePosition(8));</span>
+    <span class="highlight">int selection = game.GetSelectionAfter(() => game.ChoosePosition(8));</span>
 
       Assert.AreEqual(9, selection);
   }
@@ -385,7 +385,7 @@ Let’s run the test again to make sure it still validates correctly:
   When_the_game_selects_a_position
   Failed	it_should_select_the_position_recommended_by_the_advisor
   Assert.AreEqual failed. 
-  Expected:&lt;9&gt;. Actual:&lt;2&gt;. 	...	
+  Expected:<9>. Actual:<2>. 	...	
 
 </div>
 
@@ -523,7 +523,7 @@ class GameAdvisor : IGameAdvisor
   public int SelectAPositionFor(char player, string layout)
   {
     return Enumerable.Range(1, layout.Length)
-      .First(p =&gt; layout[p - 1].Equals('\0'));
+      .First(p => layout[p - 1].Equals('\0'));
   }
 }
 </pre>
@@ -578,7 +578,7 @@ public class When_the_player_can_not_win_on_the_next_turn
   public void it_should_try_to_get_three_in_a_row()
   {
     IGameAdvisor advisor = new GameAdvisor();
-    var selection = advisor.WithLayout("O\0X\0\0X\0O\0").SelectBestMoveForPlayer('X');&lt;/b>
+    var selection = advisor.WithLayout("O\0X\0\0X\0O\0").SelectBestMoveForPlayer('X');</b>
       Assert.AreEqual(9, selection);
   }
 }
@@ -600,7 +600,7 @@ class GameAdvisor : IGameAdvisor
   public int SelectBestMoveForPlayer(char player)
   {
     return Enumerable.Range(1, _layout.Length)
-      .First(p =&gt; _layout[p - 1].Equals('\0'));
+      .First(p => _layout[p - 1].Equals('\0'));
   }
 
   public IGameAdvisor WithLayout(string layout)
@@ -643,7 +643,7 @@ class GameAdvisor : IGameAdvisor
     public int SelectBestMoveForPlayer(char player)
     {
       return Enumerable.Range(1, _layout.Length)
-        .First(p =&gt; _layout[p - 1].Equals('\0'));
+        .First(p => _layout[p - 1].Equals('\0'));
     }
   }</span>
 }
@@ -708,7 +708,7 @@ Now, let’s run our tests and make sure our new test fails for the right reason
 <div style="background-color: #FFFFF;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
   When_the_player_can_not_win_on_the_next_turn
   Failed	it_should_try_to_get_three_in_a_row
-  Assert.AreEqual failed. Expected:&lt;9&gt;. Actual:&lt;2&gt;. 	
+  Assert.AreEqual failed. Expected:<9>. Actual:<2>. 	
 </div>
 
 Only our new test fails, which is what we were hoping for. Now, let’s use the Fake It approach to get our test to pass quickly. Since only one of our tests ever call this method with the token ‘X’ and it doesn’t care about which actual position it is, we can change the GameAdvisor’s PositionAdvisor.SelectBestMoveForPlayer() method to always return 9 for player ‘X’:
@@ -719,7 +719,7 @@ public int SelectBestMoveForPlayer(char player)
   if (player == 'X') return 9;
 
   return Enumerable.Range(0, _layout.Length)
-    .First(p =&gt; _layout[p].Equals('\0')) + 1;
+    .First(p => _layout[p].Equals('\0')) + 1;
 }
 </pre>
 
@@ -758,7 +758,7 @@ class PositionSelector : IPositionSelector
       return 9;
 
     return Enumerable.Range(0, _layout.Length)
-      .First(p =&gt; _layout[p].Equals('\0')) + 1;
+      .First(p => _layout[p].Equals('\0')) + 1;
   }
 }
 </pre>
@@ -796,7 +796,7 @@ class PositionSelector : IPositionSelector
       return 9;
 
     return Enumerable.Range(0, _layout.Length)
-      .First(p =&gt; _layout[p].Equals('\0')) + 1;
+      .First(p => _layout[p].Equals('\0')) + 1;
   }
 }
 </pre>
@@ -806,12 +806,12 @@ Next, we can loop over each of the _winningPositions, retrieve the slice, compar
 <pre class="code">
 public int SelectBestMoveForPlayer(char player)
 {
-  <span class="highlight">var availablePaths = new List&lt;int[]&gt;();
+  <span class="highlight">var availablePaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; _layout.ElementAt(p - 1)).ToArray());
+        .Select(p => _layout.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availablePaths.Add(winningSlice);
@@ -821,7 +821,7 @@ public int SelectBestMoveForPlayer(char player)
     return 9;
 
   return Enumerable.Range(0, _layout.Length)
-    .First(p =&gt; _layout[p].Equals('\0')) + 1;
+    .First(p => _layout[p].Equals('\0')) + 1;
 }
 </pre>
 
@@ -830,21 +830,21 @@ Now that we have the available paths, we can sort them in descending order based
 <pre class="code">
 public int SelectBestMoveForPlayer(char player)
 {
-  var availablePaths = new List&lt;int[]&gt;();
+  var availablePaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; _layout.ElementAt(p - 1)).ToArray());
+        .Select(p => _layout.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availablePaths.Add(winningSlice);
   }
 
   <span class="highlight">var bestSlice = availablePaths
-    .OrderByDescending(path =&gt; path
-        .Count(p =&gt; _layout[p - 1] == 'X')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');</span>
+    .OrderByDescending(path => path
+        .Count(p => _layout[p - 1] == 'X')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');</span>
 }
 </pre>
 
@@ -856,21 +856,21 @@ readonly Regex _availablePathPattern = new <span class="highlight">Regex(@"[T\0]
 public int SelectBestMoveForPlayer(char player)
 {
   <span class="highlight">string layout = _layout.Replace(player, 'T');</span>
-    var availablePaths = new List&lt;int[]&gt;();
+    var availablePaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; <span class="highlight">layout</span>.ElementAt(p - 1)).ToArray());
+        .Select(p => <span class="highlight">layout</span>.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availablePaths.Add(winningSlice);
   }
 
   int[] bestSlice = availablePaths
-    .OrderByDescending(path =&gt; path
-        .Count(p =&gt; <span class="highlight">layout</span>[p - 1] == 'T')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+    .OrderByDescending(path => path
+        .Count(p => <span class="highlight">layout</span>[p - 1] == 'T')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');
 }
 </pre>
 
@@ -882,7 +882,7 @@ Everything should be good to go. Let’s run our tests and see how we did:
 <div style="background-color: #FFFFF;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
   When_the_player_attempts_to_select_an_occupied_positionFailed
   it_should_tell_the_player_the_position_is_occupied
-  Assert.AreEqual failed. Expected:&lt;That spot is taken!&gt;. Actual:&lt;&gt;. 	
+  Assert.AreEqual failed. Expected:<That spot is taken!>. Actual:<>. 	
 </div>
 
 Our target test passed, but we broke the test for how the game responds when the player chooses a position that is already occupied. Let’s review the test again:
@@ -983,7 +983,7 @@ Now, let’s run our test:
 <div style="background-color: #FFFFF;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
   When_the_player_can_win_on_the_next_turn
   Failed	it_should_block_the_player
-  Assert.AreEqual failed. Expected:&lt;8&gt;. Actual:&lt;1&gt;. 	
+  Assert.AreEqual failed. Expected:<8>. Actual:<1>. 	
 </div>
 
 Now, let’s make the test pass. This time, I’ll pass the test by testing specifically for the layout we’re after:
@@ -992,12 +992,12 @@ Now, let’s make the test pass. This time, I’ll pass the test by testing spec
 public int SelectBestMoveForPlayer(char player)
 {
   string layout = _layout.Replace(player, 'T');
-  var availablePaths = new List&lt;int[]&gt;();
+  var availablePaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; layout.ElementAt(p - 1)).ToArray());
+        .Select(p => layout.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availablePaths.Add(winningSlice);
@@ -1009,9 +1009,9 @@ public int SelectBestMoveForPlayer(char player)
   }</span>
 
   int[] bestSlice = availablePaths
-    .OrderByDescending(path =&gt; path
-        .Count(p =&gt; layout[p - 1] == 'T')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+    .OrderByDescending(path => path
+        .Count(p => layout[p - 1] == 'T')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');
 }
 </pre>
 
@@ -1027,12 +1027,12 @@ Now, let’s refactor. To get the GameAdvisor to choose the eighth position beca
 public int SelectBestMoveForPlayer(char player)
 {
   string layout = _layout.Replace(player, 'T');
-  var availablePaths = new List&lt;int[]&gt;();
+  var availablePaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; layout.ElementAt(p - 1)).ToArray());
+        .Select(p => layout.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availablePaths.Add(winningSlice);
@@ -1046,9 +1046,9 @@ public int SelectBestMoveForPlayer(char player)
     }
 
   int[] bestSlice = availablePaths
-    .OrderByDescending(path =&gt; path
-        .Count(p =&gt; layout[p - 1] == 'T')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+    .OrderByDescending(path => path
+        .Count(p => layout[p - 1] == 'T')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');
 }
 </pre>
 
@@ -1058,12 +1058,12 @@ Next, let’s create a new local layout based on the player’s positions:
 public int SelectBestMoveForPlayer(char player)
 {
   string layout = _layout.Replace(player, 'T');
-  var availablePaths = new List&lt;int[]&gt;();
+  var availablePaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; layout.ElementAt(p - 1)).ToArray());
+        .Select(p => layout.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availablePaths.Add(winningSlice);
@@ -1078,9 +1078,9 @@ public int SelectBestMoveForPlayer(char player)
     }
 
   int[] bestSlice = availablePaths
-    .OrderByDescending(path =&gt; path
-        .Count(p =&gt; layout[p - 1] == 'T')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+    .OrderByDescending(path => path
+        .Count(p => layout[p - 1] == 'T')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');
 }
 </pre>
 
@@ -1090,12 +1090,12 @@ Now, let’s copy the logic we created before and use it to find the available p
 public int SelectBestMoveForPlayer(char player)
 {
   string layout = _layout.Replace(player, 'T');
-  var availablePaths = new List&lt;int[]&gt;();
+  var availablePaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; layout.ElementAt(p - 1)).ToArray());
+        .Select(p => layout.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availablePaths.Add(winningSlice);
@@ -1103,12 +1103,12 @@ public int SelectBestMoveForPlayer(char player)
 
   char opponentValue = (player == 'X') ? 'O' : 'X';
   string opponentLayout = _layout.Replace(opponentValue, 'T');
-  <span class="highlight">List&lt;int[]&gt; availableOpponentPaths = new List&lt;int[]&gt;();
+  <span class="highlight">List&lt;int[]> availableOpponentPaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; opponentLayout.ElementAt(p - 1)).ToArray());
+        .Select(p => opponentLayout.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availableOpponentPaths.Add(winningSlice);
@@ -1120,9 +1120,9 @@ public int SelectBestMoveForPlayer(char player)
   }
 
   int[] bestSlice = availablePaths
-    .OrderByDescending(path =&gt; path
-        .Count(p =&gt; layout[p - 1] == 'T')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+    .OrderByDescending(path => path
+        .Count(p => layout[p - 1] == 'T')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');
 }
 </pre>
 
@@ -1132,12 +1132,12 @@ Lastly, let’s find all the available paths for which the opponent already has 
 public int SelectBestMoveForPlayer(char player)
 {
   string layout = _layout.Replace(player, 'T');
-  var availablePaths = new List&lt;int[]&gt;();
+  var availablePaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; layout.ElementAt(p - 1)).ToArray());
+        .Select(p => layout.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availablePaths.Add(winningSlice);
@@ -1145,31 +1145,31 @@ public int SelectBestMoveForPlayer(char player)
 
   char opponentValue = (player == 'X') ? 'O' : 'X';
   string opponentLayout = _layout.Replace(opponentValue, 'T');
-  List&lt;int[]&gt; availableOpponentPaths = new List&lt;int[]&gt;();
+  List&lt;int[]> availableOpponentPaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; opponentLayout.ElementAt(p - 1)).ToArray());
+        .Select(p => opponentLayout.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availableOpponentPaths.Add(winningSlice);
   }
 
   <span class="highlight">int[] threatingPath = availableOpponentPaths
-    .Where(path =&gt; new string(
-          path.Select(p =&gt; opponentLayout[p - 1]).ToArray())
-        .Count(c =&gt; c == 'T') == 2).FirstOrDefault();
+    .Where(path => new string(
+          path.Select(p => opponentLayout[p - 1]).ToArray())
+        .Count(c => c == 'T') == 2).FirstOrDefault();
 
   if (threatingPath != null)
   {
     return threatingPath
-      .First(position =&gt; opponentLayout[position - 1] == '\0');
+      .First(position => opponentLayout[position - 1] == '\0');
   }</span>
 
   int[] bestSlice = availablePaths.OrderByDescending(
-      path =&gt; path.Count(p =&gt; layout[p - 1] == 'T')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+      path => path.Count(p => layout[p - 1] == 'T')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');
 }
 </pre>
 
@@ -1181,7 +1181,7 @@ Let’s run our test and see what happens:
 <div style="background-color: #FFFFF;border: 1px solid black;border-collapse: collapse;color: black;float: none;font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;line-height: 20px;padding: 5px;text-align: left;vertical-align: baseline">
   When_the_player_gets_three_in_a_row
   Failed	it_should_announce_the_player_as_the_winner
-  Assert.AreEqual failed. Expected:&lt;Player wins!&gt;. Actual:&lt;That spot is taken!&gt;. 	
+  Assert.AreEqual failed. Expected:<Player wins!>. Actual:<That spot is taken!>. 	
 </div>
 
 Our test still passes, but for some reason we broke the test for testing that the player wins when getting three in a row. Let’s have a look:
@@ -1231,15 +1231,15 @@ public class When_the_player_gets_three_in_a_row
 Now that we’ve fixed that test, let’s continue our refactoring effort. In generalizing our code, we introduced some duplication. Let’s fix this by extracting a method for determining the available paths for a given player:
 
 <pre class="code">
-List<int[]> GetAvailablePathsFor(char player)
+List&lt;int[]> GetAvailablePathsFor(char player)
 {
   string layout = _layout.Replace(player, 'T');
-  var availablePaths = new List&lt;int[]&gt;();
+  var availablePaths = new List&lt;int[]>();
 
   foreach (var winningSlice in _winningPositions)
   {
     var slice = new string(winningSlice.ToList()
-        .Select(p =&gt; layout.ElementAt(p - 1)).ToArray());
+        .Select(p => layout.ElementAt(p - 1)).ToArray());
 
     if (_availablePathPattern.IsMatch(slice))
       availablePaths.Add(winningSlice);
@@ -1260,23 +1260,23 @@ public int SelectBestMoveForPlayer(char player)
     char opponentValue = (player == 'X') ? 'O' : 'X';
   string opponentLayout = _layout.Replace(opponentValue, 'T');
 
-  <span class="highlight">List&lt;int[]&gt; availableOpponentPaths = 
+  <span class="highlight">List&lt;int[]> availableOpponentPaths = 
     GetAvailablePathsFor(opponentValue);</span>
 
     int[] threatingPath = availableOpponentPaths
-    .Where(path =&gt; new string(
-          path.Select(p =&gt; opponentLayout[p - 1]).ToArray())
-        .Count(c =&gt; c == 'T') == 2).FirstOrDefault();
+    .Where(path => new string(
+          path.Select(p => opponentLayout[p - 1]).ToArray())
+        .Count(c => c == 'T') == 2).FirstOrDefault();
 
   if (threatingPath != null)
   {
     return threatingPath
-      .First(position =&gt; opponentLayout[position - 1] == '\0');
+      .First(position => opponentLayout[position - 1] == '\0');
   }
 
   int[] bestSlice = availablePaths.OrderByDescending(
-      path =&gt; path.Count(p =&gt; layout[p - 1] == 'T')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+      path => path.Count(p => layout[p - 1] == 'T')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');
 }
 </pre>
 
@@ -1292,25 +1292,25 @@ public int SelectBestMoveForPlayer(char player)
 {
   char opponentValue = (player == 'X') ? 'O' : 'X';
   string opponentLayout = _layout.Replace(opponentValue, 'T');
-  List&lt;int[]&gt; availableOpponentPaths = 
+  List&lt;int[]> availableOpponentPaths = 
     GetAvailablePathsFor(opponentValue);
 
   int[] threatingPath = availableOpponentPaths
-    .Where(path =&gt; new string(
-          path.Select(p =&gt; opponentLayout[p - 1]).ToArray())
-        .Count(c =&gt; c == 'T') == 2).FirstOrDefault();
+    .Where(path => new string(
+          path.Select(p => opponentLayout[p - 1]).ToArray())
+        .Count(c => c == 'T') == 2).FirstOrDefault();
 
   if (threatingPath != null)
   {
     return threatingPath
-      .First(position =&gt; opponentLayout[position - 1] == '\0');
+      .First(position => opponentLayout[position - 1] == '\0');
   }
 
   string layout = _layout.Replace(player, 'T');
-  List&lt;int[]&gt; availablePaths = GetAvailablePathsFor(player);
+  List&lt;int[]> availablePaths = GetAvailablePathsFor(player);
   int[] bestSlice = availablePaths.OrderByDescending(
-      path =&gt; path.Count(p =&gt; layout[p - 1] == 'T')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+      path => path.Count(p => layout[p - 1] == 'T')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');
 }
 </pre>
 
@@ -1330,28 +1330,28 @@ public int SelectBestMoveForPlayer(char player)
     return threatingPosition.Value;</span>
 
       string layout = _layout.Replace(player, 'T');
-  List&lt;int[]&gt; availablePaths = GetAvailablePathsFor(player);
+  List&lt;int[]> availablePaths = GetAvailablePathsFor(player);
   int[] bestSlice = availablePaths.OrderByDescending(
-      path =&gt; path.Count(p =&gt; layout[p - 1] == 'T')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+      path => path.Count(p => layout[p - 1] == 'T')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');
 }
 
 <span class="highlight">int? GetPositionThreateningPlayer(char player)
 {
   char opponentValue = (player == 'X') ? 'O' : 'X';
   string opponentLayout = _layout.Replace(opponentValue, 'T');
-  List&lt;int[]&gt; availableOpponentPaths = 
+  List&lt;int[]> availableOpponentPaths = 
     GetAvailablePathsFor(opponentValue);
 
   int[] threatingPath = availableOpponentPaths
-    .Where(path =&gt; new string(
-          path.Select(p =&gt; opponentLayout[p - 1]).ToArray())
-        .Count(c =&gt; c == 'T') == 2).FirstOrDefault();
+    .Where(path => new string(
+          path.Select(p => opponentLayout[p - 1]).ToArray())
+        .Count(c => c == 'T') == 2).FirstOrDefault();
 
   if (threatingPath != null)
   {
     return threatingPath
-      .First(position =&gt; opponentLayout[position - 1] == '\0');
+      .First(position => opponentLayout[position - 1] == '\0');
   }
 
   return null;
@@ -1379,10 +1379,10 @@ public int SelectBestMoveForPlayer(char player)
 <span class="highlight">int GetNextWinningMoveForPlayer(char player)
 {
   string layout = _layout.Replace(player, 'T');
-  List&lt;int[]&gt; availablePaths = GetAvailablePathsFor(player);
+  List&lt;int[]> availablePaths = GetAvailablePathsFor(player);
   int[] bestSlice = availablePaths.OrderByDescending(
-      path =&gt; path.Count(p =&gt; layout[p - 1] == 'T')).First();
-  return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+      path => path.Count(p => layout[p - 1] == 'T')).First();
+  return bestSlice.First(p => _layout[p - 1] == '\0');
 }</span>
 </pre>
 
@@ -1447,42 +1447,42 @@ class GameAdvisor : IGameAdvisor
     int GetNextWinningMoveForPlayer(char player)
     {
       string layout = _layout.Replace(player, 'T');
-      List&lt;int[]&gt; availablePaths = GetAvailablePathsFor(player);
+      List&lt;int[]> availablePaths = GetAvailablePathsFor(player);
       int[] bestSlice = availablePaths.OrderByDescending(
-          path =&gt; path.Count(p =&gt; layout[p - 1] == 'T')).First();
-      return bestSlice.First(p =&gt; _layout[p - 1] == '\0');
+          path => path.Count(p => layout[p - 1] == 'T')).First();
+      return bestSlice.First(p => _layout[p - 1] == '\0');
     }
 
     int? GetPositionThreateningPlayer(char player)
     {
       char opponentValue = (player == 'X') ? 'O' : 'X';
       string opponentLayout = _layout.Replace(opponentValue, 'T');
-      List&lt;int[]&gt; availableOpponentPaths = 
+      List&lt;int[]> availableOpponentPaths = 
         GetAvailablePathsFor(opponentValue);
 
       int[] threatingPath = availableOpponentPaths
-        .Where(path =&gt; new string(
-              path.Select(p =&gt; opponentLayout[p - 1]).ToArray())
-            .Count(c =&gt; c == 'T') == 2).FirstOrDefault();
+        .Where(path => new string(
+              path.Select(p => opponentLayout[p - 1]).ToArray())
+            .Count(c => c == 'T') == 2).FirstOrDefault();
 
       if (threatingPath != null)
       {
         return threatingPath
-          .First(position =&gt; opponentLayout[position - 1] == '\0');
+          .First(position => opponentLayout[position - 1] == '\0');
       }
 
       return null;
     }
 
-    List&lt;int[]&gt; GetAvailablePathsFor(char player)
+    List&lt;int[]> GetAvailablePathsFor(char player)
     {
       string layout = _layout.Replace(player, 'T');
-      var availablePaths = new List&lt;int[]&gt;();
+      var availablePaths = new List&lt;int[]>();
 
       foreach (var winningSlice in _winningPositions)
       {
         var slice = new string(winningSlice.ToList()
-            .Select(p =&gt; layout.ElementAt(p - 1)).ToArray());
+            .Select(p => layout.ElementAt(p - 1)).ToArray());
 
         if (_availablePathPattern.IsMatch(slice))
           availablePaths.Add(winningSlice);
@@ -1495,5 +1495,5 @@ class GameAdvisor : IGameAdvisor
 </pre>
 
 <p>
-While we&#8217;ve been working on our component, another team has been putting together a host application with a nice user interface. We&#8217;re now ready to hand our component over so it can be integrated into the rest of the application. Afterward, the full application will be passed on to a Quality Assurance Team to receive some acceptance testing. Next time we&#8217;ll take a look at any issues that come out of the integration and QA testing processes.
+While we've been working on our component, another team has been putting together a host application with a nice user interface. We're now ready to hand our component over so it can be integrated into the rest of the application. Afterward, the full application will be passed on to a Quality Assurance Team to receive some acceptance testing. Next time we'll take a look at any issues that come out of the integration and QA testing processes.
 </p>

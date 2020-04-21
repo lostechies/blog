@@ -327,9 +327,9 @@ public class When_retrieving_the_last_selected_position_for_the_game
   [TestMethod]
   public void it_should_return_the_last_position()
   {
-    <span class="highlight">Game game = new Game(new GameAdvisorStub(new [] { 1 }));
-    game.GoFirst();
-    var selection = game.GetLastChoiceBy(Player.Game);</span>
+    <span class="highlight">Game game = new Game(new GameAdvisorStub(new [] { 1 }));</span>
+    <span class="highlight">game.GoFirst();</span>
+    <span class="highlight">var selection = game.GetLastChoiceBy(Player.Game);</span>
       Assert.AreEqual(1, selection);
   }
 }
@@ -391,10 +391,10 @@ public class Game
       <span class="highlight">_lastPositionDictionary[player] = recommendedPosition;</span>
     }
 
-  <span class="highlight">public int GetLastChoiceBy(Player player)
-  {
-    return _lastPositionDictionary[player];
-  }</span>
+  <span class="highlight">public int GetLastChoiceBy(Player player)</span>
+  <span class="highlight">{</span>
+    <span class="highlight">return _lastPositionDictionary[player];</span>
+  <span class="highlight">}</span>
 }
 </pre>
 
@@ -498,14 +498,14 @@ public class When_the_player_attempts_to_select_an_invalid_position
      <span class="highlight">var exception = new InvalidPositionException(string.Empty);</span>
 
        var game = new Game();
-     <span class="highlight">try
-     {
-       game.ChoosePosition(10);
-     }
-     catch (InvalidPositionException ex)
-     {
-       exception = ex;
-     }</span>
+     <span class="highlight">try</span>
+     <span class="highlight">{</span>
+       <span class="highlight">game.ChoosePosition(10);</span>
+     <span class="highlight">}</span>
+     <span class="highlight">catch (InvalidPositionException ex)</span>
+     <span class="highlight">{</span>
+       <span class="highlight">exception = ex;</span>
+     <span class="highlight">}</span>
 
      Assert.AreEqual("The position '10' was invalid.", exception.Message);
    }
@@ -542,8 +542,8 @@ public string ChoosePosition(int position)
 {
   if (IsOutOfRange(position))
   {
-    <span class="highlight">throw new InvalidPositionException(
-        string.Format("The position \'{0}\' was invalid.", position));</span>
+    <span class="highlight">throw new InvalidPositionException(</span>
+        <span class="highlight">string.Format("The position \'{0}\' was invalid.", position));</span>
   }
 
   if (_layout[position - 1] != '\0')
@@ -584,16 +584,16 @@ public class When_the_player_attempts_to_select_an_occupied_position
       var game = new Game(new GameAdvisorStub(new[] {1, 4, 7}));
     game.ChoosePosition(2);
 
-    <span class="highlight">try
-    {
-      game.ChoosePosition(1);
-    }
-    catch (OccupiedPositionException ex)
-    {
-      exception = ex;
-    }
+    <span class="highlight">try</span>
+    <span class="highlight">{</span>
+      <span class="highlight">game.ChoosePosition(1);</span>
+    <span class="highlight">}</span>
+    <span class="highlight">catch (OccupiedPositionException ex)</span>
+    <span class="highlight">{</span>
+      <span class="highlight">exception = ex;</span>
+    <span class="highlight">}</span>
 
-    Assert.AreEqual("The position '1' is already occupied.", exception.Message);</span>
+    <span class="highlight">Assert.AreEqual("The position '1' is already occupied.", exception.Message);</span>
   }
 }
 </pre>
@@ -633,8 +633,8 @@ public string ChoosePosition(int position)
 
   if (_layout[position - 1] != '\0')
   {
-    <span class="highlight">throw new OccupiedPositionException(
-        string.Format("The position \'{0}\' is already occupied.", position));</span>
+    <span class="highlight">throw new OccupiedPositionException(</span>
+        <span class="highlight">string.Format("The position \'{0}\' is already occupied.", position));</span>
   }
 
   _layout[position - 1] = GetTokenFor(Player.Human);
@@ -832,11 +832,11 @@ public class Game
 
     public event EventHandler&lt;GameCompleteEventArgs> GameComplete;
 
-  <span class="highlight">public void InvokeGameComplete(GameCompleteEventArgs e)
-  {
-    EventHandler&lt;GameCompleteEventArgs> handler = GameComplete;
-    if (handler != null) handler(this, e);
-  }</span>
+  <span class="highlight">public void InvokeGameComplete(GameCompleteEventArgs e)</span>
+  <span class="highlight">{</span>
+    <span class="highlight">EventHandler&lt;GameCompleteEventArgs> handler = GameComplete;</span>
+    <span class="highlight">if (handler != null) handler(this, e);</span>
+  <span class="highlight">}</span>
 
   ... 
 
@@ -848,10 +848,10 @@ public class Game
 <pre class="code">
 public class GameCompleteEventArgs : EventArgs
 {
-  <span class="highlight">public GameCompleteEventArgs(GameResult result)
-  {
-    Result = result;
-  }</span>
+  <span class="highlight">public GameCompleteEventArgs(GameResult result)</span>
+  <span class="highlight">{</span>
+    <span class="highlight">Result = result;</span>
+  <span class="highlight">}</span>
 
   public GameResult Result { get; private set; }
 }
@@ -873,8 +873,8 @@ public class When_the_game_gets_three_in_a_row
   public void it_should_announce_the_game_as_the_winner()
   {
     var game = new Game(new GameAdvisorStub(new[] {1, 2, 3}));
-    <span class="highlight">var result = (GameResult) (-1);
-    game.GameComplete += (s, e) => result = e.Result;</span>
+    <span class="highlight">var result = (GameResult) (-1);</span>
+    <span class="highlight">game.GameComplete += (s, e) => result = e.Result;</span>
     game.ChoosePosition(4);
     game.ChoosePosition(6);
     game.ChoosePosition(8);
@@ -950,19 +950,19 @@ public string ChoosePosition(int position)
 
   _layout[position - 1] = GetTokenFor(Player.Human);
 
-  <span class="highlight">if (WinningPlayerIs(Player.Human))
-  {
-    InvokeGameComplete(new GameCompleteEventArgs(GameResult.PlayerWins));
-    return string.Empty;
-  }</span>
+  <span class="highlight">if (WinningPlayerIs(Player.Human))</span>
+  <span class="highlight">{</span>
+    <span class="highlight">InvokeGameComplete(new GameCompleteEventArgs(GameResult.PlayerWins));</span>
+    <span class="highlight">return string.Empty;</span>
+  <span class="highlight">}</span>
 
   SelectAPositionFor(Player.Game);
 
-  <span class="highlight">if (WinningPlayerIs(Player.Game))
-  {
-    InvokeGameComplete(new GameCompleteEventArgs(GameResult.GameWins));
-    return string.Empty;
-  }</span>
+  <span class="highlight">if (WinningPlayerIs(Player.Game))</span>
+  <span class="highlight">{</span>
+    <span class="highlight">InvokeGameComplete(new GameCompleteEventArgs(GameResult.GameWins));</span>
+    <span class="highlight">return string.Empty;</span>
+  <span class="highlight">}</span>
 
   return string.Empty;
 }
@@ -1031,11 +1031,11 @@ public void ChoosePosition(int position)
     throw new OccupiedPositionException(string.Format("The position \'{0}\' is already occupied.", position));
   }
 
-  <span class="highlight">new Func&lt;bool>[]
-  {
-    () => CheckPlayerStrategy(Player.Human, () => _layout[position - 1] = GetTokenFor(Player.Human)),
-      () => CheckPlayerStrategy(Player.Game, () => SelectAPositionFor(Player.Game))
-  }.Any(winningPlay => winningPlay());</span>
+  <span class="highlight">new Func&lt;bool>[]</span>
+  <span class="highlight">{</span>
+    <span class="highlight">() => CheckPlayerStrategy(Player.Human, () => _layout[position - 1] = GetTokenFor(Player.Human)),</span>
+      <span class="highlight">() => CheckPlayerStrategy(Player.Game, () => SelectAPositionFor(Player.Game))</span>
+  <span class="highlight">}.Any(winningPlay => winningPlay());</span>
 }
 </pre>
       
@@ -1141,10 +1141,10 @@ public void ChoosePosition(int position)
       () => CheckPlayerStrategy(Player.Game, () => SelectAPositionFor(Player.Game))
   }.Any(winningPlay => winningPlay());
 
-  <span class="highlight">if (!(someoneWon || _layout.Any(pos => pos == '\0')))
-  {
-    InvokeGameComplete(new GameCompleteEventArgs(GameResult.Draw));
-  }</span>
+  <span class="highlight">if (!(someoneWon || _layout.Any(pos => pos == '\0')))</span>
+  <span class="highlight">{</span>
+    <span class="highlight">InvokeGameComplete(new GameCompleteEventArgs(GameResult.Draw));</span>
+  <span class="highlight">}</span>
 }
 </pre>
 

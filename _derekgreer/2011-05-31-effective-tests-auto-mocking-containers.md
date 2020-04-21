@@ -19,60 +19,60 @@ tags:
 <div>
   <ul>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/07/effective-tests-introduction/">Effective Tests: Introduction</a>
+      <a href="/derekgreer/2011/03/07/effective-tests-introduction/">Effective Tests: Introduction</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/14/effective-tests-a-unit-test-example/">Effective Tests: A Unit Test Example</a>
+      <a href="/derekgreer/2011/03/14/effective-tests-a-unit-test-example/">Effective Tests: A Unit Test Example</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/21/effective-tests-test-first/">Effective Tests: Test First</a>
+      <a href="/derekgreer/2011/03/21/effective-tests-test-first/">Effective Tests: Test First</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/28/effective-tests-a-test-first-example-part-1/">Effective Tests: A Test-First Example – Part 1</a>
+      <a href="/derekgreer/2011/03/28/effective-tests-a-test-first-example-part-1/">Effective Tests: A Test-First Example – Part 1</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/29/effective-tests-how-faking-it-can-help-you/">Effective Tests: How Faking It Can Help You</a>
+      <a href="/derekgreer/2011/03/29/effective-tests-how-faking-it-can-help-you/">Effective Tests: How Faking It Can Help You</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/04/04/effective-tests-a-test-first-example-part-2/">Effective Tests: A Test-First Example – Part 2</a>
+      <a href="/derekgreer/2011/04/04/effective-tests-a-test-first-example-part-2/">Effective Tests: A Test-First Example – Part 2</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/04/11/effective-tests-a-test-first-example-part-3/">Effective Tests: A Test-First Example – Part 3</a>
+      <a href="/derekgreer/2011/04/11/effective-tests-a-test-first-example-part-3/">Effective Tests: A Test-First Example – Part 3</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/04/24/effective-tests-a-test-first-example-part-4/">Effective Tests: A Test-First Example – Part 4</a>
+      <a href="/derekgreer/2011/04/24/effective-tests-a-test-first-example-part-4/">Effective Tests: A Test-First Example – Part 4</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/01/effective-tests-a-test-first-example-part-5/">Effective Tests: A Test-First Example – Part 5</a>
+      <a href="/derekgreer/2011/05/01/effective-tests-a-test-first-example-part-5/">Effective Tests: A Test-First Example – Part 5</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/12/effective-tests-a-test-first-example-part-6/">Effective Tests: A Test-First Example – Part 6</a>
+      <a href="/derekgreer/2011/05/12/effective-tests-a-test-first-example-part-6/">Effective Tests: A Test-First Example – Part 6</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/15/effective-tests-test-doubles/">Effective Tests: Test Doubles</a>
+      <a href="/derekgreer/2011/05/15/effective-tests-test-doubles/">Effective Tests: Test Doubles</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/26/effective-tests-double-strategies/">Effective Tests: Double Strategies</a>
+      <a href="/derekgreer/2011/05/26/effective-tests-double-strategies/">Effective Tests: Double Strategies</a>
     </li>
     <li>
       Effective Tests: Auto-mocking Containers
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/">Effective Tests: Custom Assertions</a>
+      <a href="/derekgreer/2011/06/11/effective-tests-custom-assertions/">Effective Tests: Custom Assertions</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/06/24/effective-tests-expected-objects/">Effective Tests: Expected Objects</a>
+      <a href="/derekgreer/2011/06/24/effective-tests-expected-objects/">Effective Tests: Expected Objects</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/07/19/effective-tests-avoiding-context-obscurity/">Effective Tests: Avoiding Context Obscurity</a>
+      <a href="/derekgreer/2011/07/19/effective-tests-avoiding-context-obscurity/">Effective Tests: Avoiding Context Obscurity</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/09/05/effective-tests-acceptance-tests/">Effective Tests: Acceptance Tests</a>
+      <a href="/derekgreer/2011/09/05/effective-tests-acceptance-tests/">Effective Tests: Acceptance Tests</a>
     </li>
   </ul>
 </div>
 
-In the [last installment](https://lostechies.com/derekgreer/2011/05/26/effective-tests-double-strategies/), I set forth some recommendations for using Test Doubles effectively. In this article, I’ll discuss a class of tools which can aid in reducing some of the coupling and obscurity that comes with the use of Test Doubles: Auto-mocking Containers.
+In the [last installment](/derekgreer/2011/05/26/effective-tests-double-strategies/), I set forth some recommendations for using Test Doubles effectively. In this article, I’ll discuss a class of tools which can aid in reducing some of the coupling and obscurity that comes with the use of Test Doubles: Auto-mocking Containers.
 
 ## Auto-mocking Containers
 
@@ -84,118 +84,115 @@ An _Auto-mocking Container_ is a specialized [inversion of control](http://en.wi
 
 Consider the following class which displays part details to a user and is responsible for retrieving the details requested form a cached copy if present:
 
-<pre class="prettyprint">public class DisplayPartDetailsAction
-    {
-        readonly ICachingService _cachingService;
-        readonly IPartDisplayAdaptor _partDisplayAdaptor;
-        readonly IPartRepository _partRepository;
+```csharp
+public class DisplayPartDetailsAction
+{
+  readonly ICachingService _cachingService;
+  readonly IPartDisplayAdaptor _partDisplayAdaptor;
+  readonly IPartRepository _partRepository;
 
-        public DisplayPartDetailsAction(
-            ICachingService cachingService,
-            IPartRepository partRepository,
-            IPartDisplayAdaptor partDisplayAdaptor)
-        {
-            _cachingService = cachingService;
-            _partRepository = partRepository;
-            _partDisplayAdaptor = partDisplayAdaptor;
-        }
+  public DisplayPartDetailsAction(
+      ICachingService cachingService,
+      IPartRepository partRepository,
+      IPartDisplayAdaptor partDisplayAdaptor)
+  {
+    _cachingService = cachingService;
+    _partRepository = partRepository;
+    _partDisplayAdaptor = partDisplayAdaptor;
+  }
 
-        public void Display(string partId)
-        {
-            PartDetail details = _cachingService.RetrievePartDetails(partId) ??
-                                 _partRepository.GetPartDetailByPartId(partId);
+  public void Display(string partId)
+  {
+    PartDetail details = _cachingService.RetrievePartDetails(partId) ??
+      _partRepository.GetPartDetailByPartId(partId);
 
-            _partDisplayAdaptor.Display(details);
-        }
-    }
-</pre>
-
-
+    _partDisplayAdaptor.Display(details);
+  }
+}
+```
 
 The specification for this behavior would need to verify that the System Under Test attempts to retrieve the PartDetail from the ICachingService, but would also need to supply implementations for the IPartRepository and IPartDisplayAdaptor as shown in the following listing:
 
-<pre class="prettyprint">public class when_displaying_part_details
-    {
-        const string PartId = "12345";
-        static Mock&lt;ICachingService&gt; _cachingServiceMock;
-        static DisplayPartDetailsAction _subject;
+```csharp
+public class when_displaying_part_details
+{
+  const string PartId = "12345";
+  static Mock<ICachingService> _cachingServiceMock;
+  static DisplayPartDetailsAction _subject;
 
-        Establish context = () =>
-            {
-                _cachingServiceMock = new Mock&lt;ICachingService&gt;();
-                var partRepositoryDummy = new Mock&lt;IPartRepository&gt;();
-                var partDisplayAdaptorDummy = new Mock&lt;IPartDisplayAdaptor&gt;();
-                _subject = new DisplayPartDetailsAction(_cachingServiceMock.Object, partRepositoryDummy.Object,
-                                                        partDisplayAdaptorDummy.Object);
-            };
+  Establish context = () =>
+  {
+    _cachingServiceMock = new Mock<ICachingService>();
+    var partRepositoryDummy = new Mock<IPartRepository>();
+    var partDisplayAdaptorDummy = new Mock<IPartDisplayAdaptor>();
+    _subject = new DisplayPartDetailsAction(_cachingServiceMock.Object, partRepositoryDummy.Object,
+        partDisplayAdaptorDummy.Object);
+  };
 
-        Because of = () => _subject.Display(PartId);
+  Because of = () => _subject.Display(PartId);
 
-        It should_retrieve_the_part_information_from_the_cache =
-            () => _cachingServiceMock.Verify(x => x.RetrievePartDetails(PartId), Times.Exactly(1));
-    }
-</pre>
-
-
+  It should_retrieve_the_part_information_from_the_cache =
+    () => _cachingServiceMock.Verify(x => x.RetrievePartDetails(PartId), Times.Exactly(1));
+}
+```
 
 By using an auto-mocking container, the specification can be written without the need of an explicit Mock field, or instantiating Dummy instances for the IPartRepository and IPartDisplayAdaptor dependencies. The following demonstrates such an example using [AutoMock](http://code.google.com/p/moq-contrib/wiki/Automocking), an auto-mocking container which leverages the Moq framework:
 
-<pre class="prettyprint">public class when_displaying_part_details
-    {
-        const string PartId = "12345";
-        static AutoMockContainer _container;
-        static DisplayPartDetailsAction _subject;
+```csharp
+public class when_displaying_part_details
+{
+  const string PartId = "12345";
+  static AutoMockContainer _container;
+  static DisplayPartDetailsAction _subject;
 
-        Establish context = () =>
-            {
-                _container = new AutoMockContainer(new MockFactory(MockBehavior.Loose));
-                _subject = _container.Create&lt;DisplayPartDetailsAction&gt;();
-            };
+  Establish context = () =>
+  {
+    _container = new AutoMockContainer(new MockFactory(MockBehavior.Loose));
+    _subject = _container.Create<DisplayPartDetailsAction>();
+  };
 
-        Because of = () => _subject.Display(PartId);
+  Because of = () => _subject.Display(PartId);
 
-        It should_retrieve_the_part_information_from_the_cache =
-            () => _container.GetMock&lt;ICachingService&gt;().Verify(x => x.RetrievePartDetails(PartId), Times.Exactly(1));
-    }
-</pre>
-
-
+  It should_retrieve_the_part_information_from_the_cache =
+    () => _container.GetMock<ICachingService>().Verify(x => x.RetrievePartDetails(PartId), Times.Exactly(1));
+}
+```
 
 While this implementation eliminates references to the extraneous dependencies, it does impose a bit of extraneous implementation details of its own. To further relieve this specification of implementation details associated with the auto-mocking container, a reusable base context can be extracted:
 
-<pre class="prettyprint">public abstract class WithSubject&lt;T&gt; where T : class
-    {
-        protected static AutoMockContainer Container;
-        protected static T Subject;
+```csharp
+public abstract class WithSubject<T> where T : class
+{
+  protected static AutoMockContainer Container;
+  protected static T Subject;
 
-         Establish context = () =>
-            {
-                Container = new AutoMockContainer(new MockFactory(MockBehavior.Loose));
-                Subject = Container.Create&lt;T&gt;();
-            };
+  Establish context = () =>
+  {
+    Container = new AutoMockContainer(new MockFactory(MockBehavior.Loose));
+    Subject = Container.Create<T>();
+  };
 
-        protected static Mock&lt;TDouble&gt; For&lt;TDouble&gt;() where TDouble : class
-        {
-            return Container.GetMock&lt;TDouble&gt;();
-        }
-    }
-</pre>
-
+  protected static Mock<TDouble> For<TDouble>() where TDouble : class
+  {
+    return Container.GetMock<TDouble>();
+  }
+}
+```
 
 
 By extending the auto-mocking base context, the specification can be written more concisely:
 
-<pre class="prettyprint">public class when_displaying_part_details : WithSubject&lt;DisplayPartDetailsAction&gt;
-    {
-        const string PartId = "12345";
+```csharp
+public class when_displaying_part_details : WithSubject<DisplayPartDetailsAction>
+{
+  const string PartId = "12345";
 
-        Because of = () => Subject.Display(PartId);
+  Because of = () => Subject.Display(PartId);
 
-        It should_retrieve_the_part_information_from_the_cache =
-            () => For&lt;ICachingService&gt;().Verify(x => x.RetrievePartDetails(PartId), Times.Exactly(1));
-    }
-</pre>
-
+  It should_retrieve_the_part_information_from_the_cache =
+    () => For<ICachingService>().Verify(x => x.RetrievePartDetails(PartId), Times.Exactly(1));
+}
+```
 
 
 Another advantage gained by the use of auto-mocking containers is decoupling. By inverting the concern of how the System Under Test is constructed, dependencies can be added, modified, or deleted without affecting specifications for which the dependency has no bearing.
