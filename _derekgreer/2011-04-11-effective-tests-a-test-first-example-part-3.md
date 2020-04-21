@@ -104,7 +104,7 @@ pre.story
   </ul>
 </div>
 
-In [part 2](https://lostechies.com/derekgreer/2011/04/04/effective-tests-a-test-first-example-part-2/) of our Test-First example, we continued the implementation of our Tic-tac-toe game using a Test-First approach. This time, we’ll finish out our requirements.
+In [part 2](/derekgreer/2011/04/04/effective-tests-a-test-first-example-part-2/) of our Test-First example, we continued the implementation of our Tic-tac-toe game using a Test-First approach. This time, we’ll finish out our requirements.
 
 Here’s where we left things:
 

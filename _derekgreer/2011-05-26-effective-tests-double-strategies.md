@@ -112,13 +112,13 @@ In this example, a Test Stub is created for an IProductDetailRepository type whi
  
  
 For Rhino Mock users, there are some additional hints in this example which help to indicate that the test double used by this specification is intended to serve as a Test Stub.
-This includes use of Rhino Mock&#8217;s GenerateStub&lt;T>() method, the lack of “Record/Replay” artifacts from either the old or new mocking APIs and the absence of assertions on
+This includes use of Rhino Mock&#8217;s GenerateStub<T>() method, the lack of “Record/Replay” artifacts from either the old or new mocking APIs and the absence of assertions on
 the generated test double. Additionally, those familiar with the Machines.Specifications framework (a.k.a. MSpec) would have an expectation of explicit and discrete observations
 if this were being used as a Mock or Test Spy. Nevertheless, we should strive to make the chosen verification strategy as discoverable as possible and not rely upon framework
 familiarity alone.
 </div>
 
-While this test also indicates that the test double is being used as a Stub by its use of the Rhino Mock framework's GenerateStub&lt;T>() method, Rhino Mocks doesn't provide intention-revealing method names for each type of test double and some mocking frameworks don&#8217;t distinguish between the creation of mocks and stubs at all. Using intention-revealing names is a consistent practice that can be adopted regardless of the framework being used.
+While this test also indicates that the test double is being used as a Stub by its use of the Rhino Mock framework's GenerateStub<T>() method, Rhino Mocks doesn't provide intention-revealing method names for each type of test double and some mocking frameworks don&#8217;t distinguish between the creation of mocks and stubs at all. Using intention-revealing names is a consistent practice that can be adopted regardless of the framework being used.
 
 ## Recommendation 2: Only Substitute Your Types
 

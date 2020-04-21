@@ -17,60 +17,60 @@ tags:
 <div>
   <ul>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/07/effective-tests-introduction/">Effective Tests: Introduction</a>
+      <a href="/derekgreer/2011/03/07/effective-tests-introduction/">Effective Tests: Introduction</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/14/effective-tests-a-unit-test-example/">Effective Tests: A Unit Test Example</a>
+      <a href="/derekgreer/2011/03/14/effective-tests-a-unit-test-example/">Effective Tests: A Unit Test Example</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/21/effective-tests-test-first/">Effective Tests: Test First</a>
+      <a href="/derekgreer/2011/03/21/effective-tests-test-first/">Effective Tests: Test First</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/28/effective-tests-a-test-first-example-part-1/">Effective Tests: A Test-First Example – Part 1</a>
+      <a href="/derekgreer/2011/03/28/effective-tests-a-test-first-example-part-1/">Effective Tests: A Test-First Example – Part 1</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/29/effective-tests-how-faking-it-can-help-you/">Effective Tests: How Faking It Can Help You</a>
+      <a href="/derekgreer/2011/03/29/effective-tests-how-faking-it-can-help-you/">Effective Tests: How Faking It Can Help You</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/04/04/effective-tests-a-test-first-example-part-2/">Effective Tests: A Test-First Example – Part 2</a>
+      <a href="/derekgreer/2011/04/04/effective-tests-a-test-first-example-part-2/">Effective Tests: A Test-First Example – Part 2</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/04/11/effective-tests-a-test-first-example-part-3/">Effective Tests: A Test-First Example – Part 3</a>
+      <a href="/derekgreer/2011/04/11/effective-tests-a-test-first-example-part-3/">Effective Tests: A Test-First Example – Part 3</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/04/24/effective-tests-a-test-first-example-part-4/">Effective Tests: A Test-First Example – Part 4</a>
+      <a href="/derekgreer/2011/04/24/effective-tests-a-test-first-example-part-4/">Effective Tests: A Test-First Example – Part 4</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/01/effective-tests-a-test-first-example-part-5/">Effective Tests: A Test-First Example – Part 5</a>
+      <a href="/derekgreer/2011/05/01/effective-tests-a-test-first-example-part-5/">Effective Tests: A Test-First Example – Part 5</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/12/effective-tests-a-test-first-example-part-6/">Effective Tests: A Test-First Example – Part 6</a>
+      <a href="/derekgreer/2011/05/12/effective-tests-a-test-first-example-part-6/">Effective Tests: A Test-First Example – Part 6</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/15/effective-tests-test-doubles/">Effective Tests: Test Doubles</a>
+      <a href="/derekgreer/2011/05/15/effective-tests-test-doubles/">Effective Tests: Test Doubles</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/26/effective-tests-double-strategies/">Effective Tests: Double Strategies</a>
+      <a href="/derekgreer/2011/05/26/effective-tests-double-strategies/">Effective Tests: Double Strategies</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/31/effective-tests-auto-mocking-containers/">Effective Tests: Auto-mocking Containers</a>
+      <a href="/derekgreer/2011/05/31/effective-tests-auto-mocking-containers/">Effective Tests: Auto-mocking Containers</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/">Effective Tests: Custom Assertions</a>
+      <a href="/derekgreer/2011/06/11/effective-tests-custom-assertions/">Effective Tests: Custom Assertions</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/06/24/effective-tests-expected-objects/">Effective Tests: Expected Objects</a>
+      <a href="/derekgreer/2011/06/24/effective-tests-expected-objects/">Effective Tests: Expected Objects</a>
     </li>
     <li>
       Effective Tests: Avoiding Context Obscurity
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/09/05/effective-tests-acceptance-tests/">Effective Tests: Acceptance Tests</a>
+      <a href="/derekgreer/2011/09/05/effective-tests-acceptance-tests/">Effective Tests: Acceptance Tests</a>
     </li>
   </ul>
 </div>
 
-In the [last](https://lostechies.com/derekgreer/2011/06/24/effective-tests-expected-objects/) installment of our series, we looked at the Expected Object pattern as a way to reduce code duplication, eliminate the need to add test-specific equality concerns to production code and to aid in clarifying the intent of our tests. This time we’ll take a look at some practices and techniques for avoiding context obscurity.
+In the [last](/derekgreer/2011/06/24/effective-tests-expected-objects/) installment of our series, we looked at the Expected Object pattern as a way to reduce code duplication, eliminate the need to add test-specific equality concerns to production code and to aid in clarifying the intent of our tests. This time we’ll take a look at some practices and techniques for avoiding context obscurity.
 
 ## Context Obscurity
 
@@ -86,19 +86,20 @@ The setup needs for a test often includes information necessary for the behavior
 
 Consider the following specification for a payment gateway component which validates that an exception is thrown when the system is asked to process a payment containing an expired credit card:
 
-<pre class="prettyprint">public class when_processing_a_payment_with_an_expired_credit_card
+```csharp
+public class when_processing_a_payment_with_an_expired_credit_card
 {
   static Exception _exception;
   static PaymentGateway _paymentGateway;
   static PaymentInformation _paymentInformation;
-  static Mock&lt;ILoggger&gt; _nullLogger;
-  static Mock&lt;IPaymentProvider&gt; _stubPaymentProvider;
+  static Mock<ILoggger> _nullLogger;
+  static Mock<IPaymentProvider> _stubPaymentProvider;
 
-  Establish context = () =&gt;
+  Establish context = () =>
   {
-    _nullLogger = new Mock&lt;ILoggger&gt;();
-    _stubPaymentProvider = new Mock&lt;IPaymentProvider&gt;();
-    _stubPaymentProvider.Setup(x =&gt; x.ProcessPayment(Parameter.IsAny&lt;Payment&gt;()))
+    _nullLogger = new Mock<ILoggger>();
+    _stubPaymentProvider = new Mock<IPaymentProvider>();
+    _stubPaymentProvider.Setup(x => x.ProcessPayment(Parameter.IsAny<Payment>()))
       .Returns(new PaymentReceipt
           {
           ReceiptId = "12345",
@@ -128,11 +129,11 @@ Consider the following specification for a payment gateway component which valid
     };
   };
 
-  Because of = () =&gt; _exception = Catch.Exception(() =&gt; _paymentGateway.Process(_paymentInformation));
+  Because of = () => _exception = Catch.Exception(() => _paymentGateway.Process(_paymentInformation));
 
-  It should_throw_an_expired_card_exception = () =&gt; _exception.ShouldBeOfType&lt;ExpiredCardException&gt;();
+  It should_throw_an_expired_card_exception = () => _exception.ShouldBeOfType<ExpiredCardException>();
 }
-</pre>
+```
 
 <center>
   <b><font size="1">Listing 1</font></b>
@@ -146,29 +147,30 @@ Another source of incidental context can occur when a System Under Test lacks _C
 
 Consider the following specification which verifies that related product information is returned when a customer requests the details for a product:
 
-<pre class="prettyprint">public class when_the_customer_requests_product_information
+```csharp
+public class when_the_customer_requests_product_information
 {
   static readonly Guid ProductId = new Guid("BD1F1F9A-85BC-48B9-95B5-0CA8219A97A1");
   static readonly Guid RelatedProductId = new Guid("C363577B-1720-43C1-93D9-2C9F239B3D52");
-  static Mock&lt;IAuditService&gt; _auditServiceStub;
-  static Mock&lt;IOrderHistoryRepository&gt; _orderHistoryRepositoryStub;
-  static Mock&lt;IOrderReturnService&gt; _orderReturnServiceStub;
-  static Mock&lt;IProductHistoryRepository&gt; _productHistoryRepositoryStub;
+  static Mock<IAuditService> _auditServiceStub;
+  static Mock<IOrderHistoryRepository> _orderHistoryRepositoryStub;
+  static Mock<IOrderReturnService> _orderReturnServiceStub;
+  static Mock<IProductHistoryRepository> _productHistoryRepositoryStub;
   static ProductInformation _productInformation;
-  static Mock&lt;IProductRepository&gt; _productRepositoryStub;
+  static Mock<IProductRepository> _productRepositoryStub;
   static ProductService _productService;
 
-  Establish context = () =&gt;
+  Establish context = () =>
   {
-    _auditServiceStub = new Mock&lt;IAuditService&gt;();
-    _productHistoryRepositoryStub = new Mock&lt;IProductHistoryRepository&gt;();
-    _orderHistoryRepositoryStub = new Mock&lt;IOrderHistoryRepository&gt;();
-    _orderReturnServiceStub = new Mock&lt;IOrderReturnService&gt;();
-    _productRepositoryStub = new Mock&lt;IProductRepository&gt;();
+    _auditServiceStub = new Mock<IAuditService>();
+    _productHistoryRepositoryStub = new Mock<IProductHistoryRepository>();
+    _orderHistoryRepositoryStub = new Mock<IOrderHistoryRepository>();
+    _orderReturnServiceStub = new Mock<IOrderReturnService>();
+    _productRepositoryStub = new Mock<IProductRepository>();
 
-    _productRepositoryStub.Setup(x =&gt; x.Get(ProductId)).Returns(new Product(ProductId, "Product description", 20.00m));
-    _productRepositoryStub.Setup(x =&gt; x.GetRelatedProducts(ProductId))
-      .Returns(new List&lt;Product&gt;
+    _productRepositoryStub.Setup(x => x.Get(ProductId)).Returns(new Product(ProductId, "Product description", 20.00m));
+    _productRepositoryStub.Setup(x => x.GetRelatedProducts(ProductId))
+      .Returns(new List<Product>
           {
           new Product(RelatedProductId,
               "Related product description",
@@ -180,11 +182,11 @@ Consider the following specification which verifies that related product informa
         _productRepositoryStub.Object);
   };
 
-  Because of = () =&gt; _productInformation = _productService.GetProductInformation(ProductId);
+  Because of = () => _productInformation = _productService.GetProductInformation(ProductId);
 
-  It should_return_related_products = () =&gt; _productInformation.RelatedProducts.ShouldNotBeEmpty();
+  It should_return_related_products = () => _productInformation.RelatedProducts.ShouldNotBeEmpty();
 }
-</pre>
+```
 
 <center>
   <b><font size="1">listing 2</font></b>
@@ -198,15 +200,16 @@ In some cases, setup code may be factored out of a concrete test implementation 
 
 Consider the following variation on the expired credit card specification:
 
-<pre class="prettyprint">public class when_processing_a_payment_with_an_expired_credit_card : PaymentContext
+```csharp
+public class when_processing_a_payment_with_an_expired_credit_card : PaymentContext
 {
   static Exception _exception;
 
-  Because of = () =&gt; _exception = Catch.Exception(() =&gt; PaymentGateway.Process(PaymentInformation));
+  Because of = () => _exception = Catch.Exception(() => PaymentGateway.Process(PaymentInformation));
 
-  It should_throw_an_expired_card_exception = () =&gt; _exception.ShouldBeOfType&lt;ExpiredCardException&gt;();
+  It should_throw_an_expired_card_exception = () => _exception.ShouldBeOfType<ExpiredCardException>();
 }
-</pre>
+```
 
 <center>
   <b><font size="1">listing 3</font></b>
@@ -235,23 +238,24 @@ One use of base fixtures which can reduce incidental context while preserving re
 
 As a review, the following listing shows a base fixture which defines common code for setting up an auto-mocking container along with methods for configuring any test doubles used:
 
-<pre class="prettyprint">public abstract class WithSubject&lt;T&gt; where T : class
+```csharp
+public abstract class WithSubject<T> where T : class
 {
   protected static AutoMockContainer Container;
   protected static T Subject;
 
-  Establish context = () =&gt;
+  Establish context = () =>
   {
     Container = new AutoMockContainer(new MockFactory(MockBehavior.Loose));
-    Subject = Container.Create&lt;T&gt;();
+    Subject = Container.Create<T>();
   };
 
-  protected static Mock&lt;TDouble&gt; For&lt;TDouble&gt;() where TDouble : class
+  protected static Mock<TDouble> For<TDouble>() where TDouble : class
   {
-    return Container.GetMock&lt;TDouble&gt;();
+    return Container.GetMock<TDouble>();
   }
 }
-</pre>
+```
 
 <center>
   <b><font size="1">listing 4</font></b>
@@ -259,16 +263,17 @@ As a review, the following listing shows a base fixture which defines common cod
 
 Given this base fixture, the following specification can be derived which specifies the type of the System Under Test without including the ancillary concerns of setting up the Auto-mocking container or any Test Dummies required:
 
-<pre class="prettyprint">public class when_displaying_part_details : WithSubject&lt;DisplayPartDetailsAction&gt;
+```csharp
+public class when_displaying_part_details : WithSubject<DisplayPartDetailsAction>
 {
   const string PartId = "12345";
 
-  Because of = () =&gt; Subject.Display(PartId);
+  Because of = () => Subject.Display(PartId);
 
   It should_retrieve_the_part_information_from_the_cache =
-    () =&gt; For&lt;ICachingService&gt;().Verify(x =&gt; x.RetrievePartDetails(PartId), Times.Exactly(1));
+    () => For<ICachingService>().Verify(x => x.RetrievePartDetails(PartId), Times.Exactly(1));
 }
-</pre>
+```
 
 <center>
   <b><font size="1">listing 5</font></b>
@@ -282,7 +287,8 @@ One of the specific types of setup needs which can lead to obscurity is the setu
 
 The following demonstrates an Object Mother which provides canned Order objects:
 
-<pre class="prettyprint">public static class OrderObjectMother
+```csharp
+public static class OrderObjectMother
 {
   public static Order CreateOrder()
   {
@@ -309,7 +315,7 @@ The following demonstrates an Object Mother which provides canned Order objects:
     return new Order(cart, billingInformation, shippingInformation);
   }
 }
-</pre>
+```
 
 <center>
   <b><font size="1">listing 6</font></b>
@@ -319,18 +325,19 @@ Note that the CreateOrder() method is required to create several intermediate ob
 
 By delegating the creation of an Order object to the Object Mother in listing 6, the following specification can be implemented with minimal visible context setup while preserving the essence of the declared context information:
 
-<pre class="prettyprint">public class when_placing_a_valid_order : WithSubject&lt;OrderService&gt;
+```csharp
+public class when_placing_a_valid_order : WithSubject<OrderService>
 {
   static Order _order;
   static OrderReceipt _receipt;
 
-  Establish context = () =&gt; _order = OrderObjectMother.CreateOrder();
+  Establish context = () => _order = OrderObjectMother.CreateOrder();
 
-  Because of = () =&gt; _receipt = Subject.PlaceOrder(_order);
+  Because of = () => _receipt = Subject.PlaceOrder(_order);
 
-  It should_return_the_order_number = () =&gt; _receipt.OrderNumber.ShouldNotBeNull();
+  It should_return_the_order_number = () => _receipt.OrderNumber.ShouldNotBeNull();
 }
-</pre>
+```
 
 <center>
   <b><font size="1">listing 7</font></b>
@@ -340,18 +347,19 @@ Since the specification in listing 7 concerns what happens when a valid order is
 
 If a variation of the object is needed, new methods can be added to the Object Mother to denote the variation. The following specification assumes the existence of an additional factory method used to validate behavior associated with invalid orders:
 
-<pre class="prettyprint">public class when_placing_an_invalid_order : WithSubject&lt;OrderService&gt;
+```csharp
+public class when_placing_an_invalid_order : WithSubject<OrderService>
 {
   static Exception _exception;
   static Order _invalidOrder;
 
-  Establish context = () =&gt; _invalidOrder = OrderObjectMother.CreateInvalidOrder();
+  Establish context = () => _invalidOrder = OrderObjectMother.CreateInvalidOrder();
 
-  Because of = () =&gt; _exception = Catch.Exception(() =&gt; Subject.PlaceOrder(_invalidOrder));
+  Because of = () => _exception = Catch.Exception(() => Subject.PlaceOrder(_invalidOrder));
 
-  It should_throw_an_invalid_order_exception = () =&gt; _exception.ShouldBeOfType&lt;InvalidOrderException&gt;();
+  It should_throw_an_invalid_order_exception = () => _exception.ShouldBeOfType<InvalidOrderException>();
 }
-</pre>
+```
 
 <center>
   <b><font size="1">listing 8</font></b>
@@ -363,7 +371,8 @@ While Object Mothers provide a nice way to retrieve canned test data, they don�
 
 The following demonstrates a Test Builder for creating variations of an Order object:
 
-<pre class="prettyprint">public class OrderBuilder
+```csharp
+public class OrderBuilder
 {
   readonly BillingInformation _billingInformation;
   readonly ShippingInformation _shippingInformation;
@@ -428,7 +437,7 @@ The following demonstrates a Test Builder for creating variations of an Order ob
     return new Order(_cart, _billingInformation, _shippingInformation);
   }
 }
-</pre>
+```
 
 <center>
   <b><font size="1">listing 9</font></b>
@@ -436,21 +445,22 @@ The following demonstrates a Test Builder for creating variations of an Order ob
 
 The following specification demonstrates how the Test Builder in listing 9 might be used to validate the results of placing an order with an invalid credit card:
 
-<pre class="prettyprint">public class when_placing_an_order_with_an_invalid_credit_card : WithSubject&lt;OrderService&gt;
+```csharp
+public class when_placing_an_order_with_an_invalid_credit_card : WithSubject<OrderService>
 {
   static Exception _exception;
   static Order _invalidOrder;
 
-  Establish context = () =&gt; _invalidOrder = new OrderBuilder()
+  Establish context = () => _invalidOrder = new OrderBuilder()
     .WithCreditCardNumber("12345")
     .Build();
 
-  Because of = () =&gt; _exception = Catch.Exception(() =&gt; Subject.PlaceOrder(_invalidOrder));
+  Because of = () => _exception = Catch.Exception(() => Subject.PlaceOrder(_invalidOrder));
 
 
-  It should_throw_an_invalid_credit_card_exception = () =&gt; _exception.ShouldBeOfType&lt;InvalidCreditCardException&gt;();
+  It should_throw_an_invalid_credit_card_exception = () => _exception.ShouldBeOfType<InvalidCreditCardException>();
 }
-</pre>
+```
 
 <center>
   <b><font size="1">listing 10</font></b>

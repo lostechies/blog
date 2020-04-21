@@ -18,60 +18,60 @@ tags:
 <div>
   <ul>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/07/effective-tests-introduction/">Effective Tests: Introduction</a>
+      <a href="/derekgreer/2011/03/07/effective-tests-introduction/">Effective Tests: Introduction</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/14/effective-tests-a-unit-test-example/">Effective Tests: A Unit Test Example</a>
+      <a href="/derekgreer/2011/03/14/effective-tests-a-unit-test-example/">Effective Tests: A Unit Test Example</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/21/effective-tests-test-first/">Effective Tests: Test First</a>
+      <a href="/derekgreer/2011/03/21/effective-tests-test-first/">Effective Tests: Test First</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/28/effective-tests-a-test-first-example-part-1/">Effective Tests: A Test-First Example – Part 1</a>
+      <a href="/derekgreer/2011/03/28/effective-tests-a-test-first-example-part-1/">Effective Tests: A Test-First Example – Part 1</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/03/29/effective-tests-how-faking-it-can-help-you/">Effective Tests: How Faking It Can Help You</a>
+      <a href="/derekgreer/2011/03/29/effective-tests-how-faking-it-can-help-you/">Effective Tests: How Faking It Can Help You</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/04/04/effective-tests-a-test-first-example-part-2/">Effective Tests: A Test-First Example – Part 2</a>
+      <a href="/derekgreer/2011/04/04/effective-tests-a-test-first-example-part-2/">Effective Tests: A Test-First Example – Part 2</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/04/11/effective-tests-a-test-first-example-part-3/">Effective Tests: A Test-First Example – Part 3</a>
+      <a href="/derekgreer/2011/04/11/effective-tests-a-test-first-example-part-3/">Effective Tests: A Test-First Example – Part 3</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/04/24/effective-tests-a-test-first-example-part-4/">Effective Tests: A Test-First Example – Part 4</a>
+      <a href="/derekgreer/2011/04/24/effective-tests-a-test-first-example-part-4/">Effective Tests: A Test-First Example – Part 4</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/01/effective-tests-a-test-first-example-part-5/">Effective Tests: A Test-First Example – Part 5</a>
+      <a href="/derekgreer/2011/05/01/effective-tests-a-test-first-example-part-5/">Effective Tests: A Test-First Example – Part 5</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/12/effective-tests-a-test-first-example-part-6/">Effective Tests: A Test-First Example – Part 6</a>
+      <a href="/derekgreer/2011/05/12/effective-tests-a-test-first-example-part-6/">Effective Tests: A Test-First Example – Part 6</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/15/effective-tests-test-doubles/">Effective Tests: Test Doubles</a>
+      <a href="/derekgreer/2011/05/15/effective-tests-test-doubles/">Effective Tests: Test Doubles</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/26/effective-tests-double-strategies/">Effective Tests: Double Strategies</a>
+      <a href="/derekgreer/2011/05/26/effective-tests-double-strategies/">Effective Tests: Double Strategies</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/05/31/effective-tests-auto-mocking-containers/">Effective Tests: Auto-mocking Containers</a>
+      <a href="/derekgreer/2011/05/31/effective-tests-auto-mocking-containers/">Effective Tests: Auto-mocking Containers</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/">Effective Tests: Custom Assertions</a>
+      <a href="/derekgreer/2011/06/11/effective-tests-custom-assertions/">Effective Tests: Custom Assertions</a>
     </li>
     <li>
       Effective Tests: Expected Objects
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/07/19/effective-tests-avoiding-context-obscurity/">Effective Tests: Avoiding Context Obscurity</a>
+      <a href="/derekgreer/2011/07/19/effective-tests-avoiding-context-obscurity/">Effective Tests: Avoiding Context Obscurity</a>
     </li>
     <li>
-      <a href="https://lostechies.com/derekgreer/2011/09/05/effective-tests-acceptance-tests/">Effective Tests: Acceptance Tests</a>
+      <a href="/derekgreer/2011/09/05/effective-tests-acceptance-tests/">Effective Tests: Acceptance Tests</a>
     </li>
   </ul>
 </div>
 
-In the [last](https://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/) installment of the Effective Tests series, the topic of Custom Assertions was presented as a strategy for helping to clarify the intent of our tests. This time we’ll take a look at another test pattern for improving the communication of our tests in addition to reducing test code duplication and the need to add test-specific code to our production types.
+In the [last](/derekgreer/2011/06/11/effective-tests-custom-assertions/) installment of the Effective Tests series, the topic of Custom Assertions was presented as a strategy for helping to clarify the intent of our tests. This time we’ll take a look at another test pattern for improving the communication of our tests in addition to reducing test code duplication and the need to add test-specific code to our production types.
 
 ## Expected Objects
 
@@ -83,62 +83,64 @@ When using state-based verification, one way of avoiding test code duplication, 
 
 Consider the following specification which validates that placing an order returns an order receipt populated with the expected values:
 
-<pre class="prettyprint">[Subject(typeof (OrderService))]
-public class when_an_order_is_placed : WithSubject&lt;OrderService&gt;
+```csharp
+[Subject(typeof (OrderService))]
+public class when_an_order_is_placed : WithSubject<OrderService>
 {
-	static readonly Guid CustomerId = new Guid("061F3CED-405F-4261-AF8C-AA2B0694DAD8");
-	const long OrderNumber = 1L;
-	static Customer _customer;
-	static Order _order;
-	static OrderReceipt _orderReceipt;
+  static readonly Guid CustomerId = new Guid("061F3CED-405F-4261-AF8C-AA2B0694DAD8");
+  const long OrderNumber = 1L;
+  static Customer _customer;
+  static Order _order;
+  static OrderReceipt _orderReceipt;
 
 
-	Establish context = () =&gt;
-		{
-			_customer = new TestCustomer(CustomerId)
-				            {
-				            	FirstName = "First",
-				            	LastName = "Last",
-				            	PhoneNumber = "5129130000",
-				            	Address = new Address
-				            		        {
-				            		          	LineOne = "123 Street",
-				            		          	LineTwo = string.Empty,
-				            		          	City = "Austin",
-				            		          	State = "TX",
-				            		          	ZipCode = "78717"
-				            		        }
-				            };
-			For&lt;IOrderNumberProvider&lt;long&gt;&gt;().Setup(x =&gt; x.GetNext()).Returns(OrderNumber);
-			For&lt;ICustomerRepository&gt;().Setup(x =&gt; x.Get(Parameter.IsAny&lt;Guid&gt;())).Returns(_customer);
-			_order = new Order(1, "Product A");
-		};
+  Establish context = () =>
+  {
+    _customer = new TestCustomer(CustomerId)
+    {
+      FirstName = "First",
+                LastName = "Last",
+                PhoneNumber = "5129130000",
+                Address = new Address
+                {
+                  LineOne = "123 Street",
+                  LineTwo = string.Empty,
+                  City = "Austin",
+                  State = "TX",
+                  ZipCode = "78717"
+                }
+    };
+    For<IOrderNumberProvider<long>>().Setup(x => x.GetNext()).Returns(OrderNumber);
+    For<ICustomerRepository>().Setup(x => x.Get(Parameter.IsAny<Guid>())).Returns(_customer);
+    _order = new Order(1, "Product A");
+  };
 
-	Because of = () =&gt; _orderReceipt = Subject.PlaceOrder(_order, _customer.Id);
+  Because of = () => _orderReceipt = Subject.PlaceOrder(_order, _customer.Id);
 
-	It should_return_a_receipt_with_order_number = () =&gt; _orderReceipt.OrderNumber.ShouldEqual(OrderNumber.ToString());
+  It should_return_a_receipt_with_order_number = () => _orderReceipt.OrderNumber.ShouldEqual(OrderNumber.ToString());
 
-	It should_return_a_receipt_with_order_description = () =&gt; _orderReceipt.Orders.ShouldContain(_order);
+  It should_return_a_receipt_with_order_description = () => _orderReceipt.Orders.ShouldContain(_order);
 
-	It should_return_a_receipt_with_customer_id = () =&gt; _orderReceipt.CustomerId.ShouldEqual(_customer.Id.ToString());
-		
-	It should_return_an_order_receipt_with_customer_name = () =&gt; _orderReceipt.CustomerName.ShouldEqual(_customer.FirstName + " " + _customer.LastName);
+  It should_return_a_receipt_with_customer_id = () => _orderReceipt.CustomerId.ShouldEqual(_customer.Id.ToString());
 
-	It should_return_a_receipt_with_customer_phone = () =&gt; _orderReceipt.CustomerPhone.ShouldEqual(_customer.PhoneNumber);
+  It should_return_an_order_receipt_with_customer_name = () => _orderReceipt.CustomerName.ShouldEqual(_customer.FirstName + " " + _customer.LastName);
 
-	It should_return_a_receipt_with_address_line_1 = () =&gt; _orderReceipt.AddressLineOne.ShouldEqual(_customer.Address.LineOne);
+  It should_return_a_receipt_with_customer_phone = () => _orderReceipt.CustomerPhone.ShouldEqual(_customer.PhoneNumber);
 
-	It should_return_a_receipt_with_address_line_2 = () =&gt; _orderReceipt.AddressLineTwo.ShouldEqual(_customer.Address.LineTwo);
-		
-	It should_return_a_receipt_with_city = () =&gt; _orderReceipt.City.ShouldEqual(_customer.Address.City);
+  It should_return_a_receipt_with_address_line_1 = () => _orderReceipt.AddressLineOne.ShouldEqual(_customer.Address.LineOne);
 
-	It should_return_a_receipt_with_state = () =&gt; _orderReceipt.State.ShouldEqual(_customer.Address.State);
+  It should_return_a_receipt_with_address_line_2 = () => _orderReceipt.AddressLineTwo.ShouldEqual(_customer.Address.LineTwo);
 
-	It should_return_a_receipt_with_zip = () =&gt; _orderReceipt.ZipCode.ShouldEqual(_customer.Address.ZipCode);
-}</pre>
+  It should_return_a_receipt_with_city = () => _orderReceipt.City.ShouldEqual(_customer.Address.City);
+
+  It should_return_a_receipt_with_state = () => _orderReceipt.State.ShouldEqual(_customer.Address.State);
+
+  It should_return_a_receipt_with_zip = () => _orderReceipt.ZipCode.ShouldEqual(_customer.Address.ZipCode);
+}
+```
 
 <center>
-  <b><font size="1">Listing 1</font></b>
+<b><font size="1">Listing 1</font></b>
 </center>
 
 While the specification in listing 1 provides ample detail about the values that should be present on the returned receipt, such an implementation precludes reuse and tends to overwhelm the purpose of the specification. This problem is further compounded as the composition complexity increases.
@@ -147,85 +149,89 @@ As an alternative to declaring what each field of a particular object should con
 
 Consider the following simple implementation for an Expected Object:
 
-<pre class="prettyprint">class ExpectedOrderReceipt : OrderReceipt
+```csharp
+class ExpectedOrderReceipt : OrderReceipt
 {
-	public override bool Equals(object obj)
-	{
-		var otherReceipt = obj as OrderReceipt;
+  public override bool Equals(object obj)
+  {
+    var otherReceipt = obj as OrderReceipt;
 
-		return OrderNumber.Equals(otherReceipt.OrderNumber) &&
-			    CustomerId.Equals(otherReceipt.CustomerId) &&
-			    CustomerName.Equals(otherReceipt.CustomerName) &&
-			    CustomerPhone.Equals(otherReceipt.CustomerPhone) &&
-			    AddressLineOne.Equals(otherReceipt.AddressLineOne) &&
-			    AddressLineTwo.Equals(otherReceipt.AddressLineTwo) &&
-			    City.Equals(otherReceipt.City) &&
-			    State.Equals(otherReceipt.State) &&
-			    ZipCode.Equals(otherReceipt.ZipCode) &&
-			    Orders.ToList().SequenceEqual(otherReceipt.Orders);
-	}
-}</pre>
+    return OrderNumber.Equals(otherReceipt.OrderNumber) &&
+      CustomerId.Equals(otherReceipt.CustomerId) &&
+      CustomerName.Equals(otherReceipt.CustomerName) &&
+      CustomerPhone.Equals(otherReceipt.CustomerPhone) &&
+      AddressLineOne.Equals(otherReceipt.AddressLineOne) &&
+      AddressLineTwo.Equals(otherReceipt.AddressLineTwo) &&
+      City.Equals(otherReceipt.City) &&
+      State.Equals(otherReceipt.State) &&
+      ZipCode.Equals(otherReceipt.ZipCode) &&
+      Orders.ToList().SequenceEqual(otherReceipt.Orders);
+  }
+}
+```
 
 <center>
-  <b><font size="1">Listing 2</font></b>
+<b><font size="1">Listing 2</font></b>
 </center>
 
 Establishing an instance of the expected object in listing 2 allows the previous discrete assertions to be replaced with a single assertion declaring what the returned receipt should look like:
 
-<pre class="prettyprint">[Subject(typeof (OrderService))]
-public class when_an_order_is_placed : WithSubject&lt;OrderService&gt;
+```csharp
+[Subject(typeof (OrderService))]
+public class when_an_order_is_placed : WithSubject<OrderService>
 {
-	const long OrderNumber = 1L;
-	static readonly Guid CustomerId = new Guid("061F3CED-405F-4261-AF8C-AA2B0694DAD8");
-	static Customer _customer;
-	static ExpectedOrderReceipt _expectedOrderReceipt;
-	static Order _order;
-	static OrderReceipt _orderReceipt;
+  const long OrderNumber = 1L;
+  static readonly Guid CustomerId = new Guid("061F3CED-405F-4261-AF8C-AA2B0694DAD8");
+  static Customer _customer;
+  static ExpectedOrderReceipt _expectedOrderReceipt;
+  static Order _order;
+  static OrderReceipt _orderReceipt;
 
 
-	Establish context = () =&gt;
-		{
-			_customer = new TestCustomer(CustomerId)
-				            {
-				            	FirstName = "First",
-				            	LastName = "Last",
-				            	PhoneNumber = "5129130000",
-				            	Address = new Address
-				            		        {
-				            		          	LineOne = "123 Street",
-				            		          	LineTwo = string.Empty,
-				            		          	City = "Austin",
-				            		          	State = "TX",
-				            		          	ZipCode = "78717"
-				            		        }
-				            };
-			For&lt;IOrderNumberProvider&lt;long&gt;&gt;().Setup(x =&gt; x.GetNext()).Returns(OrderNumber);
-			For&lt;ICustomerRepository&gt;().Setup(x =&gt; x.Get(Parameter.IsAny&lt;Guid&gt;())).Returns(_customer);
-			_order = new Order(1, "Product A");
+  Establish context = () =>
+  {
+    _customer = new TestCustomer(CustomerId)
+    {
+      FirstName = "First",
+                LastName = "Last",
+                PhoneNumber = "5129130000",
+                Address = new Address
+                {
+                  LineOne = "123 Street",
+                  LineTwo = string.Empty,
+                  City = "Austin",
+                  State = "TX",
+                  ZipCode = "78717"
+                }
+    };
+    For<IOrderNumberProvider<long>>().Setup(x => x.GetNext()).Returns(OrderNumber);
+    For<ICustomerRepository>().Setup(x => x.Get(Parameter.IsAny<Guid>())).Returns(_customer);
+    _order = new Order(1, "Product A");
 
-			_expectedOrderReceipt = new ExpectedOrderReceipt
-				                        {
-				                        	OrderNumber = OrderNumber.ToString(),
-				                        	CustomerName = "First Last",
-				                        	CustomerPhone = "5129130000",
-				                        	AddressLineOne = "123 Street",
-				                        	AddressLineTwo = string.Empty,
-				                        	City = "Austin",
-				                        	State = "TX",
-				                        	ZipCode = "78717",
-				                        	CustomerId = CustomerId.ToString(),
-				                        	Orders = new List&lt;Order&gt; {_order}
-				                        };
-		};
+    _expectedOrderReceipt = new ExpectedOrderReceipt
+    {
+      OrderNumber = OrderNumber.ToString(),
+                  CustomerName = "First Last",
+                  CustomerPhone = "5129130000",
+                  AddressLineOne = "123 Street",
+                  AddressLineTwo = string.Empty,
+                  City = "Austin",
+                  State = "TX",
+                  ZipCode = "78717",
+                  CustomerId = CustomerId.ToString(),
+                  Orders = new List<Order> {_order}
+    };
+  };
 
-	Because of = () =&gt; _orderReceipt = Subject.PlaceOrder(_order, _customer.Id);
+  Because of = () => _orderReceipt = Subject.PlaceOrder(_order, _customer.Id);
 
-	It should_return_an_receipt_with_shipping_information_and_order_number =
-		() =&gt; _expectedOrderReceipt.Equals(_orderReceipt).ShouldBeTrue();
-}</pre>
+  It should_return_an_receipt_with_shipping_information_and_order_number =
+    () => _expectedOrderReceipt.Equals(_orderReceipt).ShouldBeTrue();
+}
+```
 
 <center>
-  <b><font size="1">Listing 3</font></b>
+<b><font size="1">Listing 3</font></b>
 </center>
 
 The implementation strategy in listing 3 offers a subtle shift in perspective, but one which may more closely model the language of the business.
@@ -242,107 +248,111 @@ Examining the results of executing both specifications in figure 1, we see that 
 
 While the Expected Object implementation shown in listing 2 may be an adequate approach in some cases, it does have the shortcoming of not providing explicit feedback of how the two objects differ. To address this, we can implement our Expected Object as a [Custom Assertion](https://lostechies.com/derekgreer/2011/06/11/effective-tests-custom-assertions/). Instead of asserting on the return value of comparing the expected object to an object returned from our system, we can design the Expected Object to throw an exception detailing what state differed between the two objects. The following listing demonstrates this approach: 
 
-<pre class="prettyprint">class ExpectedOrderReceipt : OrderReceipt
+```csharp
+class ExpectedOrderReceipt : OrderReceipt
 {
-	public void ShouldEqual(object obj)
-	{
-		var otherReceipt = obj as OrderReceipt;
-		var messages = new List&lt;string&gt;();
+  public void ShouldEqual(object obj)
+  {
+    var otherReceipt = obj as OrderReceipt;
+    var messages = new List<string>();
 
-		if (!OrderNumber.Equals(otherReceipt.OrderNumber))
-			messages.Add(string.Format("For OrderNumber, expected '{0}' but found '{1}'", OrderNumber, otherReceipt.OrderNumber));
+    if (!OrderNumber.Equals(otherReceipt.OrderNumber))
+      messages.Add(string.Format("For OrderNumber, expected '{0}' but found '{1}'", OrderNumber, otherReceipt.OrderNumber));
 
-		if (!CustomerId.Equals(otherReceipt.CustomerId))
-			messages.Add(string.Format("For CustomerId, expected '{0}' but found '{1}'", CustomerId, otherReceipt.CustomerId));
+    if (!CustomerId.Equals(otherReceipt.CustomerId))
+      messages.Add(string.Format("For CustomerId, expected '{0}' but found '{1}'", CustomerId, otherReceipt.CustomerId));
 
-		if (!CustomerName.Equals(otherReceipt.CustomerName))
-			messages.Add(string.Format("For CustomerName, expected '{0}' but found '{1}'", CustomerName, otherReceipt.CustomerName));
+    if (!CustomerName.Equals(otherReceipt.CustomerName))
+      messages.Add(string.Format("For CustomerName, expected '{0}' but found '{1}'", CustomerName, otherReceipt.CustomerName));
 
-		if (!CustomerPhone.Equals(otherReceipt.CustomerPhone))
-			messages.Add(string.Format("For CustomerPhone, expected '{0}' but found '{1}'", CustomerPhone, otherReceipt.CustomerPhone));
+    if (!CustomerPhone.Equals(otherReceipt.CustomerPhone))
+      messages.Add(string.Format("For CustomerPhone, expected '{0}' but found '{1}'", CustomerPhone, otherReceipt.CustomerPhone));
 
-		if (!AddressLineOne.Equals(otherReceipt.AddressLineOne))
-			messages.Add(string.Format("For AddressLineOne, expected '{0}' but found '{1}'", AddressLineOne, otherReceipt.AddressLineOne));
+    if (!AddressLineOne.Equals(otherReceipt.AddressLineOne))
+      messages.Add(string.Format("For AddressLineOne, expected '{0}' but found '{1}'", AddressLineOne, otherReceipt.AddressLineOne));
 
-		if (!AddressLineTwo.Equals(otherReceipt.AddressLineTwo))
-			messages.Add(string.Format("For AddressLineTwo, expected '{0}' but found '{1}'", AddressLineTwo, otherReceipt.AddressLineOne));
+    if (!AddressLineTwo.Equals(otherReceipt.AddressLineTwo))
+      messages.Add(string.Format("For AddressLineTwo, expected '{0}' but found '{1}'", AddressLineTwo, otherReceipt.AddressLineOne));
 
-		if (!City.Equals(otherReceipt.City))
-			messages.Add(string.Format("For City, expected '{0}' but found '{1}'", City, otherReceipt.City));
+    if (!City.Equals(otherReceipt.City))
+      messages.Add(string.Format("For City, expected '{0}' but found '{1}'", City, otherReceipt.City));
 
-		if (!State.Equals(otherReceipt.State))
-			messages.Add(string.Format("For State, expected '{0}' but found '{1}'", State, otherReceipt.State));
+    if (!State.Equals(otherReceipt.State))
+      messages.Add(string.Format("For State, expected '{0}' but found '{1}'", State, otherReceipt.State));
 
-		if (!ZipCode.Equals(otherReceipt.ZipCode))
-			messages.Add(string.Format("For ZipCode, expected '{0}' but found '{1}'", ZipCode, otherReceipt.ZipCode));
+    if (!ZipCode.Equals(otherReceipt.ZipCode))
+      messages.Add(string.Format("For ZipCode, expected '{0}' but found '{1}'", ZipCode, otherReceipt.ZipCode));
 
-		if (!Orders.ToList().SequenceEqual(otherReceipt.Orders))
-			messages.Add("For Orders, expected the same sequence but was different.");
+    if (!Orders.ToList().SequenceEqual(otherReceipt.Orders))
+      messages.Add("For Orders, expected the same sequence but was different.");
 
-		if(messages.Count &gt; 0)
-			throw new Exception(string.Join(Environment.NewLine, messages));
-	}
-}</pre>
+    if(messages.Count > 0)
+      throw new Exception(string.Join(Environment.NewLine, messages));
+  }
+}
+```
 
 <center>
-  <b><font size="1">Listing 4</font></b>
+<b><font size="1">Listing 4</font></b>
 </center>
 
 The following listing shows the specification modified to use the new Expected Object implementation with several values on the TestCustomer modified to return values differing from the expected value: 
 
-<pre class="prettyprint">[Subject(typeof (OrderService))]
-public class when_an_order_is_placed : WithSubject&lt;OrderService&gt;
+```csharp
+[Subject(typeof (OrderService))]
+public class when_an_order_is_placed : WithSubject<OrderService>
 {
-	const long OrderNumber = 1L;
-	static readonly Guid CustomerId = new Guid("061F3CED-405F-4261-AF8C-AA2B0694DAD8");
-	static Customer _customer;
-	static ExpectedOrderReceipt _expectedOrderReceipt;
-	static Order _order;
-	static OrderReceipt _orderReceipt;
+  const long OrderNumber = 1L;
+  static readonly Guid CustomerId = new Guid("061F3CED-405F-4261-AF8C-AA2B0694DAD8");
+  static Customer _customer;
+  static ExpectedOrderReceipt _expectedOrderReceipt;
+  static Order _order;
+  static OrderReceipt _orderReceipt;
 
 
-	Establish context = () =&gt;
-		{
-			_customer = new TestCustomer(CustomerId)
-				            {
-				            	FirstName = "Wrong",
-				            	LastName = "Wrong",
-				            	PhoneNumber = "Wrong",
-				            	Address = new Address
-				            		        {
-				            		          	LineOne = "Wrong",
-				            		          	LineTwo = "Wrong",
-				            		          	City = "Austin",
-				            		          	State = "TX",
-				            		          	ZipCode = "78717"
-				            		        }
-				            };
-			For&lt;IOrderNumberProvider&lt;long&gt;&gt;().Setup(x =&gt; x.GetNext()).Returns(OrderNumber);
-			For&lt;ICustomerRepository&gt;().Setup(x =&gt; x.Get(Parameter.IsAny&lt;Guid&gt;())).Returns(_customer);
-			_order = new Order(1, "Product A");
+  Establish context = () =>
+  {
+    _customer = new TestCustomer(CustomerId)
+    {
+      FirstName = "Wrong",
+                LastName = "Wrong",
+                PhoneNumber = "Wrong",
+                Address = new Address
+                {
+                  LineOne = "Wrong",
+                  LineTwo = "Wrong",
+                  City = "Austin",
+                  State = "TX",
+                  ZipCode = "78717"
+                }
+    };
+    For<IOrderNumberProvider<long>>().Setup(x => x.GetNext()).Returns(OrderNumber);
+    For<ICustomerRepository>().Setup(x => x.Get(Parameter.IsAny<Guid>())).Returns(_customer);
+    _order = new Order(1, "Product A");
 
-			_expectedOrderReceipt = new ExpectedOrderReceipt
-				                        {
-				                        	OrderNumber = OrderNumber.ToString(),
-				                        	CustomerName = "First Last",
-				                        	CustomerPhone = "5129130000",
-				                        	AddressLineOne = "123 Street",
-				                        	AddressLineTwo = string.Empty,
-				                        	City = "Austin",
-				                        	State = "TX",
-				                        	ZipCode = "78717",
-				                        	CustomerId = CustomerId.ToString(),
-				                        	Orders = new List&lt;Order&gt; {_order}
-				                        };
-		};
+    _expectedOrderReceipt = new ExpectedOrderReceipt
+    {
+      OrderNumber = OrderNumber.ToString(),
+                  CustomerName = "First Last",
+                  CustomerPhone = "5129130000",
+                  AddressLineOne = "123 Street",
+                  AddressLineTwo = string.Empty,
+                  City = "Austin",
+                  State = "TX",
+                  ZipCode = "78717",
+                  CustomerId = CustomerId.ToString(),
+                  Orders = new List<Order> {_order}
+    };
+  };
 
-	Because of = () =&gt; _orderReceipt = Subject.PlaceOrder(_order, _customer.Id);
+  Because of = () => _orderReceipt = Subject.PlaceOrder(_order, _customer.Id);
 
-	It should_return_an_receipt_with_shipping_and_order_information = () =&gt; _expectedOrderReceipt.ShouldEqual(_orderReceipt);
-}</pre>
+  It should_return_an_receipt_with_shipping_and_order_information = () => _expectedOrderReceipt.ShouldEqual(_orderReceipt);
+}
+```
 
 <center>
-  <b><font size="1">Listing 5</font></b>
+<b><font size="1">Listing 5</font></b>
 </center>
 
 Running the specification produces the following output:

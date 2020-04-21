@@ -103,7 +103,7 @@ pre.story
   </ul>
 </div>
 
-The [last](https://lostechies.com/derekgreer/2011/03/21/effective-tests-test-first/) installment of our series introduced Test-First Programming and briefly discussed its refinements: Test-Driven Development and Behavior-Driven Development.&nbsp; This time, we’ll dive into a simple Test First example using the principles of Test-Driven Development along with some of the Behavior-Driven Development concepts introduced last time.
+The [last](/derekgreer/2011/03/21/effective-tests-test-first/) installment of our series introduced Test-First Programming and briefly discussed its refinements: Test-Driven Development and Behavior-Driven Development.&nbsp; This time, we’ll dive into a simple Test First example using the principles of Test-Driven Development along with some of the Behavior-Driven Development concepts introduced last time.
 
 Before beginning our example, we’ll take some time to discuss the goals and approach of Test-Driven Development in a little more detail to establish the methodology we’ll be following. 
 

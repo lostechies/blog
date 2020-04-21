@@ -102,7 +102,7 @@ pre.story
   </ul>
 </div>
 
-In [part 1](https://lostechies.com/derekgreer/2011/03/28/effective-tests-a-test-first-example-part-1/) of our Test-First example, we discussed the Test-Driven Development philosophy in more detail and started a Test First implementation of a Tic-tac-toe game component.
+In [part 1](/derekgreer/2011/03/28/effective-tests-a-test-first-example-part-1/) of our Test-First example, we discussed the Test-Driven Development philosophy in more detail and started a Test First implementation of a Tic-tac-toe game component.
 
 Here's the progress we've made on our requirements so far:
 
