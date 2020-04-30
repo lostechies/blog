@@ -77,6 +77,8 @@ In the [last](/blogs/derekgreer/archive/2011/03/14/effective-tests-a-unit-test-e
 
 ## Test-First Programming
 
+[<img style="padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" src="https://lostechies.com/content/derekgreer/uploads/2011/03/TestDrivenDevelopment_thumb_107D31DD.png" border="0" alt="Test Driven Development" width="494" height="330" />](https://lostechies.com/content/derekgreer/uploads/2011/03/TestDrivenDevelopment_155FE599.png)
+
 In the book _Extreme Programming Explained: Embrace Change_ published in October 1999, Kent Beck introduced what was at the time a rather foreign concept to software development: Writing unit tests to drive software design.  Described as _Test-First Programming_, the technique involves first writing a test to verify a small increment of desired functionality and then writing code to make the test pass.  This process is then repeated until no additional functionality is desired.
 
 ## Incremental Design
@@ -88,8 +90,6 @@ Another practice introduced alongside Test-First Programming was _Incremental De
 Later, these ideas were  refined into a practice known as _Test Driven Development_.  Test-Driven Development can be described simply as the ideas of Test-First Programming coupled with Incremental Design.  In a later book entitled _Test-Driven Development By Example_ published in November of 2002, Beck presents a refined process involving the writing of a failing test, taking the simplest steps possible to make the test pass, and removing any duplication introduced.  This process was described succinctly as _Red/Green/Refactor_, where red and green referred to the colors typically presented by test runners to indicate failing and passing tests respectively.
 
 ## Behavior-Driven Development
-
-[<img style="padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" src="https://lostechies.com/content/derekgreer/uploads/2011/03/TestDrivenDevelopment_thumb_107D31DD.png" border="0" alt="Test Driven Development" width="494" height="330" />](https://lostechies.com/content/derekgreer/uploads/2011/03/TestDrivenDevelopment_155FE599.png)
 
 While the practice of Test-Driven Development utilized unit tests primarily for driving application design, its outgrowth from traditional unit testing practices were still evident in its style,  language, and supporting frameworks. This presented an obstacle for some in understanding and communicating the concepts behind the practice.
 
