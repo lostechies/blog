@@ -7,12 +7,11 @@ categories:
   - cassandra
 ---
 
-I've had to use this at work the last couple of weeks. We had a "home grown" framework for a new application 
-we're working and the first thing I did was try and rip that out (new project so didn't have URL and parameter sanitization
+We had a "home grown" framework for a new application we're working on and the first thing I did was try and rip that out (new project so didn't have URL and parameter sanitization
 anyway to do routes, etc).
 
-However, being that the group I was working with is pretty "anti framework" I had to settle on something that was light weight, integrated
-with jetty and allowed us to work the way that was comfortable for us as team (also it had to work with Scala).
+However, being that the group I was working with has had some bad experiences with "frameworks" I had to settle on something that was lightweight, integrated
+with Jetty and allowed us to work the way that was comfortable for us as team (also it had to work with Scala).
 
 ## Microframeworks
 
