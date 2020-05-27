@@ -1,3 +1,11 @@
+---
+title: 'Picking a Web Microframework'
+date: 2020-05-27T00:23:00+00:00
+author: Ryan Svihla
+layout: post
+categories:
+  - cassandra
+
 # Picking a web microframework for an existing Scala codebase
 
 I've had to use this at work the last couple of weeks. We had a "home grown" framework for a new application 

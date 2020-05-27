@@ -1,3 +1,11 @@
+---
+title: 'Getting started with Cassandra: Setting up a Multi-DC environment'
+date: 2020-02-03T20:23:00+00:00
+author: Ryan Svihla
+layout: post
+categories:
+  - cassandra
+---
 # Getting started with Cassandra: Setting up a Multi-DC environment
 
 This is a quick and dirty opinionated guide to setting up a Cassandra cluster with multiple data centers.

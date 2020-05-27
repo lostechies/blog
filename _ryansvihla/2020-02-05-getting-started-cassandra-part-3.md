@@ -1,3 +1,11 @@
+---
+title: 'Getting started with Cassandra: Data modeling in the brief'
+date: 2020-02-05T20:23:00+00:00
+author: Ryan Svihla
+layout: post
+categories:
+  - cassandra
+---
 # Getting started with Cassandra: Data modeling in the brief
 
 Cassandra data modeling isn't really something you can do "in the brief" and is itself a subject that can take years to fully grasp, but this should be a good starting point.
