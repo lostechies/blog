@@ -7,9 +7,6 @@ categories:
   - cassandra
 ---
 
-
-# Getting started with Cassandra: Load testing Cassandra in brief
-
 An opinionated guide on the "correct" way to load test Cassandra. I'm aiming to keep this short so I'm going to leave out a _lot_ of the nuance that one would normally get into when talking about load testing cassandra.
 
 ## If you have no data model in mind

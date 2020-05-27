@@ -5,8 +5,7 @@ author: Ryan Svihla
 layout: post
 categories:
   - cassandra
-
-# Picking a web microframework for an existing Scala codebase
+---
 
 I've had to use this at work the last couple of weeks. We had a "home grown" framework for a new application 
 we're working and the first thing I did was try and rip that out (new project so didn't have URL and parameter sanitization
