@@ -1,6 +1,6 @@
 ---
 permalink: /feed.xml
-layout: null
+layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 {% if page.xsl %}
