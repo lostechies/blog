@@ -20,7 +20,7 @@ layout: nil
   {% endif %}
 
   {% if site.description %}
-    <subtitle>{{ site.description | xml_escape }}</subtitle>
+    <subtitle>{{ site.description | default: " " | xml_escape }}</subtitle>
   {% endif %}
 
   {% if site.author %}
