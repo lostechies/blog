@@ -10,7 +10,7 @@ Most development platforms provide a native task-based build technology.  Micros
 
 “So what’s special about npm?” you might ask.  The primary appeal of using npm for building applications is that it’s easy to use.  Essentially, it’s just an orchestration of shell commands. 
 
-Tasks
+### Tasks
 With other build tools, you’re often required to know a specific language in addition to learning special constructs peculiar to the build tool to create build tasks.  In contrast, npm’s expected package.json file simply defines an array of shell command scripts:
 
 
@@ -41,7 +41,7 @@ As with other build tools, NPM provides the ability to define dependencies betwe
   "description": "",
   "scripts": {
     "clean": "echo Clean the project.",
-    "prerestore": “npm run clean”,
+    "prerestore": "npm run clean",
     "restore": "echo Restore dependencies.",
     "precompile": "npm run restore",
     "compile": "echo Compile the project.",
@@ -84,7 +84,7 @@ Given you’re okay with limiting a fully-specified dependency chain where a sub
 
 In this example, issuing “npm run build” will result in the prebuild script executing npm-run-all with the parameters: clean, restore, compile and test which it will execute in the order listed.
 
-Variables
+### Variables
 Aside from understanding how to utilize the pre- and post- lifecycle scripts to denote task dependencies, the only other thing you really need to know is how to work with variables.
 
 Node’s npm command facilitates the definition of variables by command-line parameters as well as declaring package variables.  When npm executes, each of the properties declared within the package.json are flattened and prefixed with “npm_package_”.  For example, the standard “version” property can be used as part of a dotnet build to denote a project version by referencing ${npm_package_version}:
@@ -156,10 +156,11 @@ The only other important thing to understand about the use of variables with npm
 ```
 Until recently, I used a node package named “cross-env” which allows you to normalize how you dereference variables regardless of platform, but for several reasons including cross-env being placed in maintenance mode, the added dependency overhead, syntax noise, and support for advanced variable expansion cases such as default values, I’d recommend any cross-platform execution be supported by just standardizing on a single shell (e.g. “Bash”).  With the introduction of  Windows Subsystem for Linux and the virtual ubiquity of git for version control, most developer Windows systems already contain the bash shell.  To configure npm to use bash at the project level, just create a file named .npmrc at the package root containing the following line:
 
-```script-shell=bash```
+```
+script-shell=bash
+```
 
-
-Using Node Packages
+### Using Node Packages
 While not necessary, there are many CLI node packages that can be easily leveraged for aiding in authoring your builds.  For example, a package named “rimraf”, which functions like Linux’s “rm -rf” command, is a utility you can use to implement a clean script for recursively deleting any temporary build folders created as part of previous builds.  In the following package.json build, a package target builds a NuGet package which it outputs to a dist folder in the package root.  The rimraf command is used to delete this temp folder as part of the build script’s dependencies:
 
 ```json
