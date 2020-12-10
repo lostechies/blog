@@ -14,6 +14,7 @@ Tasks
 With other build tools, you’re often required to know a specific language in addition to learning special constructs peculiar to the build tool to create build tasks.  In contrast, npm’s expected package.json file simply defines an array of shell command scripts:
 
 
+```json
 {
   "name": "example",
   "version": "1.0.0",
@@ -28,13 +29,12 @@ With other build tools, you’re often required to know a specific language in a
   "author": "Some author",
   "license": "ISC"
 }
-
-
-
+```
 
 As with other build tools, NPM provides the ability to define dependencies between build tasks.  This is done using pre- and post- lifecycle scripts.  Simply, any task issued by NPM will first execute a script by the same name with a prefix of “pre” when present and will subsequently execute a script by the same name with a prefix of “post” when present.  For example:
 
 
+```json
 {
   "name": "example",
   "version": "1.0.0",
@@ -53,14 +53,14 @@ As with other build tools, NPM provides the ability to define dependencies betwe
   "author": "Some author",
   "license": "ISC"
 }
-
-
+```
 
 Based on the above package.json file, issuing “npm run build” will result in running the tasks of clean, restore, compile, test, and build in that order by virtue of each declaring an appropriate dependency.  
 
 Given you’re okay with limiting a fully-specified dependency chain where a subset of the build can be initiated at any stage (e.g. running “npm run test” and triggering clean, restore, and compile first) , the above orchestration can be simplified by installing the npm-run-all node dependency and defining a single pre- lifetime script for the main build target:
 
 
+```json
 {
   "name": "example",
   "version": "1.0.0",
@@ -79,9 +79,7 @@ Given you’re okay with limiting a fully-specified dependency chain where a sub
     "npm-run-all": "^4.1.5"
   }
 }
-
-
-
+```
 
 
 In this example, issuing “npm run build” will result in the prebuild script executing npm-run-all with the parameters: clean, restore, compile and test which it will execute in the order listed.
@@ -92,6 +90,7 @@ Aside from understanding how to utilize the pre- and post- lifecycle scripts to 
 Node’s npm command facilitates the definition of variables by command-line parameters as well as declaring package variables.  When npm executes, each of the properties declared within the package.json are flattened and prefixed with “npm_package_”.  For example, the standard “version” property can be used as part of a dotnet build to denote a project version by referencing ${npm_package_version}:
 
 
+```json
 {
   "name": "example",
   "version": "1.0.0",
@@ -106,15 +105,16 @@ Node’s npm command facilitates the definition of variables by command-line par
     "npm-run-all": "^4.1.5"
   }
 }
-
+```
 
 
 
 Command-line parameters can also be passed to npm and are similarly prefixed with “npm_config_” with any dashes (“-”) replaced with underscores (“_”).  For example, the previous version setting could be passed to dotnet.exe in the following version of package.json by issuing the below command:
 
-	npm run build --product-version=2.0.0
+	```npm run build --product-version=2.0.0```
 
 
+```json
 {
   "name": "example",
   "version": "1.0.0",
@@ -129,6 +129,7 @@ Command-line parameters can also be passed to npm and are similarly prefixed wit
     "npm-run-all": "^4.1.5"
   }
 }
+```
 
 
 
@@ -137,6 +138,7 @@ Command-line parameters can also be passed to npm and are similarly prefixed wit
 The only other important thing to understand about the use of variables with npm is that the method of dereferencing is dependent upon the shell used.  When using npm on Windows, the default shell is cmd.exe.   If using the default shell on Windows, the version parameter would need to be deference as %npm_config_product_version%:
 
 
+```json
 {
   "name": "example",
   "version": "1.0.0",
@@ -151,19 +153,16 @@ The only other important thing to understand about the use of variables with npm
     "npm-run-all": "^4.1.5"
   }
 }
-
-
-
-
+```
 Until recently, I used a node package named “cross-env” which allows you to normalize how you dereference variables regardless of platform, but for several reasons including cross-env being placed in maintenance mode, the added dependency overhead, syntax noise, and support for advanced variable expansion cases such as default values, I’d recommend any cross-platform execution be supported by just standardizing on a single shell (e.g. “Bash”).  With the introduction of  Windows Subsystem for Linux and the virtual ubiquity of git for version control, most developer Windows systems already contain the bash shell.  To configure npm to use bash at the project level, just create a file named .npmrc at the package root containing the following line:
 
-script-shell=bash
+```script-shell=bash```
 
 
 Using Node Packages
 While not necessary, there are many CLI node packages that can be easily leveraged for aiding in authoring your builds.  For example, a package named “rimraf”, which functions like Linux’s “rm -rf” command, is a utility you can use to implement a clean script for recursively deleting any temporary build folders created as part of previous builds.  In the following package.json build, a package target builds a NuGet package which it outputs to a dist folder in the package root.  The rimraf command is used to delete this temp folder as part of the build script’s dependencies:
 
-
+```json
 {
   "name": "example",
   "version": "1.0.0",
@@ -180,9 +179,6 @@ While not necessary, there are many CLI node packages that can be easily leverag
     "rimraf": "^3.0.2"
   }
 }
-
-
-
-
+```
 
 If you’d like to see a more complete example of npm at work, you can check out the [build for ConventionalOptions](https://github.com/derekgreer/conventional-options/blob/master/package.json) which supports tasks for building, testing, packaging, and publishing nuget packages for both release and prerelease versions of the library.
