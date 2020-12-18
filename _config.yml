@@ -80,7 +80,7 @@ collections:
       short_name: "lostechies-aspiringcraftsman"
       active: true
     feed: "http://feeds.feedburner.com/AspiringCraftsman"
-    post-identifier: "(aspiringcraftsman.com)|(AspiringCraftsman)"
+    post-identifier: "(lostechies.com/derekgreer)|(aspiringcraftsman.com)|(AspiringCraftsman)"
   derickbailey:
     active: false
     author: "Derick Bailey"
