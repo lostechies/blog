@@ -111,7 +111,9 @@ Node’s npm command facilitates the definition of variables by command-line par
 
 Command-line parameters can also be passed to npm and are similarly prefixed with “npm_config_” with any dashes (“-”) replaced with underscores (“_”).  For example, the previous version setting could be passed to dotnet.exe in the following version of package.json by issuing the below command:
 
-```npm run build --product-version=2.0.0```
+```
+npm run build --product-version=2.0.0
+```
 
 
 ```json
