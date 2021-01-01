@@ -24,7 +24,8 @@ The following examples demonstrate the capabilities of the library:
 
 ### Comparing Flat Objects
 
-<pre class="prettyprint">public class when_retrieving_a_customer
+```C#
+public class when_retrieving_a_customer
 {
   static Customer _actual;
   static ExpectedObject _expected;
@@ -54,7 +55,7 @@ class Customer
   public string Name { get; set; }
   public string PhoneNumber { get; set; }
 }
-</pre>
+```
 
 Results:
 
@@ -70,7 +71,8 @@ Results:
 
 ### Comparing Composed Objects
 
-<pre class="prettyprint">public class when_retrieving_a_customer_with_address
+```C#
+public class when_retrieving_a_customer_with_address
 {
   static Customer _actual;
   static ExpectedObject _expected;
@@ -128,7 +130,7 @@ class Address
   public string State { get; set; }
   public string Zipcode { get; set; }
 }
-</pre>
+```
 
 Results:
 
@@ -148,7 +150,8 @@ Results:
 
 ### Comparing Collections
 
-<pre class="prettyprint">public class when_retrieving_a_collection_of_customers
+```C#
+public class when_retrieving_a_collection_of_customers
 {
   static List&lt;Customer> _actual;
   static ExpectedObject _expected;
@@ -170,7 +173,7 @@ Results:
 
   It should_return_the_expected_customers = () => _expected.ShouldEqual(_actual);
 }
-</pre>
+```
 
 Results:
 
@@ -184,7 +187,8 @@ Results:
 
 ### Comparing Dictionaries
 
-<pre class="prettyprint">public class when_retrieving_a_dictionary
+```C#
+public class when_retrieving_a_dictionary
 {
   static IDictionary&lt;string, string> _actual;
   static IDictionary&lt;string, string> _expected;
@@ -199,7 +203,7 @@ Results:
 
   It should_return_the_expected_dictionary = () => _expected.ToExpectedObject().ShouldEqual(_actual);
 }
-</pre>
+```
 
 Results:
 
@@ -213,7 +217,8 @@ Results:
 
 ### Comparing Types with Indexes
 
-<pre class="prettyprint">public class when_retrieving_a_type_with_an_index
+```C#
+public class when_retrieving_a_type_with_an_index
 {
   static IndexType&lt;int> _actual;
   static IndexType&lt;int> _expected;
@@ -250,7 +255,7 @@ class IndexType&lt;T>
     get { return _ints.Count; }
   }
 }
-</pre>
+```
 
 Results:
 
@@ -264,7 +269,8 @@ Results:
 
 ### Comparing Partial Objects
 
-<pre class="prettyprint">public class when_retrieving_a_customer
+```C#
+public class when_retrieving_a_customer
 {
   static Customer _actual;
   static ExpectedObject _expected;
@@ -297,7 +303,7 @@ Results:
 
   It should_have_the_correct_name_and_address = () => _expected.ShouldMatch(_actual);
 }
-</pre>
+```
 
 Results: 
 
@@ -328,13 +334,13 @@ Results:
   </p>
   
   
-  <pre class="prettyprint">
+```C#
 public interface IComparisonStrategy
 {
     bool CanCompare(Type type);
     bool AreEqual(object expected, object actual, IComparisonContext comparisonContext);
 }
-</pre>
+```
   
   
   <p>
@@ -369,7 +375,7 @@ _expected = new Foo("Bar")
   </p>
   
   
-  <pre class="prettyprint">
+```C#
 public class when_displaying_the_customer_view
 {
   static Mock&lt;IWebDriver> _actual;
@@ -402,7 +408,7 @@ public class when_displaying_the_customer_view
 
   It should_display_the_expected_view = () => _expected.ShouldEqual(_actual.Object);
 }
-</pre>
+```
   
   
   <p>
@@ -437,7 +443,7 @@ public class when_displaying_the_customer_view
   </p>
   
   
-  <pre class="prettyprint">
+```C#
 class ExpectedView
 {
   public ExpectedView()
@@ -514,7 +520,7 @@ class ExpecedViewComparisonStrategy : IComparisonStrategy
     return areEqual;
   }
 }
-</pre>
+```
   
   
   <p>
