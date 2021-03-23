@@ -129,13 +129,6 @@ collections:
     author: "Jasdeep Singh"
     output: true
     permalink: /:collection/:year/:month/:day/:title/
-  jasonmeridth:
-    active: true
-    author: "Jason Meridth"
-    output: true
-    permalink: /:collection/:year/:month/:day/:title/
-    post-identifier: "blog.jasonmeridth.com"
-    feed: "https://blog.jasonmeridth.com/feed.xml"
   jimmybogard:
     active: true
     author: "Jimmy Bogard"
