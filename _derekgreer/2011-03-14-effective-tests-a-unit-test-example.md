@@ -215,7 +215,6 @@ But was:&nbsp; 0m</pre>
   &nbsp;
 </div>
 
-<p>
 <font face="Courier New">
   
 <pre>CalculatorTests.TestPressEquals : Failed 
