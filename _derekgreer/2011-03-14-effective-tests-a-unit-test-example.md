@@ -195,17 +195,17 @@ But was:&nbsp; 0m</pre>
 </p>
 
 <pre class="prettyprint">        
-        [Test]
-        public void TestPressEquals2()
-        {
-            var calculator = new Calculator();
-            calculator.Enter(2);
-            calculator.PressPlus();
-            calculator.Enter(2);
-            calculator.PressEquals();
-            Assert.AreEqual(4, calculator.Display,
-                "When adding 2 + 2, expected 4 but found {0}.", calculator.Display);
-        }</pre>
+    [Test]
+    public void TestPressEquals2()
+    {
+        var calculator = new Calculator();
+        calculator.Enter(2);
+        calculator.PressPlus();
+        calculator.Enter(2);
+        calculator.PressEquals();
+        Assert.AreEqual(4, calculator.Display,
+            "When adding 2 + 2, expected 4 but found {0}.", calculator.Display);
+    }</pre>
 
 <p>
   When we run the test again, we get the following:
@@ -236,22 +236,22 @@ But was:&nbsp; 0m</pre>
   </p>
   
   <pre class="prettyprint">
-        [Test]
-        public void TestPressEquals2()
-        {
-            var value1 = 2m;
-            var value2 = 2m;
-            var calculator = new Calculator();
-            calculator.Enter(value1);
-            calculator.PressPlus();
-            calculator.Enter(value2);
-            calculator.PressEquals();
-            decimal expected = 4m;
-            decimal actual = calculator.Display;
-            Assert.AreEqual(expected, actual, 
-                "When adding {0} + {1}, expected {2} but found {3}.", value1, value2, expected, actual);
-        }</pre>
-  
+    [Test]
+    public void TestPressEquals2()
+    {
+        var value1 = 2m;
+        var value2 = 2m;
+        var calculator = new Calculator();
+        calculator.Enter(value1);
+        calculator.PressPlus();
+        calculator.Enter(value2);
+        calculator.PressEquals();
+        decimal expected = 4m;
+        decimal actual = calculator.Display;
+        Assert.AreEqual(expected, actual, 
+            "When adding {0} + {1}, expected {2} but found {3}.", value1, value2, expected, actual);
+    }</pre>
+
   <p>
     Now we’ve eliminated the duplication, but the test doesn’t seem as easy to follow.&nbsp; Also, our custom message no longer communicates the purpose of the test clearly.&nbsp; If we revisit this test later, we might as well work through the logic of the test than work through the logic of what this assertion&nbsp; is going to produce.&nbsp; Let’s stick to our principles on keeping our code free of duplication for now, but we’ll revisit this topic later in our series.
   </p>
@@ -265,26 +265,26 @@ But was:&nbsp; 0m</pre>
   </p>
   
   <pre class="prettyprint">
-        [Test]
-        public void TestPressEquals()
-        {
-            // Arrange
-            decimal value1 = 2m;
-            decimal value2 = 2m;
-            decimal expected = 4m;
-            var calculator = new Calculator();
+    [Test]
+    public void TestPressEquals()
+    {
+        // Arrange
+        decimal value1 = 2m;
+        decimal value2 = 2m;
+        decimal expected = 4m;
+        var calculator = new Calculator();
 
-            // Act
-            calculator.Enter(value1);
-            calculator.PressPlus();
-            calculator.Enter(value2);
-            calculator.PressEquals();
-            decimal actual = calculator.Display;
+        // Act
+        calculator.Enter(value1);
+        calculator.PressPlus();
+        calculator.Enter(value2);
+        calculator.PressEquals();
+        decimal actual = calculator.Display;
 
-            // Assert
-            Assert.AreEqual(expected, actual,
-                            "When adding {0} + {1}, expected {2} but found {3}.", value1, value2, expected, actual);
-        }</pre>
+        // Assert
+        Assert.AreEqual(expected, actual,
+                        "When adding {0} + {1}, expected {2} but found {3}.", value1, value2, expected, actual);
+    }</pre>
   
   <p>
     That organizes the flow of the test a bit better, but we’re still missing the clarity that initial custom message was providing.&nbsp; We could communicate this through a comment as well, but another approach would be to just improve upon the actual test name.
@@ -295,26 +295,26 @@ But was:&nbsp; 0m</pre>
   </p>
   
   <pre class="prettyprint">
-        [Test]
-        public void PressEquals_AddingTwoPlusTwo_ReturnsFour()
-        {
-            // Arrange
-            decimal value1 = 2m;
-            decimal value2 = 2m;
-            decimal expected = 4m;
-            var calculator = new Calculator();
+    [Test]
+    public void PressEquals_AddingTwoPlusTwo_ReturnsFour()
+    {
+        // Arrange
+        decimal value1 = 2m;
+        decimal value2 = 2m;
+        decimal expected = 4m;
+        var calculator = new Calculator();
 
-            // Act
-            calculator.Enter(value1);
-            calculator.PressPlus();
-            calculator.Enter(value2);
-            calculator.PressEquals();
-            decimal actual = calculator.Display;
+        // Act
+        calculator.Enter(value1);
+        calculator.PressPlus();
+        calculator.Enter(value2);
+        calculator.PressEquals();
+        decimal actual = calculator.Display;
 
-            // Assert
-            Assert.AreEqual(expected, actual,
-                            "When adding {0} + {1}, expected {2} but found {3}.", value1, value2, expected, actual);
-        }</pre>
+        // Assert
+        Assert.AreEqual(expected, actual,
+                        "When adding {0} + {1}, expected {2} but found {3}.", value1, value2, expected, actual);
+    }</pre>
   
   <p>
     &nbsp;
