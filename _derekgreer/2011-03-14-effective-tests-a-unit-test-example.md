@@ -175,15 +175,12 @@ While our test certainly does the job of validating the Calculator’s behavior,
   &nbsp;
 </div>
 
-<font face="Courier New"></p> 
+<font face="Courier New">
 
 <pre>CalculatorTests.TestPressEquals : Failed 
 Expected: 4m 
 But was:&nbsp; 0m</pre>
-
-<p>
-  </font>
-</p>
+</font>
 
 <p>
   &nbsp;
@@ -219,16 +216,13 @@ But was:&nbsp; 0m</pre>
 </div>
 
 <p>
-  <font face="Courier New"></p> 
+<font face="Courier New">
   
-  <pre>CalculatorTests.TestPressEquals : Failed 
+<pre>CalculatorTests.TestPressEquals : Failed 
 When adding 2 + 2, expected 4 but found 0. 
 Expected: 4m 
 But was:&nbsp; 0m</pre>
-  
-  <p>
-    </font>
-  </p>
+ </font>
   
   <p>
     &nbsp;
