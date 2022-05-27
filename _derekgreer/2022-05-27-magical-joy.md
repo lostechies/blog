@@ -17,7 +17,7 @@ We didn’t get around to discussing Byron’s intuition about the design all th
 
 Fortunately with the advent of .Net Core which introduced the [FromServices] attribute, we can achieve the same benefits mentioned earlier by injecting handlers directly into Controller Actions:
 
-```#csharp
+```csharp
     [HttpGet]
     public async Task<IActionResult> GetWidgets([FromQuery] GetPaginatedWidgetsRequest request, [FromServices] GetWidgetsRequestHandler handler)
     {
