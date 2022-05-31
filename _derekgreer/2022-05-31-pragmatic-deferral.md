@@ -5,7 +5,7 @@ author: Derek Greer
 layout: post
 ---
 
-Software engineering is often about selecting the right trade offs. While deferring feature development is often somewhat straight-forward, based upon a speculation about the return on investment, and generally decided by the customer; marketing; sales; or product people; low-level implementation decisions are typically made by the development team or individual developers and can often prove to be a bit more contentious among teams with a plurality of strong opinions. This is where principles like YAGNI (You’re Aren’t Going to Need It), or the Rule of Three have often been set forth as a guiding heuristic.
+Software engineering is often about selecting the right trade offs. While deferring feature development is often somewhat straight-forward, based upon a speculation about the return on investment, and generally decided by the customer; marketing; sales; or product people; low-level implementation decisions are typically made by the development team or individual developers and can often prove to be a bit more contentious among teams with a plurality of strong opinions. This is where principles like [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) (You’re Aren’t Going to Need It), or the [Rule of Three](<https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)>) have often been set forth as a guiding heuristic.
 
 While I generally advise the teams I coach to allow the executable specifications (i.e. the tests) to drive emergent design and to defer the introduction of ancillary libraries, frameworks, patterns, and custom infrastructure, until you need it, there is a level of pragmatism that I employee when determining when to introduce such things.
 
