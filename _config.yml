@@ -26,7 +26,7 @@ feed:
 twitter_username: lostechies
 github_username:  lostechies
 #permalink: /:collection/:year/:month/:day/:title/
-rss2json_api_key: "y7nvgt8q8ivaexb0ijpuwyt1hxsfklqaqwwen3rp"
+rss2json_api_key: "8rtxarjik93svbgojealqe4pzyta8qjzhcdhy40d"
 
 # Only supported by > Jekyll 3.7.0
 #collections_dir: posts
