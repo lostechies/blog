@@ -80,7 +80,7 @@ collections:
     disqus:
       short_name: "lostechies-aspiringcraftsman"
       active: true
-    feed: "http://feeds.feedburner.com/AspiringCraftsman"
+    feed: "https://aspiringcraftsman.com/feed.xml"
     post-identifier: "(lostechies.com/derekgreer)|(aspiringcraftsman.com)|(AspiringCraftsman)"
   derickbailey:
     active: false
