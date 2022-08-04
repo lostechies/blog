@@ -65,7 +65,7 @@ First, let's consider what I see as the good parts:
   The following is a simple example showing a basic usage of the type system:
 </p>
 
-```javascrpt
+```javascript
 interface Person {
     firstName: string;
     lastName: string;
