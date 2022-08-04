@@ -65,7 +65,8 @@ First, let's consider what I see as the good parts:
   The following is a simple example showing a basic usage of the type system:
 </p>
 
-<pre class="prettyprint">interface Person {
+```javascrpt
+interface Person {
     firstName: string;
     lastName: string;
 }
@@ -84,7 +85,7 @@ let greeter = new Greeter("Hello,");
 let person = { firstName: "John", lastName: "Doe" };
 
 document.body.innerHTML = greeter.greet(person);
-</pre>
+```
 
 <p dir="ltr">
   In this example, a Person interface is declared with two string properties: firstName and lastName.  Next, a Greeter class is created with a greet() function which is declared to take a parameter of type Person.  Next, instances of Greeter and Person are instantiated and the Greeter instance’s greet() function is invoked passing in the Person instance.  At compile time, TypeScript is able to detect whether the object passed to the greet() function conforms to the Person interface and whether the values assigned to the expected properties are of the expected type.
@@ -148,7 +149,8 @@ Next, let's consider some of the aspects I consider not so good:
   The TypeScript source in the first listing shows a generic sortBy method which takes a callback for retrieving the value by which to sort while the second listing shows the generated JavaScript source:
 </p>
 
-<pre class="prettyprint">interface Entity {
+```javascript
+interface Entity {
 	name: string;
 }
 
@@ -170,9 +172,10 @@ var products = [
 ];
 var sorted = sortBy(products, x => x.price);
 document.body.innerText = JSON.stringify(sorted, null, 4);
-</pre>
+```
 
-<pre class="prettyprint">function sortBy(a, keyOf) {
+```javascript
+function sortBy(a, keyOf) {
     var result = a.slice(0);
     result.sort(function (x, y) {
         var kx = keyOf(x);
@@ -189,7 +192,7 @@ var products = [
 ];
 var sorted = sortBy(products, function (x) { return x.price; });
 document.body.innerText = JSON.stringify(sorted, null, 4);
-</pre>
+```
 
 Comparing the two signatures, which is easier to understand?
 
