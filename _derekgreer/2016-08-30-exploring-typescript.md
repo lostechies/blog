@@ -48,9 +48,10 @@ categories:
 
 &nbsp;
 
-<h2 dir="ltr">
-  The Good
-</h2>
+<h2 dir="ltr">The Good</h2>
+
+First, let's consider what I see as the good parts:
+
 
 <h3 dir="ltr">
   Type System
@@ -119,9 +120,9 @@ document.body.innerHTML = greeter.greet(person);
 
 &nbsp;
 
-<h2 dir="ltr">
-  The Not So Good
-</h2>
+<h2 dir="ltr">The Not So Good</h2>
+
+Next, let's consider some of the aspects I consider not so good:
 
 <h3 dir="ltr">
   Type Definitions and 3rd-Party Libraries
