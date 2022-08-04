@@ -214,15 +214,17 @@ It might be reasoned that the TypeScript version should be easier to understand 
   Now to be fair, there are cases where TypeScript is arguably going to be more clear than the generated JavaScript (and for similar reasons).  Consider the following listing:
 </p>
 
-<pre class="prettyprint">class Auto{
+```javascript
+class Auto{
   constructor(public wheels = 4, public doors?){
   }
 }
 var car = new Auto();
 car.doors = 2;
-</pre>
+```
 
-<pre class="prettyprint">var Auto = (function () {
+```javascript
+var Auto = (function () {
     function Auto(wheels, doors) {
         if (wheels === void 0) { wheels = 4; }
         this.wheels = wheels;
@@ -232,7 +234,7 @@ car.doors = 2;
 }());
 var car = new Auto();
 car.doors = 2;
-</pre>
+```
 
 <p dir="ltr">
   In this example, the TypeScript version results in less syntax noise than the generated JavaScript version.   Of course, this is a comparison between TypeScript and it’s generated syntax rather than the following syntax many may have used:
