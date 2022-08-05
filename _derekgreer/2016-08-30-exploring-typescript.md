@@ -154,12 +154,12 @@ interface Entity {
 	name: string;
 }
 
-function sortBy&lt;T>(a: T[], keyOf: (item: T) => any): T[] {
+function sortBy<T>(a: T[], keyOf: (item: T) => any): T[] {
 	var result = a.slice(0);
 	result.sort(function(x, y) {
 		var kx = keyOf(x);
 		var ky = keyOf(y);
-		return kx > ky ? 1: kx &lt; ky ? -1 : 0;
+		return kx > ky ? 1: kx < ky ? -1 : 0;
 	});
 	return result;
 }
@@ -180,7 +180,7 @@ function sortBy(a, keyOf) {
     result.sort(function (x, y) {
         var kx = keyOf(x);
         var ky = keyOf(y);
-        return kx > ky ? 1 : kx &lt; ky ? -1 : 0;
+        return kx > ky ? 1 : kx < ky ? -1 : 0;
     });
     return result;
 }
