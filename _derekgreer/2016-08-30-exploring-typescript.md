@@ -207,7 +207,7 @@ Comparing the two signatures, which is easier to understand?
 It might be reasoned that the TypeScript version should be easier to understand given that it provides more information, but many would disagree that this is in fact the case.  The reason for this is that the TypeScript version adds quite a bit of syntax to explicitly describe information that can otherwise be deduced fairly easily.  In many ways this is similar to how we process natural language.  When we communicate, we don’t encode each word with its grammatical function (e.g. “I [subject] bought [past tense verb] you [indirect object] a [indefinite article] gift [direct object].”)  Rather, we rapidly and subconsciously make guesses based on familiarity with the vocabulary, context, convention and other such signals.
 
 <p dir="ltr">
-   In the case of the sortBy example, we can guess at the parameters and return type for the function faster than we can parse the type syntax.  This becomes even easier if descriptive names are used (e.g. ``` sortByKey(array, keySelector)```).  Sometimes implicit expression is simply easier to understand.
+   In the case of the sortBy example, we can guess at the parameters and return type for the function faster than we can parse the type syntax.  This becomes even easier if descriptive names are used (e.g. `sortByKey(array, keySelector)`).  Sometimes implicit expression is simply easier to understand.
 </p>
 
 <p dir="ltr">
