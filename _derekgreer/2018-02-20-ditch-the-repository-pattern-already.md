@@ -7,7 +7,7 @@ tags: [repository]
 ---
 
 One pattern that still seems particularly common among .Net developers is the <a href="https://martinfowler.com/eaaCatalog/repository.html">Repository pattern.</a>
-I began using this pattern with NHibernate around 2006 and only abandoned its use _when combined with an Object-Relational Mapping (ORM) tool_ a few years ago.
+I began using this pattern with NHibernate around 2006 and only abandoned its use a few years ago.
 
 I had read several articles over the years advocating abandoning the Repository pattern in favor of other suggested approaches which served as a pebble in my shoe for a few years, but there were a few design principles whose application seemed to keep motivating me to use the pattern.  It wasn't until a change of tooling and a shift
 in thinking about how these principles should be applied that I finally felt comfortable ditching the use of repositories, so I thought I'd recount my journey to provide some food for thought for those who still feel compelled to use the pattern.
