@@ -9,7 +9,7 @@ ruby "2.7.1" # this is the latest version supported by github pages via https://
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.9.0" # this is the latest version supported by github pages via https://pages.github.com/versions/
+gem "jekyll", "~> 4.3.4" # this is the latest version supported by github pages via https://pages.github.com/versions/
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
