@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "3.3.4"
+ruby "3.3.6"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -10,6 +10,8 @@ end
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
+
+gem "uri", "~> 0.13.2"
 
 gem "kramdown-parser-gfm"
 
