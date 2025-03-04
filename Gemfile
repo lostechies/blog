@@ -11,6 +11,7 @@ end
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
 
+gem "nokogiri", ">= 1.18.3"
 gem "uri", "~> 0.13.2"
 
 gem "kramdown-parser-gfm"
