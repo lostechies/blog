@@ -12,7 +12,7 @@ end
 gem "minima"
 
 gem "nokogiri", ">= 1.18.3"
-gem "uri", "~> 1.0.3"
+gem "uri", "~> 1.0.4"
 
 gem "kramdown-parser-gfm"
 
