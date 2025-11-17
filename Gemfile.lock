@@ -290,7 +290,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
-    uri (1.0.3)
+    uri (1.0.4)
     wdm (0.2.0)
     webrick (1.8.2)
 
@@ -317,7 +317,7 @@ DEPENDENCIES
   minima
   nokogiri (>= 1.18.3)
   tzinfo-data
-  uri (~> 1.0.3)
+  uri (~> 1.0.4)
   wdm
 
 RUBY VERSION
