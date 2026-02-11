@@ -1,0 +1,26 @@
+name: Build Jekyll Site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6.0.2
+        with:
+          persist-credentials: false
+
+      - uses: ruby/setup-ruby@v1.288.0
+        with:
+          ruby-version: "3.3.10"
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build

@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "3.3.6"
+ruby "3.3.10"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
