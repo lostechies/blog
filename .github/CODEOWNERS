@@ -1,1 +1,46 @@
+# Default owner for everything not matched below.
 * @jmeridth
+
+# Per-author ownership: each author owns their blog directory.
+# Only directories whose name matches a confirmed GitHub username are listed here;
+# anything not listed falls through to the default owner above.
+/_andrewsiemer/    @andrewsiemer
+/_bradcarleton/    @techpines
+/_chadmyers/       @chadmyers
+/_chrismissal/     @ChrisMissal
+/_chrispatterson/  @chrispatterson
+/_christaylor/     @christaylor
+/_colinjack/       @colinjack
+/_colinramsay/     @colinramsay
+/_derekgreer/      @derekgreer
+/_derickbailey/    @mxriverlynn
+/_derikwhittaker/  @derikwhittaker
+/_ericanderson/    @ericanderson
+/_erichexter/      @erichexter
+/_evanhoff/        @evanhoff
+/_gabrielschenker/ @gabrielschenker
+/_gregorylong/     @gregorylong
+/_hugobonacci/     @hugoware
+/_jamesgregory/    @JamesGregory
+/_jasdeepsingh/    @jasdeepsingh
+/_jimmybogard/     @jbogard
+/_joeocampo/       @joeocampo
+/_joeybeninghove/  @joeybeninghove
+/_johnteague/      @JohnTeague
+/_josharnold/      @josharnold
+/_joshuaflanagan/  @joshuaflanagan
+/_joshualockwood/  @JoshuaLockwood
+/_keithdahlby/     @dahlbyk
+/_matthinze/       @matthinze
+/_mokhan/          @mokhan
+/_patricklioi/     @plioi
+/_rayhouston/      @RayHouston
+/_rodpaddock/      @rodpaddock
+/_ryanrauh/        @rauhryan
+/_ryansvihla/      @foundev
+/_scottdensmore/   @scottdensmore
+/_scottreynolds/   @scottreynolds
+/_seanbiefeld/     @seanbiefeld
+/_seanchambers/    @seanchambers
+/_sharoncichelli/  @scichelli
+/_stevedonie/      @SteveDonie
