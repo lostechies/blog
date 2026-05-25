@@ -1,0 +1,19 @@
+name: Scheduled Pages Rebuild
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Daily at noon UTC — publishes future-dated posts when their date arrives
+
+permissions:
+  pages: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger GitHub Pages rebuild
+        run: |
+          curl -s -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/pages/builds
