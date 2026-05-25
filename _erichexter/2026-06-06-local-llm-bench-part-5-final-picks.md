@@ -121,4 +121,4 @@ Six weeks. 23 models. 630 lines of harness code. 50+ agentic task runs. The answ
 
 The model that tops the single-shot leaderboard is the one to use for chat. The model that wins at agentic coding tasks is a different model entirely. I spent a weekend thinking gemma4 was the obvious answer before it timed out on every real task I gave it.
 
-The bench application and all results are in the repo. The harness accepts any model Ollama can serve — pull it, add an entry to the settings file, run it. The numbers here are reproducible on any machine with 16GB of VRAM. If you find something that beats devstral on multi-file from scratch, I want to know about it.
+The bench application and all results are at [github.com/erichexter/ollama-model-bench](https://github.com/erichexter/ollama-model-bench). The harness accepts any model Ollama can serve — pull it, add an entry to the settings file, run it. The numbers here are reproducible on any machine with 16GB of VRAM. If you find something that beats devstral on multi-file from scratch, I want to know about it.

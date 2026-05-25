@@ -100,4 +100,8 @@ The obvious interpretation is that gemma4:latest is simply the best model here. 
 
 ---
 
+The full source is at [github.com/erichexter/ollama-model-bench](https://github.com/erichexter/ollama-model-bench).
+
+---
+
 _Next up: [Part 3](/erichexter/2026/05/31/local-llm-bench-part-3-single-shot-lies/) digs into what the scores actually mean — and why gemma4:latest's clean sweep turned out to be almost entirely beside the point._
