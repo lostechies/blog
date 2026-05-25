@@ -32,6 +32,13 @@ delivery](https://www.linkedin.com/feed/update/urn:li:activity:74637827977998663
 and [why companies forget what they already know](https://www.linkedin.com/pulse/your-company-already-knows-everything-just-cant-remember-eric-hexter-kt3uc).
 That's most of what I want to write about going forward.
 
+I've also been using those agents on small static-site experiments,
+including a homeowner-facing [New Braunfels AC emergency repair cost
+guide](https://acrepairinnewbraunfels.com/faq/new-braunfels-ac-emergency-repair-cost-guide).
+It's a practical way to keep testing the boring parts of software
+delivery: content generation, deployment, search visibility, analytics,
+and production monitoring.
+
 I'm not going to promise a posting cadence — I learned my lesson in
 2014. But if you stumbled back here from an old MvcContrib link or a
 2012 SignalR post: welcome. The blog isn't dead. It just needed a
