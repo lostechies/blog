@@ -1,7 +1,7 @@
   {% assign author_posts = ''|split:''%}
   {% assign unfiltered_posts = site[page.collection] %}
   {% for post in unfiltered_posts %}
-  {% if post.index != true %}
+  {% if post.index != true and post.date <= site.time %}
   {% assign author_posts = author_posts|push:post%}
   {% endif %}
   {% endfor %}
