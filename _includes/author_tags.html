@@ -16,7 +16,7 @@
     {% assign counter = 1 %}
   	<ul>
   	{% for p in site[page.collection] %}
-  	{% if p.tags contains previousTag %}
+  	{% if p.tags contains previousTag and p.date <= site.time %}
         <li><a href="{{site.baseurl}}{{ p.url }}"><span class="archive-entry">{{ p.title }}</span></a></li>
   	{% endif %}
   	{% endfor %}
@@ -29,7 +29,7 @@
     <h2>{{ currentTag }} ({{ counter }})</h2>
   	<ul>
   	{% for p in site[page.collection] %}
-  	{% if p.tags contains currentTag %}
+  	{% if p.tags contains currentTag and p.date <= site.time %}
         <li><a href="{{site.baseurl}}{{ p.url }}"><span class="archive-entry"/>{{ p.title }}</span></a></li>
   	{% endif %}
   	{% endfor %}
