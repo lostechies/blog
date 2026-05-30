@@ -15,8 +15,8 @@
 }
 
 blockquote {
-  background-color: whitesmoke;
-  border-left: 5px solid #dbdbdb;
+  background-color: var(--bulma-background);
+  border-left: 5px solid var(--bulma-border);
   padding: 1.25em 1.5em;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -84,6 +84,17 @@ h1.title > span {
 .post-title {
   font-size: x-large;
   font-family: Roboto, sans-serif;
+  color: var(--bulma-text-strong);
+}
+
+.post-title a,
+.post-title a:hover,
+.post-title a:visited {
+  color: inherit;
+}
+
+[data-theme="dark"] .post-title {
+  color: hsl(0, 0%, 96%);
 }
 
 .post-meta {
@@ -132,7 +143,13 @@ h6{font-size: 14px;}
 
 
 body {
-  background: url({{ site.baseurl }}/assets/images/header_bg.png) repeat-x;
+  background-color: var(--bulma-scheme-main);
+  background-image: url({{ site.baseurl }}/assets/images/header_bg.png);
+  background-repeat: repeat-x;
+}
+
+[data-theme="dark"] body {
+  background-image: none;
 }
 
 .prev {
@@ -156,22 +173,70 @@ body {
 }
 
 blockquote {
-  color: #808080;
+  color: var(--bulma-text-weak);
   font-style: italic;
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: 5px solid #eee;
+  border-left: 5px solid var(--bulma-border-weak);
 }
 
+/*
+ * Tile system shim — Bulma 1.x removed the .tile layout primitives.
+ * This restores enough of the Bulma 0.9 tile behavior to keep the existing
+ * layouts working. Remove when templates migrate to Bulma 1.x .columns.
+ */
 .tile {
-  flex-basis: auto;
+  align-items: stretch;
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-height: min-content;
+}
+.tile.is-ancestor {
+  margin: -0.75rem;
+}
+.tile.is-vertical {
+  flex-direction: column;
+}
+.tile.is-vertical > .tile.is-child:not(:last-child) {
+  margin-bottom: 1.5rem !important;
+}
+@media screen and (min-width: 769px) {
+  .tile:not(.is-child) {
+    display: flex;
+  }
+  .tile.is-1 { flex: none; width: 8.3333333333%; }
+  .tile.is-2 { flex: none; width: 16.6666666667%; }
+  .tile.is-3 { flex: none; width: 25%; }
+  .tile.is-4 { flex: none; width: 33.3333333333%; }
+  .tile.is-5 { flex: none; width: 41.6666666667%; }
+  .tile.is-6 { flex: none; width: 50%; }
+  .tile.is-7 { flex: none; width: 58.3333333333%; }
+  .tile.is-8 { flex: none; width: 66.6666666667%; }
+  .tile.is-9 { flex: none; width: 75%; }
+  .tile.is-10 { flex: none; width: 83.3333333333%; }
+  .tile.is-11 { flex: none; width: 91.6666666667%; }
+  .tile.is-12 { flex: none; width: 100%; }
+}
+.tile.is-parent {
+  padding: 0.75rem;
+}
+.tile.is-child {
+  margin: 0 !important;
 }
 
-div.note {    
-  border: black 1px solid;
+div.note {
+  border: 1px solid var(--bulma-border);
   background: #fffef4;  /* a really pale yellow */
+  color: #000;
   padding: 15px;
+}
+
+[data-theme="dark"] div.note {
+  background: #3a3520;  /* dim variant of the cream */
+  color: var(--bulma-text);
 }
 
 div.note > note-title {
@@ -182,4 +247,31 @@ div.note > note-title {
 p {
   margin-top:16px;
   margin-bottom:16px;
+}
+
+/*
+ * Dark-mode workaround for the dark Los Techies logo. CSS invert is a
+ * temporary fix until a light-on-dark logo asset is added.
+ */
+[data-theme="dark"] img[src*="lostechies_logo"] {
+  filter: invert(1);
+}
+
+/*
+ * Dark-mode overrides for highlight.css (Pygments). Keeps code blocks
+ * readable on a dark background; tokens may still need tuning for a
+ * proper dark syntax theme.
+ */
+[data-theme="dark"] pre,
+[data-theme="dark"] code {
+  background-color: var(--bulma-scheme-main-bis);
+  border-color: var(--bulma-border);
+  color: var(--bulma-text);
+}
+[data-theme="dark"] .highlight,
+[data-theme="dark"] .highlighter-rouge .highlight {
+  background-color: var(--bulma-scheme-main-bis);
+}
+[data-theme="dark"] .highlight pre {
+  background-color: transparent;
 }

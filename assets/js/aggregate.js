@@ -67,7 +67,6 @@ function loadPost(id) {
     titleHeading.classList.add("post-title");
     titleLink.href = post.link;
     titleText.innerHTML = "" + post.title;
-    titleLink.style.color = "#4a4a4a";
     append(titleLink, titleText);
     append(titleHeading, titleLink);
     append(box, titleHeading);
