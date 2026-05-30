@@ -14,10 +14,8 @@
     </section>
 
     <div class="main-container" style="margin-top:15px;">
-      <div class="tile is-ancestor is-vertical">
 
-
-        <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+      <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
 
           <div class="navbar-brand">
 
@@ -69,49 +67,48 @@
 
         </nav>
 
-        <div class="tile is-parent">
-          <div class="tile is-8 is-child main">
+      <div class="columns">
+        <div class="column is-8 main">
 
-            {{ content }}
+          {{ content }}
 
-          </div>
+        </div>
 
-          <div class="tile is-4 is-child">
-            <div class="tile is-parent is-vertical sidebar">
+        <div class="column is-4">
+          <div class="sidebar">
 
-              <div id="recentAuthorPostsContainer" class="tile is-child widget">
-                <div class="card">
-                  <header class="card-header">
-                    <p class="card-header-title nice-title">
-                    Recent Author Posts
-                    </p>
-                  </header>
-                  <div class="card-content">
-                    <div class="content nice-text">
-                      <ul id="recentAuthorPosts"></ul>
-                    </div>
+            <div id="recentAuthorPostsContainer" class="widget">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title nice-title">
+                  Recent Author Posts
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content nice-text">
+                    <ul id="recentAuthorPosts"></ul>
                   </div>
                 </div>
               </div>
-
-              <div class="tile is-child widget">
-                <div class="card">
-                  <header class="card-header">
-                    <p class="card-header-title nice-title">
-                    Recent Site Posts
-                    </p>
-                  </header>
-                  <div class="card-content">
-                    <div class="content nice-text">
-                      <ul id="recentPosts"></ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {% include authors.html %}
-
             </div>
+
+            <div class="widget">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title nice-title">
+                  Recent Site Posts
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content nice-text">
+                    <ul id="recentPosts"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {% include authors.html %}
+
           </div>
         </div>
       </div>
