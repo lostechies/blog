@@ -14,6 +14,45 @@
     font-style: normal;
 }
 
+/* Self-hosted Open Sans + Roboto (latin subset). Replaces the previous
+   fonts.googleapis.com link for GDPR/privacy reasons. See package.json
+   vendor:webfonts script for the refresh path. */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url({{ site.baseurl }}/assets/fonts/open-sans-latin-400-normal.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url({{ site.baseurl }}/assets/fonts/open-sans-latin-400-italic.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url({{ site.baseurl }}/assets/fonts/open-sans-latin-700-normal.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url({{ site.baseurl }}/assets/fonts/roboto-latin-400-normal.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url({{ site.baseurl }}/assets/fonts/roboto-latin-700-normal.woff2) format('woff2');
+}
+
 blockquote {
   background-color: var(--bulma-background);
   border-left: 5px solid var(--bulma-border);
