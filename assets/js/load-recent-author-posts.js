@@ -35,7 +35,11 @@ function loadRecentAuthorPosts(elementId, container) {
     getFeed(collectionFeed).then(function (result) {
       hostElement.innerHTML = "";
 
-      var posts = result.items.slice(0, 10);
+      var now = new Date();
+      var posts = result.items.filter(function (post) {
+        if (!post.pubDate) { return true; }
+        return new Date(post.pubDate.replace(/-/g, "/")) <= now;
+      }).slice(0, 10);
       posts.map(function (post) {
         var li = createNode('li'),
             anchor = createNode('a'),

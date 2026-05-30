@@ -16,7 +16,11 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
     getFeed(feed).then(function (result) {
       hostElement.innerHTML = "";
 
-      var posts = result.items;
+      var now = new Date();
+      var posts = result.items.filter(function (post) {
+        if (!post.pubDate) { return true; }
+        return new Date(post.pubDate.replace(/-/g, "/")) <= now;
+      });
       posts.map(function (post) {
         var box = createNode('div');
         var external = createNode('div');
