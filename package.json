@@ -1,11 +1,14 @@
 {
   "name": "ltblog-vendored-assets",
   "private": true,
-  "description": "Tracks vendored frontend dependencies. Run `npm install && npm run vendor` to refresh assets/css/bulma.css from node_modules.",
+  "description": "Tracks vendored frontend dependencies. Run `npm install && npm run vendor` to refresh assets/css/ and assets/fonts/ from node_modules.",
   "scripts": {
-    "vendor": "cp node_modules/bulma/css/bulma.min.css assets/css/bulma.css"
+    "vendor": "npm run vendor:bulma && npm run vendor:fontawesome",
+    "vendor:bulma": "cp node_modules/bulma/css/bulma.min.css assets/css/bulma.css",
+    "vendor:fontawesome": "cp node_modules/font-awesome/css/font-awesome.min.css assets/css/font-awesome.min.css && mkdir -p assets/fonts && cp node_modules/font-awesome/fonts/fontawesome-webfont.* assets/fonts/"
   },
   "dependencies": {
-    "bulma": "1.0.4"
+    "bulma": "1.0.4",
+    "font-awesome": "4.7.0"
   }
 }
