@@ -3,11 +3,14 @@
   "private": true,
   "description": "Tracks vendored frontend dependencies. Run `npm install && npm run vendor` to refresh assets/css/ and assets/fonts/ from node_modules.",
   "scripts": {
-    "vendor": "npm run vendor:bulma && npm run vendor:fontawesome",
+    "vendor": "npm run vendor:bulma && npm run vendor:fontawesome && npm run vendor:webfonts",
     "vendor:bulma": "cp node_modules/bulma/css/bulma.min.css assets/css/bulma.css",
-    "vendor:fontawesome": "cp node_modules/font-awesome/css/font-awesome.min.css assets/css/font-awesome.min.css && mkdir -p assets/fonts && cp node_modules/font-awesome/fonts/fontawesome-webfont.* assets/fonts/"
+    "vendor:fontawesome": "cp node_modules/font-awesome/css/font-awesome.min.css assets/css/font-awesome.min.css && mkdir -p assets/fonts && cp node_modules/font-awesome/fonts/fontawesome-webfont.* assets/fonts/",
+    "vendor:webfonts": "mkdir -p assets/fonts && cp node_modules/@fontsource/open-sans/files/open-sans-latin-400-normal.woff2 node_modules/@fontsource/open-sans/files/open-sans-latin-400-italic.woff2 node_modules/@fontsource/open-sans/files/open-sans-latin-700-normal.woff2 node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2 node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff2 assets/fonts/"
   },
   "dependencies": {
+    "@fontsource/open-sans": "^5.2.7",
+    "@fontsource/roboto": "^5.2.10",
     "bulma": "1.0.4",
     "font-awesome": "4.7.0"
   }
