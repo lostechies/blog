@@ -268,3 +268,48 @@ p {
 [data-theme="dark"] .highlight pre {
   background-color: transparent;
 }
+
+/*
+ * GDPR cookie/analytics consent banner. Hidden by default via the [hidden]
+ * attribute; consent.js shows it when no choice is recorded and an
+ * analytics ID is configured.
+ */
+.consent-banner {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  background: var(--bulma-scheme-main-bis);
+  color: var(--bulma-text);
+  border: 1px solid var(--bulma-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+}
+
+.consent-banner-title {
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+.consent-banner-text {
+  margin: 0 0 0.75rem 0;
+  line-height: 1.4;
+}
+
+.consent-banner-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.consent-footer-link {
+  font-size: 0.75rem;
+  margin-top: 0.5rem !important;
+}
