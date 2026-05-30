@@ -29,6 +29,7 @@ twitter_username: lostechies
 github_username:  lostechies
 #permalink: /:collection/:year/:month/:day/:title/
 rss2json_api_key: "8rtxarjik93svbgojealqe4pzyta8qjzhcdhy40d"
+google_analytics_id: "G-6DK8Y2SBT2"
 
 # Only supported by > Jekyll 3.7.0
 #collections_dir: posts
