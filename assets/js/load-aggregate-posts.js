@@ -89,7 +89,6 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
         }
 
         titleText.innerHTML = "" + post.title;
-        titleLink.style.color = "#4a4a4a";
         append(titleLink, titleText);
         append(titleHeading, titleLink);
         append(box, titleHeading);

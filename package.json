@@ -1,0 +1,11 @@
+{
+  "name": "ltblog-vendored-assets",
+  "private": true,
+  "description": "Tracks vendored frontend dependencies. Run `npm install && npm run vendor` to refresh assets/css/bulma.css from node_modules.",
+  "scripts": {
+    "vendor": "cp node_modules/bulma/css/bulma.min.css assets/css/bulma.css"
+  },
+  "dependencies": {
+    "bulma": "1.0.4"
+  }
+}

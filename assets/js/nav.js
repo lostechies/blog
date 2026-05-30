@@ -1,14 +1,20 @@
 ---
 layout: null
 ---
-// https://github.com/jgthms/bulma/issues/238 thanks!
-document.getElementById("nav-toggle").addEventListener("click", toggleNav);
-function toggleNav() {
-    var nav = document.getElementById("nav-menu");
-    var className = nav.getAttribute("class");
-    if(className == "nav-right nav-menu") {
-        nav.className = "nav-right nav-menu is-active";
-    } else {
-        nav.className = "nav-right nav-menu";
+document.addEventListener("DOMContentLoaded", function () {
+    var burger = document.getElementById("nav-toggle");
+    if (!burger) {
+        return;
     }
-}
+    var target = document.getElementById(burger.dataset.target);
+    burger.addEventListener("click", function () {
+        burger.classList.toggle("is-active");
+        if (target) {
+            target.classList.toggle("is-active");
+        }
+        burger.setAttribute(
+            "aria-expanded",
+            burger.classList.contains("is-active") ? "true" : "false"
+        );
+    });
+});

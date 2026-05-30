@@ -1,12 +1,28 @@
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="color-scheme" content="light dark">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('theme');
+        var theme = (stored === 'light' || stored === 'dark' || stored === 'system') ? stored : 'system';
+        if (theme === 'system') {
+          if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } else {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bulma.css"/>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css"/>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/highlight.css"/>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
