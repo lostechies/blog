@@ -4,13 +4,18 @@ on:
   schedule:
     - cron: '0 12 * * *'  # Daily at noon UTC — publishes future-dated posts when their date arrives
 
-permissions:
-  pages: write
+permissions: {}
 
 jobs:
   rebuild:
     runs-on: ubuntu-latest
+    permissions:
+      pages: write # Trigger GitHub Pages rebuild via API
     steps:
+      - uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
+        with:
+          egress-policy: audit
+
       - name: Trigger GitHub Pages rebuild
         run: |
           curl -s -X POST \

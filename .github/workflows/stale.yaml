@@ -1,17 +1,23 @@
 name: "Close stale issues"
+
 on:
   schedule:
     - cron: "30 1 * * *"
 
-permissions:
-  issues: write
-  pull-requests: read
+permissions: {}
 
 jobs:
   stale:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write        # Label and close stale issues
+      pull-requests: read  # Check PR activity for staleness
     steps:
-      - uses: actions/stale@eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899
+      - uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
+        with:
+          egress-policy: audit
+
+      - uses: actions/stale@eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899 # v10.3.0
         with:
           stale-issue-message: "This issue is stale because it has been open 21 days with no activity. Remove stale label or comment or this will be closed in 14 days."
           close-issue-message: "This issue was closed because it has been stalled for 35 days with no activity."
