@@ -1,0 +1,18 @@
+{% assign comments = include.comments %}
+{% if comments and comments.size > 0 %}
+<section class="comments" id="comments">
+  <h2 class="comments-heading">Comments</h2>
+  <p class="comments-archived-note">Commenting is closed.</p>
+  {% for comment in comments %}
+    {% assign display_depth = comment.depth %}
+    {% if display_depth > 4 %}{% assign display_depth = 4 %}{% endif %}
+    <article class="comment comment--depth-{{ display_depth }}">
+      <div class="comment-meta">
+        <span class="comment-author">{{ comment.author | escape }}{% if comment.is_author %}<span class="comment-author-tag">author</span>{% endif %}</span>
+        <span class="comment-date">{{ comment.date | date: "%b %-d, %Y" }}</span>
+      </div>
+      <div class="comment-body">{{ comment.message }}</div>
+    </article>
+  {% endfor %}
+</section>
+{% endif %}

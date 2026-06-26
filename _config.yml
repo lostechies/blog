@@ -178,7 +178,7 @@ collections:
     output: true
     permalink: /:collection/:year/:month/:day/:title/
     disqus:
-      active: true
+      active: false
       short_name: "joshuaflanaganlt"
   joshualockwood:
     active: true
