@@ -32,7 +32,18 @@ scripts: post_scripts.html
   {%endif%}
 </div>
 
-{% assign col = site.collections | where: 'label', page.collection | first%}
+{% assign col = site.collections | where: 'label', page.collection | first %}
+
+{% comment %}Archived static comments (generated from Disqus export via scripts/import_disqus_comments.rb){% endcomment %}
+{% if site.data.comments[page.collection] %}
+  {% assign thread_id = page.dsq_thread_id | first %}
+  {% assign archived = site.data.comments[page.collection][thread_id] %}
+  {% if archived and archived.size > 0 %}
+    {% include archived_comments.html comments=archived %}
+  {% endif %}
+{% endif %}
+
+{% comment %}Live Disqus embed — kept for collections that still have disqus.active: true{% endcomment %}
 {% if col.disqus.active == true %}
 
 <div id="disqus_thread"></div>
