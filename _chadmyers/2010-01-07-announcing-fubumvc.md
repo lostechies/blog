@@ -15,7 +15,7 @@ redirect_from: "/blogs/chad_myers/archive/2010/01/07/announcing-fubumvc.aspx/"
 
 UPDATE: 2012 &#8211; Fix links which have changed or expired
 
-I have been relatively quiet about FubuMVC for some time (only briefly mentioning it in passing on this blog).  It has been a project that has been fermenting for some time with a slow start.  Now it is picking up pace and really coming to fruition due in no small part to [Jeremy Miller](http://jeremymiller.codebetter.com/)’s recent efforts not to mention [Mark Nijhof](http://elegantcode.com/about/mark-nijhof/) , [Ryan Kelley](http://www.techfocus2.com/), [Josh Flanagan](joshuaflanagan.lostechies.com/), and more recently [Brandon Behrens](http://brandonbehrens.blogspot.com/) and [Tim Tyrrell](http://blog.timtyrrell.net/) among many others.
+I have been relatively quiet about FubuMVC for some time (only briefly mentioning it in passing on this blog).  It has been a project that has been fermenting for some time with a slow start.  Now it is picking up pace and really coming to fruition due in no small part to [Jeremy Miller](http://jeremymiller.codebetter.com/)’s recent efforts not to mention [Mark Nijhof](http://elegantcode.com/about/mark-nijhof/) , [Ryan Kelley](http://www.techfocus2.com/), [Josh Flanagan](lostechies.com/joshuaflanagan/), and more recently [Brandon Behrens](http://brandonbehrens.blogspot.com/) and [Tim Tyrrell](http://blog.timtyrrell.net/) among many others.
 
 Recently, at [Dovetail](http://www.dovetailsoftware.com), we migrated off of our Frankenstein’s Monster of customizations and bastardizations of the ASP.NET MVC 1.0 framework to the new FubuMVC framework (<del>specifically the <a href="http://code.google.com/p/fubumvc/source/browse/#svn/branches/reboot">“reboot” branch</a></del>).
 

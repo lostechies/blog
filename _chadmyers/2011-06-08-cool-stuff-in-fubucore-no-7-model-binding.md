@@ -17,7 +17,7 @@ This is the seventh post of the FubuCore series mentioned in the [Introduction p
 
 **\*UPDATE\*** – 10-JUN-2011 – I posted a [follow-up to this post](https://lostechies.com/chadmyers/2011/06/10/a-quick-follow-up-on-model-binding-in-fubucore/) which explains more clearly the distinctions between ValueConverter, IPropertyBinder, and IModelBinder.
 
-**\*UPDATE\*** – 10-JUN-2011 – [Joshua Flanagan](http://joshuaflanagan.lostechies.com) pointed out, in the comments, a mistake I made about the ExpandEnvironmentVariablesAttribute.&nbsp; I’ve corrected that now. Thanks Josh!
+**\*UPDATE\*** – 10-JUN-2011 – [Joshua Flanagan](https://lostechies.com/joshuaflanagan/) pointed out, in the comments, a mistake I made about the ExpandEnvironmentVariablesAttribute.&nbsp; I’ve corrected that now. Thanks Josh!
 
 FubuCore’s model binding framework is perhaps the most substantial and compelling feature of the entire FubuCore library.&nbsp; If you haven’t cared about any of the previous six posts, you might just be interested in this one.
 

@@ -15,7 +15,7 @@ categories:
 ---
 I wanted to make some quick follow-up points to my “[Cool stuff in FubuCore No. 7: Model Binding](https://lostechies.com/chadmyers/2011/06/08/cool-stuff-in-fubucore-no-7-model-binding)” post:
 
-[Joshua Flanagan](http://joshuaflanagan.lostechies.com/) pointed out that I had an error in my description of how the ExpandEnvironmentVariablesAttribute works.&nbsp; I updated the post to correct the error, so you may want to check that out.
+[Joshua Flanagan](https://lostechies.com/joshuaflanagan/) pointed out that I had an error in my description of how the ExpandEnvironmentVariablesAttribute works.&nbsp; I updated the post to correct the error, so you may want to check that out.
 
 Also, when I wrote the post I wasn’t quite clear on the distinction among ValueConverter, IPropertyBinder, and IModelBinder.&nbsp; There appeared to be some overlap.&nbsp; After speaking with Jeremy Miller some more, he set me straight.
 
