@@ -11,6 +11,9 @@ categories:
   - Boo
 redirect_from: "/blogs/rssvihla/archive/2010/04/13/come-see-my-boo-talk-at-alamo-coders-on-the-14th.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2010/04/13/come-see-my-boo-talk-at-alamo-coders-on-the-14th.html).*
+
 UPDATE: added links for video, slides and source
 
 **S****ubject:**&nbsp;Boo: The Extensible Little Language On The CLR You&#8217;ve Never Heard Of.

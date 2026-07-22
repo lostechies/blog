@@ -11,6 +11,9 @@ categories:
   - Craftsmanship
 redirect_from: "/blogs/rssvihla/archive/2011/02/04/the-difficult-definition-of-professional-software-development.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2011/02/04/the-difficult-definition-of-professional-software-development.html).*
+
 Here are some of the contradictory phrases (and a few paraphrases) I&#8217;ve overheard used to define what is &#8220;good&#8221; and &#8220;bad&#8221; code. 
 
   * Code should always be well commented

@@ -13,6 +13,9 @@ categories:
   - Python
 redirect_from: "/blogs/rssvihla/archive/2009/07/03/python-web-framework-series-pylons-part-6-authentication-and-authorization-with-authkit.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/07/03/python-web-framework-series-pylons-part-6-authentication-and-authorization-with-authkit.html).*
+
 Last post we left off with very basic database access, and testing story completed. Now we&#8217;re going to look at basic Authorization and Authentication with AuthKit. NOTE: most of this post is just an aggregation of a couple of chapters in the [Pylons Book](http://pylonsbook.com/en/1.0/simplesite-tutorial-part-3.html) since this setup is a good base starting point. Read the previous link to the Pylons Book for more in depth coverage of this topic.&nbsp; 
 
 ### Setting Up AuthKit

@@ -10,6 +10,9 @@ dsq_thread_id:
 categories:
   - Cassandra
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2014/09/22/cassandra-query-patterns-not-using-the-in-query-for-multiple-partitions.html).*
+
 So lets say you’re doing you’re best to data model all around one partition. You’ve done your homework and all you queries look like this:
 
     SELECT * FROM my_keyspace.users where id = 1

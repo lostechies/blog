@@ -7,6 +7,9 @@ categories:
   - cassandra
 ---
 
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2020/02/03/getting-started-cassandra-part1.html).*
+
+
 This is a quick and dirty opinionated guide to setting up a Cassandra cluster with multiple data centers.
 
 ## A new cluster

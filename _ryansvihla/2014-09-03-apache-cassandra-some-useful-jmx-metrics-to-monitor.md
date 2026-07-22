@@ -13,6 +13,9 @@ tags:
   - Cassandra
   - JMX
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2014/09/03/apache-cassandra-some-useful-jmx-metrics-to-monitor.html).*
+
 This is not a complete list, but is this what I’ve typically had to look out for in the wild. There maybe some selection bias at play since once I’m involved with a cluster it’s not in a good place.
 
 <sub><strong><em>org.apache.cassandra.metrics/DroppedMessage/MUTATION/Attributes/Count</em></strong></sub>

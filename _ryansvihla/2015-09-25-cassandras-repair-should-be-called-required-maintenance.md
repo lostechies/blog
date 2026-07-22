@@ -13,6 +13,9 @@ tags:
   - Cassandra
   - cassandra repair
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2015/09/25/cassandras-repair-should-be-called-required-maintenance.html).*
+
 <p id="f577">
   <span style="font-size: 16px;">One of the bigger challenges when you go Eventually Consistent is how to reconcile data not being replicated. This happens if your using Oracle and multi-data centers with tech like Golden Gate and it happens if you’re using async replicas with MySQL and one of your replicas got out of whack. You need a way to “repair” the lost data.</span>
 </p>

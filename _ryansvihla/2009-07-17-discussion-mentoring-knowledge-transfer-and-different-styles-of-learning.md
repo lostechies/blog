@@ -11,6 +11,9 @@ categories:
   - learning
 redirect_from: "/blogs/rssvihla/archive/2009/07/16/discussion-mentoring-knowledge-transfer-and-different-styles-of-learning.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/07/17/discussion-mentoring-knowledge-transfer-and-different-styles-of-learning.html).*
+
 I&rsquo;ve been very fortunate that for most of my adult life, even before I got into tech I&rsquo;ve been &ldquo;the boss&rdquo;, and had gobs of mentoring opportunities. I enjoy it and more importantly I know I will have a greater effect for my company&#8217;s growth through teaching than I would by solely focusing on my advancement.
 
 My students have been visual learners, &ldquo;doing&rdquo; learners, audio learners, those that learn by rote memorization with photographic memories, &ldquo;theorists&rdquo; that are fascinated by the theory of things far more than the practice, and those that can&rsquo;t memorize anything unless they see an entire system in place. Each type or combination needs to have information presented in different ways.

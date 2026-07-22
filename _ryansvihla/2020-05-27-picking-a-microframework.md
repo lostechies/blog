@@ -7,6 +7,9 @@ categories:
   - cassandra
 ---
 
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2020/05/27/picking-a-microframework.html).*
+
+
 We had a "home grown" framework for a new application we're working on and the first thing I did was try and rip that out (new project so didn't have URL and parameter sanitization
 anyway to do routes, etc).
 

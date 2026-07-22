@@ -10,6 +10,9 @@ dsq_thread_id:
 categories:
   - Uncategorized
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2013/02/04/ruths-story.html).*
+
 Ruth Ann Svihla came into this world screaming and angry on October 30 2011 at 6:57 am. She was and has always been a beautiful, intelligent child that brought us a great deal of joy, but she was born with many challenges to overcome.
 
 ## Cleft

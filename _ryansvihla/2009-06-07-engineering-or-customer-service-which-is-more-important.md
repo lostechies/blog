@@ -11,6 +11,9 @@ categories:
   - lean
 redirect_from: "/blogs/rssvihla/archive/2009/06/07/engineering-or-customer-service-which-is-more-important.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/06/07/engineering-or-customer-service-which-is-more-important.html).*
+
 I&#8217;ve been reading a lot about lean/toyota way lately, mixing that with my past experience as an IT Consultant and throwing that up against a bit of an Ivory tower I fell into with XP that left me unable to deal with the following scenario:
 
 _You&#8217;re reviewing code either yours or someone elses right before release. you find the code strewn with anti-patterns and uncessary conditionals. You are due to ship tomorrow. The code works but is not maintainable, do you ship?_

@@ -11,6 +11,9 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/rssvihla/archive/2009/05/21/glad-to-be-here.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/05/21/glad-to-be-here.html).*
+
 Hi, my name is Ryan Svihla and I’m the newest member of Los Techies and I’d like to provide some background for most of you wondering “who is this guy”.
 
 I’ve recently moved to San Antonio, TX and absolutely love it here. I don’t miss the winters and humidity of the farm states where I previously lived. I greatly appreciate the local developer community and learning at the feet of people like Jasdeep, [Jason](https://lostechies.com/blogs/jason_meridth/default.aspx), [Joe](https://lostechies.com/blogs/joe_ocampo/default.aspx), [Josh](https://lostechies.com/blogs/joshua_lockwood/default.aspx), [Anne](http://devlicio.us/blogs/anne_epstein/default.aspx), [Phil](http://twitter.com/pjdennis) and many others. 

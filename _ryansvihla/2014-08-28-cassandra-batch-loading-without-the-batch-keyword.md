@@ -12,6 +12,9 @@ categories:
 tags:
   - Cassandra
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2014/08/28/cassandra-batch-loading-without-the-batch-keyword.html).*
+
 ATTENTION:
 
 _This post is intentionally simplistic to help explain tradeoffs that need to be made. If you are looking for some production level nuance go [read this afterwords.](https://lostechies.com/ryansvihla/?p=334)_

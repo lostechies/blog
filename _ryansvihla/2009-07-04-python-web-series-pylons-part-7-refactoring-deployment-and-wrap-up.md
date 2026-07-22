@@ -13,6 +13,9 @@ categories:
   - Python
 redirect_from: "/blogs/rssvihla/archive/2009/07/04/python-web-series-pylons-part-7-refactoring-deployment-and-wrap-up.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/07/04/python-web-series-pylons-part-7-refactoring-deployment-and-wrap-up.html).*
+
 Lets take a look at our existing site and what we can do to clean it up and add some badly needed functionality, however that is beyond the scope of my series. So I&rsquo;m going to leave some hints for the remaining functionality to get you started.
 
 ### Refactoring Ideas

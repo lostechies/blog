@@ -11,6 +11,9 @@ categories:
   - Cassandra
   - Java
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2016/04/29/cassandra-batch-loading-without-the-batch-the-nuanced-edition.html).*
+
 <p id="f7a7">
   My <a href="https://lostechies.com/ryansvihla/2014/08/28/cassandra-batch-loading-without-the-batch-keyword/" data-href="https://medium.com/@foundev/cassandra-batch-loading-without-the-batch-keyword-40f00e35e23e#.onf6o98p8">previous post on this subject</a> has proven extraordinarily popular and I get commentary on it all the time, most of it quite good. It has however, gotten a decent number of comments from people quibbling with the nuance of the post and pointing out it’s failings, which is fair because I didn’t explicitly spell this out as a “framework of thinking” blog post or a series of principles to consider. This is the tension between making something approachable and understandable to the new user but still technically correct for the advanced one. Because of where Cassandra was at the time and the user base I was encountering day to day, I took the approach of simplification for the sake of understanding.
 </p>

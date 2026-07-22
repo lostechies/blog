@@ -11,6 +11,9 @@ categories:
   - MySQL
 redirect_from: "/blogs/rssvihla/archive/2010/07/01/mysql-5-performance-tuning-toolkit.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2010/07/02/mysql-5-performance-tuning-toolkit.html).*
+
 Recently we’d played with table partitioning and because of the limitations of it and some decisions we’d made a very long time ago we ended up spending a couple of days tracking down hotspots. In the process I picked up a few tricks, I’m not even an authority on any of this but I figured it’d help out others in the same spot.
 
 ### Logging Toolkit

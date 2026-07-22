@@ -12,6 +12,9 @@ categories:
   - Hudson
 redirect_from: "/blogs/rssvihla/archive/2010/04/14/hudson-ci-server-setting-up-remote-slaves-and-restrictive-security-together.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2010/04/14/hudson-ci-server-setting-up-remote-slaves-and-restrictive-security-together.html).*
+
 ### <font color="#ff0000">NOTE: this applies to Hudson version 1.352</font>
 
 Ok so yesterday I was setting up a publicly accessible build server, that was not to be viewable to anonymous sources. So I configured Hudson to “matrix security” and disallowed all access to anonymous see fig 1-1.However, once I did this my slaves stopped working entirely.&#160; Now I could have allowed some anonymous access but here was the long sought for trick.

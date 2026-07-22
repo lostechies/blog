@@ -7,6 +7,9 @@ categories:
   - cassandra
 ---
 
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2020/02/04/getting-started-cassandra-part-2.html).*
+
+
 An opinionated guide on the "correct" way to load test Cassandra. I'm aiming to keep this short so I'm going to leave out a _lot_ of the nuance that one would normally get into when talking about load testing cassandra.
 
 ## If you have no data model in mind

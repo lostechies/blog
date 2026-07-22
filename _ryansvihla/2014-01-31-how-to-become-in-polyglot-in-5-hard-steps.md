@@ -10,6 +10,9 @@ dsq_thread_id:
 categories:
   - learning
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2014/01/31/how-to-become-in-polyglot-in-5-hard-steps.html).*
+
 With today&#8217;s world of programming languages where many languages are better at certain tasks than other&#8217;s you&#8217;ll find it useful to learn multiple languages over the course of your career (as well as keeping your skill sets current).
 
 Here are some tips I&#8217;ve had to learn the hard way:

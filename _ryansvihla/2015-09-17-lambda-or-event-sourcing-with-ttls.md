@@ -17,6 +17,9 @@ tags:
   - Event Sourcing
   - Lambda
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2015/09/17/lambda-or-event-sourcing-with-ttls.html).*
+
 <p id="bdaf">
   <span style="font-size: 16px;">Some people are worried about the data volume that a strategy like Lambda+ or Event Sourcing implies. As a disclaimer,</span><em style="font-size: 16px;"> by giving up the historical data you have, you risk losing useful data layer and you lose the ability to have bi-temporal data or go back in time. </em><span style="font-size: 16px;">However, if you still don’t care about that, please continue reading.</span>
 </p>

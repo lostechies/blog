@@ -13,6 +13,9 @@ categories:
   - SOLID
 redirect_from: "/blogs/rssvihla/archive/2009/11/19/take-2-why-we-use-solid-in-static-languages-and-how-we-get-the-same-functionality-for-cheap-in-dynamic-languages.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/11/19/take-2-why-we-use-solid-in-static-languages-and-how-we-get-the-same-functionality-for-cheap-in-dynamic-languages.html).*
+
 One of the things we do pretty well at Los Techies is explaining SOLID principles and why they make our code more maintainable and if you’re not familiar with our work on SOLID,&#160; read <a href="https://lostechies.com/blogs/chad_myers/archive/2008/03/07/pablo-s-topic-of-the-month-march-solid-principles.aspx" target="_blank">Chad Meyer&#8217;s post</a> to get an understanding on the Los Techies perspective. Now that you’ve taken a bit of time to read that the following chart takes SOLID’s benefits and then shows how they apply to dynamic languages:
 
 &#160;

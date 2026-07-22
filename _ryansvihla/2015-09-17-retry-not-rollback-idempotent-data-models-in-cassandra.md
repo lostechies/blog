@@ -10,6 +10,9 @@ dsq_thread_id:
 categories:
   - Cassandra
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2015/09/17/retry-not-rollback-idempotent-data-models-in-cassandra.html).*
+
 ###  {#737a}
 
 ### Naive Consistency {#d037}

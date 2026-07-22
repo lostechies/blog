@@ -13,6 +13,9 @@ categories:
   - TDD
 redirect_from: "/blogs/rssvihla/archive/2009/08/14/hero-mode-refactoring-aka-enemy-of-brown-field-development.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/08/14/hero-mode-refactoring-aka-enemy-of-brown-field-development.html).*
+
 What do I mean by “Hero Mode Refactoring”?&#160; We’ve all worked with code that wasn’t easily made testable. Most of the time we see a big ball of mud and have no idea where to begin. Sometimes however we have an epiphany, a \_great\_idea_ , a “cold fusion” moment (that ends up being poignant in so many ways).&#160; 
 
 Filled with the excitement of our vision we dive head long into our work, replacing concrete classes with interfaces, removing big swaths of redundant code, and in general making changes you should only make with a an already unit tested code base.&#160; Before we know it, 5 things are broken in weird ways, and it now takes us days of manual verification to figure out what works and what doesn’t.&#160; That is hero mode refactoring at its best.

@@ -7,6 +7,9 @@ categories:
   - cassandra
 ---
 
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2020/02/05/getting-started-cassandra-part-3.html).*
+
+
 Cassandra data modeling isn't really something you can do "in the brief" and is itself a subject that can take years to fully grasp, but this should be a good starting point.
 
 ## Introduction

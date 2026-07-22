@@ -11,6 +11,9 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/rssvihla/archive/2010/05/22/projects-in-java-with-maven-2.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2010/05/23/projects-in-java-with-maven-2.html).*
+
 NOTE: due to issues with spam I’ve turned off comments, I’ve cross posted on my [old blogger account](http://ryansvihla.blogspot.com/2010/05/projects-in-java-with-maven-2.html) if you have comments.
 
 For those of you who don’t know Maven is a build tool/dependency manager/project model. Those in the Microsoft space can probably imagine MSBuild + the ability to download all dll’s for you.

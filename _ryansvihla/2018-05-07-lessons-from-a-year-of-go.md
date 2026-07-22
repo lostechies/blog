@@ -6,6 +6,9 @@ layout: post
 categories:
   - Golang
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2018/05/07/lessons-from-a-year-of-go.html).*
+
 I’m hoping to share in a non-negative way help others avoid the pitfalls I ran into with my most recent work building infrastructure software on top of a Kubernetes using Go, it sounded like an awesome job at first but I ran into a lot of problems getting productive. 
 
 This isn’t meant to evaluate if you should pick up Go or tell you what you should think of it, this is strictly meant to help people out that are new to the language but experienced in Java, Python, Ruby, C#, etc and have read some basic Go getting started guide.

@@ -14,6 +14,9 @@ tags:
   - Cassandra
   - Spark
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2016/04/07/logging-the-generated-cql-from-the-spark-cassandra-connector.html).*
+
 <p id="b9fd">
   This has come up some in the last few days so I thought I’d share the available options and the tradeoffs.
 </p>

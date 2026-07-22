@@ -10,6 +10,9 @@ dsq_thread_id:
 categories:
   - Cassandra
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2015/09/17/datastax-a-love-letter.html).*
+
 <p id="19c9">
   Today is my last day at DataStax and what an amazing ride it was. This is easily the best job and the best group of people I’ve ever worked with and I’m very sad to go, but I had an opportunity I could not pass up.
 </p>

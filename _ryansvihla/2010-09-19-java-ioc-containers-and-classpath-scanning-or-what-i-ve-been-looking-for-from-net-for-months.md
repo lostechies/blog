@@ -13,6 +13,9 @@ categories:
   - Spring
 redirect_from: "/blogs/rssvihla/archive/2010/09/19/java-ioc-containers-and-classpath-scanning-or-what-i-ve-been-looking-for-from-net-for-months.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2010/09/19/java-ioc-containers-and-classpath-scanning-or-what-i-ve-been-looking-for-from-net-for-months.html).*
+
 Frustrated with the typical way I saw IoC used in Java where every example I found involved thousands of lines of XML   
 and/or Java code to configure Java beans or components.&#160; This is very different than IoC typically used in .NET where most IoC containers allow   
 you to "autowire" in their terminology up every class in an assembly with a couple of lines of code.&#160; Having been coding in that fashion   

@@ -15,6 +15,9 @@ tags:
   - Scala
   - Spark
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2016/04/09/reflection-scala-2-10-and-spark-weird-errors-when-saving-to-cassandra.html).*
+
 <p id="d1a6">
   This originally started with this <a href="http://stackoverflow.com/questions/35024274/java-io-invalidclassexception-org-apache-spark-sql-types-timestamptype-and-java/35187029#35187029" rel="nofollow" data-href="http://stackoverflow.com/questions/35024274/java-io-invalidclassexception-org-apache-spark-sql-types-timestamptype-and-java/35187029#35187029">SO question</a>, and I’ll be honest I was flummoxed for a couple of days looking at this (in no small part because the code was doing a lot). But at some point I was able to isolate all issues down to dataFrame.saveToCassandra. Every 5 or so runs I’d get one or two errors:
 </p>
