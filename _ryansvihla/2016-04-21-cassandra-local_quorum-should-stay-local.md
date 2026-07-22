@@ -10,6 +10,9 @@ dsq_thread_id:
 categories:
   - Cassandra
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2016/04/21/cassandra-local_quorum-should-stay-local.html).*
+
 <p id="0479">
   A couple of times a week I get a question where someone wants to know how to “failover” to a remote DC in the driver if the local Cassandra DC fails or even if there is only a couple of nodes in the local data center that are down.
 </p>

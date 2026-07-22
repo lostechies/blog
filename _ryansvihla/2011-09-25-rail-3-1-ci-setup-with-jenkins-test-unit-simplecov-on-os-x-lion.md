@@ -11,6 +11,9 @@ categories:
   - CI
   - Rails
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2011/09/25/rail-3-1-ci-setup-with-jenkins-test-unit-simplecov-on-os-x-lion.html).*
+
 I recently had to setup a build server for some rails work I&#8217;m doing. Still wanting to support my other projects I setup Jenkins. I ran into several issues.
 
 ## Running Jenkins as a hidden user

@@ -13,6 +13,9 @@ tags:
   - Cassandra
   - Sizing
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2015/09/17/data-density-destroyer-of-scalability.html).*
+
 <p id="3e0f">
   <em style="font-size: 16px;">UPDATE: I’d incorrectly attributed a practice to Netflix about scaling down daily . I cannot find any reference to using today, and I’ve been unable to find the previous reference to it. So I’ve just removed the point. I’ll cover cluster scaling strategies later in another blog post. TLDR smaller nodes are easier to scale.</em>
 </p>

@@ -15,6 +15,9 @@ tags:
   - Spark
   - Spark Streaming
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2015/09/17/real-time-analytics-with-spark-streaming-and-cassandra.html).*
+
 <p id="2c8c">
   <a style="font-size: 16px;" href="http://spark.apache.org/streaming/" rel="nofollow" data-href="http://spark.apache.org/streaming/">Spark Streaming</a><span style="font-size: 16px;"> is a good tool to roll up transactions data into summaries as they enter the system. When paired with an easily idempotent data store like Cassandra you get a high performance low hassle approach to getting your work done.</span>
 </p>

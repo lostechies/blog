@@ -11,6 +11,9 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/rssvihla/archive/2010/06/26/hibernate-connection-pooling-why-is-the-default-one-for-production.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2010/06/26/hibernate-connection-pooling-why-is-the-default-one-for-production.html).*
+
 Hibernate unlike NHibernate comes with a variety of connection pooling options. The three primary ones of which I&#8217;m aware are [Proxool](http://proxool.sourceforge.net/), [Apache DBCP](http://commons.apache.org/dbcp/), and [c3p0](http://sourceforge.net/projects/c3p0/) . I myself have only so far used c3p0 and it works quite well having saved me from a couple of jams so far where the default one was in use previously. First why not use the default one? Because the official Hibernate documentation says in a big yellow box marked caution the following words:
 
 <span style="font-family: 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;color: #533500;line-height: 18px"></span>

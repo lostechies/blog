@@ -13,6 +13,9 @@ categories:
   - SqlAlchemy
 redirect_from: "/blogs/rssvihla/archive/2009/07/02/python-web-framework-series-pylons-part-5-testing-models.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/07/02/python-web-framework-series-pylons-part-5-testing-models.html).*
+
 UPDATE: was an error caught by Govind (who is turning out to be my unofficial proofreader). I&#8217;ve made a correction in the thread mapping for &#8220;dateadded&#8221; property in the _previous_ article. If this you are caught up with and _error indicating there is no dateadded property on thread_ make sure to edit your **model\_\_init\_\_.py** file to match the previous article and rebuild your db so that everything is happy. Please bear with me as I hone my tutorial writing skill set.
 
 When we last left of with our Pylons forum we had a had just successfully created a post, and then could immediately retrieve that same post. However, we kind of skimped on the testing story so lets fill in the gaps and do some refactoring as a bonus.

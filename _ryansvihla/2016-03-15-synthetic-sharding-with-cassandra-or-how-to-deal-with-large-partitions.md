@@ -12,6 +12,9 @@ categories:
 tags:
   - Cassandra
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2016/03/15/synthetic-sharding-with-cassandra-or-how-to-deal-with-large-partitions.html).*
+
 <div>
   <p id="67ee">
     Extremely overdue that I write this down as it’s a common problem, and really applies to any database that needs to scale horizontally, not just Cassandra.

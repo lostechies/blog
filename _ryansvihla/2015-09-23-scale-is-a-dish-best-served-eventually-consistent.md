@@ -14,6 +14,9 @@ tags:
   - Cassandra
   - Distributed
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2015/09/23/scale-is-a-dish-best-served-eventually-consistent.html).*
+
 <p id="6c7d">
   <span style="font-size: 16px;">A lot of people new to Cassandra find the data modeling required tedious and outrageously hard. They’ll long for their RDMBS, if only </span><strong style="font-size: 16px;">i<em>nsert favorite vendor or project lead here</em></strong><span style="font-size: 16px;"> would make their RDBMS scale like Cassandra they could tell their bosses to shove off and go back to using their favorite tool. To people saying this (and I hear the echos of it in conversations often), I’ve got news for you, the problem isn’t Cassandra or your favorite tool, it’s your style of data modeling.</span>
 </p>

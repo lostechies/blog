@@ -13,6 +13,9 @@ tags:
   - Oracle
   - Spark
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2016/04/10/connection-to-oracle-from-spark.html).*
+
 <p id="9b2b">
   For some silly reason there is a has been a fair amount of difficulty in reading and writing to Oracle from Spark when using DataFrames.
 </p>

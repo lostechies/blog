@@ -11,6 +11,9 @@ categories:
   - Anti-Patterns
 redirect_from: "/blogs/rssvihla/archive/2010/07/15/anti-pattern-too-much-of-your-application-is-about-interacting-with-external-resources.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2010/07/16/anti-pattern-too-much-of-your-application-is-about-interacting-with-external-resources.html).*
+
 Firstly, what am I talking about? Applications that meet some of the following descriptions:
 
   1. Stored procedures with a fair amount of conditional logic or complicated business rules buried in a sub-query (some would argue sprocs at all).

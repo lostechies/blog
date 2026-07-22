@@ -12,6 +12,9 @@ categories:
 tags:
   - Cassandra
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2014/11/25/my-cassandra-diagnostics-checklist-brain-dump.html).*
+
 UPDATE:
   
 This list needs to be updated and as of today only has been verified with Cassandra 2.0.

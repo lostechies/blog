@@ -15,6 +15,9 @@ tags:
   - Cassandra
   - Spark
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2016/04/05/spark-job-that-writes-to-cassandra-just-hangs-when-one-node-goes-down.html).*
+
 ### <span style="font-size: 16px;">So this was hyper obvious once I saw the executor logs and the database schema, but this had me befuddled at first and the change in behavior with one node should have made it obvious.</span> {#23da}
 
 <p id="f2c8">

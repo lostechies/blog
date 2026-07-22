@@ -11,6 +11,9 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/rssvihla/archive/2009/06/22/python-web-framework-series.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/06/22/python-web-framework-series.html).*
+
 I&rsquo;ve wanted to dive more in depth into Python&rsquo;s web frameworks for some time and get to know them the way I know Castle Monorail.&nbsp;&nbsp; 
 
 What better way to learn something in depth than to have to know it well enough to show to someone else.&nbsp; Therefore, I plan on posting a relatively in depth walkthrough of Pylons (and if the interest is there Django and Turbogears as well). 

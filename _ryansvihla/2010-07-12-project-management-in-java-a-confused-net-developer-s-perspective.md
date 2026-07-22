@@ -14,6 +14,9 @@ categories:
   - MSBuild
 redirect_from: "/blogs/rssvihla/archive/2010/07/12/project-management-in-java-a-confused-net-developer-s-perspective.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2010/07/12/project-management-in-java-a-confused-net-developer-s-perspective.html).*
+
 When I was first introduced to workplace Java the amount of ways one could define a project appeared to be restrictive, confusing and a point of frequent friction. While those things may all be true, it’s a great deal better than I would have expected since I was coming from a world where an upgrade to a newer version of Visual Studio requires your whole team to sync up to that same version!&#160; So how do cross IDEA teams get any work done in the Java workplace? Do Java OSS projects require everyone uses Eclipse, NetBeans, or IntelliJ?&#160; Does every new IDE need to have import/export filters for all of the other existing ones and if it becomes popular do the already present IDE’s have to include this? Which system is the best and what matters?
 
 To answer these questions let break down what makes a project and while doing so compare and contrast the Java perspective with the .NET one.

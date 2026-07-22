@@ -6,6 +6,9 @@ layout: post
 categories:
   - Software
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2018/12/20/mvp-how-minimal.html).*
+
 MVPs or Minimum Viable Products are pretty contentious ideas for something seemingly simple. Depending on background and where pepole are coming from experience wise those terms carry radically different ideas.
 In recent history I've seen up close two extreme constrasting examples of MVP:
 

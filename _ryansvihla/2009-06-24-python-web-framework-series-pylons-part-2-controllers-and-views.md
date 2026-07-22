@@ -12,6 +12,9 @@ categories:
   - Python
 redirect_from: "/blogs/rssvihla/archive/2009/06/24/python-web-framework-series-pylons-part-2-controllers-and-views.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/06/24/python-web-framework-series-pylons-part-2-controllers-and-views.html).*
+
 We last left off with <a target="_blank" href="/blogs/rssvihla/archive/2009/06/23/python-web-framework-series-pylons-part-1-getting-started.aspx">Getting Started</a> and having created our &ldquo;pylonsforum&rdquo; project and generated our first controller.
 
 Source for home.py

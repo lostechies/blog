@@ -7,6 +7,9 @@ categories:
   - Golang
 ---
 
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2018/12/13/surprise-go-is-ok.html).*
+
+
 I'm surprised to say this. I am ok using Go now. It's not my style, but I can build almost anything I want to with it, and the tooling around it continues to improve.
 
 About seven months ago, I wrote about all the things I didn't care for in Go and now I either no longer am so bothered by it, or things have improved.

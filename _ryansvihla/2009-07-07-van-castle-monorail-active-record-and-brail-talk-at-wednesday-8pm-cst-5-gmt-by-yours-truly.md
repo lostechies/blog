@@ -12,6 +12,9 @@ categories:
   - VAN
 redirect_from: "/blogs/rssvihla/archive/2009/07/07/van-castle-monorail-active-record-and-brail-talk-at-wednesday-8pm-cst-5-gmt-by-yours-truly.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/07/07/van-castle-monorail-active-record-and-brail-talk-at-wednesday-8pm-cst-5-gmt-by-yours-truly.html).*
+
 Last week I did a talk on Windsor and it went..ok. I’m not used to online presentations and am more experienced in front of crowds that I can interact with.
 
 So between last week’s experience and some advice from <a href="https://lostechies.com/blogs/joe_ocampo/" target="_blank">Agile Joe</a> this talk I’ll be aiming for more of a screen cast feel.&#160; The talk should go for close to an hour and will be open for questions afterword.

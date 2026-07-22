@@ -15,6 +15,9 @@ tags:
   - Lambda
   - Spark
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2015/09/17/lambda-cassandra-and-spark-for-scalable-architecture.html).*
+
 <p id="6964">
   <em style="font-size: 16px;">UPDATE: For some background on Spark Streaming and Cassandra please consult some of my previous </em><a style="font-size: 16px;" href="https://medium.com/@foundev/real-time-analytics-with-spark-streaming-and-cassandra-2f90d03342f7" data-href="https://medium.com/@foundev/real-time-analytics-with-spark-streaming-and-cassandra-2f90d03342f7"><em>blog post on the subject</em></a><em style="font-size: 16px;">.</em>
 </p>

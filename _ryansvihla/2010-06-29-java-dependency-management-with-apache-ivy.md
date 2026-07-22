@@ -11,6 +11,9 @@ categories:
   - Uncategorized
 redirect_from: "/blogs/rssvihla/archive/2010/06/29/java-dependency-management-with-apache-ivy.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2010/06/29/java-dependency-management-with-apache-ivy.html).*
+
 Not wanting to ditch your already built well working ant scripts for the plugin-centric view of Maven, especially if your project structure doesn&#8217;t line up quite right with Maven&#8217;s point of view? Enter Apache Ivy which like Maven can automatically download and resolve all of your dependencies and their dependencies for you with just a few simple lines of XML (if only I could get rid of the XML Part).
 
 <span style="font-size: 14px;font-weight: bold">Pros</span>

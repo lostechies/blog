@@ -12,6 +12,9 @@ categories:
   - Python
 redirect_from: "/blogs/rssvihla/archive/2009/06/23/python-web-framework-series-pylons-part-1-getting-started.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/06/23/python-web-framework-series-pylons-part-1-getting-started.html).*
+
 This article assumes you have <a target="_blank" href="http://www.python.org/download/">Python 2.6</a> and <a target="_blank" href="http://pypi.python.org/pypi/setuptools">Setuptools</a> already installed on your machine and that you&rsquo;re install SQL Alchemy 0.54 and Pylons 0.97
 
 ### Overview

@@ -11,6 +11,9 @@ categories:
   - ALT.NET
 redirect_from: "/blogs/rssvihla/archive/2009/09/13/alt-net-evangelism-and-what-we-could-do-better.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/09/14/alt-net-evangelism-and-what-we-could-do-better.html).*
+
 If we assume our goal as the Alt.Net community is to improve software development as a whole, we&#8217;re doing a pretty bad job. &nbsp;Not that many people have even heard of the concepts we espouse, and those that have but didn&#8217;t convert become hostile to our ideas.&nbsp;
 
 My theory is because we focus so much on things that at the surface seem extraordinarily complex. Our terminology while correct, is acryonym laden and hard to grasp the real meaning. We ourselves sometimes lose site of why we even care about some of those principles, why we enacted them in the first place and what pain they caused to begin with. &nbsp;

@@ -12,6 +12,9 @@ categories:
   - lean
 redirect_from: "/blogs/rssvihla/archive/2009/07/12/lessons-from-my-first-attempt-at-bringing-agile-into-a-non-agile-shop.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/07/12/lessons-from-my-first-attempt-at-bringing-agile-into-a-non-agile-shop.html).*
+
 Since I’m moving on from my current employer I figure now is a great time to share my post-mortem of my time there, specifically what worked, what didn’t and what did I learn.
 
 ### 

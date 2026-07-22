@@ -14,6 +14,9 @@ categories:
   - learning
 redirect_from: "/blogs/rssvihla/archive/2009/09/01/playing-with-haskell.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/09/02/playing-with-haskell.html).*
+
 My tech book club is starting to look at Haskell. I&#8217;m as big of a language addict as anyone so I wanted to dive in early and this is the overview of what I&#8217;ve found so far
 
 ### Statically Typed But Dynamically Inferred

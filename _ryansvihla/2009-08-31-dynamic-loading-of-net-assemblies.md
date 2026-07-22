@@ -13,6 +13,9 @@ categories:
   - Hate
 redirect_from: "/blogs/rssvihla/archive/2009/08/31/dynamic-loading-of-net-assemblies.aspx/"
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2009/08/31/dynamic-loading-of-net-assemblies.html).*
+
 Problem: You have dependencies which can be in a number of directories outside of the directory your app is running in. DotNet AppDomains are heavy to say the least and very high in ceremony.&#160; You do not want to deal with secondary app domain creation.
 
 Solution: Override&#160; AssemblyResolve event on your current app domain.

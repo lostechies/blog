@@ -16,6 +16,9 @@ tags:
   - Distributed
   - Idempotent
 ---
+
+*If any code snippets or content appear broken or missing, you can find this same post with its full content at [blog.foundev.pro](https://blog.foundev.pro/2015/09/17/event-sourcing-and-system-of-record-sane-distributed-development-in-the-modern-era-2.html).*
+
 ## <span style="font-size: 16px;">No matter the message queue or broker you rely on whether it be RabbitMQ, JMS, ActiveMQ, Websphere, MSMQ and yes even Kafka you can lose messages in any of the following ways:</span> {#8e26}
 
 <li id="636e">
