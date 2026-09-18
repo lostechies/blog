@@ -54,6 +54,8 @@ A few notes on why it looks like that:
 
 This gets you maybe 70% of the way there. The rest you do it live.
 
+![We'll do it live](/content/ryansvihla/uploads/2026/09/do-it-live.gif)
+
 ## Simplify, simplify, simplify
 
 Even with the CLAUDE.md in place it'll drift back into long confusing answers, especially when the question has any nuance to it. If I do not understand what it is saying, or there are too many conflicting items in the response, I tell it to simplify and repeat until it is down to the level of directness I actually need. Some real prompts from my history:
