@@ -275,6 +275,18 @@ p {
 }
 
 /*
+ * Soft-wrap code blocks. Long lines in config files and prose-like snippets
+ * were being cut off at the right edge of the block; wrapping keeps them
+ * readable without horizontal scrolling. overflow-wrap covers tokens with no
+ * break opportunity of their own, like long URLs.
+ */
+pre,
+.highlight pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+/*
  * GDPR cookie/analytics consent banner. Hidden by default via the [hidden]
  * attribute; consent.js shows it when no choice is recorded and an
  * analytics ID is configured.
