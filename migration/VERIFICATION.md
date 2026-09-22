@@ -54,6 +54,23 @@ whitespace inside these elements is insignificant, so rendering is unchanged).
   absolute URLs to long-gone dasBlog/WordPress pages, and a few protocol-relative
   external links.
 
+## Build-output checks — `scripts/verify_build.sh`
+
+The content diff above only compares rendered post HTML, which missed three
+regressions in the first pass of this migration: Liquid tags left in
+`static/assets/js/*.js` (a JS syntax error that broke the home page loader),
+Hugo's `<no value>` placeholder in the templated `collections.js`, and one
+`{% gist %}` tag that the migration script failed to convert. `scripts/verify_build.sh`
+now runs in the PR build workflow (`.github/workflows/build.yaml`) and fails on:
+
+- `<no value>` anywhere in the output
+- unrendered `{{`/`{%` in JS/JSON/XML
+- unconverted `{% gist` in HTML
+- JavaScript under `assets/js/` that fails `node --check`
+- JSON endpoints that fail to parse
+
+Run locally with `hugo && scripts/verify_build.sh public`.
+
 ## Date handling
 
 Jekyll rendered permalink date tokens in the **build machine's local timezone**;

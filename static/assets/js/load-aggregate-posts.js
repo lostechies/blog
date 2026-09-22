@@ -35,8 +35,7 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
 
         box.classList.add("box");
 
-        {% if jekyll.environment == "development" %}var isDevelopment = 1;{% endif %}
-        var siteRegEx = new RegExp('{{site.identifier}}');
+        var siteRegEx = new RegExp('https*://lostechies.com');
         if (!post.link.match(siteRegEx)) {
          postIsLocal = false;
         }
@@ -62,7 +61,7 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
             var re = new RegExp(col.postIdentifier, 'g');
             return col.postIdentifier && post.link.match(re);
           } else {
-            var regex = new RegExp('{{site.identifier}}/' + col.label);
+            var regex = new RegExp('https*://lostechies.com/' + col.label);
             return post.link.match(regex);
           }
         });
@@ -109,4 +108,3 @@ function loadAggregatePosts(elementId, feed, loadFullText, collection) {
     });
   }
 }
-

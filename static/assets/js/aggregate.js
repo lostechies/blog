@@ -45,7 +45,7 @@ function loadPost(id) {
 
     //box.classList.add("box");
 
-    if (!post.link.startsWith("{{site.url}}")) {
+    if (!post.link.startsWith("https://lostechies.com")) {
       external.style.color = "blue";
       external.style.position = "relative";
       external.style.float = "right";
@@ -80,4 +80,3 @@ function loadPost(id) {
     append(postDiv, box);
   });
 }
-

@@ -20,7 +20,7 @@ function loadRecentPosts(elementId) {
         var li = createNode('li'),
             anchor = createNode('a'),
             span = createNode('span');
-        if (post.link.startsWith("{{site.url}}")) {
+        if (post.link.startsWith("https://lostechies.com")) {
           anchor.href = post.link;
         } else {
           var collection = collections.find(function (col) {
@@ -44,4 +44,3 @@ function loadRecentPosts(elementId) {
     });
   }
 }
-

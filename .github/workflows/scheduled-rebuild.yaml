@@ -11,5 +11,6 @@ jobs:
   rebuild:
     uses: ./.github/workflows/deploy.yaml
     permissions:
+      contents: read # Clone the repository (required by the reusable workflow's build job)
       pages: write # Deploy to Pages
       id-token: write # Verify the deployment origin

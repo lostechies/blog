@@ -98,7 +98,7 @@ def transform_body(body, report, source, flagged)
   # jekyll-gist cache-busting arg (bump=N) has no Hugo gist-shortcode equivalent: drop it.
   body = body.gsub(/(\{%\s*gist\s+[a-f0-9]+)\s+bump=\d+(\s*%\})/) do
     n_gists += 1
-    "#{$1}#{$3}"
+    "#{$1}#{$2}"
   end
   body = body.gsub(/\{%\s*gist\s+id=([a-f0-9]+)\s+([^\s%]+)\s*%\}/) do
     n_gists += 1
