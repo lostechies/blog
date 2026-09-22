@@ -1,8 +1,6 @@
-name: Build Jekyll Site
+name: Build Hugo Site
 
 on:
-  push:
-    branches: [main]
   pull_request:
     branches: [main]
 
@@ -26,10 +24,10 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: ruby/setup-ruby@a0102e0972be65f351c307e2d64b9314a57c8073 # v1.324.0
+      - uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78 # v3.2.1
         with:
-          ruby-version: "3.3.10"
-          bundler-cache: true
+          hugo-version: '0.166.0'
+          extended: true
 
-      - name: Build Jekyll site
-        run: bundle exec jekyll build
+      - name: Build Hugo site
+        run: hugo --destination public

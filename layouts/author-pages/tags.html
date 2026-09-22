@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{/* Port of _includes/author_tags.html: tag groups with counts and post lists */}}
+{{ $posts := where site.RegularPages "Section" .Section }}
+{{ $posts = where $posts "Type" "!=" "author-pages" }}
+
+{{ $tags := slice }}
+{{ range $posts }}{{ with .Params.tags }}{{ range . }}{{ $tags = $tags | append . }}{{ end }}{{ end }}{{ end }}
+{{ $sorted := sort $tags }}
+{{ $uniq := slice }}
+{{ range $sorted }}{{ if not (in $uniq .) }}{{ $uniq = $uniq | append . }}{{ end }}{{ end }}
+
+{{ range $tag := $uniq }}
+  {{ $count := 0 }}
+  {{ range $sorted }}{{ if eq . $tag }}{{ $count = add $count 1 }}{{ end }}{{ end }}
+  <h2>{{ $tag }} ({{ $count }})</h2>
+  <ul>
+  {{ range $posts }}
+    {{ if in .Params.tags $tag }}
+      <li><a href="{{ .RelPermalink }}"><span class="archive-entry">{{ .Title }}</span></a></li>
+    {{ end }}
+  {{ end }}
+  </ul>
+  <hr/>
+{{ end }}
+{{ end }}

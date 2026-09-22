@@ -1,0 +1,18 @@
+---
+wordpress_id: 6
+title: ¡Hola, Mundo!
+date: 2010-03-26T17:16:00+00:00
+author: Derek Greer
+wordpress_guid: /blogs/derekgreer/archive/2010/03/26/161-hola-mundo.aspx
+dsq_thread_id: "271021417"
+categories:
+  - Uncategorized
+aliases: "/blogs/derekgreer/archive/2010/03/26/161-hola-mundo.aspx/"
+---
+I&#8217;m excited and honored to have been invited to join Los Techies!
+
+A bit about me &#8211; I&#8217;m a software developer currently working in the beautiful Nashville Tennessee area and aspire toward software craftsmanship.&nbsp; My professional career has been a journey from Unix C & shell-scripting to Unix C-CGI with a tad bit of C++ to Java and most recently to .Net development in C#.
+
+I look forward to being able to contribute to the content here at Los Techies, but until I have some posts of substance, you can peruse my previous articles over at <http://aspiringcraftsman.com>.
+
+Stay tuned &#8230;

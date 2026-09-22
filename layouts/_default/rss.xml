@@ -1,0 +1,49 @@
+{{/* Port of Jekyll feed.xml (jekyll-feed template) — Atom feed, latest 10 posts */}}
+{{- "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://gohugo.io/" version="{{ hugo.Version }}">Hugo</generator>
+  <link href="{{ site.BaseURL }}feed.xml" rel="self" type="application/atom+xml" />
+  <link href="{{ site.BaseURL }}" rel="alternate" type="text/html" />
+  <updated>{{ now | time.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+  <id>{{ site.BaseURL | htmlEscape }}</id>
+
+  {{ with site.Title }}
+    <title type="html">{{ . | htmlEscape }}</title>
+  {{ end }}
+
+  {{ if site.Params.description }}
+    <subtitle>{{ site.Params.description | htmlEscape }}</subtitle>
+  {{ end }}
+
+  {{ $posts := where site.RegularPages "Type" "!=" "author-pages" }}
+  {{ $posts = where $posts "Section" "!=" "" }}
+  {{ $posts = sort $posts "Date" "desc" }}
+  {{ range first 10 $posts }}
+    <entry>
+      <title type="html">{{ .Title | htmlEscape }}</title>
+      <link href="{{ .Permalink }}" rel="alternate" type="text/html" title="{{ .Title | htmlEscape }}" />
+      <published>{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}</published>
+      <updated>{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+      <id>{{ .Permalink | htmlEscape }}</id>
+      <content type="html" xml:base="{{ .Permalink | htmlEscape }}">{{ htmlEscape (strings.TrimSpace .Content) }}</content>
+
+      {{ with .Params.author }}
+      <author>
+          <name>{{ . | htmlEscape }}</name>
+      </author>
+      {{ end }}
+
+      {{ with .Params.category }}
+        <category term="{{ . | htmlEscape }}" />
+      {{ end }}
+
+      {{ range .Params.tags }}
+        <category term="{{ . | htmlEscape }}" />
+      {{ end }}
+
+      {{ with .Params.excerpt }}
+        <summary type="html">{{ . | plainify | htmlEscape }}</summary>
+      {{ end }}
+    </entry>
+  {{ end }}
+</feed>

@@ -1,0 +1,14 @@
+{{/* Port of data/authors.json (Jekyll Liquid-generated) — consumed by load-authors.js */}}
+{
+    "authors": [
+{{ $labels := slice }}
+{{ range $label, $author := site.Params.authors }}{{ $labels = $labels | append $label }}{{ end }}
+{{ range $i, $label := sort $labels }}
+      {
+        "url": "/{{ $label }}",
+        "name": "{{ index site.Params.authors $label "author" }}",
+        "active": "{{ index site.Params.authors $label "active" }}"
+      }{{ if lt $i (sub (len $labels) 1) }},{{ end }}
+{{ end }}
+    ]
+}

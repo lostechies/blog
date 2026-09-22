@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="box">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <span class="post-meta">{{ .Date | time.Format "2 January, 2006. It was a Monday." }} <a style="color:grey" href="#disqus_thread"></a></span><hr/>
+
+    <span class="post-text">{{ .Content }}</span>
+</div>
+
+{{ partial "post_nav.html" . }}
+
+{{/* Archived static comments (generated from Disqus export via scripts/import_disqus_comments.rb) */}}
+{{ with index hugo.Data.comments .Section }}
+  {{ with index . $.Params.dsq_thread_id }}
+    {{ if gt (len .) 0 }}
+      {{ partial "archived_comments.html" . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Live Disqus embed — kept for authors that still have disqus.active: true */}}
+{{ $col := index site.Params.authors .Section }}
+{{ $disqus := "" }}
+{{ with $col }}{{ $disqus = index . "disqus" }}{{ end }}
+{{ if and $disqus (eq $disqus.active true) }}
+
+<div id="disqus_thread"></div>
+<script>
+
+{{ if hugo.IsDevelopment }}var disqus_developer = 1;{{ end }}
+var disqus_shortname = '{{ $disqus.short_name }}'; // required: replace example with your forum shortname
+
+var disqus_config = function () {
+  {{ if .Params.wordpress_id }}this.page.identifier = '{{ .Params.wordpress_id }} {{ .Params.wordpress_guid }}';{{ end }}
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{{ end }}
+{{ end }}
