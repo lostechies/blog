@@ -166,3 +166,19 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+/**
+ * Chroma (Hugo) lexer alignment. Chroma emits the same Pygments token classes
+ * as Rouge for most languages, but its YAML lexer names tokens differently:
+ * keys are `nt` (Rouge: `na`), scalar values are `l` (Rouge: `s`) and
+ * booleans/null are `kc` (Rouge: `no`). Map them so YAML renders as it did
+ * on the Jekyll site.
+ */
+.highlight .language-yaml .nt {
+  color: #008080;
+  font-weight: normal; }
+.highlight .language-yaml .l {
+  color: #d14; }
+.highlight .language-yaml .kc {
+  color: #008080;
+  font-weight: normal; }
