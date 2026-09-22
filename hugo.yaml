@@ -20,6 +20,12 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  # Fenced code blocks: emit Pygments-style classes (as Jekyll/Rouge did) so the
+  # existing static/assets/css/highlight.css and the dark-theme rules in custom.css
+  # apply, instead of Chroma's inline styles with a hard-coded Monokai background.
+  highlight:
+    noClasses: false
+    guessSyntax: false
 
 # RSS: single site feed at /feed.xml (matches Jekyll feed.xml), no section feeds.
 outputFormats:

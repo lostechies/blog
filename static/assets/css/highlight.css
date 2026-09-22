@@ -30,7 +30,8 @@ pre {
  */
 .highlight {
   background: #fff; }
-  .highlighter-rouge .highlight {
+  .highlighter-rouge .highlight,
+  .highlight pre.chroma {
     background: #eef; }
   .highlight .c {
     color: #998;
