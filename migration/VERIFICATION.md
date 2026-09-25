@@ -108,27 +108,31 @@ the tree to https://gist.github.com/foundev/d3e584b8b6990c41c0b085574fb4a655.
 They needed Ruby/Jekyll and are not part of the ongoing build; their outputs
 (the golden inventories and reports under `migration/`) are committed here.
 
-### Post-merge: retire CodeQL's Ruby analysis
+### CodeQL Ruby placeholder — delete in a follow-up PR
 
 CodeQL runs from repository **default setup**, not from a workflow file, and its
-language list still includes `ruby`. With the last `.rb` files gone, that job has
-no source to scan and fails with:
+language list still includes `ruby`. With the last real `.rb` files gone, that
+job had no source to scan and failed with:
 
 ```
 Error: CodeQL could not process any code written in Ruby.
 ```
 
-This is a repository setting, not a workflow change, so it cannot be fixed from
-this PR. After merge, remove `ruby` from **Settings → Code security → Code
+`scripts/codeql_ruby_placeholder.rb` exists solely to give that analyzer a
+parseable file. It has no runtime behavior and nothing loads it.
+
+The real fix is to remove `ruby` from **Settings → Code security → Code
 scanning → CodeQL analysis → Languages**, leaving `actions`,
-`javascript-typescript`, and `typescript`. The API equivalent:
+`javascript-typescript`, and `typescript`. API equivalent:
 
 ```
 PATCH /repos/lostechies/blog/code-scanning/default-setup
 {"languages":["actions","javascript-typescript","typescript"]}
 ```
 
-Until that is applied, `Analyze (ruby)` will report a false failure on this PR.
+Once that setting is applied, delete `scripts/codeql_ruby_placeholder.rb` in a
+follow-up PR. It is not referenced by the build, the workflows, or any
+verification script.
 
 ## Date handling
 
