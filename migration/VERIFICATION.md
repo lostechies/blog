@@ -47,12 +47,24 @@ whitespace inside these elements is insignificant, so rendering is unchanged).
 
 ## Internal links — PASS, zero regressions
 
-- 4,716 internal link targets checked across the Hugo build.
+- 4,709 internal link targets checked across the Hugo build.
 - 0 regressions: nothing that resolves on the live Jekyll site is broken by Hugo.
-- 494 targets are broken — all pre-existing (broken identically on the live site):
-  extensionless nav links (`/about`, `/<author>/archive`, `/<author>/tags`), old
-  absolute URLs to long-gone dasBlog/WordPress pages, and a few protocol-relative
-  external links.
+- 398 targets are broken — all pre-existing (broken identically on the live site),
+  almost entirely old absolute URLs to long-gone dasBlog/WordPress pages. The
+  remaining links are stale paths from the same era rather than migration damage.
+- The checker applies GitHub Pages' resolution rules: `/foo` resolves to
+  `foo.html` or `foo/index.html`, while `/foo/` resolves only to `foo/index.html`.
+  This is why the earlier report incorrectly counted `/about` and every
+  `/<author>/archive` and `/<author>/tags` link as broken. Percent-encoded paths
+  are decoded before lookup, and protocol-relative external links are excluded.
+- Of the 86 targets the earlier report wrongly marked broken, 61 have populated
+  main content (including `/about` and `/jimmybogard/archive`); 25 are headless
+  pages such as most `/<author>/tags` pages. For example, `/jimmybogard/tags`
+  returns 200 with an empty main area on the live Jekyll site, and the Hugo build
+  reproduces that same empty page. Link verification checks resolution, not
+  whether a page happens to have content.
+- The 9 skipped protocol-relative external targets are off-site resources, not
+  internal pages.
 
 ## Build-output checks — `scripts/verify_build.sh`
 

@@ -1,32 +1,19 @@
-total internal link targets: 4716
-broken in Hugo build: 494
-  of which ALSO broken on live Jekyll (pre-existing): 494
+total internal link targets: 4709
+broken in Hugo build: 398
+  of which ALSO broken on live Jekyll (pre-existing): 398
   REGRESSIONS (worked on live, broken in Hugo): 0
+protocol-relative external targets skipped: 9
 
 -- regressions --
 
 -- pre-existing broken (on live too) --
-1	//archive
-2	//static.techpines.com/rainbow.css
-1	//tags
-2	//vjs.zencdn.net/4.2/video-js.css
-2	//www.amazon.com/gp/product/B007FZVI2M/ref=as_li_ss_il
-1	//www.lostechies.com/blogs/jason_meridth/default.aspx
-1	//www.slideshare.net/asiemer
-1	//www.slideshare.net/asiemer/groking-microservices-in-5-minutes-47955679
-2	//www.slideshare.net/jhand2
-2	//www.slideshare.net/jhand2/chat-ops-a-beginners-guide
 1	/2007/08/interactive-application-architecture.html
 1	/Default.aspx
 1	/Users/Administrator/AppData/Local/Temp/WindowsLiveWriter1286139640/supfiles34414B9/wall6.jpg
-2893	/about
-18	/andrewsiemer/archive
-18	/andrewsiemer/tags
 1	/blog/chris-missal/seo-tips-for-developers-site-structure
 1	/blogs.aspx
 1	/blogs/Chad%5FMyers/
 1	/blogs/MainFeed.aspx
-1	/blogs/chad%5Fmyers/
 1	/blogs/chad_myers/MVCRequestTesting.zip
 5	/blogs/chad_myers/archive/2008/03/09/ptom-the-liskov-substitution-principle.aspx
 5	/blogs/chad_myers/default.aspx
@@ -62,7 +49,7 @@ broken in Hugo build: 494
 4	/blogs/jason_meridth/archive/2009/06/01/git-for-windows-developers-git-series-part-1.aspx
 1	/blogs/jason_meridth/archive/2010/03/23/git-reset-checkout-amp-quot-bare-double-dash-quot-and-revert.aspx
 1	/blogs/jason_meridth/archive/2010/05/24/my-quot-git-branching-and-workflows-quot-presentation-at-austin-code-camp-2010.aspx
-6	/blogs/jason_meridth/default.aspx
+7	/blogs/jason_meridth/default.aspx
 1	/blogs/jimmy_bogard/archive/2007/04/30/swallowing-exceptions-is-hazardous-to.aspx
 2	/blogs/jimmy_bogard/archive/2007/05/22/team-foundation-build-part-1.aspx
 1	/blogs/jimmy_bogard/archive/2007/05/23/img-border-0-so-now-that-we-have-some.aspx
@@ -103,12 +90,7 @@ broken in Hugo build: 494
 2	/blogs/sharoncichelli/default.aspx
 1	/blogs/tags/git/default.aspx
 1	/blogs/thatotherguy/default.aspx
-10	/bradcarleton/archive
-10	/bradcarleton/tags
-197	/chadmyers/archive
 1	/chadmyers/category/cool-stuff-in-fubu
-197	/chadmyers/tags
-93	/chrismissal/archive
 1	/chrismissal/category/git/
 1	/chrismissal/files/2011/03/arrow_59824380.jpg
 1	/chrismissal/files/2011/03/broken_bridge_0B256A4F.jpg
@@ -120,15 +102,6 @@ broken in Hugo build: 494
 1	/chrismissal/files/2011/03/monster_275DBFA3.jpg
 1	/chrismissal/files/2011/03/quickWatch_7D93CBCE.jpg
 1	/chrismissal/files/2011/03/tools_486986B4.jpg
-93	/chrismissal/tags
-84	/chrispatterson/archive
-84	/chrispatterson/tags
-11	/christaylor/archive
-11	/christaylor/tags
-28	/colinjack/archive
-28	/colinjack/tags
-22	/colinramsay/archive
-22	/colinramsay/tags
 1	/content/chadmyers/uploads/2011/03Ancientwisdomisinescapableespeciallywith_14CE8/image_2.png
 1	/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/Shiftwise_Full_Color_2.jpg
 1	/content/chadmyers/uploads/2011/03AnnouncingPablosDaysofTDD_1190C/clip_image001_2.jpg
@@ -207,10 +180,6 @@ broken in Hugo build: 494
 2	/controlpanel/blogs/posteditor.aspx/groups.google.com/group/fluent-nhibernate
 1	/controlpanel/blogs/posteditor.aspx/www.scottbellware.com
 1	/controlpanel/blogs/posteditor.aspx/www.virtualaltnet.com
-82	/derekgreer/about
-82	/derekgreer/archive
-82	/derekgreer/tags
-421	/derickbailey/archive
 1	/derickbailey/category/appcontroller/
 1	/derickbailey/category/backbone/
 1	/derickbailey/category/git/
@@ -220,12 +189,7 @@ broken in Hugo build: 494
 1	/derickbailey/files/2011/03/OpenClosedPrinciple2_2C596E17.jpg
 1	/derickbailey/files/2011/03/SOLID_6EC97F9C.jpg
 1	/derickbailey/files/2011/03/SingleResponsibilityPrinciple2_71060858.jpg
-421	/derickbailey/tags
 2	/derikwhittaker/archive
-2	/derikwhittaker/tags
-10	/ericanderson/archive
-10	/ericanderson/tags
-118	/erichexter/archive
 1	/erichexter/files/2011/03/FlatTire_3AAE9033.jpg
 1	/erichexter/files/2011/03/codecamptrunk_3015E433.jpg
 1	/erichexter/files/2011/03/flattire1_579293A6.jpg
@@ -263,9 +227,6 @@ broken in Hugo build: 494
 1	/erichexter/files/2011/03/image_7DC361F8.png
 1	/erichexter/files/2011/03/image_7E2A2882.png
 1	/erichexter/files/2011/03/ysod_305ADB22.jpg
-118	/erichexter/tags
-56	/evanhoff/archive
-56	/evanhoff/tags
 1	/files/8/default.aspx
 1	/files/folders/279/download.aspx
 1	/files/folders/280/download.aspx
@@ -274,7 +235,6 @@ broken in Hugo build: 494
 1	/files/folders/jcteague/entry4914.aspx
 1	/gabrielschenker/2014/12/31/creating-an-ubuntu-developer-vm-on-hyper-v-part-2/
 1	/gabrielschenker/2015/04/25/cqrs-workshop-retrospective/mainstreamarchitecture-2/
-151	/gabrielschenker/archive
 1	/gabrielschenker/category/event-sourcing/
 1	/gabrielschenker/files/2011/03/composition5_411062D9.jpg
 1	/gabrielschenker/files/2011/03/inheritance4_6BF82B11.jpg
@@ -421,58 +381,18 @@ broken in Hugo build: 494
 2	/gabrielschenker/files/2016/11/scale-service.png
 2	/gabrielschenker/files/2016/11/swarm-ready.png
 2	/gabrielschenker/files/2016/11/workers-joining-swarm.png
-151	/gabrielschenker/tags
-13	/gregorylong/archive
-13	/gregorylong/tags
-6	/hugobonacci/archive
-6	/hugobonacci/tags
-18	/jamesgregory/archive
-18	/jamesgregory/tags
-5	/jasdeepsingh/archive
-5	/jasdeepsingh/tags
-695	/jimmybogard/archive
-695	/jimmybogard/tags
-127	/joeocampo/archive
-127	/joeocampo/tags
-75	/joeybeninghove/archive
-75	/joeybeninghove/tags
-67	/johnteague/archive
 1	/johnteague/files/2011/03/image_5157213E.png
-67	/johnteague/tags
 1	/josharnold/2011/08/19/f101-%E2%80%93-behaviors-configuration-and-runtime-2/
-51	/josharnold/archive
 5	/josharnold/tag/composition-patterns/
 1	/josharnold/tag/dsls/
 1	/josharnold/tag/jquery-continuations/
-51	/josharnold/tags
-50	/joshuaflanagan/archive
 1	/joshuaflanagan/files/2011/03/gitkgitkdemo_20100903_163536_57A177D6.png'
-50	/joshuaflanagan/tags
-14	/joshualockwood/archive
-14	/joshualockwood/tags
-47	/keithdahlby/archive
-47	/keithdahlby/tags
-7	/matthinze/archive
-7	/matthinze/tags
 1	/media/p/19944.aspx
 1	/media/p/22618.aspx
 2	/media/p/27197/download.aspx
 3	/media/p/5415.aspx
 2	/members/schambers/default.aspx
-31	/mokhan/archive
-31	/mokhan/tags
-20	/nelsonmontalvo/archive
-20	/nelsonmontalvo/tags
-25	/patricklioi/archive
-25	/patricklioi/tags
-35	/rayhouston/archive
 2	/rayhouston/files/2011/03/image_5.png
-35	/rayhouston/tags
-12	/rodpaddock/archive
-12	/rodpaddock/tags
-28	/ryanrauh/archive
-28	/ryanrauh/tags
-84	/ryansvihla/archive
 1	/ryansvihla/files/2011/03/Picture11_78384931.png
 1	/ryansvihla/files/2011/03/Picture12_19A1D29C.png
 1	/ryansvihla/files/2011/03/Picture1_77A76AE7.png
@@ -482,21 +402,6 @@ broken in Hugo build: 494
 1	/ryansvihla/files/2011/03/Picture4_19292B28.png
 1	/ryansvihla/files/2011/03/Picture5_01FDB0AA.png
 1	/ryansvihla/files/2011/03/Picture8_2EA8FB34.png
-84	/ryansvihla/tags
-18	/scottdensmore/archive
-18	/scottdensmore/tags
-5	/scottgillenwater/archive
-5	/scottgillenwater/tags
-38	/scottreynolds/archive
-38	/scottreynolds/tags
-18	/seanbiefeld/archive
 2	/seanbiefeld/files/2011/03/MyTwighlightTheme.zip
-18	/seanbiefeld/tags
-104	/seanchambers/archive
-104	/seanchambers/tags
-58	/sharoncichelli/archive
-58	/sharoncichelli/tags
-16	/stevedonie/archive
 1	/stevedonie/files/2011/03/Drillinginfo-Burndown-Template.xls
-16	/stevedonie/tags
 1	/www.nhibernate.org/

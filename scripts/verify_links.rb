@@ -2,87 +2,108 @@
 # frozen_string_literal: true
 
 # Phase 5 link verification: extracts every internal link from the Hugo build
-# (both post bodies and templates) and confirms each target exists as a page,
-# file, or alias. Cross-references the golden build so pre-existing broken
-# links (broken on the live Jekyll site too) are reported separately from
-# regressions introduced by the migration.
+# (both post bodies and templates) and confirms each target resolves as a page,
+# file, or alias. Cross-references the golden build so pre-existing broken links
+# (broken on the live Jekyll site too) are reported separately from regressions
+# introduced by the migration.
+#
+# Resolution mirrors GitHub Pages:
+#   /foo    -> /foo, /foo.html, or /foo/index.html
+#   /foo/   -> /foo/index.html
+#
+# Percent-encoded paths are decoded before lookup, and links to either the apex
+# or www host are treated as internal (www redirects to the apex deployment).
 #
 # Usage: ruby scripts/verify_links.rb
 
 require "set"
+require "uri"
 
-SITE = File.expand_path("../_site", __dir__)
-PUBLIC = File.expand_path("../public", __dir__)
-GOLDEN_PAGES = File.expand_path("../migration/golden_pages.txt", __dir__)
-GOLDEN_ALIASES = File.expand_path("../migration/golden_aliases.txt", __dir__)
-REPORT = File.expand_path("../migration/link_report.txt", __dir__)
+module LinkVerifier
+  SITE = File.expand_path("../_site", __dir__)
+  PUBLIC = File.expand_path("../public", __dir__)
+  GOLDEN_PAGES = File.expand_path("../migration/golden_pages.txt", __dir__)
+  GOLDEN_ALIASES = File.expand_path("../migration/golden_aliases.txt", __dir__)
+  GOLDEN_FILES = File.expand_path("../migration/golden_files.txt", __dir__)
+  REPORT = File.expand_path("../migration/link_report.txt", __dir__)
 
-def inventory(dir)
-  pages = Set.new
-  files = Set.new
-  Dir.glob("#{dir}/**/*").each do |p|
-    next if File.directory?(p)
-    rel = p.sub("#{dir}/", "")
-    files << rel
-    pages << "/#{rel}" unless rel.end_with?("index.html")
+  module_function
+
+  def inventory(dir)
+    files = Set.new
+    Dir.glob("#{dir}/**/*").each do |path|
+      files << path.sub("#{dir}/", "") unless File.directory?(path)
+    end
+    files
   end
-  Dir.glob("#{dir}/**/index.html").each do |p|
-    pages << "/#{p.sub("#{dir}/", "").sub("index.html", "")}"
+
+  def resolvable?(files, target)
+    path = URI::DEFAULT_PARSER.unescape(target.sub(%r{\A/}, ""))
+    return files.include?("#{path}index.html") if target.end_with?("/")
+
+    files.include?(path) || files.include?("#{path}.html") || files.include?("#{path}/index.html")
   end
-  [pages, files]
-end
 
-hugo_pages, hugo_files = inventory(PUBLIC)
-golden_pages, golden_files = inventory(SITE)
-golden_pages += File.readlines(GOLDEN_PAGES).map(&:chomp)
-golden_alias_urls = File.readlines(GOLDEN_ALIASES).map { |l| l.split("\t").first.chomp }.to_set
+  # Returns [kind, url], where kind is :internal, :external, or :skip.
+  def classify(raw)
+    return [:skip, nil] if raw =~ /\A(#|mailto:|javascript:)/
 
-# Existing-on-live = resolvable through golden pages/files/aliases.
-golden_resolvable = golden_pages + golden_files.map { |f| "/#{f}" } + golden_alias_urls
-hugo_resolvable = hugo_pages + hugo_files.map { |f| "/#{f}" }
+    url = raw.sub(%r{\A(https?:)?//(?:www\.)?lostechies\.com(?=/|\z)}, "").sub(/(#|\?).*/, "")
+    return [:skip, nil] if url.empty?
+    return [:external, url] if url.start_with?("//")
+    return [:skip, nil] unless url.start_with?("/")
 
-links = Hash.new(0) # link -> count
-broken_hugo = Set.new
-broken_both = Set.new
+    [:internal, url]
+  end
 
-Dir.glob("#{PUBLIC}/**/*.html").sort.each do |path|
-  html = File.read(path)
-  html.scan(/href="([^"]+)"/).flatten.each do |raw|
-    next if raw =~ /\A(#|mailto:|javascript:)/
-    url = raw.sub(%r{\A(https?:)?//lostechies\.com}, "").sub(/(#|\?).*/, "")
-    next if url.empty?
-    next unless url.start_with?("/") # external links skipped
-    links[url] += 1
+  def run
+    hugo_files = inventory(PUBLIC)
+    golden_files = inventory(SITE) |
+                   File.readlines(GOLDEN_FILES).map(&:chomp) |
+                   File.readlines(GOLDEN_PAGES).map { |line| line.chomp.sub(%r{\A/}, "") } |
+                   File.readlines(GOLDEN_ALIASES).map { |line| line.split("\t").first.chomp.sub(%r{\A/}, "") }
+
+    links = Hash.new(0) # link -> count
+    broken_hugo = Set.new
+    broken_both = Set.new
+    external = Set.new
+
+    Dir.glob("#{PUBLIC}/**/*.html").sort.each do |path|
+      File.read(path).scan(/href="([^"]+)"/).flatten.each do |raw|
+        kind, url = classify(raw)
+        case kind
+        when :external
+          external << url
+        when :internal
+          links[url] += 1
+        end
+      end
+    end
+
+    links.keys.sort.each do |url|
+      next if resolvable?(hugo_files, url)
+
+      broken_hugo << url
+      broken_both << url if resolvable?(golden_files, url)
+    end
+
+    File.open(REPORT, "w") do |file|
+      file.puts "total internal link targets: #{links.size}"
+      file.puts "broken in Hugo build: #{broken_hugo.size}"
+      file.puts "  of which ALSO broken on live Jekyll (pre-existing): #{broken_hugo.size - broken_both.size}"
+      file.puts "  REGRESSIONS (worked on live, broken in Hugo): #{broken_both.size}"
+      file.puts "protocol-relative external targets skipped: #{external.size}"
+      file.puts "\n-- regressions --"
+      broken_both.sort.each { |url| file.puts "#{links[url]}\t#{url}" }
+      file.puts "\n-- pre-existing broken (on live too) --"
+      (broken_hugo - broken_both).sort.each { |url| file.puts "#{links[url]}\t#{url}" }
+    end
+
+    puts "targets: #{links.size}  broken in hugo: #{broken_hugo.size}  regressions: #{broken_both.size}"
+    puts "external targets skipped: #{external.size}"
+    puts "report: #{REPORT}"
+    exit(broken_both.empty? ? 0 : 1)
   end
 end
 
-links.keys.sort.each do |url|
-  target = url.end_with?("/") ? url : url
-  # a link resolves if the dir page, the exact file, or file + /index.html exists
-  ok = hugo_resolvable.include?(target) ||
-       hugo_resolvable.include?("#{target}/") ||
-       hugo_resolvable.include?("#{target}/index.html") ||
-       hugo_resolvable.include?("#{target.sub(%r{/\z}, "")}/index.html")
-  next if ok
-  broken_hugo << url
-  was_ok_on_live = golden_resolvable.include?(target) ||
-                   golden_resolvable.include?("#{target}/") ||
-                   golden_resolvable.include?("#{target}/index.html") ||
-                   golden_resolvable.include?("#{target.sub(%r{/\z}, "")}/index.html")
-  broken_both << url if was_ok_on_live
-end
-
-File.open(REPORT, "w") do |f|
-  f.puts "total internal link targets: #{links.size}"
-  f.puts "broken in Hugo build: #{broken_hugo.size}"
-  f.puts "  of which ALSO broken on live Jekyll (pre-existing): #{broken_hugo.size - broken_both.size}"
-  f.puts "  REGRESSIONS (worked on live, broken in Hugo): #{broken_both.size}"
-  f.puts "\n-- regressions --"
-  broken_both.sort.each { |u| f.puts "#{links[u]}\t#{u}" }
-  f.puts "\n-- pre-existing broken (on live too) --"
-  (broken_hugo - broken_both).sort.each { |u| f.puts "#{links[u]}\t#{u}" }
-end
-
-puts "targets: #{links.size}  broken in hugo: #{broken_hugo.size}  regressions: #{broken_both.size}"
-puts "report: #{REPORT}"
-exit(broken_both.empty? ? 0 : 1)
+LinkVerifier.run if $PROGRAM_NAME == __FILE__

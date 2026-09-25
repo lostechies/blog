@@ -36,5 +36,11 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Verify link resolution rules
+        run: ruby scripts/test_verify_links.rb
+
+      - name: Verify internal links
+        run: ruby scripts/verify_links.rb
+
       - name: Verify build output
         run: scripts/verify_build.sh public
