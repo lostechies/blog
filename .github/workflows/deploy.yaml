@@ -38,6 +38,15 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Verify link resolution rules
+        run: node scripts/test_verify_links.mjs
+
+      - name: Verify URL contract
+        run: node scripts/verify_urls.mjs
+
+      - name: Verify internal links
+        run: node scripts/verify_links.mjs
+
       - name: Verify build output
         run: scripts/verify_build.sh public
 

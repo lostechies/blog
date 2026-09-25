@@ -85,6 +85,29 @@ commits pushed straight to `main` are checked too) and fails on:
 
 Run locally with `hugo && scripts/verify_build.sh public`.
 
+## Verification scripts — Node, no Ruby
+
+The migration is complete, so Ruby is no longer required by this repo: the
+`Gemfile`, `Gemfile.lock`, and the `ruby/setup-ruby` CI step are gone. The
+verification gates are Node scripts, matching the runtime already provisioned
+for `scripts/verify_build.sh`:
+
+- `node scripts/verify_urls.mjs` — URL contract: every golden page, alias, and
+  file exists in the Hugo build (4,937 pages, 1,916 aliases, 9,742 files).
+- `node scripts/verify_links.mjs` — internal link resolution, using the GitHub
+  Pages `.html` fallback rules.
+- `node scripts/test_verify_links.mjs` — unit tests for those resolution rules.
+
+All three run in `.github/workflows/build.yaml` and again in
+`.github/workflows/deploy.yaml` before the Pages artifact is uploaded.
+
+The one-time migration scripts (`migrate_to_hugo.rb`, `jekyll_url_map.rb`,
+`extract_golden_urls.rb`, `classify_diffs.rb`, `verify_content.rb`,
+`import_disqus_comments.rb`) are historical record and have been moved out of
+the tree to https://gist.github.com/foundev/d3e584b8b6990c41c0b085574fb4a655.
+They needed Ruby/Jekyll and are not part of the ongoing build; their outputs
+(the golden inventories and reports under `migration/`) are committed here.
+
 ## Date handling
 
 Jekyll rendered permalink date tokens in the **build machine's local timezone**;

@@ -8,7 +8,7 @@
 
 {{ partial "post_nav.html" . }}
 
-{{/* Archived static comments (generated from Disqus export via scripts/import_disqus_comments.rb) */}}
+{{/* Archived static comments (generated once from the Disqus export; see migration/VERIFICATION.md) */}}
 {{ with index hugo.Data.comments .Section }}
   {{ with index . $.Params.dsq_thread_id }}
     {{ if gt (len .) 0 }}
