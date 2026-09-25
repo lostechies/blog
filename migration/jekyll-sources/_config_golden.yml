@@ -1,0 +1,23 @@
+# Overlay that was used to build the golden reference site from the mixed
+# Jekyll+Hugo repo during migration (kept here for the historical record; the
+# Jekyll sources themselves live in git history pre-migration).
+# Usage was: TZ=UTC bundle exec jekyll build --config _config.yml,_config_golden.yml
+exclude:
+  - scripts
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - content
+  - static
+  - layouts
+  - data
+  - assets
+  - public
+  - public_test
+  - migration
+  - hugo.yaml
+  - .claude
+  - .github
+  - .devcontainer

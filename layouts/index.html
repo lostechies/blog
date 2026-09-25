@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="home">
+
+  {{ .Content }}
+
+  <ul class="posts">
+    <div id="aggregate-posts"><img style="display:block; margin: auto;" src="/assets/images/spinner.gif"/></div>
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ site.Params.feed.path }}">via RSS</a></p>
+
+</div>
+{{ end }}

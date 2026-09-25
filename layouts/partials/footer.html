@@ -1,0 +1,44 @@
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+      <a class="icon" href="mailto:{{ site.Params.email }}">
+        <i class="fa fa-envelope" title="Email"></i>
+      </a>
+      </p>
+      {{ if site.Params.google_analytics_id }}
+      <p class="consent-footer-link">
+        <a href="#cookie-preferences" id="cookie-preferences-link">Cookie preferences</a>
+      </p>
+      {{ end }}
+    </div>
+  </div>
+</footer>
+
+{{ if site.Params.google_analytics_id }}
+{{ partial "consent_banner.html" . }}
+{{ end }}
+
+<!-- common js -->
+<script src="/assets/js/fetch.js"></script>
+{{/* collections.js and feed.js were Liquid-templated in Jekyll; publish templated copies at the same URLs */}}
+{{ $collectionsJs := resources.Get "js/collections.js" | resources.ExecuteAsTemplate "assets/js/collections.js" . }}
+{{ $feedJs := resources.Get "js/feed.js" | resources.ExecuteAsTemplate "assets/js/feed.js" . }}
+<script src="{{ $collectionsJs.RelPermalink }}"></script>
+<script src="/assets/js/dom.js"></script>
+<script src="/assets/js/nav.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/search.js"></script>
+<script src="{{ $feedJs.RelPermalink }}"></script>
+<script src="/assets/js/load-authors.js"></script>
+<script src="/assets/js/load-recent-posts.js"></script>
+
+{{ if site.Params.google_analytics_id }}
+<script>
+  window.GA_MEASUREMENT_ID = {{ site.Params.google_analytics_id }};
+  {{ if not (in site.BaseURL "lostechies.com") }}
+  window.ANALYTICS_DRY_RUN = true;
+  {{ end }}
+</script>
+<script src="/assets/js/consent.js"></script>
+{{ end }}

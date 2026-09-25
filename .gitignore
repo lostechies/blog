@@ -1,8 +1,5 @@
-.jekyll-metadata
-_site
-.ruby-version
-.ruby-gemset
-.sass-cache/*
-.jekyll-cache/*
 .DS_Store
 node_modules/
+public/
+resources/
+.hugo_build.lock

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {{ partial "head.html" . }}
+
+  {{/* Jekyll had three shells: default.html, author_default.html, aggregate_default.html.
+         They differ only in nav links, sidebar widgets and scripts; reproduce via context. */}}
+  {{ $authorShell := false }}
+  {{ if eq .Kind "section" }}{{ if ne .Section "external" }}{{ $authorShell = true }}{{ end }}{{ end }}
+  {{ if eq .Kind "page" }}
+    {{ if or (isset site.Params.authors .Type) (eq .Type "author-pages") (eq .Type "post") }}{{ $authorShell = true }}{{ end }}
+  {{ end }}
+  {{ $aggregateShell := and (eq .Kind "section") (eq .Section "external") }}
+
+  <body>
+
+    <section>
+      <div>
+        <div class="container" style="margin-top:31px;">
+          <a href="{{ site.BaseURL }}"><img src="/assets/images/lostechies_logo.png"/></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="main-container" style="margin-top:15px;">
+
+      <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+
+          <div class="navbar-brand">
+
+            <a href="/" class="navbar-item">
+              <span class="icon">
+                <i class="fa fa-home" aria-hidden="true" title="Homepage"></i>
+              </span>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu" id="nav-toggle">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+
+          </div>
+
+          <div id="navMenu" class="navbar-menu">
+
+            <div class="navbar-start">
+
+              <div class="navbar-item" id="searchFieldNav">
+                <div class="field has-addons">
+                  <p class="control">
+                    <input class="input is-small" type="text" placeholder="Find an article" id="search-text">
+                  </p>
+                  <p class="control">
+                    <a class="button is-dark is-small" onclick="searchHandler();">
+                      Search
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="navbar-end">
+              {{ if $authorShell }}
+              <a href="/{{ .Section }}/archive" class="navbar-item">Archive</a>
+              <a href="/{{ .Section }}/tags" class="navbar-item">Tags</a>
+              {{ $about_url := "/about" }}
+              {{ if and (ne .Section "") (fileExists (printf "content/%s/about.md" .Section)) }}{{ $about_url = printf "/%s/about" .Section }}{{ end }}
+              <a href="{{ $about_url }}" class="navbar-item">About</a>
+              {{ else }}
+              <a href="/about" class="navbar-item">About</a>
+              {{ end }}
+              <a href="{{ site.Params.feed.path }}" class="navbar-item"><img src="/assets/images/rss.png"/></a>
+              <a class="navbar-item theme-toggle" role="button" aria-label="Toggle theme" title="Toggle theme">
+                <span class="icon">
+                  <i class="fa fa-moon-o" aria-hidden="true"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+
+      </nav>
+
+      <div class="columns">
+        <div class="column is-8 main">
+
+          {{ block "main" . }}{{ end }}
+
+        </div>
+
+        {{ if $authorShell }}
+        <div class="column is-4">
+          <div class="sidebar">
+
+            <div id="recentAuthorPostsContainer" class="widget">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title nice-title">
+                  Recent Author Posts
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content nice-text">
+                    <ul id="recentAuthorPosts"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="widget">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title nice-title">
+                  Recent Site Posts
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content nice-text">
+                    <ul id="recentPosts"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {{ partial "authors_widget.html" . }}
+
+          </div>
+        </div>
+        {{ else }}
+        <div class="column is-4">
+          <div class="sidebar">
+
+            <div class="widget">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title nice-title">
+                  Recent Posts
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content nice-text">
+                    <ul id="recentPosts"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {{ partial "authors_widget.html" . }}
+
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+
+    {{ partial "footer.html" . }}
+
+    <!-- js -->
+    {{ if $authorShell }}
+    {{ if eq .Params.aggregated true }}
+    <script src="/assets/js/load-aggregate-posts.js"></script>
+    {{ end }}
+    <script src="/assets/js/load-recent-author-posts.js"></script>
+
+    <script>
+      {{ $collectionFeed := "" }}
+      {{ with index site.Params.authors .Section }}{{ $collectionFeed = .feed }}{{ end }}
+      var page_collection = "{{ .Section }}";
+      var collectionFeed = "{{ $collectionFeed }}";
+      var collection = collections.find(function(col) {
+        return col.label === "{{ .Section }}";
+      });
+
+      {{ if eq .Params.aggregated true }}
+        loadAggregatePosts("posts", collectionFeed, true, collection);
+      {{ end }}
+
+      loadAuthors("authors");
+      loadRecentPosts("recentPosts");
+      loadRecentAuthorPosts("recentAuthorPosts", "recentAuthorPostsContainer");
+    </script>
+    {{ else }}
+    <script>
+      loadAuthors("authors");
+      loadRecentPosts("recentPosts");
+    </script>
+    {{ end }}
+
+    {{ if $aggregateShell }}
+    <!-- aggregate post scripts (Jekyll aggregate_post_scripts.html) -->
+    <script src="/assets/js/feed.js"></script>
+    <script src="/assets/js/aggregate.js"></script>
+    <script>
+      loadPost('post');
+    </script>
+    {{ end }}
+
+    {{ if eq .Kind "home" }}
+    <!-- home scripts (Jekyll home_scripts.html) -->
+    <script src="/assets/js/load-aggregate-posts.js"></script>
+    <script>
+      loadAggregatePosts('aggregate-posts');
+    </script>
+    {{ end }}
+
+  </body>
+</html>

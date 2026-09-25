@@ -1,0 +1,421 @@
+2	author about page migrated
+41	author archive page migrated
+42	author index page migrated
+41	author recentPosts.json migrated
+42	author tags page migrated
+1256	body:gist converted
+2495	fm:collapsed dsq_thread_id
+127	fm:dropped index
+2975	fm:dropped layout
+127	fm:dropped permalink
+1	fm:renamed permalink->url
+1882	fm:renamed redirect_from->aliases
+2844	post migrated
+1	root JSON endpoint pages migrated (2)
+1	root about.md migrated
+1	root external.md migrated
+1	root index.md migrated
+1	root magical-joy.md migrated
+
+-- flagged files (401) --
+_andrewsiemer/2016-04-14-building-a-slack-bot-with-botkit-node-and-docker.md: converted 5 gist tags
+_chadmyers/2008-09-03-opinionated-asp-net-mvc-by-joshua-flanagan.md: dsq_thread_id had 2 items, kept first ("262114057")
+_chadmyers/2010-06-22-on-leadership.md: collapsed blank lines inside 1 raw HTML block(s)
+_chrismissal/2009-01-29-a-lesson-in-dry-learned-with-jquery.md: collapsed blank lines inside 1 raw HTML block(s)
+_chrismissal/2009-06-01-anti-patterns-and-worst-practices-utils-class.md: converted 2 gist tags
+_chrismissal/2010-03-03-what-is-projection.md: collapsed blank lines inside 1 raw HTML block(s)
+_chrismissal/2011-12-09-super-simple-versioning-of-third-party-scripts.md: converted 1 gist tags
+_chrismissal/2012-05-31-my-c-wish-list.md: converted 2 gist tags
+_chrismissal/2012-06-08-load-external-javascript-files-in-onx.md: converted 1 gist tags
+_chrismissal/2012-06-12-debugger-trick-when-working-with-utc-datetimes.md: converted 1 gist tags
+_chrismissal/2012-06-28-thinking-linq.md: converted 5 gist tags
+_chrismissal/2012-07-20-why-source-control-matters-and-hopefully-its-git.md: collapsed blank lines inside 1 raw HTML block(s)
+_chrismissal/2012-09-27-extending-objects-in-jquery.md: converted 2 gist tags
+_chrismissal/2012-10-02-extending-objects-in-ext-js.md: converted 2 gist tags
+_chrismissal/2012-10-03-extending-objects-in-dojo.md: converted 2 gist tags
+_chrismissal/2012-10-05-extending-objects-in-underscore.md: converted 4 gist tags
+_chrismissal/2013-01-30-a-timely-post-introducing-palmer-and-tempusreader.md: converted 1 gist tags
+_chrismissal/2013-02-21-introducing-formo-dynamic-configuration.md: converted 3 gist tags
+_chrispatterson/2011-05-03-masstransit-v2-0-beta-available-now-on-nuget.md: collapsed blank lines inside 1 raw HTML block(s)
+_chrispatterson/2012-07-06-masstransit-v2-5-3-now-supports-the-tpl.md: converted 2 gist tags
+_chrispatterson/2012-07-18-benchmarque-comparative-benchmarking-for-net.md: converted 5 gist tags
+_colinjack/2008-10-28-ddd-making-meaningful-relationships.md: collapsed blank lines inside 1 raw HTML block(s)
+_colinramsay/2010-11-15-why-facebook-s-messaging-solution-matters.md: collapsed blank lines inside 1 raw HTML block(s)
+_derekgreer/2007-08-25-interactive-application-architecture.md: collapsed blank lines inside 1 raw HTML block(s)
+_derekgreer/2008-01-17-an-early-glimpse-of-future-composite-smart-client-guidance.md: collapsed blank lines inside 1 raw HTML block(s)
+_derekgreer/2008-10-28-introduction-to-managed-extensibility_799.md: collapsed blank lines inside 1 raw HTML block(s)
+_derekgreer/2010-03-14-git-anonymous-access-under-windows.md: collapsed blank lines inside 1 raw HTML block(s)
+_derekgreer/2010-04-08-getting-started-with-cygwin.md: collapsed blank lines inside 3 raw HTML block(s)
+_derekgreer/2010-04-23-the-agile-visitor.md: collapsed blank lines inside 1 raw HTML block(s)
+_derekgreer/2011-03-21-effective-tests-test-first.md: collapsed blank lines inside 4 raw HTML block(s)
+_derekgreer/2011-03-28-effective-tests-a-test-first-example-part-1.md: collapsed blank lines inside 3 raw HTML block(s)
+_derekgreer/2011-04-04-effective-tests-a-test-first-example-part-2.md: collapsed blank lines inside 4 raw HTML block(s)
+_derekgreer/2011-04-11-effective-tests-a-test-first-example-part-3.md: collapsed blank lines inside 1 raw HTML block(s)
+_derekgreer/2011-04-24-effective-tests-a-test-first-example-part-4.md: collapsed blank lines inside 3 raw HTML block(s)
+_derekgreer/2011-05-01-effective-tests-a-test-first-example-part-5.md: collapsed blank lines inside 6 raw HTML block(s)
+_derekgreer/2011-06-28-introducing-the-expected-objects-library.md: stripped {% raw %}/{% endraw %} tags
+_derekgreer/2022-05-25-user-stories.md: collapsed blank lines inside 2 raw HTML block(s)
+_derickbailey/2009-03-19-my-current-bdd-specunit-live-templates.md: dsq_thread_id had 2 items, kept first ("262068124")
+_derickbailey/2009-09-23-albacore-a-suite-of-rake-build-tasks-for-net-solutions.md: collapsed blank lines inside 1 raw HTML block(s)
+_derickbailey/2010-05-10-build-tools-for-net-systems-it-s-no-longer-a-question-of-features.md: collapsed blank lines inside 1 raw HTML block(s)
+_derickbailey/2010-07-14-albacore-v0-2-0-preview-1-is-available.md: collapsed blank lines inside 1 raw HTML block(s)
+_derickbailey/2010-09-30-monads-in-c-which-part-is-the-monad.md: collapsed blank lines inside 1 raw HTML block(s)
+_derickbailey/2010-10-10-the-maybe-monad-in-ruby.md: stripped {% raw %}/{% endraw %} tags
+_derickbailey/2011-04-14-case-insensitive-dir-glob-in-ruby-really-it-has-to-be-that-cryptic.md: collapsed blank lines inside 1 raw HTML block(s)
+_derickbailey/2011-05-03-deploying-a-thor-application-that-runs-from-a-cron-job-with-vlad.md: collapsed blank lines inside 1 raw HTML block(s)
+_derickbailey/2011-05-06-mongoid-dont-name-a-field-options.md: collapsed blank lines inside 1 raw HTML block(s)
+_derickbailey/2011-06-13-partially-solving-the-date-validation-deficiency-of-rails-3-and-mongoid-2-models.md: converted 4 gist tags
+_derickbailey/2011-06-14-intro-to-backbone-js-how-a-winforms-developer-is-at-home-in-javascript.md: converted 4 gist tags
+_derickbailey/2011-06-15-binding-a-backbone-view-to-a-model-to-enable-and-disable-a-button.md: converted 3 gist tags
+_derickbailey/2011-06-15-solving-backbones-this-model-view-problem-with-underscore-js.md: converted 5 gist tags
+_derickbailey/2011-06-17-making-mongoid-play-nice-with-backbone-js.md: converted 2 gist tags
+_derickbailey/2011-06-20-rendering-backbone-views-with-jquery-templates.md: converted 7 gist tags
+_derickbailey/2011-06-22-rendering-a-rails-partial-as-a-jquery-template.md: converted 3 gist tags
+_derickbailey/2011-06-29-debugging-cucumber-tests-with-ruby-debug.md: converted 2 gist tags
+_derickbailey/2011-07-19-references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js.md: converted 5 gist tags
+_derickbailey/2011-07-24-awesome-model-binding-for-backbone-js.md: converted 3 gist tags
+_derickbailey/2011-07-27-hipster-git-commands-git-stache.md: converted 1 gist tags
+_derickbailey/2011-07-29-knockout-style-data-bind-attributes-for-backbone.md: converted 4 gist tags
+_derickbailey/2011-08-03-stop-using-backbone-as-if-it-were-a-stateless-web-server.md: converted 4 gist tags
+_derickbailey/2011-08-14-enabling-and-disabling-a-button-with-backbone-modelbinding.md: converted 2 gist tags
+_derickbailey/2011-08-28-dont-execute-a-backbone-js-route-handler-from-your-code.md: converted 2 gist tags
+_derickbailey/2011-08-30-dont-limit-your-backbone-apps-to-backbone-constructs.md: converted 3 gist tags
+_derickbailey/2011-09-03-custom-jasmine-matchers-for-clarity-in-testing-backbone-js-models.md: converted 3 gist tags
+_derickbailey/2011-09-06-test-driving-backbone-views-with-jquery-templates-the-jasmine-gem-and-jasmine-jquery.md: converted 6 gist tags
+_derickbailey/2011-09-15-zombies-run-managing-page-transitions-in-backbone-apps.md: converted 8 gist tags
+_derickbailey/2011-09-22-dependency-injection-is-not-the-same-as-the-dependency-inversion-principle.md: converted 1 gist tags
+_derickbailey/2011-09-26-seo-and-accessibility-with-html5-pushstate-part-2-progressive-enhancement-with-backbone-js.md: converted 6 gist tags
+_derickbailey/2011-09-27-adding-a-has_image-matcher-to-capybara.md: converted 2 gist tags
+_derickbailey/2011-10-02-javascript-has-built-in-mix-ins-with-apply-or-call.md: converted 3 gist tags
+_derickbailey/2011-10-11-backbone-js-getting-the-model-for-a-clicked-element.md: converted 6 gist tags
+_derickbailey/2011-10-14-quick-hack-to-work-around-jasmine-jquery-fixture-limitations.md: converted 2 gist tags
+_derickbailey/2011-10-17-tips-for-using-backbone-js-routers-with-html5-pushstate.md: converted 6 gist tags
+_derickbailey/2011-10-25-rebuilding-my-backbone-js-plugins-with-modules-srp-and-more.md: converted 5 gist tags
+_derickbailey/2011-11-05-learning-haskel-for-fun-and-profit.md: converted 4 gist tags
+_derickbailey/2011-11-09-backbone-js-object-literals-views-events-jquery-and-el.md: converted 13 gist tags
+_derickbailey/2011-11-17-introduction-to-composite-javascript-apps.md: converted 5 gist tags
+_derickbailey/2011-12-04-achieving-block-scope-with-immediate-functions-in-javascript.md: converted 3 gist tags
+_derickbailey/2011-12-12-composite-js-apps-regions-and-region-managers.md: converted 2 gist tags
+_derickbailey/2011-12-14-annotated-source-code-as-documentation-with-docco.md: converted 8 gist tags
+_derickbailey/2011-12-15-searching-with-a-backbonejs-collection.md: converted 4 gist tags
+_derickbailey/2011-12-16-composite-javascript-applications-with-backbone-and-backbone-marionette.md: converted 4 gist tags
+_derickbailey/2011-12-26-automating-docco-generation-and-deployment-to-heroku-and-github.md: converted 1 gist tags
+_derickbailey/2011-12-27-the-responsibilities-of-the-various-pieces-of-backbone-js.md: converted 8 gist tags
+_derickbailey/2012-01-02-reducing-backbone-routers-to-nothing-more-than-configuration.md: converted 4 gist tags
+_derickbailey/2012-01-03-composition-of-responsibility-vs-interface-implementation.md: converted 1 gist tags
+_derickbailey/2012-01-24-some-thoughts-on-functional-javascript.md: converted 4 gist tags
+_derickbailey/2012-01-26-modularity-and-security-in-composite-javascript-apps.md: converted 3 gist tags
+_derickbailey/2012-02-03-get-a-model-from-a-backbone-collection-without-knowing-if-the-collection-is-loaded.md: converted 3 gist tags
+_derickbailey/2012-02-06-3-stages-of-a-backbone-applications-startup.md: converted 5 gist tags
+_derickbailey/2012-02-07-rewriting-my-guaranteed-callbacks-code-with-jquery-deferred.md: converted 1 gist tags
+_derickbailey/2012-02-09-asynchronously-load-html-templates-for-backbone-views.md: converted 4 gist tags
+_derickbailey/2012-02-20-using-jquery-plugins-and-ui-controls-with-backbone.md: converted 5 gist tags
+_derickbailey/2012-02-21-emberjs-initial-impressions-compared-to-backbone.md: collapsed blank lines inside 1 raw HTML block(s)
+_derickbailey/2012-02-22-handling-dom-events-with-emberjs-views-and-controllers.md: converted 8 gist tags
+_derickbailey/2012-02-22-handling-dom-events-with-emberjs-views-and-controllers.md: stripped {% raw %}/{% endraw %} tags
+_derickbailey/2012-03-02-resizing-kendoui-splitter-to-fill-screen-vertically.md: converted 1 gist tags
+_derickbailey/2012-03-20-trafficcop-a-jquery-plugin-to-limit-ajax-requests-for-a-resource.md: converted 2 gist tags
+_derickbailey/2012-03-22-managing-layouts-and-nested-views-with-backbone-marionette.md: converted 4 gist tags
+_derickbailey/2012-03-27-providing-synchronous-asynchronous-flexibility-with-jquery-when.md: converted 1 gist tags
+_derickbailey/2012-03-29-proxies-and-decorators-in-javascript.md: converted 4 gist tags
+_derickbailey/2012-04-03-revisiting-the-backbone-event-aggregator-lessons-learned.md: converted 7 gist tags
+_derickbailey/2012-04-05-composite-views-tree-structures-tables-and-more.md: converted 2 gist tags
+_derickbailey/2012-04-10-javascript-performance-pre-compiling-and-caching-html-templates.md: converted 2 gist tags
+_derickbailey/2012-04-12-classyobjects-a-javascript-classy-inheritance-example.md: converted 4 gist tags
+_derickbailey/2012-04-17-managing-a-modal-dialog-with-backbone-and-marionette.md: converted 4 gist tags
+_derickbailey/2012-04-19-decoupling-backbone-apps-from-websockets.md: converted 1 gist tags
+_derickbailey/2012-04-24-executing-a-project-specific-nodenpm-package-a-la-bundle-exec.md: converted 4 gist tags
+_derickbailey/2012-04-26-view-helpers-for-underscore-templates.md: converted 6 gist tags
+_derickbailey/2012-05-04-wrapping-ajax-in-a-thin-command-framework-for-backbone-apps.md: converted 4 gist tags
+_derickbailey/2012-05-10-modeling-explicit-workflow-with-code-in-javascript-and-backbone-apps.md: converted 4 gist tags
+_derickbailey/2012-05-15-workflow-in-backbone-apps-triggering-view-events-from-dom-events.md: converted 3 gist tags
+_derickbailey/2012-05-17-backbone-syphon-serialize-form-inputs-to-javascript-objects.md: converted 3 gist tags
+_derickbailey/2012-05-22-function-vs-function-or-domready-vs-the-module-pattern.md: converted 5 gist tags
+_derickbailey/2012-06-13-why-should-i-use-backbone-marionette-instead-of.md: converted 3 gist tags
+_derickbailey/2012-07-19-want-to-build-win8winjs-apps-you-need-to-understand-promises.md: converted 9 gist tags
+_derickbailey/2012-07-20-partially-applied-functions-in-javascript.md: converted 5 gist tags
+_derickbailey/2012-07-26-a-quick-note-on-pub-sub-event-aggregators-in-winjswinrt.md: converted 1 gist tags
+_derickbailey/2012-07-31-winjs-event-aggregators-and-observableevented-objects.md: converted 5 gist tags
+_derickbailey/2012-08-17-asynchronous-unit-tests-with-mocha-promises-and-winjs.md: converted 9 gist tags
+_derickbailey/2012-08-18-jasmine-async-making-asynchronous-testing-with-jasmine-suck-less.md: converted 2 gist tags
+_derickbailey/2012-08-21-a-winjs-specrunner-automating-script-tag-insertion-for-unit-tests.md: converted 2 gist tags
+_derickbailey/2012-09-08-screencasting-tip-resize-your-app-to-720p-1280x720-in-osx.md: converted 1 gist tags
+_derickbailey/2012-10-01-backbone-eventbinder-better-event-management-for-your-backbone-apps.md: converted 1 gist tags
+_derickbailey/2012-10-07-javascript-mixins-beyond-simple-object-extension.md: converted 6 gist tags
+_derickbailey/2012-10-31-abstraction-the-rule-of-three.md: converted 2 gist tags
+_derickbailey/2013-02-19-some-notes-on-screencasting.md: collapsed blank lines inside 3 raw HTML block(s)
+_derickbailey/2013-03-08-method-rewriting-running-with-a-lit-stick-of-dynamite.md: converted 3 gist tags
+_derickbailey/2013-03-15-tips-on-submitting-a-conference-session.md: collapsed blank lines inside 7 raw HTML block(s)
+_derickbailey/2013-08-09-inject-add-ons-and-plugins-with-requirejs-non-amd-libraries-and-shims.md: converted 5 gist tags
+_derickbailey/2013-09-17-making-heroku-run-a-nodejs-app-from-a-sub-folder.md: converted 2 gist tags
+_derickbailey/2013-09-20-consistency-problems-with-apis-in-javascript-promise-libraries.md: converted 4 gist tags
+_derickbailey/2013-09-23-getting-audio-file-information-with-htmls-file-api-and-audio-element.md: converted 6 gist tags
+_derickbailey/2013-10-10-how-to-set-a-page-and-tag-with-a-single-jade-template-block.md: converted 2 gist tags
+_derickbailey/2013-10-18-minimum-viable-reports-a-nodejs-script-and-console-log.md: converted 1 gist tags
+_derickbailey/2013-10-28-group-by-count-with-mongodb-and-mongoosejs.md: converted 3 gist tags
+_derickbailey/2013-11-15-when-do-you-set-the-url-in-a-backbonejs-app.md: converted 1 gist tags
+_derickbailey/2013-12-04-getting-the-real-client-ip-address-on-a-heroku-hosted-nodejs-app.md: converted 1 gist tags
+_derickbailey/2014-01-03-semantics-modules-and-testing-why-and-how-i-test-internal-components-not-private-methods.md: collapsed blank lines inside 2 raw HTML block(s)
+_derickbailey/2014-01-21-an-epic-reportdashboard-with-keen-io-and-kendo-ui-dataviz.md: converted 6 gist tags
+_derickbailey/2014-01-22-building-an-email-list-component-with-backbonejs.md: converted 8 gist tags
+_derickbailey/2014-01-28-killing-switch-statements-with-a-registry-an-example-and-screencast.md: converted 3 gist tags
+_derickbailey/2014-01-30-playing-with-laravel-4-the-php-mvc-framework-and-telerik-ui.md: converted 7 gist tags
+_derickbailey/2014-02-20-how-i-work-around-the-require-problem-in-nodejs.md: converted 6 gist tags
+_derickbailey/2014-02-27-using-a-single-git-repository-for-multiple-heroku-projects.md: converted 3 gist tags
+_derickbailey/2014-03-11-testing-stripe-com-webhooks-with-requestb-in.md: collapsed blank lines inside 1 raw HTML block(s)
+_derickbailey/2014-03-13-build-a-local-webcam-with-webrtc-in-less-than-20-lines.md: converted 3 gist tags
+_derickbailey/2014-03-18-reassign-function-parameters-in-reverse-order-or-lose-your-data-in-nodejs.md: converted 3 gist tags
+_erichexter/2008-02-26-using-db4objects-as-a-prototyping-tool-part-i.md: stripped {% raw %}/{% endraw %} tags
+_erichexter/2008-02-26-using-db4objects-as-a-prototyping-tool-part-i.md: collapsed blank lines inside 1 raw HTML block(s)
+_erichexter/2009-02-05-trying-to-extend-the-asp-net-mvc-t4-item-templates-to-create-multiple-files.md: collapsed blank lines inside 1 raw HTML block(s)
+_erichexter/2009-02-20-changes-refactorings-to-the-mvc-contrib-project.md: collapsed blank lines inside 1 raw HTML block(s)
+_erichexter/2009-05-17-austin-code-camp-sessions-voting-results.md: collapsed blank lines inside 1 raw HTML block(s)
+_evanhoff/2007-10-22-the-art-of-the-metaobject-protocol.md: collapsed blank lines inside 1 raw HTML block(s)
+_evanhoff/2008-01-08-language-roots.md: collapsed blank lines inside 1 raw HTML block(s)
+_gabrielschenker/2009-02-13-the-open-closed-principle.md: stripped {% raw %}/{% endraw %} tags
+_gabrielschenker/2013-12-05-angularjspart-1.md: stripped {% raw %}/{% endraw %} tags
+_gabrielschenker/2013-12-28-angularjspart-6-templates.md: stripped {% raw %}/{% endraw %} tags
+_gabrielschenker/2014-04-18-angular-jspart-14-end-to-end-tests.md: stripped {% raw %}/{% endraw %} tags
+_gabrielschenker/2014-05-13-angularjspart-16-forms.md: converted 8 gist tags
+_gabrielschenker/2014-12-29-creating-an-ubuntu-developer-vm-on-hyper-v.md: converted 3 gist tags
+_gabrielschenker/2014-12-30-creating-an-ubuntu-developer-vm-on-hyper-v-part-2.md: converted 2 gist tags
+_gabrielschenker/2014-12-31-creating-an-ubuntu-developer-vm-on-hyper-v-part-3.md: converted 2 gist tags
+_gabrielschenker/2014-12-31-creating-an-ubuntu-developer-vm-on-hyper-v-part-4.md: converted 4 gist tags
+_gabrielschenker/2015-01-05-creating-an-angular-application-end-2-end-part-1.md: converted 19 gist tags
+_gabrielschenker/2015-01-11-writing-an-angular-js-application-end-2-endpart-2.md: converted 17 gist tags
+_gabrielschenker/2015-03-21-creating-an-angular-application-end-2-end-part-3.md: converted 7 gist tags
+_gabrielschenker/2015-04-07-cqrs-revisited.md: converted 3 gist tags
+_gabrielschenker/2015-04-12-cqrs-applied.md: converted 6 gist tags
+_gabrielschenker/2015-04-28-ddd-applied.md: converted 11 gist tags
+_gabrielschenker/2015-05-07-ddd-special-scenarios-part-1.md: converted 10 gist tags
+_gabrielschenker/2015-05-11-ddd-special-scenarios-part-2.md: converted 7 gist tags
+_gabrielschenker/2015-05-25-ddd-the-aggregate.md: converted 15 gist tags
+_gabrielschenker/2015-05-26-event-sourcing-revisited.md: collapsed blank lines inside 1 raw HTML block(s)
+_gabrielschenker/2015-06-06-event-sourcing-applied-the-aggregate.md: converted 10 gist tags
+_gabrielschenker/2015-06-13-event-sourcing-applied-the-application-service.md: converted 9 gist tags
+_gabrielschenker/2015-07-13-event-sourcing-applied-the-repository.md: converted 18 gist tags
+_gabrielschenker/2015-07-16-event-sourcing-applied-the-read-model.md: converted 5 gist tags
+_gabrielschenker/2016-01-27-service-discovery.md: converted 3 gist tags
+_gabrielschenker/2016-02-18-service-discovery-part-2.md: converted 17 gist tags
+_gabrielschenker/2016-03-22-ci-with-teamcity-and-docker.md: converted 4 gist tags
+_gabrielschenker/2016-03-28-ci-with-teamcity-and-docker-part-2.md: converted 8 gist tags
+_gabrielschenker/2016-04-01-ci-with-teamcity-and-docker-part-3.md: converted 12 gist tags
+_gabrielschenker/2016-04-07-blue-green-deployment-in-docker-cloud.md: converted 7 gist tags
+_gabrielschenker/2016-04-19-testing-and-debugging-a-containerized-node-application.md: converted 9 gist tags
+_gabrielschenker/2016-04-22-testing-and-debugging-a-containerized-asp-net-application.md: converted 10 gist tags
+_gabrielschenker/2016-04-27-asp-net-docker-and-messaging.md: converted 13 gist tags
+_gabrielschenker/2016-04-30-windows-docker-containers.md: converted 1 gist tags
+_gabrielschenker/2016-06-18-containers-whats-the-big-deal.md: converted 2 gist tags
+_gabrielschenker/2016-08-05-synchronizing-containers.md: converted 3 gist tags
+_gabrielschenker/2016-08-11-troubleshooting-containers.md: converted 8 gist tags
+_gabrielschenker/2016-08-21-container-entrypoint.md: converted 9 gist tags
+_gabrielschenker/2016-08-31-pimp-my-report-with-docker.md: converted 7 gist tags
+_gabrielschenker/2016-09-05-docker-and-swarm-mode-part-1.md: converted 6 gist tags
+_gabrielschenker/2016-09-21-easing-the-use-of-the-aws-cli.md: converted 2 gist tags
+_gabrielschenker/2016-09-26-bulk-delete-queues-in-aws.md: converted 1 gist tags
+_gabrielschenker/2016-09-26-use-docker-to-build-test-and-push-your-artifacts.md: converted 11 gist tags
+_gabrielschenker/2016-10-05-docker-and-swarm-mode-part-3.md: converted 2 gist tags
+_gabrielschenker/2016-11-25-docker-and-swarmkit-part-6-new-features-of-v1-13.md: converted 2 gist tags
+_hugobonacci/2011-08-27-sorting-spaces-in-lion.md: collapsed blank lines inside 1 raw HTML block(s)
+_jimmybogard/2007-08-09-importance-of-collocation.md: collapsed blank lines inside 1 raw HTML block(s)
+_jimmybogard/2007-10-04-treat-warnings-as-errors.md: collapsed blank lines inside 1 raw HTML block(s)
+_jimmybogard/2008-08-27-parameter-lists-in-nhibernate.md: stripped {% raw %}/{% endraw %} tags
+_jimmybogard/2008-12-15-making-frameworks-container-aware.md: dsq_thread_id had 2 items, kept first ("264716029")
+_jimmybogard/2009-01-05-10-things-to-embrace-in-2009.md: dsq_thread_id had 2 items, kept first ("264716013")
+_jimmybogard/2009-01-14-a-new-breed-of-magic-strings-in-asp-net-mvc.md: dsq_thread_id had 2 items, kept first ("264716034")
+_jimmybogard/2009-01-29-be-wary-of-container-calls-in-tests.md: dsq_thread_id had 2 items, kept first ("264716038")
+_jimmybogard/2009-03-16-a-sign-of-the-times.md: dsq_thread_id had 2 items, kept first ("264716093")
+_jimmybogard/2009-08-05-analyzing-automapper-performance.md: collapsed blank lines inside 1 raw HTML block(s)
+_jimmybogard/2011-05-17-estimation-in-consulting.md: collapsed blank lines inside 2 raw HTML block(s)
+_jimmybogard/2011-11-28-dealing-with-transactions.md: converted 1 gist tags
+_jimmybogard/2011-12-07-is-threadstatic-a-leaky-abstraction.md: converted 3 gist tags
+_jimmybogard/2012-01-31-multiple-messages-and-transport-messages-in-nservicebus.md: converted 2 gist tags
+_jimmybogard/2012-02-22-built-in-roles-in-nservicebus.md: converted 2 gist tags
+_jimmybogard/2012-03-19-integrating-and-isolating-the-container-in-tests.md: converted 2 gist tags
+_jimmybogard/2012-04-18-custom-errors-and-error-detail-policy-in-asp-net-web-api.md: converted 3 gist tags
+_jimmybogard/2012-05-01-persisting-enumeration-classes-with-nhibernate.md: converted 3 gist tags
+_jimmybogard/2012-06-15-using-posh-git-and-posh-hg-together.md: converted 1 gist tags
+_jimmybogard/2012-07-26-orm-techniques-for-legacy-databases.md: converted 1 gist tags
+_jimmybogard/2012-08-13-reliable-job-scheduling-with-nservicebus-and-quartz-net.md: converted 2 gist tags
+_jimmybogard/2012-09-20-limiting-your-abstractions.md: converted 5 gist tags
+_jimmybogard/2012-10-08-favor-query-objects-over-repositories.md: converted 3 gist tags
+_jimmybogard/2012-10-18-isolating-database-data-in-integration-tests.md: converted 3 gist tags
+_jimmybogard/2012-11-01-nservicebus-and-concurrency.md: converted 1 gist tags
+_jimmybogard/2012-11-06-testing-with-queries-and-repositories-a-simple-example.md: converted 4 gist tags
+_jimmybogard/2012-11-07-why-githubs-pricing-model-stinks-for-us.md: collapsed blank lines inside 2 raw HTML block(s)
+_jimmybogard/2013-01-31-nservicebus-semantic-versioning-and-events.md: converted 1 gist tags
+_jimmybogard/2013-03-26-scaling-nservicebus-sagas.md: collapsed blank lines inside 4 raw HTML block(s)
+_jimmybogard/2013-04-26-saga-alternatives-routing-slips.md: converted 4 gist tags
+_jimmybogard/2013-05-01-messages-data-and-types.md: converted 1 gist tags
+_jimmybogard/2013-06-03-un-reliability-in-messaging-idempotency-and-de-duplication.md: converted 3 gist tags
+_jimmybogard/2013-06-06-acid-2-0-in-action.md: collapsed blank lines inside 1 raw HTML block(s)
+_jimmybogard/2013-06-20-run-tests-explicitly-in-xunit-net.md: converted 2 gist tags
+_jimmybogard/2013-07-18-conventional-html-in-asp-net-mvc-a-primer.md: converted 2 gist tags
+_jimmybogard/2013-08-13-conventional-html-in-asp-net-mvc-building-tags.md: converted 6 gist tags
+_jimmybogard/2013-09-26-test-styles-and-avoiding-setupteardown.md: converted 2 gist tags
+_jimmybogard/2013-10-10-put-your-controllers-on-a-diet-redux.md: converted 1 gist tags
+_jimmybogard/2013-10-22-put-your-controllers-on-a-diet-defactoring.md: converted 5 gist tags
+_jimmybogard/2013-10-23-put-your-controllers-on-a-diet-a-survey.md: converted 2 gist tags
+_jimmybogard/2013-10-29-put-your-controllers-on-a-diet-gets-and-queries.md: converted 16 gist tags
+_jimmybogard/2013-11-07-null-collectionsarrays-from-mvc-model-binding.md: converted 3 gist tags
+_jimmybogard/2013-12-19-put-your-controllers-on-a-diet-posts-and-commands.md: converted 8 gist tags
+_jimmybogard/2013-12-20-proper-sessiondbcontext-lifecycle-management.md: converted 2 gist tags
+_jimmybogard/2014-02-04-rendering-asp-net-content-as-pdf.md: converted 4 gist tags
+_jimmybogard/2014-02-19-converting-automapper-to-a-portable-class-library.md: converted 4 gist tags
+_jimmybogard/2014-02-27-reducing-nservicebus-saga-load.md: converted 1 gist tags
+_jimmybogard/2014-03-11-efficient-querying-with-linq-automapper-and-future-queries.md: converted 6 gist tags
+_jimmybogard/2014-03-12-avoid-many-to-many-mappings-in-orms.md: converted 5 gist tags
+_jimmybogard/2014-04-03-using-automapper-to-prevent-select-n1-problems.md: converted 5 gist tags
+_jimmybogard/2014-04-08-using-automapper-to-perform-linq-aggregations.md: converted 8 gist tags
+_jimmybogard/2014-04-29-domain-modeling-with-entity-framework-scorecard.md: converted 7 gist tags
+_jimmybogard/2014-05-07-projecting-computed-properties-with-linq-and-automapper.md: converted 6 gist tags
+_jimmybogard/2014-05-08-missing-ef-feature-workarounds-cascade-delete-orphans.md: converted 3 gist tags
+_jimmybogard/2014-05-09-missing-ef-feature-workarounds-encapsulated-collections.md: converted 9 gist tags
+_jimmybogard/2014-05-13-a-better-domain-events-pattern.md: converted 5 gist tags
+_jimmybogard/2014-05-29-missing-ef-feature-workarounds-filters.md: converted 2 gist tags
+_jimmybogard/2014-07-11-conventional-html-in-asp-net-mvc-adopting-fubu-conventions.md: converted 4 gist tags
+_jimmybogard/2014-07-17-conventional-html-in-asp-net-mvc-baseline-behavior.md: converted 6 gist tags
+_jimmybogard/2014-07-22-conventional-html-in-asp-net-mvc-replacing-form-helpers.md: converted 14 gist tags
+_jimmybogard/2014-07-23-conventional-html-in-asp-net-mvc-data-bound-elements.md: converted 6 gist tags
+_jimmybogard/2014-07-24-conventional-html-in-asp-net-mvc-validators.md: converted 5 gist tags
+_jimmybogard/2014-07-25-conventional-html-in-asp-net-mvc-building-larger-primitives.md: converted 7 gist tags
+_jimmybogard/2014-08-14-conventional-html-in-asp-net-mvc-client-side-templates.md: converted 8 gist tags
+_jimmybogard/2014-08-14-conventional-html-in-asp-net-mvc-client-side-templates.md: collapsed blank lines inside 1 raw HTML block(s)
+_jimmybogard/2014-09-09-tackling-cross-cutting-concerns-with-a-mediator-pipeline.md: converted 10 gist tags
+_jimmybogard/2014-09-17-container-usage-guidelines.md: converted 9 gist tags
+_jimmybogard/2014-09-23-the-value-proposition-of-hypermedia.md: converted 1 gist tags
+_jimmybogard/2014-10-02-nservicebus-5-0-behaviors-in-action-routing-slips.md: converted 6 gist tags
+_jimmybogard/2014-10-28-comparing-processing-times-of-nservicebus-saga-patterns.md: collapsed blank lines inside 1 raw HTML block(s)
+_jimmybogard/2014-11-11-dealing-with-the-linker-in-xamarin-apps.md: converted 2 gist tags
+_jimmybogard/2014-11-13-mobile-authentication-with-xamarin-auth-and-refresh-tokens.md: converted 3 gist tags
+_jimmybogard/2014-12-17-mediatr-hits-1-0.md: converted 4 gist tags
+_jimmybogard/2014-12-19-automapper-3-3-feature-open-generics.md: converted 3 gist tags
+_jimmybogard/2014-12-23-automapper-3-3-feature-projection-conversions.md: converted 4 gist tags
+_jimmybogard/2014-12-30-automapper-3-3-feature-parameterized-projections.md: converted 4 gist tags
+_jimmybogard/2015-01-13-generic-variance-in-di-containers.md: converted 9 gist tags
+_jimmybogard/2015-01-20-integrating-mediatr-with-web-api.md: converted 6 gist tags
+_jimmybogard/2015-01-29-clean-tests-a-primer.md: converted 2 gist tags
+_jimmybogard/2015-02-05-clean-tests-building-test-types.md: converted 4 gist tags
+_jimmybogard/2015-02-17-clean-tests-isolating-internal-state.md: converted 5 gist tags
+_jimmybogard/2015-02-19-reliable-database-tests-with-respawn.md: converted 3 gist tags
+_jimmybogard/2015-03-02-clean-tests-isolating-the-database.md: converted 1 gist tags
+_jimmybogard/2015-03-24-clean-tests-isolation-with-fakes.md: converted 7 gist tags
+_jimmybogard/2015-04-07-clean-tests-database-peristence.md: converted 8 gist tags
+_jimmybogard/2015-04-17-saga-implementation-patterns-singleton.md: converted 2 gist tags
+_jimmybogard/2015-05-05-cqrs-with-mediatr-and-automapper.md: converted 14 gist tags
+_jimmybogard/2015-05-19-end-to-end-hypermedia-making-the-leap.md: converted 1 gist tags
+_jimmybogard/2015-06-03-end-to-end-hypermedia-building-the-server.md: converted 9 gist tags
+_jimmybogard/2015-06-18-end-to-end-hypermedia-building-the-client.md: converted 4 gist tags
+_jimmybogard/2015-07-01-end-to-end-hypermedia-building-a-react-client.md: converted 7 gist tags
+_jimmybogard/2015-07-08-entity-framework-extensions-for-automapper.md: converted 3 gist tags
+_jimmybogard/2015-07-17-c-6-exception-filters-will-improve-your-home-life.md: converted 2 gist tags
+_jimmybogard/2015-12-09-c-6-feature-review-auto-property-enhancements.md: converted 4 gist tags
+_jimmybogard/2015-12-17-c-6-feature-review-expression-bodied-function-members.md: converted 6 gist tags
+_jimmybogard/2016-01-21-removing-the-static-api-from-automapper.md: converted 5 gist tags
+_jimmybogard/2016-04-29-validation-inside-or-outside-entities.md: converted 5 gist tags
+_jimmybogard/2016-05-24-my-oss-cicd-pipeline.md: converted 3 gist tags
+_jimmybogard/2016-06-01-cqrs-and-rest-the-perfect-match.md: converted 7 gist tags
+_jimmybogard/2016-06-24-automapper-5-0-speed-increases.md: collapsed blank lines inside 1 raw HTML block(s)
+_jimmybogard/2016-07-18-htmltags-4-1-released-for-asp-net-4-and-asp-net-core.md: converted 2 gist tags
+_jimmybogard/2016-07-19-mediatr-extensions-for-microsoft-dependency-injection-released.md: converted 2 gist tags
+_jimmybogard/2016-07-20-integrating-automapper-with-asp-net-core-di.md: converted 9 gist tags
+_jimmybogard/2016-10-13-mediatr-pipeline-examples.md: converted 9 gist tags
+_jimmybogard/2016-10-21-contoso-university-updated-to-asp-net-core.md: converted 1 gist tags
+_jimmybogard/2016-10-24-vertical-slice-test-fixtures-for-mediatr-and-asp-net-core.md: converted 10 gist tags
+_joeocampo/2007-01-20-agile-project-management-reading-list.md: collapsed blank lines inside 1 raw HTML block(s)
+_joeocampo/2007-03-16-corporate-agile-software-development.md: collapsed blank lines inside 5 raw HTML block(s)
+_joeocampo/2007-06-18-rbehave-with-nunit.md: collapsed blank lines inside 1 raw HTML block(s)
+_joeocampo/2007-08-31-enterprise-agile-generations.md: collapsed blank lines inside 1 raw HTML block(s)
+_joeocampo/2007-09-05-concerns-about-nbehave.md: collapsed blank lines inside 1 raw HTML block(s)
+_joeocampo/2007-09-20-agile-vs-traditional-development-cost-models-maybe.md: collapsed blank lines inside 1 raw HTML block(s)
+_joeybeninghove/2007-09-10-building-the-often-needed-anti-corruption-layer.md: collapsed blank lines inside 1 raw HTML block(s)
+_johnteague/2009-02-10-another-way-to-test-ajax-methods.md: stripped {% raw %}/{% endraw %} tags
+_johnteague/2009-07-15-giving-your-mvc-views-an-identity.md: collapsed blank lines inside 1 raw HTML block(s)
+_johnteague/2009-08-20-wiring-up-generics-in-castle-windsor.md: stripped {% raw %}/{% endraw %} tags
+_johnteague/2009-08-27-the-trythis-method.md: collapsed blank lines inside 1 raw HTML block(s)
+_johnteague/2009-08-28-testing-private-amp-protected-members-of-a-class.md: collapsed blank lines inside 1 raw HTML block(s)
+_johnteague/2010-01-30-implementing-domain-queries.md: collapsed blank lines inside 1 raw HTML block(s)
+_johnteague/2010-06-28-unit-testing-your-mvc-views-with-qunit.md: stripped {% raw %}/{% endraw %} tags
+_johnteague/2011-06-12-convention-based-filters.md: converted 1 gist tags
+_johnteague/2012-11-30-node-js-must-know-concepts-asynchrounous.md: converted 3 gist tags
+_johnteague/2012-12-14-combining-modules-in-require-js.md: converted 3 gist tags
+_johnteague/2013-02-21-polymorphism-part-1.md: converted 5 gist tags
+_johnteague/2013-02-21-polymorphism-part-1.md: collapsed blank lines inside 1 raw HTML block(s)
+_johnteague/2014-07-23-create-test-data-for-mongoose-js-backed-mean-stack-applications.md: stripped {% raw %}/{% endraw %} tags
+_josharnold/2011-08-05-f101-behaviors-configuration-and-runtime.md: collapsed blank lines inside 1 raw HTML block(s)
+_josharnold/2012-11-28-guidelines-for-automated-testing-defining-test-inputs.md: collapsed blank lines inside 2 raw HTML block(s)
+_joshuaflanagan/2010-01-18-fubumvc-define-your-actions-your-way.md: collapsed blank lines inside 1 raw HTML block(s)
+_joshuaflanagan/2010-10-26-extending-github-issues.md: stripped {% raw %}/{% endraw %} tags
+_joshuaflanagan/2011-06-24-how-to-use-a-tool-installed-by-nuget-in-your-build-scripts.md: converted 3 gist tags
+_joshuaflanagan/2011-10-20-coordinating-multiple-ajax-requests-with-jquery-when.md: converted 1 gist tags
+_keithdahlby/2010-05-18-review-pragmatic-unit-testing-in-c-with-nunit-2nd-edition.md: collapsed blank lines inside 1 raw HTML block(s)
+_keithdahlby/2011-08-13-allowing-a-windows-service-to-interact-with-desktop-without-localsystem.md: converted 1 gist tags
+_mokhan/2008-07-14-trust-amp-transparency.md: collapsed blank lines inside 1 raw HTML block(s)
+_mokhan/2008-08-05-disconnected-channels-of-communication.md: collapsed blank lines inside 1 raw HTML block(s)
+_mokhan/2008-08-09-disciplined-agility.md: collapsed blank lines inside 1 raw HTML block(s)
+_mokhan/2009-02-12-object-thinking.md: collapsed blank lines inside 1 raw HTML block(s)
+_mokhan/2009-03-02-introducing-nlp.md: collapsed blank lines inside 1 raw HTML block(s)
+_mokhan/2009-03-11-bdd-on-steroids.md: collapsed blank lines inside 1 raw HTML block(s)
+_mokhan/2009-03-12-bdd-on-creatine.md: collapsed blank lines inside 1 raw HTML block(s)
+_mokhan/2009-03-13-deploying-net-applications-learning-msbuild-and-clickonce.md: collapsed blank lines inside 1 raw HTML block(s)
+_nelsonmontalvo/2007-03-30-simple-nhibernate-example-part-4-session-management.md: collapsed blank lines inside 1 raw HTML block(s)
+_nelsonmontalvo/2007-04-17-castle-s-activerecord-not-for-the-domain-purist-in-you.md: collapsed blank lines inside 3 raw HTML block(s)
+_patricklioi/2013-08-07-the-leakiest-abstraction.md: converted 4 gist tags
+_patricklioi/2013-08-08-tiny-nudges-in-the-general-direction-of-success.md: converted 4 gist tags
+_patricklioi/2013-09-14-shufflin-aint-sortin.md: converted 3 gist tags
+_patricklioi/2013-09-18-test-execution-order.md: converted 2 gist tags
+_patricklioi/2013-09-27-a-swiss-army-katana.md: converted 3 gist tags
+_patricklioi/2013-09-27-whats-in-a-name.md: converted 3 gist tags
+_patricklioi/2013-10-05-autofixie.md: converted 6 gist tags
+_patricklioi/2013-10-09-generating-test-cases-at-runtime.md: converted 4 gist tags
+_patricklioi/2013-10-15-fail-loudly.md: converted 6 gist tags
+_patricklioi/2013-10-21-listen-up.md: converted 5 gist tags
+_patricklioi/2013-10-22-time-black-holes-and-console-capture.md: converted 4 gist tags
+_patricklioi/2013-12-12-the-feature-i-almost-skippe.md: converted 3 gist tags
+_patricklioi/2013-12-13-nailing-down-generics.md: converted 5 gist tags
+_patricklioi/2014-01-31-fixie-xml-reports.md: converted 2 gist tags
+_patricklioi/2014-02-13-listening-to-leaves.md: converted 1 gist tags
+_patricklioi/2014-03-04-test-failure-noise.md: converted 5 gist tags
+_patricklioi/2016-01-27-powerful-integration-testing.md: converted 20 gist tags
+_rayhouston/2008-02-26-a-custom-converter-for-json-net.md: stripped {% raw %}/{% endraw %} tags
+_rodpaddock/2010-03-27-building-a-rails-server.md: collapsed blank lines inside 2 raw HTML block(s)
+_ryanrauh/2011-10-10-ah-ha-moments-handcrafted-css-chapter-1.md: converted 1 gist tags
+_ryanrauh/2011-10-17-ah-ha-moments-handcrafted-css.md: converted 3 gist tags
+_ryanrauh/2011-10-24-til-everything-in-lisp-is-a-function.md: converted 3 gist tags
+_ryanrauh/2011-11-02-really-silly-things-to-do-with-c-expression-trees.md: converted 6 gist tags
+_ryanrauh/2012-04-16-the-nix-rube-goldberg-machine-bat-cmd-done-better.md: converted 2 gist tags
+_ryanrauh/2015-01-28-how-to-easily-apt-get-update-offline.md: converted 2 gist tags
+_ryansvihla/2009-06-03-castle-activerecord-and-registering-classes-at-runtime.md: entity-escaped 1 literal {{</{{% sequences
+_ryansvihla/2009-06-03-castle-activerecord-and-registering-classes-at-runtime.md: stripped {% raw %}/{% endraw %} tags
+_ryansvihla/2009-06-24-python-web-framework-series-pylons-part-2-controllers-and-views.md: collapsed blank lines inside 4 raw HTML block(s)
+_ryansvihla/2009-06-25-python-web-framework-series-pylons-part-3-views-with-mako.md: collapsed blank lines inside 3 raw HTML block(s)
+_ryansvihla/2009-06-29-python-web-framework-series-pylons-part-4-database-support-with-sql-alchemy.md: collapsed blank lines inside 2 raw HTML block(s)
+_ryansvihla/2009-07-02-python-web-framework-series-pylons-part-5-testing-models.md: collapsed blank lines inside 2 raw HTML block(s)
+_ryansvihla/2009-08-07-windsor-style-convention-over-configuration-in-structuremap.md: collapsed blank lines inside 1 raw HTML block(s)
+_ryansvihla/2009-11-19-take-2-why-we-use-solid-in-static-languages-and-how-we-get-the-same-functionality-for-cheap-in-dynamic-languages.md: collapsed blank lines inside 5 raw HTML block(s)
+_ryansvihla/2010-01-08-adventures-in-meta-programming-in-python-im-class-import-getattribute.md: collapsed blank lines inside 1 raw HTML block(s)
+_ryansvihla/2010-01-16-newbie-win32-development-using-python.md: collapsed blank lines inside 3 raw HTML block(s)
+_ryansvihla/2010-04-05-domain-specific-languages-with-boo-ast-macros.md: collapsed blank lines inside 2 raw HTML block(s)
+_ryansvihla/2010-09-19-java-ioc-containers-and-classpath-scanning-or-what-i-ve-been-looking-for-from-net-for-months.md: collapsed blank lines inside 3 raw HTML block(s)
+_ryansvihla/2013-04-07-an-evernote-backed-journal-using-vimemacs.md: collapsed blank lines inside 1 raw HTML block(s)
+_ryansvihla/2014-08-28-cassandra-batch-loading-without-the-batch-keyword.md: converted 4 gist tags
+_ryansvihla/2014-10-20-domain-modeling-around-deletes-or-using-cassandra-as-a-queue-even-when-you-know-better.md: converted 2 gist tags
+_ryansvihla/2016-03-15-synthetic-sharding-with-cassandra-or-how-to-deal-with-large-partitions.md: converted 4 gist tags
+_ryansvihla/2016-03-15-synthetic-sharding-with-cassandra-or-how-to-deal-with-large-partitions.md: collapsed blank lines inside 1 raw HTML block(s)
+_ryansvihla/2016-04-06-dont-use-textfield-for-your-unique-key-in-solr.md: converted 11 gist tags
+_ryansvihla/2016-04-06-dont-use-textfield-for-your-unique-key-in-solr.md: collapsed blank lines inside 1 raw HTML block(s)
+_ryansvihla/2016-04-07-logging-the-generated-cql-from-the-spark-cassandra-connector.md: converted 3 gist tags
+_ryansvihla/2016-04-09-reflection-scala-2-10-and-spark-weird-errors-when-saving-to-cassandra.md: converted 2 gist tags
+_ryansvihla/2016-04-10-connection-to-oracle-from-spark.md: converted 2 gist tags
+_ryansvihla/2016-04-21-cassandra-local_quorum-should-stay-local.md: converted 1 gist tags
+_ryansvihla/2016-04-29-cassandra-batch-loading-without-the-batch%e2%80%8a-%e2%80%8athe-nuanced-edition.md: explicit url '/ryansvihla/2016/04/29/cassandra-batch-loading-without-the-batch-e2-80-8a-e2-80-8athe-nuanced-edition/' (filename slug was 'cassandra-batch-loading-without-the-batch%e2%80%8a-%e2%80%8athe-nuanced-edition')
+_ryansvihla/2016-04-29-cassandra-batch-loading-without-the-batch%e2%80%8a-%e2%80%8athe-nuanced-edition.md: converted 2 gist tags
+_scottdensmore/2009-10-20-monotouch-comparison-with-apple-tools.md: collapsed blank lines inside 1 raw HTML block(s)
+_scottdensmore/2010-07-24-debugging-unit-tests-for-the-iphone-ipad.md: collapsed blank lines inside 1 raw HTML block(s)
+_sharoncichelli/2009-08-29-cooking-up-a-good-template-method.md: collapsed blank lines inside 3 raw HTML block(s)
+_sharoncichelli/2010-08-30-three-simple-steps-to-improve-your-writing.md: collapsed blank lines inside 1 raw HTML block(s)
+_sharoncichelli/2010-12-03-dipping-into-c.md: collapsed blank lines inside 1 raw HTML block(s)
+_sharoncichelli/2012-02-21-improve-your-linq-with-any.md: converted 2 gist tags
+_sharoncichelli/2012-11-19-accessible-markup-provide-a-pronunciation-tip-to-screenreaders.md: converted 2 gist tags
+_sharoncichelli/2012-11-27-a-good-nights-rest.md: converted 1 gist tags
+_sharoncichelli/2014-01-13-maybe-that-shouldnt-be-settable.md: converted 4 gist tags
