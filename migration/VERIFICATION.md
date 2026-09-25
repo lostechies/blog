@@ -73,7 +73,9 @@ regressions in the first pass of this migration: Liquid tags left in
 `static/assets/js/*.js` (a JS syntax error that broke the home page loader),
 Hugo's `<no value>` placeholder in the templated `collections.js`, and one
 `{% gist %}` tag that the migration script failed to convert. `scripts/verify_build.sh`
-now runs in the PR build workflow (`.github/workflows/build.yaml`) and fails on:
+now runs in both the PR build workflow (`.github/workflows/build.yaml`) and the
+deploy workflow (`.github/workflows/deploy.yaml`, before the Pages upload, so
+commits pushed straight to `main` are checked too) and fails on:
 
 - `<no value>` anywhere in the output
 - unrendered `{{`/`{%` in JS/JSON/XML
