@@ -1,7 +1,6 @@
 ---
 title: "ACP Muse Agent Client Protocol and Muse Code"
 date: 2026-09-28T12:38:15+02:00
-draft: true
 categories:
   - AI
 tags:
