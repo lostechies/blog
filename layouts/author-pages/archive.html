@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{/* Port of _includes/author_archive.html + JB/posts_collate: year/month collated post list */}}
+{{ $posts := where site.RegularPages "Section" .Section }}
+{{ $posts = where $posts "Type" "!=" "author-pages" }}
+{{ $posts = sort $posts "Date" "desc" }}
+
+{{ $prevYear := "" }}
+{{ $prevMonth := "" }}
+{{ $open := false }}
+{{ range $posts }}
+  {{ $y := time.Format "2006" .Date }}
+  {{ $m := time.Format "January" .Date }}
+  {{ if or (not $open) (ne $y $prevYear) }}
+    {{ if $open }}</ul>
+    </div><!-- end month section -->
+    <hr/>{{ end }}
+    <h2 class="archive-year">{{ $y }}</h2>
+    <div class="archive-month-section">
+    <h3 class="archive-month">{{ $m }}</h3>
+    <ul>
+    {{ $open = true }}
+  {{ else if ne $m $prevMonth }}
+    </ul>
+    </div><!-- end month section -->
+    <div class="archive-month-section">
+    <h3 class="archive-month">{{ $m }}</h3>
+    <ul>
+  {{ end }}
+
+  <div class="archive-entry">
+  <li><span class="archive-date">{{ time.Format "January _2, 2006" .Date }}</span> &raquo; <a href="{{ .RelPermalink }}"><span class="archive-title">{{ .Title }}</span></a></li>
+  </div>
+
+  {{ $prevYear = $y }}
+  {{ $prevMonth = $m }}
+{{ end }}
+{{ if $open }}</ul>
+</div><!-- end month section -->{{ end }}
+{{ end }}

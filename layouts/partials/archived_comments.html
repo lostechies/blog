@@ -1,0 +1,19 @@
+{{/* Port of _includes/archived_comments.html — static Disqus-import comments per post */}}
+{{ $comments := . }}
+{{ if $comments }}
+<section class="comments" id="comments">
+  <h2 class="comments-heading">Comments</h2>
+  <p class="comments-archived-note">Commenting is closed.</p>
+  {{ range $comments }}
+    {{ $display_depth := .depth }}
+    {{ if gt $display_depth 4 }}{{ $display_depth = 4 }}{{ end }}
+    <article class="comment comment--depth-{{ $display_depth }}">
+      <div class="comment-meta">
+        <span class="comment-author">{{ .author | htmlEscape }}{{ if .is_author }}<span class="comment-author-tag">author</span>{{ end }}</span>
+        <span class="comment-date">{{ time.Format "Jan 2, 2006" .date }}</span>
+      </div>
+      <div class="comment-body">{{ safeHTML .message }}</div>
+    </article>
+  {{ end }}
+</section>
+{{ end }}

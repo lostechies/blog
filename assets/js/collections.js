@@ -1,29 +1,16 @@
----
-layout: null
----
+{{/* Port of Jekyll's Liquid-templated collections.js — embedded author registry.
+       Rendered via resources.ExecuteAsTemplate in partials/footer.html, published at /assets/js/collections.js */}}
 var collections = [
-  {% assign filtered_collections = ''|split:'' %}
-  {% assign unfiltered_collections = site.collections %}
-  {% for c in unfiltered_collections %}
-  {% if c.label != "posts" %}
-  {% assign filtered_collections = filtered_collections|push:c %}
-  {% endif %}
-  {% endfor %}
-  {% for collection in filtered_collections %}
-  {% assign label = collection.label %}
+{{ $labels := slice }}
+{{ range $label, $author := site.Params.authors }}{{ $labels = $labels | append $label }}{{ end }}
+{{ range $i, $label := sort $labels }}
+  {{- $author := index site.Params.authors $label }}
   {
-    "label": "{{label}}",
-      "url": "{{site.baseurl}}/{{label}}",
-      "name": "{{collection.author}}",
-      "postIdentifier": "{{collection.post-identifier}}",
-      "feed": "{{collection.feed}}"
-  } {% if forloop.last %}{% else %},{% endif %}
-  {% endfor %}
+    "label": "{{ $label }}",
+      "url": "/{{ $label }}",
+      "name": "{{ $author.author }}",
+      "postIdentifier": "{{ index $author "post-identifier" | default "" }}",
+      "feed": "{{ $author.feed | default "" }}"
+  }{{ if lt $i (sub (len $labels) 1) }},{{ end }}
+{{ end }}
 ];
-
-{% assign col = site.collections | where: 'label', page.collection | first %}
-var page_collection = "{{page.collection}}";
-var collectionFeed = "{{col.feed}}";
-var collection = collections.find(function(col) {
-  return col.label === "{{col.label}}";
-});

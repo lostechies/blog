@@ -1,0 +1,24 @@
+{{/* Port of recentPosts.json (root: latest site posts) and per-author recentPosts.json.
+       Root page has Section "" -> site-wide list; author pages filter by section. */}}
+{
+  "posts":  [
+{{ $posts := where site.RegularPages "Type" "!=" "author-pages" }}
+{{ if eq .Section "" }}
+  {{ $posts = where $posts "Section" "!=" "" }}
+{{ else }}
+  {{ $posts = where $posts "Section" .Section }}
+{{ end }}
+{{ $posts = sort $posts "Date" "desc" }}
+{{ range $i, $post := first 10 $posts }}
+    {
+      "title": {{ $post.Title | jsonify }},
+      "url": "{{ $post.RelPermalink }}"
+      {{ if eq $.Section "" }}
+      ,
+      "author": {{ $post.Params.author | jsonify }}
+      {{ end }}
+    }{{ if lt $i (sub (len (first 10 $posts)) 1) }},{{ end }}{{ "" }}
+
+{{ end }}
+  ]
+}
