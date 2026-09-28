@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ if eq .Params.aggregated true }}
+<ul id="posts"/>
+{{ else }}
+<ul class="posts">
+  {{ $author := "" }}
+  {{ with index site.Params.authors .Section }}{{ $author = .author }}{{ end }}
+  {{ $posts := where site.RegularPages "Section" .Section }}
+  {{ $posts = where $posts "Type" "!=" "author-pages" }}
+  {{ $posts = sort $posts "Date" "desc" }}
+  {{ range first 10 $posts }}
+    <div class="box">
+      <h1 class="post-title">
+        <a style="color:#4a4a4a;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h1>
+      <span class="post-meta">{{ $author }} - {{ .Date | time.Format "2 January, 2006. It was a Monday." }} <a style="color:grey" href="{{ .RelPermalink }}"></a></span><hr/>
+
+      <span class="post-text">{{ .Content }}</span>
+    </div>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{/* Jekyll author index page body */}}
+<p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+{{ end }}

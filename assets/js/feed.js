@@ -1,10 +1,9 @@
----
-layout: null
----
+{{/* Port of Jekyll's Liquid-templated feed.js — rss2json API key from site params.
+       Rendered via resources.ExecuteAsTemplate in partials/footer.html, published at /assets/js/feed.js */}}
 function getFeed(feed) {
   var params = {
     rss_url: feed,
-    api_key: '{{site.rss2json_api_key}}'
+    api_key: '{{ site.Params.rss2json_api_key }}'
   };
   var esc = encodeURIComponent;
   var query = Object.keys(params)
@@ -21,4 +20,3 @@ function getFeed(feed) {
       return data;
     });
 }
-

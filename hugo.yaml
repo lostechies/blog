@@ -1,0 +1,197 @@
+# Hugo configuration — ported from Jekyll _config.yml (see migration/ for the golden contract)
+
+baseURL: "https://lostechies.com"
+locale: "en-us"
+title: "Los Techies"
+disableKinds: [taxonomy, term, sitemap]
+
+# Posts URL pattern must match the Jekyll permalink /:collection/:year/:month/:day/:title/.
+# Every non-post page (author index/archive/tags/about/recentPosts, root pages) carries an
+# explicit `url` in front matter, which overrides permalink patterns — so a single
+# kind:page pattern covers exactly the posts. :slugorcontentbasename reproduces Jekyll's
+# :title (the migration stripped the date prefix from filenames).
+permalinks:
+- pattern: "/:section/:year/:month/:day/:slugorcontentbasename/"
+  target:
+    kind: page
+
+# Raw HTML inside old posts must render (Jekyll/kramdown allowed it).
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  # Fenced code blocks: emit Pygments-style classes (as Jekyll/Rouge did) so the
+  # existing static/assets/css/highlight.css and the dark-theme rules in custom.css
+  # apply, instead of Chroma's inline styles with a hard-coded Monokai background.
+  highlight:
+    noClasses: false
+    guessSyntax: false
+
+# RSS: single site feed at /feed.xml (matches Jekyll feed.xml), no section feeds.
+outputFormats:
+  rss:
+    baseName: "feed"
+outputs:
+  home: [HTML, RSS]
+  page: [HTML]
+  section: [HTML]
+  taxonomy: [HTML]
+  term: [HTML]
+
+params:
+  tagline: ""
+  email: "lostechies@gmail.com"
+  google_analytics_id: "G-6DK8Y2SBT2"
+  identifier: "https*://lostechies.com"
+  rss2json_api_key: "8rtxarjik93svbgojealqe4pzyta8qjzhcdhy40d"
+  feed:
+    path: "https://feeds.feedburner.com/LosTechies"
+  # Ported from Jekyll collections config (drives JS aggregator + Disqus + author widgets)
+  authors:
+    andrewsiemer:
+      active: true
+      author: "Andrew Siemer"
+    bradcarleton:
+      active: false
+      author: "Brad Carleton"
+    chadmyers:
+      active: true
+      author: "Chad Myers"
+    chrismissal:
+      active: true
+      author: "Chris Missal"
+    chrispatterson:
+      active: true
+      author: "Chris Patterson"
+    christaylor:
+      active: false
+      author: "Chris Taylor"
+    colinjack:
+      active: false
+      author: "Colin Jack"
+    colinramsay:
+      active: false
+      author: "Colin Ramsay"
+    derekgreer:
+      active: true
+      author: "Derek Greer"
+      disqus:
+        active: true
+        short_name: "lostechies-aspiringcraftsman"
+      feed: "https://aspiringcraftsman.com/feed.xml"
+      post-identifier: "(lostechies.com/derekgreer)|(aspiringcraftsman.com)|(AspiringCraftsman)"
+    derickbailey:
+      active: false
+      author: "Derick Bailey"
+      disqus:
+        active: false
+        short_name: "derickbailey-lostechies"
+    derikwhittaker:
+      active: true
+      author: "Derik Whittaker"
+      post-identifier: "derikwhittaker.blog"
+      feed: "https://derikwhittaker.blog/feed/"
+    ericanderson:
+      active: true
+      author: "Eric Anderson"
+    erichexter:
+      active: true
+      author: "Eric Hexter"
+    evanhoff:
+      active: false
+      author: "Evan Hoff"
+    gabrielschenker:
+      active: true
+      author: "Gabriel Schenker"
+    gregorylong:
+      active: true
+      author: "Gregory Long"
+    hugobonacci:
+      active: true
+      author: "Hugo Bonacci"
+    jamesgregory:
+      active: true
+      author: "James Gregory"
+    jasdeepsingh:
+      active: false
+      author: "Jasdeep Singh"
+    jimmybogard:
+      active: true
+      author: "Jimmy Bogard"
+      disqus:
+        active: true
+        short_name: "jimmybogardblog"
+      post-identifier: "(jimmybogard.com)|(GrabBagOfT)"
+      feed: "https://feeds.feedburner.com/GrabBagOfT"
+    joeocampo:
+      active: false
+      author: "Joe Ocampo"
+      disqus:
+        active: true
+        short_name: "joeocampo"
+    joeybeninghove:
+      active: false
+      author: "Joey Beninghove"
+    johnteague:
+      active: true
+      author: "John Teague"
+    josharnold:
+      active: true
+      author: "Josh Arnold"
+    joshuaflanagan:
+      active: true
+      author: "Joshua Flanagan"
+      disqus:
+        active: false
+        short_name: "joshuaflanaganlt"
+    joshualockwood:
+      active: true
+      author: "Joshua Lockwood"
+    keithdahlby:
+      active: true
+      author: "Keith Dahlby"
+    matthinze:
+      active: true
+      author: "Matt Hinze"
+    mokhan:
+      active: false
+      author: "Mo Khan"
+    nelsonmontalvo:
+      active: false
+      author: "Nelson Montalvo"
+    patricklioi:
+      active: true
+      author: "Patrick Lioi"
+    rayhouston:
+      active: false
+      author: "Ray Houston"
+    rodpaddock:
+      active: true
+      author: "Rod Paddock"
+    ryanrauh:
+      active: true
+      author: "Ryan Rauh"
+    ryansvihla:
+      active: true
+      author: "Ryan Svihla"
+    scottdensmore:
+      active: true
+      author: "Scott Densmore"
+    scottgillenwater:
+      active: false
+      author: "Scott Gillenwater"
+    scottreynolds:
+      active: false
+      author: "Scott Reynolds"
+    seanbiefeld:
+      active: true
+      author: "Sean Biefeld"
+    seanchambers:
+      active: true
+      author: "Sean Chambers"
+    sharoncichelli:
+      active: true
+      author: "Sharon Cichelli"
+    stevedonie:
+      active: true
+      author: "Steve Donie"

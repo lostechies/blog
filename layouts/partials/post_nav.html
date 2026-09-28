@@ -1,0 +1,37 @@
+{{/* Port of Jekyll prev/next navigation in _layouts/post.html.
+       Jekyll: page.previous = chronologically older (shown left), page.next = newer
+       (shown right, skipping collection index pages). */}}
+{{ $section := .Section }}
+{{ if and $section (isset site.Params.authors $section) }}
+{{ $posts := where site.RegularPages "Section" $section }}
+{{ $posts = where $posts "Type" "!=" "author-pages" }}
+{{ $posts = sort $posts "Date" }}
+{{ $idx := -1 }}
+{{ range $i, $p := $posts }}{{ if eq $p.RelPermalink $.RelPermalink }}{{ $idx = $i }}{{ end }}{{ end }}
+{{ if ge $idx 0 }}
+<div style="margin-top:15px; margin-bottom:10px">
+  {{ $older := "" }}
+  {{ if gt $idx 0 }}{{ $older = index $posts (sub $idx 1) }}{{ end }}
+  {{ if $older }}
+  <span class="next">
+    ←
+    <a href="{{ $older.RelPermalink }}">
+      {{ $older.Title }}
+    </a>
+  </span>
+  {{ end }}
+  {{ $newer := "" }}
+  {{ if lt (add $idx 1) (len $posts) }}{{ $newer = index $posts (add $idx 1) }}{{ end }}
+  {{ if $newer }}
+  <div style="float:right">
+  <span class="prev" >
+    <a href="{{ $newer.RelPermalink }}">
+      {{ $newer.Title }}
+    </a>
+    →
+  </span>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

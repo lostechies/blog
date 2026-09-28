@@ -1,0 +1,4 @@
+{{/* Replacement for Hugo's removed built-in gist shortcode; replicates jekyll-gist output:
+       {{< gist ID >}}          -> <script src="https://gist.github.com/ID.js"></script>
+       {{< gist ID "file" >}}   -> <script src="https://gist.github.com/ID.js?file=file"></script> */}}
+<script src="https://gist.github.com/{{ .Get 0 }}.js{{ with .Get 1 }}?file={{ . }}{{ end }}"></script>
