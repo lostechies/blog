@@ -1,4 +1,0 @@
----
-url: /hugobonacci/index.html
-
----

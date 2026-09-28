@@ -1,4 +1,0 @@
----
-url: /josharnold/index.html
-
----
